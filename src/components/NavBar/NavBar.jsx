@@ -43,6 +43,9 @@ const NavBar = ({navLinks}) => {
 </nav>
     </>
   )
+
+
 }
+
 
 export default NavBar
