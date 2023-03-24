@@ -32,7 +32,7 @@
   }
 
 .hero{
-    background-image: url(C:\Users\Carlos\Desktop\ucollege\plataforma\public\assets\img\cover.jpg);
+    background-image: url(../../public/assets/img/cover.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
