@@ -4,6 +4,8 @@ import { FcHome } from "react-icons/fc";
 import { FcLike } from "react-icons/fc";
 import { FcShop } from "react-icons/fc";
 import { FcPlanner } from "react-icons/fc";
+import { FcCurrencyExchange } from "react-icons/fc";
+
 
 
 import Home from './pages/Home';
@@ -11,6 +13,7 @@ import About from './pages/About';
 import Store from './pages/Store';
 import { Route, Routes } from 'react-router-dom';
 import Horario from './pages/Horario';
+import Pagos from './pages/Pagos';
 
 const navLinks=[
   {
@@ -35,7 +38,13 @@ const navLinks=[
       path:"/Store",
       icon:<FcShop/>
 
-  }
+  },
+  {
+    title:"Pagos" ,
+    path:"/Pagos",
+    icon:<FcCurrencyExchange/>
+
+}
 
 
 ]
@@ -49,6 +58,8 @@ function App() {
       <Route path="/About" element={<About/>}></Route>
       <Route path="/Horario" element={<Horario/>}></Route>
       <Route path="/Store" element={<Store/>}></Route>
+      <Route path="/Pagos" element={<Pagos/>}></Route>
+
      </Routes>
      
      
