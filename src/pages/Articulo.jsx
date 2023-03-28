@@ -1,6 +1,7 @@
 import React from 'react'
-import { FcCurrencyExchange } from "react-icons/fc";
-const Articulo = ({thumbnail, title, dateAdded, channel, enlaces}) => {
+import { FcAssistant }  from "react-icons/fc";
+
+const Articulo = ({thumbnail, title, subtitle,dateAdded,description, channel, enlaces}) => {
 
   // Estilos que reciben props
   const styles = {
@@ -23,12 +24,11 @@ const Articulo = ({thumbnail, title, dateAdded, channel, enlaces}) => {
             <div class="container">
                 <div class="row">
                     <div class="col-md-10 offset-md-1">
-                        <h6>Clases de inglés según tus necesidades</h6>
+                        <h6>{subtitle}</h6>
                         <h1>{title}</h1>
-
+                         <p>{description}</p>
                         <div class="feature d-flex mt-5">
                             <div class="icon-sm me-4">
-                                <FcCurrencyExchange></FcCurrencyExchange>
                             </div>
                             <div>
                                 <h5> Clases 100% Online</h5>
@@ -37,7 +37,6 @@ const Articulo = ({thumbnail, title, dateAdded, channel, enlaces}) => {
                         </div>
                         <div class="feature d-flex">
                             <div class="icon-sm me-4">
-                            <FcCurrencyExchange></FcCurrencyExchange>
                             </div>
                             <div>
                                 <h5> A tu tiempo y a tu ritmo</h5>
@@ -48,12 +47,12 @@ const Articulo = ({thumbnail, title, dateAdded, channel, enlaces}) => {
                         </div>
                         <div class="feature d-flex">
                             <div class="icon-sm me-4">
-                            <FcCurrencyExchange></FcCurrencyExchange>
+                            <FcAssistant></FcAssistant>
                             </div>
                             <div>
-                            <h5> Aprende con personas expertas</h5>
+                            <h5>Enlaces de Speaking Practice</h5>
                                 {enlaces.map((link, index) => (
-                                  <p key={index}>{link}</p>
+                                 <a href={link} target='_blank'> <p key={index}>Simulación {index +1}</p></a>
                                 ))}
                             </div>
                         </div>

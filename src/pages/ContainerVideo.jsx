@@ -13,6 +13,7 @@ const ContainerVideo = () => {
             dateAdded={item.dateAdded}
             channel={item.channel}
             description={item.description}
+            subtitle={item.subtitle}
             enlaces={item.enlaces}>
 
 
