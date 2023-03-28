@@ -1,7 +1,7 @@
 import React from 'react'
-import { FcAssistant }  from "react-icons/fc";
+import { FcAssistant } from "react-icons/fc";
 
-const Articulo = ({thumbnail, title, subtitle,dateAdded,description, channel, enlaces}) => {
+const Articulo = ({thumbnail, title, subtitle, dateAdded, description, channel, enlaces}) => {
 
   // Estilos que reciben props
   const styles = {
@@ -9,13 +9,22 @@ const Articulo = ({thumbnail, title, subtitle,dateAdded,description, channel, en
       backgroundImage: `url(${thumbnail})`,
       backgrounSize: 'cover',
       backgroundRepeat: 'no-repeat',
-      margingTop:'70px',
+      margingTop: '70px',
       minHeight: '100px',
     },
     h1: {
       color: channel === 'English' ? 'blue' : 'black', // Ejemplo de uso de props en los estilos
     },
   };
+  
+  const renderLinkText = (index) => {
+    if (index === enlaces.length - 1) {
+      return 'Archivo de Clase';
+    } else {
+      return `Simulación ${index + 1}`;
+    }
+  };
+
   return (
     <>
       <section class="row w-100 py-0 bg-light mt-5">
@@ -50,21 +59,23 @@ const Articulo = ({thumbnail, title, subtitle,dateAdded,description, channel, en
                             <FcAssistant></FcAssistant>
                             </div>
                             <div>
-                            <h5>Enlaces de Speaking Practice</h5>
+                              <h5>Enlaces de Speaking Practice</h5>
                                 {enlaces.map((link, index) => (
-                                 <a href={link} target='_blank'> <p key={index}>Simulación {index +1}</p></a>
+                                  <a href={link} target='_blank'>
+                                    <p key={index}>
+                                      {renderLinkText(index)}
+                                    </p>
+                                  </a>
                                 ))}
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
         </div>
-    </section>
-
+      </section>
     </>
-  )
-}
+  );
+};
 
-export default Articulo
+export default Articulo;
