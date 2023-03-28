@@ -1,17 +1,54 @@
-import React from 'react'
+import React from 'react';
+import "../../css/styles.css";
 
-const SideBar = () => {
+const Sidebar = () => {
+ 
   return (
-    <div class="offcanvas offcanvas-start" tabindex="1" id="offcanvas" aria-labelledby="offcanvasLabel" data-bs-backdrop="false" data-bs-keyboard="false" style={{ position: 'fixed', top: '56px', bottom: '0', left: '0', zIndex: 1050 }}>
+   <>
+    <nav class="navbar navbar-dark bg-primary mt-2 mb-5">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Road to Fluency - Ruta de Aprendizaje</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-start text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
       <div class="offcanvas-header">
-        <h5 class="offcanvas-title" id="offcanvasLabel">Offcanvas</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Dark offcanvas</h5>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
       </div>
       <div class="offcanvas-body">
-        Content for the offcanvas goes here. You can place just about any Bootstrap component or custom elements here.
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Link</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider"></hr>
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex mt-3" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"></input>
+          <button class="btn btn-success" type="submit">Search</button>
+        </form>
       </div>
     </div>
-  )
-}
+  </div>
+</nav>
+   </>
 
-export default SideBar
+  );
+};
+
+export default Sidebar;
