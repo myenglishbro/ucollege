@@ -9,8 +9,8 @@ const Articulo = ({thumbnail, title, subtitle, dateAdded, description, channel, 
       backgroundImage: `url(${thumbnail})`,
       backgrounSize: 'cover',
       backgroundRepeat: 'no-repeat',
-      margingTop: '70px',
-      minHeight: '100px',
+      margingTop: '30px',
+      minHeight: '80px',
     },
     h1: {
       color: channel === 'English' ? 'blue' : 'black', // Ejemplo de uso de props en los estilos
@@ -27,7 +27,7 @@ const Articulo = ({thumbnail, title, subtitle, dateAdded, description, channel, 
 
   return (
     <>
-      <section class="row w-100 py-0 bg-light mt-5">
+      <section class="row w-80 py-0 bg-light mt-0">
         <div class="col-lg-6 d-none d-sm-block" style={styles.colImg} ></div>
         <div class="col-lg-6 py-5">
             <div class="container">
@@ -36,15 +36,15 @@ const Articulo = ({thumbnail, title, subtitle, dateAdded, description, channel, 
                         <h6>{subtitle}</h6>
                         <h1>{title}</h1>
                          <p>{description}</p>
-                        <div class="feature d-flex mt-5">
+                        {/* <div class="feature d-flex mt-5">
                             <div class="icon-sm me-4">
                             </div>
                             <div>
                                 <h5> Clases 100% Online</h5>
                                 <p> Clases 100% virtuales y en vivo desde tu celular, tablet o computadora. </p>
                             </div>
-                        </div>
-                        <div class="feature d-flex">
+                        </div> */}
+                        {/* <div class="feature d-flex">
                             <div class="icon-sm me-4">
                             </div>
                             <div>
@@ -53,13 +53,13 @@ const Articulo = ({thumbnail, title, subtitle, dateAdded, description, channel, 
                                     Puedes
                                     repetir los cursos las veces que necesites. </p>
                             </div>
-                        </div>
+                        </div> */}
                         <div class="feature d-flex">
                             <div class="icon-sm me-4">
                             <FcAssistant></FcAssistant>
                             </div>
                             <div>
-                              <h5>Enlaces de Speaking Practice</h5>
+                              <h5>Enlaces de Recursos:</h5>
                                 {enlaces.map((link, index) => (
                                   <a href={link} target='_blank'>
                                     <p key={index}>
