@@ -156,7 +156,7 @@ const Horario = () => {
             <td class="table-warning">🤩 disponible</td>
             <td class="table-success text-center">MAFER </td>
             <td class="table-success text-center">MAFER </td>
-            <td class="table-success text-center">MAFER </td>
+            <td class="table-warning">🤩 disponible</td>
             <td class="table-success text-center">MAFER </td>
 
              
@@ -189,7 +189,7 @@ const Horario = () => {
             <td class="table-primary">02/04 -AWAIT</td>
             <td class="table-primary">02/04 -AWAIT</td>
             <td class="table-primary">02/04 -AWAIT</td>
-            
+
 
 
           </tr>
