@@ -22,8 +22,7 @@ export const data =[
        dateAdded:"wswqe",
        channel:"sdasd",
        description:"📝 Want to impress your friends at the next dinner party? 🤔 Or perhaps order food confidently while traveling abroad? 🌎 Learning food vocabulary in English is the key! 🗝️👨‍🍳 In this post, we will cover common food items with fun and easy-to-remember emoji illustrations! 🎨 From fruits and vegetables 🍎🍆 to fast food favorites 🍔🍟 and delicious tacos 🌮, you will have a blast learning the names of your favorite foods in English! 🤩 🌟 So put on your chef's hat and join us in mastering English food vocabulary! 🍴",
-       enlaces:['https://www.youtube.com/watch?v=qXP260r78EI',
-       'https://www.youtube.com/watch?v=3DJdMAeiwow,http://lyksoomu.com/16Gcu','https://docs.google.com/presentation/d/1_UZoRpz-GdEukijojjUXkVv9v3pP1puw/edit?usp=share_link&ouid=114172849724389982127&rtpof=true&sd=true']
+       enlaces:['https://docs.google.com/presentation/d/1_UZoRpz-GdEukijojjUXkVv9v3pP1puw/edit?usp=share_link&ouid=114172849724389982127&rtpof=true&sd=true']
 
 
     }
