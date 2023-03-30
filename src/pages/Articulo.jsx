@@ -27,7 +27,7 @@ const Articulo = ({thumbnail, title, subtitle, dateAdded, description, channel, 
 
   return (
     <>
-      <section class="row w-80 py-0 bg-light mt-0 border">
+      <section class="row w-80 py-0 bg-light mt-0">
         <div class="col-lg-6 d-none d-sm-block" style={styles.colImg} ></div>
         <div class="col-lg-6 py-5">
             <div class="container">

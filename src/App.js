@@ -15,6 +15,7 @@ import About from "./pages/About";
 import Store from "./pages/Store";
 import { Route, Routes } from "react-router-dom";
 import Horario from "./pages/Horario";
+import RoadMap from "./pages/RoadMap";
 
 const navLinks = [
   {
@@ -42,6 +43,12 @@ const navLinks = [
     path: "/Clases",
     icon: <FcRules />,
   },
+  {
+    title: "RoadMap",
+    path: "/RoadMap",
+    icon: <FcRules />,
+
+  }
 ];
 function App() {
   return (
@@ -54,6 +61,7 @@ function App() {
           <Route path="/Horario" element={<Horario />}></Route>
           <Route path="/Store" element={<Store />}></Route>
           <Route path="/Clases" element={<Clases />}></Route>
+          <Route path="/RoadMap" element={<RoadMap />}></Route>
         </Routes>
       </div>
     </>
