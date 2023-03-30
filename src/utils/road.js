@@ -1,9 +1,9 @@
-export const data =[
+export const road =[
     {
         id:1,
        thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
-       title:"Ready, Set, Shop! 🛒🛍️",
-       subtitle:"A Beginner's Guide to Navigating the Supermarket Aisles",
+       title:"Hola",
+       subtitle:"asdasd",
 
        dateAdded:"wswqe",
        channel:"sdasd",

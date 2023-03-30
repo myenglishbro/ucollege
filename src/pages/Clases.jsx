@@ -2,7 +2,7 @@ import React from 'react'
 // import Sidebar from '../components/NavBar/SideBar'
 import ContainerVideo from './ContainerVideo'
 
-const Pagos = () => {
+const Clases = () => {
   return (
     <>
     <ContainerVideo></ContainerVideo>
@@ -11,4 +11,4 @@ const Pagos = () => {
   )
 }
 
-export default Pagos
+export default Clases
