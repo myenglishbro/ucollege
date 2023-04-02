@@ -1,9 +1,11 @@
-import React from 'react'
-import './../css/map.css'
+import React from 'react';
+import './../css/map.css';
 
 const Hito = (props) => {
   return (
     <div className="main">
+      <h3 className="heading">Road to English Pokemon Master</h3>
+
       <h3 className="heading">{props.title}</h3>
 
       <div className="container">
@@ -12,9 +14,14 @@ const Hito = (props) => {
             <li key={index}>
               <h3 className="title">{elemento.title}</h3>
               <p>{elemento.description}</p>
-              <a href={elemento.enlace}>Read More </a>
+              <div>
+                {elemento.enlaces.map((enlace, i) => (
+                     <a href={enlace.url} target="_blank"><p key={i}>{enlace.titulo}</p></a>
+               
+                ))}
+              </div>
               <span className="circle"></span>
-              <span className="date">{elemento.fecha}</span>
+              <span className="date">{elemento.dateAdded}</span>
             </li>
           ))}
         </ul>
@@ -23,4 +30,4 @@ const Hito = (props) => {
   )
 }
 
-export default Hito
+export default Hito;
