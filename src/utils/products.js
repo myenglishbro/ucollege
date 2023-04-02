@@ -26,8 +26,8 @@ export const products =[
     },
     {
         id:3,
-       thumbnail:"https://i.ibb.co/DVMvPj0/Curso-de-Ingl-s-Metodolog-a-Vivencial.png",
-       title:"Inglés para Developers y Programadores",
+        thumbnail:"https://preply.com/wp-content/uploads/2014/10/English-for-Programmers-1-e1663161533611.jpg",
+        title:"Inglés para Developers y Programadores",
        subtitle:"Master the English Skills You Need for Success in Your Career and Studies",
 
        dateAdded:"wswqe",
@@ -39,7 +39,7 @@ export const products =[
     },
     {
         id:4,
-       thumbnail:"https://i.ibb.co/DVMvPj0/Curso-de-Ingl-s-Metodolog-a-Vivencial.png",
+       thumbnail:"https://preply.com/wp-content/uploads/2014/10/English-for-Programmers-1-e1663161533611.jpg",
        title:"CURSO COMPLETO BASICO - PRE INTERMEDIO",
        subtitle:"Master the English Skills You Need for Success in Your Career and Studies",
 
