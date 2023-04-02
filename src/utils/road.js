@@ -24,16 +24,22 @@ export const road =[
     {
         id:2,
        thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
-       title:"Nivel Experienced Trainer",
+       title:"Desarrollando habilidades lingüísticas fundamentales",
        subtitle:"asdasd",
 
        dateAdded:"Basic 01 ",
        channel:"sdasd",
        description:"Desarrollando habilidades lingüísticas fundamentales",
        enlaces: [
-        { titulo: 'Curso básico de inglés', url: 'https://www.example.com' },
-        { titulo: 'Vocabulario en inglés', url: 'https://www.example2.com' },
-        { titulo: 'Ejercicios de gramática', url: 'https://www.example3.com' }
+        { titulo: '🎯Present Simple spelling rules He/She/It', url: 'https://wordwall.net/play/768/935/3716' },
+        { titulo: '🎯Present Simple spelling rules He/She/It II', url: 'https://wordwall.net/play/28761/823/542' },
+        { titulo: '🎯Present Simple He/She/It tenses I', url: 'https://wordwall.net/play/20080/716/98496' },
+        { titulo: '🎯Present Simple spelling rules All Pronouns', url: 'https://wordwall.net/play/16642/104/54012' },
+        { titulo: '🎯Choose the Correct Sentence in Present Simple', url: 'https://wordwall.net/play/2384/274/554802' },
+        { titulo: '🎯Negative in Present Simple', url: 'https://wordwall.net/play/23379/700/79494' },
+        { titulo: '🎯Questions Present Simple He/She/It', url: 'https://wordwall.net/play/36592/002/3966' },
+        { titulo: '🎯Short Answers in Present Simple', url: 'https://wordwall.net/play/15449/538/61279' },
+        { titulo: '🎯Present Simple Mixed Tenses I', url: 'https://wordwall.net/play/51962/689/8460' },
      ]
 
 
@@ -42,16 +48,18 @@ export const road =[
     {
         id:3,
        thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
-       title:"Nivel Experienced Trainer",
+       title:"Mejorando la comprensión y producción oral y escrita",
        subtitle:"asdasd",
 
        dateAdded:"Basic 02",
        channel:"sdasd",
        description:"Desarrollando habilidades lingüísticas fundamentales",
        enlaces: [
-        { titulo: 'Curso básico de inglés', url: 'https://www.example.com' },
-        { titulo: 'Vocabulario en inglés', url: 'https://www.example2.com' },
-        { titulo: 'Ejercicios de gramática', url: 'https://www.example3.com' }
+        { titulo: '🎯Present Progressive ING RULES', url: 'https://wordwall.net/play/27696/610/498' },
+        { titulo: '🎯Present Simple vs Present Progressive', url: 'https://wordwall.net/play/51862/890/1585' },
+        { titulo: '🎯Present Simple vs Present Progressive II', url: 'https://wordwall.net/play/27470/421/60049' },
+        { titulo: '🎯Vocabulario en inglés', url: 'https://www.example2.com' },
+        { titulo: '🎯Ejercicios de gramática', url: 'https://www.example3.com' }
      ]
 
 
@@ -63,108 +71,6 @@ export const road =[
        subtitle:"asdasd",
 
        dateAdded:"Basic 03",
-       channel:"sdasd",
-       description:"Desarrollando habilidades lingüísticas fundamentales",
-       enlaces: [
-        { titulo: 'Curso básico de inglés', url: 'https://www.example.com' },
-        { titulo: 'Vocabulario en inglés', url: 'https://www.example2.com' },
-        { titulo: 'Ejercicios de gramática', url: 'https://www.example3.com' }
-     ]
-
-
-    },
-    {
-        id:5,
-       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
-       title:"Nivel Experienced Trainer",
-       subtitle:"asdasd",
-
-       dateAdded:"Basic 04 ",
-       channel:"sdasd",
-       description:"Desarrollando habilidades lingüísticas fundamentales",
-       enlaces: [
-        { titulo: 'Curso básico de inglés', url: 'https://www.example.com' },
-        { titulo: 'Vocabulario en inglés', url: 'https://www.example2.com' },
-        { titulo: 'Ejercicios de gramática', url: 'https://www.example3.com' }
-     ]
-
-
-    },
-    {
-        id:6,
-       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
-       title:"Nivel Experienced Trainer",
-       subtitle:"asdasd",
-
-       dateAdded:"Basic 05 ",
-       channel:"sdasd",
-       description:"Desarrollando habilidades lingüísticas fundamentales",
-       enlaces: [
-        { titulo: 'Curso básico de inglés', url: 'https://www.example.com' },
-        { titulo: 'Vocabulario en inglés', url: 'https://www.example2.com' },
-        { titulo: 'Ejercicios de gramática', url: 'https://www.example3.com' }
-     ]
-
-
-    },
-    {
-        id:7,
-       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
-       title:"Nivel Experienced Trainer",
-       subtitle:"asdasd",
-
-       dateAdded:"(Elemental) A1 ",
-       channel:"sdasd",
-       description:"Desarrollando habilidades lingüísticas fundamentales",
-       enlaces: [
-        { titulo: 'Curso básico de inglés', url: 'https://www.example.com' },
-        { titulo: 'Vocabulario en inglés', url: 'https://www.example2.com' },
-        { titulo: 'Ejercicios de gramática', url: 'https://www.example3.com' }
-     ]
-
-
-    },
-    {
-        id:8,
-       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
-       title:"Nivel Experienced Trainer",
-       subtitle:"asdasd",
-
-       dateAdded:"(Elemental) A1 ",
-       channel:"sdasd",
-       description:"Desarrollando habilidades lingüísticas fundamentales",
-       enlaces: [
-        { titulo: 'Curso básico de inglés', url: 'https://www.example.com' },
-        { titulo: 'Vocabulario en inglés', url: 'https://www.example2.com' },
-        { titulo: 'Ejercicios de gramática', url: 'https://www.example3.com' }
-     ]
-
-
-    },
-    {
-        id:9,
-       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
-       title:"Nivel Experienced Trainer",
-       subtitle:"asdasd",
-
-       dateAdded:"(Elemental) A1 ",
-       channel:"sdasd",
-       description:"Desarrollando habilidades lingüísticas fundamentales",
-       enlaces: [
-        { titulo: 'Curso básico de inglés', url: 'https://www.example.com' },
-        { titulo: 'Vocabulario en inglés', url: 'https://www.example2.com' },
-        { titulo: 'Ejercicios de gramática', url: 'https://www.example3.com' }
-     ]
-
-
-    },
-    {
-        id:10,
-       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
-       title:"Nivel Experienced Trainer",
-       subtitle:"asdasd",
-
-       dateAdded:"(Elemental) A1 ",
        channel:"sdasd",
        description:"Desarrollando habilidades lingüísticas fundamentales",
        enlaces: [

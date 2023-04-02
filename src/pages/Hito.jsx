@@ -4,10 +4,8 @@ import './../css/map.css';
 const Hito = (props) => {
   return (
     <div className="main">
-      <h3 className="heading">Road to English Pokemon Master</h3>
-
+      <h4 className="heading">Road to Fluency!</h4>
       <h3 className="heading">{props.title}</h3>
-
       <div className="container">
         <ul>
           {props.road.map((elemento, index) => (

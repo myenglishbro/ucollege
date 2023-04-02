@@ -1,10 +1,10 @@
 import React from 'react'
+import ContainerProducts from './ContainerProducts'
 
 const Store = () => {
+  
   return (
-    <div>
-      store
-    </div>
+    <ContainerProducts></ContainerProducts>
   )
 }
 

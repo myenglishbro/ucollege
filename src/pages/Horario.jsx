@@ -167,8 +167,8 @@ const Horario = () => {
             <td class="table-success text-center">CÉSAR</td>
             <td class="table-warning ">🤩 disponible</td>
             <td class="table-success text-center">CÉSAR </td>
-            <td class="table-warning">🤩 disponible</td>
-            <td class="table-success text-center">CÉSAR</td>
+            <td class="table-success text-center">MAFER</td>  
+                      <td class="table-success text-center">CÉSAR</td>
 
 
           </tr>
