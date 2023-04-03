@@ -174,11 +174,11 @@ const Horario = () => {
           </tr>
           <tr class="table-success">
             <td class="table-light">09:00 pm - 10:00pm </td>
-            <td class="table-primary">02/04 -AWAIT</td>
-            <td class="table-primary">02/04 -AWAIT</td>
-            <td class="table-primary">02/04 -AWAIT</td>
-            <td class="table-primary">02/04 -AWAIT</td>
-            <td class="table-primary">02/04 -AWAIT</td>
+            <td class="table-success text-center">INTERMEDIATE</td>
+            <td class="table-success text-center">INTERMEDIATE</td>
+            <td class="table-success text-center">INTERMEDIATE</td>
+            <td class="table-success text-center">INTERMEDIATE</td>
+            <td class="table-success text-center">INTERMEDIATE</td>
 
 
           </tr>
