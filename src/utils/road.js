@@ -40,7 +40,9 @@ export const road =[
         { titulo: '🎯Questions Present Simple He/She/It', url: 'https://wordwall.net/play/36592/002/3966' },
         { titulo: '🎯Short Answers in Present Simple', url: 'https://wordwall.net/play/15449/538/61279' },
         { titulo: '🎯Present Simple Mixed Tenses I', url: 'https://wordwall.net/play/51962/689/8460' },
-        { titulo: '📝 Reading Quiz 1', url: 'https://forms.gle/BGfegqPFjq8qR4cD9' }
+        { titulo: '📝 Reading Quiz 1', url: 'https://forms.gle/BGfegqPFjq8qR4cD9' },
+        { titulo: '🎧 Listening Quiz 1', url: 'https://forms.gle/1JcW99hj2NTvupm5A' }
+
      ]
 
 
@@ -67,6 +69,58 @@ export const road =[
     },
     {
         id:4,
+       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
+       title:"Nivel Experienced Trainer",
+       subtitle:"asdasd",
+
+       dateAdded:"Basic 03",
+       channel:"sdasd",
+       description:"Desarrollando habilidades lingüísticas fundamentales",
+       enlaces: [
+        { titulo: '🗣️Questions-Situations 1', url: 'https://youtu.be/W_NAHM1aQ3c' },
+        { titulo: '🗣️Simulacion Visa 1', url: 'https://youtu.be/rMfG3rYSlh0' },
+        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
+     ]
+
+
+    },
+    {
+        id:5,
+       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
+       title:"Nivel Experienced Trainer",
+       subtitle:"asdasd",
+
+       dateAdded:"Basic 04",
+       channel:"sdasd",
+       description:"Desarrollando habilidades lingüísticas fundamentales",
+       enlaces: [
+        { titulo: '🗣️Questions-Situations 1', url: 'https://youtu.be/W_NAHM1aQ3c' },
+        { titulo: '🗣️Simulacion Visa 1', url: 'https://youtu.be/rMfG3rYSlh0' },
+        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
+     ]
+
+
+    }
+    ,
+    {
+        id:6,
+       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
+       title:"Nivel Experienced Trainer",
+       subtitle:"asdasd",
+
+       dateAdded:"Basic 05",
+       channel:"sdasd",
+       description:"Desarrollando habilidades lingüísticas fundamentales",
+       enlaces: [
+        { titulo: '🗣️Questions-Situations 1', url: 'https://youtu.be/W_NAHM1aQ3c' },
+        { titulo: '🗣️Simulacion Visa 1', url: 'https://youtu.be/rMfG3rYSlh0' },
+        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
+     ]
+
+
+    },
+    {
+        id:7,
        thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
        title:"Nivel Experienced Trainer",
        subtitle:"asdasd",
