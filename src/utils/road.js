@@ -77,9 +77,13 @@ export const road =[
        channel:"sdasd",
        description:"Desarrollando habilidades lingüísticas fundamentales",
        enlaces: [
-        { titulo: '🗣️Questions-Situations 1', url: 'https://youtu.be/W_NAHM1aQ3c' },
-        { titulo: '🗣️Simulacion Visa 1', url: 'https://youtu.be/rMfG3rYSlh0' },
-        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
+        { titulo: '🎯Choose was or were', url: 'https://wordwall.net/play/29622/041/22470' },
+        { titulo: '🎯Past Simple: Was/Were - Famous people', url: 'https://wordwall.net/play/35556/282/228' },
+        { titulo: '🎯Simple Past of Regular Verbs - Spelling', url: 'https://wordwall.net/play/15209/196/82941' },
+        { titulo: '🎯Simple Past of Irregular Verbs', url: 'https://wordwall.net/play/15208/131/77707' },
+        { titulo: '🎯Choose the correct Irregular Verbs', url: 'https://wordwall.net/play/23988/614/920' },
+        { titulo: '🎯Present Simple or Past Simple', url: 'https://wordwall.net/play/9677/319/360548' }
+
      ]
 
 

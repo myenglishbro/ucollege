@@ -17,6 +17,7 @@ import Horario from "./pages/Horario";
 import RoadMap from "./pages/RoadMap";
 import PhrasesAtWork from "./pages/PhrasesAtWork";
 import PhrasesNative from "./pages/PhrasesNative";
+import ErroresB2 from "./pages/ErroresB2";
 
 const navLinks = [
   {
@@ -65,6 +66,8 @@ function App() {
           <Route path="/RoadMap" element={<RoadMap />}></Route>
           <Route path="/PhrasesAtWork" element={<PhrasesAtWork />}></Route>
           <Route path="/PhrasesNative" element={<PhrasesNative />}></Route>
+          <Route path="/ErroresB2" element={<ErroresB2 />}></Route>
+
 
 
         </Routes>
