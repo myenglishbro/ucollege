@@ -4,7 +4,6 @@ import { FcHome } from "react-icons/fc";
 import { FcLike } from "react-icons/fc";
 import { FcShop } from "react-icons/fc";
 import { FcPlanner } from "react-icons/fc";
-import { FcCurrencyExchange } from "react-icons/fc";
 import { FcRules } from "react-icons/fc";
 
 
@@ -16,6 +15,7 @@ import Store from "./pages/Store";
 import { Route, Routes } from "react-router-dom";
 import Horario from "./pages/Horario";
 import RoadMap from "./pages/RoadMap";
+import PhrasesAtWork from "./pages/PhrasesAtWork";
 
 const navLinks = [
   {
@@ -62,6 +62,8 @@ function App() {
           <Route path="/Store" element={<Store />}></Route>
           <Route path="/Clases" element={<Clases />}></Route>
           <Route path="/RoadMap" element={<RoadMap />}></Route>
+          <Route path="/PhrasesAtWork" element={<PhrasesAtWork />}></Route>
+
         </Routes>
       </div>
     </>

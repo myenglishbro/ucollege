@@ -1,0 +1,16 @@
+.titulos-post{
+    color: #007aff;
+    font-size: 22px;
+}
+
+.titulos-post-sec{
+    color: #F85050;
+    font-size: 22px;
+}
+.examples{
+    background-color: #F0E7FA;
+}
+
+.listas{
+    list-style-type: none;
+}
