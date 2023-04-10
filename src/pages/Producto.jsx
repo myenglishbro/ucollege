@@ -12,7 +12,7 @@ const Producto = (props) => {
         </div>
   ));
 
-  return <div className="productos d-flex flex-wrap mx-5 gap-3 justify-content-center  mt-5">{elementos}</div>;
+  return <div className="productos d-flex flex-wrap mx-5 gap-2 justify-content-center  mt-5">{elementos}</div>;
 };
 
 export default Producto;

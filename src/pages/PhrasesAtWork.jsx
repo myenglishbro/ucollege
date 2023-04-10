@@ -143,38 +143,109 @@ const PhrasesAtWork = () => {
           <p>✔️👍🏼Could you please step outside for a moment?</p>
           </div>
         </article>
+        <article>
+          <span className='titulos-post'>Frases para mostrar desacuerdo</span>
+          <p>Si crees que alguien ha metido la pata, para no sonar demasiado directo o contundente, un truco es usar palabras más suaves como: quite, slightly, a bit, a little. Otro truco es hablar en 3a persona.</p>
+          <span className='titulos-post-sec'>DON'T SAY</span>
+          <ul className='listas'>
+            <li>10,000 pounds for office supplies and decorations? That wasn’t the idea I had.</li>
+            <li>I don’t see why not, it can only cheer people up!</li>
+            <li>I’m worried that that’s too much money to invest. Also, I think you’ve made a mistake. Our total yearly budget for office supplies should not exceed 30 pounds per employee.</li>
+          </ul>
+          <span className='titulos-post'>SAY THIS</span>
+          <ul className='listas'>
+            <li>10,000 pounds for office supplies and decorations? That’s not quite what I had in mind.</li>
+            <li>I don’t see why not, it can only cheer people up!</li>
+            <li>I’m slightly concerned about the idea of spending so much money. Also, it looks like there might be a little bit of a mistake here. Our total yearly budget for office supplies shouldn’t exceed 30 pounds per employee.</li>
+          </ul>
+          <div className='examples'>
+          <p>❌👎🏼That wasn’t the idea I had.</p>
+          <p>✔️👍🏼That’s not quite what I had in mind.</p>
+          <p>❌👎🏼I’m worried that’s too much money to invest.</p>
+          <p>✔️👍🏼I’m slightly concerned about the idea of spending so much money.</p>
+          <p>❌👎🏼I think you’ve made a mistake here.</p>
+          <p>✔️👍🏼It looks like there is a little bit of a mistake here.</p>
+          </div>
+        </article>
+        <article>
+          <span className='titulos-post'>Frases para disculparse por un retraso</span>
+          <p>Imagina esta situación. Te han encargado un proyecto y se te ha pasado la fecha límite de entrega. Cambia los términos negativos por positivos.</p>
+          <span className='titulos-post-sec'>DON'T SAY</span>
+          <ul className='listas'>
+            <li>Sorry, I know I’m late. Here are all the 2020 invoices from our suppliers in alphabetical order.</li>
+          </ul>
+          <span className='titulos-post'>SAY THIS</span>
+          <ul className='listas'>
+            <li>Thank you so much for your patience. Here are all the 2020 invoices from our suppliers in alphabetical order.</li>
+          </ul>
+          <div className='examples'>
+          <p>❌👎🏼Sorry, I know I’m late.</p>
+          <p>✔️👍🏼Thank you so much for your patience.</p>
+          </div>
+        </article>
+        <article>
+          <span className='titulos-post'>Cómo deletrear al teléfono en inglés</span>
+          <p>Si tu trabajo implica hablar por teléfono y quieres evitar sonar poco profesional, debes conocer el NATO phonetic alphabet. En inglés, ¡es absolutamente necesario! No querrás hacer el ridículo como yo lo hice hablando por teléfono en inglés. Este video es de gran ayuda para aquellos que utilizan el inglés en el teléfono.</p>
+          <span className='titulos-post-sec'>DON'T SAY</span>
+          <ul className='listas'>
+            <li>Yes, the name of our office manager is PACO. That’s P for potato, A for afternoon, C for chicken, O as in ostrich…</li>
+            <li>I beg your pardon…is that PATO?</li>
+            <li>No, it’s PACO, with a C as in cabbage.</li>
+            <li>Alright I see…</li>
+          </ul>
+          <span className='titulos-post'>SAY THIS</span>
+          <ul className='listas'>
+            <li>Yes, the name of our office manager is PACO. That’s P papa, A for alpha, C for Charlie, O for Oscar…</li>
+            <li>That’s lovely. I’ll give Paco a call a bit later.</li>
+          </ul>
+          <div className='examples'>
+            <p>❌👎🏼A for apple, B for banana, C for cabbage, D for donut…</p>
+            <p>✔️👍🏼A for alpha, B for bravo, C for Charlie, D for Delta…</p>
+          </div> 
+       </article>
+       <article>
+  <span className='titulos-post'>Frases para disculparte ante un error o malentendido</span>
+  <p>Si trabajas de cara al público en inglés, antes o después te tocará enfrentarte a un cliente enfadado o incluso enfurecido. Don’t panic! Recuerda que en este caso lo último que quieres dar a entender que el cliente ha tenido nada que ver con el error.</p>
+  <p>Es mucho mejor darle a entender que has malinterpretado la información y eso te ha llevado a cometer el error. ¿Cómo lo harías en inglés?</p>
+  <span className='titulos-post-sec'>DON'T SAY</span>
+  <ul className='listas'>
+    <li>Why on earth did you cancel my credit card? I assumed that you wanted to cancel your contract with us when you said you were going to find better bank.</li>
+  </ul>
+  <span className='titulos-post'>SAY THIS</span>
+  <ul className='listas'>
+    <li>Why on earth did you cancel my credit card? I’m terribly sorry madam. My understanding was that you needed to close your account in order to open another one.</li>
+  </ul>
+  <div className='examples'>
+    <p>❌👎🏼 I assumed that…. </p>
+    <p>✔️👍🏼 My understanding was that…</p>
+  </div>
+</article>
+<p>No olvides descargar nuestra funsheet de regalo en PDF que incluye ejercicios con las nuevas frases en inglés para el trabajo que hemos aprendido en esta clase.
+
+Thank you so much for watching and we hope to see you in the next lesson! Take care!</p>
+<div  className='box'>
+<h4>📝 Descarga tu English funsheet</h4>
+    <a href='https://drive.google.com/file/d/1IITqDTn8Xg4eycaTsGboFu5Vp7HlVYmZ/view?usp=share_link'> <p>Descargar </p></a>
+   
+  </div>
         </div>
         <div className='col-lg-2 '>
-        <img
-            src="https://imgbb.su/images/2023/04/09/Presentacion-Narrada-Alquiler-Coches-Profesional-Azul-Purpura-1a48f23e86c3e3c12.png"
+       
+           <img
+            src="https://i.ibb.co/bX2x42b/Rosa-Vertical-Retro-Banner-retr-ctil-para-Black-Friday-1.png"
             alt="Imagen relacionada con el trabajo"
             style={{ width: "100%", height: "auto" }}
           />
            <img
-            src="https://imgbb.su/images/2023/04/09/Presentacion-Narrada-Alquiler-Coches-Profesional-Azul-Purpura-1a48f23e86c3e3c12.png"
+            src="https://i.ibb.co/tz5HvdR/Rosa-Vertical-Retro-Banner-retr-ctil-para-Black-Friday.png"
             alt="Imagen relacionada con el trabajo"
             style={{ width: "100%", height: "auto" }}
           />
-           <img
-            src="https://imgbb.su/images/2023/04/09/Presentacion-Narrada-Alquiler-Coches-Profesional-Azul-Purpura-1a48f23e86c3e3c12.png"
-            alt="Imagen relacionada con el trabajo"
-            style={{ width: "100%", height: "auto" }}
-          />
-          <img
-            src="https://imgbb.su/images/2023/04/09/Presentacion-Narrada-Alquiler-Coches-Profesional-Azul-Purpura-1a48f23e86c3e3c12.png"
-            alt="Imagen relacionada con el trabajo"
-            style={{ width: "100%", height: "auto" }}
-          />
-           <img
-            src="https://imgbb.su/images/2023/04/09/Presentacion-Narrada-Alquiler-Coches-Profesional-Azul-Purpura-1a48f23e86c3e3c12.png"
-            alt="Imagen relacionada con el trabajo"
-            style={{ width: "100%", height: "auto" }}
-          />
-           <img
-            src="https://imgbb.su/images/2023/04/09/Presentacion-Narrada-Alquiler-Coches-Profesional-Azul-Purpura-1a48f23e86c3e3c12.png"
-            alt="Imagen relacionada con el trabajo"
-            style={{ width: "100%", height: "auto" }}
-          />
+          
+           
+         
+          
+          
 
          </div>
         <div className='col-lg-2 '>

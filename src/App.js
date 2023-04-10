@@ -16,6 +16,7 @@ import { Route, Routes } from "react-router-dom";
 import Horario from "./pages/Horario";
 import RoadMap from "./pages/RoadMap";
 import PhrasesAtWork from "./pages/PhrasesAtWork";
+import PhrasesNative from "./pages/PhrasesNative";
 
 const navLinks = [
   {
@@ -63,6 +64,8 @@ function App() {
           <Route path="/Clases" element={<Clases />}></Route>
           <Route path="/RoadMap" element={<RoadMap />}></Route>
           <Route path="/PhrasesAtWork" element={<PhrasesAtWork />}></Route>
+          <Route path="/PhrasesNative" element={<PhrasesNative />}></Route>
+
 
         </Routes>
       </div>
