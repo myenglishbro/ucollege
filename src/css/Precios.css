@@ -1,0 +1,33 @@
+.card {
+    border: 0;
+    padding: 160px 20px 20px 20px;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  .card-body {
+    z-index: 10;
+    background: rgba(255, 255, 255, 0.9);
+    padding: 15px 30px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+    transition: ease-in-out 0.4s;
+    border-radius: 5px;
+  }
+
+  .card-title {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  .card-text {
+    color: #5e5e5e;
+  }
+
+  .tachado {
+    text-decoration: line-through;
+  }
