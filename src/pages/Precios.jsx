@@ -6,7 +6,7 @@ const Precios = () => {
      <div className='Container-fluid'>
       <div className='row'>
       <div class="col-md-4 d-flex align-items-stretch mt-4 mt-md-0">
-     <div className="card" style={{backgroundImage: "url('https://images.pexels.com/photos/4458554/pexels-photo-4458554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')"}} data-aos="fade-up" data-aos-delay="200">
+     <div className="card-precio" style={{backgroundImage: "url('https://images.pexels.com/photos/4458554/pexels-photo-4458554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')"}} data-aos="fade-up" data-aos-delay="200">
             <div class="card-body">
                
                 <h4 class="card-title">Paquete 10 Clases <span class="badge text-bg-warning tachado">antes S/330.00</span></h4>
@@ -38,7 +38,7 @@ const Precios = () => {
         </div> 
 
         <div class="col-md-4 d-flex align-items-stretch mt-4 mt-md-0">
-     <div className="card" style={{backgroundImage: "url('https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')"}} data-aos="fade-up" data-aos-delay="200">
+     <div className="card-precio" style={{backgroundImage: "url('https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')"}} data-aos="fade-up" data-aos-delay="200">
             <div class="card-body">
                
                 <h4 class="card-title">1 Clase <span class="badge text-bg-warning tachado">antes S/33.00</span></h4>

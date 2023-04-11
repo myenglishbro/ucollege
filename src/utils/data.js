@@ -25,5 +25,14 @@ export const data =[
        enlaceblog:"/ErroresB2",
        channel:"sdasd",
        description:"¿Te presentas al examen B2 First? ¡No cometas los errores más comunes! En esta clase, revelaremos...",
+    },
+    {
+        id:4,
+       thumbnail:"https://images.pexels.com/photos/1181605/pexels-photo-1181605.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+       title:"Great Answers to 8 Common English Job Interview Questions",
+       subtitle:"Here are 8 questions that they will likely ask, along with answers to help you rock (do well on) your interview.",
+       enlaceblog:"/Interviewquestions",
+       channel:"sdasd",
+       description:"Searching for jobs is extremely stressful, but you know what’s even more stressful? ...",
     }
 ]
