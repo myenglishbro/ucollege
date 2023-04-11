@@ -34,5 +34,14 @@ export const data =[
        enlaceblog:"/Interviewquestions",
        channel:"sdasd",
        description:"Searching for jobs is extremely stressful, but you know what’s even more stressful? ...",
+    },
+    {
+        id:5,
+       thumbnail:"https://images.pexels.com/photos/6347912/pexels-photo-6347912.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+       title:"B1 Preliminary",
+       subtitle:"Cambrdige Exam",
+       enlaceblog:"/Preliminary",
+       channel:"sdasd",
+       description:"⚡️ El examen B1 Preliminary de Cambridge es algo distinto a partir de 2020. ...",
     }
 ]

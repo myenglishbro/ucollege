@@ -44,8 +44,6 @@ export const road =[
         { titulo: '🎧 Listening Quiz 1', url: 'https://forms.gle/1JcW99hj2NTvupm5A' }
 
      ]
-
-
     }
     ,
     {
@@ -82,12 +80,20 @@ export const road =[
         { titulo: '🎯Simple Past of Regular Verbs - Spelling', url: 'https://wordwall.net/play/15209/196/82941' },
         { titulo: '🎯Simple Past of Irregular Verbs', url: 'https://wordwall.net/play/15208/131/77707' },
         { titulo: '🎯Choose the correct Irregular Verbs', url: 'https://wordwall.net/play/23988/614/920' },
-        { titulo: '🎯Present Simple or Past Simple', url: 'https://wordwall.net/play/9677/319/360548' }
+        { titulo: '🎯Present Simple or Past Simple', url: 'https://wordwall.net/play/9677/319/360548' },
+
+        { titulo: '🗣️Questions-Situations 1', url: 'https://youtu.be/W_NAHM1aQ3c' },
+        { titulo: '🗣️Simulacion Visa 1', url: 'https://youtu.be/rMfG3rYSlh0' },
+        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' },
+        { titulo: '🗣️Questions-Situations 1', url: 'https://youtu.be/W_NAHM1aQ3c' },
+        { titulo: '🗣️Simulacion Visa 1', url: 'https://youtu.be/rMfG3rYSlh0' },
+        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
 
      ]
 
 
     },
+    
     {
         id:5,
        thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
@@ -98,6 +104,12 @@ export const road =[
        channel:"sdasd",
        description:"Desarrollando habilidades lingüísticas fundamentales",
        enlaces: [
+        { titulo: '🗣️Questions-Situations 1', url: 'https://youtu.be/W_NAHM1aQ3c' },
+        { titulo: '🗣️Simulacion Visa 1', url: 'https://youtu.be/rMfG3rYSlh0' },
+        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' },
+        { titulo: '🗣️Questions-Situations 1', url: 'https://youtu.be/W_NAHM1aQ3c' },
+        { titulo: '🗣️Simulacion Visa 1', url: 'https://youtu.be/rMfG3rYSlh0' },
+        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' },
         { titulo: '🗣️Questions-Situations 1', url: 'https://youtu.be/W_NAHM1aQ3c' },
         { titulo: '🗣️Simulacion Visa 1', url: 'https://youtu.be/rMfG3rYSlh0' },
         { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
@@ -119,6 +131,23 @@ export const road =[
         { titulo: '🗣️Questions-Situations 1', url: 'https://youtu.be/W_NAHM1aQ3c' },
         { titulo: '🗣️Simulacion Visa 1', url: 'https://youtu.be/rMfG3rYSlh0' },
         { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
+     ]
+
+
+    },
+    {
+        id:6,
+       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
+       title:"B1 Preliminary",
+       subtitle:"asdasd",
+
+       dateAdded:"Cambridge Exam ",
+       channel:"sdasd",
+       description:"Desarrollando habilidades lingüísticas fundamentales",
+       enlaces: [
+        { titulo: '🦻B1 Listening Test  1', url: 'https://www.youtube.com/watch?v=4o6h57Nt65o' },
+        { titulo: 'Answer Sheet Listenign Test 1 ', url: 'https://drive.google.com/file/d/1uerwqiZsLfrAvVog2MEIhpLOfovu_u01/view?usp=share_link' },
+
      ]
 
 

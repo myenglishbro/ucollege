@@ -21,6 +21,7 @@ import PhrasesNative from "./pages/PhrasesNative";
 import ErroresB2 from "./pages/ErroresB2";
 import Precios from "./pages/Precios";
 import Interviewquestions from "./pages/Interviewquestions";
+import Preliminary from "./pages/Preliminary";
 
 const navLinks = [
   {
@@ -77,6 +78,8 @@ function App() {
           <Route path="/PhrasesNative" element={<PhrasesNative />}></Route>
           <Route path="/ErroresB2" element={<ErroresB2 />}></Route>
           <Route path="/Interviewquestions" element={<Interviewquestions />}></Route>
+          <Route path="/Preliminary" element={<Preliminary />}></Route>
+
 
 
 

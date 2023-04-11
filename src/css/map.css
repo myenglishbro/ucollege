@@ -125,10 +125,13 @@ ul li .date{
 .container ul li:nth-child(odd) .circle{
     right: -30px;
     transform: translate(50%, -50%);
+    
+    
 }
 .container ul li:nth-child(even) .circle{
     left: -30px;
     transform: translate(-50%, -50%);
+    
 }
 
 /*  Media Query Started  */
@@ -143,6 +146,7 @@ ul li .date{
     .container{
         width: 80%;
         transform: translateX(15px);
+        margin-bottom: 80px;
     }
     .container ul::after{
         left: -30px;
@@ -167,4 +171,14 @@ ul li .date{
     .container ul li:nth-child(even){
         transform: translateX(0);
     }
+    .container ul li:nth-child(4) {
+        margin-bottom: 80px; /* Ajustar esta altura al tamaño del componente que se está tapando */
+      }
+
+      .container ul li:nth-child(5) {
+        margin-top: 0px; /* Ajustar esta altura para dar un espacio entre el cuarto y quinto componente */
+      }
+
+
+      
 }
