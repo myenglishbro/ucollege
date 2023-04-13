@@ -81,7 +81,10 @@ export const road =[
         { titulo: '🎯Simple Past of Irregular Verbs', url: 'https://wordwall.net/play/15208/131/77707' },
         { titulo: '🎯Choose the correct Irregular Verbs', url: 'https://wordwall.net/play/23988/614/920' },
         { titulo: '🎯Present Simple or Past Simple', url: 'https://wordwall.net/play/9677/319/360548' },
-          { titulo: '🎯IRREGULAR VERBS - Simple Past', url: 'https://wordwall.net/play/51839/315/236' },
+        { titulo: '🎯IRREGULAR VERBS - Simple Past', url: 'https://wordwall.net/play/51839/315/236' },
+        { titulo: '🎯Past simple Was or Were- Questions Organize', url: 'https://wordwall.net/play/52149/628/808' },
+
+        { titulo: '🎯Past simple - Questions Organize', url: 'https://wordwall.net/play/52442/731/9551' },
 
         { titulo: '🎯Past Simple Sentences - Missing Word', url: 'https://wordwall.net/play/3222/824/20960' },
 
@@ -137,9 +140,30 @@ export const road =[
      ]
 
 
+    },{
+        id:7,
+       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
+       title:"Nivel Experienced Trainer",
+       subtitle:"asdasd",
+
+       dateAdded:"Basic 06",
+       channel:"sdasd",
+       description:"Desarrollando habilidades lingüísticas fundamentales",
+       enlaces: [
+        { titulo: 'although, however, in spite of, despite', url: 'https://wordwall.net/play/26923/219/206' },
+         { titulo: 'PRESENT PERFECT Exercises Grammar', url: 'https://wordwall.net/play/20930/047/3447' },
+
+         { titulo: 'Since and for', url: 'https://wordwall.net/play/22172/068/39116' },
+                 { titulo: 'Present Perfect vs Present Perfect Continuous', url: 'https://wordwall.net/play/10820/227/9928' },
+
+
+        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
+     ]
+
+
     },
     {
-        id:6,
+        id:8,
        thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
        title:"B1 Preliminary",
        subtitle:"asdasd",
@@ -159,7 +183,7 @@ export const road =[
 
     },
     {
-        id:7,
+        id:9,
        thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
        title:"Nivel Experienced Trainer",
        subtitle:"asdasd",
