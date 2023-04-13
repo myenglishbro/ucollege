@@ -127,7 +127,12 @@ export const road =[
        description:"Desarrollando habilidades lingüísticas fundamentales",
        enlaces: [
         { titulo: 'Word formation nouns & adjectives', url: 'https://wordwall.net/play/29190/295/941' },
-        { titulo: 'Present Perfect vs Present Perfect Continuous', url: 'https://wordwall.net/play/10820/227/9928' },
+         { titulo: 'PRESENT PERFECT Exercises Grammar', url: 'https://wordwall.net/play/20930/047/3447' },
+
+         { titulo: 'Since and for', url: 'https://wordwall.net/play/22172/068/39116' },
+                 { titulo: 'Present Perfect vs Present Perfect Continuous', url: 'https://wordwall.net/play/10820/227/9928' },
+
+
         { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
      ]
 
