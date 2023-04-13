@@ -81,13 +81,11 @@ export const road =[
         { titulo: '🎯Simple Past of Irregular Verbs', url: 'https://wordwall.net/play/15208/131/77707' },
         { titulo: '🎯Choose the correct Irregular Verbs', url: 'https://wordwall.net/play/23988/614/920' },
         { titulo: '🎯Present Simple or Past Simple', url: 'https://wordwall.net/play/9677/319/360548' },
+          { titulo: '🎯IRREGULAR VERBS - Simple Past', url: 'https://wordwall.net/play/51839/315/236' },
 
-        { titulo: '🗣️Questions-Situations 1', url: 'https://youtu.be/W_NAHM1aQ3c' },
-        { titulo: '🗣️Simulacion Visa 1', url: 'https://youtu.be/rMfG3rYSlh0' },
-        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' },
-        { titulo: '🗣️Questions-Situations 1', url: 'https://youtu.be/W_NAHM1aQ3c' },
-        { titulo: '🗣️Simulacion Visa 1', url: 'https://youtu.be/rMfG3rYSlh0' },
-        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
+        { titulo: '🎯Past Simple Sentences - Missing Word', url: 'https://wordwall.net/play/3222/824/20960' },
+
+    
 
      ]
 
@@ -128,8 +126,8 @@ export const road =[
        channel:"sdasd",
        description:"Desarrollando habilidades lingüísticas fundamentales",
        enlaces: [
-        { titulo: '🗣️Questions-Situations 1', url: 'https://youtu.be/W_NAHM1aQ3c' },
-        { titulo: '🗣️Simulacion Visa 1', url: 'https://youtu.be/rMfG3rYSlh0' },
+        { titulo: 'Word formation nouns & adjectives', url: 'https://wordwall.net/play/29190/295/941' },
+        { titulo: 'Present Perfect vs Present Perfect Continuous', url: 'https://wordwall.net/play/10820/227/9928' },
         { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
      ]
 
@@ -146,7 +144,10 @@ export const road =[
        description:"Desarrollando habilidades lingüísticas fundamentales",
        enlaces: [
         { titulo: '🦻B1 Listening Test  1', url: 'https://www.youtube.com/watch?v=4o6h57Nt65o' },
-        { titulo: 'Answer Sheet Listenign Test 1 ', url: 'https://drive.google.com/file/d/1uerwqiZsLfrAvVog2MEIhpLOfovu_u01/view?usp=share_link' },
+        { titulo: '📄Answer Sheet Listenign Test 1 ', url: 'https://drive.google.com/file/d/1uerwqiZsLfrAvVog2MEIhpLOfovu_u01/view?usp=share_link' },
+        { titulo: 'linkers of addition and contrast ', url: 'https://wordwall.net/play/8219/371/327' },
+        { titulo: 'linkers of addition and contrast ', url: 'https://wordwall.net/play/8219/371/327' },
+
 
      ]
 
