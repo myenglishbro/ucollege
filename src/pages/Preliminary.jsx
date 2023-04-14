@@ -1,9 +1,11 @@
 import React from 'react'
 import Descargables from './Descargables'
+import Footer from './Footer'
 
 const Preliminary = () => {
   return (
-    <div className='container-fluid'>
+    <>
+      <div className='container-fluid'>
     <div className='row gap-3 mx-3'>
       <div className='col-lg-7'>
         <img
@@ -118,6 +120,9 @@ const Preliminary = () => {
       <Descargables></Descargables>
     </div>
   </div>
+  <Footer></Footer>
+    </>
+
 )
 }
 

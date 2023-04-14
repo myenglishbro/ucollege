@@ -43,5 +43,14 @@ export const data =[
        enlaceblog:"/Preliminary",
        channel:"sdasd",
        description:"⚡️ El examen B1 Preliminary de Cambridge es algo distinto a partir de 2020. ...",
+    },
+    {
+        id:6,
+       thumbnail:"https://i.ibb.co/dDDRqym/Presentaci-n-Narrada-Alquiler-Coches-Profesional-Azul-P-rpura-4.png",
+       title:"Quiz! 10 errores muy comunes en inglés",
+       subtitle:"Cambrdige Exam",
+       enlaceblog:"/Errores10",
+       channel:"sdasd",
+       description:"Hello there! ¿Tú también estás cometiendo estos 10 errores muy comunes en inglés? Esperamos",
     }
 ]

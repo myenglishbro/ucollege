@@ -22,6 +22,7 @@ import ErroresB2 from "./pages/ErroresB2";
 import Precios from "./pages/Precios";
 import Interviewquestions from "./pages/Interviewquestions";
 import Preliminary from "./pages/Preliminary";
+import Errores10 from "./pages/Errores10";
 
 const navLinks = [
   {
@@ -79,6 +80,8 @@ function App() {
           <Route path="/ErroresB2" element={<ErroresB2 />}></Route>
           <Route path="/Interviewquestions" element={<Interviewquestions />}></Route>
           <Route path="/Preliminary" element={<Preliminary />}></Route>
+          <Route path="/Errores10" element={<Errores10 />}></Route>
+
 
 
 
