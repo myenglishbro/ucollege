@@ -8,7 +8,7 @@ const Errores10 = () => {
     <div className='row gap-3 mx-3'>
       <div className='col-lg-7'>
         <img
-          src="https://i.ibb.co/dDDRqym/Presentaci-n-Narrada-Alquiler-Coches-Profesional-Azul-P-rpura-4.png"
+          src="https://i.ibb.co/G9z8s8f/Presentaci-n-Narrada-Alquiler-Coches-Profesional-Azul-P-rpura-6.png"
           alt="Imagen relacionada con el trabajo"
           style={{ width: "100%", height: "auto" }}
         />
