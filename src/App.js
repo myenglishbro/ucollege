@@ -26,6 +26,8 @@ import Errores10 from "./pages/Errores10";
 import Mistakes5 from "./pages/Mistakes5";
 import ConfusingWords from "./pages/ConfusingWords";
 import Specially from "./pages/Specially";
+import ErroresComunes from "./pages/ErroresComunes";
+import AvanzadoEnIngles from "./pages/AvanzadoEnIngles";
 
 const navLinks = [
   {
@@ -87,6 +89,10 @@ function App() {
           <Route path="/Mistakes5" element={<Mistakes5 />}></Route>
           <Route path="/ConfusingWords" element={<ConfusingWords />}></Route>
           <Route path="/Specially" element={<Specially />}></Route>
+          <Route path="/ErroresComunes" element={<ErroresComunes />}></Route>
+          <Route path="/AvanzadoEnIngles" element={<AvanzadoEnIngles />}></Route>
+
+
 
 
 

@@ -80,5 +80,23 @@ export const data =[
        enlaceblog:"/Specially",
        channel:"sdasd",
        description:"Hello there! ¿Tú también estás cometiendo estos 10 errores muy comunes en inglés? Esperamos",
+    },
+    {
+        id:10,
+       thumbnail:"https://images.pexels.com/photos/7092613/pexels-photo-7092613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+       title:"¿Tú también hablas inglés así? 5 errores muy comunes",
+       subtitle:"Cambrdige Exam",
+       enlaceblog:"/ErroresComunes",
+       channel:"sdasd",
+       description:"¡Hoy toca un poquito de gramática inglesa! ¿Estarás tú también cometiendo estos 5 errores tan comunes en inglés?",
+    },
+    {
+        id:11,
+       thumbnail:"https://images.pexels.com/photos/7092613/pexels-photo-7092613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+       title:"¿Nivel avanzado de inglés?",
+       subtitle:"¡Compruébalo con este test de gramática inglesa!",
+       enlaceblog:"/AvanzadoEnIngles",
+       channel:"sdasd",
+       description:"Hello there student! Es hora de comprobar cómo de bien conoces la gramática inglesa y si tu nivel de inglés es tan avanzado como pones en tu curriculum. 🙈",
     }
 ]
