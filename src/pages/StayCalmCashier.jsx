@@ -1,22 +1,19 @@
 import React from 'react'
-import Descargables from './Descargables'
-import {data} from "../utils/data.js"
-
-import Footer from './Footer'
 import Hero from './Hero'
-
-const ConfusingWords = () => {
-  const heroData = data[7]; // selecciona el primer objeto de datos, por ejemplo
+import {data} from "../utils/data.js"
+import Descargables from './Descargables'
+import Footer from './Footer'
+const StayCalmCashier = () => {
+  const heroData = data[11]; // selecciona el primer objeto de datos, por ejemplo
 
   return (
     <>
       <Hero title={heroData.title} description={heroData.description} thumbnail={heroData.thumbnail} />
-
     <div className='container-fluid'>
   <div className='row gap-3 mx-3'>
     <div className='col-lg-7'>
       
-      <h2 className='titulos-post'>Las palabras más confusas en inglés</h2>
+      <h2 className='titulos-post'>Las palabras más confusas en inglés Que todos fallamos al habalr</h2>
       <p>
       Hello student! Estas palabras pueden volver loco de remate a cualquier estudiante de inglés en su sano juicio. Y por si esto no fuera poco, esta clase va a ser tipo examen. Tenemos curiosidad por saber si sabes utilizar correctamente estas palabras tan confusas en inglés.
       </p>
@@ -148,4 +145,4 @@ const ConfusingWords = () => {
   )
 }
 
-export default ConfusingWords
+export default StayCalmCashier

@@ -65,8 +65,8 @@ export const data =[
     ,
     {
         id:8,
-       thumbnail:"https://i.ibb.co/0GmTb4M/Presentaci-n-Narrada-Alquiler-Coches-Profesional-Azul-P-rpura-7.png",
-       title:"Las palabras más confusas en inglés",
+       thumbnail:"https://images.pexels.com/photos/4473496/pexels-photo-4473496.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+       title:"Las palabras más confusas en inglés que todos odiamos per oqu enecesitamos",
        subtitle:"Cambrdige Exam",
        enlaceblog:"/ConfusingWords",
        channel:"sdasd",
@@ -96,6 +96,16 @@ export const data =[
        title:"¿Nivel avanzado de inglés?",
        subtitle:"¡Compruébalo con este test de gramática inglesa!",
        enlaceblog:"/AvanzadoEnIngles",
+       channel:"sdasd",
+       description:"Hello there student! Es hora de comprobar cómo de bien conoces la gramática inglesa y si tu nivel de inglés es tan avanzado como pones en tu curriculum. 🙈",
+    }
+    ,
+    {
+        id:12,
+       thumbnail:"https://images.pexels.com/photos/4473496/pexels-photo-4473496.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+       title:"How to Stay Calm When the Cashier Asks You Quick Questions in English",
+       subtitle:"¡Compruébalo con este test de gramática inglesa!",
+       enlaceblog:"/StayCalmCashier",
        channel:"sdasd",
        description:"Hello there student! Es hora de comprobar cómo de bien conoces la gramática inglesa y si tu nivel de inglés es tan avanzado como pones en tu curriculum. 🙈",
     }

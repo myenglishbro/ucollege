@@ -28,6 +28,7 @@ import ConfusingWords from "./pages/ConfusingWords";
 import Specially from "./pages/Specially";
 import ErroresComunes from "./pages/ErroresComunes";
 import AvanzadoEnIngles from "./pages/AvanzadoEnIngles";
+import StayCalmCashier from "./pages/StayCalmCashier";
 
 const navLinks = [
   {
@@ -91,6 +92,8 @@ function App() {
           <Route path="/Specially" element={<Specially />}></Route>
           <Route path="/ErroresComunes" element={<ErroresComunes />}></Route>
           <Route path="/AvanzadoEnIngles" element={<AvanzadoEnIngles />}></Route>
+
+          <Route path="/StayCalmCashier" element={<StayCalmCashier />}></Route>
 
 
 

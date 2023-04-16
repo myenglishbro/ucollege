@@ -1,7 +1,6 @@
 import React from 'react'
 import Descargables from './Descargables'
 import Footer from './Footer'
-import '../css/cards.css'
 
 const AvanzadoEnIngles = () => {
   return (
@@ -9,21 +8,17 @@ const AvanzadoEnIngles = () => {
     <div className='container-fluid'>
   <div className='row gap-3 mx-3'>
     <div className='col-lg-7'>
-      <article className='efecto'>
-      <img
+    
+      <img 
         
         src="https://images.pexels.com/photos/5198239/pexels-photo-5198239.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
         alt="Imagen relacionada con el trabajo"
+        style={{width:'100%'}}
         
 
       />
-      <img
-    
-        src="https://i.ibb.co/nr61nX3/pexels-tima-miroshnichenko-5198239-1-removebg-preview.png"
-        alt="Imagen relacionada con el trabajo"
-        
-      />
-      </article>
+  
+      
       <h2 className='titulos-post'>¿Nivel avanzado de inglés? ¡Compruébalo con este test de gramática inglesa!</h2>
       <p>
       Hello there student! Es hora de comprobar cómo de bien conoces la gramática inglesa y si tu nivel de inglés es tan avanzado como pones en tu curriculum. 🙈
