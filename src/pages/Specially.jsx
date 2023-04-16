@@ -37,7 +37,7 @@ const Specially = () => {
         <li>The underground was especially busy this morning. Strike </li>
         <li>It’s not especially hot for this time of the year.</li>
         </ul>
-        <span className='titulos-post'>¿Cuándo usamos ‘especially’?</span>
+        <span className='titulos-post'>¿Cuándo usamos ‘Specially’?</span>
 
         <p>Cuando nos referimos al propósito específico o la función de algo.</p>
         <ul>
