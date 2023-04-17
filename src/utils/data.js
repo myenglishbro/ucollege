@@ -102,7 +102,7 @@ export const data =[
     ,
     {
         id:12,
-       thumbnail:"https://images.pexels.com/photos/4349746/pexels-photo-4349746.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+       thumbnail:"../img/cover.jpg",
        title:"How to Stay Calm When the Cashier Asks You Quick Questions in English",
        subtitle:"¡Compruébalo con este test de gramática inglesa!",
        enlaceblog:"/StayCalmCashier",
