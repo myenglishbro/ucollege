@@ -20,5 +20,10 @@
 @media (max-width: 767.98px) {
     .hero {
       height: 100vh;
+      background-position: center center;
+    background-size: contain;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
     }
   }
