@@ -102,7 +102,7 @@ export const data =[
     ,
     {
         id:12,
-       thumbnail:"https://img.freepik.com/foto-gratis/personal-femenino-pie-brazos-cruzados-supermercado_107420-63706.jpg?w=996&t=st=1681765119~exp=1681765719~hmac=e028f3ed2dec8dcebc4a475e28b28f355f339a99edf53deff919e6c2ba92bb18",
+       thumbnail:"https://i.ibb.co/KDn8kr0/20230418002935-fpdl-in-personal-femenino-pie-brazos-cruzados-supermercado-107420-63706.jpg",
        title:"How to Stay Calm When the Cashier Asks You Quick Questions in English",
        subtitle:"¡Compruébalo con este test de gramática inglesa!",
        enlaceblog:"/StayCalmCashier",
