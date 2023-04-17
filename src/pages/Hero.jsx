@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "../css/hero.css"
 const Hero = ({ title, description,thumbnail }) => {
   return (
     <div className="hero vh-50 d-flex align-items-center" style={{backgroundImage: `url(${thumbnail})`}}>
