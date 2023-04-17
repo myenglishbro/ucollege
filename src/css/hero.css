@@ -17,10 +17,3 @@
     /* rgba(0, 153, 153, 0.5) */
     z-index: -1;
 }
-@media (max-width: 767px) {
-    .hero {
-      background-size: cover;
-      background-position: center;
-
-    }
-  }
