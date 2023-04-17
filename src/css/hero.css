@@ -17,3 +17,8 @@
     /* rgba(0, 153, 153, 0.5) */
     z-index: -1;
 }
+@media (max-width: 767.98px) {
+    .hero {
+      height: 100vh;
+    }
+  }
