@@ -29,6 +29,8 @@ import Specially from "./pages/Specially";
 import ErroresComunes from "./pages/ErroresComunes";
 import AvanzadoEnIngles from "./pages/AvanzadoEnIngles";
 import StayCalmCashier from "./pages/StayCalmCashier";
+import DealingComplaints from "./pages/DealingComplaints";
+import CommonIdioms from "./pages/CommonIdioms";
 
 const navLinks = [
   {
@@ -94,6 +96,9 @@ function App() {
           <Route path="/AvanzadoEnIngles" element={<AvanzadoEnIngles />}></Route>
 
           <Route path="/StayCalmCashier" element={<StayCalmCashier />}></Route>
+          <Route path="/DealingComplaints" element={<DealingComplaints />}></Route>
+          <Route path="/CommonIdioms" element={<CommonIdioms />}></Route>
+
 
 
 

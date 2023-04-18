@@ -109,4 +109,33 @@ export const data =[
        channel:"sdasd",
        description:"Hello there student! Es hora de comprobar cómo de bien conoces la gramática inglesa y si tu nivel de inglés es tan avanzado como pones en tu curriculum. 🙈",
     }
+    ,
+    {
+        id:13,
+       thumbnail:"https://www.logile.com/wp-content/uploads/2022/01/measuring-cashier-performance.jpg",
+       title:"Love surprises?",
+       subtitle:"We never know what’s coming up next in a conversation! ",
+       enlaceblog:"/Surprise",
+       channel:"sdasd",
+       description:"With each photo you will find: a video description, highlighted vocabulary, and discussion questions for groups",
+    },
+    {
+        id:14,
+       thumbnail:"https://images.pexels.com/photos/8790977/pexels-photo-8790977.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+       title:"Dealing With Complaints for Customer Service Reps ",
+       subtitle:"We never know what’s coming up next in a conversation! ",
+       enlaceblog:"/DealingComplaints",
+       channel:"sdasd",
+       description:"W Mistakes happen. When they do, customer service representatives often need to handle consumers' complaints.",
+    }
+    ,
+    {
+        id:15,
+       thumbnail:"https://images.pexels.com/photos/3719037/pexels-photo-3719037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+       title:"40 Common English Idioms ",
+       subtitle:"We never know what’s coming up next in a conversation! ",
+       enlaceblog:"/CommonIdioms",
+       channel:"sdasd",
+       description:"Learning English isn’t as easy as some might think.",
+    }
 ]
