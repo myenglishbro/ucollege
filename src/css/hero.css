@@ -18,12 +18,13 @@
     z-index: -1;
 }
 @media (max-width: 767.98px) {
-    .hero {
-      height: 100vh;
-      background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+  .hero {
+    height: 100vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
     position: relative;
     z-index: 2;
-    }
+    background-attachment: scroll;
   }
+}
