@@ -102,7 +102,7 @@ export const data =[
     ,
     {
         id:12,
-       thumbnail:"https://i.ibb.co/KDn8kr0/20230418002935-fpdl-in-personal-femenino-pie-brazos-cruzados-supermercado-107420-63706.jpg",
+       thumbnail:"https://www.logile.com/wp-content/uploads/2022/01/measuring-cashier-performance.jpg",
        title:"How to Stay Calm When the Cashier Asks You Quick Questions in English",
        subtitle:"¡Compruébalo con este test de gramática inglesa!",
        enlaceblog:"/StayCalmCashier",

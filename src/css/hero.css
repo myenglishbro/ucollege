@@ -18,9 +18,9 @@
 }
 @media (max-width: 767.98px) {
   .hero {
-    height: 100%;
-    background-position: center;
-    background-size: contain;
+    height: 70vh;
+    background-position: center center center;
+    background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     z-index: 2;
