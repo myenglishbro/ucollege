@@ -11,7 +11,7 @@ import cliente6 from '../img/clients/client-6.png';
 const Home = () => {
   return (
     <>
-      <div class="hero vh-100 d-flex align-items-center">
+      <div class="hero-main vh-100 d-flex align-items-center">
     <div class="container">
         <div class="row">
             <div class="col-lg-7 mx-auto text-center">
