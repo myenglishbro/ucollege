@@ -9,7 +9,7 @@ const StayCalmCashier = () => {
   return (
     <>
       <Hero title={heroData.title} description={heroData.description} thumbnail={heroData.thumbnail} />
-    {/* <div className='container-fluid mt-3'>
+    <div className='container-fluid mt-3'>
   <div className='row gap-3 mx-3'>
     <div className='col-lg-7'>
       
@@ -140,7 +140,7 @@ const StayCalmCashier = () => {
     <Descargables></Descargables>
   </div>
 </div>
-<Footer></Footer> */}
+<Footer></Footer>
   </>
   )
 }
