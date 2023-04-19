@@ -32,6 +32,7 @@ import StayCalmCashier from "./pages/StayCalmCashier";
 import DealingComplaints from "./pages/DealingComplaints";
 import CommonIdioms from "./pages/CommonIdioms";
 import ShallShould from "./pages/ShallShould";
+import ModalVerbs from "./pages/ModalVerbs";
 
 const navLinks = [
   {
@@ -100,6 +101,8 @@ function App() {
           <Route path="/DealingComplaints" element={<DealingComplaints />}></Route>
           <Route path="/CommonIdioms" element={<CommonIdioms />}></Route>
           <Route path="/ShallShould" element={<ShallShould />}></Route>
+          <Route path="/ModalVerbs" element={<ModalVerbs />}></Route>
+
 
 
 

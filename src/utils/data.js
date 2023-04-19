@@ -146,5 +146,14 @@ export const data =[
        enlaceblog:"/ShallShould",
        channel:"sdasd",
        description:"¿Llevas siglos en un sin vivir porque no consigues entender la diferencia entre shall y should en inglés? ",
+    },
+    {
+        id:17,
+       thumbnail:"https://images.pexels.com/photos/3719037/pexels-photo-3719037.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+       title:"Verbos modales en inglés",
+       subtitle:"We never know what’s coming up next in a conversation! ",
+       enlaceblog:"/ModalVerbs",
+       channel:"sdasd",
+       description:"¿Llevas siglos en un sin vivir porque no consigues entender la diferencia entre shall y should en inglés? ",
     }
 ]
