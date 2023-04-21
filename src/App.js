@@ -6,6 +6,10 @@ import { FcShop } from "react-icons/fc";
 import { FcPlanner } from "react-icons/fc";
 import { FcRules } from "react-icons/fc";
 import { FcCurrencyExchange } from "react-icons/fc";
+import { FcReading } from "react-icons/fc";
+import { FcTimeline } from "react-icons/fc";
+
+
 
 
 import Home from "./pages/Home";
@@ -33,6 +37,7 @@ import DealingComplaints from "./pages/DealingComplaints";
 import CommonIdioms from "./pages/CommonIdioms";
 import ShallShould from "./pages/ShallShould";
 import ModalVerbs from "./pages/ModalVerbs";
+import PoliticasClase from "./pages/PoliticasClase";
 
 const navLinks = [
   {
@@ -68,7 +73,13 @@ const navLinks = [
   {
     title: "RoadMap",
     path: "/RoadMap",
-    icon: <FcRules />,
+    icon: <FcTimeline />,
+
+  },
+  {
+    title: "Politicas de Clases",
+    path: "/PoliticasClase",
+    icon: <FcReading />,
 
   }
 ];
@@ -85,6 +96,8 @@ function App() {
           <Route path="/Store" element={<Store />}></Route>
           <Route path="/Clases" element={<Clases />}></Route>
           <Route path="/RoadMap" element={<RoadMap />}></Route>
+          <Route path="/PoliticasClase" element={<PoliticasClase />}></Route>
+
           <Route path="/PhrasesAtWork" element={<PhrasesAtWork />}></Route>
           <Route path="/PhrasesNative" element={<PhrasesNative />}></Route>
           <Route path="/ErroresB2" element={<ErroresB2 />}></Route>
