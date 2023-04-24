@@ -1,0 +1,36 @@
+.anuncio {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .payment-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .bank-info {
+    width: 300px;
+    margin: 20px;
+  }
+  
+  .bank-title {
+    text-align: center;
+  }
+  
+  .paypal {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .btn-dark {
+    background-color: #343a40;
+    border-color: #343a40;
+  }
+  
+  .btn-dark:hover {
+    background-color: #23272b;
+    border-color: #1d2124;
+  }
+  
