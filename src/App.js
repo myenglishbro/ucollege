@@ -94,7 +94,7 @@ const navLinks = [
 
   },
   {
-    title: "Speaking",
+    title: "free4talk",
     path: "/Speaking",
     icon: <FcAssistant />
 
