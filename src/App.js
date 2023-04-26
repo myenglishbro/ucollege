@@ -9,6 +9,7 @@ import { FcCurrencyExchange } from "react-icons/fc";
 import { FcReading } from "react-icons/fc";
 import { FcTimeline } from "react-icons/fc";
 import { FcDebt } from "react-icons/fc";
+import { FcAssistant } from "react-icons/fc";
 
 
 
@@ -41,6 +42,7 @@ import ShallShould from "./pages/ShallShould";
 import ModalVerbs from "./pages/ModalVerbs";
 import PoliticasClase from "./pages/PoliticasClase";
 import Pagos from "./pages/Pagos";
+import Speaking from "./pages/Speaking";
 
 const navLinks = [
   {
@@ -90,6 +92,12 @@ const navLinks = [
     path: "/PoliticasClase",
     icon: <FcReading />
 
+  },
+  {
+    title: "Speaking",
+    path: "/Speaking",
+    icon: <FcAssistant />
+
   }
 ];
 function App() {
@@ -107,6 +115,8 @@ function App() {
           <Route path="/RoadMap" element={<RoadMap />}></Route>
           <Route path="/PoliticasClase" element={<PoliticasClase />}></Route>
           <Route path="/Pagos" element={<Pagos />}></Route>
+          <Route path="/Speaking" element={<Speaking />}></Route>
+
 
           <Route path="/PhrasesAtWork" element={<PhrasesAtWork />}></Route>
           <Route path="/PhrasesNative" element={<PhrasesNative />}></Route>
