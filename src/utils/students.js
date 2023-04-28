@@ -55,5 +55,13 @@ export const students= [
       classesTaken: 8,
       classesLeft:2,
       imageSrc: "https://i.ibb.co/HCgncFN/wepik-memphis-colorful-fashionist-tiktok-profile-picture-20230428213839.png"
+    },
+    {
+      id:8,
+      studentName: "Brayan ",
+      totalClasses: 10,
+      classesTaken: 8,
+      classesLeft:2,
+      imageSrc: "https://i.ibb.co/N2Y4y31/wepik-memphis-colorful-fashionist-tiktok-profile-picture-20230428214800.png"
     }
   ];
