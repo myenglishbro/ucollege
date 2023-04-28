@@ -45,6 +45,10 @@ import PoliticasClase from "./pages/PoliticasClase";
 import Pagos from "./pages/Pagos";
 import Speaking from "./pages/Speaking";
 import Testimonios from "./pages/Testimonios";
+import Abbreviations from "./pages/Abbreviations";
+import EachEvery from "./pages/EachEvery";
+import WhereInWhichWherein from "./pages/WhereInWhichWherein";
+import ContainerPortal from "./pages/ContainerPortal";
 
 const navLinks = [
   {
@@ -107,6 +111,13 @@ const navLinks = [
     icon: <FcApproval />
 
   }
+  ,
+  {
+    title: "My Portal",
+    path: "/MyPortal",
+    icon: <FcApproval />
+
+  }
 ];
 function App() {
   return (
@@ -125,6 +136,7 @@ function App() {
           <Route path="/Pagos" element={<Pagos />}></Route>
           <Route path="/Speaking" element={<Speaking />}></Route>
           <Route path="/Testimonios" element={<Testimonios />}></Route>
+          <Route path="/MyPortal" element={<ContainerPortal />}></Route>
 
 
           <Route path="/PhrasesAtWork" element={<PhrasesAtWork />}></Route>
@@ -144,6 +156,11 @@ function App() {
           <Route path="/CommonIdioms" element={<CommonIdioms />}></Route>
           <Route path="/ShallShould" element={<ShallShould />}></Route>
           <Route path="/ModalVerbs" element={<ModalVerbs />}></Route>
+          <Route path="/Abbreviations" element={<Abbreviations />}></Route>
+          <Route path="/EachEvery" element={<EachEvery />}></Route>
+          <Route path="/WhereInWhichWherein" element={<WhereInWhichWherein />}></Route>
+
+
 
 
 

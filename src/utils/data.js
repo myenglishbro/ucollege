@@ -155,5 +155,32 @@ export const data =[
        enlaceblog:"/ModalVerbs",
        channel:"sdasd",
        description:"¿Llevas siglos en un sin vivir porque no consigues entender la diferencia entre shall y should en inglés? ",
+    },
+    {
+        id:18,
+       thumbnail:"https://i.ibb.co/xS904Cc/Abbreviations-1-760x400.png",
+       title:"The 5 Types of Abbreviations",
+       subtitle:"An abbreviation is a shortened form of a word or words ",
+       enlaceblog:"/Abbreviations",
+       channel:"sdasd",
+       description:"¿Llevas siglos en un sin vivir porque no consigues entender la diferencia entre shall y should en inglés? ",
+    },
+    {
+        id:19,
+       thumbnail:"https://i.ibb.co/Smqy71q/Each-and-Every-760x405.jpg",
+       title:"Each and Every: What’s the Difference?",
+       subtitle:"An abbreviation is a shortened form of a word or words ",
+       enlaceblog:"/EachEvery",
+       channel:"sdasd",
+       description:"¿Llevas siglos en un sin vivir porque no consigues entender la diferencia entre shall y should en inglés? ",
+    },
+    {
+        id:20,
+       thumbnail:"https://i.ibb.co/2PWvksh/Where-vs-In-which-vs-Wherein1-760x400.png",
+       title:"Where vs. In Which vs. Wherein",
+       subtitle:"An abbreviation is a shortened form of a word or words ",
+       enlaceblog:"/WhereInWhichWherein",
+       channel:"sdasd",
+       description:"¿Llevas siglos en un sin vivir porque no consigues entender la diferencia entre shall y should en inglés? ",
     }
 ]
