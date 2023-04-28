@@ -15,6 +15,16 @@ export const road =[
         { titulo: '🎯Completa la letra que falta', url: 'https://wordwall.net/play/9163/020/4770' },
         { titulo: '🎯True/False Alphabet Sounds', url: 'https://wordwall.net/play/4207/022/7865' },
         { titulo: '🎯Completa la letra que falta II', url: 'https://wordwall.net/play/26160/270/111' },
+         { titulo: '🎯 The Pronouns', url: 'https://wordwall.net/play/28743/414/132' },
+         { titulo: '🎯 The Pronouns II', url: 'https://wordwall.net/play/35940/872/5428' },
+         { titulo: '🎯Transformation Pronouns', url: 'https://wordwall.net/play/16432/831/5065' },
+
+         { titulo: '🎯The verb Be - affirmative form', url: 'https://wordwall.net/play/13293/724/44295' },
+         { titulo: '🎯The verb Be - Negative form', url: 'https://wordwall.net/play/21191/050/1795' },
+         { titulo: '🎯Complete the text with a subject pronoun or verb be', url: 'https://wordwall.net/play/18793/352/96020' },
+
+
+          { titulo: '🎯The verb Be -mixed sentences', url: 'https://wordwall.net/play/25528/529/57485' },
 
 
      ]

@@ -11,6 +11,7 @@ import { FcTimeline } from "react-icons/fc";
 import { FcDebt } from "react-icons/fc";
 import { FcAssistant } from "react-icons/fc";
 
+import { FcApproval } from "react-icons/fc";
 
 
 
@@ -43,6 +44,7 @@ import ModalVerbs from "./pages/ModalVerbs";
 import PoliticasClase from "./pages/PoliticasClase";
 import Pagos from "./pages/Pagos";
 import Speaking from "./pages/Speaking";
+import Testimonios from "./pages/Testimonios";
 
 const navLinks = [
   {
@@ -98,6 +100,12 @@ const navLinks = [
     path: "/Speaking",
     icon: <FcAssistant />
 
+  },
+  {
+    title: "Testimonios",
+    path: "/Testimonios",
+    icon: <FcApproval />
+
   }
 ];
 function App() {
@@ -116,6 +124,7 @@ function App() {
           <Route path="/PoliticasClase" element={<PoliticasClase />}></Route>
           <Route path="/Pagos" element={<Pagos />}></Route>
           <Route path="/Speaking" element={<Speaking />}></Route>
+          <Route path="/Testimonios" element={<Testimonios />}></Route>
 
 
           <Route path="/PhrasesAtWork" element={<PhrasesAtWork />}></Route>
