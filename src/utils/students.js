@@ -27,9 +27,9 @@ export const students= [
     {
       id:4,
       studentName: "Sandra Wiese",
-      totalClasses: 60,
-      classesTaken: 10,
-      classesLeft:50,
+      totalClasses: 10,
+      classesTaken: 1,
+      classesLeft:9,
       imageSrc: "https://i.ibb.co/pbhgj76/wepik-memphis-colorful-fashionist-tiktok-profile-picture-20230428185237.png"
     },
     {
@@ -44,8 +44,8 @@ export const students= [
       id:7,
       studentName: "Brayan ",
       totalClasses: 10,
-      classesTaken: 5,
-      classesLeft:5,
+      classesTaken: 6,
+      classesLeft:4,
       imageSrc: "https://i.ibb.co/N2Y4y31/wepik-memphis-colorful-fashionist-tiktok-profile-picture-20230428214800.png"
     },
     {
