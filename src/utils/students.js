@@ -41,19 +41,11 @@ export const students= [
       imageSrc: "https://i.ibb.co/qkW7hMt/wepik-memphis-colorful-fashionist-tiktok-profile-picture-20230428185531.png"
     },
     {
-      id:6,
-      studentName: "Xiomara S.",
-      totalClasses: 10,
-      classesTaken: 8,
-      classesLeft:2,
-      imageSrc: "https://i.ibb.co/HCgncFN/wepik-memphis-colorful-fashionist-tiktok-profile-picture-20230428213839.png"
-    },
-    {
       id:7,
       studentName: "Brayan ",
       totalClasses: 10,
-      classesTaken: 8,
-      classesLeft:2,
+      classesTaken: 5,
+      classesLeft:5,
       imageSrc: "https://i.ibb.co/N2Y4y31/wepik-memphis-colorful-fashionist-tiktok-profile-picture-20230428214800.png"
     },
     {
