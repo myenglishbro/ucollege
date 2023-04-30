@@ -5,7 +5,8 @@ export const students= [
       totalClasses: 12,
       classesTaken: 11,
       classesLeft:1,
-      imageSrc: "https://i.ibb.co/HCWkr9M/wepik-memphis-colorful-fashionist-tiktok-profile-picture-20230428183722.png"
+      imageSrc: "https://i.ibb.co/HCWkr9M/wepik-memphis-colorful-fashionist-tiktok-profile-picture-20230428183722.png",
+      enlace:"https://www.youtube.com/playlist?list=PLaYNhMsVRuHgpHKSe_wsbLFc1cMQwSD0q"
     },
     {
       id:2,
@@ -13,7 +14,9 @@ export const students= [
       totalClasses: 12,
       classesTaken: 10,
       classesLeft:2,
-      imageSrc: "https://i.ibb.co/Y3XNvtC/wepik-memphis-colorful-fashionist-tiktok-profile-picture-20230428183622.png"
+      imageSrc: "https://i.ibb.co/Y3XNvtC/wepik-memphis-colorful-fashionist-tiktok-profile-picture-20230428183622.png",
+      enlace:"https://www.youtube.com/playlist?list=PLaYNhMsVRuHgpHKSe_wsbLFc1cMQwSD0q"
+
     },
     {
       id:3,
@@ -21,7 +24,9 @@ export const students= [
       totalClasses: 40,
       classesTaken: 30,
       classesLeft:10,
-      imageSrc: "https://i.ibb.co/PWgWpYn/wepik-memphis-colorful-fashionist-tiktok-profile-picture-20230428184734.png"
+      imageSrc: "https://i.ibb.co/PWgWpYn/wepik-memphis-colorful-fashionist-tiktok-profile-picture-20230428184734.png",
+      enlace:"https://www.youtube.com/playlist?list=PLaYNhMsVRuHgpHKSe_wsbLFc1cMQwSD0q"
+
     }
     ,
     {
@@ -30,7 +35,9 @@ export const students= [
       totalClasses: 10,
       classesTaken: 1,
       classesLeft:9,
-      imageSrc: "https://i.ibb.co/pbhgj76/wepik-memphis-colorful-fashionist-tiktok-profile-picture-20230428185237.png"
+      imageSrc: "https://i.ibb.co/pbhgj76/wepik-memphis-colorful-fashionist-tiktok-profile-picture-20230428185237.png",
+      enlace:"https://www.youtube.com/playlist?list=PLaYNhMsVRuHgpHKSe_wsbLFc1cMQwSD0q"
+
     },
     {
       id:5,
@@ -38,7 +45,9 @@ export const students= [
       totalClasses: 30,
       classesTaken: 10,
       classesLeft:20,
-      imageSrc: "https://i.ibb.co/qkW7hMt/wepik-memphis-colorful-fashionist-tiktok-profile-picture-20230428185531.png"
+      imageSrc: "https://i.ibb.co/qkW7hMt/wepik-memphis-colorful-fashionist-tiktok-profile-picture-20230428185531.png",
+      enlace:"https://www.youtube.com/playlist?list=PLaYNhMsVRuHgpHKSe_wsbLFc1cMQwSD0q"
+
     },
     {
       id:7,
@@ -46,7 +55,9 @@ export const students= [
       totalClasses: 10,
       classesTaken: 6,
       classesLeft:4,
-      imageSrc: "https://i.ibb.co/N2Y4y31/wepik-memphis-colorful-fashionist-tiktok-profile-picture-20230428214800.png"
+      imageSrc: "https://i.ibb.co/N2Y4y31/wepik-memphis-colorful-fashionist-tiktok-profile-picture-20230428214800.png",
+      enlace:"https://www.youtube.com/playlist?list=PLaYNhMsVRuHgpHKSe_wsbLFc1cMQwSD0q"
+
     },
     {
       id:8,
@@ -54,6 +65,18 @@ export const students= [
       totalClasses: 10,
       classesTaken: 8,
       classesLeft:2,
-      imageSrc: "https://i.ibb.co/N2Y4y31/wepik-memphis-colorful-fashionist-tiktok-profile-picture-20230428214800.png"
+      imageSrc: "https://i.ibb.co/N2Y4y31/wepik-memphis-colorful-fashionist-tiktok-profile-picture-20230428214800.png",
+      enlace:"https://www.youtube.com/playlist?list=PLaYNhMsVRuHgpHKSe_wsbLFc1cMQwSD0q"
+
+    },
+    {
+      id:9,
+      studentName: "Arnulfo  ",
+      totalClasses: 1,
+      classesTaken: 1,
+      classesLeft:0,
+      imageSrc: "https://i.ibb.co/N2Y4y31/wepik-memphis-colorful-fashionist-tiktok-profile-picture-20230428214800.png",
+      enlace:"https://www.youtube.com/playlist?list=PLaYNhMsVRuHgpHKSe_wsbLFc1cMQwSD0q"
+
     }
   ];

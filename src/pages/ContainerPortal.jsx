@@ -13,6 +13,7 @@ const ContainerPortal = () => {
           classesTaken={student.classesTaken}
           imageSrc={student.imageSrc}
           classesLeft={student.classesLeft}
+          enlace={student.enlace}
         />
       ))}
     </div>

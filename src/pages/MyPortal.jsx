@@ -1,6 +1,6 @@
 import React from 'react';
 
-const MyPortal = ({ studentName, totalClasses, classesTaken, classesLeft, imageSrc }) => {
+const MyPortal = ({ studentName, totalClasses, classesTaken, classesLeft, imageSrc ,enlace}) => {
   const progress = (classesTaken / totalClasses) * 100;
   const progressBarStyle = {
     width: `${progress}%`,
@@ -20,6 +20,10 @@ const MyPortal = ({ studentName, totalClasses, classesTaken, classesLeft, imageS
         </div>
         <div className="classes-left">
           <span>{`${classesLeft} Horas restantes`}</span>
+        </div>
+        <div>
+        <a href={enlace} target="_blank" rel="noopener noreferrer"> 🎥 Enlace de clases</a>
+
         </div>
       </div>
     </div>
