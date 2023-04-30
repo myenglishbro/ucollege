@@ -36,7 +36,7 @@ export const students= [
       classesTaken: 1,
       classesLeft:9,
       imageSrc: "https://i.ibb.co/pbhgj76/wepik-memphis-colorful-fashionist-tiktok-profile-picture-20230428185237.png",
-      enlace:"https://www.youtube.com/playlist?list=PLaYNhMsVRuHgpHKSe_wsbLFc1cMQwSD0q"
+      enlace:"https://www.youtube.com/playlist?list=PLaYNhMsVRuHj96gkh22FNt-7ORM69Tz8J"
 
     },
     {
