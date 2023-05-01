@@ -18,6 +18,7 @@ export const road =[
          { titulo: '🎯 The Pronouns', url: 'https://wordwall.net/play/28743/414/132' },
          { titulo: '🎯 The Pronouns II', url: 'https://wordwall.net/play/35940/872/5428' },
          { titulo: '🎯Transformation Pronouns', url: 'https://wordwall.net/play/16432/831/5065' },
+         { titulo: '📒[slides] Explanation The Verb Be', url: 'https://docs.google.com/presentation/d/1BcRVF50I_5gnPYd7dG07kPyULiFt-iF4/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
 
          { titulo: '🎯The verb Be - affirmative form', url: 'https://wordwall.net/play/13293/724/44295' },
          { titulo: '🎯The verb Be - Negative form', url: 'https://wordwall.net/play/21191/050/1795' },
@@ -51,7 +52,8 @@ export const road =[
         { titulo: '🎯Short Answers in Present Simple', url: 'https://wordwall.net/play/15449/538/61279' },
         { titulo: '🎯Present Simple Mixed Tenses I', url: 'https://wordwall.net/play/51962/689/8460' },
         { titulo: '📝 Reading Quiz 1', url: 'https://forms.gle/BGfegqPFjq8qR4cD9' },
-        { titulo: '🎧 Listening Quiz 1', url: 'https://forms.gle/1JcW99hj2NTvupm5A' }
+        { titulo: '🎧 Listening Quiz 1', url: 'https://forms.gle/1JcW99hj2NTvupm5A' },
+        { titulo: '📒[slides] Explanation There is | There are ', url: 'https://docs.google.com/presentation/d/1AZfYgOutQKyvx-Dl7qj7LYOEEMYiDB1V/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
 
      ]
     }
@@ -66,11 +68,16 @@ export const road =[
        channel:"sdasd",
        description:"Desarrollando habilidades lingüísticas fundamentales",
        enlaces: [
+        { titulo: '📒[slides] Explanation Present Progressive', url: 'https://docs.google.com/presentation/d/1touUa7OZ1X1ikWmzNS7lppVA8MesWigC/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
         { titulo: '🎯Present Progressive ING RULES', url: 'https://wordwall.net/play/27696/610/498' },
         { titulo: '🎯Present Simple vs Present Progressive', url: 'https://wordwall.net/play/51862/890/1585' },
         { titulo: '🎯Present Simple vs Present Progressive II', url: 'https://wordwall.net/play/27470/421/60049' },
+        { titulo: '📒[slides] Explanation Adverbs of Frequency', url: 'https://docs.google.com/presentation/d/12feKDZwOqILPrUSp6Nm6vtYqfcgjaQqR/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
+
         { titulo: '🎯Vocabulario en inglés', url: 'https://www.example2.com' },
-        { titulo: '🎯Ejercicios de gramática', url: 'https://www.example3.com' }
+        { titulo: '🎯Ejercicios de gramática', url: 'https://www.example3.com' },
+        { titulo: '📒[slides] Explanation Non Action Verbs', url: 'https://docs.google.com/presentation/d/1iRId98sfwylaVNdIwLgAp1fTvSyFxzQw/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
+
      ]
 
 
@@ -141,6 +148,7 @@ export const road =[
        enlaces: [
         { titulo: 'Word formation nouns & adjectives', url: 'https://wordwall.net/play/29190/295/941' },
          { titulo: 'PRESENT PERFECT Exercises Grammar', url: 'https://wordwall.net/play/20930/047/3447' },
+         { titulo: '📒[slides] Explanation Present Perfect-Since and for', url: 'https://docs.google.com/presentation/d/1nIn9oQtj9P7RcG5SwCXM_kFQOHYS3yin/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
 
          { titulo: 'Since and for', url: 'https://wordwall.net/play/22172/068/39116' },
                  { titulo: 'Present Perfect vs Present Perfect Continuous', url: 'https://wordwall.net/play/10820/227/9928' },
