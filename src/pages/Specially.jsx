@@ -1,10 +1,16 @@
 import React from 'react'
 import Descargables from './Descargables'
 import Footer from './Footer'
+import {data} from "../utils/data.js"
+import Hero from './Hero'
 
 const Specially = () => {
+  const heroData = data[9]; // selecciona el primer objeto de datos, por ejemplo
+
   return (
     <>
+              <Hero title={heroData.title} description={heroData.description} thumbnail={heroData.thumbnail} />
+
     <div className='container-fluid'>
   <div className='row gap-3 mx-3'>
     <div className='col-lg-7'>
@@ -52,7 +58,7 @@ const Specially = () => {
         <p>Este caso nos referimos a un propósito en particular. He comprado esta leche para ti, quizás porque te gusta más o porque eres intolerante a la lactosa, vegetariano, etc. Ambas son aceptadas, pero es más común usar ‘especially’</p>  
       
          <p> En resumen, recuerda que ‘especially’ es mucho más común y puedes usarlo siempre y cuando no hables del propósito específico o la función de algo, en ese caso usas ‘specially’.</p>
-         
+         <p> Tomar examen</p>
         </div>
       </article>
    <hr></hr>

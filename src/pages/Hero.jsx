@@ -2,7 +2,7 @@ import React from 'react'
 import "../css/hero.css"
 const Hero = ({ title, description,thumbnail }) => {
   return (
-    <div className="hero vh-50 d-flex align-items-center" style={{backgroundImage: `url(${thumbnail})`}}>
+    <div className="hero vh-70 d-flex align-items-center" style={{backgroundImage: `url(${thumbnail})`}}>
       <div className="container">
         <div className="row">
           <div className="col-lg-7 mx-auto text-center">

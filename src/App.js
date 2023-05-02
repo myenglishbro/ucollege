@@ -49,6 +49,8 @@ import Abbreviations from "./pages/Abbreviations";
 import EachEvery from "./pages/EachEvery";
 import WhereInWhichWherein from "./pages/WhereInWhichWherein";
 import ContainerPortal from "./pages/ContainerPortal";
+import Article from "./pages/Article";
+import FalseFriends from "./pages/FalseFriends";
 
 const navLinks = [
   {
@@ -159,7 +161,9 @@ function App() {
           <Route path="/Abbreviations" element={<Abbreviations />}></Route>
           <Route path="/EachEvery" element={<EachEvery />}></Route>
           <Route path="/WhereInWhichWherein" element={<WhereInWhichWherein />}></Route>
+          <Route path="/Article" element={<Article />}></Route>
 
+          <Route path="/FalseFriends" element={<FalseFriends />}></Route>
 
 
 

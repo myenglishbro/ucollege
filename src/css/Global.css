@@ -11,3 +11,17 @@
     font-weight: bold;
 
 }
+
+.negritas{
+    color: #F85050;
+    font-size: 20px;
+    font-weight: bold;
+}
+.box{
+    background-color: #CCCFFF;
+}
+
+.box-words{
+    font-size: 16px;
+    font-weight:700;
+}

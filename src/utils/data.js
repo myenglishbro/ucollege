@@ -182,5 +182,23 @@ export const data =[
        enlaceblog:"/WhereInWhichWherein",
        channel:"sdasd",
        description:"¿Llevas siglos en un sin vivir porque no consigues entender la diferencia entre shall y should en inglés? ",
+    },
+    {
+        id:21,
+       thumbnail:"https://i.ibb.co/2PWvksh/Where-vs-In-which-vs-Wherein1-760x400.png",
+       title:"ARTICLES: THEY 1 FINALLY MAKE SENSE",
+       subtitle:"An abbreviation is a shortened form of a word or words ",
+       enlaceblog:"/Article",
+       channel:"sdasd",
+       description:"¿Llevas siglos en un sin vivir porque no consigues entender la diferencia entre shall y should en inglés? ",
+    },
+    {
+        id:22,
+       thumbnail:"https://images.pexels.com/photos/3491678/pexels-photo-3491678.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+       title:"Los ‘Falsos Amigos’ del inglés («False Friends»)",
+       subtitle:"An abbreviation is a shortened form of a word or words ",
+       enlaceblog:"/FalseFriends",
+       channel:"sdasd",
+       description:"¿Llevas siglos en un sin vivir porque no consigues entender la diferencia entre shall y should en inglés? ",
     }
 ]
