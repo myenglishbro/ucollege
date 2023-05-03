@@ -21,7 +21,7 @@ const Horario = () => {
           <li class="list-group-item bg-warning">08:00-09:00 pm 🔴 Interm</li>
           <li class="list-group-item bg-warning">09:00-10:00 pm 🔴 UPCH</li>
           <li class="list-group-item bg-warning">10:00-11:00 pm 🔴 UPCH</li>
-          <li class="list-group-item bg-warning">11:00-12:00 pm 🟢 Open</li>
+          <li class="list-group-item ">11:00-12:00 pm 🟢 Open</li>
 
         </ul>
       </div>
@@ -44,7 +44,7 @@ const Horario = () => {
           <li class="list-group-item bg-warning ">08:00-09:00 pm 🔴 Interm</li>
           <li class="list-group-item bg-warning">09:00-10:00 pm 🔴 UPCH</li>
           <li class="list-group-item bg-warning">10:00-11:00 pm 🔴 UPCH</li>
-          <li class="list-group-item bg-warning">11:00-12:00 pm 🟢 Open</li>
+          <li class="list-group-item ">11:00-12:00 pm 🟢 Open</li>
 
         </ul>
       </div>
@@ -66,7 +66,7 @@ const Horario = () => {
           <li class="list-group-item bg-warning ">08:00-09:00 pm 🔴Interm</li>
           <li class="list-group-item bg-warning">09:00-10:00 pm 🔴 UPCH</li>
           <li class="list-group-item bg-warning">10:00-11:00 pm 🔴 UPCH</li>
-          <li class="list-group-item bg-warning">11:00-12:00 pm 🟢 Open</li>
+          <li class="list-group-item ">11:00-12:00 pm 🟢 Open</li>
 
         </ul>
       </div>
@@ -88,7 +88,7 @@ const Horario = () => {
           <li class="list-group-item bg-warning ">08:00-09:00 pm 🔴 Interm</li>
           <li class="list-group-item bg-warning">09:00-10:00 pm 🔴 UPCH</li>
           <li class="list-group-item bg-warning">10:00-11:00 pm 🔴 UPCH</li>
-          <li class="list-group-item bg-warning">11:00-12:00 pm 🟢 Open</li>
+          <li class="list-group-item ">11:00-12:00 pm 🟢 Open</li>
 
         </ul>
       </div>
@@ -110,7 +110,7 @@ const Horario = () => {
           <li class="list-group-item bg-warning ">08:00-09:00 pm 🔴 Interm</li>
           <li class="list-group-item bg-warning">09:00-10:00 pm 🔴 UPCH</li>
           <li class="list-group-item bg-warning">10:00-11:00 pm 🔴 UPCH</li>
-          <li class="list-group-item bg-warning">11:00-12:00 pm 🟢 Open</li>
+          <li class="list-group-item ">11:00-12:00 pm 🟢 Open</li>
 
         </ul>
       </div>
