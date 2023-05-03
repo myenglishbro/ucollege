@@ -114,7 +114,7 @@ const Horario = () => {
 
         </ul>
       </div>
-      <div class="col-lg-2">
+      <div class="col-lg-1">
       <h5 class="text-center">Saturday 💪</h5>
       <ul class="list-group list-group-flush">
       <li class="list-group-item ">08:00-09:00 am 🟢 Open</li>
@@ -134,7 +134,7 @@ const Horario = () => {
         </ul>
       </div>
       
-      <div class="col-lg-2">
+      <div class="col-lg-1">
       <h5 class="text-center">Sunday 💪</h5>
       <ul class="list-group list-group-flush">
       <li class="list-group-item ">07:00-08:00 am 🟢 Open</li>
