@@ -138,7 +138,7 @@ const Horario = () => {
       <h5 class="text-center">Saturday 💪</h5>
       <ul class="list-group list-group-flush">
 
-      <li class="list-group-item ">07:50-08:50 am 🟢 Open</li>
+      <li class="list-group-item bg-warning ">07:50-08:50 am 🔴 Arnold</li>
 
           <li class="list-group-item bg-warning">09:00-10:00 am 🔴 ICPNA</li>
           <li class="list-group-item bg-warning">10:00-11:00 am 🔴 ICPNA</li>
@@ -146,7 +146,7 @@ const Horario = () => {
           <li class="list-group-item">01:00-02:00 pm 🟢 Open</li>
           <li class="list-group-item">02:00-03:00 pm 🟢 Open</li>
           <li class="list-group-item bg-warning">02:00-03:00 pm 🔴 Brayan</li>
-          <li class="list-group-item bg-warning">03:00-04:00 pm 🔴 Natalia</li>
+          <li class="list-group-item ">03:00-04:00 pm 🟢 Open</li>
           <li class="list-group-item bg-warning">04:00-05:00 pm 🔴 UPCH </li>
           <li class="list-group-item bg-warning">05:00-06:00 pm 🔴 UPCH </li>
           <li class="list-group-item bg-warning">06:00-07:15 pm 🔴 UPCH </li>
