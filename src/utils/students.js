@@ -3,8 +3,8 @@ export const students= [
       id:1,
       studentName: "Gabriela M.",
       totalClasses: 13,
-      classesTaken: 0,
-      classesLeft:13,
+      classesTaken: 2,
+      classesLeft:11,
       imageSrc: "https://i.ibb.co/HCWkr9M/wepik-memphis-colorful-fashionist-tiktok-profile-picture-20230428183722.png",
       enlace:"https://www.youtube.com/playlist?list=PLaYNhMsVRuHgpHKSe_wsbLFc1cMQwSD0q"
     },
