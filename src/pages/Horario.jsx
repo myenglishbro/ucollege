@@ -124,7 +124,7 @@ const Horario = () => {
 
         </ul>
       </div>
-      <div class="col-lg-1">
+      <div class="col-lg-2">
       <h5 class="text-center">Saturday 💪</h5>
       <ul class="list-group list-group-flush">
 
