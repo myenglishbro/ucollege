@@ -9,9 +9,10 @@ import { FcCurrencyExchange } from "react-icons/fc";
 import { FcReading } from "react-icons/fc";
 import { FcTimeline } from "react-icons/fc";
 import { FcDebt } from "react-icons/fc";
-import { FcAssistant } from "react-icons/fc";
+import { FcBusinessman } from "react-icons/fc";
 
 import { FcApproval } from "react-icons/fc";
+
 
 
 
@@ -63,11 +64,7 @@ const navLinks = [
     path: "/About",
     icon: <FcLike />,
   },
-  {
-    title: "Horario",
-    path: "/Horario",
-    icon: <FcPlanner />,
-  },
+  
   {
     title: "Precios",
     path: "/Precios",
@@ -81,7 +78,8 @@ const navLinks = [
   {
     title: "Clases",
     path: "/Clases",
-    icon: <FcRules />,
+    icon: <FcRules />
+   
   },
   {
     title: "RoadMap",
@@ -89,23 +87,26 @@ const navLinks = [
     icon: <FcTimeline />,
 
   },
-  {
-    title: "Pagos",
-    path: "/Pagos",
-    icon: <FcDebt />
-
-  },
-  {
-    title: "Politicas de Clases",
-    path: "/PoliticasClase",
-    icon: <FcReading />
-
-  },
-  {
-    title: "free4talk",
+ 
+ {
+    title: "Career Path",
     path: "/Speaking",
-    icon: <FcAssistant />
-
+    icon: <FcBusinessman />,
+    dropdown: true,
+    dropdownLinks: [
+      {
+        title: "Hospitality",
+        path: "/Speaking"
+      },
+      {
+        title: "Dentestry",
+        path: "/RoadMap"
+      },
+      {
+        title: "Medicine",
+        path: "/Clases/Aleman"
+      }
+    ]
   },
   {
     title: "Testimonios",
@@ -115,9 +116,33 @@ const navLinks = [
   }
   ,
   {
-    title: "My Portal",
-    path: "/MyPortal",
-    icon: <FcApproval />
+    title: "Student Zone",
+    icon: <FcApproval />,
+    dropdown: true,
+    dropdownLinks: [
+      {
+        title: "My Portal",
+        path: "/MyPortal"
+      },
+      {
+        title: "Horario",
+        path: "/Horario",
+        icon: <FcPlanner />
+
+      },
+      {
+        title: "Politicas de Clases",
+        path: "/PoliticasClase",
+        icon: <FcReading />
+    
+      },
+      {
+        title: "Pagos",
+        path: "/Pagos",
+        icon: <FcDebt />
+    
+      }
+    ]
 
   }
 ];
