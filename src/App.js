@@ -61,7 +61,8 @@ const navLinks = [
   {
     title: "About",
     path: "/About",
-    icon: <FcLike />,
+    icon: <FcLike />
+   
   },
   
   {
@@ -136,7 +137,13 @@ const navLinks = [
         icon: <FcDebt />
     
       }
+     ,
+      {
+        title: "Carlos Apolaya",
+        path: "https://meb3.vercel.app/"
+      }
     ]
+    
 
   }
 ];
