@@ -200,5 +200,23 @@ export const data =[
        enlaceblog:"/FalseFriends",
        channel:"sdasd",
        description:"¿Llevas siglos en un sin vivir porque no consigues entender la diferencia entre shall y should en inglés? ",
+    },
+    {
+        id:23,
+       thumbnail:"https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+       title:"-Holic, -Oholic, and -Aholic – Suffix, Meaning & Exampl",
+       subtitle:"The -Aholic and -Oholic Suffixes",
+       enlaceblog:"/SuffixinEnglish01",
+       channel:"sdasd",
+       description:"When it comes -aholic, -oholic, and -holic meanings, just remember that the actual suffix is -holic, and -aholic or -oholic are used phonetically",
+    },
+    {
+        id:24,
+       thumbnail:"https://images.pexels.com/photos/256417/pexels-photo-256417.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+       title:"-able and -ible",
+       subtitle:"The suffixes -able and -ible both mean capable of or suitable for",
+       enlaceblog:"/SuffixinEnglish02",
+       channel:"sdasd",
+       description:"The suffixes -able and -ible both mean capable of or suitable for",
     }
 ]

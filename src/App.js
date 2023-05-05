@@ -51,7 +51,9 @@ import WhereInWhichWherein from "./pages/WhereInWhichWherein";
 import ContainerPortal from "./pages/ContainerPortal";
 import Article from "./pages/Article";
 import FalseFriends from "./pages/FalseFriends";
-
+import HospitalityAndTour from "./pages/HospitalityAndTour";
+import SuffixinEnglish01 from "./pages/SuffixinEnglish01";
+import SuffixinEnglish02 from "./pages/SuffixinEnglish02";
 const navLinks = [
   {
     title: "Home",
@@ -96,7 +98,7 @@ const navLinks = [
     dropdownLinks: [
       {
         title: "Hospitality",
-        path: "/Speaking"
+        path: "/HospitalityAndTour"
       },
       {
         title: "Dentestry",
@@ -190,6 +192,9 @@ function App() {
 
           <Route path="/FalseFriends" element={<FalseFriends />}></Route>
 
+          <Route path="/HospitalityandTour" element={<HospitalityAndTour />}></Route>
+          <Route path="/SuffixinEnglish01" element={<SuffixinEnglish01 />}></Route>
+          <Route path="/SuffixinEnglish02" element={<SuffixinEnglish02 />}></Route>
 
 
 
