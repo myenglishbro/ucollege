@@ -45,7 +45,6 @@ import ModalVerbs from "./pages/ModalVerbs";
 import PoliticasClase from "./pages/PoliticasClase";
 import Pagos from "./pages/Pagos";
 import Speaking from "./pages/Speaking";
-import Testimonios from "./pages/Testimonios";
 import Abbreviations from "./pages/Abbreviations";
 import EachEvery from "./pages/EachEvery";
 import WhereInWhichWherein from "./pages/WhereInWhichWherein";
@@ -107,13 +106,8 @@ const navLinks = [
         path: "/Clases/Aleman"
       }
     ]
-  },
-  {
-    title: "Testimonios",
-    path: "/Testimonios",
-    icon: <FcApproval />
-
   }
+  
   ,
   {
     title: "Student Zone",
@@ -162,7 +156,6 @@ function App() {
           <Route path="/PoliticasClase" element={<PoliticasClase />}></Route>
           <Route path="/Pagos" element={<Pagos />}></Route>
           <Route path="/Speaking" element={<Speaking />}></Route>
-          <Route path="/Testimonios" element={<Testimonios />}></Route>
           <Route path="/MyPortal" element={<ContainerPortal />}></Route>
 
 
