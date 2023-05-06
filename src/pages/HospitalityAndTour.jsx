@@ -29,53 +29,9 @@ const HospitalityAndTour = () => {
 
     </article>
     <hr></hr>
-    <article>
-    <h2 className='titulos-post'>UNIT 01  WHAT IS TOURSIM?</h2>
-    <iframe title="Quizlet" loading="lazy" src="https://quizlet.com/653795377/match/embed?i=2oqoxh&x=1jj1" height="500" width="100%" style={{ border: "0" }} data-gtm-yt-inspected-4="true"></iframe>
-
-    </article>
+    
     <hr></hr>
-    <article>
-    <h2 className='titulos-post'>UNIT 01  WHAT IS TOURSIM?</h2>
-    <iframe title="Quizlet" loading="lazy" src="https://quizlet.com/653795377/match/embed?i=2oqoxh&x=1jj1" height="500" width="100%" style={{ border: "0" }} data-gtm-yt-inspected-4="true"></iframe>
-
-    </article>
-    <hr></hr>
-    <article>
-    <h2 className='titulos-post'>UNIT 01  WHAT IS TOURSIM?</h2>
-    <iframe title="Quizlet" loading="lazy" src="https://quizlet.com/653795377/match/embed?i=2oqoxh&x=1jj1" height="500" width="100%" style={{ border: "0" }} data-gtm-yt-inspected-4="true"></iframe>
-
-    </article>
-    <hr></hr>
-    <article>
-    <h2 className='titulos-post'>UNIT 01  WHAT IS TOURSIM?</h2>
-    <iframe title="Quizlet" loading="lazy" src="https://quizlet.com/653795377/match/embed?i=2oqoxh&x=1jj1" height="500" width="100%" style={{ border: "0" }} data-gtm-yt-inspected-4="true"></iframe>
-
-    </article>
-    <hr></hr>
-    <article>
-    <h2 className='titulos-post'>UNIT 01  WHAT IS TOURSIM?</h2>
-    <iframe title="Quizlet" loading="lazy" src="https://quizlet.com/653795377/match/embed?i=2oqoxh&x=1jj1" height="500" width="100%" style={{ border: "0" }} data-gtm-yt-inspected-4="true"></iframe>
-
-    </article>
-    <hr></hr>
-    <article>
-    <h2 className='titulos-post'>UNIT 01  WHAT IS TOURSIM?</h2>
-    <iframe title="Quizlet" loading="lazy" src="https://quizlet.com/653795377/match/embed?i=2oqoxh&x=1jj1" height="500" width="100%" style={{ border: "0" }} data-gtm-yt-inspected-4="true"></iframe>
-
-    </article>
-    <hr></hr>
-    <article>
-    <h2 className='titulos-post'>UNIT 01  WHAT IS TOURSIM?</h2>
-    <iframe title="Quizlet" loading="lazy" src="https://quizlet.com/653795377/match/embed?i=2oqoxh&x=1jj1" height="500" width="100%" style={{ border: "0" }} data-gtm-yt-inspected-4="true"></iframe>
-
-    </article>
-    <hr></hr>
-    <article>
-    <h2 className='titulos-post'>UNIT 01  WHAT IS TOURSIM?</h2>
-    <iframe title="Quizlet" loading="lazy" src="https://quizlet.com/653795377/match/embed?i=2oqoxh&x=1jj1" height="500" width="100%" style={{ border: "0" }} data-gtm-yt-inspected-4="true"></iframe>
-
-    </article>
+    
     <hr></hr>
 
  <article>

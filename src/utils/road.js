@@ -122,8 +122,14 @@ export const road =[
        channel:"sdasd",
        description:"Desarrollando habilidades lingüísticas fundamentales",
        enlaces: [
-        { titulo: '🗣️Questions-Situations 1', url: 'https://youtu.be/W_NAHM1aQ3c' },
-        { titulo: '🗣️Simulacion Visa 1', url: 'https://youtu.be/rMfG3rYSlh0' },
+        { titulo: '📒[slides] Too Vs Very ', url: 'https://docs.google.com/presentation/d/1a6l6h79USa5zWCE39sn0VywhX0dKBJE1/edit?usp=share_link&ouid=114172849724389982127&rtpof=true&sd=true' },
+
+        { titulo: '📒[slides] Jobs in English', url: 'https://docs.google.com/presentation/d/1DjLkNdeShBKInTTdZOvwYUGrMHxu5h_q/edit?usp=share_link&ouid=114172849724389982127&rtpof=true&sd=true' },
+        { titulo: '📒[slides] Can-Cannot Affirmative | Negative', url: 'https://docs.google.com/presentation/d/1eKvqH6AOsKqLqqEudE2jChjZBn1bYSxq/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
+
+        { titulo: '📒[slides] Can-Cannot Questions', url: 'https://docs.google.com/presentation/d/1Qpes0MERe7qfFf0ZK8JJHgPzcq3RZ4vF/edit?usp=share_link&ouid=114172849724389982127&rtpof=true&sd=true' },
+       
+        { titulo: '📒[slides] Questions with like -Personality Adjectives', url: 'https://docs.google.com/presentation/d/1h-RZyzVXhOj7DIGmZ0EYFz9hmJB8obSa/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
         { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' },
         { titulo: '🗣️Questions-Situations 1', url: 'https://youtu.be/W_NAHM1aQ3c' },
         { titulo: '🗣️Simulacion Visa 1', url: 'https://youtu.be/rMfG3rYSlh0' },
@@ -179,9 +185,366 @@ export const road =[
      ]
 
 
+    },{
+        id:8,
+       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
+       title:"Nivel Experienced Trainer",
+       subtitle:"asdasd",
+
+       dateAdded:"Basic 07",
+       channel:"sdasd",
+       description:"Desarrollando habilidades lingüísticas fundamentales",
+       enlaces: [
+        { titulo: 'although, however, in spite of, despite', url: 'https://wordwall.net/play/26923/219/206' },
+         { titulo: 'PRESENT PERFECT Exercises Grammar', url: 'https://wordwall.net/play/20930/047/3447' },
+
+         { titulo: 'Since and for', url: 'https://wordwall.net/play/22172/068/39116' },
+                 { titulo: 'Present Perfect vs Present Perfect Continuous', url: 'https://wordwall.net/play/10820/227/9928' },
+
+
+        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
+     ]
+
+
+    },{
+        id:9,
+       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
+       title:"Nivel Experienced Trainer",
+       subtitle:"asdasd",
+
+       dateAdded:"Basic 08",
+       channel:"sdasd",
+       description:"Desarrollando habilidades lingüísticas fundamentales",
+       enlaces: [
+        { titulo: 'although, however, in spite of, despite', url: 'https://wordwall.net/play/26923/219/206' },
+         { titulo: 'PRESENT PERFECT Exercises Grammar', url: 'https://wordwall.net/play/20930/047/3447' },
+
+         { titulo: 'Since and for', url: 'https://wordwall.net/play/22172/068/39116' },
+                 { titulo: 'Present Perfect vs Present Perfect Continuous', url: 'https://wordwall.net/play/10820/227/9928' },
+
+
+        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
+     ]
+
+
+    },{
+        id:10,
+       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
+       title:"Nivel Experienced Trainer",
+       subtitle:"asdasd",
+
+       dateAdded:"Basic 09",
+       channel:"sdasd",
+       description:"Desarrollando habilidades lingüísticas fundamentales",
+       enlaces: [
+        { titulo: 'although, however, in spite of, despite', url: 'https://wordwall.net/play/26923/219/206' },
+         { titulo: 'PRESENT PERFECT Exercises Grammar', url: 'https://wordwall.net/play/20930/047/3447' },
+
+         { titulo: 'Since and for', url: 'https://wordwall.net/play/22172/068/39116' },
+                 { titulo: 'Present Perfect vs Present Perfect Continuous', url: 'https://wordwall.net/play/10820/227/9928' },
+
+
+        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
+     ]
+
+
+    },{
+        id:11,
+       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
+       title:"Nivel Experienced Trainer",
+       subtitle:"asdasd",
+
+       dateAdded:"Basic 10",
+       channel:"sdasd",
+       description:"Desarrollando habilidades lingüísticas fundamentales",
+       enlaces: [
+        { titulo: 'although, however, in spite of, despite', url: 'https://wordwall.net/play/26923/219/206' },
+         { titulo: 'PRESENT PERFECT Exercises Grammar', url: 'https://wordwall.net/play/20930/047/3447' },
+
+         { titulo: 'Since and for', url: 'https://wordwall.net/play/22172/068/39116' },
+                 { titulo: 'Present Perfect vs Present Perfect Continuous', url: 'https://wordwall.net/play/10820/227/9928' },
+
+
+        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
+     ]
+
+
+    },{
+        id:12,
+       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
+       title:"Nivel Experienced Trainer",
+       subtitle:"asdasd",
+
+       dateAdded:"Basic 11",
+       channel:"sdasd",
+       description:"Desarrollando habilidades lingüísticas fundamentales",
+       enlaces: [
+        { titulo: '📒[slides] Time clauses I ', url: 'https://docs.google.com/presentation/d/1jRjvfeYY0pNPABCDi0F7TxPhRtgvf2rJ/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
+         { titulo: '📒[slides] Similarity and agreement', url: 'https://docs.google.com/presentation/d/1aA5Q9LqM9nIxfgJ_QXrXPLKHuZtx2beu/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
+
+         { titulo: '📒[slides] Explanation Past Progressive', url: 'https://docs.google.com/presentation/d/1vdes1YGErLQlydpHdRVOv1MJcymHiNWr/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
+         { titulo: '📒[slides] Explanation Past Progressive vs Past Simple', url: 'https://docs.google.com/presentation/d/1OOieX_KRY80lbTVWR9iNmsQdeljR8p2u/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
+
+
+        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
+     ]
+
+
+    },{
+        id:13,
+       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
+       title:"Nivel Experienced Trainer",
+       subtitle:"asdasd",
+
+       dateAdded:"Basic 12",
+       channel:"sdasd",
+       description:"Desarrollando habilidades lingüísticas fundamentales",
+       enlaces: [
+        { titulo: '📒[slides] Explanation Used to', url: 'https://docs.google.com/presentation/d/1TDItudKkMsiBgTFP_vf8GRr3lsTXjpfW/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
+         { titulo: '📒[slides] Explanation Comparison As...As', url: 'https://docs.google.com/presentation/d/1rMdmtkVa39vMk8j2ol8tf4Y4kQ-0Xxg6/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
+
+         { titulo: '📒[slides] Modal Verbs of Necessity ', url: 'https://docs.google.com/presentation/d/1yLoUCJ7980tV_LN3QC_W7FeCAa4gUsua/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
+                 { titulo: 'Present Perfect vs Present Perfect Continuous', url: 'https://wordwall.net/play/10820/227/9928' },
+
+
+        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
+     ]
+
+
+    },{
+        id:14,
+       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
+       title:"Nivel Experienced Trainer",
+       subtitle:"asdasd",
+
+       dateAdded:"Intermediate  01",
+       channel:"sdasd",
+       description:"Desarrollando habilidades lingüísticas fundamentales",
+       enlaces: [
+        { titulo: 'although, however, in spite of, despite', url: 'https://wordwall.net/play/26923/219/206' },
+         { titulo: 'PRESENT PERFECT Exercises Grammar', url: 'https://wordwall.net/play/20930/047/3447' },
+
+         { titulo: 'Since and for', url: 'https://wordwall.net/play/22172/068/39116' },
+                 { titulo: 'Present Perfect vs Present Perfect Continuous', url: 'https://wordwall.net/play/10820/227/9928' },
+
+
+        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
+     ]
+
+
+    },{
+        id:15,
+       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
+       title:"Nivel Experienced Trainer",
+       subtitle:"asdasd",
+
+       dateAdded:"Intermediate  02",
+       channel:"sdasd",
+       description:"Desarrollando habilidades lingüísticas fundamentales",
+       enlaces: [
+        { titulo: 'although, however, in spite of, despite', url: 'https://wordwall.net/play/26923/219/206' },
+         { titulo: 'PRESENT PERFECT Exercises Grammar', url: 'https://wordwall.net/play/20930/047/3447' },
+
+         { titulo: 'Since and for', url: 'https://wordwall.net/play/22172/068/39116' },
+                 { titulo: 'Present Perfect vs Present Perfect Continuous', url: 'https://wordwall.net/play/10820/227/9928' },
+
+
+        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
+     ]
+
+
+    },{
+        id:16,
+       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
+       title:"Nivel Experienced Trainer",
+       subtitle:"asdasd",
+
+       dateAdded:"Intermediate  03",
+       channel:"sdasd",
+       description:"Desarrollando habilidades lingüísticas fundamentales",
+       enlaces: [
+        { titulo: 'although, however, in spite of, despite', url: 'https://wordwall.net/play/26923/219/206' },
+         { titulo: 'PRESENT PERFECT Exercises Grammar', url: 'https://wordwall.net/play/20930/047/3447' },
+
+         { titulo: 'Since and for', url: 'https://wordwall.net/play/22172/068/39116' },
+                 { titulo: 'Present Perfect vs Present Perfect Continuous', url: 'https://wordwall.net/play/10820/227/9928' },
+
+
+        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
+     ]
+
+
+    },{
+        id:17,
+       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
+       title:"Nivel Experienced Trainer",
+       subtitle:"asdasd",
+
+       dateAdded:"Intermediate  04",
+       channel:"sdasd",
+       description:"Desarrollando habilidades lingüísticas fundamentales",
+       enlaces: [
+        { titulo: 'although, however, in spite of, despite', url: 'https://wordwall.net/play/26923/219/206' },
+         { titulo: 'PRESENT PERFECT Exercises Grammar', url: 'https://wordwall.net/play/20930/047/3447' },
+
+         { titulo: 'Since and for', url: 'https://wordwall.net/play/22172/068/39116' },
+                 { titulo: 'Present Perfect vs Present Perfect Continuous', url: 'https://wordwall.net/play/10820/227/9928' },
+
+
+        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
+     ]
+
+
+    },{
+        id:18,
+       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
+       title:"Nivel Experienced Trainer",
+       subtitle:"asdasd",
+
+       dateAdded:"Basic 06",
+       channel:"sdasd",
+       description:"Desarrollando habilidades lingüísticas fundamentales",
+       enlaces: [
+        { titulo: 'although, however, in spite of, despite', url: 'https://wordwall.net/play/26923/219/206' },
+         { titulo: 'PRESENT PERFECT Exercises Grammar', url: 'https://wordwall.net/play/20930/047/3447' },
+
+         { titulo: 'Since and for', url: 'https://wordwall.net/play/22172/068/39116' },
+                 { titulo: 'Present Perfect vs Present Perfect Continuous', url: 'https://wordwall.net/play/10820/227/9928' },
+
+
+        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
+     ]
+
+
+    },{
+        id:19,
+       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
+       title:"Nivel Experienced Trainer",
+       subtitle:"asdasd",
+
+       dateAdded:"Basic 06",
+       channel:"sdasd",
+       description:"Desarrollando habilidades lingüísticas fundamentales",
+       enlaces: [
+        { titulo: 'although, however, in spite of, despite', url: 'https://wordwall.net/play/26923/219/206' },
+         { titulo: 'PRESENT PERFECT Exercises Grammar', url: 'https://wordwall.net/play/20930/047/3447' },
+
+         { titulo: 'Since and for', url: 'https://wordwall.net/play/22172/068/39116' },
+                 { titulo: 'Present Perfect vs Present Perfect Continuous', url: 'https://wordwall.net/play/10820/227/9928' },
+
+
+        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
+     ]
+
+
+    },{
+        id:20,
+       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
+       title:"Nivel Experienced Trainer",
+       subtitle:"asdasd",
+
+       dateAdded:"Basic 06",
+       channel:"sdasd",
+       description:"Desarrollando habilidades lingüísticas fundamentales",
+       enlaces: [
+        { titulo: 'although, however, in spite of, despite', url: 'https://wordwall.net/play/26923/219/206' },
+         { titulo: 'PRESENT PERFECT Exercises Grammar', url: 'https://wordwall.net/play/20930/047/3447' },
+
+         { titulo: 'Since and for', url: 'https://wordwall.net/play/22172/068/39116' },
+                 { titulo: 'Present Perfect vs Present Perfect Continuous', url: 'https://wordwall.net/play/10820/227/9928' },
+
+
+        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
+     ]
+
+
+    },{
+        id:21,
+       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
+       title:"Nivel Experienced Trainer",
+       subtitle:"asdasd",
+
+       dateAdded:"Basic 06",
+       channel:"sdasd",
+       description:"Desarrollando habilidades lingüísticas fundamentales",
+       enlaces: [
+        { titulo: 'although, however, in spite of, despite', url: 'https://wordwall.net/play/26923/219/206' },
+         { titulo: 'PRESENT PERFECT Exercises Grammar', url: 'https://wordwall.net/play/20930/047/3447' },
+
+         { titulo: 'Since and for', url: 'https://wordwall.net/play/22172/068/39116' },
+                 { titulo: 'Present Perfect vs Present Perfect Continuous', url: 'https://wordwall.net/play/10820/227/9928' },
+
+
+        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
+     ]
+
+
+    },{
+        id:22,
+       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
+       title:"Nivel Experienced Trainer",
+       subtitle:"asdasd",
+
+       dateAdded:"Basic 06",
+       channel:"sdasd",
+       description:"Desarrollando habilidades lingüísticas fundamentales",
+       enlaces: [
+        { titulo: 'although, however, in spite of, despite', url: 'https://wordwall.net/play/26923/219/206' },
+         { titulo: 'PRESENT PERFECT Exercises Grammar', url: 'https://wordwall.net/play/20930/047/3447' },
+
+         { titulo: 'Since and for', url: 'https://wordwall.net/play/22172/068/39116' },
+                 { titulo: 'Present Perfect vs Present Perfect Continuous', url: 'https://wordwall.net/play/10820/227/9928' },
+
+
+        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
+     ]
+
+
+    },{
+        id:23,
+       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
+       title:"Nivel Experienced Trainer",
+       subtitle:"asdasd",
+
+       dateAdded:"Basic 06",
+       channel:"sdasd",
+       description:"Desarrollando habilidades lingüísticas fundamentales",
+       enlaces: [
+        { titulo: 'although, however, in spite of, despite', url: 'https://wordwall.net/play/26923/219/206' },
+         { titulo: 'PRESENT PERFECT Exercises Grammar', url: 'https://wordwall.net/play/20930/047/3447' },
+
+         { titulo: 'Since and for', url: 'https://wordwall.net/play/22172/068/39116' },
+                 { titulo: 'Present Perfect vs Present Perfect Continuous', url: 'https://wordwall.net/play/10820/227/9928' },
+
+
+        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
+     ]
+
+
+    },{
+        id:24,
+       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
+       title:"Nivel Experienced Trainer",
+       subtitle:"asdasd",
+
+       dateAdded:"Basic 06",
+       channel:"sdasd",
+       description:"Desarrollando habilidades lingüísticas fundamentales",
+       enlaces: [
+        { titulo: 'although, however, in spite of, despite', url: 'https://wordwall.net/play/26923/219/206' },
+         { titulo: 'PRESENT PERFECT Exercises Grammar', url: 'https://wordwall.net/play/20930/047/3447' },
+
+         { titulo: 'Since and for', url: 'https://wordwall.net/play/22172/068/39116' },
+                 { titulo: 'Present Perfect vs Present Perfect Continuous', url: 'https://wordwall.net/play/10820/227/9928' },
+
+
+        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
+     ]
+
+
     },
     {
-        id:8,
+        id:25,
        thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
        title:"B1 Preliminary",
        subtitle:"asdasd",
@@ -201,7 +564,7 @@ export const road =[
 
     },
     {
-        id:9,
+        id:26,
        thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
        title:"Nivel Experienced Trainer",
        subtitle:"asdasd",
