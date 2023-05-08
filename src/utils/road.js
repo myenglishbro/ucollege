@@ -170,6 +170,10 @@ export const road =[
        description:"Desarrollando habilidades lingüísticas fundamentales",
        enlaces: [
         { titulo: '📒[slides]Food in English + Describing food in English', url: 'https://docs.google.com/presentation/d/1ea3d6wBVgcjuOsMoq3_nAuI-ZT9SrIxa/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
+        { titulo: 'A/Some/Any I Exercises', url: 'https://wordwall.net/play/10233/308/44280' },
+        { titulo: '📒[slides] Vocabulary-At the Restaurant 1 ', url: 'https://docs.google.com/presentation/d/1Hw5NLZdI9y9rruKi--qHDiFxcCH07WYp/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
+
+        { titulo: 'Conversation At the Restaurant 1 ', url: 'https://docs.google.com/presentation/d/174rPUtaLiCPNGmHnYgK-LEgdubJOQtoS/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
 
         { titulo: '📒[slides] Past Simple Verb be', url: 'https://docs.google.com/presentation/d/1WuALZwdoDRnIAVWE_WubIVTQBdUWaDD3/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
          { titulo: '📒[slides] Past Simple Regular Verbs', url: 'https://docs.google.com/presentation/d/1Cr2cQUu8idcA7w2msXHlFyEOKSc5FDpd/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
