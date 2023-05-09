@@ -16,8 +16,8 @@ const Horario = () => {
           <li class="list-group-item">12:00-01:00 pm 🟢 Open</li>
 
           <li class="list-group-item">01:00-02:00 pm 🟢 Open</li>
-          <li class="list-group-item bg-warning">02:00-03:00 pm 🔴 Gaby</li>
-          <li class="list-group-item bg-warning">03:00-04:00 pm 🔴 Gaby</li>
+          <li class="list-group-item ">02:00-03:00 pm 🟢 Open</li>
+          <li class="list-group-item ">03:00-04:00 pm 🟢 Open</li>
           <li class="list-group-item">04:00-05:00 pm 🟢 Open</li>
           <li class="list-group-item bg-warning">05:00-06:00 pm 🔴 Rita</li>
           <li class="list-group-item">06:00-07:00 pm 🟢 Open</li>
@@ -43,8 +43,10 @@ const Horario = () => {
           <li class="list-group-item">12:00-01:00 pm 🟢 Open</li>
 
           <li class="list-group-item">01:00-02:00 pm 🟢 Open</li>
-          <li class="list-group-item bg-warning">02:00-03:00 pm 🔴 Raul</li>
-          <li class="list-group-item bg-warning">03:00-04:00 pm 🔴 Raul</li>
+          {/* <li class="list-group-item bg-warning">02:00-03:00 pm 🔴 Raul</li>
+          <li class="list-group-item bg-warning">03:00-04:00 pm 🔴 Raul</li> */}
+          <li class="list-group-item ">02:00-03:00 pm 🟢 Open</li>
+          <li class="list-group-item ">03:00-04:00 pm 🟢 Open</li>
           <li class="list-group-item">04:00-05:00 pm 🟢 Open</li>
           <li class="list-group-item bg-warning">05:00-06:00 pm 🔴 Rita</li>
           <li class="list-group-item">06:00-07:00 pm 🟢 Open</li>
@@ -69,8 +71,10 @@ const Horario = () => {
           <li class="list-group-item">12:00-01:00 pm 🟢 Open</li>
 
           <li class="list-group-item">01:00-02:00 pm 🟢 Open</li>
-          <li class="list-group-item bg-warning">02:00-03:00 pm 🔴 Gaby</li>
-          <li class="list-group-item bg-warning">03:00-04:00 pm 🔴 Gaby</li>
+          {/* <li class="list-group-item bg-warning">02:00-03:00 pm 🔴 Gaby</li>
+          <li class="list-group-item bg-warning">03:00-04:00 pm 🔴 Gaby</li> */}
+          <li class="list-group-item ">02:00-03:00 pm 🟢 Open</li>
+          <li class="list-group-item ">03:00-04:00 pm 🟢 Open</li>
           <li class="list-group-item">04:00-05:00 pm 🟢 Open</li>
           <li class="list-group-item">05:00-06:00 pm 🟢 Open</li>
           <li class="list-group-item ">06:00-07:00 pm 🟢 Open</li>
@@ -95,8 +99,10 @@ const Horario = () => {
           <li class="list-group-item">12:00-01:00 pm 🟢 Open</li>
 
           <li class="list-group-item">01:00-02:00 pm 🟢 Open</li>
-          <li class="list-group-item bg-warning">02:00-03:00 pm 🔴 Gaby</li>
-          <li class="list-group-item bg-warning">03:00-04:00 pm 🔴 Gaby</li>
+          {/* <li class="list-group-item bg-warning">02:00-03:00 pm 🔴 Gaby</li>
+          <li class="list-group-item bg-warning">03:00-04:00 pm 🔴 Gaby</li> */}
+          <li class="list-group-item ">02:00-03:00 pm 🟢 Open</li>
+          <li class="list-group-item ">03:00-04:00 pm 🟢 Open</li>
           <li class="list-group-item">04:00-05:00 pm 🟢 Open</li>
           <li class="list-group-item bg-warning">05:00-06:00 pm 🔴 Rita</li>
           <li class="list-group-item">06:00-07:00 pm 🟢 Open</li>
@@ -121,8 +127,10 @@ const Horario = () => {
           <li class="list-group-item">12:00-01:00 pm 🟢 Open</li>
 
           <li class="list-group-item">01:00-02:00 pm 🟢 Open</li>
-          <li class="list-group-item bg-warning">02:00-03:00 pm 🔴 Gaby</li>
-          <li class="list-group-item bg-warning">03:00-04:00 pm 🔴 Gaby</li>
+          {/* <li class="list-group-item bg-warning">02:00-03:00 pm 🔴 Gaby</li>
+          <li class="list-group-item bg-warning">03:00-04:00 pm 🔴 Gaby</li> */}
+          <li class="list-group-item ">02:00-03:00 pm 🟢 Open</li>
+          <li class="list-group-item ">03:00-04:00 pm 🟢 Open</li>
           <li class="list-group-item bg-warning">04:00-05:00 pm 🔴 Rafael</li>
           <li class="list-group-item bg-warning">05:00-06:00 pm 🔴 Rita</li>
           <li class="list-group-item">06:00-07:00 pm 🟢 Open</li>
