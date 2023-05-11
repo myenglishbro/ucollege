@@ -12,9 +12,12 @@ export const road =[
        enlaces: [
         { titulo: '🎥Inicio de la Ruta ', url: 'https://youtu.be/QtAYBkoGbGE' },
         { titulo: '🎥El Alfabeto', url: 'https://youtu.be/7hvj0Pu7tNw' },
+        { titulo: '📒[slides] The Alphabet', url: 'https://docs.google.com/presentation/d/1wlKwo_huYQR9p3upX0if-7t12nZpJUAk/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
         { titulo: '🎯Completa la letra que falta', url: 'https://wordwall.net/play/9163/020/4770' },
         { titulo: '🎯True/False Alphabet Sounds', url: 'https://wordwall.net/play/4207/022/7865' },
         { titulo: '🎯Completa la letra que falta II', url: 'https://wordwall.net/play/26160/270/111' },
+        { titulo: '📒[slides] Los Números', url: 'https://docs.google.com/presentation/d/11JeUAoJbYl5ajCeiSY3od79moVxSmzpA/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
+
          { titulo: '🎯 The Pronouns', url: 'https://wordwall.net/play/28743/414/132' },
          { titulo: '🎯 The Pronouns II', url: 'https://wordwall.net/play/35940/872/5428' },
          { titulo: '🎯Transformation Pronouns', url: 'https://wordwall.net/play/16432/831/5065' },
@@ -24,6 +27,7 @@ export const road =[
          { titulo: '🎯The verb Be - Negative form', url: 'https://wordwall.net/play/21191/050/1795' },
          { titulo: '🎯Complete the text with a subject pronoun or verb be', url: 'https://wordwall.net/play/18793/352/96020' },
 
+         { titulo: '📒[slides] Correct the Sentences with The Verb Be in Questions', url: 'https://docs.google.com/presentation/d/1PmPGCCydt73O4vXTB9ThQdiMk-zSdZs0/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
 
           { titulo: '🎯The verb Be -mixed sentences', url: 'https://wordwall.net/play/25528/529/57485' },
 
@@ -42,6 +46,9 @@ export const road =[
        channel:"sdasd",
        description:"Desarrollando habilidades lingüísticas fundamentales",
        enlaces: [
+        { titulo: '📒[slides] Explanation A vs An', url: 'https://docs.google.com/presentation/d/1BYiXWa6xeAQEo2f9z8jtX8Hs5Or8mBop/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
+        { titulo: '📒[slides] Plurals', url: 'https://docs.google.com/presentation/d/19UibyI2RmL5pSMSCLHXTw8ENNWED9Xfe/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
+
         { titulo: '🎯Present Simple spelling rules He/She/It', url: 'https://wordwall.net/play/768/935/3716' },
         { titulo: '🎯Present Simple spelling rules He/She/It II', url: 'https://wordwall.net/play/28761/823/542' },
         { titulo: '🎯Present Simple He/She/It tenses I', url: 'https://wordwall.net/play/20080/716/98496' },
@@ -68,15 +75,27 @@ export const road =[
        channel:"sdasd",
        description:"Desarrollando habilidades lingüísticas fundamentales",
        enlaces: [
+        { titulo: '📒[slides] Possessive Nouns', url: 'https://docs.google.com/presentation/d/1bLZnrTpjyce03zBK452iwIl22MscWXAb/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
+        { titulo: '📒[slides] Vocabulary Family', url: 'https://docs.google.com/presentation/d/1vLAkUKANVHp8qr4HqaPaEeURLruLyKxx/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
+
         { titulo: '📒[slides] Explanation Present Progressive', url: 'https://docs.google.com/presentation/d/1touUa7OZ1X1ikWmzNS7lppVA8MesWigC/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
         { titulo: '🎯Present Progressive ING RULES', url: 'https://wordwall.net/play/27696/610/498' },
         { titulo: '🎯Present Simple vs Present Progressive', url: 'https://wordwall.net/play/51862/890/1585' },
         { titulo: '🎯Present Simple vs Present Progressive II', url: 'https://wordwall.net/play/27470/421/60049' },
         { titulo: '📒[slides] Explanation Adverbs of Frequency', url: 'https://docs.google.com/presentation/d/12feKDZwOqILPrUSp6Nm6vtYqfcgjaQqR/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
+        { titulo: '🎯 Adverbs of Frequency I', url: 'https://wordwall.net/play/4419/724/3748' },
+        { titulo: '🎯 Adverbs of Frequency II ', url: 'https://wordwall.net/play/36427/599/717' },
+
+        { titulo: '🎯 Adverbs of Frequency Order the words', url: 'https://wordwall.net/play/18020/118/4195' },
+        { titulo: '🎯ADVERBS OF FREQUENCY & EXPRESSIONS OF FREQUENCY', url: 'https://wordwall.net/play/43464/312/256' },
+
 
         { titulo: '🎯Vocabulario en inglés', url: 'https://www.example2.com' },
         { titulo: '🎯Ejercicios de gramática', url: 'https://www.example3.com' },
         { titulo: '📒[slides] Explanation Non Action Verbs', url: 'https://docs.google.com/presentation/d/1iRId98sfwylaVNdIwLgAp1fTvSyFxzQw/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
+        { titulo: '🎯 Stative Verbs Group Exercise', url: 'https://wordwall.net/play/34083/656/824' },
+        { titulo: '🎯 Stative Verbs vs Dynamic Verbs 1', url: 'https://wordwall.net/play/35891/342/229' },
+        { titulo: '🎯 Stative Verbs vs Dynamic Verbs 2', url: 'https://wordwall.net/play/29172/527/2575' },
 
      ]
 
@@ -92,6 +111,14 @@ export const road =[
        channel:"sdasd",
        description:"Desarrollando habilidades lingüísticas fundamentales",
        enlaces: [
+        { titulo: '📒[slides] La hora en Ingles', url: 'https://docs.google.com/presentation/d/1En8CAC9wcrXYWSawMEirZO7gU8tsAmBi/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
+        { titulo: '📒[slides] Making Suggestions Lets and Could', url: 'https://docs.google.com/presentation/d/152lX6FIORqoOI59MOv28XNZ4CoxZNMEh/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
+        { titulo: '📒[slides] Prepositions of Time', url: 'https://docs.google.com/presentation/d/1aWoKAeyUeC6kUluXaBHWZhKoC2li7KLN/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
+
+        { titulo: '🎯 Adverbs of manner [Adjectives or Adverbs ]', url: 'https://wordwall.net/play/29172/527/2575' },
+
+        { titulo: '🎯 Adjectives vs  Adverbs', url: 'https://wordwall.net/play/29039/222/636' },
+
         { titulo: '🎯Choose was or were', url: 'https://wordwall.net/play/29622/041/22470' },
         { titulo: '🎯Past Simple: Was/Were - Famous people', url: 'https://wordwall.net/play/35556/282/228' },
         { titulo: '🎯Simple Past of Regular Verbs - Spelling', url: 'https://wordwall.net/play/15209/196/82941' },
