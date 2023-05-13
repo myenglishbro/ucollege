@@ -180,9 +180,13 @@ export const road =[
        description:"Desarrollando habilidades lingüísticas fundamentales",
        enlaces: [
         { titulo: 'Word formation nouns & adjectives', url: 'https://wordwall.net/play/29190/295/941' },
-       
-
-        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
+        { titulo: '📒[slides]Some and Any', url: 'https://docs.google.com/presentation/d/1UaeuTpsBrQ5b4bOdHJCvX-XNPiTP1Fze/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
+        { titulo: '📒[slides]Super Market Sections and Partitives', url: 'https://docs.google.com/presentation/d/1L-Hv6M6viuSIc11rB_guEbzdWonYLCBU/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
+        { titulo: 'Some vs Any', url: 'https://wordwall.net/play/19154/472/1306' },  
+        { titulo: 'A/an vs Some vs Any', url: 'https://wordwall.net/play/54748/815/185' },
+        { titulo: 'A lot of vs Much vs Many', url: 'https://wordwall.net/play/19111/340/3951' },
+        { titulo: 'A Little vs A Few', url: 'https://wordwall.net/play/4383/884/1686' },
+        { titulo: 'Few - a few - little - a little	', url: 'https://wordwall.net/play/55823/038/905' }
      ]
 
 
