@@ -12,6 +12,8 @@ const Horario = () => {
     <li>🕘 9:15 pm - 10:45 pm</li>
   </ul>
   <hr></hr>
+    <p class="mb-0">Si tienes un paquete de clases en progreso seguiras en el mismo horario hasta terminar el mes 🙌✨</p>
+
   <p class="mb-0">Ambos horarios no estarán disponibles hasta nuevo aviso. Nos complace informarles que este evento comenzará en junio. Por favor, tenganlo en cuenta y estén atentos a cualquier actualización. ¡Gracias por su atención y participación! 🙌✨</p>
 </div>
 
@@ -35,8 +37,7 @@ const Horario = () => {
           <li class="list-group-item">04:00-05:00 pm 🟢 Open</li>
           <li class="list-group-item bg-warning">05:00-06:00 pm 🔴 Rita</li>
           <li class="list-group-item">06:00-07:00 pm 🟢 Open</li>
-          <li class="list-group-item bg-warning">07:00-08:00 pm 🔴 Sandra</li>
-          <li class="list-group-item  ">08:00-09:00 pm 🟢 Open</li>
+       
           
           <li class="list-group-item ">11:00-12:00 pm 🟢 Open</li>
 
@@ -62,8 +63,7 @@ const Horario = () => {
           <li class="list-group-item">04:00-05:00 pm 🟢 Open</li>
           <li class="list-group-item bg-warning">05:00-06:00 pm 🔴 Rita</li>
           <li class="list-group-item">06:00-07:00 pm 🟢 Open</li>
-          <li class="list-group-item bg-warning">07:00-08:00 pm 🔴  Sandra</li>
-          <li class="list-group-item  ">08:00-09:00 pm 🟢 Open</li>
+         
           
           <li class="list-group-item ">11:00-12:00 pm 🟢 Open</li>
 
@@ -88,8 +88,7 @@ const Horario = () => {
           <li class="list-group-item">04:00-05:00 pm 🟢 Open</li>
           <li class="list-group-item">05:00-06:00 pm 🟢 Open</li>
           <li class="list-group-item ">06:00-07:00 pm 🟢 Open</li>
-          <li class="list-group-item bg-warning">07:00-08:00 pm 🔴  Sandra</li>
-          <li class="list-group-item  ">08:00-09:00 pm 🟢 Open</li>
+          
         
           <li class="list-group-item ">11:00-12:00 pm 🟢 Open</li>
 
@@ -140,8 +139,7 @@ const Horario = () => {
           <li class="list-group-item bg-warning">04:00-05:00 pm 🔴 Rafael</li>
           <li class="list-group-item bg-warning">05:00-06:00 pm 🔴 Rita</li>
           <li class="list-group-item">06:00-07:00 pm 🟢 Open</li>
-          <li class="list-group-item ">07:00-08:00 pm 🟢 Open</li>
-          <li class="list-group-item ">08:00-09:00 pm 🟢 Open</li>
+         
           
           <li class="list-group-item ">11:00-12:00 pm 🟢 Open</li>
 
