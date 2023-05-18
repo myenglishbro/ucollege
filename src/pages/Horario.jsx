@@ -6,13 +6,13 @@ const Horario = () => {
 
 <div class="alert alert-primary" role="alert">
   <h4 class="alert-heading">📢 ¡Atención estudiantes!👩‍🏫🤓✍️</h4>
-  <p>Queridos estudiantes, les pedimos amablemente que tomen en cuenta que los siguientes horarios han sido reservados con antelación desde Junio en Adelante:</p>
+  <p>Queridos estudiantes, les pedimos amablemente que tomen en cuenta que los siguientes horarios ya no estarán disponibles desde Junio en Adelante:</p>
   <ul>
     <li>🕢 7:30 pm - 9:00 pm</li>
     <li>🕘 9:15 pm - 10:45 pm</li>
   </ul>
   <hr></hr>
-  <p class="mb-0">Ambos horarios están reservados hasta nuevo aviso. Nos complace informarles que este evento comenzará en junio. Por favor, tenganlo en cuenta y estén atentos a cualquier actualización. ¡Gracias por su atención y participación! 🙌✨</p>
+  <p class="mb-0">Ambos horarios no estarán disponibles hasta nuevo aviso. Nos complace informarles que este evento comenzará en junio. Por favor, tenganlo en cuenta y estén atentos a cualquier actualización. ¡Gracias por su atención y participación! 🙌✨</p>
 </div>
 
 
