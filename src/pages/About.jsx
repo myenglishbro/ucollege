@@ -1,9 +1,11 @@
 import React from 'react'
 import MiImagen from '../img/carloswqe.png';
 
+
 const About = () => {
   return (
    <>
+    
      <div class="bg-light text-dark p-5 p-lg-0 pt-lg-5 pb-lg-5  text-sm-start">
     <div class="container-fluid p-5 gap-5 add-style">
         <div class="d-sm-flex d-block d-md-flex align-items-center justify-content-between">
