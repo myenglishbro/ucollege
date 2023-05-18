@@ -22,7 +22,6 @@ const Horario = () => {
       <div class="col-lg-2">
       <h5 class="text-center">Monday 🌞</h5>
       <ul class="list-group list-group-flush">
-      <li class="list-group-item ">07:00-08:00 am 🟢 Open</li>
 
       <li class="list-group-item ">08:00-09:00 am 🟢 Open</li>
           <li class="list-group-item ">09:00-10:00 am 🟢 Open</li>
@@ -37,7 +36,7 @@ const Horario = () => {
           <li class="list-group-item bg-warning">05:00-06:00 pm 🔴 Rita</li>
           <li class="list-group-item">06:00-07:00 pm 🟢 Open</li>
           <li class="list-group-item bg-warning">07:00-08:00 pm 🔴 Sandra</li>
-          <li class="list-group-item bg-warning ">08:00-09:00 pm 🔴 Brayan</li>
+          <li class="list-group-item  ">08:00-09:00 pm 🟢 Open</li>
           
           <li class="list-group-item ">11:00-12:00 pm 🟢 Open</li>
 
@@ -47,7 +46,6 @@ const Horario = () => {
       <div class="col-lg-2">
       <h5 class="text-center">Tuesday 🌈</h5>
       <ul class="list-group list-group-flush">
-      <li class="list-group-item ">07:00-08:00 am 🟢 Open</li>
 
       <li class="list-group-item ">08:00-09:00 am 🟢 Open</li>
 
@@ -74,7 +72,6 @@ const Horario = () => {
       <div class="col-lg-2">
       <h5 class="text-center">Wednesday 🌟</h5>
       <ul class="list-group list-group-flush">
-      <li class="list-group-item ">07:00-08:00 am 🟢 Open</li>
 
       <li class="list-group-item ">08:00-09:00 am 🟢 Open</li>
 
@@ -92,7 +89,7 @@ const Horario = () => {
           <li class="list-group-item">05:00-06:00 pm 🟢 Open</li>
           <li class="list-group-item ">06:00-07:00 pm 🟢 Open</li>
           <li class="list-group-item bg-warning">07:00-08:00 pm 🔴  Sandra</li>
-          <li class="list-group-item bg-warning ">08:00-09:00 pm 🔴 Brayan</li>
+          <li class="list-group-item  ">08:00-09:00 pm 🟢 Open</li>
         
           <li class="list-group-item ">11:00-12:00 pm 🟢 Open</li>
 
@@ -101,7 +98,6 @@ const Horario = () => {
       <div class="col-lg-2">
       <h5 class="text-center">Thursday 🤗</h5>
       <ul class="list-group list-group-flush">
-      <li class="list-group-item ">07:00-08:00 am 🟢 Open</li>
 
       <li class="list-group-item ">08:00-09:00 am 🟢 Open</li>
 
@@ -128,7 +124,6 @@ const Horario = () => {
       <div class="col-lg-2">
       <h5 class="text-center">Friday 🥳</h5>
       <ul class="list-group list-group-flush">
-      <li class="list-group-item ">07:00-08:00 am 🟢 Open</li>
 
       <li class="list-group-item ">08:00-09:00 am 🟢 Open</li>
 
@@ -146,7 +141,7 @@ const Horario = () => {
           <li class="list-group-item bg-warning">05:00-06:00 pm 🔴 Rita</li>
           <li class="list-group-item">06:00-07:00 pm 🟢 Open</li>
           <li class="list-group-item ">07:00-08:00 pm 🟢 Open</li>
-          <li class="list-group-item bg-warning ">08:00-09:00 pm 🔴 Brayan</li>
+          <li class="list-group-item ">08:00-09:00 pm 🟢 Open</li>
           
           <li class="list-group-item ">11:00-12:00 pm 🟢 Open</li>
 
