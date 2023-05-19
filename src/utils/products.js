@@ -75,6 +75,45 @@ export const products =[
        enlaces:"https://www.udemy.com/course/preparacion-para-examen-internacional-cambridge/?referralCode=8C0D07FF34AA1F8DD6BF"
 
 
+    },
+    {
+        id:7,
+       thumbnail:"https://i.ibb.co/T1NG5Lk/sach-everday-conversations-english.png",
+       title:"Everyday Conversations:",
+       subtitle:"Learning American English",
+
+       dateAdded:"wswqe",
+       calificacion:"5,0⭐",
+       description:"This edition of Everyday Conversations is intended for the sixth- to seventh-grade level students of English as a Foreign Language (EFL) or English as a Second Language (ESL). It was produced by two bureaus in the U.S. Department of State: 🚀",
+       enlaces:"https://drive.google.com/file/d/18RWAXcrmlIm3DAhGNb9Ql1qCjjE-yTWE/view?usp=share_link"
+
+
+    },
+    {
+        id:8,
+       thumbnail:"https://i.ibb.co/9tMbPyS/default.jpg",
+       title:" DIALOGS FOR EVERYDAY USE 1",
+       subtitle:"Short Situational Dialogsfor Students of English as a Foreign Language",
+
+       dateAdded:"wswqe",
+       calificacion:"5,0⭐",
+       description:"Dialogs for Everyday Use are situationbased, the emphasis being on realism and naturalness to the extent that these are possible within the limitations imposed by a short, selfcontained text",
+       enlaces:"https://drive.google.com/file/d/1BlXUkUYc2vUeGPig_RoTBpuj5amBhuK2/view?usp=share_link"
+
+
+    },
+    {
+        id:9,
+       thumbnail:"https://i.ibb.co/n3w6chb/Dialogs-for-everyday-use-English-0000.jpg",
+       title:" DIALOGS FOR EVERYDAY USE 2",
+       subtitle:"Short Situational Dialogsfor Students of English as a Foreign Language",
+
+       dateAdded:"wswqe",
+       calificacion:"5,0⭐",
+       description:"Dialogs for Everyday Use are situationbased, the emphasis being on realism and naturalness to the extent that these are possible within the limitations imposed by a short, selfcontained text",
+       enlaces:"https://drive.google.com/file/d/1wftSDF3H1t0wFk3zJLXu5bT321maJKl3/view?usp=share_link"
+
+
     }
 
 ]
