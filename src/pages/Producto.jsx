@@ -10,7 +10,7 @@ const Producto = (props) => {
         <h5 class="card-title">{title}</h5>
         <p class="card-text">{description}</p>
         <p class="card-text">Calificación: {calificacion}</p>
-        <a href={enlaces} class="btn btn-primary">Adquirir Curso</a>
+        <a href={enlaces} class="btn btn-primary">Adquirir</a>
       </div>
     </div>
   );
