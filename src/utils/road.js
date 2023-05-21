@@ -21,6 +21,8 @@ export const road =[
          { titulo: '🎯 The Pronouns', url: 'https://wordwall.net/play/28743/414/132' },
          { titulo: '🎯 The Pronouns II', url: 'https://wordwall.net/play/35940/872/5428' },
          { titulo: '🎯Transformation Pronouns', url: 'https://wordwall.net/play/16432/831/5065' },
+         { titulo: '📒[slides] Imperatives', url: 'https://docs.google.com/presentation/d/1IBGfgt3RbQSgNHUolh8T0JyXjv4NfvLS/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
+
          { titulo: '📒[slides] Explanation The Verb Be', url: 'https://docs.google.com/presentation/d/1BcRVF50I_5gnPYd7dG07kPyULiFt-iF4/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
 
          { titulo: '🎯The verb Be - affirmative form', url: 'https://wordwall.net/play/13293/724/44295' },
@@ -31,6 +33,9 @@ export const road =[
 
           { titulo: '🎯The verb Be -mixed sentences', url: 'https://wordwall.net/play/25528/529/57485' },
 
+          { titulo: '📒[slides] Appliances and Devices', url: 'https://docs.google.com/presentation/d/1Y7XTKm9peHWZGf2gID97ZeaJxnRXQGB_/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
+          { titulo: '📒[slides] Appliances and Devices Quiz', url: 'https://docs.google.com/presentation/d/10O1XNoeHfwq6EzYHaJVGWIyLLU2cYAhw/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
+          { titulo: '📒[slides] Types of Music', url: 'https://docs.google.com/presentation/d/1cQ53yG99kRVqzeDiovW-eeh2P8_a_GM-/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
 
      ]
 
