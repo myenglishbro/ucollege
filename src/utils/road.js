@@ -128,6 +128,8 @@ export const road =[
         { titulo: '🎯Past Simple: Was/Were - Famous people', url: 'https://wordwall.net/play/35556/282/228' },
         { titulo: '🎯Simple Past of Regular Verbs - Spelling', url: 'https://wordwall.net/play/15209/196/82941' },
         { titulo: '🎯Simple Past of Irregular Verbs', url: 'https://wordwall.net/play/15208/131/77707' },
+        { titulo: '🗎[PDF] Los Verbos Irregulares ', url: 'https://drive.google.com/file/d/1RpV1uLe-A215sfP1S954zi2zQs_XDvDg/view?usp=share_link' },
+
         { titulo: '🎯Choose the correct Irregular Verbs', url: 'https://wordwall.net/play/23988/614/920' },
         { titulo: '🎯Present Simple or Past Simple', url: 'https://wordwall.net/play/9677/319/360548' },
         { titulo: '🎯IRREGULAR VERBS - Simple Past', url: 'https://wordwall.net/play/51839/315/236' },
@@ -614,7 +616,7 @@ export const road =[
        channel:"sdasd",
        description:"Desarrollando habilidades lingüísticas fundamentales",
        enlaces: [
-        { titulo: '🗣️Questions-Situations 1', url: 'https://youtu.be/W_NAHM1aQ3c' },
+        { titulo: '📒[slides] Inverted Conditionals', url: 'https://docs.google.com/presentation/d/10RUYwHbZ3d_GMwCUHtVJu-P-JAYoS5z_/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
         { titulo: '🗣️Simulacion Visa 1', url: 'https://youtu.be/rMfG3rYSlh0' },
         { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
      ]

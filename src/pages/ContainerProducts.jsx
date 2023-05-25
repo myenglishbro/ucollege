@@ -38,6 +38,8 @@ const ContainerProducts = () => {
             calificacion={item.calificacion}
             description={item.description}
             enlaces={item.enlaces}
+            precio={item.precio}
+            demo={item.demo}
           />
         ))}
       </div>

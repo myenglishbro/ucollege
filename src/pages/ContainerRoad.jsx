@@ -1,4 +1,3 @@
-import React from 'react'
 import {road} from "../utils/road"
 import Hito from './Hito'
 

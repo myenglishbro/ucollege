@@ -7,7 +7,9 @@ export const products =[
        dateAdded:"wswqe",
        calificacion:"4,6⭐",
        description:"John Hughes is an award-winning ELT author with thirty years experience of teaching and teacher training. He has worked with learners and teachers from all over the world and is a well-known conference presenter. For National Geographic Learning, he is an author on the course series Life, World English, Third Edition World Link, Fourth Edition, Success with Business, and Total Business. He is also the author of the methodology title, Critical Thinking in ELT. His website is www.johnhugheselt.com.",
-       enlaces:"https://www.udemy.com/course/aprende-y-mejora-tu-ingles-con-my-english-bro/?referralCode=EB755F8CD65CFE003578"
+       enlaces:"https://www.udemy.com/course/aprende-y-mejora-tu-ingles-con-my-english-bro/?referralCode=EB755F8CD65CFE003578",
+       precio:120,
+       demo:"https://www.youtube.com/watch?v=aIGtYIyjRHI"
 
 
     },
@@ -20,7 +22,9 @@ export const products =[
        dateAdded:"wswqe",
        calificacion:"4,7⭐",
        description:" 🌟 Aprende los trucos y técnicas para hablar y escribir en inglés de manera natural y efectiva. 📝🗣️ Ya sea que estés buscando mejorar tu gramática, vocabulario o pronunciación, nuestro curso te brinda las herramientas que necesitas para alcanzar tus metas. 🎯 Descubre la clave para comunicarte con confianza en cualquier situación y en cualquier parte del mundo. 🌎 ¡Únete a nosotros y comienza tu viaje hacia la fluidez en inglés hoy mismo! 🚀",
-       enlaces:"https://www.udemy.com/course/curso-de-ingles-metodologia-vivencial/?referralCode=30EF97C87848E5C61938"
+       enlaces:"https://www.udemy.com/course/curso-de-ingles-metodologia-vivencial/?referralCode=30EF97C87848E5C61938",
+       precio:120,
+       demo:"https://www.youtube.com/watch?v=aIGtYIyjRHI"
 
 
     },
@@ -33,7 +37,9 @@ export const products =[
        dateAdded:"wswqe",
        calificacion:"4,7⭐",
        description:" 🌟 Aprende los trucos y técnicas para hablar y escribir en inglés de manera natural y efectiva. 📝🗣️ Ya sea que estés buscando mejorar tu gramática, vocabulario o pronunciación, nuestro curso te brinda las herramientas que necesitas para alcanzar tus metas. 🎯 Descubre la clave para comunicarte con confianza en cualquier situación y en cualquier parte del mundo. 🌎 ¡Únete a nosotros y comienza tu viaje hacia la fluidez en inglés hoy mismo! 🚀",
-       enlaces:"https://www.udemy.com/course/ingles-para-developers-y-programadores/?referralCode=F86D79B89A958FA82FCF"
+       enlaces:"https://www.udemy.com/course/ingles-para-developers-y-programadores/?referralCode=F86D79B89A958FA82FCF",
+       precio:30,
+       demo:"AAS"
 
 
     },
@@ -46,7 +52,10 @@ export const products =[
        dateAdded:"wswqe",
        calificacion:"4,7⭐",
        description:" 🌟 Aprende los trucos y técnicas para hablar y escribir en inglés de manera natural y efectiva. 📝🗣️ Ya sea que estés buscando mejorar tu gramática, vocabulario o pronunciación, nuestro curso te brinda las herramientas que necesitas para alcanzar tus metas. 🎯 Descubre la clave para comunicarte con confianza en cualquier situación y en cualquier parte del mundo. 🌎 ¡Únete a nosotros y comienza tu viaje hacia la fluidez en inglés hoy mismo! 🚀",
-       enlaces:"https://www.udemy.com/course/curso-de-ingles-desde-cero-para-principiantes/?referralCode=2EF0B452ECB7C911031D"
+       enlaces:"https://www.udemy.com/course/curso-de-ingles-desde-cero-para-principiantes/?referralCode=2EF0B452ECB7C911031D",
+       precio:50,
+       demo:"AAS"
+
 
 
     },
@@ -59,7 +68,9 @@ export const products =[
        dateAdded:"wswqe",
        calificacion:"4,7⭐",
        description:" 🌟 Aprende los trucos y técnicas para hablar y escribir en inglés de manera natural y efectiva. 📝🗣️ Ya sea que estés buscando mejorar tu gramática, vocabulario o pronunciación, nuestro curso te brinda las herramientas que necesitas para alcanzar tus metas. 🎯 Descubre la clave para comunicarte con confianza en cualquier situación y en cualquier parte del mundo. 🌎 ¡Únete a nosotros y comienza tu viaje hacia la fluidez en inglés hoy mismo! 🚀",
-       enlaces:"https://www.udemy.com/course/mejora-tu-pronunciacion-en-ingles/?referralCode=1652573E2AA6BB961D20"
+       enlaces:"https://www.udemy.com/course/mejora-tu-pronunciacion-en-ingles/?referralCode=1652573E2AA6BB961D20",
+       precio:30,
+       demo:"AAS"
 
 
     },
@@ -72,7 +83,10 @@ export const products =[
        dateAdded:"wswqe",
        calificacion:"4,7⭐",
        description:" 🌟 Aprende los trucos y técnicas para hablar y escribir en inglés de manera natural y efectiva. 📝🗣️ Ya sea que estés buscando mejorar tu gramática, vocabulario o pronunciación, nuestro curso te brinda las herramientas que necesitas para alcanzar tus metas. 🎯 Descubre la clave para comunicarte con confianza en cualquier situación y en cualquier parte del mundo. 🌎 ¡Únete a nosotros y comienza tu viaje hacia la fluidez en inglés hoy mismo! 🚀",
-       enlaces:"https://www.udemy.com/course/preparacion-para-examen-internacional-cambridge/?referralCode=8C0D07FF34AA1F8DD6BF"
+       enlaces:"https://www.udemy.com/course/preparacion-para-examen-internacional-cambridge/?referralCode=8C0D07FF34AA1F8DD6BF",
+       precio:50,
+       demo:"AAS"
+
 
 
     },
@@ -85,7 +99,10 @@ export const products =[
        dateAdded:"wswqe",
        calificacion:"5,0⭐",
        description:"This edition of Everyday Conversations is intended for the sixth- to seventh-grade level students of English as a Foreign Language (EFL) or English as a Second Language (ESL). It was produced by two bureaus in the U.S. Department of State: 🚀",
-       enlaces:"https://drive.google.com/file/d/18RWAXcrmlIm3DAhGNb9Ql1qCjjE-yTWE/view?usp=share_link"
+       enlaces:"https://drive.google.com/file/d/18RWAXcrmlIm3DAhGNb9Ql1qCjjE-yTWE/view?usp=share_link",
+       precio:0,
+       demo:"AAS"
+
 
 
     },
@@ -98,7 +115,11 @@ export const products =[
        dateAdded:"wswqe",
        calificacion:"5,0⭐",
        description:"Dialogs for Everyday Use are situationbased, the emphasis being on realism and naturalness to the extent that these are possible within the limitations imposed by a short, selfcontained text",
-       enlaces:"https://drive.google.com/file/d/1BlXUkUYc2vUeGPig_RoTBpuj5amBhuK2/view?usp=share_link"
+       enlaces:"https://drive.google.com/file/d/1BlXUkUYc2vUeGPig_RoTBpuj5amBhuK2/view?usp=share_link",
+       precio:0,
+       demo:"AAS"
+
+
 
 
     },
@@ -111,7 +132,10 @@ export const products =[
        dateAdded:"wswqe",
        calificacion:"5,0⭐",
        description:"Dialogs for Everyday Use are situationbased, the emphasis being on realism and naturalness to the extent that these are possible within the limitations imposed by a short, selfcontained text",
-       enlaces:"https://drive.google.com/file/d/1wftSDF3H1t0wFk3zJLXu5bT321maJKl3/view?usp=share_link"
+       enlaces:"https://drive.google.com/file/d/1wftSDF3H1t0wFk3zJLXu5bT321maJKl3/view?usp=share_link",
+       precio:0,
+       demo:"AAS"
+
 
 
     },
@@ -123,7 +147,10 @@ export const products =[
         dateAdded:"wswqe",
         calificacion:"4,6⭐",
         description:"📚🇬🇧 ¡Aprende a hablar y escribir en inglés como un nativo! 🎉🎓 Descubre cómo comunicarte en inglés de manera efectiva y fluida con nuestro curso. 🗣️📝 Con nuestras lecciones prácticas y divertidas, mejorarás tu gramática, vocabulario y pronunciación de manera rápida y efectiva. 🚀 ¡No pierdas la oportunidad de alcanzar tus metas en el mundo globalizado de hoy! 💪💻",
-        enlaces:"https://www.udemy.com/course/aprende-y-mejora-tu-ingles-con-my-english-bro/?referralCode=EB755F8CD65CFE003578"
+        enlaces:"https://www.udemy.com/course/aprende-y-mejora-tu-ingles-con-my-english-bro/?referralCode=EB755F8CD65CFE003578",
+        precio:40,
+        demo:"AAS"
+
  
 
 
@@ -137,7 +164,26 @@ export const products =[
        dateAdded:"wswqe",
        calificacion:"4,7⭐",
        description:" 🌟 Aprende los trucos y técnicas para hablar y escribir en inglés de manera natural y efectiva. 📝🗣️ Ya sea que estés buscando mejorar tu gramática, vocabulario o pronunciación, nuestro curso te brinda las herramientas que necesitas para alcanzar tus metas. 🎯 Descubre la clave para comunicarte con confianza en cualquier situación y en cualquier parte del mundo. 🌎 ¡Únete a nosotros y comienza tu viaje hacia la fluidez en inglés hoy mismo! 🚀",
-       enlaces:"https://www.udemy.com/course/curso-de-ingles-metodologia-vivencial/?referralCode=30EF97C87848E5C61938"
+       enlaces:"https://www.udemy.com/course/curso-de-ingles-metodologia-vivencial/?referralCode=30EF97C87848E5C61938",
+       precio:40,
+       demo:"AAS"
+
+
+
+    },
+    {
+        id:12,
+       thumbnail:"https://i.ibb.co/L0BWd8d/sadasdas.jpg",
+       title:"30 Idioms Utiles - Real English Challenge",
+       subtitle:"Master the English Skills You Need for Success in Your Career and Studies",
+
+       dateAdded:"wswqe",
+       calificacion:"4,7⭐",
+       description:" 🌟 Aprende los trucos y técnicas para hablar y escribir en inglés de manera natural y efectiva. 📝🗣️ Ya sea que estés buscando mejorar tu gramática, vocabulario o pronunciación, nuestro curso te brinda las herramientas que necesitas para alcanzar tus metas. 🎯 Descubre la clave para comunicarte con confianza en cualquier situación y en cualquier parte del mundo. 🌎 ¡Únete a nosotros y comienza tu viaje hacia la fluidez en inglés hoy mismo! 🚀",
+       enlaces:"https://drive.google.com/file/d/1IyKFaBMWc_qjTIKuEJhRXcL5WGJp26av/view?usp=share_link",
+       precio:5.00,
+       demo:"AAS"
+
 
 
     }
