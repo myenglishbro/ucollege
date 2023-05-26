@@ -9,7 +9,7 @@ export const products =[
        description:"John Hughes is an award-winning ELT author with thirty years experience of teaching and teacher training. He has worked with learners and teachers from all over the world and is a well-known conference presenter. For National Geographic Learning, he is an author on the course series Life, World English, Third Edition World Link, Fourth Edition, Success with Business, and Total Business. He is also the author of the methodology title, Critical Thinking in ELT. His website is www.johnhugheselt.com.",
        enlaces:"https://www.udemy.com/course/aprende-y-mejora-tu-ingles-con-my-english-bro/?referralCode=EB755F8CD65CFE003578",
        precio:120,
-       demo:"https://www.youtube.com/watch?v=aIGtYIyjRHI"
+       demo:"https://www.youtube.com/watch?v=aTePXJUKJc0&ab_channel=MyEnglishBro"
 
 
     },
@@ -24,20 +24,20 @@ export const products =[
        description:" 🌟 Aprende los trucos y técnicas para hablar y escribir en inglés de manera natural y efectiva. 📝🗣️ Ya sea que estés buscando mejorar tu gramática, vocabulario o pronunciación, nuestro curso te brinda las herramientas que necesitas para alcanzar tus metas. 🎯 Descubre la clave para comunicarte con confianza en cualquier situación y en cualquier parte del mundo. 🌎 ¡Únete a nosotros y comienza tu viaje hacia la fluidez en inglés hoy mismo! 🚀",
        enlaces:"https://www.udemy.com/course/curso-de-ingles-metodologia-vivencial/?referralCode=30EF97C87848E5C61938",
        precio:120,
-       demo:"https://www.youtube.com/watch?v=aIGtYIyjRHI"
+       demo:"https://www.youtube.com/watch?v=aTePXJUKJc0&ab_channel=MyEnglishBro"
 
 
     },
     {
         id:3,
-        thumbnail:"https://preply.com/wp-content/uploads/2014/10/English-for-Programmers-1-e1663161533611.jpg",
-        title:"Inglés para Developers y Programadores",
+        thumbnail:"https://i.ibb.co/cgsmkTZ/asdasdasdasdas.jpg",
+        title:"HandBook Complicated English Grammar  Explained Simply",
        subtitle:"Master the English Skills You Need for Success in Your Career and Studies",
 
        dateAdded:"wswqe",
        calificacion:"4,7⭐",
-       description:" 🌟 Aprende los trucos y técnicas para hablar y escribir en inglés de manera natural y efectiva. 📝🗣️ Ya sea que estés buscando mejorar tu gramática, vocabulario o pronunciación, nuestro curso te brinda las herramientas que necesitas para alcanzar tus metas. 🎯 Descubre la clave para comunicarte con confianza en cualquier situación y en cualquier parte del mundo. 🌎 ¡Únete a nosotros y comienza tu viaje hacia la fluidez en inglés hoy mismo! 🚀",
-       enlaces:"https://www.udemy.com/course/ingles-para-developers-y-programadores/?referralCode=F86D79B89A958FA82FCF",
+       description:"Are you tired of grappling with convoluted grammar rules and feeling overwhelmed by the intricacies of the English language? Look no further! Demystifying English Grammar is here to rescue you from the labyrinth of complicated grammar.🚀",
+       enlaces:"https://drive.google.com/file/d/1rKEtPrKgWE8NiS6orH6Lma9oJijULydD/view?usp=share_link",
        precio:30,
        demo:"AAS"
 
@@ -184,6 +184,21 @@ export const products =[
        precio:5.00,
        demo:"AAS"
 
+
+
+    },
+    {
+        id:13,
+        thumbnail:"https://preply.com/wp-content/uploads/2014/10/English-for-Programmers-1-e1663161533611.jpg",
+        title:"Inglés para Developers y Programadores",
+       subtitle:"Master the English Skills You Need for Success in Your Career and Studies",
+
+       dateAdded:"wswqe",
+       calificacion:"4,7⭐",
+       description:" 🌟 Aprende los trucos y técnicas para hablar y escribir en inglés de manera natural y efectiva. 📝🗣️ Ya sea que estés buscando mejorar tu gramática, vocabulario o pronunciación, nuestro curso te brinda las herramientas que necesitas para alcanzar tus metas. 🎯 Descubre la clave para comunicarte con confianza en cualquier situación y en cualquier parte del mundo. 🌎 ¡Únete a nosotros y comienza tu viaje hacia la fluidez en inglés hoy mismo! 🚀",
+       enlaces:"https://www.udemy.com/course/ingles-para-developers-y-programadores/?referralCode=F86D79B89A958FA82FCF",
+       precio:30,
+       demo:"AAS"
 
 
     }
