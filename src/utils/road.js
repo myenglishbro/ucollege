@@ -129,6 +129,7 @@ export const road =[
         { titulo: '🎯Simple Past of Regular Verbs - Spelling', url: 'https://wordwall.net/play/15209/196/82941' },
         { titulo: '🎯Simple Past of Irregular Verbs', url: 'https://wordwall.net/play/15208/131/77707' },
         { titulo: '🗎[PDF] Los Verbos Irregulares ', url: 'https://drive.google.com/file/d/1RpV1uLe-A215sfP1S954zi2zQs_XDvDg/view?usp=share_link' },
+        { titulo: '🗎[PDF] Los Verbos Irregulares II ', url: 'https://drive.google.com/file/d/1EhALfkVQb-G5ylK9qMc674zmh8LWd-kT/view?usp=share_link' },
 
         { titulo: '🎯Choose the correct Irregular Verbs', url: 'https://wordwall.net/play/23988/614/920' },
         { titulo: '🎯Present Simple or Past Simple', url: 'https://wordwall.net/play/9677/319/360548' },
@@ -617,6 +618,8 @@ export const road =[
        description:"Desarrollando habilidades lingüísticas fundamentales",
        enlaces: [
         { titulo: '📒[slides] Inverted Conditionals', url: 'https://docs.google.com/presentation/d/10RUYwHbZ3d_GMwCUHtVJu-P-JAYoS5z_/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
+        { titulo: '📒[slides] Inversion Explanation', url: 'https://docs.google.com/presentation/d/1WdtHxR3xkgJA9OY8FJ1yYassPo6CIGVw/edit?usp=share_link&ouid=114172849724389982127&rtpof=true&sd=true' },
+
         { titulo: '🗣️Simulacion Visa 1', url: 'https://youtu.be/rMfG3rYSlh0' },
         { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
      ]
