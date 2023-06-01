@@ -6,12 +6,15 @@ import cliente3 from '../img/clients/client-3.png';
 import cliente4 from '../img/clients/client-4.png';
 import cliente5 from '../img/clients/client-5.png';
 import cliente6 from '../img/clients/client-6.png';
+import Hero from './Hero';
+import Benefit from '../components/Benefit/Benefit';
+import LearningExperience from '../components/LearningExperience/LearningExperience';
 
 
 const Home = () => {
   return (
     <>
-      <div class="hero-main vh-100 d-flex align-items-center">
+      {/* <div class="hero-main vh-100 d-flex align-items-center">
     <div class="container">
         <div class="row">
             <div class="col-lg-7 mx-auto text-center">
@@ -24,9 +27,10 @@ const Home = () => {
 
     </div>
 
-</div>
-
-
+</div> */}
+<Hero></Hero>
+<Benefit></Benefit>
+<LearningExperience></LearningExperience>
     <section id="clients" class="clients clients">
         <div class="container">
   

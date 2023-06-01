@@ -1,22 +1,26 @@
-import React from 'react'
-import "../css/hero.css"
-const Hero = ({ title, description,thumbnail }) => {
+import React from 'react';
+import '../css/hero.css';
+import HeroPic from '../img/hero.avif';
+import Decoreline from '../img/Decore_line.png';
+import Decore from '../img/Decore.png';
+
+const Hero = () => {
   return (
-    <div className="hero vh-70 d-flex align-items-center" style={{backgroundImage: `url(${thumbnail})`}}>
-      <div className="container">
-        <div className="row">
-          <div className="col-lg-7 mx-auto text-center">
-            <h1 className="display-4 text-white">{title} </h1>
-            <p className="text-white my-3">{description}</p>
-            <a href="https://wa.link/qwnf6w" className="btn me-2 btn-main">Contactar</a>
-            <a href="https://wa.link/qwnf6w" className="btn btn-outline-light">Grupo Wsp</a>
+    <div className="container-fluid">
+      <div className="row align-items-center justify-content-center" style={{ backgroundImage: `url(${Decore})`, backgroundPosition: "right", backgroundRepeat: "no-repeat", zIndex: "1", top: "0", right: "0" }}>
+        <div className="col-md-6 d-flex align-items-center justify-content-center">
+          <div>
+            <h1 className="font-weight-bold">Habla idiomas con confianza</h1>
+            <img src={Decoreline} alt="Decore line" style={{ position: "relative", zIndex: "2" }} />
+            <p>Aprendizaje de idiomas a tu ritmo, con profesores de confianza.</p>
           </div>
+        </div>
+        <div className="col-md-6">
+          <img src={HeroPic} alt="Hero" className="img-fluid" />
         </div>
       </div>
     </div>
-  )
+  );
 }
 
-export default Hero
-
-
+export default Hero;
