@@ -1,0 +1,143 @@
+/*=============== HEADER ===============*/
+.header{
+    width: 100%;
+    background: var(--body-color); 
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+  }
+/*=============== HOME ===============*/
+.home__content{
+    row-gap: 1rem;
+  }
+  
+  .home__group{
+    display: grid;
+    position: relative;
+    padding-top: 2rem;
+  }
+  
+  .home__img{
+    height: 250px;
+    justify-self: center;
+    animation: floating 2s ease-in-out infinite;
+  }
+  
+  .home__indicator{
+    width: 8px;
+    height: 8px;
+    background-color: var(--title-color);
+    border-radius: 50%;
+    position: absolute;
+    top: 7rem;
+    right: 2rem;
+  }
+  
+  .home__indicator::after{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 48px;
+    background-color: var(--title-color);
+    top: -3rem;
+    right: 45%;
+  }
+  
+  .home__details-img{
+    position: absolute;
+    right: .5rem;
+  }
+  
+  .home__details-title,
+  .home__details-subtitle{
+    display: block;
+    font-size: var(--small-font-size);
+    text-align: right;
+  }
+  
+  .home__subtitle{
+    font-size: var(--h3-font-size);
+    text-transform: uppercase;
+    margin-bottom: var(--mb-1);
+  }
+  
+  .home__title{
+    font-size: var(--biggest-font-size);
+    font-weight: var(--font-black);
+    line-height: 109%;
+    margin-bottom: var(--mb-1);
+  }
+  
+  .home__description{
+    margin-bottom: var(--mb-1);
+  }
+  
+  .home__buttons{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Swiper Class */
+  .swiper-pagination{
+    position: initial;
+    margin-top: var(--mb-1);
+  }
+  
+  .swiper-pagination-bullet{
+    width: 5px;
+    height: 5px;
+    background-color: var(--title-color);
+    opacity: 1;
+  }
+  
+  .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+    margin: 0 .5rem;
+  } 
+  
+  .swiper-pagination-bullet-active{
+    width: 1.5rem;
+    height: 5px;
+    border-radius: .5rem;
+  }
+  
+  /*=============== BUTTONS ===============*/
+  .button{
+    display: inline-block;
+    background-color: var(--first-color);
+    color: var(--title-color);
+    padding: 1rem 1.75rem;
+    border-radius: .5rem;
+    font-weight: var(--font-medium);
+    transition: .3s;
+  }
+  
+  .button:hover{
+    background-color: var(--first-color-alt);
+  }
+  
+  .button__icon{
+    font-size: 1.25rem;
+  }
+  
+  .button--ghost{
+    border: 2px solid;
+    background-color: transparent;
+    border-radius: 3rem;
+    padding: .75rem 1.5rem;
+  }
+  
+  .button--ghost:hover{
+    background: none;
+  }
+  
+  .button--link{
+    color: var(--title-color);
+  }
+  
+  .button--flex{
+    display: inline-flex;
+    align-items: center;
+    column-gap: .5rem;
+  }
+    

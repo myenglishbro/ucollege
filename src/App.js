@@ -54,6 +54,7 @@ import FalseFriends from "./pages/FalseFriends";
 import HospitalityAndTour from "./pages/HospitalityAndTour";
 import SuffixinEnglish01 from "./pages/SuffixinEnglish01";
 import SuffixinEnglish02 from "./pages/SuffixinEnglish02";
+import EF from "./pages/EF";
 const navLinks = [
   {
     title: "Home",
@@ -89,6 +90,12 @@ const navLinks = [
     icon: <FcTimeline />,
 
   },
+  {
+    title: "Certificacion",
+    path: "/Certificacion",
+    icon: <FcTimeline />,
+  },
+  
  
  {
     title: "Career Path",
@@ -166,6 +173,7 @@ function App() {
           <Route path="/Pagos" element={<Pagos />}></Route>
           <Route path="/Speaking" element={<Speaking />}></Route>
           <Route path="/MyPortal" element={<ContainerPortal />}></Route>
+          <Route path="/Certificacion" element={<EF />}></Route>
 
 
           <Route path="/PhrasesAtWork" element={<PhrasesAtWork />}></Route>

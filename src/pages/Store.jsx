@@ -1,5 +1,6 @@
 import React from 'react'
 import ContainerProducts from './ContainerProducts'
+import Oferta from '../components/Promocion/Oferta'
 
 const Store = () => {
   
@@ -11,6 +12,7 @@ const Store = () => {
   <hr/>
   <p class="mb-0">Esta oferta es por tiempo limitado, así que no pierdas la oportunidad de mejorar tus habilidades en inglés.</p>
 </div>
+<Oferta></Oferta>
     <ContainerProducts></ContainerProducts>
 
     </>
