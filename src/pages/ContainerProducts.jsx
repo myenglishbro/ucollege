@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { products } from '../utils/products.js';
 import Producto from './Producto.jsx';
 import { BsSearch } from 'react-icons/bs';
-
 const ContainerProducts = () => {
   const [searchQuery, setSearchQuery] = useState('');
 
