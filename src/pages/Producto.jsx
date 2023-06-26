@@ -2,7 +2,7 @@ import React from 'react';
 
 import "../css/product.css"
 const Producto = (props) => {
-  const { thumbnail, title, description, calificacion} = props;
+  const { thumbnail, title, description, calificacion,precio,enlaces} = props;
 
  
 
@@ -27,8 +27,8 @@ const Producto = (props) => {
                   </div>
 
                   <div className="tags">
-                    <span className="fantasy">Fantasy</span>
-                    <span className="mystery">Mystery</span>
+                    <span className="fantasy">S/.{precio}</span>
+                    <a href={enlaces}><span className="mystery" >Obtener</span></a>
                   </div>
 
                   <div className="info">

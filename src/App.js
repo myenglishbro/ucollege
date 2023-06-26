@@ -74,7 +74,7 @@ const navLinks = [
     icon: <FcCurrencyExchange />,
   },
   {
-    title: "Store",
+    title: "Library",
     path: "/Store",
     icon: <FcShop />,
   },

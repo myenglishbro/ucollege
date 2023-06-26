@@ -201,6 +201,34 @@ export const products =[
        demo:"AAS"
 
 
+    },
+    {
+        id:14,
+        thumbnail:"https://i.ibb.co/mGD4nbM/FOTO-PRESENCIAL-COLOR.jpg",
+        title:"Libros Icpna Basic 01-Basic 04",
+       subtitle:"Libros digitales",
+       dateAdded:"wswqe",
+       calificacion:"4,7⭐",
+       description:" 🌟 Aprende los trucos y técnicas para hablar y escribir en inglés de manera natural y efectiva. 📝🗣️ Ya sea que estés buscando mejorar tu gramática, vocabulario o pronunciación, nuestro curso te brinda las herramientas que necesitas para alcanzar tus metas. 🎯 Descubre la clave para comunicarte con confianza en cualquier situación y en cualquier parte del mundo. 🌎 ¡Únete a nosotros y comienza tu viaje hacia la fluidez en inglés hoy mismo! 🚀",
+       enlaces:"https://libroshtml.icpna.edu.pe/CPT_WLIntro/build/app.html#/shell/contents",
+       precio:0,
+       demo:"AAS"
+
+
+    },
+    {
+        id:15,
+        thumbnail:"https://i.ibb.co/mGD4nbM/FOTO-PRESENCIAL-COLOR.jpg",
+        title:"Libros Icpna Basic 05-Basic 08",
+       subtitle:"Libros digitales",
+       dateAdded:"wswqe",
+       calificacion:"4,7⭐",
+       description:" 🌟 Aprende los trucos y técnicas para hablar y escribir en inglés de manera natural y efectiva. 📝🗣️ Ya sea que estés buscando mejorar tu gramática, vocabulario o pronunciación, nuestro curso te brinda las herramientas que necesitas para alcanzar tus metas. 🎯 Descubre la clave para comunicarte con confianza en cualquier situación y en cualquier parte del mundo. 🌎 ¡Únete a nosotros y comienza tu viaje hacia la fluidez en inglés hoy mismo! 🚀",
+       enlaces:"https://libroshtml.icpna.edu.pe/CPT_WL1/build/app.html#/shell/contents",
+       precio:0,
+       demo:"AAS"
+
+
     }
 
 ]
