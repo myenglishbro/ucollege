@@ -60,7 +60,7 @@
     margin-top: 15px;
   }
   .cta:before {
-    content: "ZOOMX";
+    content: "Ucollege";
     font-size: 20vw;
     position: absolute;
     color: rgba(0, 0, 0, 0.0666666667);
@@ -72,6 +72,8 @@
   }
   
   
+  
+ 
   
   @media (max-width: 600px) {
     header {

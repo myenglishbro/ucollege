@@ -229,6 +229,90 @@ export const products =[
        demo:"AAS"
 
 
+    },
+    {
+        id:16,
+        thumbnail:"https://i.ibb.co/mGD4nbM/FOTO-PRESENCIAL-COLOR.jpg",
+        title:"Libros Icpna Basic 09-Basic 12",
+       subtitle:"Libros digitales",
+       dateAdded:"wswqe",
+       calificacion:"4,9⭐",
+       description:" 🌟 Aprende los trucos y técnicas para hablar y escribir en inglés de manera natural y efectiva. 📝🗣️ Ya sea que estés buscando mejorar tu gramática, vocabulario o pronunciación, nuestro curso te brinda las herramientas que necesitas para alcanzar tus metas. 🎯 Descubre la clave para comunicarte con confianza en cualquier situación y en cualquier parte del mundo. 🌎 ¡Únete a nosotros y comienza tu viaje hacia la fluidez en inglés hoy mismo! 🚀",
+       enlaces:"https://libroshtml.icpna.edu.pe/CPT_WL2/build/app.html#/shell/contents",
+       precio:0,
+       demo:"AAS"
+
+
+    },
+    {
+        id:17,
+        thumbnail:"https://i.ibb.co/mGD4nbM/FOTO-PRESENCIAL-COLOR.jpg",
+        title:"Libros Icpna Intermediate 01-Intermediate 04",
+       subtitle:"Libros digitales",
+       dateAdded:"wswqe",
+       calificacion:"4,9⭐",
+       description:" 🌟 Aprende los trucos y técnicas para hablar y escribir en inglés de manera natural y efectiva. 📝🗣️ Ya sea que estés buscando mejorar tu gramática, vocabulario o pronunciación, nuestro curso te brinda las herramientas que necesitas para alcanzar tus metas. 🎯 Descubre la clave para comunicarte con confianza en cualquier situación y en cualquier parte del mundo. 🌎 ¡Únete a nosotros y comienza tu viaje hacia la fluidez en inglés hoy mismo! 🚀",
+       enlaces:"https://libroshtml.icpna.edu.pe/CPT_WL2/build/app.html#/shell/contents",
+       precio:0,
+       demo:"AAS"
+
+
+    },
+    {
+        id:18,
+        thumbnail:"https://i.ibb.co/mGD4nbM/FOTO-PRESENCIAL-COLOR.jpg",
+        title:"Libros Icpna Starter",
+       subtitle:"Libros digitales",
+       dateAdded:"wswqe",
+       calificacion:"4,9⭐",
+       description:" 🌟 Aprende los trucos y técnicas para hablar y escribir en inglés de manera natural y efectiva. 📝🗣️ Ya sea que estés buscando mejorar tu gramática, vocabulario o pronunciación, nuestro curso te brinda las herramientas que necesitas para alcanzar tus metas. 🎯 Descubre la clave para comunicarte con confianza en cualquier situación y en cualquier parte del mundo. 🌎 ¡Únete a nosotros y comienza tu viaje hacia la fluidez en inglés hoy mismo! 🚀",
+       enlaces:"https://libroshtml.icpna.edu.pe/CPT_starter/Starter_timezone_icpna/Starter_timezone_icpna/iwb/build/app.html#/shell/contents?page=0",
+       precio:0,
+       demo:"AAS"
+
+
+    },
+    {
+        id:18,
+        thumbnail:"https://i.ibb.co/mGD4nbM/FOTO-PRESENCIAL-COLOR.jpg",
+        title:"Libros Icpna Time Zone Level 1",
+       subtitle:"Libros digitales",
+       dateAdded:"wswqe",
+       calificacion:"4,9⭐",
+       description:" 🌟 Aprende los trucos y técnicas para hablar y escribir en inglés de manera natural y efectiva. 📝🗣️ Ya sea que estés buscando mejorar tu gramática, vocabulario o pronunciación, nuestro curso te brinda las herramientas que necesitas para alcanzar tus metas. 🎯 Descubre la clave para comunicarte con confianza en cualquier situación y en cualquier parte del mundo. 🌎 ¡Únete a nosotros y comienza tu viaje hacia la fluidez en inglés hoy mismo! 🚀",
+       enlaces:"https://libroshtml.icpna.edu.pe/CPT_L1/L1_timezone_icpna_v2/L1_timezone_icpna/iwb/build/app.html#/shell/contents?page=0",
+       precio:0,
+       demo:"AAS"
+
+
+    },
+    {
+        id:19,
+        thumbnail:"https://i.ibb.co/mGD4nbM/FOTO-PRESENCIAL-COLOR.jpg",
+        title:"Libros Icpna Time Zone Level 2",
+       subtitle:"Libros digitales",
+       dateAdded:"wswqe",
+       calificacion:"4,9⭐",
+       description:" 🌟 Aprende los trucos y técnicas para hablar y escribir en inglés de manera natural y efectiva. 📝🗣️ Ya sea que estés buscando mejorar tu gramática, vocabulario o pronunciación, nuestro curso te brinda las herramientas que necesitas para alcanzar tus metas. 🎯 Descubre la clave para comunicarte con confianza en cualquier situación y en cualquier parte del mundo. 🌎 ¡Únete a nosotros y comienza tu viaje hacia la fluidez en inglés hoy mismo! 🚀",
+       enlaces:"https://libroshtml.icpna.edu.pe/CPT_L2/L2_timezone_icpna/L2_timezone_icpna/iwb/build/app.html#/shell/contents?page=0",
+       precio:0,
+       demo:"AAS"
+
+
+    },
+    {
+        id:19,
+        thumbnail:"https://i.ibb.co/mGD4nbM/FOTO-PRESENCIAL-COLOR.jpg",
+        title:"Libros Icpna Time Zone Level 3",
+       subtitle:"Libros digitales",
+       dateAdded:"wswqe",
+       calificacion:"4,9⭐",
+       description:" 🌟 Aprende los trucos y técnicas para hablar y escribir en inglés de manera natural y efectiva. 📝🗣️ Ya sea que estés buscando mejorar tu gramática, vocabulario o pronunciación, nuestro curso te brinda las herramientas que necesitas para alcanzar tus metas. 🎯 Descubre la clave para comunicarte con confianza en cualquier situación y en cualquier parte del mundo. 🌎 ¡Únete a nosotros y comienza tu viaje hacia la fluidez en inglés hoy mismo! 🚀",
+       enlaces:"https://libroshtml.icpna.edu.pe/CPT_L3/L3_timezone_icpna/L3_timezone_icpna/iwb/build/app.html#/shell/contents?page=0",
+       precio:0,
+       demo:"AAS"
+
+
     }
 
 ]
