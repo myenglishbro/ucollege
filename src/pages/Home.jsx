@@ -29,9 +29,7 @@ const Home = () => {
 
 </div> */}
 <Hero></Hero>
-<Benefit></Benefit>
-<LearningExperience></LearningExperience>
-    <section id="clients" class="clients clients">
+<section id="clients" class="clients clients">
         <div class="container">
   
           <div class="row">
@@ -65,6 +63,9 @@ const Home = () => {
         </div>
       </section>
 
+<Benefit></Benefit>
+<LearningExperience></LearningExperience>
+   
 
       <div id="mainslider3" class="carousel slide" data-bs-ride="carousel tiktok">
                     <div class="carousel-inner">
