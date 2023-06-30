@@ -9,6 +9,7 @@ import cliente6 from '../img/clients/client-6.png';
 import Hero from './Hero';
 import Benefit from '../components/Benefit/Benefit';
 import LearningExperience from '../components/LearningExperience/LearningExperience';
+import Situations from '../components/Situations/Situations';
 
 
 const Home = () => {
@@ -62,7 +63,7 @@ const Home = () => {
   
         </div>
       </section>
-
+<Situations></Situations>
 <Benefit></Benefit>
 <LearningExperience></LearningExperience>
    
