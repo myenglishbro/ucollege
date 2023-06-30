@@ -17,18 +17,18 @@ export const road =[
         { titulo: '🎯True/False Alphabet Sounds', url: 'https://wordwall.net/play/4207/022/7865' },
         { titulo: '🎯Completa la letra que falta II', url: 'https://wordwall.net/play/26160/270/111' },
         { titulo: '📒[slides] Los Números', url: 'https://docs.google.com/presentation/d/11JeUAoJbYl5ajCeiSY3od79moVxSmzpA/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
-
+        { titulo: '🎥Los Pronombres', url: 'https://youtu.be/i6gpuBeJ8rs' },
          { titulo: '🎯 The Pronouns', url: 'https://wordwall.net/play/28743/414/132' },
+         { titulo: '🎥Pronombres II-TRANSFORMATION', url: 'https://youtu.be/jqIBhDTrahc' },
          { titulo: '🎯 The Pronouns II', url: 'https://wordwall.net/play/35940/872/5428' },
          { titulo: '🎯Transformation Pronouns', url: 'https://wordwall.net/play/16432/831/5065' },
          { titulo: '📒[slides] Imperatives', url: 'https://docs.google.com/presentation/d/1IBGfgt3RbQSgNHUolh8T0JyXjv4NfvLS/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
-
+         { titulo: '🎥¿Cómo se forman las oraciones en Inglés?', url: 'https://youtu.be/tDOXiDjFBvg' },
+         { titulo: '🎥Fundamentos del Inglés', url: 'https://youtu.be/aE5lMJYtrNQ' },
          { titulo: '📒[slides] Explanation The Verb Be', url: 'https://docs.google.com/presentation/d/1BcRVF50I_5gnPYd7dG07kPyULiFt-iF4/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
-
          { titulo: '🎯The verb Be - affirmative form', url: 'https://wordwall.net/play/13293/724/44295' },
          { titulo: '🎯The verb Be - Negative form', url: 'https://wordwall.net/play/21191/050/1795' },
          { titulo: '🎯Complete the text with a subject pronoun or verb be', url: 'https://wordwall.net/play/18793/352/96020' },
-
          { titulo: '📒[slides] Correct the Sentences with The Verb Be in Questions', url: 'https://docs.google.com/presentation/d/1PmPGCCydt73O4vXTB9ThQdiMk-zSdZs0/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
 
           { titulo: '🎯The verb Be -mixed sentences', url: 'https://wordwall.net/play/25528/529/57485' },
