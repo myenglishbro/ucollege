@@ -10,7 +10,7 @@
 
 .faq {
   margin: 0 40px;
-  max-width: 600px;
+  max-width: 900px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -18,6 +18,11 @@
   align-items: center;
 
 }
+@media (min-width: 992px) {
+    .faq {
+      margin-left:590px; /* Establece el margen horizontal automático para centrar */
+    }
+  }
 .faq h1 {
   color: #333;
 }
@@ -121,4 +126,4 @@
 }
 .faq .tab:nth-child(5) label h2 {
   background: linear-gradient(135deg, #fd6e6a 10%, #ffc600 100%);
-}/*# sourceMappingURL=style.css.map */
+}
