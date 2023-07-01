@@ -61,7 +61,7 @@
   }
   .cta:before {
     content: "Ucollege";
-    font-size: 20vw;
+    font-size: 15vw;
     position: absolute;
     color: rgba(0, 0, 0, 0.0666666667);
     display: flex;

@@ -313,6 +313,33 @@ export const products =[
        demo:"AAS"
 
 
+    },
+    {
+        id:20,
+        thumbnail:"https://i.ibb.co/LZLjSrM/Advantages-of-Ms-Power-Point.png",
+        title:"Básico PPTS",
+       subtitle:"Libros digitales",
+       dateAdded:"wswqe",
+       calificacion:"4,2⭐",
+       description:" 🌟Descarga todas las diapositivias  📝🗣️desde básico 1 al 12🎯 🚀",
+       enlaces:"https://drive.google.com/drive/folders/1W7uIDfb00T4IcpPhn5rC98mP4U1Bphvb?usp=sharing",
+       demo:"AAS"
+
+
+    },
+    {
+        id:21,
+        thumbnail:"https://i.ibb.co/LZLjSrM/Advantages-of-Ms-Power-Point.png",
+        title:"Intermedio PPTS",
+       subtitle:"Libros digitales",
+       dateAdded:"wswqe",
+       calificacion:"4,0⭐",
+       description:" 🌟Descarga todas las diapositivias  📝🗣️desde Intermedio 1 al 12🎯 🚀",
+       enlaces:"https://drive.google.com/drive/folders/1A_qGIdiynRKO9YODJ-9P41Fce7Q3KBy4?usp=sharing",
+       precio:0,
+       demo:"AAS"
+
+
     }
 
 ]

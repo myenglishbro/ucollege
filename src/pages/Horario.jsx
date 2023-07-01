@@ -4,18 +4,6 @@ const Horario = () => {
   return (
    <>
 
-<div class="alert alert-primary" role="alert">
-  <h4 class="alert-heading">📢 ¡Atención estudiantes!👩‍🏫🤓✍️</h4>
-  <p>Queridos estudiantes, les pedimos amablemente que tomen en cuenta que los siguientes horarios ya no estarán disponibles desde Junio en Adelante:</p>
-  <ul>
-    <li>🕢 7:30 pm - 9:00 pm</li>
-    <li>🕘 9:15 pm - 10:45 pm</li>
-  </ul>
-  <hr></hr>
-    <p class="mb-0">Si tienes un paquete de clases en progreso seguiras en el mismo horario hasta terminar el mes 🙌✨</p>
-
-  <p class="mb-0">Ambos horarios no estarán disponibles hasta nuevo aviso. Nos complace informarles que este evento comenzará en junio. Por favor, tenganlo en cuenta y estén atentos a cualquier actualización. ¡Gracias por su atención y participación! 🙌✨</p>
-</div>
 
 
 
@@ -74,21 +62,20 @@ const Horario = () => {
       <ul class="list-group list-group-flush">
 
       <li class="list-group-item ">08:00-09:00 am 🟢 Open</li>
-
       <li class="list-group-item ">09:00-10:00 am 🟢 Open</li>
           <li class="list-group-item">10:00-11:00 am 🟢 Open</li>
           <li class="list-group-item">11:00-12:00 am 🟢 Open</li>
           <li class="list-group-item">12:00-01:00 pm 🟢 Open</li>
-
           <li class="list-group-item">01:00-02:00 pm 🟢 Open</li>
-          <li class="list-group-item bg-warning ">02:00-04:00 pm 🔴 Gaby</li>
-
-        
+          <li class="list-group-item  ">02:00-03:00 pm 🟢 Open</li>
+          <li class="list-group-item ">03:00-04:00 pm 🟢 Open</li>
           <li class="list-group-item">04:00-05:00 pm 🟢 Open</li>
           <li class="list-group-item">05:00-06:00 pm 🟢 Open</li>
-          <li class="list-group-item bg-warning ">06:00-07:00 pm 🔴 Sandra</li>
-          
-        
+          <li class="list-group-item ">06:00-07:00 pm 🟢 Open</li>
+          <li class="list-group-item ">07:00-08:00 pm 🟢 Open</li>
+          <li class="list-group-item ">08:00-09:00 pm 🟢 Open</li>
+          <li class="list-group-item bg-warning">09:00-10:00 pm 🔴 Mr Heredia</li>
+          <li class="list-group-item bg-warning ">10:00-11:00 pm 🔴 Mr Heredia</li>
           <li class="list-group-item ">11:00-12:00 pm 🟢 Open</li>
 
         </ul>
