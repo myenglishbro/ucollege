@@ -7,7 +7,9 @@ const Hero = () => {
       <div className="row align-items-center justify-content-center hero-container">
         <div className="col-md-6 d-flex align-items-center justify-content-center text-center">
           <div className="hero">
-            <strong><p className="hero-text">Habla idiomas con confianza</p></strong>
+            <strong><p className="hero-text">Nuevos Horarios Disponibles-Consulta ya!</p></strong>
+            <strong><p className="hero-text">Consulta ya!</p></strong>
+
             <img src="https://i.ibb.co/g9YhcxT/You-Speak-Purple-480x297.png" className="hero-logo" alt="LOGO" />
             <strong><p className="hero-description">¡30 días que cambiarán tu inglés para siempre!</p></strong>
           </div>
