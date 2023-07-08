@@ -623,6 +623,8 @@ export const road =[
        channel:"sdasd",
        description:"Desarrollando habilidades lingüísticas fundamentales",
        enlaces: [
+        { titulo: '📒[slides] Pronunciation', url: 'https://docs.google.com/presentation/d/1wZROGjhm3VuujA7nl2XsweDnzeCV0TQK/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
+
         { titulo: '📒[slides] Inverted Conditionals', url: 'https://docs.google.com/presentation/d/10RUYwHbZ3d_GMwCUHtVJu-P-JAYoS5z_/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
         { titulo: '📒[slides] Inversion Explanation', url: 'https://docs.google.com/presentation/d/1WdtHxR3xkgJA9OY8FJ1yYassPo6CIGVw/edit?usp=share_link&ouid=114172849724389982127&rtpof=true&sd=true' },
 
