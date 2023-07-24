@@ -11,23 +11,26 @@ const Precios = () => {
                
                 <h4 class="card-title">Paquete 10 Clases <span class="badge text-bg-warning tachado">antes S/330.00</span></h4>
                       <h6 class="card-title" >Todos los Niveles</h6>
-                          <h1 class="card-title">S/ 255.00</h1>
+                          <h1 class="card-title">S/ 280.00</h1>
                           <hr/>
                 <ul class="card-text mb-4 ">
                   <li><i class="bi bi-balloon-heart-fill"></i>
-                      10 clases</li>
+                      10 clases Individuales</li>
                   <li><i class="bi bi-stopwatch"></i>
                       1 hora cada una</li>
                   <li><i class="bi bi-person-video3"></i>
-                      Zoom Video Call</li>
+                      Plataforma-Zoom Video Call</li>
   
                   <li><i class="bi bi-journal-bookmark"></i>
                       Clase Personalizada </li>
                       <li><i class="bi bi-journal-bookmark"></i>
                       Material de Estudio </li>
+                      <li><i class="bi bi-journal-bookmark"></i>
+                      Incluye libros Originales </li>
                   <li><i class="bi bi-whatsapp"></i>
                       Wsp English Friends</li>
-                    
+                      <li><i class="bi bi-whatsapp"></i>
+                      Evaluación constante</li>
                   <li><i class="bi bi-camera-reels"></i>Grabación de Clase</li>
                  
               </ul>
@@ -42,8 +45,8 @@ const Precios = () => {
             <div class="card-body">
                
                 <h4 class="card-title">1 Clase <span class="badge text-bg-warning tachado">antes S/33.00</span></h4>
-                      <h6 class="card-title" >Todos los Niveles</h6>
-                          <h1 class="card-title">S/ 28.00</h1>
+                      <h6 class="card-title" >Cualquier Nivel</h6>
+                          <h1 class="card-title">S/ 30.00</h1>
                           <hr/>
                 <ul class="card-text mb-4 ">
                   <li><i class="bi bi-balloon-heart-fill"></i>
@@ -72,8 +75,8 @@ const Precios = () => {
      <div className="card-precio" style={{backgroundImage: "url('https://images.pexels.com/photos/5649423/pexels-photo-5649423.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')"}} data-aos="fade-up" data-aos-delay="200">
             <div class="card-body">
                
-                <h4 class="card-title">1 Clase <span class="badge text-bg-warning tachado">antes S/38.00</span></h4>
-                      <h6 class="card-title" >Todos los Exámenes</h6>
+                <h4 class="card-title">1 Clase ESP <span class="badge text-bg-warning tachado">antes S/38.00</span></h4>
+                      <h6 class="card-title" >Cualquier Especialidad</h6>
                           <h1 class="card-title">S/ 33.00</h1>
                           <hr/>
                 <ul class="card-text mb-4 ">
@@ -105,7 +108,7 @@ const Precios = () => {
                
                 <h4 class="card-title">Paquete 10 Clases <span class="badge text-bg-info ">CELPIP</span></h4>
                       <h6 class="card-title" >Todos los Niveles</h6>
-                          <h1 class="card-title">S/ 300.00</h1>
+                          <h1 class="card-title">S/ 350.00</h1>
                           <hr/>
                 <ul class="card-text mb-4 ">
                   <li><i class="bi bi-balloon-heart-fill"></i>
