@@ -58,7 +58,7 @@ const Horario = () => {
           <li class="list-group-item">04:00-05:00 pm 🟢 Open</li>
           <li class="list-group-item ">05:00-06:00 pm 🟢 Open</li>
           <li class="list-group-item ">06:00-07:00 pm 🟢 Open</li>
-          <li class="list-group-item ">07:00-08:00 pm 🟢 Open</li>
+          <li class="list-group-item bg-warning">07:00-08:00 pm 🔴Crash C.</li>
           <li class="list-group-item ">08:00-09:00 pm 🟢 Open</li>
           <li class="list-group-item bg-warning">09:00-10:00 pm 🔴UPCH</li>
           <li class="list-group-item bg-warning ">10:00-11:00 pm 🔴UPCH</li>
@@ -112,7 +112,7 @@ const Horario = () => {
           <li class="list-group-item">04:00-05:00 pm 🟢 Open</li>
           <li class="list-group-item ">05:00-06:00 pm 🟢 Open</li>
           <li class="list-group-item ">06:00-07:00 pm 🟢 Open</li>
-          <li class="list-group-item ">07:00-08:00 pm 🟢 Open</li>
+          <li class="list-group-item bg-warning">07:00-08:00 pm 🔴Crash C.</li>
           <li class="list-group-item ">08:00-09:00 pm 🟢 Open</li>
           <li class="list-group-item bg-warning">09:00-10:00 pm 🔴UPCH</li>
           <li class="list-group-item bg-warning ">10:00-11:00 pm 🔴UPCH</li>
