@@ -158,7 +158,7 @@ const Horario = () => {
           <li class="list-group-item">01:00-02:00 pm 🟢 Open</li>
           <li class="list-group-item">02:00-03:00 pm 🟢 Open</li>
           <li class="list-group-item ">02:00-03:00 pm 🟢 Open</li>
-          <li class="list-group-item ">03:00-04:00 pm 🟢 Open</li>
+          <li class="list-group-item bg-warning ">03:00-04:00 pm 🔴Joshua</li>
           <li class="list-group-item bg-warning">04:00-05:00 pm 🔴 UPCH </li>
           <li class="list-group-item bg-warning">05:00-06:00 pm 🔴 UPCH </li>
           <li class="list-group-item bg-warning">06:00-07:15 pm 🔴 UPCH </li>
