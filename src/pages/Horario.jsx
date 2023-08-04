@@ -148,7 +148,7 @@ const Horario = () => {
       <h5 class="text-center">Saturday 💪</h5>
       <ul class="list-group list-group-flush">
 
-           <li class="list-group-item bg-info">07:00-08:00 am 🔴Crash</li>
+           <li class="list-group-item bg-warning">07:00-08:00 am 🔴Crash</li>
            <li class="list-group-item ">08:00-08:50 am 🟢 Open</li>
            <li class="list-group-item bg-warning">08:55-10:36 am 🔴 ICPNA</li>
           <li class="list-group-item bg-warning">10:50-12:31 pm 🔴 ICPNA</li>
