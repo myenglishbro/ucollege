@@ -57,7 +57,7 @@ const Horario = () => {
           <li class="list-group-item">04:00-05:45 pm 🟢 Open</li>
             <li class="list-group-item bg-warning ">05:45-07:15 pm 🔴ICPNA</li>
           <li class="list-group-item ">07:15-08:00 pm 🟢 Open</li>
-          <li class="list-group-item bg-info">08:00-09:00 pm  Pending</li>
+          <li class="list-group-item bg-warning">08:00-09:00 pm  🔴Crash</li>
           <li class="list-group-item bg-warning">09:15-10:45 pm 🔴UPCH</li>          
 
           
@@ -83,7 +83,7 @@ const Horario = () => {
           <li class="list-group-item">04:00-05:45 pm 🟢 Open</li>
            <li class="list-group-item bg-warning ">05:45-07:15 pm 🔴ICPNA</li>
           <li class="list-group-item ">07:15-08:00 pm 🟢 Open</li>
-          <li class="list-group-item bg-info">08:00-09:00 pm  Pending</li>
+          <li class="list-group-item bg-warning">08:00-09:00 pm  🔴Crash</li>
 
           <li class="list-group-item bg-warning">09:15-10:45 pm 🔴UPCH</li>          
 
@@ -148,10 +148,10 @@ const Horario = () => {
       <h5 class="text-center">Saturday 💪</h5>
       <ul class="list-group list-group-flush">
 
-           <li class="list-group-item bg-info">07:00-08:00 pm Pending</li>
-           <li class="list-group-item ">08:00-08:50 pm 🟢 Open</li>
-           <li class="list-group-item bg-warning">08:55-10:36 pm 🔴 ICPNA</li>
-          <li class="list-group-item bg-warning">10:50-12:31 am 🔴 ICPNA</li>
+           <li class="list-group-item bg-info">07:00-08:00 am 🔴Crash</li>
+           <li class="list-group-item ">08:00-08:50 am 🟢 Open</li>
+           <li class="list-group-item bg-warning">08:55-10:36 am 🔴 ICPNA</li>
+          <li class="list-group-item bg-warning">10:50-12:31 pm 🔴 ICPNA</li>
           <li class="list-group-item">01:00-02:00 pm 🟢 Open</li>
           <li class="list-group-item">02:00-03:00 pm 🟢 Open</li>
           <li class="list-group-item ">02:00-03:00 pm 🟢 Open</li>
