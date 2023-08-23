@@ -217,28 +217,27 @@ export const products =[
 
     },
     {
-        id:14,
-        thumbnail:"https://i.ibb.co/mGD4nbM/FOTO-PRESENCIAL-COLOR.jpg",
-        title:"Libros Icpna Basic 01-Basic 04",
+        id:20,
+        thumbnail:"https://i.ibb.co/LZLjSrM/Advantages-of-Ms-Power-Point.png",
+        title:"Básico PPTS",
        subtitle:"Libros digitales",
        dateAdded:"wswqe",
-       calificacion:"4,7⭐",
-       description:" 🌟 Aprende los trucos y técnicas para hablar y escribir en inglés de manera natural y efectiva. 📝🗣️ Ya sea que estés buscando mejorar tu gramática, vocabulario o pronunciación, nuestro curso te brinda las herramientas que necesitas para alcanzar tus metas. 🎯 Descubre la clave para comunicarte con confianza en cualquier situación y en cualquier parte del mundo. 🌎 ¡Únete a nosotros y comienza tu viaje hacia la fluidez en inglés hoy mismo! 🚀",
-       enlaces:"https://drive.google.com/drive/folders/18OXwmd-XcoOVNhqZWnNNZ7w6QoneiC-o?usp=drive_link",
-       precio:0,
+       calificacion:"4,2⭐",
+       description:" 🌟Descarga todas las diapositivias  📝🗣️desde básico 1 al 12🎯 🚀",
+       enlaces:"https://drive.google.com/drive/folders/1-WRcx_iS3-iueoIrfKjKRxPpaxvZBlF0?usp=sharing",
        demo:"AAS"
 
 
     },
     {
-        id:15,
-        thumbnail:"https://i.ibb.co/mGD4nbM/FOTO-PRESENCIAL-COLOR.jpg",
-        title:"Libros Icpna Basic 05-Basic 08",
+        id:21,
+        thumbnail:"https://i.ibb.co/LZLjSrM/Advantages-of-Ms-Power-Point.png",
+        title:"Intermedio PPTS",
        subtitle:"Libros digitales",
        dateAdded:"wswqe",
-       calificacion:"4,7⭐",
-       description:" 🌟 Aprende los trucos y técnicas para hablar y escribir en inglés de manera natural y efectiva. 📝🗣️ Ya sea que estés buscando mejorar tu gramática, vocabulario o pronunciación, nuestro curso te brinda las herramientas que necesitas para alcanzar tus metas. 🎯 Descubre la clave para comunicarte con confianza en cualquier situación y en cualquier parte del mundo. 🌎 ¡Únete a nosotros y comienza tu viaje hacia la fluidez en inglés hoy mismo! 🚀",
-       enlaces:"https://drive.google.com/drive/folders/18OXwmd-XcoOVNhqZWnNNZ7w6QoneiC-o?usp=drive_link",
+       calificacion:"4,0⭐",
+       description:" 🌟Descarga todas las diapositivias  📝🗣️desde Intermedio 1 al 12🎯 🚀",
+       enlaces:"https://drive.google.com/drive/folders/12r0a0uRWXxgO5XlM7qc6uW3yfEkAAYIH?usp=drive_link",
        precio:0,
        demo:"AAS"
 
