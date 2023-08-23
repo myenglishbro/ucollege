@@ -22,9 +22,7 @@ const Home = () => {
   
           <div class="row">
   
-            <div class="col-lg-2 col-md-4 col-6">
-              <img src={cliente1} class="img-fluid" alt="" data-aos="zoom-in"></img>
-            </div>
+         
   
             <div class="col-lg-2 col-md-4 col-6">
               <img src={cliente2} class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100"></img>
