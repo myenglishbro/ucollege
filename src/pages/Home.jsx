@@ -1,6 +1,5 @@
 import React from 'react'
 import "../css/styles.css"
-import cliente1 from '../img/clients/client-1.png';
 import cliente2 from '../img/clients/client-2.png';
 import cliente3 from '../img/clients/client-3.png';
 import cliente4 from '../img/clients/client-4.png';
