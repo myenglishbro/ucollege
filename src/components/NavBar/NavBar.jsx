@@ -1,86 +1,85 @@
-import React from 'react';
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
+import React, { useState } from 'react';
+import { Link, useLocation } from 'react-router-dom'; // Importa useLocation de react-router-dom
 import MiLogo from '../../img/logo.svg';
-import "./Navbar.css"
-const NavBar = ({navLinks}) => {
+
+const NavBar = ({ navLinks }) => {
   const [open, setOpen] = useState(false);
+  const location = useLocation(); // Obtiene la ubicación actual
 
-
+  // Cierra el menú cuando la ubicación cambie
+  const handleCloseMenu = () => {
+    if (open) {
+      setOpen(false);
+    }
+  };
 
   return (
-    <>
-      <nav className="navbar navbar-expand-lg">
-        <div className="container-fluid">
+    <nav className="bg-purple-100">
+      <div className="container mx-auto">
+        <div className="flex items-center justify-between p-4">
           <Link to="/" className="navbar-brand">
             <img src={MiLogo} alt="logo" style={{ width: "30px" }} />
           </Link>
-  
+
           <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
+            className="text-white block lg:hidden"
             onClick={() => setOpen(!open)}
           >
-            <span className="navbar-toggler-icon"></span>
+            <span className="text-xl">
+              <i className="fas fa-bars"></i>
+            </span>
           </button>
-          <div className={`collapse navbar-collapse ${open ? "show" : ""}`} id="navbarSupportedContent" >
-            <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-              {navLinks.map((item) => {
-                if (item.dropdown) {
-                  return (
-                    <li className="nav-item dropdown " key={item.title}>
-                      <button
-                        className="nav-link dropdown-toggle btn btn-link"
-                        id={`navbarDropdown${item.title}`}
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
-                      >
-                        {item.title}
-                      </button>
-                      <ul className="dropdown-menu" aria-labelledby={`navbarDropdown${item.title}`}>
-                      {item.dropdownLinks.map((subItem) => (
-                          <li key={subItem.title} >
-                              <Link
-                                  className="dropdown-item  "
-                                  to={subItem.path}
-                                  data-bs-dismiss="collapse"
-                                  onClick={() => setOpen(false)}
-                              >
-                                  {subItem.icon} {subItem.title}
-                              </Link>
-                          </li>
-                      ))}
 
+          <div className={`hidden lg:flex space-x-4 ${open ? "flex" : "hidden"}`}>
+            <ul className="flex space-x-4">
+              {navLinks.map((item) => (
+                <li
+                  className={`relative group ${item.dropdown ? "dropdown" : ""}`}
+                  key={item.title}
+                >
+                  {item.dropdown ? (
+                    <div className="group">
+                      <button
+                        className="text-gray group-hover:text-gray-300"
+                        onClick={() => setOpen(!open)}
+                      >
+                        {item.title} <i className="fas fa-chevron-down ml-1"></i>
+                      </button>
+                      <ul
+                        className={`absolute hidden mt-2 space-y-2 bg-gray-800 py-2 px-3 rounded-md group-hover:block`}
+                      >
+                        {item.dropdownLinks.map((subItem) => (
+                          <li key={subItem.title}>
+                            <Link
+                              className="text-white hover:text-gray-300"
+                              to={subItem.path}
+                              onClick={handleCloseMenu} // Cierra el menú al hacer clic en un enlace de submenú
+                            >
+                              {subItem.icon} {subItem.title}
+                            </Link>
+                          </li>
+                        ))}
                       </ul>
-                    </li>
-                  );
-                } else {
-                  return (
-                    <li className="nav-item" key={item.title}>
+                    </div>
+                  ) : (
+                    <li>
                       <Link
-                        className="nav-link active text-white " // Agregado: clase text-white
-                        aria-current="page"
+                        className="text-white hover:text-gray-300"
                         to={item.path}
-                        data-bs-dismiss="collapse"
-                        onClick={() => setOpen(false)}
+                        onClick={handleCloseMenu} // Cierra el menú al hacer clic en un enlace de menú principal
                       >
                         {item.title} {item.icon}
                       </Link>
                     </li>
-                  );
-                }
-              })}
+                  )}
+                </li>
+              ))}
             </ul>
           </div>
         </div>
-      </nav>
-    </>
+      </div>
+    </nav>
   );
-}
+};
 
 export default NavBar;

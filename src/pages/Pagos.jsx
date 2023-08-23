@@ -9,7 +9,7 @@ const Pagos = () => {
 
 <div class="paypal">
   <h3 class="section-title">También puedes realizar transferencias con Paypal</h3>
-  <a href="https://paypal.me/myenglishbro?country.x=PE&locale.x=es_XC" target="_blank">
+  <a href="https://paypal.me/myenglishbro?country.x=PE&locale.x=es_XC" rel="noreferrer" target="_blank">
     <button class="btn btn-dark btn-lg mx-3">Pagar aquí</button>
   </a>
 </div>

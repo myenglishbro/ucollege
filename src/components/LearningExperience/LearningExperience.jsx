@@ -1,6 +1,5 @@
 import React from 'react';
-import horario from '../../img/horario.svg';
-import plataforma from '../../img/plataforma.svg';
+
 
 const LearningExperience = () => {
   return (

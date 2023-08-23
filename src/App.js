@@ -14,7 +14,7 @@ import { FcBusinessman } from "react-icons/fc";
 import { FcApproval } from "react-icons/fc";
 
 
-
+import "./index.css"
 
 
 import Home from "./pages/Home";

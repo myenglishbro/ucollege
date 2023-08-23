@@ -23,7 +23,7 @@ const Situations = () => {
           <p>
           Te ofrecemos la posibilidad de aprender en función de tus horarios. Reserva tus clases cuando quieras aprender.
           </p>
-          <a href="#">Leer mas</a>
+          <p >Leer mas</p>
         </div>
       </div>
     </div>
@@ -35,7 +35,7 @@ const Situations = () => {
           <p>
           Todo tu aprendizaje en una plataforma completa que te acompañará en cualquier lugar.
           </p>
-          <a href="#">Leer mas</a>
+          <p>Leer mas</p>
         </div>
       </div>
     </div>
