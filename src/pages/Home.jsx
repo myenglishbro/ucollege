@@ -9,14 +9,14 @@ import cliente6 from '../img/clients/client-6.png';
 import Benefit from '../components/Benefit/Benefit';
 import LearningExperience from '../components/LearningExperience/LearningExperience';
 import Situations from '../components/Situations/Situations';
-import NewHeader from '../components/newHeader';
+import Hero from './Hero';
 
 
 const Home = () => {
   return (
     <>
 
-<NewHeader></NewHeader>
+<Hero></Hero>
 <section id="clients" class="clients clients">
         <div class="container">
   
