@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import MiLogo from '../../img/logo.svg';
-import "./Navbar.css"
 const NavBar = ({ navLinks }) => {
   const [open, setOpen] = useState(false);
 
