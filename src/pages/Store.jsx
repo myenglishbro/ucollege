@@ -1,6 +1,7 @@
 import React from 'react'
 import ContainerProducts from './ContainerProducts'
 import CTA from '../components/CTA/CTA'
+import SourceDisclaimer from '../components/SourceDisclaimer'
  
 const Store = () => {
   
@@ -9,7 +10,7 @@ const Store = () => {
 
 <CTA></CTA>
     <ContainerProducts></ContainerProducts>
-
+   <SourceDisclaimer></SourceDisclaimer>
     </>
   )
 }
