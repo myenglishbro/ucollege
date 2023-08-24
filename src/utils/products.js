@@ -130,7 +130,7 @@ export const products =[
        calificacion:"5,0⭐",
        description:"Dialogs for Everyday Use are situationbased, the emphasis being on realism and naturalness to the extent that these are possible within the limitations imposed by a short, selfcontained text",
        enlaces:"https://drive.google.com/file/d/1BlXUkUYc2vUeGPig_RoTBpuj5amBhuK2/view?usp=share_link",
-       precio:0,
+       precio:145,
        demo:"AAS"
 
 
@@ -147,7 +147,7 @@ export const products =[
        calificacion:"5,0⭐",
        description:"Dialogs for Everyday Use are situationbased, the emphasis being on realism and naturalness to the extent that these are possible within the limitations imposed by a short, selfcontained text",
        enlaces:"https://drive.google.com/file/d/1wftSDF3H1t0wFk3zJLXu5bT321maJKl3/view?usp=share_link",
-       precio:0,
+       precio:566,
        demo:"AAS"
 
 
@@ -179,7 +179,7 @@ export const products =[
        calificacion:"4,7⭐",
        description:" 🌟 Aprende los trucos y técnicas para hablar y escribir en inglés de manera natural y efectiva. 📝🗣️ Ya sea que estés buscando mejorar tu gramática, vocabulario o pronunciación, nuestro curso te brinda las herramientas que necesitas para alcanzar tus metas. 🎯 Descubre la clave para comunicarte con confianza en cualquier situación y en cualquier parte del mundo. 🌎 ¡Únete a nosotros y comienza tu viaje hacia la fluidez en inglés hoy mismo! 🚀",
        enlaces:"https://www.udemy.com/course/curso-de-ingles-metodologia-vivencial/?referralCode=30EF97C87848E5C61938",
-       precio:40,
+       precio:4000,
        demo:"AAS"
 
 
