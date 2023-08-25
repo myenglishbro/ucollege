@@ -1,4 +1,4 @@
-.card {
+.card-product {
     margin: 10px;
     border-radius: 10px;
     overflow: hidden;
@@ -6,17 +6,17 @@
     transition: all 0.3s ease-in-out;
   }
   
-  .card:hover {
+  .card-product:hover {
     transform: scale(1.05);
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
   } 
   
-  .card-img-top {
+  .card-product-img-top {
     height: 200px;
     object-fit: cover;
   }
   
-  .card-group {
+  .card-product-group {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;

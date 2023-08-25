@@ -8,7 +8,7 @@ import cliente6 from '../img/clients/client-6.png';
 import Benefit from '../components/Benefit/Benefit';
 import LearningExperience from '../components/LearningExperience/LearningExperience';
 import Situations from '../components/Situations/Situations';
-import Hero from './Hero';
+import Hero from '../components/Hero/Hero';
 
 
 const Home = () => {

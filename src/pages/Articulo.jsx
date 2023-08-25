@@ -7,7 +7,7 @@ import '../css/Articulo.css';
 const Articulo = ({thumbnail, title, subtitle, enlaceblog, description, channel}) => {
 
   return (
-    <div className="card" style={{ maxWidth: "18rem" }}>
+    <div className="card-product" style={{ maxWidth: "18rem" }}>
       <img src={thumbnail} className="card-img-top" alt="Thumbnail" />
       <div className="card-body">
         <h6 className="card-subtitle mb-2">{subtitle}</h6>

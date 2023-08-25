@@ -3,14 +3,24 @@ import { Link } from 'react-router-dom';
 import MiLogo from '../../img/logo.svg';
 
 const NavBar = ({ navLinks }) => {
-  const [open, setOpen] = useState(false);
+  const [openDropdown, setOpenDropdown] = useState(null);
+  const [isOffcanvasOpen, setIsOffcanvasOpen] = useState(false);
 
   const toggleOffcanvas = () => {
-    setOpen(!open);
+    setIsOffcanvasOpen(!isOffcanvasOpen);
+  };
+
+  const toggleDropdown = (index) => {
+    if (openDropdown === index) {
+      setOpenDropdown(null);
+    } else {
+      setOpenDropdown(index);
+    }
   };
 
   const handleLinkClick = () => {
-    setOpen(false);
+    setIsOffcanvasOpen(false);
+    setOpenDropdown(null);
   };
 
   return (
@@ -28,7 +38,7 @@ const NavBar = ({ navLinks }) => {
           <span className="navbar-toggler-icon"></span>
         </button>
         <div
-          className={`offcanvas offcanvas-end ${open ? 'show' : ''}`}
+          className={`offcanvas offcanvas-end ${isOffcanvasOpen ? 'show' : ''}`}
           tabIndex="-1"
           id="offcanvasNavbar"
           aria-labelledby="offcanvasNavbarLabel"
@@ -49,19 +59,19 @@ const NavBar = ({ navLinks }) => {
           </div>
           <div className="offcanvas-body">
             <ul className="navbar-nav justify-content-end flex-grow-1 pe-4">
-              {navLinks.map((item) => {
+              {navLinks.map((item, index) => {
                 if (item.dropdown) {
                   return (
                     <li className="nav-item dropdown" key={item.title}>
                       <button
                         className="nav-link dropdown-toggle btn btn-link"
                         id={`navbarDropdown${item.title}`}
-                        aria-expanded="false"
-                        onClick={toggleOffcanvas}
+                        aria-expanded={openDropdown === index ? "true" : "false"}
+                        onClick={() => toggleDropdown(index)}
                       >
                         {item.title}
                       </button>
-                      <ul className="dropdown-menu" aria-labelledby={`navbarDropdown${item.title}`}>
+                      <ul className={`dropdown-menu ${openDropdown === index ? "show" : ""}`} aria-labelledby={`navbarDropdown${item.title}`}>
                         {item.dropdownLinks.map((subItem) => (
                           <li key={subItem.title}>
                             <Link

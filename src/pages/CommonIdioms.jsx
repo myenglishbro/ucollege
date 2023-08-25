@@ -1,7 +1,7 @@
 import React from 'react'
 import {data} from "../utils/data.js"
 
-import Hero from './Hero';
+import Hero from '../components/Hero/Hero.jsx';
 import Descargables from './Descargables';
 import Footer from './Footer';
 

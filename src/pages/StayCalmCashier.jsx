@@ -1,5 +1,5 @@
 import React from 'react'
-import Hero from './Hero'
+import Hero from '../components/Hero/Hero'
 import {data} from "../utils/data.js"
 import Descargables from './Descargables'
 import Footer from './Footer'

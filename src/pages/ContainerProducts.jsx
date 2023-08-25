@@ -12,11 +12,11 @@ const ContainerProducts = () => {
 
   return (
     <>
-      <div className="search-bar text-center my-3">
+      <div className="search-wrapper text-center my-3">
         <div className="input-group">
           <input
             type="text"
-            className="form-control"
+            className="form-control form-control-lg"
             placeholder="Search by title"
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}

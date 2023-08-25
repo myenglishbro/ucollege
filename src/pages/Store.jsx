@@ -1,14 +1,14 @@
 import React from 'react'
 import ContainerProducts from './ContainerProducts'
-import CTA from '../components/CTA/CTA'
 import SourceDisclaimer from '../components/SourceDisclaimer'
+import CallToAction from '../components/CallToAction'
  
 const Store = () => {
   
   return (
     <>
 
-<CTA></CTA>
+<CallToAction></CallToAction>
     <ContainerProducts></ContainerProducts>
    <SourceDisclaimer></SourceDisclaimer>
     </>

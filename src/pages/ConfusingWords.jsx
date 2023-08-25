@@ -3,7 +3,7 @@ import Descargables from './Descargables'
 import {data} from "../utils/data.js"
 
 import Footer from './Footer'
-import Hero from './Hero'
+import Hero from '../components/Hero/Hero'
 
 const ConfusingWords = () => {
   const heroData = data[7]; // selecciona el primer objeto de datos, por ejemplo

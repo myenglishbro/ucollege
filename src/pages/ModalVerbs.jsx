@@ -2,7 +2,7 @@ import React from 'react'
 import Descargables from './Descargables'
 import Footer from './Footer'
 import {data} from "../utils/data.js"
-import Hero from './Hero'
+import Hero from '../components/Hero/Hero'
 
 const ModalVerbs = () => {
     const heroData = data[16]; // selecciona el primer objeto de datos, por ejemplo

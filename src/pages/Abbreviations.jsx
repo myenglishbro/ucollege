@@ -1,7 +1,7 @@
 import React from 'react'
 import Descargables from './Descargables';
 import Footer from './Footer';
-import Hero from './Hero';
+import Hero from '../components/Hero/Hero';
 import {data} from "../utils/data.js"
 
 const Abbreviations = () => {

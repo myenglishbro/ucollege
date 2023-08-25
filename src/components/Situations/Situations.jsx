@@ -3,6 +3,7 @@ import "./Situations.css"
 const Situations = () => {
   return (
     <section class="container-situaciones">
+    <h2 class="section-title">Browse Your Topics</h2>
     <div class="card-situacion">
       <div class="box">
         <div class="content">
@@ -11,7 +12,7 @@ const Situations = () => {
           <p>
           Con clases desde S/.1 , ucollge! ofrece aprendizaje de idiomas a distancia que se ajusta a cualquier bolsillo.
           </p>
-          <a href="#">Leer mas</a>
+          <a href="fsfd">Leer mas</a>
         </div>
       </div>
     </div>
@@ -23,7 +24,7 @@ const Situations = () => {
           <p>
           Te ofrecemos la posibilidad de aprender en función de tus horarios. Reserva tus clases cuando quieras aprender.
           </p>
-          <p >Leer mas</p>
+          <a href="fsfd">Leer mas</a>
         </div>
       </div>
     </div>
@@ -35,7 +36,7 @@ const Situations = () => {
           <p>
           Todo tu aprendizaje en una plataforma completa que te acompañará en cualquier lugar.
           </p>
-          <p>Leer mas</p>
+          <a href="fsfd">Leer mas</a>
         </div>
       </div>
     </div>
