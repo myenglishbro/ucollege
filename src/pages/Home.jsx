@@ -1,10 +1,8 @@
 import React from 'react'
 import "../css/styles.css"
-import cliente2 from '../img/clients/client-2.png';
-import cliente3 from '../img/clients/client-3.png';
-import cliente4 from '../img/clients/client-4.png';
-import cliente5 from '../img/clients/client-5.png';
-import cliente6 from '../img/clients/client-6.png';
+import myenglishbro from '../img/clients/myenglishbro.png';
+import islcollective from '../img/clients/islcollective.png';
+import wordwall from '../img/clients/wordwall.webp';
 import Benefit from '../components/Benefit/Benefit';
 import LearningExperience from '../components/LearningExperience/LearningExperience';
 import Situations from '../components/Situations/Situations';
@@ -17,32 +15,33 @@ const Home = () => {
 
 <Hero></Hero>
 <section id="clients" class="clients clients">
-        <div class="container">
+        <div class="container ">
   
-          <div class="row">
-  
-         
-  
+          <div class="row d-flex justify-center">
+
             <div class="col-lg-2 col-md-4 col-6">
-              <img src={cliente2} class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="100"></img>
+              <img src={myenglishbro} class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="200"></img>
             </div>
   
             <div class="col-lg-2 col-md-4 col-6">
-              <img src={cliente3} class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="200"></img>
+              <img src={islcollective} class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="400"></img>
             </div>
   
             <div class="col-lg-2 col-md-4 col-6">
-              <img src={cliente4} class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="300"></img>
+              <img src={wordwall} class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="500"></img>
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6">
+              <img src={myenglishbro} class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="600"></img>
+            </div>
+
+            <div class="col-lg-2 col-md-4 col-6">
+              <img src={islcollective} class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="700"></img>
             </div>
   
             <div class="col-lg-2 col-md-4 col-6">
-              <img src={cliente5} class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="400"></img>
+              <img src={wordwall} class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="800"></img>
             </div>
-  
-            <div class="col-lg-2 col-md-4 col-6">
-              <img src={cliente6} class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="500"></img>
-            </div>
-  
           </div>
   
         </div>
