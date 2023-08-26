@@ -7,6 +7,9 @@ import Benefit from '../components/Benefit/Benefit';
 import LearningExperience from '../components/LearningExperience/LearningExperience';
 import Situations from '../components/Situations/Situations';
 import Hero from '../components/Hero/Hero';
+import Iner from '../components/Iner';
+import SourceDisclaimer from '../components/SourceDisclaimer';
+import Footer from './Footer';
 
 
 const Home = () => {
@@ -47,11 +50,14 @@ const Home = () => {
         </div>
       </section>
 <Situations></Situations>
-<Benefit></Benefit>
-<LearningExperience></LearningExperience>
-   
+<Iner></Iner>
+<SourceDisclaimer/>
 
-      <div id="mainslider3" class="carousel slide" data-bs-ride="carousel tiktok">
+{/* <Benefit></Benefit> */}
+{/* <LearningExperience></LearningExperience> */}
+   {/* <Footer/> */}
+
+      {/* <div id="mainslider3" class="carousel slide" data-bs-ride="carousel tiktok">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
                         
@@ -76,7 +82,7 @@ const Home = () => {
                     </button>
                 </div>
     
-            </div>
+            </div> */}
     </>
   )
 }

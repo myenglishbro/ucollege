@@ -5,27 +5,32 @@ import MiLogo from '../img/logo.png';
 const Footer = () => {
   return (
     <footer>
-  <div class="footer-container">
-    <div class="logo">
-      <img src={MiLogo} alt="logo" style={{ width: "100px" }}/>
+  <div class="container">
+    <div class="row align-items-center border-bottom py-5">
+      <div class="col-lg-4">
+        <ul class="list-inline footer-menu text-center text-lg-left">
+          <li class="list-inline-item"><a href="changelog.html">Changelog</a></li>
+          <li class="list-inline-item"><a href="contact.html">contact</a></li>
+          <li class="list-inline-item"><a href="search.html">Search</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-4 text-center mb-4 mb-lg-0">
+        <a class="navbar-brand" href="index.html">
+          <img class="img-fluid" src={MiLogo} alt="Hugo documentation theme"/>
+        </a>
+      </div>
+      <div class="col-lg-4">
+        <ul class="list-inline social-icons text-lg-right text-center">
+          <li class="list-inline-item"><a href="#"><i class="ti-facebook"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="ti-twitter-alt"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="ti-github"></i></a></li>
+          <li class="list-inline-item"><a href="#"><i class="ti-linkedin"></i></a></li>
+        </ul>
+      </div>
     </div>
-    <div class="contact-info">
-      <h4>Información de contacto</h4>
-      <p>Dirección: 123 Calle Principal</p>
-      <p>Teléfono: (123) 456-7890</p>
-      <p>Correo electrónico: info@tudominio.com</p>
+    <div class="py-4 text-center">
+      <small class="text-light">Copyright © 2020 a hugo theme by <a href="https://themefisher.com">themefisher</a></small>
     </div>
-    <div class="social-media">
-      <h4>Síguenos en redes sociales</h4>
-      <ul>
-        <li><a href="..">Facebook</a></li>
-        <li><a href=".">Twitter</a></li>
-        <li><a href="..">Instagram</a></li>
-      </ul>
-    </div>
-  </div>
-  <div class="footer-bottom">
-    <p>Derechos reservados © 2023 Tu empresa | <a href="..">Política de privacidad</a></p>
   </div>
 </footer>
   )
