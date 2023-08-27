@@ -8,7 +8,6 @@ import LearningExperience from '../components/LearningExperience/LearningExperie
 import Situations from '../components/Situations/Situations';
 import Hero from '../components/Hero/Hero';
 import Iner from '../components/Iner';
-import SourceDisclaimer from '../components/SourceDisclaimer';
 import styles from '../style';
 import Billing from '../components/Billing';
 import CardDeal from '../components/CardDeal';

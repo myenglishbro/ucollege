@@ -1,56 +1,38 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
 
-import "../css/product.css"
 const Producto = (props) => {
-  const { thumbnail, title, description, calificacion,precio,enlaces} = props;
-  const priceText = precio === 0 ? "Gratis" : `S/.${precio}`;
-
- 
+  const {
+    thumbnail,
+    title,
+    description,
+    calificacion,
+    precio,
+    enlaces
+  } = props;
 
   return (
-    <section className="card">
-            <div className="poster">
-             <img src={thumbnail} alt="title"/>
-             </div>
-             <div className="details">
-                 <div class="imgcontent">
-                   {/* <img src="https://i.ibb.co/347Fk71/logmyenglishbro.png" ALT="logo"/> */}
-                   <Helmet>
-        <script src="https://apis.google.com/js/platform.js" async defer></script>
-      </Helmet>
-      <div class="g-ytsubscribe" data-channelid="UCmoCEECyW8IRFEmsu3-Z30g" data-layout="full" data-count="hidden"></div>
-                   <br/>
-                   <span>{title}</span>
-                 </div>
-                 <div className="rating">
-                    <i className="fas fa-star" aria-hidden="true"></i>
-                    <i className="fas fa-star" aria-hidden="true"></i>
-                    <i className="fas fa-star" aria-hidden="true"></i>
-                    <i className="fas fa-star" aria-hidden="true"></i>
-                    <i className="far fa-star" aria-hidden="true"></i>
-                    <span>{calificacion}</span>
-                  </div>
-
-                  <div className="tags">
-                  <span className="fantasy">{priceText}</span>
-                    <a href={enlaces}><span className="mystery" >Descargar</span></a>
-                 
-
-                  </div>
-
-                  <div className="info">
-                    <p>
-                      {description}
-                    </p>
-                  </div>
-
-             </div>
-
-
-    </section>
-
-    
+    <div className="max-w-md mx-auto bg-black-gradient-2 rounded-lg overflow-hidden shadow-md mb-6">
+      <img src={thumbnail} alt={title} className="w-full h-[200px] object-cover" />
+      <div className="p-4">
+        <h2 className="font-poppins font-semibold text-xl text-white">{title}</h2>
+        <p className="font-poppins font-normal text-sm text-dimWhite mt-2">{description}</p>
+        <div className="flex items-center mt-4 mb-5">
+          <img src={thumbnail} alt={title} className="w-8 h-8 rounded-full" />
+          <div className="flex flex-col ml-2">
+            <span className="font-poppins font-semibold text-sm text-white">{calificacion}</span>
+            <span className="font-poppins font-normal text-xs text-dimWhite">{precio}</span>
+          </div>
+        </div>
+        <a
+          href={enlaces}
+          className={` mt-6 py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none `}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Enlace de Descarga
+        </a>
+      </div>
+    </div>
   );
 };
 

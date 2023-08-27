@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { products } from '../utils/products.js';
 import Producto from './Producto.jsx';
 import { BsSearch } from 'react-icons/bs';
+import styles from '../style.js';
 const ContainerProducts = () => {
   const [searchQuery, setSearchQuery] = useState('');
 
@@ -26,7 +27,20 @@ const ContainerProducts = () => {
           </span>
         </div>
       </div>
-      <div className="card-container d-flex flex-wrap justify-content-center">
+      <section className={`${styles.paddingY} ${styles.flexCenter} flex-col relative z-0`}>
+      <div className="absolute z-[5] w-[60%] h-[60%] -right-[50%] rounded-full blue__gradient bottom-40" />
+      <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
+      <h2 className={styles.heading2}>
+      Todo el contenido presentado aquí es gratuito y no se vende.
+      </h2>
+      <div className="w-full md:mt-0 mt-6">
+        <p className={`${styles.paragraph} text-left max-w-[450px]`}>
+        Todos los materiales aquí presentes son obtenidos de diversas fuentes, incluyendo ISECollective, Facebook, descargas de Mega y contribuciones de la comunidad. Este sitio pretende ser un lugar centralizado para almacenar y compartir recursos educativos.
+        </p>
+      </div>
+    </div>
+    <div className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[0]">
+
         {filteredProducts.map((item) => (
           <Producto
             key={item.id}
@@ -41,7 +55,8 @@ const ContainerProducts = () => {
             demo={item.demo}
           />
         ))}
-      </div>
+        </div>
+      </section>
     </>
   );
 };

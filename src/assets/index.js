@@ -16,6 +16,8 @@ import card from "./card.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
+import quotes from "./quotes.svg";
+
 export {
 chopper,
 discount,
@@ -32,5 +34,5 @@ bill,
 google,
   apple,
   card,
-  star,send,shield,
+  star,send,shield,quotes
 };
