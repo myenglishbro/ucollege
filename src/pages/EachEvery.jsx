@@ -1,7 +1,7 @@
 import React from 'react'
 import {data} from "../utils/data.js"
 import Descargables from './Descargables.jsx';
-import Footer from './Footer.jsx';
+import Footer from '../components/Footer.jsx';
 import Hero from '../components/Hero/Hero.jsx';
 
 const EachEvery = () => {

@@ -1,4 +1,3 @@
-import "./App.css";
 import NavBar from "./components/NavBar/NavBar";
 import { FcHome } from "react-icons/fc";
 import { FcLike } from "react-icons/fc";
@@ -13,7 +12,7 @@ import { FcBusinessman } from "react-icons/fc";
 
 import { FcApproval } from "react-icons/fc";
 
-
+import styles from "./style";
 import "./index.css"
 
 
@@ -55,112 +54,20 @@ import HospitalityAndTour from "./pages/HospitalityAndTour";
 import SuffixinEnglish01 from "./pages/SuffixinEnglish01";
 import SuffixinEnglish02 from "./pages/SuffixinEnglish02";
 import EF from "./pages/EF";
-const navLinks = [
-  {
-    title: "Home",
-    path: "/",
-    icon: <FcHome />,
-  },
-  {
-    title: "About",
-    path: "/About",
-    icon: <FcLike />
-   
-  },
-  
-  {
-    title: "Precios",
-    path: "/Precios",
-    icon: <FcCurrencyExchange />,
-  },
-  {
-    title: "Library",
-    path: "/Store",
-    icon: <FcShop />,
-  },
-  {
-    title: "Clases",
-    path: "/Clases",
-    icon: <FcRules />
-   
-  },
-  {
-    title: "RoadMap",
-    path: "/RoadMap",
-    icon: <FcTimeline />,
+import Navbar from "./components/NavBar/NavBar";
+import Footer from "./components/Footer";
 
-  },
-  {
-    title: "Certificacion",
-    path: "/Certificacion",
-    icon: <FcTimeline />,
-  },
-  
- 
- {
-    title: "Career Path",
-    path: "/Speaking",
-    icon: <FcBusinessman />,
-    dropdown: true,
-    dropdownLinks: [
-      {
-        title: "Hospitality",
-        path: "/HospitalityAndTour"
-      },
-      {
-        title: "Dentestry",
-        path: "/RoadMap"
-      },
-      {
-        title: "Medicine",
-        path: "/Clases/Aleman"
-      }
-    ]
-  }
-  
-  ,
-  {
-    title: "Student Zone",
-    icon: <FcApproval />,
-    dropdown: true,
-    dropdownLinks: [
-      {
-        title: "My Portal",
-        path: "/MyPortal"
-      },
-      {
-        title: "Horario",
-        path: "/Horario",
-        icon: <FcPlanner />
-
-      },
-      {
-        title: "Politicas de Clases",
-        path: "/PoliticasClase",
-        icon: <FcReading />
-    
-      },
-      {
-        title: "Pagos",
-        path: "/Pagos",
-        icon: <FcDebt />
-    
-      }
-     ,
-      {
-        title: "Carlos Apolaya",
-        path: "https://meb3.vercel.app/"
-      }
-    ]
-    
-
-  }
-];
 function App() {
   return (
-    <>
-      <NavBar navLinks={navLinks}></NavBar>
-      <div>
+    
+
+<div className="bg-primary w-full overflow-hidden">
+<div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+        
+        <Navbar/>
+        </div>
+      </div>
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/About" element={<About />}></Route>
@@ -174,8 +81,6 @@ function App() {
           <Route path="/Speaking" element={<Speaking />}></Route>
           <Route path="/MyPortal" element={<ContainerPortal />}></Route>
           <Route path="/Certificacion" element={<EF />}></Route>
-
-
           <Route path="/PhrasesAtWork" element={<PhrasesAtWork />}></Route>
           <Route path="/PhrasesNative" element={<PhrasesNative />}></Route>
           <Route path="/ErroresB2" element={<ErroresB2 />}></Route>
@@ -187,7 +92,6 @@ function App() {
           <Route path="/Specially" element={<Specially />}></Route>
           <Route path="/ErroresComunes" element={<ErroresComunes />}></Route>
           <Route path="/AvanzadoEnIngles" element={<AvanzadoEnIngles />}></Route>
-
           <Route path="/StayCalmCashier" element={<StayCalmCashier />}></Route>
           <Route path="/DealingComplaints" element={<DealingComplaints />}></Route>
           <Route path="/CommonIdioms" element={<CommonIdioms />}></Route>
@@ -197,27 +101,29 @@ function App() {
           <Route path="/EachEvery" element={<EachEvery />}></Route>
           <Route path="/WhereInWhichWherein" element={<WhereInWhichWherein />}></Route>
           <Route path="/Article" element={<Article />}></Route>
-
           <Route path="/FalseFriends" element={<FalseFriends />}></Route>
-
           <Route path="/HospitalityandTour" element={<HospitalityAndTour />}></Route>
           <Route path="/SuffixinEnglish01" element={<SuffixinEnglish01 />}></Route>
           <Route path="/SuffixinEnglish02" element={<SuffixinEnglish02 />}></Route>
 
-
-
-
-
-
-
-
-
-
-
-
         </Routes>
+      
+
+        <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+        {/* <Stats />
+        <Business />
+        <Billing />
+        <CardDeal />
+        <Testimonials />
+        <Clients />
+        <CTA /> */}
+        <Footer />
       </div>
-    </>
+    </div>
+  </div>
+      
+   
   );
 }
 

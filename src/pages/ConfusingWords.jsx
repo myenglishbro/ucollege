@@ -2,7 +2,7 @@ import React from 'react'
 import Descargables from './Descargables'
 import {data} from "../utils/data.js"
 
-import Footer from './Footer'
+import Footer from '../components/Footer'
 import Hero from '../components/Hero/Hero'
 
 const ConfusingWords = () => {

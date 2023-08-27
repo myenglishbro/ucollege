@@ -1,112 +1,63 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import MiLogo from '../../img/logo.svg';
+import { logo,close,menu} from '../../assets'; // Asegúrate de tener importado tu logo
+import { navLinks } from '../../constants';
 
-const NavBar = ({ navLinks }) => {
-  const [openDropdown, setOpenDropdown] = useState(null);
-  const [isOffcanvasOpen, setIsOffcanvasOpen] = useState(false);
-
-  const toggleOffcanvas = () => {
-    setIsOffcanvasOpen(!isOffcanvasOpen);
-  };
-
-  const toggleDropdown = (index) => {
-    if (openDropdown === index) {
-      setOpenDropdown(null);
-    } else {
-      setOpenDropdown(index);
-    }
-  };
-
-  const handleLinkClick = () => {
-    setIsOffcanvasOpen(false);
-    setOpenDropdown(null);
-  };
+const Navbar = () => {
+  const [active, setActive] = useState('Home');
+  const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top">
-      <div className="container-fluid">
-        <Link to="/" className="navbar-brand">
-          <img src={MiLogo} alt="logo" style={{ width: "30px" }} />
-        </Link>
-        <button
-          className="navbar-toggler"
-          type="button"
-          aria-label="Toggle navigation"
-          onClick={toggleOffcanvas}
-        >
-          <span className="navbar-toggler-icon"></span>
-        </button>
+    <nav className="w-full flex py-6 justify-between items-center navbar">
+      <img src={logo} alt="logo" className="w-[124px] h-[72px]" />
+
+      <ul className="list-none sm:flex hidden justify-end items-center flex-1">
+        {navLinks.map((nav, index) => (
+          <li
+            key={nav.title}
+            className={`font-poppins font-normal cursor-pointer text-[16px] ${
+              active === nav.title ? 'text-white' : 'text-dimWhite'
+            } ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'}`}
+            onClick={() => setActive(nav.title)}
+          >
+            <Link to={nav.path}>{nav.title}</Link>
+          </li>
+        ))}
+      </ul>
+
+      <div className="sm:hidden flex flex-1 justify-end items-center">
+        <img
+          src={toggle ? close : menu}
+          alt="menu"
+          className="w-[28px] h-[28px] object-contain"
+          onClick={() => setToggle(!toggle)}
+        />
+
         <div
-          className={`offcanvas offcanvas-end ${isOffcanvasOpen ? 'show' : ''}`}
-          tabIndex="-1"
-          id="offcanvasNavbar"
-          aria-labelledby="offcanvasNavbarLabel"
+          className={`${
+            !toggle ? 'hidden' : 'flex'
+          } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
         >
-          <div className="offcanvas-header">
-            <h5 className="offcanvas-title" id="offcanvasNavbarLabel">
-              <Link to="/" className="navbar-brand">
-                <img src={MiLogo} alt="logo" style={{ width: "30px" }} />
-              </Link>
-            </h5>
-            <button
-              type="button"
-              className="btn-close"
-              data-bs-dismiss="offcanvas"
-              aria-label="Close"
-              onClick={toggleOffcanvas}
-            ></button>
-          </div>
-          <div className="offcanvas-body">
-            <ul className="navbar-nav justify-content-end flex-grow-1 pe-4">
-              {navLinks.map((item, index) => {
-                if (item.dropdown) {
-                  return (
-                    <li className="nav-item dropdown" key={item.title}>
-                      <button
-                        className="nav-link dropdown-toggle btn btn-link"
-                        id={`navbarDropdown${item.title}`}
-                        aria-expanded={openDropdown === index ? "true" : "false"}
-                        onClick={() => toggleDropdown(index)}
-                      >
-                        {item.title}
-                      </button>
-                      <ul className={`dropdown-menu ${openDropdown === index ? "show" : ""}`} aria-labelledby={`navbarDropdown${item.title}`}>
-                        {item.dropdownLinks.map((subItem) => (
-                          <li key={subItem.title}>
-                            <Link
-                              className="dropdown-item"
-                              to={subItem.path}
-                              onClick={handleLinkClick}
-                            >
-                              {subItem.title}
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
-                    </li>
-                  );
-                } else {
-                  return (
-                    <li className="nav-item" key={item.title}>
-                      <Link
-                        className="nav-link"
-                        aria-current="page"
-                        to={item.path}
-                        onClick={handleLinkClick}
-                      >
-                        {item.title}
-                      </Link>
-                    </li>
-                  );
-                }
-              })}
-            </ul>
-          </div>
+          <ul className="list-none flex justify-end items-start flex-1 flex-col">
+            {navLinks.map((nav, index) => (
+              <li
+                key={nav.title}
+                className={`font-poppins font-medium cursor-pointer text-[16px] ${
+                  active === nav.title ? 'text-white' : 'text-dimWhite'
+                } ${index === navLinks.length - 1 ? 'mb-0' : 'mb-4'}`}
+                onClick={() => {
+                  setActive(nav.title);
+                  setToggle(false);
+                }}
+              >
+                <Link to={nav.path}>{nav.title}</Link>
+              </li>
+            ))}
+          </ul>
         </div>
       </div>
     </nav>
   );
 };
 
-export default NavBar;
+export default Navbar;

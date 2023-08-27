@@ -2,7 +2,7 @@ import React from 'react'
 import {data} from "../utils/data.js"
 import Hero from '../components/Hero/Hero.jsx';
 import Descargables from './Descargables.jsx';
-import Footer from './Footer.jsx';
+import Footer from '../components/Footer.jsx';
 import "../css/Global.css"
 
 const DealingComplaints = () => {

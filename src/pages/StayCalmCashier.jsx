@@ -2,7 +2,7 @@ import React from 'react'
 import Hero from '../components/Hero/Hero'
 import {data} from "../utils/data.js"
 import Descargables from './Descargables'
-import Footer from './Footer'
+import Footer from '../components/Footer'
 const StayCalmCashier = () => {
   const heroData = data[11]; // selecciona el primer objeto de datos, por ejemplo
 

@@ -3,7 +3,7 @@ import {data} from "../utils/data.js"
 
 import Hero from '../components/Hero/Hero.jsx';
 import Descargables from './Descargables';
-import Footer from './Footer';
+import Footer from '../components/Footer.jsx';
 
 const CommonIdioms = () => {
     const heroData = data[14];

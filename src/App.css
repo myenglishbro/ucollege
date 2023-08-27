@@ -1,16 +1,4 @@
-body {
-  background-color: #fff;
-  overflow-x: hidden;
-}
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800&display=swap");
-body {
-  font-family: "Montserrat", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  font-size: 16px;
-  line-height: 1.6;
-  color: #333;
-  
-}
+
 
 p, .paragraph {
   font-weight: 400;
@@ -109,38 +97,8 @@ h6, .h6 {
   margin-bottom: 40px;
 }
 
-.search-wrapper {
-  position: relative;
-}
-.search-wrapper .form-control {
-  height: 46px;
-  border: 0;
-  outline: 0;
-}
-.search-wrapper .form-control::-moz-placeholder {
-  color: #999;
-  font-size: 15px;
-}
-.search-wrapper .form-control::placeholder {
-  color: #999;
-  font-size: 15px;
-}
-.search-wrapper .form-control-lg {
-  height: 70px;
-}
-.search-wrapper .form-control.active.focus-visible {
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-}
-.search-wrapper button {
-  position: absolute;
-  right: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-}
-.search-wrapper button i {
-  color: #FF0043;
-}
+
+
 
 .card-new {
   transition: 0.2s ease;

@@ -9,15 +9,34 @@ import Situations from '../components/Situations/Situations';
 import Hero from '../components/Hero/Hero';
 import Iner from '../components/Iner';
 import SourceDisclaimer from '../components/SourceDisclaimer';
-import Footer from './Footer';
-
-
+import styles from '../style';
+import Billing from '../components/Billing';
+import CardDeal from '../components/CardDeal';
+import Stats from '../components/Stats';
+import Business from '../components/Business';
 const Home = () => {
   return (
     <>
 
-<Hero></Hero>
-<section id="clients" class="clients clients">
+      <div className="bg-primary w-full overflow-hidden">
+      <div className={`bg-primary ${styles.flexStart}`}>
+      <div className={`${styles.boxWidth}`}>
+        <Hero />
+      </div>
+    </div>
+
+    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+      <Stats />
+      <Business/>
+        <Billing />
+        <CardDeal />
+
+      </div>
+    </div>
+     </div>
+   
+{/* <section id="clients" class="clients clients">
         <div class="container ">
   
           <div class="row d-flex justify-center">
@@ -48,10 +67,10 @@ const Home = () => {
           </div>
   
         </div>
-      </section>
-<Situations></Situations>
-<Iner></Iner>
-<SourceDisclaimer/>
+      </section> */}
+{/* <Situations></Situations> */}
+{/* <Iner></Iner> */}
+{/* <SourceDisclaimer/> */}
 {/* <Benefit></Benefit> */}
 {/* <LearningExperience></LearningExperience> */}
    {/* <Footer/> */}
