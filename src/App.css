@@ -9,6 +9,7 @@ body {
   font-size: 16px;
   line-height: 1.6;
   color: #333;
+  
 }
 
 p, .paragraph {
@@ -98,6 +99,7 @@ h6, .h6 {
 .section {
   padding-top: 80px;
   padding-bottom: 80px;
+  margin-top: 20px;
 }
 .section-sm {
   padding-top: 50px;
@@ -192,3 +194,33 @@ h6, .h6 {
   box-shadow: 0px 15px 60px rgba(62, 62, 62, 0.102) !important;
 }
 
+/* Estilos para el acordeón */
+.accordion-item {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.accordion-button {
+  background-color: #f8f9fa;
+  color: #333;
+  font-weight: bold;
+}
+
+.accordion-body {
+  padding: 10px;
+}
+
+/* Cambiar el estilo cuando el botón está colapsado */
+.accordion-button[aria-expanded="false"] {
+  background-color: #e9ecef;
+  color: #333;
+}
+
+
+
+/* Establecer un ancho máximo para el acordeón */
+.accordion {
+  max-width: 800px; /* Ajusta el ancho máximo según tus necesidades */
+  width: 100%;
+}

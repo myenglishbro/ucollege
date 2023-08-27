@@ -5,7 +5,7 @@ const Hito = (props) => {
   return (
     <>
       <section class="section">
-  <div class="container">
+  <div class="container text-center">
     <div class="row align-items-center">
       <div class="col-lg-4 text-center d-lg-block d-none">
         <img src={cohete} class="img-fluid" alt=""/>
@@ -21,36 +21,36 @@ const Hito = (props) => {
       </div>
     </div>
   </div>
-</section>
-    <div className="main">      
+      </section>
 
+      <section className="section d-flex justify-content-center align-items-center">
       <h3 className="heading">{props.title}</h3>
-      <div className="container">
-        <div id="accordionExample" className="accordion">
-          {props.road.map((elemento, index) => (
-            <div className="accordion-item" key={index}>
-              <h2 className="accordion-header">
-                <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target={`#collapse${index}`} aria-expanded="true" aria-controls={`collapse${index}`}>
-                  {elemento.dateAdded}
-                </button>
-              </h2>
-              <div id={`collapse${index}`} className={`accordion-collapse collapse ${index === 0 ? 'show' : ''}`} aria-labelledby={`heading${index}`} data-bs-parent="#accordionExample">
-                <div className="accordion-body">
-                  <p>{elemento.description}</p>
-                  <div>
-                    {elemento.enlaces.map((enlace, i) => (
-                      <a key={i} href={enlace.url} target="_blank" rel="noopener noreferrer">
-                        <p>{enlace.titulo}</p>
-                      </a>
-                    ))}
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
+      <div className="accordion" id="accordionExample">
+  {props.road.map((elemento, index) => (
+    <div className="accordion-item" key={index}>
+      <h2 className="accordion-header" id={`heading${index}`}>
+        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target={`#collapse${index}`} aria-expanded="false" aria-controls={`collapse${index}`}>
+          {elemento.dateAdded}
+        </button>
+      </h2>
+      <div id={`collapse${index}`} className="accordion-collapse collapse" aria-labelledby={`heading${index}`} data-bs-parent="#accordionExample">
+        <div className="accordion-body">
+          <p>{elemento.description}</p>
+          <div>
+            {elemento.enlaces.map((enlace, i) => (
+              <a key={i} href={enlace.url} target="_blank" rel="noopener noreferrer">
+                <p>{enlace.titulo}</p>
+              </a>
+            ))}
+          </div>
         </div>
       </div>
     </div>
+  ))}
+</div>
+      </section>
+
+  
     </>
   );
 };
