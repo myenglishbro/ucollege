@@ -1,54 +1,36 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
-import cohete from "../img/cohete.png"
+
+import styles, { layout } from "../style";
+import Button from '../components/Button';
 const Hito = (props) => {
   return (
     <>
-      <section class="section">
-  <div class="container text-center">
-    <div class="row align-items-center">
-      <div class="col-lg-4 text-center d-lg-block d-none">
-        <img src={cohete} class="img-fluid" alt=""/>
-      </div>
-      <div class="col-lg-8 text-lg-left text-center">
-        <h2 class="mb-3">Road to Fluency</h2>
-        <p>Bienvenido a nuestra emocionante ruta de aprendizaje del idioma inglés, diseñada para guiarte desde los fundamentos hasta la fluidez en este idioma global. </p>
- <div className="g-ytsubscribe" data-channelid="UCmoCEECyW8IRFEmsu3-Z30g" data-layout="full" data-count="hidden"></div>
-
-        <Helmet>
-        <script src="https://apis.google.com/js/platform.js" async defer></script>
-      </Helmet>
-      </div>
-    </div>
-  </div>
-      </section>
-
-      <section className="section d-flex justify-content-center align-items-center">
-      <h3 className="heading">{props.title}</h3>
-      <div className="accordion" id="accordionExample">
-  {props.road.map((elemento, index) => (
-    <div className="accordion-item" key={index}>
-      <h2 className="accordion-header" id={`heading${index}`}>
-        <button className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target={`#collapse${index}`} aria-expanded="false" aria-controls={`collapse${index}`}>
-          {elemento.dateAdded}
-        </button>
-      </h2>
-      <div id={`collapse${index}`} className="accordion-collapse collapse" aria-labelledby={`heading${index}`} data-bs-parent="#accordionExample">
-        <div className="accordion-body">
-          <p>{elemento.description}</p>
-          <div>
-            {elemento.enlaces.map((enlace, i) => (
-              <a key={i} href={enlace.url} target="_blank" rel="noopener noreferrer">
-                <p>{enlace.titulo}</p>
-              </a>
-            ))}
-          </div>
+     
+      <section className={`${layout.sectionImg} flex-col`}>
+  <div className="flex-1 flex flex-col">
+    <h2 className={`${styles.heading2 } text-white`} >{props.title}</h2>
+    {props.road.map((elemento, index) => (
+      <div key={index}>
+        <p className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]" >{elemento.dateAdded}</p>
+        <p className='text-white'>
+          {elemento.description}
+        </p>
+        <div>
+          {elemento.enlaces.map((enlace, i) => (
+            <a key={i} href={enlace.url} target="_blank" rel="noopener noreferrer">
+              <p className=' text-white'>{enlace.titulo}</p>
+            </a>
+          ))}
         </div>
       </div>
-    </div>
-  ))}
-</div>
-      </section>
+    ))}
+  </div>
+
+  <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
+    <Button />
+  </div>
+</section>
+
 
   
     </>

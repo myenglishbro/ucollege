@@ -13,6 +13,7 @@ import Billing from '../components/Billing';
 import CardDeal from '../components/CardDeal';
 import Stats from '../components/Stats';
 import Business from '../components/Business';
+import CTA from '../components/CTA';
 const Home = () => {
   return (
     <>
@@ -30,7 +31,7 @@ const Home = () => {
       <Business/>
         <Billing />
         <CardDeal />
-
+        <CTA></CTA>
       </div>
     </div>
      </div>

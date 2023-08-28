@@ -11,7 +11,7 @@ const Producto = (props) => {
   } = props;
 
   return (
-    <div className="max-w-md mx-auto bg-black-gradient-2 rounded-lg overflow-hidden shadow-md mb-6">
+    <div className="max-w-md mx-auto bg-black-gradient-2 rounded-lg overflow-hidden shadow-md mb-6 feature-card">
       <img src={thumbnail} alt={title} className="w-full h-[200px] object-cover" />
       <div className="p-4">
         <h2 className="font-poppins font-semibold text-xl text-white">{title}</h2>
