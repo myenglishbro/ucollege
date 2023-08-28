@@ -33,6 +33,11 @@ export const navLinks =  [
   
     },
     {
+      title: "Horario",
+      path: "/Horario"
+  
+    },
+    {
       title: "Certificacion",
       path: "/Certificacion"
     },

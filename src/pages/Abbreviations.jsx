@@ -18,7 +18,7 @@ const Abbreviations = () => {
     </p>      
     <p>If you want to make an abbreviation, you have several options. In this guide, we explain the types of abbreviations, describe how they work, and provide plenty of abbreviation examples so you can see how it’s done.</p>
         <article>
-        <h2 className='titulos-post'>What are abbreviations in English?</h2>
+        <h2 className='text-white'>What are abbreviations in English?</h2>
          <p>An abbreviation is just a short version of a longer word or a phrase. For example, the word ad is an abbreviation of advertisement, and the word don’t is an abbreviation of do not. Abbreviations are prevalent in both speaking and writing. They’re present in most languages as well, so abbreviations in English aren’t the only ones.</p>
           <p>The purpose of abbreviations is to make communication more efficient by using smaller words. This is most apparent in acronyms, one of the types of abbreviations we discuss below. An acronym takes the first letter (or letters) of a set of words and adds them together to create a brand-new word. In this way, an acronym replaces a long string of words with just a single one, making communication that much easier.</p>
          <h2>Types of abbreviations: What are the 5 abbreviation types?</h2>
@@ -34,11 +34,11 @@ const Abbreviations = () => {
         </article>
      <hr></hr>
      <article>
-        <h2 className='titulos-post'> Clipping</h2>
+        <h2 className='text-white'> Clipping</h2>
         <p>Clipping refers to the removal of entire syllables from words, usually from the end. What’s left is typically one or two syllables that people can still easily recognize. Clipping is so common that often the abbreviation is much more popular than the full version of the word. It’s also frequently used with people’s names to create nicknames.</p>
          <p>Clipping does not usually require additional punctuation. In formal writing like research papers, spelling out the entire word is preferred, and clipping is avoided; this often applies to contractions as well.</p>
          <h3>Clipping abbreviation examples</h3>
-          <ul className='listas'>
+          <ul className='listas text-white'>
           <li>ad (advertisement)</li>
           <li>exam (examination)</li>
           <li>app (application)</li>
@@ -108,7 +108,7 @@ const Abbreviations = () => {
 </article>
 <hr></hr>
 <article>
-        <h2 className='titulos-post'> 💬 Textese (online slang)</h2>
+        <h2 className='text-white'> 💬 Textese (online slang)</h2>
         <p>Textese, also known as online slang, is a type of abbreviation created to speed up typing time on computers and mobile phones. The concept is to use minimal characters to represent words, such as typing U instead of you, so messages can be sent faster.</p>
         <p>Textese covers any typed communication, from phone texting to email acronyms. It draws on other types of abbreviations, including initialism (irl for in real life), contractions (bc for because), and new words created by combining letters and numbers based on sounds (gr8 for great).</p>
         <p>As a type of slang, there are no real grammar or formality rules. The more you use it, the quicker you'll learn it.</p>
@@ -125,7 +125,7 @@ const Abbreviations = () => {
 </article>
 <hr></hr>
 <article>
-        <h2 className='titulos-post'>🔍 What are the top 10 abbreviations in English?</h2>
+        <h2 className='text-white'>🔍 What are the top 10 abbreviations in English?</h2>
         <p>Abbreviations are a common way to shorten words or phrases for faster and easier communication. Here are ten of the most common abbreviations in English:</p>
          <ol className='listas'>
           <li>don’t (do not) 🚫</li>

@@ -33,7 +33,7 @@ const ContainerVideo = () => {
 </div>
 
 
-      <div className="card-container d-flex flex-wrap justify-content-center">
+<div className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[0]">
         {searchResult.length > 0 ? (
           searchResult.map((item) => (
             <Articulo
