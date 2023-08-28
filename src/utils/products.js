@@ -15,14 +15,14 @@ export const products =[
     },
     {
         id:1,
-       thumbnail:"https://i.ibb.co/QH0fhbG/1684281475.webp",
-       title:"World English Intro para Pc ",
-       subtitle:"(World English, Third Edition) 3rd Edición",
+       thumbnail:"https://i.ibb.co/vw0wZ7j/vocabulary-files-c2-students-book.jpg",
+       title:"VOCABULARY FILES C2 STUDENTS BOOK ",
+       subtitle:"Advanced English level",
        dateAdded:"wswqe",
-       calificacion:"4,6⭐",
-       description:"John Hughes is an award-winning ELT author with thirty years experience of teaching and teacher training. He has worked with learners and teachers from all over the world and is a well-known conference presenter. For National Geographic Learning, he is an author on the course series Life, World English, Third Edition World Link, Fourth Edition, Success with Business, and Total Business. He is also the author of the methodology title, Critical Thinking in ELT. His website is www.johnhugheselt.com.",
-       enlaces:"https://www.udemy.com/course/aprende-y-mejora-tu-ingles-con-my-english-bro/?referralCode=EB755F8CD65CFE003578",
-       precio:120,
+       calificacion:"5,0⭐",
+       description:"Preparación para el Examen CPE de Cambridge",
+       enlaces:"https://drive.google.com/drive/folders/0B492gzcyd_aGWElvaElsTUFpS1E?resourcekey=0-DQ3gxANE5CQcYVgu5iHwVg&usp=sharing",
+       precio:"APORTE DE LA COMUNIDAD",
        demo:"https://www.youtube.com/watch?v=aTePXJUKJc0&ab_channel=MyEnglishBro"
 
 
