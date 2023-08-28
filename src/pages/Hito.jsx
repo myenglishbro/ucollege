@@ -9,8 +9,10 @@ const Hito = (props) => {
       <section className={`${layout.sectionImg} flex-col`}>
   <div className="flex-1 flex flex-col">
     <h2 className={`${styles.heading2 } text-white`} >{props.title}</h2>
+
     {props.road.map((elemento, index) => (
       <div key={index}>
+      
         <p className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]" >{elemento.dateAdded}</p>
         <p className='text-white'>
           {elemento.description}

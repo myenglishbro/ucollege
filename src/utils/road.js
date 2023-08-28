@@ -72,7 +72,7 @@ export const road =[
     ,
     {
         id:3,
-       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
+       thumbnail:"https://img.freepik.com/vector-gratis/fondo-escuela-ingles-dibujado-mano_23-2149483341.jpg?w=2000",
        title:"Mejorando la comprensión y producción oral y escrita",
        subtitle:"asdasd",
 

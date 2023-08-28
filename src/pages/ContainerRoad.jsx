@@ -1,7 +1,6 @@
 import {road} from "../utils/road"
 import Hito from './Hito'
 import styles from "../style"
-import Button from "../components/Button"
 import { Helmet } from 'react-helmet';
 
 const ContainerRoad = () => {

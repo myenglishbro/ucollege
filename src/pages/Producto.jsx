@@ -4,6 +4,7 @@ const Producto = (props) => {
   const {
     thumbnail,
     title,
+    subtitle,
     description,
     calificacion,
     precio,
@@ -11,11 +12,13 @@ const Producto = (props) => {
   } = props;
 
   return (
-    <div className="max-w-md mx-auto bg-black-gradient-2 rounded-lg overflow-hidden shadow-md mb-6 feature-card">
+    <div className="max-w-sm mx-auto bg-black-gradient-2 rounded-lg overflow-hidden shadow-md mb-6 feature-card">
       <img src={thumbnail} alt={title} className="w-full h-[200px] object-cover" />
       <div className="p-4">
         <h2 className="font-poppins font-semibold text-xl text-white">{title}</h2>
+        <p className="font-poppins font-normal text-sm text-dimWhite mt-2">{subtitle}</p>
         <p className="font-poppins font-normal text-sm text-dimWhite mt-2">{description}</p>
+
         <div className="flex items-center mt-4 mb-5">
           <img src={thumbnail} alt={title} className="w-8 h-8 rounded-full" />
           <div className="flex flex-col ml-2">
