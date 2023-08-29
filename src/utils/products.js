@@ -2,12 +2,12 @@ export const products =[
     {
         id:0,
        thumbnail:"https://i.ibb.co/j6xKpw3/My-project-1-3.png",
-       title:"World English 3E Level 1 para Pc",
-       subtitle:"Master the English Skills You Need for Success in Your Career and Studies",
+       title:"Diapositivas y Archivos ",
+       subtitle:"Nivel Basico ",
 
        dateAdded:"wswqe",
        calificacion:"4,7⭐",
-       description:" 🌟 Aprende los trucos y técnicas para hablar y escribir en inglés de manera natural y efectiva. 📝🗣️ Ya sea que estés buscando mejorar tu gramática, vocabulario o pronunciación, nuestro curso te brinda las herramientas que necesitas para alcanzar tus metas. 🎯 Descubre la clave para comunicarte con confianza en cualquier situación y en cualquier parte del mundo. 🌎 ¡Únete a nosotros y comienza tu viaje hacia la fluidez en inglés hoy mismo! 🚀",
+       description:"Encontraras diapositivasde los 12 nivelesdel nivel básico de inglés",
        enlaces:"https://drive.google.com/drive/folders/1-WRcx_iS3-iueoIrfKjKRxPpaxvZBlF0?usp=sharing",
        precio:120,
        demo:"https://www.youtube.com/watch?v=aTePXJUKJc0&ab_channel=MyEnglishBro"
@@ -17,12 +17,11 @@ export const products =[
     {
         id:1,
         thumbnail:"https://i.ibb.co/yfKGXDG/My-project-1-4.png",
-        title:"HandBook Complicated English Grammar  Explained Simply",
-       subtitle:"Master the English Skills You Need for Success in Your Career and Studies",
-
+      title:"Diapositivas y Archivos ",
+       subtitle:"Nivel Intermediate ",
        dateAdded:"wswqe",
        calificacion:"4,7⭐",
-       description:"Are you tired of grappling with convoluted grammar rules and feeling overwhelmed by the intricacies of the English language? Look no further! Demystifying English Grammar is here to rescue you from the labyrinth of complicated grammar.🚀",
+       description:"Encontraras diapositivasde los 12 niveles del nivel Intermedio de inglés",
        enlaces:"https://drive.google.com/drive/folders/12r0a0uRWXxgO5XlM7qc6uW3yfEkAAYIH?usp=sharing",
        precio:30,
        demo:"AAS"
