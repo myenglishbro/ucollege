@@ -1,65 +1,37 @@
 export const products =[
     {
         id:0,
-       thumbnail:"https://i.ibb.co/cwnQjdN/Portada-de-Disco-collage-maximalista-creativo.jpg",
-       title:"100 Phrasal Verbs Más usados ",
-       subtitle:"Pre-Intermediate",
-       dateAdded:"wswqe",
-       calificacion:"5,0⭐",
-       description:"Explora los 100 phrasal verbs más utilizados: una guía completa con ejemplos en español e inglés. Mejora tu comprensión y uso de estas expresiones idiomáticas fundamentales para el dominio del idioma",
-       enlaces:"https://drive.google.com/file/d/1ax5R0JU5XMntUvVahHdu12dE6hnA5GKP/view?usp=sharing",
-       precio:"APORTE DE LA COMUNIDAD",
-       demo:"https://www.youtube.com/watch?v=aTePXJUKJc0&ab_channel=MyEnglishBro"
-
-
-    },
-    {
-        id:1,
-       thumbnail:"https://i.ibb.co/vw0wZ7j/vocabulary-files-c2-students-book.jpg",
-       title:"VOCABULARY FILES C2 STUDENTS BOOK ",
-       subtitle:"Advanced English level-C1-C2",
-       dateAdded:"wswqe",
-       calificacion:"5,0⭐",
-       description:"Preparación para el Examen CPE de Cambridge",
-       enlaces:"https://drive.google.com/drive/folders/0B492gzcyd_aGWElvaElsTUFpS1E?resourcekey=0-DQ3gxANE5CQcYVgu5iHwVg&usp=sharing",
-       precio:"APORTE DE LA COMUNIDAD",
-       demo:"https://www.youtube.com/watch?v=aTePXJUKJc0&ab_channel=MyEnglishBro"
-
-
-    },
-    {
-        id:2,
-       thumbnail:"https://i.ibb.co/5hHz7Rd/9780357130209.jpg",
+       thumbnail:"https://i.ibb.co/j6xKpw3/My-project-1-3.png",
        title:"World English 3E Level 1 para Pc",
        subtitle:"Master the English Skills You Need for Success in Your Career and Studies",
 
        dateAdded:"wswqe",
        calificacion:"4,7⭐",
        description:" 🌟 Aprende los trucos y técnicas para hablar y escribir en inglés de manera natural y efectiva. 📝🗣️ Ya sea que estés buscando mejorar tu gramática, vocabulario o pronunciación, nuestro curso te brinda las herramientas que necesitas para alcanzar tus metas. 🎯 Descubre la clave para comunicarte con confianza en cualquier situación y en cualquier parte del mundo. 🌎 ¡Únete a nosotros y comienza tu viaje hacia la fluidez en inglés hoy mismo! 🚀",
-       enlaces:"https://www.udemy.com/course/curso-de-ingles-metodologia-vivencial/?referralCode=30EF97C87848E5C61938",
+       enlaces:"https://drive.google.com/drive/folders/1-WRcx_iS3-iueoIrfKjKRxPpaxvZBlF0?usp=sharing",
        precio:120,
        demo:"https://www.youtube.com/watch?v=aTePXJUKJc0&ab_channel=MyEnglishBro"
 
 
     },
     {
-        id:3,
-        thumbnail:"https://i.ibb.co/cgsmkTZ/asdasdasdasdas.jpg",
+        id:1,
+        thumbnail:"https://i.ibb.co/yfKGXDG/My-project-1-4.png",
         title:"HandBook Complicated English Grammar  Explained Simply",
        subtitle:"Master the English Skills You Need for Success in Your Career and Studies",
 
        dateAdded:"wswqe",
        calificacion:"4,7⭐",
        description:"Are you tired of grappling with convoluted grammar rules and feeling overwhelmed by the intricacies of the English language? Look no further! Demystifying English Grammar is here to rescue you from the labyrinth of complicated grammar.🚀",
-       enlaces:"https://drive.google.com/file/d/1rKEtPrKgWE8NiS6orH6Lma9oJijULydD/view?usp=share_link",
+       enlaces:"https://drive.google.com/drive/folders/12r0a0uRWXxgO5XlM7qc6uW3yfEkAAYIH?usp=sharing",
        precio:30,
        demo:"AAS"
 
 
     },
     {
-        id:4,
-       thumbnail:"https://preply.com/wp-content/uploads/2014/10/English-for-Programmers-1-e1663161533611.jpg",
+        id:2,
+       thumbnail:"https://i.ibb.co/dJpxYPp/My-project-1-5.png",
        title:"CURSO COMPLETO BASICO - PRE INTERMEDIO",
        subtitle:"Master the English Skills You Need for Success in Your Career and Studies",
 
