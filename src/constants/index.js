@@ -38,8 +38,8 @@ export const navLinks =  [
   
     },
     {
-      title: "Certificacion",
-      path: "/Certificacion"
+      title: "Politicas",
+      path: "/PoliticasClase"
     },
     
    
@@ -227,4 +227,31 @@ export const navLinks =  [
       content:
         "Cada vez que decides invertir en tu propio aprendizaje a través de la compra de un curso en Udemy, también estás apoyando a nuestra causa. Los fondos generados se reinvierten para crear y compartir más contenido educativo gratuito para quienes no tienen los medios para acceder a cursos pagados. Tu inversión no solo te beneficia, sino que también ayuda a construir un mundo educativo más equitativo y accesible para todos.",
     },
+  ];
+
+
+  export const politicas = [
+    {
+      id: "politica-1",
+      icon: star,
+      title: "¿Puedo cambiar o cancelar mi clase programada?",
+      content: " ¡Sí! Si no puedes asistir a la clase programada, cancélala con al menos 24 horas de anticipación.Entonces podrás programar otra clase para ese mismo día o para otro día de la misma semana. Alternativamente, puedes llamar inmediatamente a uno de los excelentes tutores que están en línea +51 926 922 032",
+    },
+    {
+      id: "politica-2",
+      icon: shield,
+      title: "Ten en cuenta",
+      content: "Siempre queremos recordar que tanto los estudiantes como los tutores deben valorar el tiempo de cada uno ⏰. Cuando reservas una clase, el tutor se prepara con anticipación para enseñarte y asegurarse de que tengas la mejor experiencia de aprendizaje posible 📚. Si cancelas una clase sin previo aviso, le estás dejando en el aire y eso puede ser una pérdida para ambos. Sin embargo, si cancelas con al menos 24 horas de anticipación, el tutor tendrá la posibilidad de trabajar con otro alumno y tú podrás volver a utilizar esos minutos en una clase futura 🤝."
+    },{
+      id: "politica-3",
+      icon: send,
+      title: "Mi tutor no llegó a la lección 🤔❌",
+      content:" Lamentamos mucho que tu tutor no pudo asistir a tu clase programada. Sabemos que esto puede ser frustrante, pero debes recordar que los tutores también son seres humanos y pueden tener imprevistos personales o técnicos que los impidan llegar a tu lección a tiempo.Recuerda que en nuestro servicio, tú eres nuestra prioridad y haremos todo lo posible para asegurarnos de que recibas la mejor experiencia de aprendizaje. 🤗",   
+     },{
+      id: "politica-4",
+      icon: send,
+      title: "¿Qué ocurre si no asisto a mi reserva? 🤔❌",
+      content:"Cuando haces una reserva, te comprometes a asistir a esa lección. Entendemos que las emergencias surgen y que hay muchas razones por las que un estudiante puede tener que perder una lección inesperadamente.Si resulta que no vas a poder asistir a tu lección programada, por favor, cancélala al menos con 24 horas de antelación.Después, puedes programar una nueva lección para el horario que más te convenga",   
+     }
+
   ];
