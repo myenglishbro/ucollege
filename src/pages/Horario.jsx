@@ -35,7 +35,6 @@ const Horario = () => {
       <div class="col-lg-2">
       <h5 class="font-poppins font-normal text-[16px] leading-[24px] text-white hover:text-secondary cursor-pointer">Tuesday 🌈</h5>
       <ul class="list-group ">
-      <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ">07:00-08:00 am 🟢 </li>
 
       <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">07:00-08:00 am 🟢 </li>
       <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">08:00-09:00 am 🟢 </li>
