@@ -4,9 +4,12 @@ import "../css/horario.css"
 const Horario = () => {
   return (
    <>
-    <div className="max-w-md mx-auto bg-black-gradient-2 rounded-lg overflow-hidden shadow-md mb-6 feature-card">
+    <div className="max-w-screen-lg mx-auto bg-black-gradient-2 rounded-lg overflow-hidden shadow-md mb-6 feature-card">
     <p  className="font-poppins font-semibold text-xl text-white">
-         Se sugiere 2 horas por clase para una mejor division del contenido - los horarios que no aparecen ya han sido tomados recuerda consultar por alguna variacion y revisar las politicas de clases
+         Se sugiere 2 horas por clase para una mejor division del contenido
+        </p>
+        <p  className="font-poppins font-semibold text-xl text-white">
+        los horarios que no aparecen ya han sido tomados recuerda consultar por alguna variacion y revisar las politicas de clases
         </p>
     </div>
     
