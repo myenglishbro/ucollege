@@ -129,6 +129,14 @@ const Horario = () => {
       <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ">06:00-08:00 pm 🟢 </li>
         </ul>
       </div>
+      <div class="col-lg-2">
+      <h5 class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ">Sunday 💪</h5>
+      <ul class="list-group list-group-flush">
+      <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">10:00-12:00 pm 🟢 </li>
+      <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">12:00-02:00 pm 🟢 </li>
+
+        </ul>
+      </div>
 
 
       
