@@ -1,21 +1,15 @@
 import React from 'react'
-import {students} from "../utils/students.js"
 import MyPortal from './MyPortal.jsx'
-
+import styles from '../style.js'
 const ContainerPortal = () => {
   return (
-    <div className="card-container d-flex flex-wrap justify-content-center">
-      {students.map((student) => (
+    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+      <div className={`${styles.boxWidth}`}>
+     
         <MyPortal
-          key={student.id}
-          studentName={student.studentName}
-          totalClasses={student.totalClasses}
-          classesTaken={student.classesTaken}
-          imageSrc={student.imageSrc}
-          classesLeft={student.classesLeft}
-          enlace={student.enlace}
+         
         />
-      ))}
+       </div>
     </div>
   )
 }

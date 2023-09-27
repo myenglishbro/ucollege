@@ -1,32 +1,41 @@
-import React from 'react';
+import { card } from "../assets";
+import Button from "../components/Button";
+import styles, { layout } from "../style";
 
-const MyPortal = ({ studentName, totalClasses, classesTaken, classesLeft, imageSrc ,enlace}) => {
-  const progress = (classesTaken / totalClasses) * 100;
-  const progressBarStyle = {
-    width: `${progress}%`,
-    backgroundColor: progress > 0 ? 'green' : 'gray', // Establece el color del fondo de la barra de progreso en verde si se han tomado clases, de lo contrario, gris.
-  };
-
+const MyPortal = () => {
+  
   return (
-    <div className="student-progress">
-      <div className="student-info">
-        <img src={imageSrc} alt={`Imagen de ${studentName}`} style={{ width: '350px', height: '350px' }} />
-        <h2>{studentName}</h2>
-        <p style={{ color: 'green' }}>Clases tomadas: {classesTaken}</p>
-      </div>
-      <div className="progress-bar">
-        <div className="progress" style={progressBarStyle}>
-          <span>{`${classesTaken} / ${totalClasses}`}</span>
-        </div>
-        <div className="classes-left">
-          <span>{`${classesLeft} Horas restantes`}</span>
-        </div>
-        <div>
-        <a href={enlace} target="_blank" rel="noopener noreferrer"> 🎥 Enlace de clases</a>
+    <>
+      <section className={layout.section}>
+    <div className={layout.sectionInfo}>
+      <h2 className={styles.heading2}>
+      Enlace a clases<br className="sm:block hidden" /> a Distancias
+      </h2>
+      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+      Recuerda que puedes cancelar tu clase con 24 horas de anticipación
+      </p>
 
-        </div>
-      </div>
+      <a href="https://upch.zoom.us/j/2486432639"> <Button styles={`mt-10`}  /></a>
     </div>
+
+    <div className={layout.sectionImg}>
+      <img src={card} alt="billing" className="w-[100%] h-[100%]" />
+    </div>
+  </section>
+
+  <section className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
+    <div className="flex-1 flex flex-col">
+      <h2 className={styles.heading2}>Revisa tus clases!</h2>
+      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+       Aquí encontraras tus clases grabadas y las fechas de las mismas para un mejor control
+      </p>
+    </div>
+
+    <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
+      <a href="https://docs.google.com/spreadsheets/d/1ztiRdJp4b6odziiqhwlEoE6VfLopJiMOrT_RvOl7KDc/edit?usp=sharing"> <Button /></a>
+    </div>
+  </section>
+    </>
   );
 };
 
