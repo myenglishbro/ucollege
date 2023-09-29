@@ -13,9 +13,9 @@ const Hito = (props) => {
     {props.road.map((elemento, index) => (
       <div key={index}>
       
-        <p className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]" >{elemento.dateAdded}</p>
+        <p className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]" >{elemento.title}</p>
         <p className='text-white'>
-          {elemento.description}
+          {elemento.subtitle}
         </p>
         <div>
           {elemento.enlaces.map((enlace, i) => (
