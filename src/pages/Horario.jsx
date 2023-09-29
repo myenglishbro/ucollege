@@ -25,7 +25,7 @@ const Horario = () => {
       <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">01:00-03:00 pm 🟢 </li>
       <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">03:00-04:00 pm 🟢 </li>
       <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">04:00-05:00 pm 🟢 </li>
-      <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">05:00-06:00 pm 🟢 </li>
+      <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-terciary cursor-pointer">5:00-06:00 pm 🔴 </li>
       <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">06:00-07:00 pm 🟢 </li>
       <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">07:00-09:00 pm 🟢 </li>
       <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-terciary cursor-pointer">9:15-10:45 pm 🔴 </li>
@@ -51,9 +51,11 @@ const Horario = () => {
       <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">01:00-03:00 pm 🟢 </li>
       <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">03:00-04:00 pm 🟢 </li>
       <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">04:00-05:00 pm 🟢 </li>
-      <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">05:00-06:00 pm 🟢 </li>
+      <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-terciary cursor-pointer">5:00-06:00 pm 🔴 </li>
       <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">06:00-07:00 pm 🟢 </li>
-      <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">07:00-09:00 pm 🟢 </li>
+      <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-terciary cursor-pointer">7:00-08:00 pm 🔴 </li>
+      <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">8:00-09:00 pm 🟢 </li>
+
       <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-terciary cursor-pointer">9:15-10:45 pm 🔴 </li>
       <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-terciary cursor-pointer">11:00-12:00 pm 🔴 </li>
       <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">12:00-01:00 am 🟢 </li>
@@ -93,9 +95,11 @@ const Horario = () => {
       <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">01:00-03:00 pm 🟢 </li>
       <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">03:00-04:00 pm 🟢 </li>
       <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">04:00-05:00 pm 🟢 </li>
-      <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">05:00-06:00 pm 🟢 </li>
+      <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-terciary cursor-pointer">5:00-06:00 pm 🔴 </li>
       <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">06:00-07:00 pm 🟢 </li>
-      <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">07:00-09:00 pm 🟢 </li>
+      <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-terciary cursor-pointer">7:00-08:00 pm 🔴 </li>
+      <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">8:00-09:00 pm 🟢 </li>
+
       <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-terciary cursor-pointer">9:15-10:45 pm 🔴 </li>
       <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-terciary cursor-pointer">11:00-12:00 pm 🔴 </li>
       <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">12:00-01:00 am 🟢 </li>
@@ -117,7 +121,7 @@ const Horario = () => {
       <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">01:00-03:00 pm 🟢 </li>
       <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">03:00-04:00 pm 🟢 </li>
       <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">04:00-05:00 pm 🟢 </li>
-      <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">05:00-06:00 pm 🟢 </li>
+      <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-terciary cursor-pointer">5:00-06:00 pm 🔴 </li>
       <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">06:00-07:00 pm 🟢 </li>
       <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">07:00-09:00 pm 🟢 </li>
       <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-terciary cursor-pointer">9:15-10:45 pm 🔴 </li>
