@@ -99,15 +99,33 @@ export const road =[
        channel:"sdasd",
        description:"Desarrollando habilidades lingüísticas fundamentales",
        enlaces: [
-        { titulo: '📒[slides] Explanation A vs An', url: 'https://docs.google.com/presentation/d/1BYiXWa6xeAQEo2f9z8jtX8Hs5Or8mBop/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
-        { titulo: '📒[slides] Plurals', url: 'https://docs.google.com/presentation/d/19UibyI2RmL5pSMSCLHXTw8ENNWED9Xfe/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
-
+        { titulo: '📒[slides] UNIT 1:PAST PROGRESSIVE', url: 'https://docs.google.com/presentation/d/1HAWLxWFAbFNcrMbfGDVprjNC29Ziuw_N/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
+        { titulo: '📒[slides] UNIT 1:PAST PROGRESSIVE AND SIMPLE PAST', url: 'https://docs.google.com/presentation/d/1D_k7NtZcVeZVozYIn4_Ub2ozwkub8uLP/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true'},
+        { titulo: '📒[slides] UNIT 2:COMPARATIVES WITHAS … AS / NOT AS … AS', url: 'https://docs.google.com/presentation/d/13nJDZAQHhszP7Upr6VJdv4954_gwfHnP/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
+        { titulo: '📒[slides] UNIT 2:SUPERLATIVES', url: 'https://docs.google.com/presentation/d/1vfk41h6uFLjHllXrQWwxb5ifVDokndKu/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true'},
+        { titulo: '📒[slides] UNIT 3:REFLEXIVE PRONOUNS', url: 'https://docs.google.com/presentation/d/1mH6MFHK3pXVZgHj7WOu4xvnRdZN9C3gJ/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
+        { titulo: '📒[slides] UNIT 3:MODALS OF PERMISSION, REQUEST, AND OFFER', url: 'https://docs.google.com/presentation/d/1BXcYnCIF8JUQobGPG8BRQcBxLNTajgIu/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
+        { titulo: '📒[slides] UNIT 4:PRESENT PERFECT— EVER/NEVER', url: 'https://docs.google.com/presentation/d/12ccx9tsZGF_Ywm7pVc-YS5m2SXiV_g9U/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
+        { titulo: '📒[slides] UNIT 4:PRESENT PERFECT—HOW LONG AND FOR/SINCE', url: 'https://docs.google.com/presentation/d/1H5WPi2HTyUg7GHdLBuGZBXbnPHs5oG7S/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
+        { titulo: '📒[slides] UNIT 5:PRESENT PERFECT AND SIMPLE PAST', url: 'https://docs.google.com/presentation/d/1bpMRMy7LVba68bhwB6w2KUEXmD7n-MAP/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
+        { titulo: '📒[slides] UNIT 5:SHOULD AND OUGHT TO FOR ADVICE', url: 'https://docs.google.com/presentation/d/1UQ0jqkKaJld2WJKsdaDMUFhLDVHlxOu_/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
+        { titulo: '📒[slides] UNIT 6:HAVE TO FOR OBLIGATION AND NEED TO FOR NECESSITY', url: 'https://docs.google.com/presentation/d/1PzeZoVRIRqcpQ6BFvLJRYuOeC4UmQStn/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
+        { titulo: '📒[slides] UNIT 6:COMPARATIVE AND SUPERLATIVE ADVERBS', url: 'https://docs.google.com/presentation/d/1SnYrDzmfRjdf8anu2jEpfWCPl0SiF3go/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
+        { titulo: '📒[slides] UNIT 7:TOO, ENOUGH, NOT … ENOUGH', url: 'https://docs.google.com/presentation/d/1C-HqoKGLmr7z6xrd7YLKNvoAlZctuPlw/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
+        { titulo: '📒[slides] UNIT 7:QUANTIFIERS', url: 'https://docs.google.com/presentation/d/1F9jXNU0_7pHQNI31dAfLd2xG_6GoFj3r/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
+        { titulo: '📒[slides] UNIT 8:EXPRESSING LIKES, DESIRES, AND PREFERENCES', url: 'https://docs.google.com/presentation/d/19fs3RnfAEOjH5UFWASRrvTDXqXHSmv1l/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
+        { titulo: '📒[slides] UNIT 8:GERUND PHRASES AS SUBJECT AND OBJECT', url: 'https://docs.google.com/presentation/d/1HlSz01uARuBa4IJGUoFPFqTNXyYJQvG5/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
+        { titulo: '📒[slides] UNIT 9:MAY, MIGHT, AND WILL FOR FUTURE POSSIBILITY', url: 'https://docs.google.com/presentation/d/1PWQNyUECVcbCtSV0OkzvYJIP5YZdXP9c/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true'},
+        { titulo: '📒[slides] UNIT 9:WILL AND GOING TO', url: 'https://docs.google.com/presentation/d/1p1cDpBXO3UfCBi_sBAfjxYFVsdhS0V9C/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true'},
+        { titulo: '📒[slides] UNIT 10:INFINITIVES OF PURPOSE', url: 'https://docs.google.com/presentation/d/1_xVAxKXnDL0uX7Z9ewv0ehBi4glkWSno/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true'},
+        { titulo: '📒[slides] UNIT 10:REVIEW OF FUTURE FORMS', url: 'https://docs.google.com/presentation/d/1aHJTp1D5LRb03PXqWOzVaytcFyqh_pWh/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true'},
+        { titulo: '📒[slides] UNIT 11:SIMPLE PRESENT PASSIVE', url: 'https://docs.google.com/presentation/d/1b7T_AF8RaiIb06d8kEI5yfeJtovbNIYW/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true'},
+        { titulo: '📒[slides] UNIT 11:SIMPLE PAST PASSIVE', url: 'https://docs.google.com/presentation/d/1KSbZiuL-5LJsxu0kssRgR4LP42URrpjd/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true'},
+        { titulo: '📒[slides] UNIT 12:ZERO AND FIRST CONDITIONALS', url: 'https://docs.google.com/presentation/d/1onYqAtCakGRcvxqsWTekI0t1RvDKsaFE/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true'},
+        { titulo: '📒[slides] UNIT 12:SECOND CONDITIONAL', url: 'https://docs.google.com/presentation/d/1QsqN95d1bMRf3kkUx3glrk2VSBU0sQRd/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true'}
        
-        { titulo: '📝 Reading Quiz 1', url: 'https://forms.gle/BGfegqPFjq8qR4cD9' },
-        { titulo: '🎧 Listening Quiz 1', url: 'https://forms.gle/1JcW99hj2NTvupm5A' },
-        { titulo: '📒[slides] Explanation There is | There are ', url: 'https://docs.google.com/presentation/d/1AZfYgOutQKyvx-Dl7qj7LYOEEMYiDB1V/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
 
-     ]
+    ]
     }
     ,
     {
@@ -292,27 +310,6 @@ export const road =[
      ]
 
 
-    },{
-        id:9,
-       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
-       title:"Nivel Experienced Trainer",
-       subtitle:"asdasd",
-
-       dateAdded:"Basic 08",
-       channel:"sdasd",
-       description:"Desarrollando habilidades lingüísticas fundamentales",
-       enlaces: [
-        { titulo: 'although, however, in spite of, despite', url: 'https://wordwall.net/play/26923/219/206' },
-         { titulo: 'PRESENT PERFECT Exercises Grammar', url: 'https://wordwall.net/play/20930/047/3447' },
-
-         { titulo: 'Since and for', url: 'https://wordwall.net/play/22172/068/39116' },
-                 { titulo: 'Present Perfect vs Present Perfect Continuous', url: 'https://wordwall.net/play/10820/227/9928' },
-
-
-        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
-     ]
-
-
     }
      ,{
         id:12,
@@ -382,36 +379,6 @@ export const road =[
 
 
     },{
-        id:15,
-       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
-       title:"Nivel Experienced Trainer",
-       subtitle:"asdasd",
-
-       dateAdded:"Intermediate  02",
-       channel:"sdasd",
-       description:"Desarrollando habilidades lingüísticas fundamentales",
-       enlaces: [
-        { titulo: 'although, however, in spite of, despite', url: 'https://wordwall.net/play/26923/219/206' },
-        
-     ]
-
-
-    },{
-        id:16,
-       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
-       title:"Nivel Experienced Trainer",
-       subtitle:"asdasd",
-
-       dateAdded:"Intermediate  03",
-       channel:"sdasd",
-       description:"Desarrollando habilidades lingüísticas fundamentales",
-       enlaces: [
-        { titulo: 'although, however, in spite of, despite', url: 'https://wordwall.net/play/26923/219/206' },
-       
-     ]
-
-
-    },{
         id:17,
        thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
        title:"Nivel Experienced Trainer",
@@ -433,64 +400,7 @@ export const road =[
 
 
     },{
-        id:18,
-       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
-       title:"Nivel Experienced Trainer",
-       subtitle:"asdasd",
-
-       dateAdded:"Basic 06",
-       channel:"sdasd",
-       description:"Desarrollando habilidades lingüísticas fundamentales",
-       enlaces: [
-        { titulo: 'although, however, in spite of, despite', url: 'https://wordwall.net/play/26923/219/206' },
-        
-     ]
-
-
-    },{
-        id:20,
-       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
-       title:"Nivel Experienced Trainer",
-       subtitle:"asdasd",
-
-       dateAdded:"Basic 06",
-       channel:"sdasd",
-       description:"Desarrollando habilidades lingüísticas fundamentales",
-       enlaces: [
-        { titulo: 'although, however, in spite of, despite', url: 'https://wordwall.net/play/26923/219/206' },
-         { titulo: 'PRESENT PERFECT Exercises Grammar', url: 'https://wordwall.net/play/20930/047/3447' },
-
-         { titulo: 'Since and for', url: 'https://wordwall.net/play/22172/068/39116' },
-                 { titulo: 'Present Perfect vs Present Perfect Continuous', url: 'https://wordwall.net/play/10820/227/9928' },
-
-
-        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
-     ]
-
-
-    },{
         id:22,
-       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
-       title:"Nivel Experienced Trainer",
-       subtitle:"asdasd",
-
-       dateAdded:"Basic 06",
-       channel:"sdasd",
-       description:"Desarrollando habilidades lingüísticas fundamentales",
-       enlaces: [
-        { titulo: 'although, however, in spite of, despite', url: 'https://wordwall.net/play/26923/219/206' },
-         { titulo: 'PRESENT PERFECT Exercises Grammar', url: 'https://wordwall.net/play/20930/047/3447' },
-
-         { titulo: 'Since and for', url: 'https://wordwall.net/play/22172/068/39116' },
-                 { titulo: 'Present Perfect vs Present Perfect Continuous', url: 'https://wordwall.net/play/10820/227/9928' },
-
-
-        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
-     ]
-
-
-    },{
-        id:24,
        thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
        title:"Nivel Experienced Trainer",
        subtitle:"asdasd",
@@ -609,5 +519,85 @@ export const road =[
      ]
 
 
+    }
+    ,
+    {
+        id:28,
+       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
+       title:"Master Level 1",
+       subtitle:"asdasd",
+
+       dateAdded:"Basic 01 ",
+       channel:"sdasd",
+       description:"Desarrollando habilidades lingüísticas fundamentales",
+       enlaces: [
+        { titulo: '📒[slides] UNIT 1:PAST PROGRESSIVE', url: 'https://docs.google.com/presentation/d/1HAWLxWFAbFNcrMbfGDVprjNC29Ziuw_N/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
+        { titulo: '📒[slides] UNIT 1:GOING TO', url: ''},
+        { titulo: '📒[slides] UNIT 2:PRESENT PROGRESSIVE AS FUTURE', url: '' },
+        { titulo: '📒[slides] UNIT 2:GOING TO', url: ''},
+        { titulo: '📒[slides] UNIT 3:PRESENT PROGRESSIVE AS FUTURE', url: '' },
+        { titulo: '📒[slides] UNIT 3:PRESENT PROGRESSIVE AS FUTURE', url: '' },
+        { titulo: '📒[slides] UNIT 3:PRESENT PROGRESSIVE AS FUTURE', url: '' },
+        { titulo: '📒[slides] UNIT 4:PRESENT PROGRESSIVE AS FUTURE', url: '' },
+        { titulo: '📒[slides] UNIT 4:PRESENT PROGRESSIVE AS FUTURE', url: '' },
+        { titulo: '📒[slides] UNIT 5:PRESENT PROGRESSIVE AS FUTURE', url: '' },
+        { titulo: '📒[slides] UNIT 5:PRESENT PROGRESSIVE AS FUTURE', url: '' },
+        { titulo: '📒[slides] UNIT 6:PRESENT PROGRESSIVE AS FUTURE', url: '' },
+        { titulo: '📒[slides] UNIT 6:PRESENT PROGRESSIVE AS FUTURE', url: '' },
+        { titulo: '📒[slides] UNIT 7:PRESENT PROGRESSIVE AS FUTURE', url: '' },
+        { titulo: '📒[slides] UNIT 7:PRESENT PROGRESSIVE AS FUTURE', url: '' },
+        { titulo: '📒[slides] UNIT 8:PRESENT PROGRESSIVE AS FUTURE', url: '' },
+        { titulo: '📒[slides] UNIT 8:PRESENT PROGRESSIVE AS FUTURE', url: '' },
+        { titulo: '📒[slides] UNIT 9:GOING TO', url: ''},
+        { titulo: '📒[slides] UNIT 9:GOING TO', url: ''},
+        { titulo: '📒[slides] UNIT 10:GOING TO', url: ''},
+        { titulo: '📒[slides] UNIT 10:GOING TO', url: ''},
+        { titulo: '📒[slides] UNIT 11:GOING TO', url: ''},
+        { titulo: '📒[slides] UNIT 11:GOING TO', url: ''},
+        { titulo: '📒[slides] UNIT 12:GOING TO', url: ''},
+        { titulo: '📒[slides] UNIT 12:GOING TO', url: ''}
+       
+
+    ]
+    }
+    ,
+    {
+        id:29,
+       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
+       title:"Level 2",
+       subtitle:"asdasd",
+
+       dateAdded:"Basic 01 ",
+       channel:"sdasd",
+       description:"Desarrollando habilidades lingüísticas fundamentales",
+       enlaces: [
+        { titulo: '📒[slides] UNIT 1:PAST PROGRESSIVE', url: 'https://docs.google.com/presentation/d/1HAWLxWFAbFNcrMbfGDVprjNC29Ziuw_N/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
+        { titulo: '📒[slides] UNIT 1:GOING TO', url: ''},
+        { titulo: '📒[slides] UNIT 2:PRESENT PROGRESSIVE AS FUTURE', url: '' },
+        { titulo: '📒[slides] UNIT 2:GOING TO', url: ''},
+        { titulo: '📒[slides] UNIT 3:PRESENT PROGRESSIVE AS FUTURE', url: '' },
+        { titulo: '📒[slides] UNIT 3:PRESENT PROGRESSIVE AS FUTURE', url: '' },
+        { titulo: '📒[slides] UNIT 3:PRESENT PROGRESSIVE AS FUTURE', url: '' },
+        { titulo: '📒[slides] UNIT 4:PRESENT PROGRESSIVE AS FUTURE', url: '' },
+        { titulo: '📒[slides] UNIT 4:PRESENT PROGRESSIVE AS FUTURE', url: '' },
+        { titulo: '📒[slides] UNIT 5:PRESENT PROGRESSIVE AS FUTURE', url: '' },
+        { titulo: '📒[slides] UNIT 5:PRESENT PROGRESSIVE AS FUTURE', url: '' },
+        { titulo: '📒[slides] UNIT 6:PRESENT PROGRESSIVE AS FUTURE', url: '' },
+        { titulo: '📒[slides] UNIT 6:PRESENT PROGRESSIVE AS FUTURE', url: '' },
+        { titulo: '📒[slides] UNIT 7:PRESENT PROGRESSIVE AS FUTURE', url: '' },
+        { titulo: '📒[slides] UNIT 7:PRESENT PROGRESSIVE AS FUTURE', url: '' },
+        { titulo: '📒[slides] UNIT 8:PRESENT PROGRESSIVE AS FUTURE', url: '' },
+        { titulo: '📒[slides] UNIT 8:PRESENT PROGRESSIVE AS FUTURE', url: '' },
+        { titulo: '📒[slides] UNIT 9:GOING TO', url: ''},
+        { titulo: '📒[slides] UNIT 9:GOING TO', url: ''},
+        { titulo: '📒[slides] UNIT 10:GOING TO', url: ''},
+        { titulo: '📒[slides] UNIT 10:GOING TO', url: ''},
+        { titulo: '📒[slides] UNIT 11:GOING TO', url: ''},
+        { titulo: '📒[slides] UNIT 11:GOING TO', url: ''},
+        { titulo: '📒[slides] UNIT 12:GOING TO', url: ''},
+        { titulo: '📒[slides] UNIT 12:GOING TO', url: ''}
+       
+
+    ]
     }
 ]
