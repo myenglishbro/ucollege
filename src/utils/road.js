@@ -11,52 +11,48 @@ export const road = [
         description: "Aprendiendo los conceptos básicos del inglés",
         enlaces: [
             { titulo: "🎬 Inicio de la Ruta ", url: "https://youtu.be/QtAYBkoGbGE" },
+            { titulo: "🎥El Alfabeto", url: "https://youtu.be/7hvj0Pu7tNw" },
             {
-                titulo: "📃[wordlist] UNIT 1-SPANISH",
-                url: "https://drive.google.com/file/d/16DxIaxYMUNyy-EJtmxidn2Q6fpgTVoCB/view?usp=sharing",
+                titulo: "📒[slides] The Alphabet",
+                url: "https://docs.google.com/presentation/d/1wlKwo_huYQR9p3upX0if-7t12nZpJUAk/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
             },
             {
-                titulo: "📃[wordlist] UNIT 1-ENGLISH",
-                url: "https://drive.google.com/file/d/1zIBqyH3Rxe9vHpcqS__AsWZNKA7K1FyZ/view?usp=sharing",
+                titulo: "🎯Completa la letra que falta",
+                url: "https://wordwall.net/play/9163/020/4770",
             },
             {
-                titulo: "📒[slides] UNIT 1: BE—STATEMENTS AND YES/NO QUESTIONS",
-                url: "https://docs.google.com/presentation/d/1BmyZtYUT02dpJX1nv0PVzajzppP1Pj7C/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
+                titulo: "🎯True/False Alphabet Sounds",
+                url: "https://wordwall.net/play/4207/022/7865",
             },
             {
-                titulo: "📒[slides] UNIT 1: BE—WH- QUESTIONS",
-                url: "https://docs.google.com/presentation/d/1QzcM-95Md4pWWy1d6BzM2CX2klPaPbXT/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
+                titulo: "🎯Completa la letra que falta II",
+                url: "https://wordwall.net/play/26160/270/111",
             },
             {
-                titulo: "🎯The verb Be - affirmative form",
-                url: "https://wordwall.net/play/13293/724/44295",
+                titulo: "📒[slides] Los Números",
+                url: "https://docs.google.com/presentation/d/11JeUAoJbYl5ajCeiSY3od79moVxSmzpA/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
             },
-            {
-                titulo: "🎯The verb Be - Negative form",
-                url: "https://wordwall.net/play/21191/050/1795",
+            { titulo: "🎬Los Pronombres", url: "https://youtu.be/i6gpuBeJ8rs" },
+            { titulo: "🎯 The Pronouns",url: "https://wordwall.net/play/28743/414/132"},
+            { titulo: "🎬Pronombres II-TRANSFORMATION", url: "https://youtu.be/jqIBhDTrahc",},
+            { titulo: "🎯 The Pronouns II", url: "https://wordwall.net/play/35940/872/5428"},
+            {titulo: "🎯Transformation Pronouns",url: "https://wordwall.net/play/16432/831/5065"},
+            { titulo: "📃[wordlist] UNIT 1-SPANISH", url: "https://drive.google.com/file/d/16DxIaxYMUNyy-EJtmxidn2Q6fpgTVoCB/view?usp=sharing" },
+            { titulo: "📃[wordlist] UNIT 1-ENGLISH", url: "https://drive.google.com/file/d/1zIBqyH3Rxe9vHpcqS__AsWZNKA7K1FyZ/view?usp=sharing"},
+            {titulo: "📒[slides] Explanation The Verb Be",url: "https://docs.google.com/presentation/d/1BcRVF50I_5gnPYd7dG07kPyULiFt-iF4/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",},
+            {titulo: "📒[slides] UNIT 1: BE—STATEMENTS AND YES/NO QUESTIONS", url: "https://docs.google.com/presentation/d/1BmyZtYUT02dpJX1nv0PVzajzppP1Pj7C/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true", },
+            {titulo: "📒[slides] UNIT 1: BE—WH- QUESTIONS", url: "https://docs.google.com/presentation/d/1QzcM-95Md4pWWy1d6BzM2CX2klPaPbXT/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            { titulo: "🎯The verb Be - affirmative form",url: "https://wordwall.net/play/13293/724/44295"},
+            { titulo: "🎯The verb Be - Negative form",url: "https://wordwall.net/play/21191/050/1795" },
+            {titulo: "🎯Complete the text with a subject pronoun or verb be",url: "https://wordwall.net/play/18793/352/96020"},
+            { titulo:"📒[slides] Correct the Sentences with The Verb Be in Questions",url: "https://docs.google.com/presentation/d/1PmPGCCydt73O4vXTB9ThQdiMk-zSdZs0/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",},
+            {  titulo: "🎯The verb Be -mixed sentences", url: "https://wordwall.net/play/25528/529/57485" },
+            {  titulo: "📝[test A] UNIT 1: Grammar and vocabulary PDF", url: "https://drive.google.com/file/d/1LDjZSBjfZFYrEV8AjheOgtbdlmaYscP9/view?usp=sharing", },
+            { titulo: "📝[test A] UNIT 1: Grammar and vocabulary WORD", url: "https://docs.google.com/document/d/1PtADImzNCPEg_hnAzua02rUp97CGWcRo/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true", },
+            { titulo: "📝[test B] UNIT 1: Grammar and vocabulary PDF",url: "https://drive.google.com/file/d/1-N5LKiDZnhqUcUUyp0IQKpsZMD-cnD6N/view?usp=sharing", },
+            { titulo: "📝[test B] UNIT 1: Grammar and vocabulary WORD", url: "https://docs.google.com/document/d/1HJrW4oJIu7Kv0gs4yh7XVrYnk-ZJYp6K/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
             },
-            {
-                titulo: "🎯Complete the text with a subject pronoun or verb be",
-                url: "https://wordwall.net/play/18793/352/96020",
-            },
-            {
-                titulo: "📝[test A] UNIT 1: Grammar and vocabulary PDF",
-                url: "https://drive.google.com/file/d/1LDjZSBjfZFYrEV8AjheOgtbdlmaYscP9/view?usp=sharing",
-            },
-            {
-                titulo: "📝[test A] UNIT 1: Grammar and vocabulary WORD",
-                url: "https://docs.google.com/document/d/1PtADImzNCPEg_hnAzua02rUp97CGWcRo/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
-            },
-            {
-                titulo: "📝[test B] UNIT 1: Grammar and vocabulary PDF",
-                url: "https://drive.google.com/file/d/1-N5LKiDZnhqUcUUyp0IQKpsZMD-cnD6N/view?usp=sharing",
-            },
-            {
-                titulo: "📝[test B] UNIT 1: Grammar and vocabulary WORD",
-                url: "https://docs.google.com/document/d/1HJrW4oJIu7Kv0gs4yh7XVrYnk-ZJYp6K/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
-            },
-            {
-                titulo: "📝[skill test] UNIT 1: Listening and writing PDF",
+            { titulo: "📝[skill test] UNIT 1: Listening and writing PDF",
                 url: "https://drive.google.com/file/d/1lj6qtiswWIwvf0zSVne5b8dPEv3S3ra1/view?usp=sharing",
             },
             {
@@ -244,6 +240,18 @@ export const road = [
                 url: "https://drive.google.com/file/d/1EhALfkVQb-G5ylK9qMc674zmh8LWd-kT/view?usp=share_link",
             },
             {
+                titulo: "🎯Simple Past of Regular Verbs - Spelling",
+                url: "https://wordwall.net/play/15209/196/82941",
+            },
+            {
+                titulo: "🎯Simple Past of Irregular Verbs",
+                url: "https://wordwall.net/play/15208/131/77707",
+            },
+            {
+                titulo: "🎯Choose the correct Irregular Verbs",
+                url: "https://wordwall.net/play/23988/614/920",
+            },
+            {
                 titulo:
                     "📒[slides] UNIT 10: SIMPLE PAST— QUESTIONS AND NEGATIVE STATEMENTS",
                 url: "https://docs.google.com/presentation/d/1d0KP8QcbmEJiJwpoio1wewTlNzEpIKkE/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
@@ -265,44 +273,8 @@ export const road = [
                 url: "https://docs.google.com/presentation/d/1SERr4FC0uid44aV7TBYFbu2UqdKgltiV/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
             },
 
-            { titulo: "🎥El Alfabeto", url: "https://youtu.be/7hvj0Pu7tNw" },
-            {
-                titulo: "📒[slides] The Alphabet",
-                url: "https://docs.google.com/presentation/d/1wlKwo_huYQR9p3upX0if-7t12nZpJUAk/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
-            },
-            {
-                titulo: "🎯Completa la letra que falta",
-                url: "https://wordwall.net/play/9163/020/4770",
-            },
-            {
-                titulo: "🎯True/False Alphabet Sounds",
-                url: "https://wordwall.net/play/4207/022/7865",
-            },
-            {
-                titulo: "🎯Completa la letra que falta II",
-                url: "https://wordwall.net/play/26160/270/111",
-            },
-            {
-                titulo: "📒[slides] Los Números",
-                url: "https://docs.google.com/presentation/d/11JeUAoJbYl5ajCeiSY3od79moVxSmzpA/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
-            },
-            { titulo: "🎥Los Pronombres", url: "https://youtu.be/i6gpuBeJ8rs" },
-            {
-                titulo: "🎯 The Pronouns",
-                url: "https://wordwall.net/play/28743/414/132",
-            },
-            {
-                titulo: "🎥Pronombres II-TRANSFORMATION",
-                url: "https://youtu.be/jqIBhDTrahc",
-            },
-            {
-                titulo: "🎯 The Pronouns II",
-                url: "https://wordwall.net/play/35940/872/5428",
-            },
-            {
-                titulo: "🎯Transformation Pronouns",
-                url: "https://wordwall.net/play/16432/831/5065",
-            },
+            
+            
             {
                 titulo: "📒[slides] Imperatives",
                 url: "https://docs.google.com/presentation/d/1IBGfgt3RbQSgNHUolh8T0JyXjv4NfvLS/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
@@ -315,22 +287,7 @@ export const road = [
                 titulo: "🎥Fundamentos del Inglés",
                 url: "https://youtu.be/aE5lMJYtrNQ",
             },
-            {
-                titulo: "📒[slides] Explanation The Verb Be",
-                url: "https://docs.google.com/presentation/d/1BcRVF50I_5gnPYd7dG07kPyULiFt-iF4/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
-            },
-
-            {
-                titulo:
-                    "📒[slides] Correct the Sentences with The Verb Be in Questions",
-                url: "https://docs.google.com/presentation/d/1PmPGCCydt73O4vXTB9ThQdiMk-zSdZs0/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
-            },
-
-            {
-                titulo: "🎯The verb Be -mixed sentences",
-                url: "https://wordwall.net/play/25528/529/57485",
-            },
-
+           
             {
                 titulo: "📒[slides] Appliances and Devices",
                 url: "https://docs.google.com/presentation/d/1Y7XTKm9peHWZGf2gID97ZeaJxnRXQGB_/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
@@ -475,48 +432,7 @@ export const road = [
             },
         ],
     },
-    {
-        id: 3,
-        thumbnail:
-            "https://img.freepik.com/vector-gratis/fondo-escuela-ingles-dibujado-mano_23-2149483341.jpg?w=2000",
-        title: "Mejorando la comprensión y producción oral y escrita",
-        subtitle: "asdasd",
-
-        dateAdded: "Basic 02",
-        channel: "sdasd",
-        description: "Desarrollando habilidades lingüísticas fundamentales",
-        enlaces: [
-            {
-                titulo: "📒[slides] Possessive Nouns",
-                url: "https://docs.google.com/presentation/d/1bLZnrTpjyce03zBK452iwIl22MscWXAb/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
-            },
-            {
-                titulo: "📒[slides] Vocabulary Family",
-                url: "https://docs.google.com/presentation/d/1vLAkUKANVHp8qr4HqaPaEeURLruLyKxx/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
-            },
-
-            
-
-            { titulo: "🎯Vocabulario en inglés", url: "https://www.example2.com" },
-            { titulo: "🎯Ejercicios de gramática", url: "https://www.example3.com" },
-            {
-                titulo: "📒[slides] Explanation Non Action Verbs",
-                url: "https://docs.google.com/presentation/d/1iRId98sfwylaVNdIwLgAp1fTvSyFxzQw/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
-            },
-            {
-                titulo: "🎯 Stative Verbs Group Exercise",
-                url: "https://wordwall.net/play/34083/656/824",
-            },
-            {
-                titulo: "🎯 Stative Verbs vs Dynamic Verbs 1",
-                url: "https://wordwall.net/play/35891/342/229",
-            },
-            {
-                titulo: "🎯 Stative Verbs vs Dynamic Verbs 2",
-                url: "https://wordwall.net/play/29172/527/2575",
-            },
-        ],
-    },
+   
     {
         id: 4,
         thumbnail:
@@ -559,18 +475,7 @@ export const road = [
                 titulo: "🎯Past Simple: Was/Were - Famous people",
                 url: "https://wordwall.net/play/35556/282/228",
             },
-            {
-                titulo: "🎯Simple Past of Regular Verbs - Spelling",
-                url: "https://wordwall.net/play/15209/196/82941",
-            },
-            {
-                titulo: "🎯Simple Past of Irregular Verbs",
-                url: "https://wordwall.net/play/15208/131/77707",
-            },
-            {
-                titulo: "🎯Choose the correct Irregular Verbs",
-                url: "https://wordwall.net/play/23988/614/920",
-            },
+            
             {
                 titulo: "🎯Present Simple or Past Simple",
                 url: "https://wordwall.net/play/9677/319/360548",
@@ -592,20 +497,35 @@ export const road = [
                 titulo: "🎯Past Simple Sentences - Missing Word",
                 url: "https://wordwall.net/play/3222/824/20960",
             },
-        ],
-    },
+            {
+                titulo: "📒[slides] Possessive Nouns",
+                url: "https://docs.google.com/presentation/d/1bLZnrTpjyce03zBK452iwIl22MscWXAb/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
+            },
+            {
+                titulo: "📒[slides] Vocabulary Family",
+                url: "https://docs.google.com/presentation/d/1vLAkUKANVHp8qr4HqaPaEeURLruLyKxx/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
+            },
 
-    {
-        id: 5,
-        thumbnail:
-            "https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
-        title: "Nivel Experienced Trainer",
-        subtitle: "asdasd",
+            
 
-        dateAdded: "Basic 04",
-        channel: "sdasd",
-        description: "Desarrollando habilidades lingüísticas fundamentales",
-        enlaces: [
+            { titulo: "🎯Vocabulario en inglés", url: "https://www.example2.com" },
+            { titulo: "🎯Ejercicios de gramática", url: "https://www.example3.com" },
+            {
+                titulo: "📒[slides] Explanation Non Action Verbs",
+                url: "https://docs.google.com/presentation/d/1iRId98sfwylaVNdIwLgAp1fTvSyFxzQw/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
+            },
+            {
+                titulo: "🎯 Stative Verbs Group Exercise",
+                url: "https://wordwall.net/play/34083/656/824",
+            },
+            {
+                titulo: "🎯 Stative Verbs vs Dynamic Verbs 1",
+                url: "https://wordwall.net/play/35891/342/229",
+            },
+            {
+                titulo: "🎯 Stative Verbs vs Dynamic Verbs 2",
+                url: "https://wordwall.net/play/29172/527/2575",
+            },
             {
                 titulo: "📒[slides] Too Vs Very ",
                 url: "https://docs.google.com/presentation/d/1a6l6h79USa5zWCE39sn0VywhX0dKBJE1/edit?usp=share_link&ouid=114172849724389982127&rtpof=true&sd=true",
@@ -735,20 +655,6 @@ export const road = [
             },
 
             { titulo: "🦻Dictation 1", url: "https://youtu.be/ZwbyLBkLnKU" },
-        ],
-    },
-
-    {
-        id: 13,
-        thumbnail:
-            "https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
-        title: "Nivel Experienced Trainer",
-        subtitle: "asdasd",
-
-        dateAdded: "Basic 12",
-        channel: "sdasd",
-        description: "Desarrollando habilidades lingüísticas fundamentales",
-        enlaces: [
             {
                 titulo: "📒[slides] Explanation Used to",
                 url: "https://docs.google.com/presentation/d/1TDItudKkMsiBgTFP_vf8GRr3lsTXjpfW/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
@@ -856,6 +762,9 @@ export const road = [
             },
         ],
     },
+
+
+   
     
    
     
