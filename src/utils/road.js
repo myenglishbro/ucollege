@@ -10,44 +10,57 @@ export const road =[
        channel:"sdasd",
        description:"Aprendiendo los conceptos básicos del inglés",
        enlaces: [
+        { titulo: '🎬 Inicio de la Ruta ', url: 'https://youtu.be/QtAYBkoGbGE' },
         { titulo: '📃[wordlist] UNIT 1-SPANISH', url: 'https://drive.google.com/file/d/16DxIaxYMUNyy-EJtmxidn2Q6fpgTVoCB/view?usp=sharing' },
         { titulo: '📃[wordlist] UNIT 1-ENGLISH', url: 'https://drive.google.com/file/d/1zIBqyH3Rxe9vHpcqS__AsWZNKA7K1FyZ/view?usp=sharing' },
         { titulo: '📒[slides] UNIT 1: BE—STATEMENTS AND YES/NO QUESTIONS', url: 'https://docs.google.com/presentation/d/1BmyZtYUT02dpJX1nv0PVzajzppP1Pj7C/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
         { titulo: '📒[slides] UNIT 1: BE—WH- QUESTIONS', url: 'https://docs.google.com/presentation/d/1QzcM-95Md4pWWy1d6BzM2CX2klPaPbXT/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
-        { titulo: '📝[test A] UNIT 1: Grammar and vocabulary PDF', url: 'https://drive.google.com/file/d/1L55skpMyXpMfaYdK-6yiPbbRRi_vNPKa/view?usp=sharing' },
-        { titulo: '📝[test A] UNIT 1: Grammar and vocabulary WORD', url: 'https://docs.google.com/document/d/1qAHvstGrHBMUZtLFUfvkDTNTn_EnmLFT/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
-        { titulo: '📝[test B] UNIT 1: Grammar and vocabulary PDF', url: 'https://drive.google.com/file/d/1pxlAdQKDN4FgVQTvGyGASUpQEKjtMEYm/view?usp=sharing' },
-        { titulo: '📝[test B] UNIT 1: Grammar and vocabulary WORD', url: 'https://docs.google.com/document/d/1Ymc0Epm6ZmgFfY7CHSWcSdQ2aYcV6vJt/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
-        { titulo: '📝[skill test] UNIT 1: Listening and writing PDF', url: 'https://drive.google.com/file/d/1OEeWurlKS1ZyLyEpulrqzK5cLf_IZT5x/view?usp=sharing' },
-        { titulo: '📝[skill test] UNIT 1: Listening and writing WORD', url: 'https://docs.google.com/document/d/1guQo0Q-y3Aco5GDXw-gI1Mwu8QUM7ow2/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
-        { titulo: '📽️[Video-Worksheet] Unit 1 Live and learn', url: 'https://drive.google.com/file/d/1enqwoUPI9X2DsMFY9eChDFcMA7gdQYRR/view?usp=sharing' },
-        { titulo: '📽️[Video] Unit 1 Live and learn', url: 'https://youtu.be/UQkGSy5NLIw' },
-        { titulo: '📽️[Video -Sub] Unit 1 Live and learn', url: 'https://youtu.be/PxD1uUoc5ks' },
-        { titulo: '📜[Video -Script] Unit 1 Live and learn', url: 'https://drive.google.com/file/d/1NhZCEsOlXByvuk6Wxv9LmfK7XvUHoAnp/view?usp=sharing' },
-        { titulo: '🔊🦻[skill test]AUDIO TRACK', url: 'https://drive.google.com/file/d/1XXC9OBY0CLE8Lp5LKYvXwqFsutkVCgVF/view?usp=sharing' },
+        { titulo: '🎯The verb Be - affirmative form', url: 'https://wordwall.net/play/13293/724/44295' },
+        { titulo: '🎯The verb Be - Negative form', url: 'https://wordwall.net/play/21191/050/1795' },
+        { titulo: '🎯Complete the text with a subject pronoun or verb be', url: 'https://wordwall.net/play/18793/352/96020' },
+        { titulo: '📝[test A] UNIT 1: Grammar and vocabulary PDF', url: 'https://drive.google.com/file/d/1LDjZSBjfZFYrEV8AjheOgtbdlmaYscP9/view?usp=sharing' },
+        { titulo: '📝[test A] UNIT 1: Grammar and vocabulary WORD', url: 'https://docs.google.com/document/d/1PtADImzNCPEg_hnAzua02rUp97CGWcRo/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
+        { titulo: '📝[test B] UNIT 1: Grammar and vocabulary PDF', url: 'https://drive.google.com/file/d/1-N5LKiDZnhqUcUUyp0IQKpsZMD-cnD6N/view?usp=sharing' },
+        { titulo: '📝[test B] UNIT 1: Grammar and vocabulary WORD', url: 'https://docs.google.com/document/d/1HJrW4oJIu7Kv0gs4yh7XVrYnk-ZJYp6K/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
+        { titulo: '📝[skill test] UNIT 1: Listening and writing PDF', url: 'https://drive.google.com/file/d/1lj6qtiswWIwvf0zSVne5b8dPEv3S3ra1/view?usp=sharing' },
+        { titulo: '📝[skill test] UNIT 1: Listening and writing WORD', url: 'https://docs.google.com/document/d/1QYUOyZK6w3-IFXYP-Kojg-ezBrNQQf1f/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
+        { titulo: '🔊🦻[skill test]AUDIO TRACK', url: 'https://drive.google.com/file/d/1yG1XxPQKV8wxNdkSb5EinETT5g1_GZGD/view?usp=sharing' },
+        { titulo: '📽️[Video-Worksheet] Unit 1 Nice to meet you', url: 'https://drive.google.com/file/d/1iIEtN9QL8NJIMZOTS75pJPO1OsyveWxd/view?usp=sharing' },
+        { titulo: '📽️[Video] Unit 1 Nice to meet you', url: 'https://youtu.be/i5OmuULH6Oc' },
+        { titulo: '📽️[Video -Sub] Unit 1 Nice to meet you', url: 'https://youtu.be/x_aWkIcxNzU' },
+        { titulo: '📜[Video -Script] Unit 1 Nice to meet you', url: 'https://drive.google.com/file/d/12FC1cyaZdLgA9_7Bp0r87C6MdgHwdlll/view?usp=sharing' },
         { titulo: '📒[slides] UNIT 2: ARTICLES ', url: 'https://docs.google.com/presentation/d/1V17QBl-CmIihRnriRHmu0Y7-AYKSffs6/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
         { titulo: '📒[slides] UNIT 2:POSSESSION', url: 'https://docs.google.com/presentation/d/1GKOxP9UJbsAo_HF8JJxvenEpipkrAHkA/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
         { titulo: '📒[slides] UNIT 3:SIMPLE PRESENT—STATEMENTS AND YES/NO QUESTIONS ', url: 'https://docs.google.com/presentation/d/10M_icHr46Py52W-kaoaThmguaRybus3J/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
         { titulo: '📒[slides] UNIT 3:SIMPLE PRESENT—INFORMATION QUESTIONS', url: 'https://docs.google.com/presentation/d/1j8R4Jva6SvlZoNcK-HhFohvkhhAE2M6j/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
+        { titulo: '🎯Present Simple spelling rules He/She/It', url: 'https://wordwall.net/play/768/935/3716' },
+        { titulo: '🎯Present Simple spelling rules He/She/It II', url: 'https://wordwall.net/play/28761/823/542' },
+        { titulo: '🎯Present Simple He/She/It tenses I', url: 'https://wordwall.net/play/20080/716/98496' },
+        { titulo: '🎯Present Simple spelling rules All Pronouns', url: 'https://wordwall.net/play/16642/104/54012' },
+        { titulo: '🎯Choose the Correct Sentence in Present Simple', url: 'https://wordwall.net/play/2384/274/554802' },
+        { titulo: '🎯Negative in Present Simple', url: 'https://wordwall.net/play/23379/700/79494' },
+        { titulo: '🎯Questions Present Simple He/She/It', url: 'https://wordwall.net/play/36592/002/3966' },
+        { titulo: '🎯Short Answers in Present Simple', url: 'https://wordwall.net/play/15449/538/61279' },
+        { titulo: '🎯Present Simple Mixed Tenses I', url: 'https://wordwall.net/play/51962/689/8460' },
         { titulo: '📒[slides] UNIT 4:FREQUENCY ADVERBS AND ADVERBIAL PHRASES', url: 'https://docs.google.com/presentation/d/16-wwNO2lpWVdp222T5v6qAx2Y84QG0RC/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
         { titulo: '📒[slides] UNIT 4:CLAUSES WITH UNTIL, BEFORE, AFTER', url: 'https://docs.google.com/presentation/d/1ThbilTcaiDU8Qyts6iz3Oxx8uOnC9_ki/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
         { titulo: '📒[slides] UNIT 5:THERE IS / THERE ARE WITH SOME, ANY, SEVERAL, A LOT OF, MANY', url: 'https://docs.google.com/presentation/d/1VwIJNGPfNm_3lmEpUoCDWMUtH7c1rEs7/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
         { titulo: '📒[slides] UNIT 5:THE IMPERATIVE', url: 'https://docs.google.com/presentation/d/1zecWMqAGGTYW3Ogmm7hSF44xZitwTedl/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
         { titulo: '📒[slides] UNIT 6:PRESENT PROGRESSIVE', url: 'https://docs.google.com/presentation/d/1KTQSiER6KRFyjxPXBo2OiQk2U4zCzfpk/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
         { titulo: '📒[slides] UNIT 6:PRESENT PROGRESSIVE VS. SIMPLE PRESENT', url: 'https://docs.google.com/presentation/d/1C0QTOc6t9wK2M20sE8_eUlMnzcGfSyPf/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
-        { titulo: '📒[slides] MODALS OF DEDUCTION:MUST, CAN’T, MIGHT/MAY/COULD', url: 'https://docs.google.com/presentation/d/1pSmzSB3VvxgMIN3qbrhxw7l3IRF2TZLN/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
-        { titulo: '📒[slides] TAG QUESTIONS', url: 'https://docs.google.com/presentation/d/19LMGmlh76wTVirD9FpeWlUXW4df4gCtx/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
-        { titulo: '📒[slides] RELATIVE CLAUSES', url: 'https://docs.google.com/presentation/d/1ktjlL9Ukjz8lbz2q7qeN5uH2cOxR16kz/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
-        { titulo: '📒[slides] VERB +GERUND/INFINITIVE', url: 'https://docs.google.com/presentation/d/1JQDvauU0ttIP1M1Iqg9ZyOc4a4p4TA7A/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
-        { titulo: '📒[slides] INFINITIVE CLAUSES WITH IMPERSONAL IT', url: 'https://docs.google.com/presentation/d/13Siio8SqdstUymNzgp3Gu4jXm2F5BKZF/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
-        { titulo: '📒[slides] WISH AND IF ONLY FOR REGRETS ', url: 'https://docs.google.com/presentation/d/1WhyP0yVTi54ankXRvbVWQFYhMeiK1NMa/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
-        { titulo: '📒[slides] NON-DEFINING RELATIVE CLAUSES', url: 'https://docs.google.com/presentation/d/1vFLgTr793gh3qUi339knm0ni_ILYPYTi/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
-        { titulo: '📒[slides] DEFINING RELATIVE CLAUSES', url: 'https://docs.google.com/presentation/d/1znP8btGQWEZvO1VRSkBH-1gwp_oOhW44/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
-        { titulo: '📒[slides] SHOULD/SHOULDNT HAVE', url: 'https://docs.google.com/presentation/d/1HU8mIm3lgulhGlGKHQFNjxg6ST9-azpk/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
-        { titulo: '📒[slides] WAS/WERE GOING TO AND WAS/WERE SUPPOSED TO', url: 'https://docs.google.com/presentation/d/1tEdjjBe8-ipFATuc5IAFI9jsWoy2zZRp/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
-        { titulo: '📒[slides] SO, SUCH,TOO, ENOUGH', url: 'https://docs.google.com/presentation/d/1-esOg7O9L2nl24VdBtrtRpCWM3BvhOyg/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
-        { titulo: '📒[slides] SEPARABLE AND NON-SEPARABLE PHRASAL VERBS', url: 'https://docs.google.com/presentation/d/18JEefaYUzpFKO_NnwPuTsfK0ds4wSamk/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
-        { titulo: '🎥Inicio de la Ruta ', url: 'https://youtu.be/QtAYBkoGbGE' },
+        { titulo: '📒[slides] UNIT 7:CAN/CAN’T—ABILITY', url: 'https://docs.google.com/presentation/d/1MblKTYMvUxtStvDA4DF75g8Y0fc3tEbZ/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
+        { titulo: '📒[slides] UNIT 7:ADVERBS OF MANNER', url: 'https://docs.google.com/presentation/d/1u8sgSerVcr47Mjm3dp9e6c0oa5oq55pL/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
+        { titulo: '📒[slides] UNIT 8:THIS, THAT, THESE, THOSE', url: 'https://docs.google.com/presentation/d/1EkjxtqncsZP9UV3IPsp8x_3V2PIIo7nE/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
+        { titulo: '📒[slides] UNIT 8:COMPARATIVE ADJECTIVES', url: 'https://docs.google.com/presentation/d/1qSyCw2izoXOoH6mRWVcsOeUSZodJmpUs/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
+        { titulo: '📒[slides] UNIT 9:COUNT AND NON-COUNT NOUNS WITH SOME, ANY, MUCH, MANY', url: 'https://docs.google.com/presentation/d/1R2ynzoB6PCzWW1ZG3fCSQih98U_S_Q28/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
+        { titulo: '📒[slides] UNIT 9:VERB PHRASES ', url: 'https://docs.google.com/presentation/d/1FHariJeOWfNHEd7J6BfbI9b2guiorCcU/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
+        { titulo: '📒[slides] UNIT 10: SIMPLE PAST— AFFIRMATIVE STATEMENTS', url:'https://docs.google.com/presentation/d/1GpUC4AHOfE8aRc_YZgyksJhQ3umtbGK4/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
+        { titulo: '📒[slides] UNIT 10: SIMPLE PAST— QUESTIONS AND NEGATIVE STATEMENTS', url: 'https://docs.google.com/presentation/d/1d0KP8QcbmEJiJwpoio1wewTlNzEpIKkE/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
+        { titulo: '📒[slides] UNIT 11:SIMPLE PAST WITH WHEN CLAUSES', url: 'https://docs.google.com/presentation/d/1gU_JXxoAp3KFVAe9-VI8pw-E7L4iXs_S/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
+        { titulo: '📒[slides] UNIT 11:DIRECT AND INDIRECT OBJECTS', url: 'https://docs.google.com/presentation/d/1invT5oXLeCWs3ZoBJ63VqNDUsxtVwws3/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
+        { titulo: '📒[slides] UNIT 12:PRESENT PROGRESSIVE AS FUTURE', url: 'https://docs.google.com/presentation/d/1t4E1BTDTqmm-lQynA4igeKjbPrQ3kRFP/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
+        { titulo: '📒[slides] UNIT 12:GOING TO', url: 'https://docs.google.com/presentation/d/1SERr4FC0uid44aV7TBYFbu2UqdKgltiV/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true' },
+        
         { titulo: '🎥El Alfabeto', url: 'https://youtu.be/7hvj0Pu7tNw' },
         { titulo: '📒[slides] The Alphabet', url: 'https://docs.google.com/presentation/d/1wlKwo_huYQR9p3upX0if-7t12nZpJUAk/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
         { titulo: '🎯Completa la letra que falta', url: 'https://wordwall.net/play/9163/020/4770' },
@@ -63,9 +76,7 @@ export const road =[
          { titulo: '🎥¿Cómo se forman las oraciones en Inglés?', url: 'https://youtu.be/tDOXiDjFBvg' },
          { titulo: '🎥Fundamentos del Inglés', url: 'https://youtu.be/aE5lMJYtrNQ' },
          { titulo: '📒[slides] Explanation The Verb Be', url: 'https://docs.google.com/presentation/d/1BcRVF50I_5gnPYd7dG07kPyULiFt-iF4/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
-         { titulo: '🎯The verb Be - affirmative form', url: 'https://wordwall.net/play/13293/724/44295' },
-         { titulo: '🎯The verb Be - Negative form', url: 'https://wordwall.net/play/21191/050/1795' },
-         { titulo: '🎯Complete the text with a subject pronoun or verb be', url: 'https://wordwall.net/play/18793/352/96020' },
+         
          { titulo: '📒[slides] Correct the Sentences with The Verb Be in Questions', url: 'https://docs.google.com/presentation/d/1PmPGCCydt73O4vXTB9ThQdiMk-zSdZs0/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
 
           { titulo: '🎯The verb Be -mixed sentences', url: 'https://wordwall.net/play/25528/529/57485' },
@@ -81,7 +92,7 @@ export const road =[
     {
         id:2,
        thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
-       title:"Desarrollando habilidades lingüísticas fundamentales",
+       title:"Level 2",
        subtitle:"asdasd",
 
        dateAdded:"Basic 01 ",
@@ -91,15 +102,7 @@ export const road =[
         { titulo: '📒[slides] Explanation A vs An', url: 'https://docs.google.com/presentation/d/1BYiXWa6xeAQEo2f9z8jtX8Hs5Or8mBop/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
         { titulo: '📒[slides] Plurals', url: 'https://docs.google.com/presentation/d/19UibyI2RmL5pSMSCLHXTw8ENNWED9Xfe/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
 
-        { titulo: '🎯Present Simple spelling rules He/She/It', url: 'https://wordwall.net/play/768/935/3716' },
-        { titulo: '🎯Present Simple spelling rules He/She/It II', url: 'https://wordwall.net/play/28761/823/542' },
-        { titulo: '🎯Present Simple He/She/It tenses I', url: 'https://wordwall.net/play/20080/716/98496' },
-        { titulo: '🎯Present Simple spelling rules All Pronouns', url: 'https://wordwall.net/play/16642/104/54012' },
-        { titulo: '🎯Choose the Correct Sentence in Present Simple', url: 'https://wordwall.net/play/2384/274/554802' },
-        { titulo: '🎯Negative in Present Simple', url: 'https://wordwall.net/play/23379/700/79494' },
-        { titulo: '🎯Questions Present Simple He/She/It', url: 'https://wordwall.net/play/36592/002/3966' },
-        { titulo: '🎯Short Answers in Present Simple', url: 'https://wordwall.net/play/15449/538/61279' },
-        { titulo: '🎯Present Simple Mixed Tenses I', url: 'https://wordwall.net/play/51962/689/8460' },
+       
         { titulo: '📝 Reading Quiz 1', url: 'https://forms.gle/BGfegqPFjq8qR4cD9' },
         { titulo: '🎧 Listening Quiz 1', url: 'https://forms.gle/1JcW99hj2NTvupm5A' },
         { titulo: '📒[slides] Explanation There is | There are ', url: 'https://docs.google.com/presentation/d/1AZfYgOutQKyvx-Dl7qj7LYOEEMYiDB1V/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true' },
@@ -310,49 +313,8 @@ export const road =[
      ]
 
 
-    },{
-        id:10,
-       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
-       title:"Nivel Experienced Trainer",
-       subtitle:"asdasd",
-
-       dateAdded:"Basic 09",
-       channel:"sdasd",
-       description:"Desarrollando habilidades lingüísticas fundamentales",
-       enlaces: [
-        { titulo: 'although, however, in spite of, despite', url: 'https://wordwall.net/play/26923/219/206' },
-         { titulo: 'PRESENT PERFECT Exercises Grammar', url: 'https://wordwall.net/play/20930/047/3447' },
-
-         { titulo: 'Since and for', url: 'https://wordwall.net/play/22172/068/39116' },
-                 { titulo: 'Present Perfect vs Present Perfect Continuous', url: 'https://wordwall.net/play/10820/227/9928' },
-
-
-        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
-     ]
-
-
-    },{
-        id:11,
-       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
-       title:"Nivel Experienced Trainer",
-       subtitle:"asdasd",
-
-       dateAdded:"Basic 10",
-       channel:"sdasd",
-       description:"Desarrollando habilidades lingüísticas fundamentales",
-       enlaces: [
-        { titulo: 'although, however, in spite of, despite', url: 'https://wordwall.net/play/26923/219/206' },
-         { titulo: 'PRESENT PERFECT Exercises Grammar', url: 'https://wordwall.net/play/20930/047/3447' },
-
-         { titulo: 'Since and for', url: 'https://wordwall.net/play/22172/068/39116' },
-                 { titulo: 'Present Perfect vs Present Perfect Continuous', url: 'https://wordwall.net/play/10820/227/9928' },
-
-
-        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
-     ]
-
-
-    },{
+    }
+     ,{
         id:12,
        thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
        title:"Nivel Experienced Trainer",
@@ -430,13 +392,7 @@ export const road =[
        description:"Desarrollando habilidades lingüísticas fundamentales",
        enlaces: [
         { titulo: 'although, however, in spite of, despite', url: 'https://wordwall.net/play/26923/219/206' },
-         { titulo: 'PRESENT PERFECT Exercises Grammar', url: 'https://wordwall.net/play/20930/047/3447' },
-
-         { titulo: 'Since and for', url: 'https://wordwall.net/play/22172/068/39116' },
-                 { titulo: 'Present Perfect vs Present Perfect Continuous', url: 'https://wordwall.net/play/10820/227/9928' },
-
-
-        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
+        
      ]
 
 
@@ -451,13 +407,7 @@ export const road =[
        description:"Desarrollando habilidades lingüísticas fundamentales",
        enlaces: [
         { titulo: 'although, however, in spite of, despite', url: 'https://wordwall.net/play/26923/219/206' },
-         { titulo: 'PRESENT PERFECT Exercises Grammar', url: 'https://wordwall.net/play/20930/047/3447' },
-
-         { titulo: 'Since and for', url: 'https://wordwall.net/play/22172/068/39116' },
-                 { titulo: 'Present Perfect vs Present Perfect Continuous', url: 'https://wordwall.net/play/10820/227/9928' },
-
-
-        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
+       
      ]
 
 
@@ -493,34 +443,7 @@ export const road =[
        description:"Desarrollando habilidades lingüísticas fundamentales",
        enlaces: [
         { titulo: 'although, however, in spite of, despite', url: 'https://wordwall.net/play/26923/219/206' },
-         { titulo: 'PRESENT PERFECT Exercises Grammar', url: 'https://wordwall.net/play/20930/047/3447' },
-
-         { titulo: 'Since and for', url: 'https://wordwall.net/play/22172/068/39116' },
-                 { titulo: 'Present Perfect vs Present Perfect Continuous', url: 'https://wordwall.net/play/10820/227/9928' },
-
-
-        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
-     ]
-
-
-    },{
-        id:19,
-       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
-       title:"Nivel Experienced Trainer",
-       subtitle:"asdasd",
-
-       dateAdded:"Basic 06",
-       channel:"sdasd",
-       description:"Desarrollando habilidades lingüísticas fundamentales",
-       enlaces: [
-        { titulo: 'although, however, in spite of, despite', url: 'https://wordwall.net/play/26923/219/206' },
-         { titulo: 'PRESENT PERFECT Exercises Grammar', url: 'https://wordwall.net/play/20930/047/3447' },
-
-         { titulo: 'Since and for', url: 'https://wordwall.net/play/22172/068/39116' },
-                 { titulo: 'Present Perfect vs Present Perfect Continuous', url: 'https://wordwall.net/play/10820/227/9928' },
-
-
-        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
+        
      ]
 
 
@@ -546,49 +469,7 @@ export const road =[
 
 
     },{
-        id:21,
-       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
-       title:"Nivel Experienced Trainer",
-       subtitle:"asdasd",
-
-       dateAdded:"Basic 06",
-       channel:"sdasd",
-       description:"Desarrollando habilidades lingüísticas fundamentales",
-       enlaces: [
-        { titulo: 'although, however, in spite of, despite', url: 'https://wordwall.net/play/26923/219/206' },
-         { titulo: 'PRESENT PERFECT Exercises Grammar', url: 'https://wordwall.net/play/20930/047/3447' },
-
-         { titulo: 'Since and for', url: 'https://wordwall.net/play/22172/068/39116' },
-                 { titulo: 'Present Perfect vs Present Perfect Continuous', url: 'https://wordwall.net/play/10820/227/9928' },
-
-
-        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
-     ]
-
-
-    },{
         id:22,
-       thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
-       title:"Nivel Experienced Trainer",
-       subtitle:"asdasd",
-
-       dateAdded:"Basic 06",
-       channel:"sdasd",
-       description:"Desarrollando habilidades lingüísticas fundamentales",
-       enlaces: [
-        { titulo: 'although, however, in spite of, despite', url: 'https://wordwall.net/play/26923/219/206' },
-         { titulo: 'PRESENT PERFECT Exercises Grammar', url: 'https://wordwall.net/play/20930/047/3447' },
-
-         { titulo: 'Since and for', url: 'https://wordwall.net/play/22172/068/39116' },
-                 { titulo: 'Present Perfect vs Present Perfect Continuous', url: 'https://wordwall.net/play/10820/227/9928' },
-
-
-        { titulo: '🦻Dictation 1', url: 'https://youtu.be/ZwbyLBkLnKU' }
-     ]
-
-
-    },{
-        id:23,
        thumbnail:"https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
        title:"Nivel Experienced Trainer",
        subtitle:"asdasd",
