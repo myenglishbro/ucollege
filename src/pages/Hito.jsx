@@ -1,41 +1,55 @@
 import React from 'react';
-
+import { send } from '../assets';
 import styles, { layout } from "../style";
-import Button from '../components/Button';
 const Hito = (props) => {
   return (
     <>
-     
-      <section className={`${layout.sectionImg} flex-col`}>
-  <div className="flex-1 flex flex-col">
-    <h2 className={`${styles.heading2 } text-white`} >{props.title}</h2>
-
+ 
+       
     {props.road.map((elemento, index) => (
-      <div key={index}>
-      
-        <p className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]" >{elemento.title}</p>
-        <p className='text-white'>
-          {elemento.subtitle}
+          <>
+         
+    <div key={index} className={`${layout.sectionImg} flex-col`}>
+    <section className={`${styles.flexCenter} flex-row flex-wrap sm:mb-2 mb-6`}>
+    
+          <div key={index} className={`flex-1 flex justify-start items-center flex-row m-3`} >
+            <h4 className="font-poppins font-semibold xs:text-[40.89px] text-[30.89px] xs:leading-[53.16px] leading-[43.16px] text-white">
+              {elemento.title}
+            </h4>
+            <p className="font-poppins font-normal xs:text-[20.45px] text-[15.45px] xs:leading-[26.58px] leading-[21.58px] text-gradient uppercase ml-3">
+            {elemento.subtitle}
+            </p>
+           
+          </div>
+         
+      </section>
+      <div className={`w-[64px] h-[64px] rounded-full  bg-dimBlue`}>
+      <img src={send} alt="star" className="w-[50%] h-[50%] object-contain" />
+    </div>
+      <p className={`${styles.paragraph} max-w-[470px] mb-3`}>
+        {elemento.description} 
         </p>
-        <div>
-          {elemento.enlaces.map((enlace, i) => (
-            <a key={i} href={enlace.url} target="_blank" rel="noopener noreferrer">
-              <p className=' text-white'>{enlace.titulo}</p>
-            </a>
-          ))}
+   
+      <div className="flex-1 flex flex-col">
+
+     
+     
+        <div key={index}>
+          <div>
+            {elemento.enlaces.map((enlace, i) => (
+              <a key={i} href={enlace.url} target="_blank" rel="noopener noreferrer">
+                <p className='text-white'>{enlace.titulo}</p>
+              </a>
+            ))}
+          </div>
         </div>
       </div>
+      
+    </div>
+          </>
+
     ))}
-  </div>
-
-  <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
-    <Button />
-  </div>
-</section>
-
-
-  
-    </>
+  </>
   );
 };
 

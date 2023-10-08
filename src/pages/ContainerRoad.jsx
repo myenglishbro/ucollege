@@ -11,9 +11,9 @@ const ContainerRoad = () => {
       <div className={`${styles.boxWidth}`}>
       <section className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
                 <div className="flex-1 flex flex-col">
-                  <h2 className={styles.heading2}>Ruta de Aprendizaje</h2>
-                  <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-                  Bienvenido a nuestra emocionante ruta de aprendizaje del idioma inglés, diseñada para guiarte desde los fundamentos hasta la fluidez en este idioma global.
+                  <h2 className={styles.heading2}>Repositorio</h2>
+                  <p className={`${styles.paragraph} max-w-[600px] mt-5`}>
+                  Te damos la bienvenida a nuestro emocionante repositorio de aprendizaje del idioma inglés, cuidadosamente diseñado para guiarte desde los conceptos básicos hasta alcanzar la fluidez en este idioma global.
                   </p>
                   
                 </div>
