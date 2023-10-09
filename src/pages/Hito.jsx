@@ -9,6 +9,7 @@ const Hito = (props) => {
           <>
          
     <div key={index} className={`${layout.sectionImg} flex-col`}>
+    
     <section className={`${styles.flexCenter} flex-row flex-wrap sm:mb-2 mb-6`}>
     
           <div key={index} className={`flex-1 flex justify-start items-center flex-row m-3`} >
@@ -25,7 +26,7 @@ const Hito = (props) => {
     </div>
       </section>
      
-      <p className={`${styles.paragraph} max-w-[470px] mb-3`}>
+      <p className={`${styles.paragraph} max-w-[670px] mb-6`}>
         {elemento.description} 
         </p>
    
@@ -36,9 +37,14 @@ const Hito = (props) => {
         <div key={index}>
           <div>
             {elemento.enlaces.map((enlace, i) => (
+             
+              
+        
               <a key={i} href={enlace.url} target="_blank" rel="noopener noreferrer">
                 <p className='text-white'>{enlace.titulo}</p>
               </a>
+      
+              
             ))}
           </div>
         </div>

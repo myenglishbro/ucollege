@@ -8,10 +8,9 @@ export const road = [
 
         dateAdded: "Basic 0 ",
         channel: "sdasd",
-        description: "Aprenderemos los conceptos básicos del inglés para poder comunicarnos correctamente",
+        description: "Aprenderemos los conceptos básicos y fundamentales del inglés para poder comunicarnos correctamente,establecer una base muy elemental en el idioma, que es útil para situaciones de comunicación muy simples y para adquirir las habilidades necesarias para avanzar a niveles más altos de competencia en el futuro. ",
         enlaces: [
-            { titulo: "🎬 Inicio de la Ruta ", url: "https://youtu.be/QtAYBkoGbGE" },
-            { titulo: "🎥El Alfabeto", url: "https://youtu.be/7hvj0Pu7tNw" },
+            
             {
                 titulo: "📒[slides] The Alphabet",
                 url: "https://docs.google.com/presentation/d/1wlKwo_huYQR9p3upX0if-7t12nZpJUAk/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
