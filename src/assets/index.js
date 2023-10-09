@@ -18,7 +18,7 @@ import shield from "./Shield.svg";
 import star from "./Star.svg";
 import quotes from "./quotes.svg";
 import about from "./about.png";
-
+import level1 from "./level1.png";
 
 export {
 chopper,
@@ -29,6 +29,7 @@ menu,
 close,
 logo,
 facebook,
+level1,
 instagram,
 linkedin,
 www,

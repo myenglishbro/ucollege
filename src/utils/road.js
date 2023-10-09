@@ -2,9 +2,9 @@ export const road = [
     {
         id: 1,
         thumbnail:
-            "https://media.tenor.com/images/b02c6ca42e5dfa2d94ed062321a2e801/tenor.gif",
-        title: "Level 1",
-        subtitle: "Nivel Principiante",
+            "https://i.ibb.co/c3FmGzV/level1.png",
+        title: "A1",
+        subtitle: "Herald",
 
         dateAdded: "Basic 0 ",
         channel: "sdasd",
@@ -305,9 +305,9 @@ export const road = [
     {
         id: 2,
         thumbnail:
-            "https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
-        title: "Level 2",
-        subtitle: "asdasd",
+            "https://i.ibb.co/yfYMBBS/level2.png",
+        title: "A2",
+        subtitle: "Crusader",
 
         dateAdded: "Basic 01 ",
         channel: "sdasd",
@@ -436,9 +436,9 @@ export const road = [
     {
         id: 4,
         thumbnail:
-            "https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
-        title: "Nivel Experienced Trainer",
-        subtitle: "asdasd",
+            "https://i.ibb.co/PZ6Srhv/level3.png",
+        title: "B1",
+        subtitle: "Archon",
 
         dateAdded: "Basic 03",
         channel: "sdasd",
@@ -771,11 +771,11 @@ export const road = [
     {
         id: 27,
         thumbnail:
-            "https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
-        title: "Level 3",
-        subtitle: "Intermediate Level",
+            "https://i.ibb.co/T2gwBmd/level4.png",
+        title: "B2",
+        subtitle: "Legend",
 
-        dateAdded: "Level 3",
+        dateAdded: "B2",
         channel: "sdasd",
         description: "Desarrollando habilidades lingüísticas fundamentales",
         enlaces: [
@@ -932,9 +932,9 @@ export const road = [
     {
         id: 28,
         thumbnail:
-            "https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
-        title: "Master Level 1",
-        subtitle: "asdasd",
+            "https://i.ibb.co/W2FY74b/level5.png",
+        title: "C1",
+        subtitle: "Ancient",
 
         dateAdded: "Basic 01 ",
         channel: "sdasd",
@@ -973,9 +973,9 @@ export const road = [
     {
         id: 29,
         thumbnail:
-            "https://www.lingoneo.org/learn-english/wp-content/uploads/sites/23/2019/01/supermarket-scaled-1024x773.jpg",
-        title: "Master Level 2",
-        subtitle: "asdasd",
+            "https://i.ibb.co/QXZk0Hc/level6.png",
+        title: "C2",
+        subtitle: "Divine",
 
         dateAdded: "Basic 01 ",
         channel: "sdasd",

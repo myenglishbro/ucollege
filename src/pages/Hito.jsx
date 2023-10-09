@@ -1,5 +1,4 @@
 import React from 'react';
-import { send } from '../assets';
 import styles, { layout } from "../style";
 const Hito = (props) => {
   return (
@@ -21,11 +20,11 @@ const Hito = (props) => {
             </p>
            
           </div>
-         
-      </section>
-      <div className={`w-[64px] h-[64px] rounded-full  bg-dimBlue`}>
-      <img src={send} alt="star" className="w-[50%] h-[50%] object-contain" />
+          <div className={`w-[64px] h-[64px] rounded-full  bg-dimBlue`}>
+      <img src={elemento.thumbnail} alt="star" className="w-[100%] h-[100%] object-contain" />
     </div>
+      </section>
+     
       <p className={`${styles.paragraph} max-w-[470px] mb-3`}>
         {elemento.description} 
         </p>
