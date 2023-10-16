@@ -107,7 +107,7 @@ const Horario = () => {
       <h5 class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ">Saturday 💪</h5>
       <ul class="list-group list-group-flush">
       <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">09:00-11:00 am 🟢</li>
-      <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">12:00-01:00 pm 🟢 </li>
+      <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">11:00-01:00 pm 🟢 </li>
       
         </ul>
       </div>
@@ -115,7 +115,7 @@ const Horario = () => {
       <h5 class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ">Sunday 💪</h5>
       <ul class="list-group list-group-flush">
       <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimBusy hover:text-terciary cursor-pointer">09:00-11:00 am 🔴 </li>
-      <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">12:00-01:00 pm 🟢 </li>
+      <li class="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer">11:00-01:00 pm 🟢 </li>
 
 
 
