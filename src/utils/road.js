@@ -11,75 +11,30 @@ export const road = [
         description: "Aprenderemos los conceptos básicos y fundamentales del inglés para poder comunicarnos correctamente,establecer una base muy elemental en el idioma, que es útil para situaciones de comunicación muy simples y para adquirir las habilidades necesarias para avanzar a niveles más altos de competencia en el futuro. ",
         enlaces: [
             
-            {
-                titulo: "01-📒[slides] The Alphabet",
-                url: "https://docs.google.com/presentation/d/1wlKwo_huYQR9p3upX0if-7t12nZpJUAk/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
-            },
-            {
-                titulo: "🎯Completa la letra que falta",
-                url: "https://wordwall.net/play/9163/020/4770",
-            },
-            {
-                titulo: "🎯True/False Alphabet Sounds",
-                url: "https://wordwall.net/play/4207/022/7865",
-            },
-            {
-                titulo: "🎯Completa la letra que falta II",
-                url: "https://wordwall.net/play/26160/270/111",
-            },
-            {
-                titulo: "02-📒[slides] The Numbers and The Time",
-                url: "https://docs.google.com/presentation/d/1oNoA0RqXDuy5AmH_NdwZKS1minGfr-R_/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
-            },
-            {
-                titulo: "03-📒[slides] The Pronouns",
-                url: "https://docs.google.com/presentation/d/1z94b0Ju4A4PfBiyp9TK37D0Nkzt5RqmV/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
-            },
-            { titulo: "🎯 The Pronouns",url: "https://wordwall.net/play/28743/414/132"},
-            { titulo: "🎯 The Pronouns II", url: "https://wordwall.net/play/35940/872/5428"},
-            {titulo: "🎯Transformation Pronouns",url: "https://wordwall.net/play/16432/831/5065"},
-            {
-                titulo: "04-📒[slides] The English Structure and Origin",
-                url: "https://docs.google.com/presentation/d/1qJVbcSbG2GyYS2opk4HPhSQGPaTpRVBr/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
-            }, {
-                titulo: "05-📒[slides] Introduccion Present Simple",
-                url: "https://docs.google.com/presentation/d/1kKSj3wwoYtmVotOsbW5J9eJ9U9lG0FIb/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
-            },
-          { titulo: "06-📒[slides] The Verb Be Affirmative Form",url: "https://docs.google.com/presentation/d/1orV_Qm0QQOotooY_uEJ3Srct8EAPV2VN/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true", },
-          { titulo: "07-📒[slides] Countries and Nationalities",url: "https://docs.google.com/presentation/d/1orV_Qm0QQOotooY_uEJ3Srct8EAPV2VN/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true", },
-            {
-                titulo: "08-📒[slides] Possesive Adjectives",
-                url: "https://docs.google.com/presentation/d/1zkn5eJjUJTDUUjOU45ZZIRu8-7c9saPO/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
-            },
-            {
-                titulo: "09-📒[slides] The Verb Be Negative and Interrogative Form",
-                url: "https://docs.google.com/presentation/d/1-37e0Rj12xLoLJ8AIadt47Q0q-D8JbkR/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
-            },
-            {
-                titulo: "10-📒[slides] Professions",
-                url: "https://docs.google.com/presentation/d/1-37e0Rj12xLoLJ8AIadt47Q0q-D8JbkR/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
-            },
-            {
-                titulo: "11-📒[slides] A and An",
-                url: "https://docs.google.com/presentation/d/1-37e0Rj12xLoLJ8AIadt47Q0q-D8JbkR/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
-            },
-            { titulo: "🎯The verb Be - Negative form",url: "https://wordwall.net/play/21191/050/1795" },
-            {
-                titulo: "12-📒[slides] Adjectives in English",
-                url: "https://docs.google.com/presentation/d/1-37e0Rj12xLoLJ8AIadt47Q0q-D8JbkR/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
-            },
-            { titulo:"03-📒[slides] Review Verb be ",url: "https://docs.google.com/presentation/d/1Ckb4LISBB35qHq5Yxf1sPEruLXAo-o6w/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
-            {titulo: "14-📒[slides]  Be-WH Questions", url: "https://docs.google.com/presentation/d/1QzcM-95Md4pWWy1d6BzM2CX2klPaPbXT/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
-            {
-                titulo: "11-📒[slides] Prepositions of Place",
-                url: "https://docs.google.com/presentation/d/1-37e0Rj12xLoLJ8AIadt47Q0q-D8JbkR/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
-            },
-            { titulo: "11-📒[slides] Review Verb be ",url: "https://docs.google.com/presentation/d/1Ckb4LISBB35qHq5Yxf1sPEruLXAo-o6w/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
+            {  titulo:"01-📒[slides] The Alphabet",url: "https://docs.google.com/presentation/d/1wlKwo_huYQR9p3upX0if-7t12nZpJUAk/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true"},
+            {  titulo:"02-📒[slides] The Numbers and The Time", url: "https://docs.google.com/presentation/d/1oNoA0RqXDuy5AmH_NdwZKS1minGfr-R_/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"03-📒[slides] The Pronouns", url: "https://docs.google.com/presentation/d/1z94b0Ju4A4PfBiyp9TK37D0Nkzt5RqmV/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"04-📒[slides] The English Structure and Origin",url: "https://docs.google.com/presentation/d/1qJVbcSbG2GyYS2opk4HPhSQGPaTpRVBr/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" }, 
+            {  titulo:"05-📒[slides] Introduccion Present Simple", url: "https://docs.google.com/presentation/d/1kKSj3wwoYtmVotOsbW5J9eJ9U9lG0FIb/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"06-📒[slides] The Verb Be Affirmative Form",url: "https://docs.google.com/presentation/d/1orV_Qm0QQOotooY_uEJ3Srct8EAPV2VN/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
+            {  titulo:"07-📒[slides] Countries and Nationalities",url: "https://docs.google.com/presentation/d/1orV_Qm0QQOotooY_uEJ3Srct8EAPV2VN/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
+            {  titulo:"08-📒[slides] Possesive Adjectives", url: "https://docs.google.com/presentation/d/1zkn5eJjUJTDUUjOU45ZZIRu8-7c9saPO/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
+            {  titulo:"09-📒[slides] The Verb Be Negative and Interrogative Form", url: "https://docs.google.com/presentation/d/1-37e0Rj12xLoLJ8AIadt47Q0q-D8JbkR/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"10-📒[slides] Professions",url: "https://docs.google.com/presentation/d/1-37e0Rj12xLoLJ8AIadt47Q0q-D8JbkR/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"11-📒[slides] A and An", url: "https://docs.google.com/presentation/d/1-37e0Rj12xLoLJ8AIadt47Q0q-D8JbkR/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"12-📒[slides] Adjectives in English",url: "https://docs.google.com/presentation/d/1-37e0Rj12xLoLJ8AIadt47Q0q-D8JbkR/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"03-📒[slides] Review Verb be ",url: "https://docs.google.com/presentation/d/1Ckb4LISBB35qHq5Yxf1sPEruLXAo-o6w/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
+            {  titulo:"14-📒[slides]  Be-WH Questions", url: "https://docs.google.com/presentation/d/1QzcM-95Md4pWWy1d6BzM2CX2klPaPbXT/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"11-📒[slides] Prepositions of Place", url: "https://docs.google.com/presentation/d/1-37e0Rj12xLoLJ8AIadt47Q0q-D8JbkR/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"11-📒[slides] Review Verb be ",url: "https://docs.google.com/presentation/d/1Ckb4LISBB35qHq5Yxf1sPEruLXAo-o6w/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
+            {  titulo:"11-📒[slides] Genitivo Sajon ",url: "https://docs.google.com/presentation/d/1xpLd_KwBSockQMabpxQvxntYdpf1ZY2Dxx4m5arh44o/edit?usp=sharing" },
+            {  titulo:"11-📒[slides] Object Pronouns ",url: "https://docs.google.com/presentation/d/1uF-fBeTnLSjeRJULZT-cxo1DHRiJBBidBqeyBhWxrh0/edit?usp=sharinghttps://docs.google.com/presentation/d/1uF-fBeTnLSjeRJULZT-cxo1DHRiJBBidBqeyBhWxrh0/edit?usp=sharing" },
+            {  titulo:"11-📒[slides] Possessive Adjectives ",url: "https://docs.google.com/presentation/d/1lht147wBSr5GhuONl2Fk1g7Z9LXrA5R6NNFJeFLMywM/edit?usp=sharing" },
+            {  titulo:"11-📒[slides] Demostrative Adjectives ",url: "https://docs.google.com/presentation/d/1YeQYppjd1YIFbdjft1NhDsgexNnk65zpwnacEyZ0E9A/edit?usp=sharing" },
 
-            {titulo: "🎯Complete the text with a subject pronoun or verb be",url: "https://wordwall.net/play/18793/352/96020"},
-            { titulo:"📒[slides] Correct the Sentences with The Verb Be in Questions",url: "https://docs.google.com/presentation/d/1PmPGCCydt73O4vXTB9ThQdiMk-zSdZs0/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",},
-            {  titulo: "🎯The verb Be -mixed sentences", url: "https://wordwall.net/play/25528/529/57485" },
-            {  titulo: "✍️[test] Practica Integradora 1", url: "https://docs.google.com/document/d/1dEid7CxmlAwFluGbugI-3zH__ktx_KrV/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true", },
+            {  titulo:"📒[slides] Correct the Sentences with The Verb Be in Questions",url: "https://docs.google.com/presentation/d/1PmPGCCydt73O4vXTB9ThQdiMk-zSdZs0/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",},
+            {  titulo:"🎯The verb Be -mixed sentences", url: "https://wordwall.net/play/25528/529/57485" },
+            {  titulo:"✍️[test] Practica Integradora 1", url: "https://docs.google.com/document/d/1dEid7CxmlAwFluGbugI-3zH__ktx_KrV/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true", },
            
             { titulo: "📝[skill test] UNIT 1: Listening and writing PDF",
                 url: "https://drive.google.com/file/d/1lj6qtiswWIwvf0zSVne5b8dPEv3S3ra1/view?usp=sharing",
@@ -96,18 +51,7 @@ export const road = [
                 titulo: "📽️[Video-Worksheet] Unit 1 Nice to meet you",
                 url: "https://drive.google.com/file/d/1iIEtN9QL8NJIMZOTS75pJPO1OsyveWxd/view?usp=sharing",
             },
-            {
-                titulo: "📽️[Video] Unit 1 Nice to meet you",
-                url: "https://youtu.be/i5OmuULH6Oc",
-            },
-            {
-                titulo: "📽️[Video -Sub] Unit 1 Nice to meet you",
-                url: "https://youtu.be/x_aWkIcxNzU",
-            },
-            {
-                titulo: "📜[Video -Script] Unit 1 Nice to meet you",
-                url: "https://drive.google.com/file/d/12FC1cyaZdLgA9_7Bp0r87C6MdgHwdlll/view?usp=sharing",
-            },
+            
             {
                 titulo: "📒[slides] UNIT 2: ARTICLES ",
                 url: "https://docs.google.com/presentation/d/1V17QBl-CmIihRnriRHmu0Y7-AYKSffs6/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
@@ -125,42 +69,7 @@ export const road = [
                 titulo: "📒[slides] UNIT 3:SIMPLE PRESENT—INFORMATION QUESTIONS",
                 url: "https://docs.google.com/presentation/d/1j8R4Jva6SvlZoNcK-HhFohvkhhAE2M6j/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
             },
-            {
-                titulo: "🎯Present Simple spelling rules He/She/It",
-                url: "https://wordwall.net/play/768/935/3716",
-            },
-            {
-                titulo: "🎯Present Simple spelling rules He/She/It II",
-                url: "https://wordwall.net/play/28761/823/542",
-            },
-            {
-                titulo: "🎯Present Simple He/She/It tenses I",
-                url: "https://wordwall.net/play/20080/716/98496",
-            },
-            {
-                titulo: "🎯Present Simple spelling rules All Pronouns",
-                url: "https://wordwall.net/play/16642/104/54012",
-            },
-            {
-                titulo: "🎯Choose the Correct Sentence in Present Simple",
-                url: "https://wordwall.net/play/2384/274/554802",
-            },
-            {
-                titulo: "🎯Negative in Present Simple",
-                url: "https://wordwall.net/play/23379/700/79494",
-            },
-            {
-                titulo: "🎯Questions Present Simple He/She/It",
-                url: "https://wordwall.net/play/36592/002/3966",
-            },
-            {
-                titulo: "🎯Short Answers in Present Simple",
-                url: "https://wordwall.net/play/15449/538/61279",
-            },
-            {
-                titulo: "🎯Present Simple Mixed Tenses I",
-                url: "https://wordwall.net/play/51962/689/8460",
-            },
+            
             {
                 titulo: "📒[slides] UNIT 4:FREQUENCY ADVERBS AND ADVERBIAL PHRASES",
                 url: "https://docs.google.com/presentation/d/16-wwNO2lpWVdp222T5v6qAx2Y84QG0RC/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
