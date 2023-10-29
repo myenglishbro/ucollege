@@ -1,7 +1,7 @@
 export const data =[
     {
         id:1,
-       thumbnail:"https://i.ibb.co/587F3rL/level-a1-0.png",
+       thumbnail:"https://i.ibb.co/PzP7Rhx/Nivel-de-ingles-A1-jpg.jpg",
        title:"Cesar Hurtado",
        subtitle:"Clases Individuales",
        enlaceblog:"https://docs.google.com/spreadsheets/d/1GUEVrWt3Ghks_RdKw9U3GIBZtZtq-HZTwhtuHIN2KzA/edit?usp=sharing",
@@ -10,9 +10,9 @@ export const data =[
     },
     {
         id:2,
-       thumbnail:"https://i.ibb.co/N9jrwtn/Presentaci-n-Narrada-Alquiler-Coches-Profesional-Azul-P-rpura-2.png",
+       thumbnail:"https://i.ibb.co/SRgYCx7/Nivel-de-ingles-A2-jpg.jpg",
        title:"Brayan",
-       subtitle:"Clases Individuales",
+       subtitle:"Clases Individuales Online",
        enlaceblog:"https://docs.google.com/spreadsheets/d/1ruopbMbBVdoim--X1nIxcPVqwtqXbzB-_dLVqLs3Bbg/edit?usp=sharing",
        channel:"sdasd",
        description:"Nivel A2 ",
