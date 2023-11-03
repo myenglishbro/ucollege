@@ -12,6 +12,8 @@ export const road = [
         enlaces: [
             
             {  titulo:"01-📒[slides] The Alphabet",url: "https://docs.google.com/presentation/d/1wlKwo_huYQR9p3upX0if-7t12nZpJUAk/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true"},
+            {  titulo:"01.1-📒[PDF] The Alphabet Infografía",url: "https://drive.google.com/file/d/11ZQzTcEb-sF1j45jfJD4mgS305a7pO0o/view?usp=sharing"},
+
             {  titulo:"02-📒[slides] The Numbers and The Time", url: "https://docs.google.com/presentation/d/1oNoA0RqXDuy5AmH_NdwZKS1minGfr-R_/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
             {  titulo:"03-📒[slides] The Pronouns", url: "https://docs.google.com/presentation/d/1z94b0Ju4A4PfBiyp9TK37D0Nkzt5RqmV/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
             {  titulo:"04-📒[slides] The English Structure and Origin",url: "https://docs.google.com/presentation/d/1qJVbcSbG2GyYS2opk4HPhSQGPaTpRVBr/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" }, 
@@ -25,7 +27,8 @@ export const road = [
             {  titulo:"12-📒[slides] Adjectives in English",url: "https://docs.google.com/presentation/d/1-37e0Rj12xLoLJ8AIadt47Q0q-D8JbkR/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
             {  titulo:"03-📒[slides] Review Verb be ",url: "https://docs.google.com/presentation/d/1Ckb4LISBB35qHq5Yxf1sPEruLXAo-o6w/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
             {  titulo:"14-📒[slides]  Be-WH Questions", url: "https://docs.google.com/presentation/d/1QzcM-95Md4pWWy1d6BzM2CX2klPaPbXT/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
-            {  titulo:"15-📒[slides] Prepositions of Place", url: "https://docs.google.com/presentation/d/1-37e0Rj12xLoLJ8AIadt47Q0q-D8JbkR/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"14-📒[slides]  The Articles ", url: "https://docs.google.com/presentation/d/11Xf9HvxN9IHX2C7X7nloNSMnPksIA7vt/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+
             {  titulo:"16-📒[slides] Review Verb be ",url: "https://docs.google.com/presentation/d/1Ckb4LISBB35qHq5Yxf1sPEruLXAo-o6w/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
             {  titulo:"17-📒[slides] Genitivo Sajon ",url: "https://docs.google.com/presentation/d/1xpLd_KwBSockQMabpxQvxntYdpf1ZY2Dxx4m5arh44o/edit?usp=sharing" },
             {  titulo:"18-📒[slides] Object Pronouns ",url: "https://docs.google.com/presentation/d/1uF-fBeTnLSjeRJULZT-cxo1DHRiJBBidBqeyBhWxrh0/edit?usp=sharinghttps://docs.google.com/presentation/d/1uF-fBeTnLSjeRJULZT-cxo1DHRiJBBidBqeyBhWxrh0/edit?usp=sharing" },
@@ -35,7 +38,9 @@ export const road = [
             {  titulo:"21-📒[slides] Present Simple Tense ",url: "https://docs.google.com/presentation/d/1xFAOT8P0zUAQ2ZIiJlGb9w-2S_WiofPNm8toYRGuagA/edit?usp=sharing" },
 
             {  titulo:"📒[slides] Correct the Sentences with The Verb Be in Questions",url: "https://docs.google.com/presentation/d/1PmPGCCydt73O4vXTB9ThQdiMk-zSdZs0/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",},
-           
+            {  titulo:"15-📒[slides] Prepositions", url: "https://docs.google.com/presentation/d/1whWilz_x5_6fQ9uQ0_2jmEQulZmuSoMi_y_6X3HLmqY/edit?usp=sharing"},
+            {  titulo:"15-📒[slides] Can vs Can't", url: "https://docs.google.com/presentation/d/1whWilz_x5_6fQ9uQ0_2jmEQulZmuSoMi_y_6X3HLmqY/edit?usp=sharing"},
+
             { titulo: "📝[skill test] UNIT 1: Listening and writing PDF",
                 url: "https://drive.google.com/file/d/1lj6qtiswWIwvf0zSVne5b8dPEv3S3ra1/view?usp=sharing",
             },
