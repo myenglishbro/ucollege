@@ -44,23 +44,9 @@ export const navLinks =  [
     
    
    {
-      title: "Career Path",
-      path: "/Speaking",
-      dropdown: true,
-      dropdownLinks: [
-        {
-          title: "Hospitality",
-          path: "/HospitalityAndTour"
-        },
-        {
-          title: "Dentestry",
-          path: "/RoadMap"
-        },
-        {
-          title: "Medicine",
-          path: "/Clases/Aleman"
-        }
-      ]
+      title: "Medicine",
+      path: "/RoadMapMed"
+      
     }
     
     ,

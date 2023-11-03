@@ -1,16 +1,4 @@
-import NavBar from "./components/NavBar/NavBar";
-import { FcHome } from "react-icons/fc";
-import { FcLike } from "react-icons/fc";
-import { FcShop } from "react-icons/fc";
-import { FcPlanner } from "react-icons/fc";
-import { FcRules } from "react-icons/fc";
-import { FcCurrencyExchange } from "react-icons/fc";
-import { FcReading } from "react-icons/fc";
-import { FcTimeline } from "react-icons/fc";
-import { FcDebt } from "react-icons/fc";
-import { FcBusinessman } from "react-icons/fc";
 
-import { FcApproval } from "react-icons/fc";
 
 import styles from "./style";
 import "./index.css"
@@ -43,7 +31,7 @@ import ShallShould from "./pages/ShallShould";
 import ModalVerbs from "./pages/ModalVerbs";
 import PoliticasClase from "./pages/PoliticasClase";
 import Pagos from "./pages/Pagos";
-import Speaking from "./pages/Speaking";
+
 import Abbreviations from "./pages/Abbreviations";
 import EachEvery from "./pages/EachEvery";
 import WhereInWhichWherein from "./pages/WhereInWhichWherein";
@@ -56,6 +44,7 @@ import SuffixinEnglish02 from "./pages/SuffixinEnglish02";
 import EF from "./pages/EF";
 import Navbar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer";
+import RoadMapMed from "./pages/RoadMapMed";
 
 function App() {
   return (
@@ -76,9 +65,10 @@ function App() {
           <Route path="/Store" element={<Store />}></Route>
           <Route path="/Clases" element={<Clases />}></Route>
           <Route path="/RoadMap" element={<RoadMap />}></Route>
+          <Route path="/RoadMapMed" element={<RoadMapMed />}></Route>
+
           <Route path="/PoliticasClase" element={<PoliticasClase />}></Route>
           <Route path="/Pagos" element={<Pagos />}></Route>
-          <Route path="/Speaking" element={<Speaking />}></Route>
           <Route path="/MyPortal" element={<ContainerPortal />}></Route>
           <Route path="/Certificacion" element={<EF />}></Route>
           <Route path="/PhrasesAtWork" element={<PhrasesAtWork />}></Route>

@@ -7,7 +7,7 @@ import robot from "./robot.png";
 import arrowUp from "./arrow-up.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
