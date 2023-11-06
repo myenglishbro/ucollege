@@ -32,7 +32,7 @@ const RoadMap = () => {
 
     <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
     <input
-        type="text"
+        type="password"
         placeholder="Ingresa el código "
         value={codigo}
         onChange={handleChangeCodigo}
