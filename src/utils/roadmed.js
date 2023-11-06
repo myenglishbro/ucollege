@@ -1,17 +1,17 @@
-export const road = [
+export const roadmed = [
     {
         id: 1,
         thumbnail:
             "https://i.ibb.co/c3FmGzV/level1.png",
-        title: "A1",
-        subtitle: "Herald",
+        title: "Dentestry",
+        subtitle: "Interno",
 
         dateAdded: "Basic 0 ",
         channel: "sdasd",
         description: "Aprenderemos los conceptos básicos y fundamentales del inglés para poder comunicarnos correctamente,establecer una base muy elemental en el idioma, que es útil para situaciones de comunicación muy simples y para adquirir las habilidades necesarias para avanzar a niveles más altos de competencia en el futuro. ",
         enlaces: [
             
-            {  titulo:"01-📒[slides] The Alphabet",url: "https://docs.google.com/presentation/d/1wlKwo_huYQR9p3upX0if-7t12nZpJUAk/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true"},
+            {  titulo:"01-📒[slides] Dentestry 1",url: "https://docs.google.com/presentation/d/16Y7bVNPUmByfcYmpx4_8tapY2HxtHQ3K/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
             {  titulo:"01.1-📒[PDF] The Alphabet Infografía",url: "https://drive.google.com/file/d/11ZQzTcEb-sF1j45jfJD4mgS305a7pO0o/view?usp=sharing"},
             {  titulo:"02-📒[slides] The Numbers and The Time", url: "https://docs.google.com/presentation/d/1oNoA0RqXDuy5AmH_NdwZKS1minGfr-R_/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
             {  titulo:"03-📒[slides] The Pronouns", url: "https://docs.google.com/presentation/d/1z94b0Ju4A4PfBiyp9TK37D0Nkzt5RqmV/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
@@ -39,7 +39,7 @@ export const road = [
             {  titulo:"25-📒[slides] Prepositions", url: "https://docs.google.com/presentation/d/1whWilz_x5_6fQ9uQ0_2jmEQulZmuSoMi_y_6X3HLmqY/edit?usp=sharing"},
             {  titulo:"26-📒[slides] Can vs Can't", url: "https://docs.google.com/presentation/d/1whWilz_x5_6fQ9uQ0_2jmEQulZmuSoMi_y_6X3HLmqY/edit?usp=sharing"},
             {  titulo:"27-📒[slides] There is/There are ", url: "https://docs.google.com/presentation/d/1Ud8WRanZq2D4ESyWG_vvPsQSWCkJ-rDdQn6fzUpIJFg/edit?usp=sharing"},
-            {  titulo:"28-📒[slides] Imperatives", url: "https://docs.google.com/presentation/d/13LhyLsQXHZ73gmAOs5-WQjkeHJsZ7U-1_96iFBbKdp8/edit?usp=sharing"},
+            {  titulo:"28-📒[slides] Imperatives", url: "https://docs.google.com/presentation/d/11Vz9plG54Ui_9BjAcL7TKfj1WPEjrKLK2CCFwNMO6U4/edit?usp=sharing"},
 
             { titulo: "📝[skill test] UNIT 1: Listening and writing PDF",
                 url: "https://drive.google.com/file/d/1lj6qtiswWIwvf0zSVne5b8dPEv3S3ra1/view?usp=sharing",

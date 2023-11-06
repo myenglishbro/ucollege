@@ -1,10 +1,10 @@
 import React from 'react'
-import ContainerRoad from './ContainerRoad'
+import ContainerRoadMed from './ContainerRoadmMed'
 
 const RoadMapMed = () => {
   return (
     <>
-        <ContainerRoad></ContainerRoad>
+        <ContainerRoadMed></ContainerRoadMed>
     </>
   )
 }
