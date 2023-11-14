@@ -15,7 +15,7 @@ const MyPortal = () => {
       Recuerda que puedes cancelar tu clase con 24 horas de anticipación
       </p>
 
-      <a href="https://upch.zoom.us/j/4461856298"> <Button styles={`mt-10`}  /></a>
+      <a href=""> <Button styles={`mt-10`}  /></a>
     </div>
 
     <div className={layout.sectionImg}>
