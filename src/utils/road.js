@@ -715,7 +715,7 @@ export const road = [
         thumbnail:
             "",
         title: "B2",
-        subtitle: "Legend",
+        subtitle: "Upper-Intermediate",
 
         dateAdded: "B2",
         channel: "Upper-Intermediate",
