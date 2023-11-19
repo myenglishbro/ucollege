@@ -2,7 +2,7 @@ export const road = [
     {
         id: 1,
         thumbnail:
-            "https://i.ibb.co/c3FmGzV/level1.png",
+            "",
         title: "A1",
         subtitle: "Herald",
 
@@ -247,7 +247,7 @@ export const road = [
     {
         id: 2,
         thumbnail:
-            "https://i.ibb.co/yfYMBBS/level2.png",
+            "",
         title: "A2",
         subtitle: "Crusader",
 
@@ -378,7 +378,7 @@ export const road = [
     {
         id: 4,
         thumbnail:
-            "https://i.ibb.co/PZ6Srhv/level3.png",
+            "",
         title: "B1",
         subtitle: "Archon",
 
@@ -713,7 +713,7 @@ export const road = [
     {
         id: 27,
         thumbnail:
-            "https://i.ibb.co/T2gwBmd/level4.png",
+            "",
         title: "B2",
         subtitle: "Legend",
 
@@ -874,7 +874,7 @@ export const road = [
     {
         id: 28,
         thumbnail:
-            "https://i.ibb.co/W2FY74b/level5.png",
+            "",
         title: "C1",
         subtitle: "Ancient",
 
@@ -915,7 +915,7 @@ export const road = [
     {
         id: 29,
         thumbnail:
-            "https://i.ibb.co/QXZk0Hc/level6.png",
+            "",
         title: "C2",
         subtitle: "Divine",
 
