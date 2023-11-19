@@ -4,7 +4,7 @@ export const road = [
         thumbnail:
             "",
         title: "A1",
-        subtitle: "Herald",
+        subtitle: "Basic Level",
 
         dateAdded: "Basic 0 ",
         channel: "sdasd",
@@ -249,7 +249,7 @@ export const road = [
         thumbnail:
             "",
         title: "A2",
-        subtitle: "Crusader",
+        subtitle: "Pre-Intermediate",
 
         dateAdded: "Basic 01 ",
         channel: "sdasd",
@@ -380,7 +380,7 @@ export const road = [
         thumbnail:
             "",
         title: "B1",
-        subtitle: "Archon",
+        subtitle: "Intermediate",
 
         dateAdded: "Basic 03",
         channel: "sdasd",
@@ -718,7 +718,7 @@ export const road = [
         subtitle: "Legend",
 
         dateAdded: "B2",
-        channel: "sdasd",
+        channel: "Upper-Intermediate",
         description: "Desarrollando habilidades lingüísticas fundamentales",
         enlaces: [
             {
@@ -876,7 +876,7 @@ export const road = [
         thumbnail:
             "",
         title: "C1",
-        subtitle: "Ancient",
+        subtitle: "Advanced",
 
         dateAdded: "Basic 01 ",
         channel: "sdasd",
@@ -917,7 +917,7 @@ export const road = [
         thumbnail:
             "",
         title: "C2",
-        subtitle: "Divine",
+        subtitle: "Proficiency",
 
         dateAdded: "Basic 01 ",
         channel: "sdasd",
