@@ -22,7 +22,7 @@ const Hito = (props) => {
            
           </div>
           <div className={`w-[64px] h-[64px] rounded-full  bg-dimBlue`}>
-      <img src={elemento.thumbnail} alt="star" className="w-[100%] h-[100%] object-contain" />
+    
     </div>
       </section>
      
