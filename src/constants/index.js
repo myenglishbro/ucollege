@@ -14,7 +14,7 @@ export const navLinks =  [
     },
     
     {
-      title: "Precios",
+      title: "Info",
       path: "/Precios"
     },
     {
@@ -38,7 +38,7 @@ export const navLinks =  [
   
     },
     {
-      title: "Politicas",
+      title: "Extra",
       path: "/PoliticasClase"
     },
     
