@@ -22,12 +22,13 @@ export const road = [
             {  titulo:"09-📒[slides] Professions",url: "https://docs.google.com/presentation/d/1-37e0Rj12xLoLJ8AIadt47Q0q-D8JbkR/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
             {  titulo:"10-📒[slides] Singular Nouns", url: "https://docs.google.com/presentation/d/1ZuOMufW5gDwaTGNueU9UCZOwPHQXquZpwlFG0ltkLJ0/edit?usp=sharing"},
             {  titulo:"11-📒[slides] Plural Nouns", url: "https://docs.google.com/presentation/d/1WZGbWYGI3P8CfiCJjsSB5JrbWohq7RV3Z7dzO5ei36M/edit?usp=sharing"},
+
             {  titulo:"12-📒[slides] Adjectives in English",url: "https://docs.google.com/presentation/d/1JZQVaN6ZEBEv_P5sq8fV0P8JERf_SqTS11-eu9kl_og/edit?usp=sharing"},
             {  titulo:"13-📒[slides] Review Verb be ",url: "https://docs.google.com/presentation/d/1Ckb4LISBB35qHq5Yxf1sPEruLXAo-o6w/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
             {  titulo:"14-📒[slides]  Be-WH Questions", url: "https://docs.google.com/presentation/d/1QzcM-95Md4pWWy1d6BzM2CX2klPaPbXT/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
             {  titulo:"15-📒[slides]  The Articles ", url: "https://docs.google.com/presentation/d/11Xf9HvxN9IHX2C7X7nloNSMnPksIA7vt/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
             {  titulo:"16-📒[slides] Review Verb be ",url: "https://docs.google.com/presentation/d/1Ckb4LISBB35qHq5Yxf1sPEruLXAo-o6w/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
-            {  titulo:"17-📒[slides] Genitivo Sajon ",url: "https://docs.google.com/presentation/d/1xpLd_KwBSockQMabpxQvxntYdpf1ZY2Dxx4m5arh44o/edit?usp=sharing" },
+            {  titulo:"17-📒[slides] Possessive", url: "https://docs.google.com/presentation/d/1UijMuEx-DdbZETXjEUUtT6IPkWF0az2w/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
             {  titulo:"18-📒[slides] Object Pronouns ",url: "https://docs.google.com/presentation/d/1uF-fBeTnLSjeRJULZT-cxo1DHRiJBBidBqeyBhWxrh0/edit?usp=sharinghttps://docs.google.com/presentation/d/1uF-fBeTnLSjeRJULZT-cxo1DHRiJBBidBqeyBhWxrh0/edit?usp=sharing" },
             {  titulo:"19-📒[slides] Possessive Adjectives ",url: "https://docs.google.com/presentation/d/1lht147wBSr5GhuONl2Fk1g7Z9LXrA5R6NNFJeFLMywM/edit?usp=sharing" },
             {  titulo:"20-📒[slides] Demostrative Adjectives ",url: "https://docs.google.com/presentation/d/1YeQYppjd1YIFbdjft1NhDsgexNnk65zpwnacEyZ0E9A/edit?usp=sharing" },
@@ -371,6 +372,36 @@ export const road = [
                 titulo: "📒[slides] UNIT 12:SECOND CONDITIONAL",
                 url: "https://docs.google.com/presentation/d/1QsqN95d1bMRf3kkUx3glrk2VSBU0sQRd/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
             },
+            {titulo: "📒[slides] Simple present /  Present progressive",url: "https://docs.google.com/presentation/d/1aGIUs6OxD2chdWfcU7HACie_D64bc3vy3NE_OB-2Ztw/edit?usp=sharing", },
+
+            {titulo: "📒[slides] Present progressive for future",url: "https://docs.google.com/presentation/d/127VXd9ZK8i7BItgdXOik5VSWc9_G7dWRn7sMEbaFEUI/edit?usp=sharing",},
+
+            {titulo: "📒[slides] Compounds: every",url: "https://docs.google.com/presentation/d/1RmaKN7jY5ej_nCVRgFSTI1b0tCMPx7IqZxLbHvDuK_E/edit?usp=sharing",},
+            {titulo: "📒[slides] Count / noncount nouns  some / any",url: "https://docs.google.com/presentation/d/1jH6YT2V1nqUZlZg87_nz2tL7dOuTOGubcKf5Wx2afc8/edit?usp=sharing",},
+            {titulo: "📒[slides] Compounds:  some / any / no",url: "https://docs.google.com/presentation/d/1tj-HacwRg_cFagev4icmdnngHJKihkozJZKF7YdSI1o/edit?usp=sharing", },
+            { titulo: "📒[slides] a lot of / much / many / How much …? /  How many …?",url: "https://docs.google.com/presentation/d/1-X6kwm4EcY28fchr9KjrksLA_bo0NW_REx2ulLewyik/edit?usp=sharing", },
+            {titulo: "📒[slides] a little / a few",url: "https://docs.google.com/presentation/d/1rR9yhIV9RjF_zUQe1YS8pQ6NJ3cizIfvaB-9G8O-jvE/edit?usp=sharing",},
+            {titulo: "📒[slides] be: Simple past  Affirmative and negative", url: "https://docs.google.com/presentation/d/1B7OI2bdC87AnfKKO4d_3Yhxim9zTeQGGzWCwc7AVkko/edit?usp=sharing",},
+            {titulo: "📒[slides] be: Simple past   Interrogative and short answers",url: "https://docs.google.com/presentation/d/1ml4Elz9yZMnjaPzktFBi7LLm5ZUYRgATCQtK72Rt-ZI/edit?usp=sharing", },
+            {titulo: "📒[slides] Question words  with was / were",url: "https://docs.google.com/presentation/d/1gTtHyLBBKmepH7uHASACv4X80e5k8IKI3bVQsjjP2DA/edit?usp=sharing",},
+            {titulo: "📒[slides] Simple past Regular verbs Affirmative", url: "https://docs.google.com/presentation/d/1DpJnvEGUNzzE77-OLCgYvyTMf-o0C_PXo9-e1SLx7Fc/edit?usp=sharing",},
+            {titulo: "📒[slides] Simple past:  Irregular verbs Affirmative", url: "https://docs.google.com/presentation/d/19X3T5vbawbDcFFgxc2DlqfaFwaNsFkQMlFUsE9zgiPU/edit?usp=sharing", },
+
+            {titulo: "📒[slides] Simple past  Negative",url: "https://docs.google.com/presentation/d/1VpPwGUKg1XsZNBatr46QYnss9emq0vN_pbj_bsXKg8A/edit?usp=sharing",},
+
+            {titulo: "📒[slides] Simple past   Interrogative and  short answers",url: "https://docs.google.com/presentation/d/19tQmwXnpFBPUgtg5mN2lAovJ7oQVMeTU9M_8WOPQIhY/edit?usp=sharing",},
+
+            {titulo: "📒[slides] Question words + simple past",url: "https://docs.google.com/presentation/d/1xpXeEcVnzABaHDX-2agE6CjI3QL0QWi3SKhZiv6yYj4/edit?usp=sharing",},
+
+            {titulo: "📒[slides] Comparative adjectives",url: "https://docs.google.com/presentation/d/1UwvUgRFxdCDPk648imeb3G9_V3rQ58e7UpvL7iD62lw/edit?usp=sharing", },
+            {titulo: "📒[slides] Superlative adjectives", url: "https://docs.google.com/presentation/d/1EGA1g6Wx7aQTZYGeXUkK_PDeF3CXNLcU-sFWuhpxAmQ/edit?usp=sharing",},
+            { titulo: "📒[slides] Verb + -ing form / infinitive", url: "https://docs.google.com/presentation/d/1V9GjtW5BRs2n4knhrQfQbeHkvLnJPP7tUTCmokQzeBQ/edit?usp=sharing",},
+
+            {titulo: "📒[slides] have to   Affirmative and negative",url: "https://docs.google.com/presentation/d/1ju_6UW5MqJkQx8ha63DXUkqdMIosY7yFkWo2VEFaBiM/edit?usp=sharing", },
+            {titulo: "📒[slides] must / mustn’t",url: "https://docs.google.com/presentation/d/1trH8e--NmFTr9EVn-3bCGRiMmwg829FAfxcMiM0ZluY/edit?usp=sharing",},
+            {titulo: "📒[slides] mustn’t / don’t have to", url: "https://docs.google.com/presentation/d/10cVuC3HrwV7jHSn_olYGfm3E_GibC-WeuJE3aB-mV_g/edit?usp=sharinge",},
+            
+            
         ],
     },
    
