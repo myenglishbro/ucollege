@@ -31,14 +31,12 @@ export const road = [
             {  titulo:"17-📒[slides] Possessive", url: "https://docs.google.com/presentation/d/1UijMuEx-DdbZETXjEUUtT6IPkWF0az2w/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
             {  titulo:"18-📒[slides] Object Pronouns ",url: "https://docs.google.com/presentation/d/1uF-fBeTnLSjeRJULZT-cxo1DHRiJBBidBqeyBhWxrh0/edit?usp=sharinghttps://docs.google.com/presentation/d/1uF-fBeTnLSjeRJULZT-cxo1DHRiJBBidBqeyBhWxrh0/edit?usp=sharing" },
             {  titulo:"19-📒[slides] Possessive Adjectives ",url: "https://docs.google.com/presentation/d/1lht147wBSr5GhuONl2Fk1g7Z9LXrA5R6NNFJeFLMywM/edit?usp=sharing" },
-            {  titulo:"20-📒[slides] Demostrative Adjectives ",url: "https://docs.google.com/presentation/d/1YeQYppjd1YIFbdjft1NhDsgexNnk65zpwnacEyZ0E9A/edit?usp=sharing" },
+            {  titulo:"20-📒[slides] Demostrative Adjectives ",url: "https://docs.google.com/presentation/d/1EkjxtqncsZP9UV3IPsp8x_3V2PIIo7nE/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",},
             {  titulo:"21-✍️[test] Practica Integradora 1", url: "https://docs.google.com/document/d/1dEid7CxmlAwFluGbugI-3zH__ktx_KrV/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true", },
             {  titulo:"22-📒[slides] Present Simple Tense ",url: "https://docs.google.com/presentation/d/1xFAOT8P0zUAQ2ZIiJlGb9w-2S_WiofPNm8toYRGuagA/edit?usp=sharing" },
             {  titulo:"23-📒[slides] Correct the Sentences with The Verb Be in Questions",url: "https://docs.google.com/presentation/d/1PmPGCCydt73O4vXTB9ThQdiMk-zSdZs0/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",},
             {  titulo:"24-📒[slides] Prepositions", url: "https://docs.google.com/presentation/d/1whWilz_x5_6fQ9uQ0_2jmEQulZmuSoMi_y_6X3HLmqY/edit?usp=sharing"},
             {  titulo:"25-📒[slides] Can vs Can't", url: "https://docs.google.com/presentation/d/1whWilz_x5_6fQ9uQ0_2jmEQulZmuSoMi_y_6X3HLmqY/edit?usp=sharing"},
-            {  titulo:"26-📒[slides] There is/There are ", url: "https://docs.google.com/presentation/d/1Ud8WRanZq2D4ESyWG_vvPsQSWCkJ-rDdQn6fzUpIJFg/edit?usp=sharing"},
-            {  titulo:"27-📒[slides] Imperatives", url: "https://docs.google.com/presentation/d/13LhyLsQXHZ73gmAOs5-WQjkeHJsZ7U-1_96iFBbKdp8/edit?usp=sharing"},
 
             { titulo: "📝[skill test] UNIT 1: Listening and writing PDF",
                 url: "https://drive.google.com/file/d/1lj6qtiswWIwvf0zSVne5b8dPEv3S3ra1/view?usp=sharing",
@@ -64,11 +62,7 @@ export const road = [
                 titulo: "📒[slides] UNIT 2:POSSESSION",
                 url: "https://docs.google.com/presentation/d/1GKOxP9UJbsAo_HF8JJxvenEpipkrAHkA/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
             },
-            {
-                titulo:
-                    "📒[slides] UNIT 3:SIMPLE PRESENT—STATEMENTS AND YES/NO QUESTIONS ",
-                url: "https://docs.google.com/presentation/d/10M_icHr46Py52W-kaoaThmguaRybus3J/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
-            },
+           
             {
                 titulo: "📒[slides] UNIT 3:SIMPLE PRESENT—INFORMATION QUESTIONS",
                 url: "https://docs.google.com/presentation/d/1j8R4Jva6SvlZoNcK-HhFohvkhhAE2M6j/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
@@ -87,11 +81,7 @@ export const road = [
                 titulo: "📒[slides] UNIT 4:CLAUSES WITH UNTIL, BEFORE, AFTER",
                 url: "https://docs.google.com/presentation/d/1ThbilTcaiDU8Qyts6iz3Oxx8uOnC9_ki/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
             },
-            {
-                titulo:
-                    "📒[slides] UNIT 5:THERE IS / THERE ARE WITH SOME, ANY, SEVERAL, A LOT OF, MANY",
-                url: "https://docs.google.com/presentation/d/1VwIJNGPfNm_3lmEpUoCDWMUtH7c1rEs7/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
-            },
+            
             {
                 titulo: "📒[slides] UNIT 5:THE IMPERATIVE",
                 url: "https://docs.google.com/presentation/d/1zecWMqAGGTYW3Ogmm7hSF44xZitwTedl/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
@@ -113,14 +103,8 @@ export const road = [
                 titulo: "📒[slides] UNIT 7:ADVERBS OF MANNER",
                 url: "https://docs.google.com/presentation/d/1u8sgSerVcr47Mjm3dp9e6c0oa5oq55pL/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
             },
-            {
-                titulo: "📒[slides] UNIT 8:THIS, THAT, THESE, THOSE",
-                url: "https://docs.google.com/presentation/d/1EkjxtqncsZP9UV3IPsp8x_3V2PIIo7nE/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
-            },
-            {
-                titulo: "📒[slides] UNIT 8:COMPARATIVE ADJECTIVES",
-                url: "https://docs.google.com/presentation/d/1qSyCw2izoXOoH6mRWVcsOeUSZodJmpUs/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
-            },
+           
+           
             {
                 titulo:
                     "📒[slides] UNIT 9:COUNT AND NON-COUNT NOUNS WITH SOME, ANY, MUCH, MANY",
@@ -130,22 +114,8 @@ export const road = [
                 titulo: "📒[slides] UNIT 9:VERB PHRASES ",
                 url: "https://docs.google.com/presentation/d/1FHariJeOWfNHEd7J6BfbI9b2guiorCcU/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
             },
-            {
-                titulo: "📒[slides] UNIT 10: SIMPLE PAST— AFFIRMATIVE STATEMENTS",
-                url: "https://docs.google.com/presentation/d/1GpUC4AHOfE8aRc_YZgyksJhQ3umtbGK4/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
-            },
-            
-           
-           
-            {
-                titulo:
-                    "📒[slides] UNIT 10: SIMPLE PAST— QUESTIONS AND NEGATIVE STATEMENTS",
-                url: "https://docs.google.com/presentation/d/1d0KP8QcbmEJiJwpoio1wewTlNzEpIKkE/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
-            },
-            {
-                titulo: "📒[slides] UNIT 11:SIMPLE PAST WITH WHEN CLAUSES",
-                url: "https://docs.google.com/presentation/d/1gU_JXxoAp3KFVAe9-VI8pw-E7L4iXs_S/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
-            },
+          
+          
             {
                 titulo: "📒[slides] UNIT 11:DIRECT AND INDIRECT OBJECTS",
                 url: "https://docs.google.com/presentation/d/1invT5oXLeCWs3ZoBJ63VqNDUsxtVwws3/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
@@ -164,18 +134,7 @@ export const road = [
             },
            
            
-            {
-                titulo: "📒[slides] Appliances and Devices",
-                url: "https://docs.google.com/presentation/d/1Y7XTKm9peHWZGf2gID97ZeaJxnRXQGB_/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
-            },
-            {
-                titulo: "📒[slides] Appliances and Devices Quiz",
-                url: "https://docs.google.com/presentation/d/10O1XNoeHfwq6EzYHaJVGWIyLLU2cYAhw/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
-            },
-            {
-                titulo: "📒[slides] Types of Music",
-                url: "https://docs.google.com/presentation/d/1cQ53yG99kRVqzeDiovW-eeh2P8_a_GM-/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
-            },
+            
         ],
     },
     {
@@ -195,6 +154,7 @@ export const road = [
             {titulo: "📒[slides] Present progressive for future",url: "https://docs.google.com/presentation/d/127VXd9ZK8i7BItgdXOik5VSWc9_G7dWRn7sMEbaFEUI/edit?usp=sharing",},
 
             {titulo: "📒[slides] Compounds: every",url: "https://docs.google.com/presentation/d/1RmaKN7jY5ej_nCVRgFSTI1b0tCMPx7IqZxLbHvDuK_E/edit?usp=sharing",},
+            {titulo:"📒[slides] THERE IS / THERE ARE WITH SOME, ANY, SEVERAL, A LOT OF, MANY", url: "https://docs.google.com/presentation/d/1VwIJNGPfNm_3lmEpUoCDWMUtH7c1rEs7/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",},
             {titulo: "📒[slides] Count / noncount nouns  some / any",url: "https://docs.google.com/presentation/d/1jH6YT2V1nqUZlZg87_nz2tL7dOuTOGubcKf5Wx2afc8/edit?usp=sharing",},
             {titulo: "📒[slides] Compounds:  some / any / no",url: "https://docs.google.com/presentation/d/1tj-HacwRg_cFagev4icmdnngHJKihkozJZKF7YdSI1o/edit?usp=sharing", },
             { titulo: "📒[slides] a lot of / much / many / How much …? /  How many …?",url: "https://docs.google.com/presentation/d/1-X6kwm4EcY28fchr9KjrksLA_bo0NW_REx2ulLewyik/edit?usp=sharing", },
@@ -211,7 +171,7 @@ export const road = [
             {titulo: "📒[slides] Simple past   Interrogative and  short answers",url: "https://docs.google.com/presentation/d/19tQmwXnpFBPUgtg5mN2lAovJ7oQVMeTU9M_8WOPQIhY/edit?usp=sharing",},
 
             {titulo: "📒[slides] Question words + simple past",url: "https://docs.google.com/presentation/d/1xpXeEcVnzABaHDX-2agE6CjI3QL0QWi3SKhZiv6yYj4/edit?usp=sharing",},
-
+            { titulo: "📒[slides] SIMPLE PAST WITH WHEN CLAUSES",url: "https://docs.google.com/presentation/d/1gU_JXxoAp3KFVAe9-VI8pw-E7L4iXs_S/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true", },
             {titulo: "📒[slides] Comparative adjectives",url: "https://docs.google.com/presentation/d/1UwvUgRFxdCDPk648imeb3G9_V3rQ58e7UpvL7iD62lw/edit?usp=sharing", },
             {titulo: "📒[slides] Superlative adjectives", url: "https://docs.google.com/presentation/d/1EGA1g6Wx7aQTZYGeXUkK_PDeF3CXNLcU-sFWuhpxAmQ/edit?usp=sharing",},
             { titulo: "📒[slides] Verb + -ing form / infinitive", url: "https://docs.google.com/presentation/d/1V9GjtW5BRs2n4knhrQfQbeHkvLnJPP7tUTCmokQzeBQ/edit?usp=sharing",},
