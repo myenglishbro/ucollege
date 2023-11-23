@@ -53,20 +53,6 @@ export const road = [
             },
             
             {
-                titulo: "📒[slides] UNIT 2: ARTICLES ",
-                url: "https://docs.google.com/presentation/d/1V17QBl-CmIihRnriRHmu0Y7-AYKSffs6/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
-            },
-            {
-                titulo: "📒[slides] UNIT 2:POSSESSION",
-                url: "https://docs.google.com/presentation/d/1GKOxP9UJbsAo_HF8JJxvenEpipkrAHkA/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
-            },
-           
-            {
-                titulo: "📒[slides] UNIT 3:SIMPLE PRESENT—INFORMATION QUESTIONS",
-                url: "https://docs.google.com/presentation/d/1j8R4Jva6SvlZoNcK-HhFohvkhhAE2M6j/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
-            },
-            
-            {
                 titulo: "📒[slides] UNIT 4:FREQUENCY ADVERBS AND ADVERBIAL PHRASES",
                 url: "https://docs.google.com/presentation/d/16-wwNO2lpWVdp222T5v6qAx2Y84QG0RC/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
             },
