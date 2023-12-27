@@ -51,6 +51,13 @@ export const navLinks =  [
     
     ,
     {
+      title: "Devs",
+      path: "/RoadMapDev"
+      
+    }
+    
+    ,
+    {
       title: "Student Zone",
       dropdown: true,
       dropdownLinks: [

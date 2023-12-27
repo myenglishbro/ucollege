@@ -45,6 +45,7 @@ import EF from "./pages/EF";
 import Navbar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer";
 import RoadMapMed from "./pages/RoadMapMed";
+import RoadMapDev from "./pages/RoadMapDev";
 
 function App() {
   return (
@@ -66,6 +67,7 @@ function App() {
           <Route path="/Clases" element={<Clases />}></Route>
           <Route path="/RoadMap" element={<RoadMap />}></Route>
           <Route path="/RoadMapMed" element={<RoadMapMed />}></Route>
+          <Route path="/RoadMapDev" element={<RoadMapDev />}></Route>
 
           <Route path="/PoliticasClase" element={<PoliticasClase />}></Route>
           <Route path="/Pagos" element={<Pagos />}></Route>
