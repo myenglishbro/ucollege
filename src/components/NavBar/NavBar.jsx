@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { logo,close,menu} from '../../assets'; // Asegúrate de tener importado tu logo
+import {close,menu} from '../../assets'; // Asegúrate de tener importado tu logo
 import { navLinks } from '../../constants';
 
 const Navbar = () => {
@@ -9,7 +9,7 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar z-1">
-      <img src={logo} alt="logo" className="w-[244px] h-[62px]" />
+     <h3 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">MyBro!</h3>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (

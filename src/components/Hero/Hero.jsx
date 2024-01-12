@@ -10,15 +10,17 @@ const Hero = () => {
         <div className="flex flex-row items-center py-[6px] px-4 bg-discount-gradient rounded-[10px] mb-2">
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
           <p className={`${styles.paragraph} ml-2`}>
-            <span className="text-white">Democratizando</span> la
-            <span className="text-white"> Educación </span> en latinoamerica
+            <span className="text-white">¿Inglés estancado?  </span> ¿Robótico?
+            <span className="text-white">  Don’t you worry! Has aterrizado en el sitio correcto. </span> 
+          
           </p>
+          
         </div>
 
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-            The Next <br className="sm:block hidden" />{" "}
-            <span className="text-gradient">Generation</span>{" "}
+          Empieza a  <br className="sm:block hidden" />{" "}
+            <span className="text-gradient"> vivir el inglés</span>{" "}
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0">
           <GetStarted />
@@ -27,13 +29,12 @@ const Hero = () => {
         </div>
 
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
-        of English Classes.  
+        de la vida real 
               </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Consideramos que aprender Inglés no deberia costarte. <span className="text-gradient font-semibold ">an arm and a leg!</span> Despídete de tu inglés, porque ya nunca será el mismo. Oh yeah!
+        Dile “bye-bye” a tu libro de texto y <span className="text-gradient font-semibold ">empieza a vivir el inglés como si estuvieras en Estados Unidos </span> Despídete de tu inglés, porque ya nunca será el mismo. Oh yeah!
         </p>
       </div>
-
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
         <img src={robot} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
 
