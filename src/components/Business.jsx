@@ -22,7 +22,7 @@ const Business = () =>  (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Por qué deberías <br className="sm:block hidden" /> Aprender Inglés con Nosotros?
+        Estudia Inglés <br className="sm:block hidden" /> desde 5 soles por clase
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
       Somos un espacio en línea dedicado a brindar oportunidades de aprendizaje a personas con recursos limitados. Nuestra misión es democratizar la educación al ofrecer clases gratuitas y recursos de calidad tanto para docentes como para estudiantes.
