@@ -3,6 +3,7 @@ import { products } from '../utils/products.js';
 import Producto from './Producto.jsx';
 import { BsSearch } from 'react-icons/bs';
 import styles from '../style.js';
+import "../css/estilos.css"
 const ContainerProducts = () => {
   const [searchQuery, setSearchQuery] = useState('');
 
@@ -39,7 +40,9 @@ const ContainerProducts = () => {
         </p>
       </div>
     </div>
-    <div className="flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[0]">
+    
+      </section>
+      <div className="grilla">
 
         {filteredProducts.map((item) => (
           <Producto
@@ -53,10 +56,14 @@ const ContainerProducts = () => {
             enlaces={item.enlaces}
             precio={item.precio}
             demo={item.demo}
+            thumbnailfce={item.thumbnailfce}
+            thumbnailcae={item.thumbnailcae}
+
+            thumbnailcpe={item.thumbnailcpe}
+
           />
         ))}
         </div>
-      </section>
     </>
   );
 };
