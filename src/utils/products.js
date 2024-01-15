@@ -214,6 +214,22 @@ export const products =[
        thumbnailfce:"https://i.ibb.co/pQQkCtW/OIP-5.jpg",
        thumbnailcpe:"https://i.ibb.co/TPGSMC5/cpe-1.png "
 
+    },
+    {
+        id:24,
+        thumbnail:"https://i.ibb.co/ZNz7x27/0424935d-c422-441d-8644-a74f724916cb.jpg",
+        title:"B1 EXAM ",
+       subtitle:"Information",
+       dateAdded:"wswqe",
+       calificacion:"Gratis",
+       description:"Guía Básica del B1",
+       enlaces:"https://docs.google.com/document/d/1CxEAYoYBYDDICVe_1bzhMz_OuBU8jYTfo1e4LJlm9NI/edit?usp=sharing",
+       precio:0,
+       demo:"AAS",
+       thumbnailcae:"https://i.ibb.co/N90cmm2/CAE-certificate-for-sale.jpg",
+       thumbnailfce:"https://i.ibb.co/pQQkCtW/OIP-5.jpg",
+       thumbnailcpe:"https://i.ibb.co/TPGSMC5/cpe-1.png "
+
     }
 
 ]
