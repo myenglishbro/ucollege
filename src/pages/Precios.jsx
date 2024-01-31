@@ -1,144 +1,122 @@
 import React from 'react'
-import "../css/Precios.css"
+import "../css/estilos.css"
 const Precios = () => {
   return (
     <>
-     <div className='Container-fluid'>
-      <div className='row'>
-      <div class="col-md-4 d-flex align-items-stretch mt-4 mt-md-0">
-     <div className="card-precio" style={{backgroundImage: "url('https://images.pexels.com/photos/4458554/pexels-photo-4458554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')"}} data-aos="fade-up" data-aos-delay="200">
-            <div class="card-body">
-               
-                <h4 class="card-title">Paquete 10 Clases <span class="badge text-bg-warning tachado">antes S/330.00</span></h4>
-                      <h6 class="card-title" >Todos los Niveles</h6>
-                          <h1 class="card-title">S/ 280.00</h1>
-                          <hr/>
-                <ul class="card-text mb-4 ">
-                  <li><i class="bi bi-balloon-heart-fill"></i>
-                      10 clases Individuales</li>
-                  <li><i class="bi bi-stopwatch"></i>
-                      1 hora cada una</li>
-                  <li><i class="bi bi-person-video3"></i>
-                      Plataforma-Zoom Video Call</li>
-  
-                  <li><i class="bi bi-journal-bookmark"></i>
-                      Clase Personalizada </li>
-                      <li><i class="bi bi-journal-bookmark"></i>
-                      Material de Estudio </li>
-                      <li><i class="bi bi-journal-bookmark"></i>
-                      Incluye libros Originales </li>
-                  <li><i class="bi bi-whatsapp"></i>
-                      Wsp English Friends</li>
-                      <li><i class="bi bi-whatsapp"></i>
-                      Evaluación constante</li>
-                  <li><i class="bi bi-camera-reels"></i>Grabación de Clase</li>
-                 
-              </ul>
-              <a href="https://wa.link/qwnf6w" class="btn-get-started card-title">Contactar</a>
-              </div>
-          </div>
+      <div className="grilla">
 
-        </div> 
+      <div className="card">
+    <div className="poster">
+      <img src="https://images.pexels.com/photos/4458554/pexels-photo-4458554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="asd" />"
+    </div>
+    <div className="details">
+    
+     <br></br>
+    
+      <div className="tags">
+        <span className="fantasy">Todos los Niveles</span>
+        <a href="https://wa.link/qwnf6w"><span className="mystery">S/ 280.00</span></a>
+      </div>
+      <div className="info">
+        <li>📹 Grabación de Clases</li>
+        <li>🧑🏼‍🎓 10 clases Individuales</li>
+        <li>🖥️Plataforma-Zoom Video Call</li>
+        <li>📚 Material de Estudio</li>
+        <li>💬 Wsp English Friends</li>
+        <li>📝 Evaluación constante</li>
 
-        <div class="col-md-4 d-flex align-items-stretch mt-4 mt-md-0">
-     <div className="card-precio" style={{backgroundImage: "url('https://images.pexels.com/photos/3769021/pexels-photo-3769021.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')"}} data-aos="fade-up" data-aos-delay="200">
-            <div class="card-body">
-               
-                <h4 class="card-title">1 Clase <span class="badge text-bg-warning tachado">antes S/33.00</span></h4>
-                      <h6 class="card-title" >Cualquier Nivel</h6>
-                          <h1 class="card-title">S/ 30.00</h1>
-                          <hr/>
-                <ul class="card-text mb-4 ">
-                  <li><i class="bi bi-balloon-heart-fill"></i>
-                      1 clases</li>
-                  <li><i class="bi bi-stopwatch"></i>
-                      1 hora cada una</li>
-                  <li><i class="bi bi-person-video3"></i>
-                      Zoom Video Call</li>
-  
-                  <li><i class="bi bi-journal-bookmark"></i>
-                      Clase Personalizada </li>
-                      <li><i class="bi bi-journal-bookmark"></i>
-                      Material de Estudio </li>
-                  <li><i class="bi bi-whatsapp"></i>
-                      Wsp English Friends</li>
-                    
-                  <li><i class="bi bi-camera-reels"></i>Grabación de Clase</li>
-                 
-              </ul>
-              <a href="https://wa.link/qwnf6w" class="btn-get-started card-title">Contactar</a>
-              </div>
-          </div>
+      </div>
+      <div className="tags">
+        <a href="https://wa.link/qwnf6w"><span className="fantasy">Contactar</span></a>
+      </div>
+    </div>
+  </div>
 
-        </div> 
-        <div class="col-md-4 d-flex align-items-stretch mt-4 mt-md-0">
-     <div className="card-precio" style={{backgroundImage: "url('https://images.pexels.com/photos/5649423/pexels-photo-5649423.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')"}} data-aos="fade-up" data-aos-delay="200">
-            <div class="card-body">
-               
-                <h4 class="card-title">1 Clase ESP <span class="badge text-bg-warning tachado">antes S/38.00</span></h4>
-                      <h6 class="card-title" >Cualquier Especialidad</h6>
-                          <h1 class="card-title">S/ 33.00</h1>
-                          <hr/>
-                <ul class="card-text mb-4 ">
-                  <li><i class="bi bi-balloon-heart-fill"></i>
-                      1 clases</li>
-                  <li><i class="bi bi-stopwatch"></i>
-                      1 hora cada una</li>
-                  <li><i class="bi bi-person-video3"></i>
-                      Zoom Video Call</li>
-  
-                  <li><i class="bi bi-journal-bookmark"></i>
-                      Clase Personalizada </li>
-                      <li><i class="bi bi-journal-bookmark"></i>
-                      Material de Estudio </li>
-                  <li><i class="bi bi-whatsapp"></i>
-                      Wsp English Friends</li>
-                    
-                  <li><i class="bi bi-camera-reels"></i>Grabación de Clase</li>
-                 
-              </ul>
-              <a href="https://wa.link/qwnf6w" class="btn-get-started card-title">Contactar</a>
-              </div>
-          </div>
+  <div className="card">
+    <div className="poster">
+      <img src="https://images.pexels.com/photos/4458554/pexels-photo-4458554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="asd" />"
+    </div>
+    <div className="details">
+    
+     <br></br>
+    
+      <div className="tags">
+        <span className="fantasy">Inglés Medico</span>
+        <a href="https://wa.link/qwnf6w"><span className="mystery">S/350.00</span></a>
+      </div>
+      <div className="info">
+        <li>📹 Grabación de Clases</li>
+        <li>🧑🏼‍🎓 10 clases Individuales</li>
+        <li>🖥️Plataforma-Zoom Video Call</li>
+        <li>📚 Material de Estudio</li>
+        <li>💬 Wsp English Friends</li>
+        <li>📝 Evaluación constante</li>
 
-        </div> 
-        <div class="col-md-4 d-flex align-items-stretch mt-4 mt-md-0">
-        <div className="card-precio" style={{backgroundImage: "url('https://images.pexels.com/photos/2917182/pexels-photo-2917182.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')"}} data-aos="fade-up" data-aos-delay="200">
-            <div class="card-body">
-               
-                <h4 class="card-title">Paquete 10 Clases <span class="badge text-bg-info ">CELPIP</span></h4>
-                      <h6 class="card-title" >Todos los Niveles</h6>
-                          <h1 class="card-title">S/ 350.00</h1>
-                          <hr/>
-                <ul class="card-text mb-4 ">
-                  <li><i class="bi bi-balloon-heart-fill"></i>
-                      10 clases</li>
-                  <li><i class="bi bi-stopwatch"></i>
-                      1 hora cada una</li>
-                  <li><i class="bi bi-person-video3"></i>
-                      Zoom Video Call</li>
-  
-                  <li><i class="bi bi-journal-bookmark"></i>
-                      Clase Personalizada </li>
-                      <li><i class="bi bi-journal-bookmark"></i>
-                      Material de Estudio-Simulacros </li>
-                  <li><i class="bi bi-whatsapp"></i>
-                      Wsp English Friends</li>
-                    
-                  <li><i class="bi bi-camera-reels"></i>Grabación de Clase</li>
-                 
-              </ul>
-              <a href="https://wa.link/qwnf6w" class="btn-get-started card-title">Contactar</a>
-              </div>
-          </div>
-
-        </div> 
+      </div>
+      <div className="tags">
+        <a href="https://wa.link/qwnf6w"><span className="fantasy">Contactar</span></a>
+      </div>
+    </div>
+  </div>
 
 
-       
+  <div className="card">
+    <div className="poster">
+      <img src="https://images.pexels.com/photos/4458554/pexels-photo-4458554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="asd" />"
+    </div>
+    <div className="details">
+    
+     <br></br>
+    
+      <div className="tags">
+        <span className="fantasy">Asesoramiento Ingles</span>
+        <a href="https://wa.link/qwnf6w"><span className="mystery">S/30.00</span></a>
+      </div>
+      <div className="info">
+        <li>📹 Grabación de Clases</li>
+        <li>🧑🏼‍🎓 1 clase Individuale</li>
+        <li>🖥️Plataforma-Zoom Video Call</li>
+        <li>📚 Material de Estudio</li>
+        <li>💬 Wsp English Friends</li>
+        <li>📝 Evaluación constante</li>
 
-        
-      </div> 
+      </div>
+      <div className="tags">
+        <a href="https://wa.link/qwnf6w"><span className="fantasy">Contactar</span></a>
+      </div>
+    </div>
+  </div>
+
+  <div className="card">
+    <div className="poster">
+      <img src="https://images.pexels.com/photos/4458554/pexels-photo-4458554.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="asd" />"
+    </div>
+    <div className="details">
+    
+     <br></br>
+    
+      <div className="tags">
+        <span className="fantasy">Preparación Cambridge</span>
+        <a href="https://wa.link/qwnf6w"><span className="mystery">S/33.00</span></a>
+      </div>
+      <div className="info">
+        <li>📹 Grabación de Clases</li>
+        <li>🧑🏼‍🎓 1 clase Individuales</li>
+        <li>🖥️Plataforma-Zoom Video Call</li>
+        <li>📚 Material de Estudio</li>
+        <li>💬 Wsp English Friends</li>
+        <li>📝 Evaluación constante</li>
+
+      </div>
+      <div className="tags">
+        <a href="https://wa.link/qwnf6w"><span className="fantasy">Contactar</span></a>
+      </div>
+    </div>
+  </div>
+
+
+
+     
      </div>
 
 

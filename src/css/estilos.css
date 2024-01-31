@@ -95,6 +95,10 @@
     text-align: start;
 
   }
+
+  .tachado {
+    text-decoration: line-through;
+  }
   .card .details .imgcontent img {
     width: 30%;
     margin-left: 6px;
