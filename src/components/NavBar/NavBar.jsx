@@ -8,7 +8,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar z-1">
+    <nav className="w-full flex py-6 justify-between items-center navbar z-100">
      <h3 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">MyBro!</h3>
 
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
