@@ -3,8 +3,8 @@ export const roadmed = [
         id: 1,
         thumbnail:
             "https://i.ibb.co/c3FmGzV/level1.png",
-        title: "Dentestry",
-        subtitle: "Interno",
+        title: "Básico",
+        subtitle: "UX/UI",
 
         dateAdded: "Basic 0 ",
         channel: "sdasd",
@@ -26,7 +26,7 @@ export const roadmed = [
         id: 2,
         thumbnail:
             "https://i.ibb.co/yfYMBBS/level2.png",
-        title: "Medicina General",
+        title: "Intermeditate",
         subtitle: "Crusader",
 
         dateAdded: "Basic 01 ",
@@ -109,7 +109,7 @@ export const roadmed = [
         id: 4,
         thumbnail:
             "https://i.ibb.co/PZ6Srhv/level3.png",
-        title: "B1",
+        title: "Upper-intermediate",
         subtitle: "Archon",
 
         dateAdded: "Basic 03",
