@@ -1,6 +1,22 @@
 export const products =[
     {
         id:0,
+        thumbnail:"https://i.ibb.co/0s3cGk5/86dd7325-9d19-4f03-8573-91bdfd5b7a11.jpg",
+        title:"Resumen de B2 a C1",
+       subtitle:"Ebook",
+       dateAdded:"wswqe",
+       calificacion:"Gratis",
+       description:"Resumenes de estructuras gramaticales , idioms , phrasal verbs and more ",
+       enlaces:"https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view?usp=sharing",
+       precio:0,
+       demo:"AAS",
+       thumbnailcae:"https://i.ibb.co/N90cmm2/CAE-certificate-for-sale.jpg",
+       thumbnailfce:"https://i.ibb.co/pQQkCtW/OIP-5.jpg",
+       thumbnailcpe:"https://i.ibb.co/TPGSMC5/cpe-1.png "
+
+    },
+    {
+        id:0,
         thumbnail:"https://i.ibb.co/qkbmhzc/2991c730-a8c5-4711-8390-9c8919778d3e.jpg",
         title:"Speaking Part 1",
        subtitle:"Speaking",

@@ -3,6 +3,7 @@ import { products } from '../utils/products.js';
 import Producto from './Producto.jsx';
 import { BsSearch } from 'react-icons/bs';
 import styles from '../style.js';
+import { Helmet } from 'react-helmet';
 import "../css/estilos.css"
 const ContainerProducts = () => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -35,10 +36,16 @@ const ContainerProducts = () => {
       Todo el contenido presentado aquí es gratuito y no se vende.
       </h2>
       <div className="w-full md:mt-0 mt-6">
-        <p className={`${styles.paragraph} text-left max-w-[450px]`}>
-        Todos los materiales aquí presentes son obtenidos de diversas fuentes, incluyendo ISECollective, Facebook, descargas de Mega y contribuciones de la comunidad. Este sitio pretende ser un lugar centralizado para almacenar y compartir recursos educativos.
-        </p>
+      <Helmet>
+                  <script src="https://apis.google.com/js/platform.js" async defer></script>
+                </Helmet>
+                  <div className="g-ytsubscribe" data-channelid="UCmoCEECyW8IRFEmsu3-Z30g" data-layout="full" data-count="hidden"></div>
       </div>
+    
+
+
+                 
+            
     </div>
     
       </section>
