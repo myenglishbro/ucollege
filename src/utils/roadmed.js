@@ -3,21 +3,21 @@ export const roadmed = [
         id: 1,
         thumbnail:
             "https://i.ibb.co/c3FmGzV/level1.png",
-        title: "Básico",
-        subtitle: "UX/UI",
+        title: "Grammar",
+        subtitle: "B2/C1",
 
         dateAdded: "Basic 0 ",
         channel: "sdasd",
         description: "Aprenderemos los conceptos básicos y fundamentales del inglés para poder comunicarnos correctamente,establecer una base muy elemental en el idioma, que es útil para situaciones de comunicación muy simples y para adquirir las habilidades necesarias para avanzar a niveles más altos de competencia en el futuro. ",
         enlaces: [
             
-            {  titulo:"01-📒[slides] Dentestry 1",url: "https://docs.google.com/presentation/d/16Y7bVNPUmByfcYmpx4_8tapY2HxtHQ3K/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
-            {  titulo:"01.1-📒[PDF] Dentestry Phrases ",url: "https://drive.google.com/file/d/1QAY78-jQg4uhHnhnD4cA-Ae-uti0KrbU/view?usp=sharing"},
-            {  titulo:"02-📒[slides] Dentestry Glosary", url: "https://drive.google.com/file/d/1WB-v_s6fcUhR39sQLRPyF6jitdc6u5jF/view?usp=sharing"},
-            {  titulo:"03-📒[slides] Dental Vocabulary 2", url: "https://drive.google.com/file/d/1tyPn6JiJMN9Bb9rvUq2xxL0KILU3Qv-O/view?usp=sharing"},
-            {  titulo:"04-📒[slides] The English Structure and Origin",url: "https://docs.google.com/presentation/d/1qJVbcSbG2GyYS2opk4HPhSQGPaTpRVBr/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" }, 
-            {  titulo:"05-📒[slides] Introduccion Present Simple", url: "https://docs.google.com/presentation/d/1kKSj3wwoYtmVotOsbW5J9eJ9U9lG0FIb/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
-            {  titulo:"16-📒[slides]  The Articles ", url: "https://docs.google.com/presentation/d/11Xf9HvxN9IHX2C7X7nloNSMnPksIA7vt/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"01-Present Simple vs Present Progressive📒[slides] Dentestry 1",url: "https://docs.google.com/presentation/d/16Y7bVNPUmByfcYmpx4_8tapY2HxtHQ3K/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"02-Past Simple vs Present Perfect ",url: "https://drive.google.com/file/d/1QAY78-jQg4uhHnhnD4cA-Ae-uti0KrbU/view?usp=sharing"},
+            {  titulo:"03-Present Perfect vs Present Perfect Progressive", url: "https://drive.google.com/file/d/1WB-v_s6fcUhR39sQLRPyF6jitdc6u5jF/view?usp=sharing"},
+            {  titulo:"04-Dominando Key Word Transformation I", url: "https://drive.google.com/file/d/1tyPn6JiJMN9Bb9rvUq2xxL0KILU3Qv-O/view?usp=sharing"},
+            {  titulo:"05-📒[slides] The English Structure and Origin",url: "https://docs.google.com/presentation/d/1qJVbcSbG2GyYS2opk4HPhSQGPaTpRVBr/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" }, 
+            {  titulo:"06-📒[slides] Introduccion Present Simple", url: "https://docs.google.com/presentation/d/1kKSj3wwoYtmVotOsbW5J9eJ9U9lG0FIb/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"07-📒[slides]  The Articles ", url: "https://docs.google.com/presentation/d/11Xf9HvxN9IHX2C7X7nloNSMnPksIA7vt/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
            
           
         ],

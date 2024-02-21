@@ -1,5 +1,5 @@
 import React from 'react';
-import { discount,robot } from '../../assets';
+import { discount } from '../../assets';
 import styles from '../../style';
 import GetStarted from '../GetStarted';
 
@@ -36,7 +36,7 @@ const Hero = () => {
         </p>
       </div>
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-        <img src={robot} alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+        <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXo4MjdlN292OXZtNmc1YzV0emhhNnJ6ZjI1ejkwZXBiM2swMnl4aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/coX4P237hwyaLdWFUd/giphy.gif" alt="billing" className="w-[80%] h-[60%] relative z-[5]" />
 
         {/* gradient start */}
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
