@@ -11,7 +11,7 @@ const Hero = () => {
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
           <p className={`${styles.paragraph} ml-2`}>
             <span className="text-white">¿Inglés estancado?  </span> ¿Robótico?
-            <span className="text-white">  Don’t you worry! Has aterrizado en el sitio correcto. </span> 
+            <span className="text-white">  Has llegado al lugar correcto. </span> 
           
           </p>
           
@@ -19,8 +19,8 @@ const Hero = () => {
 
         <div className="flex flex-row justify-between items-center w-full">
           <h1 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">
-          Empieza a  <br className="sm:block hidden" />{" "}
-            <span className="text-gradient"> vivir el inglés</span>{" "}
+          Aprender el  <br className="sm:block hidden" />{" "}
+            <span className="text-gradient"> inglés</span>{" "}
           </h1>
           <div className="ss:flex hidden md:mr-4 mr-0">
           <GetStarted />
@@ -32,8 +32,9 @@ const Hero = () => {
         de la vida real 
               </h1>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Dile “bye-bye” a tu libro de texto y <span className="text-gradient font-semibold ">empieza a vivir el inglés como si estuvieras en Estados Unidos </span> Despídete de tu inglés, porque ya nunca será el mismo. Oh yeah!
+        Dile “bye-bye” a tu curso aburrido y  tradicional <span className="text-gradient font-semibold ">Aprende el inglés como si estuvieras en Estados Unidos </span>.
         </p>
+        
       </div>
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
         <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXo4MjdlN292OXZtNmc1YzV0emhhNnJ6ZjI1ejkwZXBiM2swMnl4aSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/coX4P237hwyaLdWFUd/giphy.gif" alt="billing" className="w-[80%] h-[60%] relative z-[5]" />

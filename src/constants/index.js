@@ -190,8 +190,8 @@ export const navLinks =  [
     },
     {
       id: "stats-2",
-      title: "Estudiantes Beneficiados",
-      value: "230+",
+      title: "Total de Estudiantes",
+      value: "18000+",
     },
     {
       id: "stats-3",
@@ -204,8 +204,8 @@ export const navLinks =  [
     {
       id: "feature-1",
       icon: star,
-      title: "Acceso Gratuito para Todos",
-      content: "Nuestro compromiso es brindar oportunidades educativas a personas de todos los ámbitos. Tanto docentes como estudiantes pueden acceder de manera gratuita a una amplia variedad de materiales de alta calidad. Todos los documentos, clases y recursos están disponibles para su descarga sin costo alguno, garantizando que el aprendizaje esté al alcance de todos, sin importar sus recursos económicos.",
+      title: "Clases Grabadas y Asesoramiento Constante",
+      content: "Accede a todas nuestras clases en la plataforma  y realiza consultas al tutor por medio de video llamadas o grupo de wsp ",
     },
     {
       id: "feature-2",
