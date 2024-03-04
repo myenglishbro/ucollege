@@ -8,9 +8,11 @@ export const roadmed = [
 
         dateAdded: "Basic 0 ",
         channel: "sdasd",
-        description: "Aprenderemos los conceptos básicos y fundamentales del inglés para poder comunicarnos correctamente,establecer una base muy elemental en el idioma, que es útil para situaciones de comunicación muy simples y para adquirir las habilidades necesarias para avanzar a niveles más altos de competencia en el futuro. ",
+        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
         enlaces: [
-            
+            {  titulo:"09/03-🖥️ [Link Video Class] 1st Class Day 🟢",url: "https://meet.google.com/dkw-sxkh-rur"},
+            {  titulo:"09/03-📒[slides] Not Available yet 🟢",url: "https://meet.google.com/dkw-sxkh-rur"},
+
             {  titulo:"01-Present Simple vs Present Progressive📒[slides] Dentestry 1",url: "https://docs.google.com/presentation/d/16Y7bVNPUmByfcYmpx4_8tapY2HxtHQ3K/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
             {  titulo:"02-Past Simple vs Present Perfect ",url: "https://drive.google.com/file/d/1QAY78-jQg4uhHnhnD4cA-Ae-uti0KrbU/view?usp=sharing"},
             {  titulo:"03-Present Perfect vs Present Perfect Progressive", url: "https://drive.google.com/file/d/1WB-v_s6fcUhR39sQLRPyF6jitdc6u5jF/view?usp=sharing"},

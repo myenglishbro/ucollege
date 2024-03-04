@@ -17,7 +17,7 @@ const RoadMapMed = () => {
   };
 
   const handleMostrarComponente = () => {
-    if (codigo === 'erdna') {
+    if (codigo === 'b2first') {
       setMostrarComponente(true);
     } else {
       setMostrarComponente(false);
