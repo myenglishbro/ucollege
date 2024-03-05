@@ -44,7 +44,7 @@ export const navLinks =  [
     
    
    {
-      title: "VALERE",
+      title: "B2/C1",
       path: "/RoadMapMed"
       
     }
