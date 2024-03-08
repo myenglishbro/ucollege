@@ -33,6 +33,18 @@ export const roadmed = [
                 url: "https://drive.google.com/file/d/1QhvhLsCjF6V1BaYqpSd3cV9lgNuOCw_h/view?usp=sharing",
             },
             {
+                titulo: "🖥️[Video] Speaking Trainer 01",
+                url: "https://drive.google.com/file/d/1n-sf1L6DJZKdj0GSGV2zlPlaYI4WhJQ9/view?usp=sharing",
+            },
+            {
+                titulo: "🖥️[Video] Speaking Trainer 02",
+                url: "https://drive.google.com/file/d/1Jiwqspyx05GE1Br1tTir8j-xWm1_-VbG/view?usp=sharing",
+            },
+            {
+                titulo: "📒[pdf] Linking Words | B2 First (FCE)",
+                url: "https://docs.google.com/presentation/d/1B6PtmwOv-DQxTW4SpPQQ7iPhUH_d8Lxy/edit?usp=sharing&ouid=114588820780661373500&rtpof=true&sd=true",
+            },
+            {
                 titulo: "📒[pdf] 10 Preguntas de examen – Speaking Parte 1 (Entrevista) | B2 First (FCE)",
                 url: "https://docs.google.com/document/d/1kXkFOi-IFJP83_QTg6SZNKGfiSpI5IFXAlcTJmgwkJE/edit",
             },
@@ -70,7 +82,10 @@ export const roadmed = [
         enlaces: [
            
             { titulo: "🦻Listening Trainer 01", url: "https://drive.google.com/file/d/1MKkEnM6ABu8UmYtqmWdG6wEFbPnNHwIq/view?usp=sharing" },
-           
+            {
+                titulo: "🖥️[Video] Listening  Trainer 01",
+                url: "https://drive.google.com/file/d/16rLz8vX-25nVKvO2y7_HIJ2j2Ay_-XL_/view?usp=sharing",
+            }
             
     
         ],
@@ -112,6 +127,7 @@ export const roadmed = [
         enlaces: [
             {  titulo:"📑 [Anki Words] Necessary Words for Cambridge Exams ",url: "https://drive.google.com/file/d/1Nyh8Zhw0XGYZg-vFrNqpUT4oqNC0LozD/view"},
             {  titulo:"📑 [PDF] List of 200 Phrasal Verbs | B2 First (FCE) ",url: "https://docs.google.com/document/d/1kUtVFcyPfupiE32q77xJwfQ1afTjWB6nm39tZsNDoxI/edit"},
+            {  titulo:"📑 [PDF] Collocation 01 | B2 First (FCE|CAE) ",url: "https://drive.google.com/file/d/1dFsaNG_Ln6tt29-fHuf-L22ktIRxnBjf/view?usp=sharing"},
 
             {  titulo:"📑 [PDF] Prepositions After Verbs & Adjectives ",url: "https://docs.google.com/document/d/1CeVFrtcUUUYYfBOyHIvXkZ0mUjl3vx7ri-L0BYkARd8/edit#heading=h.te6z9i49xc6a"},
 
