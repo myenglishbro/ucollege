@@ -10,6 +10,10 @@ export const roadmed = [
         channel: "sdasd",
         description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
         enlaces: [
+            {
+                titulo: "🎯[Activity] Introduction to the Course",
+                url: "https://wordwall.net/play/11758/458/200",
+            },
             { titulo:"📚[book] Summary Grammar : Resumen de Gramática Fundamental para Aprobar  ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
 
          
@@ -39,6 +43,14 @@ export const roadmed = [
             {
                 titulo: "🖥️[Video] Speaking Trainer 02",
                 url: "https://drive.google.com/file/d/1Jiwqspyx05GE1Br1tTir8j-xWm1_-VbG/view?usp=sharing",
+            },
+            {
+                titulo: "📒[pdf] speaking Part 1-2-3-4",
+                url: "https://docs.google.com/presentation/d/1Q7V5Ww0BAerQrYrVNFck7nU9YapznQql/edit?usp=sharing&ouid=114588820780661373500&rtpof=true&sd=true",
+            },
+            {
+                titulo: "🎯[Activity] speaking Part 1",
+                url: "https://wordwall.net/play/519/287/727",
             },
             {
                 titulo: "📒[pdf] Linking Words | B2 First (FCE)",
