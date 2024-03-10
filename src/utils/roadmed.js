@@ -36,9 +36,13 @@ export const roadmed = [
                 url: "https://wordwall.net/play/11758/458/200",
             },
             { titulo:"📚[book] Summary Grammar : Resumen de Gramática Fundamental para Aprobar  ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
+            { titulo:"📚[pdf] First Conditional Grammar  ",url: "https://drive.google.com/file/d/1TtQyZh4nbaFmMEGqPHxpHIx9LhNoWbMh/view?usp=sharing"},
+            { titulo:"📚[ppt] Causative Grammar  ",url: "https://docs.google.com/presentation/d/1JqpdJ7rwpjCj7IRuHw8mkN2ZljQxkYbt/edit?usp=sharing&ouid=114588820780661373500&rtpof=true&sd=true"},
+            { titulo:"📚[pdf] Impersonal/Personal Passive Voice  ",url: "https://drive.google.com/file/d/1RpvWGTPgVkM7NFQMzskDKxGbW2XLMsoO/view?usp=sharing"},
+            { titulo:"📚[pdf] Direct/Indirect Speech  ",url: "https://drive.google.com/file/d/1uVIQAKwwsRmvlzC9UNvKH3vrKmMak6F6/view?usp=sharing"},
+            { titulo:"📚[pdf] Wait/hope/Expect Grammar FunSheet  ",url: "https://drive.google.com/file/d/1d98aBmRU07TtUiQvHhlU2bAklTRQ2iLZ/view?usp=sharing"},
+            { titulo:"📚[ppt] Gradable/Non Gradable Adjectives Grammar  ",url: "https://docs.google.com/presentation/d/1rNNytCWmiO5_TVlt-3yANAjAfAiJQn8c4JzC80tZYrg/edit?usp=sharing"},
 
-         
-           
           
         ],
     },
@@ -199,7 +203,11 @@ export const roadmed = [
         description: "Completa los desafíos para dominar el Inglés",
         enlaces: [
             {  titulo:"📝[Test] Key Word Transformation 01 ",url: "https://drive.google.com/file/d/1Ng-AL8s5uNqA4AeVSa9x-4ySFH_dqsKU/view?usp=sharing"},
+            {  titulo:"📝🔑[Test Answer Key] Key Word Transformation 01 ",url: "https://docs.google.com/presentation/d/1_lR0KYShBJeyFw-ZOuMIEwwLyIdLb2s591vIc4pAIsU/edit?usp=sharing"},
+
             {  titulo:"📝[Test] Multiple Choice Cloze 01 ",url: "https://drive.google.com/file/d/1Y-2SMBjU5xafwMwdH2VB8NJMWwKQMB5-/view?usp=sharing"},
+            {  titulo:"📝🔑[Test Answer Key] Multiple Choice Cloze 01",url: "https://docs.google.com/presentation/d/1koBZiWPQtnw6GgFEfWpNORHWd0TvwYYnRbr661Ahh94/edit?usp=sharing"},
+
             {  titulo:"📝[Test] Open Cloze 01 ",url: "https://drive.google.com/file/d/1yRCvF2OW3VJfHSqREMmUb4RzAXK6Hfg1/view?usp=sharing"},
             {  titulo:"📝[Test] Word Formation 01 ",url: "https://drive.google.com/file/d/1SOnsELpD7Y4laW2l--YpXeKcut6QM8ZA/view?usp=sharing"},
             {  titulo:"🗣[Test] Speaking Section 01 ",url: "https://drive.google.com/file/d/1tG0g65N35lS8hp1r4LRPDSkynxug5C51/view?usp=sharing"},
