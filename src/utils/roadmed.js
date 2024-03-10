@@ -158,6 +158,9 @@ export const roadmed = [
         channel: "sdasd",
         description: "Amplía tu vocabulario de manera efectiva y práctica con este curso diseñado para ayudarte a aprender y recordar nuevas palabras de forma rápida y duradera.",
         enlaces: [
+            {  titulo:"📑 [Flash Cards] Fce Essential Words ",url: "https://quizlet.com/109647789/fce-vocabulary-flash-cards/?i=2oqoxh&x=1jqt"},
+            {  titulo:"📑 [Game] Fce B2 First Prepositions ",url: "https://wordwall.net/play/39433/169/368"},
+
             {  titulo:"📑 [Anki Words] Necessary Words for Cambridge Exams ",url: "https://drive.google.com/file/d/1Nyh8Zhw0XGYZg-vFrNqpUT4oqNC0LozD/view"},
             {  titulo:"📑 [PDF] List of 200 Phrasal Verbs | B2 First (FCE) ",url: "https://docs.google.com/document/d/1kUtVFcyPfupiE32q77xJwfQ1afTjWB6nm39tZsNDoxI/edit"},
             {  titulo:"📑 [PDF] Collocation 01 | B2 First (FCE|CAE) ",url: "https://drive.google.com/file/d/1dFsaNG_Ln6tt29-fHuf-L22ktIRxnBjf/view?usp=sharing"},
@@ -181,6 +184,25 @@ export const roadmed = [
             {  titulo:"🎥[Video] Aprende inglés con Dragon Ball Z - Conversaciones ",url: "https://drive.google.com/file/d/1wBA_z3emPwA8_7zG4PTh_3eM9kIrsw_G/view?usp=sharing"},
             {  titulo:"🎥[Video]  Picoro entrena a Gohan ",url: "https://drive.google.com/file/d/1cSJBlQ_0_N-hLgm4A-g-wNnv9U9x1lJZ/view?usp=sharing"},
             {  titulo:"🎥 [Video] Ingles con Naruto ",url: "https://drive.google.com/file/d/1olidUMObF_HhIZ0BMJGQrRpZERjm-euc/view?usp=sharing"},
+
+
+        ],
+    }, {
+        id: 8,
+        thumbnail:
+            "https://i.ibb.co/W2FY74b/level5.png",
+        title: "Challenges",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Completa los desafíos para dominar el Inglés",
+        enlaces: [
+            {  titulo:"📝[Test] Key Word Transformation 01 ",url: "https://drive.google.com/file/d/1Ng-AL8s5uNqA4AeVSa9x-4ySFH_dqsKU/view?usp=sharing"},
+            {  titulo:"📝[Test] Multiple Choice Cloze 01 ",url: "https://drive.google.com/file/d/1Y-2SMBjU5xafwMwdH2VB8NJMWwKQMB5-/view?usp=sharing"},
+            {  titulo:"📝[Test] Open Cloze 01 ",url: "https://drive.google.com/file/d/1yRCvF2OW3VJfHSqREMmUb4RzAXK6Hfg1/view?usp=sharing"},
+            {  titulo:"📝[Test] Word Formation 01 ",url: "https://drive.google.com/file/d/1SOnsELpD7Y4laW2l--YpXeKcut6QM8ZA/view?usp=sharing"},
+            {  titulo:"🗣[Test] Speaking Section 01 ",url: "https://drive.google.com/file/d/1tG0g65N35lS8hp1r4LRPDSkynxug5C51/view?usp=sharing"},
 
 
         ],
