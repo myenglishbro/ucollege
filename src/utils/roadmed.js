@@ -3,6 +3,27 @@ export const roadmed = [
         id: 1,
         thumbnail:
             "https://i.ibb.co/c3FmGzV/level1.png",
+        title: "Recordings",
+        subtitle: "B2/C1",
+
+        dateAdded: "Grabaciones ",
+        channel: "sdasd",
+        description: "Grabación de Clases ",
+        enlaces: [
+            {
+                titulo: "🎯[DAY 01] Grabacion 09/03",
+                url: "https://www.youtube.com/watch?v=gGWtrDuoUi0",
+            }
+
+         
+           
+          
+        ],
+    },
+    {
+        id: 1,
+        thumbnail:
+            "https://i.ibb.co/c3FmGzV/level1.png",
         title: "Essential Grammar",
         subtitle: "B2/C1",
 
