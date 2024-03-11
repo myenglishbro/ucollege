@@ -137,7 +137,7 @@ export const roadmed = [
         id: 27,
         thumbnail:
             "https://i.ibb.co/T2gwBmd/level4.png",
-        title: "Writing like Shakespiare",
+        title: "Writing like Shakespeare",
         subtitle: "B2/C1",
 
         dateAdded: "B2",
