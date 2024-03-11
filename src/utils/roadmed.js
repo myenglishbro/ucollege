@@ -13,6 +13,10 @@ export const roadmed = [
             {
                 titulo: "🎯[DAY 01] Grabacion 09/03",
                 url: "https://www.youtube.com/watch?v=gGWtrDuoUi0",
+            },
+            {
+                titulo: "🎯[DAY 02] Grabacion 10/03",
+                url: "https://youtu.be/9bB9PgyB_bg?si=MHjaEN7bzBy3ZOhc",
             }
 
          
@@ -38,7 +42,27 @@ export const roadmed = [
             { titulo:"📚[book] Summary Grammar : Resumen de Gramática Fundamental para Aprobar  ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[pdf] First Conditional Grammar  ",url: "https://drive.google.com/file/d/1TtQyZh4nbaFmMEGqPHxpHIx9LhNoWbMh/view?usp=sharing"},
             { titulo:"📚[ppt] Causative Grammar  ",url: "https://docs.google.com/presentation/d/1JqpdJ7rwpjCj7IRuHw8mkN2ZljQxkYbt/edit?usp=sharing&ouid=114588820780661373500&rtpof=true&sd=true"},
-            { titulo:"📚[pdf] Impersonal/Personal Passive Voice  ",url: "https://drive.google.com/file/d/1RpvWGTPgVkM7NFQMzskDKxGbW2XLMsoO/view?usp=sharing"},
+            { titulo:"📚[pdf] Impersonal/Personal Passive   ",url: "https://wordwall.net/play/6276/984/9903"},
+            {
+                titulo: "🎯[Activity] Impersonal/Personal Passive 01",
+                url: "https://wordwall.net/play/11758/458/200",
+            },
+            {
+                titulo: "🎯[Activity] Impersonal/Personal Passive 02",
+                url: "https://wordwall.net/play/14060/593/9112",
+            },
+            {
+                titulo: "🎯[Activity - Speaking] Impersonal/Personal Passive 03",
+                url: "https://wordwall.net/play/55183/950/878",
+            },
+            {
+                titulo: "🎯[Activity] Impersonal/Personal Passive 04",
+                url: "https://wordwall.net/play/38436/833/237",
+            },
+            {
+                titulo: "🎯[Activity]  Passive Voice",
+                url: "https://wordwall.net/play/38436/833/237",
+            },
             { titulo:"📚[pdf] Direct/Indirect Speech  ",url: "https://drive.google.com/file/d/1uVIQAKwwsRmvlzC9UNvKH3vrKmMak6F6/view?usp=sharing"},
             { titulo:"📚[pdf] Wait/hope/Expect Grammar FunSheet  ",url: "https://drive.google.com/file/d/1d98aBmRU07TtUiQvHhlU2bAklTRQ2iLZ/view?usp=sharing"},
             { titulo:"📚[ppt] Gradable/Non Gradable Adjectives Grammar  ",url: "https://docs.google.com/presentation/d/1rNNytCWmiO5_TVlt-3yANAjAfAiJQn8c4JzC80tZYrg/edit?usp=sharing"},

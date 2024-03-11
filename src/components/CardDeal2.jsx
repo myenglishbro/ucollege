@@ -14,7 +14,7 @@ Aquí encontrarás todos los materiales y recursos que usaremos en clase      </
  </div>
 
     <div className={layout.sectionImg}>
-    <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOXc2Y2Y2Y2N0MWF5bjI0emJidGJ1YWltNXZ0ZzRsY3cyeXlrM3VlMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uhh3QMYZ7VUfmYqSyY/source.gif" alt="billing" className="w-[90%] h-[100%] relative z-[5]" />
+    <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGdoczVxczdrdWR6eXpmcGhkYnZhejNmcDlpOXJzM2pmNDg1dGNkdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/otg3tCDmnH372Kxx00/giphy.gif" alt="billing" className="w-[90%] h-[100%] relative z-[5]" />
     </div>
   </section>
 );

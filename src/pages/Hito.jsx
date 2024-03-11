@@ -41,7 +41,9 @@ const Hito = (props) => {
               
         
               <a key={i} href={enlace.url} target="_blank" rel="noopener noreferrer">
-                <p className='text-white'>{enlace.titulo}</p>
+                <p className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${
+                    index  ? "mb-4" : "mb-0"
+                  }`}>{enlace.titulo}</p>
               </a>
       
               
