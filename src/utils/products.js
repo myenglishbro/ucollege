@@ -7,7 +7,7 @@ export const products =[
        dateAdded:"wswqe",
        calificacion:"Gratis",
        description:"Resumenes de estructuras gramaticales , idioms , phrasal verbs and more ",
-       enlaces:"https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view?usp=sharing",
+       enlaces:"https://drive.googsssssle.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view?usp=sharing",
        precio:0,
        demo:"AAS",
        thumbnailcae:"https://i.ibb.co/N90cmm2/CAE-certificate-for-sale.jpg",

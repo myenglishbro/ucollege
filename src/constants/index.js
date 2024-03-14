@@ -204,21 +204,21 @@ export const navLinks =  [
     {
       id: "feature-1",
       icon: star,
-      title: "Clases Grabadas y Asesoramiento Constante",
-      content: "Accede a todas nuestras clases en la plataforma  y realiza consultas al tutor por medio de video llamadas o grupo de wsp ",
+      title: "Clases en Vivo y Asesoramiento Constante",
+      content: "Accede a todas nuestras master classes en vivo  y realiza consultas al tutor ademas de ser parte del grupo de wsp privado donde todos los días se suben desafíos para que sigas practicando y recibirás feedback para mejorar ",
     },
     {
       id: "feature-2",
       icon: shield,
       title: "Rutas de Aprendizaje para Todos",
-      content: "En nuestro repositorio, encontrarás rutas de aprendizaje diseñadas para abordar diversas áreas de conocimiento. Independientemente de tus intereses o nivel educativo, hay rutas de aprendizaje que se adaptan a ti. Creemos que todos merecen una educación completa y enriquecedora, sin importar sus circunstancias.",
+      content: "En nuestro roadmap, aborda diversas áreas de conocimiento. Independientemente de tus intereses o nivel educativo, la ruta  se adapta a ti.",
     },
     {
       id: "feature-3",
       icon: send,
-      title: "Apoya el Aprendizaje al Comprar en Udemy",
+      title: "After class",
       content:
-        "Cada vez que decides invertir en tu propio aprendizaje a través de la compra de un curso en Udemy, también estás apoyando a nuestra causa. Los fondos generados se reinvierten para crear y compartir más contenido educativo gratuito para quienes no tienen los medios para acceder a cursos pagados. Tu inversión no solo te beneficia, sino que también ayuda a construir un mundo educativo más equitativo y accesible para todos.",
+        "Son clases adicionales a tu paquete de clases donde myenglishbro! resolverá todas tus dudas que puedas tener de las clases anteriores o de los ejercicios en la plataforma.",
     },
   ];
 
