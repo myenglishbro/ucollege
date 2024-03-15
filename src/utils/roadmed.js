@@ -17,6 +17,10 @@ export const roadmed = [
             {
                 titulo: "🎯[DAY 02] Grabacion 10/03",
                 url: "https://youtu.be/9bB9PgyB_bg?si=MHjaEN7bzBy3ZOhc",
+            },
+            {
+                titulo: "🎯[After Class] Grabacion 14/03",
+                url: "https://youtu.be/5ilyP5xsyes",
             }
 
          
@@ -67,7 +71,9 @@ export const roadmed = [
             { titulo:"📚[pdf] Wait/hope/Expect Grammar FunSheet  ",url: "https://drive.google.com/file/d/1d98aBmRU07TtUiQvHhlU2bAklTRQ2iLZ/view?usp=sharing"},
             { titulo:"📚[ppt] Gradable/Non Gradable Adjectives Grammar  ",url: "https://docs.google.com/presentation/d/1rNNytCWmiO5_TVlt-3yANAjAfAiJQn8c4JzC80tZYrg/edit?usp=sharing"},
 
-          
+            { titulo:"📚[ppt] Inversion  ",url: "https://docs.google.com/presentation/d/13x3PsYRJVv5F6oeoVyim8Y7SBSx1udVd/edit?usp=sharing&ouid=114588820780661373500&rtpof=true&sd=true"},
+            { titulo:"📚[ppt] Inversion Full  ",url: "https://drive.google.com/file/d/1spoUQkw5ZlS6xnDsjni4-k-01SE0ERJW/view?usp=sharing"},
+
         ],
     },
     {
