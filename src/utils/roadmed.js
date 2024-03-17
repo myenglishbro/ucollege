@@ -21,6 +21,10 @@ export const roadmed = [
             {
                 titulo: "🎯[After Class] Grabacion 14/03",
                 url: "https://youtu.be/5ilyP5xsyes",
+            },
+            {
+                titulo: "🎯[DAY 03] Grabacion 17/03",
+                url: "https://www.youtube.com/watch?v=CR6rnB5Yg0Y",
             }
 
          
@@ -177,6 +181,10 @@ export const roadmed = [
             {
                 titulo: "📃[pdf] Writing Templates",
                 url: "https://docs.google.com/document/d/1ynAsrV2Uj-uR0qrCDzGvDw8I2sXYlzEg/edit?rtpof=true&sd=true",
+            },
+            {
+                titulo: "📃[pdf] How to write an Essay",
+                url: "https://docs.google.com/presentation/d/1ulmNP0wMeqUi-ZlMpg6ngsCi_jjX9nBn/edit?usp=sharing&ouid=114588820780661373500&rtpof=true&sd=true",
             },
             
         ],
