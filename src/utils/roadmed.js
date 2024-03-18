@@ -23,8 +23,12 @@ export const roadmed = [
                 url: "https://youtu.be/5ilyP5xsyes",
             },
             {
-                titulo: "🎯[DAY 03] Grabacion 17/03",
+                titulo: "🎯[DAY 03] Grabacion 16/03",
                 url: "https://www.youtube.com/watch?v=CR6rnB5Yg0Y",
+            },
+            {
+                titulo: "🎯[DAY 04] Grabacion 17/03",
+                url: "https://youtu.be/eOtsLBuwvgw",
             }
 
          
