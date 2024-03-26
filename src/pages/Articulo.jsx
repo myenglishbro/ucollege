@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 import '../css/Articulo.css';
 
 
+
+
 const Articulo = ({thumbnail, title, subtitle, enlaceblog, description, channel}) => {
 
   return (
@@ -23,6 +25,8 @@ const Articulo = ({thumbnail, title, subtitle, enlaceblog, description, channel}
         </div>
       </div>
     </div>
+
+    
   );
 };
 
