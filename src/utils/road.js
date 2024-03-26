@@ -13,11 +13,24 @@ export const road = [
             
             {  titulo:"01-📒[slides] The Alphabet",url: "https://docs.google.com/presentation/d/1wlKwo_huYQR9p3upX0if-7t12nZpJUAk/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true"},
             {  titulo:"02-📒[slides] The Numbers and The Time", url: "https://docs.google.com/presentation/d/1oNoA0RqXDuy5AmH_NdwZKS1minGfr-R_/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"03-🎯[Activity] The Numbers", url: "https://wordwall.net/play/17273/376/89817"},
+            {  titulo:"03-🎯[Activity] The Numbers II", url: "https://wordwall.net/play/11115/711/5078"},
+            {  titulo:"03-🎯[Activity] The Numbers III", url: "https://wordwall.net/play/10642/628/5053"},
+            {  titulo:"03-🎯[Activity] The Time  I", url: "https://wordwall.net/play/11993/530/12821"},
+            {  titulo:"03-🎯[Activity] The Time  II", url: "https://wordwall.net/play/11993/400/13264"},
+
             {  titulo:"03-📒[slides] The Pronouns", url: "https://docs.google.com/presentation/d/1z94b0Ju4A4PfBiyp9TK37D0Nkzt5RqmV/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"03-🎯[Activity] Transformation ", url: "https://wordwall.net/play/21914/203/1340"},
+            {  titulo:"03-🎯[Activity] Transformation II ", url: "https://wordwall.net/play/21136/807/4521"},
+
             {  titulo:"04-📒[slides] The English Structure and Origin",url: "https://docs.google.com/presentation/d/1qJVbcSbG2GyYS2opk4HPhSQGPaTpRVBr/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" }, 
             {  titulo:"05-📒[slides] Introduccion Present Simple", url: "https://docs.google.com/presentation/d/1kKSj3wwoYtmVotOsbW5J9eJ9U9lG0FIb/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
             {  titulo:"06-📒[slides] The Verb Be Affirmative Form",url: "https://docs.google.com/presentation/d/1orV_Qm0QQOotooY_uEJ3Srct8EAPV2VN/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
+            {  titulo:"06-🎯[Activity]  The Verb Be Affirmative Form",url: "https://wordwall.net/play/30745/553/36911" },
+            {  titulo:"06-📃[Practice]  The Verb Be Affirmative Form",url: "https://drive.google.com/file/d/1rTn31H9zJcXSRVNm1MGJ-se_3PFChW_N/view?usp=sharing" },
+
             {  titulo:"06-📒[slides] Seasons of the Year",url: "https://docs.google.com/presentation/d/1Ji0bSleS_268aZaK6RUvNEsB4dAK4mno/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
+            {  titulo:"06-🎯[Activity] Seasons of the Year",url: "https://wordwall.net/play/18524/265/35686" },
 
             {  titulo:"07-📒[slides] Possesive Adjectives", url: "https://docs.google.com/presentation/d/1zkn5eJjUJTDUUjOU45ZZIRu8-7c9saPO/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
             {  titulo:"08-📒[slides] The Verb Be Negative and Interrogative Form", url: "https://docs.google.com/presentation/d/1-37e0Rj12xLoLJ8AIadt47Q0q-D8JbkR/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
@@ -34,6 +47,10 @@ export const road = [
             {  titulo:"19-📒[slides] Ordinal Numbers ",url: "https://drive.google.com/file/d/18I58jFyIcYY_apm1YTzXvv2TVuMVHnXk/view?usp=sharing" },
             {  titulo:"20-✍️[test] Practica Integradora 1", url: "https://docs.google.com/document/d/1dEid7CxmlAwFluGbugI-3zH__ktx_KrV/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true", },
             {  titulo:"22-📒[slides] Present Simple Tense ",url: "https://docs.google.com/presentation/d/1xFAOT8P0zUAQ2ZIiJlGb9w-2S_WiofPNm8toYRGuagA/edit?usp=sharing" },
+            {  titulo:"06-🎯[Activity] Present Simple Tense Affirmative Form Rules",url: "https://wordwall.net/play/28761/823/4170" },
+
+            {  titulo:"06-🎯[Activity] Present Simple Tense Affirmative Form",url: "https://wordwall.net/play/57830/431/8032" },
+
             {  titulo:"23-📒[slides] Correct the Sentences with The Verb Be in Questions",url: "https://docs.google.com/presentation/d/1PmPGCCydt73O4vXTB9ThQdiMk-zSdZs0/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",},
             {  titulo:"24-📒[slides] Prepositions", url: "https://docs.google.com/presentation/d/1whWilz_x5_6fQ9uQ0_2jmEQulZmuSoMi_y_6X3HLmqY/edit?usp=sharing"},
             {  titulo:"25-📒[slides] Can vs Can't", url: "https://docs.google.com/presentation/d/1whWilz_x5_6fQ9uQ0_2jmEQulZmuSoMi_y_6X3HLmqY/edit?usp=sharing"},
