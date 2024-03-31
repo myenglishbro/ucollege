@@ -24,14 +24,25 @@ export const roadmed = [
             },
             {
                 titulo: "🎯[DAY 03] Grabacion 16/03",
-                url: "https://www.youtube.com/watch?v=CR6rnB5Yg0Y",
+                url: "https://youtu.be/CR6rnB5Yg0Y?si=m4xdSF6v23GibP_H",
             },
             {
                 titulo: "🎯[DAY 04] Grabacion 17/03",
-                url: "https://youtu.be/eOtsLBuwvgw",
+                url: "https://youtu.be/eOtsLBuwvgw?si=tixxZisScjmyyLzI",
+            },{
+                titulo: "🎯[DAY 05] Grabacion 23/03",
+                url: "https://youtu.be/I5E5Q3yByPs?si=dYFzG1VF98Tqkvyi",
             },
             {
-                titulo: "🎯[DAY 05] Grabacion 24/03",
+                titulo: "🎯[DAY 06] Grabacion 24/03",
+                url: "https://youtu.be/OuqZlRsw7NE?si=-KYzJRc2XtTsfytL",
+            },
+            {
+                titulo: "🎯[DAY 07] Grabacion 30/03",
+                url: "https://www.youtube.com/watch?v=4hyP05BgB9M&list=PLaYNhMsVRuHhY6xcwxg931ib5xCbw2zWC&index=8&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: "🎯[DAY 08] ------- 31/03",
                 url: "https://www.youtube.com/watch?v=I5E5Q3yByPs",
             }
 
@@ -197,6 +208,9 @@ export const roadmed = [
             {
                 titulo: "📃[pdf] How to write an Essay",
                 url: "https://docs.google.com/presentation/d/1ulmNP0wMeqUi-ZlMpg6ngsCi_jjX9nBn/edit?usp=sharing&ouid=114588820780661373500&rtpof=true&sd=true",
+            },{
+                titulo: "📃[ppt] Advanced Transitions",
+                url: "https://docs.google.com/presentation/d/1fGnuhWtExMKny18ZqasLeugnXi9cb9pU/edit?usp=sharing&ouid=114588820780661373500&rtpof=true&sd=true",
             },
             
         ],
