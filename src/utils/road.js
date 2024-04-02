@@ -28,6 +28,7 @@ export const road = [
             {  titulo:"06-📒[slides] The Verb Be Affirmative Form",url: "https://docs.google.com/presentation/d/1orV_Qm0QQOotooY_uEJ3Srct8EAPV2VN/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
             {  titulo:"06-🎯[Activity]  The Verb Be Affirmative Form",url: "https://wordwall.net/play/30745/553/36911" },
             {  titulo:"06-📃[Practice]  The Verb Be Affirmative Form",url: "https://drive.google.com/file/d/1rTn31H9zJcXSRVNm1MGJ-se_3PFChW_N/view?usp=sharing" },
+            {  titulo:"01-🎥[Video] CLASS DAY 01", url: "https://www.youtube.com/watch?v=jw08IVmOlCc&ab_channel=MyEnglishBro"},
 
             {  titulo:"06-📒[slides] Seasons of the Year",url: "https://docs.google.com/presentation/d/1Ji0bSleS_268aZaK6RUvNEsB4dAK4mno/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
             {  titulo:"06-🎯[Activity] Seasons of the Year",url: "https://wordwall.net/play/18524/265/35686" },
