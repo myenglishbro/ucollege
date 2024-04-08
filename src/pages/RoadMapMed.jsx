@@ -17,7 +17,7 @@ const RoadMapMed = () => {
   };
 
   const handleMostrarComponente = () => {
-    if (codigo === 'cambridge') {
+    if (codigo === 'b2first') {
       setMostrarComponente(true);
     } else {
       setMostrarComponente(false);
