@@ -45,6 +45,16 @@ export const roadmed = [
                 titulo: "🎯[DAY 08]  Grabacion 31/03",
                 url: "https://www.youtube.com/watch?v=XE7dOWDGpek&ab_channel=MyEnglishBro",
             }
+            ,
+            {
+                titulo: "🎯[DAY 09]  Grabacion 06/04",
+                url: "https://www.youtube.com/watch?v=w2i-Q7YHpvc",
+            }
+            ,
+            {
+                titulo: "🎯[DAY 10]  Grabacion 07/04",
+                url: "https://youtu.be/1yYDsB_X9Ow",
+            }
 
          
            
