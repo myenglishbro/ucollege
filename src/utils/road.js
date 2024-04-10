@@ -1,4 +1,32 @@
 export const road = [
+
+    {
+        id: 1,
+        thumbnail:
+            "https://i.ibb.co/c3FmGzV/level1.png",
+        title: "Recordings",
+        subtitle: "B2/C1",
+
+        dateAdded: "Grabaciones ",
+        channel: "sdasd",
+        description: "Grabación de Clases ",
+        enlaces: [
+           
+            {
+                titulo: "🎯[DAY 01]  Grabacion 06/04",
+                url: "https://www.youtube.com/watch?v=okclThTJ8XQ",
+            }
+            ,
+            {
+                titulo: "🎯[DAY 02]  Grabacion 07/04",
+                url: "https://www.youtube.com/watch?v=s3Zv8aGzIJ4",
+            }
+
+         
+           
+          
+        ],
+    },
     {
         id: 1,
         thumbnail:
@@ -34,9 +62,18 @@ export const road = [
             {  titulo:"06-🎯[Activity] Seasons of the Year",url: "https://wordwall.net/play/18524/265/35686" },
 
             {  titulo:"07-📒[slides] Possesive Adjectives", url: "https://docs.google.com/presentation/d/1zkn5eJjUJTDUUjOU45ZZIRu8-7c9saPO/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
+            {  titulo:"07-🎯[Activity]Possesive Adjectives", url: "https://wordwall.net/play/55417/749/2837" },
+
             {  titulo:"08-📒[slides] The Verb Be Negative and Interrogative Form", url: "https://docs.google.com/presentation/d/1-37e0Rj12xLoLJ8AIadt47Q0q-D8JbkR/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"07-🎯[Activity]The Verb Be Negative Form", url: "https://wordwall.net/play/21158/025/3896" },
+
+            {  titulo:"08-🎯[Activity] The Verb Be Negative and Interrogative Form", url: "https://wordwall.net/play/20499/847/2443"},
+
             {  titulo:"09-📒[slides] Demostrative Adjectives ",url: "https://docs.google.com/presentation/d/1EkjxtqncsZP9UV3IPsp8x_3V2PIIo7nE/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",},
             {  titulo:"10-📒[slides] The Articles ", url: "https://docs.google.com/presentation/d/11Xf9HvxN9IHX2C7X7nloNSMnPksIA7vt/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"10-🎯[Activity]  The Articles ", url: "https://wordwall.net/play/25729/634/81869"},
+            {  titulo:"10-🎯[Activity]  Days of the week ", url: "https://wordwall.net/play/22419/293/58122"},
+
             {  titulo:"11-📒[slides] Professions",url: "https://docs.google.com/document/d/18WYvZntiIyTldbpPtcljy2bH27wKkud8/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
             {  titulo:"12-📒[slides] Possessive", url: "https://docs.google.com/presentation/d/1UijMuEx-DdbZETXjEUUtT6IPkWF0az2w/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
             {  titulo:"13-📒[slides] Object Pronouns ",url: "https://docs.google.com/presentation/d/1uF-fBeTnLSjeRJULZT-cxo1DHRiJBBidBqeyBhWxrh0/edit?usp=sharinghttps://docs.google.com/presentation/d/1uF-fBeTnLSjeRJULZT-cxo1DHRiJBBidBqeyBhWxrh0/edit?usp=sharing" },
