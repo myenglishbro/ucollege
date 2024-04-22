@@ -98,6 +98,25 @@ export const road = [
             { titulo: "📝[skill test] UNIT 1: Listening and writing PDF",
                 url: "https://drive.google.com/file/d/1lj6qtiswWIwvf0zSVne5b8dPEv3S3ra1/view?usp=sharing",
             },
+
+            {  titulo:"06-📝[Challenge exam ] Check Point 01",url: "https://drive.google.com/file/d/14hNicd6J5TxO0dILuMFwg85A8dmW7WTC/view?usp=sharing" },
+            {  titulo:"06-📝[Challenge exam ] Check Point 02",url: "https://drive.google.com/file/d/10lHkTSgsdcwQ_hGKRztslK4vyiBlWX1_/view?usp=sharing" },
+            {  titulo:"06-📝[Challenge exam ] Check Point 03",url: "https://drive.google.com/file/d/1zLH90bW_pMCL9HcUZto5c7Wqa_EyCBrc/view?usp=sharing" },
+
+            {  titulo:"06-📝[Challenge exam ] Check Point 04",url: "https://drive.google.com/file/d/1EnoW42XNEawjftA1bKSeH0oJo9G3AHzB/view?usp=sharing" },
+
+            {  titulo:"06-📝[Challenge exam ] Check Point 05",url: "https://drive.google.com/file/d/1ENHYzaj58usqyUFChs8ELBhDeeyITtJG/view?usp=sharing" },
+
+            {  titulo:"06-📝[Challenge exam ] Check Point 06",url: "https://drive.google.com/file/d/1AVOmfvSbOUPPtc0d77y9YzM9yqsAXHMn/view?usp=sharing" },
+
+            {  titulo:"06-📝[Challenge exam ] Check Point 07",url: "https://drive.google.com/file/d/1-qNBFmBf47x3qF6D8MNIQ626KtKAVbWQ/view?usp=sharing" },
+
+            {  titulo:"06-📝[Challenge exam ] Check Point 08",url: "https://drive.google.com/file/d/1pJF_hC6nWNLc0UKcFFj44LO2LA1SkYtC/view?usp=sharing" },
+
+            {  titulo:"06-📝[Challenge exam ] Check Point 09",url: "https://drive.google.com/file/d/1SPObWytxTPSAtog2ajYgo2YjAboLXKL5/view?usp=sharing" },
+
+            {  titulo:"06-📝[Challenge exam ] Check Point 10",url: "https://drive.google.com/file/d/1FF4Ej6LblNh2l9uBSb1m3L7AfshaY418/view?usp=sharing" },
+
             {
                 titulo: "📝[skill test] UNIT 1: Listening and writing WORD",
                 url: "https://docs.google.com/document/d/1QYUOyZK6w3-IFXYP-Kojg-ezBrNQQf1f/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
