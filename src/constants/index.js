@@ -185,20 +185,20 @@ export const navLinks =  [
   export const stats = [
     {
       id: "stats-1",
-      title: "",
-      value: "Ruta de Aprendizaje Autodidacta",
+      title: "Autodidacta",
+      value: "RoadMap ",
       img:writing
     },
     {
       id: "stats-2",
-      title: "",
-      value: "2600 Estudiantes Registrados ",
+      title: "Estudiantes ",
+      value: "2604  ",
       img:nice
     },
     {
       id: "stats-3",
-      title: "",
-      value: "98% Nos Recomienda a otros estudiantes",
+      title: "Nos Recomienda",
+      value: "98%  ",
       img:bullseye
     },
   ];

@@ -22,10 +22,10 @@ const Business = () =>  (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Certíficate tu Inglés <br className="sm:block hidden" /> Con Cambridge
+        Estudia Inglés <br className="sm:block hidden" /> Totalmente  Gratis
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-      Estudia conmigo y en tan solo 3 meses aprende todo lo que no pudiste en 3 años
+      He creado una ruta de aprendizaje autodidacta con videos ,actividades y muchos juegos interactivos para que puedas estudiar a tu ritmo 
       </p>
 
       <Button styles={`mt-10`} />
