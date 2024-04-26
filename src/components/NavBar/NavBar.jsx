@@ -9,8 +9,8 @@ const Navbar = () => {
 
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar z-100">
-     <h3 className="flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100.8px] leading-[75px]">MyBro!</h3>
-
+    <img src="https://i.ibb.co/qmFGbzk/Sin-t-tulo-2-removebg-preview.png" alt="Logo de MyBro" className="h-[100px] w-[102px] md:h-[102px] md:w-[102px]" />
+    <h3 className="flex-1 font-poppins font-semibold ss:text-[32px] text-[32px] text-white ss:leading-[100.8px] leading-[75px]">MyEnglishBro!</h3>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li

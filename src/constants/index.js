@@ -1,4 +1,4 @@
-import { facebook, instagram, linkedin, www ,star,shield,send } from "../assets";
+import { facebook, instagram, linkedin, www ,star,shield,send,nice,writing ,bullseye} from "../assets";
 
 export const navLinks =  [
     {
@@ -185,18 +185,21 @@ export const navLinks =  [
   export const stats = [
     {
       id: "stats-1",
-      title: "Clases Gratuitas",
-      value: "3800+",
+      title: "",
+      value: "Ruta de Aprendizaje Autodidacta",
+      img:writing
     },
     {
       id: "stats-2",
-      title: "Total de Estudiantes",
-      value: "18000+",
+      title: "",
+      value: "2600 Estudiantes Registrados ",
+      img:nice
     },
     {
       id: "stats-3",
-      title: "Nos Recomendiendan",
-      value: "98%",
+      title: "",
+      value: "98% Nos Recomienda a otros estudiantes",
+      img:bullseye
     },
   ];
 

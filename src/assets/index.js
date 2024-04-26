@@ -19,9 +19,24 @@ import star from "./Star.svg";
 import quotes from "./quotes.svg";
 import about from "./about.png";
 import level1 from "./level1.png";
+import sad from "./sad.svg";
+import mad from "./mad.svg";
+import heart from "./heart.svg";
+import teacher from "./teacher.svg";
+import nice from "./nice.svg";
+import bullseye from "./bullseye.svg";
+import writing from "./writing.svg";
+
 
 export {
+  nice,
+  bullseye,
+  writing,
 chopper,
+teacher,
+heart,
+mad,
+sad,
 discount,
 robot,
 arrowUp,
