@@ -14,6 +14,7 @@ import CardDeal from '../components/CardDeal';
 import Stats from '../components/Stats';
 import Business from '../components/Business';
 import CTA from '../components/CTA';
+import Schedule from '../components/Schedule';
 const Home = () => {
   return (
     <>
@@ -29,6 +30,7 @@ const Home = () => {
       <div className={`${styles.boxWidth}`}>
       <Stats />
       <Business/>
+      <Schedule></Schedule>
         <Billing />
         <CardDeal />
         <CTA></CTA>
