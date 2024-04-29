@@ -213,15 +213,15 @@ export const navLinks =  [
     {
       id: "feature-2",
       icon: mano,
-      title: "Rutas de Aprendizaje para Todos",
-      content: "En nuestro roadmap, aborda diversas áreas de conocimiento. Independientemente de tus intereses o nivel educativo, la ruta  se adapta a ti.",
+      title: "Roadmap",
+      content: "Encontrarás material educativo para repasar o adelantarte ",
     },
     {
       id: "feature-3",
       icon: smirk,
       title: "After class",
       content:
-        "Son clases adicionales a tu paquete de clases donde myenglishbro! resolverá todas tus dudas que puedas tener de las clases anteriores o de los ejercicios en la plataforma.",
+        "Son clases adicionales a tu paquete de clases donde resolveré todas tus preguntas",
     },
   ];
 
