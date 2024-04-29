@@ -26,10 +26,14 @@ import teacher from "./teacher.svg";
 import nice from "./nice.svg";
 import bullseye from "./bullseye.svg";
 import writing from "./writing.svg";
+import smirk from "./smirk.svg";
 
+import mano from "./mano.svg";
 
 export {
   nice,
+  smirk,
+  mano,
   bullseye,
   writing,
 chopper,

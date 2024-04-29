@@ -1,4 +1,4 @@
-import { facebook, instagram, linkedin, www ,star,shield,send,nice,writing ,bullseye} from "../assets";
+import { facebook, instagram, linkedin, www ,star,shield,send,nice,writing ,bullseye,teacher,mano,smirk} from "../assets";
 
 export const navLinks =  [
     {
@@ -206,19 +206,19 @@ export const navLinks =  [
   export const features = [
     {
       id: "feature-1",
-      icon: star,
+      icon: teacher,
       title: "Clases en Vivo y Asesoramiento Constante",
-      content: "Accede a todas nuestras master classes en vivo  y realiza consultas al tutor ademas de ser parte del grupo de wsp privado donde todos los días se suben desafíos para que sigas practicando y recibirás feedback para mejorar ",
+      content: "Todas tus clases son personalizadas de acuerdo a tu nivel , responderé todas tus preguntas y te brindare todos los recursos necesario para poder hablar el ingles como un nativo ",
     },
     {
       id: "feature-2",
-      icon: shield,
+      icon: mano,
       title: "Rutas de Aprendizaje para Todos",
       content: "En nuestro roadmap, aborda diversas áreas de conocimiento. Independientemente de tus intereses o nivel educativo, la ruta  se adapta a ti.",
     },
     {
       id: "feature-3",
-      icon: send,
+      icon: smirk,
       title: "After class",
       content:
         "Son clases adicionales a tu paquete de clases donde myenglishbro! resolverá todas tus dudas que puedas tener de las clases anteriores o de los ejercicios en la plataforma.",

@@ -13,8 +13,8 @@ const Schedule = () => (
  
    
 
-    <div className="iframe-container mt-10">
-      <iframe src="https://docs.google.com/spreadsheets/d/1zveQ_IMRxsB8CFHxy-jK40wDx48bfN6HqgLG63yctxo/edit?usp=sharing" width="600px" height="400px" frameborder="0"/>
+  <div className={`${styles.flexCenter}  ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
+      <iframe src="https://docs.google.com/spreadsheets/d/1zveQ_IMRxsB8CFHxy-jK40wDx48bfN6HqgLG63yctxo/edit?usp=sharing" width="370px" height="350px" frameborder="0"/>
     </div>
     
   </section>
