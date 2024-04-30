@@ -1,6 +1,6 @@
 import React from 'react';
 import { mad,teacher } from '../../assets';
-import styles from '../../style';
+import styles, { layout } from '../../style';
 import GetStarted from '../GetStarted';
 
 const Hero = () => {
@@ -30,14 +30,16 @@ const Hero = () => {
         <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100.8px] leading-[75px] w-full">
         de la Vida real 
               </h1>
-        <p className={`${styles.paragraph} max-w-[470px] mt-3`}>
+        <p className={`${styles.paragraph} max-w-[470px] mt-3 text-[20px]` }>
      Comunicate y expresate como todo un   <span className="text-gradient font-semibold ">Nativo </span>.
         </p>
         
       </div>
       <div className={`flex-1 flex ${styles.flexCenter} md:my-0 my-10 relative`}>
-        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGdoczVxczdrdWR6eXpmcGhkYnZhejNmcDlpOXJzM2pmNDg1dGNkdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/otg3tCDmnH372Kxx00/giphy.gif" alt="billing" className="w-[80%] h-[85%] relative z-[5]" />
+      <div className={layout.sectionImg}>
 
+        <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGdoczVxczdrdWR6eXpmcGhkYnZhejNmcDlpOXJzM2pmNDg1dGNkdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/otg3tCDmnH372Kxx00/giphy.gif" alt="billing" className="w-[100%] h-[100%] relative z-[5]" />
+</div>
         {/* gradient start */}
         <div className="absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient" />
         <div className="absolute z-[1] w-[80%] h-[80%] rounded-full white__gradient bottom-40" />

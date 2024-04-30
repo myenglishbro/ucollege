@@ -5,7 +5,7 @@ const Billing = () => (
   <section id="product" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
       {/* <img src={bill} alt="billing" className="w-[100%] h-[100%] relative z-[5]" /> */}
-      <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGdoczVxczdrdWR6eXpmcGhkYnZhejNmcDlpOXJzM2pmNDg1dGNkdCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/otg3tCDmnH372Kxx00/giphy.gif" alt="billing" className="w-[90%] h-[100%] relative z-[5]" />
+      <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2tqdWxybDY4aWx3djF1cDhvanJqdTRrMmx5emp1YmE0cjZzdzQzMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/O0PljfXqgLUUoO3fcL/giphy.gif" alt="billing" className="w-[90%] h-[100%] relative z-[5]" />
 
       {/* gradient start */}
       <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />

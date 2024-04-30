@@ -15,6 +15,8 @@ import Stats from '../components/Stats';
 import Business from '../components/Business';
 import CTA from '../components/CTA';
 import Schedule from '../components/Schedule';
+import Business3 from '../components/Business3';
+import Business2 from '../components/Business2';
 const Home = () => {
   return (
     <>
@@ -29,10 +31,13 @@ const Home = () => {
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
       <Stats />
+      <CardDeal />
       <Business/>
+      <Business2/>
+      <Business3/>
       <Schedule></Schedule>
         <Billing />
-        <CardDeal />
+    
         <CTA></CTA>
       </div>
     </div>

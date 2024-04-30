@@ -208,6 +208,27 @@ export const navLinks =  [
       id: "feature-1",
       icon: teacher,
       title: "Clases en Vivo y Asesoramiento Constante",
+      content: "Cada clase se ve un tema diferente enfocado en las 4 habilidades speaking,listening ,reading and writing. Te explicaré a detalle conceptos gramaticales para poder comprender los ejercicios que vendrán en el examen , de esta forma te aseguras tener un dominio antes de tomar el examen  ",
+    },
+    {
+      id: "feature-2",
+      icon: mano,
+      title: "Roadmap",
+      content: "Encontrarás material educativo para repasar , simulacros de exámenes anteriores, material enfocado en listening ,speaking en writing todo centrado en aprender en el menor tiempo posible  ",
+    },
+    {
+      id: "feature-3",
+      icon: smirk,
+      title: "After class",
+      content:
+        "Son  clases donde harás preguntas sobre alguna clase anterior o pregunta externa que tengas ",
+    },
+  ];
+  export const features2 = [
+    {
+      id: "feature-1",
+      icon: teacher,
+      title: "Clases en Vivo y Asesoramiento Constante",
       content: "Todas tus clases son personalizadas de acuerdo a tu nivel , responderé todas tus preguntas y te brindare todos los recursos necesario para poder hablar el ingles como un nativo ",
     },
     {
@@ -225,6 +246,27 @@ export const navLinks =  [
     },
   ];
 
+  export const features3 = [
+    {
+      id: "feature-1",
+      icon: teacher,
+      title: "Clases3 en Vivo y Asesoramiento Constante",
+      content: "Todas tus clases son personalizadas de acuerdo a tu nivel , responderé todas tus preguntas y te brindare todos los recursos necesario para poder hablar el ingles como un nativo ",
+    },
+    {
+      id: "feature-3",
+      icon: mano,
+      title: "Roadmap",
+      content: "Encontrarás material educativo para repasar o adelantarte ",
+    },
+    {
+      id: "feature-3",
+      icon: smirk,
+      title: "After class",
+      content:
+        "Son clases adicionales a tu paquete de clases donde resolveré todas tus preguntas",
+    },
+  ];
 
   export const politicas = [
     {
