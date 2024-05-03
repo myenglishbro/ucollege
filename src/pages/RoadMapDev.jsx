@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
-import ContainerRoad from './ContainerRoad';
 import styles from "../style";
+import ContainerRoadDev from './ContainerRoadDev';
 const RoadMap = () => {
   const [codigo, setCodigo] = useState(''); // Estado para almacenar el código ingresado
   const [mostrarComponente, setMostrarComponente] = useState(false);
@@ -9,8 +9,14 @@ const RoadMap = () => {
     setCodigo(event.target.value);
   };
 
+  const handleKeyPress = (event) => {
+    if (event.key === 'Enter') {
+      handleMostrarComponente();
+    }
+  };
+
   const handleMostrarComponente = () => {
-    if (codigo === 'devs') { // Reemplaza 'tu_codigo_esperado' con el código que desees
+    if (codigo === 'IELTS') {
       setMostrarComponente(true);
     } else {
       setMostrarComponente(false);
@@ -32,22 +38,23 @@ const RoadMap = () => {
 
     <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
     <input
-        type="password"
-        placeholder="Ingresa el código "
-        value={codigo}
-        onChange={handleChangeCodigo}
-        className={`py-3 px-3 mx-5 font-poppins font-medium text-[18px] text-primary  rounded-[10px] outline-none`}
-      />
-      <button type="button" onClick={handleMostrarComponente} className={`py-3 px-3 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
-     Ver Ruta
-  </button>
+                  type="password"
+                  placeholder="Ingresa el código "
+                  value={codigo}
+                  onChange={handleChangeCodigo}
+                  onKeyPress={handleKeyPress}
+                  className={`py-3 px-3 mx-5 font-poppins font-medium text-[18px] text-primary  rounded-[10px] outline-none`}
+                />
+                <button type="button" onClick={handleMostrarComponente} className={`py-3 px-3 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
+                  Ver Ruta
+                </button>
     </div>
   </section>
 </div>
 </div>
 
 
-      {mostrarComponente && <ContainerRoad />}
+      {mostrarComponente && <ContainerRoadDev />}
 
 
     

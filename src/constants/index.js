@@ -51,8 +51,8 @@ export const navLinks =  [
     
     ,
     {
-      title: "Devs",
-      path: "/RoadMapDev"
+      title: "IELTS",
+      path: "/IELTS"
       
     }
     

@@ -67,7 +67,7 @@ function App() {
           <Route path="/Clases" element={<Clases />}></Route>
           <Route path="/RoadMap" element={<RoadMap />}></Route>
           <Route path="/RoadMapMed" element={<RoadMapMed />}></Route>
-          <Route path="/RoadMapDev" element={<RoadMapDev />}></Route>
+          <Route path="/IELTS" element={<RoadMapDev />}></Route>
 
           <Route path="/PoliticasClase" element={<PoliticasClase />}></Route>
           <Route path="/Pagos" element={<Pagos />}></Route>
