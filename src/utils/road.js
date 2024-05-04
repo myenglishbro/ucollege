@@ -1,32 +1,6 @@
 export const road = [
 
-    {
-        id: 1,
-        thumbnail:
-            "https://i.ibb.co/c3FmGzV/level1.png",
-        title: "Recordings",
-        subtitle: "B2/C1",
-
-        dateAdded: "Grabaciones ",
-        channel: "sdasd",
-        description: "Grabación de Clases ",
-        enlaces: [
-           
-            {
-                titulo: "🎯[DAY 01]  Grabacion 06/04",
-                url: "https://www.youtube.com/watch?v=okclThTJ8XQ",
-            }
-            ,
-            {
-                titulo: "🎯[DAY 02]  Grabacion 07/04",
-                url: "https://www.youtube.com/watch?v=s3Zv8aGzIJ4",
-            }
-
-         
-           
-          
-        ],
-    },
+    
     {
         id: 1,
         thumbnail:
@@ -65,6 +39,7 @@ export const road = [
 
             {  titulo:"07-📒[slides] Possesive Adjectives", url: "https://docs.google.com/presentation/d/1zkn5eJjUJTDUUjOU45ZZIRu8-7c9saPO/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
             {  titulo:"07-🎯[Activity]Possesive Adjectives", url: "https://wordwall.net/play/55417/749/2837" },
+            {  titulo:"07-🎯[Activity]Possesive Adjectives", url: "https://wordwall.net/play/18888/235/2402" },
 
             {  titulo:"08-📒[slides] The Verb Be Negative and Interrogative Form", url: "https://docs.google.com/presentation/d/1-37e0Rj12xLoLJ8AIadt47Q0q-D8JbkR/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
             {  titulo:"07-🎯[Activity]The Verb Be Negative Form", url: "https://wordwall.net/play/21158/025/3896" },
@@ -78,7 +53,18 @@ export const road = [
 
             {  titulo:"11-📒[slides] Professions",url: "https://docs.google.com/document/d/18WYvZntiIyTldbpPtcljy2bH27wKkud8/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
             {  titulo:"12-📒[slides] Possessive", url: "https://docs.google.com/presentation/d/1UijMuEx-DdbZETXjEUUtT6IPkWF0az2w/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"10-🎯[Activity]  Possessive Pronouns", url: "https://wordwall.net/play/52592/500/1753"},
+
             {  titulo:"13-📒[slides] Object Pronouns ",url: "https://docs.google.com/presentation/d/1uF-fBeTnLSjeRJULZT-cxo1DHRiJBBidBqeyBhWxrh0/edit?usp=sharinghttps://docs.google.com/presentation/d/1uF-fBeTnLSjeRJULZT-cxo1DHRiJBBidBqeyBhWxrh0/edit?usp=sharing" },
+            {  titulo:"10-🎯[Activity]  Object Pronouns 1", url: "https://wordwall.net/play/69980/389/917"},
+            {  titulo:"10-🎯[Activity]  Object Pronouns", url: "https://wordwall.net/play/58591/627/3167"},
+
+            {
+                titulo: "📒[slides] UNIT 4:FREQUENCY ADVERBS AND ADVERBIAL PHRASES",
+                url: "https://docs.google.com/presentation/d/16-wwNO2lpWVdp222T5v6qAx2Y84QG0RC/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
+            },
+            {  titulo:"10-🎯[Activity]  Adverbs of Frequency", url: "https://wordwall.net/play/54781/327/2832"},
+
             {  titulo:"14-📒[slides] Countries/Nationalities + Extra grammar +Review Chart",url: "https://drive.google.com/file/d/12xOlTvoKpFlSGRJboWF1BvNsk4cqAixC/view?usp=sharing"},
             {  titulo:"15-📒[slides]  Be-WH Questions", url: "https://docs.google.com/presentation/d/1QzcM-95Md4pWWy1d6BzM2CX2klPaPbXT/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
             {  titulo:"16-📒[slides] Plural Nouns", url: "https://docs.google.com/presentation/d/1WZGbWYGI3P8CfiCJjsSB5JrbWohq7RV3Z7dzO5ei36M/edit?usp=sharing"},
@@ -94,6 +80,11 @@ export const road = [
             {  titulo:"23-📒[slides] Correct the Sentences with The Verb Be in Questions",url: "https://docs.google.com/presentation/d/1PmPGCCydt73O4vXTB9ThQdiMk-zSdZs0/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",},
             {  titulo:"24-📒[slides] Prepositions", url: "https://docs.google.com/presentation/d/1whWilz_x5_6fQ9uQ0_2jmEQulZmuSoMi_y_6X3HLmqY/edit?usp=sharing"},
             {  titulo:"25-📒[slides] Can vs Can't", url: "https://docs.google.com/presentation/d/1whWilz_x5_6fQ9uQ0_2jmEQulZmuSoMi_y_6X3HLmqY/edit?usp=sharing"},
+            {
+                titulo: "📒[slides] Imperatives",
+                url: "https://docs.google.com/presentation/d/1IBGfgt3RbQSgNHUolh8T0JyXjv4NfvLS/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
+            },
+            {  titulo:"06-🎯[Activity] Imperatives",url: "https://wordwall.net/play/16378/903/4549" },
 
             { titulo: "📝[skill test] UNIT 1: Listening and writing PDF",
                 url: "https://drive.google.com/file/d/1lj6qtiswWIwvf0zSVne5b8dPEv3S3ra1/view?usp=sharing",
@@ -130,10 +121,7 @@ export const road = [
                 url: "https://drive.google.com/file/d/1iIEtN9QL8NJIMZOTS75pJPO1OsyveWxd/view?usp=sharing",
             },
             
-            {
-                titulo: "📒[slides] UNIT 4:FREQUENCY ADVERBS AND ADVERBIAL PHRASES",
-                url: "https://docs.google.com/presentation/d/16-wwNO2lpWVdp222T5v6qAx2Y84QG0RC/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
-            },
+           
             {
                 titulo: "📒[slides] Explanation Adverbs of Frequency",
                 url: "https://docs.google.com/presentation/d/12feKDZwOqILPrUSp6Nm6vtYqfcgjaQqR/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
@@ -190,10 +178,7 @@ export const road = [
 
             
             
-            {
-                titulo: "📒[slides] Imperatives",
-                url: "https://docs.google.com/presentation/d/1IBGfgt3RbQSgNHUolh8T0JyXjv4NfvLS/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
-            },
+          
            
            
             
@@ -223,11 +208,17 @@ export const road = [
             {titulo: "📒[slides] a little / a few",url: "https://docs.google.com/presentation/d/1rR9yhIV9RjF_zUQe1YS8pQ6NJ3cizIfvaB-9G8O-jvE/edit?usp=sharing",},
             {titulo: "📒[slides] be: Simple past  Affirmative and negative", url: "https://docs.google.com/presentation/d/1B7OI2bdC87AnfKKO4d_3Yhxim9zTeQGGzWCwc7AVkko/edit?usp=sharing",},
             {titulo: "📒[slides] be: Simple past   Interrogative and short answers",url: "https://docs.google.com/presentation/d/1ml4Elz9yZMnjaPzktFBi7LLm5ZUYRgATCQtK72Rt-ZI/edit?usp=sharing", },
+            {  titulo:"06-🎯[Activity] Simple Past was/were",url: "https://wordwall.net/play/62938/423/342" },
+
             {titulo: "📒[slides] Question words  with was / were",url: "https://docs.google.com/presentation/d/1gTtHyLBBKmepH7uHASACv4X80e5k8IKI3bVQsjjP2DA/edit?usp=sharing",},
             {titulo: "📒[slides] Simple past Regular verbs Affirmative", url: "https://docs.google.com/presentation/d/1DpJnvEGUNzzE77-OLCgYvyTMf-o0C_PXo9-e1SLx7Fc/edit?usp=sharing",},
+            {  titulo:"06-🎯[Activity] Simple Past Regular Verbs",url: "https://wordwall.net/play/15209/196/99109" },
+
             {titulo: "📒[slides] Simple past:  Irregular verbs Affirmative", url: "https://docs.google.com/presentation/d/19X3T5vbawbDcFFgxc2DlqfaFwaNsFkQMlFUsE9zgiPU/edit?usp=sharing", },
             {titulo: "📚[PDF] Los Verbos Irregulares ", url: "https://drive.google.com/file/d/1RpV1uLe-A215sfP1S954zi2zQs_XDvDg/view?usp=share_link", },
             { titulo: "📚[PDF] Los Verbos Irregulares II ", url: "https://drive.google.com/file/d/1EhALfkVQb-G5ylK9qMc674zmh8LWd-kT/view?usp=share_link",},
+            {  titulo:"06-🎯[Activity] Simple Past Irregular Verbs",url: "https://wordwall.net/play/15208/131/43596" },
+
             {titulo: "📒[slides] Simple past  Negative",url: "https://docs.google.com/presentation/d/1VpPwGUKg1XsZNBatr46QYnss9emq0vN_pbj_bsXKg8A/edit?usp=sharing",},
 
             {titulo: "📒[slides] Simple past   Interrogative and  short answers",url: "https://docs.google.com/presentation/d/19tQmwXnpFBPUgtg5mN2lAovJ7oQVMeTU9M_8WOPQIhY/edit?usp=sharing",},
