@@ -21,15 +21,17 @@ const Hito = (props) => {
             </p>
            
           </div>
-          <div className={`w-[64px] h-[64px] rounded-full  bg-dimBlue`}>
-    
-    </div>
+          <div className={`w-[64px] h-[64px] rounded-full bg-dimBlue flex items-center justify-center`}>
+    <img src={elemento.thumbnail} alt="Descripción de la imagen" className="w-[52px] h-[62px] rounded-full" />
+</div>
       </section>
      
       <p className={`${styles.paragraph} max-w-[670px] mb-6`}>
         {elemento.description} 
         </p>
-   
+        <p className={`${styles.paragraph} max-w-[670px] mb-6`}>
+        {elemento.channel} 
+        </p>
       <div className="flex-1 flex flex-col">
 
      
@@ -42,7 +44,7 @@ const Hito = (props) => {
         
               <a key={i} href={enlace.url} target="_blank" rel="noopener noreferrer">
                 <p className={`font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer ${
-                    index  ? "mb-4" : "mb-0"
+                    index  ? "mb-0" : "mb-0"
                   }`}>{enlace.titulo}</p>
               </a>
       
