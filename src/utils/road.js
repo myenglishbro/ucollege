@@ -165,14 +165,8 @@ export const road = [
             },
             
            
-            {
-                titulo: "📒[slides] UNIT 6:PRESENT PROGRESSIVE",
-                url: "https://docs.google.com/presentation/d/1KTQSiER6KRFyjxPXBo2OiQk2U4zCzfpk/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
-            },
-            {
-                titulo: "📒[slides] Explanation Present Progressive",
-                url: "https://docs.google.com/presentation/d/1touUa7OZ1X1ikWmzNS7lppVA8MesWigC/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
-            },
+            
+          
             
             {
                 titulo: "📒[slides] UNIT 7:CAN/CAN’T—ABILITY",
@@ -200,11 +194,7 @@ export const road = [
                 url: "https://docs.google.com/presentation/d/1invT5oXLeCWs3ZoBJ63VqNDUsxtVwws3/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
             },
            
-            {
-                titulo: "📒[slides] UNIT 12:GOING TO",
-                url: "https://docs.google.com/presentation/d/1SERr4FC0uid44aV7TBYFbu2UqdKgltiV/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
-            },
-
+           
             
             
           
@@ -218,7 +208,7 @@ export const road = [
     {
         id: 3,
         thumbnail:
-            "https://i.ibb.co/BnXkWjF/5d16e76d6bd488a7d023bc4ee4c3907f-removebg-preview-1.png",
+            "https://i.ibb.co/0XR5yjD/990527648dc1fe389bb8568a632839e8-removebg-preview.png",
         title: "Basic 03",
         subtitle: "Basic Level",
 
@@ -226,68 +216,53 @@ export const road = [
         channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
         description: "We will learn to introduce ourselves, spell names and words, describe people, introduce family members, and provide personal information.",
         enlaces: [
-            {  titulo:"🧩 Greetings ", url: "https://wordwall.net/play/12428/995/16103"},
-            {  titulo:"🧩 Greetings II  ", url: "https://wordwall.net/play/11151/197/57293"},
-            {  titulo:"🧩 Greetings III  ", url: "https://wordwall.net/play/17057/715/209"},
-            {  titulo:"🧩 Greetings IV  ", url: "https://wordwall.net/play/27174/408/7224"},
-            {  titulo:"📖 The Alphabet",url: "https://docs.google.com/presentation/d/1wlKwo_huYQR9p3upX0if-7t12nZpJUAk/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true"},
-            {  titulo:"🧩 Family members   ", url: "https://wordwall.net/play/22539/017/5875"},
-            {  titulo:"🧩 Family members I  ", url: "https://wordwall.net/play/7464/509/17058"},
-            {  titulo:"🧩 Family members II  ", url: "https://wordwall.net/play/16152/186/64342"},
-            {  titulo:"📖 The Articles ", url: "https://docs.google.com/presentation/d/11Xf9HvxN9IHX2C7X7nloNSMnPksIA7vt/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
-            {  titulo:"🧩The Articles ", url: "https://wordwall.net/play/25729/634/81869"},
-            {  titulo:"📖 Plural Nouns", url: "https://docs.google.com/presentation/d/1WZGbWYGI3P8CfiCJjsSB5JrbWohq7RV3Z7dzO5ei36M/edit?usp=sharing"},
-            {  titulo:"📖Adjectives in English",url: "https://docs.google.com/presentation/d/1JZQVaN6ZEBEv_P5sq8fV0P8JERf_SqTS11-eu9kl_og/edit?usp=sharing"},
+            {titulo: "📖 UNIT 6:PRESENT PROGRESSIVE",url: "https://docs.google.com/presentation/d/1KTQSiER6KRFyjxPXBo2OiQk2U4zCzfpk/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true", },
+            { titulo: "📖 Explanation Present Progressive",url: "https://docs.google.com/presentation/d/1touUa7OZ1X1ikWmzNS7lppVA8MesWigC/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",},
+            {titulo:"📖 THERE IS / THERE ARE WITH SOME, ANY, SEVERAL, A LOT OF, MANY", url: "https://docs.google.com/presentation/d/1VwIJNGPfNm_3lmEpUoCDWMUtH7c1rEs7/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",},
+            {titulo: "📖 Count / noncount nouns  some / any",url: "https://docs.google.com/presentation/d/1jH6YT2V1nqUZlZg87_nz2tL7dOuTOGubcKf5Wx2afc8/edit?usp=sharing",},
+            {titulo: "📖 Compounds:  some / any / no",url: "https://docs.google.com/presentation/d/1tj-HacwRg_cFagev4icmdnngHJKihkozJZKF7YdSI1o/edit?usp=sharing", },
+            { titulo: "📖 a lot of / much / many / How much …? /  How many …?",url: "https://docs.google.com/presentation/d/1-X6kwm4EcY28fchr9KjrksLA_bo0NW_REx2ulLewyik/edit?usp=sharing", },
+            {titulo: "📖 a little / a few",url: "https://docs.google.com/presentation/d/1rR9yhIV9RjF_zUQe1YS8pQ6NJ3cizIfvaB-9G8O-jvE/edit?usp=sharing",},
+           
 
-            {  titulo:"🧩 Days of the week ", url: "https://wordwall.net/play/22419/293/58122"},
-            {  titulo:"📖The Numbers and The Time", url: "https://docs.google.com/presentation/d/1oNoA0RqXDuy5AmH_NdwZKS1minGfr-R_/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
-          
-            {  titulo:"🧩The Numbers", url: "https://wordwall.net/play/17273/376/89817"},
-            {  titulo:"🧩The Numbers II", url: "https://wordwall.net/play/11115/711/5078"},
-            {  titulo:"🧩 The Numbers III", url: "https://wordwall.net/play/10642/628/5053"},
-            {  titulo:"📖 Ordinal Numbers ",url: "https://drive.google.com/file/d/18I58jFyIcYY_apm1YTzXvv2TVuMVHnXk/view?usp=sharing" },
 
-            {  titulo:"🧩 The Time  I", url: "https://wordwall.net/play/11993/530/12821"},
-            {  titulo:"🧩 The Time  II", url: "https://wordwall.net/play/11993/400/13264"},
-            {  titulo:"📖 Seasons of the Year",url: "https://docs.google.com/presentation/d/1Ji0bSleS_268aZaK6RUvNEsB4dAK4mno/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
-            {  titulo:"🧩 Seasons of the Year",url: "https://wordwall.net/play/18524/265/35686" },
+
             
-            {  titulo:"🎥 The Pronouns", url: "https://www.youtube.com/watch?v=O-sVhzcj22g&t=18s&ab_channel=MyEnglishBro"},
-            {  titulo:"📖 The Pronouns", url: "https://docs.google.com/presentation/d/1z94b0Ju4A4PfBiyp9TK37D0Nkzt5RqmV/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
-            {  titulo:"🎥 Transformation", url: "https://www.youtube.com/watch?v=fb1rAStOHRA&t=41s&ab_channel=MyEnglishBro"},
-            {  titulo:"🧩Transformation ", url: "https://wordwall.net/play/16432/831/6927"},
-            {  titulo:"🎥Transformation II & The English Structure ", url: "https://www.youtube.com/watch?v=pnHVzERzpdk&ab_channel=MyEnglishBro"},
-            {  titulo:"🧩Transformation II ", url: "https://wordwall.net/play/21136/807/4521"},
-            {  titulo:"📖 The English Structure and Origin",url: "https://docs.google.com/presentation/d/1qJVbcSbG2GyYS2opk4HPhSQGPaTpRVBr/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" }, 
-            {  titulo:"📖Introduccion Present Simple", url: "https://docs.google.com/presentation/d/1kKSj3wwoYtmVotOsbW5J9eJ9U9lG0FIb/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
-            {  titulo:"📖The Verb Be Affirmative Form",url: "https://docs.google.com/presentation/d/1orV_Qm0QQOotooY_uEJ3Srct8EAPV2VN/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
-            {  titulo:"🧩The Verb Be Affirmative Form",url: "https://wordwall.net/play/30745/553/36911" },
-            {  titulo:"📃The Verb Be Affirmative Form",url: "https://drive.google.com/file/d/1rTn31H9zJcXSRVNm1MGJ-se_3PFChW_N/view?usp=sharing" },
-            {  titulo:"📖Countries/Nationalities + Extra grammar +Review Chart",url: "https://drive.google.com/file/d/12xOlTvoKpFlSGRJboWF1BvNsk4cqAixC/view?usp=sharing"},
+        ],
+    },
+    
+    {
+        id: 3,
+        thumbnail:
+            "https://i.ibb.co/0XR5yjD/990527648dc1fe389bb8568a632839e8-removebg-preview.png",
+        title: "Basic 04",
+        subtitle: "Basic Level",
 
-            {  titulo:"📖 Professions",url: "https://docs.google.com/document/d/18WYvZntiIyTldbpPtcljy2bH27wKkud8/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
-            {  titulo:"🚩 Listening Quiz ", url: "https://forms.gle/Lx6sfRT84P2xc8Dw7"},
+        dateAdded: "Basic 0 ",
+        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
+        description: "We will learn to introduce ourselves, spell names and words, describe people, introduce family members, and provide personal information.",
+        enlaces: [
+            {titulo: "📖 UNIT 12:GOING TO",url: "https://docs.google.com/presentation/d/1SERr4FC0uid44aV7TBYFbu2UqdKgltiV/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true", },
 
-            {  titulo:"📖Possessive", url: "https://docs.google.com/presentation/d/1UijMuEx-DdbZETXjEUUtT6IPkWF0az2w/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
-            {  titulo:"🧩Possessive Pronouns", url: "https://wordwall.net/play/52592/500/1753"},
-            {  titulo:"📖 The Verb Be Negative and Interrogative Form", url: "https://docs.google.com/presentation/d/1-37e0Rj12xLoLJ8AIadt47Q0q-D8JbkR/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
-            {  titulo:"🧩The Verb Be Negative Form", url: "https://wordwall.net/play/21158/025/3896" },
-            {  titulo:"🚩Writing Quiz", url: "https://forms.gle/3NtJ7jPcPw1mzfrJA"},
-            {  titulo:"🚩 Speaking Quiz", url: "https://forms.gle/L3nHmas8FZfVB9hD6"},
+            {titulo: "📖 be: Simple past  Affirmative and negative", url: "https://docs.google.com/presentation/d/1B7OI2bdC87AnfKKO4d_3Yhxim9zTeQGGzWCwc7AVkko/edit?usp=sharing",},
+            {titulo: "📖 be: Simple past   Interrogative and short answers",url: "https://docs.google.com/presentation/d/1ml4Elz9yZMnjaPzktFBi7LLm5ZUYRgATCQtK72Rt-ZI/edit?usp=sharing", },
+            {  titulo:"🧩 Simple Past was/were",url: "https://wordwall.net/play/62938/423/342" },
 
-            {  titulo:"🧩 The Verb Be Negative and Interrogative Form", url: "https://wordwall.net/play/20499/847/2443"},
-            {  titulo:"📖  Be-WH Questions", url: "https://docs.google.com/presentation/d/1QzcM-95Md4pWWy1d6BzM2CX2klPaPbXT/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
-            {  titulo:"📖Correct the Sentences with The Verb Be in Questions",url: "https://docs.google.com/presentation/d/1PmPGCCydt73O4vXTB9ThQdiMk-zSdZs0/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",},
+            {titulo: "📖 Question words  with was / were",url: "https://docs.google.com/presentation/d/1gTtHyLBBKmepH7uHASACv4X80e5k8IKI3bVQsjjP2DA/edit?usp=sharing",},
+            {titulo: "📖 Simple past Regular verbs Affirmative", url: "https://docs.google.com/presentation/d/1DpJnvEGUNzzE77-OLCgYvyTMf-o0C_PXo9-e1SLx7Fc/edit?usp=sharing",},
+            {  titulo:"🧩 Simple Past Regular Verbs",url: "https://wordwall.net/play/15209/196/99109" },
 
-            {  titulo:"📖 Review Verb be ",url: "https://docs.google.com/presentation/d/1Ckb4LISBB35qHq5Yxf1sPEruLXAo-o6w/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
-            {  titulo:"✍️Practica Integradora 1", url: "https://docs.google.com/document/d/1dEid7CxmlAwFluGbugI-3zH__ktx_KrV/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true", },
-          
-            {  titulo:"🧩 There is/ There are",url: "https://wordwall.net/play/19158/687/83046"},
-            {  titulo:"🧩 There is/ There are II ",url: "https://wordwall.net/play/21498/511/4430"},
-            {  titulo:"🚩Writing Quiz  ", url: "https://forms.gle/QgiGFeXaXpEvaatU8"},
+            {titulo: "📖 Simple past:  Irregular verbs Affirmative", url: "https://docs.google.com/presentation/d/19X3T5vbawbDcFFgxc2DlqfaFwaNsFkQMlFUsE9zgiPU/edit?usp=sharing", },
+            {titulo: "📚 Los Verbos Irregulares ", url: "https://drive.google.com/file/d/1RpV1uLe-A215sfP1S954zi2zQs_XDvDg/view?usp=share_link", },
+            { titulo: "📚 Los Verbos Irregulares II ", url: "https://drive.google.com/file/d/1EhALfkVQb-G5ylK9qMc674zmh8LWd-kT/view?usp=share_link",},
+            {  titulo:"🧩 Simple Past Irregular Verbs",url: "https://wordwall.net/play/15208/131/43596" },
 
-            {  titulo:"📖 Prepositions", url: "https://docs.google.com/presentation/d/1whWilz_x5_6fQ9uQ0_2jmEQulZmuSoMi_y_6X3HLmqY/edit?usp=sharing"},
+            {titulo: "📖 Simple past  Negative",url: "https://docs.google.com/presentation/d/1VpPwGUKg1XsZNBatr46QYnss9emq0vN_pbj_bsXKg8A/edit?usp=sharing",},
 
+            {titulo: "📖 Simple past   Interrogative and  short answers",url: "https://docs.google.com/presentation/d/19tQmwXnpFBPUgtg5mN2lAovJ7oQVMeTU9M_8WOPQIhY/edit?usp=sharing",},
+
+            {titulo: "📖 Question words + simple past",url: "https://docs.google.com/presentation/d/1xpXeEcVnzABaHDX-2agE6CjI3QL0QWi3SKhZiv6yYj4/edit?usp=sharing",},
+            { titulo: "📖 SIMPLE PAST WITH WHEN CLAUSES",url: "https://docs.google.com/presentation/d/1gU_JXxoAp3KFVAe9-VI8pw-E7L4iXs_S/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true", },
 
 
             
@@ -310,30 +285,8 @@ export const road = [
             {titulo: "📒[slides] Present progressive for future",url: "https://docs.google.com/presentation/d/127VXd9ZK8i7BItgdXOik5VSWc9_G7dWRn7sMEbaFEUI/edit?usp=sharing",},
 
             {titulo: "📒[slides] Compounds: every",url: "https://docs.google.com/presentation/d/1RmaKN7jY5ej_nCVRgFSTI1b0tCMPx7IqZxLbHvDuK_E/edit?usp=sharing",},
-            {titulo:"📒[slides] THERE IS / THERE ARE WITH SOME, ANY, SEVERAL, A LOT OF, MANY", url: "https://docs.google.com/presentation/d/1VwIJNGPfNm_3lmEpUoCDWMUtH7c1rEs7/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",},
-            {titulo: "📒[slides] Count / noncount nouns  some / any",url: "https://docs.google.com/presentation/d/1jH6YT2V1nqUZlZg87_nz2tL7dOuTOGubcKf5Wx2afc8/edit?usp=sharing",},
-            {titulo: "📒[slides] Compounds:  some / any / no",url: "https://docs.google.com/presentation/d/1tj-HacwRg_cFagev4icmdnngHJKihkozJZKF7YdSI1o/edit?usp=sharing", },
-            { titulo: "📒[slides] a lot of / much / many / How much …? /  How many …?",url: "https://docs.google.com/presentation/d/1-X6kwm4EcY28fchr9KjrksLA_bo0NW_REx2ulLewyik/edit?usp=sharing", },
-            {titulo: "📒[slides] a little / a few",url: "https://docs.google.com/presentation/d/1rR9yhIV9RjF_zUQe1YS8pQ6NJ3cizIfvaB-9G8O-jvE/edit?usp=sharing",},
-            {titulo: "📒[slides] be: Simple past  Affirmative and negative", url: "https://docs.google.com/presentation/d/1B7OI2bdC87AnfKKO4d_3Yhxim9zTeQGGzWCwc7AVkko/edit?usp=sharing",},
-            {titulo: "📒[slides] be: Simple past   Interrogative and short answers",url: "https://docs.google.com/presentation/d/1ml4Elz9yZMnjaPzktFBi7LLm5ZUYRgATCQtK72Rt-ZI/edit?usp=sharing", },
-            {  titulo:"06-🎯[Activity] Simple Past was/were",url: "https://wordwall.net/play/62938/423/342" },
-
-            {titulo: "📒[slides] Question words  with was / were",url: "https://docs.google.com/presentation/d/1gTtHyLBBKmepH7uHASACv4X80e5k8IKI3bVQsjjP2DA/edit?usp=sharing",},
-            {titulo: "📒[slides] Simple past Regular verbs Affirmative", url: "https://docs.google.com/presentation/d/1DpJnvEGUNzzE77-OLCgYvyTMf-o0C_PXo9-e1SLx7Fc/edit?usp=sharing",},
-            {  titulo:"06-🎯[Activity] Simple Past Regular Verbs",url: "https://wordwall.net/play/15209/196/99109" },
-
-            {titulo: "📒[slides] Simple past:  Irregular verbs Affirmative", url: "https://docs.google.com/presentation/d/19X3T5vbawbDcFFgxc2DlqfaFwaNsFkQMlFUsE9zgiPU/edit?usp=sharing", },
-            {titulo: "📚[PDF] Los Verbos Irregulares ", url: "https://drive.google.com/file/d/1RpV1uLe-A215sfP1S954zi2zQs_XDvDg/view?usp=share_link", },
-            { titulo: "📚[PDF] Los Verbos Irregulares II ", url: "https://drive.google.com/file/d/1EhALfkVQb-G5ylK9qMc674zmh8LWd-kT/view?usp=share_link",},
-            {  titulo:"06-🎯[Activity] Simple Past Irregular Verbs",url: "https://wordwall.net/play/15208/131/43596" },
-
-            {titulo: "📒[slides] Simple past  Negative",url: "https://docs.google.com/presentation/d/1VpPwGUKg1XsZNBatr46QYnss9emq0vN_pbj_bsXKg8A/edit?usp=sharing",},
-
-            {titulo: "📒[slides] Simple past   Interrogative and  short answers",url: "https://docs.google.com/presentation/d/19tQmwXnpFBPUgtg5mN2lAovJ7oQVMeTU9M_8WOPQIhY/edit?usp=sharing",},
-
-            {titulo: "📒[slides] Question words + simple past",url: "https://docs.google.com/presentation/d/1xpXeEcVnzABaHDX-2agE6CjI3QL0QWi3SKhZiv6yYj4/edit?usp=sharing",},
-            { titulo: "📒[slides] SIMPLE PAST WITH WHEN CLAUSES",url: "https://docs.google.com/presentation/d/1gU_JXxoAp3KFVAe9-VI8pw-E7L4iXs_S/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true", },
+           
+            
             {titulo: "📒[slides] Comparative adjectives",url: "https://docs.google.com/presentation/d/1UwvUgRFxdCDPk648imeb3G9_V3rQ58e7UpvL7iD62lw/edit?usp=sharing", },
             {titulo: "📒[slides] Superlative adjectives", url: "https://docs.google.com/presentation/d/1EGA1g6Wx7aQTZYGeXUkK_PDeF3CXNLcU-sFWuhpxAmQ/edit?usp=sharing",},
             { titulo: "📒[slides] Verb + -ing form / infinitive", url: "https://docs.google.com/presentation/d/1V9GjtW5BRs2n4knhrQfQbeHkvLnJPP7tUTCmokQzeBQ/edit?usp=sharing",},
