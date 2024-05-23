@@ -138,3 +138,142 @@
   background: rgba(255, 255, 255, 0.6);
   filter: blur(750px);
 }
+
+
+
+
+.roadmap-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.roadmap-step {
+  position: relative;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  max-width: 800px;
+  background-color: #1a202c;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.roadmap-step.with-line::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -2rem;
+  width: 2px;
+  height: 2rem;
+  background-color: #4a5568;
+}
+
+.step-thumbnail {
+  position: absolute;
+  top: -1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: transparent transparent;
+  width: 4rem;
+  height: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.thumbnail-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.link {
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #A0AEC0; /* text-dimWhite */
+  text-decoration: none;
+  margin-bottom: 0.5rem;
+}
+
+.link:hover {
+  color: #ff7c7c; /* secondary color */
+  text-decoration: underline;
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #f3ec78, #af4261);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.bg-dimBlue {
+  background-color: #2d3748;
+}
+
+.font-poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.font-normal {
+  font-weight: 400;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 1rem; /* Ajusta el espacio entre los elementos */
+}
+
+.timeline-number {
+  width: 20px; /* Ajusta el tamaño del contenedor del número */
+  height: 20px;
+  border-radius: 50%;
+  background-color: #4a5568; /* Color del fondo del número */
+  color: #ffffff; /* Color del número */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px; /* Tamaño del número */
+  font-weight: bold;
+  margin-right: 1rem; /* Espacio entre el número y el enlace */
+  flex-shrink: 0; /* Evita que los números afecten al layout */
+}
+
+.link {
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #A0AEC0; /* Color del texto */
+  text-decoration: none;
+}
+
+.link:hover {
+  color: #ff7c7c; /* Color del texto al pasar el ratón */
+  text-decoration: underline;
+}
+
+.timeline-left {
+  justify-content: flex-start;
+}
+
+.timeline-right {
+  justify-content: flex-end;
+}
+
+
+.thumbnail-small {
+  width: 80px; /* Ajusta el tamaño de la imagen según sea necesario */
+  height: 90px;
+  margin-top: 20px; /* Ajusta el espacio entre la imagen y los elementos anteriores */
+}
