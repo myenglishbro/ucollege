@@ -30,7 +30,7 @@ const Hito = (props) => {
     <React.Fragment key={i}>
       <div className={`timeline-item ${i % 2 === 0 ? 'timeline-left' : 'timeline-right'}`}>
         <div className="timeline-number">{i + 1}</div>
-        <a href={enlace.url} target="_blank" rel="noopener noreferrer" className="link">
+        <a href={enlace.url} target="_blank" rel="noopener noreferrer" className="link thunder-bubble">
           {enlace.titulo}
         </a>
       </div>
@@ -38,6 +38,8 @@ const Hito = (props) => {
     </React.Fragment>
   ))}
 </div>
+
+
 
 
 

@@ -27,10 +27,12 @@ import nice from "./nice.svg";
 import bullseye from "./bullseye.svg";
 import writing from "./writing.svg";
 import smirk from "./smirk.svg";
+import clasenivel  from "./clasenivel.png";
 
 import mano from "./mano.svg";
 
 export {
+  clasenivel,
   nice,
   smirk,
   mano,
