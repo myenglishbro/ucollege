@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import {close,menu} from '../../assets'; // Asegúrate de tener importado tu logo
+import { close, menu } from '../../assets'; // Asegúrate de tener importado tu logo y los iconos
 import { navLinks } from '../../constants';
 
 const Navbar = () => {
@@ -8,9 +8,17 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false);
 
   return (
-    <nav className="w-full flex py-6 justify-between items-center navbar z-100">
-    <img src="https://i.ibb.co/qmFGbzk/Sin-t-tulo-2-removebg-preview.png" alt="Logo de MyBro" className="h-[100px] w-[102px] md:h-[102px] md:w-[102px]" />
-    <h3 className="flex-1 font-poppins font-semibold ss:text-[32px] text-[32px] text-white ss:leading-[100.8px] leading-[75px]">MyEnglishBro!</h3>
+    <nav className="w-full flex py-6 justify-between items-center navbar z-50 bg-black-gradient">
+      <div className="flex items-center">
+        <img
+          src="https://i.ibb.co/qmFGbzk/Sin-t-tulo-2-removebg-preview.png"
+          alt="Logo de MyBro"
+          className="h-[100px] w-[102px] md:h-[102px] md:w-[102px]"
+        />
+        <h3 className="ml-3 font-poppins font-semibold ss:text-[32px] text-[32px] text-white ss:leading-[100.8px] leading-[75px]">
+          MyEnglishBro!
+        </h3>
+      </div>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li
@@ -26,17 +34,22 @@ const Navbar = () => {
       </ul>
 
       <div className="sm:hidden flex flex-1 justify-end items-center">
-        <img
-          src={toggle ? close : menu}
-          alt="menu"
-          className="w-[28px] h-[28px] object-contain"
+        <button
+          aria-label="Toggle menu"
           onClick={() => setToggle(!toggle)}
-        />
+          className="focus:outline-none"
+        >
+          <img
+            src={toggle ? close : menu}
+            alt="menu"
+            className="w-[28px] h-[28px] object-contain"
+          />
+        </button>
 
         <div
           className={`${
             !toggle ? 'hidden' : 'flex'
-          } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar z-[10]`}
+          } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl shadow-lg z-50`}
         >
           <ul className="list-none flex justify-end items-start flex-1 flex-col">
             {navLinks.map((nav, index) => (
