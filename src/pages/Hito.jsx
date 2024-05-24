@@ -1,19 +1,26 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import styles, { layout } from "../style";
 
-const Hito = (props) => {
+const Hito = ({ road, containerRefs }) => {
   const [activeIndex, setActiveIndex] = useState(null);
 
   const toggleAccordion = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
 
+  useEffect(() => {
+    if (containerRefs) {
+      containerRefs.current = containerRefs.current.slice(0, road.length);
+    }
+  }, [road, containerRefs]);
+
   return (
     <div className="roadmap-container">
-      {props.road.map((elemento, index) => (
+      {road.map((elemento, index) => (
         <div 
           key={index} 
-          className={`roadmap-step ${index !== props.road.length - 1 ? 'with-line' : ''}`}
+          className={`roadmap-step ${index !== road.length - 1 ? 'with-line' : ''}`}
+          ref={el => (containerRefs.current[index] = el)}
         >
           <div className="step-thumbnail">
             <img src={elemento.thumbnail} alt="Thumbnail" className="thumbnail-img" />
@@ -24,19 +31,16 @@ const Hito = (props) => {
                 className={`flex-1 flex justify-start items-center flex-row m-3 cursor-pointer`}
                 onClick={() => toggleAccordion(index)}
               >
-                <h4 className="font-poppins font-semibold xs:text-[40.89px] text-[30.89px] xs:leading-[53.16px] leading-[43.16px] text-white">
+                <h4 className={styles.heading2}>
                   {elemento.title}
                 </h4>
+                <p className={`${styles.paragraph} max-w-full xs:max-w-[670px] mb-6`}>
+                  {elemento.description}
+                </p>
               </div>
             </section>
             {activeIndex === index && (
               <div className="accordion-content">
-                <p className={`${styles.paragraph} max-w-[670px] mb-6`}>
-                  {elemento.description}
-                </p>
-                <p className={`${styles.paragraph} max-w-[670px] mb-6`}>
-                  {elemento.channel}
-                </p>
                 <div className="flex-1 flex flex-col">
                   {elemento.enlaces.map((enlace, i) => (
                     <React.Fragment key={i}>

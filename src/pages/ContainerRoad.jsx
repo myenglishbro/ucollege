@@ -1,9 +1,8 @@
-import {road} from "../utils/road"
 import Hito from './Hito'
 import styles from "../style"
 import CardDeal2 from "../components/CardDeal2";
 
-const ContainerRoad = () => {
+const ContainerRoad = ({ road, containerRefs }) => {
   return (
          
 
@@ -17,7 +16,7 @@ const ContainerRoad = () => {
        
       </div>
     </div>
-         <Hito road={road} />
+    <Hito road={road} containerRefs={containerRefs} />
       </div>
       </div>
              

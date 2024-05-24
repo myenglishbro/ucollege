@@ -88,7 +88,7 @@ export const road = [
 
         dateAdded: "Basic 0 ",
         channel: "sdasd",
-        description: "Aprenderemos los conceptos básicos y fundamentales del inglés para poder comunicarnos correctamente,establecer una base muy elemental en el idioma, que es útil para situaciones de comunicación muy simples y para adquirir las habilidades necesarias para avanzar a niveles más altos de competencia en el futuro. ",
+        description: "Aprenderemos los concepto elemental en el idiomrir las habilidades necesarias para avanzar a niveles más altos de competencia en el futuro. ",
         enlaces: [
             {  titulo:"📖 Demostrative Adjectives ",url: "https://docs.google.com/presentation/d/1EkjxtqncsZP9UV3IPsp8x_3V2PIIo7nE/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",},
             {  titulo:"📖 Professions",url: "https://docs.google.com/document/d/18WYvZntiIyTldbpPtcljy2bH27wKkud8/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},

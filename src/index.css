@@ -344,3 +344,67 @@
   transition: max-height 0.2s ease-out;
   overflow: hidden;
 }
+
+
+
+.sidebar {
+  position: fixed;
+  left: -200px; /* Ocultar sidebar por defecto */
+  top: 0;
+  height: 100%;
+  width: 200px;
+  background-color: #1a202c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  z-index: 1000;
+  transition: left 0.3s ease;
+}
+
+.sidebar.visible {
+  left: 0; /* Mostrar sidebar cuando esté visible */
+}
+
+.sidebar-button {
+  background: none;
+  border: none;
+  color: #A0AEC0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  margin: 10px 0;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  padding: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.sidebar-button:hover {
+  background-color: #2d3748;
+}
+
+/* Estilos para el botón de menú (hamburguesa) */
+.sidebar-toggle {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background: none;
+  border: none;
+  color: #A0AEC0;
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1100; /* Asegurarse de que esté por encima del sidebar */
+}
+
+/* Estilos adicionales para responsive */
+@media (min-width: 768px) {
+  .sidebar {
+    left: 0;
+    width: 200px;
+  }
+  
+  .sidebar-toggle {
+    display: none; /* Ocultar botón de menú en pantallas grandes */
+  }
+}
