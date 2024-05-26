@@ -49,8 +49,8 @@ const Hero2 = () => {
 
               <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
                 <img
-                 src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2tqdWxybDY4aWx3djF1cDhvanJqdTRrMmx5emp1YmE0cjZzdzQzMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/O0PljfXqgLUUoO3fcL/giphy.gif"
-                  className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]"
+                 src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExOWVrcHlwbG04NmdmYnZ1dnhxb3Rwcmt5aGQ4cjRkODh0ang4Zmc3ZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/2MUt7i5TTZiRFHRjzK/giphy.gif"
+                  className="w-full scale-[1.7] translate-y-[38%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[13%]"
                   width={1024}
                   height={490}
                   alt="AI"
