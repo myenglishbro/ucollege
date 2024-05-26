@@ -17,6 +17,8 @@ import CTA from '../components/CTA';
 import Schedule from '../components/Schedule';
 import Business3 from '../components/Business3';
 import Business2 from '../components/Business2';
+import Hero2 from '../components/Hero/Hero2';
+import Benefits from '../components/Benefits';
 const Home = () => {
   return (
     <>
@@ -24,12 +26,13 @@ const Home = () => {
       <div className="bg-primary w-full overflow-hidden">
       <div className={`bg-primary ${styles.flexStart}`}>
       <div className={`${styles.boxWidth}`}>
-        <Hero />
+        <Hero2></Hero2>
       </div>
     </div>
 
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
+      <Benefits/>
       <Stats />
       <CardDeal />
       <Business/>

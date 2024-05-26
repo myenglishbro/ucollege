@@ -1,4 +1,4 @@
-import { bill, google,apple } from "../assets";
+import { bill, google,apple } from "../assets/index";
 import styles, { layout } from "../style";
 
 const Billing = () => (

@@ -1,5 +1,5 @@
 import React from 'react'
-import { about } from "../assets";
+import { about } from "../assets/index.js";
 import styles, { layout } from "../style";
 import Button from "../components/Button.jsx";
 const About = () => {
