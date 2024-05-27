@@ -405,7 +405,7 @@
 .sidebar {
   position: fixed;
   left: -200px; /* Ocultar sidebar por defecto */
-  top: 0;
+  top: 70px;
   height: 100%;
   width: 200px;
   background-color: #1a202c;
@@ -442,7 +442,7 @@
 /* Estilos para el botón de menú (hamburguesa) */
 .sidebar-toggle {
   position: fixed;
-  top: 10px;
+  top: 20px;
   left: 10px;
   background: none;
   border: none;
