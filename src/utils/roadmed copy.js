@@ -2,8 +2,164 @@ export const roadmed = [
 
     
     
-   
-   
+    {
+        id: 1,
+        thumbnail:
+            "https://i.ibb.co/BnXkWjF/5d16e76d6bd488a7d023bc4ee4c3907f-removebg-preview-1.png",
+        title: "Basic 01",
+        subtitle: "Basic Level",
+
+        dateAdded: "Basic 0 ",
+        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
+        description: "We will learn to introduce ourselves, spell names and words, describe people, introduce family members, and provide personal information.",
+        enlaces: [
+            {  titulo:"🧩 Greetings ", url: "https://wordwall.net/play/12428/995/16103",mensaje:"ssdadasdasd"},
+            {  titulo:"🧩 Greetings II  ", url: "https://wordwall.net/play/11151/197/57293"},
+            {  titulo:"🧩 Greetings III  ", url: "https://wordwall.net/play/17057/715/209"},
+            {  titulo:"🧩 Greetings IV  ", url: "https://wordwall.net/play/27174/408/7224"},
+            {  titulo:"📖 The Alphabet",url: "https://docs.google.com/presentation/d/1wlKwo_huYQR9p3upX0if-7t12nZpJUAk/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true"},
+            {  titulo:"🧩 Family members   ", url: "https://wordwall.net/play/22539/017/5875"},
+            {  titulo:"🧩 Family members I  ", url: "https://wordwall.net/play/7464/509/17058"},
+            {  titulo:"🧩 Family members II  ", url: "https://wordwall.net/play/16152/186/64342"},
+            {  titulo:"📖 The Articles ", url: "https://docs.google.com/presentation/d/11Xf9HvxN9IHX2C7X7nloNSMnPksIA7vt/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"🧩The Articles ", url: "https://wordwall.net/play/25729/634/81869"},
+            {  titulo:"📖 Plural Nouns", url: "https://docs.google.com/presentation/d/1WZGbWYGI3P8CfiCJjsSB5JrbWohq7RV3Z7dzO5ei36M/edit?usp=sharing"},
+            {  titulo:"📖Adjectives in English",url: "https://docs.google.com/presentation/d/1JZQVaN6ZEBEv_P5sq8fV0P8JERf_SqTS11-eu9kl_og/edit?usp=sharing"},
+
+            {  titulo:"🧩 Days of the week ", url: "https://wordwall.net/play/22419/293/58122"},
+            {  titulo:"📖The Numbers and The Time", url: "https://docs.google.com/presentation/d/1oNoA0RqXDuy5AmH_NdwZKS1minGfr-R_/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+          
+            {  titulo:"🧩The Numbers", url: "https://wordwall.net/play/17273/376/89817"},
+            {  titulo:"🧩The Numbers II", url: "https://wordwall.net/play/11115/711/5078"},
+            {  titulo:"🧩 The Numbers III", url: "https://wordwall.net/play/10642/628/5053"},
+            {  titulo:"📖 Ordinal Numbers ",url: "https://drive.google.com/file/d/18I58jFyIcYY_apm1YTzXvv2TVuMVHnXk/view?usp=sharing" },
+
+            {  titulo:"🧩 The Time  I", url: "https://wordwall.net/play/11993/530/12821"},
+            {  titulo:"🧩 The Time  II", url: "https://wordwall.net/play/11993/400/13264"},
+            {  titulo:"📖 Seasons of the Year",url: "https://docs.google.com/presentation/d/1Ji0bSleS_268aZaK6RUvNEsB4dAK4mno/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
+            {  titulo:"🧩 Seasons of the Year",url: "https://wordwall.net/play/18524/265/35686" },
+            
+            {  titulo:"🎥 The Pronouns", url: "https://www.youtube.com/watch?v=O-sVhzcj22g&t=18s&ab_channel=MyEnglishBro"},
+            {  titulo:"📖 The Pronouns", url: "https://docs.google.com/presentation/d/1z94b0Ju4A4PfBiyp9TK37D0Nkzt5RqmV/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"🎥 Transformation", url: "https://www.youtube.com/watch?v=fb1rAStOHRA&t=41s&ab_channel=MyEnglishBro"},
+            {  titulo:"🧩Transformation ", url: "https://wordwall.net/play/16432/831/6927"},
+            {  titulo:"🎥Transformation II & The English Structure ", url: "https://www.youtube.com/watch?v=pnHVzERzpdk&ab_channel=MyEnglishBro"},
+            {  titulo:"🧩Transformation II ", url: "https://wordwall.net/play/21136/807/4521"},
+            {  titulo:"📖 The English Structure and Origin",url: "https://docs.google.com/presentation/d/1qJVbcSbG2GyYS2opk4HPhSQGPaTpRVBr/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" }, 
+            {  titulo:"📖Introduccion Present Simple", url: "https://docs.google.com/presentation/d/1kKSj3wwoYtmVotOsbW5J9eJ9U9lG0FIb/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"📖The Verb Be Affirmative Form",url: "https://docs.google.com/presentation/d/1orV_Qm0QQOotooY_uEJ3Srct8EAPV2VN/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
+            {  titulo:"🧩The Verb Be Affirmative Form",url: "https://wordwall.net/play/30745/553/36911" },
+            {  titulo:"📃The Verb Be Affirmative Form",url: "https://drive.google.com/file/d/1rTn31H9zJcXSRVNm1MGJ-se_3PFChW_N/view?usp=sharing" },
+            {  titulo:"📖Countries/Nationalities + Extra grammar +Review Chart",url: "https://drive.google.com/file/d/12xOlTvoKpFlSGRJboWF1BvNsk4cqAixC/view?usp=sharing"},
+
+            {  titulo:"📖 Professions",url: "https://docs.google.com/document/d/18WYvZntiIyTldbpPtcljy2bH27wKkud8/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"🚩 Listening Quiz ", url: "https://forms.gle/Lx6sfRT84P2xc8Dw7"},
+
+            {  titulo:"📖Possessive", url: "https://docs.google.com/presentation/d/1UijMuEx-DdbZETXjEUUtT6IPkWF0az2w/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"🧩Possessive Pronouns", url: "https://wordwall.net/play/52592/500/1753"},
+            {  titulo:"📖 The Verb Be Negative and Interrogative Form", url: "https://docs.google.com/presentation/d/1-37e0Rj12xLoLJ8AIadt47Q0q-D8JbkR/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"🧩The Verb Be Negative Form", url: "https://wordwall.net/play/21158/025/3896" },
+            {  titulo:"🚩Writing Quiz", url: "https://forms.gle/3NtJ7jPcPw1mzfrJA"},
+            {  titulo:"🚩 Speaking Quiz", url: "https://forms.gle/L3nHmas8FZfVB9hD6"},
+
+            {  titulo:"🧩 The Verb Be Negative and Interrogative Form", url: "https://wordwall.net/play/20499/847/2443"},
+            {  titulo:"📖  Be-WH Questions", url: "https://docs.google.com/presentation/d/1QzcM-95Md4pWWy1d6BzM2CX2klPaPbXT/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"📖Correct the Sentences with The Verb Be in Questions",url: "https://docs.google.com/presentation/d/1PmPGCCydt73O4vXTB9ThQdiMk-zSdZs0/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",},
+
+            {  titulo:"📖 Review Verb be ",url: "https://docs.google.com/presentation/d/1Ckb4LISBB35qHq5Yxf1sPEruLXAo-o6w/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
+            {  titulo:"✍️Practica Integradora 1", url: "https://docs.google.com/document/d/1dEid7CxmlAwFluGbugI-3zH__ktx_KrV/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true", },
+          
+            {  titulo:"🧩 There is/ There are",url: "https://wordwall.net/play/19158/687/83046"},
+            {  titulo:"🧩 There is/ There are II ",url: "https://wordwall.net/play/21498/511/4430"},
+            {  titulo:"🚩Writing Quiz  ", url: "https://forms.gle/QgiGFeXaXpEvaatU8"},
+
+            {  titulo:"📖 Prepositions", url: "https://docs.google.com/presentation/d/1whWilz_x5_6fQ9uQ0_2jmEQulZmuSoMi_y_6X3HLmqY/edit?usp=sharing"},
+
+
+
+            
+        ],
+    },
+    {
+        id: 1,
+        thumbnail:
+        "https://i.ibb.co/BnXkWjF/5d16e76d6bd488a7d023bc4ee4c3907f-removebg-preview-1.png",
+        title: "Recordings",
+        subtitle: "B2/C1",
+
+        dateAdded: "Grabaciones ",
+        channel: "sdasd",
+        description: "Grabación de Clases ",
+        enlaces: [
+            {  titulo:"🧩 Greetings ", url: "https://wordwall.net/play/12428/995/16103",mensaje:"ssdadasdasd"},
+
+            {
+                titulo: "🎯[DAY 01] Grabacion 09/03",
+                url: "https://www.youtube.com/watch?v=gGWtrDuoUi0",mensaje:"ssdadasdasd"
+            },
+            {
+                titulo: "🎯[DAY 02] Grabacion 10/03",
+                url: "https://youtu.be/9bB9PgyB_bg?si=MHjaEN7bzBy3ZOhc",
+            },
+            {
+                titulo: "🎯[After Class] Grabacion 14/03",
+                url: "https://youtu.be/5ilyP5xsyes",
+            },
+            {
+                titulo: "🎯[DAY 03] Grabacion 16/03",
+                url: "https://youtu.be/CR6rnB5Yg0Y?si=m4xdSF6v23GibP_H",
+            },
+            {
+                titulo: "🎯[DAY 04] Grabacion 17/03",
+                url: "https://youtu.be/eOtsLBuwvgw?si=tixxZisScjmyyLzI",
+            },{
+                titulo: "🎯[DAY 05] Grabacion 23/03",
+                url: "https://youtu.be/I5E5Q3yByPs?si=dYFzG1VF98Tqkvyi",
+            },
+            {
+                titulo: "🎯[DAY 06] Grabacion 24/03",
+                url: "https://youtu.be/OuqZlRsw7NE?si=-KYzJRc2XtTsfytL",
+            },
+            {
+                titulo: "🎯[DAY 07] Grabacion 30/03",
+                url: "https://www.youtube.com/watch?v=4hyP05BgB9M&list=PLaYNhMsVRuHhY6xcwxg931ib5xCbw2zWC&index=8&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: "🎯[DAY 08]  Grabacion 31/03",
+                url: "https://www.youtube.com/watch?v=XE7dOWDGpek&ab_channel=MyEnglishBro",
+            }
+            ,
+            {
+                titulo: "🎯[DAY 09]  Grabacion 06/04",
+                url: "https://www.youtube.com/watch?v=w2i-Q7YHpvc",
+            }
+            ,
+            {
+                titulo: "🎯[DAY 10]  Grabacion 07/04",
+                url: "https://youtu.be/1yYDsB_X9Ow",
+            },
+            {
+                titulo: "🎯[DAY 11]  Grabacion 13/04",
+                url: "https://www.youtube.com/watch?v=1yYDsB_X9Ow&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: "🎯[DAY 12]  Grabacion 14/04",
+                url: "https://www.youtube.com/watch?v=G7noYDWA80I&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: "🎯[DAY 13]  Grabacion 20/04",
+                url: "https://www.youtube.com/watch?v=tVZPNUMq2d0&t=582s",
+            },
+            {
+                titulo: "🎯[DAY 14 -OFF]  Grabacion 21/04",
+                url: "",
+            }
+
+         
+           
+          
+        ],
+    },
     {
         id: 1,
         thumbnail:
