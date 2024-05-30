@@ -51,12 +51,12 @@ function App() {
   return (
     
 
-<div className="bg-primary w-full overflow-hidden">
-<div className={`${styles.paddingX} ${styles.flexCenter}`}>
-        <div className={`${styles.boxWidth}`}>
+<div >
+<div>
+    
         
         <Navbar/>
-        </div>
+     
       </div>
         <Routes>
           <Route path="/" element={<Home />}></Route>

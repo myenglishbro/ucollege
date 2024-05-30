@@ -10,8 +10,6 @@ import Hero from '../components/Hero/Hero';
 import Iner from '../components/Iner';
 import styles from '../style';
 import Billing from '../components/Billing';
-import CardDeal from '../components/CardDeal';
-import Stats from '../components/Stats';
 import Business from '../components/Business';
 import CTA from '../components/CTA';
 import Schedule from '../components/Schedule';
@@ -19,22 +17,21 @@ import Business3 from '../components/Business3';
 import Business2 from '../components/Business2';
 import Hero2 from '../components/Hero/Hero2';
 import Benefits from '../components/Benefits';
+import Collaboration from '../components/Collaboration';
+import Services from '../components/Services';
+import Pricing from '../components/Pricing';
 const Home = () => {
   return (
     <>
 
-      <div className="bg-primary w-full overflow-hidden">
-      <div className={`bg-primary ${styles.flexStart}`}>
-      <div className={`${styles.boxWidth}`}>
+     
         <Hero2></Hero2>
-      </div>
-    </div>
-
-    <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+        <Benefits/>
+<Services></Services>
+      <Collaboration></Collaboration>
+      <Pricing></Pricing>
       <div className={`${styles.boxWidth}`}>
-      <Benefits/>
-      <Stats />
-      <CardDeal />
+     
       <Business/>
       <Business2/>
       <Business3/>
@@ -43,8 +40,8 @@ const Home = () => {
     
         <CTA></CTA>
       </div>
-    </div>
-     </div>
+    
+    
    
 {/* <section id="clients" class="clients clients">
         <div class="container ">

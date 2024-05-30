@@ -335,16 +335,20 @@ export const navLinks =  [
   export const benefits = [
     {
       id: "0",
-      title: "Clases de Speaking",
-      text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+      title: "B2 First Cambridge Preparation",
+      text: "Si tienes nivel B1 de inglés y te gustaría certificarte con B2 con Cambridge esto es para ti!",
+      price: "S/30 o $ 10 por 60 minutos",
+
       backgroundUrl: "./src/assets/benefits/card-1.svg",
       iconUrl: benefitIcon1,
       imageUrl: benefitImage2,
     },
     {
       id: "1",
-      title: "Improve everyday",
-      text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+      title: "Asesoría de Inglés Personalizado",
+      text: "Si quieres aprender inglés desde cero , cualquier nivel o quieres llevar clases a tu propio ritmo pero con alguien que te diga como mejorar más rápido. Ya sea con amigos o de forma individual sea cual sea tu objetivos , por diversión, trabajo , becas o ciudadanía esto es para ti!",
+      price: "S/28",
+
       backgroundUrl: "./src/assets/benefits/card-2.svg",
       iconUrl: benefitIcon2,
       imageUrl: benefitImage2,
@@ -354,6 +358,8 @@ export const navLinks =  [
       id: "2",
       title: "Connect everywhere",
       text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+      price: "S/30",
+
       backgroundUrl: "./src/assets/benefits/card-3.svg",
       iconUrl: benefitIcon3,
       imageUrl: benefitImage2,
@@ -362,6 +368,8 @@ export const navLinks =  [
       id: "3",
       title: "Fast responding",
       text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+      price: "S/30",
+
       backgroundUrl: "./src/assets/benefits/card-4.svg",
       iconUrl: benefitIcon4,
       imageUrl: benefitImage2,
@@ -371,6 +379,8 @@ export const navLinks =  [
       id: "4",
       title: "Ask anything",
       text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+      price: "S/30",
+
       backgroundUrl: "./src/assets/benefits/card-5.svg",
       iconUrl: benefitIcon1,
       imageUrl: benefitImage2,
@@ -379,8 +389,167 @@ export const navLinks =  [
       id: "5",
       title: "Improve everyday",
       text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+      price: "S/30",
+
       backgroundUrl: "./src/assets/benefits/card-6.svg",
       iconUrl: benefitIcon2,
       imageUrl: benefitImage2,
+    },
+  ];
+  export const collabText =
+  "Todas tus clases son personalizadas de acuerdo a tu nivel , responderé todas tus preguntas y te brindare todos los recursos necesario para poder hablar el ingles como un nativo";
+
+export const collabContent = [
+  {
+    id: "0",
+    title: "Clases en Vivo y Asesoramiento Constante",
+    text: collabText,
+  },
+  {
+    id: "1",
+    title: "Roadmap",
+  },
+  {
+    id: "2",
+    title: "After class",
+  },
+];
+  export const collabApps = [
+    {
+      id: "0",
+      title: "Figma",
+      icon: figma,
+      width: 26,
+      height: 36,
+    },
+    {
+      id: "1",
+      title: "Notion",
+      icon: notion,
+      width: 34,
+      height: 36,
+    },
+    {
+      id: "2",
+      title: "Discord",
+      icon: discord,
+      width: 36,
+      height: 28,
+    },
+    {
+      id: "3",
+      title: "Slack",
+      icon: slack,
+      width: 34,
+      height: 35,
+    },
+    {
+      id: "4",
+      title: "Photoshop",
+      icon: photoshop,
+      width: 34,
+      height: 34,
+    },
+    {
+      id: "5",
+      title: "Protopie",
+      icon: protopie,
+      width: 34,
+      height: 34,
+    },
+    {
+      id: "6",
+      title: "Framer",
+      icon: framer,
+      width: 26,
+      height: 34,
+    },
+    {
+      id: "7",
+      title: "Raindrop",
+      icon: raindrop,
+      width: 38,
+      height: 32,
+    },
+  ];
+  export const socials = [
+    {
+      id: "0",
+      title: "Discord",
+      iconUrl: discordBlack,
+      url: "#",
+    },
+    {
+      id: "1",
+      title: "Twitter",
+      iconUrl: twitter,
+      url: "#",
+    },
+    {
+      id: "2",
+      title: "Instagram",
+      iconUrl: instagram,
+      url: "#",
+    },
+    {
+      id: "3",
+      title: "Telegram",
+      iconUrl: telegram,
+      url: "#",
+    },
+    {
+      id: "4",
+      title: "Facebook",
+      iconUrl: facebook,
+      url: "#",
+    },
+  ];
+  export const brainwaveServices = [
+    "Photo generating",
+    "Photo enhance",
+    "Seamless Integration",
+  ];
+  
+  export const brainwaveServicesIcons = [
+    recording03,
+    recording01,
+    disc02,
+    chromecast,
+    sliders04,
+  ];
+
+  export const pricing = [
+    {
+      id: "0",
+      title: "Basic",
+      description: "Paquete de 10 clases",
+      price: "0",
+      features: [
+        "An AI chatbot that can understand your queries",
+        "Personalized recommendations based on your preferences",
+        "Ability to explore the app and its features without any cost",
+      ],
+    },
+    {
+      id: "1",
+      title: "Premium",
+      description: "Advanced AI chatbot, priority support, analytics dashboard",
+      price: "9.99",
+      features: [
+        "An advanced AI chatbot that can understand complex queries",
+        "An analytics dashboard to track your conversations",
+        "Priority support to solve issues quickly",
+      ],
+    },
+    {
+      id: "2",
+      title: "Enterprise",
+      description: "Custom AI chatbot, advanced analytics, dedicated account",
+      price: null,
+      features: [
+        "An AI chatbot that can understand your queries",
+        "Personalized recommendations based on your preferences",
+        "Ability to explore the app and its features without any cost",
+      ],
     },
   ];

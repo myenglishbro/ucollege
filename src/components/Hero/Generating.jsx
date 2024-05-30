@@ -8,7 +8,7 @@ const Generating = ({ className }) => {
       } text-base`}
     >
       <img className="w-5 h-5 mr-4" src={loading} alt="Loading" />
-      ACertificater tu ingles este2024  y aprender a ahabalro
+      Certifica tu dominio del inglés en 2024 y aprende a hablarlo con fluidez
     </div>
   );
 };

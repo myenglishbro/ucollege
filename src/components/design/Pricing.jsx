@@ -1,4 +1,4 @@
-import { lines } from "../../assets";
+import { lines } from "../../assets2";
 
 export const LeftLine = () => {
   return (

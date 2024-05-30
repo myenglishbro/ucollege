@@ -1,8 +1,4 @@
-* {
-    box-sizing: border-box;
-    font-family: sans-serif;
-  }
-  
+
   .content {
     max-width: 250px;
     margin: 20px auto;
