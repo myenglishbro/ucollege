@@ -20,6 +20,7 @@ import Benefits from '../components/Benefits';
 import Collaboration from '../components/Collaboration';
 import Services from '../components/Services';
 import Pricing from '../components/Pricing';
+import Roadmap from '../components/Roadmap';
 const Home = () => {
   return (
     <>
@@ -30,6 +31,7 @@ const Home = () => {
 <Services></Services>
       <Collaboration></Collaboration>
       <Pricing></Pricing>
+      <Roadmap></Roadmap>
       <div className={`${styles.boxWidth}`}>
      
       <Business/>
