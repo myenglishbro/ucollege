@@ -281,6 +281,8 @@ export const road = [
         description: "We will learn to introduce ourselves, spell names and words, describe people, introduce family members, and provide personal information.",
         enlaces: [
             { titulo: "✍ Present Tense Simple and Continuous",url: "https://drive.google.com/file/d/1Gjn3DIa6xRDKcbKFvUopOvzMTA7vnW02/view?usp=sharing", },
+            { titulo: "✍ Present Tense Simple and Continuous",url: "https://drive.google.com/file/d/1fQ23Xn4bXCSZJSaHGiWf5utUXeHAK0ma/view?usp=sharing", },
+            { titulo: "✍ Present Tense Simple and Continuous",url: "https://drive.google.com/file/d/1HlMPxx9G-eXDvAkpnoYcD_qhH8DRcUt_/view?usp=sharing", },
 
             { titulo: "✍ Past and Present Perfect Tense - Simple Form",url: "https://drive.google.com/file/d/1D6keuz7pTkAnNv7mr2WRWoNIIlR5xaAu/view?usp=sharing", },
             { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1GWFlQ8RvPK7qb3S8HLBhKTlBONeogy0H/view?usp=sharing", },
