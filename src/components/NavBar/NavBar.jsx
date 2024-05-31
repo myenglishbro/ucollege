@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { close, menu } from '../../assets/index'; // Asegúrate de tener importado tu logo y los iconos
+import { close, menu,logo } from '../../assets/index'; // Asegúrate de tener importado tu logo y los iconos
 import { navLinks } from '../../constants';
 
 const Navbar = () => {
@@ -12,9 +12,9 @@ const Navbar = () => {
       <nav className="flex items-center h-[70px] px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
         <div className="flex items-center">
           <img
-            src="https://i.ibb.co/qmFGbzk/Sin-t-tulo-2-removebg-preview.png"
+            src={logo}
             alt="Logo de MyBro"
-            className="h-[100px] w-[102px] md:h-[102px] md:w-[102px]"
+            className="h-[50px] w-[50px] md:h-[50px] md:w-[50px]"
           />
           <h3 className="ml-3 font-poppins font-semibold ss:text-[32px] text-[32px] text-white ss:leading-[100.8px] leading-[75px]">
             MyEnglishBro!

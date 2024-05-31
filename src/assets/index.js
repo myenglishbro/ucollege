@@ -8,6 +8,8 @@ import arrowUp from "./arrow-up.svg";
 import menu from "./menu.svg";
 import close from "./close.svg";
 import logo from "./logo.png";
+import logo2 from "./logo2.png";
+
 import facebook from "./facebook.svg";
 import instagram from "./instagram.svg";
 import linkedin from "./linkedin.svg";
@@ -38,6 +40,7 @@ export {
   mano,
   bullseye,
   writing,
+  logo2,
 chopper,
 teacher,
 heart,
