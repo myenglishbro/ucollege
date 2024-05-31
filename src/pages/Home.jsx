@@ -32,17 +32,7 @@ const Home = () => {
       <Collaboration></Collaboration>
       <Pricing></Pricing>
       <Roadmap></Roadmap>
-      <div className={`${styles.boxWidth}`}>
-     
-      <Business/>
-      <Business2/>
-      <Business3/>
-      <Schedule></Schedule>
-        <Billing />
-    
-        <CTA></CTA>
-      </div>
-    
+  
     
    
 {/* <section id="clients" class="clients clients">

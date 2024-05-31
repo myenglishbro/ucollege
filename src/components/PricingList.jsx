@@ -19,7 +19,7 @@ const PricingList = () => {
           <div className="flex items-center h-[5.5rem] mb-6">
             {item.price && (
               <>
-                <div className="h3">$</div>
+                <div className="h3">S/.</div>
                 <div className="text-[5.5rem] leading-none font-bold">
                   {item.price}
                 </div>
