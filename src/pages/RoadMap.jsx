@@ -1,3 +1,4 @@
+// RoadMap.js
 import React, { useState, useRef } from 'react';
 import ContainerRoad from './ContainerRoad';
 import styles from "../style";
@@ -21,7 +22,8 @@ const RoadMap = () => {
   };
 
   const handleMostrarComponente = () => {
-    if (codigo === 'meb24') {
+    const validPasswords = ['meb24', 'carlos']; // Add more passwords here
+    if (validPasswords.includes(codigo)) {
       setMostrarComponente(true);
     } else {
       setMostrarComponente(false);
@@ -82,7 +84,7 @@ const RoadMap = () => {
             isSidebarVisible={isSidebarVisible}
             toggleSidebar={toggleSidebar}
           />
-          <ContainerRoad road={road} containerRefs={containerRefs} />
+          <ContainerRoad road={road} containerRefs={containerRefs} password={codigo} />
         </>
       )}
     </>

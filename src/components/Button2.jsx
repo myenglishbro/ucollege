@@ -1,6 +1,6 @@
 const Button2 = (props) => (
-    <a href="https://us06web.zoom.us/j/9376140699?pwd=UEVhYndoUTZwUXFCR21RbDE1YU0xUT09" className={`py-4 px-6 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${props.styles}`}>
-      Ingresar a Clase
+    <a href="https://us06web.zoom.us/j/9376140699?pwd=UEVhYndoUTZwUXFCR21RbDE1YU0xUT09" className={`button relative inline-flex items-center justify-center h-20 transition-colors hover:text-color-1`}>
+      👉 click para ingresar a Clase
     </a>
   );
   
