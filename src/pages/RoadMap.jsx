@@ -22,7 +22,7 @@ const RoadMap = () => {
   };
 
   const handleMostrarComponente = () => {
-    const validPasswords = ['meb24', 'andresjaramillo']; // Add more passwords here
+    const validPasswords = ['meb24', 'andresjaramillo','davidbenites']; // Add more passwords here
     if (validPasswords.includes(codigo)) {
       setMostrarComponente(true);
     } else {
