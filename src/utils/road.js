@@ -4,7 +4,9 @@ export const road = [
     {
         id: 1,
         thumbnail:
-            "https://i.ibb.co/BnXkWjF/5d16e76d6bd488a7d023bc4ee4c3907f-removebg-preview-1.png",
+            "https://i.ibb.co/B6gr9Gd/Black-White-and-Red-Simple-Shield-Shape-Football-Club-Logo-2-removebg-preview.png",
+             thumbnail2:
+            "https://i.ibb.co/r6KMRrK/curve.png",
         title: "Basic 01",
         subtitle: "Basic Level",
 
@@ -82,7 +84,7 @@ export const road = [
     {
         id: 2,
         thumbnail:
-            "https://i.ibb.co/BnXkWjF/5d16e76d6bd488a7d023bc4ee4c3907f-removebg-preview-1.png",
+            "https://i.ibb.co/kgxj037/Black-White-and-Red-Simple-Shield-Shape-Football-Club-Logo-3-removebg-preview.png",
         title: "Basic 02",
         subtitle: "Basic Level",
 
@@ -208,7 +210,7 @@ export const road = [
     {
         id: 3,
         thumbnail:
-            "https://i.ibb.co/0XR5yjD/990527648dc1fe389bb8568a632839e8-removebg-preview.png",
+            "https://i.ibb.co/rcqJNmR/Black-White-and-Red-Simple-Shield-Shape-Football-Club-Logo-4-removebg-preview.png",
         title: "Basic 03",
         subtitle: "Basic Level",
 

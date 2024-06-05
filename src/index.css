@@ -231,12 +231,12 @@
 
 .step-thumbnail {
   position: absolute;
-  top: -1rem;
+  top: -2rem;
   left: 50%;
   transform: translateX(-50%);
   background-color: transparent transparent;
-  width: 4rem;
-  height: 4rem;
+  width: 5rem;
+  height: 5rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -294,7 +294,7 @@
   width: 40px; /* Ajusta el tamaño del contenedor del número */
   height: 40px;
   border-radius: 50%;
-  background-image: url('https://i.ibb.co/9bHgj5c/Dacsssso-5994635.png'); /* Ruta de la imagen */
+  background-image: url('https://i.ibb.co/qJskZqq/Group-4.png'); /* Ruta de la imagen */
   background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
   background-position: center; /* Centra la imagen en el contenedor */
   color: #ffffff; /* Color del número */
@@ -313,25 +313,37 @@
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;
-  color: var(--black-gradient);
+  color: white; /* Ensure text is readable on the dark background */
   text-decoration: none;
   padding: 10px 20px;
   border-radius: 8px;
   background: linear-gradient(
     157.81deg,
-    #def9fa -43.27%,
-    #bef3f5 -21.24%,
-    #9dedf0 12.19%,
-    #7de7eb 29.82%,
-    #5ce1e6 51.94%,
-    #33bbcf 90.29%
+    #2D0D8A -43.27%,
+    #4522AA -21.24%,
+    #5C38CA 12.19%,
+    #743FEA 29.82%,
+    #8C56FF 51.94%,
+    #A56FFF 90.29%
   );
-  border: 2px solid #33bbcf;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4), inset 0 0 10px rgba(92, 225, 230, 0.6);
+  border: 2px solid #5C38CA;
+  transition: all 0.3s ease;
   display: inline-block;
   position: relative;
-  overflow: hidden;
-  transition: all 0.3s ease;
+}
+
+.link:hover {
+  background: linear-gradient(
+    157.81deg,
+    #4522AA -43.27%,
+    #5C38CA -21.24%,
+    #743FEA 12.19%,
+    #8C56FF 29.82%,
+    #A56FFF 51.94%,
+    #B874FF 90.29%
+  );
+  border-color: #743FEA;
+  color: white;
 }
 
 .link::before {
@@ -342,42 +354,28 @@
   width: 100%;
   height: 100%;
   background: rgba(255, 255, 255, 0.1);
-  transform: scaleX(0);
-  transform-origin: left;
-  transition: transform 0.3s ease;
+  transition: opacity 0.3s ease;
+  opacity: 0;
 }
 
 .link:hover::before {
-  transform: scaleX(1);
+  opacity: 1;
 }
 
 .link::after {
   content: '';
   position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 200%;
-  height: 200%;
-  background: radial-gradient(circle, rgba(255, 255, 255, 0.2), transparent);
-  transform: translate(-50%, -50%) scale(0);
-  transition: transform 0.3s ease;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 .link:hover::after {
-  transform: translate(-50%, -50%) scale(1);
-}
-
-.link:hover {
-  text-decoration: none;
-  text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.6);
-  background: linear-gradient(
-    157.81deg,
-    #7de7eb -43.27%,
-    #5ce1e6 -21.24%,
-    #33bbcf 12.19%
-  );
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5), inset 0 0 20px rgba(92, 225, 230, 0.7);
-  border-color: #5ce1e6;
+  opacity: 1;
 }
 
 
@@ -390,8 +388,8 @@
 }
 
 .thumbnail-small {
-  width: 80px; /* Ajusta el tamaño de la imagen según sea necesario */
-  height: 90px;
+  width:300px; /* Ajusta el tamaño de la imagen según sea necesario */
+  height: 20px;
   margin-top: 20px; /* Ajusta el espacio entre la imagen y los elementos anteriores */
 }
 .accordion-content {
