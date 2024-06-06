@@ -14,11 +14,13 @@ export const road = [
         channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
         description: "We will learn to introduce ourselves, spell names and words, describe people, introduce family members, and provide personal information.",
         enlaces: [
+            {  titulo:"📖 The Alphabet",url: "https://docs.google.com/presentation/d/1p5Qm25h1HiPBfcF4F00QICF6HrluHfSP/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
+            {  titulo:"📒 The Alphabet + Vocabulary",url: "https://drive.google.com/file/d/1ctouVewXtHgtMBrYoOqzqfWqz0E4u6FT/view?usp=sharing"},
+
             {  titulo:"🧩 Greetings ", url: "https://wordwall.net/play/12428/995/16103",mensaje:"ssdadasdasd"},
             {  titulo:"🧩 Greetings II  ", url: "https://wordwall.net/play/11151/197/57293"},
             {  titulo:"🧩 Greetings III  ", url: "https://wordwall.net/play/17057/715/209"},
             {  titulo:"🧩 Greetings IV  ", url: "https://wordwall.net/play/27174/408/7224"},
-            {  titulo:"📖 The Alphabet",url: "https://docs.google.com/presentation/d/1wlKwo_huYQR9p3upX0if-7t12nZpJUAk/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true"},
             {  titulo:"🧩 Family members   ", url: "https://wordwall.net/play/22539/017/5875"},
             {  titulo:"🧩 Family members I  ", url: "https://wordwall.net/play/7464/509/17058"},
             {  titulo:"🧩 Family members II  ", url: "https://wordwall.net/play/16152/186/64342"},
