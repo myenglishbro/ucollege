@@ -50,13 +50,12 @@ const Hito = ({ road, containerRefs }) => {
                           href={enlace.url} 
                           target="_blank" 
                           rel="noopener noreferrer" 
-                          className="link thunder-bubble" 
+                          className="link" 
                           data-tooltip={enlace.mensaje}
                         >
                           {enlace.titulo}
                         </a>
                       </div>
-                     
                     </React.Fragment>
                   ))}
                 </div>

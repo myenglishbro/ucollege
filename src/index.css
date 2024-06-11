@@ -283,67 +283,40 @@
   font-weight: 400;
 }
 
-.timeline-item {
-  display: flex;
-  align-items: center;
-  margin-bottom: 1rem; /* Ajusta el espacio entre los elementos */
-  position: relative; /* Para posicionar la línea con :before y :after */
-}
-
+/* Base Styles */
 .timeline-number {
-  width: 40px; /* Ajusta el tamaño del contenedor del número */
+  width: 40px;
   height: 40px;
   border-radius: 50%;
-  background-image: url('https://i.ibb.co/qJskZqq/Group-4.png'); /* Ruta de la imagen */
-  background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
-  background-position: center; /* Centra la imagen en el contenedor */
-  color: #ffffff; /* Color del número */
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 16px; /* Tamaño del número */
+  font-size: 16px;
   font-weight: bold;
-  margin-right: 1rem; /* Espacio entre el número y el enlace */
-  flex-shrink: 0; /* Evita que los números afecten al layout */
+  margin-right: 1rem;
+  color: #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4), inset 0 0 10px rgba(255, 255, 255, 0.3); /* Outer and inner shadow for 3D effect */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
 }
 
+.timeline-number:hover {
+  transform: translateY(-5px); /* Hover lift effect */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6), inset 0 0 15px rgba(255, 255, 255, 0.4); /* Enhanced shadow on hover */
+}
 
 .link {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;
-  color: white; /* Ensure text is readable on the dark background */
   text-decoration: none;
   padding: 10px 20px;
   border-radius: 8px;
-  background: linear-gradient(
-    157.81deg,
-    #2D0D8A -43.27%,
-    #4522AA -21.24%,
-    #5C38CA 12.19%,
-    #743FEA 29.82%,
-    #8C56FF 51.94%,
-    #A56FFF 90.29%
-  );
-  border: 2px solid #5C38CA;
   transition: all 0.3s ease;
   display: inline-block;
   position: relative;
-}
-
-.link:hover {
-  background: linear-gradient(
-    157.81deg,
-    #4522AA -43.27%,
-    #5C38CA -21.24%,
-    #743FEA 12.19%,
-    #8C56FF 29.82%,
-    #A56FFF 51.94%,
-    #B874FF 90.29%
-  );
-  border-color: #743FEA;
-  color: white;
+  color: #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4); /* Outer shadow for 3D effect */
 }
 
 .link::before {
@@ -353,7 +326,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.2);
   transition: opacity 0.3s ease;
   opacity: 0;
 }
@@ -362,22 +335,44 @@
   opacity: 1;
 }
 
-.link::after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(255, 255, 255, 0.2);
-  opacity: 0;
-  transition: opacity 0.3s ease;
+.link:hover {
+  transform: translateY(-5px); /* Hover lift effect */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6); /* Enhanced shadow on hover */
 }
 
-.link:hover::after {
-  opacity: 1;
+.timeline-left .timeline-number {
+  background-color: #FF5733; /* Naranja */
 }
 
+.timeline-right .timeline-number {
+  background-color: #7D3C98; /* Morado */
+}
+
+.timeline-left .link {
+  background-color: #FF5733; /* Naranja */
+  border: 2px solid #FF5733;
+}
+
+.timeline-left .link:hover {
+  background-color: #FF6F3D; /* Tono más claro de naranja */
+  border-color: #FF6F3D;
+}
+
+.timeline-right .link {
+  background-color: #7D3C98; /* Morado */
+  border: 2px solid #7D3C98;
+}
+
+.timeline-right .link:hover {
+  background-color: #9250AD; /* Tono más claro de morado */
+  border-color: #9250AD;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem; /* Espacio entre los elementos */
+}
 
 .timeline-left {
   justify-content: flex-start;
@@ -387,14 +382,67 @@
   justify-content: flex-end;
 }
 
-.thumbnail-small {
-  width:300px; /* Ajusta el tamaño de la imagen según sea necesario */
-  height: 20px;
-  margin-top: 20px; /* Ajusta el espacio entre la imagen y los elementos anteriores */
+.roadmap-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  background: #1a1a1a; /* Fondo oscuro */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
 }
+
+.roadmap-step {
+  position: relative;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  max-width: 800px;
+  background-color: #2d2d2d; /* Fondo oscuro para cada paso */
+  border-radius: 8px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), inset 0 0 10px rgba(255, 255, 255, 0.1); /* Outer and inner shadow */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.roadmap-step:hover {
+  transform: translateY(-10px); /* Hover lift effect */
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.6), inset 0 0 15px rgba(255, 255, 255, 0.2); /* Enhanced shadow on hover */
+}
+
+.roadmap-step.with-line::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -2rem;
+  width: 2px;
+  height: 2rem;
+  background-color: #4a5568;
+}
+
+.step-thumbnail {
+  position: absolute;
+  top: -2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 5rem;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+}
+
+.thumbnail-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
 .accordion-content {
-  /* Estilos para el contenido del acordeón cuando está abierto */
-  transition: max-height 0.2s ease-out;
+  transition: max-height 0.3s ease-out;
   overflow: hidden;
 }
 
