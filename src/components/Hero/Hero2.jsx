@@ -49,7 +49,7 @@ const Hero2 = () => {
 
               <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
                 <img
-                 src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDBzdWl5N3NqeHpvNGFpbHpzc29qbHA1ZDNuZnJsMTRrNGMwMms0diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pYaS6CxEr1kww2GtP1/giphy.gif"
+                 src="https://i.imgflip.com/8tjsuh.gif"
                   className="w-full scale-[1.7] translate-y-[38%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[13%]"
                   width={1024}
                   height={490}
