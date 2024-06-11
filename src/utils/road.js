@@ -14,7 +14,9 @@ export const road = [
         channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
         description: "We will learn to introduce ourselves, spell names and words, describe people, introduce family members, and provide personal information.",
         enlaces: [
+            {  titulo:"🎦 The Alphabet",url: "https://www.youtube.com/watch?v=fG9ccbmA0-o"},
             {  titulo:"📖 The Alphabet",url: "https://docs.google.com/presentation/d/1p5Qm25h1HiPBfcF4F00QICF6HrluHfSP/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
+
             {  titulo:"📒 The Alphabet + Vocabulary",url: "https://drive.google.com/file/d/1ctouVewXtHgtMBrYoOqzqfWqz0E4u6FT/view?usp=sharing"},
 
             {  titulo:"🧩 Greetings ", url: "https://wordwall.net/play/12428/995/16103",mensaje:"ssdadasdasd"},
