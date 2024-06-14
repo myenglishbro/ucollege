@@ -43,12 +43,11 @@ export const road = [
             {  titulo:"🧩 The Time  II", url: "https://wordwall.net/play/11993/400/13264"},
             {  titulo:"📖 Seasons of the Year",url: "https://docs.google.com/presentation/d/1Ji0bSleS_268aZaK6RUvNEsB4dAK4mno/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
             {  titulo:"🧩 Seasons of the Year",url: "https://wordwall.net/play/18524/265/35686" },
-            
-            {  titulo:"🎥 The Pronouns", url: "https://www.youtube.com/watch?v=O-sVhzcj22g&t=18s&ab_channel=MyEnglishBro"},
+            {  titulo:"🎥 The English Structure ", url: "https://youtu.be/h4uL68plGkw?si=anrtlRavkFlaRK9K"},
+
+            {  titulo:"🎥 The Pronouns & Transformation", url: "https://www.youtube.com/watch?v=2Ty1I6hMq-g"},
             {  titulo:"📖 The Pronouns", url: "https://docs.google.com/presentation/d/1z94b0Ju4A4PfBiyp9TK37D0Nkzt5RqmV/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
-            {  titulo:"🎥 Transformation", url: "https://www.youtube.com/watch?v=fb1rAStOHRA&t=41s&ab_channel=MyEnglishBro"},
             {  titulo:"🧩Transformation ", url: "https://wordwall.net/play/16432/831/6927"},
-            {  titulo:"🎥Transformation II & The English Structure ", url: "https://www.youtube.com/watch?v=pnHVzERzpdk&ab_channel=MyEnglishBro"},
             {  titulo:"🧩Transformation II ", url: "https://wordwall.net/play/21136/807/4521"},
             {  titulo:"📖 The English Structure and Origin",url: "https://docs.google.com/presentation/d/1qJVbcSbG2GyYS2opk4HPhSQGPaTpRVBr/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" }, 
             {  titulo:"📖Introduccion Present Simple", url: "https://docs.google.com/presentation/d/1kKSj3wwoYtmVotOsbW5J9eJ9U9lG0FIb/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},

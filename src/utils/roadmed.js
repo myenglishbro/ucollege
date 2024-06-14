@@ -1,5 +1,45 @@
 export const roadmed = [
+    {
+        id: 1,
+        thumbnail:
+            "https://i.ibb.co/c3FmGzV/level1.png",
+        title: "Videos",
+        subtitle: "B2/C1",
 
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: "grabacion de clases Cambridge Preparation ",
+        enlaces: [
+           
+                { "titulo": "day 1", "url": "https://www.youtube.com/watch?v=gGWtrDuoUi0" },
+                { "titulo": "day 2", "url": "https://www.youtube.com/watch?si=MHjaEN7bzBy3ZOhc&v=9bB9PgyB_bg&feature=youtu.be" },
+                { "titulo": "after", "url": "https://www.youtube.com/watch?v=5ilyP5xsyes&feature=youtu.be" },
+                { "titulo": "day 3", "url": "https://www.youtube.com/watch?si=m4xdSF6v23GibP_H&v=CR6rnB5Yg0Y&feature=youtu.be" },
+                { "titulo": "day 4", "url": "https://www.youtube.com/watch?si=tixxZisScjmyyLzI&v=eOtsLBuwvgw&feature=youtu.be" },
+                { "titulo": "day 5", "url": "https://www.youtube.com/watch?si=dYFzG1VF98Tqkvyi&v=I5E5Q3yByPs&feature=youtu.be" },
+                { "titulo": "day 6", "url": "https://www.youtube.com/watch?si=-KYzJRc2XtTsfytL&v=OuqZlRsw7NE&feature=youtu.be" },
+                { "titulo": "day 7", "url": "https://www.youtube.com/watch?v=4hyP05BgB9M&list=PLaYNhMsVRuHhY6xcwxg931ib5xCbw2zWC&index=8&ab_channel=MyEnglishBro" },
+                { "titulo": "day 8", "url": "https://www.youtube.com/watch?v=XE7dOWDGpek&ab_channel=MyEnglishBro" },
+                { "titulo": "day 9", "url": "https://www.youtube.com/watch?v=w2i-Q7YHpvc" },
+                { "titulo": "day 10", "url": "https://youtu.be/1yYDsB_X9Ow" },
+                { "titulo": "day 11", "url": "https://www.youtube.com/watch?v=G7noYDWA80I&ab_channel=MyEnglishBro" },
+                { "titulo": "day 12", "url": "https://youtu.be/96wYFY3lUh4" },
+                { "titulo": "day 13", "url": "https://www.youtube.com/watch?v=tVZPNUMq2d0&ab_channel=MyEnglishBro" },
+                { "titulo": "day 14", "url": "https://www.youtube.com/watch?v=RAY0LxAjNOk&ab_channel=MyEnglishBro" },
+                { "titulo": "day 15", "url": "https://www.youtube.com/watch?v=Czy1TEgGXu4&ab_channel=MyEnglishBro" },
+                { "titulo": "day 16", "url": "https://www.youtube.com/watch?v=NZjOZDjhK3E" },
+                { "titulo": "day 17", "url": "https://www.youtube.com/watch?v=gpbEMX4KPk8" },
+                { "titulo": "day 18", "url": "https://www.youtube.com/watch?v=ez9eoYxzU-A&ab_channel=MyEnglishBro" },
+                { "titulo": "day 19", "url": "https://youtu.be/t1njSOFuS84" },
+                { "titulo": "day 20", "url": "https://youtu.be/oNkeUNBrjG0" },
+                { "titulo": "day 21", "url": "https://youtu.be/MdL2xj330bk" },
+                { "titulo": "day 22", "url": "https://youtu.be/LYrMkpMS5RY" },
+                { "titulo": "day 23", "url": "https://youtu.be/iYdTP-7wvzc" },
+                { "titulo": "day 24", "url": "https://youtu.be/esjEITmf8Ug" },
+                { "titulo": "day 25", "url": "https://youtu.be/OxXnEdw-LdU" }
+            ],
+            
+    },
     
     
    

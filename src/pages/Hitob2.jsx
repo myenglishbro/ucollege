@@ -60,9 +60,7 @@ const Hitob2 = ({ roadmed = [], containerRefs }) => {
                           {enlace.titulo}
                         </a>
                       </div>
-                      {(i + 1) % 10 === 0 && (
-                        <img src={elemento.thumbnail} alt="Thumbnail" className="thumbnail-small" />
-                      )}
+                     
                     </React.Fragment>
                   ))}
                 </div>
