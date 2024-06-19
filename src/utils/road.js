@@ -256,29 +256,90 @@ export const road = [
             {titulo: "📖 Question words  with was / were",url: "https://docs.google.com/presentation/d/1gTtHyLBBKmepH7uHASACv4X80e5k8IKI3bVQsjjP2DA/edit?usp=sharing",},
             {titulo: "📖 Simple past Regular verbs Affirmative", url: "https://docs.google.com/presentation/d/1DpJnvEGUNzzE77-OLCgYvyTMf-o0C_PXo9-e1SLx7Fc/edit?usp=sharing",},
             {  titulo:"🧩 Simple Past Regular Verbs",url: "https://wordwall.net/play/15209/196/99109" },
+            {  titulo:"🧩 Simple Past Complete Regular Verbs",url: "https://wordwall.net/play/7639/322/54002" },
 
             {titulo: "📖 Simple past:  Irregular verbs Affirmative", url: "https://docs.google.com/presentation/d/19X3T5vbawbDcFFgxc2DlqfaFwaNsFkQMlFUsE9zgiPU/edit?usp=sharing", },
             {titulo: "📚 Los Verbos Irregulares ", url: "https://drive.google.com/file/d/1RpV1uLe-A215sfP1S954zi2zQs_XDvDg/view?usp=share_link", },
             { titulo: "📚 Los Verbos Irregulares II ", url: "https://drive.google.com/file/d/1EhALfkVQb-G5ylK9qMc674zmh8LWd-kT/view?usp=share_link",},
             {  titulo:"🧩 Simple Past Irregular Verbs",url: "https://wordwall.net/play/15208/131/43596" },
+            {  titulo:"🧩 Simple Past Irregular Verbs II",url: "https://wordwall.net/play/25350/524/3505" },
 
             {titulo: "📖 Simple past  Negative",url: "https://docs.google.com/presentation/d/1VpPwGUKg1XsZNBatr46QYnss9emq0vN_pbj_bsXKg8A/edit?usp=sharing",},
 
             {titulo: "📖 Simple past   Interrogative and  short answers",url: "https://docs.google.com/presentation/d/19tQmwXnpFBPUgtg5mN2lAovJ7oQVMeTU9M_8WOPQIhY/edit?usp=sharing",},
+            {  titulo:"🧩 Simple Past Order the",url: "https://wordwall.net/play/13891/224/58926" },
 
             {titulo: "📖 Question words + simple past",url: "https://docs.google.com/presentation/d/1xpXeEcVnzABaHDX-2agE6CjI3QL0QWi3SKhZiv6yYj4/edit?usp=sharing",},
             { titulo: "📖 SIMPLE PAST WITH WHEN CLAUSES",url: "https://docs.google.com/presentation/d/1gU_JXxoAp3KFVAe9-VI8pw-E7L4iXs_S/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true", },
-
+            {
+                titulo: "📒[slides] UNIT 5:PRESENT PERFECT AND SIMPLE PAST",
+                url: "https://docs.google.com/presentation/d/1bpMRMy7LVba68bhwB6w2KUEXmD7n-MAP/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
+            },
+            {  titulo:"🧩 Present Perfect Structure",url: "https://wordwall.net/play/3970/867/72998" },
+            {  titulo:"🧩 Present Perfect FOR VS sINCE",url: "https://wordwall.net/play/12605/576/3362" },
+            {  titulo:"🧩 Present Perfect VS sIMPLE PAST",url: "https://wordwall.net/play/3872/569/6556" },
+            {  titulo:"🧩 Present Perfect VS sIMPLE PAST II",url: "https://wordwall.net/play/3580/893/7297" },
 
             
         ],
     },
-     
     {
         id: 3,
         thumbnail:
             "https://i.ibb.co/0XR5yjD/990527648dc1fe389bb8568a632839e8-removebg-preview.png",
         title: "Basic 08",
+        subtitle: "Basic Level",
+
+        dateAdded: "Basic 0 ",
+        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
+        description: "We will learn to introduce ourselves, spell names and words, describe people, introduce family members, and provide personal information.",
+        enlaces: [
+            { titulo: "✍ Present Tense Simple and Continuous",url: "https://drive.google.com/file/d/1Gjn3DIa6xRDKcbKFvUopOvzMTA7vnW02/view?usp=sharing", },
+            { titulo: "✍ Present Tense Simple and Continuous",url: "https://drive.google.com/file/d/1fQ23Xn4bXCSZJSaHGiWf5utUXeHAK0ma/view?usp=sharing", },
+            { titulo: "✍ Present Tense Simple and Continuous",url: "https://drive.google.com/file/d/1HlMPxx9G-eXDvAkpnoYcD_qhH8DRcUt_/view?usp=sharing", },
+
+            { titulo: "✍ Past and Present Perfect Tense - Simple Form",url: "https://drive.google.com/file/d/1D6keuz7pTkAnNv7mr2WRWoNIIlR5xaAu/view?usp=sharing", },
+            { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1GWFlQ8RvPK7qb3S8HLBhKTlBONeogy0H/view?usp=sharing", },
+
+            { titulo: "✍ Past Tense: Simple and Progressive",url: "https://drive.google.com/file/d/1Cc3RqGtZefUPxDSohH0Xssr4OSO5uftZ/view?usp=sharing", },
+            { titulo: "✍ B1 Simple Past , Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/10efo7YOPNaICX_E6_DQJsYZ5ctxm2xYQ/view?usp=sharing", },
+
+           
+            { titulo: "✍ Future Tense  ",url: "https://drive.google.com/file/d/1J6r3JFYzr-U4CzRQihyMcl6uB2Ms7bu0/view?usp=sharing", },
+            { titulo: "✍ IF001 - IF-Clauses - All Types ",url: "https://drive.google.com/file/d/1zkFdLJpLESep41DLgUElfhiyuBzCU_fi/view?usp=sharing", },
+            { titulo: "✍ IF002 - IF-Clauses - All Types ",url: "https://drive.google.com/file/d/1eQ-z-lbU8tKm_BZgrrgJwfkvl2Erbf2c/view?usp=sharing", },
+
+
+            { titulo: "✍ IF003 - IF-Clauses - All Types ",url: "https://drive.google.com/file/d/182p9f-HK7c0eGODpwB3VstwcwQKgmtH7/view?usp=sharing", },
+            { titulo: "✍ IF004 - IF-Clauses - All Types ",url: "https://drive.google.com/file/d/19z4Pi3T60d7n505lFrt22npAN8bMZG4d/view?usp=sharing", },
+            { titulo: "✍ IF005 - IF-Clauses - Missing Sentence Types ",url: "https://drive.google.com/file/d/12FhAI14xsU_5O_Bau-AQFPIQPMwQrIPT/view?usp=sharing", },
+            { titulo: "✍ IF006 - IF-Clauses - Missing Sentence Types ",url: "https://drive.google.com/file/d/1FiXA09T66glsOEsLQ6zJv86uzRS5NBAC/view?usp=sharing", },
+            { titulo: "✍ IF008 - IF-Clauses - Conditional 1 ",url: "https://drive.google.com/file/d/1frj2F8CUX2wo_ASftPHyFFK037reIw9E/view?usp=sharing", },
+            { titulo: "✍ IF009 - IF-Clauses - All Types ",url: "https://drive.google.com/file/d/1dk_3njjacg-x5I-707uoA6ieWhAB8TyU/view?usp=sharing", },
+            { titulo: "✍ F010 - IF Clauses - Type 1 ",url: "https://drive.google.com/file/d/1cW9NMcLR6qwyc9TgGIgwcJl41iH9tWMA/view?usp=sharing", },
+            { titulo: "✍ IF011 - IF Clauses - Type 2 ",url: "https://drive.google.com/file/d/1H_R3hcWhSwJCTfL____KykDG1pfuyoK5/view?usp=sharing", },
+            { titulo: "✍ IF012 - IF Clauses - Type 3 ",url: "https://drive.google.com/file/d/1cG8XOFirGzvJJx7b_Xvv1c1uR38CuBlH/view?usp=sharing", },
+
+
+
+            {
+                titulo: "📒[slides] UNIT 4:PRESENT PERFECT— EVER/NEVER",
+                url: "https://docs.google.com/presentation/d/12ccx9tsZGF_Ywm7pVc-YS5m2SXiV_g9U/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
+            },
+            {
+                titulo: "📒[slides] UNIT 4:PRESENT PERFECT—HOW LONG AND FOR/SINCE",
+                url: "https://docs.google.com/presentation/d/1H5WPi2HTyUg7GHdLBuGZBXbnPHs5oG7S/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
+            },
+           
+
+            
+        ],
+    },
+    {
+        id: 3,
+        thumbnail:
+            "https://i.ibb.co/0XR5yjD/990527648dc1fe389bb8568a632839e8-removebg-preview.png",
+        title: "Basic 09",
         subtitle: "Basic Level",
 
         dateAdded: "Basic 0 ",
@@ -361,6 +422,35 @@ export const road = [
             { titulo: "✍ PA015 - Verb Tenses - Active or Passive Voice ",url: "https://drive.google.com/file/d/1J0928j_2Em_fLeSLqpxOImWcfcCCQv2L/view?usp=sharing", },
             { titulo: "✍ PA016 - A Local Sports Centre - Passive Voice ",url: "https://drive.google.com/file/d/1UZQPDIEmqOl0POB7gzbSnZo0zO6W9vzo/view?usp=sharing", },
 
+            
+        ],
+    }, {
+        id: 2,
+        thumbnail:
+            "",
+        title: "Basic 08",
+        subtitle: "Pre-Intermediate",
+
+        dateAdded: "Basic 09 ",
+        channel: "sdasd",
+        description: "Desarrollando habilidades lingüísticas fundamentales",
+        enlaces: [
+            
+            {titulo: "📒[slides] Simple present /  Present progressive",url: "https://docs.google.com/presentation/d/1aGIUs6OxD2chdWfcU7HACie_D64bc3vy3NE_OB-2Ztw/edit?usp=sharing", },
+
+            {titulo: "📒[slides] Present progressive for future",url: "https://docs.google.com/presentation/d/127VXd9ZK8i7BItgdXOik5VSWc9_G7dWRn7sMEbaFEUI/edit?usp=sharing",},
+
+            {titulo: "📒[slides] Compounds: every",url: "https://docs.google.com/presentation/d/1RmaKN7jY5ej_nCVRgFSTI1b0tCMPx7IqZxLbHvDuK_E/edit?usp=sharing",},
+           
+            
+            {titulo: "📒[slides] Comparative adjectives",url: "https://docs.google.com/presentation/d/1UwvUgRFxdCDPk648imeb3G9_V3rQ58e7UpvL7iD62lw/edit?usp=sharing", },
+            {titulo: "📒[slides] Superlative adjectives", url: "https://docs.google.com/presentation/d/1EGA1g6Wx7aQTZYGeXUkK_PDeF3CXNLcU-sFWuhpxAmQ/edit?usp=sharing",},
+            { titulo: "📒[slides] Verb + -ing form / infinitive", url: "https://docs.google.com/presentation/d/1V9GjtW5BRs2n4knhrQfQbeHkvLnJPP7tUTCmokQzeBQ/edit?usp=sharing",},
+
+            {titulo: "📒[slides] have to   Affirmative and negative",url: "https://docs.google.com/presentation/d/1ju_6UW5MqJkQx8ha63DXUkqdMIosY7yFkWo2VEFaBiM/edit?usp=sharing", },
+            {titulo: "📒[slides] must / mustn’t",url: "https://docs.google.com/presentation/d/1trH8e--NmFTr9EVn-3bCGRiMmwg829FAfxcMiM0ZluY/edit?usp=sharing",},
+            {titulo: "📒[slides] mustn’t / don’t have to", url: "https://docs.google.com/presentation/d/10cVuC3HrwV7jHSn_olYGfm3E_GibC-WeuJE3aB-mV_g/edit?usp=sharinge",},
+            
             
         ],
     },
