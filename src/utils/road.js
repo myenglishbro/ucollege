@@ -15,6 +15,8 @@ export const road = [
         description: "We will learn to introduce ourselves, spell names and words, describe people, introduce family members, and provide personal information.",
         enlaces: [
             {  titulo:"🎦 The Alphabet",url: "https://www.youtube.com/watch?v=fG9ccbmA0-o"},
+            {  titulo:"🎦 Challenge The Alphabet",url: "https://www.youtube.com/watch?v=NKZejheVK8w"},
+
             {  titulo:"📖 The Alphabet",url: "https://docs.google.com/presentation/d/1p5Qm25h1HiPBfcF4F00QICF6HrluHfSP/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
 
             {  titulo:"📒 The Alphabet + Vocabulary",url: "https://drive.google.com/file/d/1ctouVewXtHgtMBrYoOqzqfWqz0E4u6FT/view?usp=sharing"},
@@ -49,8 +51,12 @@ export const road = [
             {  titulo:"📖 The Pronouns", url: "https://docs.google.com/presentation/d/1z94b0Ju4A4PfBiyp9TK37D0Nkzt5RqmV/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
             {  titulo:"🧩Transformation ", url: "https://wordwall.net/play/16432/831/6927"},
             {  titulo:"🧩Transformation II ", url: "https://wordwall.net/play/21136/807/4521"},
+            {  titulo:"🎥 The English Map", url: "https://www.youtube.com/watch?v=fOPkF348Kgg"},
+
             {  titulo:"📖 The English Structure and Origin",url: "https://docs.google.com/presentation/d/1qJVbcSbG2GyYS2opk4HPhSQGPaTpRVBr/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" }, 
             {  titulo:"📖Introduccion Present Simple", url: "https://docs.google.com/presentation/d/1kKSj3wwoYtmVotOsbW5J9eJ9U9lG0FIb/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"🎥 PRESENT SIMPLE WITH BE", url: "https://www.youtube.com/watch?v=HbroMBQLCyQ&ab_channel=MyEnglishBro"},
+
             {  titulo:"📖The Verb Be Affirmative Form",url: "https://docs.google.com/presentation/d/1orV_Qm0QQOotooY_uEJ3Srct8EAPV2VN/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
             {  titulo:"🧩The Verb Be Affirmative Form",url: "https://wordwall.net/play/30745/553/36911" },
             {  titulo:"📃The Verb Be Affirmative Form",url: "https://drive.google.com/file/d/1rTn31H9zJcXSRVNm1MGJ-se_3PFChW_N/view?usp=sharing" },
