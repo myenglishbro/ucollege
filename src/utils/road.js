@@ -7,21 +7,38 @@ export const road = [
             "https://i.ibb.co/B6gr9Gd/Black-White-and-Red-Simple-Shield-Shape-Football-Club-Logo-2-removebg-preview.png",
              thumbnail2:
             "https://i.ibb.co/r6KMRrK/curve.png",
-        title: "Basic 01",
+        title: "Level 01",
         subtitle: "Basic Level",
 
         dateAdded: "Basic 0 ",
         channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
-        description: "We will learn to introduce ourselves, spell names and words, describe people, introduce family members, and provide personal information.",
+        description: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
         enlaces: [
-            {  titulo:"🎦 The Alphabet",url: "https://www.youtube.com/watch?v=fG9ccbmA0-o"},
-            {  titulo:"🎦 Challenge The Alphabet",url: "https://www.youtube.com/watch?v=NKZejheVK8w"},
+            {  titulo:"[🖥️Class] The Alphabet",url: "https://www.youtube.com/watch?v=fG9ccbmA0-o"},
+            {  titulo:"[🗂️Slide] The Alphabet",url: "https://docs.google.com/presentation/d/1p5Qm25h1HiPBfcF4F00QICF6HrluHfSP/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
+            {  titulo:"[🖥️Challenge] Spelling Names",url: "https://www.youtube.com/watch?v=NKZejheVK8w"},
+            {  titulo:"[🗂️Slide] Spelling Names",url: "https://docs.google.com/presentation/d/1QJfnfrNOqtjmpGcj_NqfpQP37zaLLh_W/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
+            {  titulo:"[🖥️Class] The English Structure ", url: "https://youtu.be/h4uL68plGkw?si=anrtlRavkFlaRK9K"},
+            {  titulo:"[🗂️Slide] The English Structure", url: "https://docs.google.com/presentation/d/161TA3DKqAAgy8HJFo_BzyM8-CxpseNXZ/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
+            {  titulo:"[🖥️Class] The Pronouns & Transformation", url: "https://www.youtube.com/watch?v=2Ty1I6hMq-g"},
+            {  titulo:"[🗂️Slide] The Pronouns & Transformation", url: "https://docs.google.com/presentation/d/1g9oaA24WsKlcS8P32zYHtdWGiRcyAIAi/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
+            {  titulo:"[🧩 Activity] Transformation ", url: "https://wordwall.net/play/16432/831/6927"},
+            {  titulo:"[🧩 Activity]Transformation II ", url: "https://wordwall.net/play/21136/807/4521"},
+            {  titulo:"[🖥️Class] The English Map", url: "https://www.youtube.com/watch?v=fOPkF348Kgg"},
+            {  titulo:"[🗂️Slide] The English Map", url: "https://docs.google.com/presentation/d/1C4u_yBRUiccDNiCFnz3n5kCWkqO8aJDz/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
 
-            {  titulo:"📖 The Alphabet",url: "https://docs.google.com/presentation/d/1p5Qm25h1HiPBfcF4F00QICF6HrluHfSP/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
+            {  titulo:"[🖥️Class] Prensent Simple with Be", url: "https://www.youtube.com/watch?v=HbroMBQLCyQ&ab_channel=MyEnglishBro"},
+            {  titulo:"[🧩 Activity] The Verb Be Affirmative Form",url: "https://wordwall.net/play/30745/553/36911" },
+            {  titulo:"[🧩 Activity] The Verb Be Negative Form", url: "https://wordwall.net/play/21158/025/3896" },
+            {  titulo:"[🧩 Activity] The Verb Be Negative and Interrogative Form", url: "https://wordwall.net/play/20499/847/2443"},
 
-            {  titulo:"📒 The Alphabet + Vocabulary",url: "https://drive.google.com/file/d/1ctouVewXtHgtMBrYoOqzqfWqz0E4u6FT/view?usp=sharing"},
-
-            {  titulo:"🧩 Greetings ", url: "https://wordwall.net/play/12428/995/16103",mensaje:"ssdadasdasd"},
+            {  titulo:"[🔖Practice]The Verb Be Affirmative Form",url: "https://drive.google.com/file/d/1fieorI4c7zCUt6ltKNrXlVX8aPXogvcb/view?usp=sharing" },
+            {  titulo:"[🔖Practice]The Verb Be Negative Form",url: "https://drive.google.com/file/d/15uWVRNGSUj0D8zZQ-O6K-UjTiArG5TA3/view?usp=sharing" },
+            {  titulo:"[🔖Practice]The Verb Be Yes/No Questions",url: "https://drive.google.com/file/d/1s7zZgtpqjsuc3i81bFhfj7PhUWrNoUX7/view?usp=sharing" },
+            {  titulo:"[🔖Practice]The Verb Be Wh Questions ",url: "https://drive.google.com/file/d/1MFejzFjYgHoSPlsoNQLF07R4-y107XcC/view?usp=sharing" },
+            {  titulo:"[🔖Practice]The Verb Be Mixed I ",url: "https://drive.google.com/file/d/1NVzc8Cl78PSxJfxwJJQCb4JH8EKcpVKT/view?usp=sharing" },
+            {  titulo:"[🔖Practice]The Verb Be Mixed II ",url: "https://drive.google.com/file/d/1qqvXwkB_yUCHU4nAOaItjenf8AwaBy6p/view?usp=sharing" },
+            {  titulo:"📃The Verb Be Affirmative Form",url: "https://drive.google.com/file/d/1rTn31H9zJcXSRVNm1MGJ-se_3PFChW_N/view?usp=sharing" },
             {  titulo:"🧩 Greetings II  ", url: "https://wordwall.net/play/11151/197/57293"},
             {  titulo:"🧩 Greetings III  ", url: "https://wordwall.net/play/17057/715/209"},
             {  titulo:"🧩 Greetings IV  ", url: "https://wordwall.net/play/27174/408/7224"},
@@ -45,26 +62,7 @@ export const road = [
             {  titulo:"🧩 The Time  II", url: "https://wordwall.net/play/11993/400/13264"},
             {  titulo:"📖 Seasons of the Year",url: "https://docs.google.com/presentation/d/1Ji0bSleS_268aZaK6RUvNEsB4dAK4mno/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
             {  titulo:"🧩 Seasons of the Year",url: "https://wordwall.net/play/18524/265/35686" },
-            {  titulo:"🎥 The English Structure ", url: "https://youtu.be/h4uL68plGkw?si=anrtlRavkFlaRK9K"},
-
-            {  titulo:"🎥 The Pronouns & Transformation", url: "https://www.youtube.com/watch?v=2Ty1I6hMq-g"},
-            {  titulo:"📖 The Pronouns", url: "https://docs.google.com/presentation/d/1z94b0Ju4A4PfBiyp9TK37D0Nkzt5RqmV/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
-            {  titulo:"🧩Transformation ", url: "https://wordwall.net/play/16432/831/6927"},
-            {  titulo:"🧩Transformation II ", url: "https://wordwall.net/play/21136/807/4521"},
-            {  titulo:"🎥 The English Map", url: "https://www.youtube.com/watch?v=fOPkF348Kgg"},
-
-            {  titulo:"📖 The English Structure and Origin",url: "https://docs.google.com/presentation/d/1qJVbcSbG2GyYS2opk4HPhSQGPaTpRVBr/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" }, 
-            {  titulo:"📖Introduccion Present Simple", url: "https://docs.google.com/presentation/d/1kKSj3wwoYtmVotOsbW5J9eJ9U9lG0FIb/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
-            {  titulo:"🎥 PRESENT SIMPLE WITH BE", url: "https://www.youtube.com/watch?v=HbroMBQLCyQ&ab_channel=MyEnglishBro"},
-            {  titulo:"🔖The Verb Be Affirmative Form",url: "https://drive.google.com/file/d/1fieorI4c7zCUt6ltKNrXlVX8aPXogvcb/view?usp=sharing" },
-            {  titulo:"🔖The Verb Be Negative Form",url: "https://drive.google.com/file/d/15uWVRNGSUj0D8zZQ-O6K-UjTiArG5TA3/view?usp=sharing" },
-            {  titulo:"🔖The Verb Be Yes/No Questions",url: "https://drive.google.com/file/d/1s7zZgtpqjsuc3i81bFhfj7PhUWrNoUX7/view?usp=sharing" },
-            {  titulo:"🔖The Verb Be Wh Questions ",url: "https://drive.google.com/file/d/1MFejzFjYgHoSPlsoNQLF07R4-y107XcC/view?usp=sharing" },
-            {  titulo:"🔖The Verb Be Mixed I ",url: "https://drive.google.com/file/d/1NVzc8Cl78PSxJfxwJJQCb4JH8EKcpVKT/view?usp=sharing" },
-            {  titulo:"🔖The Verb Be Mixed II ",url: "https://drive.google.com/file/d/1qqvXwkB_yUCHU4nAOaItjenf8AwaBy6p/view?usp=sharing" },
-            {  titulo:"📖The Verb Be Affirmative Form",url: "https://docs.google.com/presentation/d/1orV_Qm0QQOotooY_uEJ3Srct8EAPV2VN/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
-            {  titulo:"🧩The Verb Be Affirmative Form",url: "https://wordwall.net/play/30745/553/36911" },
-            {  titulo:"📃The Verb Be Affirmative Form",url: "https://drive.google.com/file/d/1rTn31H9zJcXSRVNm1MGJ-se_3PFChW_N/view?usp=sharing" },
+          
             {  titulo:"📖Countries/Nationalities + Extra grammar +Review Chart",url: "https://drive.google.com/file/d/12xOlTvoKpFlSGRJboWF1BvNsk4cqAixC/view?usp=sharing"},
 
             {  titulo:"📖 Professions",url: "https://docs.google.com/document/d/18WYvZntiIyTldbpPtcljy2bH27wKkud8/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
@@ -73,11 +71,9 @@ export const road = [
             {  titulo:"📖Possessive", url: "https://docs.google.com/presentation/d/1UijMuEx-DdbZETXjEUUtT6IPkWF0az2w/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
             {  titulo:"🧩Possessive Pronouns", url: "https://wordwall.net/play/52592/500/1753"},
             {  titulo:"📖 The Verb Be Negative and Interrogative Form", url: "https://docs.google.com/presentation/d/1-37e0Rj12xLoLJ8AIadt47Q0q-D8JbkR/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
-            {  titulo:"🧩The Verb Be Negative Form", url: "https://wordwall.net/play/21158/025/3896" },
             {  titulo:"🚩Writing Quiz", url: "https://forms.gle/3NtJ7jPcPw1mzfrJA"},
             {  titulo:"🚩 Speaking Quiz", url: "https://forms.gle/L3nHmas8FZfVB9hD6"},
 
-            {  titulo:"🧩 The Verb Be Negative and Interrogative Form", url: "https://wordwall.net/play/20499/847/2443"},
             {  titulo:"📖  Be-WH Questions", url: "https://docs.google.com/presentation/d/1QzcM-95Md4pWWy1d6BzM2CX2klPaPbXT/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
             {  titulo:"📖Correct the Sentences with The Verb Be in Questions",url: "https://docs.google.com/presentation/d/1PmPGCCydt73O4vXTB9ThQdiMk-zSdZs0/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",},
 
@@ -99,7 +95,7 @@ export const road = [
         id: 2,
         thumbnail:
             "https://i.ibb.co/kgxj037/Black-White-and-Red-Simple-Shield-Shape-Football-Club-Logo-3-removebg-preview.png",
-        title: "Basic 02",
+        title: "Level 02",
         subtitle: "Basic Level",
 
         dateAdded: "Basic 0 ",
@@ -238,9 +234,9 @@ export const road = [
         id: 3,
         thumbnail:
             "https://i.ibb.co/rcqJNmR/Black-White-and-Red-Simple-Shield-Shape-Football-Club-Logo-4-removebg-preview.png",
-        title: "Basic 03",
+        title: "Level 03",
         subtitle: "Basic Level",
-        className: "custom-class",  // Nueva propiedad className
+     
 
         dateAdded: "Basic 0 ",
         channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
@@ -265,7 +261,7 @@ export const road = [
         id: 3,
         thumbnail:
             "https://i.ibb.co/0XR5yjD/990527648dc1fe389bb8568a632839e8-removebg-preview.png",
-        title: "Basic 04",
+        title: "Level 04",
         subtitle: "Basic Level",
 
         dateAdded: "Basic 0 ",
@@ -312,7 +308,7 @@ export const road = [
         id: 3,
         thumbnail:
             "https://i.ibb.co/0XR5yjD/990527648dc1fe389bb8568a632839e8-removebg-preview.png",
-        title: "Basic 08",
+        title: "Level 08",
         subtitle: "Basic Level",
 
         dateAdded: "Basic 0 ",
@@ -364,7 +360,7 @@ export const road = [
         id: 3,
         thumbnail:
             "https://i.ibb.co/0XR5yjD/990527648dc1fe389bb8568a632839e8-removebg-preview.png",
-        title: "Basic 09",
+        title: "Level 09",
         subtitle: "Basic Level",
 
         dateAdded: "Basic 0 ",
@@ -419,7 +415,7 @@ export const road = [
         id: 3,
         thumbnail:
             "https://i.ibb.co/0XR5yjD/990527648dc1fe389bb8568a632839e8-removebg-preview.png",
-        title: "B2",
+        title: "Level 10",
         subtitle: "Passive Voice",
 
         dateAdded: "Basic 0 ",
@@ -453,7 +449,7 @@ export const road = [
         id: 2,
         thumbnail:
             "",
-        title: "Basic 08",
+        title: "Level 11",
         subtitle: "Pre-Intermediate",
 
         dateAdded: "Basic 09 ",
@@ -483,7 +479,7 @@ export const road = [
         id: 2,
         thumbnail:
             "",
-        title: "A2",
+        title: "Level 12",
         subtitle: "Pre-Intermediate",
 
         dateAdded: "Basic 01 ",

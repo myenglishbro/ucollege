@@ -287,7 +287,7 @@
 .timeline-number {
   width: 40px;
   height: 40px;
-  border-radius: 50%;
+  border-radius: 30%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -295,13 +295,13 @@
   font-weight: bold;
   margin-right: 1rem;
   color: #ffffff;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4), inset 0 0 10px rgba(255, 255, 255, 0.3); /* Outer and inner shadow for 3D effect */
   transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+  background-size: cover; /* Ajustar el tamaño de la imagen para cubrir el contenedor */
+  background-position: center; /* Centrar la imagen */
 }
 
 .timeline-number:hover {
   transform: translateY(-5px); /* Hover lift effect */
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6), inset 0 0 15px rgba(255, 255, 255, 0.4); /* Enhanced shadow on hover */
 }
 
 .link {
@@ -336,35 +336,35 @@
 }
 
 .link:hover {
-  transform: translateY(-5px); /* Hover lift effect */
+  transform: translateY(-1px); /* Hover lift effect */
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6); /* Enhanced shadow on hover */
 }
 
 .timeline-left .timeline-number {
-  background-color: #FF5733; /* Naranja */
+  background-image: url('https://i.ibb.co/yWLJcwx/Group-4.png'); /* Añadir la imagen de fondo */
+
 }
 
 .timeline-right .timeline-number {
-  background-color: #7D3C98; /* Morado */
+  background-image: url('https://i.ibb.co/vBbpXrJ/Group-3.png'); /* Añadir la imagen de fondo */
+
 }
 
 .timeline-left .link {
-  background-color: #FF5733; /* Naranja */
+  background-image: url('https://i.ibb.co/vBbpXrJ/Group-3.png'); /* Añadir la imagen de fondo */
   border: 2px solid #FF5733;
 }
 
 .timeline-left .link:hover {
-  background-color: #FF6F3D; /* Tono más claro de naranja */
   border-color: #FF6F3D;
+
 }
 
 .timeline-right .link {
-  background-color: #7D3C98; /* Morado */
   border: 2px solid #7D3C98;
 }
 
 .timeline-right .link:hover {
-  background-color: #9250AD; /* Tono más claro de morado */
   border-color: #9250AD;
 }
 
@@ -409,16 +409,6 @@
 .roadmap-step:hover {
   transform: translateY(-10px); /* Hover lift effect */
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.6), inset 0 0 15px rgba(255, 255, 255, 0.2); /* Enhanced shadow on hover */
-}
-
-.roadmap-step.with-line::after {
-  content: '';
-  position: absolute;
-  left: 50%;
-  bottom: -2rem;
-  width: 2px;
-  height: 2rem;
-  background-color: #4a5568;
 }
 
 .step-thumbnail {
@@ -507,29 +497,4 @@
   .sidebar-toggle {
     display: none; /* Ocultar botón de menú en pantallas grandes */
   }
-}
-
-/* Custom Class para cambiar el color del sidebar y otros elementos */
-.custom-class .sidebar {
-  background-color: red; /* Nuevo color de fondo del sidebar */
-}
-
-.custom-class .sidebar-button {
-  color: #e2e8f0; /* Color de texto para los botones del sidebar */
-}
-
-.custom-class .sidebar-button:hover {
-  background-color: #5a6778; /* Color de fondo al pasar el ratón sobre los botones del sidebar */
-}
-
-.custom-class .roadmap-container {
-  background: #2a2a2a; /* Fondo del contenedor del roadmap */
-}
-
-.custom-class .roadmap-step {
-  background-color: #3b3b3b; /* Fondo de cada paso del roadmap */
-}
-
-.custom-class .roadmap-step:hover {
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.6), inset 0 0 15px rgba(255, 255, 255, 0.2); /* Sombra mejorada al pasar el ratón sobre cada paso */
 }

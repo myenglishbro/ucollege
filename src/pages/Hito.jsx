@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import styles, { layout } from "../style";
 import "../index.css"
+
 const Hito = ({ road, containerRefs }) => {
   const [activeIndex, setActiveIndex] = useState(null);
 
@@ -19,7 +20,7 @@ const Hito = ({ road, containerRefs }) => {
       {road.map((elemento, index) => (
         <div 
           key={index} 
-          className={`roadmap-step ${index !== road.length - 1 ? 'with-line' : ''} ${elemento.className || ''}`} // Aplicar clase personalizada si existe
+          className="roadmap-step" // Removed custom class application
           ref={el => (containerRefs.current[index] = el)}
         >
           <div className="step-thumbnail">
@@ -28,7 +29,7 @@ const Hito = ({ road, containerRefs }) => {
           <div className={`${layout.sectionImg} flex-col`}>
             <section className={`${styles.flexCenter} flex-row flex-wrap sm:mb-2 mb-6`}>
               <div 
-                className={`flex-1 flex justify-start items-center flex-row m-3 cursor-pointer`}
+                className="flex-1 flex justify-start items-center flex-row m-3 cursor-pointer"
                 onClick={() => toggleAccordion(index)}
               >
                 <h4 className={styles.heading2}>
