@@ -382,6 +382,7 @@
   justify-content: flex-end;
 }
 
+/* Estilos generales para el contenedor del roadmap */
 .roadmap-container {
   display: flex;
   flex-direction: column;
@@ -446,8 +447,6 @@
   overflow: hidden;
 }
 
-
-
 .sidebar {
   position: fixed;
   left: -200px; /* Ocultar sidebar por defecto */
@@ -510,3 +509,27 @@
   }
 }
 
+/* Custom Class para cambiar el color del sidebar y otros elementos */
+.custom-class .sidebar {
+  background-color: red; /* Nuevo color de fondo del sidebar */
+}
+
+.custom-class .sidebar-button {
+  color: #e2e8f0; /* Color de texto para los botones del sidebar */
+}
+
+.custom-class .sidebar-button:hover {
+  background-color: #5a6778; /* Color de fondo al pasar el ratón sobre los botones del sidebar */
+}
+
+.custom-class .roadmap-container {
+  background: #2a2a2a; /* Fondo del contenedor del roadmap */
+}
+
+.custom-class .roadmap-step {
+  background-color: #3b3b3b; /* Fondo de cada paso del roadmap */
+}
+
+.custom-class .roadmap-step:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.6), inset 0 0 15px rgba(255, 255, 255, 0.2); /* Sombra mejorada al pasar el ratón sobre cada paso */
+}

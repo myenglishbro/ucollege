@@ -56,7 +56,12 @@ export const road = [
             {  titulo:"📖 The English Structure and Origin",url: "https://docs.google.com/presentation/d/1qJVbcSbG2GyYS2opk4HPhSQGPaTpRVBr/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" }, 
             {  titulo:"📖Introduccion Present Simple", url: "https://docs.google.com/presentation/d/1kKSj3wwoYtmVotOsbW5J9eJ9U9lG0FIb/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
             {  titulo:"🎥 PRESENT SIMPLE WITH BE", url: "https://www.youtube.com/watch?v=HbroMBQLCyQ&ab_channel=MyEnglishBro"},
-
+            {  titulo:"🔖The Verb Be Affirmative Form",url: "https://drive.google.com/file/d/1fieorI4c7zCUt6ltKNrXlVX8aPXogvcb/view?usp=sharing" },
+            {  titulo:"🔖The Verb Be Negative Form",url: "https://drive.google.com/file/d/15uWVRNGSUj0D8zZQ-O6K-UjTiArG5TA3/view?usp=sharing" },
+            {  titulo:"🔖The Verb Be Yes/No Questions",url: "https://drive.google.com/file/d/1s7zZgtpqjsuc3i81bFhfj7PhUWrNoUX7/view?usp=sharing" },
+            {  titulo:"🔖The Verb Be Wh Questions ",url: "https://drive.google.com/file/d/1MFejzFjYgHoSPlsoNQLF07R4-y107XcC/view?usp=sharing" },
+            {  titulo:"🔖The Verb Be Mixed I ",url: "https://drive.google.com/file/d/1NVzc8Cl78PSxJfxwJJQCb4JH8EKcpVKT/view?usp=sharing" },
+            {  titulo:"🔖The Verb Be Mixed II ",url: "https://drive.google.com/file/d/1qqvXwkB_yUCHU4nAOaItjenf8AwaBy6p/view?usp=sharing" },
             {  titulo:"📖The Verb Be Affirmative Form",url: "https://docs.google.com/presentation/d/1orV_Qm0QQOotooY_uEJ3Srct8EAPV2VN/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
             {  titulo:"🧩The Verb Be Affirmative Form",url: "https://wordwall.net/play/30745/553/36911" },
             {  titulo:"📃The Verb Be Affirmative Form",url: "https://drive.google.com/file/d/1rTn31H9zJcXSRVNm1MGJ-se_3PFChW_N/view?usp=sharing" },
@@ -106,6 +111,19 @@ export const road = [
             {  titulo:"📖 Present Simple Tense ",url: "https://docs.google.com/presentation/d/1xFAOT8P0zUAQ2ZIiJlGb9w-2S_WiofPNm8toYRGuagA/edit?usp=sharing" },
             {  titulo:"🧩Present Simple Tense Affirmative Form Rules",url: "https://wordwall.net/play/28761/823/4170" },
             {  titulo:"🧩 Present Simple Tense Affirmative Form",url: "https://wordwall.net/play/57830/431/8032" },
+            {  titulo:"🔖Spelling Changes",url: "https://drive.google.com/file/d/1dpWuDqqkIR8au1C1PERB6pOz5H-ivktU/view?usp=sharing" },
+
+            {  titulo:"🔖Present Simple Affirmative Form I",url: "https://drive.google.com/file/d/1gn1jk2vGP960VU-D_9IU9QknhCfDbLQ_/view?usp=sharing" },
+            {  titulo:"🔖Present Simple Affirmative Form II",url: "https://drive.google.com/file/d/1RMuY04Q492JcJOO8goK8-JQp9kLktCYK/view?usp=sharing" },
+            {  titulo:"🔖Present Simple Negative Form I",url: "https://drive.google.com/file/d/1dvhm4IVAk_jXGiq86I0i6lBxZzLlA7v-/view?usp=sharing" },
+            {  titulo:"🔖Present Simple Negative Form II",url: "https://drive.google.com/file/d/1BCabvvBOmmIuh6lD5XRMWwch1l0oP-54/view?usp=sharing" },
+            {  titulo:"🔖Present Simple Yes/No Question ",url: "https://drive.google.com/file/d/1buU-xEfNvhliFhUqmIMQrKWAnPDCXlU7/view?usp=sharing" },
+            {  titulo:"🔖Present Simple Wh Question ",url: "https://drive.google.com/file/d/1fCLeWwtj35ziI_NLborQ2Mo1swL-m_rU/view?usp=sharing" },
+            {  titulo:"🔖Present Simple Mixed I  ",url: "https://drive.google.com/file/d/1wS1NV6i_XfNKTVSEDyIX-BJ3xkkgfmwX/view?usp=sharing" },
+            {  titulo:"🔖Present Simple Mixed II  ",url: "https://drive.google.com/file/d/1dbIdnY51wBQl5SxyYuqxVQF2GqioLRlt/view?usp=sharing" },
+            {  titulo:"🔖Present Simple Mixed III  ",url: "https://drive.google.com/file/d/1SXoJvjOeeYoEbPv1-9JrSCZvJWMiorgB/view?usp=sharing" },
+            {  titulo:"🔖Present Simple Mixed IV  ",url: "https://drive.google.com/file/d/1F6rawDVqTKM8NiTxMWDmNVxGIHKALDRx/view?usp=sharing" },
+
             {  titulo:"🚩 Listening Quiz", url: "https://forms.gle/6GitkPaDLfMyah3n7"},
 
             {  titulo:"📖 Possesive Adjectives", url: "https://docs.google.com/presentation/d/1zkn5eJjUJTDUUjOU45ZZIRu8-7c9saPO/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
@@ -222,6 +240,7 @@ export const road = [
             "https://i.ibb.co/rcqJNmR/Black-White-and-Red-Simple-Shield-Shape-Football-Club-Logo-4-removebg-preview.png",
         title: "Basic 03",
         subtitle: "Basic Level",
+        className: "custom-class",  // Nueva propiedad className
 
         dateAdded: "Basic 0 ",
         channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",

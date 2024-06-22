@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import styles, { layout } from "../style";
-
+import "../index.css"
 const Hito = ({ road, containerRefs }) => {
   const [activeIndex, setActiveIndex] = useState(null);
 
@@ -19,7 +19,7 @@ const Hito = ({ road, containerRefs }) => {
       {road.map((elemento, index) => (
         <div 
           key={index} 
-          className={`roadmap-step ${index !== road.length - 1 ? 'with-line' : ''}`}
+          className={`roadmap-step ${index !== road.length - 1 ? 'with-line' : ''} ${elemento.className || ''}`} // Aplicar clase personalizada si existe
           ref={el => (containerRefs.current[index] = el)}
         >
           <div className="step-thumbnail">
