@@ -22,15 +22,20 @@ export const road = [
             {  titulo:"[🗂️Slide] The English Structure", url: "https://docs.google.com/presentation/d/161TA3DKqAAgy8HJFo_BzyM8-CxpseNXZ/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
             {  titulo:"[🖥️Class] The Pronouns & Transformation", url: "https://www.youtube.com/watch?v=2Ty1I6hMq-g"},
             {  titulo:"[🗂️Slide] The Pronouns & Transformation", url: "https://docs.google.com/presentation/d/1g9oaA24WsKlcS8P32zYHtdWGiRcyAIAi/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
-            {  titulo:"[🧩 Activity] Transformation ", url: "https://wordwall.net/play/16432/831/6927"},
-            {  titulo:"[🧩 Activity]Transformation II ", url: "https://wordwall.net/play/21136/807/4521"},
+           
             {  titulo:"[🖥️Class] The English Map", url: "https://www.youtube.com/watch?v=fOPkF348Kgg"},
             {  titulo:"[🗂️Slide] The English Map", url: "https://docs.google.com/presentation/d/1C4u_yBRUiccDNiCFnz3n5kCWkqO8aJDz/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
 
             {  titulo:"[🖥️Class] Prensent Simple with Be", url: "https://www.youtube.com/watch?v=HbroMBQLCyQ&ab_channel=MyEnglishBro"},
-            {  titulo:"[🧩 Activity] The Verb Be Affirmative Form",url: "https://wordwall.net/play/30745/553/36911" },
+            {  titulo:"[🧩 Activity] The Verb Be Affirmative Form I", url: "https://wordwall.net/play/13293/724/51767" },
+            {  titulo:"[🧩 Activity] The Verb Be Affirmative Form II", url: "https://wordwall.net/play/14390/465/80013" },
+            {  titulo:"[🧩 Activity] The Verb Be Affirmative Form III", url: "https://wordwall.net/play/11554/389/1088" },
+
             {  titulo:"[🧩 Activity] The Verb Be Negative Form", url: "https://wordwall.net/play/21158/025/3896" },
-            {  titulo:"[🧩 Activity] The Verb Be Negative and Interrogative Form", url: "https://wordwall.net/play/20499/847/2443"},
+            {  titulo:"[🧩 Activity] The Verb Be Negative Form II", url: "https://wordwall.net/play/21158/025/8719" },
+
+            {  titulo:"[🧩 Activity] The Verb Be Interrogative Form I", url: "https://wordwall.net/play/1856/077/57902" },
+            {  titulo:"[🧩 Activity] The Verb Be Interrogative Form II", url: "https://wordwall.net/play/58086/380/593" },
 
             {  titulo:"[🔖Practice]The Verb Be Affirmative Form",url: "https://drive.google.com/file/d/1fieorI4c7zCUt6ltKNrXlVX8aPXogvcb/view?usp=sharing" },
             {  titulo:"[🔖Practice]The Verb Be Negative Form",url: "https://drive.google.com/file/d/15uWVRNGSUj0D8zZQ-O6K-UjTiArG5TA3/view?usp=sharing" },
