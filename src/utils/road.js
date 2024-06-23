@@ -18,6 +18,8 @@ export const road = [
             {  titulo:"[🗂️Slide] The Alphabet",url: "https://docs.google.com/presentation/d/1p5Qm25h1HiPBfcF4F00QICF6HrluHfSP/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
             {  titulo:"[🖥️Challenge] Spelling Names",url: "https://www.youtube.com/watch?v=NKZejheVK8w"},
             {  titulo:"[🗂️Slide] Spelling Names",url: "https://docs.google.com/presentation/d/1QJfnfrNOqtjmpGcj_NqfpQP37zaLLh_W/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
+            {  titulo:"[🧩 Activity] Greetings ", url: "https://wordwall.net/play/17057/715/209"},
+
             {  titulo:"[🖥️Class] The English Structure ", url: "https://youtu.be/h4uL68plGkw?si=anrtlRavkFlaRK9K"},
             {  titulo:"[🗂️Slide] The English Structure", url: "https://docs.google.com/presentation/d/161TA3DKqAAgy8HJFo_BzyM8-CxpseNXZ/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
             {  titulo:"[🖥️Class] The Pronouns & Transformation", url: "https://www.youtube.com/watch?v=2Ty1I6hMq-g"},
@@ -25,18 +27,17 @@ export const road = [
            
             {  titulo:"[🖥️Class] The English Map", url: "https://www.youtube.com/watch?v=fOPkF348Kgg"},
             {  titulo:"[🗂️Slide] The English Map", url: "https://docs.google.com/presentation/d/1C4u_yBRUiccDNiCFnz3n5kCWkqO8aJDz/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
-
+            {  titulo:"[🗂️Slide] Adjectives",url: "https://docs.google.com/presentation/d/1kfRo9rtah5D8Afgsj8zbV5iC1c1pOPju/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
+            {  titulo:"[🗂️Slide] Indefinite Articles ", url: "https://docs.google.com/presentation/d/1-lqXRswgjGXe05eh_waU0tBDo-YT45JC/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
+            {  titulo:"[🧩 Activity] Indefinite Articles ", url: "https://wordwall.net/play/25729/634/81869"},
             {  titulo:"[🖥️Class] Prensent Simple with Be", url: "https://www.youtube.com/watch?v=HbroMBQLCyQ&ab_channel=MyEnglishBro"},
             {  titulo:"[🧩 Activity] The Verb Be Affirmative Form I", url: "https://wordwall.net/play/13293/724/51767" },
             {  titulo:"[🧩 Activity] The Verb Be Affirmative Form II", url: "https://wordwall.net/play/14390/465/80013" },
             {  titulo:"[🧩 Activity] The Verb Be Affirmative Form III", url: "https://wordwall.net/play/11554/389/1088" },
-
             {  titulo:"[🧩 Activity] The Verb Be Negative Form", url: "https://wordwall.net/play/21158/025/3896" },
             {  titulo:"[🧩 Activity] The Verb Be Negative Form II", url: "https://wordwall.net/play/21158/025/8719" },
-
             {  titulo:"[🧩 Activity] The Verb Be Interrogative Form I", url: "https://wordwall.net/play/1856/077/57902" },
             {  titulo:"[🧩 Activity] The Verb Be Interrogative Form II", url: "https://wordwall.net/play/58086/380/593" },
-
             {  titulo:"[🔖Practice]The Verb Be Affirmative Form",url: "https://drive.google.com/file/d/1fieorI4c7zCUt6ltKNrXlVX8aPXogvcb/view?usp=sharing" },
             {  titulo:"[🔖Practice]The Verb Be Negative Form",url: "https://drive.google.com/file/d/15uWVRNGSUj0D8zZQ-O6K-UjTiArG5TA3/view?usp=sharing" },
             {  titulo:"[🔖Practice]The Verb Be Yes/No Questions",url: "https://drive.google.com/file/d/1s7zZgtpqjsuc3i81bFhfj7PhUWrNoUX7/view?usp=sharing" },
@@ -44,18 +45,10 @@ export const road = [
             {  titulo:"[🔖Practice]The Verb Be Mixed I ",url: "https://drive.google.com/file/d/1NVzc8Cl78PSxJfxwJJQCb4JH8EKcpVKT/view?usp=sharing" },
             {  titulo:"[🔖Practice]The Verb Be Mixed II ",url: "https://drive.google.com/file/d/1qqvXwkB_yUCHU4nAOaItjenf8AwaBy6p/view?usp=sharing" },
             {  titulo:"📃The Verb Be Affirmative Form",url: "https://drive.google.com/file/d/1rTn31H9zJcXSRVNm1MGJ-se_3PFChW_N/view?usp=sharing" },
-            {  titulo:"🧩 Greetings II  ", url: "https://wordwall.net/play/11151/197/57293"},
-            {  titulo:"🧩 Greetings III  ", url: "https://wordwall.net/play/17057/715/209"},
-            {  titulo:"🧩 Greetings IV  ", url: "https://wordwall.net/play/27174/408/7224"},
-            {  titulo:"🧩 Family members   ", url: "https://wordwall.net/play/22539/017/5875"},
-            {  titulo:"🧩 Family members I  ", url: "https://wordwall.net/play/7464/509/17058"},
-            {  titulo:"🧩 Family members II  ", url: "https://wordwall.net/play/16152/186/64342"},
-            {  titulo:"📖 The Articles ", url: "https://docs.google.com/presentation/d/11Xf9HvxN9IHX2C7X7nloNSMnPksIA7vt/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
-            {  titulo:"🧩The Articles ", url: "https://wordwall.net/play/25729/634/81869"},
-            {  titulo:"📖 Plural Nouns", url: "https://docs.google.com/presentation/d/1WZGbWYGI3P8CfiCJjsSB5JrbWohq7RV3Z7dzO5ei36M/edit?usp=sharing"},
-            {  titulo:"📖Adjectives in English",url: "https://docs.google.com/presentation/d/1JZQVaN6ZEBEv_P5sq8fV0P8JERf_SqTS11-eu9kl_og/edit?usp=sharing"},
+           
 
-            {  titulo:"🧩 Days of the week ", url: "https://wordwall.net/play/22419/293/58122"},
+            {  titulo:"📖 Plural Nouns", url: "https://docs.google.com/presentation/d/1WZGbWYGI3P8CfiCJjsSB5JrbWohq7RV3Z7dzO5ei36M/edit?usp=sharing"},
+
             {  titulo:"📖The Numbers and The Time", url: "https://docs.google.com/presentation/d/1oNoA0RqXDuy5AmH_NdwZKS1minGfr-R_/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
           
             {  titulo:"🧩The Numbers", url: "https://wordwall.net/play/17273/376/89817"},
@@ -109,21 +102,22 @@ export const road = [
         enlaces: [
             {  titulo:"📖 Demostrative Adjectives ",url: "https://docs.google.com/presentation/d/1EkjxtqncsZP9UV3IPsp8x_3V2PIIo7nE/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",},
             {  titulo:"📖 Professions",url: "https://docs.google.com/document/d/18WYvZntiIyTldbpPtcljy2bH27wKkud8/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
-            {  titulo:"📖 Present Simple Tense ",url: "https://docs.google.com/presentation/d/1xFAOT8P0zUAQ2ZIiJlGb9w-2S_WiofPNm8toYRGuagA/edit?usp=sharing" },
-            {  titulo:"🧩Present Simple Tense Affirmative Form Rules",url: "https://wordwall.net/play/28761/823/4170" },
-            {  titulo:"🧩 Present Simple Tense Affirmative Form",url: "https://wordwall.net/play/57830/431/8032" },
-            {  titulo:"🔖Spelling Changes",url: "https://drive.google.com/file/d/1dpWuDqqkIR8au1C1PERB6pOz5H-ivktU/view?usp=sharing" },
+            {  titulo:"[🗂️Slide] Present Simple Tense Affirmative ",url: "https://docs.google.com/presentation/d/1hWVK_6KkwKxRtWJtx0TL-A4K5oPMdUQJ/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true" },
+            {  titulo:"[🧩 Activity] 3rd Person Rules",url: "https://wordwall.net/play/28761/823/4170" },
+            {  titulo:"[🧩 Activity] Present Simple  Affirmative Form",url: "https://wordwall.net/play/57830/431/8032" },
+            {  titulo:"[🔖Practice] Spelling Changes",url: "https://drive.google.com/file/d/1dpWuDqqkIR8au1C1PERB6pOz5H-ivktU/view?usp=sharing" },
+            {  titulo:"[🔖Practice] Present Simple Affirmative Form I",url: "https://drive.google.com/file/d/1gn1jk2vGP960VU-D_9IU9QknhCfDbLQ_/view?usp=sharing" },
+            {  titulo:"[🔖Practice] Present Simple Affirmative Form II",url: "https://drive.google.com/file/d/1RMuY04Q492JcJOO8goK8-JQp9kLktCYK/view?usp=sharing" },
+            {  titulo:"[🧩 Activity] Days of the week ", url: "https://wordwall.net/play/22419/293/58122"},
 
-            {  titulo:"🔖Present Simple Affirmative Form I",url: "https://drive.google.com/file/d/1gn1jk2vGP960VU-D_9IU9QknhCfDbLQ_/view?usp=sharing" },
-            {  titulo:"🔖Present Simple Affirmative Form II",url: "https://drive.google.com/file/d/1RMuY04Q492JcJOO8goK8-JQp9kLktCYK/view?usp=sharing" },
-            {  titulo:"🔖Present Simple Negative Form I",url: "https://drive.google.com/file/d/1dvhm4IVAk_jXGiq86I0i6lBxZzLlA7v-/view?usp=sharing" },
-            {  titulo:"🔖Present Simple Negative Form II",url: "https://drive.google.com/file/d/1BCabvvBOmmIuh6lD5XRMWwch1l0oP-54/view?usp=sharing" },
-            {  titulo:"🔖Present Simple Yes/No Question ",url: "https://drive.google.com/file/d/1buU-xEfNvhliFhUqmIMQrKWAnPDCXlU7/view?usp=sharing" },
-            {  titulo:"🔖Present Simple Wh Question ",url: "https://drive.google.com/file/d/1fCLeWwtj35ziI_NLborQ2Mo1swL-m_rU/view?usp=sharing" },
-            {  titulo:"🔖Present Simple Mixed I  ",url: "https://drive.google.com/file/d/1wS1NV6i_XfNKTVSEDyIX-BJ3xkkgfmwX/view?usp=sharing" },
-            {  titulo:"🔖Present Simple Mixed II  ",url: "https://drive.google.com/file/d/1dbIdnY51wBQl5SxyYuqxVQF2GqioLRlt/view?usp=sharing" },
-            {  titulo:"🔖Present Simple Mixed III  ",url: "https://drive.google.com/file/d/1SXoJvjOeeYoEbPv1-9JrSCZvJWMiorgB/view?usp=sharing" },
-            {  titulo:"🔖Present Simple Mixed IV  ",url: "https://drive.google.com/file/d/1F6rawDVqTKM8NiTxMWDmNVxGIHKALDRx/view?usp=sharing" },
+            {  titulo:"[🔖Practice] Present Simple Negative Form I",url: "https://drive.google.com/file/d/1dvhm4IVAk_jXGiq86I0i6lBxZzLlA7v-/view?usp=sharing" },
+            {  titulo:"[🔖Practice] Present Simple Negative Form II",url: "https://drive.google.com/file/d/1BCabvvBOmmIuh6lD5XRMWwch1l0oP-54/view?usp=sharing" },
+            {  titulo:"[🔖Practice] Present Simple Yes/No Question ",url: "https://drive.google.com/file/d/1buU-xEfNvhliFhUqmIMQrKWAnPDCXlU7/view?usp=sharing" },
+            {  titulo:"[🔖Practice] Present Simple Wh Question ",url: "https://drive.google.com/file/d/1fCLeWwtj35ziI_NLborQ2Mo1swL-m_rU/view?usp=sharing" },
+            {  titulo:"[🔖Practice] Present Simple Mixed I  ",url: "https://drive.google.com/file/d/1wS1NV6i_XfNKTVSEDyIX-BJ3xkkgfmwX/view?usp=sharing" },
+            {  titulo:"[🔖Practice] Present Simple Mixed II  ",url: "https://drive.google.com/file/d/1dbIdnY51wBQl5SxyYuqxVQF2GqioLRlt/view?usp=sharing" },
+            {  titulo:"[🔖Practice] Present Simple Mixed III  ",url: "https://drive.google.com/file/d/1SXoJvjOeeYoEbPv1-9JrSCZvJWMiorgB/view?usp=sharing" },
+            {  titulo:"[🔖Practice] Present Simple Mixed IV  ",url: "https://drive.google.com/file/d/1F6rawDVqTKM8NiTxMWDmNVxGIHKALDRx/view?usp=sharing" },
 
             {  titulo:"🚩 Listening Quiz", url: "https://forms.gle/6GitkPaDLfMyah3n7"},
 
