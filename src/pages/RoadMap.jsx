@@ -22,7 +22,7 @@ const RoadMap = () => {
   };
 
   const handleMostrarComponente = () => {
-    const validPasswords = ['tutor123', 'andresjaramillo','davidbenites','suscriptor','myenglishbro','cesarhurtado']; // Add more passwords here
+    const validPasswords = ['tutor123', 'andresjaramillo','davidbenites','suscriptor','myenglishbro','cesarhurtado','roycondori']; // Add more passwords here
     if (validPasswords.includes(codigo)) {
       setMostrarComponente(true);
     } else {
@@ -59,7 +59,7 @@ const RoadMap = () => {
                   value={codigo}
                   onChange={handleChangeCodigo}
                   onKeyPress={handleKeyPress}
-                  className={`py-3 px-3 mx-5 font-poppins font-medium text-[18px] text-primary rounded-[10px] outline-none`}
+                  className={`py-3 px-3 mx-5 font-poppins font-medium text-[18px]  text-n-2 rounded-[10px] outline-none`}
                 />
                 <button
                   type="button"
