@@ -14,11 +14,13 @@ export const road = [
         channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
         description: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
         enlaces: [
+            {  titulo:"[🗂️Slide] Saludos y Despedidas",url: "https://docs.google.com/presentation/d/1QRZkXcYvHJFPhIMW7-7JdMKAtMmFQt2P/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
+            {  titulo:"[🧩 Activity] Greetings ", url: "https://wordwall.net/play/17057/715/209"},
+
             {  titulo:"[🖥️Class] The Alphabet",url: "https://www.youtube.com/watch?v=fG9ccbmA0-o"},
             {  titulo:"[🗂️Slide] The Alphabet",url: "https://docs.google.com/presentation/d/1p5Qm25h1HiPBfcF4F00QICF6HrluHfSP/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
             {  titulo:"[🖥️Challenge] Spelling Names",url: "https://www.youtube.com/watch?v=NKZejheVK8w"},
             {  titulo:"[🗂️Slide] Spelling Names",url: "https://docs.google.com/presentation/d/1QJfnfrNOqtjmpGcj_NqfpQP37zaLLh_W/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
-            {  titulo:"[🧩 Activity] Greetings ", url: "https://wordwall.net/play/17057/715/209"},
 
             {  titulo:"[🖥️Class] The English Structure ", url: "https://youtu.be/h4uL68plGkw?si=anrtlRavkFlaRK9K"},
             {  titulo:"[🗂️Slide] The English Structure", url: "https://docs.google.com/presentation/d/161TA3DKqAAgy8HJFo_BzyM8-CxpseNXZ/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
@@ -34,6 +36,13 @@ export const road = [
             {  titulo:"[🧩 Activity] The Verb Be Affirmative Form I", url: "https://wordwall.net/play/13293/724/51767" },
             {  titulo:"[🧩 Activity] The Verb Be Affirmative Form II", url: "https://wordwall.net/play/14390/465/80013" },
             {  titulo:"[🧩 Activity] The Verb Be Affirmative Form III", url: "https://wordwall.net/play/11554/389/1088" },
+            {  titulo:"[😎Slide] Speak Like a Native 01", url: "https://docs.google.com/presentation/d/17nnI3AdqbUoFzVws8KmozupnKy7K1VgU/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
+            {  titulo:"🗂️Slide] The Numbers and The Time", url: "https://docs.google.com/presentation/d/1lLVrkj4nl8wvv3aGmqasKH3Mioo09DE7/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
+            {  titulo:"[🧩 Activity]The Numbers", url: "https://wordwall.net/play/17273/376/89817"},
+            {  titulo:"[🧩 Activity]The Numbers II", url: "https://wordwall.net/play/11115/711/5078"},
+            {  titulo:"[🧩 Activity] The Numbers III", url: "https://wordwall.net/play/10642/628/5053"},
+            {  titulo:"[🧩 Activity] The Time  I", url: "https://wordwall.net/play/11993/530/12821"},
+            {  titulo:"[🧩 Activity] The Time  II", url: "https://wordwall.net/play/11993/400/13264"},
             {  titulo:"[🧩 Activity] The Verb Be Negative Form", url: "https://wordwall.net/play/21158/025/3896" },
             {  titulo:"[🧩 Activity] The Verb Be Negative Form II", url: "https://wordwall.net/play/21158/025/8719" },
             {  titulo:"[🧩 Activity] The Verb Be Interrogative Form I", url: "https://wordwall.net/play/1856/077/57902" },
@@ -49,15 +58,11 @@ export const road = [
 
             {  titulo:"📖 Plural Nouns", url: "https://docs.google.com/presentation/d/1WZGbWYGI3P8CfiCJjsSB5JrbWohq7RV3Z7dzO5ei36M/edit?usp=sharing"},
 
-            {  titulo:"📖The Numbers and The Time", url: "https://docs.google.com/presentation/d/1oNoA0RqXDuy5AmH_NdwZKS1minGfr-R_/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
           
-            {  titulo:"🧩The Numbers", url: "https://wordwall.net/play/17273/376/89817"},
-            {  titulo:"🧩The Numbers II", url: "https://wordwall.net/play/11115/711/5078"},
-            {  titulo:"🧩 The Numbers III", url: "https://wordwall.net/play/10642/628/5053"},
+           
             {  titulo:"📖 Ordinal Numbers ",url: "https://drive.google.com/file/d/18I58jFyIcYY_apm1YTzXvv2TVuMVHnXk/view?usp=sharing" },
 
-            {  titulo:"🧩 The Time  I", url: "https://wordwall.net/play/11993/530/12821"},
-            {  titulo:"🧩 The Time  II", url: "https://wordwall.net/play/11993/400/13264"},
+          
             {  titulo:"📖 Seasons of the Year",url: "https://docs.google.com/presentation/d/1Ji0bSleS_268aZaK6RUvNEsB4dAK4mno/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
             {  titulo:"🧩 Seasons of the Year",url: "https://wordwall.net/play/18524/265/35686" },
           
@@ -241,6 +246,9 @@ export const road = [
         channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
         description: "We will learn to introduce ourselves, spell names and words, describe people, introduce family members, and provide personal information.",
         enlaces: [
+            {  titulo:"✍️Practica Integradora 1", url: "https://docs.google.com/document/d/1dEid7CxmlAwFluGbugI-3zH__ktx_KrV/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true", },
+            {  titulo:"✍️Test 01", url: "https://docs.google.com/document/d/1dEid7CxmlAwFluGbugI-3zH__ktx_KrV/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true", },
+
             {titulo: "📖 UNIT 6:PRESENT PROGRESSIVE",url: "https://docs.google.com/presentation/d/1KTQSiER6KRFyjxPXBo2OiQk2U4zCzfpk/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true", },
             { titulo: "📖 Explanation Present Progressive",url: "https://docs.google.com/presentation/d/1touUa7OZ1X1ikWmzNS7lppVA8MesWigC/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",},
             {titulo:"📖 THERE IS / THERE ARE WITH SOME, ANY, SEVERAL, A LOT OF, MANY", url: "https://docs.google.com/presentation/d/1VwIJNGPfNm_3lmEpUoCDWMUtH7c1rEs7/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",},
