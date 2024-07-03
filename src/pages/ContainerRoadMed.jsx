@@ -3,11 +3,11 @@ import Hitob2 from './Hitob2';
 import styles from "../style";
 import CardDeal2 from "../components/CardDeal2";
 
-const ContainerRoadMed = ({ roadmed = [], containerRefs }) => {
+const ContainerRoadMed = ({ roadmed = [], containerRefs,password }) => {
   return (
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-        <CardDeal2 />
+      <CardDeal2 password={password} />
         <Hitob2 roadmed={roadmed} containerRefs={containerRefs} />
       </div>
     </div>

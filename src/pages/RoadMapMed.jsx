@@ -21,7 +21,8 @@ const RoadMapMed = () => {
   };
 
   const handleMostrarComponente = () => {
-    if (codigo === 'meb24') {
+    const validPasswords = ['aletana','mebfce']; // Add more passwords here
+    if (validPasswords.includes(codigo)) {
       setMostrarComponente(true);
     } else {
       setMostrarComponente(false);
@@ -82,7 +83,7 @@ const RoadMapMed = () => {
             isSidebarVisible={isSidebarVisible}
             toggleSidebar={toggleSidebar}
           />
-          <ContainerRoadMed roadmed={roadmed} containerRefs={containerRefs} />
+          <ContainerRoadMed roadmed={roadmed} containerRefs={containerRefs} password={codigo} />
         </>
       )}
     </>

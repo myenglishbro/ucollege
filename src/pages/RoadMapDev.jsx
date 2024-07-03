@@ -39,11 +39,11 @@ const RoadMap = () => {
     <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
     <input
                   type="password"
-                  placeholder="Ingresa el código "
+                  placeholder="Ingresa el código"
                   value={codigo}
                   onChange={handleChangeCodigo}
                   onKeyPress={handleKeyPress}
-                  className={`py-3 px-3 mx-5 font-poppins font-medium text-[18px] text-primary  rounded-[10px] outline-none`}
+                  className={`py-3 px-3 mx-5 font-poppins font-medium text-[18px]  text-n-2 rounded-[10px] outline-none`}
                 />
                 <button type="button" onClick={handleMostrarComponente} className={`py-3 px-3 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}>
                   Ver Ruta
