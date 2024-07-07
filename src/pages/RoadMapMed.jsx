@@ -21,7 +21,7 @@ const RoadMapMed = () => {
   };
 
   const handleMostrarComponente = () => {
-    const validPasswords = ['aletana','mebfce','valehuaman']; // Add more passwords here
+    const validPasswords = ['aletana','mebfce','valehuaman','patriciaguerron','jackelinechaponan']; // Add more passwords here
     if (validPasswords.includes(codigo)) {
       setMostrarComponente(true);
     } else {
