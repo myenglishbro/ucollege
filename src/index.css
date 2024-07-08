@@ -213,7 +213,7 @@
   padding: 2rem;
   margin-bottom: 2rem;
   width: 100%;
-  max-width: 800px;
+  max-width: 900px;
   background-color: #1a202c;
   border-radius: 8px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -285,8 +285,8 @@
 
 /* Base Styles */
 .timeline-number {
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
   border-radius: 30%;
   display: flex;
   align-items: center;
@@ -316,7 +316,9 @@
   display: inline-block;
   position: relative;
   color: #ffffff;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4); /* Outer shadow for 3D effect */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4); /* Sombra exterior para el efecto 3D */
+  overflow: hidden; /* Para recortar cualquier contenido que se desborde */
+  max-width: 100%; /* Asegura que los enlaces no sobresalgan del contenedor */
 }
 
 .link::before {
@@ -336,18 +338,16 @@
 }
 
 .link:hover {
-  transform: translateY(-1px); /* Hover lift effect */
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6); /* Enhanced shadow on hover */
+  transform: translateY(-1px); /* Efecto de elevación en hover */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6); /* Sombra mejorada en hover */
 }
 
 .timeline-left .timeline-number {
   background-image: url('https://i.ibb.co/yWLJcwx/Group-4.png'); /* Añadir la imagen de fondo */
-
 }
 
 .timeline-right .timeline-number {
   background-image: url('https://i.ibb.co/vBbpXrJ/Group-3.png'); /* Añadir la imagen de fondo */
-
 }
 
 .timeline-left .link {
@@ -357,7 +357,6 @@
 
 .timeline-left .link:hover {
   border-color: #FF6F3D;
-
 }
 
 .timeline-right .link {
@@ -382,6 +381,27 @@
   justify-content: flex-end;
 }
 
+.video-iframe {
+  position: relative;
+  width: 80%;
+  padding-top: 56.25%; /* Aspect ratio (16:9) for responsive videos */
+  overflow: hidden; /* Para recortar el video que se desborda */
+}
+
+.video-iframe iframe {
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 100%;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .video-iframe {
+    padding-top: 0; /* Elimina el padding-top en pantallas más grandes */
+    height: 300px; /* Altura fija para el contenedor del video en escritorio */
+  }
+}
 /* Estilos generales para el contenedor del roadmap */
 .roadmap-container {
   display: flex;
@@ -406,6 +426,7 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+
 .roadmap-step:hover {
   transform: translateY(-10px); /* Hover lift effect */
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.6), inset 0 0 15px rgba(255, 255, 255, 0.2); /* Enhanced shadow on hover */
@@ -425,6 +446,7 @@
   overflow: hidden;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
 }
+
 
 .thumbnail-img {
   width: 100%;

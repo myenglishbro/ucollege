@@ -1,18 +1,33 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import styles, { layout } from "../style";
+import "../index.css";
 
-const Hitob2 = ({ roadmed = [], containerRefs }) => {
+const Hitob2 = ({ roadmed = [] }) => {
   const [activeIndex, setActiveIndex] = useState(null);
+  const containerRefs = useRef([]);
 
   const toggleAccordion = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
 
   useEffect(() => {
-    if (containerRefs && roadmed.length > 0) {
+    if (roadmed.length > 0) {
       containerRefs.current = containerRefs.current.slice(0, roadmed.length);
     }
-  }, [roadmed, containerRefs]);
+  }, [roadmed]);
+
+  const getYoutubeVideoId = (url) => {
+    try {
+      const urlObj = new URL(url);
+      if (urlObj.hostname.includes('youtube.com') || urlObj.hostname.includes('youtu.be')) {
+        return urlObj.searchParams.get('v') || urlObj.pathname.split('/').pop();
+      }
+      return null;
+    } catch (error) {
+      console.error("Invalid URL:", url);
+      return null;
+    }
+  };
 
   if (!roadmed || roadmed.length === 0) {
     return <div>No roadmap data available.</div>;
@@ -46,23 +61,31 @@ const Hitob2 = ({ roadmed = [], containerRefs }) => {
             {activeIndex === index && (
               <div className="accordion-content">
                 <div className="flex-1 flex flex-col">
-                  {elemento.enlaces.map((enlace, i) => (
-                    <React.Fragment key={i}>
-                      <div className={`timeline-item ${i % 2 === 0 ? 'timeline-left' : 'timeline-right'}`}>
+                  {elemento.enlaces.map((enlace, i) => {
+                    const videoId = getYoutubeVideoId(enlace.url);
+                    return (
+                      <div key={i} className={`timeline-item ${i % 2 === 0 ? 'timeline-left' : 'timeline-right'}`}>
                         <div className="timeline-number">{i + 1}</div>
-                        <a 
-                          href={enlace.url} 
-                          target="_blank" 
-                          rel="noopener noreferrer" 
-                          className="link thunder-bubble" 
-                          data-tooltip={enlace.mensaje}
-                        >
-                          {enlace.titulo}
-                        </a>
+                        {videoId ? (
+                          <iframe 
+                            width="560" 
+                            height="315" 
+                            src={`https://www.youtube.com/embed/${videoId}`} 
+                            title={`YouTube video player - ${enlace.titulo}`} 
+                            frameBorder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerPolicy="strict-origin-when-cross-origin" 
+                            allowFullScreen
+                            className="video-iframe"
+                          ></iframe>
+                        ) : (
+                          <div className="link-title">
+                            <a href={enlace.url} target="_blank" rel="noopener noreferrer">{enlace.titulo}</a>
+                          </div>
+                        )}
                       </div>
-                     
-                    </React.Fragment>
-                  ))}
+                    );
+                  })}
                 </div>
               </div>
             )}
