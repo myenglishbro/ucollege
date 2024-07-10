@@ -7,13 +7,15 @@ export const road = [
             "https://i.ibb.co/B6gr9Gd/Black-White-and-Red-Simple-Shield-Shape-Football-Club-Logo-2-removebg-preview.png",
              thumbnail2:
             "https://i.ibb.co/r6KMRrK/curve.png",
-        title: "Level 01",
+        title: "Basic Level",
         subtitle: "Basic Level",
 
         dateAdded: "Basic 0 ",
         channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
-        description: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
+        description: "",
         enlaces: [
+            {  titulo:"[🖥️Class] Presentacion del Curso",url: "https://www.youtube.com/watch?v=csxPAiEAPL8"},
+
             {  titulo:"[🗂️Slide] Saludos y Despedidas",url: "https://docs.google.com/presentation/d/1QRZkXcYvHJFPhIMW7-7JdMKAtMmFQt2P/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
             {  titulo:"[🧩 Activity] Greetings ", url: "https://wordwall.net/play/17057/715/209"},
 

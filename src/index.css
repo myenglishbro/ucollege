@@ -384,7 +384,6 @@
 .video-iframe {
   position: relative;
   width: 80%;
-  padding-top: 56.25%; /* Aspect ratio (16:9) for responsive videos */
   overflow: hidden; /* Para recortar el video que se desborda */
 }
 
@@ -392,14 +391,17 @@
   top: 0;
   left: 0;
   width: 80%;
-  height: 100%;
+  height: 80%;
   border: none;
+  
 }
 
 @media (min-width: 768px) {
   .video-iframe {
     padding-top: 0; /* Elimina el padding-top en pantallas más grandes */
-    height: 300px; /* Altura fija para el contenedor del video en escritorio */
+    height: 280px; /* Altura fija para el contenedor del video en escritorio */
+    width: 450px; /* Altura fija para el contenedor del video en escritorio */
+
   }
 }
 /* Estilos generales para el contenedor del roadmap */
