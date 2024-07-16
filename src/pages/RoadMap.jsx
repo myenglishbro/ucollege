@@ -3,6 +3,7 @@ import ContainerRoad from './ContainerRoad';
 import styles from "../style";
 import { road } from "../utils/road";
 import Sidebar from '../components/Sidebar';
+import DefaultView from '../components/DefaultView';
 
 const RoadMap = () => {
   const [codigo, setCodigo] = useState(''); 
@@ -22,7 +23,7 @@ const RoadMap = () => {
   };
 
   const handleMostrarComponente = () => {
-    const validPasswords = ['tutor123', 'andresjaramillo','davidbenites','suscriptor','cesarhurtado','roycondori']; 
+    const validPasswords = ['tutor123', 'andresjaramillo','davidbenites','suscriptor','cesarhurtado','roycondori','maxcontreras']; 
     if (validPasswords.includes(codigo)) {
       setMostrarComponente(true);
     } else {
@@ -96,9 +97,7 @@ const RoadMap = () => {
               password={codigo} 
             />
           ) : (
-            <div className="bg-primary flex-center">
-              <h2>Selecciona un nivel del sidebar</h2>
-            </div>
+            <DefaultView password={codigo} />
           )}
         </>
       )}
