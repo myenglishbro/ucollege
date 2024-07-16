@@ -1,4 +1,3 @@
-// ContainerRoad.js
 import React from 'react';
 import Hito from './Hito';
 import styles from "../style";

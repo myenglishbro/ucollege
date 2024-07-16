@@ -1,4 +1,3 @@
-// RoadMap.js
 import React, { useState, useRef } from 'react';
 import ContainerRoad from './ContainerRoad';
 import styles from "../style";
@@ -6,10 +5,11 @@ import { road } from "../utils/road";
 import Sidebar from '../components/Sidebar';
 
 const RoadMap = () => {
-  const [codigo, setCodigo] = useState(''); // Estado para almacenar el código ingresado
+  const [codigo, setCodigo] = useState(''); 
   const [mostrarComponente, setMostrarComponente] = useState(false);
-  const [isSidebarVisible, setIsSidebarVisible] = useState(false); // Estado para controlar la visibilidad del sidebar
-  const containerRefs = useRef([]); // Referencias a los contenedores
+  const [isSidebarVisible, setIsSidebarVisible] = useState(false); 
+  const [nivelSeleccionado, setNivelSeleccionado] = useState(null);
+  const containerRefs = useRef([]); 
 
   const handleChangeCodigo = (event) => {
     setCodigo(event.target.value);
@@ -22,12 +22,17 @@ const RoadMap = () => {
   };
 
   const handleMostrarComponente = () => {
-    const validPasswords = ['tutor123', 'andresjaramillo','davidbenites','suscriptor','cesarhurtado','roycondori']; // Add more passwords here
+    const validPasswords = ['tutor123', 'andresjaramillo','davidbenites','suscriptor','cesarhurtado','roycondori']; 
     if (validPasswords.includes(codigo)) {
       setMostrarComponente(true);
     } else {
       setMostrarComponente(false);
     }
+  };
+
+  const seleccionarNivel = (index) => {
+    setNivelSeleccionado(index);
+    scrollToContainer(index);
   };
 
   const scrollToContainer = (index) => {
@@ -80,11 +85,21 @@ const RoadMap = () => {
           </button>
           <Sidebar 
             road={road} 
-            scrollToContainer={scrollToContainer} 
+            seleccionarNivel={seleccionarNivel} 
             isSidebarVisible={isSidebarVisible}
             toggleSidebar={toggleSidebar}
           />
-          <ContainerRoad road={road} containerRefs={containerRefs} password={codigo} />
+          {nivelSeleccionado !== null ? (
+            <ContainerRoad 
+              road={[road[nivelSeleccionado]]} 
+              containerRefs={containerRefs} 
+              password={codigo} 
+            />
+          ) : (
+            <div className="bg-primary flex-center">
+              <h2>Selecciona un nivel del sidebar</h2>
+            </div>
+          )}
         </>
       )}
     </>

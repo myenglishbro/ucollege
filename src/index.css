@@ -373,13 +373,7 @@
   margin-bottom: 1rem; /* Espacio entre los elementos */
 }
 
-.timeline-left {
-  justify-content: flex-start;
-}
 
-.timeline-right {
-  justify-content: flex-end;
-}
 
 .video-iframe {
   position: relative;
@@ -404,62 +398,7 @@
 
   }
 }
-/* Estilos generales para el contenedor del roadmap */
-.roadmap-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  background: #1a1a1a; /* Fondo oscuro */
-  padding: 20px;
-  border-radius: 10px;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-}
 
-.roadmap-step {
-  position: relative;
-  padding: 2rem;
-  margin-bottom: 2rem;
-  width: 100%;
-  max-width: 800px;
-  background-color: #2d2d2d; /* Fondo oscuro para cada paso */
-  border-radius: 8px;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5), inset 0 0 10px rgba(255, 255, 255, 0.1); /* Outer and inner shadow */
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-
-.roadmap-step:hover {
-  transform: translateY(-10px); /* Hover lift effect */
-  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.6), inset 0 0 15px rgba(255, 255, 255, 0.2); /* Enhanced shadow on hover */
-}
-
-.step-thumbnail {
-  position: absolute;
-  top: -2rem;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 5rem;
-  height: 5rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  overflow: hidden;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
-}
-
-
-.thumbnail-img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-}
-
-.accordion-content {
-  transition: max-height 0.3s ease-out;
-  overflow: hidden;
-}
 
 .sidebar {
   position: fixed;
