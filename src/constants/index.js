@@ -241,8 +241,8 @@ export const navLinks =  [
     {
       id: "feature-1",
       icon: teacher,
-      title: "Clases en Vivo y Asesoramiento Constante",
-      content: "Cada clase se ve un tema diferente enfocado en las 4 habilidades speaking,listening ,reading and writing. Te explicaré a detalle conceptos gramaticales para poder comprender los ejercicios que vendrán en el examen , de esta forma te aseguras tener un dominio antes de tomar el examen  ",
+      title: "Clases en Vivo11 y Asesoramiento Constante",
+      content: "aaaaaenfocado en las 4 habilidades speaking,listening ,reading and writing. Te explicaré a detalle conceptos gramaticales para poder comprender los ejercicios que vendrán en el examen , de esta forma te aseguras tener un dominio antes de tomar el examen  ",
     },
     {
       id: "feature-2",
@@ -262,13 +262,13 @@ export const navLinks =  [
     {
       id: "feature-1",
       icon: teacher,
-      title: "Clases en Vivo y Asesoramiento Constante",
-      content: "Todas tus clases son personalizadas de acuerdo a tu nivel , responderé todas tus preguntas y te brindare todos los recursos necesario para poder hablar el ingles como un nativo ",
+      title: "xxxx",
+      content: "Todasssss tus clases son personalizadas de acuerdo a tu nivel , responderé todas tus preguntas y te brindare todos los recursos necesario para poder hablar el ingles como un nativo ",
     },
     {
       id: "feature-2",
       icon: mano,
-      title: "Roadmap",
+      title: "Roadmapaaaa",
       content: "Encontrarás material educativo para repasar o adelantarte ",
     },
     {
@@ -290,7 +290,7 @@ export const navLinks =  [
     {
       id: "feature-3",
       icon: mano,
-      title: "Roadmap",
+      title: "Roadmapsss",
       content: "Encontrarás material educativo para repasar o adelantarte ",
     },
     {

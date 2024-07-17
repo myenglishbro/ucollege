@@ -8,6 +8,7 @@ const RoadMapMed = () => {
   const [codigo, setCodigo] = useState('');
   const [mostrarComponente, setMostrarComponente] = useState(false);
   const [isSidebarVisible, setIsSidebarVisible] = useState(false);
+  const [nivelSeleccionado, setNivelSeleccionado] = useState(null);
   const containerRefs = useRef([]);
 
   const handleChangeCodigo = (event) => {
@@ -21,12 +22,17 @@ const RoadMapMed = () => {
   };
 
   const handleMostrarComponente = () => {
-    const validPasswords = ['sherylchacahuasay','secreto','danielasalvatierra','valehuaman','patriciaguerron','jackelinechaponan','aletana']; // Add more passwords here
+    const validPasswords = ['sherylchacahuasay', 'secreto', 'danielasalvatierra', 'valehuaman', 'patriciaguerron', 'jackelinechaponan', 'aletana']; // Add more passwords here
     if (validPasswords.includes(codigo)) {
       setMostrarComponente(true);
     } else {
       setMostrarComponente(false);
     }
+  };
+
+  const seleccionarNivel = (index) => {
+    setNivelSeleccionado(index);
+    scrollToContainer(index);
   };
 
   const scrollToContainer = (index) => {
@@ -79,11 +85,19 @@ const RoadMapMed = () => {
           </button>
           <Sidebar 
             road={roadmed} 
-            scrollToContainer={scrollToContainer} 
+            seleccionarNivel={seleccionarNivel} 
             isSidebarVisible={isSidebarVisible}
             toggleSidebar={toggleSidebar}
           />
-          <ContainerRoadMed roadmed={roadmed} containerRefs={containerRefs} password={codigo} />
+          {nivelSeleccionado !== null ? (
+            <ContainerRoadMed 
+              roadmed={[roadmed[nivelSeleccionado]]} 
+              containerRefs={containerRefs} 
+              password={codigo} 
+            />
+          ) : (
+            <div>No roadmap data available.</div>
+          )}
         </>
       )}
     </>

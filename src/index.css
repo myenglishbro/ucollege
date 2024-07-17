@@ -300,9 +300,7 @@
   background-position: center; /* Centrar la imagen */
 }
 
-.timeline-number:hover {
-  transform: translateY(-5px); /* Hover lift effect */
-}
+
 
 .link {
   font-family: 'Poppins', sans-serif;
@@ -342,30 +340,8 @@
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6); /* Sombra mejorada en hover */
 }
 
-.timeline-left .timeline-number {
-  background-image: url('https://i.ibb.co/yWLJcwx/Group-4.png'); /* Añadir la imagen de fondo */
-}
 
-.timeline-right .timeline-number {
-  background-image: url('https://i.ibb.co/vBbpXrJ/Group-3.png'); /* Añadir la imagen de fondo */
-}
 
-.timeline-left .link {
-  background-image: url('https://i.ibb.co/vBbpXrJ/Group-3.png'); /* Añadir la imagen de fondo */
-  border: 2px solid #FF5733;
-}
-
-.timeline-left .link:hover {
-  border-color: #FF6F3D;
-}
-
-.timeline-right .link {
-  border: 2px solid #7D3C98;
-}
-
-.timeline-right .link:hover {
-  border-color: #9250AD;
-}
 
 .timeline-item {
   display: flex;
@@ -373,31 +349,6 @@
   margin-bottom: 1rem; /* Espacio entre los elementos */
 }
 
-
-
-.video-iframe {
-  position: relative;
-  width: 80%;
-  overflow: hidden; /* Para recortar el video que se desborda */
-}
-
-.video-iframe iframe {
-  top: 0;
-  left: 0;
-  width: 80%;
-  height: 80%;
-  border: none;
-  
-}
-
-@media (min-width: 768px) {
-  .video-iframe {
-    padding-top: 0; /* Elimina el padding-top en pantallas más grandes */
-    height: 280px; /* Altura fija para el contenedor del video en escritorio */
-    width: 450px; /* Altura fija para el contenedor del video en escritorio */
-
-  }
-}
 
 
 .sidebar {
