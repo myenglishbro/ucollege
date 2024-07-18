@@ -20,9 +20,11 @@ const Hito = ({ road, containerRefs }) => {
             <img src={elemento.thumbnail} alt="Thumbnail" className="thumbnail-img" />
           </div>
           <div className="flex-col">
+            <div className="subtitle-container">
+              <h1 className="subtitle">{elemento.subtitle}</h1>
+            </div>
             <section className="flex-row flex-wrap sm:mb-2 mb-6">
               <div className="flex-1 flex justify-start items-center flex-row m-3 cursor-pointer">
-               
                 <p className="max-w-full xs:max-w-[670px] mb-6">
                   {elemento.description}
                 </p>

@@ -49,7 +49,7 @@ const Hero2 = () => {
 
               <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
                 <img
-                 src="https://i.imgflip.com/8tjsuh.gif"
+                 src="https://i.ibb.co/s1s3GhR/WIN-20231109-10-23-34-Pro.jpg"
                   className="w-full scale-[1.7] translate-y-[38%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[13%]"
                   width={1024}
                   height={490}
@@ -74,6 +74,7 @@ const Hero2 = () => {
                     title="Clases Personalizadas"
                   />
                 </ScrollParallax>
+                
               </div>
             </div>
 

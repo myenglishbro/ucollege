@@ -234,19 +234,18 @@
   top: -2rem;
   left: 50%;
   transform: translateX(-50%);
-  background-color: transparent transparent;
+  background-color: transparent;
   width: 5rem;
   height: 5rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
   overflow: hidden;
 }
 
 .thumbnail-img {
-  width: 100%;
-  height: 100%;
+  width: 80%;
+  height: 80%;
   object-fit: contain;
 }
 
@@ -255,17 +254,15 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 24px;
-  color: #A0AEC0; /* text-dimWhite */
+  color: #A0AEC0;
   text-decoration: none;
   margin-bottom: 0.5rem;
 }
 
 .link:hover {
-  color: --sec; /* secondary color */
+  color: var(--sec);
   text-decoration: underline;
 }
-
-
 
 .bg-dimBlue {
   background-color: #2d3748;
@@ -283,11 +280,10 @@
   font-weight: 400;
 }
 
-/* Base Styles */
 .timeline-number {
   width: 30px;
   height: 30px;
-  border-radius: 30%;
+  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -295,12 +291,9 @@
   font-weight: bold;
   margin-right: 1rem;
   color: #ffffff;
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
-  background-size: cover; /* Ajustar el tamaño de la imagen para cubrir el contenedor */
-  background-position: center; /* Centrar la imagen */
+  background-color: #4a5568;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
-
-
 
 .link {
   font-family: 'Poppins', sans-serif;
@@ -314,9 +307,9 @@
   display: inline-block;
   position: relative;
   color: #ffffff;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4); /* Sombra exterior para el efecto 3D */
-  overflow: hidden; /* Para recortar cualquier contenido que se desborde */
-  max-width: 100%; /* Asegura que los enlaces no sobresalgan del contenedor */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+  overflow: hidden;
+  max-width: 100%;
 }
 
 .link::before {
@@ -336,24 +329,32 @@
 }
 
 .link:hover {
-  transform: translateY(-1px); /* Efecto de elevación en hover */
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6); /* Sombra mejorada en hover */
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
 }
-
-
-
 
 .timeline-item {
   display: flex;
   align-items: center;
-  margin-bottom: 1rem; /* Espacio entre los elementos */
+  margin-bottom: 1rem;
+}
+
+.subtitle-container {
+  text-align: center;
+  margin-top: 10px; /* ajuste según sea necesario */
+}
+
+.subtitle {
+  font-size: 1.5em;
+  font-weight: bold;
+  /* otros estilos */
 }
 
 
 
 .sidebar {
   position: fixed;
-  left: -200px; /* Ocultar sidebar por defecto */
+  left: -200px;
   top: 70px;
   height: 100%;
   width: 200px;
@@ -367,7 +368,7 @@
 }
 
 .sidebar.visible {
-  left: 0; /* Mostrar sidebar cuando esté visible */
+  left: 0;
 }
 
 .sidebar-button {
@@ -388,7 +389,6 @@
   background-color: #2d3748;
 }
 
-/* Estilos para el botón de menú (hamburguesa) */
 .sidebar-toggle {
   position: fixed;
   top: 20px;
@@ -398,17 +398,16 @@
   color: #A0AEC0;
   font-size: 24px;
   cursor: pointer;
-  z-index: 1100; /* Asegurarse de que esté por encima del sidebar */
+  z-index: 1100;
 }
 
-/* Estilos adicionales para responsive */
 @media (min-width: 768px) {
   .sidebar {
     left: 0;
     width: 200px;
   }
-  
+
   .sidebar-toggle {
-    display: none; /* Ocultar botón de menú en pantallas grandes */
+    display: none;
   }
 }

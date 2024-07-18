@@ -7,8 +7,8 @@ const Generating = ({ className }) => {
         className || ""
       } text-base`}
     >
-      <img className="w-20 h-20 mr-4" src={loading} alt="Loading" />
-      Certifica tu dominio del inglés en 2024 y aprende a hablarlo con fluidez
+      <img className="w-15 h-20 mr-4" src={loading} alt="Loading" />
+      Certifica tu dominio del inglés en 2024 
     </div>
   );
 };
