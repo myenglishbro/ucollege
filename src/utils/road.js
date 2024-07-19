@@ -69,9 +69,35 @@ export const road = [
 
             
            
-           
+            {  titulo:"📖 The Verb Be Negative and Interrogative Form", url: "https://docs.google.com/presentation/d/1-37e0Rj12xLoLJ8AIadt47Q0q-D8JbkR/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+
            
           
+            
+           
+            {  titulo:"📖  Be-WH Questions", url: "https://docs.google.com/presentation/d/1QzcM-95Md4pWWy1d6BzM2CX2klPaPbXT/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"📖Correct the Sentences with The Verb Be in Questions",url: "https://docs.google.com/presentation/d/1PmPGCCydt73O4vXTB9ThQdiMk-zSdZs0/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",},
+
+            {  titulo:"📖 Review Verb be ",url: "https://docs.google.com/presentation/d/1Ckb4LISBB35qHq5Yxf1sPEruLXAo-o6w/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
+          
+          
+
+
+
+            
+        ],
+    },
+    {
+        id: 3,
+        thumbnail:
+            "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
+        title: "Present Tense II",
+        subtitle: "Nivel Básico ",
+    
+        dateAdded: "Basic 0 ",
+        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
+        description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
+        enlaces: [
             {  titulo:"[😎Slide] Speak Like a Native 01", url: "https://docs.google.com/presentation/d/17nnI3AdqbUoFzVws8KmozupnKy7K1VgU/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
             {  titulo:"🗂️Slide] The Numbers and The Time", url: "https://docs.google.com/presentation/d/1lLVrkj4nl8wvv3aGmqasKH3Mioo09DE7/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
             {  titulo:"[🧩 Activity]The Numbers", url: "https://wordwall.net/play/17273/376/89817"},
@@ -80,7 +106,8 @@ export const road = [
             {  titulo:"[🧩 Activity] The Time  I", url: "https://wordwall.net/play/11993/530/12821"},
             {  titulo:"[🧩 Activity] The Time  II", url: "https://wordwall.net/play/11993/400/13264"},
            
-           
+            {  titulo:"📖Possessive", url: "https://docs.google.com/presentation/d/1UijMuEx-DdbZETXjEUUtT6IPkWF0az2w/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"🧩Possessive Pronouns", url: "https://wordwall.net/play/52592/500/1753"},
            
 
 
@@ -95,29 +122,12 @@ export const road = [
             {  titulo:"📖Countries/Nationalities + Extra grammar +Review Chart",url: "https://drive.google.com/file/d/12xOlTvoKpFlSGRJboWF1BvNsk4cqAixC/view?usp=sharing"},
 
             {  titulo:"📖 Professions",url: "https://docs.google.com/document/d/18WYvZntiIyTldbpPtcljy2bH27wKkud8/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
-            {  titulo:"🚩 Listening Quiz ", url: "https://forms.gle/Lx6sfRT84P2xc8Dw7"},
-
-            {  titulo:"📖Possessive", url: "https://docs.google.com/presentation/d/1UijMuEx-DdbZETXjEUUtT6IPkWF0az2w/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
-            {  titulo:"🧩Possessive Pronouns", url: "https://wordwall.net/play/52592/500/1753"},
-            {  titulo:"📖 The Verb Be Negative and Interrogative Form", url: "https://docs.google.com/presentation/d/1-37e0Rj12xLoLJ8AIadt47Q0q-D8JbkR/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
-            {  titulo:"🚩Writing Quiz", url: "https://forms.gle/3NtJ7jPcPw1mzfrJA"},
-            {  titulo:"🚩 Speaking Quiz", url: "https://forms.gle/L3nHmas8FZfVB9hD6"},
-
-            {  titulo:"📖  Be-WH Questions", url: "https://docs.google.com/presentation/d/1QzcM-95Md4pWWy1d6BzM2CX2klPaPbXT/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
-            {  titulo:"📖Correct the Sentences with The Verb Be in Questions",url: "https://docs.google.com/presentation/d/1PmPGCCydt73O4vXTB9ThQdiMk-zSdZs0/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",},
-
-            {  titulo:"📖 Review Verb be ",url: "https://docs.google.com/presentation/d/1Ckb4LISBB35qHq5Yxf1sPEruLXAo-o6w/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
-            {  titulo:"✍️Practica Integradora 1", url: "https://docs.google.com/document/d/1dEid7CxmlAwFluGbugI-3zH__ktx_KrV/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true", },
-          
-          
-
-
 
             
         ],
     },
     {
-        id: 2,
+        id: 3,
         thumbnail:
             "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
         title: "Check Point I",
@@ -135,7 +145,13 @@ export const road = [
             {  titulo:"[🔖Practice]The Verb Be Mixed II ",url: "https://drive.google.com/file/d/1qqvXwkB_yUCHU4nAOaItjenf8AwaBy6p/view?usp=sharing" },
             {  titulo:"📃The Verb Be Affirmative Form",url: "https://drive.google.com/file/d/1rTn31H9zJcXSRVNm1MGJ-se_3PFChW_N/view?usp=sharing" },
 
-            
+            {  titulo:"🚩 Listening Quiz ", url: "https://forms.gle/Lx6sfRT84P2xc8Dw7"},
+
+           
+            {  titulo:"🚩Writing Quiz", url: "https://forms.gle/3NtJ7jPcPw1mzfrJA"},
+            {  titulo:"🚩 Speaking Quiz", url: "https://forms.gle/L3nHmas8FZfVB9hD6"},
+            {  titulo:"✍️Practica Integradora 1", url: "https://docs.google.com/document/d/1dEid7CxmlAwFluGbugI-3zH__ktx_KrV/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true", },
+
         ],
     },
     {
