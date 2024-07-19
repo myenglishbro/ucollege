@@ -18,11 +18,11 @@ export const road = [
             {  titulo:"[🗂️Slide] The Alphabet",url: "https://docs.google.com/presentation/d/1p5Qm25h1HiPBfcF4F00QICF6HrluHfSP/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
             {  titulo:"[🖥️Challenge] Spelling Names",url: "https://www.youtube.com/watch?v=NKZejheVK8w"},
             {  titulo:"[🗂️Slide] Spelling Names",url: "https://docs.google.com/presentation/d/1QJfnfrNOqtjmpGcj_NqfpQP37zaLLh_W/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
-            {  titulo:"[🖥️Resolución] Spelling Names",url: "https://youtu.be/s-PqZNY9NIE"},
+            {  titulo:"[🖥️Solution] Spelling Names",url: "https://youtu.be/s-PqZNY9NIE"},
             {  titulo:"[🖥️Class] A/An Indefinite Articles",url: "https://www.youtube.com/watch?v=fG9ccbmA0-o"},
             {  titulo:"[🗂️Slide] A/An Indefinite Articles ", url: "https://docs.google.com/presentation/d/1-lqXRswgjGXe05eh_waU0tBDo-YT45JC/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
             {  titulo:"[🧩 Activity] A/An Indefinite Articles ", url: "https://wordwall.net/play/25729/634/81869"},
-            {  titulo:"[🖥️Resolución] Practicando A/An Indefinite Articles",url: "https://www.youtube.com/watch?v=oJHez43MOCM&ab_channel=MyEnglishBro"},
+            {  titulo:"[🖥️Solution] Practicando A/An Indefinite Articles",url: "https://www.youtube.com/watch?v=oJHez43MOCM&ab_channel=MyEnglishBro"},
             {  titulo:"[🖥️Class] The English Structure ", url: "https://youtu.be/h4uL68plGkw?si=anrtlRavkFlaRK9K"},
             {  titulo:"[🗂️Slide] The English Structure", url: "https://docs.google.com/presentation/d/161TA3DKqAAgy8HJFo_BzyM8-CxpseNXZ/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
             {  titulo:"[🖥️Class] The Pronouns & Transformation", url: "https://www.youtube.com/watch?v=2Ty1I6hMq-g"},
@@ -41,7 +41,7 @@ export const road = [
         thumbnail:
             "https://i.ibb.co/B6gr9Gd/Black-White-and-Red-Simple-Shield-Shape-Football-Club-Logo-2-removebg-preview.png",
            
-            title: "A1 - Present  Tense",
+            title: "Present Tense I ",
         subtitle: "Basic Level",
     imagenseccion: "https://i.ibb.co/B6gr9Gd/Black-White-and-Red-Simple-Shield-Shape-Football-Club-Logo-2-removebg-preview.png",
       categoria:"speaking",
@@ -49,10 +49,18 @@ export const road = [
         channel: "Curso básico de inglés para los que están empezando.",
         description: "Curso básico de inglés para los que están empezando.",
         enlaces: [
-          
-
-
+            {  titulo:"[🖥️ Class] Prensent Simple with Be", url: "https://www.youtube.com/watch?v=HbroMBQLCyQ&ab_channel=MyEnglishBro"},
+            {  titulo:"[🧩 Activity] The Verb Be Affirmative Form I", url: "https://wordwall.net/play/13293/724/51767" },
+            {  titulo:"[🧩 Activity] The Verb Be Affirmative Form II", url: "https://wordwall.net/play/14390/465/80013" },
+            {  titulo:"[🧩 Activity] The Verb Be Affirmative Form III", url: "https://wordwall.net/play/11554/389/1088" },
+            {  titulo:"[🖥️ Solution] Practicando el Verbo Be Affirmative Form", url: "https://youtu.be/Z9Y7IWFNX_Q"},
+            {  titulo:"[🖥️ Class] Adjectives", url: "https://youtu.be/CpG5KE79gFg"},
             {  titulo:"[🗂️Slide] Adjectives",url: "https://docs.google.com/presentation/d/1kfRo9rtah5D8Afgsj8zbV5iC1c1pOPju/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
+            {  titulo:"[🧩 Activity] The Verb Be Negative Form", url: "https://wordwall.net/play/21158/025/3896" },
+            {  titulo:"[🧩 Activity] The Verb Be Interrogative Form I", url: "https://wordwall.net/play/1856/077/57902" },
+            {  titulo:"[🧩 Activity] The Verb Be Interrogative Form II", url: "https://wordwall.net/play/58086/380/593" },
+            {  titulo:"[🖥️ Solution] Practicando el Verbo Be Negative & Interrogative Form", url: "https://youtu.be/L0yrUtFO1pE"},
+
 
 
            
@@ -60,10 +68,7 @@ export const road = [
            
            
            
-            {  titulo:"[🖥️Class] Prensent Simple with Be", url: "https://www.youtube.com/watch?v=HbroMBQLCyQ&ab_channel=MyEnglishBro"},
-            {  titulo:"[🧩 Activity] The Verb Be Affirmative Form I", url: "https://wordwall.net/play/13293/724/51767" },
-            {  titulo:"[🧩 Activity] The Verb Be Affirmative Form II", url: "https://wordwall.net/play/14390/465/80013" },
-            {  titulo:"[🧩 Activity] The Verb Be Affirmative Form III", url: "https://wordwall.net/play/11554/389/1088" },
+          
             {  titulo:"[😎Slide] Speak Like a Native 01", url: "https://docs.google.com/presentation/d/17nnI3AdqbUoFzVws8KmozupnKy7K1VgU/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
             {  titulo:"🗂️Slide] The Numbers and The Time", url: "https://docs.google.com/presentation/d/1lLVrkj4nl8wvv3aGmqasKH3Mioo09DE7/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
             {  titulo:"[🧩 Activity]The Numbers", url: "https://wordwall.net/play/17273/376/89817"},
@@ -71,10 +76,7 @@ export const road = [
             {  titulo:"[🧩 Activity] The Numbers III", url: "https://wordwall.net/play/10642/628/5053"},
             {  titulo:"[🧩 Activity] The Time  I", url: "https://wordwall.net/play/11993/530/12821"},
             {  titulo:"[🧩 Activity] The Time  II", url: "https://wordwall.net/play/11993/400/13264"},
-            {  titulo:"[🧩 Activity] The Verb Be Negative Form", url: "https://wordwall.net/play/21158/025/3896" },
-            {  titulo:"[🧩 Activity] The Verb Be Negative Form II", url: "https://wordwall.net/play/21158/025/8719" },
-            {  titulo:"[🧩 Activity] The Verb Be Interrogative Form I", url: "https://wordwall.net/play/1856/077/57902" },
-            {  titulo:"[🧩 Activity] The Verb Be Interrogative Form II", url: "https://wordwall.net/play/58086/380/593" },
+           
             {  titulo:"[🔖Practice]The Verb Be Affirmative Form",url: "https://drive.google.com/file/d/1fieorI4c7zCUt6ltKNrXlVX8aPXogvcb/view?usp=sharing" },
             {  titulo:"[🔖Practice]The Verb Be Negative Form",url: "https://drive.google.com/file/d/15uWVRNGSUj0D8zZQ-O6K-UjTiArG5TA3/view?usp=sharing" },
             {  titulo:"[🔖Practice]The Verb Be Yes/No Questions",url: "https://drive.google.com/file/d/1s7zZgtpqjsuc3i81bFhfj7PhUWrNoUX7/view?usp=sharing" },
