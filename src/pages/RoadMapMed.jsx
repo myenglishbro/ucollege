@@ -3,6 +3,7 @@ import styles from "../style";
 import { roadmed } from "../utils/roadmed";
 import Sidebar from '../components/Sidebar';
 import ContainerRoadMed from './ContainerRoadMed';
+import DefaultView from '../components/DefaultView';
 
 const RoadMapMed = () => {
   const [codigo, setCodigo] = useState('');
@@ -22,7 +23,7 @@ const RoadMapMed = () => {
   };
 
   const handleMostrarComponente = () => {
-    const validPasswords = ['sherylchacahuasay', 'secreto', 'danielasalvatierra', 'valehuaman', 'patriciaguerron', 'jackelinechaponan', 'aletana']; // Add more passwords here
+    const validPasswords = ['sherylchacahuasay', 'secreto', 'danielasalvatierra', 'valehuaman', 'patriciaguerron', 'jackelinechaponan', 'aletana'];
     if (validPasswords.includes(codigo)) {
       setMostrarComponente(true);
     } else {
@@ -64,7 +65,7 @@ const RoadMapMed = () => {
                   value={codigo}
                   onChange={handleChangeCodigo}
                   onKeyPress={handleKeyPress}
-                  className={`py-3 px-3 mx-5 font-poppins font-medium text-[18px] text-primary rounded-[10px] outline-none`}
+                  className={`py-3 px-3 mx-5 font-poppins font-medium text-[18px]  text-n-2 rounded-[10px] outline-none`}
                 />
                 <button
                   type="button"
@@ -96,7 +97,7 @@ const RoadMapMed = () => {
               password={codigo} 
             />
           ) : (
-            <div>No roadmap data available.</div>
+            <DefaultView password={codigo} />
           )}
         </>
       )}

@@ -27,8 +27,6 @@ export const road = [
             {  titulo:"[🗂️Slide] The English Structure", url: "https://docs.google.com/presentation/d/161TA3DKqAAgy8HJFo_BzyM8-CxpseNXZ/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
             {  titulo:"[🖥️Class] The Pronouns & Transformation", url: "https://www.youtube.com/watch?v=2Ty1I6hMq-g"},
             {  titulo:"[🗂️Slide] The Pronouns & Transformation", url: "https://docs.google.com/presentation/d/1g9oaA24WsKlcS8P32zYHtdWGiRcyAIAi/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
-          
-          
             {  titulo:"[🖥️Class] The English Map", url: "https://www.youtube.com/watch?v=fOPkF348Kgg"},
             {  titulo:"[🗂️Slide] The English Map", url: "https://docs.google.com/presentation/d/1C4u_yBRUiccDNiCFnz3n5kCWkqO8aJDz/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
 
@@ -60,25 +58,17 @@ export const road = [
             {  titulo:"[🧩 Activity] The Verb Be Interrogative Form I", url: "https://wordwall.net/play/1856/077/57902" },
             {  titulo:"[🧩 Activity] The Verb Be Interrogative Form II", url: "https://wordwall.net/play/58086/380/593" },
             {  titulo:"[🖥️ Solution] Practicando el Verbo Be Negative & Interrogative Form", url: "https://youtu.be/L0yrUtFO1pE"},
+            {  titulo:"[🖥️ Class] Plural Nouns", url: "https://youtu.be/K2v046W9AoE"},
+            {  titulo:"[🗂️Slide] Plural Nouns", url: "https://docs.google.com/presentation/d/1uGlaHgl2gR_LI3_Z9wZzlp99FmqRvZAp/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
+            {  titulo:"[🧩 Activity] Plural Nouns Rules", url: "https://wordwall.net/play/75502/816/809" },
 
-            {  titulo:"[🗂️Slide] Plural Nouns", url: "https://docs.google.com/presentation/d/1WZGbWYGI3P8CfiCJjsSB5JrbWohq7RV3Z7dzO5ei36M/edit?usp=sharing"},
+            {  titulo:"[🗂️Slide] Demonstrative Adjectives ",url: "https://docs.google.com/presentation/d/1EkjxtqncsZP9UV3IPsp8x_3V2PIIo7nE/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",},
 
-            {  titulo:"[🗂️Slide] Demostrative Adjectives ",url: "https://docs.google.com/presentation/d/1EkjxtqncsZP9UV3IPsp8x_3V2PIIo7nE/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",},
-
-            {  titulo:"[🗂️Slide] Demostrative Pronouns ",url: "https://docs.google.com/presentation/d/1EkjxtqncsZP9UV3IPsp8x_3V2PIIo7nE/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",},
+            {  titulo:"[🗂️Slide] Demonstrative Pronouns ",url: "https://docs.google.com/presentation/d/1EkjxtqncsZP9UV3IPsp8x_3V2PIIo7nE/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",},
 
             
-           
-            {  titulo:"📖 The Verb Be Negative and Interrogative Form", url: "https://docs.google.com/presentation/d/1-37e0Rj12xLoLJ8AIadt47Q0q-D8JbkR/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
-
            
           
-            
-           
-            {  titulo:"📖  Be-WH Questions", url: "https://docs.google.com/presentation/d/1QzcM-95Md4pWWy1d6BzM2CX2klPaPbXT/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
-            {  titulo:"📖Correct the Sentences with The Verb Be in Questions",url: "https://docs.google.com/presentation/d/1PmPGCCydt73O4vXTB9ThQdiMk-zSdZs0/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",},
-
-            {  titulo:"📖 Review Verb be ",url: "https://docs.google.com/presentation/d/1Ckb4LISBB35qHq5Yxf1sPEruLXAo-o6w/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
           
           
 
@@ -98,13 +88,17 @@ export const road = [
         channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
         description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
         enlaces: [
+            {  titulo:"📖 The Verb Be Negative and Interrogative Form", url: "https://docs.google.com/presentation/d/1-37e0Rj12xLoLJ8AIadt47Q0q-D8JbkR/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+
+            {  titulo:"📖  Be-WH Questions", url: "https://docs.google.com/presentation/d/1QzcM-95Md4pWWy1d6BzM2CX2klPaPbXT/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"📖Correct the Sentences with The Verb Be in Questions",url: "https://docs.google.com/presentation/d/1PmPGCCydt73O4vXTB9ThQdiMk-zSdZs0/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",},
+
+            {  titulo:"📖 Review Verb be ",url: "https://docs.google.com/presentation/d/1Ckb4LISBB35qHq5Yxf1sPEruLXAo-o6w/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
             {  titulo:"[😎Slide] Speak Like a Native 01", url: "https://docs.google.com/presentation/d/17nnI3AdqbUoFzVws8KmozupnKy7K1VgU/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
             {  titulo:"🗂️Slide] The Numbers and The Time", url: "https://docs.google.com/presentation/d/1lLVrkj4nl8wvv3aGmqasKH3Mioo09DE7/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
             {  titulo:"[🧩 Activity]The Numbers", url: "https://wordwall.net/play/17273/376/89817"},
             {  titulo:"[🧩 Activity]The Numbers II", url: "https://wordwall.net/play/11115/711/5078"},
-            {  titulo:"[🧩 Activity] The Numbers III", url: "https://wordwall.net/play/10642/628/5053"},
-            {  titulo:"[🧩 Activity] The Time  I", url: "https://wordwall.net/play/11993/530/12821"},
-            {  titulo:"[🧩 Activity] The Time  II", url: "https://wordwall.net/play/11993/400/13264"},
+            {  titulo:"[🧩 Activity] The Time  I", url: "https://wordwall.net/play/11993/400/13264"},
            
             {  titulo:"📖Possessive", url: "https://docs.google.com/presentation/d/1UijMuEx-DdbZETXjEUUtT6IPkWF0az2w/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
             {  titulo:"🧩Possessive Pronouns", url: "https://wordwall.net/play/52592/500/1753"},
