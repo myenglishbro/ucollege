@@ -3,6 +3,38 @@ export const roadmed = [
         id: 0,
         thumbnail:
             "https://i.ibb.co/c3FmGzV/level1.png",
+        title: "Information",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+        enlaces: [
+           
+            { titulo:"📚[pdf] B2 First Speaking Overview  ",url: "https://drive.google.com/file/d/1QJ_hjTeJIBEb01q5q7L-UeVwwK2sW0Wg/view?usp=sharing"},
+           
+        ],
+    },
+    {
+        id: 1,
+        thumbnail:
+            "https://i.ibb.co/c3FmGzV/level1.png",
+        title: "Use of English - Part 1",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+        enlaces: [
+           
+            { titulo:"📚[pdf] B2 First Speaking Overview  ",url: "https://drive.google.com/file/d/1QJ_hjTeJIBEb01q5q7L-UeVwwK2sW0Wg/view?usp=sharing"},
+           
+        ],
+    },
+    {
+        id: 0,
+        thumbnail:
+            "https://i.ibb.co/c3FmGzV/level1.png",
         title: "Grammar",
         subtitle: "B2/C1",
 
