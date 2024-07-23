@@ -50,6 +50,83 @@ export const roadmed = [
         ],
     },
     {
+        id: 2,
+        thumbnail:
+            "https://i.ibb.co/c3FmGzV/level1.png",
+        title: "Key Word Transformation",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+        enlaces: [
+           
+            { titulo:"📚[pdf] Key Word Transformation 001 ",url: "https://drive.google.com/file/d/1fzxVyBLvMHRwzfHTGLgYapKOXasOXv0m/view?usp=sharing"},
+            { titulo:"📚[pdf] Key Word Transformation 002 ",url: "https://drive.google.com/file/d/1AytA61HbBmJgFLcXNEwEBHJQjVelp1T3/view?usp=sharing"},
+            { titulo:"📚[pdf] Key Word Transformation 003 ",url: "https://drive.google.com/file/d/1Kx3tL5lWNxOaeJwuu5bKqhaML8fi9nb6/view?usp=sharing"},
+            { titulo:"📚[pdf] Key Word Transformation 004 ",url: "https://drive.google.com/file/d/1CkMzAwGVkwxbkDaLMAIaxo_cs3o4KADY/view?usp=sharing"},
+            { titulo:"📚[pdf] Key Word Transformation 005 ",url: "https://drive.google.com/file/d/1qDQx3HJZL9Vkm6vOC9a-m7vUkqw4HMRa/view?usp=sharing"},
+
+          
+        ],
+    },
+    {
+        id: 3,
+        thumbnail:
+            "https://i.ibb.co/c3FmGzV/level1.png",
+        title: "Connectives and Linking Phrases ",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+        enlaces: [
+           
+            { titulo:"📚[pdf] Connectives and Linking Phrases 001 ",url: "https://drive.google.com/file/d/1E-4DPNChktOiBETwI-npC9fPdRGotUqQ/view?usp=sharing"},
+            { titulo:"📚[pdf] Connectives and Linking Phrases  002 ",url: "https://drive.google.com/file/d/1n3fWZPpV_DY9QCpUyvRqwO1wTMYZ67jA/view?usp=sharing"},
+            { titulo:"📚[pdf] Connectives and Linking Phrases  003 ",url: "https://drive.google.com/file/d/1sxWll8fBOnh8JxQSUEYSF6ez4xqLhe3F/view?usp=sharing"},
+            { titulo:"📚[pdf] Connectives and Linking Phrases  004 ",url: "https://drive.google.com/file/d/1nREywm6HXbce0qeVlH_kkcTV-DIAEtJI/view?usp=sharing"},
+
+          
+        ],
+    },
+    
+    {
+        id: 3,
+        thumbnail:
+            "https://i.ibb.co/0XR5yjD/990527648dc1fe389bb8568a632839e8-removebg-preview.png",
+        title: "Passive Voice",
+        subtitle: "Passive Voice",
+
+        dateAdded: "Basic 0 ",
+        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
+        description: "We will learn to introduce ourselves, spell names and words, describe people, introduce family members, and provide personal information.",
+        enlaces: [
+            { titulo: "✍ PA001 - Passive Voice - Sentence Building",url: "https://drive.google.com/file/d/1dnTe8P1YghBdXX-241IbAgBwY4Q906_R/view?usp=sharing", },
+            { titulo: "✍ PA002 - Passive Voice - Change from active to passive",url: "https://drive.google.com/file/d/1X5b3MMuae1HeE6f2pG80DVQWKOtJ99WW/view?usp=sharing", },
+            { titulo: "✍ PA003 - Passive Voice - Change from active to passive",url: "https://drive.google.com/file/d/1TM66uLQjlKIPkq3eli2yS3DVyoYY3lfO/view?usp=sharing", },
+            { titulo: "✍ PA004 - Passive Voice - Change from active to passive",url: "https://drive.google.com/file/d/11pcdPewzO3xDQrajcgLqmIN1lycd8zhO/view?usp=sharing", },
+            { titulo: "✍ PA005 - Passive Voice - Change from active to passive",url: "https://drive.google.com/file/d/1xwtUMjpat16Sz1Qc5ig4Dh2rB2Jldgr-/view?usp=sharing", },
+            { titulo: "✍ PA006 - Passive Voice - Make sentences using the tenses in brackets ",url: "https://drive.google.com/file/d/12WGBkRNI1TTH3LYZiDrLCn0XjIWoeIbQ/view?usp=sharing", },
+
+            { titulo: "✍ PA007 - Passive Voice - Fill in the correct verb form",url: "https://drive.google.com/file/d/1PxVvJ02voPDyx2w0WPLM2qSfvmImyxgC/view?usp=sharing", },
+            { titulo: "✍ PA008 - Passive Voice - Change from active to passive ",url: "https://drive.google.com/file/d/1dYVPK0nnnPqC2A1cpx1h5MHHBNl4-mSW/view?usp=sharing", },
+
+           
+            { titulo: "✍ PA009 - Active and Passive Voice ",url: "https://drive.google.com/file/d/1hMKF8FFuuZJCcr8g-Uaky3fEdyRsj4B2/view?usp=sharing", },
+            { titulo: "✍ PA010 - Passive Voice - Change from active to passive ",url: "https://drive.google.com/file/d/1kef-fwn5XS-mdpFtBsJNaiBv9O6tapqn/view?usp=sharing", },
+            { titulo: "✍ PA011 - Passive Voice - Change from active to passive ",url: "https://drive.google.com/file/d/19frb1mIz5b0HzQ5x2mEuF_EUNGJcdal9/view?usp=sharing", },
+            { titulo: "✍ PA012 - Passive Voice - Change from active to passive ",url: "https://drive.google.com/file/d/1NWjGsI_acbNQzoHhc7wvIcLjDkZ1T3Ps/view?usp=sharing", },
+         
+            { titulo: "✍ PA013 - Passive Voice - Change from active to passive ",url: "https://drive.google.com/file/d/1UDhwBHwvhaDM9Np6I8LXrGfNISgxidGZ/view?usp=sharing", },
+            { titulo: "✍ PA014 - Passive Voice - Change from active to passive ",url: "https://drive.google.com/file/d/18kj21I16EGf-lcflLsecYN7oS8WLIXSH/view?usp=sharing", },
+            { titulo: "✍ PA015 - Verb Tenses - Active or Passive Voice ",url: "https://drive.google.com/file/d/1J0928j_2Em_fLeSLqpxOImWcfcCCQv2L/view?usp=sharing", },
+            { titulo: "✍ PA016 - A Local Sports Centre - Passive Voice ",url: "https://drive.google.com/file/d/1UZQPDIEmqOl0POB7gzbSnZo0zO6W9vzo/view?usp=sharing", },
+
+            
+        ],
+    },
+    {
         id: 0,
         thumbnail:
             "https://i.ibb.co/c3FmGzV/level1.png",
