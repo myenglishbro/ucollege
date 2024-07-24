@@ -3,7 +3,7 @@ export const road = [
         id: 0,
         thumbnail:
             "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
-        title: "Fundamentos del Inglés",
+        title: "M1-Fundamentos del Inglés",
         subtitle: "Nivel Básico ",
     
         dateAdded: "Basic 0 ",
@@ -37,14 +37,14 @@ export const road = [
     {
         id: 1,
         thumbnail:
-            "https://i.ibb.co/B6gr9Gd/Black-White-and-Red-Simple-Shield-Shape-Football-Club-Logo-2-removebg-preview.png",
+            "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
            
-            title: "Present Tense I ",
+            title: "M1-Present Tense I ",
         subtitle: "Basic Level",
     imagenseccion: "https://i.ibb.co/B6gr9Gd/Black-White-and-Red-Simple-Shield-Shape-Football-Club-Logo-2-removebg-preview.png",
       categoria:"speaking",
         dateAdded: "Basic 0 ",
-        channel: "Curso básico de inglés para los que están empezando.",
+        channel: "",
         description: "Curso básico de inglés para los que están empezando.",
         enlaces: [
             {  titulo:"[🖥️ Class] Prensent Simple with Be", url: "https://www.youtube.com/watch?v=HbroMBQLCyQ&ab_channel=MyEnglishBro"},
@@ -59,12 +59,19 @@ export const road = [
             {  titulo:"[🧩 Activity] The Verb Be Interrogative Form II", url: "https://wordwall.net/play/58086/380/593" },
             {  titulo:"[🖥️ Solution] Practicando el Verbo Be Negative & Interrogative Form", url: "https://youtu.be/L0yrUtFO1pE"},
             {  titulo:"[🖥️ Class] Plural Nouns", url: "https://youtu.be/K2v046W9AoE"},
+            
             {  titulo:"[🗂️Slide] Plural Nouns", url: "https://docs.google.com/presentation/d/1uGlaHgl2gR_LI3_Z9wZzlp99FmqRvZAp/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
+
+
+            {  titulo:"[🖥️ Class] Practicando Plural Nouns", url: "https://youtu.be/K2v046W9AoE"},
+
             {  titulo:"[🧩 Activity] Plural Nouns Rules", url: "https://wordwall.net/play/75502/816/809" },
+            {  titulo:"[🖥️ Class] Demonstrative Adjectives", url: "https://youtu.be/K2v046W9AoE"},
 
-            {  titulo:"[🗂️Slide] Demonstrative Adjectives ",url: "https://docs.google.com/presentation/d/1EkjxtqncsZP9UV3IPsp8x_3V2PIIo7nE/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",},
+            {  titulo:"[🗂️Slide] Demonstrative Adjectives ",url: "https://docs.google.com/presentation/d/1hw4LZ3Tma1QFhHUwTdENPHhRcvaE9Rdv/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true",},
+            {  titulo:"[🖥️ Class] Demonstrative Pronouns", url: "https://youtu.be/K2v046W9AoE"},
 
-            {  titulo:"[🗂️Slide] Demonstrative Pronouns ",url: "https://docs.google.com/presentation/d/1EkjxtqncsZP9UV3IPsp8x_3V2PIIo7nE/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",},
+            {  titulo:"[🗂️Slide] Demonstrative Pronouns ",url: "https://docs.google.com/presentation/d/18Y9eWTC4cdzK1L3EEFhNz7OFCtKjWIFh/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true",},
 
             
            

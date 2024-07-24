@@ -23,7 +23,7 @@ const RoadMap = () => {
   };
 
   const handleMostrarComponente = () => {
-    const validPasswords = ['tutor123', 'andresjaramillo', 'davidbenites', 'jrvchoche', 'cesarhurtado', 'roycondori', 'maxcontreras','rosamamani','manuellopez']; 
+    const validPasswords = ['udemystudent', 'andresjaramillo', 'davidbenites', 'jrvchoche', 'cesarhurtado', 'roycondori', 'maxcontreras','rosamamani','manuellopez','teachercarlos']; 
     if (validPasswords.includes(codigo)) {
       setMostrarComponente(true);
     } else {
