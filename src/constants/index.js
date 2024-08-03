@@ -33,6 +33,10 @@ import {
   telegram,
   twitter,
   yourlogo,
+  ielts,
+  toefl,
+  cambridge,
+  celpip
 } from "../assets2";
 export const navLinks =  [
     {
@@ -331,13 +335,13 @@ export const navLinks =  [
 
   export const heroIcons = [homeSmile, file02, searchMd, plusSquare];
 
-  export const companyLogos = [yourlogo, yourlogo, yourlogo, yourlogo, yourlogo];
+  export const companyLogos = [cambridge, ielts, toefl];
   export const benefits = [
     {
       id: "0",
-      title: "B2 First Cambridge Preparation",
-      text: "Si tienes nivel B1 de inglés y te gustaría certificarte con B2 con Cambridge esto es para ti!",
-      price: "S/30 o $ 10 por 60 minutos",
+      title: "B2 First Cambridge Preparation - Grupal",
+      text: "Clases los Sábados y Domingos de 4:00 a 6:00 pm , si quieres alcanzar el nivel B2 en inglés y además prepararte para este examen ,este grupo es ideal para ti ",
+      price: "S/180 - $50 - MXN $ 930",
 
       backgroundUrl: "./src/assets/benefits/card-1.svg",
       iconUrl: benefitIcon1,

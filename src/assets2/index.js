@@ -20,7 +20,10 @@ import chromecast from "./chrome-cast.svg";
 import sliders04 from "./sliders-04.svg";
 import loading from "./loading.png";
 import background from "./background.jpg";
-
+import ielts from "./ielts.png"
+import toefl from  "./toefl.svg"
+import cambridge from "./cambridge.png"
+import celpip from "./celpip.png"
 import curve from "./hero/curve.png";
 import robot from "./hero/robot.jpg";
 import heroBackground from "./hero/hero-background.jpg";
@@ -74,8 +77,11 @@ import facebook from "./socials/facebook.svg";
 import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
-
 export {
+  celpip,
+  cambridge,
+  ielts,
+  toefl,
   brainwave,
   check,
   check2,
