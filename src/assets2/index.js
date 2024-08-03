@@ -21,7 +21,7 @@ import sliders04 from "./sliders-04.svg";
 import loading from "./loading.png";
 import background from "./background.jpg";
 import ielts from "./ielts.png"
-import toefl from  "./toefl.png"
+import toefl from  "./toefl.svg"
 import cambridge from "./cambridge.png"
 import celpip from "./celpip.png"
 import curve from "./hero/curve.png";
