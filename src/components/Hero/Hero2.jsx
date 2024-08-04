@@ -35,7 +35,7 @@ const Hero2 = () => {
               />
             </span>
           </h1>
-          <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
+          <p className="body-1 max-w-3xl mx-auto mb-3 text-n-2 lg:mb-3">
          Comunicate y expresate como todo un Nativo .
           </p>
           <Button href="https://api.whatsapp.com/send?phone=51926922032&text=Hello%20Carlos!%20%F0%9F%99%82" white>
@@ -44,23 +44,14 @@ const Hero2 = () => {
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-14">
          
-          <div className="absolute -top-[54%] left-1/2 w-[234%] -translate-x-1/2 md:-top-[46%] md:w-[138%] lg:-top-[104%]">
-            <img
-              src={heroBackground}
-              className="w-full"
-              width={1440}
-              height={1800}
-              alt="hero"
-            />
-          </div>
-
+        
           <BackgroundCircles />
         </div>
 
-        <CompanyLogos className=" relative z-10 mt-10 lg:block" />
+      
       </div>
 
-      <BottomLine />
+    
     </Section>
   );
 };

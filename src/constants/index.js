@@ -401,22 +401,59 @@ export const navLinks =  [
     },
   ];
   export const collabText =
-  "Todas tus clases son personalizadas de acuerdo a tu nivel , responderé todas tus preguntas y te brindare todos los recursos necesario para poder hablar el ingles como un nativo";
+  "Si quieres alcanzar el nivel B2 y además te gustaría prepararte para el examen de Cambridge, este curso es para ti";
 
 export const collabContent = [
   {
     id: "0",
-    title: "Clases en Vivo y Asesoramiento Constante",
+    title: "Duración : 20 Horas de Clases en Vivo",
     text: collabText,
   },
   {
     id: "1",
-    title: "Roadmap",
+    title: "Frecuencia : Sábados y Domingos 4:00 - 6:00 pm  Hora de Perú",
   },
   {
     id: "2",
-    title: "After class",
+    title: "Recursos : Ruta de Aprendizaje con Materiales y Ejercicios",
   },
+  {
+    id: "3",
+    title: "Costo : S/180 - $50 - MXN$ 950 ",
+  },
+  {
+    id: "4",
+    title: "Zoom Premium + Wsp privado   ",
+  },
+  {
+    id: "5",
+    title: "Cada clase es individual y ninguna depende de la anterior ,todas las lecciones se graban   ",
+  }
+];
+
+
+
+export const collabText2 =
+"Sixxx quieres alcanzar el nivel B2 y además te gustaría prepararte para el examen de Cambridge, este curso es para ti";
+
+export const collabContent2 = [
+{
+  id: "0",
+  title: "20 Horas de Clases en Vivo",
+  text: collabText2,
+},
+{
+  id: "1",
+  title: "Sábados y Domingos 4:00 - 6:00 pm",
+},
+{
+  id: "2",
+  title: "Ruta de Aprendizaje",
+},
+{
+  id: "3",
+  title: "S/.180 ",
+}
 ];
   export const collabApps = [
     {

@@ -16,20 +16,20 @@ import Schedule from '../components/Schedule';
 import Business3 from '../components/Business3';
 import Business2 from '../components/Business2';
 import Hero2 from '../components/Hero/Hero2';
-import Benefits from '../components/Benefits';
 import Collaboration from '../components/Collaboration';
-import Services from '../components/Services';
 import Pricing from '../components/Pricing';
 import Roadmap from '../components/Roadmap';
+import Collaboration2 from '../components/Collaboration2';
 const Home = () => {
   return (
     <>
 
      
         <Hero2></Hero2>
-        <Benefits/>
-<Services></Services>
+     
+
       <Collaboration></Collaboration>
+      <Collaboration2></Collaboration2>
       <Pricing></Pricing>
       <Roadmap></Roadmap>
   

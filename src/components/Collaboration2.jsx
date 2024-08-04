@@ -1,20 +1,20 @@
 import { brainwaveSymbol, check } from "../assets2";
-import { collabApps, collabContent, collabText } from "../constants";
+import { collabApps, collabContent2, collabText2 } from "../constants";
 import Button from "./Button";
 import Section from "./Hero/Section";
 import { LeftCurve, RightCurve } from "./design/Collaboration";
 
-const Collaboration = () => {
+const Collaboration2 = () => {
   return (
     <Section crosses>
       <div className="container lg:flex">
         <div className="max-w-[25rem]">
           <h2 className="h2 mb-4 md:mb-8">
-           Cambridge B2 Preparation
+           Clases de Ingles Personalizadas
           </h2>
 
           <ul className="max-w-[22rem] mb-10 md:mb-14">
-            {collabContent.map((item) => (
+            {collabContent2.map((item) => (
               <li className="mb-3 py-3" key={item.id}>
                 <div className="flex items-center">
                   <img src={check} width={24} height={24} alt="check" />
@@ -81,4 +81,4 @@ const Collaboration = () => {
   );
 };
 
-export default Collaboration;
+export default Collaboration2;
