@@ -356,7 +356,7 @@
   position: fixed;
   left: -200px;
   top: 70px;
-  height: 100%;
+  height: calc(100% - 70px); /* Ajusta la altura restando el espacio ocupado por la parte superior */
   width: 200px;
   background-color: #1a202c;
   display: flex;
@@ -365,6 +365,7 @@
   padding-top: 20px;
   z-index: 1000;
   transition: left 0.3s ease;
+  overflow-y: auto; /* Permite el scroll vertical si el contenido excede la altura del contenedor */
 }
 
 .sidebar.visible {
