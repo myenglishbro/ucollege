@@ -356,7 +356,7 @@
   position: fixed;
   left: -200px;
   top: 70px;
-  height: calc(100% - 70px); /* Ajusta la altura restando el espacio ocupado por la parte superior */
+  height: calc(100% - 70px);
   width: 200px;
   background-color: #1a202c;
   display: flex;
@@ -365,7 +365,27 @@
   padding-top: 20px;
   z-index: 1000;
   transition: left 0.3s ease;
-  overflow-y: auto; /* Permite el scroll vertical si el contenido excede la altura del contenedor */
+  overflow-y: auto;
+}
+
+/* Estilos personalizados para el scroll */
+.sidebar::-webkit-scrollbar {
+  width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: #2d3748; /* Color del track del scroll */
+  border-radius: 8px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background-color: #A0AEC0; /* Color de la barra de scroll */
+  border-radius: 8px;
+  border: 2px solid #1a202c; /* Borde alrededor del scrollbar */
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background-color: #cbd5e0; /* Color de la barra de scroll al pasar el mouse */
 }
 
 .sidebar.visible {
