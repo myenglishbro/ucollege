@@ -202,6 +202,8 @@ export const roadmed = [
         channel: "sdasd",
         description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
         enlaces: [
+            { titulo:"📚[Slide] Summary Grammar : Resumen de Gramática Fundamental para Aprobar  ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
+
             {
                 titulo: "🎯[Activity] Introduction to the Course",
                 url: "https://wordwall.net/play/11758/458/200",
