@@ -744,5 +744,23 @@ export const roadmed = [
 
             
         ],
+    }, {
+        id: 26,
+        thumbnail:
+            "https://i.ibb.co/W2FY74b/level5.png",
+        title: "Future Tenses",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Completa los desafíos para dominar el Inglés",
+        enlaces: [
+            { titulo: "✍ Ways of Expressing Future Tense ",url: "https://drive.google.com/file/d/1J6r3JFYzr-U4CzRQihyMcl6uB2Ms7bu0/view?usp=sharing", },    
+            { titulo: "✍  Future Tenses ",url: "https://drive.google.com/file/d/1uQEVuavBgrytYsOTlD3dAg8qZDCtZEa_/view?usp=sharing", },
+            
+           
+
+            
+        ],
     }
 ];
