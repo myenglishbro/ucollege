@@ -23,7 +23,7 @@ const RoadMapMed = () => {
   };
 
   const handleMostrarComponente = () => {
-    const validPasswords = ['diegoalvarado','gabrielahilario','alexandermunoz','sherylchacahuasay', 'udemystudent', 'valehuaman', 'patriciaguerron', 'jackelinechaponan','jhoelhuaman'];
+    const validPasswords = ['diegoalvarado','gabrielahilario', 'udemystudent'];
     if (validPasswords.includes(codigo)) {
       setMostrarComponente(true);
     } else {
