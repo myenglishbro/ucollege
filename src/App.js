@@ -67,7 +67,7 @@ function App() {
           <Route path="/Clases" element={<Clases />}></Route>
           <Route path="/RoadMap" element={<RoadMap />}></Route>
           <Route path="/RoadMapMed" element={<RoadMapMed />}></Route>
-          <Route path="/IELTS" element={<RoadMapDev />}></Route>
+          <Route path="/Bootcamp" element={<RoadMapDev />}></Route>
 
           <Route path="/PoliticasClase" element={<PoliticasClase />}></Route>
           <Route path="/Pagos" element={<Pagos />}></Route>
@@ -103,13 +103,7 @@ function App() {
 
         <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
-        {/* <Stats />
-        <Business />
-        <Billing />
-        <CardDeal />
-        <Testimonials />
-        <Clients />
-        <CTA /> */}
+        
         <Footer />
       </div>
     </div>

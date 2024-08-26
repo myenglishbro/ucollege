@@ -432,3 +432,13 @@
     display: none;
   }
 }
+.main-content {
+  margin-left: 200px; /* Ajusta este valor al ancho de tu sidebar */
+  transition: margin-left 0.3s ease;
+}
+
+@media (min-width: 768px) {
+  .main-content {
+    margin-left: 200px;
+  }
+}

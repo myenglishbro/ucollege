@@ -89,8 +89,8 @@ export const navLinks =  [
     
     ,
     {
-      title: "IELTS",
-      path: "/IELTS"
+      title: "Bootcamp",
+      path: "/Bootcamp"
       
     }
     

@@ -3,7 +3,7 @@ export const road = [
         id: 0,
         thumbnail:
             "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
-        title: "M1-Fundamentos del Inglés",
+        title: "M1-Fundamentos",
         subtitle: "Nivel Básico ",
     
         dateAdded: "Basic 0 ",
