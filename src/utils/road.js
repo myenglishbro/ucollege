@@ -1088,6 +1088,42 @@ export const road = [
             },
            
         ],
+    }, 
+    {
+        id: 27,
+        thumbnail:
+            "",
+        title: "Duolinguo",
+        subtitle: "Upper-Intermediate",
+
+        dateAdded: "B2",
+        channel: "Upper-Intermediate",
+        description: "Desarrollando habilidades lingüísticas fundamentales",
+        enlaces: [
+          
+            
+            {
+                titulo: "📒[slides] Read and Complete 1",
+                url: "https://docs.google.com/presentation/d/12klLnHNvAHZ3BxdA7zVSdiY6UWZKgWjE/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true",
+            },
+            {
+                titulo: "📒[slides] Read and Complete 2",
+                url: "https://docs.google.com/presentation/d/1eWCBSCR3CL8UfHAumCcc70V8l9AtOSaI/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true",
+            },
+            {
+                titulo: "📒[slides] Read and Complete Samples",
+                url: "https://docs.google.com/document/d/1vKaqA0u7eHZeIBTfwp_m40DzPSqfD12J/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true",
+            },
+            {
+                titulo: "📒[slides] Read and Complete 3",
+                url: "https://docs.google.com/presentation/d/1vDvxBxwAUQzF2BQJ8JLP8o6mBIbAmf0t/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true",
+            },
+            {
+                titulo: "📒[slides] Speaking Samples",
+                url: "https://docs.google.com/document/d/13nEGPwnjIxDw6io6tBWyJTZ_uaMgWu9P/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true",
+            }
+           
+        ],
     },
     
 ];
