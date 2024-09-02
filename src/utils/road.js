@@ -712,6 +712,38 @@ export const road = [
     },
     
     {
+        id: 3,
+        thumbnail:
+            "https://i.ibb.co/0XR5yjD/990527648dc1fe389bb8568a632839e8-removebg-preview.png",
+        title: "M4 - English Verb Patterns",
+        subtitle: "Basic Level",
+
+        dateAdded: "Basic 0 ",
+        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
+        description: "We will learn to introduce ourselves, spell names and words, describe people, introduce family members, and provide personal information.",
+        enlaces: [
+            { titulo: "📒[slides] Transitive and Intransitive Verbs",url: "https://drive.google.com/file/d/1q9Ay8KRUU9tSwuHEvjIM8bKZ3PWCyjkZ/view?usp=sharing", },
+            { titulo: "📒[slides] Gerunds and Infinitives Explanation",url: "https://drive.google.com/file/d/1rE08bQrEyF0TVO7FTYWGtLaiOGKuLjRO/view?usp=sharing", },
+            { titulo: "✍  Gerunds and Infinitives Exercise 1",url: "https://drive.google.com/file/d/1KJKLqjSwQeILyViRun9ADqge1ikKPmSD/view?usp=sharing", },
+            { titulo: "✍  Gerunds and Infinitives Exercise 2",url: "https://drive.google.com/file/d/19WY1c2LJZrAjj84niwx-u5dgh-dafQb6/view?usp=sharing", },
+            { titulo: "✍  Gerunds and Infinitives Exercise 3",url: "https://drive.google.com/file/d/1xURjjQPkur3dYBtFRuZTmbnqlC-ZCb2b/view?usp=sharing", },
+            { titulo: "✍  Desafio gerund vs infinitive",url: "https://wordwall.net/play/7240/772/7948", },
+
+           
+           
+
+
+
+          
+            {
+                titulo: "📒[slides] UNIT 5:PRESENT PERFECT AND SIMPLE PAST",
+                url: "https://docs.google.com/presentation/d/1bpMRMy7LVba68bhwB6w2KUEXmD7n-MAP/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
+            },
+
+            
+        ],
+    },
+    {
         id: 4,
         thumbnail:
             "",
