@@ -574,6 +574,13 @@ export const road = [
         channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
         description: "We will learn to introduce ourselves, spell names and words, describe people, introduce family members, and provide personal information.",
         enlaces: [
+
+            { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1GWFlQ8RvPK7qb3S8HLBhKTlBONeogy0H/view?usp=sharing", },
+            { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/18h8QAkzm5UIzr-TF3DywBw_F-KtkjUYY/view?usp=sharing", },
+            { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1LCS98Vmh3gzPntxzCx5kX_EdackIK0v_/view?usp=sharing", },
+            { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1gxGscWmK3hDwJTXbNQpUEKlWSh_J9VLG/view?usp=sharing", },
+            { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1_3IiO9AC-y6Ks5RZujHdQyaWKKeMO9pu/view?usp=sharing", },
+            { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1Cc3RqGtZefUPxDSohH0Xssr4OSO5uftZ/view?usp=sharing", },
             {  titulo:"✍️Practica Integradora 1", url: "https://docs.google.com/document/d/1dEid7CxmlAwFluGbugI-3zH__ktx_KrV/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true", },
             {  titulo:"✍️Test 01", url: "https://docs.google.com/document/d/1dEid7CxmlAwFluGbugI-3zH__ktx_KrV/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true", },
 
