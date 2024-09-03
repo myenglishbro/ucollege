@@ -727,6 +727,10 @@ export const road = [
             { titulo: "✍  Gerunds and Infinitives Exercise 1",url: "https://drive.google.com/file/d/1KJKLqjSwQeILyViRun9ADqge1ikKPmSD/view?usp=sharing", },
             { titulo: "✍  Gerunds and Infinitives Exercise 2",url: "https://drive.google.com/file/d/19WY1c2LJZrAjj84niwx-u5dgh-dafQb6/view?usp=sharing", },
             { titulo: "✍  Gerunds and Infinitives Exercise 3",url: "https://drive.google.com/file/d/1xURjjQPkur3dYBtFRuZTmbnqlC-ZCb2b/view?usp=sharing", },
+            { titulo: "💡  GI003 - Gerund or Infinitive - Fill in the correct form ",url: "https://drive.google.com/file/d/1H6BxX1OPZ-5fU7peCACnw6vRV5-lnUPW/view?usp=sharing", },
+            { titulo: "🔑  GI003 - Gerund or Infinitive - Fill in the correct form ",url: "https://drive.google.com/file/d/1OYpGW81Wt7dvLTsTa7zddJRJIKKo7Mpn/view?usp=sharing", },
+            { titulo: "💡  GI004 - Gerund or Infinitive - Fill in the correct form ",url: "https://drive.google.com/file/d/1GOe8JtMyfLpayGkIgkUn1IkGRblKsoGf/view?usp=sharing", },
+            { titulo: "🔑  GI004 - Gerund or Infinitive - Fill in the correct form ",url: "https://drive.google.com/file/d/1iAOBovzOkjJH9Z9rToPCj8losTuXz9ov/view?usp=sharing", },
             { titulo: "✍  Desafio gerund vs infinitive",url: "https://wordwall.net/play/7240/772/7948", },
 
            
