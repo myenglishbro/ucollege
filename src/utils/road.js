@@ -685,14 +685,12 @@ export const road = [
         channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
         description: "We will learn to introduce ourselves, spell names and words, describe people, introduce family members, and provide personal information.",
         enlaces: [
-            { titulo: "✍ Present Tense Simple and Continuous",url: "https://drive.google.com/file/d/1Gjn3DIa6xRDKcbKFvUopOvzMTA7vnW02/view?usp=sharing", },
-            { titulo: "✍ Present Tense Simple and Continuous",url: "https://drive.google.com/file/d/1fQ23Xn4bXCSZJSaHGiWf5utUXeHAK0ma/view?usp=sharing", },
-            { titulo: "✍ Present Tense Simple and Continuous",url: "https://drive.google.com/file/d/1HlMPxx9G-eXDvAkpnoYcD_qhH8DRcUt_/view?usp=sharing", },
-
+            {
+                titulo: "📒[slides] UNIT 5:PRESENT PERFECT AND SIMPLE PAST",
+                url: "https://docs.google.com/presentation/d/1bpMRMy7LVba68bhwB6w2KUEXmD7n-MAP/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
+            },
             { titulo: "✍ Past and Present Perfect Tense - Simple Form",url: "https://drive.google.com/file/d/1D6keuz7pTkAnNv7mr2WRWoNIIlR5xaAu/view?usp=sharing", },
-            { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1GWFlQ8RvPK7qb3S8HLBhKTlBONeogy0H/view?usp=sharing", },
 
-            { titulo: "✍ Past Tense: Simple and Progressive",url: "https://drive.google.com/file/d/1Cc3RqGtZefUPxDSohH0Xssr4OSO5uftZ/view?usp=sharing", },
             { titulo: "✍ B1 Simple Past , Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/10efo7YOPNaICX_E6_DQJsYZ5ctxm2xYQ/view?usp=sharing", },
 
            
@@ -702,10 +700,7 @@ export const road = [
 
 
           
-            {
-                titulo: "📒[slides] UNIT 5:PRESENT PERFECT AND SIMPLE PAST",
-                url: "https://docs.google.com/presentation/d/1bpMRMy7LVba68bhwB6w2KUEXmD7n-MAP/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
-            },
+           
 
             
         ],
