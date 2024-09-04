@@ -726,7 +726,12 @@ export const road = [
             { titulo: "🔑  GI003 - Gerund or Infinitive - Fill in the correct form ",url: "https://drive.google.com/file/d/1OYpGW81Wt7dvLTsTa7zddJRJIKKo7Mpn/view?usp=sharing", },
             { titulo: "💡  GI004 - Gerund or Infinitive - Fill in the correct form ",url: "https://drive.google.com/file/d/1GOe8JtMyfLpayGkIgkUn1IkGRblKsoGf/view?usp=sharing", },
             { titulo: "🔑  GI004 - Gerund or Infinitive - Fill in the correct form ",url: "https://drive.google.com/file/d/1iAOBovzOkjJH9Z9rToPCj8losTuXz9ov/view?usp=sharing", },
-            { titulo: "✍  Desafio gerund vs infinitive",url: "https://wordwall.net/play/7240/772/7948", },
+            { titulo: "🧩  Desafio gerund vs infinitive",url: "https://wordwall.net/play/7240/772/7948", },
+            { titulo: "🧩  Desafio gerund vs infinitive II",url: "https://wordwall.net/play/22920/270/462", },
+            { titulo: "🧩  Desafio gerund vs infinitive III",url: "https://wordwall.net/play/76232/915/656", },
+            { titulo: "🧩  Desafio gerund vs infinitive IV",url: "https://wordwall.net/play/71477/712/378", },
+            { titulo: "🧩  Desafio gerund vs infinitive V",url: "https://wordwall.net/play/75464/667/869", },
+            { titulo: "🧩  Desafio gerund vs infinitive VI ",url: "https://wordwall.net/play/59257/372/969", },
 
            
            
