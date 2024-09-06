@@ -3,6 +3,26 @@ export const road = [
         id: 0,
         thumbnail:
             "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
+        title: "Ubica tu nivel",
+        subtitle: "Nivel Básico ",
+    
+        dateAdded: "Basic 0 ",
+        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
+        description: "Envia tu examen para su corrección al correo temis_it@hotmail.com",
+        enlaces: [
+            {  titulo:"[M1-10] Exam",url: "https://drive.google.com/file/d/12O4mX_tZIsRqULe8iJVUvvr_q1witI_P/view?usp=sharing"},        
+            {  titulo:"[M1-11] Exam",url: "https://drive.google.com/file/d/1Hg6By1hFOK_NOmOIKHttDHZ8BUZsuvhI/view?usp=sharing"},        
+            {  titulo:"[M1-12] Exam",url: "https://drive.google.com/file/d/1IxdTDk06FHkGIYOrNbcml6AEutsLrp8I/view?usp=sharing"},        
+            {  titulo:"[M2-01] Exam",url: "https://drive.google.com/file/d/1Kmx6qI5eAKaMbWINIevF1m2pr5nDNzmB/view?usp=sharing"},        
+            {  titulo:"[M2-02] Exam",url: "https://drive.google.com/file/d/1H4YQQbU1DjuJAhhy6Ee7PETKtUdBZL7o/view?usp=sharing"},        
+
+            
+        ],
+    },
+    {
+        id: 0,
+        thumbnail:
+            "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
         title: "M1-Fundamentos",
         subtitle: "Nivel Básico ",
     
