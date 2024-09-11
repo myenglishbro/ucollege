@@ -998,7 +998,32 @@ export const road = [
         ],
     },
 
+    {
+        id: 25,
+        thumbnail:
+            "",
+        title: "M4 - Phrasal Verbs",
+        subtitle: "Pre-Intermediate",
 
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Desarrollando habilidades lingüísticas fundamentales",
+        enlaces: [
+            
+
+
+            {titulo: "📒Phrasal verb with Get",url: "https://drive.google.com/file/d/1txaA2U2EMDVKnJ--_UM8YhzDZBaHasDP/view?usp=sharing",},
+            {titulo: "📒Phrasal verb with Take",url: "https://drive.google.com/file/d/1ZkjaNFOku-6MgJSzH_QRRXHoYGm02uLQ/view?usp=sharing",},
+            {titulo: "📒Phrasal verb Get vs Take",url: "https://drive.google.com/file/d/1XyP5ABzwxOESdOwnOucJ_2-3beKDqxwv/view?usp=sharing",},
+            {titulo: "📒Phrasal verb with Up",url: "https://drive.google.com/file/d/1B7kiX_3JXK8jiRYNFkR4IxPqoHCz0J7K/view?usp=sharing",},
+            {titulo: "📒Phrasal verb Dictation",url: "https://drive.google.com/file/d/1Q78yaqJPpqUThoLZ4y5tqPFp-x6eCV8F/view?usp=sharing",},
+
+
+         
+            
+            
+        ],
+    },
     {
         id: 26,
         thumbnail:
