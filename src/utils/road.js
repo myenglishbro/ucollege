@@ -89,7 +89,10 @@ export const road = [
             {  titulo:"[🧩 Activity] The Verb Be Interrogative Form I", url: "https://wordwall.net/play/1856/077/57902" },
             {  titulo:"[🧩 Activity] The Verb Be Interrogative Form II", url: "https://wordwall.net/play/58086/380/593" },
             {  titulo:"[🖥️ Solution] Practicando el Verbo Be Negative & Interrogative Form", url: "https://youtu.be/L0yrUtFO1pE"},
+          
             {  titulo:"[🖥️ Class] Plural Nouns", url: "https://youtu.be/K2v046W9AoE"},
+
+            
             
             {  titulo:"[🗂️Slide] Plural Nouns", url: "https://docs.google.com/presentation/d/1uGlaHgl2gR_LI3_Z9wZzlp99FmqRvZAp/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
 
@@ -190,13 +193,49 @@ export const road = [
            
             {  titulo:"💭🧠 Flyers Speaking Cards",url: "https://wordwall.net/play/15458/923/448" },
 
-            {  titulo:"🚩 Listening Quiz ", url: "https://forms.gle/Lx6sfRT84P2xc8Dw7"},
-
            
-            {  titulo:"🚩Writing Quiz", url: "https://forms.gle/3NtJ7jPcPw1mzfrJA"},
-            {  titulo:"🚩 Speaking Quiz", url: "https://forms.gle/L3nHmas8FZfVB9hD6"},
-            {  titulo:"✍️Practica Integradora 1", url: "https://docs.google.com/document/d/1dEid7CxmlAwFluGbugI-3zH__ktx_KrV/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true", },
 
+        ],
+    },
+    {
+        id: 5,
+        thumbnail:
+            "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
+        title: "Listening Center I",
+        subtitle: "Nivel Básico ",
+    
+        dateAdded: "Basic 0 ",
+        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
+        description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
+        enlaces: [
+           
+            {  titulo:"[ ▶️💿 Listening Track] Be-Verbs-Introduction", url: "https://drive.google.com/file/d/17Lf7YVWWL3J6ZlxcBGo_uKJLeN3aeClc/view?usp=sharing"},
+            {  titulo:"[ 🎧📑 Listening Worksheet] Be-Verbs-Introduction", url: "https://drive.google.com/file/d/1KfV3ia7U0wgt0w382Xfu4wgKgvSG7oDB/view?usp=sharing"},
+            {  titulo:"[ ▶️💿 Listening Track] Be-Yes-No-Questions", url: "https://drive.google.com/file/d/1QdV0ezdTMqw_-XY6EQhbU7XWtIbDBfLT/view?usp=sharing"},
+            {  titulo:"[ 🎧📑 Listening Worksheet] Be-Yes-No-Questions", url: "https://drive.google.com/file/d/1sRDMHlTvic6YDluhWQ3vJmwFIxodWFee/view?usp=sharing"},
+            {  titulo:"[ ▶️💿 Listening Track] Likes-Fruits", url: "https://drive.google.com/file/d/1jK724U6fY7fsfH49MMp_P5aeI9WxKWSO/view?usp=sharing"},
+            {  titulo:"[ 🎧📑 Listening Worksheet] Likes-Fruits", url: "https://drive.google.com/file/d/1neV1tlIP3aw7wCvfiOcAcAdZkYP8P1pU/view?usp=sharing"},
+
+
+            {  titulo:"[ ▶️💿 Listening Track] Verbs -Present Simple", url: "https://drive.google.com/file/d/1E3LHvSXWGIWD_VlvFiZU_SPGrYRQI2qp/view?usp=sharing"},
+            {  titulo:"[ 🎧📑 Listening Worksheet] Verbs -Present Simple", url: "https://drive.google.com/file/d/1_UQf3VANxdA62__5oBLnngJSYhmnTx5L/view?usp=sharing"},
+
+            {  titulo:"[ ▶️💿 Listening Track] Yes / No Questions with Verbs", url: "https://drive.google.com/file/d/1sQ5GIqQPAepKqpzAI8X8IwZFkUn54xYY/view?usp=sharing"},
+            {  titulo:"[ 🎧📑 Listening Worksheet] Yes / No Questions with Verbs", url: "https://drive.google.com/file/d/1dyB2TOcY9wN-LnoCSpqbDUqTTfhPyDiu/view?usp=sharing"},
+
+            {  titulo:"[ ▶️💿 Listening Track] Third Person Singular", url: "https://drive.google.com/file/d/1dpZcurygltj5nPjHC5f-M-Nm9az0mEFJ/view?usp=sharing"},
+            {  titulo:"[ 🎧📑 Listening Worksheet] Third Person Singular", url: "https://drive.google.com/file/d/1b1Ne9hLfpUDTI7ahvrwtCIfAkiPiXI4C/view?usp=sharing"},
+
+
+            {  titulo:"[ ▶️💿 Listening Track] Adjectives", url: "https://drive.google.com/file/d/1eP9vlMcWY5rQeElEyMwMRc9no7JKucgN/view?usp=sharing"},
+          
+            {  titulo:"[ 🎧📑 Listening Worksheet] Adjectives", url: "https://drive.google.com/file/d/1bPduv45i_ih-KU2dt9M7QUpXnFluwPMz/view?usp=sharing"},
+      
+      
+            {  titulo:"[ ▶️💿 Listening Track] Days of the week", url: "https://drive.google.com/file/d/1S8LCubZ3TTG_b77lhxpln4TPJ7SaOTCr/view?usp=sharing"},
+            {  titulo:"[ 🎧📑 Listening Worksheet] Days of the week", url: "https://drive.google.com/file/d/19lQ7wqAtffFMAS2Bs9opcn8GJ9f2_Gew/view?usp=sharing"},
+      
+      
         ],
     },
     {
