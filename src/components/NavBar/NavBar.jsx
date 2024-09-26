@@ -1,11 +1,16 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { close, menu,logo } from '../../assets/index'; // Asegúrate de tener importado tu logo y los iconos
+import { close, menu, logo } from '../../assets/index';
 import { navLinks } from '../../constants';
 
 const Navbar = () => {
   const [active, setActive] = useState('Home');
   const [toggle, setToggle] = useState(false);
+
+  // Estado para manejar el dropdown
+  const [dropdownOpen, setDropdownOpen] = useState(false);
+
+  const handleDropdown = () => setDropdownOpen(!dropdownOpen);
 
   return (
     <div className="fixed top-0 left-0 w-full z-50 border-b border-n-6 bg-n-8 lg:bg-n-8/90 lg:backdrop-blur-sm">
@@ -20,8 +25,10 @@ const Navbar = () => {
             MyEnglishBro!
           </h3>
         </div>
+
+        {/* Desktop links */}
         <ul className="list-none sm:flex hidden justify-end items-center flex-1">
-          {navLinks.map((nav, index) => (
+          {navLinks.slice(0, 4).map((nav, index) => (
             <li
               key={nav.title}
               className={`font-poppins font-normal cursor-pointer text-[16px] ${
@@ -32,8 +39,37 @@ const Navbar = () => {
               <Link to={nav.path}>{nav.title}</Link>
             </li>
           ))}
+
+          {/* Dropdown menu */}
+          <li className="relative">
+            <button
+              onClick={handleDropdown}
+              className="font-poppins font-normal cursor-pointer text-[16px] text-dimWhite"
+            >
+              Roadmaps
+            </button>
+            {dropdownOpen && (
+              <ul className="absolute mt-2 bg-n-8 rounded-xl shadow-lg p-3">
+                {navLinks.slice(4).map((nav, index) => (
+                  <li
+                    key={nav.title}
+                    className={`font-poppins font-normal cursor-pointer text-[16px] text-dimWhite ${
+                      index === navLinks.length - 1 ? 'mb-0' : 'mb-2'
+                    }`}
+                    onClick={() => {
+                      setActive(nav.title);
+                      setDropdownOpen(false);
+                    }}
+                  >
+                    <Link to={nav.path}>{nav.title}</Link>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </li>
         </ul>
 
+        {/* Mobile menu */}
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <button
             aria-label="Toggle menu"
