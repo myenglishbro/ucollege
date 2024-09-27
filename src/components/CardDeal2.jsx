@@ -12,17 +12,40 @@ const CardDeal2 = ({ password }) => {
       customPaddings
       id="hero"
     >
+
       <div className="container relative z-1 max-w-[62rem] mx-auto text-center mb-[3.875rem] md:mb-20 lg:mb-[6.25rem]">
+       
+      <div class="max-w-7xl mx-auto py-5 px-4 sm:py-8 sm:px-6 lg:px-8">
+        <div class="text-center space-y-5">
+           
+            <div class="inline-flex items-end justify-center w-full text-center mx-auto">
+              <div class="inline-flex items-end justify-center w-full text-center mx-auto">
+                <img src="https://cdn.devdojo.com/tails/avatars/024.jpg" class="absolute transform translate-x-24 ml-6 rounded-full w-12 h-12 md:w-16 md:h-16 border-4 border-white"/>
+                <img src="https://cdn.devdojo.com/tails/avatars/012.jpg" class="absolute transform -translate-x-24 -ml-6 rounded-full w-12 h-12 md:w-16 md:h-16 border-4 border-white"/>
+                <img src="https://cdn.devdojo.com/tails/avatars/029.jpg" class="absolute transform -translate-x-16 rounded-full w-16 h-16 md:w-20 md:h-20 border-4 border-white"/>
+                <img src="https://cdn.devdojo.com/tails/avatars/005.jpg" class="absolute transform translate-x-16 rounded-full w-16 h-16 md:w-20 md:h-20 border-4 border-white"/>
+                <img src="https://cdn.devdojo.com/tails/avatars/032.jpg" class="rounded-full w-20 h-20 md:w-24 md:h-24 border-4 border-white relative"/>
+              </div>
+               
+            </div>
+            
+
+           
+
+
+        </div>
+    </div>
         {password && (
-          <h2 className="h1 mb-12 relative inline-block">
-            Hello 👋 <br className="sm:block hidden" /> {password}
-            <span className="absolute top-full left-0 w-full mt-2">
-              <img
-                src={curve}
-                className="w-full"
-                alt="Curve"
-              />
-            </span>
+          <h2 className="mt-1 text-4xl font-extrabold text-white sm:text-5xl sm:tracking-tight lg:text-6xl">
+            Hello 👋 <br className="sm:block hidden" />
+            <span class="px-2 py-1 relative inline-block">
+                    <svg class="stroke-current bottom-0 absolute text-orange-600 -translate-x-2" viewBox="0 0 410 18"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 6.4c16.8 16.8 380.8-11.2 397.6 5.602" stroke-width="12" fill="none"
+                            fill-rule="evenodd" stroke-linecap="round"></path>
+                    </svg>
+                    <span class="relative"> {password}</span>
+                </span>
           </h2>
         )}
         <Button2 className=" ml-10" />
