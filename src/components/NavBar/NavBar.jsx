@@ -28,7 +28,7 @@ const Navbar = () => {
 
         {/* Desktop links */}
         <ul className="list-none sm:flex hidden justify-end items-center flex-1">
-          {navLinks.slice(0, 4).map((nav, index) => (
+          {navLinks.slice(0, 5).map((nav, index) => (
             <li
               key={nav.title}
               className={`font-poppins font-normal cursor-pointer text-[16px] ${
@@ -50,7 +50,7 @@ const Navbar = () => {
             </button>
             {dropdownOpen && (
               <ul className="absolute mt-2 bg-n-8 rounded-xl shadow-lg p-3">
-                {navLinks.slice(4).map((nav, index) => (
+                {navLinks.slice(5).map((nav, index) => (
                   <li
                     key={nav.title}
                     className={`font-poppins font-normal cursor-pointer text-[16px] text-dimWhite ${
