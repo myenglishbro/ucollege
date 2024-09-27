@@ -85,8 +85,32 @@ export const navLinks =  [
       title: "B2/C1",
       path: "/RoadMapMed"
       
+    },
+    {
+      title: "Business",
+      path: "/RoadMapBusiness"
+      
     }
-    
+    ,{
+      title: "Health",
+      path: "/RoadMapHealth"
+      
+    },
+    {
+      title: "Tech",
+      path: "/RoadMapTech"
+      
+    },
+    {
+      title: "Engineering",
+      path: "/RoadMapEngine"
+      
+    },
+    {
+      title: "Mix",
+      path: "/RoadMapMix"
+      
+    }
     ,
     {
       title: "Bootcamp",

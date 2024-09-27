@@ -12,6 +12,12 @@ import Store from "./pages/Store";
 import { Route, Routes } from "react-router-dom";
 import Horario from "./pages/Horario";
 import RoadMap from "./pages/RoadMap";
+import RoadMapEngine from "./pages/RoadMapEngine";
+import RoadMapMix from "./pages/RoadMapMix";
+import RoadMapTech from "./pages/RoadMapTech";
+import RoadMapHealth from "./pages/RoadMapHealth";
+import RoadMapBusiness from "./pages/RoadMapBusiness";
+
 import PhrasesAtWork from "./pages/PhrasesAtWork";
 import PhrasesNative from "./pages/PhrasesNative";
 import ErroresB2 from "./pages/ErroresB2";
@@ -66,6 +72,39 @@ function App() {
           <Route path="/Store" element={<Store />}></Route>
           <Route path="/Clases" element={<Clases />}></Route>
           <Route path="/RoadMap" element={<RoadMap />}></Route>
+        
+          <Route path="/RoadMapBusiness" element={<RoadMapBusiness />}></Route>
+          <Route path="/RoadMapEngine" element={<RoadMapEngine />}></Route>
+          <Route path="/RoadMapHealth" element={<RoadMapHealth />}></Route>
+          <Route path="/RoadMapMix" element={<RoadMapMix />}></Route>
+          <Route path="/RoadMapTech" element={<RoadMapTech />}></Route>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
           <Route path="/RoadMapMed" element={<RoadMapMed />}></Route>
           <Route path="/Bootcamp" element={<RoadMapDev />}></Route>
 
