@@ -20,11 +20,11 @@ const CardDeal2 = ({ password }) => {
            
             <div class="inline-flex items-end justify-center w-full text-center mx-auto">
               <div class="inline-flex items-end justify-center w-full text-center mx-auto">
-                <img src="https://cdn.devdojo.com/tails/avatars/024.jpg" class="absolute transform translate-x-24 ml-6 rounded-full w-12 h-12 md:w-16 md:h-16 border-4 border-white"/>
-                <img src="https://cdn.devdojo.com/tails/avatars/012.jpg" class="absolute transform -translate-x-24 -ml-6 rounded-full w-12 h-12 md:w-16 md:h-16 border-4 border-white"/>
-                <img src="https://cdn.devdojo.com/tails/avatars/029.jpg" class="absolute transform -translate-x-16 rounded-full w-16 h-16 md:w-20 md:h-20 border-4 border-white"/>
-                <img src="https://cdn.devdojo.com/tails/avatars/005.jpg" class="absolute transform translate-x-16 rounded-full w-16 h-16 md:w-20 md:h-20 border-4 border-white"/>
-                <img src="https://cdn.devdojo.com/tails/avatars/032.jpg" class="rounded-full w-20 h-20 md:w-24 md:h-24 border-4 border-white relative"/>
+                <img src="https://i.ibb.co/N1m4tVG/Dise-o-sin-t-tulo-3.png" class="absolute transform translate-x-24 ml-6 rounded-full w-12 h-12 md:w-16 md:h-16 border-4 border-white"/>
+                <img src="https://i.ibb.co/sqMczRL/Dise-o-sin-t-tulo-6.png" class="absolute transform -translate-x-24 -ml-6 rounded-full w-12 h-12 md:w-16 md:h-16 border-4 border-white"/>
+                <img src="https://i.ibb.co/6Jhv9PX/Dise-o-sin-t-tulo-2.png" class="absolute transform -translate-x-16 rounded-full w-16 h-16 md:w-20 md:h-20 border-4 border-white"/>
+                <img src="https://i.ibb.co/1QrH1mg/Dise-o-sin-t-tulo-4.png" class="absolute transform translate-x-16 rounded-full w-16 h-16 md:w-20 md:h-20 border-4 border-white"/>
+                <img src="https://i.ibb.co/h2bWyds/Dise-o-sin-t-tulo-5.png" class="rounded-full w-20 h-20 md:w-24 md:h-24 border-4 border-white relative"/>
               </div>
                
             </div>

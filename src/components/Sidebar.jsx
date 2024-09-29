@@ -2,6 +2,7 @@ import React from 'react';
 
 const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) => {
   return (
+
     <div className={`sidebar ${isSidebarVisible ? 'visible' : ''}`}>
       {road.map((elemento, index) => (
         <button 
@@ -16,6 +17,7 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
         </button>
       ))}
     </div>
+    
   );
 };
 
