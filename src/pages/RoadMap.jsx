@@ -23,7 +23,7 @@ const RoadMap = () => {
   };
 
   const handleMostrarComponente = () => {
-    const validPasswords = ['celestesalvatirra','andreavargas','leonardoporras','eduardoaylas','ximenasolca','diegoalvarado','udemystudent', 'andresjaramillo', 'davidbenites', 'jrvchoche', 'cesarhurtado', 'roycondori', 'maxcontreras','rosamamani','manuellopez','fabrirondon','angelorondon','diegosegovia','shirleyapaza']; 
+    const validPasswords = ['celestesalvatierra','andreavargas','leonardoporras','eduardoaylas','ximenasolca','diegoalvarado','udemystudent', 'andresjaramillo', 'davidbenites', 'jrvchoche', 'cesarhurtado', 'roycondori', 'maxcontreras','rosamamani','manuellopez','fabrirondon','angelorondon','diegosegovia','shirleyapaza']; 
     if (validPasswords.includes(codigo)) {
       setMostrarComponente(true);
     } else {
