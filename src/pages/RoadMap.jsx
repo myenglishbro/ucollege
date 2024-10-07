@@ -19,7 +19,7 @@ const RoadMap = () => {
     { usuario: 'udemy', password: 'repositorio', realname: 'Estudiante Autodidacta' },
     { usuario: 'KABEZINI', password: '@47830274S', realname: 'JUAN EDUARDO AYLAS INCISO' },
 
-    { usuario: 'andreavargas', password: 'password2', realname: 'Andrea Vargas' },
+    { usuario: '62023170', password: '10671890', realname: 'Andrea Vargas' },
     { usuario: 'leonardoporras', password: 'password3', realname: 'Leonardo Porras' },
     // Agrega el resto de usuarios y contraseñas aquí
   ];
