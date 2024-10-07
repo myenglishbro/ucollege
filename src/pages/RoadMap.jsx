@@ -16,6 +16,8 @@ const RoadMap = () => {
   
   const validCredentials = [
     { usuario: 'celestesalvatierra', password: 'password1', realname: 'Celeste Salvatierra' },
+    { usuario: 'udemy', password: 'repositorio', realname: 'Estudiante Autodidacta' },
+
     { usuario: 'andreavargas', password: 'password2', realname: 'Andrea Vargas' },
     { usuario: 'leonardoporras', password: 'password3', realname: 'Leonardo Porras' },
     // Agrega el resto de usuarios y contraseñas aquí
