@@ -388,26 +388,34 @@
   background-color: #cbd5e0; /* Color de la barra de scroll al pasar el mouse */
 }
 
-.sidebar.visible {
+.sidebar {
+  position: fixed; /* Para hacer el sidebar fijo en la pantalla */
+  top: 0;
   left: 0;
+  height: 100%; /* Asegura que el sidebar ocupe todo el alto */
+  width: 250px; /* Cambia según el tamaño del sidebar */
+  background-color: #333; /* Cambia según tu diseño */
+  overflow: auto; /* Permite hacer scroll si el contenido es mayor al alto */
+  z-index: 10; /* Asegura que el sidebar esté por debajo del footer cuando corresponda */
+}
+
+.sidebar.visible {
+  transform: translateX(0);
 }
 
 .sidebar-button {
+  display: block;
+  padding: 15px;
+  color: white;
+  text-align: left;
   background: none;
   border: none;
-  color: #A0AEC0;
-  font-family: 'Poppins', sans-serif;
-  font-size: 18px;
-  margin: 10px 0;
-  cursor: pointer;
-  text-align: left;
   width: 100%;
-  padding: 10px;
-  transition: background-color 0.3s ease;
+  cursor: pointer;
 }
 
 .sidebar-button:hover {
-  background-color: #2d3748;
+  background-color: #575757;
 }
 
 .sidebar-toggle {

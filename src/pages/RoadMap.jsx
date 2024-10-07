@@ -6,11 +6,24 @@ import Sidebar from '../components/Sidebar';
 import DefaultView from '../components/DefaultView';
 
 const RoadMap = () => {
+  const [usuario, setUsuario] = useState(''); 
   const [codigo, setCodigo] = useState(''); 
   const [mostrarComponente, setMostrarComponente] = useState(false);
   const [isSidebarVisible, setIsSidebarVisible] = useState(false); 
   const [nivelSeleccionado, setNivelSeleccionado] = useState(null);
+  const [realname, setRealname] = useState(''); // Agregado
   const containerRefs = useRef([]); 
+  
+  const validCredentials = [
+    { usuario: 'celestesalvatierra', password: 'password1', realname: 'Celeste Salvatierra' },
+    { usuario: 'andreavargas', password: 'password2', realname: 'Andrea Vargas' },
+    { usuario: 'leonardoporras', password: 'password3', realname: 'Leonardo Porras' },
+    // Agrega el resto de usuarios y contraseñas aquí
+  ];
+
+  const handleChangeUsuario = (event) => {
+    setUsuario(event.target.value);
+  };
 
   const handleChangeCodigo = (event) => {
     setCodigo(event.target.value);
@@ -23,12 +36,13 @@ const RoadMap = () => {
   };
 
   const handleMostrarComponente = () => {
-    const validPasswords = ['celestesalvatierra','andreavargas','leonardoporras','eduardoaylas','ximenasolca','diegoalvarado','udemystudent', 'andresjaramillo', 'davidbenites', 'jrvchoche', 'cesarhurtado', 'roycondori', 'maxcontreras','rosamamani','manuellopez','fabrirondon','angelorondon','diegosegovia','shirleyapaza']; 
-    if (validPasswords.includes(codigo)) {
-      setMostrarComponente(true);
-    } else {
-      setMostrarComponente(false);
-    }
+    const userCredential = validCredentials.find(
+      (cred) => cred.usuario === usuario && cred.password === codigo
+    );
+
+    setMostrarComponente(!!userCredential);
+    setRealname(userCredential ? userCredential.realname : ''); // Aquí estableces el realname
+    console.log('Real Name:', userCredential ? userCredential.realname : ''); // Debugging
   };
 
   const seleccionarNivel = (index) => {
@@ -60,12 +74,19 @@ const RoadMap = () => {
               </div>
               <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
                 <input
+                  type="text"
+                  placeholder="Ingresa el usuario"
+                  value={usuario}
+                  onChange={handleChangeUsuario}
+                  className={`py-3 px-3 mx-5 font-poppins font-medium text-[18px] text-n-2 rounded-[10px] outline-none`}
+                />
+                <input
                   type="password"
-                  placeholder="Ingresa el código"
+                  placeholder="Ingresa la contraseña"
                   value={codigo}
                   onChange={handleChangeCodigo}
                   onKeyPress={handleKeyPress}
-                  className={`py-3 px-3 mx-5 font-poppins font-medium text-[18px]  text-n-2 rounded-[10px] outline-none`}
+                  className={`py-3 px-3 mx-5 font-poppins font-medium text-[18px] text-n-2 rounded-[10px] outline-none`}
                 />
                 <button
                   type="button"
@@ -95,9 +116,10 @@ const RoadMap = () => {
               road={[road[nivelSeleccionado]]} 
               containerRefs={containerRefs} 
               password={codigo} 
+              realname={realname} // Asegúrate de pasar realname aquí
             />
           ) : (
-            <DefaultView password={codigo} />
+            <DefaultView password={codigo} realname={realname} /> 
           )}
         </>
       )}
