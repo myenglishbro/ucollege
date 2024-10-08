@@ -433,12 +433,14 @@
 }
 
 .main-content {
-  margin-left: 250px; /* Adjust based on sidebar width */
+  margin-left: 150px; /* Adjust based on sidebar width */
   transition: margin-left 0.3s ease;
 }
 
 @media (max-width: 768px) {
   .main-content {
-    margin-left: 0; /* Reset margin for mobile */
-  }
+    margin-left: 200px;
+   }
 }
+
+
