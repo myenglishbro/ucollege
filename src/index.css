@@ -352,12 +352,13 @@
 
 
 
+/* Animation for sidebar */
 .sidebar {
   position: fixed;
-  left: -200px;
+  left: -250px; /* Hidden by default */
   top: 70px;
   height: calc(100% - 70px);
-  width: 200px;
+  width: 250px;
   background-color: #1a202c;
   display: flex;
   flex-direction: column;
@@ -368,39 +369,28 @@
   overflow-y: auto;
 }
 
-/* Estilos personalizados para el scroll */
+.sidebar.visible {
+  left: 0; /* Show when visible */
+}
+
+/* Styles for scrollbar */
 .sidebar::-webkit-scrollbar {
   width: 8px;
 }
 
 .sidebar::-webkit-scrollbar-track {
-  background: #2d3748; /* Color del track del scroll */
+  background: #2d3748;
   border-radius: 8px;
 }
 
 .sidebar::-webkit-scrollbar-thumb {
-  background-color: #A0AEC0; /* Color de la barra de scroll */
+  background-color: #A0AEC0;
   border-radius: 8px;
-  border: 2px solid #1a202c; /* Borde alrededor del scrollbar */
+  border: 2px solid #1a202c;
 }
 
 .sidebar::-webkit-scrollbar-thumb:hover {
-  background-color: #cbd5e0; /* Color de la barra de scroll al pasar el mouse */
-}
-
-.sidebar {
-  position: fixed; /* Para hacer el sidebar fijo en la pantalla */
-  top: 0;
-  left: 0;
-  height: 100%; /* Asegura que el sidebar ocupe todo el alto */
-  width: 250px; /* Cambia según el tamaño del sidebar */
-  background-color: #333; /* Cambia según tu diseño */
-  overflow: auto; /* Permite hacer scroll si el contenido es mayor al alto */
-  z-index: 10; /* Asegura que el sidebar esté por debajo del footer cuando corresponda */
-}
-
-.sidebar.visible {
-  transform: translateX(0);
+  background-color: #cbd5e0;
 }
 
 .sidebar-button {
@@ -412,12 +402,14 @@
   border: none;
   width: 100%;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
 .sidebar-button:hover {
   background-color: #575757;
 }
 
+/* Toggle button for mobile */
 .sidebar-toggle {
   position: fixed;
   top: 20px;
@@ -432,21 +424,21 @@
 
 @media (min-width: 768px) {
   .sidebar {
-    left: 0;
-    width: 200px;
+    left: 0; /* Show sidebar by default on larger screens */
+    width: 250px;
   }
-
   .sidebar-toggle {
-    display: none;
+    display: none; /* Hide toggle on larger screens */
   }
 }
+
 .main-content {
-  margin-left: 200px; /* Ajusta este valor al ancho de tu sidebar */
+  margin-left: 250px; /* Adjust based on sidebar width */
   transition: margin-left 0.3s ease;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   .main-content {
-    margin-left: 200px;
+    margin-left: 0; /* Reset margin for mobile */
   }
 }
