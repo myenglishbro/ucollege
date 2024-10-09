@@ -18,7 +18,7 @@ const RoadMap = () => {
   const validCredentials = [
     { usuario: 'celestesalvatierra', password: 'password1', realname: 'Celeste Salvatierra', img:'https://th.bing.com/th/id/OIP.i5p4mQm3eDTw7EhrOo1jiQHaHa?rs=1&pid=ImgDetMain'},
     { usuario: 'udemy', password: 'repositorio', realname: 'Estudiante Autodidacta', img: '' }, // No image
-    { usuario: 'KABEZINI', password: '@47830274S', realname: 'JUAN EDUARDO AYLAS INCISO', img: '' }, // No image
+    { usuario: 'KABEZINI', password: '@47830274S', realname: 'JUAN EDUARDO AYLAS INCISO', img: 'https://i.ibb.co/7bmgdmR/418722130-755683973286212-906722.png' }, // No image
     { usuario: 'JosueRv_24', password: 'jrvchoche', realname: 'Josue Ramirez', img: '' }, // No image
     { usuario: 'andresdesigner', password: 'designer123', realname: 'Andres Jaramillo', img: 'https://i.ibb.co/gTNwpJQ/67d46012622105-63d2bfcf57030.png'  }, // No image
     { usuario: '62023170', password: '10671890', realname: 'Andrea Vargas', img: 'https://i.ibb.co/gTNwpJQ/67d46012622105-63d2bfcf57030.png' },

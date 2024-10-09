@@ -3,7 +3,7 @@ import Button2 from "./Button2";
 import Section from "./Hero/Section";
 
 const CardDeal2 = ({ realname, userImage }) => {
-  const defaultImage = 'https://via.placeholder.com/150'; // Default image URL
+  const defaultImage = 'https://i.ibb.co/wL83KQZ/Dise-o-sin-t-tulo-4.png'; // Default image URL
 
   return (
       <Section
