@@ -11,18 +11,18 @@ const RoadMap = () => {
   const [mostrarComponente, setMostrarComponente] = useState(false);
   const [isSidebarVisible, setIsSidebarVisible] = useState(false); 
   const [nivelSeleccionado, setNivelSeleccionado] = useState(null);
-  const [realname, setRealname] = useState(''); // Agregado
+  const [realname, setRealname] = useState(''); 
+  const [userImage, setUserImage] = useState(''); // Add state for user image
   const containerRefs = useRef([]); 
-  
-  const validCredentials = [
-    { usuario: 'celestesalvatierra', password: 'password1', realname: 'Celeste Salvatierra' },
-    { usuario: 'udemy', password: 'repositorio', realname: 'Estudiante Autodidacta' },
-    { usuario: 'KABEZINI', password: '@47830274S', realname: 'JUAN EDUARDO AYLAS INCISO' },
-    { usuario: 'JosueRv_24', password: 'jrvchoche', realname: 'Josue Ramirez' },
 
-    { usuario: '62023170', password: '10671890', realname: 'Andrea Vargas' },
-    { usuario: 'leonardoporras', password: 'password3', realname: 'Leonardo Porras' },
-    // Agrega el resto de usuarios y contraseñas aquí
+  const validCredentials = [
+    { usuario: 'celestesalvatierra', password: 'password1', realname: 'Celeste Salvatierra', img:'https://th.bing.com/th/id/OIP.i5p4mQm3eDTw7EhrOo1jiQHaHa?rs=1&pid=ImgDetMain'},
+    { usuario: 'udemy', password: 'repositorio', realname: 'Estudiante Autodidacta', img: '' }, // No image
+    { usuario: 'KABEZINI', password: '@47830274S', realname: 'JUAN EDUARDO AYLAS INCISO', img: '' }, // No image
+    { usuario: 'JosueRv_24', password: 'jrvchoche', realname: 'Josue Ramirez', img: '' }, // No image
+    { usuario: 'andresdesigner', password: 'designer123', realname: 'Andres Jaramillo', img: 'https://i.ibb.co/gTNwpJQ/67d46012622105-63d2bfcf57030.png'  }, // No image
+    { usuario: '62023170', password: '10671890', realname: 'Andrea Vargas', img: 'https://i.ibb.co/gTNwpJQ/67d46012622105-63d2bfcf57030.png' },
+    { usuario: 'leonardoporras', password: 'password3', realname: 'Leonardo Porras', img: '' }, // No image
   ];
 
   const handleChangeUsuario = (event) => {
@@ -45,9 +45,11 @@ const RoadMap = () => {
     );
 
     setMostrarComponente(!!userCredential);
-    setRealname(userCredential ? userCredential.realname : ''); // Aquí estableces el realname
-    console.log('Real Name:', userCredential ? userCredential.realname : ''); // Debugging
-  };
+    setRealname(userCredential ? userCredential.realname : ''); 
+    setUserImage(userCredential ? userCredential.img : 'https://example.com/default-image.png'); // Default image URL
+    
+    console.log('User Image:', userCredential ? userCredential.img : 'No Image'); // Log user image
+};
 
   const seleccionarNivel = (index) => {
     setNivelSeleccionado(index);
@@ -67,7 +69,7 @@ const RoadMap = () => {
   return (
     <>
       {!mostrarComponente && (
-        <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`bg-primary ${styles.padding} ${styles.flexCenter} ${styles.marginY}`}>
           <div className={`${styles.boxWidth}`}>
             <section className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
               <div className="flex-1 flex flex-col">
@@ -76,8 +78,10 @@ const RoadMap = () => {
                   Al Estudiar con nosotros recibes un código para acceder a nuestro repositorio, ¡Ingrésalo Aquí!
                 </p>
               </div>
-              <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
-                <input
+              <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10 flex-col sm:flex-row`}>
+              <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4"> {/* Añade espacio entre los inputs */}
+
+              <input
                   type="text"
                   placeholder="Ingresa el usuario"
                   value={usuario}
@@ -92,13 +96,16 @@ const RoadMap = () => {
                   onKeyPress={handleKeyPress}
                   className={`py-3 px-3 mx-5 font-poppins font-medium text-[18px] text-n-2 rounded-[10px] outline-none`}
                 />
-                <button
+
+<button
                   type="button"
                   onClick={handleMostrarComponente}
                   className={`py-3 px-3 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}
                 >
                   Ver Ruta
                 </button>
+                </div>
+                
               </div>
             </section>
           </div>
@@ -120,10 +127,11 @@ const RoadMap = () => {
               road={[road[nivelSeleccionado]]} 
               containerRefs={containerRefs} 
               password={codigo} 
-              realname={realname} // Asegúrate de pasar realname aquí
+              realname={realname} 
+              userImage={userImage} // Pass the userImage here
             />
           ) : (
-            <DefaultView password={codigo} realname={realname} /> 
+            <DefaultView password={codigo} realname={realname} userImage={userImage} /> // Asegúrate de pasar userImage
           )}
         </>
       )}

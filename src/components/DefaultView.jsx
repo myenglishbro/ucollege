@@ -3,12 +3,12 @@ import styles from "../style";
 import CardDeal2 from './CardDeal2';
 import CardDeal3 from './CardDeal3';
 
-const DefaultView = ({ password, realname }) => {
+const DefaultView = ({ password, realname, userImage }) => { // Agregar userImage aquí
   return (
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         {password ? (
-          <CardDeal2 password={password} realname={realname} /> 
+          <CardDeal2 password={password} realname={realname} userImage={userImage} /> // Pasar userImage
         ) : (
           <CardDeal3 />
         )}
@@ -18,6 +18,8 @@ const DefaultView = ({ password, realname }) => {
             Selecciona un nivel del sidebar &#128522;
           </h2>
         </div>
+        
+      
       </div>
     </div>
   );
