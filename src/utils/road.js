@@ -696,6 +696,96 @@ export const road = [
         ],
     },
     {
+        id: 27,
+        thumbnail:
+            "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
+        title: "A2 KET RWRMC",
+        subtitle: "A2 Key - Real World Reading Multiple Choice Exercises",
+
+        dateAdded: "B2",
+        channel: "A2 Key - Real World Reading Multiple Choice Exercises",
+        description: "The first part of the A2 Key reading paper is multiple choice, where you read six real-world notices, messages and other short texts and choose the best answer for each question.",
+        enlaces: [
+          
+            
+            {
+                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 1",
+                url: "https://drive.google.com/file/d/1JeeC_duzkT3QIrcWs8Ue23U9AOaZ6IqN/view?usp=sharing",
+            },
+            {
+                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 2",
+                url: "https://drive.google.com/file/d/1ju7_uBsitSAoVs14dF5U8gcUeSBc5a79/view?usp=sharing",
+            },
+            {
+                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 3",
+                url: "https://drive.google.com/file/d/1NxShK0f8P6GVfKwgLQeGLPF8fyVuldJ6/view?usp=sharing",
+            },
+            {
+                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 4",
+                url: "https://drive.google.com/file/d/1TazVPeDKOQbqakaRKe9bn9UVmu65VcsM/view?usp=sharing",
+            },
+            {
+                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 5",
+                url: "https://drive.google.com/file/d/1AfU7hnDb0w_YfhNOyZCWF9saqAXd008O/view?usp=sharing",
+            },
+            {
+                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 6",
+                url: "https://drive.google.com/file/d/1pPD0QFFI5ReJMgrBtFijx2BhN2mpATlX/view?usp=sharing",
+            },
+            {
+                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 7",
+                url: "https://drive.google.com/file/d/1JVkLWglGz8sy9eUnmHef5DKQC-GhdWuE/view?usp=sharing",
+            },
+            {
+                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 8",
+                url: "https://drive.google.com/file/d/14MTJkZW2eBzxwsDNPO3YY00LwQziOKq9/view?usp=sharing",
+            },
+            {
+                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 9",
+                url: "https://drive.google.com/file/d/1DTnpcnD80ReKZTz-bgeqh1YJE4r1w7vR/view?usp=sharing",
+            },
+            {
+                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 10",
+                url: "https://drive.google.com/file/d/1CyrrIJxqHaoZsGTZuls7byl5CbD6Au3o/view?usp=sharing",
+            },
+            {
+                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 11",
+                url: "https://drive.google.com/file/d/1klqYbrrLgs5wlJcqA_yu6l1Epjg7OhN4/view?usp=sharing",
+            },
+            {
+                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 12",
+                url: "https://drive.google.com/file/d/1RdKnYH8iByQsTUTQiiYFPuAH_HToKYW7/view?usp=sharing",
+            },
+            {
+                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 13",
+                url: "https://drive.google.com/file/d/1USC9mBTTj5EQcqY5d48T3UxSjHZlMCrm/view?usp=sharing",
+            },
+            {
+                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 14",
+                url: "https://drive.google.com/file/d/1XvcrDs6uCXSfWWqAOrjzam0rcWm7d4G0/view?usp=sharing",
+            },
+            {
+                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 15",
+                url: "https://drive.google.com/file/d/1r6tBe3GC2Oxa1Rl5OmePJ6F8feUsW6hl/view?usp=sharing",
+            },
+            {
+                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 16",
+                url: "https://drive.google.com/file/d/10wRG5Czmg-azlbD7i86yS88pStNy05xb/view?usp=sharing",
+            },
+            {
+                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 17",
+                url: "https://drive.google.com/file/d/1V1xTIEFpjocPuASxJBcImLCRyTAe0FTq/view?usp=sharing",
+            },
+            {
+                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 18",
+                url: "https://drive.google.com/file/d/19BXgSQCm7DHmhjJ2IpbOpg44ZeZPhNS_/view?usp=sharing",
+            }
+
+          
+           
+        ],
+    },
+    {
         id: 12,
         thumbnail:
             "https://i.ibb.co/0XR5yjD/990527648dc1fe389bb8568a632839e8-removebg-preview.png",
