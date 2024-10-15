@@ -24,6 +24,7 @@ const RoadMap = () => {
     { usuario: '62023170', password: '10671890', realname: 'Andrea Vargas', img: 'https://i.ibb.co/svCFBwh/d87156c7637fb0b757d3b087f67d92f1.jpg' },
     { usuario: 'leonardoporras', password: 'leopo123', realname: 'Leonardo Perez Porras', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
     { usuario: 'analimarrufo', password: 'anali84ma', realname: 'Anali Marrufo Huaman', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+    { usuario: 'marvinmarrufo', password: 'marv84ma', realname: 'Marvin Alexis Marrufo Huamán', img: 'https://i.ibb.co/whkwM9K/436043875-857274965919994-320136.png' }, // No image
 
   ];
 
