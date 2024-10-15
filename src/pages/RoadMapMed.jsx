@@ -1,16 +1,30 @@
 import React, { useState, useRef } from 'react';
+import ContainerRoad from './ContainerRoad';
 import styles from "../style";
 import { roadmed } from "../utils/roadmed";
 import Sidebar from '../components/Sidebar';
-import ContainerRoadMed from './ContainerRoadMed';
 import DefaultView from '../components/DefaultView';
 
 const RoadMapMed = () => {
-  const [codigo, setCodigo] = useState('');
+  const [usuario, setUsuario] = useState(''); 
+  const [codigo, setCodigo] = useState(''); 
   const [mostrarComponente, setMostrarComponente] = useState(false);
-  const [isSidebarVisible, setIsSidebarVisible] = useState(false);
+  const [isSidebarVisible, setIsSidebarVisible] = useState(false); 
   const [nivelSeleccionado, setNivelSeleccionado] = useState(null);
-  const containerRefs = useRef([]);
+  const [realname, setRealname] = useState(''); 
+  const [userImage, setUserImage] = useState(''); // Add state for user image
+  const containerRefs = useRef([]); 
+
+  const validCredentials = [
+    { usuario: 'xramos', password: 'EH10e8x2N10v10', realname: 'Xiomara Ramos', img:'https://i.ibb.co/nPg2Cfj/417775680-430998512681191-839708.png'},
+    { usuario: 'udemy', password: 'repositorio', realname: 'Estudiante Autodidacta', img: '' }, // No image
+   
+
+  ];
+
+  const handleChangeUsuario = (event) => {
+    setUsuario(event.target.value);
+  };
 
   const handleChangeCodigo = (event) => {
     setCodigo(event.target.value);
@@ -23,13 +37,16 @@ const RoadMapMed = () => {
   };
 
   const handleMostrarComponente = () => {
-    const validPasswords = ['diegoalvarado','gabrielahilario', 'udemystudent','jrvchoche','ximenasolca'];
-    if (validPasswords.includes(codigo)) {
-      setMostrarComponente(true);
-    } else {
-      setMostrarComponente(false);
-    }
-  };
+    const userCredential = validCredentials.find(
+      (cred) => cred.usuario === usuario && cred.password === codigo
+    );
+
+    setMostrarComponente(!!userCredential);
+    setRealname(userCredential ? userCredential.realname : ''); 
+    setUserImage(userCredential ? userCredential.img : 'https://example.com/default-image.png'); // Default image URL
+    
+    console.log('User Image:', userCredential ? userCredential.img : 'No Image'); // Log user image
+};
 
   const seleccionarNivel = (index) => {
     setNivelSeleccionado(index);
@@ -49,7 +66,7 @@ const RoadMapMed = () => {
   return (
     <>
       {!mostrarComponente && (
-        <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`bg-primary ${styles.padding} ${styles.flexCenter} ${styles.marginY}`}>
           <div className={`${styles.boxWidth}`}>
             <section className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
               <div className="flex-1 flex flex-col">
@@ -58,22 +75,34 @@ const RoadMapMed = () => {
                   Al Estudiar con nosotros recibes un código para acceder a nuestro repositorio, ¡Ingrésalo Aquí!
                 </p>
               </div>
-              <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
+              <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10 flex-col sm:flex-row`}>
+              <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4"> {/* Añade espacio entre los inputs */}
+
+              <input
+                  type="text"
+                  placeholder="Ingresa el usuario"
+                  value={usuario}
+                  onChange={handleChangeUsuario}
+                  className={`py-3 px-3 mx-5 font-poppins font-medium text-[18px] text-n-2 rounded-[10px] outline-none`}
+                />
                 <input
                   type="password"
-                  placeholder="Ingresa el código"
+                  placeholder="Ingresa la contraseña"
                   value={codigo}
                   onChange={handleChangeCodigo}
                   onKeyPress={handleKeyPress}
-                  className={`py-3 px-3 mx-5 font-poppins font-medium text-[18px]  text-n-2 rounded-[10px] outline-none`}
+                  className={`py-3 px-3 mx-5 font-poppins font-medium text-[18px] text-n-2 rounded-[10px] outline-none`}
                 />
-                <button
+
+<button
                   type="button"
                   onClick={handleMostrarComponente}
                   className={`py-3 px-3 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}
                 >
                   Ver Ruta
                 </button>
+                </div>
+                
               </div>
             </section>
           </div>
@@ -91,13 +120,15 @@ const RoadMapMed = () => {
             toggleSidebar={toggleSidebar}
           />
           {nivelSeleccionado !== null ? (
-            <ContainerRoadMed 
-              roadmed={[roadmed[nivelSeleccionado]]} 
+            <ContainerRoad 
+              road={[roadmed[nivelSeleccionado]]} 
               containerRefs={containerRefs} 
               password={codigo} 
+              realname={realname} 
+              userImage={userImage} // Pass the userImage here
             />
           ) : (
-            <DefaultView password={codigo} />
+            <DefaultView password={codigo} realname={realname} userImage={userImage} /> // Asegúrate de pasar userImage
           )}
         </>
       )}
