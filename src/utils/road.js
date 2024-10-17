@@ -30,8 +30,11 @@ export const road = [
         channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
         description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
         enlaces: [
-            {  titulo:"[🖥️Class] Presentacion del Curso",url: "https://www.youtube.com/watch?v=AtFAyHefJBY&ab_channel=MyEnglishBro"},        
-            {  titulo:"[🖥️Class] los Saludos",url: "https://youtu.be/-96VwqzEsf8"},           
+            {  titulo:"[🖥️Class] Presentacion del Curso",url: "https://www.youtube.com/watch?v=_1DEJIOcJmY&t=2s"},        
+            {  titulo:"[🖥️Class] Mi primer truco de Pronunciación",url: "https://www.youtube.com/watch?v=gMlip7427kU&t=22s&ab_channel=MyEnglishBro"},           
+            {  titulo:"[🗂️Slide] Mi primer truco de Pronunciación",url: "https://drive.google.com/file/d/1Yk25Hn5JxKsPGlIkbya7cUgY7LDhoZsL/view?usp=sharing"},
+
+            {  titulo:"[🖥️Class] los Saludos",url: "https://www.youtube.com/watch?v=xipdKtlzxAg&t=435s"},           
    
             {  titulo:"[🗂️Slide] Saludos y Despedidas",url: "https://docs.google.com/presentation/d/1QRZkXcYvHJFPhIMW7-7JdMKAtMmFQt2P/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
             {  titulo:"[🖥️Class] The Alphabet",url: "https://www.youtube.com/watch?v=fG9ccbmA0-o"},
