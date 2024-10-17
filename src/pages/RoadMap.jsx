@@ -120,11 +120,13 @@ const RoadMap = () => {
             ☰
           </button>
           <Sidebar 
-            road={road} 
-            seleccionarNivel={seleccionarNivel} 
-            isSidebarVisible={isSidebarVisible}
-            toggleSidebar={toggleSidebar}
-          />
+  road={road} 
+  seleccionarNivel={seleccionarNivel} 
+  isSidebarVisible={isSidebarVisible} 
+  toggleSidebar={toggleSidebar} 
+  className={isSidebarVisible ? 'visible' : ''} // Aplica la clase visible si isSidebarVisible es true
+/>
+
           {nivelSeleccionado !== null ? (
             <ContainerRoad 
               road={[road[nivelSeleccionado]]} 

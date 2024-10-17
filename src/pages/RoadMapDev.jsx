@@ -1,9 +1,8 @@
 import React, { useState, useRef } from 'react';
 import ContainerRoadDev from './ContainerRoadDev';
-import styles from "../style";
 import { roaddev } from "../utils/roaddev";
 import Sidebar from '../components/Sidebar';
-import DefaultView from '../components/DefaultView';
+import DefaultViewdos from '../components/DefaultViewdos';
 
 const RoadMapDev = () => {
   const [isSidebarVisible, setIsSidebarVisible] = useState(false); 
@@ -25,28 +24,29 @@ const RoadMapDev = () => {
     setIsSidebarVisible(!isSidebarVisible);
   };
 
+
   return (
     <>
-      <button className="sidebar-toggle" onClick={toggleSidebar}>
-        ☰
-      </button>
-      <Sidebar 
-        road={roaddev} 
-        seleccionarNivel={seleccionarNivel} 
+          <button className="sidebar-toggle" onClick={toggleSidebar}>
+          ☰
+        </button>
+              <Sidebar
+        road={roaddev}
+        seleccionarNivel={seleccionarNivel}
         isSidebarVisible={isSidebarVisible}
         toggleSidebar={toggleSidebar}
+        className={isSidebarVisible ? 'visible' : ''} // Asegura que esta clase se aplique
       />
-      <div className="main-content">
         {nivelSeleccionado !== null ? (
           <ContainerRoadDev 
             road={[roaddev[nivelSeleccionado]]} 
             containerRefs={containerRefs} 
           />
         ) : (
-          <DefaultView />
+          <DefaultViewdos />
         )}
-      </div>
-    </>
+      </>
+   
   );
 };
 

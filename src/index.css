@@ -425,22 +425,14 @@
 @media (min-width: 768px) {
   .sidebar {
     left: 0; /* Show sidebar by default on larger screens */
-    width: 250px;
+    width: 190px;
+    margin-right: 30px;
   }
   .sidebar-toggle {
     display: none; /* Hide toggle on larger screens */
   }
 }
 
-.main-content {
-  margin-left: 150px; /* Adjust based on sidebar width */
-  transition: margin-left 0.3s ease;
-}
 
-@media (max-width: 768px) {
-  .main-content {
-    margin-left: 200px;
-   }
-}
 
 
