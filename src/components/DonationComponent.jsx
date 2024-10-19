@@ -7,8 +7,7 @@ const DonationComponent = () => {
       <div className={`${styles.boxWidth} mx-auto`}>
         <h2 className="text-2xl font-bold text-white mb-4 text-center">Support Our Project</h2>
         <p className="text-white mb-6 text-center">
-          If you like the resources and want to support us, feel free to make a donation or payment using the QR codes below. Your support helps us keep creating!
-        </p>
+        Si te gustan los recursos y quieres apoyarnos, no dudes en hacer una donación o pago usando los códigos QR que encontrarás abajo. ¡Tu apoyo nos ayuda a seguir creando!        </p>
 
         <div className="flex flex-col sm:flex-row justify-center items-center space-y-6 sm:space-y-0 sm:space-x-6">
           {/* First QR code image */}
