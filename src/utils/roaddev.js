@@ -3,6 +3,27 @@ export const roaddev = [
         id: 0,
         thumbnail:
             "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
+        title: "Grabaciones",
+        subtitle: "Nivel Básico ",
+    
+        dateAdded: "Basic 0 ",
+        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
+        description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
+        enlaces: [
+            {  titulo:"[🖥️Class] Clase 01 19/10",url: "https://youtu.be/n3ULyufFSzM"},        
+           
+          
+
+           
+            
+
+            
+        ],
+    },
+    {
+        id: 0,
+        thumbnail:
+            "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
         title: "M1-Fundamentos",
         subtitle: "Nivel Básico ",
     
