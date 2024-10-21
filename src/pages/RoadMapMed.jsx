@@ -19,6 +19,7 @@ const RoadMapMed = () => {
     { usuario: 'xramos', password: 'EH10e8x2N10v10', realname: 'Xiomara Ramos', img:'https://i.ibb.co/nPg2Cfj/417775680-430998512681191-839708.png'},
     { usuario: 'udemy', password: 'repositorio', realname: 'Estudiante Autodidacta', img: '' }, // No image
     { usuario: 'andresdesigner', password: 'designer123', realname: 'Andres Jaramillo', img: 'https://i.ibb.co/gTNwpJQ/67d46012622105-63d2bfcf57030.png'  }, // No image
+    { usuario: 'AniManrique', password: 'Ani1910', realname: 'Anita Manrique Chávez', img: 'https://i.ibb.co/jW5mpyy/463090300-530012092972416-4432276465281113242-n.jpg' }, // No image
 
 
   ];
