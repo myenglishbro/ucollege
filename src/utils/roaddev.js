@@ -32,10 +32,13 @@ export const roaddev = [
         description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
         enlaces: [
             {  titulo:"[🖥️Class] Presentacion del Curso",url: "https://youtu.be/_1DEJIOcJmY?si=sMiI7jr8MpHxnkys"},        
-            {  titulo:"[🖥️Class] Mi primer truco de Pronunciación",url: "https://youtu.be/gMlip7427kU?si=8b5V12RX4lRJlr-v"},           
-            {  titulo:"[🗂️Slide] Mi primer truco de Pronunciación",url: "https://i.ibb.co/TK0Bz6F/Post-de-Facebook-Regreso-a-Clases-Ilustrado-Verde-3.png"},
+            {  titulo:"[🖥️Class] Mi primer truco de Pronunciación",url: "https://youtu.be/gMlip7427kU?si=8b5V12RX4lRJlr-v"}, 
+            {  titulo:"[🔑🖥️Code ] Mi primer truco de Pronunciación",url: "https://youtu.be/sqij4jyQ6y8"},           
+            {  titulo:"[🗂️ PDF] Mi primer truco de Pronunciación",url: "https://drive.google.com/file/d/1rs0wHHmI4SmhJ8AJLhE_dB_pzJNejSd4/view?usp=sharing"},
             {  titulo:"[🗂️Slide] Palabras con T-flap Esenciales",url: "https://i.ibb.co/TK0Bz6F/Post-de-Facebook-Regreso-a-Clases-Ilustrado-Verde-3.png"},
-            {  titulo:"[🖥️Class] Los saludos en Ingles I",url: "https://youtu.be/xipdKtlzxAg?si=PBHynbJUK5oQGIeq"},           
+           {  titulo:"[🔑 Password] Palabras con T-flap Esenciales",url: "https://i.ibb.co/TK0Bz6F/Post-de-Facebook-Regreso-a-Clases-Ilustrado-Verde-3.png"},
+
+             {   titulo:"[🖥️Class] Los saludos en Ingles I",url: "https://youtu.be/xipdKtlzxAg?si=PBHynbJUK5oQGIeq"},           
             {  titulo:"[🗂️Slide] Saludos I",url: "https://i.ibb.co/TK0Bz6F/Post-de-Facebook-Regreso-a-Clases-Ilustrado-Verde-3.png"},
             {  titulo:"[🧩 Activity]  Greetings Order Words ", url: "https://wordwall.net/play/23827/026/3027"},
 
@@ -55,6 +58,12 @@ export const roaddev = [
             {  titulo:"[🧩 Activity]  A vs An Smash ", url: "https://wordwall.net/play/4085/569/17768"},
             {  titulo:"[🧩 Activity] A/An Practice II ", url: "https://wordwall.net/play/4365/798/6099"},
             {  titulo:"[🧩 Activity] A/An Practice III ", url: "https://wordwall.net/play/31221/618/8076"},
+            {  titulo:"[🔑🖥️PDF] Prepositions at-in-on ",url: "https://youtu.be/ddzTxvsS1c4"},
+            {  titulo:"[🗂️PDF] Prepositions at-in-on ",url: "https://drive.google.com/file/d/1oM3Lz9dr__giRI_FxXXGXGgJ5sZEOE4r/view?usp=sharing"},
+
+          
+            {  titulo:"[🔑🖥️Code] Examen 01 ",url: "https://youtu.be/byKePAB2Vfg"},
+            {  titulo:"[🗂️Exam] Examen 01 ",url: "https://drive.google.com/file/d/1kw1SpRrxZR60jYb9GEX6eXI0zbEz7dwf/view?usp=sharing"},
 
            
             
