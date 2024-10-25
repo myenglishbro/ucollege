@@ -32,7 +32,7 @@ const Pricing = () => {
           title="Pay once, use forever"
         />
 
-        <div className="relative">
+        <div className="relative grid grid-cols-1 gap-2 md:grid-cols-1 justify-items-center">
           <PricingList />
           <LeftLine />
           <RightLine />
