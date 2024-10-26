@@ -4,7 +4,7 @@ import Button from "./Button";
 
 const PricingList = () => {
   return (
-    <div className="grid grid-cols-4 gap-6 md:grid-cols-2">
+    <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
       {pricing.map((item) => (
         <div
           key={item.id}
