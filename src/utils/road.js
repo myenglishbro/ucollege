@@ -53,7 +53,28 @@ export const road = [
             {  titulo:"[🖥️Class] The English Map", url: "https://www.youtube.com/watch?v=fOPkF348Kgg"},
             {  titulo:"[🗂️Slide] The English Map", url: "https://docs.google.com/presentation/d/1C4u_yBRUiccDNiCFnz3n5kCWkqO8aJDz/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
 
-            
+            {  titulo:"🗂️Slide] The Numbers and The Time", url: "https://docs.google.com/presentation/d/1lLVrkj4nl8wvv3aGmqasKH3Mioo09DE7/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
+            {  titulo:"[🧩 Activity]The Numbers", url: "https://wordwall.net/play/17273/376/89817"},
+            {  titulo:"[🧩 Activity]The Numbers II", url: "https://wordwall.net/play/11115/711/5078"},
+            {  titulo:"[🧩 Activity] The Time  I", url: "https://wordwall.net/play/11993/400/13264"},
+           
+            {  titulo:"📖Possessive", url: "https://docs.google.com/presentation/d/1UijMuEx-DdbZETXjEUUtT6IPkWF0az2w/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"🧩Possessive Pronouns", url: "https://wordwall.net/play/52592/500/1753"},
+           
+
+
+          
+           
+            {  titulo:"📖 Ordinal Numbers ",url: "https://drive.google.com/file/d/18I58jFyIcYY_apm1YTzXvv2TVuMVHnXk/view?usp=sharing" },
+
+          
+            {  titulo:"📖 Seasons of the Year",url: "https://docs.google.com/presentation/d/1Ji0bSleS_268aZaK6RUvNEsB4dAK4mno/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
+            {  titulo:"🧩 Seasons of the Year",url: "https://wordwall.net/play/18524/265/35686" },
+          
+            {  titulo:"📖Countries/Nationalities + Extra grammar +Review Chart",url: "https://drive.google.com/file/d/12xOlTvoKpFlSGRJboWF1BvNsk4cqAixC/view?usp=sharing"},
+
+            {  titulo:"📖 Professions",url: "https://docs.google.com/document/d/18WYvZntiIyTldbpPtcljy2bH27wKkud8/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+
         ],
     },
     
@@ -71,6 +92,7 @@ export const road = [
         description: "Curso básico de inglés para los que están empezando.",
         enlaces: [
             {  titulo:"[🖥️ Class] Prensent Simple with Be Afirmativo", url: "https://youtu.be/Qn3u8ixM4B8"},
+            {  titulo:"[📊 Diagrama] Prensent Simple with Be Afirmativo", url: "https://drive.google.com/file/d/1y0DhY1JVNKt36a7-0ozVwmmUgkVMd_46/view?usp=sharing"},
             {  titulo:"[📑 GrammarSheet] Contractions with Be",url: "https://drive.google.com/file/d/1RbxiaSl1dFwOq7sFTF_7TRRmIpapN1XN/view?usp=sharing"},
 
             {  titulo:"[🧩 Activity] The Verb Be Affirmative Form I", url: "https://wordwall.net/play/13293/724/51767" },
@@ -80,9 +102,11 @@ export const road = [
             {  titulo:"[📝 FunSheet] GRAMMAR ERROR CORRECTION BE",url: "https://drive.google.com/file/d/15RV8Qi_oXfnAjFGbZ2XE_MeZra8XPvot/view?usp=sharing"},
             {  titulo:"[🔖Practice]The Verb Be Affirmative Form",url: "https://drive.google.com/file/d/1fieorI4c7zCUt6ltKNrXlVX8aPXogvcb/view?usp=sharing" },
             {  titulo:"[🖥️ Class] Prensent Simple with Be Negative", url: "https://youtu.be/bBUUAjkC0Go"},
+            {  titulo:"[📊 Diagrama] Prensent Simple with Be Negative", url: "https://drive.google.com/file/d/1CVydEJyBwS2X_9A_A4kRBleq_glgCopc/view?usp=sharing"},
 
             {  titulo:"[🔖Practice]The Verb Be Negative Form",url: "https://drive.google.com/file/d/15uWVRNGSUj0D8zZQ-O6K-UjTiArG5TA3/view?usp=sharing" },
             {  titulo:"[🖥️ Class] Prensent Simple with Be Interrogativa", url: "https://youtu.be/oWnUpDh-z9Y"},
+            {  titulo:"[📊 Diagrama] Prensent Simple with Be Interrogative", url: "https://drive.google.com/file/d/1CVydEJyBwS2X_9A_A4kRBleq_glgCopc/view?usp=sharing"},
 
             {  titulo:"[🔖Practice]The Verb Be Yes/No Questions",url: "https://drive.google.com/file/d/1s7zZgtpqjsuc3i81bFhfj7PhUWrNoUX7/view?usp=sharing" },
             {  titulo:"[🔖Practice]The Verb Be Wh Questions ",url: "https://drive.google.com/file/d/1MFejzFjYgHoSPlsoNQLF07R4-y107XcC/view?usp=sharing" },
@@ -96,7 +120,16 @@ export const road = [
             {  titulo:"[🧩 Activity] The Verb Be Interrogative Form I", url: "https://wordwall.net/play/1856/077/57902" },
             {  titulo:"[🧩 Activity] The Verb Be Interrogative Form II", url: "https://wordwall.net/play/58086/380/593" },
             {  titulo:"[🖥️ Solution] Practicando el Verbo Be Negative & Interrogative Form", url: "https://youtu.be/L0yrUtFO1pE"},
-          
+            {  titulo:"📖 Grammar Discussion  Verb be", url: "https://drive.google.com/file/d/1TT9jj4dJ_ylAh64LjBYe8Gjq4GzOOjxg/view?usp=sharing"},
+            {  titulo:"📖 Grammar Discussion  Verb be", url: "https://drive.google.com/file/d/1TT9jj4dJ_ylAh64LjBYe8Gjq4GzOOjxg/view?usp=sharing"},
+
+            {  titulo:"📖 The Verb Be Negative and Interrogative Form", url: "https://docs.google.com/presentation/d/1-37e0Rj12xLoLJ8AIadt47Q0q-D8JbkR/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+
+            {  titulo:"📖  Be-WH Questions", url: "https://docs.google.com/presentation/d/1QzcM-95Md4pWWy1d6BzM2CX2klPaPbXT/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"📖Correct the Sentences with The Verb Be in Questions",url: "https://docs.google.com/presentation/d/1PmPGCCydt73O4vXTB9ThQdiMk-zSdZs0/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",},
+
+            {  titulo:"📖 Review Verb be ",url: "https://docs.google.com/presentation/d/1Ckb4LISBB35qHq5Yxf1sPEruLXAo-o6w/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
+            {  titulo:"[😎Slide] Speak Like a Native 01", url: "https://docs.google.com/presentation/d/17nnI3AdqbUoFzVws8KmozupnKy7K1VgU/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
             {  titulo:"[🖥️ Class] Plural Nouns", url: "https://youtu.be/K2v046W9AoE"},
 
             
@@ -140,52 +173,7 @@ export const road = [
             
         ],
     },
-    {
-        id: 3,
-        thumbnail:
-            "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
-        title: "M1 - Training Center ",
-        subtitle: "Nivel Básico ",
-    
-        dateAdded: "Basic 0 ",
-        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
-        description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
-        enlaces: [
-            {  titulo:"📖 Grammar Discussion  Verb be", url: "https://drive.google.com/file/d/1TT9jj4dJ_ylAh64LjBYe8Gjq4GzOOjxg/view?usp=sharing"},
-            {  titulo:"📖 Grammar Discussion  Verb be", url: "https://drive.google.com/file/d/1TT9jj4dJ_ylAh64LjBYe8Gjq4GzOOjxg/view?usp=sharing"},
-
-            {  titulo:"📖 The Verb Be Negative and Interrogative Form", url: "https://docs.google.com/presentation/d/1-37e0Rj12xLoLJ8AIadt47Q0q-D8JbkR/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
-
-            {  titulo:"📖  Be-WH Questions", url: "https://docs.google.com/presentation/d/1QzcM-95Md4pWWy1d6BzM2CX2klPaPbXT/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
-            {  titulo:"📖Correct the Sentences with The Verb Be in Questions",url: "https://docs.google.com/presentation/d/1PmPGCCydt73O4vXTB9ThQdiMk-zSdZs0/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",},
-
-            {  titulo:"📖 Review Verb be ",url: "https://docs.google.com/presentation/d/1Ckb4LISBB35qHq5Yxf1sPEruLXAo-o6w/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
-            {  titulo:"[😎Slide] Speak Like a Native 01", url: "https://docs.google.com/presentation/d/17nnI3AdqbUoFzVws8KmozupnKy7K1VgU/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
-            {  titulo:"🗂️Slide] The Numbers and The Time", url: "https://docs.google.com/presentation/d/1lLVrkj4nl8wvv3aGmqasKH3Mioo09DE7/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
-            {  titulo:"[🧩 Activity]The Numbers", url: "https://wordwall.net/play/17273/376/89817"},
-            {  titulo:"[🧩 Activity]The Numbers II", url: "https://wordwall.net/play/11115/711/5078"},
-            {  titulo:"[🧩 Activity] The Time  I", url: "https://wordwall.net/play/11993/400/13264"},
-           
-            {  titulo:"📖Possessive", url: "https://docs.google.com/presentation/d/1UijMuEx-DdbZETXjEUUtT6IPkWF0az2w/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
-            {  titulo:"🧩Possessive Pronouns", url: "https://wordwall.net/play/52592/500/1753"},
-           
-
-
-          
-           
-            {  titulo:"📖 Ordinal Numbers ",url: "https://drive.google.com/file/d/18I58jFyIcYY_apm1YTzXvv2TVuMVHnXk/view?usp=sharing" },
-
-          
-            {  titulo:"📖 Seasons of the Year",url: "https://docs.google.com/presentation/d/1Ji0bSleS_268aZaK6RUvNEsB4dAK4mno/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
-            {  titulo:"🧩 Seasons of the Year",url: "https://wordwall.net/play/18524/265/35686" },
-          
-            {  titulo:"📖Countries/Nationalities + Extra grammar +Review Chart",url: "https://drive.google.com/file/d/12xOlTvoKpFlSGRJboWF1BvNsk4cqAixC/view?usp=sharing"},
-
-            {  titulo:"📖 Professions",url: "https://docs.google.com/document/d/18WYvZntiIyTldbpPtcljy2bH27wKkud8/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
-
-            
-        ],
-    },
+   
    
     
     {
@@ -256,7 +244,7 @@ export const road = [
         id: 6,
         thumbnail:
             "https://i.ibb.co/kgxj037/Black-White-and-Red-Simple-Shield-Shape-Football-Club-Logo-3-removebg-preview.png",
-        title: "A1 - Present Progressive Tense",
+        title: "A1 - Present Simple II ",
         subtitle: "A1 - Present Progressive Tense",
 
         dateAdded: "Basic 0 ",
@@ -270,6 +258,7 @@ export const road = [
             {  titulo:"📖 Prepositions", url: "https://docs.google.com/presentation/d/1whWilz_x5_6fQ9uQ0_2jmEQulZmuSoMi_y_6X3HLmqY/edit?usp=sharing"},
             {  titulo:"📖 Professions",url: "https://docs.google.com/document/d/18WYvZntiIyTldbpPtcljy2bH27wKkud8/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
             {  titulo:"[🖥️ Class] Present Simple con todos los verbos Afirmativo", url: "https://youtu.be/ZgqOqJMP6ec"},
+            {  titulo:"[📊 Diagrama] Prensent Simple Affirmative", url: "https://drive.google.com/file/d/1fQLm5OLOa4PeRXDrsgl73M1EY9Yno7_F/view?usp=sharing"},
 
             {  titulo:"[🗂️Slide] Present Simple Tense Affirmative ",url: "https://docs.google.com/presentation/d/1hWVK_6KkwKxRtWJtx0TL-A4K5oPMdUQJ/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true" },
             {  titulo:"[🧩 Activity] 3rd Person Rules",url: "https://wordwall.net/play/28761/823/4170" },
@@ -279,6 +268,7 @@ export const road = [
             {  titulo:"[🔖Practice] Present Simple Affirmative Form II",url: "https://drive.google.com/file/d/1RMuY04Q492JcJOO8goK8-JQp9kLktCYK/view?usp=sharing" },
             {  titulo:"[🧩 Activity] Days of the week ", url: "https://wordwall.net/play/22419/293/58122"},
             {  titulo:"[🖥️ Class] Present Simple con todos los verbos Negative", url: "https://youtu.be/AmHTz5A-8Cs"},
+            {  titulo:"[📊 Diagrama] Prensent Simple Negative", url: "https://drive.google.com/file/d/1qn3gmgoev23lc4lFZlYHq5q-skIlsyYA/view?usp=sharing"},
 
             {  titulo:"[🔖Practice] Present Simple Negative Form I",url: "https://drive.google.com/file/d/1dvhm4IVAk_jXGiq86I0i6lBxZzLlA7v-/view?usp=sharing" },
             {  titulo:"[🔖Practice] Present Simple Negative Form II",url: "https://drive.google.com/file/d/1BCabvvBOmmIuh6lD5XRMWwch1l0oP-54/view?usp=sharing" },
