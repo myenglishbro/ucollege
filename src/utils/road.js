@@ -70,7 +70,7 @@ export const road = [
         channel: "",
         description: "Curso básico de inglés para los que están empezando.",
         enlaces: [
-            {  titulo:"[🖥️ Class] Prensent Simple with Be", url: "https://www.youtube.com/watch?v=HbroMBQLCyQ&ab_channel=MyEnglishBro"},
+            {  titulo:"[🖥️ Class] Prensent Simple with Be Afirmativo", url: "https://youtu.be/Qn3u8ixM4B8"},
             {  titulo:"[📑 GrammarSheet] Contractions with Be",url: "https://drive.google.com/file/d/1RbxiaSl1dFwOq7sFTF_7TRRmIpapN1XN/view?usp=sharing"},
 
             {  titulo:"[🧩 Activity] The Verb Be Affirmative Form I", url: "https://wordwall.net/play/13293/724/51767" },
@@ -79,7 +79,11 @@ export const road = [
             {  titulo:"[🖥️ Solution] Practicando el Verbo Be Affirmative Form", url: "https://youtu.be/Z9Y7IWFNX_Q"},
             {  titulo:"[📝 FunSheet] GRAMMAR ERROR CORRECTION BE",url: "https://drive.google.com/file/d/15RV8Qi_oXfnAjFGbZ2XE_MeZra8XPvot/view?usp=sharing"},
             {  titulo:"[🔖Practice]The Verb Be Affirmative Form",url: "https://drive.google.com/file/d/1fieorI4c7zCUt6ltKNrXlVX8aPXogvcb/view?usp=sharing" },
+            {  titulo:"[🖥️ Class] Prensent Simple with Be Negative", url: "https://youtu.be/bBUUAjkC0Go"},
+
             {  titulo:"[🔖Practice]The Verb Be Negative Form",url: "https://drive.google.com/file/d/15uWVRNGSUj0D8zZQ-O6K-UjTiArG5TA3/view?usp=sharing" },
+            {  titulo:"[🖥️ Class] Prensent Simple with Be Interrogativa", url: "https://youtu.be/oWnUpDh-z9Y"},
+
             {  titulo:"[🔖Practice]The Verb Be Yes/No Questions",url: "https://drive.google.com/file/d/1s7zZgtpqjsuc3i81bFhfj7PhUWrNoUX7/view?usp=sharing" },
             {  titulo:"[🔖Practice]The Verb Be Wh Questions ",url: "https://drive.google.com/file/d/1MFejzFjYgHoSPlsoNQLF07R4-y107XcC/view?usp=sharing" },
             {  titulo:"[🔖Practice]The Verb Be Mixed I ",url: "https://drive.google.com/file/d/1NVzc8Cl78PSxJfxwJJQCb4JH8EKcpVKT/view?usp=sharing" },
@@ -182,11 +186,13 @@ export const road = [
             
         ],
     },
+   
+    
     {
-        id: 4,
+        id: 5,
         thumbnail:
             "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
-        title: "A2-Flyers Cambridge Exam ",
+        title: "Check Point I",
         subtitle: "Nivel Básico ",
     
         dateAdded: "Basic 0 ",
@@ -194,10 +200,14 @@ export const road = [
         description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
         enlaces: [
            
-            {  titulo:"💭🧠 Flyers Speaking Cards",url: "https://wordwall.net/play/15458/923/448" },
-            {  titulo:"💭🧠 There is/ There are",url: "https://wordwall.net/play/19158/687/85834" },
+            {  titulo:"📃The Verb Be Affirmative Form",url: "https://drive.google.com/file/d/1rTn31H9zJcXSRVNm1MGJ-se_3PFChW_N/view?usp=sharing" },
+
+            {  titulo:"🚩 Listening Quiz ", url: "https://forms.gle/Lx6sfRT84P2xc8Dw7"},
 
            
+            {  titulo:"🚩Writing Quiz", url: "https://forms.gle/3NtJ7jPcPw1mzfrJA"},
+            {  titulo:"🚩 Speaking Quiz", url: "https://forms.gle/L3nHmas8FZfVB9hD6"},
+            {  titulo:"✍️Practica Integradora 1", url: "https://docs.google.com/document/d/1dEid7CxmlAwFluGbugI-3zH__ktx_KrV/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true", },
 
         ],
     },
@@ -243,29 +253,6 @@ export const road = [
         ],
     },
     {
-        id: 5,
-        thumbnail:
-            "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
-        title: "Check Point I",
-        subtitle: "Nivel Básico ",
-    
-        dateAdded: "Basic 0 ",
-        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
-        description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
-        enlaces: [
-           
-            {  titulo:"📃The Verb Be Affirmative Form",url: "https://drive.google.com/file/d/1rTn31H9zJcXSRVNm1MGJ-se_3PFChW_N/view?usp=sharing" },
-
-            {  titulo:"🚩 Listening Quiz ", url: "https://forms.gle/Lx6sfRT84P2xc8Dw7"},
-
-           
-            {  titulo:"🚩Writing Quiz", url: "https://forms.gle/3NtJ7jPcPw1mzfrJA"},
-            {  titulo:"🚩 Speaking Quiz", url: "https://forms.gle/L3nHmas8FZfVB9hD6"},
-            {  titulo:"✍️Practica Integradora 1", url: "https://docs.google.com/document/d/1dEid7CxmlAwFluGbugI-3zH__ktx_KrV/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true", },
-
-        ],
-    },
-    {
         id: 6,
         thumbnail:
             "https://i.ibb.co/kgxj037/Black-White-and-Red-Simple-Shield-Shape-Football-Club-Logo-3-removebg-preview.png",
@@ -282,6 +269,8 @@ export const road = [
 
             {  titulo:"📖 Prepositions", url: "https://docs.google.com/presentation/d/1whWilz_x5_6fQ9uQ0_2jmEQulZmuSoMi_y_6X3HLmqY/edit?usp=sharing"},
             {  titulo:"📖 Professions",url: "https://docs.google.com/document/d/18WYvZntiIyTldbpPtcljy2bH27wKkud8/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"[🖥️ Class] Present Simple con todos los verbos Afirmativo", url: "https://youtu.be/ZgqOqJMP6ec"},
+
             {  titulo:"[🗂️Slide] Present Simple Tense Affirmative ",url: "https://docs.google.com/presentation/d/1hWVK_6KkwKxRtWJtx0TL-A4K5oPMdUQJ/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true" },
             {  titulo:"[🧩 Activity] 3rd Person Rules",url: "https://wordwall.net/play/28761/823/4170" },
             {  titulo:"[🧩 Activity] Present Simple  Affirmative Form",url: "https://wordwall.net/play/57830/431/8032" },
@@ -289,6 +278,7 @@ export const road = [
             {  titulo:"[🔖Practice] Present Simple Affirmative Form I",url: "https://drive.google.com/file/d/1gn1jk2vGP960VU-D_9IU9QknhCfDbLQ_/view?usp=sharing" },
             {  titulo:"[🔖Practice] Present Simple Affirmative Form II",url: "https://drive.google.com/file/d/1RMuY04Q492JcJOO8goK8-JQp9kLktCYK/view?usp=sharing" },
             {  titulo:"[🧩 Activity] Days of the week ", url: "https://wordwall.net/play/22419/293/58122"},
+            {  titulo:"[🖥️ Class] Present Simple con todos los verbos Negative", url: "https://youtu.be/AmHTz5A-8Cs"},
 
             {  titulo:"[🔖Practice] Present Simple Negative Form I",url: "https://drive.google.com/file/d/1dvhm4IVAk_jXGiq86I0i6lBxZzLlA7v-/view?usp=sharing" },
             {  titulo:"[🔖Practice] Present Simple Negative Form II",url: "https://drive.google.com/file/d/1BCabvvBOmmIuh6lD5XRMWwch1l0oP-54/view?usp=sharing" },
