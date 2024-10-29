@@ -20,6 +20,7 @@ const RoadMapMed = () => {
     { usuario: 'udemy', password: 'repositorio', realname: 'Estudiante Autodidacta', img: '' }, // No image
     { usuario: 'andresdesigner', password: 'designer123', realname: 'Andres Jaramillo', img: 'https://i.ibb.co/gTNwpJQ/67d46012622105-63d2bfcf57030.png'  }, // No image
     { usuario: 'AniManrique', password: 'Ani1910', realname: 'Anita Manrique Chávez', img: 'https://i.ibb.co/jW5mpyy/463090300-530012092972416-4432276465281113242-n.jpg' }, // No image
+    { usuario: 'hweny', password: 'cata08', realname: 'Weny Catalina  Huaraca Magro', img: 'https://i.ibb.co/G3ydZL4/456531710-399933369790326-220531.png' }, // No image
 
 
   ];
