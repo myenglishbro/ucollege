@@ -11,17 +11,27 @@ const PricingList = () => {
           className="w-full h-full px-6 bg-n-8 border border-n-6 rounded-[2rem] py-8"
         >
           <h4 className="h4 mb-4">{item.title}</h4>
-          <p className="body-2 min-h-[4rem] mb-3 text-n-1/50">{item.description}</p>
-          <div className="flex items-center h-[5.5rem] mb-6">
+          <p className="body-2 min-h-[3rem] mb-1 text-n-1/50">{item.description}</p>
+
+          <div className="flex items-center h-[2.5rem] mb-6">
             {item.price && (
               <>
-                <div className="text-[3.5rem] leading-none font-bold">{item.price}</div>
+              <div className="flex flex-row gap-4">
+              <div className="text-[1.5rem] leading-none font-bold">{item.price2}</div>
+          <div className="text-[1.5rem] leading-none font-bold">{item.price}</div>
+          <div className="text-[1rem] leading-none font-bold bg-purple-300 p-2 rounded-md">
+              {item.price3}
+            </div>
+                  </div>
+                  
               </>
             )}
           </div>
+          <p className="body-2 min-h-[3rem] mb-3 text-n-1/50">{item.description2}</p>
+
           <Button
             className="w-full mb-6"
-            href={item.price ? "/pricing" : "mailto:contact@jsmastery.pro"}
+            href={item.price ? "https://wa.link/6zozfx" : "mailto:contact@jsmastery.pro"}
             white={!!item.price}
           >
             {item.price ? "Get started" : "Contact us"}
