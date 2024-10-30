@@ -630,24 +630,7 @@ export const collabContent2 = [
     },
   ];
   export const pricing = [
-    {
-      id: "0",
-      title: "Basic Plan (10 Hours) ",
-      description : "Este paquete de clases cuenta con 10 horas de clases en vivo ",
-      price2: "S/280  🇵🇪 ",
-      price:  " USD$93 🇺🇸 ",
-      price3: "Popular ",
-description2: "Regional discount is applied automatically. The transfer tax from another country is included (paypal).",
-
-      features: [
-        "Tu clase se graba y se envia por correo  ",
-        "Google Meet Premium",
-        "Material de Estudio de cada clase",
-        "Clases Personalizadas (decidedes que quieres aprender)",
-        "Clase Individual(solo estás tú)",
-        "Hora peruana (GMT-5), previa entrevista",
-      ],
-    },
+   
     {
       id: "2",
       title: "Premium Plan (5 hours)",
