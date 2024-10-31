@@ -127,6 +127,7 @@ export const road = [
 
             {  titulo:"📖  Be-WH Questions", url: "https://docs.google.com/presentation/d/1QzcM-95Md4pWWy1d6BzM2CX2klPaPbXT/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
             {  titulo:"📖Correct the Sentences with The Verb Be in Questions",url: "https://docs.google.com/presentation/d/1PmPGCCydt73O4vXTB9ThQdiMk-zSdZs0/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",},
+            { titulo: "💡🎦 Present Tense Simple Be 01  ",url: "https://drive.google.com/file/d/1O2eE2VUMwZLRuFiDaTvjE-zTIj15DP-h/view?usp=sharing", },
 
             {  titulo:"📖 Review Verb be ",url: "https://docs.google.com/presentation/d/1Ckb4LISBB35qHq5Yxf1sPEruLXAo-o6w/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
             {  titulo:"[😎Slide] Speak Like a Native 01", url: "https://docs.google.com/presentation/d/17nnI3AdqbUoFzVws8KmozupnKy7K1VgU/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
@@ -278,6 +279,9 @@ export const road = [
             {  titulo:"[🔖Practice] Present Simple Mixed II  ",url: "https://drive.google.com/file/d/1dbIdnY51wBQl5SxyYuqxVQF2GqioLRlt/view?usp=sharing" },
             {  titulo:"[🔖Practice] Present Simple Mixed III  ",url: "https://drive.google.com/file/d/1SXoJvjOeeYoEbPv1-9JrSCZvJWMiorgB/view?usp=sharing" },
             {  titulo:"[🔖Practice] Present Simple Mixed IV  ",url: "https://drive.google.com/file/d/1F6rawDVqTKM8NiTxMWDmNVxGIHKALDRx/view?usp=sharing" },
+            { titulo: "💡🎦 Present Tense Simple 01  ",url: "https://drive.google.com/file/d/16-zgiVH0dbaoa7GqXz7gNfAQSXOOx7zl/view?usp=sharing", },
+            { titulo: "💡🎦 Present Tense Simple 02  ",url: "https://drive.google.com/file/d/1UDHSqaN1269ZYDfTaet2_Cd8X2SlE-_f/view?usp=sharing", },
+            { titulo: "💡🎦 Present Tense Simple 03  ",url: "https://drive.google.com/file/d/1zoXjEjhdZfGh35xQUsVQDFhBk5misIq0/view?usp=sharing", },
 
             {  titulo:"🚩 Listening Quiz", url: "https://forms.gle/6GitkPaDLfMyah3n7"},
 
@@ -398,7 +402,8 @@ export const road = [
             },
            
            
-            
+            { titulo: "💡🎦 Present Progressive   01  ",url: "https://drive.google.com/file/d/1HetObvFCgAXNetY0dTPvLJzT2hreurco/view?usp=sharing", },
+
             
           
            
@@ -417,6 +422,8 @@ export const road = [
         channel: "sdasd",
         description: "Desarrollando habilidades lingüísticas fundamentales",
         enlaces: [
+            { titulo: "💡🎦 Present Tense Simple and Progressive 01 ",url: "https://drive.google.com/file/d/1nfWk8xLzG10nr3XrKVC3bpX5w00jN81P/view?usp=sharing", },
+
             { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/19FdH7nnsqL0Ez9siyiFv3PCEvt4EknFv/view?usp=sharing", },
             { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1HRBxbp2b_5kcObTcgjMDmRKXH-xW0O4M/view?usp=sharing", },
             { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1aAeXIW3wmnJwJjUTcCE6m7PV9aElcgeB/view?usp=sharing", },
