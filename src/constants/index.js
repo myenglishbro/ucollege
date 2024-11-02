@@ -653,9 +653,9 @@ export const collabContent2 = [
       title: "Premium Plan (10 Hours) ",
       description : "Este paquete de clases cuenta con 10 horas de clases en vivo ",
       price2: "S/310  🇵🇪 ",
-      price:  " USD$103 🇺🇸 ",
+      price:  " USD$106 🇺🇸 ",
       price3: "Most Popular ",
-description2: "Regional discount is applied automatically . The transfer tax from another country is included (paypal).",
+description2: "Si eres de otro país , tu pago en dólares ya incluye el descuento de impuesto de USD$10 ",
 
       features: [
         "Tu clase se graba y se envia por correo  ",
