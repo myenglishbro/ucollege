@@ -7,8 +7,8 @@ export const road = [
         subtitle: "Centro de Clasificación ",
     
         dateAdded: "Basic 0 ",
-        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
-        description: "Envia tu examen para su corrección al correo temis_it@hotmail.com",
+        channel: " ",
+        description: "Si has llevado clases de inglés antes realiza un examen para calcular tu nivel,Envia tu examen para su corrección al correo temis_it@hotmail.com",
         enlaces: [
             {  titulo:"[M1-10] Exam",url: "https://drive.google.com/file/d/12O4mX_tZIsRqULe8iJVUvvr_q1witI_P/view?usp=sharing"},        
             {  titulo:"[M1-11] Exam",url: "https://drive.google.com/file/d/1Hg6By1hFOK_NOmOIKHttDHZ8BUZsuvhI/view?usp=sharing"},        
@@ -30,12 +30,10 @@ export const road = [
         channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
         description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
         enlaces: [
-            {  titulo:"[🖥️Class] Presentacion del Curso",url: "https://www.youtube.com/watch?v=_1DEJIOcJmY&t=2s"},        
-            {  titulo:"[🖥️Class] Mi primer truco de Pronunciación",url: "https://www.youtube.com/watch?v=gMlip7427kU&t=22s&ab_channel=MyEnglishBro"},           
-            {  titulo:"[🗂️Slide] Mi primer truco de Pronunciación",url: "https://drive.google.com/file/d/1Yk25Hn5JxKsPGlIkbya7cUgY7LDhoZsL/view?usp=sharing"},
-
+            {  titulo:"[🎬VIDEO ] Presentación del Curso: ¡Explora y Aprende!",url: "https://www.youtube.com/watch?v=_1DEJIOcJmY&t=2s"},        
+            {  titulo:"[🎬VIDEO ] Mi primer truco de Pronunciación",url: "https://www.youtube.com/watch?v=gMlip7427kU&t=22s&ab_channel=MyEnglishBro"},           
+            {  titulo:"[📥PDF ] Mi primer truco de Pronunciación",url: "https://drive.google.com/file/d/1VhB8Kjr3YbARZU6KhPMvlPa0pZi92hX0/view?usp=sharing"},
             {  titulo:"[🖥️Class] los Saludos",url: "https://www.youtube.com/watch?v=xipdKtlzxAg&t=435s"},           
-   
             {  titulo:"[🗂️Slide] Saludos y Despedidas",url: "https://docs.google.com/presentation/d/1QRZkXcYvHJFPhIMW7-7JdMKAtMmFQt2P/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
             {  titulo:"[🖥️Class] The Alphabet",url: "https://www.youtube.com/watch?v=fG9ccbmA0-o"},
             {  titulo:"[🗂️Slide] The Alphabet",url: "https://docs.google.com/presentation/d/1p5Qm25h1HiPBfcF4F00QICF6HrluHfSP/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
@@ -52,17 +50,35 @@ export const road = [
             {  titulo:"[🗂️Slide] The Pronouns & Transformation", url: "https://docs.google.com/presentation/d/1g9oaA24WsKlcS8P32zYHtdWGiRcyAIAi/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
             {  titulo:"[🖥️Class] The English Map", url: "https://www.youtube.com/watch?v=fOPkF348Kgg"},
             {  titulo:"[🗂️Slide] The English Map", url: "https://docs.google.com/presentation/d/1C4u_yBRUiccDNiCFnz3n5kCWkqO8aJDz/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
-
-            {  titulo:"🗂️Slide] The Numbers and The Time", url: "https://docs.google.com/presentation/d/1lLVrkj4nl8wvv3aGmqasKH3Mioo09DE7/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
-            {  titulo:"[🧩 Activity]The Numbers", url: "https://wordwall.net/play/17273/376/89817"},
-            {  titulo:"[🧩 Activity]The Numbers II", url: "https://wordwall.net/play/11115/711/5078"},
-            {  titulo:"[🧩 Activity] The Time  I", url: "https://wordwall.net/play/11993/400/13264"},
+           
            
             {  titulo:"📖Possessive", url: "https://docs.google.com/presentation/d/1UijMuEx-DdbZETXjEUUtT6IPkWF0az2w/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
             {  titulo:"🧩Possessive Pronouns", url: "https://wordwall.net/play/52592/500/1753"},
            
+           
 
-
+        ],
+    },
+    
+    {
+        id: 2,
+        thumbnail:
+            "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
+        title: "M1- Vocabulario Base",
+        subtitle: "Centro de Clasificación ",
+    
+        dateAdded: "Basic 0 ",
+        channel: " ",
+        description: "Si has llevado clases de inglés antes realiza un examen para calcular tu nivel,Envia tu examen para su corrección al correo temis_it@hotmail.com",
+        enlaces: [
+            {  titulo:"🗂️Slide] The Numbers and The Time", url: "https://docs.google.com/presentation/d/1lLVrkj4nl8wvv3aGmqasKH3Mioo09DE7/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
+            {  titulo:"[🧩 Activity]The Numbers", url: "https://wordwall.net/play/17273/376/89817"},
+            {  titulo:"[🧩 Activity]The Numbers II", url: "https://wordwall.net/play/11115/711/5078"},
+            {  titulo:"[🧩 Activity] The Time  I", url: "https://wordwall.net/play/11993/400/13264"},
+            {
+                titulo: "📒[slides] La hora en Ingles",
+                url: "https://docs.google.com/presentation/d/1En8CAC9wcrXYWSawMEirZO7gU8tsAmBi/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
+            },
           
            
             {  titulo:"📖 Ordinal Numbers ",url: "https://drive.google.com/file/d/18I58jFyIcYY_apm1YTzXvv2TVuMVHnXk/view?usp=sharing" },
@@ -72,12 +88,14 @@ export const road = [
             {  titulo:"🧩 Seasons of the Year",url: "https://wordwall.net/play/18524/265/35686" },
           
             {  titulo:"📖Countries/Nationalities + Extra grammar +Review Chart",url: "https://drive.google.com/file/d/12xOlTvoKpFlSGRJboWF1BvNsk4cqAixC/view?usp=sharing"},
-
+            {
+                titulo: "📒[slides] Jobs in English",
+                url: "https://docs.google.com/presentation/d/1DjLkNdeShBKInTTdZOvwYUGrMHxu5h_q/edit?usp=share_link&ouid=114172849724389982127&rtpof=true&sd=true",
+            },
+          
             {  titulo:"📖 Professions",url: "https://docs.google.com/document/d/18WYvZntiIyTldbpPtcljy2bH27wKkud8/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
-
         ],
     },
-    
     {
         id: 2,
         thumbnail:
@@ -124,6 +142,7 @@ export const road = [
             {  titulo:"📖 Grammar Discussion  Verb be", url: "https://drive.google.com/file/d/1TT9jj4dJ_ylAh64LjBYe8Gjq4GzOOjxg/view?usp=sharing"},
 
             {  titulo:"📖 The Verb Be Negative and Interrogative Form", url: "https://docs.google.com/presentation/d/1-37e0Rj12xLoLJ8AIadt47Q0q-D8JbkR/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"📃The Verb Be Affirmative Form",url: "https://drive.google.com/file/d/1rTn31H9zJcXSRVNm1MGJ-se_3PFChW_N/view?usp=sharing" },
 
             {  titulo:"📖  Be-WH Questions", url: "https://docs.google.com/presentation/d/1QzcM-95Md4pWWy1d6BzM2CX2klPaPbXT/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
             {  titulo:"📖Correct the Sentences with The Verb Be in Questions",url: "https://docs.google.com/presentation/d/1PmPGCCydt73O4vXTB9ThQdiMk-zSdZs0/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",},
@@ -148,10 +167,7 @@ export const road = [
 
             {  titulo:"[🗂️Slide] Demonstrative Pronouns ",url: "https://docs.google.com/presentation/d/18Y9eWTC4cdzK1L3EEFhNz7OFCtKjWIFh/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true",},
 
-            {
-                titulo: "📒[slides] La hora en Ingles",
-                url: "https://docs.google.com/presentation/d/1En8CAC9wcrXYWSawMEirZO7gU8tsAmBi/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
-            },
+           
             {
                 titulo: "📒[slides] Making Suggestions Lets and Could",
                 url: "https://docs.google.com/presentation/d/152lX6FIORqoOI59MOv28XNZ4CoxZNMEh/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
@@ -162,12 +178,9 @@ export const road = [
             },
            
           
-            {
-                titulo: "📒[slides] Jobs in English",
-                url: "https://docs.google.com/presentation/d/1DjLkNdeShBKInTTdZOvwYUGrMHxu5h_q/edit?usp=share_link&ouid=114172849724389982127&rtpof=true&sd=true",
-            },
+           
           
-          
+            {  titulo:"✍️Practica Integradora 1", url: "https://docs.google.com/document/d/1dEid7CxmlAwFluGbugI-3zH__ktx_KrV/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true", },
 
 
 
@@ -177,84 +190,20 @@ export const road = [
    
    
     
-    {
-        id: 5,
-        thumbnail:
-            "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
-        title: "Check Point I",
-        subtitle: "Nivel Básico ",
     
-        dateAdded: "Basic 0 ",
-        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
-        description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
-        enlaces: [
-           
-            {  titulo:"📃The Verb Be Affirmative Form",url: "https://drive.google.com/file/d/1rTn31H9zJcXSRVNm1MGJ-se_3PFChW_N/view?usp=sharing" },
-
-            {  titulo:"🚩 Listening Quiz ", url: "https://forms.gle/Lx6sfRT84P2xc8Dw7"},
-
-           
-            {  titulo:"🚩Writing Quiz", url: "https://forms.gle/3NtJ7jPcPw1mzfrJA"},
-            {  titulo:"🚩 Speaking Quiz", url: "https://forms.gle/L3nHmas8FZfVB9hD6"},
-            {  titulo:"✍️Practica Integradora 1", url: "https://docs.google.com/document/d/1dEid7CxmlAwFluGbugI-3zH__ktx_KrV/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true", },
-
-        ],
-    },
-    {
-        id: 5,
-        thumbnail:
-            "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
-        title: "Listening Center I",
-        subtitle: "Nivel Básico ",
     
-        dateAdded: "Basic 0 ",
-        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
-        description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
-        enlaces: [
-           
-            {  titulo:"[ ▶️💿 Listening Track] Be-Verbs-Introduction", url: "https://drive.google.com/file/d/17Lf7YVWWL3J6ZlxcBGo_uKJLeN3aeClc/view?usp=sharing"},
-            {  titulo:"[ 🎧📑 Listening Worksheet] Be-Verbs-Introduction", url: "https://drive.google.com/file/d/1KfV3ia7U0wgt0w382Xfu4wgKgvSG7oDB/view?usp=sharing"},
-            {  titulo:"[ ▶️💿 Listening Track] Be-Yes-No-Questions", url: "https://drive.google.com/file/d/1QdV0ezdTMqw_-XY6EQhbU7XWtIbDBfLT/view?usp=sharing"},
-            {  titulo:"[ 🎧📑 Listening Worksheet] Be-Yes-No-Questions", url: "https://drive.google.com/file/d/1sRDMHlTvic6YDluhWQ3vJmwFIxodWFee/view?usp=sharing"},
-            {  titulo:"[ ▶️💿 Listening Track] Likes-Fruits", url: "https://drive.google.com/file/d/1jK724U6fY7fsfH49MMp_P5aeI9WxKWSO/view?usp=sharing"},
-            {  titulo:"[ 🎧📑 Listening Worksheet] Likes-Fruits", url: "https://drive.google.com/file/d/1neV1tlIP3aw7wCvfiOcAcAdZkYP8P1pU/view?usp=sharing"},
-
-
-            {  titulo:"[ ▶️💿 Listening Track] Verbs -Present Simple", url: "https://drive.google.com/file/d/1E3LHvSXWGIWD_VlvFiZU_SPGrYRQI2qp/view?usp=sharing"},
-            {  titulo:"[ 🎧📑 Listening Worksheet] Verbs -Present Simple", url: "https://drive.google.com/file/d/1_UQf3VANxdA62__5oBLnngJSYhmnTx5L/view?usp=sharing"},
-
-            {  titulo:"[ ▶️💿 Listening Track] Yes / No Questions with Verbs", url: "https://drive.google.com/file/d/1sQ5GIqQPAepKqpzAI8X8IwZFkUn54xYY/view?usp=sharing"},
-            {  titulo:"[ 🎧📑 Listening Worksheet] Yes / No Questions with Verbs", url: "https://drive.google.com/file/d/1dyB2TOcY9wN-LnoCSpqbDUqTTfhPyDiu/view?usp=sharing"},
-
-            {  titulo:"[ ▶️💿 Listening Track] Third Person Singular", url: "https://drive.google.com/file/d/1dpZcurygltj5nPjHC5f-M-Nm9az0mEFJ/view?usp=sharing"},
-            {  titulo:"[ 🎧📑 Listening Worksheet] Third Person Singular", url: "https://drive.google.com/file/d/1b1Ne9hLfpUDTI7ahvrwtCIfAkiPiXI4C/view?usp=sharing"},
-
-
-            {  titulo:"[ ▶️💿 Listening Track] Adjectives", url: "https://drive.google.com/file/d/1eP9vlMcWY5rQeElEyMwMRc9no7JKucgN/view?usp=sharing"},
-          
-            {  titulo:"[ 🎧📑 Listening Worksheet] Adjectives", url: "https://drive.google.com/file/d/1bPduv45i_ih-KU2dt9M7QUpXnFluwPMz/view?usp=sharing"},
-      
-      
-            {  titulo:"[ ▶️💿 Listening Track] Days of the week", url: "https://drive.google.com/file/d/1S8LCubZ3TTG_b77lhxpln4TPJ7SaOTCr/view?usp=sharing"},
-            {  titulo:"[ 🎧📑 Listening Worksheet] Days of the week", url: "https://drive.google.com/file/d/19lQ7wqAtffFMAS2Bs9opcn8GJ9f2_Gew/view?usp=sharing"},
-      
-      
-        ],
-    },
     {
         id: 6,
         thumbnail:
             "https://i.ibb.co/kgxj037/Black-White-and-Red-Simple-Shield-Shape-Football-Club-Logo-3-removebg-preview.png",
-        title: "A1 - Present Simple II ",
+        title: "M1 - Present Simple II ",
         subtitle: "A1 - Present Progressive Tense",
 
         dateAdded: "Basic 0 ",
         channel: "sdasd",
         description: "Aprenderemos los concepto elemental en el idiomrir las habilidades necesarias para avanzar a niveles más altos de competencia en el futuro. ",
         enlaces: [
-            {  titulo:"🧩 There is/ There are",url: "https://wordwall.net/play/19158/687/83046"},
-            {  titulo:"🧩 There is/ There are II ",url: "https://wordwall.net/play/21498/511/4430"},
-            {  titulo:"🚩Writing Quiz  ", url: "https://forms.gle/QgiGFeXaXpEvaatU8"},
+          
 
             {  titulo:"📖 Prepositions", url: "https://docs.google.com/presentation/d/1whWilz_x5_6fQ9uQ0_2jmEQulZmuSoMi_y_6X3HLmqY/edit?usp=sharing"},
             {  titulo:"📖 Professions",url: "https://docs.google.com/document/d/18WYvZntiIyTldbpPtcljy2bH27wKkud8/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
@@ -385,11 +334,7 @@ export const road = [
             },
            
            
-            {
-                titulo:
-                    "📒[slides] UNIT 9:COUNT AND NON-COUNT NOUNS WITH SOME, ANY, MUCH, MANY",
-                url: "https://docs.google.com/presentation/d/1R2ynzoB6PCzWW1ZG3fCSQih98U_S_Q28/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
-            },
+           
             {
                 titulo: "📒[slides] UNIT 9:VERB PHRASES ",
                 url: "https://docs.google.com/presentation/d/1FHariJeOWfNHEd7J6BfbI9b2guiorCcU/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
@@ -412,6 +357,47 @@ export const road = [
         ],
     },
     {
+        id: 5,
+        thumbnail:
+            "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
+        title: "M1-Listening Center ",
+        subtitle: "Nivel Básico ",
+    
+        dateAdded: "Basic 0 ",
+        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
+        description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
+        enlaces: [
+           
+            {  titulo:"[ ▶️💿 Listening Track] Be-Verbs-Introduction", url: "https://drive.google.com/file/d/17Lf7YVWWL3J6ZlxcBGo_uKJLeN3aeClc/view?usp=sharing"},
+            {  titulo:"[ 🎧📑 Listening Worksheet] Be-Verbs-Introduction", url: "https://drive.google.com/file/d/1KfV3ia7U0wgt0w382Xfu4wgKgvSG7oDB/view?usp=sharing"},
+            {  titulo:"[ ▶️💿 Listening Track] Be-Yes-No-Questions", url: "https://drive.google.com/file/d/1QdV0ezdTMqw_-XY6EQhbU7XWtIbDBfLT/view?usp=sharing"},
+            {  titulo:"[ 🎧📑 Listening Worksheet] Be-Yes-No-Questions", url: "https://drive.google.com/file/d/1sRDMHlTvic6YDluhWQ3vJmwFIxodWFee/view?usp=sharing"},
+            {  titulo:"[ ▶️💿 Listening Track] Likes-Fruits", url: "https://drive.google.com/file/d/1jK724U6fY7fsfH49MMp_P5aeI9WxKWSO/view?usp=sharing"},
+            {  titulo:"[ 🎧📑 Listening Worksheet] Likes-Fruits", url: "https://drive.google.com/file/d/1neV1tlIP3aw7wCvfiOcAcAdZkYP8P1pU/view?usp=sharing"},
+
+
+            {  titulo:"[ ▶️💿 Listening Track] Verbs -Present Simple", url: "https://drive.google.com/file/d/1E3LHvSXWGIWD_VlvFiZU_SPGrYRQI2qp/view?usp=sharing"},
+            {  titulo:"[ 🎧📑 Listening Worksheet] Verbs -Present Simple", url: "https://drive.google.com/file/d/1_UQf3VANxdA62__5oBLnngJSYhmnTx5L/view?usp=sharing"},
+
+            {  titulo:"[ ▶️💿 Listening Track] Yes / No Questions with Verbs", url: "https://drive.google.com/file/d/1sQ5GIqQPAepKqpzAI8X8IwZFkUn54xYY/view?usp=sharing"},
+            {  titulo:"[ 🎧📑 Listening Worksheet] Yes / No Questions with Verbs", url: "https://drive.google.com/file/d/1dyB2TOcY9wN-LnoCSpqbDUqTTfhPyDiu/view?usp=sharing"},
+
+            {  titulo:"[ ▶️💿 Listening Track] Third Person Singular", url: "https://drive.google.com/file/d/1dpZcurygltj5nPjHC5f-M-Nm9az0mEFJ/view?usp=sharing"},
+            {  titulo:"[ 🎧📑 Listening Worksheet] Third Person Singular", url: "https://drive.google.com/file/d/1b1Ne9hLfpUDTI7ahvrwtCIfAkiPiXI4C/view?usp=sharing"},
+
+
+            {  titulo:"[ ▶️💿 Listening Track] Adjectives", url: "https://drive.google.com/file/d/1eP9vlMcWY5rQeElEyMwMRc9no7JKucgN/view?usp=sharing"},
+          
+            {  titulo:"[ 🎧📑 Listening Worksheet] Adjectives", url: "https://drive.google.com/file/d/1bPduv45i_ih-KU2dt9M7QUpXnFluwPMz/view?usp=sharing"},
+      
+      
+            {  titulo:"[ ▶️💿 Listening Track] Days of the week", url: "https://drive.google.com/file/d/1S8LCubZ3TTG_b77lhxpln4TPJ7SaOTCr/view?usp=sharing"},
+            {  titulo:"[ 🎧📑 Listening Worksheet] Days of the week", url: "https://drive.google.com/file/d/19lQ7wqAtffFMAS2Bs9opcn8GJ9f2_Gew/view?usp=sharing"},
+      
+      
+        ],
+    },
+    {
         id: 7,
         thumbnail:
             "",
@@ -422,17 +408,6 @@ export const road = [
         channel: "sdasd",
         description: "Desarrollando habilidades lingüísticas fundamentales",
         enlaces: [
-            { titulo: "💡🎦 Present Tense Simple and Progressive 01 ",url: "https://drive.google.com/file/d/1nfWk8xLzG10nr3XrKVC3bpX5w00jN81P/view?usp=sharing", },
-
-            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/19FdH7nnsqL0Ez9siyiFv3PCEvt4EknFv/view?usp=sharing", },
-            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1HRBxbp2b_5kcObTcgjMDmRKXH-xW0O4M/view?usp=sharing", },
-            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1aAeXIW3wmnJwJjUTcCE6m7PV9aElcgeB/view?usp=sharing", },
-            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1ugupTJWoGVpoH7q_UxAivmklT21IBsKv/view?usp=sharing", },
-            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1HlMPxx9G-eXDvAkpnoYcD_qhH8DRcUt_/view?usp=sharing", },
-            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1fQ23Xn4bXCSZJSaHGiWf5utUXeHAK0ma/view?usp=sharing", },
-            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1Gjn3DIa6xRDKcbKFvUopOvzMTA7vnW02/view?usp=sharing", },
-            {titulo: "📒[slides] Simple present /  Present progressive",url: "https://docs.google.com/presentation/d/1aGIUs6OxD2chdWfcU7HACie_D64bc3vy3NE_OB-2Ztw/edit?usp=sharing", },
-
             {
                 titulo: "📒[slides] Explanation Non Action Verbs",
                 url: "https://docs.google.com/presentation/d/1iRId98sfwylaVNdIwLgAp1fTvSyFxzQw/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
@@ -449,6 +424,18 @@ export const road = [
                 titulo: "🎯 Stative Verbs vs Dynamic Verbs 2",
                 url: "https://wordwall.net/play/29172/527/2575",
             },
+            { titulo: "💡🎦 Present Tense Simple and Progressive 01 ",url: "https://drive.google.com/file/d/1nfWk8xLzG10nr3XrKVC3bpX5w00jN81P/view?usp=sharing", },
+
+            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/19FdH7nnsqL0Ez9siyiFv3PCEvt4EknFv/view?usp=sharing", },
+            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1HRBxbp2b_5kcObTcgjMDmRKXH-xW0O4M/view?usp=sharing", },
+            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1aAeXIW3wmnJwJjUTcCE6m7PV9aElcgeB/view?usp=sharing", },
+            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1ugupTJWoGVpoH7q_UxAivmklT21IBsKv/view?usp=sharing", },
+            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1HlMPxx9G-eXDvAkpnoYcD_qhH8DRcUt_/view?usp=sharing", },
+            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1fQ23Xn4bXCSZJSaHGiWf5utUXeHAK0ma/view?usp=sharing", },
+            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1Gjn3DIa6xRDKcbKFvUopOvzMTA7vnW02/view?usp=sharing", },
+            {titulo: "📒[slides] Simple present /  Present progressive",url: "https://docs.google.com/presentation/d/1aGIUs6OxD2chdWfcU7HACie_D64bc3vy3NE_OB-2Ztw/edit?usp=sharing", },
+
+            
             {titulo: "📒[slides] Present progressive for future",url: "https://docs.google.com/presentation/d/127VXd9ZK8i7BItgdXOik5VSWc9_G7dWRn7sMEbaFEUI/edit?usp=sharing",},
 
             {titulo: "📒[slides] Compounds: every",url: "https://docs.google.com/presentation/d/1RmaKN7jY5ej_nCVRgFSTI1b0tCMPx7IqZxLbHvDuK_E/edit?usp=sharing",},
@@ -458,7 +445,51 @@ export const road = [
             {titulo: "📒[slides] Superlative adjectives", url: "https://docs.google.com/presentation/d/1EGA1g6Wx7aQTZYGeXUkK_PDeF3CXNLcU-sFWuhpxAmQ/edit?usp=sharing",},
             { titulo: "📒[slides] Verb + -ing form / infinitive", url: "https://docs.google.com/presentation/d/1V9GjtW5BRs2n4knhrQfQbeHkvLnJPP7tUTCmokQzeBQ/edit?usp=sharing",},
 
-            
+           
+            {
+                titulo: "📒[slides]Food in English + Describing food in English",
+                url: "https://docs.google.com/presentation/d/1ea3d6wBVgcjuOsMoq3_nAuI-ZT9SrIxa/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
+            },
+           
+            {
+                titulo: "📒[slides] Vocabulary-At the Restaurant 1 ",
+                url: "https://docs.google.com/presentation/d/1Hw5NLZdI9y9rruKi--qHDiFxcCH07WYp/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
+            },
+
+            {
+                titulo: "Conversation At the Restaurant 1 ",
+                url: "https://docs.google.com/presentation/d/174rPUtaLiCPNGmHnYgK-LEgdubJOQtoS/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
+            },
+
+           
+        ],
+    },
+    {
+        id: 9,
+        thumbnail:
+            "https://i.ibb.co/rcqJNmR/Black-White-and-Red-Simple-Shield-Shape-Football-Club-Logo-4-removebg-preview.png",
+        title: "M1-Nouns",
+        subtitle: "Basic Level",
+     
+
+        dateAdded: "Basic 0 ",
+        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
+        description: "We will learn to introduce ourselves, spell names and words, describe people, introduce family members, and provide personal information.",
+        enlaces: [
+            {  titulo:"🧩 There is/ There are",url: "https://wordwall.net/play/19158/687/83046"},
+            {  titulo:"🧩 There is/ There are II ",url: "https://wordwall.net/play/21498/511/4430"},
+            {  titulo:"🚩Writing Quiz  ", url: "https://forms.gle/QgiGFeXaXpEvaatU8"},
+            {titulo:"📖 THERE IS / THERE ARE WITH SOME, ANY, SEVERAL, A LOT OF, MANY", url: "https://docs.google.com/presentation/d/1VwIJNGPfNm_3lmEpUoCDWMUtH7c1rEs7/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",},
+            {titulo: "📖 Count / noncount nouns  some / any",url: "https://docs.google.com/presentation/d/1jH6YT2V1nqUZlZg87_nz2tL7dOuTOGubcKf5Wx2afc8/edit?usp=sharing",},
+            {titulo: "📖 Compounds:  some / any / no",url: "https://docs.google.com/presentation/d/1tj-HacwRg_cFagev4icmdnngHJKihkozJZKF7YdSI1o/edit?usp=sharing", },
+            { titulo: "📖 a lot of / much / many / How much …? /  How many …?",url: "https://docs.google.com/presentation/d/1-X6kwm4EcY28fchr9KjrksLA_bo0NW_REx2ulLewyik/edit?usp=sharing", },
+            {titulo: "📖 a little / a few",url: "https://docs.google.com/presentation/d/1rR9yhIV9RjF_zUQe1YS8pQ6NJ3cizIfvaB-9G8O-jvE/edit?usp=sharing",},
+
+            {
+                titulo:
+                    "📒[slides] UNIT 9:COUNT AND NON-COUNT NOUNS WITH SOME, ANY, MUCH, MANY",
+                url: "https://docs.google.com/presentation/d/1R2ynzoB6PCzWW1ZG3fCSQih98U_S_Q28/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
+            },
             
             {
                 titulo: "📒[slides]Some and Any",
@@ -477,24 +508,6 @@ export const road = [
                 url: "https://wordwall.net/play/54748/815/185",
             },
             {
-                titulo: "📒[slides]Food in English + Describing food in English",
-                url: "https://docs.google.com/presentation/d/1ea3d6wBVgcjuOsMoq3_nAuI-ZT9SrIxa/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
-            },
-            {
-                titulo: "A/Some/Any I Exercises",
-                url: "https://wordwall.net/play/10233/308/44280",
-            },
-            {
-                titulo: "📒[slides] Vocabulary-At the Restaurant 1 ",
-                url: "https://docs.google.com/presentation/d/1Hw5NLZdI9y9rruKi--qHDiFxcCH07WYp/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
-            },
-
-            {
-                titulo: "Conversation At the Restaurant 1 ",
-                url: "https://docs.google.com/presentation/d/174rPUtaLiCPNGmHnYgK-LEgdubJOQtoS/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
-            },
-
-            {
                 titulo: "📒[slides] UNIT 7:TOO, ENOUGH, NOT … ENOUGH",
                 url: "https://docs.google.com/presentation/d/1C-HqoKGLmr7z6xrd7YLKNvoAlZctuPlw/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
             },
@@ -502,9 +515,12 @@ export const road = [
                 titulo: "📒[slides] UNIT 7:QUANTIFIERS",
                 url: "https://docs.google.com/presentation/d/1F9jXNU0_7pHQNI31dAfLd2xG_6GoFj3r/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
             },
+            {
+                titulo: "A/Some/Any I Exercises",
+                url: "https://wordwall.net/play/10233/308/44280",
+            },
         ],
     },
-    
 
     
     {
@@ -657,11 +673,7 @@ export const road = [
             {  titulo:"✍️Practica Integradora 1", url: "https://docs.google.com/document/d/1dEid7CxmlAwFluGbugI-3zH__ktx_KrV/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true", },
             {  titulo:"✍️Test 01", url: "https://docs.google.com/document/d/1dEid7CxmlAwFluGbugI-3zH__ktx_KrV/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true", },
 
-            {titulo:"📖 THERE IS / THERE ARE WITH SOME, ANY, SEVERAL, A LOT OF, MANY", url: "https://docs.google.com/presentation/d/1VwIJNGPfNm_3lmEpUoCDWMUtH7c1rEs7/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",},
-            {titulo: "📖 Count / noncount nouns  some / any",url: "https://docs.google.com/presentation/d/1jH6YT2V1nqUZlZg87_nz2tL7dOuTOGubcKf5Wx2afc8/edit?usp=sharing",},
-            {titulo: "📖 Compounds:  some / any / no",url: "https://docs.google.com/presentation/d/1tj-HacwRg_cFagev4icmdnngHJKihkozJZKF7YdSI1o/edit?usp=sharing", },
-            { titulo: "📖 a lot of / much / many / How much …? /  How many …?",url: "https://docs.google.com/presentation/d/1-X6kwm4EcY28fchr9KjrksLA_bo0NW_REx2ulLewyik/edit?usp=sharing", },
-            {titulo: "📖 a little / a few",url: "https://docs.google.com/presentation/d/1rR9yhIV9RjF_zUQe1YS8pQ6NJ3cizIfvaB-9G8O-jvE/edit?usp=sharing",},
+            
             {
                 titulo: "📒[slides] UNIT 1:PAST PROGRESSIVE AND SIMPLE PAST",
                 url: "https://docs.google.com/presentation/d/1D_k7NtZcVeZVozYIn4_Ub2ozwkub8uLP/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
