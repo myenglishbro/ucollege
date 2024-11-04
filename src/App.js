@@ -52,6 +52,7 @@ import Navbar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer";
 import RoadMapMed from "./pages/RoadMapMed";
 import RoadMapDev from "./pages/RoadMapDev";
+import RoadMapCelpip from "./pages/RoadMapCelpip";
 
 function App() {
   return (
@@ -78,6 +79,7 @@ function App() {
           <Route path="/RoadMapHealth" element={<RoadMapHealth />}></Route>
           <Route path="/RoadMapMix" element={<RoadMapMix />}></Route>
           <Route path="/RoadMapTech" element={<RoadMapTech />}></Route>
+          <Route path="/Celpip" element={<RoadMapCelpip />}></Route>
 
         
         

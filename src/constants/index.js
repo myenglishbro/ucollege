@@ -110,6 +110,10 @@ export const navLinks =  [
       title: "Mix",
       path: "/RoadMapMix"
       
+    },{
+      title: "Celpip",
+      path: "/Celpip"
+      
     }
     ,
     {
