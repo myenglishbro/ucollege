@@ -673,6 +673,28 @@ description2: "Si eres de otro país , tu pago en dólares ya incluye el descuen
         "Clase Individual(solo estás tú)",
         "Hora peruana (GMT-5), previa entrevista",
       ],
+    },
+    {
+      id: "1",
+      title: "Premium Plan (10 Hours) ",
+      description : "Este paquete de clases cuenta con 10 horas de clases en vivo ",
+      price2: "S/380  🇵🇪 ",
+      price:  " USD$160 🇺🇸 ",
+      price3: "Most Popular ",
+description2: "Si eres de otro país , tu pago en dólares ya incluye el descuento de impuesto de USD$10 ",
+
+      features: [
+        "Tu clase se graba y se envia por correo a cada correo   ",
+        "Puedes hacer preguntas al profe por wsp directamente  ",
+        "Cuentas con 2 reprogramaciones (cancelar tu clase el mismo día (solo 2 veces por paquete) )",
+       "Talleres los fines de semana",
+        "Acceso al Roadmap con Material Exclusivo (max 3 cuentas )",
+        "Google Meet Premium",
+        "Material de Estudio de cada clase",
+        "Clases Personalizadas (decideden que quieren aprender)",
+        "Clase Grupal(tu escoges con quien estudiar maximo 3 estudiantes)",
+        "Hora peruana (GMT-5), previa entrevista",
+      ],
     }
     
 ];
