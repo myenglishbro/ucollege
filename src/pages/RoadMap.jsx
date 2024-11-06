@@ -7,6 +7,8 @@ import DefaultView from '../components/DefaultView';
 
 const RoadMap = () => {
   const [usuario, setUsuario] = useState(''); 
+  const [nivel, setNivel] = useState(''); 
+
   const [codigo, setCodigo] = useState(''); 
   const [mostrarComponente, setMostrarComponente] = useState(false);
   const [isSidebarVisible, setIsSidebarVisible] = useState(false); 
@@ -17,7 +19,7 @@ const RoadMap = () => {
 
   const validCredentials = [
     { usuario: 'celestesalvatierra', password: 'password1', realname: 'Celeste Salvatierra', img:'https://th.bing.com/th/id/OIP.i5p4mQm3eDTw7EhrOo1jiQHaHa?rs=1&pid=ImgDetMain'},
-    { usuario: 'udemy', password: 'repositorio', realname: 'Estudiante Autodidacta', img: '' }, // No image
+    { nivel:"S",usuario: 'udemy', password: 'repositorio', realname: 'Estudiante Autodidacta', img: '' }, // No image
     { usuario: 'KABEZINI', password: '@47830274S', realname: 'JUAN EDUARDO AYLAS INCISO', img: 'https://i.ibb.co/7bmgdmR/418722130-755683973286212-906722.png' }, // No image
     { usuario: 'JosueRv_24', password: 'jrvchoche', realname: 'Josue Ramirez ツ', img: 'https://i.ibb.co/RNVQ8VZ/OIP-10.jpg' }, // No image
     { usuario: 'andresdesigner', password: 'designer123', realname: 'Andres Jaramillo', img: 'https://i.ibb.co/gTNwpJQ/67d46012622105-63d2bfcf57030.png'  }, // No image
@@ -31,12 +33,16 @@ const RoadMap = () => {
     { usuario: 'diegosego', password: 'segovia01', realname: 'Diego Segovia Gómez', img: 'https://i.ibb.co/ssX236w/454630848-467797286163219-647084.png' }, // No image
     { usuario: 'claudioelpro', password: '2219ielts', realname: 'Claudio Justiniano', img: 'https://i.ibb.co/hgHZTND/ALV-Uj-XH77p-Iy-HF4-A6v-ULRw-Kb-ZESWy2-B.png' }, // No image
     { usuario: 'angelbenites', password: 'moncada2024', realname: 'Angel Moisés Benites Moncada', img: 'https://i.ibb.co/3Thj6K0/420613655-1799350083843859-11506.png' }, // No image
-    { usuario: 'titooshiro', password: 'titooshiro2024', realname: 'Alberto Oshiro', img: 'https://i.ibb.co/2y3PPmL/247917193-940684856635710-168362.png' }, // No image
+    { nivel:"A2 Básico",usuario: 'titooshiro', password: 'titooshiro2024', realname: 'Alberto Oshiro', img: 'https://i.ibb.co/2y3PPmL/247917193-940684856635710-168362.png' }, // No image
 
   ];
 
   const handleChangeUsuario = (event) => {
     setUsuario(event.target.value);
+  };
+
+  const handleChangeNivel = (event) => {
+    setNivel(event.target.value);
   };
 
   const handleChangeCodigo = (event) => {
@@ -57,7 +63,9 @@ const RoadMap = () => {
     setMostrarComponente(!!userCredential);
     setRealname(userCredential ? userCredential.realname : ''); 
     setUserImage(userCredential ? userCredential.img : 'https://example.com/default-image.png'); // Default image URL
-    
+    setNivel(userCredential ? userCredential.nivel : ''); // Asegúrate de que se actualice el nivel
+    console.log('Nivel:', userCredential ? userCredential.nivel : 'Sin nivel');
+
     console.log('User Image:', userCredential ? userCredential.img : 'No Image'); // Log user image
 };
 
@@ -139,7 +147,8 @@ const RoadMap = () => {
               road={[road[nivelSeleccionado]]} 
               containerRefs={containerRefs} 
               password={codigo} 
-              realname={realname} 
+              realname={realname}
+              nivel= {nivel}
               userImage={userImage} // Pass the userImage here
             />
           ) : (
