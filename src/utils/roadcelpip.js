@@ -3,22 +3,19 @@ export const roadcelpip = [
         id: 0,
         thumbnail:
             "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
-        title: "Ubica tu nivel",
+        title: " Speaking",
         subtitle: "Centro de Clasificación ",
     
         dateAdded: "Basic 0 ",
         channel: " ",
-        description: "Si has llevado clases de inglés antes realiza un examen para calcular tu nivel,Envia tu examen para su corrección al correo temis_it@hotmail.com",
+        description: "CELPIP TASK 1 TO 8 ",
         enlaces: [
-            {  titulo:"[M1-10] Exam",url: "https://drive.google.com/file/d/12O4mX_tZIsRqULe8iJVUvvr_q1witI_P/view?usp=sharing"},        
-            {  titulo:"[M1-11] Exam",url: "https://drive.google.com/file/d/1Hg6By1hFOK_NOmOIKHttDHZ8BUZsuvhI/view?usp=sharing"},        
-            {  titulo:"[M1-12] Exam",url: "https://drive.google.com/file/d/1IxdTDk06FHkGIYOrNbcml6AEutsLrp8I/view?usp=sharing"},        
-            {  titulo:"[M2-01] Exam",url: "https://drive.google.com/file/d/1Kmx6qI5eAKaMbWINIevF1m2pr5nDNzmB/view?usp=sharing"},        
-            {  titulo:"[M2-02] Exam",url: "https://drive.google.com/file/d/1H4YQQbU1DjuJAhhy6Ee7PETKtUdBZL7o/view?usp=sharing"},        
+            {  titulo:"[📥slide] Speaking Sesion 01",url: "https://docs.google.com/presentation/d/1rSRrzROAfwHvPJCaVWJP94l1Z_GtVnuO/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},        
 
             
         ],
     },
+    
     {
         id: 1,
         thumbnail:
