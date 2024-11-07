@@ -11,6 +11,7 @@ export const roadcelpip = [
         description: "CELPIP TASK 1 TO 8 ",
         enlaces: [
             {  titulo:"[📥slide] Speaking Sesion 01",url: "https://docs.google.com/presentation/d/1rSRrzROAfwHvPJCaVWJP94l1Z_GtVnuO/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},        
+            {  titulo:"[📊 Diagrama] TASK 01",url: "https://drive.google.com/file/d/1Cdm080IYn6zI_y_98aGypqrNuZ9UTmPL/view?usp=sharing"},        
 
             
         ],

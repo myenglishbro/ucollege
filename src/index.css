@@ -395,6 +395,7 @@
   background-color: #cbd5e0;
 }
 
+/* Botón del sidebar */
 .sidebar-button {
   display: block;
   padding: 15px;
@@ -422,6 +423,23 @@
   font-size: 24px;
   cursor: pointer;
   z-index: 1100;
+}
+
+.sidebar-button.selected {
+  background-color: hsla(44, 89%, 48%, 0.977); /* Color de fondo cuando el ítem está seleccionado */
+  color: white; /* Cambiar el color del texto cuando está seleccionado */
+  border-color: #007bff; /* Bordes coincidentes con el color de fondo */
+}
+
+.checkmark {
+  margin-right: 10px;
+  color: #4caf50; /* Color verde para el checkmark */
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+.sidebar-item.selected .checkmark {
+  transform: scale(1.2); /* Agrandar el ícono cuando se selecciona */
 }
 
 @media (min-width: 768px) {

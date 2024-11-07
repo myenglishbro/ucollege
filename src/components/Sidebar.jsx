@@ -1,6 +1,14 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) => {
+  const [selectedIndex, setSelectedIndex] = useState(null); // Estado para el ítem seleccionado
+
+  const handleSelect = (index) => {
+    setSelectedIndex(index); // Establecer el ítem seleccionado
+    seleccionarNivel(index); // Ejecutar la función de selección de nivel
+    // No cerrar el sidebar al seleccionar en dispositivos pequeños
+  };
+
   return (
     <>
       <button className="sidebar-toggle" onClick={toggleSidebar}>
@@ -11,12 +19,10 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
         {road.map((elemento, index) => (
           <button
             key={index}
-            onClick={() => {
-              seleccionarNivel(index);
-              toggleSidebar(); // Close sidebar after selecting an option
-            }}
-            className="sidebar-button"
+            onClick={() => handleSelect(index)}
+            className={`sidebar-button ${selectedIndex === index ? 'selected' : ''}`}
           >
+            {selectedIndex === index && <span className="checkmark">✔</span>}
             {elemento.title}
           </button>
         ))}
