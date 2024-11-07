@@ -354,45 +354,25 @@
 
 
 
-/* Animation for sidebar */
+/* Animación para el sidebar */
 .sidebar {
   position: fixed;
-  left: -250px; /* Hidden by default */
+  left: -250px; /* Oculto por defecto */
   top: 70px;
   height: calc(100% - 70px);
   width: 250px;
   background-color: #1a202c;
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding-top: 20px;
   z-index: 1000;
   transition: left 0.3s ease;
   overflow-y: auto;
+  font-family: 'Arial', sans-serif;
 }
 
 .sidebar.visible {
-  left: 0; /* Show when visible */
-}
-
-/* Styles for scrollbar */
-.sidebar::-webkit-scrollbar {
-  width: 8px;
-}
-
-.sidebar::-webkit-scrollbar-track {
-  background: #2d3748;
-  border-radius: 8px;
-}
-
-.sidebar::-webkit-scrollbar-thumb {
-  background-color: #A0AEC0;
-  border-radius: 8px;
-  border: 2px solid #1a202c;
-}
-
-.sidebar::-webkit-scrollbar-thumb:hover {
-  background-color: #cbd5e0;
+  left: 0; /* Mostrar cuando es visible */
 }
 
 /* Botón del sidebar */
@@ -412,7 +392,7 @@
   background-color: #575757;
 }
 
-/* Toggle button for mobile */
+/* Toggle button para mobile */
 .sidebar-toggle {
   position: fixed;
   top: 20px;
@@ -428,31 +408,127 @@
 .sidebar-button.selected {
   background-color: hsla(44, 89%, 48%, 0.977); /* Color de fondo cuando el ítem está seleccionado */
   color: white; /* Cambiar el color del texto cuando está seleccionado */
-  border-color: #007bff; /* Bordes coincidentes con el color de fondo */
 }
 
-.checkmark {
+/* Acordeón */
+.accordion-content {
+  padding-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #2d3748;
+  border-left: 3px solid #A0AEC0;
+  margin-bottom: 10px;
+  transition: max-height 0.3s ease-out;
+}
+
+.accordion-content .timeline-item {
+  margin: 5px 0;
+  padding: 5px 0;
+  border-bottom: 1px solid #444;
+}
+
+.accordion-content .link-title a {
+  color: #A0AEC0;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.accordion-content .link-title a:hover {
+  color: #81E6D9;
+}
+
+.timeline-number {
+  background-color: #f59e0b;
+  color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-right: 10px;
-  color: #4caf50; /* Color verde para el checkmark */
-  font-size: 18px;
-  transition: transform 0.3s ease;
+  font-weight: bold;
 }
-
 .sidebar-item.selected .checkmark {
   transform: scale(1.2); /* Agrandar el ícono cuando se selecciona */
 }
 
+.popup-container {
+  position: relative;
+  z-index: 10;
+  margin-top: 20px;
+}
+
+/* Ajustes en el Hito para que quede más organizado */
+.hito-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+  max-width: 50%;
+  margin: auto auto;
+}
+
+.hito-container iframe {
+  border-radius: 8px;
+}
+
+.popup-container {
+  position: absolute;
+  top: 20;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Fondo oscuro */
+  z-index: 100; /* Ventana emergente por encima de todo */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-container .popup-content {
+  background: white;
+  padding: 20px;
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #ff5c5c;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  background-color: #ff3b3b;
+}
+
+.sidebar {
+  position: relative;
+}
+
+.sidebar .sidebar-toggle {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 24px;
+}
 @media (min-width: 768px) {
   .sidebar {
-    left: 0; /* Show sidebar by default on larger screens */
-    width: 190px;
+    left: 0; /* Mostrar sidebar por defecto en pantallas grandes */
+    width: 350px;
     margin-right: 30px;
   }
   .sidebar-toggle {
-    display: none; /* Hide toggle on larger screens */
+    display: none; /* Ocultar el toggle en pantallas grandes */
   }
 }
-
-
 
 

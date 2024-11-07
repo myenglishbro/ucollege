@@ -1,50 +1,46 @@
-import React, { useEffect } from 'react';
-import "../index.css";
+import React, { useEffect, useState } from 'react';
 
-const Hito = ({ road, containerRefs }) => {
+const Hito = ({ selectedLink }) => {
+  const [isLoading, setIsLoading] = useState(true);
+
   useEffect(() => {
-    if (containerRefs) {
-      containerRefs.current = containerRefs.current.slice(0, road.length);
+    // Cambia el estado de carga cuando se selecciona un nuevo enlace
+    if (selectedLink) {
+      setIsLoading(true);
     }
-  }, [road, containerRefs]);
+  }, [selectedLink]);
+
+  const getEmbedUrl = (url) => {
+    if (url.includes('youtu.be') || url.includes('youtube.com')) {
+      const videoId = url.split('v=')[1]?.split('&')[0] || url.split('youtu.be/')[1];
+      return `https://www.youtube.com/embed/${videoId}`;
+    }
+    // Para Google Drive o enlaces similares
+    if (url.includes('drive.google.com')) {
+      const fileId = url.split('/d/')[1]?.split('/')[0];
+      return `https://drive.google.com/file/d/${fileId}/preview`;
+    }
+    return url; // Si no es YouTube ni Drive, se devuelve la URL original
+  };
 
   return (
-    <div className="roadmap-container">
-      {road.map((elemento, index) => (
-        <div
-          key={index}
-          className="roadmap-step"
-          ref={el => (containerRefs.current[index] = el)}
-        >
-          <div className="step-thumbnail">
-            <img src={elemento.thumbnail} alt="Thumbnail" className="thumbnail-img" />
-          </div>
-          <div className="flex-col">
-            <div className="subtitle-container">
-              <h1 className="subtitle">{elemento.subtitle}</h1>
-            </div>
-            <section className="flex-row flex-wrap sm:mb-2 mb-6">
-              <div className="flex-1 flex justify-start items-center flex-row m-3 cursor-pointer">
-                <p className="max-w-full xs:max-w-[670px] mb-6">
-                  {elemento.description}
-                </p>
-              </div>
-            </section>
-            <div className="accordion-content">
-              <div className="flex-1 flex flex-col">
-                {elemento.enlaces.map((enlace, i) => (
-                  <div key={i} className="timeline-item">
-                    <div className="timeline-number">{i + 1}</div>
-                    <div className="link-title">
-                      <a href={enlace.url} target="_blank" rel="noopener noreferrer">{enlace.titulo}</a>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          </div>
-        </div>
-      ))}
+    <div className="hito-container mt-6 p-4 bg-white rounded shadow-md w-full max-w-3xl mx-auto transition-all ease-in-out duration-300">
+      {selectedLink ? (
+        <>
+          {isLoading && <p>Cargando...</p>}
+          <iframe
+            src={getEmbedUrl(selectedLink.url)}
+            title={selectedLink.titulo}
+            width="100%"
+            height="500px"
+            frameBorder="0"
+            allowFullScreen
+            onLoad={() => setIsLoading(false)}
+          ></iframe>
+        </>
+      ) : (
+        <p>Selecciona un enlace para visualizar el contenido.</p>
+      )}
     </div>
   );
 };
