@@ -32,7 +32,7 @@ const Hito = ({ selectedLink }) => {
             src={getEmbedUrl(selectedLink.url)}
             title={selectedLink.titulo}
             width="100%"
-            height="500px"
+            height="450px"
             frameBorder="0"
             allowFullScreen
             onLoad={() => setIsLoading(false)}
