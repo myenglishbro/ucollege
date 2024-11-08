@@ -202,7 +202,21 @@
 
 
 
+/* Timeline */
+.timeline-number {
+  background-color: #f59e0b;
+  color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  font-weight: bold;
+}
 
+/* Roadmap Styles */
 .roadmap-container {
   display: flex;
   flex-direction: column;
@@ -230,7 +244,6 @@
   height: 2rem;
   background-color: #4a5568;
 }
-
 .step-thumbnail {
   position: absolute;
   top: -2rem;
@@ -297,21 +310,20 @@
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+/* Link Styles */
 .link {
   font-family: 'Poppins', sans-serif;
   font-weight: bold;
   font-size: 16px;
-  line-height: 24px;
+  color: #ffffff;
   text-decoration: none;
   padding: 10px 20px;
   border-radius: 8px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
   transition: all 0.3s ease;
   display: inline-block;
   position: relative;
-  color: #ffffff;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
   overflow: hidden;
-  max-width: 100%;
 }
 
 .link::before {
@@ -353,38 +365,31 @@
 }
 
 
-
-/* Animación para el sidebar */
+/* Sidebar Animation */
 .sidebar {
   position: fixed;
-  left: -250px; /* Oculto por defecto */
+  left: -250px;
   top: 70px;
   height: calc(100% - 70px);
   width: 250px;
-  background-color:hsla(44, 89%, 48%, 0.977);;
+  background-color: #333;
   display: flex;
   flex-direction: column;
   padding-top: 20px;
-  z-index: 1000;
+  z-index: 2;
   transition: left 0.3s ease;
   overflow-y: auto;
   font-family: 'Arial', sans-serif;
 }
-.sidebar {
-  
-  overflow-y: auto; /* Habilita el scroll vertical */
-  padding: 20px; /* Espaciado interno */
-}
+
 .sidebar.visible {
-  left: 0; /* Mostrar cuando es visible */
+  left: 0;
 }
 
-/* Botón del sidebar */
+/* Sidebar Button */
 .sidebar-button {
-  display: block;
   padding: 15px;
   color: white;
-  text-align: left;
   background: none;
   border: none;
   width: 100%;
@@ -396,7 +401,7 @@
   background-color: #575757;
 }
 
-/* Toggle button para mobile */
+/* Sidebar Toggle */
 .sidebar-toggle {
   position: fixed;
   top: 20px;
@@ -410,19 +415,18 @@
 }
 
 .sidebar-button.selected {
-  background-color: hsla(44, 89%, 48%, 0.977); /* Color de fondo cuando el ítem está seleccionado */
-  color: white; /* Cambiar el color del texto cuando está seleccionado */
+  background-color: #444;
+  color: white; 
+  font-weight: bold;
 }
-
-/* Acordeón */
+/* Accordion Content */
 .accordion-content {
-  padding-left: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: #2d3748;
-  border-left: 3px solid #A0AEC0;
+  padding: 8px 16px;
+
+  background-color: #2a2a3d;
+  border-left: 2px solid #444;
   margin-bottom: 10px;
-  transition: max-height 0.3s ease-out;
+  transition: max-height 0.3s ease;
 }
 
 .accordion-content .timeline-item {
@@ -440,6 +444,7 @@
 .accordion-content .link-title a:hover {
   color: #81E6D9;
 }
+
 
 .timeline-number {
   background-color: #f59e0b;
@@ -460,7 +465,6 @@
 .hito-container {
   background-color: white;
   padding: 20px;
-  border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
   max-width: 50%;
@@ -468,18 +472,18 @@
 }
 
 .hito-container iframe {
-  border-radius: 8px;
+  border-radius: 5px;
 }
 
 .popup-container {
   position: fixed;
   top: 0;
-  top: 80px;
+  top: 50px;
   left: 0;
   margin-left: 80px;
-  width: 100vw; /* Asegura que ocupe todo el ancho en pantallas pequeñas */
-  height: 100vh; /* Ocupa toda la altura */
-  z-index: 100;
+  width: 100%; /* Asegura que ocupe todo el ancho en pantallas pequeñas */
+  height: 100%; /* Ocupa toda la altura */
+  z-index: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -560,6 +564,7 @@
   .sidebar-toggle {
     display: none;
   }
+ 
 }
 
 /* Ocultar sidebar y expandir popup en pantallas pequeñas */
@@ -573,11 +578,14 @@
     margin-left: 0;
     height: 500px;
     padding: 0;
+    top: 50px;
+
   }
 
   .popup-container .popup-content {
     max-width: 560px;
-    
+    top: 50px;
+
     padding: 20px;
   }
 
@@ -590,6 +598,12 @@
 
   .sidebar.visible {
     display: block;
+  }
+  .popup-container  {
+    max-width: 560px;
+    top: 80px;
+right: 40px;
+    padding: 20px;
   }
 
   
