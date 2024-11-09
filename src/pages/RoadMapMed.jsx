@@ -70,49 +70,60 @@ const RoadMapMed = () => {
 
   return (
     <>
-      {!mostrarComponente && (
-        <div className={`bg-primary ${styles.padding} ${styles.flexCenter} ${styles.marginY}`}>
-          <div className={`${styles.boxWidth}`}>
-            <section className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
-              <div className="flex-1 flex flex-col">
-                <h2 className={styles.heading2}>Bienvenido Student!</h2>
-                <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
+     {!mostrarComponente && (
+          <div className="py-10 mt-5">
+            <div className="flex bg-white rounded-lg shadow-lg overflow-hidden mx-auto max-w-sm lg:max-w-4xl">
+              {/* Imagen de fondo para la versión grande */}
+              <div
+                className="hidden lg:block lg:w-1/2 bg-cover"
+                style={{
+                  backgroundImage:
+                    "url('https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80')",
+                }}
+              ></div>
+    
+              {/* Contenido del formulario */}
+              <div className="w-full p-15 lg:w-1/2 mt-0">
+                <h2 className="text-2xl font-semibold text-gray-700 text-center">
+                  Bienvenido Student!
+                </h2>
+                <p className="text-xl text-gray-600 text-center mt-4">
                   Al Estudiar con nosotros recibes un código para acceder a nuestro repositorio, ¡Ingrésalo Aquí!
                 </p>
-              </div>
-              <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10 flex-col sm:flex-row`}>
-              <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4"> {/* Añade espacio entre los inputs */}
-
-              <input
-                  type="text"
-                  placeholder="Ingresa el usuario"
-                  value={usuario}
-                  onChange={handleChangeUsuario}
-                  className={`py-3 px-3 mx-5 font-poppins font-medium text-[18px] text-n-2 rounded-[10px] outline-none`}
-                />
-                <input
-                  type="password"
-                  placeholder="Ingresa la contraseña"
-                  value={codigo}
-                  onChange={handleChangeCodigo}
-                  onKeyPress={handleKeyPress}
-                  className={`py-3 px-3 mx-5 font-poppins font-medium text-[18px] text-n-2 rounded-[10px] outline-none`}
-                />
-
-<button
-                  type="button"
-                  onClick={handleMostrarComponente}
-                  className={`py-3 px-3 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}
-                >
-                  Ver Ruta
-                </button>
+    
+                <div className="mt-20">
+                  {/* Formulario de ingreso de datos */}
+                  <div className="flex flex-col space-y-4">
+                  <input
+                      type="text"
+                      placeholder="Ingresa el usuario"
+                      value={usuario}
+                      onChange={handleChangeUsuario}
+                      className="py-3 px-3 font-poppins font-medium text-[18px] text-gray-700 rounded-[10px] outline-none bg-gray-200 border border-gray-300 mb-4 sm:mb-0"
+                    />
+                    <input
+                      type="password"
+                      placeholder="Ingresa la contraseña"
+                      value={codigo}
+                      onChange={handleChangeCodigo}
+                      onKeyPress={handleKeyPress}
+                      className="py-3 px-3 font-poppins font-medium text-[18px] text-gray-700 rounded-[10px] outline-none bg-gray-200 border border-gray-300"
+                    />
+                  </div>
+    
+                  {/* Botón para mostrar la ruta */}
+                  <button
+                    type="button"
+                    onClick={handleMostrarComponente}
+                    className="mt-4 py-3 px-3 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none w-full"
+                    >
+                    Ver Ruta
+                  </button>
                 </div>
-                
               </div>
-            </section>
+            </div>
           </div>
-        </div>
-      )}
+        )}
       {mostrarComponente && (
         <>
           <button className="sidebar-toggle" onClick={toggleSidebar}>
