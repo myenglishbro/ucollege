@@ -330,7 +330,7 @@ export const roadmed = [
             { titulo:"📚[book] Summary Grammar : Resumen de Gramática Fundamental para Aprobar  ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[pdf] First Conditional Grammar  ",url: "https://drive.google.com/file/d/1TtQyZh4nbaFmMEGqPHxpHIx9LhNoWbMh/view?usp=sharing"},
             { titulo:"📚[ppt] Causative Grammar  ",url: "https://docs.google.com/presentation/d/1JqpdJ7rwpjCj7IRuHw8mkN2ZljQxkYbt/edit?usp=sharing&ouid=114588820780661373500&rtpof=true&sd=true"},
-            { titulo:"📚[pdf] Impersonal/Personal Passive   ",url: "https://wordwall.net/play/6276/984/9903"},
+            { titulo:"📚[pdf] Impersonal/Personal Passive   ",url: "https://drive.google.com/file/d/1ro-Akv2tledwTQjsG984zZsbYmrUhxY9/view?usp=sharing"},
             {
                 titulo: "🎯[Activity] Impersonal/Personal Passive 01",
                 url: "https://wordwall.net/play/11758/458/200",
