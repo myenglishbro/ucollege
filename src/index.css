@@ -215,7 +215,10 @@
   margin-right: 10px;
   font-weight: bold;
 }
-
+.timeline-number:hover {
+  background: #7B5DC4; /* Color de fondo más claro al hacer hover */
+  transform: scale(1.1); /* Ligeramente más grande al hacer hover */
+}
 /* Roadmap Styles */
 .roadmap-container {
   display: flex;
@@ -295,20 +298,7 @@
   font-weight: 400;
 }
 
-.timeline-number {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 16px;
-  font-weight: bold;
-  margin-right: 1rem;
-  color: #ffffff;
-  background-color: #4a5568;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
+
 
 /* Link Styles */
 .link {
@@ -347,6 +337,18 @@
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
 }
 
+.link-title .link-button {
+  background: none;
+  border: none;
+  color: #ecf0f1;
+  font-size: 1em;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+.link-button:hover {
+  color: white; /* Morado vibrante, que combina con el tema moderno y elegante */
+  transform: translateY(-2px); /* Sutil efecto de desplazamiento hacia arriba */
+}
 .timeline-item {
   display: flex;
   align-items: center;
@@ -363,7 +365,13 @@
   font-weight: bold;
   /* otros estilos */
 }
+.arrow-icon {
+  transition: transform 0.3s ease;
+}
 
+.arrow-icon.rotate {
+  transform: rotate(180deg);
+}
 
 /* Sidebar Animation */
 .sidebar {
@@ -372,9 +380,10 @@
   top: 70px;
   height: calc(100% - 70px);
   width: 250px;
-  background-color: #333;
+  background: #2c3e50;
   display: flex;
   flex-direction: column;
+  
   padding-top: 20px;
   z-index: 2;
   transition: left 0.3s ease;
@@ -388,75 +397,98 @@
 
 /* Sidebar Button */
 .sidebar-button {
-  padding: 15px;
+  padding: 10px 20px;
   color: white;
   background: none;
   border: none;
   width: 100%;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background 0.3s ease, color 0.3s ease;
+  justify-content: space-between;
+
 }
 
 .sidebar-button:hover {
-  background-color: #575757;
-}
+  background: #34495e;
+  color: #ecf0f1;}
 
-/* Sidebar Toggle */
-.sidebar-toggle {
-  position: fixed;
-  top: 20px;
-  left: 10px;
-  background: none;
-  border: none;
-  color: #A0AEC0;
-  font-size: 24px;
-  cursor: pointer;
-  z-index: 1100;
-}
+  .sidebar-toggle {
+    position: fixed;
+    top: 20px;
+    left: 10px;
+    background-color: #FFF;
+    border: none;
+    color: #34495e;
+    font-size: 24px;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    z-index: 1100;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para efecto moderno */
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+  }
+  
+  .sidebar-toggle:hover {
+    background-color: #34495e; /* Cambia el fondo al color del icono */
+    color: #FFF; /* Cambia el color del icono al blanco */
+    transform: scale(1.05); /* Ligeramente más grande al hacer hover */
+  }
+  
+  .sidebar-toggle:active {
+    transform: scale(0.95); /* Ligeramente más pequeño al hacer clic */
+  }
 
 .sidebar-button.selected {
-  background-color: #444;
+  background: hsl(200, 4%, 45%);
   color: white; 
   font-weight: bold;
 }
 /* Accordion Content */
 .accordion-content {
-  padding: 8px 16px;
-
-  background-color: #2a2a3d;
-  border-left: 2px solid #444;
-  margin-bottom: 10px;
-  transition: max-height 0.3s ease;
+  padding: 12px 20px;
+  animation: fadeIn 0.3s ease;
+  background-color: #2D2A4A; /* Fondo morado oscuro */
+  border-left: 4px solid #9B79D1; /* Morado vibrante para el borde */
+  border-radius: 6px;
+  margin-bottom: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  transition: max-height 0.3s ease, background-color 0.3s ease;
 }
 
 .accordion-content .timeline-item {
-  margin: 5px 0;
-  padding: 5px 0;
-  border-bottom: 1px solid #444;
+  margin: 6px 0;
+  padding: 6px 0;
+  border-bottom: 1px solid #4B3C73; /* Borde más suave, combinando con el fondo */
+  transition: background-color 0.3s ease;
 }
+
+
 
 .accordion-content .link-title a {
-  color: #A0AEC0;
+  color: #D1D5DB; /* Color suave y claro para enlaces */
   text-decoration: none;
-  transition: color 0.2s;
+  transition: color 0.2s ease, transform 0.2s ease;
 }
 
-.accordion-content .link-title a:hover {
-  color: #81E6D9;
-}
 
+
+.timeline-item.highlighted {
+  color: #F3E5F5; /* Texto en color blanco suave para elementos destacados */
+}
 
 .timeline-number {
-  background-color: #f59e0b;
-  color: white;
+  width: 24px;
+  height: 24px;
+  background: #5D3FD3; /* Azul violáceo moderno */
   border-radius: 50%;
-  width: 30px;
-  height: 30px;
   display: flex;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
+  color: #FFFFFF;
+  font-size: 0.9em;
   margin-right: 10px;
-  font-weight: bold;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave para efecto moderno */
+  transition: background 0.3s ease, transform 0.3s ease;
 }
 .sidebar-item.selected .checkmark {
   transform: scale(1.2); /* Agrandar el ícono cuando se selecciona */
@@ -467,7 +499,7 @@
   padding: 20px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease-in-out;
-  max-width: 50%;
+  max-width: 70%;
   margin: auto;
 }
 
@@ -478,9 +510,9 @@
 .popup-container {
   position: fixed;
   top: 0;
-  top: 50px;
+  top: 40px;
   left: 0;
-  margin-left: 80px;
+  margin-left: 170px;
   width: 100%; /* Asegura que ocupe todo el ancho en pantallas pequeñas */
   height: 100%; /* Ocupa toda la altura */
   z-index: 0;

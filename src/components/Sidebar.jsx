@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import Hito from '../pages/Hito'; // Asegúrate de importar el componente Hito
+import Hito from '../pages/Hito';
 
 const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) => {
   const [selectedIndex, setSelectedIndex] = useState(null);
   const [activeIndex, setActiveIndex] = useState(null);
-  const [selectedLink, setSelectedLink] = useState(null); // Estado para el enlace seleccionado
+  const [selectedLink, setSelectedLink] = useState(null);
 
   const handleSelect = (index) => {
     setSelectedIndex(index);
@@ -16,7 +16,7 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
   };
 
   const handleLinkClick = (enlace) => {
-    setSelectedLink(enlace); // Al hacer clic en el enlace, se establece como seleccionado
+    setSelectedLink(enlace);
   };
 
   return (
@@ -27,7 +27,7 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
 
       <div className={`sidebar ${isSidebarVisible ? 'visible' : ''}`}>
         {road.map((elemento, index) => (
-          <div key={index}>
+          <div key={index} className="accordion-section">
             <button
               onClick={() => {
                 handleSelect(index);
@@ -37,17 +37,19 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
             >
               {selectedIndex === index && <span className="checkmark">✔</span>}
               {elemento.title}
+              <span className={`arrow-icon ${activeIndex === index ? 'rotate' : ''}`}>▼</span>
             </button>
 
             {activeIndex === index && (
               <div className="accordion-content">
                 <div className="timeline-items">
                   {elemento.enlaces.map((enlace, i) => (
-                    <div key={i} className="timeline-item">
+                    <div key={i} className={`timeline-item ${selectedLink === enlace ? 'highlighted' : ''}`}>
                       <div className="timeline-number">{i + 1}</div>
                       <div className="link-title">
                         <button
-                          onClick={() => handleLinkClick(enlace)} // Maneja el clic en el enlace
+                          onClick={() => handleLinkClick(enlace)}
+                          className="link-button"
                         >
                           {enlace.titulo}
                         </button>
@@ -61,11 +63,10 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
         ))}
       </div>
 
-      {/* Ventana emergente para mostrar el enlace seleccionado */}
       {selectedLink && (
         <div className="popup-container">
-        
           <Hito selectedLink={selectedLink} />
+          <button onClick={() => setSelectedLink(null)} className="close-popup">✖</button>
         </div>
       )}
     </>
