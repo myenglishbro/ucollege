@@ -1,6 +1,12 @@
+import { LeftCurve, RightCurve } from "../design/Collaboration";
+import { collabApps, collabContent, collabText } from "../../constants";
+import Section from "../Hero/Section";
+import { brainwaveSymbol } from "../../assets2";
+import Button from "../Button";
+
 const Hero2 = () => {
   return (
-    <div className="h-screen flex flex-col max-sm:mt-10 items-center justify-center text-indigo-400 bg-cover bg-fixed" style={{ backgroundImage: "url('https://i.ibb.co/Gd2nhM4/header.png')" }}>
+    <div className="h-screen flex flex-col    items-center justify-center text-indigo-400 bg-cover bg-fixed" style={{ backgroundImage: "url('https://i.ibb.co/Gd2nhM4/header.png')" }}>
       {/* Nav */}
       <div className="w-full container mx-auto px-6 flex justify-between items-center">
         <a className="flex items-center text-indigo-400 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
@@ -37,9 +43,58 @@ const Hero2 = () => {
         </div>
 
         {/* Right Col */}
-        <div className="w-full md:w-3/5 flex justify-center">
-          <img className="w-2/4 md:w-1/4 transform -rotate-6 hover:rotate-6 transition-transform duration-700" src="https://i.ibb.co/wNDf6GS/My-english-bro-Personajek-10.png" alt="Macbook" />
+        <Section crosses>
+      <div className="container lg:flex">
+        
+
+        <div className="lg:ml-auto xl:w-[38rem] ">
+         
+
+          <div className="relative left-1/2 flex w-[22rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale:75 ">
+            <div className="flex w-80 aspect-square m-auto border border-n-6 rounded-full">
+              <div className="w-[6rem] aspect-square m-auto p-[0.2rem] bg-conic-gradient rounded-full">
+                <div className="flex items-center justify-center w-full h-full bg-n-8 rounded-full">
+                  <img
+                    src={brainwaveSymbol}
+                    width={68}
+                    height={68}
+                    alt="brainwave"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <ul>
+              {collabApps.map((app, index) => (
+                <li
+                  key={app.id}
+                  className={`absolute top-0 left-1/2 h-1/2 -ml-[1.6rem] origin-bottom rotate-${
+                    index * 45
+                  }`}
+                >
+                  <div
+                    className={`relative -top-[1.6rem] flex w-[3.2rem] h-[3.2rem] bg-n-7 border border-n-1/15 rounded-xl -rotate-${
+                      index * 45
+                    }`}
+                  >
+                    <img
+                      className="m-auto"
+                      width={app.width}
+                      height={app.height}
+                      alt={app.title}
+                      src={app.icon}
+                    />
+                  </div>
+                </li>
+              ))}
+            </ul>
+
+            <LeftCurve />
+            <RightCurve />
+          </div>
         </div>
+      </div>
+    </Section>
       </div>
     </div>
   );
