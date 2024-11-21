@@ -1,83 +1,56 @@
 import { brainwaveSymbol, check } from "../assets2";
-import { collabApps, collabContent, collabText } from "../constants";
+import { collabContent } from "../constants";
 import Button from "./Button";
-import Section from "./Hero/Section";
-import { LeftCurve, RightCurve } from "./design/Collaboration";
 
 const Collaboration = () => {
   return (
-    <Section crosses>
-      <div className="container lg:flex">
-        <div className="max-w-[25rem]">
-          <h2 className="h2 mb-4 md:mb-8">
-           Cambridge B2 Preparation
-          </h2>
+    <div className="relative mx-auto max-w-5xl mt-10">
+      {/* Outer Gradient Border */}
+      <div
+        className="rounded-xl p-1"
+        style={{
+          backgroundImage:
+            "linear-gradient(to right bottom, rgb(79, 70, 229) 0%, rgb(165, 56, 164) 50%, rgb(220, 38, 38) 100%)",
+        }}
+      >
+        {/* Inner Content */}
+        <div className="rounded-lg bg-black/80 backdrop-blur">
+          <div className="flex w-full flex-wrap items-center justify-between gap-8 px-8 py-10 sm:px-16 lg:flex-nowrap">
+            {/* Left Content: Header and Description */}
+            <div className="lg:max-w-xl">
+              <h2 className="block w-full pb-2 bg-gradient-to-b from-white to-gray-400 bg-clip-text font-bold text-transparent text-3xl sm:text-4xl">
+              Join Our English Programs
+              </h2>
+              <p className="my-4 bg-transparent font-medium leading-relaxed tracking-wide text-gray-400">
+              Whether you're preparing for exams like TOEFL, CELPIP, or Cambridge, or simply looking to improve your English skills, we’ve got you covered!              </p>
 
-          <ul className="max-w-[22rem] mb-10 md:mb-14">
-            {collabContent.map((item) => (
-              <li className="mb-3 py-3" key={item.id}>
-                <div className="flex items-center">
-                  <img src={check} width={24} height={24} alt="check" />
-                  <h6 className="body-2 ml-5">{item.title}</h6>
-                </div>
-                {item.text && (
-                  <p className="body-2 mt-3 text-n-4">{item.text}</p>
-                )}
-              </li>
-            ))}
-          </ul>
-
-          <Button className="hidden lg:flex">Try it now</Button>
-        </div>
-
-        <div className="lg:ml-auto xl:w-[38rem] mt-4">
-         
-
-          <div className="relative left-1/2 flex w-[22rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale:75 md:scale-100">
-            <div className="flex w-60 aspect-square m-auto border border-n-6 rounded-full">
-              <div className="w-[6rem] aspect-square m-auto p-[0.2rem] bg-conic-gradient rounded-full">
-                <div className="flex items-center justify-center w-full h-full bg-n-8 rounded-full">
-                  <img
-                    src={brainwaveSymbol}
-                    width={48}
-                    height={48}
-                    alt="brainwave"
-                  />
-                </div>
-              </div>
+              <ul className="mt-6 space-y-4">
+                {collabContent.map((item) => (
+                  <li key={item.id} className="flex items-start space-x-3">
+                    <img
+                      src={check}
+                      alt="check"
+                      className="w-6 h-6 flex-shrink-0 text-violet-600"
+                    />
+                    <span className="text-gray-300">{item.title}</span>
+                  </li>
+                ))}
+              </ul>
             </div>
 
-            <ul>
-              {collabApps.map((app, index) => (
-                <li
-                  key={app.id}
-                  className={`absolute top-0 left-1/2 h-1/2 -ml-[1.6rem] origin-bottom rotate-${
-                    index * 45
-                  }`}
-                >
-                  <div
-                    className={`relative -top-[1.6rem] flex w-[3.2rem] h-[3.2rem] bg-n-7 border border-n-1/15 rounded-xl -rotate-${
-                      index * 45
-                    }`}
-                  >
-                    <img
-                      className="m-auto"
-                      width={app.width}
-                      height={app.height}
-                      alt={app.title}
-                      src={app.icon}
-                    />
-                  </div>
-                </li>
-              ))}
-            </ul>
-
-            <LeftCurve />
-            <RightCurve />
+            {/* Right Content: Call to Action Buttons */}
+            <div className="flex flex-wrap items-center justify-center gap-6">
+              <button className="bg-violet-600 text-white button-text flex items-center justify-center whitespace-nowrap rounded-md transition-all duration-300 px-8 py-3 text-xs sm:text-sm">
+                Get Started
+              </button>
+              <button className="flex items-center justify-center whitespace-nowrap rounded-md border border-zinc-700 bg-zinc-900 text-center text-white backdrop-blur transition-all hover:bg-zinc-800 px-8 py-3 text-xs sm:text-sm">
+                Learn More
+              </button>
+            </div>
           </div>
         </div>
       </div>
-    </Section>
+    </div>
   );
 };
 

@@ -434,28 +434,12 @@ export const navLinks =  [
 export const collabContent = [
   {
     id: "0",
-    title: "Duración : 20 Horas de Clases en Vivo",
+    title: "Group and Individual Classes: Tailored to your needs, including preparation for travel, study abroad, leveling up your skills, or practicing conversational English.",
     text: collabText,
   },
   {
     id: "1",
-    title: "Frecuencia : Sábados y Domingos 4:00 - 6:00 pm  Hora de Perú",
-  },
-  {
-    id: "2",
-    title: "Recursos : Ruta de Aprendizaje con Materiales y Ejercicios",
-  },
-  {
-    id: "3",
-    title: "Costo : S/180 - $50 - MXN$ 950 ",
-  },
-  {
-    id: "4",
-    title: "Zoom Premium + Wsp privado   ",
-  },
-  {
-    id: "5",
-    title: "Cada clase es individual y ninguna depende de la anterior ,todas las lecciones se graban   ",
+    title: "Achieve Your Goals: Learn in a supportive environment with expert instructors committed to helping you succeed.",
   }
 ];
 
@@ -640,7 +624,7 @@ export const collabContent2 = [
       title: "Premium Plan (5 hours)",
       description : "Este paquete de clases cuenta con 5 horas de clases en vivo ",
       description2: "Regional discount is applied automatically . The transfer tax from another country is included (paypal).",
-
+        image:"https://assets.revolut.com/media/plans-tiles/Cards-Tiles-Standard.png",
       price2: "S/160  🇵🇪 ",
       price:  " USD$53 🇺🇸 ",
       price3: "Most Popular ",
@@ -660,6 +644,7 @@ export const collabContent2 = [
       price:  " USD$106 🇺🇸 ",
       price3: "Most Popular ",
 description2: "Si eres de otro país , tu pago en dólares ya incluye el descuento de impuesto de USD$10 ",
+image:"https://assets.revolut.com/media/plans-tiles/Cards-Tiles-Standard.png",
 
       features: [
         "Tu clase se graba y se envia por correo  ",
@@ -682,6 +667,7 @@ description2: "Si eres de otro país , tu pago en dólares ya incluye el descuen
       price:  " USD$160 🇺🇸 ",
       price3: "Most Popular ",
 description2: "Si eres de otro país , tu pago en dólares ya incluye el descuento de impuesto de USD$10 ",
+image:"https://assets.revolut.com/media/plans-tiles/Cards-Tiles-Standard.png",
 
       features: [
         "Tu clase se graba y se envia por correo a cada correo   ",

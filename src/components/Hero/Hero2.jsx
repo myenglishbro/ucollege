@@ -6,7 +6,7 @@ import Button from "../Button";
 
 const Hero2 = () => {
   return (
-    <div className="h-screen flex flex-col    items-center justify-center text-indigo-400 bg-cover bg-fixed" style={{ backgroundImage: "url('https://i.ibb.co/Gd2nhM4/header.png')" }}>
+    <div className="h-screen flex flex-col    items-center justify-center text-indigo-400 bg-cover bg-fixed"  >
       {/* Nav */}
       <div className="w-full container mx-auto px-6 flex justify-between items-center">
         <a className="flex items-center text-indigo-400 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
