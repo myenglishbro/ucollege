@@ -73,12 +73,12 @@ const Hero2 = () => {
                   }`}
                 >
                   <div
-                    className={`relative -top-[1.6rem] flex w-[3.2rem] h-[3.2rem] bg-n-7 border border-n-1/15 rounded-xl -rotate-${
+                    className={`relative -top-[1.6rem] flex w-[4.2rem] h-[4.2rem] bg-n-7 border border-n-1/15 rounded-xl -rotate-${
                       index * 45
                     }`}
                   >
                     <img
-                      className="m-auto"
+                    className="m-auto rounded-lg"
                       width={app.width}
                       height={app.height}
                       alt={app.title}

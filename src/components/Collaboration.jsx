@@ -19,11 +19,12 @@ const Collaboration = () => {
             {/* Left Content: Header and Description */}
             <div className="lg:max-w-xl">
               <h2 className="block w-full pb-2 bg-gradient-to-b from-white to-gray-400 bg-clip-text font-bold text-transparent text-3xl sm:text-4xl">
-              Join Our English Programs
-              </h2>
-              <p className="my-4 bg-transparent font-medium leading-relaxed tracking-wide text-gray-400">
-              Whether you're preparing for exams like TOEFL, CELPIP, or Cambridge, or simply looking to improve your English skills, we’ve got you covered!              </p>
+              Únete a nuestros programas de inglés ✨
 
+            </h2>
+              
+              <p className="my-4 bg-transparent font-medium leading-relaxed tracking-wide text-gray-400">
+              Ofrecemos clases privadas individuales y grupales, adaptadas a tus necesidades específicas. Ya sea que necesites apoyo para aprobar una certificación internacional, asesoría en inglés para tu carrera profesional, o simplemente mejorar tus habilidades lingüísticas, nuestras clases están diseñadas para ti.</p>
               <ul className="mt-6 space-y-4">
                 {collabContent.map((item) => (
                   <li key={item.id} className="flex items-start space-x-3">

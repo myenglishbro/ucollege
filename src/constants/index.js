@@ -434,12 +434,16 @@ export const navLinks =  [
 export const collabContent = [
   {
     id: "0",
-    title: "Group and Individual Classes: Tailored to your needs, including preparation for travel, study abroad, leveling up your skills, or practicing conversational English.",
+    title: "Personalización total: Nos ajustamos a tu nivel actual y estilo de aprendizaje para garantizar que avances de manera efectiva.",
     text: collabText,
   },
   {
     id: "1",
-    title: "Achieve Your Goals: Learn in a supportive environment with expert instructors committed to helping you succeed.",
+    title: "Enfoque en tus metas: Desde habilidades conversacionales hasta inglés técnico o académico, cubrimos lo que necesitas para triunfar.",
+  },
+  {
+    id: "2",
+    title: "Método práctico y dinámico: Aprende con estrategias diseñadas para que logres resultados reales en el menor tiempo posible.",
   }
 ];
 
@@ -472,56 +476,59 @@ export const collabContent2 = [
       id: "0",
       title: "Figma",
       icon: figma,
-      width: 26,
+      width: 60,
       height: 36,
     },
     {
       id: "1",
       title: "Notion",
       icon: notion,
-      width: 34,
+      width: 56,
       height: 36,
     },
     {
       id: "2",
       title: "Discord",
       icon: discord,
-      width: 36,
+      width: 56,
       height: 28,
     },
     {
       id: "3",
       title: "Slack",
       icon: slack,
-      width: 34,
+      width: 56,
       height: 35,
     },
     {
       id: "4",
       title: "Photoshop",
       icon: photoshop,
-      width: 34,
+      width: 56,
       height: 34,
     },
     {
       id: "5",
       title: "Protopie",
       icon: protopie,
-      width: 34,
+      width: 56,
+
       height: 34,
     },
     {
       id: "6",
       title: "Framer",
       icon: framer,
-      width: 26,
+      width: 56,
+
       height: 34,
     },
     {
       id: "7",
       title: "Raindrop",
       icon: raindrop,
-      width: 38,
+      width: 56,
+
       height: 32,
     },
   ];

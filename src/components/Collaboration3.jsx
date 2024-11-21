@@ -1,7 +1,7 @@
 import React from "react";
 
 
-const Collaboration2 = () => {
+const Collaboration3 = () => {
   return (
     <div className="h-screen w-screen bg-black">
       <div className="mx-auto max-w-7xl pt-16 sm:pt-24">
@@ -12,19 +12,19 @@ const Collaboration2 = () => {
               <div className="space-y-4">
                 <div className="space-y-2">
                   <span className="rounded-full uppercase bg-pink-500 px-3 py-0.5 text-sm font-semibold leading-5 text-white">
-                    CAMBRIDGE PREPARATION
+                    Clases Privadas Personalizadas
                   </span>
                   <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl">
-                   Aprende los Reales trucos y {" "}
+                    Quieres  {" "}
                     <span className="font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-pink-600">
-                      Apruebalo
+                      Expresarte
                     </span>
                     <br />
-                   con flying colors.
+                    de  forma natural?.
                   </h1>
                 </div>
                 <p className="text-base text-gray-200 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                  Clases privadas y grupales donde se explica a detalle cómo y qué hacer durante el examen para obtener la mayor cantidad de puntos posibles.
+                  Clases privadas y grupales adaptadas a tus necesidades ya sea para viajar , nivelación o conversacion
                 </p>
               </div>
               <div className="border-t border-gray-700"></div>
@@ -90,7 +90,7 @@ const Collaboration2 = () => {
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                   width="100%"
                   height="100%"
-                  src="https://www.youtube.com/embed/LYrMkpMS5RY?si=ND0V67Hmz3zByV-W?autoplay=0&mute=0&controls=0"
+                  src="https://www.youtube.com/embed/LjdmaO7RskU?si=MF5YoO9dMTjQ43QI?si=ND0V67Hmz3zByV-W?autoplay=0&mute=0&controls=0"
                   id="widget2"
                   title="YouTube video"
                 ></iframe>
@@ -103,5 +103,5 @@ const Collaboration2 = () => {
   );
 };
 
-export default Collaboration2;
+export default Collaboration3;
 

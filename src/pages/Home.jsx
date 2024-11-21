@@ -20,6 +20,7 @@ import Collaboration from '../components/Collaboration';
 import Pricing from '../components/Pricing';
 import Roadmap from '../components/Roadmap';
 import Collaboration2 from '../components/Collaboration2';
+import Collaboration3 from '../components/Collaboration3';
 const Home = () => {
   return (
     <>
@@ -29,7 +30,13 @@ const Home = () => {
      
 
       <Collaboration></Collaboration>
-      <Collaboration2></Collaboration2>
+     
+        <Collaboration2 />
+       
+      
+     
+        <Collaboration3 />
+    
       <Pricing></Pricing>
       <Roadmap></Roadmap>
   
