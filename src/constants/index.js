@@ -120,6 +120,10 @@ export const navLinks =  [
       title: "Bootcamp",
       path: "/Bootcamp"
       
+    },{
+      title: "Enam",
+      path: "/Enam"
+      
     }
     
     ,

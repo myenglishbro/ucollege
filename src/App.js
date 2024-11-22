@@ -53,6 +53,7 @@ import Footer from "./components/Footer";
 import RoadMapMed from "./pages/RoadMapMed";
 import RoadMapDev from "./pages/RoadMapDev";
 import RoadMapCelpip from "./pages/RoadMapCelpip";
+import RoadMapEnam from "./pages/RoadMapEnam";
 
 function App() {
   return (
@@ -80,6 +81,7 @@ function App() {
           <Route path="/RoadMapMix" element={<RoadMapMix />}></Route>
           <Route path="/RoadMapTech" element={<RoadMapTech />}></Route>
           <Route path="/Celpip" element={<RoadMapCelpip />}></Route>
+          <Route path="/Enam" element={<RoadMapEnam />}></Route>
 
         
         

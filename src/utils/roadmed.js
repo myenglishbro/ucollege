@@ -119,7 +119,11 @@ export const roadmed = [
         channel: "sdasd",
         description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
         enlaces: [
-           
+            { titulo:"Presentación",url: "https://youtu.be/Hk1y2D9jbvQ"},
+
+            { titulo:"Solución KWT 01 ",url: "https://youtu.be/muqLK--ykjg"},
+            { titulo:"Test KWT 01 ",url: "https://drive.google.com/file/d/10cOoRCKkswKlwi2GOM4cvdOlWNBE-Hbx/view?usp=sharing"},
+
             { titulo:"📚[pdf] Key Word Transformation 001 ",url: "https://drive.google.com/file/d/1fzxVyBLvMHRwzfHTGLgYapKOXasOXv0m/view?usp=sharing"},
             { titulo:"📚[pdf] Key Word Transformation 002 ",url: "https://drive.google.com/file/d/1AytA61HbBmJgFLcXNEwEBHJQjVelp1T3/view?usp=sharing"},
             { titulo:"📚[pdf] Key Word Transformation 003 ",url: "https://drive.google.com/file/d/1Kx3tL5lWNxOaeJwuu5bKqhaML8fi9nb6/view?usp=sharing"},
