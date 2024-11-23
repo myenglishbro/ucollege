@@ -112,6 +112,37 @@ export const roadcelpip = [
             
         ],
     },
+    {
+        id: 13,
+        thumbnail:
+            "https://i.ibb.co/yfYMBBS/level2.png",
+        title: "Test Center",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Aprende a hablar como un hablante nativo enfocándote en la pronunciación, entonación y expresiones idiomáticas para mejorar tu fluidez y naturalidad al hablar.",
+        enlaces: [
+           
+            {
+                titulo: "📒 Test 01 Celpip ",
+                url: "https://drive.google.com/file/d/1C7xmxH4P_YOXlxIm0Z5Fp9CqsHpp-ZxM/view?usp=sharing",
+            },
+            {
+                titulo: "🎧 Test 01 Celpip Giving Advice part 1 (4-5 response) ",
+                url: "https://drive.google.com/file/d/107CV97FAyX4Qp3ScjqJcxiTcARP3fuMo/view?usp=sharing",
+            },
+            {
+                titulo: "🎧 Test 01 Celpip Giving Advice part 1 (7-8 response) ",
+                url: "https://drive.google.com/file/d/1Z_aXCDJBAJ94WeGckFUmmf7fPZnuOvDg/view?usp=sharing",
+            },
+            {
+                titulo: "🎧 Test 01 Celpip Giving Advice part 1 (10-12 response) ",
+                url: "https://drive.google.com/file/d/1Lsqi0YGBEXP0JLWnWUJJXe-BAGPVpF3q/view?usp=sharing",
+            },
+            
+        ],
+    }
    
 
     
