@@ -123,7 +123,10 @@ export const roadmed = [
 
             { titulo:"Solución KWT 01 ",url: "https://youtu.be/muqLK--ykjg"},
             { titulo:"Test KWT 01 ",url: "https://drive.google.com/file/d/10cOoRCKkswKlwi2GOM4cvdOlWNBE-Hbx/view?usp=sharing"},
-
+            { titulo:"Solución KWT 02 ",url: "https://youtu.be/7wrY5gW_Xco"},
+            { titulo:"Test KWT 02 ",url: "https://drive.google.com/file/d/1VeU2a_peDOk2WMACF8anyG0GwLGZzOvM/view?usp=sharing"},
+            { titulo:"Solución KWT 03 ",url: "https://youtu.be/D11X4WGnhuU"},
+            { titulo:"Test KWT 03 ",url: "https://drive.google.com/file/d/1meGXse7csULGWCCAAOkANu1ckqn_bg5o/view?usp=sharing"},
             { titulo:"📚[pdf] Key Word Transformation 001 ",url: "https://drive.google.com/file/d/1fzxVyBLvMHRwzfHTGLgYapKOXasOXv0m/view?usp=sharing"},
             { titulo:"📚[pdf] Key Word Transformation 002 ",url: "https://drive.google.com/file/d/1AytA61HbBmJgFLcXNEwEBHJQjVelp1T3/view?usp=sharing"},
             { titulo:"📚[pdf] Key Word Transformation 003 ",url: "https://drive.google.com/file/d/1Kx3tL5lWNxOaeJwuu5bKqhaML8fi9nb6/view?usp=sharing"},
