@@ -19,6 +19,7 @@ const RoadMapHealth = () => {
     { usuario: 'udemy', password: 'repositorio', realname: 'Estudiante Autodidacta' },
     { usuario: 'KABEZINI', password: '@47830274S', realname: 'JUAN EDUARDO AYLAS INCISO' },
     { usuario: 'JosueRv_24', password: 'jrvchoche', realname: 'Josue Ramirez' },
+    { nivel:"A2 Básico",usuario: 'titooshiro', password: 'titooshiro2024', realname: 'Alberto Oshiro', img: 'https://i.ibb.co/2y3PPmL/247917193-940684856635710-168362.png' }, // No image
 
     { usuario: '62023170', password: '10671890', realname: 'Andrea Vargas' },
     { usuario: 'leonardoporras', password: 'password3', realname: 'Leonardo Porras' },
