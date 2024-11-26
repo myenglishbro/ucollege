@@ -10,7 +10,9 @@ export const roadcelpip = [
         channel: " ",
         description: "CELPIP TASK 1 TO 8 ",
         enlaces: [
-            {  titulo:"📑 Speaking Sesion 01",url: "https://docs.google.com/presentation/d/1rSRrzROAfwHvPJCaVWJP94l1Z_GtVnuO/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},        
+            {  titulo:"📑 Speaking",url: "https://drive.google.com/file/d/1idZWp6YWJ88wPPD8N71FQZsqpKuAVyKf/view?usp=sharing"},        
+            {  titulo:"📑 Conecctors and Phrases ",url: "https://drive.google.com/file/d/14SaNpRwKA2_B0UlqMFs-Vgm3HwU2x6vV/view?usp=sharing"},        
+
             {  titulo:"📑 Speaking Task 01",url: "https://drive.google.com/file/d/1OsvHOpIhm3v90TQeXMVlo0B7vaWKDucL/view?usp=sharing"},        
             {  titulo:"🔖  Guide Task 01",url: "https://drive.google.com/file/d/1Cdm080IYn6zI_y_98aGypqrNuZ9UTmPL/view?usp=sharing"},        
 
@@ -29,7 +31,43 @@ export const roadcelpip = [
             
         ],
     },
-    
+    {
+        id: 14,
+        thumbnail:
+            "https://i.ibb.co/PZ6Srhv/level3.png",
+        title: "Writing ",
+        subtitle: "B2/C1",
+
+        dateAdded: "B2/C1",
+        channel: "sdasd",
+        description: "Mejora tus habilidades de comprensión auditiva con este curso que te ayudará a entender a hablantes nativos en diferentes situaciones y acentos, fortaleciendo tu confianza al escuchar y comprender el idioma.",
+        enlaces: [
+           
+            { titulo: "Writing Template", url: "https://drive.google.com/file/d/1f9q9MNEBkq6Zyo2-JLeVwO735dzPIcSc/view?usp=sharing" },
+            
+            { titulo: "Writing Connector & Useful Words", url: "https://drive.google.com/file/d/1OxsIAGfyRc7RqIBTuIPc0KQEaSdosUHN/view?usp=sharing" },
+
+        ],
+    },
+    {
+        id: 14,
+        thumbnail:
+            "https://i.ibb.co/PZ6Srhv/level3.png",
+        title: "Books ",
+        subtitle: "B2/C1",
+
+        dateAdded: "B2/C1",
+        channel: "sdasd",
+        description: "Mejora tus habilidades de comprensión auditiva con este curso que te ayudará a entender a hablantes nativos en diferentes situaciones y acentos, fortaleciendo tu confianza al escuchar y comprender el idioma.",
+        enlaces: [
+            { titulo: "Celpip Overview ", url: "https://drive.google.com/file/d/14a25fqogE250_Utljz49mBXOceZFjfDH/view?usp=sharing" },
+
+            { titulo: "Celpip Text Expert", url: "https://drive.google.com/file/d/1uTkYCtZX3KHLAa0hTEzBGLg5p7a80lmm/view?usp=sharing" },
+            
+            { titulo: "Celpip Reading and Writing ", url: "https://drive.google.com/file/d/1V6j4oj44wEErADdVFxNsT7lNRU0fjTBs/view?usp=sharing" },
+
+        ],
+    },
     {
         id: 14,
         thumbnail:
