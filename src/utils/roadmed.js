@@ -614,6 +614,27 @@ export const roadmed = [
         description: "Aprende técnicas literarias avanzadas para enriquecer tu escritura y expresión creativa en inglés",
         enlaces: [
             {
+                titulo: "📃[pdf] Essay  B2 Model",
+                url: "https://drive.google.com/file/d/1shuKn4-Sgu3VW2SqO1Gbv4a3BNUjFWB0/view?usp=sharing",
+            }, {
+                titulo: "📃[pdf] Essay  B2 Model 2",
+                url: "https://drive.google.com/file/d/1A3zKsg5My6XQlKxWRNiCoM_Jh5Wwepvp/view?usp=sharing",
+            }
+            ,
+            {
+                titulo: "📃[pdf] C1 Template Essay 2025",
+                url: "https://drive.google.com/file/d/1ELdPTtS6V33-pBtJr2uRSizlrfuCH4nB/view?usp=sharing",
+            },
+            {
+                titulo: "📃[pdf]Useful Language",
+                url: "https://drive.google.com/file/d/1gMBSe_vvMgQq-IkIQtpDydmpuKq_YiMa/view?usp=sharing",
+            },
+            {
+                titulo: "📃[pdf] Amazing Template Essay 2025",
+                url: "https://drive.google.com/file/d/1GTnhTS-RWFKpJ2Q9DRhBOxb-IqgjIjmZ/view?usp=sharing",
+            }
+            ,
+            {
                 titulo: "📃[pdf] Writing Templates",
                 url: "https://docs.google.com/document/d/1ynAsrV2Uj-uR0qrCDzGvDw8I2sXYlzEg/edit?rtpof=true&sd=true",
             },
