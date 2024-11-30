@@ -1,24 +1,31 @@
-  import React, { useState, useRef } from 'react';
-  import ContainerRoad from './ContainerRoad';
-  import styles from "../style";
-  import { road } from "../utils/road";
-  import Sidebar from '../components/Sidebar';
-  import DefaultView from '../components/DefaultView';
+import React, { useState, useRef } from 'react';
+import ContainerRoad from './ContainerRoad';
+import styles from "../style";
+import { road } from "../utils/road";
+import Sidebar from '../components/Sidebar';
+import DefaultView from '../components/DefaultView';
 
-  const RoadMap = () => {
-    const [usuario, setUsuario] = useState(''); 
-    const [nivel, setNivel] = useState(''); 
+const RoadMap = () => {
+  const [usuario, setUsuario] = useState('');
+  const [nivel, setNivel] = useState('');
+  const [codigo, setCodigo] = useState('');
+  const [mostrarComponente, setMostrarComponente] = useState(false);
+  const [isSidebarVisible, setIsSidebarVisible] = useState(false);
+  const [nivelSeleccionado, setNivelSeleccionado] = useState(null);
+  const [realname, setRealname] = useState('');
+  const [userImage, setUserImage] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
+  const containerRefs = useRef([]);
 
-    const [codigo, setCodigo] = useState(''); 
-    const [mostrarComponente, setMostrarComponente] = useState(false);
-    const [isSidebarVisible, setIsSidebarVisible] = useState(false); 
-    const [nivelSeleccionado, setNivelSeleccionado] = useState(null);
-    const [realname, setRealname] = useState(''); 
-    const [userImage, setUserImage] = useState(''); // Add state for user image
-    const containerRefs = useRef([]); 
-
-    const validCredentials = [
-      { usuario: 'celestesalvatierra', password: 'password1', realname: 'Celeste Salvatierra', img:'https://th.bing.com/th/id/OIP.i5p4mQm3eDTw7EhrOo1jiQHaHa?rs=1&pid=ImgDetMain'},
+  const validCredentials = [
+    {
+      nivel: "A2 Básico",
+      usuario: 'titooshiro',
+      password: 'titooshiro2024',
+      realname: 'Alberto Oshiro',
+      img: 'https://i.ibb.co/2y3PPmL/247917193-940684856635710-168362.png',
+    },
+    { usuario: 'celestesalvatierra', password: 'password1', realname: 'Celeste Salvatierra', img:'https://th.bing.com/th/id/OIP.i5p4mQm3eDTw7EhrOo1jiQHaHa?rs=1&pid=ImgDetMain'},
       { nivel:"CELPIP",usuario: 'udemy', password: 'repositorio', realname: ' Autodidacta', img: '' }, // No image
       { usuario: 'KABEZINI', password: '@47830274S', realname: 'JUAN EDUARDO AYLAS INCISO', img: 'https://i.ibb.co/7bmgdmR/418722130-755683973286212-906722.png' }, // No image
       { usuario: 'JosueRv_24', password: 'jrvchoche', realname: 'Josue Ramirez ツ', img: 'https://i.ibb.co/RNVQ8VZ/OIP-10.jpg' }, // No image
@@ -35,148 +42,133 @@
       { usuario: 'angelbenites', password: 'moncada2024', realname: 'Angel Moisés Benites Moncada', img: 'https://i.ibb.co/3Thj6K0/420613655-1799350083843859-11506.png' }, // No image
       { usuario: 'alison.arapa', password: 'ielts2025', realname: 'alison.arapa', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
       { usuario: 'jose.tbravo', password: 'ielts2025', realname: 'jose.torres.bravo', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+  ];
 
-      { nivel:"A2 Básico",usuario: 'titooshiro', password: 'titooshiro2024', realname: 'Alberto Oshiro', img: 'https://i.ibb.co/2y3PPmL/247917193-940684856635710-168362.png' }, // No image
+  const handleChangeUsuario = (event) => setUsuario(event.target.value);
+  const handleChangeCodigo = (event) => setCodigo(event.target.value);
 
-    ];
-
-    const handleChangeUsuario = (event) => {
-      setUsuario(event.target.value);
-    };
-
-    const handleChangeNivel = (event) => {
-      setNivel(event.target.value);
-    };
-
-    const handleChangeCodigo = (event) => {
-      setCodigo(event.target.value);
-    };
-
-    const handleKeyPress = (event) => {
-      if (event.key === 'Enter') {
-        handleMostrarComponente();
-      }
-    };
-
-    const handleMostrarComponente = () => {
-      const userCredential = validCredentials.find(
-        (cred) => cred.usuario === usuario && cred.password === codigo
-      );
-
-      setMostrarComponente(!!userCredential);
-      setRealname(userCredential ? userCredential.realname : ''); 
-      setUserImage(userCredential ? userCredential.img : 'https://example.com/default-image.png'); // Default image URL
-      setNivel(userCredential ? userCredential.nivel : ''); // Asegúrate de que se actualice el nivel
-      console.log('Nivel:', userCredential ? userCredential.nivel : 'Sin nivel');
-
-      console.log('User Image:', userCredential ? userCredential.img : 'No Image'); // Log user image
+  const handleKeyPress = (event) => {
+    if (event.key === 'Enter') {
+      handleMostrarComponente();
+    }
   };
 
-    const seleccionarNivel = (index) => {
-      setNivelSeleccionado(index);
-      scrollToContainer(index);
-    };
-
-    const scrollToContainer = (index) => {
-      if (containerRefs.current[index]) {
-        containerRefs.current[index].scrollIntoView({ behavior: 'smooth' });
-      }
-    };
-
-    const toggleSidebar = () => {
-      setIsSidebarVisible(!isSidebarVisible);
-    };
-
-    return (
-      <>
-        {!mostrarComponente && (
-          <div className="py-16 mt-10">
-            <div className="flex bg-white rounded-lg shadow-lg overflow-hidden mx-auto max-w-sm lg:max-w-4xl">
-              {/* Imagen de fondo para la versión grande */}
-              <div
-                className="hidden lg:block lg:w-1/2 bg-cover"
-                style={{
-                  backgroundImage:
-                    "url('https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80')",
-                }}
-              ></div>
-    
-              {/* Contenido del formulario */}
-              <div className="w-full p-15 lg:w-1/2 mt-1">
-                <h2 className="text-2xl font-semibold text-gray-700 text-center">
-                  Bienvenido Student!
-                </h2>
-                <p className="text-xl text-gray-600 text-center mt-4">
-                  Al Estudiar con nosotros recibes un código para acceder a nuestro repositorio, ¡Ingrésalo Aquí!
-                </p>
-    
-                <div className="mt-20">
-                  {/* Formulario de ingreso de datos */}
-                  <div className="flex flex-col space-y-4">
-                  <input
-                      type="text"
-                      placeholder="Ingresa el usuario"
-                      value={usuario}
-                      onChange={handleChangeUsuario}
-                      className="py-3 px-3 font-poppins font-medium text-[18px] text-gray-700 rounded-[10px] outline-none bg-gray-200 border border-gray-300 mb-4 sm:mb-0"
-                    />
-                    <input
-                      type="password"
-                      placeholder="Ingresa la contraseña"
-                      value={codigo}
-                      onChange={handleChangeCodigo}
-                      onKeyPress={handleKeyPress}
-                      className="py-3 px-3 font-poppins font-medium text-[18px] text-gray-700 rounded-[10px] outline-none bg-gray-200 border border-gray-300"
-                    />
-                  </div>
-    
-                  {/* Botón para mostrar la ruta */}
-                  <button
-                    type="button"
-                    onClick={handleMostrarComponente}
-                    className="mt-4 py-3 px-3 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none w-full"
-                    >
-                    Ver Ruta
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        )}
-    
-        {mostrarComponente && (
-          <>
-            <button className="sidebar-toggle" onClick={toggleSidebar}>
-              ☰
-            </button>
-            <Sidebar
-              road={road}
-              seleccionarNivel={seleccionarNivel}
-              isSidebarVisible={isSidebarVisible}
-              toggleSidebar={toggleSidebar}
-              className={isSidebarVisible ? 'visible' : ''} // Aplica la clase visible si isSidebarVisible es true
-            />
-    
-            {nivelSeleccionado !== null ? (
-              <ContainerRoad
-                road={[road[nivelSeleccionado]]}
-                containerRefs={containerRefs}
-                password={codigo}
-                realname={realname}
-                nivel={nivel}
-                userImage={userImage} // Pass the userImage here
-              />
-            ) : (
-              <DefaultView
-                password={codigo}
-                realname={realname}
-                userImage={userImage} // Asegúrate de pasar userImage
-              />
-            )}
-          </>
-        )}
-      </>
+  const handleMostrarComponente = () => {
+    const userCredential = validCredentials.find(
+      (cred) => cred.usuario === usuario && cred.password === codigo
     );
-  }
 
-  export default RoadMap;
+    if (userCredential) {
+      setMostrarComponente(true);
+      setRealname(userCredential.realname);
+      setUserImage(userCredential.img);
+      setNivel(userCredential.nivel);
+      setErrorMessage('');
+    } else {
+      setMostrarComponente(false);
+      setErrorMessage('La contraseña o usuario es incorrecto.');
+    }
+  };
+
+  const seleccionarNivel = (index) => {
+    setNivelSeleccionado(index);
+    scrollToContainer(index);
+  };
+
+  const scrollToContainer = (index) => {
+    if (containerRefs.current[index]) {
+      containerRefs.current[index].scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  const toggleSidebar = () => setIsSidebarVisible(!isSidebarVisible);
+
+  return (
+    <>
+      {!mostrarComponente && (
+  <div className="py-5 flex justify-center items-center min-h-screen bg-gray-100">
+    <div className="bg-white rounded-lg shadow-lg p-6 w-full max-w-sm">
+      <div className="flex justify-center mb-4">
+        <img
+          src="https://i.ibb.co/55qqtX6/My-english-bro-Logo-10.png" // URL de tu logo
+          alt="Logo"
+          className="h-16" // Ajusta el tamaño del logo
+        />
+      </div>
+      <h2 className="text-2xl font-bold text-gray-800 text-center mb-2">
+        Welcome, Student! 🎓
+      </h2>
+      <p className="text-sm text-gray-600 text-center mb-4">
+        Enter your credentials below.
+      </p>
+      <div className="space-y-4">
+        <input
+          type="text"
+          placeholder="Username"
+          value={usuario}
+          onChange={handleChangeUsuario}
+          className="w-full px-3 py-2 rounded-lg border border-gray-300 shadow-sm text-gray-700 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-400"
+        />
+        <input
+          type="password"
+          placeholder="Password"
+          value={codigo}
+          onChange={handleChangeCodigo}
+          onKeyPress={handleKeyPress}
+          className="w-full px-3 py-2 rounded-lg border border-gray-300 shadow-sm text-gray-700 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-400"
+        />
+        {errorMessage && (
+          <p className="text-red-500 text-xs text-center">
+            {errorMessage}
+          </p>
+        )}
+        <button
+          type="button"
+          onClick={handleMostrarComponente}
+          className="w-full py-2 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-600 transition duration-300"
+        >
+          Access Roadmap
+        </button>
+      </div>
+      <p className="text-xs text-gray-500 text-center mt-4">
+        Forgot your credentials? Contact your instructor. ✉️
+      </p>
+    </div>
+  </div>
+)}
+
+      {mostrarComponente && (
+        <>
+          <button className="sidebar-toggle" onClick={toggleSidebar}>
+            ☰
+          </button>
+          <Sidebar
+            road={road}
+            seleccionarNivel={seleccionarNivel}
+            isSidebarVisible={isSidebarVisible}
+            toggleSidebar={toggleSidebar}
+            className={isSidebarVisible ? 'visible' : ''}
+          />
+          {nivelSeleccionado !== null ? (
+            <ContainerRoad
+              road={[road[nivelSeleccionado]]}
+              containerRefs={containerRefs}
+              password={codigo}
+              realname={realname}
+              nivel={nivel}
+              userImage={userImage}
+            />
+          ) : (
+            <DefaultView
+              password={codigo}
+              realname={realname}
+              userImage={userImage}
+            />
+          )}
+        </>
+      )}
+    </>
+  );
+};
+
+export default RoadMap;
