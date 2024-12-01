@@ -693,13 +693,15 @@ export const roadmed = [
         id: 18,
         thumbnail:
             "https://i.ibb.co/W2FY74b/level5.png",
-        title: "Challenges",
+        title: "Exámenes Center",
         subtitle: "B2/C1",
 
         dateAdded: "Basic 01 ",
         channel: "sdasd",
         description: "Completa los desafíos para dominar el Inglés",
         enlaces: [
+            {  titulo:"📝 Examen 01  ",url: "https://drive.google.com/file/d/1Sk4W7Ax3Ao9ZqGR4sVY4IFik3Jq6BQ_N/view?usp=sharing"},
+
             {  titulo:"📝[Test 01 ] FCE + SOLUCIONARIO ",url: "https://docs.google.com/document/d/17v-Bh_q-bTXR6ZzgRYy-GD6ZMx6EiIdT/edit?usp=sharing&ouid=114588820780661373500&rtpof=true&sd=true"},
             {  titulo:"📝[Test 02 ] FCE + SOLUCIONARIO ",url: "https://docs.google.com/presentation/d/1LijSovlmiSEB4cvyYhr0PcGe3ZDpmDSI/edit?usp=sharing&ouid=114588820780661373500&rtpof=true&sd=true"},
 
