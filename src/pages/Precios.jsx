@@ -15,7 +15,7 @@ const Precios = () => {
     
       <div className="tags">
         <span className="fantasy">Todos los Niveles</span>
-        <a href="https://wa.link/qwnf6w"><span className="mystery">S/ 280.00</span></a>
+        <a href="https://wa.link/qwnf6w"><span className="mystery">S/ 310.00</span></a>
       </div>
       <div className="info">
         <li>📹 Grabación de Clases</li>
