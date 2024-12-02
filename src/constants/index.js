@@ -631,7 +631,7 @@ export const collabContent2 = [
   export const pricing = [
    
     {
-      id: "2",
+      id: "1",
       title: "Premium Plan (5 hours)",
       description : "Este paquete de clases cuenta con 5 horas de clases en vivo ",
       description2: "Regional discount is applied automatically . The transfer tax from another country is included (paypal).",
@@ -648,7 +648,7 @@ export const collabContent2 = [
       ],
     },
     {
-      id: "1",
+      id: "2",
       title: "Premium Plan (10 Hours) ",
       description : "Este paquete de clases cuenta con 10 horas de clases en vivo ",
       price2: "S/310  🇵🇪 ",
@@ -673,6 +673,50 @@ image:"https://assets.revolut.com/media/plans-tiles/Cards-Tiles-Standard.png",
     {
       id: "1",
       title: "Premium Plan (10 Hours) ",
+      description : "Este paquete de clases cuenta con 10 horas de clases en vivo ",
+      price:  " USD$160 / S/. 380 ",
+      price3: "Most Popular ",
+description2: "Si eres de otro país , tu pago en dólares ya incluye el descuento de impuesto de USD$10 ",
+image:"https://assets.revolut.com/media/plans-tiles/Cards-Tiles-Standard.png",
+
+      features: [
+        "Tu clase se graba y se envia por correo a cada correo   ",
+        "Puedes hacer preguntas al profe por wsp directamente  ",
+        "Cuentas con 2 reprogramaciones (cancelar tu clase el mismo día (solo 2 veces por paquete) )",
+       "Talleres los fines de semana",
+        "Acceso al Roadmap con Material Exclusivo (max 3 cuentas )",
+        "Google Meet Premium",
+        "Material de Estudio de cada clase",
+        "Clases Personalizadas (decideden que quieren aprender)",
+        "Clase Grupal(tu escoges con quien estudiar maximo 3 estudiantes)",
+        "Hora peruana (GMT-5), previa entrevista",
+      ],
+    },
+    {
+      id: "3",
+      title: "Cambridge Premium Plan (10 Hours) ",
+      description : "Este paquete de clases cuenta con 10 horas de clases en vivo ",
+      price: "S/380  🇵🇪 ",
+     
+description2: "Si eres de otro país , tu pago en dólares ya incluye el descuento de impuesto de USD$10 ",
+image:"https://assets.revolut.com/media/plans-tiles/Cards-Tiles-Standard.png",
+
+      features: [
+        "Tu clase se graba y se envia por correo a cada correo   ",
+        "Puedes hacer preguntas al profe por wsp directamente  ",
+        "Cuentas con 2 reprogramaciones (cancelar tu clase el mismo día (solo 2 veces por paquete) )",
+       "Talleres los fines de semana",
+        "Acceso al Roadmap con Material Exclusivo (max 3 cuentas )",
+        "Google Meet Premium",
+        "Material de Estudio de cada clase",
+        "Clases Personalizadas (decideden que quieren aprender)",
+        "Clase Grupal(tu escoges con quien estudiar maximo 3 estudiantes)",
+        "Hora peruana (GMT-5), previa entrevista",
+      ],
+    },
+    {
+      id: "4",
+      title: "Ielts Premium Plan (10 Hours) ",
       description : "Este paquete de clases cuenta con 10 horas de clases en vivo ",
       price2: "S/380  🇵🇪 ",
       price:  " USD$160 🇺🇸 ",
