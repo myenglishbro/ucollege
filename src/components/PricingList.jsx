@@ -62,7 +62,7 @@ const PricingCard = ({ item, index }) => {
         <div className="space-y-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-3">
-              <span className="text-4xl font-extrabold text-white">{item.price}</span>
+              <span className="text-1lg font-extrabold text-white">{item.price}</span>
               {item.price3 && (
                 <span
                   className={`text-sm font-medium px-3 py-1 rounded-full bg-gradient-to-r from-${base}-400 to-${base}-600 text-white`}
@@ -72,7 +72,7 @@ const PricingCard = ({ item, index }) => {
               )}
             </div>
             {item.price2 && (
-              <span className="text-lg font-semibold text-gray-500 line-through">{item.price2}</span>
+              <span className="text-lg font-semibold text-gray-500 ">{item.price2}</span>
             )}
           </div>
 
