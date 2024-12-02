@@ -42,7 +42,9 @@ const RoadMap = () => {
       { usuario: 'angelbenites', password: 'moncada2024', realname: 'Angel Moisés Benites Moncada', img: 'https://i.ibb.co/3Thj6K0/420613655-1799350083843859-11506.png' }, // No image
       { usuario: 'alison.arapa', password: 'ielts2025', realname: 'alison.arapa', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
       { usuario: 'jose.tbravo', password: 'ielts2025', realname: 'jose.torres.bravo', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-  ];
+      { usuario: 'agnilivi', password: 'agnibal2024', realname: 'Agnibal Livisi', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+
+    ];
 
   const handleChangeUsuario = (event) => setUsuario(event.target.value);
   const handleChangeCodigo = (event) => setCodigo(event.target.value);
