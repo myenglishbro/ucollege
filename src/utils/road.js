@@ -926,6 +926,8 @@ export const road = [
         description: "We will learn to introduce ourselves, spell names and words, describe people, introduce family members, and provide personal information.",
         enlaces: [
             { titulo: "📒[slides] Transitive and Intransitive Verbs",url: "https://drive.google.com/file/d/1q9Ay8KRUU9tSwuHEvjIM8bKZ3PWCyjkZ/view?usp=sharing", },
+            { titulo: "📒[slides] Lista de Verbos Seguidos por Gerunds and Infinitives",url: "https://drive.google.com/file/d/1afE2D6xqPTMRPTfk3Vci97FXlR82GIdZ/view?usp=sharing", },
+
             { titulo: "📒[slides] Gerunds and Infinitives Explanation",url: "https://drive.google.com/file/d/1rE08bQrEyF0TVO7FTYWGtLaiOGKuLjRO/view?usp=sharing", },
             { titulo: "✍  Gerunds and Infinitives Exercise 1",url: "https://drive.google.com/file/d/1KJKLqjSwQeILyViRun9ADqge1ikKPmSD/view?usp=sharing", },
             { titulo: "✍  Gerunds and Infinitives Exercise 2",url: "https://drive.google.com/file/d/19WY1c2LJZrAjj84niwx-u5dgh-dafQb6/view?usp=sharing", },
