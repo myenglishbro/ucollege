@@ -43,6 +43,7 @@ const RoadMap = () => {
       { usuario: 'alison.arapa', password: 'ielts2025', realname: 'alison.arapa', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
       { usuario: 'jose.tbravo', password: 'ielts2025', realname: 'jose.torres.bravo', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
       { usuario: 'agnilivi', password: 'agnibal2024', realname: 'Agnibal Livisi', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+      { usuario: 'cesarh', password: 'hurtado24', realname: 'Cesar Hurtado', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
 
     ];
 
