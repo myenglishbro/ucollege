@@ -31,6 +31,24 @@ export const road = [
         channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
         description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
         enlaces: [
+            {  titulo:"PDF 01 ",url: "https://drive.google.com/file/d/1TrwJd_rR8u6DowclIEj9uKBfKUQ_WrKc/view?usp=sharing"},        
+            {  titulo:"PDF 01 ",url: "https://drive.google.com/file/d/1tqyVnubHTN1Npv-fP4xKfh6JzgjqQq8Q/view?usp=sharing"},        
+            {  titulo:"PDF 01 ",url: "https://drive.google.com/file/d/1T3cFZeoYFgD_UeuL3exnSK2PHaohIoqv/view?usp=sharing"},        
+
+
+        ],
+    },
+    {
+        id: 1,
+        thumbnail:
+            "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
+        title: "M1-Fundamentos",
+        subtitle: "Nivel Básico ",
+    
+        dateAdded: "Basic 0 ",
+        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
+        description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
+        enlaces: [
             {  titulo:"🎬 Presentación del Curso",url: "https://www.youtube.com/watch?v=_1DEJIOcJmY&t=2s"},        
             {  titulo:"🎬 Mi primer truco de Pronunciación",url: "https://www.youtube.com/watch?v=gMlip7427kU&t=22s&ab_channel=MyEnglishBro"},           
             {  titulo:"📥 Mi primer truco de Pronunciación",url: "https://drive.google.com/file/d/1VhB8Kjr3YbARZU6KhPMvlPa0pZi92hX0/view?usp=sharing"},
