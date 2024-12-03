@@ -21,10 +21,10 @@ export const road = [
         
     },
     {
-        id: 1,
+        id: 11111,
         thumbnail:
             "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
-        title: "M1-Fundamentos",
+        title: "PDF MATERIALES",
         subtitle: "Nivel Básico ",
     
         dateAdded: "Basic 0 ",
