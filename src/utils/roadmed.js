@@ -676,7 +676,7 @@ export const roadmed = [
         id: 17,
         thumbnail:
             "https://i.ibb.co/W2FY74b/level5.png",
-        title: "Roll Your English",
+        title: "Inglés con Anime",
         subtitle: "B2/C1",
 
         dateAdded: "Basic 01 ",
@@ -686,6 +686,12 @@ export const roadmed = [
             {  titulo:"🎥[Video] Aprende inglés con Dragon Ball Z - Conversaciones ",url: "https://drive.google.com/file/d/1wBA_z3emPwA8_7zG4PTh_3eM9kIrsw_G/view?usp=sharing"},
             {  titulo:"🎥[Video]  Picoro entrena a Gohan ",url: "https://drive.google.com/file/d/1cSJBlQ_0_N-hLgm4A-g-wNnv9U9x1lJZ/view?usp=sharing"},
             {  titulo:"🎥 [Video] Ingles con Naruto ",url: "https://drive.google.com/file/d/1olidUMObF_HhIZ0BMJGQrRpZERjm-euc/view?usp=sharing"},
+            {  titulo:"🎥 [Video] El sacrificio de Vegeta ",url: "https://youtu.be/ce1JkqjXKJ4"},
+            {  titulo:"🎥 [Video] Useful Expressions Death Note ",url: "https://youtu.be/MTaLzZikzv4"},
+            {  titulo:"🎥 [Video] Useful Expressions One Punch Man ",url: "https://youtu.be/n_DcqiFayc4"},
+            {  titulo:"🎥 [Video] La fusion de Vegito ",url: "https://youtu.be/ma7q6esT3cg"},
+            {  titulo:"🎥 [Video] Useful Expression My hero Academy ",url: "https://youtu.be/8sPqgQlfKsQ"},
+            {  titulo:"🎥 [Video] Useful Expression Goku enseña la tecnica de la Fusion ",url: "https://youtu.be/S5yooa_kHDY"},
 
 
         ],
