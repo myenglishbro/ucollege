@@ -27,6 +27,7 @@ const RoadMapMed = () => {
     { usuario: 'diegosego', password: 'segovia01', realname: 'Diego Segovia Gómez', img: 'https://i.ibb.co/ssX236w/454630848-467797286163219-647084.png' }, // No image
     { usuario: 'josephcerna', password: 'cerna24', realname: 'Joseph Cerna Alfaro', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
     { usuario: 'ragnarock129', password: 'edison129', realname: 'Edison Johamy Rossel Huaman', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+    { usuario: 'everttello', password: 'everttello24', realname: 'Evert Tello Melo', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
 
 
   ];
