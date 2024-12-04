@@ -588,7 +588,89 @@ export const road = [
             
         ],
     },
-    
+    {
+        id: 9,
+        thumbnail:
+            "https://i.ibb.co/rcqJNmR/Black-White-and-Red-Simple-Shield-Shape-Football-Club-Logo-4-removebg-preview.png",
+        title: "Pronunciation 👄",
+        subtitle: "Basic Level",
+     
+
+        dateAdded: "Basic 0 ",
+        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
+        description: "We will learn to introduce ourselves, spell names and words, describe people, introduce family members, and provide personal information.",
+        enlaces: [
+            {
+                titulo: "💣PRONUNCIACIÓN en INGLÉS (Presentación)👄",
+                url: "https://www.youtube.com/watch?v=-YocPrBjydE&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: "Trucos con la T",
+                url: "https://www.youtube.com/watch?v=sh1-WReYeYY&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&index=2&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: "Dropped T",
+                url: "https://www.youtube.com/watch?v=MBPAI8TI-HA&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&index=3&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: "T Flap",
+                url: "https://www.youtube.com/watch?v=TAdE9TjixHk&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&index=4&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: " Omission ",
+                url: "https://www.youtube.com/watch?v=EbfroOu4_EU&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&index=5&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: " T flap 2 ",
+                url: "https://www.youtube.com/watch?v=8_-ABxzg3gE&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&index=6&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: " T flap 3",
+                url: "https://www.youtube.com/watch?v=w2BDLl5TVvA&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&index=7&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: " T as Sh",
+                url: "https://www.youtube.com/watch?v=VPFclhpx__s&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&index=8&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: " Consideraciones al Pronunciar",
+                url: "https://www.youtube.com/watch?v=717NdjUV9Po&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&index=9&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: " T/D between 2 consonant sounds",
+                url: "https://www.youtube.com/watch?v=vLUv888ckbk&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&index=10&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: " Mastering Rhythm and Stress Presentation",
+                url: "https://www.youtube.com/watch?v=z8aqyyXpfYg&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&index=11&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: " Stress: The Missing Piece in Your English Pronunciation Puzzle",
+                url: "https://www.youtube.com/watch?v=1ZQW2TETlZ4&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&index=12&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: " Rhythm in English: Tips and Tricks for Improved Pronunciation and Fluency",
+                url: "https://www.youtube.com/watch?v=IZk_QMWlq4o&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&index=13&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: " Stress: The Missing Piece in Your English Pronunciation Puzzle II",
+                url: "https://www.youtube.com/watch?v=yXhEUuVD9t0&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&index=14&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: "The Power of Words: Understanding Content and Function Words",
+                url: "https://www.youtube.com/watch?v=Qc4gX3xqHtA&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&index=15&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: "Content vs. Function Words: The Building Blocks of Language",
+                url: "https://www.youtube.com/watch?v=c1i7FNh9Sbc&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&index=16&ab_channel=MyEnglishBro",
+            }
+           
+
+
+
+            
+        ],
+    },
     {
         id: 9,
         thumbnail:
