@@ -25,8 +25,8 @@ const RoadMapMed = () => {
     { usuario: 'titooshiro', password: 'titooshiro2024', realname: 'Alberto Oshiro', img: 'https://i.ibb.co/2y3PPmL/247917193-940684856635710-168362.png' }, // No image
     { usuario: 'michellev', password: 'michellvz2024', realname: 'Michelle velasquez', img: 'https://i.ibb.co/2y3PPmL/247917193-940684856635710-168362.png' }, // No image
     { usuario: 'diegosego', password: 'segovia01', realname: 'Diego Segovia Gómez', img: 'https://i.ibb.co/ssX236w/454630848-467797286163219-647084.png' }, // No image
-    { usuario: 'josephcerna  ', password: 'cerna24', realname: 'Joseph Cerna Alfaro', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-    { usuario: 'ragnarock129  ', password: 'edison129', realname: 'Edison Johamy Rossel Huaman', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+    { usuario: 'josephcerna', password: 'cerna24', realname: 'Joseph Cerna Alfaro', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+    { usuario: 'ragnarock129', password: 'edison129', realname: 'Edison Johamy Rossel Huaman', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
 
 
   ];
