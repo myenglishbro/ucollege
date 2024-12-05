@@ -23,7 +23,18 @@ const RoadMapHealth = () => {
 
     { usuario: '62023170', password: '10671890', realname: 'Andrea Vargas' },
     { usuario: 'leonardoporras', password: 'password3', realname: 'Leonardo Porras' },
-    // Agrega el resto de usuarios y contraseñas aquí
+    { usuario: 'josephcerna', password: 'cerna24', realname: 'Joseph Cerna Alfaro', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+    { usuario: 'ragnarock129', password: 'edison129', realname: 'Edison Johamy Rossel Huaman', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+    { usuario: 'everttello', password: 'everttello24', realname: 'Evert Tello Melo', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+    { usuario: 'zaidaz', password: 'zorrilla24', realname: 'Zaida Zorrilla', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+    { usuario: 'juanp', password: 'aguero24', realname: 'JUAN PABLO AGUERO JAIMES', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+    { usuario: 'dianah', password: 'dianah24', realname: 'Diana C. Huarcaya', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+    { usuario: 'manpardave', password: 'manpardave24', realname: 'Manuel Anthony Pardave Patiño', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+    { usuario: 'r23425307', password: 'rocio24', realname: 'Rocio Soncco Ancco', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+    { usuario: 'jmaria', password: 'villanuevaal', realname: 'Jhanet María Villanueva Alvarez', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+    { usuario: 'pj10hp', password: 'kevinl', realname: 'Kevin Leonardo Velasquez', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+    { usuario: 'vanessa11', password: 'picazo', realname: 'Vanessa Picazo', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+    { usuario: 'alison.arone', password: 'espinoza24', realname: 'Alison Arone', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
   ];
 
   const handleChangeUsuario = (event) => {
