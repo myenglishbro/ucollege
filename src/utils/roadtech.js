@@ -3,18 +3,74 @@ export const roadtech = [
         id: 0,
         thumbnail:
             "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
-        title: "Video Editor",
+        title: "Sesiones",
         subtitle: "Centro de Clasificación ",
     
         dateAdded: "Basic 0 ",
         channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
         description: "Envia tu examen para su corrección al correo temis_it@hotmail.com",
         enlaces: [
-            {  titulo:"[M1-10] Exam",url: "https://drive.google.com/file/d/12O4mX_tZIsRqULe8iJVUvvr_q1witI_P/view?usp=sharing"},        
-            {  titulo:"[M1-11] Exam",url: "https://drive.google.com/file/d/1Hg6By1hFOK_NOmOIKHttDHZ8BUZsuvhI/view?usp=sharing"},        
-            {  titulo:"[M1-12] Exam",url: "https://drive.google.com/file/d/1IxdTDk06FHkGIYOrNbcml6AEutsLrp8I/view?usp=sharing"},        
-            {  titulo:"[M2-01] Exam",url: "https://drive.google.com/file/d/1Kmx6qI5eAKaMbWINIevF1m2pr5nDNzmB/view?usp=sharing"},        
-            {  titulo:"[M2-02] Exam",url: "https://drive.google.com/file/d/1H4YQQbU1DjuJAhhy6Ee7PETKtUdBZL7o/view?usp=sharing"},        
+            {  titulo:"[CF-01🎧] How to ask and tell the time.",url: "https://drive.google.com/file/d/1g7koS1NXbtXk3wZsmnQE4M-OWHd5Yn10/view?usp=sharing"},        
+            {  titulo:"[CF-01📝] How to ask and tell the time.",url: "https://drive.google.com/file/d/1mhls1rPXb02o7Q20-9Ij-lux3H979Ill/view?usp=sharing"},        
+            {  titulo:"[CF-02🎧] Adverbs of Frequency",url: "https://drive.google.com/file/d/1fMB0kNX29KcUt7-4qmmD87yU8mtgXZ1X/view?usp=sharing"},        
+            {  titulo:"[CF-02📝] Adverbs of Frequency",url: "https://drive.google.com/file/d/1UQB7m55PboD6apGNmBECTyNLa-HdJUTJ/view?usp=sharing"},        
+            {  titulo:"[CF-03🎧] The past simple-regular verbs",url: "https://drive.google.com/file/d/1lkzNNLGmNFWa0hkuGWSY514lwJU6JYJn/view?usp=sharing"},        
+            {  titulo:"[CF-03📝] The past simple-regular verbs",url: "https://drive.google.com/file/d/1B_iMN-Bhoqa2LU2zeHSyyvOiKnYA4Tg8/view?usp=sharing"},        
+            {  titulo:"[CF-04 🎧] Simple Past - Irregular Verbs",url: "https://drive.google.com/file/d/1z-5m0fV9Sx-YE42fI2sNbqQeoUXUsYR7/view?usp=sharing"},        
+            {  titulo:"[CF-04 📝] Simple Past - Irregular Verbs",url: "https://drive.google.com/file/d/1X2_EfyczLnA1My34vJ--YVqoQl2nCL6-/view?usp=sharing"},        
+            {  titulo:"[CF-05🎧] Present continuous",url: "https://drive.google.com/file/d/17teVQy-kUNrP591gpnh4XZ_C1aruMOHJ/view?usp=sharing"},        
+            {  titulo:"[CF-05📝] Present continuous",url: "https://drive.google.com/file/d/1kGggI2uJKC7q2gZ8thVT4hW9HHXwIuLg/view?usp=sharing"},        
+            {  titulo:"[CF-06🎧] Censorship",url: "https://drive.google.com/file/d/1wDvhl1vTuTB1O85OrV-sIplgFdPUvOEE/view?usp=sharing"},        
+            {  titulo:"[CF-06📝] Censorship",url: "https://drive.google.com/file/d/1Sw3XS6_PghXSGaavfTasVOnUJp_CNg8p/view?usp=sharing"},        
+            {  titulo:"[CF-07🎧] Present continuous questions",url: "https://drive.google.com/file/d/1KSFJzMGy6sjwRSgc44Ns5FdZB8rQkhDS/view?usp=sharing"},        
+            {  titulo:"[CF-07📝] Present continuous questions",url: "https://drive.google.com/file/d/1GnouKVNx2AuOW4Awg6uSY0W2aIeApHal/view?usp=sharing"},        
+            {  titulo:"[CF-08🎧] To be in the past simple",url: "https://drive.google.com/file/d/1IhVDUH1tn6aVLxperJuRohg5wT4EFJDb/view?usp=sharing"},        
+            {  titulo:"[CF-08📝] To be in the past simple",url: "https://drive.google.com/file/d/16KptdXLzb2pkqZHzkJIoO3GiecKoFy7U/view?usp=sharing"},        
+            {  titulo:"[CF-09🎧] Was/Were questions",url: "https://drive.google.com/file/d/1oV3IdqwoIGNSS1bwf38MF8gWKjzk4ZIY/view?usp=sharing"},        
+            {  titulo:"[CF-09📝] Was/Were questions",url: "https://drive.google.com/file/d/1SrcDZrY9yWPVHzNg63KPrI6yvlkFxWCI/view?usp=sharing"},        
+            {  titulo:"[CF-10🎧] Something / Anything",url: "https://drive.google.com/file/d/1ADDvUfUIaGhdizmXjWFw4T8h8aSJ6_XJ/view?usp=sharing"},        
+            {  titulo:"[CF-10📝] Something / Anything",url: "https://drive.google.com/file/d/1mdz3L75C2B2X1Zx0wcMCQTCttp4L7iDi/view?usp=sharing"},        
+            {  titulo:"[CF-11🎧] Binge watching",url: "https://drive.google.com/file/d/1nMvaKsm3zlWb5CVybmjVfVTvmE_kLZsm/view?usp=sharing"},        
+            {  titulo:"[CF-11📝] Binge watching",url: "https://drive.google.com/file/d/15IGwhozVNh3qedn9xL4lVlxHguzf5bzu/view?usp=sharing"},        
+            {  titulo:"[CF-12🎧] Countable and Uncountable Nouns",url: "https://drive.google.com/file/d/1gJKEWFDJVAEzrm_ItR6YrAOZcHimBU_v/view?usp=sharing"},        
+            {  titulo:"[CF-12📝] Countable and Uncountable Nouns",url: "https://drive.google.com/file/d/1v2smp5fKN9AyEAAtclh0VK38dHs3mkVo/view?usp=sharing"},        
+            {  titulo:"[CF-13🎧] Anyway",url: "https://drive.google.com/file/d/1s0bmnWk_D3a3d6CRWfgVGWYucTyEztwO/view?usp=sharing"},        
+            {  titulo:"[CF-13📝] Anyway",url: "https://drive.google.com/file/d/1AdBUQ6xddSvO5kI_hQPu18P8Bs8uRbzX/view?usp=sharing"},        
+            {  titulo:"[CF-14📝] Driverless cars",url: "https://drive.google.com/file/d/1sBLbYh0xuvmb1OrSlyeWZktFrK0nugjN/view?usp=sharing"},        
+            {  titulo:"[CF-15🎧] Present Continuous Tense vs Present Simple Tense",url: "https://drive.google.com/file/d/1GqxpVM0m37cWf1S-dQnnsq7ipeZ4s4M0/view?usp=sharing"},        
+            {  titulo:"[CF-15📝] Present Continuous Tense vs Present Simple Tense",url: "https://drive.google.com/file/d/1aHNZ8MNlNXPUdzi3-g2vloZp8v9i4QPU/view?usp=sharing"},        
+            {  titulo:"[CF-16🎧] no one,nobody,everybody, and everyone",url: "https://drive.google.com/file/d/1YIPQYLXnTI6RbQwGrMrahAUxQYXQ7dL0/view?usp=sharing"},        
+            {  titulo:"[CF-16📝] no one,nobody,everybody, and everyone",url: "https://drive.google.com/file/d/18e4gtLfsPFtWPrIWo5zQCOVs4-5tIv7-/view?usp=sharing"},        
+            {  titulo:"[CF-17🎧] Vague expressions",url: "https://drive.google.com/file/d/1gmluWBACQZoxS4iQfuKOzn6FTFx4O6WR/view?usp=sharing"},        
+
+            {  titulo:"[CF-17📝] Vague expressions",url: "https://drive.google.com/file/d/1jGxOa63dnX8VLYXGJq-jZSixYKYk7VTG/view?usp=sharing"},        
+            {  titulo:"[CF-18🎧] Too and Either",url: "https://drive.google.com/file/d/1ABLFOUlLFKX6FiP08axQ1NevthuCJRh4/view?usp=sharing"},        
+
+            {  titulo:"[CF-18📝] Too and Either",url: "https://drive.google.com/file/d/1VsoDweVWXMI9WmgXOI-hfWeKYUqVad5Z/view?usp=sharing"},        
+            {  titulo:"[CF-19🎧] Gaming addiction",url: "https://drive.google.com/file/d/1-uVuKRZgVGXvoaHhVPoRvJzUjAjXM_eM/view?usp=sharing"},        
+
+            {  titulo:"[CF-19📝] Gaming addiction",url: "https://drive.google.com/file/d/1quU2HcEE3fv4fv8PCznvcSXZCtl5_qnH/view?usp=sharing"},        
+            {  titulo:"[CF-20📝] Simple present",url: "https://drive.google.com/file/d/1yzX3TWNqKuBnm_NpbHFiy2-Z_nvhGY97/view?usp=sharing"},        
+
+            {  titulo:"[CF-21📝] Gerund or Infinitive complements with the verbs LIKE, HATE, PREFER, WOULD LIKE, and ENJOY.",url: "https://drive.google.com/file/d/1mz4PB6FoJeZm8uKM4HPgSPARrrZRmxCP/view?usp=sharing"},        
+         
+            {  titulo:"[CF-22📝] Bad habits",url: "https://drive.google.com/file/d/173jisNvheOrWL1gK7BV3gW59fYkx4BQO/view?usp=sharing"},        
+
+            {  titulo:"[CF-23📝] It’s kind of / It’s kind of like",url: "https://drive.google.com/file/d/1Li-hH4XPt2rhYIS22H08fMyFogNsqH3Y/view?usp=sharing"},        
+            {  titulo:"[CF-24📝] Future with “will” and “be going to",url: "https://drive.google.com/file/d/1kNd5DLkCOsgNB77noSjwnE2qJ3pVaEMV/view?usp=sharing"},        
+
+            {  titulo:"[CF-25📝] Expressions to start a conversation and actually",url: "https://drive.google.com/file/d/1lXTNUoqqP13ViqdaelES7HGdjRUcSM48/view?usp=sharing"},        
+            {  titulo:"[CF-26📝] Use of if and when to join clauses in present simple",url: "https://drive.google.com/file/d/1uD8sGKl5P6eNWMv1Iji-Br9q0ej_KYwo/view?usp=sharing"},        
+            {  titulo:"[CF-27📝] Online learning",url: "https://drive.google.com/file/d/1w8uPNoRzUW4AFe3c64mZnJX-a6egfTV2/view?usp=sharing"},        
+            {  titulo:"[CF-28📝] Verbs with two objects",url: "https://drive.google.com/file/d/1tCyYjMeZb0pbT1oIBqa7iWTrg54unhwC/view?usp=sharing"},        
+            {  titulo:"[CF-29📝] Expressions for follow-up questions",url: "https://drive.google.com/file/d/1lCi1eEOGofkrE7FWqommYTk7xhnjzLKO/view?usp=sharing"},        
+           
+            {  titulo:"[CF-30📝] Surveillance",url: "https://drive.google.com/file/d/1-j-J8OI8jAD4pGoFovC8AZeYK4HhePAR/view?usp=sharing"},        
+
+            {  titulo:"[CF-31📝] Infinitive complements",url: "https://drive.google.com/file/d/18Jqq6Fek8SaCl2TR28X6f2_rxBKTzcAo/view?usp=sharing"},        
+
+            {  titulo:"[CF-32📝] Describing Technology with be, have, and have got",url: "https://drive.google.com/file/d/13f8iogpvK7dnIbhmVSAO9HNiM8hTG-Z_/view?usp=sharing"},        
+            {  titulo:"[CF-33📝] The or no The",url: "https://drive.google.com/file/d/1vf1xhVnuYum601SwwGce0yB6WwUoTbo-/view?usp=sharing"},        
 
             
         ],
