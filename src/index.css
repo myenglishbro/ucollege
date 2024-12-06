@@ -383,16 +383,19 @@
   top: 70px;
   height: calc(100% - 70px);
   width: 250px;
-  background: #2c3e50;
+  background: linear-gradient(135deg, #2c3e50, #34495e);
   display: flex;
   flex-direction: column;
-  
   padding-top: 20px;
   z-index: 2;
-  transition: left 0.3s ease;
+  transition: left 0.3s ease, box-shadow 0.3s ease;
   overflow-y: auto;
   font-family: 'Arial', sans-serif;
+  border-right: 3px solid #9B79D1; /* Borde morado moderno */
+  border-radius: 10px; /* Borde redondeado */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Sombra sutil */
 }
+
 
 .sidebar.visible {
   left: 0;
@@ -649,4 +652,62 @@ right: 40px;
   }
 
   
+}
+
+
+
+
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  background-color: #1a1a1a; /* Fondo oscuro para un look moderno */
+  border-radius: 40px; /* Bordes redondeados */
+  padding: 8px 16px;
+  margin: 10px 0;
+  border: 1px solid #333; /* Borde sutil */
+  transition: box-shadow 0.3s, transform 0.3s; /* Transición suave */
+}
+
+
+.search-input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 50px;
+  background-color: transparent;
+  color: #e0e0e0; /* Color del texto */
+  transition: background-color 0.3s; /* Transición suave */
+}
+
+.search-input::placeholder {
+  color: #888; /* Color del texto del placeholder */
+}
+
+.search-input:focus {
+  background-color: #333; /* Fondo oscuro al enfocar */
+  border-radius: 50px;
+}
+
+.search-icon {
+  margin-left: 10px; /* Espacio entre el ícono y el input */
+  cursor: pointer; /* Indica que es interactivo */
+  color: #e0e0e0; /* Color del ícono */
+  transition: color 0.3s, transform 0.3s; /* Transición suave */
+}
+
+
+
+.icon {
+  width: 12px; /* Tamaño del ícono */
+  height: 12px;
+}
+
+/* Para un ícono de lupa */
+.search-icon i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

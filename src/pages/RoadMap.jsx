@@ -26,6 +26,8 @@ const RoadMap = () => {
       realname: 'Alberto Oshiro',
       img: 'https://i.ibb.co/2y3PPmL/247917193-940684856635710-168362.png',
     },
+    { expirationDate:"05/12/35",nivel:"C2",usuario: 'capolaya', password: 'meb1', realname: 'MyEnglishBro!', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
+
     { nivel:"6",usuario: 'celestesalvatierra', password: 'password1', realname: 'Celeste Salvatierra', img:'https://th.bing.com/th/id/OIP.i5p4mQm3eDTw7EhrOo1jiQHaHa?rs=1&pid=ImgDetMain'},
       { nivel:"6",usuario: 'udemy', password: 'repositorio', realname: ' Autodidacta', img: '' }, // No image
       { nivel:"6",usuario: 'KABEZINI', password: '@47830274S', realname: 'JUAN EDUARDO AYLAS INCISO', img: 'https://i.ibb.co/7bmgdmR/418722130-755683973286212-906722.png' }, // No image
