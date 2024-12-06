@@ -3,12 +3,12 @@ import styles from "../style";
 import CardDeal2 from './CardDeal2';
 import CardDeal3 from './CardDeal3';
 
-const DefaultView = ({ password, realname, userImage,nivel }) => { // Agregar userImage aquí
+const DefaultView = ({ password, realname, userImage,nivel,expirationDate }) => { // Agregar userImage aquí
   return (
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         {password ? (
-          <CardDeal2 password={password} realname={realname} userImage={userImage} nivel={nivel}/> // Pasar userImage
+          <CardDeal2 password={password} realname={realname} userImage={userImage} nivel={nivel} expirationDate={expirationDate}/> // Pasar userImage
         ) : (
           <CardDeal3 />
         )}

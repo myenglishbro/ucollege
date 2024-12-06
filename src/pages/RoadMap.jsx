@@ -13,6 +13,8 @@ const RoadMap = () => {
   const [nivelSeleccionado, setNivelSeleccionado] = useState(null);
   const [realname, setRealname] = useState('');
   const [userImage, setUserImage] = useState('');
+  const [expirationDate, setexpirationDate] = useState("");
+
   const [errorMessage, setErrorMessage] = useState('');
   const containerRefs = useRef([]);
 
@@ -78,6 +80,7 @@ const RoadMap = () => {
       setMostrarComponente(true);
       setRealname(userCredential.realname);
       setUserImage(userCredential.img);
+      setexpirationDate(userCredential.expirationDate);
       setNivel(userCredential.nivel);
       setErrorMessage('');
     } else {
@@ -172,12 +175,15 @@ const RoadMap = () => {
               password={codigo}
               realname={realname}
               nivel={nivel}
+              expirationDate={expirationDate}
+
               userImage={userImage}
             />
           ) : (
             <DefaultView
               password={codigo}
               nivel={nivel}
+              expirationDate={expirationDate}
 
               realname={realname}
               userImage={userImage}
