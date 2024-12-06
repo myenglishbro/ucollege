@@ -56,7 +56,7 @@ const RoadMap = () => {
       { nivel:"6",usuario: 'pj10hp', password: 'kevinl', realname: 'Kevin Leonardo Velasquez', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
       { nivel:"6",usuario: 'vanessa11', password: 'picazo', realname: 'Vanessa Picazo', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
       { nivel:"6",usuario: 'alison.arone', password: 'espinoza24', realname: 'Alison Arone', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-      { nivel:"6",usuario: 'shirleyusa', password: 'betchipana', realname: 'Shirley Betsabe Chipana Vargas', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+      { expirationDate:"05/12/25",nivel:"Básico",usuario: 'shirleyusa', password: 'betchipana', realname: 'Shirley Betsabe Chipana Vargas', img: 'https://i.ibb.co/0Dg5hwf/458980083-848596140539858-893142.png' }, // No image
 
     ];
 
