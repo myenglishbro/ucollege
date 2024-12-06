@@ -1,55 +1,40 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import ContainerRoad from './ContainerRoad';
-import styles from "../style";
 import { roadmed } from "../utils/roadmed";
+import { validCredentials } from '../utils/credentials'; // Importa desde el archivo
+
 import Sidebar from '../components/Sidebar';
 import DefaultView from '../components/DefaultView';
 
 const RoadMapMed = () => {
-  const [usuario, setUsuario] = useState(''); 
-  const [codigo, setCodigo] = useState(''); 
+  const [usuario, setUsuario] = useState('');
+  const [nivel, setNivel] = useState('');
+  const [codigo, setCodigo] = useState('');
   const [mostrarComponente, setMostrarComponente] = useState(false);
-  const [isSidebarVisible, setIsSidebarVisible] = useState(false); 
+  const [isSidebarVisible, setIsSidebarVisible] = useState(false);
   const [nivelSeleccionado, setNivelSeleccionado] = useState(null);
-  const [realname, setRealname] = useState(''); 
-  const [userImage, setUserImage] = useState(''); // Add state for user image
-  const containerRefs = useRef([]); 
+  const [realname, setRealname] = useState('');
+  const [userImage, setUserImage] = useState('');
+  const [expirationDate, setExpirationDate] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
+  const [viewedItems, setViewedItems] = useState([]);
+  const containerRefs = useRef([]);
 
-  const validCredentials = [
-    { usuario: 'xramos', password: 'EH10e8x2N10v10', realname: 'Xiomara Ramos', img:'https://i.ibb.co/nPg2Cfj/417775680-430998512681191-839708.png'},
-    { usuario: 'udemy', password: 'repositorio', realname: 'Estudiante Autodidacta', img: '' }, // No image
-    { usuario: 'andresdesigner', password: 'designer123', realname: 'Andres Jaramillo', img: 'https://i.ibb.co/gTNwpJQ/67d46012622105-63d2bfcf57030.png'  }, // No image
-    { usuario: 'AniManrique', password: 'Ani1910', realname: 'Anita Manrique Chávez', img: 'https://i.ibb.co/jW5mpyy/463090300-530012092972416-4432276465281113242-n.jpg' }, // No image
-    { usuario: 'hweny', password: 'cata08', realname: 'Weny Catalina  Huaraca Magro', img: 'https://i.ibb.co/G3ydZL4/456531710-399933369790326-220531.png' }, // No image
-    { usuario: 'claudioelpro', password: '2219ielts', realname: 'Claudio Justiniano', img: 'https://i.ibb.co/hgHZTND/ALV-Uj-XH77p-Iy-HF4-A6v-ULRw-Kb-ZESWy2-B.png' }, // No image
-    { usuario: 'titooshiro', password: 'titooshiro2024', realname: 'Alberto Oshiro', img: 'https://i.ibb.co/2y3PPmL/247917193-940684856635710-168362.png' }, // No image
-    { usuario: 'michellev', password: 'michellvz2024', realname: 'Michelle velasquez', img: 'https://i.ibb.co/2y3PPmL/247917193-940684856635710-168362.png' }, // No image
-    { usuario: 'diegosego', password: 'segovia01', realname: 'Diego Segovia Gómez', img: 'https://i.ibb.co/ssX236w/454630848-467797286163219-647084.png' }, // No image
-  
-    { usuario: 'josephcerna', password: 'cerna24', realname: 'Joseph Cerna Alfaro', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-    { usuario: 'ragnarock129', password: 'edison129', realname: 'Edison Johamy Rossel Huaman', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-    { usuario: 'everttello', password: 'everttello24', realname: 'Evert Tello Melo', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-    { usuario: 'zaidaz', password: 'zorrilla24', realname: 'Zaida Zorrilla', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-    { usuario: 'juanp', password: 'aguero24', realname: 'JUAN PABLO AGUERO JAIMES', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-    { usuario: 'dianah', password: 'dianah24', realname: 'Diana C. Huarcaya', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-    { usuario: 'manpardave', password: 'manpardave24', realname: 'Manuel Anthony Pardave Patiño', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-    { usuario: 'r23425307', password: 'rocio24', realname: 'Rocio Soncco Ancco', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-    { usuario: 'jmaria', password: 'villanuevaal', realname: 'Jhanet María Villanueva Alvarez', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-    { usuario: 'pj10hp', password: 'kevinl', realname: 'Kevin Leonardo Velasquez', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-    { usuario: 'vanessa11', password: 'picazo', realname: 'Vanessa Picazo', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-    { usuario: 'alison.arone', password: 'espinoza24', realname: 'Alison Arone', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-    { nivel:"6",usuario: 'shirleyusa', password: 'betchipana', realname: 'Shirley Betsabe Chipana Vargas', img: 'https://i.ibb.co/0Dg5hwf/458980083-848596140539858-893142.png' }, // No image
+  // Cargar elementos vistos desde localStorage al montar el componente
+  useEffect(() => {
+    const savedViewedItems = JSON.parse(localStorage.getItem("viewedItems")) || [];
+    setViewedItems(savedViewedItems);
+  }, []);
 
+  // Guardar los elementos vistos en localStorage cuando cambie viewedItems
+  useEffect(() => {
+    if (viewedItems.length > 0) {
+      localStorage.setItem("viewedItems", JSON.stringify(viewedItems));
+    }
+  }, [viewedItems]);
 
-  ];
-
-  const handleChangeUsuario = (event) => {
-    setUsuario(event.target.value);
-  };
-
-  const handleChangeCodigo = (event) => {
-    setCodigo(event.target.value);
-  };
+  const handleChangeUsuario = (event) => setUsuario(event.target.value);
+  const handleChangeCodigo = (event) => setCodigo(event.target.value);
 
   const handleKeyPress = (event) => {
     if (event.key === 'Enter') {
@@ -62,12 +47,18 @@ const RoadMapMed = () => {
       (cred) => cred.usuario === usuario && cred.password === codigo
     );
 
-    setMostrarComponente(!!userCredential);
-    setRealname(userCredential ? userCredential.realname : ''); 
-    setUserImage(userCredential ? userCredential.img : 'https://example.com/default-image.png'); // Default image URL
-    
-    console.log('User Image:', userCredential ? userCredential.img : 'No Image'); // Log user image
-};
+    if (userCredential) {
+      setMostrarComponente(true);
+      setRealname(userCredential.realname);
+      setUserImage(userCredential.img);
+      setExpirationDate(userCredential.expirationDate);
+      setNivel(userCredential.nivel);
+      setErrorMessage('');
+    } else {
+      setMostrarComponente(false);
+      setErrorMessage('La contraseña o usuario es incorrecto.');
+    }
+  };
 
   const seleccionarNivel = (index) => {
     setNivelSeleccionado(index);
@@ -80,87 +71,94 @@ const RoadMapMed = () => {
     }
   };
 
-  const toggleSidebar = () => {
-    setIsSidebarVisible(!isSidebarVisible);
-  };
+  const toggleSidebar = () => setIsSidebarVisible(!isSidebarVisible);
 
   return (
     <>
-     {!mostrarComponente && (
-          <div className="py-10 mt-5">
-            <div className="flex bg-white rounded-lg shadow-lg overflow-hidden mx-auto max-w-sm lg:max-w-4xl">
-              {/* Imagen de fondo para la versión grande */}
-              <div
-                className="hidden lg:block lg:w-1/2 bg-cover"
-                style={{
-                  backgroundImage:
-                    "url('https://images.unsplash.com/photo-1546514714-df0ccc50d7bf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=667&q=80')",
-                }}
-              ></div>
-    
-              {/* Contenido del formulario */}
-              <div className="w-full p-15 lg:w-1/2 mt-0">
-                <h2 className="text-2xl font-semibold text-gray-700 text-center">
-                  Bienvenido Student!
-                </h2>
-                <p className="text-xl text-gray-600 text-center mt-4">
-                  Al Estudiar con nosotros recibes un código para acceder a nuestro repositorio, ¡Ingrésalo Aquí!
-                </p>
-    
-                <div className="mt-20">
-                  {/* Formulario de ingreso de datos */}
-                  <div className="flex flex-col space-y-4">
-                  <input
-                      type="text"
-                      placeholder="Ingresa el usuario"
-                      value={usuario}
-                      onChange={handleChangeUsuario}
-                      className="py-3 px-3 font-poppins font-medium text-[18px] text-gray-700 rounded-[10px] outline-none bg-gray-200 border border-gray-300 mb-4 sm:mb-0"
-                    />
-                    <input
-                      type="password"
-                      placeholder="Ingresa la contraseña"
-                      value={codigo}
-                      onChange={handleChangeCodigo}
-                      onKeyPress={handleKeyPress}
-                      className="py-3 px-3 font-poppins font-medium text-[18px] text-gray-700 rounded-[10px] outline-none bg-gray-200 border border-gray-300"
-                    />
-                  </div>
-    
-                  {/* Botón para mostrar la ruta */}
-                  <button
-                    type="button"
-                    onClick={handleMostrarComponente}
-                    className="mt-4 py-3 px-3 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none w-full"
-                    >
-                    Ver Ruta
-                  </button>
-                </div>
-              </div>
+      {!mostrarComponente && (
+        <div className="py-5 flex justify-center items-center min-h-screen bg-gray-100">
+          <div className="bg-white rounded-lg shadow-lg p-6 w-full max-w-sm">
+            <div className="flex justify-center mb-4">
+              <img
+                src="https://i.ibb.co/55qqtX6/My-english-bro-Logo-10.png"
+                alt="Logo"
+                className="h-16"
+              />
             </div>
+            <h2 className="text-2xl font-bold text-gray-800 text-center mb-2">
+              Welcome, Student! 🎓
+            </h2>
+            <p className="text-sm text-gray-600 text-center mb-4">
+              Enter your credentials below.
+            </p>
+            <div className="space-y-4">
+              <input
+                type="text"
+                placeholder="Username"
+                value={usuario}
+                onChange={handleChangeUsuario}
+                className="w-full px-3 py-2 rounded-lg border border-gray-300 shadow-sm text-gray-700 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-400"
+              />
+              <input
+                type="password"
+                placeholder="Password"
+                value={codigo}
+                onChange={handleChangeCodigo}
+                onKeyPress={handleKeyPress}
+                className="w-full px-3 py-2 rounded-lg border border-gray-300 shadow-sm text-gray-700 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-400"
+              />
+              {errorMessage && (
+                <p className="text-red-500 text-xs text-center">
+                  {errorMessage}
+                </p>
+              )}
+              <button
+                type="button"
+                onClick={handleMostrarComponente}
+                className="w-full py-2 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-600 transition duration-300"
+              >
+                Access Roadmap
+              </button>
+            </div>
+            <p className="text-xs text-gray-500 text-center mt-4">
+              Forgot your credentials? Contact your instructor. ✉️
+            </p>
           </div>
-        )}
+        </div>
+      )}
+
       {mostrarComponente && (
         <>
           <button className="sidebar-toggle" onClick={toggleSidebar}>
             ☰
           </button>
-          <Sidebar 
-            road={roadmed} 
-            seleccionarNivel={seleccionarNivel} 
+          <Sidebar
+            road={roadmed}
+            seleccionarNivel={seleccionarNivel}
             isSidebarVisible={isSidebarVisible}
             toggleSidebar={toggleSidebar}
+            viewedItems={viewedItems}
+            setViewedItems={setViewedItems}
+            className={isSidebarVisible ? 'visible' : ''}
           />
           {nivelSeleccionado !== null ? (
-            <ContainerRoad 
-              road={[roadmed[nivelSeleccionado]]} 
-              containerRefs={containerRefs} 
-              password={codigo} 
-              realname={realname} 
-              userImage={userImage} // Pass the userImage here
+            <ContainerRoad
+              road={[roadmed[nivelSeleccionado]]}
+              containerRefs={containerRefs}
+              password={codigo}
+              realname={realname}
+              nivel={nivel}
+              expirationDate={expirationDate}
+              userImage={userImage}
             />
           ) : (
-            <DefaultView password={codigo} realname={realname} userImage={userImage} /> // Asegúrate de pasar userImage
+            <DefaultView
+              password={codigo}
+              nivel={nivel}
+              expirationDate={expirationDate}
+              realname={realname}
+              userImage={userImage}
+            />
           )}
         </>
       )}
