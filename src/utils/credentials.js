@@ -26,7 +26,7 @@ export const validCredentials = [
       { nivel:"6",usuario: 'alison.arapa', password: 'ielts2025', realname: 'alison.arapa', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
       { nivel:"6",usuario: 'jose.tbravo', password: 'ielts2025', realname: 'jose.torres.bravo', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
       { nivel:"6",usuario: 'agnilivi', password: 'agnibal2024', realname: 'Agnibal Livisi', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-      { expirationDate:"10 HOURS",nivel:"A1 Basic",nivel:"6",usuario: 'cesarh', password: 'hurtado24', realname: 'Cesar Hurtado', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+      { expirationDate:"10 HOURS",nivel:"A1 Basic",usuario: 'cesarh', password: 'hurtado24', realname: 'Cesar Hurtado', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
     
       {expirationDate:"05/12/25", nivel:"Avanzado",usuario: 'josephcerna', password: 'cerna24', realname: 'Joseph Cerna Alfaro', img: 'https://i.ibb.co/Zxcrb7Y/445123758-558907093130667-813258.png' }, // No image
       { usuario: 'ragnarock129', password: 'edison129', realname: 'Edison Johamy Rossel Huaman', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
