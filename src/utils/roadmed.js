@@ -441,21 +441,29 @@ export const roadmed = [
                 url: "https://docs.google.com/document/d/1kXkFOi-IFJP83_QTg6SZNKGfiSpI5IFXAlcTJmgwkJE/edit",
             },
             {
+                titulo: "📒[pdf] Speaking Explanation",
+                url: "https://drive.google.com/file/d/1lQkT1_qz3fPUBqcysqdvxvi6bNtOmXab/view?usp=sharing",
+            },
+            {
                 titulo: "📒[pdf] Speaking Part 1 - Useful Phrases",
-                url: "https://docs.google.com/document/d/18XLLq6gRiQqTNU4iIiI0qzc6epBd8hBQ/edit",
+                url: "https://drive.google.com/file/d/1Fty0C6H85HUHEJBG0KzAAOGK5a6FVMgz/view?usp=sharing",
             },
             {
                 titulo: "📒[pdf] Speaking Part 2 - Useful Phrases",
-                url: "https://docs.google.com/presentation/d/1nl85F1o3_TfrK04XJk1Z_rkA6E_T9h7q/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
+                url: "https://drive.google.com/file/d/1vHp3IrV3Wiz1a2m8_GdbdIl3ITc4sf2e/view?usp=sharing",
             },
             {
                 titulo: "📒[pdf] Speaking Part 3 - Useful Phrases",
-                url: "https://docs.google.com/document/d/1uNFaRWS_kuBKwQtr5L6vf3vTwcejt-B7/edit",
+                url: "https://drive.google.com/file/d/19HB0czJM2-XZZBuKr3FXHNAn8jP941DF/view?usp=sharing",
             },
             {
                 titulo: "📒[pdf] Speaking Part 4 - Useful Phrases",
-                url: "https://docs.google.com/document/d/1uNFaRWS_kuBKwQtr5L6vf3vTwcejt-B7/edit",
+                url: "https://drive.google.com/file/d/1ZmLmEIS1vnRPbZD9D20vFkEJPpoE9jbm/view?usp=sharing",
             },
+            {
+                titulo: "📒Mistakes at First ",
+                url: "https://drive.google.com/file/d/1GqRFqwYpNz2b52QJIJ9-RIGKOxkEV5HS/view?usp=sharing",
+            }
             
             
         ],
