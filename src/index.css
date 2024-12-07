@@ -738,3 +738,28 @@ right: 40px;
   opacity: 0.6;
   text-decoration: line-through;
 }
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px; /* Asegúrate de igualar la altura al iframe */
+}
+
+.loader {
+  border: 4px solid transparent; /* Borde transparente */
+  border-top-color: #3b82f6; /* Azul para el spinner */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -644,6 +644,9 @@ export const roadmed = [
             },{
                 titulo: "📃[ppt] Advanced Transitions",
                 url: "https://docs.google.com/presentation/d/1fGnuhWtExMKny18ZqasLeugnXi9cb9pU/edit?usp=sharing&ouid=114588820780661373500&rtpof=true&sd=true",
+            },{
+                titulo: "📃[Inf] Writing Mistakes everyone makes",
+                url: "https://drive.google.com/file/d/17vYjDTq69ecevpRtiD1mSOevKqFLrOSM/view?usp=sharing",
             },
             
         ],
