@@ -54,6 +54,7 @@ import RoadMapMed from "./pages/RoadMapMed";
 import RoadMapDev from "./pages/RoadMapDev";
 import RoadMapCelpip from "./pages/RoadMapCelpip";
 import RoadMapEnam from "./pages/RoadMapEnam";
+import RoadMapFrench from "./pages/RoadMapFrench";
 
 function App() {
   return (
@@ -74,7 +75,8 @@ function App() {
           <Route path="/Store" element={<Store />}></Route>
           <Route path="/Clases" element={<Clases />}></Route>
           <Route path="/RoadMap" element={<RoadMap />}></Route>
-        
+          <Route path="/RoadMapFrench" element={<RoadMapFrench />}></Route>
+
           <Route path="/RoadMapBusiness" element={<RoadMapBusiness />}></Route>
           <Route path="/RoadMapEngine" element={<RoadMapEngine />}></Route>
           <Route path="/RoadMapHealth" element={<RoadMapHealth />}></Route>

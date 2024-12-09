@@ -114,6 +114,11 @@ export const navLinks =  [
       title: "Celpip",
       path: "/Celpip"
       
+    },
+    {
+      title: "French",
+      path: "/RoadMapFrench"
+      
     }
     ,
     {

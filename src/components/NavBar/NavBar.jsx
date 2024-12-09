@@ -22,7 +22,7 @@ const Navbar = () => {
             className="h-[50px] w-[50px] md:h-[50px] md:w-[50px]"
           />
           <h3 className="ml-3 font-poppins font-semibold ss:text-[32px] text-[32px] text-white ss:leading-[100.8px] leading-[75px]">
-            MyEnglishBro!
+            Meb!
           </h3>
         </div>
 
