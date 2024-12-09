@@ -11,7 +11,8 @@ export const roadfrench = [
         description: "Envia tu examen para su corrección al correo temis_it@hotmail.com",
         enlaces: [
             {  titulo:"[📝Unités 01-02-03 ] Ebook",url: "https://drive.google.com/file/d/1VkEUiCL-S1WUDRcHrVJYYu7G2rIgHFAw/view?usp=sharing"},  
-           
+            {  titulo:"[🎧] Audio",url: "https://youtu.be/1F0NGLskiJw"},        
+
 
             
         ],

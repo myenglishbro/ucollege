@@ -46,5 +46,6 @@ export const validCredentials = [
       { expirationDate:"06/01/25",nivel:"Avanzado",usuario: 'valeha', password: 'valehab2', realname: 'Valeria Huaynates', img: 'https://i.ibb.co/QK97rZ0/7146697477402558469c5-1080x1080.png' }, // No image
       { expirationDate:"09/01/25",nivel:"Tomar Examen",usuario: 'greissmorote', password: 'morote2024', realname: 'Greiss L. Morote', img: 'https://i.ibb.co/k8cBCmd/464336533-584423153935296-152733.pngg' }, // No image
       { expirationDate:"09/01/25",nivel:"Tomar Examen",usuario: 'angenuza', password: 'angelatoefl', realname: 'Angela Núñez Zambrano', img: 'https://i.ibb.co/vmtmVP8/353048455-232726119612469-634925.png' }, // No image
+      { expirationDate:"09/01/25",nivel:"A2 ",usuario: 'andreslopez', password: '25dmaus', realname: 'Manuel Andres Lopez', img: 'https://i.ibb.co/MnQP1Db/421605912-1292681458810749-14417.png' }, // No image
 
     ];
