@@ -20,6 +20,8 @@ export const roadhealth = [
             {  titulo:"[💭 Roll Play ] STREP_THROAT",url: "https://drive.google.com/file/d/1Jae_coXXroC0pxt4E88wvWwM9x1Xj8Vi/view?usp=sharing"},        
             {  titulo:"[💭 Roll Play ] MEDICAL_HISTORY",url: "https://drive.google.com/file/d/14DN4uyNtMjuFp8u472xh4C8A3HdLkPef/view?usp=sharing"},        
             {  titulo:"[💭 Roll Play ] HYPERTENSION",url: "https://drive.google.com/file/d/1wHgQ3zC-lqE4pYByUcOYoKqwzIWVVEoH/view?usp=sharing"},        
+            {  titulo:" HYPERTENSION",url: "https://www.youtube.com/watch?v=drp9ZXUF1D8&t=39s&ab_channel=MyEnglishBro"},        
+
             {  titulo:"[📝 Glossary]  Pain Description II",url: "https://drive.google.com/file/d/1E0wT7dprhTg1EmAsutWKJCJvvTqDQ539/view?usp=sharing"},        
 
             
