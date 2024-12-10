@@ -971,9 +971,32 @@ export const roadmed = [
             { titulo: "✍ Comparatives & Modifiers II  ",url: "https://drive.google.com/file/d/1XFgGX1sdYUdhvYpKfK4e_Cqj_mQOie3-/view?usp=sharing", },    
             { titulo: "✍ Comparatives & Modifiers III  ",url: "https://drive.google.com/file/d/1RdfYJnYLdMF7j3sS-hKJesOMGmqmdXP3/view?usp=sharing", },    
             { titulo: "✍ Connectors  ",url: "https://drive.google.com/file/d/1RdfYJnYLdMF7j3sS-hKJesOMGmqmdXP3/view?usp=sharing", },    
+            { titulo: "✍ Correct Sentence Multiple Choice  ",url: "https://drive.google.com/file/d/1fDfIVqWLrLhqVHo-U1WMzsYqzgQ8M1Tr/view?usp=sharing", },    
 
+            { titulo: "✍ Parallel Structures ",url: "https://drive.google.com/file/d/1pTDJGKjUyVQSG6tEne2HdTIcdu96LDuE/view?usp=sharing", },    
 
+            { titulo: "✍Word Choice 1  ",url: "https://drive.google.com/file/d/1QBCWjTJ69eYmnp5LjxD32_sHESeUf2PT/view?usp=sharing", },    
+            { titulo: "✍Word Choice 2  ",url: "https://drive.google.com/file/d/11AcnwZ85R7GsoaU0kGKzYwV7wAzadRQ0/view?usp=sharing", },    
+            { titulo: "✍Word Choice 3  ",url: "https://drive.google.com/file/d/1mYW1BkrSOc_JDU0e-bH2w6-S5MwBg6LV/view?usp=sharing", },    
+            { titulo: "✍Word Choice 4  ",url: "https://drive.google.com/file/d/15BawZ93O21V7AC3mR_4sW29hzftMdMNd/view?usp=sharing", },    
+            { titulo: "✍Noun Phrases ",url: "https://drive.google.com/file/d/16oHUr1WoZ8h3OuKA3J_i7h_4-yrDMWpy/view?usp=sharing", },    
+            { titulo: "✍Noun Phrases 2 ",url: "https://drive.google.com/file/d/1YHlLWaR-D7oOGE7nsit_ciUJOyhGg__u/view?usp=sharing", },    
+            { titulo: "✍Verbs & Tenses ",url: "https://drive.google.com/file/d/1maGomb9hSFctNQciK0iQ65MS6NcBmyB9/view?usp=sharing", },    
+            { titulo: "✍Verbs & Tenses 2 ",url: "https://drive.google.com/file/d/1hmNX83_c71spUojY26NX0Lr1xu8lFatr/view?usp=sharing", },    
+            { titulo: "✍Negative Word Choice  ",url: "https://drive.google.com/file/d/1EIhDVNF1zmA3aHY5GWLMlY8yFfU0YvsJ/view?usp=sharing", },    
             
+            { titulo: "✍ Pronouns Multiple Choice  ",url: "https://drive.google.com/file/d/1NW1tqZPEhz_x-C3R_JkIxlPI2AEpo2Ip/view?usp=sharing", },    
+            { titulo: "✍Prepositions 1 ",url: "https://drive.google.com/file/d/1zBC_Z2Yx-v6snlVv04J7f3phtsltg9ZJ/view?usp=sharing", },    
+            { titulo: "✍Prepositions 2 ",url: "https://drive.google.com/file/d/1RmqHsasdx0v9YIwCH5-kQkgYl8N-PtFB/view?usp=sharing", },    
+            { titulo: "✍Much or Many Exercise  ",url: "https://drive.google.com/file/d/1RCGY76NB6Sw920zvaJ5XDSdHxFv3VrCh/view?usp=sharing", },    
+            { titulo: "✍ Some or Many Exercise  ",url: "https://drive.google.com/file/d/1FnvjpGc0aO_CYRW4X029MTHsiXeSc4nu/view?usp=sharing", },    
+            { titulo: "✍ Last or Latter Exercise  ",url: "https://drive.google.com/file/d/1cg_ddekwaAS49iRAbDxV0CiJlM3Y9o0R/view?usp=sharing", },    
+            { titulo: "✍ Superlatives  Exercise  ",url: "https://drive.google.com/file/d/1MfGGvdY2UGYMWWYg4y6pMWx6x9ijW85J/view?usp=sharing", },    
+            { titulo: "✍ Past Tense  Exercise  ",url: "https://drive.google.com/file/d/1xqAs1XF73eyqoH7hnyCpg_9QobkecHca/view?usp=sharing", },    
+            { titulo: "✍ Conditional Matching Exercise ",url: "https://drive.google.com/file/d/1pceZifEmXB5sk-AmhG4GqP00Tj63rFVA/view?usp=sharing", },    
+
+            { titulo: "✍ Gerund or Infinitive Exercise  ",url: "https://drive.google.com/file/d/1FAsG76_HqxXJIftk59cJIuM-wbXupH93/view?usp=sharing", },    
+
         ],
     }
 ];
