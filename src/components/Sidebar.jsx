@@ -91,6 +91,7 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
                 toggleAccordion(index);
               }}
               className={`sidebar-button ${selectedIndex === index ? 'selected' : ''}`}
+              style={{ backgroundColor: elemento.color || 'transparent' }} // Aplica el color de fondo
             >
               {elemento.title}
             </button>

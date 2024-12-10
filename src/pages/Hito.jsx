@@ -10,6 +10,10 @@ const Hito = ({ selectedLink }) => {
   }, [selectedLink]);
 
   const getEmbedUrl = (url) => {
+    // Verificar si la URL es de Wordwall y convertirla a una URL de incrustación
+    if (url.includes('wordwall.net')) {
+      return url.replace('https://wordwall.net/play/', 'https://wordwall.net/embed/play/');
+    }
     if (url.includes('youtu.be') || url.includes('youtube.com')) {
       const videoId = url.split('v=')[1]?.split('&')[0] || url.split('youtu.be/')[1];
       return `https://www.youtube.com/embed/${videoId}`;

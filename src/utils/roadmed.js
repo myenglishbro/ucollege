@@ -5,6 +5,7 @@ export const roadmed = [
             "https://i.ibb.co/c3FmGzV/level1.png",
         title: "Grabaciones de Clases en Vivo",
         subtitle: "B2/C1",
+        color: "#D6083B", // Propiedad de color añadida
 
         dateAdded: "Basic 0 ",
         channel: "sdasd",
