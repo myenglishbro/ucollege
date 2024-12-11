@@ -408,14 +408,32 @@ export const roadmed = [
             "https://i.ibb.co/yfYMBBS/level2.png",
         title: "Speaking like a Native",
         subtitle: "B2/C1",
+        color: "#8F2BBC",
+
 
         dateAdded: "Basic 01 ",
         channel: "sdasd",
         description: "Aprende a hablar como un hablante nativo enfocándote en la pronunciación, entonación y expresiones idiomáticas para mejorar tu fluidez y naturalidad al hablar.",
         enlaces: [
             {
-                titulo: "🖥️[Video] Speaking Simulation",
+                titulo: "🖥️[Video] B2 Speaking Simulation 01",
                 url: "https://drive.google.com/file/d/1QhvhLsCjF6V1BaYqpSd3cV9lgNuOCw_h/view?usp=sharing",
+            },
+            {
+                titulo: "🖥️[Video] B2 Speaking Simulation 02",
+                url: "https://drive.google.com/file/d/1h-s_T2_bFtZngCACYPMKw4U1V4mB6Ove/view?usp=sharing",
+            },
+            {
+                titulo: "🖥️[Video] B2 Speaking Simulation 03",
+                url: "https://drive.google.com/file/d/1vm6K2C5j061v2IneytvApO-r9tCdd3KS/view?usp=sharing",
+            },
+            {
+                titulo: "🖥️[Video] B2 Speaking Simulation 04",
+                url: "https://drive.google.com/file/d/1dGhBsbgRejXuovsdRie-bae23WpeY4V6/view?usp=sharing",
+            },
+            {
+                titulo: "🖥️[Video] B2 Speaking Simulation 05",
+                url: "https://drive.google.com/file/d/1ItqYXZB6Dc19PdmaB67E-9EZyAyfrl9y/view?usp=sharing",
             },
             {
                 titulo: "🖥️[Video] Speaking Trainer 01",
