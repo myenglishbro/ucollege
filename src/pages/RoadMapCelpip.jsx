@@ -18,6 +18,7 @@ const RoadMapCelpip = () => {
   const validCredentials = [
     { usuario: 'udemy', password: 'repositorio', realname: 'Estudiante', img: 'https://i.ibb.co/0nJVBvy/416640238-351256941104803-840339.png' }, // No image
     { usuario: 'lilicelpip', password: 'celpip2024', realname: 'Liliana Galvez', img: 'https://i.ibb.co/j56g69g/OIP-2.jpg' }, // No image
+    { expirationDate:"10/01/25",nivel:"B2 ",usuario: 'lilicelpip', password: 'lilica2024', realname: 'Liliana', img: 'https://i.ibb.co/VVTPrT9/459156263-936746281144279-986465.png' }, // No image
 
     { usuario: 'vanessae', password: 'canadianelt', realname: 'Vanessa Estrada', img: 'https://i.ibb.co/0nJVBvy/416640238-351256941104803-840339.png' }, // No image
     
