@@ -48,5 +48,7 @@ export const validCredentials = [
       { expirationDate:"09/01/25",nivel:"Tomar Examen",usuario: 'angenuza', password: 'angelatoefl', realname: 'Angela Núñez Zambrano', img: 'https://i.ibb.co/vmtmVP8/353048455-232726119612469-634925.png' }, // No image
       { expirationDate:"09/01/25",nivel:"A2 ",usuario: 'andreslopez', password: '25dmaus', realname: 'Manuel Andres Lopez', img: 'https://i.ibb.co/MnQP1Db/421605912-1292681458810749-14417.png' }, // No image
       { expirationDate:"10/01/25",nivel:"B2 ",usuario: 'jariel', password: 'jariel2025', realname: 'Johan Ariel Olives Vera', img: 'https://i.ibb.co/bvXp0XS/468271598-885227067051233-360620.png' }, // No image
- { expirationDate:"11/01/25",nivel:"tomar examen ",usuario: '75921486', password: 'dchavez', realname: 'Dayana Chavez Garibay', img: '' }, // No image
+      { expirationDate:"10/01/25",nivel:"B2 ",usuario: 'lilicelpip', password: 'lilica2024', realname: 'Liliana', img: 'https://i.ibb.co/VVTPrT9/459156263-936746281144279-986465.png' }, // No image
+
+      { expirationDate:"11/01/25",nivel:"tomar examen ",usuario: '75921486', password: 'dchavez', realname: 'Dayana Chavez Garibay', img: '' }, // No image
     ];
