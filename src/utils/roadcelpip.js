@@ -27,6 +27,10 @@ export const roadcelpip = [
             {  titulo:"📑 Speaking Task 06",url: "https://drive.google.com/file/d/1u0aH2nr9-EUdZb0O6KweNyb5DXb5zQhW/view?usp=sharing"},        
             {  titulo:"📑 Speaking Task 07",url: "https://drive.google.com/file/d/1HPQwzj7LNb7PIRM1EIeIzuS04p_1ISYZ/view?usp=sharing"},        
             {  titulo:"📑 Speaking Task 08",url: "https://drive.google.com/file/d/1E9ehz_6GBwkN05TMRlGmAaCjP5FiEbcG/view?usp=sharing"},        
+            {  titulo:"🗃️ Celpip Vocabulary ",    url: "https://quizlet.com/514887232/match/embed?i=2oqoxh&x=1jj1"},
+            {  titulo:"🗃️ Celpip Idioms ",    url: "https://quizlet.com/513660536/match/embed?i=2oqoxh&x=1jj1"},
+            {  titulo:"🗃️ Celpip Speaking ",    url: "https://quizlet.com/841318241/match/embed?i=2oqoxh&x=1jj1"},
+            {  titulo:"🗃️ Celpip Speaking II ",    url: "https://quizlet.com/562967616/match/embed?i=2oqoxh&x=1jj1"},
 
             
         ],
