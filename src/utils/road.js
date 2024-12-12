@@ -31,10 +31,11 @@ export const road = [
         channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
         description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
         enlaces: [
-            {  titulo:"PDF 01 ",url: "https://drive.google.com/file/d/1TrwJd_rR8u6DowclIEj9uKBfKUQ_WrKc/view?usp=sharing"},        
-            {  titulo:"PDF 01 ",url: "https://drive.google.com/file/d/1tqyVnubHTN1Npv-fP4xKfh6JzgjqQq8Q/view?usp=sharing"},        
-            {  titulo:"PDF 01 ",url: "https://drive.google.com/file/d/1T3cFZeoYFgD_UeuL3exnSK2PHaohIoqv/view?usp=sharing"},        
-
+            {  titulo:"PDF Whats-your-name",url: "https://drive.google.com/file/d/1TrwJd_rR8u6DowclIEj9uKBfKUQ_WrKc/view?usp=sharing"},        
+            {  titulo:"PDF Theyre-my-friends-‘to-be-positive ",url: "https://drive.google.com/file/d/1tqyVnubHTN1Npv-fP4xKfh6JzgjqQq8Q/view?usp=sharing"},        
+            {  titulo:"PDF My-bag-isnt-brown-‘to-be-negative ",url: "https://drive.google.com/file/d/1T3cFZeoYFgD_UeuL3exnSK2PHaohIoqv/view?usp=sharing"},        
+            {  titulo:"PDF Whats-the-weather-like ",url: "https://drive.google.com/file/d/13L1Mj3g4slfM7WbZVlZlwgJVk8dqLsRm/view?usp=sharing"},        
+            {  titulo:"PDF Dress ",url: "https://drive.google.com/file/d/10msh0Koi38v07LHOrED4KqzGV9GO_yGk/view?usp=sharing"}
 
         ],
     },
