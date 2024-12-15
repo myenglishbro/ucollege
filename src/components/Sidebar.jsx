@@ -8,8 +8,8 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
   const [selectedLink, setSelectedLink] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [viewedItems, setViewedItems] = useState([]);
+  const [achievementMessage, setAchievementMessage] = useState('');
 
-  // Cargar elementos vistos desde localStorage al montar el componente
   useEffect(() => {
     try {
       const savedViewedItems = JSON.parse(localStorage.getItem('viewedItems')) || [];
@@ -21,10 +21,29 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
     }
   }, []);
 
-  // Guardar los elementos vistos en localStorage cuando cambie viewedItems
   useEffect(() => {
     if (viewedItems.length > 0) {
       localStorage.setItem('viewedItems', JSON.stringify(viewedItems));
+    }
+  }, [viewedItems]);
+
+  useEffect(() => {
+    const milestoneMessages = {
+      10: 'Great start! Keep going!',
+      20: 'You are amazing! Keep it up!',
+      30: 'Fantastic progress!',
+      40: 'You are halfway there!',
+      50: 'Incredible effort!',
+      60: 'You are unstoppable!',
+      70: 'Almost there, keep pushing!',
+      80: 'So close to the finish line!',
+      90: 'You are a star!',
+      100: 'Congratulations! You did it!'
+    };
+
+    if (milestoneMessages[progress]) {
+      setAchievementMessage(milestoneMessages[progress]);
+      setTimeout(() => setAchievementMessage(''), 3000); // Clear message after 3 seconds
     }
   }, [viewedItems]);
 
@@ -39,20 +58,16 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
 
   const handleLinkClick = (enlace) => {
     setSelectedLink(enlace);
-
-    // Marcar el enlace como visto si no está ya en viewedItems
     if (!viewedItems.includes(enlace.titulo)) {
       setViewedItems((prev) => [...prev, enlace.titulo]);
     }
   };
 
-  // Filtrar los elementos de 'road' según el término de búsqueda
   const filteredRoad = road.filter((elemento) =>
     elemento.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
     elemento.enlaces.some((enlace) => enlace.titulo.toLowerCase().includes(searchTerm.toLowerCase()))
   );
 
-  // Calcular el progreso
   const totalItems = road.reduce((sum, item) => sum + item.enlaces.length, 0);
   const progress = totalItems > 0 ? Math.round((viewedItems.length / totalItems) * 100) : 0;
 
@@ -76,9 +91,32 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
           </div>
         </div>
 
-        <div className="progress-bar-container">
+        <div className="progress-bar-container" style={{ position: 'relative' }}>
           <div className="progress-bar">
             <div className="progress" style={{ width: `${progress}%` }}></div>
+          </div>
+          <img
+            src="https://i.ibb.co/nwMBCW4/Sin-t-tulo-1-02.png"
+            alt="Moving icon"
+            style={{
+              position: 'absolute',
+              top: '-15px',
+              left: `${progress}%`,
+              transform: 'translateX(-50%)',
+              height: '30px',
+            }}
+          />
+          <div
+            style={{
+              position: 'absolute',
+              top: '-10px',
+              right: '0',
+              fontSize: '16px',
+              color: '#76c7c0',
+              fontWeight: 'bold',
+            }}
+          >
+            🏆
           </div>
           <p className="progress-text">{progress}% completed</p>
         </div>
@@ -91,7 +129,7 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
                 toggleAccordion(index);
               }}
               className={`sidebar-button ${selectedIndex === index ? 'selected' : ''}`}
-              style={{ backgroundColor: elemento.color || 'transparent' }} // Aplica el color de fondo
+              style={{ backgroundColor: elemento.color || 'transparent' }}
             >
               {elemento.title}
             </button>
@@ -100,7 +138,9 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
               <div className="accordion-content">
                 {elemento.enlaces.map((enlace, i) => (
                   <div key={i} className={`timeline-item ${viewedItems.includes(enlace.titulo) ? 'viewed' : ''}`}>
-                    <button onClick={() => handleLinkClick(enlace)}>{enlace.titulo}</button>
+                    <button onClick={() => handleLinkClick(enlace)}>
+                      {`${i + 1}. ${enlace.titulo}`}
+                    </button>
                   </div>
                 ))}
               </div>
@@ -113,6 +153,25 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
         <div className="popup-container">
           <Hito selectedLink={selectedLink} />
           <button onClick={() => setSelectedLink(null)} className="close-popup">✖</button>
+        </div>
+      )}
+
+      {achievementMessage && (
+        <div className="popup-message" style={{
+          position: 'fixed',
+          top: '50%',
+          left: '50%',
+          transform: 'translate(-50%, -50%)',
+          backgroundColor: '#76c7c0',
+          color: 'white',
+          padding: '20px',
+          borderRadius: '10px',
+          boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+          zIndex: 1000,
+          textAlign: 'center',
+          fontSize: '16px',
+        }}>
+          {achievementMessage}
         </div>
       )}
     </>
