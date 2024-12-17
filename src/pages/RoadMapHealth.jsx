@@ -4,38 +4,16 @@ import styles from "../style";
 import { roadhealth } from "../utils/roadhealth";
 import Sidebar from '../components/Sidebar';
 import DefaultView from '../components/DefaultView';
+import { validCredentials } from '../utils/credentials'; // Importa desde el archivo
 
 const RoadMapHealth = () => {
-  const [usuario, setUsuario] = useState(''); 
-  const [codigo, setCodigo] = useState(''); 
+  const [usuario, setUsuario] = useState('');
+  const [codigo, setCodigo] = useState('');
   const [mostrarComponente, setMostrarComponente] = useState(false);
-  const [isSidebarVisible, setIsSidebarVisible] = useState(false); 
+  const [isSidebarVisible, setIsSidebarVisible] = useState(false);
   const [nivelSeleccionado, setNivelSeleccionado] = useState(null);
-  const [realname, setRealname] = useState(''); // Agregado
-  const containerRefs = useRef([]); 
-  
-  const validCredentials = [
-    { usuario: 'celestesalvatierra', password: 'password1', realname: 'Celeste Salvatierra' },
-    { usuario: 'udemy', password: 'repositorio', realname: 'Estudiante Autodidacta' },
-    { usuario: 'KABEZINI', password: '@47830274S', realname: 'JUAN EDUARDO AYLAS INCISO' },
-    { usuario: 'JosueRv_24', password: 'jrvchoche', realname: 'Josue Ramirez' },
-    { nivel:"A2 Básico",usuario: 'titooshiro', password: 'titooshiro2024', realname: 'Alberto Oshiro', img: 'https://i.ibb.co/2y3PPmL/247917193-940684856635710-168362.png' }, // No image
-
-    { usuario: '62023170', password: '10671890', realname: 'Andrea Vargas' },
-    { usuario: 'leonardoporras', password: 'password3', realname: 'Leonardo Porras' },
-    { usuario: 'josephcerna', password: 'cerna24', realname: 'Joseph Cerna Alfaro', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-    { usuario: 'ragnarock129', password: 'edison129', realname: 'Edison Johamy Rossel Huaman', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-    { usuario: 'everttello', password: 'everttello24', realname: 'Evert Tello Melo', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-    { usuario: 'zaidaz', password: 'zorrilla24', realname: 'Zaida Zorrilla', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-    { usuario: 'juanp', password: 'aguero24', realname: 'JUAN PABLO AGUERO JAIMES', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-    { usuario: 'dianah', password: 'dianah24', realname: 'Diana C. Huarcaya', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-    { usuario: 'manpardave', password: 'manpardave24', realname: 'Manuel Anthony Pardave Patiño', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-    { usuario: 'r23425307', password: 'rocio24', realname: 'Rocio Soncco Ancco', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-    { usuario: 'jmaria', password: 'villanuevaal', realname: 'Jhanet María Villanueva Alvarez', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-    { usuario: 'pj10hp', password: 'kevinl', realname: 'Kevin Leonardo Velasquez', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-    { usuario: 'vanessa11', password: 'picazo', realname: 'Vanessa Picazo', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-    { usuario: 'alison.arone', password: 'espinoza24', realname: 'Alison Arone', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-  ];
+  const [realname, setRealname] = useState('');
+  const containerRefs = useRef([]);
 
   const handleChangeUsuario = (event) => {
     setUsuario(event.target.value);
@@ -57,7 +35,7 @@ const RoadMapHealth = () => {
     );
 
     setMostrarComponente(!!userCredential);
-    setRealname(userCredential ? userCredential.realname : ''); // Aquí estableces el realname
+    setRealname(userCredential ? userCredential.realname : '');
     console.log('Real Name:', userCredential ? userCredential.realname : ''); // Debugging
   };
 
@@ -81,14 +59,19 @@ const RoadMapHealth = () => {
       {!mostrarComponente && (
         <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
           <div className={`${styles.boxWidth}`}>
-            <section className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
+            <section
+              className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}
+            >
               <div className="flex-1 flex flex-col">
                 <h2 className={styles.heading2}>Bienvenido Student!</h2>
                 <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-                  Al Estudiar con nosotros recibes un código para acceder a nuestro repositorio, ¡Ingrésalo Aquí!
+                  Al estudiar con nosotros recibes un código para acceder a
+                  nuestro repositorio, ¡Ingrésalo Aquí!
                 </p>
               </div>
-              <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
+              <div
+                className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}
+              >
                 <input
                   type="text"
                   placeholder="Ingresa el usuario"
@@ -121,21 +104,21 @@ const RoadMapHealth = () => {
           <button className="sidebar-toggle" onClick={toggleSidebar}>
             ☰
           </button>
-          <Sidebar 
-            road={roadhealth} 
-            seleccionarNivel={seleccionarNivel} 
+          <Sidebar
+            road={roadhealth}
+            seleccionarNivel={seleccionarNivel}
             isSidebarVisible={isSidebarVisible}
             toggleSidebar={toggleSidebar}
           />
           {nivelSeleccionado !== null ? (
-            <ContainerRoad 
-              road={[roadhealth[nivelSeleccionado]]} 
-              containerRefs={containerRefs} 
-              password={codigo} 
+            <ContainerRoad
+              road={[roadhealth[nivelSeleccionado]]}
+              containerRefs={containerRefs}
+              password={codigo}
               realname={realname} // Asegúrate de pasar realname aquí
             />
           ) : (
-            <DefaultView password={codigo} realname={realname} /> 
+            <DefaultView password={codigo} realname={realname} />
           )}
         </>
       )}
