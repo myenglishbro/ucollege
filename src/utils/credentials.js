@@ -55,6 +55,7 @@ export const validCredentials = [
       { expirationDate:"12/01/25",nivel:"Solicitar examen de Nivel ",usuario: 'issis312', password: 'chavezu', realname: 'Issis Chavez Ugalde.', img: '' }, // No image
       { expirationDate:"13/01/25",nivel:"Solicitar examen de Nivel ",usuario: 'pamelahellen30', password: 'rpamela', realname: 'Pamela Rodriguez.', img: '' }, // No image
       { expirationDate:"11/01/25",nivel:"B1+ ",usuario: 'hweny', password: 'cata08', realname: 'Weny Huaraca Magro', img: 'https://i.ibb.co/NZjv6vn/456531710-399933369790326-220531.png' }, // No image
+      { expirationDate:"11/01/25",nivel:"A2 ",usuario: 'sara.galvez', password: 'mori2024', realname: 'Sara Galvez', img: 'https://i.ibb.co/DGWqgK8/411753490-270202325848420-673562.png' }, // No image
 
       { expirationDate:"11/01/25",nivel:"Solicitar examen de Nivel ",usuario: '75921486', password: 'dchavez', realname: 'Dayana Chavez Garibay', img: '' }, // No image
     ];
