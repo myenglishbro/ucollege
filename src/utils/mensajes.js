@@ -1,5 +1,5 @@
 export const mensajes = {
-    0: 'Great start! Keep going!',
+   
     20: 'You are amazing! Keep it up!',
     30: 'Fantastic progress!',
     40: 'You are halfway there!',

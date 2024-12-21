@@ -65,7 +65,7 @@ export const road = [
         id: 1,
         thumbnail:
             "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWFBWaIq5f9wRc0ZOhE7iYo7fnItxzPcbmaXkRuCUXJczFJCOkXLr31xaLo7SoVzSUO2GkSfPDMtmcFyy84BTHA7cubztX2JjVKpN_S6G_MzHSE5HUZtbHNwwJZf9El1WeJBobZ5qq4MLG/w1200-h630-p-k-no-nu/school_gakkyu_houkai.png",
-        title: "PDF MATERIALES",
+        title: "Materiales Sesiones",
         subtitle: "Nivel Básico ",
     
         dateAdded: "Basic 0 ",
