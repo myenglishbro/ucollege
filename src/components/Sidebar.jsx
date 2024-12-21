@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FaSearch } from 'react-icons/fa';
 import Hito from '../pages/Hito';
+import { mensajes } from '../utils/mensajes';  // Importar los mensajes
 
 const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) => {
   const [selectedIndex, setSelectedIndex] = useState(null);
@@ -28,24 +29,17 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
   }, [viewedItems]);
 
   useEffect(() => {
-    const milestoneMessages = {
-      10: 'Great start! Keep going!',
-      20: 'You are amazing! Keep it up!',
-      30: 'Fantastic progress!',
-      40: 'You are halfway there!',
-      50: 'Incredible effort!',
-      60: 'You are unstoppable!',
-      70: 'Almost there, keep pushing!',
-      80: 'So close to the finish line!',
-      90: 'You are a star!',
-      100: 'Congratulations! You did it!'
-    };
-
-    if (milestoneMessages[progress]) {
-      setAchievementMessage(milestoneMessages[progress]);
+    const progress = calculateProgress();
+    if (mensajes[progress]) {  // Usar los mensajes importados
+      setAchievementMessage(mensajes[progress]);
       setTimeout(() => setAchievementMessage(''), 3000); // Clear message after 3 seconds
     }
   }, [viewedItems]);
+
+  const calculateProgress = () => {
+    const totalItems = road.reduce((sum, item) => sum + item.enlaces.length, 0);
+    return totalItems > 0 ? Math.round((viewedItems.length / totalItems) * 100) : 0;
+  };
 
   const handleSelect = (index) => {
     setSelectedIndex(index);
@@ -58,8 +52,13 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
 
   const handleLinkClick = (enlace) => {
     setSelectedLink(enlace);
-    if (!viewedItems.includes(enlace.titulo)) {
-      setViewedItems((prev) => [...prev, enlace.titulo]);
+  };
+
+  const handleCheckboxChange = (enlaceTitulo) => {
+    if (viewedItems.includes(enlaceTitulo)) {
+      setViewedItems(viewedItems.filter(item => item !== enlaceTitulo));
+    } else {
+      setViewedItems((prev) => [...prev, enlaceTitulo]);
     }
   };
 
@@ -138,8 +137,16 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
               <div className="accordion-content">
                 {elemento.enlaces.map((enlace, i) => (
                   <div key={i} className={`timeline-item ${viewedItems.includes(enlace.titulo) ? 'viewed' : ''}`}>
-                    <button onClick={() => handleLinkClick(enlace)}>
+                    <label>
+                      <input
+                        type="checkbox"
+                        checked={viewedItems.includes(enlace.titulo)}
+                        onChange={() => handleCheckboxChange(enlace.titulo)}
+                      />
                       {`${i + 1}. ${enlace.titulo}`}
+                    </label>
+                    <button onClick={() => handleLinkClick(enlace)}>
+                      {viewedItems.includes(enlace.titulo) ? "🙈 Done" : "👀 See"}  
                     </button>
                   </div>
                 ))}
