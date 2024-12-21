@@ -2,10 +2,11 @@ export const road = [
     {
         id: 0,
         thumbnail:
-            "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
+            "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPOhWDPVD9wMvDy4K74KNokVyjpJp6pacaFVWIYcrR1ROZ5ZATKt4gpOY-dZEsqoDxLbSEzF5OVzFUmuFjxYETZi0Y6JjYw5Ht6FOHa49SqRRkLz2l2HjlV4teevsk60RS4UdJHl-WTjU/s800/bg_school_room_back.jpg",
         title: "Ubica tu nivel",
         subtitle: "Centro de Clasificación ",
-    
+        color: "#D6083B", // Propiedad de color añadida
+
         dateAdded: "Basic 0 ",
         channel: " ",
         description: "Si has llevado clases de inglés antes realiza un examen para calcular tu nivel,Envia tu examen para su corrección al correo temis_it@hotmail.com",
@@ -23,47 +24,7 @@ export const road = [
     {
         id: 1,
         thumbnail:
-            "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
-        title: "PDF MATERIALES",
-        subtitle: "Nivel Básico ",
-    
-        dateAdded: "Basic 0 ",
-        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
-        description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
-        enlaces: [
-            {  titulo:"PDF Whats-your-name",url: "https://drive.google.com/file/d/1TrwJd_rR8u6DowclIEj9uKBfKUQ_WrKc/view?usp=sharing"},        
-            {  titulo:"PDF Theyre-my-friends-‘to-be-positive ",url: "https://drive.google.com/file/d/1tqyVnubHTN1Npv-fP4xKfh6JzgjqQq8Q/view?usp=sharing"},        
-            {  titulo:"PDF My-bag-isnt-brown-‘to-be-negative ",url: "https://drive.google.com/file/d/1T3cFZeoYFgD_UeuL3exnSK2PHaohIoqv/view?usp=sharing"},        
-            {  titulo:"PDF A day the life",url: "https://drive.google.com/file/d/1aslqgNDXiEcBOGYQsSaLycUFTh0K8lLU/view?usp=sharing"},
-
-            {  titulo:"PDF Whats-the-weather-like ",url: "https://drive.google.com/file/d/13L1Mj3g4slfM7WbZVlZlwgJVk8dqLsRm/view?usp=sharing"},        
-            {  titulo:"PDF Dress ",url: "https://drive.google.com/file/d/10msh0Koi38v07LHOrED4KqzGV9GO_yGk/view?usp=sharing"},
-            {  titulo:"ver ",    url: "https://quizlet.com/218478480/match/embed?i=2oqoxh&x=1jj1"}
-
-
-        ],
-    },
-    {
-        id: 2,
-        thumbnail:
-            "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
-        title: "Sesiones en Vivo",
-        subtitle: "Nivel Básico ",
-    
-        dateAdded: "Basic 0 ",
-        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
-        description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
-        enlaces: [
-            {  titulo:"[🖥️Class] Clase 01 ",url: "https://youtu.be/n3ULyufFSzM"},        
-            {  titulo:"[🖥️Class] Clase 02 ",url: "https://youtu.be/AgeIo-GQiRc"},        
-            {  titulo:"[🖥️Class] Clase 03 ",url: "https://youtu.be/BPAX_Jmvgyg"},        
-            {  titulo:"[🖥️Class] Clase 04 ",url: "https://youtu.be/MOa2KIVNOBM"},         
-        ],
-    },
-    {
-        id: 3,
-        thumbnail:
-            "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
+            "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitextCUFMZPsbxhRJnk14bXdM8_cGu9oiszcVB0iiEvd_ECjTwW_OcVx7x-wj2_XTqRzvPnSXQcmCKGavlIuRQ60nIncSxmq8OcCGr6vtYsR2ZeTN-IZ8Bfoz9M7J7lPnFNCBwU1RmMEU/w1200-h630-p-k-no-nu/bg_school_yuyake.jpg",
         title: "M1-Fundamentos",
         subtitle: "Nivel Básico ",
     
@@ -71,7 +32,7 @@ export const road = [
         channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
         description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
         enlaces: [
-            {  titulo:"🎬 Presentación del Curso",url: "https://www.youtube.com/watch?v=_1DEJIOcJmY&t=2s"},        
+            {  titulo:"Presentación del Curso",url: "https://www.youtube.com/watch?v=_1DEJIOcJmY&t=2s"},        
             {  titulo:"🎬 Mi primer truco de Pronunciación",url: "https://www.youtube.com/watch?v=gMlip7427kU&t=22s&ab_channel=MyEnglishBro"},           
             {  titulo:"📥 Mi primer truco de Pronunciación",url: "https://drive.google.com/file/d/1VhB8Kjr3YbARZU6KhPMvlPa0pZi92hX0/view?usp=sharing"},
             {  titulo:"🎬Los Saludos",url: "https://www.youtube.com/watch?v=xipdKtlzxAg&t=435s"},           
@@ -100,11 +61,52 @@ export const road = [
 
         ],
     },
+    {
+        id: 1,
+        thumbnail:
+            "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWFBWaIq5f9wRc0ZOhE7iYo7fnItxzPcbmaXkRuCUXJczFJCOkXLr31xaLo7SoVzSUO2GkSfPDMtmcFyy84BTHA7cubztX2JjVKpN_S6G_MzHSE5HUZtbHNwwJZf9El1WeJBobZ5qq4MLG/w1200-h630-p-k-no-nu/school_gakkyu_houkai.png",
+        title: "PDF MATERIALES",
+        subtitle: "Nivel Básico ",
+    
+        dateAdded: "Basic 0 ",
+        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
+        description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
+        enlaces: [
+            {  titulo:"PDF Whats-your-name",url: "https://drive.google.com/file/d/1TrwJd_rR8u6DowclIEj9uKBfKUQ_WrKc/view?usp=sharing"},        
+            {  titulo:"PDF Theyre-my-friends-‘to-be-positive ",url: "https://drive.google.com/file/d/1tqyVnubHTN1Npv-fP4xKfh6JzgjqQq8Q/view?usp=sharing"},        
+            {  titulo:"PDF My-bag-isnt-brown-‘to-be-negative ",url: "https://drive.google.com/file/d/1T3cFZeoYFgD_UeuL3exnSK2PHaohIoqv/view?usp=sharing"},        
+            {  titulo:"PDF A day the life",url: "https://drive.google.com/file/d/1aslqgNDXiEcBOGYQsSaLycUFTh0K8lLU/view?usp=sharing"},
+
+            {  titulo:"PDF Whats-the-weather-like ",url: "https://drive.google.com/file/d/13L1Mj3g4slfM7WbZVlZlwgJVk8dqLsRm/view?usp=sharing"},        
+            {  titulo:"PDF Dress ",url: "https://drive.google.com/file/d/10msh0Koi38v07LHOrED4KqzGV9GO_yGk/view?usp=sharing"},
+            {  titulo:"ver ",    url: "https://quizlet.com/218478480/match/embed?i=2oqoxh&x=1jj1"}
+
+
+        ],
+    },
+    {
+        id: 2,
+        thumbnail:
+            "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMOAaMy5c4-bwgq1f0OHo8Wb3uukwZRdiNzCwiAPjZSM9ezpVq2KaB-tJeapyJg_wzVfi6kobaPlwyyiMwHPbAZhDqMPSz_74gjl8IDSDDPIBhnqsQIKbPioL1vd9Wrm6MRLWAHE2PxVGc/s1600/bg_school_room2.jpg",
+        title: "Sesiones en Vivo",
+        subtitle: "Nivel Básico ",
+    
+        dateAdded: "Basic 0 ",
+        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
+        description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
+        enlaces: [
+            {  titulo:"[🖥️Class] Clase 01 ",url: "https://youtu.be/n3ULyufFSzM"},        
+            {  titulo:"[🖥️Class] Clase 02 ",url: "https://youtu.be/AgeIo-GQiRc"},        
+            {  titulo:"[🖥️Class] Clase 03 ",url: "https://youtu.be/BPAX_Jmvgyg"},        
+            {  titulo:"[🖥️Class] Clase 04 ",url: "https://youtu.be/MOa2KIVNOBM"},         
+        ],
+    },
+   
     
     {
         id: 4,
         thumbnail:
-            "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
+            "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhsP72VJX240KHAsu-XSAJuJXMOJDyRPkag9wCZ-klVFgXsQMK2qaIANTbx0tie-NgRw5q0AuYUQnXOGkNdCxyeI4G7mV383wLV-ssIduQxJMMgy3CUIbX789heCRPfkuyLPetktzYf0tPm/s1600/bg_house.jpg",
         title: "M1- Vocabulario Base",
         subtitle: "Centro de Clasificación ",
     
@@ -143,7 +145,7 @@ export const road = [
     {
         id: 5,
         thumbnail:
-            "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
+            "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimK5my_K0_FbDFSOhjhXCfdAD8MqNqA1DY2FG5jXEa93O-dbWO4a0KRX9YyXITJeBXcBS6Tt1WAx8jV1aWyCgC2BZ0IfsuzWjy-z4rd3fQ9iwXc65jnZn_x_aF_ikxdkkSU2Gtc6n09PuM/w1200-h630-p-k-no-nu/syukatsu_shigoto_sagashi.png",
            
             title: "M1-Present Tense I ",
         subtitle: "Basic Level",
@@ -239,7 +241,7 @@ export const road = [
     {
         id: 6,
         thumbnail:
-            "https://i.ibb.co/kgxj037/Black-White-and-Red-Simple-Shield-Shape-Football-Club-Logo-3-removebg-preview.png",
+            "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6xRIByLoBqwDhdCsBh8XvNrZvOnQ3o7i3vYfWeSz4gGKzcyqTCqLYixUAJr-l5U3jOOZWECk21ITxO4iV44_3QzaTw3SIVjSt9Gmbm82EBF4TBZ4-CZKuC16GL0bTLxHSsmRln8lcxFLz/s800/bg_snow_school.jpg",
         title: "M1 - Present Simple II ",
         subtitle: "A1 - Present Progressive Tense",
 
@@ -403,7 +405,7 @@ export const road = [
     {
         id: 5,
         thumbnail:
-            "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
+            "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEil5OltjehcYor12MEQAojBH31zPiKXE_pKkm4kCKAwmzeliGhNcKEZvpEgnqithyphenhyphenLwZytA5WlaHr7SYDYfF5GY1j4lIYwheDgYIKX1nY1ay2DnvjTpbvWy42tkxeuwzK_6sPj_WWqDgmEA/w1200-h630-p-k-no-nu/bg_school.jpg",
         title: "M1-Listening Center ",
         subtitle: "Nivel Básico ",
     
@@ -444,7 +446,7 @@ export const road = [
     {
         id: 7,
         thumbnail:
-            "",
+            "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBFt5gII2wJI0hvuZmP8SncLkWCe81wqbiL9D5CvMetShyphenhyphenFaCqdbstIGJ2x-G8HQSQBVk-KCVwMS2hx7zH6qioyTcMGee2pqze_Vt4Ck3WnvYinWBLbjXWCL1PrUBlb9NpKKBxZXzwl67w/s1600/bg_school_koutei.jpg",
         title: "M1- Present Simple vs Progressive",
         subtitle: "Pre-Intermediate",
 
@@ -511,7 +513,7 @@ export const road = [
     {
         id: 9,
         thumbnail:
-            "https://i.ibb.co/rcqJNmR/Black-White-and-Red-Simple-Shield-Shape-Football-Club-Logo-4-removebg-preview.png",
+            "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4dgy-i-_5wh7YnYNUp5wWWSlNnQ3ArnLgUgdZxpYAH0cw3xCHLdAf-e802srSl-8aCQm2O3FYmYXET7yDmP-JOLFeuhaIlhaMhJXLX6V7yDRv4R4t7Y89VVseZ3Nj88HThM0aSsbm5U0/w1200-h630-p-k-no-nu/school_taiikukan2.png",
         title: "M1-Nouns",
         subtitle: "Basic Level",
      

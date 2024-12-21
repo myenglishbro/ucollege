@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { FaSearch } from 'react-icons/fa';
 import Hito from '../pages/Hito';
-import { mensajes } from '../utils/mensajes';  // Importar los mensajes
+import { mensajes } from '../utils/mensajes';
 
 const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) => {
   const [selectedIndex, setSelectedIndex] = useState(null);
@@ -30,9 +30,9 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
 
   useEffect(() => {
     const progress = calculateProgress();
-    if (mensajes[progress]) {  // Usar los mensajes importados
+    if (mensajes[progress]) {
       setAchievementMessage(mensajes[progress]);
-      setTimeout(() => setAchievementMessage(''), 3000); // Clear message after 3 seconds
+      setTimeout(() => setAchievementMessage(''), 3000);
     }
   }, [viewedItems]);
 
@@ -122,16 +122,37 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
 
         {filteredRoad.map((elemento, index) => (
           <div key={index} className="accordion-section">
-            <button
-              onClick={() => {
-                handleSelect(index);
-                toggleAccordion(index);
-              }}
-              className={`sidebar-button ${selectedIndex === index ? 'selected' : ''}`}
-              style={{ backgroundColor: elemento.color || 'transparent' }}
-            >
-              {elemento.title}
-            </button>
+          <button
+  onClick={() => {
+    handleSelect(index);
+    toggleAccordion(index);
+  }}
+  className={`sidebar-button ${selectedIndex === index ? 'selected' : ''}`}
+  style={{
+    backgroundColor: elemento.color || 'transparent',
+    backgroundImage: elemento.thumbnail ? `url(${elemento.thumbnail})` : 'none',
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
+    color: 'white',
+    textShadow: '2px 2px 4px rgba(0, 0, 0, 0.7)',
+    fontWeight: 'bold',
+    padding: '10px 20px',
+    borderRadius: '1px',
+    border: 'none',
+    transition: 'transform 0.2s, box-shadow 0.2s',
+  }}
+  onMouseEnter={(e) => {
+    e.target.style.transform = 'scale(1.05)';
+    e.target.style.boxShadow = '0 4px 8px rgba(0, 0, 0, 0.2)';
+  }}
+  onMouseLeave={(e) => {
+    e.target.style.transform = 'scale(1)';
+    e.target.style.boxShadow = 'none';
+  }}
+>
+  {elemento.title}
+</button>
+
 
             {activeIndex === index && (
               <div className="accordion-content">
