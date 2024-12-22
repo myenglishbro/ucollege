@@ -3,7 +3,7 @@ export const roadmed = [
         id: 0,
         thumbnail:
             "https://i.ibb.co/c3FmGzV/level1.png",
-        title: "Grabaciones de Clases en Vivo",
+        title: "Grabaciones de Clases en Vivo B2",
         subtitle: "B2/C1",
         color: "#D6083B", // Propiedad de color añadida
 
@@ -41,6 +41,72 @@ export const roadmed = [
             ],
             
     },
+    {
+        id: 1,
+        thumbnail:
+            "https://i.ibb.co/c3FmGzV/level1.png",
+        title: "B2 PREPARATION 2024",
+        subtitle: "B2/C1",
+        color: "#D6083B", // Propiedad de color añadida
+
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: "Grabacion de clases Cambridge Preparation,no compartas las grabaciones ",
+        enlaces: [
+                { "titulo": "[🖥️Class]  day 5", "url": "https://www.youtube.com/watch?v=R2TVluocgUg&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&index=5&ab_channel=MyEnglishBro" },
+                { "titulo": "[🖥️Class]  day 4", "url": "https://www.youtube.com/watch?v=kLjAWxOYZDI&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&ab_channel=MyEnglishBro" },
+                { "titulo": "[🖥️Class]  day 3", "url": "https://www.youtube.com/watch?v=_FJtW3NHYxQ&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&index=2&ab_channel=MyEnglishBro" },
+                { "titulo": "[🖥️Class]  day 2", "url": "https://www.youtube.com/watch?v=uSoQGya3n_Y&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&index=3&ab_channel=MyEnglishBro" },
+                { "titulo": "[🖥️Class]  day 1", "url": "https://www.youtube.com/watch?v=ccyWNJz7FS4&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&index=4&ab_channel=MyEnglishBro" },
+                
+            ],
+            
+    },
+    {
+        id: 1,
+        thumbnail:
+            "https://i.ibb.co/c3FmGzV/level1.png",
+        title: "IELTS PREPARATION 2024",
+        subtitle: "B2/C1",
+        color: "#D6083B", // Propiedad de color añadida
+
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: "Grabacion de clases Cambridge Preparation,no compartas las grabaciones ",
+        enlaces: [
+                { "titulo": "[🖥️Class]  day 5", "url": "https://www.youtube.com/watch?v=nIZcH0sQSf0&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=1&ab_channel=MyEnglishBro" },
+                { "titulo": "[🖥️Class]  day 4", "url": "https://www.youtube.com/watch?v=C0RB86t1YIw&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=2&ab_channel=MyEnglishBro" },
+                { "titulo": "[🖥️Class]  day 3", "url": "https://www.youtube.com/watch?v=TV10GT7j_es&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=3&ab_channel=MyEnglishBro" },
+                { "titulo": "[🖥️Class]  day 2", "url": "https://www.youtube.com/watch?v=2ExYgxh9gjE&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=5&ab_channel=MyEnglishBro" },
+                { "titulo": "[🖥️Class]  day 1", "url": "https://www.youtube.com/watch?v=UEEEwLpO7z0&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=4&ab_channel=MyEnglishBro" },
+                
+            ],
+            
+    },
+    {
+        id: 1,
+        thumbnail:
+            "https://i.ibb.co/c3FmGzV/level1.png",
+        title: "👋 Must-Know Everyday English Expressions and Phrases",
+        subtitle: "B2/C1",
+        color: "#D6083B", // Propiedad de color añadida
+
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: "Grabacion de clases Cambridge Preparation,no compartas las grabaciones ",
+        enlaces: [
+           
+                { "titulo": "Turn the Tables", "url": "https://www.youtube.com/watch?v=3BP1kSUR1f0&list=PLaYNhMsVRuHh71-1ztahYIwp_PDrvbWJF&ab_channel=MyEnglishBro" },
+                { "titulo": "Watch your Mouth", "url": "https://www.youtube.com/watch?v=_eriRuRfvvM&list=PLaYNhMsVRuHh71-1ztahYIwp_PDrvbWJF&index=2&ab_channel=MyEnglishBro" },
+                { "titulo": "Spreading Rumors", "url": "https://www.youtube.com/watch?v=or0ZxUll78g&list=PLaYNhMsVRuHh71-1ztahYIwp_PDrvbWJF&index=3&ab_channel=MyEnglishBro" },
+                { "titulo": "Yo me lo busqué", "url": "https://www.youtube.com/watch?v=lcmn32R7u4k&list=PLaYNhMsVRuHh71-1ztahYIwp_PDrvbWJF&index=4&ab_channel=MyEnglishBro" },
+                { "titulo": "Agarrarle el ritmo", "url": "https://www.youtube.com/watch?v=hHITyx_4An8&list=PLaYNhMsVRuHh71-1ztahYIwp_PDrvbWJF&index=5&ab_channel=MyEnglishBro" },
+                { "titulo": "Empezar con el Pie Izquierdo", "url": "https://www.youtube.com/watch?v=oDkLrT8xRkg&list=PLaYNhMsVRuHh71-1ztahYIwp_PDrvbWJF&index=6&ab_channel=MyEnglishBro" },
+              
+            ],
+            
+    },
+    
     {
         id: 1,
         thumbnail:
