@@ -83,13 +83,18 @@ export const road = [
         description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
         enlaces: [
             {  titulo:"PDF Whats-your-name",url: "https://drive.google.com/file/d/1TrwJd_rR8u6DowclIEj9uKBfKUQ_WrKc/view?usp=sharing"},        
+             {  titulo:"PDF I’ve got eleven cups!",url: "https://drive.google.com/file/d/1Etui1dFgH9aEkBYd8HO7Kr_MyIOP7_gq/view?usp=sharing"},        
+             {  titulo:"PDF Welcome to my workspace!",url: "https://drive.google.com/file/d/11yKEHMHO5fa5m1vuDSz0CTLq34D0mxm8/view?usp=sharing"},        
+
             {  titulo:"PDF Theyre-my-friends-‘to-be-positive ",url: "https://drive.google.com/file/d/1tqyVnubHTN1Npv-fP4xKfh6JzgjqQq8Q/view?usp=sharing"},        
             {  titulo:"PDF My-bag-isnt-brown-‘to-be-negative ",url: "https://drive.google.com/file/d/1T3cFZeoYFgD_UeuL3exnSK2PHaohIoqv/view?usp=sharing"},        
             {  titulo:"PDF A day the life",url: "https://drive.google.com/file/d/1aslqgNDXiEcBOGYQsSaLycUFTh0K8lLU/view?usp=sharing"},
-
             {  titulo:"PDF Whats-the-weather-like ",url: "https://drive.google.com/file/d/13L1Mj3g4slfM7WbZVlZlwgJVk8dqLsRm/view?usp=sharing"},        
-            {  titulo:"PDF Dress ",url: "https://drive.google.com/file/d/10msh0Koi38v07LHOrED4KqzGV9GO_yGk/view?usp=sharing"},
-            {  titulo:"ver ",    url: "https://quizlet.com/218478480/match/embed?i=2oqoxh&x=1jj1"}
+            {  titulo:"PDF Dress or jeans: clothes we wear ",url: "https://drive.google.com/file/d/10msh0Koi38v07LHOrED4KqzGV9GO_yGk/view?usp=sharing"},
+            {  titulo:"PDF It’s his friends’ house (possessives) ",url: "https://drive.google.com/file/d/1BJPY5HTEw0BvPGOT8v5suFbULWJdUSUW/view?usp=sharing"},
+            {  titulo:"PDF In my neighbourhood ",url: "https://drive.google.com/file/d/1OC_-CUH7HEgIcQLQkrqHT-7IiOVcSIxd/view?usp=sharing"},
+            {  titulo:"PDF What’s your favourite food? ",url: "https://drive.google.com/file/d/1EwJgu9HfELp7PfyhaKPbDdEk622Gn-ax/view?usp=sharing"},
+            {  titulo:"PDF For breakfast, I have… ",url: "https://drive.google.com/file/d/1w1e30nV1fzs1-mC2NdBW3JyCF8z0oq4J/view?usp=sharing"},
 
 
         ],
