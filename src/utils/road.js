@@ -38,22 +38,30 @@ export const road = [
             {  titulo:"🎬 Mi primer truco de Pronunciación",url: "https://www.youtube.com/watch?v=gMlip7427kU&t=22s&ab_channel=MyEnglishBro"},           
             {  titulo:"📥 Mi primer truco de Pronunciación",url: "https://drive.google.com/file/d/1VhB8Kjr3YbARZU6KhPMvlPa0pZi92hX0/view?usp=sharing"},
             {  titulo:"🎬Los Saludos",url: "https://www.youtube.com/watch?v=xipdKtlzxAg&t=435s"},           
+            {  titulo:"[🗂️Infografía]Los Saludos ", url: "https://drive.google.com/file/d/1o8x7wvOmzrozDie2dizqliw7Eb5QGsw4/view?usp=sharing"},
+
             {  titulo:"🎬 Saludos y Despedidas",url: "https://docs.google.com/presentation/d/1QRZkXcYvHJFPhIMW7-7JdMKAtMmFQt2P/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
             {  titulo:"🎬The Alphabet",url: "https://www.youtube.com/watch?v=fG9ccbmA0-o"},
-            {  titulo:"[🗂️Slide] The Alphabet",url: "https://docs.google.com/presentation/d/1p5Qm25h1HiPBfcF4F00QICF6HrluHfSP/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
+            {  titulo:"[🗂️Infografía]The Alphabet ", url: "https://drive.google.com/file/d/10pTYkkB8ni0Ng3cxwv8mYuE7pQ6BF_Y-/view?usp=sharing"},
+
             {  titulo:"[🖥️Challenge] Spelling Names",url: "https://www.youtube.com/watch?v=NKZejheVK8w"},
-            {  titulo:"[🗂️Slide] Spelling Names",url: "https://docs.google.com/presentation/d/1QJfnfrNOqtjmpGcj_NqfpQP37zaLLh_W/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
             {  titulo:"[🖥️Solution] Spelling Names",url: "https://youtu.be/s-PqZNY9NIE"},
-            {  titulo:"[🖥️Class] A/An Indefinite Articles",url: "https://www.youtube.com/watch?v=fG9ccbmA0-o"},
-            {  titulo:"[🗂️Slide] A/An Indefinite Articles ", url: "https://docs.google.com/presentation/d/1-lqXRswgjGXe05eh_waU0tBDo-YT45JC/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
+            {  titulo:"[🖥️Class] A/An Explicación",url: "https://youtu.be/6PHOdNLdjok"},
+            {  titulo:"[🗂️Infografía] a/an  ", url: "https://drive.google.com/file/d/1MsMemHQtawat60xSxQFrWp3daZOLKJ3l/view?usp=sharing"},
+            {  titulo:"🎬 12 Verbos Importantes en Ingles",url: "https://youtu.be/NuCWBUcvvaY"},
+            {  titulo:"[🗂️Infografía] 12 Verbos Importantes en Ingles  ", url: "https://drive.google.com/file/d/1NGzis_cW6axVXqX5h7scYNn48FvZifrv/view?usp=sharing"},
+            {  titulo:"🎬 Las Preposiciones",url: "https://youtu.be/8JEvVGC1HoQ"},
+            {  titulo:"[🗂️Infografía] Las Preposiciones  ", url: "https://drive.google.com/file/d/1T2S3iq7ziQCr5CIDOdMrAd_zEQ0SkGYH/view?usp=sharing"},
+
             {  titulo:"[🧩 ] A/An Indefinite Articles ", url: "https://wordwall.net/play/25729/634/81869"},
             {  titulo:"🎬 Practicando A/An Indefinite Articles",url: "https://www.youtube.com/watch?v=oJHez43MOCM&ab_channel=MyEnglishBro"},
-            {  titulo:"🎬 The English Structure ", url: "https://youtu.be/h4uL68plGkw?si=anrtlRavkFlaRK9K"},
-            {  titulo:"[🗂️Slide] The English Structure", url: "https://docs.google.com/presentation/d/161TA3DKqAAgy8HJFo_BzyM8-CxpseNXZ/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
+            {  titulo:"🎬 Los Plurales en Ingles",url: "https://youtu.be/acpprMF4NhY"},
+            {  titulo:"[🗂️Infografía]Plurales ", url: "https://drive.google.com/file/d/1QeZ9rmMlgkaqHO5Dyfpmp7hk5pcZ7Uwy/view?usp=sharing"},
+
+            {  titulo:"🎬 The English Structure ", url: "https://youtu.be/KHtBBCOnaKg"},
+            {  titulo:"[🗂️Slide] The English Structure", url: "https://drive.google.com/file/d/1uhrnYQzPAG_dm2uXmfjew22pXEtNa-6S/view?usp=sharing"},
             {  titulo:"[🖥️Class] The Pronouns & Transformation", url: "https://www.youtube.com/watch?v=2Ty1I6hMq-g"},
-            {  titulo:"[🗂️Slide] The Pronouns & Transformation", url: "https://docs.google.com/presentation/d/1g9oaA24WsKlcS8P32zYHtdWGiRcyAIAi/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
             {  titulo:"[🖥️Class] The English Map", url: "https://www.youtube.com/watch?v=fOPkF348Kgg"},
-            {  titulo:"[🗂️Slide] The English Map", url: "https://docs.google.com/presentation/d/1C4u_yBRUiccDNiCFnz3n5kCWkqO8aJDz/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
            
            
             {  titulo:"📖Possessive", url: "https://docs.google.com/presentation/d/1UijMuEx-DdbZETXjEUUtT6IPkWF0az2w/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
