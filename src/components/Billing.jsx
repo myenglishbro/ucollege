@@ -1,33 +1,91 @@
-import { bill, google,apple } from "../assets/index";
-import styles, { layout } from "../style";
+import React from "react";
+import { brainwaveSymbol, check } from "../assets2";
+import { collabContent } from "../constants";
+import Button from "./Button";
 
 const Billing = () => (
-  <section id="product" className={layout.sectionReverse}>
-    <div className={layout.sectionImgReverse}>
-      {/* <img src={bill} alt="billing" className="w-[100%] h-[100%] relative z-[5]" /> */}
-      <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExb2tqdWxybDY4aWx3djF1cDhvanJqdTRrMmx5emp1YmE0cjZzdzQzMyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/O0PljfXqgLUUoO3fcL/giphy.gif" alt="billing" className="w-[90%] h-[100%] relative z-[5]" />
+  <div className="relative mx-auto max-w-6xl mt-10">
+    {/* Outer Gradient Border */}
+    <div
+      className="rounded-xl p-1"
+      style={{
+        backgroundImage:
+          "linear-gradient(to right bottom, rgb(79, 70, 229) 0%, rgb(165, 56, 164) 50%, rgb(220, 38, 38) 100%)",
+      }}
+    >
+      {/* Inner Content */}
+      <div className="rounded-lg bg-black/80 backdrop-blur">
+        <div className="px-8 py-10 sm:px-16">
+          {/* Title */}
+          <h2 className="text-center block w-full pb-2 bg-gradient-to-b from-white to-gray-400 bg-clip-text font-bold text-transparent text-3xl sm:text-4xl">
+            Rutas de Aprendizaje Autónomas ✨
+          </h2>
+          <p className="text-center mt-4 text-lg text-gray-400">
+            Escoge el plan que mejor se adapte a tus necesidades profesionales y aprovecha nuestra tecnología avanzada para llevar tus proyectos al siguiente nivel.
+          </p>
 
-      {/* gradient start */}
-      <div className="absolute z-[3] -left-1/2 top-0 w-[50%] h-[50%] rounded-full white__gradient" />
-      <div className="absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full pink__gradient" />
-      {/* gradient end */}
-    </div>
+          {/* Pricing Plans */}
+          <div className="mt-12 flex flex-wrap justify-center gap-8">
+            {/* Standard Plan */}
+            <div className="flex flex-col rounded-xl overflow-hidden border border-transparent hover:scale-105 transform transition-all max-w-xs">
+              <div className="px-6 py-8 sm:p-10 sm:pb-6 bg-gradient-to-r from-indigo-600 via-purple-700 to-pink-600 rounded-xl">
+                <div>
+                  <span className="inline-flex rounded-full bg-indigo-300 px-4 py-1 text-sm font-semibold text-indigo-700">
+                    Standard
+                  </span>
+                </div>
+                <div className="mt-6 flex items-baseline text-3xl font-extrabold text-white">
+                  $10-S/30
+                </div>
+                
+                
+              </div>
+              <div className="flex flex-1 flex-col justify-between rounded-b-xl bg-gray-900 p-6 sm:p-10 sm:pb-6">
+                <ul role="list" className="space-y-4">
+                  {[" Ruta Básico a avanzado 🚀","Ruta Cambridge /toefl /ielts","Ruta B2/C1" ,"Ruta de medicina 💊", "Ruta de software","🎥 Videos explicativos ","📄 Ejercicios en PDF y manuales ","🎯 Ejercicios dinámicos","✅ Clases en vivo los fines de semana 📚✨"].map((feature, i) => (
+                    <li key={i} className="flex items-start">
+                      <div className="flex-shrink-0">
+                        <img src={check} alt="check" className="w-6 h-6 flex-shrink-0 text-violet-600" />
+                      </div>
+                      <p className="ml-3 text-sm text-gray-300">{feature}</p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
 
-    <div className={layout.sectionInfo}>
-      <h2 className={styles.heading2}>
-      Clases<br className="sm:block hidden" /> 100% Vivenciales
-      </h2>
-      <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-     Contamos con un roadmap muy dinamico y desafios para mejorar tu aprendizaje de esta forma dominarás el inglés
-      </p>
-
-      <div className="flex flex-row flex-wrap sm:mt-5 mt-6">
-      <a href="https://www.udemy.com/user/carlos-apolaya-sanchez/"><img src={apple} alt="google_play" className="w-[128.86px] h-[42.05px] object-contain mr-5 cursor-pointer" /></a>
-
-       <a href="https://www.linkedin.com/in/carlosapolaya/"><img src={google} alt="google_play" className="w-[174.17px] h-[43.08px] object-contain cursor-pointer" /> </a> 
+            {/* Premium Plan */}
+            <div className="flex flex-col rounded-xl overflow-hidden border border-transparent hover:scale-105 transform transition-all max-w-xs">
+              <div className="px-6 py-8 sm:p-10 sm:pb-6 bg-gradient-to-r from-indigo-600 via-purple-700 to-pink-600 rounded-xl">
+                <div>
+                  <span className="inline-flex rounded-full bg-indigo-300 px-4 py-1 text-sm font-semibold text-indigo-700">
+                    Pro
+                  </span>
+                </div>
+                <div className="mt-6 flex items-baseline text-3xl font-extrabold text-white">
+                  $40-S/120
+                </div>
+                
+                
+              </div>
+              <div className="flex flex-1 flex-col justify-between rounded-b-xl bg-gray-900 p-6 sm:p-10 sm:pb-6">
+                <ul role="list" className="space-y-4">
+                  {[" Ruta Básico a avanzado 🚀","Ruta Cambridge /toefl /ielts","Ruta B2/C1" ,"Ruta de medicina 💊", "Ruta de software","🎥 Videos explicativos ","📄 Ejercicios en PDF y manuales ","🎯 Ejercicios dinámicos","✅ Clases en vivo los fines de semana 📚✨"].map((feature, i) => (
+                    <li key={i} className="flex items-start">
+                      <div className="flex-shrink-0">
+                        <img src={check} alt="check" className="w-6 h-6 flex-shrink-0 text-violet-600" />
+                      </div>
+                      <p className="ml-3 text-sm text-gray-300">{feature}</p>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </section>
+  </div>
 );
 
 export default Billing;

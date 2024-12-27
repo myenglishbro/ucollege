@@ -15,37 +15,33 @@ const Collaboration = () => {
       >
         {/* Inner Content */}
         <div className="rounded-lg bg-black/80 backdrop-blur">
-          <div className="flex w-full flex-wrap items-center justify-between gap-8 px-8 py-10 sm:px-16 lg:flex-nowrap">
-            {/* Left Content: Header and Description */}
+          <div className="flex flex-wrap w-full items-center justify-between gap-8 px-8 py-10 sm:px-16">
+            {/* Left Content: Header and Highlights */}
             <div className="lg:max-w-xl">
               <h2 className="block w-full pb-2 bg-gradient-to-b from-white to-gray-400 bg-clip-text font-bold text-transparent text-3xl sm:text-4xl">
-              Únete a nuestros programas de inglés ✨
-
-            </h2>
-              
+                🌟 Clases de Inglés Personalizadas
+              </h2>
               <p className="my-4 bg-transparent font-medium leading-relaxed tracking-wide text-gray-400">
-              Ofrecemos clases privadas individuales y grupales, adaptadas a tus necesidades específicas. Ya sea que necesites apoyo para aprobar una certificación internacional, asesoría en inglés para tu carrera profesional, o simplemente mejorar tus habilidades lingüísticas, nuestras clases están diseñadas para ti.</p>
+                Aprende inglés de forma efectiva y divertida. 🎯 Diseñamos las clases a tu medida: individuales o grupales, ¡tú eliges! 💬
+              </p>
               <ul className="mt-6 space-y-4">
                 {collabContent.map((item) => (
                   <li key={item.id} className="flex items-start space-x-3">
-                    <img
-                      src={check}
-                      alt="check"
-                      className="w-6 h-6 flex-shrink-0 text-violet-600"
-                    />
+                    <span className="text-xl">✅</span>
                     <span className="text-gray-300">{item.title}</span>
                   </li>
                 ))}
               </ul>
             </div>
 
-            {/* Right Content: Call to Action Buttons */}
-            <div className="flex flex-wrap items-center justify-center gap-6">
-              <button className="bg-violet-600 text-white button-text flex items-center justify-center whitespace-nowrap rounded-md transition-all duration-300 px-8 py-3 text-xs sm:text-sm">
-                Get Started
+            {/* Right Content: Visual and Call to Action */}
+            <div className="flex flex-col items-center justify-center gap-6">
+              
+              <button className="bg-gradient-to-r from-purple-600 to-pink-600 text-white flex items-center justify-center rounded-full transition-transform transform hover:scale-105 px-6 py-3 text-sm font-medium shadow-lg">
+                🚀 Comienza Hoy
               </button>
-              <button className="flex items-center justify-center whitespace-nowrap rounded-md border border-zinc-700 bg-zinc-900 text-center text-white backdrop-blur transition-all hover:bg-zinc-800 px-8 py-3 text-xs sm:text-sm">
-                Learn More
+              <button className="flex items-center justify-center rounded-full border border-zinc-700 bg-zinc-900 text-center text-white backdrop-blur transition-transform transform hover:scale-105 px-6 py-3 text-sm font-medium">
+                📚 Aprende Más
               </button>
             </div>
           </div>

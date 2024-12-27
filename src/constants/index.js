@@ -443,16 +443,16 @@ export const navLinks =  [
 export const collabContent = [
   {
     id: "0",
-    title: "Personalización total: Nos ajustamos a tu nivel actual y estilo de aprendizaje para garantizar que avances de manera efectiva.",
+    title: " Nos ajustamos a tu nivel actual y estilo de aprendizaje para garantizar que avances de manera efectiva.",
     text: collabText,
   },
   {
     id: "1",
-    title: "Enfoque en tus metas: Desde habilidades conversacionales hasta inglés técnico o académico, cubrimos lo que necesitas para triunfar.",
+    title: " Desde habilidades conversacionales hasta inglés técnico o académico, cubrimos lo que necesitas para triunfar.",
   },
   {
     id: "2",
-    title: "Método práctico y dinámico: Aprende con estrategias diseñadas para que logres resultados reales en el menor tiempo posible.",
+    title: " Aprende con estrategias diseñadas para que logres resultados reales en el menor tiempo posible.",
   }
 ];
 

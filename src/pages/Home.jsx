@@ -30,7 +30,7 @@ const Home = () => {
      
 
       <Collaboration></Collaboration>
-     
+     <Billing></Billing>
         <Collaboration2 />
        
       
