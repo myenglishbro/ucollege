@@ -42,7 +42,7 @@ const Billing = () => (
               </div>
               <div className="flex flex-1 flex-col justify-between rounded-b-xl bg-gray-900 p-6 sm:p-10 sm:pb-6">
                 <ul role="list" className="space-y-4">
-                  {[" Ruta Básico a avanzado 🚀","Ruta Cambridge /toefl /ielts","Ruta B2/C1" ,"Ruta de medicina 💊", "Ruta de software","🎥 Videos explicativos ","📄 Ejercicios en PDF y manuales ","🎯 Ejercicios dinámicos","✅ Clases en vivo los fines de semana 📚✨"].map((feature, i) => (
+                  {["1 mes"," Ruta Básico a avanzado 🚀","Ruta Cambridge /toefl /ielts","Ruta B2/C1" ,"Ruta de medicina 💊", "Ruta de software","🎥 Videos explicativos ","📄 Ejercicios en PDF y manuales ","🎯 Ejercicios dinámicos","✅ Clases en vivo los fines de semana 📚✨"].map((feature, i) => (
                     <li key={i} className="flex items-start">
                       <div className="flex-shrink-0">
                         <img src={check} alt="check" className="w-6 h-6 flex-shrink-0 text-violet-600" />
@@ -70,7 +70,7 @@ const Billing = () => (
               </div>
               <div className="flex flex-1 flex-col justify-between rounded-b-xl bg-gray-900 p-6 sm:p-10 sm:pb-6">
                 <ul role="list" className="space-y-4">
-                  {[" Ruta Básico a avanzado 🚀","Ruta Cambridge /toefl /ielts","Ruta B2/C1" ,"Ruta de medicina 💊", "Ruta de software","🎥 Videos explicativos ","📄 Ejercicios en PDF y manuales ","🎯 Ejercicios dinámicos","✅ Clases en vivo los fines de semana 📚✨"].map((feature, i) => (
+                  {["6 meses"," Ruta Básico a avanzado 🚀","Ruta Cambridge /toefl /ielts","Ruta B2/C1" ,"Ruta de medicina 💊", "Ruta de software","🎥 Videos explicativos ","📄 Ejercicios en PDF y manuales ","🎯 Ejercicios dinámicos","✅ Clases en vivo los fines de semana 📚✨"].map((feature, i) => (
                     <li key={i} className="flex items-start">
                       <div className="flex-shrink-0">
                         <img src={check} alt="check" className="w-6 h-6 flex-shrink-0 text-violet-600" />
