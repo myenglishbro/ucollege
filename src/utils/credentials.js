@@ -27,6 +27,7 @@ export const validCredentials = [
       { expirationDate:"10 HOURS",nivel:"A1 Basic",usuario: 'cesarh', password: 'hurtado24', realname: 'Cesar Hurtado', img: 'https://i.ibb.co/8jqVPR9/432422606-449362764805007-920126.png' }, // No image
     
       {expirationDate:"07/01/25", nivel:"No se sabe aún",usuario: 'wilson31102018', password: '31102018', realname: 'Wilson Fernando Sánchez', img: 'https://i.ibb.co/dPjsKts/453744554-2910058252475655-71535.png' }, // No image
+      { nivel:"Udemy",usuario: 'udemy', password: 'repositorio', realname: 'Estudiante Autodidacta', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
 
       {expirationDate:"05/12/25", nivel:"Avanzado",usuario: 'josephcerna', password: 'cerna24', realname: 'Joseph Cerna Alfaro', img: 'https://i.ibb.co/Zxcrb7Y/445123758-558907093130667-813258.png' }, // No image
       { usuario: 'ragnarock129', password: 'edison129', realname: 'Edison Johamy Rossel Huaman', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
