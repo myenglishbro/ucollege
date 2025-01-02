@@ -31,12 +31,13 @@ const Home = () => {
 
       <Collaboration></Collaboration>
      <Billing></Billing>
-        <Collaboration2 />
        
       
-     
+      {/* Componente Collaboration2 */}
+        <Collaboration2 />
+      {/* Componente Collaboration3 */}
         <Collaboration3 />
-    
+
       <Pricing></Pricing>
       <Roadmap></Roadmap>
   

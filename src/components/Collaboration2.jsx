@@ -3,8 +3,8 @@ import React from "react";
 
 const Collaboration2 = () => {
   return (
-    <div className="h-screen w-screen bg-black">
-      <div className="mx-auto max-w-7xl pt-16 sm:pt-24">
+    <div className="h-screen w-screen bg-black sm:mb-15">
+      <div className="mx-auto max-w-7xl pt-16 sm:pt-24 sm:mb-10">
         <div className="space-y-8 lg:space-y-0 lg:grid lg:grid-cols-12 lg:gap-8">
           {/* Sección de Texto */}
           <div className="px-6 sm:text-center md:mx-auto md:max-w-2xl lg:col-span-6 lg:flex lg:items-center lg:text-left">
@@ -81,7 +81,7 @@ const Collaboration2 = () => {
           </div>
 
           {/* Sección de Video */}
-          <div className="flex items-center w-full col-span-6">
+          <div className="flex items-center w-full col-span-6 sm:mb-10">
             <div className="px-6 h-96 lg:h-full w-full max-w-2xl col-span-6 flex items-center mx-auto">
               <div className="w-full h-full">
                 <iframe

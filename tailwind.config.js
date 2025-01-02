@@ -7,6 +7,8 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
     "./public/assets/**/*.{js,ts,jsx,tsx}",
+    "./node_modules/flowbite/**/*.js",
+
   ],
   theme: {
     extend: {
