@@ -17,7 +17,7 @@ const RoadMapCelpip = () => {
 
   const validCredentials = [
 
-    { usuario: 'sara.galvez', password: 'mori2024', realname: 'Sara Galvez', img: 'https://i.ibb.co/DGWqgK8/411753490-270202325848420-673562.png' }, // No image
+    { usuario: 'sara.gSSalvez', password: 'mori202S4', realname: 'Sara Galvez', img: 'https://i.ibb.co/DGWqgK8/411753490-270202325848420-673562.png' }, // No image
     
 
   ];
