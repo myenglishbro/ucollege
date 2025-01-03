@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ReactTypingEffect from "react-typing-effect";
-import { FaTimes, FaBookOpen, FaWhatsapp } from "react-icons/fa";
+import { FaTimes, FaBookOpen, FaVideo  } from "react-icons/fa";
 
 const CardDeal2 = ({ realname, userImage, nivel, expirationDate }) => {
   const [isOpen, setIsOpen] = useState(true);
@@ -68,11 +68,12 @@ const CardDeal2 = ({ realname, userImage, nivel, expirationDate }) => {
               </button>
 
               <a
-                href="https://api.whatsapp.com/send?phone=51926922032&text=Hello%20Carlos!%20%F0%9F%99%82"
+                href="https://docs.google.com/document/d/12_tFvaP9xfnngRPT7FPxP_cjMeo51vdEyQ_kSaqDTu0/edit?usp=sharing"
                 className="px-6 py-3 flex items-center gap-3 bg-gradient-to-r from-green-500 to-purple-700 text-white font-bold rounded-lg shadow-lg hover:bg-gradient-to-l transform hover:scale-105 transition duration-300"
               >
-                <FaWhatsapp className="text-2xl" />
-                Realizar Consultas a Tutor
+                <FaVideo  className="text-2xl text-blue-500" />
+
+                Clases en vivo 
               </a>
             </div>
           </div>
