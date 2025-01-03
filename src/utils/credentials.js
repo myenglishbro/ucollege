@@ -64,5 +64,7 @@ export const validCredentials = [
       { expirationDate:"03/02/25",nivel:"Solicitar examen de Nivel ",usuario: 'respinoza', password: 'b22025', realname: 'Rodrigo Espinoza Purca', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
       { expirationDate:"03/02/25",nivel:"Solicitar examen de Nivel ",usuario: 'mapiscortes13', password: 'new2025', realname: 'Mapis Cortes', img: 'https://i.ibb.co/4tgC69R/440936636-615426947620202-708128.png' }, // No image
       { expirationDate:"03/02/25",nivel:"Solicitar examen de Nivel ",usuario: 'ismael.cruz', password: 'new2025', realname: 'Ismael David Cruz Machaca', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+      { expirationDate:"03/02/25",nivel:"Solicitar examen de Nivel ",usuario: 'hectorvc295', password: 'new2025', realname: 'Héctor Ventura Cercado', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+      { expirationDate:"03/02/25",nivel:"Solicitar examen de Nivel ",usuario: 'mgarcia', password: 'new2025', realname: 'Monica Garcia', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
 
     ];
