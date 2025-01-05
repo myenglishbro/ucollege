@@ -1,9 +1,8 @@
 export const roadmed = [
     {
         id: 0,
-        thumbnail:
-            "https://i.ibb.co/c3FmGzV/level1.png",
-        title: "Grabaciones de Clases en Vivo B2",
+        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+        title: "Recordings 2024",
         subtitle: "B2/C1",
         color: "#D6083B", // Propiedad de color añadida
 
@@ -43,9 +42,10 @@ export const roadmed = [
     },
     {
         id: 1,
-        thumbnail:
-            "https://i.ibb.co/c3FmGzV/level1.png",
-        title: "B2 PREPARATION 2024",
+        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+
+
+        title: "Recordings 2025",
         subtitle: "B2/C1",
         color: "#D6083B", // Propiedad de color añadida
 
@@ -64,9 +64,9 @@ export const roadmed = [
     },
     {
         id: 1,
-        thumbnail:
-            "https://i.ibb.co/c3FmGzV/level1.png",
-        title: "IELTS PREPARATION 2024",
+        thumbnail:"https://i.ibb.co/PGdF1Pw/Dise-o-sin-t-tulo-7.png",
+
+        title: "Recording IELTS 2024",
         subtitle: "B2/C1",
         color: "#D6083B", // Propiedad de color añadida
 
@@ -85,9 +85,9 @@ export const roadmed = [
     },
     {
         id: 1,
-        thumbnail:
-            "https://i.ibb.co/c3FmGzV/level1.png",
-        title: "👋 Must-Know Everyday English Expressions and Phrases",
+        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+
+        title: " English Expressions",
         subtitle: "B2/C1",
         color: "#D6083B", // Propiedad de color añadida
 
@@ -109,8 +109,8 @@ export const roadmed = [
     
     {
         id: 1,
-        thumbnail:
-            "https://i.ibb.co/c3FmGzV/level1.png",
+        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+
         title: "Information",
         subtitle: "B2/C1",
 
@@ -143,8 +143,8 @@ export const roadmed = [
     },
     {
         id: 3,
-        thumbnail:
-            "https://i.ibb.co/c3FmGzV/level1.png",
+        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+
         title: "Use of English - Part 1",
         subtitle: "B2/C1",
 
@@ -177,8 +177,8 @@ export const roadmed = [
     },
     {
         id: 4,
-        thumbnail:
-            "https://i.ibb.co/c3FmGzV/level1.png",
+        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+
         title: "Key Word Transformation",
         subtitle: "B2/C1",
 
@@ -205,8 +205,8 @@ export const roadmed = [
     },
     {
         id: 5,
-        thumbnail:
-            "https://i.ibb.co/c3FmGzV/level1.png",
+        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+
         title: "Connectives and Linking Phrases ",
         subtitle: "B2/C1",
 
@@ -268,7 +268,7 @@ export const roadmed = [
     {
         id: 12,
         thumbnail:
-            "https://i.ibb.co/c3FmGzV/level1.png",
+            "https://i.ibb.co/f4YQsS1/B2-FIRST-11.png",
         title: "Essential Grammar B2/C1",
         subtitle: "B2/C1",
 
@@ -441,7 +441,7 @@ export const roadmed = [
     {
         id: 13,
         thumbnail:
-            "https://i.ibb.co/0XR5yjD/990527648dc1fe389bb8568a632839e8-removebg-preview.png",
+            "https://i.ibb.co/yQ8fQ7L/B2-FIRST-12.png",
         title: "General Vocabulary (B1)",
         subtitle: "Basic Level",
 
