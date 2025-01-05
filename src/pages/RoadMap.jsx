@@ -140,6 +140,8 @@ const RoadMap = () => {
             viewedItems={viewedItems}
             setViewedItems={setViewedItems}
             className={isSidebarVisible ? 'visible' : ''}
+            realname={realname}
+            userImage={userImage}
           />
           {nivelSeleccionado !== null ? (
             <ContainerRoad

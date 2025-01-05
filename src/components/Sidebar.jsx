@@ -3,7 +3,7 @@ import { FaSearch } from 'react-icons/fa';
 import Hito from '../pages/Hito';
 import { mensajes } from '../utils/mensajes';
 
-const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) => {
+const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar, userImage,realname }) => {
   const [selectedIndex, setSelectedIndex] = useState(null);
   const [activeIndex, setActiveIndex] = useState(null);
   const [selectedLink, setSelectedLink] = useState(null);
@@ -73,6 +73,18 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
       </button>
 
       <div className={`sidebar ${isSidebarVisible ? 'visible' : ''}`}>
+        {/* User Info Section */}
+        <div className="user-info">
+          <img src={userImage} alt="User Avatar" className="user-photo" />
+          <div className="user-details">
+            <p className="user-name">{realname}</p>
+            <span className="online-status">
+              <div className="status-circle"></div> Online
+            </span>
+          </div>
+        </div>
+
+        {/* Search Bar */}
         <div className="search-bar">
           <input
             type="text"
@@ -86,6 +98,7 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
           </div>
         </div>
 
+        {/* Progress Bar */}
         <div className="progress-bar-container">
           <div className="progress-bar">
             <div className="progress" style={{ width: `${progress}%` }}></div>
@@ -93,6 +106,7 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
           <p className="progress-text">{progress}% completed</p>
         </div>
 
+        {/* Sidebar Content */}
         {filteredRoad.map((elemento, index) => (
           <div key={index} className="accordion-section">
             <button

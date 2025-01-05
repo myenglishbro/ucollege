@@ -759,3 +759,49 @@ right: 40px;
     transform: rotate(360deg);
   }
 }
+
+
+.user-info {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 15px;
+  background: #1E293B;
+  border-radius: 8px;
+}
+
+.user-photo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+  border: 2px solid #22C55E;
+}
+
+.user-details {
+  display: flex;
+  flex-direction: column;
+}
+
+.user-name {
+  color: #FFFFFF;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.online-status {
+  color: #22C55E;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.status-circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #22C55E;
+  margin-right: 5px;
+}
+
