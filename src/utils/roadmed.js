@@ -511,21 +511,18 @@ export const roadmed = [
                 titulo: "🖥️[Video] Speaking Trainer 02",
                 url: "https://drive.google.com/file/d/1Jiwqspyx05GE1Br1tTir8j-xWm1_-VbG/view?usp=sharing",
             },
-            {
-                titulo: "📒[pdf] speaking Part 1-2-3-4",
-                url: "https://docs.google.com/presentation/d/1Q7V5Ww0BAerQrYrVNFck7nU9YapznQql/edit?usp=sharing&ouid=114588820780661373500&rtpof=true&sd=true",
-            },
+            
             {
                 titulo: "🎯[Activity] speaking Part 1",
                 url: "https://wordwall.net/play/519/287/727",
             },
             {
                 titulo: "📒[pdf] Linking Words | B2 First (FCE)",
-                url: "https://docs.google.com/presentation/d/1B6PtmwOv-DQxTW4SpPQQ7iPhUH_d8Lxy/edit?usp=sharing&ouid=114588820780661373500&rtpof=true&sd=true",
+                url: "https://drive.google.com/file/d/1l7NLEB9G7uwaXkRONIKNJE7BjucKC_pC/view?usp=sharing",
             },
             {
                 titulo: "📒[pdf] 10 Preguntas de examen – Speaking Parte 1 (Entrevista) | B2 First (FCE)",
-                url: "https://docs.google.com/document/d/1kXkFOi-IFJP83_QTg6SZNKGfiSpI5IFXAlcTJmgwkJE/edit",
+                url: "https://drive.google.com/file/d/1Oe2kqUUQnetTzjYCcia8mx2IrPEurE92/view?usp=sharing",
             },
             {
                 titulo: "📒[pdf] Speaking Explanation",
