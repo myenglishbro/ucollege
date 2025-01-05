@@ -4,17 +4,46 @@ const Hito = ({ selectedLink }) => {
   const [isLoading, setIsLoading] = useState(true);
   const [popupBlocked, setPopupBlocked] = useState(false);
   const [showModal, setShowModal] = useState(false);
-  const [overlayActive, setOverlayActive] = useState(false);  // Estado para controlar el overlay
+  const [overlayActive, setOverlayActive] = useState(false);
+  const [showAlert, setShowAlert] = useState(false); // Estado para la alerta
 
   useEffect(() => {
     if (selectedLink) {
       setIsLoading(true);
       if (selectedLink.url.includes('quizlet.com')) {
         setShowModal(true);
-        setOverlayActive(true);  // Activa el overlay
+        setOverlayActive(true);
         openPopup(selectedLink.url);
       }
     }
+
+    // Detectar intentos de inspección
+    const handleContextMenu = (e) => {
+      e.preventDefault();
+      setShowAlert(true);
+    };
+
+    const handleKeyDown = (e) => {
+      // Bloquear F12 y Ctrl + Shift + I (para inspección)
+      if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I')) {
+        e.preventDefault();
+        setShowAlert(true);
+      }
+
+      // Bloquear Ctrl + C
+      if (e.ctrlKey && e.key === 'c') {
+        e.preventDefault();
+        setShowAlert(true);
+      }
+    };
+
+    document.addEventListener('contextmenu', handleContextMenu);
+    document.addEventListener('keydown', handleKeyDown);
+
+    return () => {
+      document.removeEventListener('contextmenu', handleContextMenu);
+      document.removeEventListener('keydown', handleKeyDown);
+    };
   }, [selectedLink]);
 
   const getEmbedUrl = (url) => {
@@ -46,11 +75,11 @@ const Hito = ({ selectedLink }) => {
 
     if (!popup || popup.closed || typeof popup.closed === 'undefined') {
       setPopupBlocked(true);
-      setShowModal(false);  // Hide modal if popup is blocked
-      setOverlayActive(false);  // Desactiva el overlay si el popup es bloqueado
+      setShowModal(false);
+      setOverlayActive(false);
     } else {
-      setShowModal(false);  // Hide modal once popup is opened
-      setOverlayActive(false);  // Desactiva el overlay una vez que el popup se haya abierto
+      setShowModal(false);
+      setOverlayActive(false);
     }
   };
 
@@ -59,6 +88,31 @@ const Hito = ({ selectedLink }) => {
       {/* Overlay gris que cubre la página */}
       {overlayActive && (
         <div className="overlay fixed inset-0 bg-gray-500 opacity-50 z-40"></div>
+      )}
+
+      {/* Alerta para el intento de inspección */}
+      {showAlert && (
+        <div className="fixed inset-0 flex items-center justify-center z-50 bg-gray-800 bg-opacity-50">
+          <div className="bg-red-500 text-white p-6 rounded-lg shadow-lg flex items-center space-x-4 animate-bounce max-w-xs w-full">
+            <img
+              src="https://i.ibb.co/cDR4rhr/My-english-bro-Personajek-10.png"
+              alt="Alert icon"
+              className="w-10 h-10"
+            />
+            <div>
+              <h2 className="text-lg font-bold">¡No hagas esto! 🚫</h2>
+              <p className="text-sm">
+                Crear contenido toma tiempo y esfuerzo. Por favor, respeta nuestro trabajo.
+              </p>
+            </div>
+            <button
+              onClick={() => setShowAlert(false)}
+              className="bg-white text-red-500 font-bold rounded px-3 py-1"
+            >
+              Cerrar
+            </button>
+          </div>
+        </div>
       )}
 
       {selectedLink ? (
