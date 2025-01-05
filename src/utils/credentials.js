@@ -9,13 +9,10 @@ export const validCredentials = [
     { expirationDate:"05/12/35",nivel:"C2",usuario: 'capolaya', password: 'meb1', realname: 'MyEnglishBro!', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
 
       { nivel:"6",usuario: 'KABEZINI', password: '@47830274S', realname: 'JUAN EDUARDO AYLAS INCISO', img: 'https://i.ibb.co/7bmgdmR/418722130-755683973286212-906722.png' }, // No image
-      { nivel:"6",usuario: 'JosueRv_24', password: 'jrvchoche', realname: 'Josue Ramirez ツ', img: 'https://i.ibb.co/RNVQ8VZ/OIP-10.jpg' }, // No image
       {expirationDate:"128 HOURS",nivel:"B1 Intermediate",usuario: 'andresdesigner', password: 'designer123', realname: 'Andres Jaramillo', img: 'https://i.ibb.co/gTNwpJQ/67d46012622105-63d2bfcf57030.png'  }, // No image
-      {nivel:"6", usuario: '62023170', password: '10671890', realname: 'Andrea Vargas', img: 'https://i.ibb.co/svCFBwh/d87156c7637fb0b757d3b087f67d92f1.jpg' },
       { nivel:"6",usuario: 'leonardoporras', password: 'leopo123', realname: 'Leonardo Perez Porras', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
       {nivel:"6", usuario: 'analimarrufo', password: 'anali84ma', realname: 'Anali Marrufo Huaman', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
       { nivel:"6",usuario: 'marvinmarrufo', password: 'marv84ma', realname: 'Marvin Alexis Marrufo Huamán', img: 'https://i.ibb.co/whkwM9K/436043875-857274965919994-320136.png' }, // No image
-      {nivel:"6", usuario: 'vanessae', password: 'canadianelt', realname: 'Vanessa Estrada', img: 'https://i.ibb.co/0nJVBvy/416640238-351256941104803-840339.png' }, // No image
       {nivel:"6", usuario: 'AniManrique', password: 'Ani1910', realname: 'Anita Manrique Chávez', img: 'https://i.ibb.co/jW5mpyy/463090300-530012092972416-4432276465281113242-n.jpg' }, // No image
       { expirationDate:"10 HOURS",nivel:"B2 Intermediate", usuario: 'Ppbergelund', password: 'pppublisher', realname: 'Pedro Bergelund', img: 'https://i.ibb.co/Ks3WrnN/426308282-432260169242381-257610.jpg' }, // No image
       { expirationDate:"05/01/25",nivel:"Intermedio",usuario: 'diegosego', password: 'segovia01', realname: 'Diego Segovia Gómez', img: 'https://i.ibb.co/ssX236w/454630848-467797286163219-647084.png' }, // No image
@@ -50,7 +47,6 @@ export const validCredentials = [
       { expirationDate:"06/01/25",nivel:"Avanzado",usuario: 'valeha', password: 'valehab2', realname: 'Valeria Huaynates', img: 'https://i.ibb.co/QK97rZ0/7146697477402558469c5-1080x1080.png' }, // No image
       { expirationDate:"09/01/25",nivel:"Tomar Examen",usuario: 'greissmorote', password: 'morote2024', realname: 'Greiss L. Morote', img: 'https://i.ibb.co/k8cBCmd/464336533-584423153935296-152733.pngg' }, // No image
       { expirationDate:"09/01/25",nivel:"Tomar Examen",usuario: 'angenuza', password: 'angelatoefl', realname: 'Angela Núñez Zambrano', img: 'https://i.ibb.co/vmtmVP8/353048455-232726119612469-634925.png' }, // No image
-      { expirationDate:"09/01/25",nivel:"A2 ",usuario: 'andreslopez', password: '25dmaus', realname: 'Manuel Andres Lopez', img: 'https://i.ibb.co/MnQP1Db/421605912-1292681458810749-14417.png' }, // No image
       { expirationDate:"10/01/25",nivel:"B2 ",usuario: 'jariel', password: 'jariel2025', realname: 'Johan Ariel Olives Vera', img: 'https://i.ibb.co/bvXp0XS/468271598-885227067051233-360620.png' }, // No image
       { expirationDate:"10/01/25",nivel:"B2 ",usuario: 'lilicelpip', password: 'lilica2024', realname: 'Liliana', img: 'https://i.ibb.co/VVTPrT9/459156263-936746281144279-986465.png' }, // No image
       { expirationDate:"12/01/25",nivel:"Solicitar examen de Nivel ",usuario: 'yen.contreras94', password: 'contreras94', realname: 'Yeni contreras', img: 'https://i.ibb.co/wWGSLc8/441035983-1176019753292670-21327.png' }, // No image
