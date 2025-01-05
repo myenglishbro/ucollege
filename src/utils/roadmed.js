@@ -484,6 +484,10 @@ export const roadmed = [
         description: "Aprende a hablar como un hablante nativo enfocándote en la pronunciación, entonación y expresiones idiomáticas para mejorar tu fluidez y naturalidad al hablar.",
         enlaces: [
             {
+                titulo: "🖥️[Video] Episodem  Website",
+                url: "https://www.youtube.com/watch?v=9dt6WOuoXos",
+            },
+            {
                 titulo: "🖥️[Video] B2 Speaking Simulation 01",
                 url: "https://drive.google.com/file/d/1QhvhLsCjF6V1BaYqpSd3cV9lgNuOCw_h/view?usp=sharing",
             },
