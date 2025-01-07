@@ -123,6 +123,17 @@ const RoadMap = () => {
             <p className="text-xs text-gray-500 text-center mt-4">
               Forgot your credentials? Contact your instructor. ✉️
             </p>
+            <p className="text-xs text-gray-500 text-center mt-2">
+  Quieres una prueba gratis por 3 días  ? Contact us on WhatsApp 📱 at 
+  <a
+    href="https://api.whatsapp.com/send?phone=51926922032&text=Hello%20Carlos!%20%F0%9F%99%82"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="text-blue-500 hover:underline"
+  >
+    this link
+  </a>.
+</p>
           </div>
         </div>
       )}

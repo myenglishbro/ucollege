@@ -161,7 +161,14 @@ const Hito = ({ selectedLink }) => {
               frameBorder="0"
               allow="fullscreen"
               onLoad={() => setIsLoading(false)}
-              className={`transition-opacity duration-300 ${isLoading ? 'opacity-0' : 'opacity-100'}`}
+              className={`transition-opacity duration-300 ${isLoading ? 'opacity-0' : 'opacity-100'} border-4 rounded-lg shadow-lg`}
+              style={{
+                borderImageSource: "url('https://upload.wikimedia.org/wikipedia/commons/3/3a/Green_blackboard_with_chalk.jpg')",
+                borderImageSlice: 1,
+                borderWidth: '10px',
+                borderRadius: '10px',
+                boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+              }}
             ></iframe>
           )}
 

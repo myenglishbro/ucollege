@@ -10,6 +10,9 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar, user
   const [searchTerm, setSearchTerm] = useState('');
   const [viewedItems, setViewedItems] = useState([]);
   const [achievementMessage, setAchievementMessage] = useState('');
+  const [timerMinutes, setTimerMinutes] = useState(1);
+  const [timeLeft, setTimeLeft] = useState(0);
+  const [isTimerRunning, setIsTimerRunning] = useState(false);
 
   useEffect(() => {
     try {
@@ -23,7 +26,26 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar, user
   useEffect(() => {
     localStorage.setItem('viewedItems', JSON.stringify(viewedItems));
   }, [viewedItems]);
+  useEffect(() => {
+    if (isTimerRunning && timeLeft > 0) {
+      const timer = setInterval(() => {
+        setTimeLeft((prev) => prev - 1);
+      }, 1000);
 
+      return () => clearInterval(timer);
+    } else if (timeLeft === 0 && isTimerRunning) {
+      setIsTimerRunning(false);
+      alert('⏰ Time is up!');
+    }
+  }, [isTimerRunning, timeLeft]);
+  const startTimer = () => {
+    setTimeLeft(timerMinutes * 60);
+    setIsTimerRunning(true);
+  };
+
+  const stopTimer = () => {
+    setIsTimerRunning(false);
+  };
   useEffect(() => {
     const progress = calculateProgress();
     if (mensajes[progress]) {
@@ -72,18 +94,50 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar, user
         ☰
       </button>
 
-      <div className={`sidebar ${isSidebarVisible ? 'visible' : ''}`}>
+      <div className={`sidebar ${isSidebarVisible ? 'visible' : ''} bg-gray-900 text-white w-72 h-full fixed`}>
         {/* User Info Section */}
-        <div className="user-info">
-          <img src={userImage} alt="User Avatar" className="user-photo" />
+        <div className="user-info flex items-center p-4 border-b border-gray-700">
+          <img src={userImage} alt="User Avatar" className="user-photo w-14 h-14 rounded-full mr-4" />
           <div className="user-details">
-            <p className="user-name">{realname}</p>
-            <span className="online-status">
-              <div className="status-circle"></div> Online
+            <p className="user-name text-lg font-semibold">{realname}</p>
+            <span className="online-status flex items-center text-sm text-green-400">
+              <div className="status-circle w-2 h-2 bg-green-400 rounded-full mr-2"></div> Online
             </span>
           </div>
         </div>
 
+        {/* Timer Section */}
+        <div className="timer-section p-4 border-b border-gray-700">
+          <h2 className="text-lg font-semibold mb-2">Timer</h2>
+          <div className="flex items-center space-x-2">
+            <input
+              type="number"
+              min="1"
+              value={timerMinutes}
+              onChange={(e) => setTimerMinutes(e.target.value)}
+              className="w-16 p-2 rounded bg-gray-800 text-white text-center"
+            />
+            <span className="text-sm">minutes</span>
+          </div>
+          <div className="flex items-center space-x-4 mt-3">
+            <button
+              onClick={startTimer}
+              className="bg-blue-600 hover:bg-blue-500 text-white py-1 px-4 rounded"
+            >
+              Start
+            </button>
+            <button
+              onClick={stopTimer}
+              className="bg-red-600 hover:bg-red-500 text-white py-1 px-4 rounded"
+            >
+              Stop
+            </button>
+          </div>
+          {isTimerRunning && (
+            <p className="mt-3 text-sm">Time Left: {Math.floor(timeLeft / 60)}:{String(timeLeft % 60).padStart(2, '0')}</p>
+          )}
+        </div>
+      
         {/* Search Bar */}
         <div className="search-bar">
           <input
