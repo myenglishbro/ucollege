@@ -9,11 +9,12 @@ export const roadmed = [
         channel: "sdasd",
         description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
         enlaces: [
-           
+            { titulo:"📒 Study Guide",url: "https://drive.google.com/file/d/1pKc3ccQW3ToLCZo3Hpl-t7AztxsMokMD/view?usp=sharing"},
+
             { titulo:"📑English - Listening and speaking deck B2",url: "https://drive.google.com/file/d/1WWS3zyzQlu_5Zkv0y9HqRJMT9CeQnkpl/view?usp=sharing"},
             { titulo:"📑Cambridge B2 APLICATIVO COMPLETO",url: "https://drive.google.com/file/d/1CU9wjKF6k91uq1vgXAiSPx9LQmIP9Gos/view?usp=sharing"},
             { titulo:"📑FCE_english_words_and_collocations",url: "https://drive.google.com/file/d/1v46CdxreA1fd9G6L9bzttZrP2zEu5zs7/view?usp=sharing"},
-
+            
         ],
     },
     {
