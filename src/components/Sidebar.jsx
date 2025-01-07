@@ -3,7 +3,7 @@ import { FaSearch } from 'react-icons/fa';
 import Hito from '../pages/Hito';
 import { mensajes } from '../utils/mensajes';
 
-const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar, userImage,realname }) => {
+const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar, userImage, realname }) => {
   const [selectedIndex, setSelectedIndex] = useState(null);
   const [activeIndex, setActiveIndex] = useState(null);
   const [selectedLink, setSelectedLink] = useState(null);
@@ -13,7 +13,7 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar, user
   const [timerMinutes, setTimerMinutes] = useState(1);
   const [timeLeft, setTimeLeft] = useState(0);
   const [isTimerRunning, setIsTimerRunning] = useState(false);
-
+  const [showModal, setShowModal] = useState(false);  // Estado para controlar el modal
   useEffect(() => {
     try {
       const savedViewedItems = JSON.parse(localStorage.getItem('viewedItems')) || [];
@@ -26,6 +26,7 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar, user
   useEffect(() => {
     localStorage.setItem('viewedItems', JSON.stringify(viewedItems));
   }, [viewedItems]);
+
   useEffect(() => {
     if (isTimerRunning && timeLeft > 0) {
       const timer = setInterval(() => {
@@ -35,9 +36,10 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar, user
       return () => clearInterval(timer);
     } else if (timeLeft === 0 && isTimerRunning) {
       setIsTimerRunning(false);
-      alert('⏰ Time is up!');
+      setShowModal(true);  // Mostrar el modal cuando el tiempo termine
     }
   }, [isTimerRunning, timeLeft]);
+
   const startTimer = () => {
     setTimeLeft(timerMinutes * 60);
     setIsTimerRunning(true);
@@ -46,6 +48,19 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar, user
   const stopTimer = () => {
     setIsTimerRunning(false);
   };
+
+  const handleRestartTimer = () => {
+    setShowModal(false);
+    setTimeLeft(timerMinutes * 60);
+    setIsTimerRunning(true);
+  };
+
+  const handleStopTimer = () => {
+    setShowModal(false);
+    setIsTimerRunning(false);
+  };
+
+
   useEffect(() => {
     const progress = calculateProgress();
     if (mensajes[progress]) {
@@ -94,8 +109,8 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar, user
         ☰
       </button>
 
-      <div className={`sidebar ${isSidebarVisible ? 'visible' : ''} bg-gray-900 text-white w-72 h-full fixed`}>
-        {/* User Info Section */}
+      <div className={`sidebar ${isSidebarVisible ? 'visible' : ''} bg-gray-800 text-white w-72 h-full fixed shadow-lg`}>
+      {/* User Info Section */}
         <div className="user-info flex items-center p-4 border-b border-gray-700">
           <img src={userImage} alt="User Avatar" className="user-photo w-14 h-14 rounded-full mr-4" />
           <div className="user-details">
@@ -106,37 +121,52 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar, user
           </div>
         </div>
 
-        {/* Timer Section */}
-        <div className="timer-section p-4 border-b border-gray-700">
-          <h2 className="text-lg font-semibold mb-2">Timer</h2>
-          <div className="flex items-center space-x-2">
-            <input
-              type="number"
-              min="1"
-              value={timerMinutes}
-              onChange={(e) => setTimerMinutes(e.target.value)}
-              className="w-16 p-2 rounded bg-gray-800 text-white text-center"
-            />
-            <span className="text-sm">minutes</span>
+       {/* Timer Section */}
+         {/* Timer Section */}
+         <div className="timer-container">
+          <h2 className="timer-title">Timer</h2>
+          <div className="relative flex justify-center items-center w-32 h-32 mx-auto">
+            <svg className="absolute w-full h-full">
+              <circle className="text-gray-700" strokeWidth="4" stroke="currentColor" fill="transparent" r="50" cx="64" cy="64" />
+              <circle
+                className={`text-${isTimerRunning ? 'blue-600' : 'red-600'}`}
+                strokeWidth="4"
+                strokeDasharray="314"
+                strokeDashoffset={isTimerRunning ? (timeLeft / (timerMinutes * 60)) * 314 : 314}
+                strokeLinecap="round"
+                fill="transparent"
+                r="50"
+                cx="64"
+                cy="64"
+              />
+            </svg>
+            <span className="time-left">{Math.floor(timeLeft / 60)}:{String(timeLeft % 60).padStart(2, '0')}</span>
           </div>
-          <div className="flex items-center space-x-4 mt-3">
-            <button
-              onClick={startTimer}
-              className="bg-blue-600 hover:bg-blue-500 text-white py-1 px-4 rounded"
-            >
-              Start
-            </button>
-            <button
-              onClick={stopTimer}
-              className="bg-red-600 hover:bg-red-500 text-white py-1 px-4 rounded"
-            >
-              Stop
-            </button>
+
+          <div className="timer-input-section">
+            <input type="number" min="1" value={timerMinutes} onChange={(e) => setTimerMinutes(e.target.value)} className="timer-input" />
+            <span className="timer-label">minutes</span>
           </div>
-          {isTimerRunning && (
-            <p className="mt-3 text-sm">Time Left: {Math.floor(timeLeft / 60)}:{String(timeLeft % 60).padStart(2, '0')}</p>
-          )}
+          <div className="timer-buttons">
+            <button onClick={startTimer} className="timer-button start">Start</button>
+            <button onClick={stopTimer} className="timer-button stop">Stop</button>
+          </div>
         </div>
+
+        {/* Modal */}
+        {showModal && (
+          <div className="modal-overlay">
+            <div className="modal">
+              <h2 className="modal-title">⏰ Time's Up!</h2>
+              <p className="modal-message">The timer has ended. Would you like to restart?</p>
+              <div className="modal-buttons">
+                <button onClick={handleRestartTimer} className="modal-button restart">Restart Timer</button>
+                <button onClick={handleStopTimer} className="modal-button stop">Stop Timer</button>
+              </div>
+            </div>
+          </div>
+        )}
+
       
         {/* Search Bar */}
         <div className="search-bar">

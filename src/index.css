@@ -805,3 +805,191 @@ right: 40px;
   margin-right: 5px;
 }
 
+.timer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1e3a8a, #9333ea, #ec4899);
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.timer-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
+.timer-input-section {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.timer-input {
+  width: 60px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  color: #fff;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+.timer-input:focus {
+  border-color: #9333ea;
+  box-shadow: 0 0 10px #9333ea;
+}
+
+.timer-label {
+  font-size: 1rem;
+}
+
+.timer-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.timer-button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.timer-button.start {
+  background: #22c55e;
+  color: #fff;
+}
+
+.timer-button.start:hover {
+  background: #16a34a;
+  box-shadow: 0 0 15px #22c55e;
+}
+
+.timer-button.stop {
+  background: #ef4444;
+  color: #fff;
+}
+
+.timer-button.stop:hover {
+  background: #dc2626;
+  box-shadow: 0 0 15px #ef4444;
+}
+
+.timer-display {
+  margin-top: 20px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
+}
+
+.time-left {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+/* Modal overlay styles */
+.modal-overlay {
+  position: fixed; /* Fixed position to cover the entire screen */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent dark background */
+  display: flex;
+  justify-content: center; /* Center the modal horizontally */
+  align-items: flex-start; /* Align the modal to the top */
+  z-index: 9999; /* Ensure it's above other elements */
+  opacity: 0; /* Initially hidden */
+  animation: fadeIn 0.3s forwards; /* Fade-in animation */
+}
+
+/* Animation for modal fade-in */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Modal box styles */
+.modal {
+  background-color: #2d2d2d; /* Dark background for the modal */
+  padding: 30px;
+  border-radius: 12px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5); /* Deep shadow for a floating effect */
+  color: #e4e4e4; /* Light text color for contrast */
+  font-family: 'Arial', sans-serif;
+  z-index: 10000;
+  animation: slideUp 0.5s ease-out; /* Slide-up animation */
+  transform: translateY(50px); /* Start from below */
+}
+
+/* Animation to slide the modal from the top */
+@keyframes slideDown {
+  from {
+    transform: translateY(-100px); /* Start from above the screen */
+  }
+  to {
+    transform: translateY(0); /* End at normal position */
+  }
+}
+
+/* Modal title */
+.modal-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Modal message */
+.modal-message {
+  margin: 10px 0;
+}
+
+/* Button container */
+.modal-buttons {
+  display: flex;
+  justify-content: space-around; /* Space the buttons evenly */
+}
+
+/* Common button styles */
+.modal-button {
+  background-color: #1e40af;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.modal-button:hover {
+  background-color: #2563eb; /* Hover effect */
+}
+
+/* Restart button */
+.restart {
+  background-color: #22c55e; /* Green color for restart */
+}
+
+/* Stop button */
+.stop {
+  background-color: #ef4444; /* Red color for stop */
+}
