@@ -24,7 +24,7 @@ export const validCredentials = [
       // { usuario: 'ragnarock129', password: 'edison129', realname: 'Edison Johamy Rossel Huaman', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
       { nivel:"6",usuario: 'everttello', password: 'everttello24', realname: 'Evert Tello Melo', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
       {  expirationDate:"03/01/25",nivel:"6",usuario: 'zaidaz', password: 'zorrilla24', realname: 'Zaida Zorrilla', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-      { nivel:"6",usuario: 'juanp', password: 'aguero24', realname: 'JUAN PABLO AGUERO JAIMES', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+      // { nivel:"6",usuario: 'juanp', password: 'aguero24', realname: 'JUAN PABLO AGUERO JAIMES', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
       // { nivel:"6",usuario: 'dianah', password: 'dianah24', realname: 'Diana C. Huarcaya', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
       { nivel:"6",usuario: 'manpardave', password: 'manpardave24', realname: 'Manuel Anthony Pardave Patiño', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
       { nivel:"6",usuario: 'r23425307', password: 'rocio24', realname: 'Rocio Soncco Ancco', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
@@ -62,5 +62,7 @@ export const validCredentials = [
       {  expirationDate:"05/02/25",nivel:"Solicitar examen de Nivel",usuario: 'Hernandez', password: '76221055', realname: 'Gustavo Hernández', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
       {  expirationDate:"05/02/25",nivel:"Solicitar examen de Nivel",usuario: 'naybeldy', password: 'tok2025', realname: 'Belen Garcia', img: 'https://i.ibb.co/ySRJWWC/471737707-615468074335571-438284.png' }, // No image
       { expirationDate:"06/02/25",nivel:"Solicitar examen de Nivel ",usuario: 'juancaipo', password: '14new2025', realname: 'Juan Jerson Caipo Celestino ', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+      { expirationDate:"06/04/25",nivel:"Solicitar examen de Nivel ",usuario: 'alexandra.julca', password: '3new2025', realname: 'Alexandra Julca Gamonal ', img: 'https://i.ibb.co/Ph1qW3s/465756046-439448415853203-490663.png' }, // No image
+      { expirationDate:"06/04/25",nivel:"Solicitar examen de Nivel ",usuario: 'alissonrondan0227', password: '3new2025', realname: 'Alisson Geraldine Rondan Niño  ', img: 'https://i.ibb.co/QcGTbNB/462751865-538130182184053-172767.png' }, // No image
 
     ];
