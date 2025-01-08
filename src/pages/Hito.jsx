@@ -5,7 +5,8 @@ const Hito = ({ selectedLink }) => {
   const [popupBlocked, setPopupBlocked] = useState(false);
   const [showModal, setShowModal] = useState(false);
   const [overlayActive, setOverlayActive] = useState(false);
-  const [showAlert, setShowAlert] = useState(false); // Estado para la alerta
+  const [showAlert, setShowAlert] = useState(false);
+  const [showBlackScreen, setShowBlackScreen] = useState(false);
 
   useEffect(() => {
     if (selectedLink) {
@@ -17,17 +18,27 @@ const Hito = ({ selectedLink }) => {
       }
     }
 
-    // Detectar intentos de inspección
+    // Detectar intentos de inspección y capturas de pantalla
     const handleContextMenu = (e) => {
       e.preventDefault();
       setShowAlert(true);
     };
 
     const handleKeyDown = (e) => {
-      // Bloquear F12 y Ctrl + Shift + I (para inspección)
-      if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I')) {
+      // Bloquear F12, Ctrl + Shift + I, y capturas de pantalla
+      if (
+        e.key === 'F12' ||
+        (e.ctrlKey && e.shiftKey && e.key === 'I') ||
+        e.key === 'PrintScreen'
+      ) {
         e.preventDefault();
         setShowAlert(true);
+      }
+
+      // Simular pantalla negra al presionar PrintScreen
+      if (e.key === 'PrintScreen') {
+        setShowBlackScreen(true);
+        setTimeout(() => setShowBlackScreen(false), 2000); // Pantalla negra por 2 segundos
       }
 
       // Bloquear Ctrl + C
@@ -89,6 +100,33 @@ const Hito = ({ selectedLink }) => {
       {overlayActive && (
         <div className="overlay fixed inset-0 bg-gray-500 opacity-50 z-40"></div>
       )}
+
+      {/* Pantalla negra temporal */}
+      {showBlackScreen && (
+        <div className="fixed inset-0 bg-black z-50"></div>
+      )}
+
+      {/* Marca de agua dinámica */}
+      <div className="fixed inset-0 pointer-events-none z-30">
+  <div
+    className="w-full h-full text-gray-300 opacity-30 flex items-center justify-center"
+    style={{
+      transform: 'rotate(-45deg)',
+      whiteSpace: 'nowrap',
+    }}
+  >
+    <img
+      src="https://i.ibb.co/xsLbfhf/Fondos-de-zoom-10.png"
+      className="opacity-30 w-full h-full object-contain"
+      alt="sda"
+      style={{
+        transform: 'rotate(45deg)',
+        opacity: 0.3, // Puedes ajustar la opacidad si lo deseas
+      }}
+    />
+  </div>
+</div>
+
 
       {/* Alerta para el intento de inspección */}
       {showAlert && (
