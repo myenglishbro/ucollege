@@ -25,9 +25,9 @@ export const validCredentials = [
       {  expirationDate:"03/01/25",nivel:"6",usuario: 'zaidaz', password: 'zorrilla24', realname: 'Zaida Zorrilla', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
       // { nivel:"6",usuario: 'juanp', password: 'aguero24', realname: 'JUAN PABLO AGUERO JAIMES', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
       // { nivel:"6",usuario: 'dianah', password: 'dianah24', realname: 'Diana C. Huarcaya', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-      { nivel:"6",usuario: 'manpardave', password: 'manpardave24', realname: 'Manuel Anthony Pardave Patiño', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+      // { nivel:"6",usuario: 'manpardave', password: 'manpardave24', realname: 'Manuel Anthony Pardave Patiño', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
       { nivel:"6",usuario: 'r23425307', password: 'rocio24', realname: 'Rocio Soncco Ancco', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-      { usuario: 'jmaria', password: 'villanuevaal', realname: 'Jhanet María Villanueva Alvarez', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+      // { usuario: 'jmaria', password: 'villanuevaal', realname: 'Jhanet María Villanueva Alvarez', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
       { nivel:"6",usuario: 'pj10hp', password: 'kevinl', realname: 'Kevin Leonardo Velasquez', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
       // {  expirationDate:"05/12/25",nivel:"6",usuario: 'vanessa11', password: 'picazo', realname: 'Vanessa Picazo', img: 'https://i.ibb.co/jHPhXyC/466372741-2441204982744014-5972945530289170063-n.jpg' }, // No image
       { expirationDate:"05/12/25",nivel:"Básico",usuario: 'shirleyusa', password: 'betchipana', realname: 'Shirley Betsabe Chipana Vargas', img: 'https://i.ibb.co/0Dg5hwf/458980083-848596140539858-893142.png' }, // No image
