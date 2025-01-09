@@ -761,146 +761,82 @@ right: 40px;
 }
 
 
-.user-info {
-  display: flex;
-  align-items: center;
-  padding: 10px;
-  margin-bottom: 15px;
-  background: #1E293B;
-  border-radius: 8px;
-}
-
-.user-photo {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  margin-right: 10px;
-  border: 2px solid #22C55E;
-}
-
-.user-details {
-  display: flex;
-  flex-direction: column;
-}
-
-.user-name {
-  color: #FFFFFF;
-  font-size: 18px;
-  font-weight: bold;
-  margin: 0;
-}
-
-.online-status {
-  color: #22C55E;
-  font-size: 14px;
-  display: flex;
-  align-items: center;
-}
-
-.status-circle {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
-  background: #22C55E;
-  margin-right: 5px;
-}
 
 .timer-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(135deg, #1e3a8a, #9333ea, #ec4899);
-  color: #fff;
-  font-family: 'Roboto', sans-serif;
   padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+  text-align: center;
 }
 
 .timer-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.timer-circle {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.timer-circle svg {
+  transform: rotate(-90deg);
+}
+
+.timer-circle .circle-bg {
+  fill: none;
+  stroke: #4b5563;
+  stroke-width: 10;
+}
+
+.timer-circle .circle-progress {
+  fill: none;
+  stroke: #3b82f6;
+  stroke-width: 10;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.5s ease-out;
+}
+
+.time-left {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   font-size: 2rem;
   font-weight: bold;
-  margin-bottom: 20px;
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
-}
-
-.timer-input-section {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 20px;
-}
-
-.timer-input {
-  width: 60px;
-  height: 40px;
-  text-align: center;
-  font-size: 1.5rem;
-  background: rgba(255, 255, 255, 0.1);
-  border: 2px solid rgba(255, 255, 255, 0.3);
-  border-radius: 8px;
-  color: #fff;
-  outline: none;
-  transition: all 0.3s ease;
-}
-
-.timer-input:focus {
-  border-color: #9333ea;
-  box-shadow: 0 0 10px #9333ea;
-}
-
-.timer-label {
-  font-size: 1rem;
+  color: #ffffff;
 }
 
 .timer-buttons {
-  display: flex;
-  gap: 20px;
+  margin-top: 20px;
 }
 
 .timer-button {
+  background-color: #3b82f6;
+  color: #ffffff;
+  font-size: 1rem;
   padding: 10px 20px;
-  font-size: 1.2rem;
-  font-weight: bold;
+  margin: 5px;
   border: none;
-  border-radius: 10px;
+  border-radius: 25px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
-.timer-button.start {
-  background: #22c55e;
-  color: #fff;
-}
-
-.timer-button.start:hover {
-  background: #16a34a;
-  box-shadow: 0 0 15px #22c55e;
+.timer-button:hover {
+  background-color: #2563eb;
 }
 
 .timer-button.stop {
-  background: #ef4444;
-  color: #fff;
+  background-color: #ef4444;
 }
 
 .timer-button.stop:hover {
-  background: #dc2626;
-  box-shadow: 0 0 15px #ef4444;
+  background-color: #dc2626;
 }
 
-.timer-display {
-  margin-top: 20px;
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #fff;
-  text-shadow: 0 0 10px rgba(255, 255, 255, 0.7);
-}
-
-.time-left {
-  font-size: 2rem;
-  font-weight: bold;
-}
 
 /* Modal overlay styles */
 .modal-overlay {

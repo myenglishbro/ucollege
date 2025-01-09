@@ -121,37 +121,37 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar, user
           </div>
         </div>
 
-       {/* Timer Section */}
-         {/* Timer Section */}
-         <div className="timer-container">
-          <h2 className="timer-title">Timer</h2>
-          <div className="relative flex justify-center items-center w-32 h-32 mx-auto">
-            <svg className="absolute w-full h-full">
-              <circle className="text-gray-700" strokeWidth="4" stroke="currentColor" fill="transparent" r="50" cx="64" cy="64" />
-              <circle
-                className={`text-${isTimerRunning ? 'blue-600' : 'red-600'}`}
-                strokeWidth="4"
-                strokeDasharray="314"
-                strokeDashoffset={isTimerRunning ? (timeLeft / (timerMinutes * 60)) * 314 : 314}
-                strokeLinecap="round"
-                fill="transparent"
-                r="50"
-                cx="64"
-                cy="64"
-              />
-            </svg>
-            <span className="time-left">{Math.floor(timeLeft / 60)}:{String(timeLeft % 60).padStart(2, '0')}</span>
-          </div>
-
-          <div className="timer-input-section">
-            <input type="number" min="1" value={timerMinutes} onChange={(e) => setTimerMinutes(e.target.value)} className="timer-input" />
-            <span className="timer-label">minutes</span>
-          </div>
-          <div className="timer-buttons">
-            <button onClick={startTimer} className="timer-button start">Start</button>
-            <button onClick={stopTimer} className="timer-button stop">Stop</button>
-          </div>
-        </div>
+        <div className="timer-container">
+  <h2 className="timer-title">⏱ Timer</h2>
+  <div className="timer-circle">
+    <svg width="150" height="150">
+      <circle className="circle-bg" cx="75" cy="75" r="70" />
+      <circle
+        className="circle-progress"
+        cx="75"
+        cy="75"
+        r="70"
+        style={{
+          strokeDasharray: 440,
+          strokeDashoffset: isTimerRunning
+            ? (timeLeft / (timerMinutes * 60)) * 440
+            : 440,
+        }}
+      />
+    </svg>
+    <span className="time-left">
+      {Math.floor(timeLeft / 60)}:{String(timeLeft % 60).padStart(2, "0")}
+    </span>
+  </div>
+  <div className="timer-buttons">
+    <button onClick={startTimer} className="timer-button">
+      Start
+    </button>
+    <button onClick={stopTimer} className="timer-button stop">
+      Stop
+    </button>
+  </div>
+</div>
 
         {/* Modal */}
         {showModal && (
