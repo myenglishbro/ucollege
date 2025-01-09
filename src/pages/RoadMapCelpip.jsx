@@ -17,8 +17,9 @@ const RoadMapCelpip = () => {
 
   const validCredentials = [
 
-    { usuario: 'sara.gSSalvez', password: 'mori202S4', realname: 'Sara Galvez', img: 'https://i.ibb.co/DGWqgK8/411753490-270202325848420-673562.png' }, // No image
-    
+    { usuario: 'capolaya', password: 'meb1', realname: 'Sara Galvez', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+    { expirationDate:"07/04/25",usuario: 'omarrodriguez', password: 'celpip25', realname: 'Omar Rodriguez', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+
 
   ];
 
