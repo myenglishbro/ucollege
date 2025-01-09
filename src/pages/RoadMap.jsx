@@ -124,57 +124,57 @@ const RoadMap = () => {
               Forgot your credentials? Contact your instructor. ✉️
             </p>
             <p className="text-xs text-gray-500 text-center mt-2">
-  Quieres una prueba gratis por 3 días  ? Contact us on WhatsApp 📱 at 
-  <a
-    href="https://api.whatsapp.com/send?phone=51926922032&text=Hello%20Carlos!%20%F0%9F%99%82"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="text-blue-500 hover:underline"
-  >
-    this link
-  </a>.
-</p>
+              Quieres una prueba gratis por 3 días? Contact us on WhatsApp 📱 at 
+              <a
+                href="https://api.whatsapp.com/send?phone=51926922032&text=Hello%20Carlos!%20%F0%9F%99%82"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 hover:underline"
+              >
+                this link
+              </a>.
+            </p>
           </div>
         </div>
       )}
 
       {mostrarComponente && (
-        <>
-          <button className="sidebar-toggle" onClick={toggleSidebar}>
-            ☰
-          </button>
-          <Sidebar
-            road={road}
-            seleccionarNivel={seleccionarNivel}
-            isSidebarVisible={isSidebarVisible}
-            toggleSidebar={toggleSidebar}
-            viewedItems={viewedItems}
-            setViewedItems={setViewedItems}
-            className={isSidebarVisible ? 'visible' : ''}
-            realname={realname}
-            userImage={userImage}
-          />
-          {nivelSeleccionado !== null ? (
-            <ContainerRoad
-              road={[road[nivelSeleccionado]]}
-              containerRefs={containerRefs}
-              password={codigo}
-              realname={realname}
-              nivel={nivel}
-              expirationDate={expirationDate}
-              userImage={userImage}
-            />
-          ) : (
-            <DefaultView
-              password={codigo}
-              nivel={nivel}
-              expirationDate={expirationDate}
-              realname={realname}
-              userImage={userImage}
-            />
-          )}
-        </>
-      )}
+  <>
+    <button className="sidebar-toggle" onClick={toggleSidebar}>
+      ☰
+    </button>
+    <Sidebar
+      road={road}
+      seleccionarNivel={seleccionarNivel}
+      isSidebarVisible={isSidebarVisible}
+      toggleSidebar={toggleSidebar}
+      viewedItems={viewedItems}
+      setViewedItems={setViewedItems}
+      className={isSidebarVisible ? 'visible' : ''}
+      realname={realname}
+      userImage={userImage}
+    />
+    <DefaultView
+      password={codigo}
+      nivel={nivel}
+      expirationDate={expirationDate}
+      realname={realname}
+      userImage={userImage}
+    />
+    {nivelSeleccionado !== null && (
+      <ContainerRoad
+        road={[road[nivelSeleccionado]]}
+        containerRefs={containerRefs}
+        password={codigo}
+        realname={realname}
+        nivel={nivel}
+        expirationDate={expirationDate}
+        userImage={userImage}
+      />
+    )}
+  </>
+)}
+
     </>
   );
 };

@@ -871,19 +871,47 @@ right: 40px;
 }
 
 .timer-input {
-  width: 60px; /* Ajusta el ancho para que sea más compacto */
-  padding: 5px; /* Reduce el padding para un diseño más minimalista */
-  font-size: 14px; /* Tamaño de fuente legible y proporcional */
-  font-weight: bold; /* Mantén el texto claro y destacado */
-  text-align: center; /* Centra el texto dentro del input */
-  color: #333; /* Texto de color oscuro */
-  background-color: #ffffff; /* Fondo blanco para contraste */
-  border: 2px solid #3b82f6; /* Borde con color llamativo */
-  border-radius: 5px; /* Bordes redondeados para un diseño moderno */
-  transition: all 0.3s ease; /* Animación suave para cambios */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px; /* Espaciado entre label e input */
+  margin-top: 20px;
 }
 
+.input-title {
+  font-size: 1.2rem;
+  color: #ffffff;
+  font-family: 'Poppins', sans-serif; /* Fuente moderna */
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
 
+/* Input de minutos */
+.input-minutes {
+  width: 100px; /* Tamaño más ancho para horizontalidad */
+  height: 50px; /* Altura cómoda */
+  text-align: center;
+  font-size: 20px; /* Texto destacado */
+  font-weight: bold; /* Resalta los números */
+  color: #ffffff; /* Texto blanco */
+  background: linear-gradient(145deg, #141e30, #243b55); /* Fondo futurista */
+  border: 2px solid transparent; /* Sin bordes visibles */
+  border-radius: 10px; /* Esquinas redondeadas */
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5); /* Sombra elegante */
+  transition: all 0.3s ease;
+}
+
+.input-minutes::placeholder {
+  color: rgba(255, 255, 255, 0.7); /* Placeholder translúcido */
+  font-style: italic; /* Estilo moderno */
+}
+
+.input-minutes:focus {
+  outline: none; /* Sin bordes adicionales */
+  border: 2px solid #3b82f6; /* Borde resaltado */
+  box-shadow: 0px 4px 20px rgba(59, 130, 246, 0.6); /* Sombra futurista */
+  background: linear-gradient(145deg, #0f172a, #1e293b); /* Cambia el fondo */
+}
 
 
 .timer-buttons {
@@ -1011,3 +1039,12 @@ right: 40px;
   background-color: #ef4444; /* Red color for stop */
 }
 
+.default-view {
+  position: relative;
+  z-index: 10; /* Un valor más alto asegura que se muestre encima */
+}
+
+.container-road {
+  position: relative;
+  z-index: 5;
+}

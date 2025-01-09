@@ -122,46 +122,50 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar, user
         </div>
 
         <div className="timer-container">
-          <h2 className="timer-title">⏱ Timer</h2>
-          <div className="timer-circle">
-            <svg width="150" height="150">
-              <circle className="circle-bg" cx="75" cy="75" r="70" />
-              <circle
-                className="circle-progress"
-                cx="75"
-                cy="75"
-                r="70"
-                style={{
-                  strokeDasharray: 440,
-                  strokeDashoffset: isTimerRunning
-                    ? (timeLeft / (timerMinutes * 60)) * 440
-                    : 440,
-                }}
-              />
-            </svg>
-            <span className="time-left">
-              {Math.floor(timeLeft / 60)}:{String(timeLeft % 60).padStart(2, "0")}
-            </span>
-          </div>
-          <div className="timer-input">
-            <input
-              type="number"
-              min="1"
-              value={timerMinutes}
-              onChange={(e) => setTimerMinutes(Number(e.target.value))}
-              className="input-minutes"
-              placeholder="Minutos"
-            />
-          </div>
-          <div className="timer-buttons">
-            <button onClick={startTimer} className="timer-button">
-              Start
-            </button>
-            <button onClick={stopTimer} className="timer-button stop">
-              Stop
-            </button>
-          </div>
-        </div>
+  <h2 className="timer-title">⏱ Timer</h2>
+  <div className="timer-circle">
+    <svg width="150" height="150">
+      <circle className="circle-bg" cx="75" cy="75" r="70" />
+      <circle
+        className="circle-progress"
+        cx="75"
+        cy="75"
+        r="70"
+        style={{
+          strokeDasharray: 440,
+          strokeDashoffset: isTimerRunning
+            ? (timeLeft / (timerMinutes * 60)) * 440
+            : 440,
+        }}
+      />
+    </svg>
+    <span className="time-left">
+      {Math.floor(timeLeft / 60)}:{String(timeLeft % 60).padStart(2, "0")}
+    </span>
+  </div>
+  <div className="timer-input">
+    <label className="input-title" htmlFor="input-minutes">
+      Set Timer:
+    </label>
+    <input
+      id="input-minutes"
+      type="number"
+      min="1"
+      value={timerMinutes}
+      onChange={(e) => setTimerMinutes(Number(e.target.value))}
+      className="input-minutes"
+      placeholder="00"
+    />
+  </div>
+  <div className="timer-buttons">
+    <button onClick={startTimer} className="timer-button">
+      Start
+    </button>
+    <button onClick={stopTimer} className="timer-button stop">
+      Stop
+    </button>
+  </div>
+</div>
 
         {showModal && (
           <div className="modal-overlay">
