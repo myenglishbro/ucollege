@@ -808,33 +808,114 @@ right: 40px;
   font-weight: bold;
   color: #ffffff;
 }
+.timer-container {
+  padding: 20px;
+  text-align: center;
+  background-color: #1f2937;
+  border-radius: 15px;
+  max-width: 400px;
+  margin: 20px auto;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.timer-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.timer-circle {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 20px auto;
+}
+
+.timer-circle svg {
+  transform: rotate(-90deg);
+}
+
+.timer-circle .circle-bg {
+  fill: none;
+  stroke: #4b5563;
+  stroke-width: 10;
+}
+
+.timer-circle .circle-progress {
+  fill: none;
+  stroke: #3b82f6;
+  stroke-width: 10;
+  stroke-linecap: round;
+  transition: stroke-dashoffset 0.5s ease-out;
+}
+
+.time-left {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+
+
+
+
+.input-title {
+  font-size: 1.2rem;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.timer-input {
+  width: 60px; /* Ajusta el ancho para que sea más compacto */
+  padding: 5px; /* Reduce el padding para un diseño más minimalista */
+  font-size: 14px; /* Tamaño de fuente legible y proporcional */
+  font-weight: bold; /* Mantén el texto claro y destacado */
+  text-align: center; /* Centra el texto dentro del input */
+  color: #333; /* Texto de color oscuro */
+  background-color: #ffffff; /* Fondo blanco para contraste */
+  border: 2px solid #3b82f6; /* Borde con color llamativo */
+  border-radius: 5px; /* Bordes redondeados para un diseño moderno */
+  transition: all 0.3s ease; /* Animación suave para cambios */
+}
+
+
+
 
 .timer-buttons {
-  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 15px;
 }
 
 .timer-button {
-  background-color: #3b82f6;
-  color: #ffffff;
-  font-size: 1rem;
   padding: 10px 20px;
-  margin: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #4caf50;
   border: none;
-  border-radius: 25px;
+  border-radius: 8px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .timer-button:hover {
-  background-color: #2563eb;
+  background-color: #45a049;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .timer-button.stop {
-  background-color: #ef4444;
+  background-color: #f44336;
 }
 
 .timer-button.stop:hover {
-  background-color: #dc2626;
+  background-color: #e53935;
 }
 
 
@@ -929,3 +1010,4 @@ right: 40px;
 .stop {
   background-color: #ef4444; /* Red color for stop */
 }
+

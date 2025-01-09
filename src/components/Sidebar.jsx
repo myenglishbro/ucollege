@@ -122,46 +122,59 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar, user
         </div>
 
         <div className="timer-container">
-  <h2 className="timer-title">⏱ Timer</h2>
-  <div className="timer-circle">
-    <svg width="150" height="150">
-      <circle className="circle-bg" cx="75" cy="75" r="70" />
-      <circle
-        className="circle-progress"
-        cx="75"
-        cy="75"
-        r="70"
-        style={{
-          strokeDasharray: 440,
-          strokeDashoffset: isTimerRunning
-            ? (timeLeft / (timerMinutes * 60)) * 440
-            : 440,
-        }}
-      />
-    </svg>
-    <span className="time-left">
-      {Math.floor(timeLeft / 60)}:{String(timeLeft % 60).padStart(2, "0")}
-    </span>
-  </div>
-  <div className="timer-buttons">
-    <button onClick={startTimer} className="timer-button">
-      Start
-    </button>
-    <button onClick={stopTimer} className="timer-button stop">
-      Stop
-    </button>
-  </div>
-</div>
+          <h2 className="timer-title">⏱ Timer</h2>
+          <div className="timer-circle">
+            <svg width="150" height="150">
+              <circle className="circle-bg" cx="75" cy="75" r="70" />
+              <circle
+                className="circle-progress"
+                cx="75"
+                cy="75"
+                r="70"
+                style={{
+                  strokeDasharray: 440,
+                  strokeDashoffset: isTimerRunning
+                    ? (timeLeft / (timerMinutes * 60)) * 440
+                    : 440,
+                }}
+              />
+            </svg>
+            <span className="time-left">
+              {Math.floor(timeLeft / 60)}:{String(timeLeft % 60).padStart(2, "0")}
+            </span>
+          </div>
+          <div className="timer-input">
+            <input
+              type="number"
+              min="1"
+              value={timerMinutes}
+              onChange={(e) => setTimerMinutes(Number(e.target.value))}
+              className="input-minutes"
+              placeholder="Minutos"
+            />
+          </div>
+          <div className="timer-buttons">
+            <button onClick={startTimer} className="timer-button">
+              Start
+            </button>
+            <button onClick={stopTimer} className="timer-button stop">
+              Stop
+            </button>
+          </div>
+        </div>
 
-        {/* Modal */}
         {showModal && (
           <div className="modal-overlay">
             <div className="modal">
               <h2 className="modal-title">⏰ Time's Up!</h2>
               <p className="modal-message">The timer has ended. Would you like to restart?</p>
               <div className="modal-buttons">
-                <button onClick={handleRestartTimer} className="modal-button restart">Restart Timer</button>
-                <button onClick={handleStopTimer} className="modal-button stop">Stop Timer</button>
+                <button onClick={handleRestartTimer} className="modal-button restart">
+                  Restart Timer
+                </button>
+                <button onClick={handleStopTimer} className="modal-button stop">
+                  Stop Timer
+                </button>
               </div>
             </div>
           </div>
