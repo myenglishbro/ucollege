@@ -5,6 +5,7 @@ import { validCredentials } from '../utils/credentials'; // Importa desde el arc
 
 import Sidebar from '../components/Sidebar';
 import DefaultView from '../components/DefaultView';
+import Banner from './Banner';
 
 const RoadMapMed = () => {
   const [usuario, setUsuario] = useState('');
@@ -75,54 +76,74 @@ const RoadMapMed = () => {
 
   return (
     <>
-      {!mostrarComponente && (
-        <div className="py-5 flex justify-center items-center min-h-screen bg-gray-100">
-          <div className="bg-white rounded-lg shadow-lg p-6 w-full max-w-sm">
-            <div className="flex justify-center mb-4">
-              <img
-                src="https://i.ibb.co/55qqtX6/My-english-bro-Logo-10.png"
-                alt="Logo"
-                className="h-16"
-              />
+         {!mostrarComponente && (
+        <div className="flex justify-center items-center  bg-gray-100 p-10">
+          {/* Contenedor del formulario y el Banner */}
+          <div className="flex flex-wrap justify-center gap-8 items-center max-w-6xl mx-auto ">
+            {/* Formulario de Login */}
+            <div className="bg-white rounded-lg shadow-lg p-6 w-full max-w-sm sm:max-w-md mt-11">
+              <div className="flex justify-center mb-4">
+                <img
+                  src="https://i.ibb.co/55qqtX6/My-english-bro-Logo-10.png"
+                  alt="Logo"
+                  className="h-16"
+                />
+              </div>
+              <h2 className="text-2xl font-bold text-gray-800 text-center mb-2">
+                Welcome, Student! 🎓
+              </h2>
+              <p className="text-sm text-gray-600 text-center mb-4">
+                Enter your credentials below.
+              </p>
+              <div className="space-y-4">
+                <input
+                  type="text"
+                  placeholder="Username"
+                  value={usuario}
+                  onChange={handleChangeUsuario}
+                  className="w-full px-3 py-2 rounded-lg border border-gray-300 shadow-sm text-gray-700 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                />
+                <input
+                  type="password"
+                  placeholder="Password"
+                  value={codigo}
+                  onChange={handleChangeCodigo}
+                  onKeyPress={handleKeyPress}
+                  className="w-full px-3 py-2 rounded-lg border border-gray-300 shadow-sm text-gray-700 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-400"
+                />
+                {errorMessage && (
+                  <p className="text-red-500 text-xs text-center">
+                    {errorMessage}
+                  </p>
+                )}
+                <button
+                  type="button"
+                  onClick={handleMostrarComponente}
+                  className="w-full py-2 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-600 transition duration-300"
+                >
+                  Access Roadmap
+                </button>
+              </div>
+              <p className="text-xs text-gray-500 text-center mt-4">
+                Forgot your credentials? Contact your instructor. ✉️
+              </p>
+              <p className="text-xs text-gray-500 text-center mt-2">
+                Quieres una prueba gratis por 3 días? Contactanos en WhatsApp 📱 
+                <a
+                  href="https://api.whatsapp.com/send?phone=51926922032&text=Hello%20Carlos!%20%F0%9F%99%82"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-blue-500 hover:underline"
+                >
+                  click aquí
+                </a>.
+              </p>
             </div>
-            <h2 className="text-2xl font-bold text-gray-800 text-center mb-2">
-              Welcome, Student! 🎓
-            </h2>
-            <p className="text-sm text-gray-600 text-center mb-4">
-              Enter your credentials below.
-            </p>
-            <div className="space-y-4">
-              <input
-                type="text"
-                placeholder="Username"
-                value={usuario}
-                onChange={handleChangeUsuario}
-                className="w-full px-3 py-2 rounded-lg border border-gray-300 shadow-sm text-gray-700 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-400"
-              />
-              <input
-                type="password"
-                placeholder="Password"
-                value={codigo}
-                onChange={handleChangeCodigo}
-                onKeyPress={handleKeyPress}
-                className="w-full px-3 py-2 rounded-lg border border-gray-300 shadow-sm text-gray-700 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-400"
-              />
-              {errorMessage && (
-                <p className="text-red-500 text-xs text-center">
-                  {errorMessage}
-                </p>
-              )}
-              <button
-                type="button"
-                onClick={handleMostrarComponente}
-                className="w-full py-2 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-600 transition duration-300"
-              >
-                Access Roadmap
-              </button>
+            
+            {/* Banner */}
+            <div className="w-full max-w-md">
+              <Banner />
             </div>
-            <p className="text-xs text-gray-500 text-center mt-4">
-              Forgot your credentials? Contact your instructor. ✉️
-            </p>
           </div>
         </div>
       )}
