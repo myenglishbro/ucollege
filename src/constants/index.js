@@ -38,135 +38,54 @@ import {
   cambridge,
   celpip
 } from "../assets2";
-export const navLinks =  [
-    {
-      title: "Home",
-      path: "/",
-     
-    },
-    {
-      title: "About",
-      path: "/About"
-      
-     
-    },
-    
-    {
-      title: "Info",
-      path: "/Precios"
-    },
-    {
-      title: "Library",
-      path: "/Store"
+export const navLinks = [
+  { title: "Home", path: "/" },
+ 
+  { title: "Library",       path: "/Store" },
   
-    },
-    {
-      title: "Clases",
-      path: "/Clases"
-     
-    },
-    {
-      title: "RoadMap",
-      path: "/RoadMap"
-  
-    },
-    {
-      title: "Horario",
-      path: "/Horario"
-  
-    },
-    {
-      title: "Extra",
-      path: "/PoliticasClase"
-    },
-    
-   
-   {
-      title: "B2/C1",
-      path: "/RoadMapMed"
-      
-    },
-    {
-      title: "Business",
-      path: "/RoadMapBusiness"
-      
-    }
-    ,{
-      title: "Health",
-      path: "/RoadMapHealth"
-      
-    },
-    {
-      title: "Tech",
-      path: "/RoadMapTech"
-      
-    },
-    {
-      title: "Engineering",
-      path: "/RoadMapEngine"
-      
-    },
-    {
-      title: "Mix",
-      path: "/RoadMapMix"
-      
-    },{
-      title: "Celpip",
-      path: "/Celpip"
-      
-    },
-    {
-      title: "French",
-      path: "/RoadMapFrench"
-      
-    }
-    ,
-    {
-      title: "Bootcamp",
-      path: "/Bootcamp"
-      
-    },{
-      title: "Enam",
-      path: "/Enam"
-      
-    }
-    
-    ,
-    {
-      title: "Student Zone",
-      dropdown: true,
-      dropdownLinks: [
-        {
-          title: "My Portal",
-          path: "/MyPortal"
-        },
-        {
-          title: "Horario",
-          path: "/Horario"
+  // Dropdowns
+ 
+  {
+    title: "About",
+    subLinks: [
+      { title: "Info",       path: "/Precios"
+      },
+      {
+        title: "Extra",
+        path: "/PoliticasClase"
+      },
+      // Otras subopciones de Roadmaps
+    ],
+  }, {
+    title: "Rutas",
+    subLinks: [
+      { title: "B2 FCE",       path: "/RoadMapB2"     },
+      { title: "C1 CAE", path: "/RoadMapC1"    },
+      // Otras subopciones de Roadmaps
+    ],
+  },
+  {
+    title: "Inglés Profesional",
+    subLinks: [
+      { title: "Business",path: "/RoadMapBusiness" },
+      { title: "Health",       path: "/RoadMapHealth" },
+      { title: "Tech",       path: "/RoadMapTech" },
+      { title: "cELPIP",       path: "/Celpip" },
+      {
+        title: "French",
+        path: "/RoadMapFrench"
         
-  
-        },
-        {
-          title: "Politicas de Clases",
-          path: "/PoliticasClase"
-         
+      },
+      {
+        title: "Bootcamp",
+        path: "/Bootcamp"
+        
+      }
       
-        },
-        {
-          title: "Pagos",
-          path: "/Pagos"
-      
-        }
-       ,
-        {
-          title: "Carlos Apolaya",
-          path: "https://meb3.vercel.app/"
-        }
-      ]
-      
-  
-    }
-  ];
+    
+    ],
+  },
+];
 
   export const footerLinks = [
     {
