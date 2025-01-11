@@ -62,6 +62,7 @@ export const navLinks = [
       { title: "A1 Movers",       path: "/RoadMapA1"     },
 
       { title: "A2 KEY",       path: "/RoadMap"     },
+      { title: "B1 PET",       path: "/RoadMapB1"     },
 
       { title: "B2 FCE",       path: "/RoadMapB2"     },
       { title: "C1 CAE", path: "/RoadMapC1"    },

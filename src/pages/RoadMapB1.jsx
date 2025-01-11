@@ -1,13 +1,13 @@
 import React, { useState, useEffect, useRef } from 'react';
 import ContainerRoad from './ContainerRoad';
-import { roadB2 } from "../utils/roadB2";
+import { roadB1 } from "../utils/roadB1";
 import { validCredentials } from '../utils/credentials'; // Importa desde el archivo
 
 import Sidebar from '../components/Sidebar';
 import DefaultView from '../components/DefaultView';
 import Banner from './Banner';
 
-const RoadMapB2 = () => {
+const RoadMapB1 = () => {
   const [usuario, setUsuario] = useState('');
   const [nivel, setNivel] = useState('');
   const [codigo, setCodigo] = useState('');
@@ -154,7 +154,7 @@ const RoadMapB2 = () => {
             ☰
           </button>
           <Sidebar
-            road={roadB2}
+            road={roadB1}
             seleccionarNivel={seleccionarNivel}
             isSidebarVisible={isSidebarVisible}
             toggleSidebar={toggleSidebar}
@@ -164,7 +164,7 @@ const RoadMapB2 = () => {
           />
           {nivelSeleccionado !== null ? (
             <ContainerRoad
-              road={[roadB2[nivelSeleccionado]]}
+              road={[roadB1[nivelSeleccionado]]}
               containerRefs={containerRefs}
               password={codigo}
               realname={realname}
@@ -187,4 +187,4 @@ const RoadMapB2 = () => {
   );
 };
 
-export default RoadMapB2;
+export default RoadMapB1;

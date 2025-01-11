@@ -38,7 +38,7 @@ const Hero2 = () => {
             Comunicate y expresate como todo un Nativo.
           </p>
           <a href="https://api.whatsapp.com/send?phone=51926922032&text=Hello%20Carlos!%20%F0%9F%99%82" className="bg-gradient-to-r from-purple-800 to-green-500 hover:from-pink-500 hover:to-green-500 text-white font-bold py-3 px-6 rounded-lg transform hover:scale-105 transition duration-300">
-            Contactar
+            Reservar Clases
           </a>
         </div>
 
