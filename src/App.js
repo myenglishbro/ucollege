@@ -57,6 +57,7 @@ import RoadMapEnam from "./pages/RoadMapEnam";
 import RoadMapFrench from "./pages/RoadMapFrench";
 import RoadMapB2 from "./pages/RoadMapB2";
 import RoadMapC1 from "./pages/RoadMapC1";
+import RoadMapA1 from "./pages/RoadMapA1";
 
 function App() {
   return (
@@ -74,6 +75,8 @@ function App() {
           <Route path="/About" element={<About />}></Route>
           <Route path="/Precios" element={<Precios />}></Route>
           <Route path="/Store" element={<Store />}></Route>
+          <Route path="/RoadMapA1" element={<RoadMapA1 />}></Route>
+
           <Route path="/RoadMap" element={<RoadMap />}></Route>
           <Route path="/RoadMapB2" element={<RoadMapB2 />}></Route>
           <Route path="/RoadMapC1" element={<RoadMapC1 />}></Route>
