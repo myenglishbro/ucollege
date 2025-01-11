@@ -653,59 +653,60 @@ right: 40px;
 
   
 }
-
-
-
-
-
 .search-bar {
   display: flex;
   align-items: center;
-  background-color: #1a1a1a; /* Fondo oscuro para un look moderno */
-  border-radius: 40px; /* Bordes redondeados */
-  padding: 8px 16px;
-  margin: 10px 0;
-  border: 1px solid #333; /* Borde sutil */
-  transition: box-shadow 0.3s, transform 0.3s; /* Transición suave */
+  background-color: #0d0d0d; /* Fondo más oscuro para un estilo futurista */
+  border-radius: 28px; /* Bordes más suaves */
+  padding: 6px 16px; /* Ajuste de padding */
+  margin: 10px 0; /* Espaciado vertical */
+  border: 1px solid #1f1f1f; /* Borde sutil */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.4); /* Sombra externa */
+  transition: box-shadow 0.3s ease, transform 0.2s ease;
 }
 
-
 .search-input {
-  width: 100%;
-  padding: 0.5rem;
-  border: none;
-  border-radius: 4px;
-  margin-right: 0.5rem;
+  flex: 1; /* Ocupa todo el espacio disponible */
+  background: transparent; /* Fondo transparente */
+  border: none; /* Sin bordes */
+  color: #eaeaea; /* Texto gris claro */
+  font-size: 15px; /* Tamaño de fuente equilibrado */
+  outline: none; /* Sin contorno */
+  padding: 4px 10px; /* Espaciado interno ajustado */
 }
 
 .search-input::placeholder {
-  color: #888; /* Color del texto del placeholder */
+  color: #555555; /* Placeholder más tenue */
+  font-style: italic; /* Estilo moderno */
 }
 
 .search-input:focus {
-  background-color: #333; /* Fondo oscuro al enfocar */
-  border-radius: 50px;
+  background-color: #1a1a1a; /* Fondo ligeramente más claro al enfocar */
+  box-shadow: 0 0 8px rgba(72, 211, 175, 0.6); /* Efecto de neón verde */
+  border-radius: 28px;
 }
 
 .search-icon {
-  margin-left: 10px; /* Espacio entre el ícono y el input */
-  cursor: pointer; /* Indica que es interactivo */
-  color: #e0e0e0; /* Color del ícono */
-  transition: color 0.3s, transform 0.3s; /* Transición suave */
-}
-
-
-
-.icon {
-  width: 12px; /* Tamaño del ícono */
-  height: 12px;
-}
-
-/* Para un ícono de lupa */
-.search-icon i {
   display: flex;
   align-items: center;
   justify-content: center;
+  width: 40px; /* Tamaño más prominente */
+  height: 40px; /* Tamaño más prominente */
+  background: linear-gradient(135deg, #48d3af, #2b8edf); /* Gradiente futurista */
+  border-radius: 50%; /* Forma circular */
+  border: none; /* Sin bordes */
+  cursor: pointer; /* Cursor interactivo */
+  transition: background 0.3s, transform 0.3s;
+}
+
+.search-icon:hover {
+  background: linear-gradient(135deg, #2b8edf, #48d3af); /* Inversión del gradiente */
+  transform: scale(1.1); /* Ligeramente más grande */
+}
+
+.icon {
+  color: #ffffff; /* Ícono blanco para contraste */
+  font-size: 18px; /* Tamaño proporcional al botón */
 }
 
 .progress-bar {
@@ -760,94 +761,42 @@ right: 40px;
   }
 }
 
-
-
 .timer-container {
-  padding: 20px;
-  text-align: center;
-}
-
-.timer-title {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: #ffffff;
-  margin-bottom: 15px;
-}
-
-.timer-circle {
-  position: relative;
-  width: 150px;
-  height: 150px;
-  margin: 0 auto;
-}
-
-.timer-circle svg {
-  transform: rotate(-90deg);
-}
-
-.timer-circle .circle-bg {
-  fill: none;
-  stroke: #4b5563;
-  stroke-width: 10;
-}
-
-.timer-circle .circle-progress {
-  fill: none;
-  stroke: #3b82f6;
-  stroke-width: 10;
-  stroke-linecap: round;
-  transition: stroke-dashoffset 0.5s ease-out;
-}
-
-.time-left {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 2rem;
-  font-weight: bold;
-  color: #ffffff;
-}
-.timer-container {
-  padding: 20px;
+  padding: 15px;
   text-align: center;
   background-color: #1f2937;
-  border-radius: 15px;
-  max-width: 400px;
-  margin: 20px auto;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  max-width: 300px;
+  margin: 10px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
 }
 
 .timer-title {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-weight: bold;
   color: #ffffff;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
-.timer-circle {
+.timer-progress {
   position: relative;
-  width: 150px;
-  height: 150px;
-  margin: 20px auto;
+  width: 100%;
+  margin: 10px 0;
 }
 
-.timer-circle svg {
-  transform: rotate(-90deg);
+.progress-bar-bg {
+  width: 100%;
+  height: 20px;
+  background: #4b5563;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
-.timer-circle .circle-bg {
-  fill: none;
-  stroke: #4b5563;
-  stroke-width: 10;
-}
-
-.timer-circle .circle-progress {
-  fill: none;
-  stroke: #3b82f6;
-  stroke-width: 10;
-  stroke-linecap: round;
-  transition: stroke-dashoffset 0.5s ease-out;
+.progress-bar-fill {
+  height: 100%;
+  background: #3b82f6;
+  transition: width 0.5s ease-out;
 }
 
 .time-left {
@@ -855,87 +804,74 @@ right: 40px;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 2rem;
+  font-size: 1.2rem;
   font-weight: bold;
   color: #ffffff;
-}
-
-
-
-
-
-.input-title {
-  font-size: 1.2rem;
-  color: #ffffff;
-  margin-bottom: 8px;
 }
 
 .timer-input {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 15px; /* Espaciado entre label e input */
-  margin-top: 20px;
+  gap: 10px;
+  margin-top: 10px;
 }
 
 .input-title {
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #ffffff;
-  font-family: 'Poppins', sans-serif; /* Fuente moderna */
+  font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
 
-/* Input de minutos */
 .input-minutes {
-  width: 100px; /* Tamaño más ancho para horizontalidad */
-  height: 50px; /* Altura cómoda */
+  width: 80px;
+  height: 40px;
   text-align: center;
-  font-size: 20px; /* Texto destacado */
-  font-weight: bold; /* Resalta los números */
-  color: #ffffff; /* Texto blanco */
-  background: linear-gradient(145deg, #141e30, #243b55); /* Fondo futurista */
-  border: 2px solid transparent; /* Sin bordes visibles */
-  border-radius: 10px; /* Esquinas redondeadas */
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.5); /* Sombra elegante */
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background: linear-gradient(145deg, #141e30, #243b55);
+  border: 2px solid transparent;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
   transition: all 0.3s ease;
 }
 
 .input-minutes::placeholder {
-  color: rgba(255, 255, 255, 0.7); /* Placeholder translúcido */
-  font-style: italic; /* Estilo moderno */
+  color: rgba(255, 255, 255, 0.7);
+  font-style: italic;
 }
 
 .input-minutes:focus {
-  outline: none; /* Sin bordes adicionales */
-  border: 2px solid #3b82f6; /* Borde resaltado */
-  box-shadow: 0px 4px 20px rgba(59, 130, 246, 0.6); /* Sombra futurista */
-  background: linear-gradient(145deg, #0f172a, #1e293b); /* Cambia el fondo */
+  outline: none;
+  border: 2px solid #3b82f6;
+  background: linear-gradient(145deg, #0f172a, #1e293b);
 }
-
 
 .timer-buttons {
   display: flex;
   justify-content: center;
-  gap: 15px;
-  margin-top: 15px;
+  gap: 10px;
+  margin-top: 10px;
 }
 
 .timer-button {
-  padding: 10px 20px;
-  font-size: 14px;
+  padding: 8px 16px;
+  font-size: 12px;
   font-weight: bold;
   color: #ffffff;
   background-color: #4caf50;
   border: none;
-  border-radius: 8px;
+  border-radius: 5px;
   cursor: pointer;
   transition: all 0.3s ease;
 }
 
 .timer-button:hover {
   background-color: #45a049;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 .timer-button.stop {
@@ -945,7 +881,6 @@ right: 40px;
 .timer-button.stop:hover {
   background-color: #e53935;
 }
-
 
 /* Modal overlay styles */
 .modal-overlay {

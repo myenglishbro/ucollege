@@ -120,25 +120,19 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar, user
             </span>
           </div>
         </div>
-
         <div className="timer-container">
   <h2 className="timer-title">⏱ Timer</h2>
-  <div className="timer-circle">
-    <svg width="150" height="150">
-      <circle className="circle-bg" cx="75" cy="75" r="70" />
-      <circle
-        className="circle-progress"
-        cx="75"
-        cy="75"
-        r="70"
+  <div className="timer-progress">
+    <div className="progress-bar-bg">
+      <div
+        className="progress-bar-fill"
         style={{
-          strokeDasharray: 440,
-          strokeDashoffset: isTimerRunning
-            ? (timeLeft / (timerMinutes * 60)) * 440
-            : 440,
+          width: isTimerRunning
+            ? `${(timeLeft / (timerMinutes * 60)) * 100}%`
+            : "0%",
         }}
-      />
-    </svg>
+      ></div>
+    </div>
     <span className="time-left">
       {Math.floor(timeLeft / 60)}:{String(timeLeft % 60).padStart(2, "0")}
     </span>
@@ -185,19 +179,20 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar, user
         )}
 
       
-        {/* Search Bar */}
-        <div className="search-bar">
-          <input
-            type="text"
-            placeholder="Search..."
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-            className="search-input"
-          />
-          <div className="search-icon">
-            <FaSearch className="icon" />
-          </div>
-        </div>
+      {/* Search Bar */}
+<div className="search-bar">
+  <input
+    type="text"
+    placeholder="Search..."
+    value={searchTerm}
+    onChange={(e) => setSearchTerm(e.target.value)}
+    className="search-input"
+  />
+  <button className="search-icon">
+    <FaSearch className="icon" />
+  </button>
+</div>
+
 
         {/* Progress Bar */}
         <div className="progress-bar-container">
