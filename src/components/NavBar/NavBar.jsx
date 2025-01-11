@@ -28,12 +28,13 @@ const Navbar = () => {
 
         {/* Desktop Navigation */}
         <ul className="list-none sm:flex hidden justify-end items-center flex-1">
-          {/* Main Links */}
           {navLinks.map((nav, index) =>
             !nav.subLinks ? (
               <motion.li
                 key={nav.title}
-                className={`font-medium cursor-pointer text-[16px] transition-all duration-300 ${active === nav.title ? "text-white" : "text-gray-400"} mr-10`}
+                className={`font-medium cursor-pointer text-[16px] transition-all duration-300 ${
+                  active === nav.title ? "text-white" : "text-gray-400"
+                } mr-10`}
                 onClick={() => setActive(nav.title)}
                 whileHover={{ scale: 1.1 }}
               >
@@ -43,7 +44,9 @@ const Navbar = () => {
               <motion.li key={nav.title} className="relative mr-12">
                 <button
                   onClick={() => handleDropdownToggle(index)}
-                  className="font-medium cursor-pointer text-[16px] text-gray-400"
+                  className={`font-medium cursor-pointer text-[16px] transition-all ${
+                    dropdownOpen === index ? "text-white" : "text-gray-400"
+                  }`}
                 >
                   {nav.title}
                 </button>
@@ -53,19 +56,23 @@ const Navbar = () => {
                       initial={{ opacity: 0, y: -10 }}
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: -10 }}
-                      className="absolute mt-2 bg-gray-800 rounded-xl shadow-lg p-3"
+                      className="absolute mt-4 bg-gray-800 rounded-lg shadow-xl py-3 px-4 w-[200px] z-50"
                     >
-                      {nav.subLinks.map((subNav) => (
-                        <li
+                      {nav.subLinks.map((subNav, subIndex) => (
+                        <motion.li
                           key={subNav.title}
-                          className="font-medium cursor-pointer text-[16px] text-gray-400 mb-3"
+                          whileHover={{
+                            scale: 1.05,
+                            backgroundColor: "#1E293B",
+                          }}
+                          className="font-medium text-[14px] text-gray-300 py-2 px-3 rounded-md cursor-pointer transition-all"
                           onClick={() => {
                             setActive(subNav.title);
                             setDropdownOpen(null);
                           }}
                         >
                           <Link to={subNav.path}>{subNav.title}</Link>
-                        </li>
+                        </motion.li>
                       ))}
                     </motion.ul>
                   )}
@@ -94,15 +101,18 @@ const Navbar = () => {
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -20 }}
-                className="p-6 bg-gray-800 absolute top-20 right-0 mx-4 my-2 min-w-[160px] rounded-xl shadow-lg z-50"
+                className="p-6 bg-gray-800 absolute top-20 right-0 mx-4 my-2 min-w-[200px] rounded-lg shadow-lg z-50"
               >
                 <ul className="list-none flex justify-end items-start flex-1 flex-col">
-                  {/* Main Links */}
                   {navLinks.map((nav, index) =>
                     !nav.subLinks ? (
                       <li
                         key={nav.title}
-                        className={`font-medium cursor-pointer text-[16px] ${active === nav.title ? "text-white" : "text-gray-400"} mb-6`}
+                        className={`font-medium cursor-pointer text-[16px] ${
+                          active === nav.title
+                            ? "text-white"
+                            : "text-gray-400"
+                        } mb-6`}
                         onClick={() => {
                           setActive(nav.title);
                           setToggle(false);
@@ -124,12 +134,12 @@ const Navbar = () => {
                               initial={{ opacity: 0, y: -10 }}
                               animate={{ opacity: 1, y: 0 }}
                               exit={{ opacity: 0, y: -10 }}
-                              className="absolute mt-2 bg-gray-800 rounded-xl shadow-lg p-3 w-full z-50"
+                              className="bg-gray-700 rounded-lg shadow-lg py-2 px-4 w-full"
                             >
                               {nav.subLinks.map((subNav) => (
                                 <li
                                   key={subNav.title}
-                                  className="font-medium cursor-pointer text-[16px] text-gray-400 mb-3"
+                                  className="font-medium text-[14px] text-gray-300 py-2 px-3 rounded-md hover:bg-gray-600 cursor-pointer"
                                   onClick={() => {
                                     setActive(subNav.title);
                                     setDropdownOpen(null);
