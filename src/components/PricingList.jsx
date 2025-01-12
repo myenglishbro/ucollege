@@ -71,9 +71,7 @@ const PricingCard = ({ item, index }) => {
                 </span>
               )}
             </div>
-            {item.price2 && (
-              <span className="text-lg font-semibold text-gray-500 ">{item.price2}</span>
-            )}
+            
           </div>
 
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>

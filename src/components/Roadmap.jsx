@@ -1,78 +1,83 @@
-import Button from "./Button";
-import Heading from "./Heading";
-import Section from "./Hero/Section";
-import Tagline from "./Tagline";
-import { roadmap } from "../constants";
-import { check2, grid, loading1 } from "../assets2";
-import { Gradient } from "./design/Roadmap";
+import React, { useState } from "react";
 
-const Roadmap = () => (
-  <Section className="overflow-hidden" id="roadmap">
-    <div className="container md:pb-10">
-      <Heading tag="Tomar en cuenta antes, durante y después de clases" title="Políticas de Clases a Distancia" />
+const Roadmap = () => {
+  const [activeIndex, setActiveIndex] = useState(null);
 
-      <div className="relative grid gap-6 md:grid-cols-2 md:gap-4 md:pb-[7rem]">
-        {roadmap.map((item) => {
-          const status = item.status === "done" ? "Done" : "In progress";
+  const toggleFAQ = (index) => {
+    setActiveIndex(activeIndex === index ? null : index);
+  };
 
-          return (
-            <div
-              className={`md:flex even:md:translate-y-[7rem] p-0.25 rounded-[2.5rem] ${
-                item.colorful ? "bg-conic-gradient" : "bg-n-6"
-              }`}
-              key={item.id}
+  const faqItems = [
+    {
+      question: "Puedo faltar a clases ?",
+answer:"Al cancelar la clase el mismo día o sin previo aviso, ten en cuenta que reservo ese tiempo exclusivamente para ti. Cancelaciones repentinas me dejan sin la posibilidad de asignar ese espacio a otro estudiante. Sin embargo, puedes reagendar tu clase si estás enfermo o ante una situación de fuerza mayor."
+     } , 
+     {
+      "question": "¿Puedo obtener un reembolso?",
+      "answer": "¡Por supuesto! Si después de tu primera clase no estás satisfecho con la metodología, puedes solicitar un reembolso. Valoramos tu experiencia y queremos asegurarnos de que estés completamente satisfecho."
+    }
+    ,
+    {
+      question: "puedo poner en pausa mis clases",
+      answer:
+        "¡Claro que sí! Pero recuerda que, al retomar, deberás revisar nuevamente los horarios disponibles, ya que no puedo garantizar que el horario anterior siga libre. ¡Los horarios están en constante movimiento con otros estudiantes!"
+    },
+  ];
+  return (
+    <div className="py-24 px-8 max-w-5xl mx-auto flex flex-col md:flex-row gap-12">
+      {/* Left Section */}
+      <div className="flex flex-col text-left basis-1/2">
+        <p className="inline-block font-semibold text-primary mb-4"> FAQ</p>
+        <p className="sm:text-4xl text-3xl font-extrabold text-base-content">
+          Políticas de Clases a Distancia
+        </p>
+      </div>
+
+      {/* FAQ List */}
+      <ul className="basis-1/2">
+        {faqItems.map((item, index) => (
+          <li key={index}>
+            <button
+              className="relative flex gap-2 items-center w-full py-5 text-base font-semibold text-left border-t md:text-lg border-base-content/10"
+              aria-expanded={activeIndex === index}
+              onClick={() => toggleFAQ(index)}
             >
-              <div className="relative p-8 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
-                <div className="absolute top-0 left-0 max-w-full">
-                  <img
-                    className="w-full"
-                    src={grid}
-                    width={550}
-                    height={550}
-                    alt="Grid"
-                  />
-                </div>
-                <div className="relative z-1">
-                  <div className="flex items-center justify-between max-w-[27rem] mb-8 md:mb-20">
-                    <Tagline>{item.date}</Tagline>
-
-                    <div className="flex items-center px-4 py-1 bg-n-1 rounded text-n-8">
-                      <img
-                        className="mr-2.5"
-                        src={item.status === "done" ? check2 : loading1}
-                        width={16}
-                        height={16}
-                        alt={status}
-                      />
-                      <div className="tagline">{status}</div>
-                    </div>
-                  </div>
-
-                  <div className="mb-10 -my-10 mx-5">
-                    <img
-                      className="w-auto"
-                      src={item.imageUrl}
-                      width={628}
-                      height={426}
-                      alt={item.title}
-                    />
-                  </div>
-                  <h4 className="h4 mb-4">{item.title}</h4>
-                  <p className="body-2 text-n-4">{item.text}</p>
-                </div>
+              <span className="flex-1 text-base-content">{item.question}</span>
+              <svg
+                className={`flex-shrink-0 w-4 h-4 ml-auto fill-current transition-transform duration-200 ${
+                  activeIndex === index ? "rotate-90" : ""
+                }`}
+                viewBox="0 0 16 16"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <rect y="7" width="16" height="2" rx="1"></rect>
+                <rect
+                  y="7"
+                  width="16"
+                  height="2"
+                  rx="1"
+                  className="transform origin-center rotate-90"
+                ></rect>
+              </svg>
+            </button>
+            <div
+              className={`transition-all duration-300 ease-in-out overflow-hidden ${
+                activeIndex === index ? "max-h-screen" : "max-h-0"
+              }`}
+              style={{
+                maxHeight: activeIndex === index ? "100%" : "0",
+              }}
+            >
+              <div className="pb-5 leading-relaxed">
+                <div className="space-y-2 leading-relaxed">{item.answer}</div>
               </div>
             </div>
-          );
-        })}
-
-        <Gradient />
-      </div>
-
-      <div className="flex justify-center mt-12 md:mt-15 xl:mt-20">
-        <Button href="/roadmap">Our roadmap</Button>
-      </div>
+          </li>
+        ))}
+      </ul>
     </div>
-  </Section>
-);
+  );
+};
+
 
 export default Roadmap;

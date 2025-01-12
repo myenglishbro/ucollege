@@ -4,6 +4,84 @@ import { useState } from "react";
 
 const plans = [
   {
+    name: "Paquete de Clases Premium",
+    description: "Este paquete de clases cuenta con 10 horas de clases en vivo",
+    imgSrc: "https://i.ibb.co/Syb9m2M/Black-And-White-Aesthetic-Minimalist-Modern-Simple-Typography-Coconut-Cosmetics-Logo-6.png",
+    features: [
+      "Tu clase se graba y se envia por correo a cada correo   ",
+      "Puedes hacer preguntas al profe por wsp directamente  ",
+      "Acceso al Roadmap con Material Exclusivo",
+      "Google Meet Premium",
+      "Material de Estudio de cada clase",
+      "Clases Personalizadas (decideden que quieren aprender)",
+      "Hora peruana (GMT-5), previa entrevista",
+    ],
+    price: " 110 USD - 350 PEN ",
+    enlace: "https://i.ibb.co/Syb9m2M/Black-And-White-Aesthetic-Minimalist-Modern-Simple-Typography-Coconut-Cosmetics-Logo-6.png",
+
+  },
+  {
+    name: "Celpip Preparation",
+    description: "Este paquete de clases cuenta con 10 horas de clases en vivo",
+    imgSrc: "https://i.ibb.co/9wVtSxZ/B2-FIRST-18.png",
+    features: [
+      "Técnicas básicas de pronunciación 🗣️",
+      "Reglas gramaticales fundamentales 📚",
+      "Vocabulario esencial 📝",
+      "Ejercicios interactivos 🎮",
+      "Tarjetas didácticas para aprendizaje rápido 📖",
+      "Clases grabadas y lecciones en video 🎥",
+      "Cuestionarios y exámenes finales 📝"
+    ],
+    price: "$90",
+    enlace: "https://i.ibb.co/Syb9m2M/Black-And-White-Aesthetic-Minimalist-Modern-Simple-Typography-Coconut-Cosmetics-Logo-6.png",
+
+  },{
+    name: "B2 Cambridge Preparation",
+    description: "Domina lo esencial para comunicarte con confianza en situaciones cotidianas simples. ¡Empieza tu camino hacia la fluidez aquí! 🚀",
+    imgSrc: "https://i.ibb.co/P1Cg8JT/Black-And-White-Aesthetic-Minimalist-Modern-Simple-Typography-Coconut-Cosmetics-Logo-3.png",
+    features: [
+      "Técnicas básicas de pronunciación 🗣️",
+      "Reglas gramaticales fundamentales 📚",
+      "Vocabulario esencial 📝",
+      "Ejercicios interactivos 🎮",
+      "Tarjetas didácticas para aprendizaje rápido 📖",
+      "Clases grabadas y lecciones en video 🎥",
+      "Cuestionarios y exámenes finales 📝"
+    ],
+    price: "$90",
+  },
+  {
+    name: "C1 Cambridge Preparation",
+    description: "Domina lo esencial para comunicarte con confianza en situaciones cotidianas simples. ¡Empieza tu camino hacia la fluidez aquí! 🚀",
+    imgSrc: "https://i.ibb.co/YkB6KMc/Black-And-White-Aesthetic-Minimalist-Modern-Simple-Typography-Coconut-Cosmetics-Logo-4.png",
+    features: [
+      "Técnicas básicas de pronunciación 🗣️",
+      "Reglas gramaticales fundamentales 📚",
+      "Vocabulario esencial 📝",
+      "Ejercicios interactivos 🎮",
+      "Tarjetas didácticas para aprendizaje rápido 📖",
+      "Clases grabadas y lecciones en video 🎥",
+      "Cuestionarios y exámenes finales 📝"
+    ],
+    price: "$90",
+  },
+  {
+    name: "Paquete de Clases Basic",
+    description: "Este paquete de clases cuenta con 10 horas de clases en vivo",
+    imgSrc: "https://i.ibb.co/bFQXFcC/Black-And-White-Aesthetic-Minimalist-Modern-Simple-Typography-Coconut-Cosmetics-Logo-7.png",
+    features: [
+      "Tu clase se graba y se envia por correo a cada correo   ",
+      "Puedes hacer preguntas al profe por wsp directamente  ",
+      "Acceso al Roadmap con Material Exclusivo",
+      "Google Meet Premium",
+      "Material de Estudio de cada clase",
+      "Clases Personalizadas (decideden que quieren aprender)",
+      "Hora peruana (GMT-5), previa entrevista",
+    ],
+    price: " 106 USD - 330 PEN ",
+  },
+  {
     name: "Inglés A1 - La Base 🏗️",
     description: "Domina lo esencial para comunicarte con confianza en situaciones cotidianas simples. ¡Empieza tu camino hacia la fluidez aquí! 🚀",
     imgSrc: "https://i.ibb.co/9wVtSxZ/B2-FIRST-18.png",
@@ -147,6 +225,10 @@ const plans = [
 ];
 
 const levels = {
+  ClasesPersonalizadas: ["Paquete de Clases Premium", "Paquete de Clases Basic"],
+  Cambridge: ["B2 Cambridge Preparation","C1 Cambridge Preparation"],
+  Celpip: ["Celpip Preparation"],
+
   Básico: ["Inglés A1 - La Base 🏗️", "Inglés A2 - El Conector 🔗"],
   Intermedio: ["Inglés B1 - El Avanzado 📈", "Inglés B2 - El Orador Fluido 🗣️"],
   Avanzado: ["Inglés C1 - El Perfeccionista 🎯", "Inglés C2 - El Nativo 🌟"],
@@ -174,7 +256,7 @@ export const Billing = () => {
   );
 
   return (
-    <div className="relative mx-auto max-w-7xl mt-16 px-6 sm:px-12">
+    <div className="relative mx-auto max-w-7xl mt-16 mb-15 px-6 sm:px-12">
       {/* Encabezado */}
       <div className="relative max-w-3xl mx-auto text-center">
         <div className="absolute inset-0 w-full h-full bg-gradient-to-br from-teal-400 to-blue-600 blur-3xl opacity-25" />
@@ -186,23 +268,24 @@ export const Billing = () => {
         </p>
       </div>
 
-      {/* Pills para selección de nivel */}
-      <div className="flex justify-center gap-4 mt-10">
-        {Object.keys(levels).map((level) => (
-          <button
-            key={level}
-            onClick={() => setSelectedLevel(level)}
-            className={`px-6 py-2 text-sm font-medium rounded-full transition-all ${
-              selectedLevel === level
-                ? "bg-teal-500 text-white shadow-md"
-                : "bg-gray-700 text-gray-300 hover:bg-teal-400 hover:text-white"
-            }`}
-            aria-label={`Seleccionar nivel ${level}`}
-          >
-            {level}
-          </button>
-        ))}
-      </div>
+     {/* Pills para selección de nivel */}
+<div className="flex flex-wrap justify-center gap-4 mt-10 sm:gap-6">
+  {Object.keys(levels).map((level) => (
+    <button
+      key={level}
+      onClick={() => setSelectedLevel(level)}
+      className={`px-4 py-2 sm:px-6 sm:py-2 text-sm sm:text-base font-medium rounded-full transition-all ${
+        selectedLevel === level
+          ? "bg-teal-500 text-white shadow-md"
+          : "bg-gray-700 text-gray-300 hover:bg-teal-400 hover:text-white"
+      }`}
+      aria-label={`Seleccionar nivel ${level}`}
+    >
+      {level}
+    </button>
+  ))}
+</div>
+
 
       {/* Tarjetas filtradas */}
       <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 mt-16">
@@ -234,6 +317,15 @@ export const Billing = () => {
               >
                 Más detalles
               </button>
+              {plan.enlace && (
+            <button
+              onClick={() => window.open(plan.enlace, "_blank")}
+              className="mt-4 bg-gradient-to-r from-purple-400 to-pink-500 text-white font-semibold py-3 px-6 rounded-full shadow-md hover:bg-gradient-to-l hover:from-pink-500 hover:to-purple-400 transition-all"
+              aria-label={`Ver horario del plan ${plan.name}`}
+            >
+              Ver Horario
+            </button>
+          )}
             </div>
           </li>
         ))}
