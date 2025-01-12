@@ -37,9 +37,9 @@ export const validCredentials = [
       { expirationDate:"13/01/25",nivel:"Solicitar examen de Nivel ",usuario: 'espinoza.angie', password: 'angie2024', realname: 'Angie Espinoza', img: '' }, // No image
       { expirationDate:"12/01/25",nivel:"Solicitar examen de Nivel ",usuario: 'issis312', password: 'chavezu', realname: 'Issis Chavez Ugalde.', img: '' }, // No image
       { expirationDate:"13/01/25",nivel:"Solicitar examen de Nivel ",usuario: 'pamelahellen30', password: 'rpamela', realname: 'Pamela Rodriguez.', img: '' }, // No image
-      { expirationDate:"11/01/25",nivel:"B1+ ",usuario: 'hweny', password: 'cata08', realname: 'Weny Huaraca Magro', img: 'https://i.ibb.co/NZjv6vn/456531710-399933369790326-220531.png' }, // No image
+      // { expirationDate:"11/01/25",nivel:"B1+ ",usuario: 'hweny', password: 'cata08', realname: 'Weny Huaraca Magro', img: 'https://i.ibb.co/NZjv6vn/456531710-399933369790326-220531.png' }, // No image
       { expirationDate:"11/01/25",nivel:"A2 ",usuario: 'sara.galvez', password: 'mori2024', realname: 'Sara Galvez', img: 'https://i.ibb.co/DGWqgK8/411753490-270202325848420-673562.png' }, // No image
-      { expirationDate:"31/12/25",nivel:"B2 ",usuario: 'michellev', password: 'michellvz2024', realname: 'Michelle velasquez', img: 'https://i.ibb.co/JHL68XL/423956245-401855062431899-906545.png' }, // No image
+      // { expirationDate:"31/12/25",nivel:"B2 ",usuario: 'michellev', password: 'michellvz2024', realname: 'Michelle velasquez', img: 'https://i.ibb.co/JHL68XL/423956245-401855062431899-906545.png' }, // No image
       {  expirationDate:"31/12/24",nivel:"Tomar examen",usuario: 'rosagra2024', password: 'mamani24', realname: 'Rosa Mamani', img: 'https://i.ibb.co/XZ33ZpZ/468795513-536564286050468-273133.png' }, // No image
 
       // { expirationDate:"11/01/25",nivel:"Solicitar examen de Nivel ",usuario: '75921486', password: 'dchavez', realname: 'Dayana Chavez Garibay', img: '' }, // No image
