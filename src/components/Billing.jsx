@@ -125,32 +125,36 @@ enlace:"https://docs.google.com/spreadsheets/d/1jpKL_kwxAWuqo9v6aVBSiKpiAij6i3E3
     price: "$150",
   },
   {
-    name: "Inglés B2 - El Orador Fluido 🗣️",
-    description: "Gana confianza para comunicarte efectivamente en cualquier entorno, desde reuniones formales hasta charlas informales. 🌍",
+    name: "Ruta B2 Autónoma",
+    description: "¡Prepárate para alcanzar el nivel B2 de manera efectiva y a tu ritmo! Nuestra plataforma está diseñada para brindarte recursos exclusivos y explicaciones claras sobre más de 90 temas esenciales.",
     imgSrc: "https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+    imgGif:"https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZuazNnd2N5ODNrbHJmNmd6MXZ0eGt3cjJ5bjN5M2lxaTc4eGl2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r3WLuO5QRLyAV9MWEM/giphy.gif",
     features: [
-      "Comprensión lectora avanzada 📚",
-      "Expresiones formales y fluidez 🗨️",
-      "Actividades interactivas y tarjetas didácticas 🧩",
-      "Clases grabadas en video 🎥",
-      "Evaluaciones detalladas y retroalimentación ✅",
-      "Pruebas simuladas para prepararte para situaciones reales 📝"
+      "Gramática esencial: Aprende las diferencias  y mucho más.",
+      "Phrasal verbs y expresiones fundamentales.",
+      "Estructuras avanzadas para expresarte con fluidez y precisión.",
+      "Clases grabadas 🎥",
+      "Pruebas simuladas 📝",
+      "Actividades interactivas 🧩",
     ],
-    price: "$200",
-  },
+   
+    price: "S./30 / $10 Mensuales",
+  }
+,  
   {
-    name: "Inglés C1 - El Perfeccionista 🎯",
+    name: "Ruta C1 Autónoma",
     description: "Logra un dominio profesional del inglés. Realiza presentaciones, escribe con precisión y conversa con facilidad. 💼",
     imgSrc: "https://i.ibb.co/f4YQsS1/B2-FIRST-11.png",
+    imgGif:"https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZuazNnd2N5ODNrbHJmNmd6MXZ0eGt3cjJ5bjN5M2lxaTc4eGl2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r3WLuO5QRLyAV9MWEM/giphy.gif",
     features: [
-      "Presentaciones complejas 🎤",
-      "Dominio de modismos y phrasal verbs 🗯️",
-      "Excelencia en escritura académica 📘",
-      "Tarjetas didácticas para términos avanzados 🧠",
-      "Ejercicios interactivos y lecciones en video 🎬",
-      "Evaluaciones finales y certificaciones 🏅"
+      "Gramática esencial: Aprende las diferencias  y mucho más.",
+      "Phrasal verbs y expresiones fundamentales.",
+      "Estructuras avanzadas para expresarte con fluidez y precisión.",
+      "Clases grabadas 🎥",
+      "Pruebas simuladas 📝",
+      "Actividades interactivas 🧩",
     ],
-    price: "$250",
+    price: "S./30 / $10 Mensuales",
   },
   {
     name: "Inglés C2 - El Nativo 🌟",
@@ -230,8 +234,8 @@ const levels = {
   Celpip: ["Celpip Preparation"],
 
   Básico: ["Inglés A1 - La Base 🏗️", "Inglés A2 - El Conector 🔗"],
-  Intermedio: ["Inglés B1 - El Avanzado 📈", "Inglés B2 - El Orador Fluido 🗣️"],
-  Avanzado: ["Inglés C1 - El Perfeccionista 🎯", "Inglés C2 - El Nativo 🌟"],
+  Intermedio: ["Inglés B1 - El Avanzado 📈", "Ruta B2 Autónoma"],
+  Avanzado: ["Ruta C1 Autónoma", "Inglés C2 - El Nativo 🌟"],
   Profesional: [
     "Inglés Médico - El Lenguaje del Sanador 🩺",
     "Inglés para Programadores - El Toque del Coder 💻",
@@ -339,37 +343,73 @@ export const Billing = () => {
         ))}
       </ul>
 
-      {/* Pop-up Modal */}
-      {selectedPlan && (
-        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75">
-          <div className="relative bg-gray-800 rounded-xl shadow-lg p-8 w-11/12 max-w-lg">
-            <h3 className="text-2xl font-bold text-teal-400">
+     {/* Pop-up Modal */}
+{selectedPlan && (
+  <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
+    <div className="relative bg-gray-800 rounded-lg shadow-2xl w-11/12 max-w-4xl max-h-[90vh] overflow-hidden">
+      {/* Botón Cerrar */}
+      <button
+        onClick={closeModal}
+        className="absolute top-4 right-4 bg-red-600 text-white font-semibold py-1 px-3 rounded-full shadow-md hover:bg-red-700 transition-all"
+        aria-label="Close"
+      >
+        ✕
+      </button>
+
+      {/* Contenido del Modal */}
+      <div className="flex flex-col lg:flex-row items-start p-6 space-y-4 lg:space-y-0 lg:space-x-8">
+        {/* GIF y Nombre + Descripción */}
+        <div className="flex-shrink-0 w-full lg:w-1/2">
+          <div className="text-center lg:text-left">
+            <img
+              src={selectedPlan.imgGif}
+              alt="Plan animation"
+              className="w-full h-auto rounded-lg object-contain mb-4"
+            />
+            <h3 className="text-3xl font-extrabold text-teal-400 mb-2">
               {selectedPlan.name}
             </h3>
-            <p className="text-gray-300 mt-2">{selectedPlan.description}</p>
-
-            <ul className="mt-4 space-y-2 text-gray-300 text-sm">
-              {selectedPlan.features.map((feature, i) => (
-                <li key={i} className="flex items-center">
-                  <span className="inline-block w-4 h-4 bg-green-400 rounded-full mr-3"></span>
-                  {feature}
-                </li>
-              ))}
-            </ul>
-
-            <p className="text-lg font-semibold text-yellow-400 mt-6">
-              Precio: {selectedPlan.price}
-            </p>
-
-            <button
-              onClick={closeModal}
-              className="mt-6 bg-red-500 text-white font-semibold py-2 px-4 rounded-full shadow-md hover:bg-red-600 transition-all"
-            >
-              Cerrar
-            </button>
+            <p className="text-gray-300 text-base">{selectedPlan.description}</p>
           </div>
         </div>
-      )}
+
+        {/* Características del Plan (Lado Derecho) */}
+        <div className="flex-1 text-center lg:text-left">
+          <h4 className="text-xl font-semibold text-yellow-300 mb-2">
+            Lo que incluye este plan:
+          </h4>
+          <ul className="space-y-3 text-gray-300 text-sm">
+            {selectedPlan.features.map((feature, i) => (
+              <li key={i} className="flex items-start space-x-2">
+                <span className="inline-block w-5 h-5 bg-green-400 rounded-full mt-1"></span>
+                <p>{feature}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+
+      {/* Precio y Botón */}
+      <div className="p-6 text-center border-t border-gray-700 bg-gray-900">
+        <p className="text-lg font-bold text-yellow-400 mb-4">
+          Solo por: {selectedPlan.price}
+        </p>
+        <a
+  href="https://api.whatsapp.com/send?phone=51926922032&text=Hello%20Carlos!%20%F0%9F%99%82"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  <button
+    className="w-full bg-teal-600 text-white font-bold py-3 rounded-full shadow-md hover:bg-teal-700 transition-all"
+  >
+    ¡Comienza ahora!
+  </button>
+</a>
+
+      </div>
+    </div>
+  </div>
+)}
 
       {/* Pop-up para el enlace del horario */}
       {scheduleLink && (
