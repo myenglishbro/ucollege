@@ -17,7 +17,7 @@ const plans = [
       "Hora peruana (GMT-5), previa entrevista",
     ],
     price: " 110 USD - 350 PEN ",
-    enlace: "https://i.ibb.co/Syb9m2M/Black-And-White-Aesthetic-Minimalist-Modern-Simple-Typography-Coconut-Cosmetics-Logo-6.png",
+enlace:"https://docs.google.com/spreadsheets/d/1jpKL_kwxAWuqo9v6aVBSiKpiAij6i3E3ysPSxlajgRY/preview"
 
   },
   {
@@ -243,12 +243,22 @@ const levels = {
 export const Billing = () => {
   const [selectedLevel, setSelectedLevel] = useState("Básico");
   const [selectedPlan, setSelectedPlan] = useState(null);
+  const [scheduleLink, setScheduleLink] = useState(null);
+
   const handleLearnMore = (plan) => {
     setSelectedPlan(plan);
   };
-  
+
   const closeModal = () => {
     setSelectedPlan(null);
+  };
+
+  const openSchedule = (link) => {
+    setScheduleLink(link);
+  };
+
+  const closeSchedulePopup = () => {
+    setScheduleLink(null);
   };
 
   const filteredPlans = plans.filter((plan) =>
@@ -268,24 +278,23 @@ export const Billing = () => {
         </p>
       </div>
 
-     {/* Pills para selección de nivel */}
-<div className="flex flex-wrap justify-center gap-4 mt-10 sm:gap-6">
-  {Object.keys(levels).map((level) => (
-    <button
-      key={level}
-      onClick={() => setSelectedLevel(level)}
-      className={`px-4 py-2 sm:px-6 sm:py-2 text-sm sm:text-base font-medium rounded-full transition-all ${
-        selectedLevel === level
-          ? "bg-teal-500 text-white shadow-md"
-          : "bg-gray-700 text-gray-300 hover:bg-teal-400 hover:text-white"
-      }`}
-      aria-label={`Seleccionar nivel ${level}`}
-    >
-      {level}
-    </button>
-  ))}
-</div>
-
+      {/* Pills para selección de nivel */}
+      <div className="flex flex-wrap justify-center gap-4 mt-10 sm:gap-6">
+        {Object.keys(levels).map((level) => (
+          <button
+            key={level}
+            onClick={() => setSelectedLevel(level)}
+            className={`px-4 py-2 sm:px-6 sm:py-2 text-sm sm:text-base font-medium rounded-full transition-all ${
+              selectedLevel === level
+                ? "bg-teal-500 text-white shadow-md"
+                : "bg-gray-700 text-gray-300 hover:bg-teal-400 hover:text-white"
+            }`}
+            aria-label={`Seleccionar nivel ${level}`}
+          >
+            {level}
+          </button>
+        ))}
+      </div>
 
       {/* Tarjetas filtradas */}
       <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10 mt-16">
@@ -310,31 +319,33 @@ export const Billing = () => {
               </p>
 
               <button
-                              onClick={() => handleLearnMore(plan)}
-
+                onClick={() => handleLearnMore(plan)}
                 className="mt-8 bg-gradient-to-r from-green-400 to-blue-500 text-white font-semibold py-3 px-6 rounded-full shadow-md hover:bg-gradient-to-l hover:from-blue-500 hover:to-green-400 transition-all"
                 aria-label={`Seleccionar plan ${plan.name}`}
               >
                 Más detalles
               </button>
               {plan.enlace && (
-            <button
-              onClick={() => window.open(plan.enlace, "_blank")}
-              className="mt-4 bg-gradient-to-r from-purple-400 to-pink-500 text-white font-semibold py-3 px-6 rounded-full shadow-md hover:bg-gradient-to-l hover:from-pink-500 hover:to-purple-400 transition-all"
-              aria-label={`Ver horario del plan ${plan.name}`}
-            >
-              Ver Horario
-            </button>
-          )}
+                <button
+                  onClick={() => openSchedule(plan.enlace)}
+                  className="mt-4 bg-gradient-to-r from-purple-400 to-pink-500 text-white font-semibold py-3 px-6 rounded-full shadow-md hover:bg-gradient-to-l hover:from-pink-500 hover:to-purple-400 transition-all"
+                  aria-label={`Ver horario del plan ${plan.name}`}
+                >
+                  Ver Horario
+                </button>
+              )}
             </div>
           </li>
         ))}
       </ul>
+
       {/* Pop-up Modal */}
       {selectedPlan && (
         <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75">
           <div className="relative bg-gray-800 rounded-xl shadow-lg p-8 w-11/12 max-w-lg">
-            <h3 className="text-2xl font-bold text-teal-400">{selectedPlan.name}</h3>
+            <h3 className="text-2xl font-bold text-teal-400">
+              {selectedPlan.name}
+            </h3>
             <p className="text-gray-300 mt-2">{selectedPlan.description}</p>
 
             <ul className="mt-4 space-y-2 text-gray-300 text-sm">
@@ -356,6 +367,32 @@ export const Billing = () => {
             >
               Cerrar
             </button>
+          </div>
+        </div>
+      )}
+
+      {/* Pop-up para el enlace del horario */}
+      {scheduleLink && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-75">
+          <div className="bg-gray-800 rounded-xl p-8 w-11/12 max-w-4xl">
+            <div className="flex justify-between items-center">
+              <h3 className="text-xl font-bold text-teal-400">Horario</h3>
+              <button
+                onClick={closeSchedulePopup}
+                className="text-gray-400 hover:text-gray-200"
+              >
+                ✖
+              </button>
+            </div>
+            <iframe
+              src={scheduleLink}
+              width="100%"
+              height="500"
+              className="rounded-lg mt-4"
+              frameBorder="0"
+              title="Horario"
+              allowFullScreen
+            ></iframe>
           </div>
         </div>
       )}
