@@ -200,7 +200,40 @@
   filter: blur(750px);
 }
 
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 300px; /* Limita el ancho máximo */
+  margin: 0 auto;
+  text-align: center;
+}
 
+.user-image {
+  width: 80px;  /* Tamaño de la imagen */
+  height: 80px; /* Tamaño de la imagen */
+  border-radius: 50%; /* Para hacer la imagen circular */
+  object-fit: cover; /* Asegura que la imagen cubra todo el área del círculo */
+  margin-bottom: 10px;
+}
+
+.realname {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+}
+
+.expiration-date {
+  font-size: 14px;
+  color: #777;
+}
 
 /* Timeline */
 .timeline-number {

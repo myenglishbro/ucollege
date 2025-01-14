@@ -3,7 +3,9 @@ import { FaSearch } from 'react-icons/fa';
 import Hito from '../pages/Hito';
 import { mensajes } from '../utils/mensajes';
 
-const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar, userImage, realname }) => {
+const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar}) => {
+
+
   const [selectedIndex, setSelectedIndex] = useState(null);
   const [activeIndex, setActiveIndex] = useState(null);
   const [selectedLink, setSelectedLink] = useState(null);
@@ -110,16 +112,8 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar, user
       </button>
 
       <div className={`sidebar ${isSidebarVisible ? 'visible' : ''} bg-gray-800 text-white w-72 h-full fixed shadow-lg`}>
-      {/* User Info Section */}
-        <div className="user-info flex items-center p-4 border-b border-gray-700">
-          <img src={userImage} alt="User Avatar" className="user-photo w-14 h-14 rounded-full mr-4" />
-          <div className="user-details">
-            <p className="user-name text-lg font-semibold">{realname}</p>
-            <span className="online-status flex items-center text-sm text-green-400">
-              <div className="status-circle w-2 h-2 bg-green-400 rounded-full mr-2"></div> Online
-            </span>
-          </div>
-        </div>
+    
+
         <div className="timer-container">
   <h2 className="timer-title">⏱ Timer</h2>
   <div className="timer-progress">

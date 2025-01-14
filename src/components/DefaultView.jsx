@@ -3,7 +3,7 @@ import styles from "../style";
 import CardDeal2 from './CardDeal2';
 import CardDeal3 from './CardDeal3';
 
-const DefaultView = ({ password, realname, userImage, nivel, expirationDate }) => {
+const DefaultView = ({ realname, userImage, nivel, expirationDate }) => {
   return (
     <div className="max-w-4xl px-4 py-24 mx-auto sm:px-6 lg:px-8 mt-0 sm:mt-10 lg:mt-16">
       <div className="relative overflow-hidden bg-white shadow-2xl rounded-3xl">
@@ -21,6 +21,8 @@ const DefaultView = ({ password, realname, userImage, nivel, expirationDate }) =
               className="w-24 h-24 rounded-full object-cover mr-4" 
             />
             <p className="text-lg text-gray-600">Tu nivel actual: {nivel}</p>
+            <p className="text-lg text-gray-600">Vence {expirationDate}</p>
+
           </div>
           <a
             href="https://api.whatsapp.com/send?phone=51926922032&text=Hello%20Carlos!%20%F0%9F%99%82" // Reemplaza con tu número de WhatsApp
