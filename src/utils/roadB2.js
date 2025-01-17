@@ -773,9 +773,10 @@ export const roadB2 = [
         description: "Completa los desafíos para dominar el Inglés",
         enlaces: [
             {  titulo:"📝 Examen 01  ",url: "https://drive.google.com/file/d/1Sk4W7Ax3Ao9ZqGR4sVY4IFik3Jq6BQ_N/view?usp=sharing"},
+            {  titulo:"📝 Examen 01 Solucionario ",url: "https://drive.google.com/file/d/13NnSnUDD8m95_AryEwZ5hMnfdxKYrQKV/view?usp=sharing"},
 
-            {  titulo:"📝[Test 01 ] FCE + SOLUCIONARIO ",url: "https://docs.google.com/document/d/17v-Bh_q-bTXR6ZzgRYy-GD6ZMx6EiIdT/edit?usp=sharing&ouid=114588820780661373500&rtpof=true&sd=true"},
-            {  titulo:"📝[Test 02 ] FCE + SOLUCIONARIO ",url: "https://docs.google.com/presentation/d/1LijSovlmiSEB4cvyYhr0PcGe3ZDpmDSI/edit?usp=sharing&ouid=114588820780661373500&rtpof=true&sd=true"},
+            {  titulo:"📝[Test 01 ] FCE + SOLUCIONARIO ",url: "https://drive.google.com/file/d/1sz-WQ4yS7S4GMUgZHXz6uqTD0oA5pJ5M/view?usp=sharing"},
+            {  titulo:"📝[Test 02 ] FCE + SOLUCIONARIO ",url: "https://drive.google.com/file/d/192v80IEi93ZaiRY1-NkY5h-qk2XyA6O_/view?usp=sharing"},
 
             {  titulo:"📝[Test] Key Word Transformation 01 ",url: "https://drive.google.com/file/d/1Ng-AL8s5uNqA4AeVSa9x-4ySFH_dqsKU/view?usp=sharing"},
             {  titulo:"📝🔑[Test Answer Key] Key Word Transformation 01 ",url: "https://docs.google.com/presentation/d/1_lR0KYShBJeyFw-ZOuMIEwwLyIdLb2s591vIc4pAIsU/edit?usp=sharing"},
