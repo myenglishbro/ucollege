@@ -78,7 +78,6 @@ export const roadA1 = [
             {  titulo:"🎬Los Saludos",url: "https://www.youtube.com/watch?v=xipdKtlzxAg&t=435s"},           
             {  titulo:"[🗂️Infografía]Los Saludos ", url: "https://drive.google.com/file/d/1o8x7wvOmzrozDie2dizqliw7Eb5QGsw4/view?usp=sharing"},
 
-            {  titulo:"🎬 Saludos y Despedidas",url: "https://docs.google.com/presentation/d/1QRZkXcYvHJFPhIMW7-7JdMKAtMmFQt2P/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
             {  titulo:"🎬The Alphabet",url: "https://www.youtube.com/watch?v=fG9ccbmA0-o"},
             {  titulo:"[🗂️Infografía]The Alphabet ", url: "https://drive.google.com/file/d/10pTYkkB8ni0Ng3cxwv8mYuE7pQ6BF_Y-/view?usp=sharing"},
 
