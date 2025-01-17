@@ -13,7 +13,7 @@ export const roadB2 = [
 
             { titulo:"📑English - Listening and speaking deck B2",url: "https://drive.google.com/file/d/1WWS3zyzQlu_5Zkv0y9HqRJMT9CeQnkpl/view?usp=sharing"},
             { titulo:"📑Cambridge B2 APLICATIVO COMPLETO",url: "https://drive.google.com/file/d/1CU9wjKF6k91uq1vgXAiSPx9LQmIP9Gos/view?usp=sharing"},
-            { titulo:"📑FCE_english_words_and_collocations",url: "https://drive.google.com/file/d/1v46CdxreA1fd9G6L9bzttZrP2zEu5zs7/view?usp=sharing"},
+            { titulo:"📑FCE_english_words",url: "https://drive.google.com/file/d/1v46CdxreA1fd9G6L9bzttZrP2zEu5zs7/view?usp=sharing"},
             
         ],
     },
@@ -550,8 +550,8 @@ export const roadB2 = [
     
     {
         id: 15,
-        thumbnail:
-            "https://i.ibb.co/0XR5yjD/990527648dc1fe389bb8568a632839e8-removebg-preview.png",
+        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+
         title: "M4 - English Verb Patterns",
         subtitle: "Basic Level",
 
@@ -592,8 +592,8 @@ export const roadB2 = [
     },
     {
         id: 18,
-        thumbnail:
-            "",
+        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+
         title: "M4 - Phrasal Verbs",
         subtitle: "Pre-Intermediate",
 
@@ -618,8 +618,8 @@ export const roadB2 = [
     },
     {
         id: 19,
-        thumbnail:
-            "",
+        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+
         title: "M4 - Relative Clauses I",
         subtitle: "Pre-Intermediate",
 
@@ -667,8 +667,8 @@ export const roadB2 = [
     
     {
         id: 15,
-        thumbnail:
-            "https://i.ibb.co/T2gwBmd/level4.png",
+        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+
         title: "Writing like Shakespeare",
         subtitle: "B2/C1",
 
@@ -716,8 +716,8 @@ export const roadB2 = [
     },
     {
         id: 16,
-        thumbnail:
-            "https://i.ibb.co/W2FY74b/level5.png",
+        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+
         title: "Building Vocabulary",
         subtitle: "B2/C1",
 
@@ -740,8 +740,8 @@ export const roadB2 = [
     },
     {
         id: 17,
-        thumbnail:
-            "https://i.ibb.co/W2FY74b/level5.png",
+        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+
         title: "Inglés con Anime",
         subtitle: "B2/C1",
 
@@ -763,8 +763,8 @@ export const roadB2 = [
         ],
     }, {
         id: 18,
-        thumbnail:
-            "https://i.ibb.co/W2FY74b/level5.png",
+        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+
         title: "Exámenes Center",
         subtitle: "B2/C1",
 
@@ -792,8 +792,8 @@ export const roadB2 = [
         ],
     },{
         id: 21,
-        thumbnail:
-            "https://i.ibb.co/W2FY74b/level5.png",
+        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+
         title: "If-Clauses",
         subtitle: "B2/C1",
 
@@ -820,8 +820,8 @@ export const roadB2 = [
     }
     , {
         id: 23,
-        thumbnail:
-            "https://i.ibb.co/W2FY74b/level5.png",
+        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+
         title: "Present Perfect Tense",
         subtitle: "B2/C1",
 
@@ -842,8 +842,8 @@ export const roadB2 = [
         ],
     }, {
         id: 26,
-        thumbnail:
-            "https://i.ibb.co/W2FY74b/level5.png",
+        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+
         title: "Future Tenses",
         subtitle: "B2/C1",
 
@@ -861,8 +861,8 @@ export const roadB2 = [
     },
     {
         id: 26,
-        thumbnail:
-            "https://i.ibb.co/W2FY74b/level5.png",
+        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+
         title: "TOEFL - Grammar",
         subtitle: "B2/C1",
 
