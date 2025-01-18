@@ -19,7 +19,7 @@ export const roadA1 = [
     //     ],
     {
         id: 4,
-        thumbnail: "https://i.ibb.co/9wVtSxZ/B2-FIRST-18.png",
+        thumbnail: "https://i.ibb.co/rpNz4py/B2-FIRST-31.png",
         title: " Antes del Curso",
         subtitle: "Centro de Clasificación ",
     
@@ -34,7 +34,7 @@ export const roadA1 = [
             
     {
         id: 4,
-        thumbnail: "https://i.ibb.co/9wVtSxZ/B2-FIRST-18.png",
+        thumbnail: "https://i.ibb.co/rpNz4py/B2-FIRST-31.png",
         title: " Pronunciación Esencial",
         subtitle: "Centro de Clasificación ",
     
@@ -42,6 +42,7 @@ export const roadA1 = [
         channel: " ",
         description: "Si has llevado clases de inglés antes realiza un examen para calcular tu nivel,Envia tu examen para su corrección al correo temis_it@hotmail.com",
         enlaces: [
+            {  titulo:"Presentacion", url: "https://youtu.be/dWDfFM88dSA"},
 
             {  titulo:"Diferencia de I/i", url: "https://drive.google.com/file/d/1M5_cODEz8FA51UDbOQ85Su9I5zKFOSCL/view?usp=sharing"},
             {  titulo:"Diferencia de /æ/, /ɑː/, y /ʌ/ ", url: "https://drive.google.com/file/d/1B1DI1uePifYoAs6EbQNYNvqz8dl4m9HU/view?usp=sharing"},
@@ -54,7 +55,7 @@ export const roadA1 = [
    
     {
         id: 4,
-        thumbnail: "https://i.ibb.co/9wVtSxZ/B2-FIRST-18.png",
+        thumbnail: "https://i.ibb.co/rpNz4py/B2-FIRST-31.png",
         title: "Vocabulario Esencial",
         subtitle: "Centro de Clasificación ",
     
@@ -84,7 +85,7 @@ export const roadA1 = [
     },
     {
         id: 4,
-        thumbnail: "https://i.ibb.co/9wVtSxZ/B2-FIRST-18.png",
+        thumbnail: "https://i.ibb.co/rpNz4py/B2-FIRST-31.png",
         title: "Trucos de Pronunciación ",
         subtitle: "Centro de Clasificación ",
     
@@ -141,7 +142,7 @@ export const roadA1 = [
    
     {
         id: 1,
-        thumbnail: "https://i.ibb.co/9wVtSxZ/B2-FIRST-18.png",
+        thumbnail: "https://i.ibb.co/rpNz4py/B2-FIRST-31.png",
 
         title: "Fundamentos I",
         subtitle: "Nivel Básico ",
@@ -175,7 +176,7 @@ export const roadA1 = [
     },
     {
         id: 4,
-        thumbnail: "https://i.ibb.co/9wVtSxZ/B2-FIRST-18.png",
+        thumbnail: "https://i.ibb.co/rpNz4py/B2-FIRST-31.png",
         title: "Vocabulario Esencial II",
         subtitle: "Centro de Clasificación ",
     
@@ -219,7 +220,7 @@ export const roadA1 = [
     },
     {
         id: 1,
-        thumbnail: "https://i.ibb.co/9wVtSxZ/B2-FIRST-18.png",
+        thumbnail: "https://i.ibb.co/rpNz4py/B2-FIRST-31.png",
 
         title: "Fundamentos II",
         subtitle: "Nivel Básico ",
@@ -249,7 +250,7 @@ export const roadA1 = [
     },
     {
         id: 1,
-        thumbnail: "https://i.ibb.co/9wVtSxZ/B2-FIRST-18.png",
+        thumbnail: "https://i.ibb.co/rpNz4py/B2-FIRST-31.png",
 
         title: "Fundamentos III",
         subtitle: "Nivel Básico ",
