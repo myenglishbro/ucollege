@@ -17,7 +17,20 @@ export const roadA1 = [
     //         { titulo: "[M2-01] Exam", url: "https://drive.google.com/file/d/1Kmx6qI5eAKaMbWINIevF1m2pr5nDNzmB/view?usp=sharing" },
     //         { titulo: "[M2-02] Exam", url: "https://drive.google.com/file/d/1H4YQQbU1DjuJAhhy6Ee7PETKtUdBZL7o/view?usp=sharing" },
     //     ],
+    {
+        id: 4,
+        thumbnail: "https://i.ibb.co/9wVtSxZ/B2-FIRST-18.png",
+        title: " Antes del Curso",
+        subtitle: "Centro de Clasificación ",
+    
+        dateAdded: "Basic 0 ",
+        channel: " ",
+        description: "Si has llevado clases de inglés antes realiza un examen para calcular tu nivel,Envia tu examen para su corrección al correo temis_it@hotmail.com",
+        enlaces: [
+            {  titulo:"Presentación del Curso",url: "https://www.youtube.com/watch?v=_1DEJIOcJmY&t=2s"},        
 
+        ],
+    },
             
     {
         id: 4,
@@ -29,6 +42,7 @@ export const roadA1 = [
         channel: " ",
         description: "Si has llevado clases de inglés antes realiza un examen para calcular tu nivel,Envia tu examen para su corrección al correo temis_it@hotmail.com",
         enlaces: [
+
             {  titulo:"Diferencia de I/i", url: "https://drive.google.com/file/d/1M5_cODEz8FA51UDbOQ85Su9I5zKFOSCL/view?usp=sharing"},
             {  titulo:"Diferencia de /æ/, /ɑː/, y /ʌ/ ", url: "https://drive.google.com/file/d/1B1DI1uePifYoAs6EbQNYNvqz8dl4m9HU/view?usp=sharing"},
             {  titulo:"Diferencia de /θ/ y /ð/", url: "https://drive.google.com/file/d/1pPwuSgKPW9MNpN6TqFfjRZ__hw3W2wOK/view?usp=sharing"},
@@ -61,20 +75,7 @@ export const roadA1 = [
             {  titulo:" Partes del Cuerpo",url: "https://drive.google.com/file/d/16M8ghnjnDxLr-IhhuCfhHPOK7aXUz6ac/view?usp=sharing" },
             {  titulo:" Lugares en Inglés",url: "https://drive.google.com/file/d/1zMMYEvI0nWXQZWpawErZ5J7OgnPf4rgO/view?usp=sharing" },
             {  titulo:" Los colores",url: "https://drive.google.com/file/d/18iiQLhwnGzGnfJQxnZrsBlt8YLyA38wz/view?usp=sharing" },
-
-            {  titulo:"🗂️Slide] The Numbers and The Time", url: "https://docs.google.com/presentation/d/1lLVrkj4nl8wvv3aGmqasKH3Mioo09DE7/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
-           
-            {  titulo:"[🧩 Activity]have got/has got", url: "https://wordwall.net/play/4935/754/2603"},
-
-            {  titulo:"[🧩 Activity] The Time  I", url: "https://wordwall.net/play/11993/400/13264"},
-            {
-                titulo: "📒[slides] La hora en Ingles",
-                url: "https://docs.google.com/presentation/d/1En8CAC9wcrXYWSawMEirZO7gU8tsAmBi/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
-            },
-          
-           
-            {  titulo:"📖 Ordinal Numbers ",url: "https://drive.google.com/file/d/18I58jFyIcYY_apm1YTzXvv2TVuMVHnXk/view?usp=sharing" },
-
+            {  titulo:" Los Animales",url: "https://drive.google.com/file/d/1hhtj5vmynyNva8Rx92O1yvR_7Wa0rPKb/view?usp=sharing" },
 
           
           
@@ -92,7 +93,47 @@ export const roadA1 = [
         description: "Si has llevado clases de inglés antes realiza un examen para calcular tu nivel,Envia tu examen para su corrección al correo temis_it@hotmail.com",
         enlaces: [
             {  titulo:"🎬 Mi primer truco de Pronunciación",url: "https://www.youtube.com/watch?v=gMlip7427kU&t=22s&ab_channel=MyEnglishBro"},           
-
+            {  titulo:"📥 Mi primer truco de Pronunciación",url: "https://drive.google.com/file/d/1VhB8Kjr3YbARZU6KhPMvlPa0pZi92hX0/view?usp=sharing"},
+            {
+                titulo: "💣PRONUNCIACIÓN en INGLÉS (Presentación)👄",
+                url: "https://www.youtube.com/watch?v=-YocPrBjydE&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: "Trucos con la T",
+                url: "https://www.youtube.com/watch?v=sh1-WReYeYY&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&index=2&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: "Dropped T",
+                url: "https://www.youtube.com/watch?v=MBPAI8TI-HA&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&index=3&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: "T Flap",
+                url: "https://www.youtube.com/watch?v=TAdE9TjixHk&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&index=4&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: " Omission ",
+                url: "https://www.youtube.com/watch?v=EbfroOu4_EU&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&index=5&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: " T flap 2 ",
+                url: "https://www.youtube.com/watch?v=8_-ABxzg3gE&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&index=6&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: " T flap 3",
+                url: "https://www.youtube.com/watch?v=w2BDLl5TVvA&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&index=7&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: " T as Sh",
+                url: "https://www.youtube.com/watch?v=VPFclhpx__s&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&index=8&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: " Consideraciones al Pronunciar",
+                url: "https://www.youtube.com/watch?v=717NdjUV9Po&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&index=9&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: " T/D between 2 consonant sounds",
+                url: "https://www.youtube.com/watch?v=vLUv888ckbk&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&index=10&ab_channel=MyEnglishBro",
+            },
           
           
         ],
@@ -109,11 +150,9 @@ export const roadA1 = [
         channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
         description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
         enlaces: [
-            {  titulo:"Presentación del Curso",url: "https://www.youtube.com/watch?v=_1DEJIOcJmY&t=2s"},        
             {  titulo:"Welcome Unit",url: "https://drive.google.com/file/d/1qqZSEhaL0HcZRyKm5E_9j-ttnUNzxTFo/view?usp=sharing"},        
 
             
-            {  titulo:"📥 Mi primer truco de Pronunciación",url: "https://drive.google.com/file/d/1VhB8Kjr3YbARZU6KhPMvlPa0pZi92hX0/view?usp=sharing"},
             {  titulo:"🎬Los Saludos",url: "https://www.youtube.com/watch?v=xipdKtlzxAg&t=435s"},           
             {  titulo:"[🗂️Infografía]Los Saludos ", url: "https://drive.google.com/file/d/1o8x7wvOmzrozDie2dizqliw7Eb5QGsw4/view?usp=sharing"},
 
@@ -132,6 +171,50 @@ export const roadA1 = [
             
            
 
+        ],
+    },
+    {
+        id: 4,
+        thumbnail: "https://i.ibb.co/9wVtSxZ/B2-FIRST-18.png",
+        title: "Vocabulario Esencial II",
+        subtitle: "Centro de Clasificación ",
+    
+        dateAdded: "Basic 0 ",
+        channel: " ",
+        description: "Si has llevado clases de inglés antes realiza un examen para calcular tu nivel,Envia tu examen para su corrección al correo temis_it@hotmail.com",
+        enlaces: [
+        
+            {  titulo:"Las Nacionalidades", url: "https://drive.google.com/file/d/1t-NO8pU0eJr-CqjYoeakkTnZOWB7odPw/view?usp=sharing"},
+            {  titulo:"Las Frutas", url: "https://drive.google.com/file/d/1w2CwNRwhzm2zI7Wui33WHAiRWjPY74xl/view?usp=sharing"},
+            {  titulo:"Días de la Semana", url: "https://drive.google.com/file/d/11JLBMEKHA5qK0hfzlsFI1SctOr7vSa47/view?usp=sharing"},
+            {  titulo:"Los Números", url: "https://drive.google.com/file/d/1v8Llb28x3bJCDzuRgfDJXPOmqbRkMKuz/view?usp=sharing"},
+            {  titulo:"Los Adjetivos", url: "https://drive.google.com/file/d/1a4bQQNWNjxPwO82z4ztO51A0Nq2GhVVv/view?usp=sharing"},
+            {  titulo:" Las estaciones ",url: "https://drive.google.com/file/d/1LGxrtVKrUYzgQfyNiaFGa2OhQG5WK2QL/view?usp=sharing" },
+            {  titulo:" Las Profesiones ",url: "https://drive.google.com/file/d/1k9ve-mH0Ja3oN3P-S2fuEy93gnHgs49k/view?usp=sharing" },
+            {  titulo:" Objetos de la casa ",url: "https://drive.google.com/file/d/1oJafOHW9rzR4-85EycQtGtZaDaHuIHdg/view?usp=sharing" },
+            {  titulo:" Miembros de la familia",url: "https://drive.google.com/file/d/1cFE24uSHz39qd2F7QWD-A_Vr7I0GoD9P/view?usp=sharing" },
+            {  titulo:" Partes del Cuerpo",url: "https://drive.google.com/file/d/16M8ghnjnDxLr-IhhuCfhHPOK7aXUz6ac/view?usp=sharing" },
+            {  titulo:" Lugares en Inglés",url: "https://drive.google.com/file/d/1zMMYEvI0nWXQZWpawErZ5J7OgnPf4rgO/view?usp=sharing" },
+            {  titulo:" Los colores",url: "https://drive.google.com/file/d/18iiQLhwnGzGnfJQxnZrsBlt8YLyA38wz/view?usp=sharing" },
+            {  titulo:" Los Animales",url: "https://drive.google.com/file/d/1hhtj5vmynyNva8Rx92O1yvR_7Wa0rPKb/view?usp=sharing" },
+
+            {  titulo:"🗂️Slide] The Numbers and The Time", url: "https://docs.google.com/presentation/d/1lLVrkj4nl8wvv3aGmqasKH3Mioo09DE7/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
+           
+            {  titulo:"[🧩 Activity]have got/has got", url: "https://wordwall.net/play/4935/754/2603"},
+
+            {  titulo:"[🧩 Activity] The Time  I", url: "https://wordwall.net/play/11993/400/13264"},
+            {
+                titulo: "📒[slides] La hora en Ingles",
+                url: "https://docs.google.com/presentation/d/1En8CAC9wcrXYWSawMEirZO7gU8tsAmBi/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
+            },
+          
+           
+            {  titulo:"📖 Ordinal Numbers ",url: "https://drive.google.com/file/d/18I58jFyIcYY_apm1YTzXvv2TVuMVHnXk/view?usp=sharing" },
+
+
+          
+          
+          
         ],
     },
     {
@@ -1059,96 +1142,7 @@ export const roadA1 = [
             
         ],
     },
-    {
-        id: 27,
-        thumbnail:
-            "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
-        title: "A2 KET RWRMC",
-        subtitle: "A2 Key - Real World Reading Multiple Choice Exercises",
-
-        dateAdded: "B2",
-        channel: "A2 Key - Real World Reading Multiple Choice Exercises",
-        description: "The first part of the A2 Key reading paper is multiple choice, where you read six real-world notices, messages and other short texts and choose the best answer for each question.",
-        enlaces: [
-          
-            
-            {
-                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 1",
-                url: "https://drive.google.com/file/d/1JeeC_duzkT3QIrcWs8Ue23U9AOaZ6IqN/view?usp=sharing",
-            },
-            {
-                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 2",
-                url: "https://drive.google.com/file/d/1ju7_uBsitSAoVs14dF5U8gcUeSBc5a79/view?usp=sharing",
-            },
-            {
-                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 3",
-                url: "https://drive.google.com/file/d/1NxShK0f8P6GVfKwgLQeGLPF8fyVuldJ6/view?usp=sharing",
-            },
-            {
-                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 4",
-                url: "https://drive.google.com/file/d/1TazVPeDKOQbqakaRKe9bn9UVmu65VcsM/view?usp=sharing",
-            },
-            {
-                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 5",
-                url: "https://drive.google.com/file/d/1AfU7hnDb0w_YfhNOyZCWF9saqAXd008O/view?usp=sharing",
-            },
-            {
-                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 6",
-                url: "https://drive.google.com/file/d/1pPD0QFFI5ReJMgrBtFijx2BhN2mpATlX/view?usp=sharing",
-            },
-            {
-                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 7",
-                url: "https://drive.google.com/file/d/1JVkLWglGz8sy9eUnmHef5DKQC-GhdWuE/view?usp=sharing",
-            },
-            {
-                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 8",
-                url: "https://drive.google.com/file/d/14MTJkZW2eBzxwsDNPO3YY00LwQziOKq9/view?usp=sharing",
-            },
-            {
-                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 9",
-                url: "https://drive.google.com/file/d/1DTnpcnD80ReKZTz-bgeqh1YJE4r1w7vR/view?usp=sharing",
-            },
-            {
-                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 10",
-                url: "https://drive.google.com/file/d/1CyrrIJxqHaoZsGTZuls7byl5CbD6Au3o/view?usp=sharing",
-            },
-            {
-                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 11",
-                url: "https://drive.google.com/file/d/1klqYbrrLgs5wlJcqA_yu6l1Epjg7OhN4/view?usp=sharing",
-            },
-            {
-                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 12",
-                url: "https://drive.google.com/file/d/1RdKnYH8iByQsTUTQiiYFPuAH_HToKYW7/view?usp=sharing",
-            },
-            {
-                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 13",
-                url: "https://drive.google.com/file/d/1USC9mBTTj5EQcqY5d48T3UxSjHZlMCrm/view?usp=sharing",
-            },
-            {
-                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 14",
-                url: "https://drive.google.com/file/d/1XvcrDs6uCXSfWWqAOrjzam0rcWm7d4G0/view?usp=sharing",
-            },
-            {
-                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 15",
-                url: "https://drive.google.com/file/d/1r6tBe3GC2Oxa1Rl5OmePJ6F8feUsW6hl/view?usp=sharing",
-            },
-            {
-                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 16",
-                url: "https://drive.google.com/file/d/10wRG5Czmg-azlbD7i86yS88pStNy05xb/view?usp=sharing",
-            },
-            {
-                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 17",
-                url: "https://drive.google.com/file/d/1V1xTIEFpjocPuASxJBcImLCRyTAe0FTq/view?usp=sharing",
-            },
-            {
-                titulo: "📒[PDF] A2 Key Exam - Real World Reading Multiple Choice Exercise 18",
-                url: "https://drive.google.com/file/d/19BXgSQCm7DHmhjJ2IpbOpg44ZeZPhNS_/view?usp=sharing",
-            }
-
-          
-           
-        ],
-    },
+    
     {
         id: 12,
         thumbnail:
