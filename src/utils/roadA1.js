@@ -42,11 +42,12 @@ export const roadA1 = [
         channel: " ",
         description: "Si has llevado clases de inglés antes realiza un examen para calcular tu nivel,Envia tu examen para su corrección al correo temis_it@hotmail.com",
         enlaces: [
-            {  titulo:"Presentacion", url: "https://youtu.be/dWDfFM88dSA"},
+            {  titulo:"🎥Presentacion", url: "https://youtu.be/dWDfFM88dSA"},
+            {  titulo:"🎥Diferencia de I/i", url: "https://drive.google.com/file/d/1M5_cODEz8FA51UDbOQ85Su9I5zKFOSCL/view?usp=sharing"},
 
-            {  titulo:"Diferencia de I/i", url: "https://drive.google.com/file/d/1M5_cODEz8FA51UDbOQ85Su9I5zKFOSCL/view?usp=sharing"},
-            {  titulo:"Diferencia de /æ/, /ɑː/, y /ʌ/ ", url: "https://drive.google.com/file/d/1B1DI1uePifYoAs6EbQNYNvqz8dl4m9HU/view?usp=sharing"},
-            {  titulo:"Th en Inglés de /θ/ y /ð/", url: "https://drive.google.com/file/d/1pPwuSgKPW9MNpN6TqFfjRZ__hw3W2wOK/view?usp=sharing"},
+            {  titulo:"📑Diferencia de I/i", url: "https://drive.google.com/file/d/1M5_cODEz8FA51UDbOQ85Su9I5zKFOSCL/view?usp=sharing"},
+            {  titulo:"📑Diferencia de /æ/, /ɑː/, y /ʌ/ ", url: "https://drive.google.com/file/d/1B1DI1uePifYoAs6EbQNYNvqz8dl4m9HU/view?usp=sharing"},
+            {  titulo:"📑Th en Inglés de /θ/ y /ð/", url: "https://drive.google.com/file/d/1pPwuSgKPW9MNpN6TqFfjRZ__hw3W2wOK/view?usp=sharing"},
 
           
           
