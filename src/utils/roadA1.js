@@ -19,22 +19,51 @@ export const roadA1 = [
     //     ],
 
             
-        
-    // },
     {
         id: 4,
         thumbnail: "https://i.ibb.co/9wVtSxZ/B2-FIRST-18.png",
-        title: "M1- Vocabulario Base",
+        title: " Pronunciación Esencial",
         subtitle: "Centro de Clasificación ",
     
         dateAdded: "Basic 0 ",
         channel: " ",
         description: "Si has llevado clases de inglés antes realiza un examen para calcular tu nivel,Envia tu examen para su corrección al correo temis_it@hotmail.com",
         enlaces: [
+            {  titulo:"Diferencia de I/i", url: "https://drive.google.com/file/d/1M5_cODEz8FA51UDbOQ85Su9I5zKFOSCL/view?usp=sharing"},
+            {  titulo:"Diferencia de /æ/, /ɑː/, y /ʌ/ ", url: "https://drive.google.com/file/d/1B1DI1uePifYoAs6EbQNYNvqz8dl4m9HU/view?usp=sharing"},
+            {  titulo:"Diferencia de /θ/ y /ð/", url: "https://drive.google.com/file/d/1pPwuSgKPW9MNpN6TqFfjRZ__hw3W2wOK/view?usp=sharing"},
+
+          
+          
+        ],
+    },
+   
+    {
+        id: 4,
+        thumbnail: "https://i.ibb.co/9wVtSxZ/B2-FIRST-18.png",
+        title: "Vocabulario Esencial",
+        subtitle: "Centro de Clasificación ",
+    
+        dateAdded: "Basic 0 ",
+        channel: " ",
+        description: "Si has llevado clases de inglés antes realiza un examen para calcular tu nivel,Envia tu examen para su corrección al correo temis_it@hotmail.com",
+        enlaces: [
+        
+            {  titulo:"Las Nacionalidades", url: "https://drive.google.com/file/d/1t-NO8pU0eJr-CqjYoeakkTnZOWB7odPw/view?usp=sharing"},
+            {  titulo:"Las Frutas", url: "https://drive.google.com/file/d/1w2CwNRwhzm2zI7Wui33WHAiRWjPY74xl/view?usp=sharing"},
+            {  titulo:"Días de la Semana", url: "https://drive.google.com/file/d/11JLBMEKHA5qK0hfzlsFI1SctOr7vSa47/view?usp=sharing"},
+            {  titulo:"Los Números", url: "https://drive.google.com/file/d/1v8Llb28x3bJCDzuRgfDJXPOmqbRkMKuz/view?usp=sharing"},
+            {  titulo:"Los Adjetivos", url: "https://drive.google.com/file/d/1a4bQQNWNjxPwO82z4ztO51A0Nq2GhVVv/view?usp=sharing"},
+            {  titulo:" Las estaciones ",url: "https://drive.google.com/file/d/1LGxrtVKrUYzgQfyNiaFGa2OhQG5WK2QL/view?usp=sharing" },
+            {  titulo:" Las Profesiones ",url: "https://drive.google.com/file/d/1k9ve-mH0Ja3oN3P-S2fuEy93gnHgs49k/view?usp=sharing" },
+            {  titulo:" Objetos de la casa ",url: "https://drive.google.com/file/d/1oJafOHW9rzR4-85EycQtGtZaDaHuIHdg/view?usp=sharing" },
+            {  titulo:" Miembros de la familia",url: "https://drive.google.com/file/d/1cFE24uSHz39qd2F7QWD-A_Vr7I0GoD9P/view?usp=sharing" },
+            {  titulo:" Partes del Cuerpo",url: "https://drive.google.com/file/d/16M8ghnjnDxLr-IhhuCfhHPOK7aXUz6ac/view?usp=sharing" },
+            {  titulo:" Lugares en Inglés",url: "https://drive.google.com/file/d/1zMMYEvI0nWXQZWpawErZ5J7OgnPf4rgO/view?usp=sharing" },
+            {  titulo:" Los colores",url: "https://drive.google.com/file/d/18iiQLhwnGzGnfJQxnZrsBlt8YLyA38wz/view?usp=sharing" },
+
             {  titulo:"🗂️Slide] The Numbers and The Time", url: "https://docs.google.com/presentation/d/1lLVrkj4nl8wvv3aGmqasKH3Mioo09DE7/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
-            {  titulo:"[🧩 Activity]The Numbers", url: "https://wordwall.net/play/17273/376/89817"},
-            {  titulo:"[🧩 Activity]The Numbers II", url: "https://wordwall.net/play/11115/711/5078"},
-            {  titulo:"[🧩 Activity]The Numbers III", url: "https://wordwall.net/play/15640/307/5782"},
+           
             {  titulo:"[🧩 Activity]have got/has got", url: "https://wordwall.net/play/4935/754/2603"},
 
             {  titulo:"[🧩 Activity] The Time  I", url: "https://wordwall.net/play/11993/400/13264"},
@@ -46,24 +75,34 @@ export const roadA1 = [
            
             {  titulo:"📖 Ordinal Numbers ",url: "https://drive.google.com/file/d/18I58jFyIcYY_apm1YTzXvv2TVuMVHnXk/view?usp=sharing" },
 
+
           
-            {  titulo:"📖 Seasons of the Year",url: "https://docs.google.com/presentation/d/1Ji0bSleS_268aZaK6RUvNEsB4dAK4mno/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
-            {  titulo:"🧩 Seasons of the Year",url: "https://wordwall.net/play/18524/265/35686" },
           
-            {  titulo:"📖Countries/Nationalities + Extra grammar +Review Chart",url: "https://drive.google.com/file/d/12xOlTvoKpFlSGRJboWF1BvNsk4cqAixC/view?usp=sharing"},
-            {
-                titulo: "📒[slides] Jobs in English",
-                url: "https://docs.google.com/presentation/d/1DjLkNdeShBKInTTdZOvwYUGrMHxu5h_q/edit?usp=share_link&ouid=114172849724389982127&rtpof=true&sd=true",
-            },
           
-            {  titulo:"📖 Professions",url: "https://docs.google.com/document/d/18WYvZntiIyTldbpPtcljy2bH27wKkud8/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
         ],
     },
+    {
+        id: 4,
+        thumbnail: "https://i.ibb.co/9wVtSxZ/B2-FIRST-18.png",
+        title: "Trucos de Pronunciación ",
+        subtitle: "Centro de Clasificación ",
+    
+        dateAdded: "Basic 0 ",
+        channel: " ",
+        description: "Si has llevado clases de inglés antes realiza un examen para calcular tu nivel,Envia tu examen para su corrección al correo temis_it@hotmail.com",
+        enlaces: [
+            {  titulo:"🎬 Mi primer truco de Pronunciación",url: "https://www.youtube.com/watch?v=gMlip7427kU&t=22s&ab_channel=MyEnglishBro"},           
+
+          
+          
+        ],
+    },
+   
     {
         id: 1,
         thumbnail: "https://i.ibb.co/9wVtSxZ/B2-FIRST-18.png",
 
-        title: "M1-Fundamentos",
+        title: "Fundamentos I",
         subtitle: "Nivel Básico ",
     
         dateAdded: "Basic 0 ",
@@ -73,7 +112,7 @@ export const roadA1 = [
             {  titulo:"Presentación del Curso",url: "https://www.youtube.com/watch?v=_1DEJIOcJmY&t=2s"},        
             {  titulo:"Welcome Unit",url: "https://drive.google.com/file/d/1qqZSEhaL0HcZRyKm5E_9j-ttnUNzxTFo/view?usp=sharing"},        
 
-            {  titulo:"🎬 Mi primer truco de Pronunciación",url: "https://www.youtube.com/watch?v=gMlip7427kU&t=22s&ab_channel=MyEnglishBro"},           
+            
             {  titulo:"📥 Mi primer truco de Pronunciación",url: "https://drive.google.com/file/d/1VhB8Kjr3YbARZU6KhPMvlPa0pZi92hX0/view?usp=sharing"},
             {  titulo:"🎬Los Saludos",url: "https://www.youtube.com/watch?v=xipdKtlzxAg&t=435s"},           
             {  titulo:"[🗂️Infografía]Los Saludos ", url: "https://drive.google.com/file/d/1o8x7wvOmzrozDie2dizqliw7Eb5QGsw4/view?usp=sharing"},
@@ -90,6 +129,23 @@ export const roadA1 = [
             {  titulo:"🎬 Las Preposiciones",url: "https://youtu.be/8JEvVGC1HoQ"},
             {  titulo:"[🗂️Infografía] Las Preposiciones  ", url: "https://drive.google.com/file/d/1T2S3iq7ziQCr5CIDOdMrAd_zEQ0SkGYH/view?usp=sharing"},
 
+            
+           
+
+        ],
+    },
+    {
+        id: 1,
+        thumbnail: "https://i.ibb.co/9wVtSxZ/B2-FIRST-18.png",
+
+        title: "Fundamentos II",
+        subtitle: "Nivel Básico ",
+    
+        dateAdded: "Basic 0 ",
+        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
+        description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
+        enlaces: [
+           
             {  titulo:"[🧩 ] A/An Indefinite Articles ", url: "https://wordwall.net/play/25729/634/81869"},
             {  titulo:"🎬 Practicando A/An Indefinite Articles",url: "https://www.youtube.com/watch?v=oJHez43MOCM&ab_channel=MyEnglishBro"},
             {  titulo:"🎬 Los Plurales en Ingles",url: "https://youtu.be/acpprMF4NhY"},
@@ -110,58 +166,160 @@ export const roadA1 = [
     },
     {
         id: 1,
-        thumbnail:
-            "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWFBWaIq5f9wRc0ZOhE7iYo7fnItxzPcbmaXkRuCUXJczFJCOkXLr31xaLo7SoVzSUO2GkSfPDMtmcFyy84BTHA7cubztX2JjVKpN_S6G_MzHSE5HUZtbHNwwJZf9El1WeJBobZ5qq4MLG/w1200-h630-p-k-no-nu/school_gakkyu_houkai.png",
-        title: "Materiales Sesiones",
+        thumbnail: "https://i.ibb.co/9wVtSxZ/B2-FIRST-18.png",
+
+        title: "Fundamentos III",
         subtitle: "Nivel Básico ",
     
         dateAdded: "Basic 0 ",
         channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
         description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
         enlaces: [
-            {  titulo:"PDF Whats-your-name",url: "https://drive.google.com/file/d/1TrwJd_rR8u6DowclIEj9uKBfKUQ_WrKc/view?usp=sharing"},        
-             {  titulo:"PDF I’ve got eleven cups!",url: "https://drive.google.com/file/d/1Etui1dFgH9aEkBYd8HO7Kr_MyIOP7_gq/view?usp=sharing"},        
-             {  titulo:"PDF Welcome to my workspace!",url: "https://drive.google.com/file/d/11yKEHMHO5fa5m1vuDSz0CTLq34D0mxm8/view?usp=sharing"},        
+           
+            {  titulo:"[🖥️ Class] Plural Nouns", url: "https://youtu.be/K2v046W9AoE"},
 
-            {  titulo:"PDF Theyre-my-friends-‘to-be-positive ",url: "https://drive.google.com/file/d/1tqyVnubHTN1Npv-fP4xKfh6JzgjqQq8Q/view?usp=sharing"},        
-            {  titulo:"PDF My-bag-isnt-brown-‘to-be-negative ",url: "https://drive.google.com/file/d/1T3cFZeoYFgD_UeuL3exnSK2PHaohIoqv/view?usp=sharing"},        
-            {  titulo:"PDF A day the life",url: "https://drive.google.com/file/d/1aslqgNDXiEcBOGYQsSaLycUFTh0K8lLU/view?usp=sharing"},
-            {  titulo:"PDF Whats-the-weather-like ",url: "https://drive.google.com/file/d/13L1Mj3g4slfM7WbZVlZlwgJVk8dqLsRm/view?usp=sharing"},        
-            {  titulo:"PDF Dress or jeans: clothes we wear ",url: "https://drive.google.com/file/d/10msh0Koi38v07LHOrED4KqzGV9GO_yGk/view?usp=sharing"},
-            {  titulo:"PDF It’s his friends’ house (possessives) ",url: "https://drive.google.com/file/d/1BJPY5HTEw0BvPGOT8v5suFbULWJdUSUW/view?usp=sharing"},
-            {  titulo:"PDF In my neighbourhood ",url: "https://drive.google.com/file/d/1OC_-CUH7HEgIcQLQkrqHT-7IiOVcSIxd/view?usp=sharing"},
-            {  titulo:"PDF What’s your favourite food? ",url: "https://drive.google.com/file/d/1EwJgu9HfELp7PfyhaKPbDdEk622Gn-ax/view?usp=sharing"},
-            {  titulo:"PDF For breakfast, I have… ",url: "https://drive.google.com/file/d/1w1e30nV1fzs1-mC2NdBW3JyCF8z0oq4J/view?usp=sharing"},
+            
+            
+            {  titulo:"[🗂️Slide] Plural Nouns", url: "https://docs.google.com/presentation/d/1uGlaHgl2gR_LI3_Z9wZzlp99FmqRvZAp/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
 
+
+            {  titulo:"[🖥️ Class] Practicando Plural Nouns", url: "https://youtu.be/K2v046W9AoE"},
+
+            {  titulo:"[🧩 Activity] Plural Nouns Rules", url: "https://wordwall.net/play/75502/816/809" },
+            {  titulo:"[🖥️ Class] Demonstrative Adjectives", url: "https://youtu.be/K2v046W9AoE"},
+
+            {  titulo:"[🗂️Slide] Demonstrative Adjectives ",url: "https://docs.google.com/presentation/d/1hw4LZ3Tma1QFhHUwTdENPHhRcvaE9Rdv/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true",},
+
+        ],
+    },
+    // {
+    //     id: 1,
+    //     thumbnail:
+    //         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWFBWaIq5f9wRc0ZOhE7iYo7fnItxzPcbmaXkRuCUXJczFJCOkXLr31xaLo7SoVzSUO2GkSfPDMtmcFyy84BTHA7cubztX2JjVKpN_S6G_MzHSE5HUZtbHNwwJZf9El1WeJBobZ5qq4MLG/w1200-h630-p-k-no-nu/school_gakkyu_houkai.png",
+    //     title: "Materiales Sesiones",
+    //     subtitle: "Nivel Básico ",
+    
+    //     dateAdded: "Basic 0 ",
+    //     channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
+    //     description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
+    //     enlaces: [
+    //         {  titulo:"PDF Whats-your-name",url: "https://drive.google.com/file/d/1TrwJd_rR8u6DowclIEj9uKBfKUQ_WrKc/view?usp=sharing"},        
+    //          {  titulo:"PDF I’ve got eleven cups!",url: "https://drive.google.com/file/d/1Etui1dFgH9aEkBYd8HO7Kr_MyIOP7_gq/view?usp=sharing"},        
+    //          {  titulo:"PDF Welcome to my workspace!",url: "https://drive.google.com/file/d/11yKEHMHO5fa5m1vuDSz0CTLq34D0mxm8/view?usp=sharing"},        
+
+    //         {  titulo:"PDF Theyre-my-friends-‘to-be-positive ",url: "https://drive.google.com/file/d/1tqyVnubHTN1Npv-fP4xKfh6JzgjqQq8Q/view?usp=sharing"},        
+    //         {  titulo:"PDF My-bag-isnt-brown-‘to-be-negative ",url: "https://drive.google.com/file/d/1T3cFZeoYFgD_UeuL3exnSK2PHaohIoqv/view?usp=sharing"},        
+    //         {  titulo:"PDF A day the life",url: "https://drive.google.com/file/d/1aslqgNDXiEcBOGYQsSaLycUFTh0K8lLU/view?usp=sharing"},
+    //         {  titulo:"PDF Whats-the-weather-like ",url: "https://drive.google.com/file/d/13L1Mj3g4slfM7WbZVlZlwgJVk8dqLsRm/view?usp=sharing"},        
+    //         {  titulo:"PDF Dress or jeans: clothes we wear ",url: "https://drive.google.com/file/d/10msh0Koi38v07LHOrED4KqzGV9GO_yGk/view?usp=sharing"},
+    //         {  titulo:"PDF It’s his friends’ house (possessives) ",url: "https://drive.google.com/file/d/1BJPY5HTEw0BvPGOT8v5suFbULWJdUSUW/view?usp=sharing"},
+    //         {  titulo:"PDF In my neighbourhood ",url: "https://drive.google.com/file/d/1OC_-CUH7HEgIcQLQkrqHT-7IiOVcSIxd/view?usp=sharing"},
+    //         {  titulo:"PDF What’s your favourite food? ",url: "https://drive.google.com/file/d/1EwJgu9HfELp7PfyhaKPbDdEk622Gn-ax/view?usp=sharing"},
+    //         {  titulo:"PDF For breakfast, I have… ",url: "https://drive.google.com/file/d/1w1e30nV1fzs1-mC2NdBW3JyCF8z0oq4J/view?usp=sharing"},
+
+
+    //     ],
+    // },
+    // {
+    //     id: 2,
+    //     thumbnail:
+    //         "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMOAaMy5c4-bwgq1f0OHo8Wb3uukwZRdiNzCwiAPjZSM9ezpVq2KaB-tJeapyJg_wzVfi6kobaPlwyyiMwHPbAZhDqMPSz_74gjl8IDSDDPIBhnqsQIKbPioL1vd9Wrm6MRLWAHE2PxVGc/s1600/bg_school_room2.jpg",
+    //     title: "Sesiones en Vivo",
+    //     subtitle: "Nivel Básico ",
+    
+    //     dateAdded: "Basic 0 ",
+    //     channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
+    //     description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
+    //     enlaces: [
+    //         {  titulo:"[🖥️Class] Clase 01 ",url: "https://youtu.be/n3ULyufFSzM"},        
+    //         {  titulo:"[🖥️Class] Clase 02 ",url: "https://youtu.be/AgeIo-GQiRc"},        
+    //         {  titulo:"[🖥️Class] Clase 03 ",url: "https://youtu.be/BPAX_Jmvgyg"},        
+    //         {  titulo:"[🖥️Class] Clase 04 ",url: "https://youtu.be/MOa2KIVNOBM"},         
+    //     ],
+    // },
+   
+    {
+        id: 4,
+        thumbnail: "https://i.ibb.co/mX3PsJ2/B2-FIRST-28.png",
+        title: "Verbo be Affirmative",
+        subtitle: "Centro de Clasificación ",
+    
+        dateAdded: "Basic 0 ",
+        channel: " ",
+        description: "Si has llevado clases de inglés antes realiza un examen para calcular tu nivel,Envia tu examen para su corrección al correo temis_it@hotmail.com",
+        enlaces: [
+
+            {  titulo:"[🖥️ Class] Prensent Simple with Be Afirmativo", url: "https://youtu.be/Qn3u8ixM4B8"},
+            {  titulo:"[📊 Diagrama] Prensent Simple with Be Afirmativo", url: "https://drive.google.com/file/d/1y0DhY1JVNKt36a7-0ozVwmmUgkVMd_46/view?usp=sharing"},
+            {  titulo:"[🧩 Activity] The Verb Be Affirmative Form I", url: "https://wordwall.net/play/13293/724/51767" },
+            {  titulo:"[🧩 Activity] The Verb Be Affirmative Form II", url: "https://wordwall.net/play/14390/465/80013" },
+            {  titulo:"[🧩 Activity] The Verb Be Affirmative Form III", url: "https://wordwall.net/play/11554/389/1088" },
+            {  titulo:"[🖥️ Solution] Practicando el Verbo Be Affirmative Form", url: "https://youtu.be/Z9Y7IWFNX_Q"},
+            {  titulo:"[🔖Practice]The Verb Be Affirmative Form",url: "https://drive.google.com/file/d/1fieorI4c7zCUt6ltKNrXlVX8aPXogvcb/view?usp=sharing" },
 
         ],
     },
     {
-        id: 2,
-        thumbnail:
-            "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMOAaMy5c4-bwgq1f0OHo8Wb3uukwZRdiNzCwiAPjZSM9ezpVq2KaB-tJeapyJg_wzVfi6kobaPlwyyiMwHPbAZhDqMPSz_74gjl8IDSDDPIBhnqsQIKbPioL1vd9Wrm6MRLWAHE2PxVGc/s1600/bg_school_room2.jpg",
-        title: "Sesiones en Vivo",
-        subtitle: "Nivel Básico ",
+        id: 4,
+        thumbnail: "https://i.ibb.co/mX3PsJ2/B2-FIRST-28.png",
+        title: "Verbo be Negative",
+        subtitle: "Centro de Clasificación ",
     
         dateAdded: "Basic 0 ",
-        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
-        description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
+        channel: " ",
+        description: "Si has llevado clases de inglés antes realiza un examen para calcular tu nivel,Envia tu examen para su corrección al correo temis_it@hotmail.com",
         enlaces: [
-            {  titulo:"[🖥️Class] Clase 01 ",url: "https://youtu.be/n3ULyufFSzM"},        
-            {  titulo:"[🖥️Class] Clase 02 ",url: "https://youtu.be/AgeIo-GQiRc"},        
-            {  titulo:"[🖥️Class] Clase 03 ",url: "https://youtu.be/BPAX_Jmvgyg"},        
-            {  titulo:"[🖥️Class] Clase 04 ",url: "https://youtu.be/MOa2KIVNOBM"},         
+
+            {  titulo:"[🖥️ Class] Prensent Simple with Be Negative", url: "https://youtu.be/bBUUAjkC0Go"},
+            {  titulo:"[📊 Diagrama] Prensent Simple with Be Negative", url: "https://drive.google.com/file/d/1CVydEJyBwS2X_9A_A4kRBleq_glgCopc/view?usp=sharing"},
+
+            {  titulo:"[🔖Practice]The Verb Be Negative Form",url: "https://drive.google.com/file/d/15uWVRNGSUj0D8zZQ-O6K-UjTiArG5TA3/view?usp=sharing" },
+            {  titulo:"[🧩 Activity] The Verb Be Negative Form", url: "https://wordwall.net/play/21158/025/3896" },
+            {  titulo:"[📝 FunSheet] BE VERB: Negative",url: "https://drive.google.com/file/d/1Y5UlRlzuV3TLR79_IutdZYshmYs23cIf/view?usp=sharing"},
+            {  titulo:"[🧩 Activity] The Verb Be Affirmative Form I", url: "https://wordwall.net/play/13293/724/51767" },
+            {  titulo:"[🧩 Activity] The Verb Be Affirmative Form II", url: "https://wordwall.net/play/14390/465/80013" },
+            {  titulo:"[🧩 Activity] The Verb Be Affirmative Form III", url: "https://wordwall.net/play/11554/389/1088" },
+            {  titulo:"[🖥️ Solution] Practicando el Verbo Be Affirmative Form", url: "https://youtu.be/Z9Y7IWFNX_Q"},
         ],
     },
-   
+    {
+        id: 4,
+        thumbnail: "https://i.ibb.co/mX3PsJ2/B2-FIRST-28.png",
+        title: "Verbo be Interrogative",
+        subtitle: "Centro de Clasificación ",
     
-   
+        dateAdded: "Basic 0 ",
+        channel: " ",
+        description: "Si has llevado clases de inglés antes realiza un examen para calcular tu nivel,Envia tu examen para su corrección al correo temis_it@hotmail.com",
+        enlaces: [
+ 
+            {  titulo:"[🖥️ Class] Prensent Simple with Be Interrogativa", url: "https://youtu.be/oWnUpDh-z9Y"},
+            {  titulo:"[📊 Diagrama] Prensent Simple with Be Interrogative", url: "https://drive.google.com/file/d/1CVydEJyBwS2X_9A_A4kRBleq_glgCopc/view?usp=sharing"},
+            {  titulo:"[🧩 Activity] The Verb Be Interrogative Form I", url: "https://wordwall.net/play/1856/077/57902" },
+            {  titulo:"[🧩 Activity] The Verb Be Interrogative Form II", url: "https://wordwall.net/play/58086/380/593" },
+        ],
+    },
+    {
+        id: 4,
+        thumbnail: "https://i.ibb.co/mX3PsJ2/B2-FIRST-28.png",
+        title: "Verbo be Interrogative II",
+        subtitle: "Centro de Clasificación ",
+    
+        dateAdded: "Basic 0 ",
+        channel: " ",
+        description: "Si has llevado clases de inglés antes realiza un examen para calcular tu nivel,Envia tu examen para su corrección al correo temis_it@hotmail.com",
+        enlaces: [
+
+          
+          
+        ],
+    },
     {
         id: 5,
-        thumbnail:
-            "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimK5my_K0_FbDFSOhjhXCfdAD8MqNqA1DY2FG5jXEa93O-dbWO4a0KRX9YyXITJeBXcBS6Tt1WAx8jV1aWyCgC2BZ0IfsuzWjy-z4rd3fQ9iwXc65jnZn_x_aF_ikxdkkSU2Gtc6n09PuM/w1200-h630-p-k-no-nu/syukatsu_shigoto_sagashi.png",
+        thumbnail: "https://i.ibb.co/mX3PsJ2/B2-FIRST-28.png",
+
            
-            title: "M1-Present Tense I ",
+            title: "El verbo Be ",
         subtitle: "Basic Level",
     imagenseccion: "https://i.ibb.co/B6gr9Gd/Black-White-and-Red-Simple-Shield-Shape-Football-Club-Logo-2-removebg-preview.png",
       categoria:"speaking",
@@ -169,14 +327,76 @@ export const roadA1 = [
         channel: "",
         description: "Curso básico de inglés para los que están empezando.",
         enlaces: [
-            {  titulo:"[🖥️ Class] Prensent Simple with Be Afirmativo", url: "https://youtu.be/Qn3u8ixM4B8"},
-            {  titulo:"[📊 Diagrama] Prensent Simple with Be Afirmativo", url: "https://drive.google.com/file/d/1y0DhY1JVNKt36a7-0ozVwmmUgkVMd_46/view?usp=sharing"},
+           
             {  titulo:"[📑 GrammarSheet] Contractions with Be",url: "https://drive.google.com/file/d/1RbxiaSl1dFwOq7sFTF_7TRRmIpapN1XN/view?usp=sharing"},
 
-            {  titulo:"[🧩 Activity] The Verb Be Affirmative Form I", url: "https://wordwall.net/play/13293/724/51767" },
-            {  titulo:"[🧩 Activity] The Verb Be Affirmative Form II", url: "https://wordwall.net/play/14390/465/80013" },
-            {  titulo:"[🧩 Activity] The Verb Be Affirmative Form III", url: "https://wordwall.net/play/11554/389/1088" },
-            {  titulo:"[🖥️ Solution] Practicando el Verbo Be Affirmative Form", url: "https://youtu.be/Z9Y7IWFNX_Q"},
+          
+            {  titulo:"[📝 FunSheet] GRAMMAR ERROR CORRECTION BE",url: "https://drive.google.com/file/d/15RV8Qi_oXfnAjFGbZ2XE_MeZra8XPvot/view?usp=sharing"},
+         
+
+            {  titulo:"[🔖Practice]The Verb Be Yes/No Questions",url: "https://drive.google.com/file/d/1s7zZgtpqjsuc3i81bFhfj7PhUWrNoUX7/view?usp=sharing" },
+            {  titulo:"[🔖Practice]The Verb Be Wh Questions ",url: "https://drive.google.com/file/d/1MFejzFjYgHoSPlsoNQLF07R4-y107XcC/view?usp=sharing" },
+            {  titulo:"[🔖Practice]The Verb Be Mixed I ",url: "https://drive.google.com/file/d/1NVzc8Cl78PSxJfxwJJQCb4JH8EKcpVKT/view?usp=sharing" },
+            {  titulo:"[🔖Practice]The Verb Be Mixed II ",url: "https://drive.google.com/file/d/1qqvXwkB_yUCHU4nAOaItjenf8AwaBy6p/view?usp=sharing" },
+            {  titulo:"[🖥️ Class] Adjectives", url: "https://youtu.be/CpG5KE79gFg"},
+            {  titulo:"[🗂️Slide] Adjectives",url: "https://docs.google.com/presentation/d/1kfRo9rtah5D8Afgsj8zbV5iC1c1pOPju/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
+        
+
+         
+            {  titulo:"[🖥️ Solution] Practicando el Verbo Be Negative & Interrogative Form", url: "https://youtu.be/L0yrUtFO1pE"},
+            {  titulo:"📖 Grammar Discussion  Verb be", url: "https://drive.google.com/file/d/1TT9jj4dJ_ylAh64LjBYe8Gjq4GzOOjxg/view?usp=sharing"},
+            {  titulo:"📖 Grammar Discussion  Verb be", url: "https://drive.google.com/file/d/1TT9jj4dJ_ylAh64LjBYe8Gjq4GzOOjxg/view?usp=sharing"},
+
+            {  titulo:"📖 The Verb Be Negative and Interrogative Form", url: "https://docs.google.com/presentation/d/1-37e0Rj12xLoLJ8AIadt47Q0q-D8JbkR/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"📃The Verb Be Affirmative Form",url: "https://drive.google.com/file/d/1rTn31H9zJcXSRVNm1MGJ-se_3PFChW_N/view?usp=sharing" },
+
+            {  titulo:"📖  Be-WH Questions", url: "https://docs.google.com/presentation/d/1QzcM-95Md4pWWy1d6BzM2CX2klPaPbXT/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"📖Correct the Sentences with The Verb Be in Questions",url: "https://docs.google.com/presentation/d/1PmPGCCydt73O4vXTB9ThQdiMk-zSdZs0/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",},
+            { titulo: "💡🎦 Present Tense Simple Be 01  ",url: "https://drive.google.com/file/d/1O2eE2VUMwZLRuFiDaTvjE-zTIj15DP-h/view?usp=sharing", },
+
+            {  titulo:"📖 Review Verb be ",url: "https://docs.google.com/presentation/d/1Ckb4LISBB35qHq5Yxf1sPEruLXAo-o6w/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true" },
+            {  titulo:"[😎Slide] Speak Like a Native 01", url: "https://docs.google.com/presentation/d/17nnI3AdqbUoFzVws8KmozupnKy7K1VgU/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
+            
+            {  titulo:"[🖥️ Class] Demonstrative Pronouns", url: "https://youtu.be/K2v046W9AoE"},
+
+            {  titulo:"[🗂️Slide] Demonstrative Pronouns ",url: "https://docs.google.com/presentation/d/18Y9eWTC4cdzK1L3EEFhNz7OFCtKjWIFh/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true",},
+
+           
+            {
+                titulo: "📒[slides] Making Suggestions Lets and Could",
+                url: "https://docs.google.com/presentation/d/152lX6FIORqoOI59MOv28XNZ4CoxZNMEh/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
+            },
+            {
+                titulo: "📒[slides] Prepositions of Time",
+                url: "https://docs.google.com/presentation/d/1aWoKAeyUeC6kUluXaBHWZhKoC2li7KLN/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
+            },
+           
+          
+           
+          
+            {  titulo:"✍️Practica Integradora 1", url: "https://docs.google.com/document/d/1dEid7CxmlAwFluGbugI-3zH__ktx_KrV/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true", },
+
+
+
+            
+        ],
+    },
+    {
+        id: 5,
+        thumbnail: "https://i.ibb.co/NCJbZ8J/B2-FIRST-30.png",
+
+           
+            title: "Test Center 01 ",
+        subtitle: "Basic Level",
+    imagenseccion: "tps://i.ibb.co/B6gr9Gd/Blachtk-White-and-Red-Simple-Shield-Shape-Football-Club-Logo-2-removebg-preview.png",
+      categoria:"speaking",
+        dateAdded: "Basic 0 ",
+        channel: "",
+        description: "Curso básico de inglés para los que están empezando.",
+        enlaces: [
+            {  titulo:"[📑 GrammarSheet] Contractions with Be",url: "https://drive.google.com/file/d/1RbxiaSl1dFwOq7sFTF_7TRRmIpapN1XN/view?usp=sharing"},
+
+          
             {  titulo:"[📝 FunSheet] GRAMMAR ERROR CORRECTION BE",url: "https://drive.google.com/file/d/15RV8Qi_oXfnAjFGbZ2XE_MeZra8XPvot/view?usp=sharing"},
             {  titulo:"[🔖Practice]The Verb Be Affirmative Form",url: "https://drive.google.com/file/d/1fieorI4c7zCUt6ltKNrXlVX8aPXogvcb/view?usp=sharing" },
             {  titulo:"[🖥️ Class] Prensent Simple with Be Negative", url: "https://youtu.be/bBUUAjkC0Go"},
@@ -250,12 +470,13 @@ export const roadA1 = [
    
    
     
+   
+    
     
     
     {
         id: 6,
-        thumbnail:
-            "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6xRIByLoBqwDhdCsBh8XvNrZvOnQ3o7i3vYfWeSz4gGKzcyqTCqLYixUAJr-l5U3jOOZWECk21ITxO4iV44_3QzaTw3SIVjSt9Gmbm82EBF4TBZ4-CZKuC16GL0bTLxHSsmRln8lcxFLz/s800/bg_snow_school.jpg",
+        thumbnail: "https://i.ibb.co/9wVtSxZ/B2-FIRST-18.png",
         title: "M1 - Present Simple II ",
         subtitle: "A1 - Present Progressive Tense",
 
@@ -418,8 +639,8 @@ export const roadA1 = [
     },
     {
         id: 5,
-        thumbnail:
-            "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEil5OltjehcYor12MEQAojBH31zPiKXE_pKkm4kCKAwmzeliGhNcKEZvpEgnqithyphenhyphenLwZytA5WlaHr7SYDYfF5GY1j4lIYwheDgYIKX1nY1ay2DnvjTpbvWy42tkxeuwzK_6sPj_WWqDgmEA/w1200-h630-p-k-no-nu/bg_school.jpg",
+        thumbnail: "https://i.ibb.co/9wVtSxZ/B2-FIRST-18.png",
+
         title: "M1-Listening Center ",
         subtitle: "Nivel Básico ",
     
@@ -459,8 +680,7 @@ export const roadA1 = [
     },
     {
         id: 7,
-        thumbnail:
-            "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjBFt5gII2wJI0hvuZmP8SncLkWCe81wqbiL9D5CvMetShyphenhyphenFaCqdbstIGJ2x-G8HQSQBVk-KCVwMS2hx7zH6qioyTcMGee2pqze_Vt4Ck3WnvYinWBLbjXWCL1PrUBlb9NpKKBxZXzwl67w/s1600/bg_school_koutei.jpg",
+        thumbnail: "https://i.ibb.co/9wVtSxZ/B2-FIRST-18.png",
         title: "M1- Present Simple vs Progressive",
         subtitle: "Pre-Intermediate",
 
