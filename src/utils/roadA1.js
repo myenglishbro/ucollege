@@ -35,15 +35,18 @@ export const roadA1 = [
     {
         id: 4,
         thumbnail: "https://i.ibb.co/rpNz4py/B2-FIRST-31.png",
-        title: " Pronunciación Esencial",
+        title: " Pronunciación Esencial I",
         subtitle: "Centro de Clasificación ",
     
         dateAdded: "Basic 0 ",
         channel: " ",
         description: "Si has llevado clases de inglés antes realiza un examen para calcular tu nivel,Envia tu examen para su corrección al correo temis_it@hotmail.com",
         enlaces: [
-            {  titulo:"🎥Presentacion", url: "https://youtu.be/dWDfFM88dSA"},
-            {  titulo:"🎥Diferencia de I/i", url: "https://www.youtube.com/watch?v=oMUO8eRSkXk"},
+            {  titulo:"🎬Presentacion", url: "https://youtu.be/dWDfFM88dSA"},
+          
+            {  titulo:"🎬 Mi primer truco de Pronunciación",url: "https://www.youtube.com/watch?v=gMlip7427kU&t=22s&ab_channel=MyEnglishBro"},           
+            {  titulo:"📑 Mi primer truco de Pronunciación",url: "https://drive.google.com/file/d/1VhB8Kjr3YbARZU6KhPMvlPa0pZi92hX0/view?usp=sharing"},
+            {  titulo:"🎬Diferencia de I/i", url: "https://www.youtube.com/watch?v=oMUO8eRSkXk"},
 
             {  titulo:"📑Diferencia de I/i", url: "https://drive.google.com/file/d/1M5_cODEz8FA51UDbOQ85Su9I5zKFOSCL/view?usp=sharing"},
             {  titulo:"📑Diferencia de /æ/, /ɑː/, y /ʌ/ ", url: "https://drive.google.com/file/d/1B1DI1uePifYoAs6EbQNYNvqz8dl4m9HU/view?usp=sharing"},
@@ -53,11 +56,44 @@ export const roadA1 = [
           
         ],
     },
-   
+    {
+        id: 1,
+        thumbnail: "https://i.ibb.co/rpNz4py/B2-FIRST-31.png",
+
+        title: "Fundamentos I",
+        subtitle: "Nivel Básico ",
+    
+        dateAdded: "Basic 0 ",
+        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
+        description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
+        enlaces: [
+            // {  titulo:"Welcome Unit",url: "https://drive.google.com/file/d/1qqZSEhaL0HcZRyKm5E_9j-ttnUNzxTFo/view?usp=sharing"},        
+
+            
+            {  titulo:"🎬Los Saludos",url: "https://www.youtube.com/watch?v=xipdKtlzxAg&t=435s"},           
+            {  titulo:"[🗂️Infografía]Los Saludos ", url: "https://drive.google.com/file/d/1o8x7wvOmzrozDie2dizqliw7Eb5QGsw4/view?usp=sharing"},
+
+            {  titulo:"🎬The Alphabet",url: "https://www.youtube.com/watch?v=fG9ccbmA0-o"},
+            {  titulo:"[🗂️Infografía]The Alphabet ", url: "https://drive.google.com/file/d/10pTYkkB8ni0Ng3cxwv8mYuE7pQ6BF_Y-/view?usp=sharing"},
+
+            {  titulo:"[🖥️Challenge] Spelling Names",url: "https://www.youtube.com/watch?v=NKZejheVK8w"},
+            {  titulo:"[🖥️Solution] Spelling Names",url: "https://youtu.be/s-PqZNY9NIE"},
+            {  titulo:"[🖥️Class] A/An Explicación",url: "https://youtu.be/6PHOdNLdjok"},
+            {  titulo:"[🗂️Infografía] a/an  ", url: "https://drive.google.com/file/d/1MsMemHQtawat60xSxQFrWp3daZOLKJ3l/view?usp=sharing"},
+            {  titulo:"🎬 12 Verbos Importantes en Ingles",url: "https://youtu.be/NuCWBUcvvaY"},
+            {  titulo:"[🗂️Infografía] 12 Verbos Importantes en Ingles  ", url: "https://drive.google.com/file/d/1NGzis_cW6axVXqX5h7scYNn48FvZifrv/view?usp=sharing"},
+            {  titulo:"🎬 Las Preposiciones",url: "https://youtu.be/8JEvVGC1HoQ"},
+            {  titulo:"[🗂️Infografía] Las Preposiciones  ", url: "https://drive.google.com/file/d/1T2S3iq7ziQCr5CIDOdMrAd_zEQ0SkGYH/view?usp=sharing"},
+
+            
+           
+
+        ],
+    },
     {
         id: 4,
         thumbnail: "https://i.ibb.co/rpNz4py/B2-FIRST-31.png",
-        title: "Vocabulario Esencial",
+        title: "Vocabulario Esencial I",
         subtitle: "Centro de Clasificación ",
     
         dateAdded: "Basic 0 ",
@@ -65,15 +101,9 @@ export const roadA1 = [
         description: "Si has llevado clases de inglés antes realiza un examen para calcular tu nivel,Envia tu examen para su corrección al correo temis_it@hotmail.com",
         enlaces: [
         
-            {  titulo:"Las Nacionalidades", url: "https://drive.google.com/file/d/1t-NO8pU0eJr-CqjYoeakkTnZOWB7odPw/view?usp=sharing"},
             {  titulo:"Las Frutas", url: "https://drive.google.com/file/d/1w2CwNRwhzm2zI7Wui33WHAiRWjPY74xl/view?usp=sharing"},
-            {  titulo:"Días de la Semana", url: "https://drive.google.com/file/d/11JLBMEKHA5qK0hfzlsFI1SctOr7vSa47/view?usp=sharing"},
             {  titulo:"Los Números", url: "https://drive.google.com/file/d/1v8Llb28x3bJCDzuRgfDJXPOmqbRkMKuz/view?usp=sharing"},
-            {  titulo:"Los Adjetivos", url: "https://drive.google.com/file/d/1a4bQQNWNjxPwO82z4ztO51A0Nq2GhVVv/view?usp=sharing"},
-            {  titulo:" Las estaciones ",url: "https://drive.google.com/file/d/1LGxrtVKrUYzgQfyNiaFGa2OhQG5WK2QL/view?usp=sharing" },
-            {  titulo:" Las Profesiones ",url: "https://drive.google.com/file/d/1k9ve-mH0Ja3oN3P-S2fuEy93gnHgs49k/view?usp=sharing" },
             {  titulo:" Objetos de la casa ",url: "https://drive.google.com/file/d/1oJafOHW9rzR4-85EycQtGtZaDaHuIHdg/view?usp=sharing" },
-            {  titulo:" Miembros de la familia",url: "https://drive.google.com/file/d/1cFE24uSHz39qd2F7QWD-A_Vr7I0GoD9P/view?usp=sharing" },
             {  titulo:" Partes del Cuerpo",url: "https://drive.google.com/file/d/16M8ghnjnDxLr-IhhuCfhHPOK7aXUz6ac/view?usp=sharing" },
             {  titulo:" Lugares en Inglés",url: "https://drive.google.com/file/d/1zMMYEvI0nWXQZWpawErZ5J7OgnPf4rgO/view?usp=sharing" },
             {  titulo:" Los colores",url: "https://drive.google.com/file/d/18iiQLhwnGzGnfJQxnZrsBlt8YLyA38wz/view?usp=sharing" },
@@ -85,6 +115,34 @@ export const roadA1 = [
         ],
     },
     {
+        id: 1,
+        thumbnail: "https://i.ibb.co/rpNz4py/B2-FIRST-31.png",
+
+        title: "Fundamentos II",
+        subtitle: "Nivel Básico ",
+    
+        dateAdded: "Basic 0 ",
+        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
+        description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
+        enlaces: [
+            // {  titulo:"Welcome Unit",url: "https://drive.google.com/file/d/1qqZSEhaL0HcZRyKm5E_9j-ttnUNzxTFo/view?usp=sharing"},        
+
+            
+            
+            {  titulo:"[🖥️Class] A/An Explicación",url: "https://youtu.be/6PHOdNLdjok"},
+            {  titulo:"[🗂️Infografía] a/an  ", url: "https://drive.google.com/file/d/1MsMemHQtawat60xSxQFrWp3daZOLKJ3l/view?usp=sharing"},
+            {  titulo:"🎬 12 Verbos Importantes en Ingles",url: "https://youtu.be/NuCWBUcvvaY"},
+            {  titulo:"[🗂️Infografía] 12 Verbos Importantes en Ingles  ", url: "https://drive.google.com/file/d/1NGzis_cW6axVXqX5h7scYNn48FvZifrv/view?usp=sharing"},
+            {  titulo:"🎬 Las Preposiciones",url: "https://youtu.be/8JEvVGC1HoQ"},
+            {  titulo:"[🗂️Infografía] Las Preposiciones  ", url: "https://drive.google.com/file/d/1T2S3iq7ziQCr5CIDOdMrAd_zEQ0SkGYH/view?usp=sharing"},
+
+            
+           
+
+        ],
+    },
+   
+    {
         id: 4,
         thumbnail: "https://i.ibb.co/rpNz4py/B2-FIRST-31.png",
         title: "Trucos de Pronunciación ",
@@ -94,8 +152,7 @@ export const roadA1 = [
         channel: " ",
         description: "Si has llevado clases de inglés antes realiza un examen para calcular tu nivel,Envia tu examen para su corrección al correo temis_it@hotmail.com",
         enlaces: [
-            {  titulo:"🎬 Mi primer truco de Pronunciación",url: "https://www.youtube.com/watch?v=gMlip7427kU&t=22s&ab_channel=MyEnglishBro"},           
-            {  titulo:"📥 Mi primer truco de Pronunciación",url: "https://drive.google.com/file/d/1VhB8Kjr3YbARZU6KhPMvlPa0pZi92hX0/view?usp=sharing"},
+           
             {
                 titulo: "💣PRONUNCIACIÓN en INGLÉS (Presentación)👄",
                 url: "https://www.youtube.com/watch?v=-YocPrBjydE&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&ab_channel=MyEnglishBro",
@@ -141,40 +198,7 @@ export const roadA1 = [
         ],
     },
    
-    {
-        id: 1,
-        thumbnail: "https://i.ibb.co/rpNz4py/B2-FIRST-31.png",
-
-        title: "Fundamentos I",
-        subtitle: "Nivel Básico ",
-    
-        dateAdded: "Basic 0 ",
-        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
-        description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
-        enlaces: [
-            {  titulo:"Welcome Unit",url: "https://drive.google.com/file/d/1qqZSEhaL0HcZRyKm5E_9j-ttnUNzxTFo/view?usp=sharing"},        
-
-            
-            {  titulo:"🎬Los Saludos",url: "https://www.youtube.com/watch?v=xipdKtlzxAg&t=435s"},           
-            {  titulo:"[🗂️Infografía]Los Saludos ", url: "https://drive.google.com/file/d/1o8x7wvOmzrozDie2dizqliw7Eb5QGsw4/view?usp=sharing"},
-
-            {  titulo:"🎬The Alphabet",url: "https://www.youtube.com/watch?v=fG9ccbmA0-o"},
-            {  titulo:"[🗂️Infografía]The Alphabet ", url: "https://drive.google.com/file/d/10pTYkkB8ni0Ng3cxwv8mYuE7pQ6BF_Y-/view?usp=sharing"},
-
-            {  titulo:"[🖥️Challenge] Spelling Names",url: "https://www.youtube.com/watch?v=NKZejheVK8w"},
-            {  titulo:"[🖥️Solution] Spelling Names",url: "https://youtu.be/s-PqZNY9NIE"},
-            {  titulo:"[🖥️Class] A/An Explicación",url: "https://youtu.be/6PHOdNLdjok"},
-            {  titulo:"[🗂️Infografía] a/an  ", url: "https://drive.google.com/file/d/1MsMemHQtawat60xSxQFrWp3daZOLKJ3l/view?usp=sharing"},
-            {  titulo:"🎬 12 Verbos Importantes en Ingles",url: "https://youtu.be/NuCWBUcvvaY"},
-            {  titulo:"[🗂️Infografía] 12 Verbos Importantes en Ingles  ", url: "https://drive.google.com/file/d/1NGzis_cW6axVXqX5h7scYNn48FvZifrv/view?usp=sharing"},
-            {  titulo:"🎬 Las Preposiciones",url: "https://youtu.be/8JEvVGC1HoQ"},
-            {  titulo:"[🗂️Infografía] Las Preposiciones  ", url: "https://drive.google.com/file/d/1T2S3iq7ziQCr5CIDOdMrAd_zEQ0SkGYH/view?usp=sharing"},
-
-            
-           
-
-        ],
-    },
+   
     {
         id: 4,
         thumbnail: "https://i.ibb.co/rpNz4py/B2-FIRST-31.png",
@@ -187,18 +211,11 @@ export const roadA1 = [
         enlaces: [
         
             {  titulo:"Las Nacionalidades", url: "https://drive.google.com/file/d/1t-NO8pU0eJr-CqjYoeakkTnZOWB7odPw/view?usp=sharing"},
-            {  titulo:"Las Frutas", url: "https://drive.google.com/file/d/1w2CwNRwhzm2zI7Wui33WHAiRWjPY74xl/view?usp=sharing"},
             {  titulo:"Días de la Semana", url: "https://drive.google.com/file/d/11JLBMEKHA5qK0hfzlsFI1SctOr7vSa47/view?usp=sharing"},
-            {  titulo:"Los Números", url: "https://drive.google.com/file/d/1v8Llb28x3bJCDzuRgfDJXPOmqbRkMKuz/view?usp=sharing"},
             {  titulo:"Los Adjetivos", url: "https://drive.google.com/file/d/1a4bQQNWNjxPwO82z4ztO51A0Nq2GhVVv/view?usp=sharing"},
             {  titulo:" Las estaciones ",url: "https://drive.google.com/file/d/1LGxrtVKrUYzgQfyNiaFGa2OhQG5WK2QL/view?usp=sharing" },
             {  titulo:" Las Profesiones ",url: "https://drive.google.com/file/d/1k9ve-mH0Ja3oN3P-S2fuEy93gnHgs49k/view?usp=sharing" },
-            {  titulo:" Objetos de la casa ",url: "https://drive.google.com/file/d/1oJafOHW9rzR4-85EycQtGtZaDaHuIHdg/view?usp=sharing" },
             {  titulo:" Miembros de la familia",url: "https://drive.google.com/file/d/1cFE24uSHz39qd2F7QWD-A_Vr7I0GoD9P/view?usp=sharing" },
-            {  titulo:" Partes del Cuerpo",url: "https://drive.google.com/file/d/16M8ghnjnDxLr-IhhuCfhHPOK7aXUz6ac/view?usp=sharing" },
-            {  titulo:" Lugares en Inglés",url: "https://drive.google.com/file/d/1zMMYEvI0nWXQZWpawErZ5J7OgnPf4rgO/view?usp=sharing" },
-            {  titulo:" Los colores",url: "https://drive.google.com/file/d/18iiQLhwnGzGnfJQxnZrsBlt8YLyA38wz/view?usp=sharing" },
-            {  titulo:" Los Animales",url: "https://drive.google.com/file/d/1hhtj5vmynyNva8Rx92O1yvR_7Wa0rPKb/view?usp=sharing" },
 
             {  titulo:"🗂️Slide] The Numbers and The Time", url: "https://docs.google.com/presentation/d/1lLVrkj4nl8wvv3aGmqasKH3Mioo09DE7/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
            
