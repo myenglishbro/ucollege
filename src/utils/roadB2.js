@@ -333,6 +333,40 @@ export const roadB2 = [
     },
     {
         id: 5,
+        thumbnail:"https://i.ibb.co/SPZZtf2/B2-FIRST-34.png",
+
+        title: "Spot the Difference ",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+        enlaces: [
+            { titulo:"📚feel like (doing) sth vs feel up to (doing) sth",url: "https://drive.google.com/file/d/1yVw8CbCu3FMAUYVJyKj42IoujDRxF1Iv/view?usp=sharing"},
+            { titulo:"📚continually,  continuously ,  constantly",url: "https://drive.google.com/file/d/1kENm-lqtM22jiVAej6_Io_IoYFeRDprC/view?usp=sharing"},
+            { titulo:"📚Chance of-Chance to... ",url: "https://drive.google.com/file/d/18otkt_PTLMwlZGqs4rBnXRMdhz48xUaS/view?usp=sharing"},
+
+          
+        ],
+    },
+    {
+        id: 5,
+        thumbnail:"https://i.ibb.co/h9SnjX0/B2-FIRST-35.png",
+
+        title: "Useful Structures in B2 ",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+        enlaces: [
+            { titulo:"📚it's a good job.pdf ",url: "https://drive.google.com/file/d/1vHHH_2VXuIdDf_NSp6Ie9FgvHFB94G92/view?usp=sharing"},
+
+          
+        ],
+    },
+    {
+        id: 5,
         thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
 
         title: "Essential Grammar ",
@@ -358,10 +392,8 @@ export const roadB2 = [
             { titulo:"📚cannot vs can not",url: "https://drive.google.com/file/d/1CXcCzrtdDif6iBEi75d_9CFxIE6847Q4/view?usp=sharing"},
             { titulo:"📚CAUSATIVE VERBS (have - get) ",url: "https://drive.google.com/file/d/1-PErCarKwe61HtSAbgx2wtJapHkBM9bp/view?usp=sharing"},
             { titulo:"📚Table CAUSATIVE VERBS (have - get) ",url: "https://drive.google.com/file/d/1NoE0tUIpAlHgGNHc1xBIi_YFIyoBax15/view?usp=sharing"},
-            { titulo:"📚Chance of-Chance to... ",url: "https://drive.google.com/file/d/18otkt_PTLMwlZGqs4rBnXRMdhz48xUaS/view?usp=sharing"},
             { titulo:"📚CLEFT SENTENCES (TABLE) ",url: "https://drive.google.com/file/d/13-JhSbUYrCntdTi5t097wDYyeUmJH-g1/view?usp=sharing"},
             { titulo:"📚Consist in vs Consist of.. ",url: "https://drive.google.com/file/d/1F-XK5pIbsWwlOIDU-XfXpEVATQdlTggq/view?usp=sharing"},
-            { titulo:"📚continually,  continuously ,  constantly",url: "https://drive.google.com/file/d/1kENm-lqtM22jiVAej6_Io_IoYFeRDprC/view?usp=sharing"},
             { titulo:"📚CORRELATIVE CONJUNCTIONS",url: "https://drive.google.com/file/d/16ud5EPb-q127g3tRlHKoV_Pk5HKpLoh8/view?usp=sharing"},
             { titulo:"📚DECISIONS, PLANS, PREDICTIONS",url: "https://drive.google.com/file/d/1LirHWCiSSatbjAv8q1ItdX32fnY2Tk8c/view?usp=sharing"},
             { titulo:"📚DESPITE vs IN SPITE OF",url: "https://drive.google.com/file/d/1Mz8VnETibHBD0ID3hanTfrNS66xHU6_h/view?usp=sharing"},
@@ -378,7 +410,6 @@ export const roadB2 = [
             { titulo:"📚Expressing lack of surprise (phrases).. ",url: "https://drive.google.com/file/d/10OCN5p9pht9TviKo5C8Tlpq65n7LFSzV/view?usp=sharing"},
             { titulo:"📚EXPRESSING PURPOSE-- ",url: "https://drive.google.com/file/d/1aRymKDEhwoQRppVdi-ztAThEOAOp0JMe/view?usp=sharing"},
             { titulo:"📚Expressing willingness (Will and Would ) ",url: "https://drive.google.com/file/d/1AJr_SKwGzajEuvqdC72Mumc0DVJZwag0/view?usp=sharing"},
-            { titulo:"📚feel like (doing) sth vs feel up to (doing) sth",url: "https://drive.google.com/file/d/1yVw8CbCu3FMAUYVJyKj42IoujDRxF1Iv/view?usp=sharing"},
             { titulo:"📚Few vs Little Full Explanation",url: "https://drive.google.com/file/d/1aBJdWZnhLdBVlvxlBl3hb_-0tac67XUw/view?usp=sharing"},
             { titulo:"📚FOR + ING vs TO+ INFINITIVE",url: "https://drive.google.com/file/d/1rX-n7tp2oviaCzq6QjiSlBe4jZlTW2y5/view?usp=sharing"},
             { titulo:"📚FOR...TO",url: "https://drive.google.com/file/d/17TmzNhbfrrhN344SE_TnKDMo0Jip1-b5/view?usp=sharing"},
@@ -398,7 +429,6 @@ export const roadB2 = [
             { titulo:"📚INVERSION - NEITHER and NOR..pdf ",url: "https://drive.google.com/file/d/1WPJd9-AcEd7p7uvD6IMT1LLVgh0c6JrO/view?usp=sharing"},
             { titulo:"📚Irregular verbs that stay the same.pdf ",url: "https://drive.google.com/file/d/1lXnJki--FsJONo7pe-kcyTrP_ULPrPGq/view?usp=sharing"},
             { titulo:"📚it's (about-high) time ",url: "https://drive.google.com/file/d/1JsV99-95VmCWYE-ueZxQOT-2X7G8F-WJ/view?usp=sharing"},
-            { titulo:"📚it's a good job.pdf ",url: "https://drive.google.com/file/d/1vHHH_2VXuIdDf_NSp6Ie9FgvHFB94G92/view?usp=sharing"},
             { titulo:"📚it is you who is or are.pdf ",url: "https://drive.google.com/file/d/1BndKeJOOstmHCB7pUYxQQyLr-YhfcSPJ/view?usp=sharing"},
             { titulo:"📚JOINING NEGATIVE IDEAS.pdf ",url: "https://drive.google.com/file/d/1OuDSE00YChqB4_W8nCFT7R2DTWt5ZfLF/view?usp=sharing"},
             { titulo:"📚MADE (OF, OUT OF, UP OF, FROM, WITH).pdf ",url: "https://drive.google.com/file/d/1-Mw6MXOBx3V6D0WvlN1l3Hn6XGBTrolK/view?usp=sharing"},
