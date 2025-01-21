@@ -7,7 +7,19 @@ const Hito = ({ selectedLink }) => {
   const [overlayActive, setOverlayActive] = useState(false);
   const [showAlert, setShowAlert] = useState(false);
   const [showBlackScreen, setShowBlackScreen] = useState(false);
+  const [isCodeValid, setIsCodeValid] = useState(false);
+  const [enteredCode, setEnteredCode] = useState('');
+  const [error, setError] = useState('');
+  const validCode = '12345'; // Este es el código que debe ingresar el usuario para acceder al PDF
 
+  const handleCodeSubmit = () => {
+    if (enteredCode === validCode) {
+      setIsCodeValid(true);
+      setError('');
+    } else {
+      setError('Incorrect code. Please try again.');
+    }
+  };
   useEffect(() => {
     if (selectedLink) {
       setIsLoading(true);
@@ -210,18 +222,74 @@ const Hito = ({ selectedLink }) => {
             ></iframe>
           )}
 
-          {selectedLink.url.includes('drive.google.com') && (
-            <div
-              className="absolute top-0 right-0 w-[80px] h-[80px] bg-black/75 text-white flex justify-center items-center rounded-full z-10"
-              style={{
-                top: '10px',
-                right: '10px',
-                cursor: 'not-allowed',
-              }}
-            >
-              <p className="text-xs font-bold text-center">Premium<br />Content</p>
-            </div>
-          )}
+          {selectedLink.url.includes('drive.google.com') && !isCodeValid && (
+  <div
+    onClick={() => setShowModal(true)} // Abre el modal al hacer clic
+    className="absolute top-4 right-4 w-[100px] h-[100px] bg-black/75 text-white rounded-full flex items-center justify-center z-10 cursor-pointer shadow-lg"
+  >
+    <p className="text-xs text-center font-semibold">
+      🔒 Premium<br />Content
+    </p>
+  </div>
+)}
+
+
+{showModal && (
+  <div className="fixed inset-0 bg-black/50 backdrop-blur flex items-center justify-center z-20">
+    <div className="bg-white w-[250px] p-5 rounded-lg shadow-lg text-center">
+      <p className="text-sm font-semibold text-gray-700">🔒 Enter Code</p>
+      <p className="text-xs text-gray-500 mt-2">
+        Please enter the access code to unlock.
+      </p>
+      <input
+        type="text"
+        placeholder="Code"
+        value={enteredCode}
+        onChange={(e) => setEnteredCode(e.target.value)}
+        className="mt-3 px-3 py-2 rounded border border-gray-300 text-sm focus:outline-none focus:ring focus:ring-blue-200 w-full"
+      />
+      <button
+        onClick={() => {
+          handleCodeSubmit();
+          setShowModal(false); // Cierra el modal después de enviar
+        }}
+        className="mt-3 bg-blue-600 hover:bg-blue-700 text-white px-3 py-2 rounded text-sm w-full"
+      >
+        Submit
+      </button>
+      {error && <p className="text-red-500 text-xs mt-2">{error}</p>}
+      <button
+        onClick={() => setShowModal(false)} // Cierra el modal al cancelar
+        className="mt-3 text-gray-600 text-sm underline"
+      >
+        Cancel
+      </button>
+    </div>
+  </div>
+)}
+
+// Acceso válido: botón para abrir el PDF
+{isCodeValid && (
+  <div
+    className="absolute top-4 right-4 w-[150px] h-[150px] bg-white/80 shadow-md rounded-lg flex flex-col items-center justify-center z-10 p-3 backdrop-blur"
+  >
+    <p className="text-xs font-semibold text-gray-700 text-center mb-1">
+      ✅ Access Granted
+    </p>
+    <button
+      onClick={() => {
+        window.open(selectedLink.url, '_blank');
+        setIsCodeValid(false); // Resetea estado después de abrir el PDF
+        setEnteredCode('');
+      }}
+      className="bg-green-600 hover:bg-green-700 text-white px-2 py-1 rounded text-[10px] w-full"
+    >
+      View PDF
+    </button>
+  </div>
+)}
+
+
         </>
       ) : (
         <p className="text-center text-gray-500">Selecciona un enlace para visualizar el contenido.</p>
