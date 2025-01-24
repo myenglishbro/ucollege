@@ -18,7 +18,21 @@ export const roadB2 = [
         ],
     },
     
-  
+    {
+        id: 2,
+        thumbnail:"https://i.ibb.co/vcMnX0n/B2-FIRST-17.png",
+        title: "Semana 01",
+        subtitle: "B2/C1",
+
+        dateAdded: "Week 01 ",
+        channel: "sdasd",
+        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+        enlaces: [
+            { titulo:"📑 Verbs 01",url: "https://drive.google.com/file/d/12Kh_QqxgHwz6dT7Vos8XAh-sZzYbc4hZ/view?usp=sharing"},
+
+            
+        ],
+    },
     
     
    
@@ -441,6 +455,53 @@ export const roadB2 = [
             { titulo:"📚Not only... but also...(structure)",url: "https://drive.google.com/file/d/1oXgZlGy5JdqxtVyzTQ-hiAfeyWadDkpG/view?usp=sharing"},
             { titulo:"📚no good vs not good.pdf",url: "https://drive.google.com/file/d/1-5MHEN322Xi2xUYpDWYU115P2NXYQzdr/view?usp=sharing"},
             
+
+
+
+
+
+
+
+
+          
+            { titulo:"📚Notice - realize - be aware",url: "https://drive.google.com/file/d/1ZUCrPpie-3e4GKFt5xuyqDXvdF4EwQ1P/view?usp=sharing"},
+            { titulo:"📚Personal and Impersonal Passive",url: "https://drive.google.com/file/d/1obtVtl8UEAVz9UCz4aff_q7WGGYwDim2/view?usp=sharing"},
+            { titulo:"📚PREFER (structures)",url: "https://drive.google.com/file/d/1K1snnmMtNgzLZOuyZ5HQR62_5MWh4_kt/view?usp=sharing"},
+            { titulo:"📚Prepare for, Prepare oneself for",url: "https://drive.google.com/file/d/1tG9gKZJ_jzgMHZZC2H5oqGvrf78UxRCU/view?usp=sharing"},
+            { titulo:"📚present habits",url: "https://drive.google.com/file/d/1qoaInxhVWNQsxI354IL8Cj3ho7iHjCQ7/view?usp=sharing"},
+            { titulo:"📚Prevent, Stop, Avoid.",url: "https://drive.google.com/file/d/1FoSc6244qwfBpG9EDxzX7YkHZTuk6EN8/view?usp=sharing"},
+       
+       
+            { titulo:"📚QUANTIFIERS",url: "https://drive.google.com/file/d/1iGVwAqosK0wGZ216J_rgHXVnuVnLBZLM/view?usp=sharing"},
+            { titulo:"📚Universal Tags",url: "https://drive.google.com/file/d/1N2ZdcMbCQ_JEZEgXXsZ7QEjyhjgN2sjY/view?usp=sharing"},
+            { titulo:"📚QUESTION TAG - HAVE",url: "https://drive.google.com/file/d/1TfK9qlZtV5D3m1PFQ98IpYTLV8G9RSTM/view?usp=sharing"},
+
+           
+           
+           
+           
+           
+            { titulo:"📚statement tags",url: "https://drive.google.com/file/d/1wPLJc7cxDP6KjIphJKOf5yDgy6PKGqQA/view?usp=sharing"},
+            { titulo:"📚SHALL I - QUESTION TAG..",url: "https://drive.google.com/file/d/1mZfz_uoyYNVEG70LhXfZ1SwPfyyIIAi9/view?usp=sharing"},
+            { titulo:"📚Question tags -LET’S",url: "https://drive.google.com/file/d/1gIAxg2SqZfz-NawyVGk7kRBm-SGuaL1b/view?usp=sharing"},
+            { titulo:"📚Question tags - Double Positives",url: "https://drive.google.com/file/d/15H24JhmJRhfgJRsurnXdLvtyiwgI60LR/view?usp=sharing"},
+            { titulo:"📚Question tags - IMPERATIVES..",url: "https://drive.google.com/file/d/1DeYr9sy5FSUJfjyn4xaGHU_Uz78rFwv9/view?usp=sharing"},
+            { titulo:"📚THERE ... QUESTION TAG",url: "https://drive.google.com/file/d/1xza1T8UmmTsyM6vSYK6uW-qoVmn5mYKe/view?usp=sharing"},
+            { titulo:"📚Raise vs Rise..",url: "https://drive.google.com/file/d/1K57hHa19p8k36dka59AM7pyFERFxnap2/view?usp=sharing"},
+            { titulo:"📚Rather than , Instead of . As opposed to",url: "https://drive.google.com/file/d/13ZK9zCLBTKe73OQNaqvXjK-38ZvaJ8VT/view?usp=sharing"},
+            { titulo:"📚Saxon genitive",url: "https://drive.google.com/file/d/1vRBsRnPMX_9m_wNUkAvs2phvuR8DYHqD/view?usp=sharing"},
+            { titulo:"📚shout at someone - shout to someone",url: "https://drive.google.com/file/d/1iisgsGHkBpj0nyGTvwxCiI8_aG3ukcsi/view?usp=sharing"},
+            { titulo:"📚sidetrack - distract - put someone off",url: "https://drive.google.com/file/d/1uXbNu9yt24xuTIVk0u60JO0lxdxT9Wt8/view?usp=sharing"},
+            { titulo:"📚sign vs signal",url: "https://drive.google.com/file/d/1HhFh07shRGd8N9LoKQtuSj21YBq2TCMV/view?usp=sharing"},
+            { titulo:"📚Words with Silent Letters",url: "https://drive.google.com/file/d/1eAPZFyNImLFcuMVSfvWhfJgUPj4f78jO/view?usp=sharing"},
+            { titulo:"📚SINGULAR THEY",url: "https://drive.google.com/file/d/1xAT_pnOmVjImRxmr1LX57yWLdWbKGVf4/view?usp=sharing"},
+            { titulo:"📚so+adj+that vs so+adj+as to",url: "https://drive.google.com/file/d/1Dox44XMlIjIJkzhUO1-wjetHjtfbn13Q/view?usp=sharing"},
+
+            { titulo:"📚take for, mistake for, confuse with",url: "https://drive.google.com/file/d/19Vprq7R-KXX0JVHNjK5p9et5eLlAduJ-/view?usp=sharing"},
+
+
+
+
             { titulo:"📚That's why - that's because.pdf",url: "https://drive.google.com/file/d/1-VKBz1cVT8zW1yZFf1QYGry984MX7BML/view?usp=sharing"},
             { titulo:"📚[Slide] The fact that  ",url: "https://drive.google.com/file/d/1FSd3Vt3C71C0kujDoy4egxFDy8_ZugZv/view?usp=sharing"},
             { titulo:"📚the same as - the same that.pdf",url: "https://drive.google.com/file/d/1XxkdYtKE6YyMH3jP93Aog9mXF_l9wu9l/view?usp=sharing"},
