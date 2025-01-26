@@ -1,8 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import ContainerRoad from './ContainerRoad';
 import { roadC1 } from "../utils/roadC1";
-import { validCredentials } from '../utils/credentials'; // Importa desde el archivo
-
+import { validCredentialsc1 } from '../utils/credentialsc1';
 import Sidebar from '../components/Sidebar';
 import DefaultView from '../components/DefaultView';
 import Banner from './Banner';
@@ -44,7 +43,7 @@ const RoadMapC1 = () => {
   };
 
   const handleMostrarComponente = () => {
-    const userCredential = validCredentials.find(
+    const userCredential = validCredentialsc1.find(
       (cred) => cred.usuario === usuario && cred.password === codigo
     );
 
