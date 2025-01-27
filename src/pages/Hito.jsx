@@ -10,7 +10,7 @@ const Hito = ({ selectedLink }) => {
   const [isCodeValid, setIsCodeValid] = useState(false);
   const [enteredCode, setEnteredCode] = useState('');
   const [error, setError] = useState('');
-  const validCode = 'mybro'; // Este es el código que debe ingresar el usuario para acceder al PDF
+  const validCode = 'mybrosecretpw'; // Este es el código que debe ingresar el usuario para acceder al PDF
 
   const handleCodeSubmit = () => {
     if (enteredCode === validCode) {
