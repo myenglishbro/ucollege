@@ -347,9 +347,9 @@ export const roadB2 = [
     },
     {
         id: 5,
-        thumbnail:"https://i.ibb.co/SPZZtf2/B2-FIRST-34.png",
+        thumbnail:"https://i.ibb.co/vcMnX0n/B2-FIRST-17.png",
 
-        title: "Spot the Difference ",
+        title: "What's the diffrence ",
         subtitle: "B2/C1",
 
         dateAdded: "Basic 0 ",
