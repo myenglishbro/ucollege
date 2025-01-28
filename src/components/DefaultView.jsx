@@ -108,24 +108,9 @@ const DefaultView = ({ realname, userImage, nivel, expirationDate }) => {
             src="https://i.ibb.co/rc6YV8j/Sin-t-tulo-1-09.png"
             alt="Icon 1"
           />
-          <img
-            className="absolute w-12 h-14 animate-bounce opacity-40 hover:opacity-80"
-            style={{ animationDelay: '0.6s', top: '10%', right: '10%' }}
-            src="https://i.ibb.co/BKTmPdF/Sin-t-tulo-1-04.png"
-            alt="Icon 2"
-          />
-          <img
-            className="absolute w-12 h-14 animate-bounce opacity-40 hover:opacity-80"
-            style={{ animationDelay: '0.8s', top: '50%', left: '20%' }}
-            src="https://i.ibb.co/djm4z6t/Sin-t-tulo-1-10.png"
-            alt="Icon 3"
-          />
-          <img
-            className="absolute w-12 h-14 animate-bounce opacity-40 hover:opacity-80"
-            style={{ animationDelay: '1.2s', top: '50%', right: '20%' }}
-            src="https://i.ibb.co/TmqJZPs/Fondos-de-zoom-10.png"
-            alt="Icon 4"
-          />
+       
+          
+         
         </div>
       </div>
     </div>
