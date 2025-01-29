@@ -12,7 +12,7 @@ const Hito = ({ selectedLink }) => {
   const [error, setError] = useState('');
   const [showNotepad, setShowNotepad] = useState(false);
   const [notes, setNotes] = useState("");
-  const validCode = 'mybrosecretpw'; // Este es el código que debe ingresar el usuario para acceder al PDF
+  const validCode = 'nocode'; // Este es el código que debe ingresar el usuario para acceder al PDF
 
   const printNotes = () => {
     const printWindow = window.open("", "_blank");
