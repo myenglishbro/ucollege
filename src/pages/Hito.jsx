@@ -12,25 +12,31 @@ const Hito = ({ selectedLink }) => {
   const [error, setError] = useState('');
   const [showNotepad, setShowNotepad] = useState(false);
   const [notes, setNotes] = useState("");
+  
   const validCode = 'nocode'; // Este es el código que debe ingresar el usuario para acceder al PDF
 
   const printNotes = () => {
     const printWindow = window.open("", "_blank");
   
-    // Estilos personalizados para el PDF impreso
+    // Estilos personalizados para la impresión
     const styles = `
       <style>
         body {
           font-family: 'Arial', sans-serif;
-          margin: 20px;
+          margin: 40px;
           color: #333;
         }
         h1 {
           font-size: 22px;
-          color: #4CAF50;
-          margin-bottom: 10px;
+          color: #2C3E50;
           text-align: center;
           text-transform: uppercase;
+          margin-bottom: 15px;
+        }
+        .notes-container {
+          display: grid;
+          grid-template-columns: 1fr 1fr; /* Dos columnas */
+          gap: 20px;
         }
         .notes-content {
           font-size: 16px;
@@ -42,7 +48,6 @@ const Hito = ({ selectedLink }) => {
           background-color: #f9f9f9;
           white-space: pre-wrap;
           word-wrap: break-word;
-          margin-top: 20px;
         }
         .notes-content span {
           background-color: #FFFF00; /* Resaltado amarillo */
@@ -50,15 +55,16 @@ const Hito = ({ selectedLink }) => {
       </style>
     `;
   
-    // Escribe los estilos y contenido
+    // Estructura del contenido impreso
     printWindow.document.write(styles);
-    printWindow.document.write(`<h1>My Notes</h1>`); // Título de las notas
-    printWindow.document.write(`<div class="notes-content">${notes}</div>`); // Notas dentro de un contenedor estilizado
+    printWindow.document.write(`<h1>My Notes</h1>`);
+    printWindow.document.write(`<div class="notes-container"><div class="notes-content">${notes}</div></div>`);
     printWindow.document.close();
   
     // Abre la ventana de impresión
     printWindow.print();
   };
+  
   
 
   const handleCodeSubmit = () => {
@@ -216,17 +222,20 @@ const Hito = ({ selectedLink }) => {
 
       {selectedLink ? (
         <>
-          {isLoading && (
-            <div className="loader-container flex flex-col justify-center items-center h-[450px]">
-              <img
-                src="https://i.ibb.co/cDR4rhr/My-english-bro-Personajek-10.png"
-                alt="Loading animation"
-                className="w-16 h-16 animate-spin"
-              />
-              <p className="text-lg text-blue-600 font-semibold mt-4">Let me think, my bro! Wait a sec...</p>
-            </div>
-          )}
-
+        {isLoading && (
+        <div className="loader-container absolute top-10 left-0 w-full h-[150px] flex flex-col justify-center items-center bg-black bg-opacity-5 backdrop-blur-sm  z-50">
+          <div className="flex flex-col items-center">
+            <img
+              src="https://i.ibb.co/cDR4rhr/My-english-bro-Personajek-10.png"
+              alt="Loading animation"
+              className="w-20 h-20 animate-pulse drop-shadow-lg"
+            />
+            <p className="text-xl text-purple-400 font-semibold mt-4 animate-bounce">
+              Let me think, my bro! Wait a sec...
+            </p>
+          </div>
+        </div>
+      )}
           {selectedLink.url.includes('quizlet.com') ? (
             <>
               {showModal && (
@@ -252,99 +261,72 @@ const Hito = ({ selectedLink }) => {
               )}
             </>
           ) : (
-            
-            <div className="relative flex">
-  {/* Botón para abrir el notepad */}
-  <button
-    onClick={() => setShowNotepad(!showNotepad)}
-    className="absolute left-[-60px] top-10 bg-blue-600 text-white px-3 py-2 rounded-lg shadow-lg hover:bg-blue-700 transition"
-  >
-    📝 
-  </button>
-
-  {/* Iframe */}
-  <iframe
-    src={getEmbedUrl(selectedLink.url)}
-    title={selectedLink.titulo}
-    width="100%"
-    height="450px"
-    frameBorder="0"
-    allow="fullscreen"
-    onLoad={() => setIsLoading(false)}
-    className={`transition-opacity duration-300 ${isLoading ? "opacity-0" : "opacity-100"} border-4 rounded-lg shadow-lg`}
-    style={{
-      borderImageSource:
-        "url('https://upload.wikimedia.org/wikipedia/commons/3/3a/Green_blackboard_with_chalk.jpg')",
-      borderImageSlice: 1,
-      borderWidth: "10px",
-      borderRadius: "10px",
-      boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
-    }}
-  ></iframe>
-
-{showNotepad && (
-  <div
-    className="absolute left-[-360px] top-0 w-[300px] h-[450px] bg-white border rounded-lg shadow-lg p-3"
-    style={{
-      color: "#333",
-      zIndex: 9999, // Asegura que el notepad esté por encima de todo
-    }}
-  >
-    <div className="flex space-x-2 mb-2">
-    <select onChange={(e) => document.execCommand('fontSize', false, e.target.value)} className="px-2 py-1 bg-gray-200 rounded">
-  <option value="1">Small</option>
-  <option value="3" selected>Medio</option>
-  <option value="5">Big</option>
-</select>
-
-      {/* Botones de formato de texto */}
+            <div className="relative flex bg-[#1c1c24] p-4 rounded-2xl shadow-lg">
+      {/* Botón para abrir el notepad */}
       <button
-        onClick={() => document.execCommand("bold")}
-        className="px-2 py-1 text-white bg-blue-600 rounded hover:bg-blue-700"
+        onClick={() => setShowNotepad(!showNotepad)}
+        className="absolute left-[-60px] top-10 bg-purple-600 text-white px-3 py-2 rounded-lg shadow-lg hover:bg-purple-700 transition"
       >
-        B
+        📝
       </button>
-      <button
-        onClick={() => document.execCommand("italic")}
-        className="px-2 py-1 text-white bg-blue-600 rounded hover:bg-blue-700"
-      >
-        I
-      </button>
-      <button
-        onClick={() => document.execCommand("underline")}
-        className="px-2 py-1 text-white bg-blue-600 rounded hover:bg-blue-700"
-      >
-        U
-      </button>
-      {/* Botón para resaltar texto */}
-      <button
-        onClick={() => document.execCommand("backColor", false, "#FFFF00")} // Resalta con color amarillo
-        className="px-2 py-1 text-white bg-yellow-500 rounded hover:bg-yellow-600"
-      >
-        H
-      </button>
-    </div>
 
-    {/* Área editable para notas */}
-    <div
-      className="w-full h-[85%] p-2 border rounded-lg text-black overflow-auto"
-      contentEditable
-      placeholder="Take notes here..."
-      value={notes}
-      onInput={(e) => setNotes(e.target.innerHTML)}
-      style={{
-        minHeight: '200px',
-        outline: 'none',
-        fontFamily: 'Arial, sans-serif',
-        fontSize: '14px',
-      }}
-    ></div>
+      {/* Iframe */}
+      <iframe
+        src={getEmbedUrl(selectedLink.url)}
+        title={selectedLink.titulo}
+        width="100%"
+        height="450px"
+        frameBorder="0"
+        allow="fullscreen"
+        onLoad={() => setIsLoading(false)}
+        className={`transition-opacity duration-300 ${isLoading ? "opacity-0" : "opacity-100"} border-4 rounded-lg shadow-lg border-purple-700`}
+      ></iframe>
 
-    <button
-      onClick={printNotes}
-      className="mt-2 w-full bg-green-600 text-white py-2 px-3 rounded-lg shadow hover:bg-green-700 transition"
-    >
-      🖨️ Print Notes
+      {showNotepad && (
+        <div
+          className="absolute left-[-360px] top-0 w-[300px] h-[450px] bg-[#13131a] border border-purple-600 rounded-lg shadow-xl p-3 flex flex-col text-white"
+          style={{ zIndex: 9999 }}
+        >
+          {/* Botones de formato */}
+          <div className="flex space-x-2 mb-2">
+            <select
+              onChange={(e) => document.execCommand("fontSize", false, e.target.value)}
+              className="px-2 py-1 bg-gray-800 text-white rounded"
+            >
+              <option value="1">Small</option>
+              <option value="3" selected>Medium</option>
+              <option value="5">Big</option>
+            </select>
+
+            <button onClick={() => document.execCommand("bold")} className="px-2 py-1 text-white bg-purple-600 rounded hover:bg-purple-700">B</button>
+            <button onClick={() => document.execCommand("italic")} className="px-2 py-1 text-white bg-purple-600 rounded hover:bg-purple-700">I</button>
+            <button onClick={() => document.execCommand("underline")} className="px-2 py-1 text-white bg-purple-600 rounded hover:bg-purple-700">U</button>
+            <button onClick={() => document.execCommand("backColor", false, "#FFFF00")} className="px-2 py-1 text-black bg-yellow-400 rounded hover:bg-yellow-500">H</button>
+          </div>
+
+          {/* Área editable con scroll mejorado */}
+          <div
+            className="w-full flex-grow p-2 border border-gray-700 rounded-lg text-white bg-[#1c1c24] overflow-auto"
+            contentEditable
+            placeholder="Take notes here..."
+            onInput={(e) => setNotes(e.target.innerHTML)}
+            style={{
+              minHeight: "250px",
+              maxHeight: "300px",
+              outline: "none",
+              fontFamily: "Inter, sans-serif",
+              fontSize: "14px",
+              wordWrap: "break-word",
+              whiteSpace: "pre-wrap",
+              overflowX: "auto",
+            }}
+          ></div>
+
+          <button
+            onClick={printNotes}
+            className="mt-2 w-full bg-green-600 text-white py-2 px-3 rounded-lg shadow hover:bg-green-700 transition"
+          >
+            🖨️ Print Notes
       </button>
     </div>
   )}
