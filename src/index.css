@@ -630,21 +630,34 @@
   left: 10px;
   font-size: 24px;
 }
-
 @media (min-width: 768px) {
   .sidebar {
-    left: 0;
-    
-    width: 320px;
-    margin-right: 190px;
+    position: fixed;
+    left: -280px; /* Sidebar oculto fuera de la pantalla */
+    width: 300px;
+    height: 100vh; /* Asegura que ocupe toda la altura de la pantalla */
+    transition: left 0.3s ease; /* Transición suave para abrir/cerrar */
   }
 
+  /* El botón toggle debe estar visible */
   .sidebar-toggle {
-    display: none;
+    position: fixed; /* Asegura que el botón esté siempre visible */
+    top: 20px; /* Ajusta la posición */
+    left: 20px; /* Ajusta la posición */
+    z-index: 10000; /* Asegura que el botón esté por encima del sidebar */
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
   }
- 
 }
 
+/* El sidebar estará visible cuando tenga la clase .open */
+.sidebar.open {
+  left: 0; /* Mueve el sidebar a la vista */
+}
 /* Ocultar sidebar y expandir popup en pantallas pequeñas */
 @media (max-width: 767px) {
   .sidebar {

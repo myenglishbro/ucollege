@@ -10,7 +10,16 @@ const Hito = ({ selectedLink }) => {
   const [isCodeValid, setIsCodeValid] = useState(false);
   const [enteredCode, setEnteredCode] = useState('');
   const [error, setError] = useState('');
+  const [showNotepad, setShowNotepad] = useState(false);
+  const [notes, setNotes] = useState("");
   const validCode = 'mybrosecretpw'; // Este es el código que debe ingresar el usuario para acceder al PDF
+
+  const printNotes = () => {
+    const printWindow = window.open("", "_blank");
+    printWindow.document.write(`<pre>${notes}</pre>`);
+    printWindow.document.close();
+    printWindow.print();
+  };
 
   const handleCodeSubmit = () => {
     if (enteredCode === validCode) {
@@ -203,23 +212,100 @@ const Hito = ({ selectedLink }) => {
               )}
             </>
           ) : (
-            <iframe
-              src={getEmbedUrl(selectedLink.url)}
-              title={selectedLink.titulo}
-              width="100%"
-              height="450px"
-              frameBorder="0"
-              allow="fullscreen"
-              onLoad={() => setIsLoading(false)}
-              className={`transition-opacity duration-300 ${isLoading ? 'opacity-0' : 'opacity-100'} border-4 rounded-lg shadow-lg`}
-              style={{
-                borderImageSource: "url('https://upload.wikimedia.org/wikipedia/commons/3/3a/Green_blackboard_with_chalk.jpg')",
-                borderImageSlice: 1,
-                borderWidth: '10px',
-                borderRadius: '10px',
-                boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
-              }}
-            ></iframe>
+            
+            <div className="relative flex">
+  {/* Botón para abrir el notepad */}
+  <button
+    onClick={() => setShowNotepad(!showNotepad)}
+    className="absolute left-[-60px] top-10 bg-blue-600 text-white px-3 py-2 rounded-lg shadow-lg hover:bg-blue-700 transition"
+  >
+    📝 Notepad
+  </button>
+
+  {/* Iframe */}
+  <iframe
+    src={getEmbedUrl(selectedLink.url)}
+    title={selectedLink.titulo}
+    width="100%"
+    height="450px"
+    frameBorder="0"
+    allow="fullscreen"
+    onLoad={() => setIsLoading(false)}
+    className={`transition-opacity duration-300 ${isLoading ? "opacity-0" : "opacity-100"} border-4 rounded-lg shadow-lg`}
+    style={{
+      borderImageSource:
+        "url('https://upload.wikimedia.org/wikipedia/commons/3/3a/Green_blackboard_with_chalk.jpg')",
+      borderImageSlice: 1,
+      borderWidth: "10px",
+      borderRadius: "10px",
+      boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+    }}
+  ></iframe>
+
+  {/* Notepad Modal */}
+  {showNotepad && (
+    <div
+  className="absolute left-300 top-0 w-[300px] h-[450px] bg-white border rounded-lg shadow-lg p-3"
+  style={{
+        color: "#333",
+        zIndex: 9999, // Asegura que el notepad esté por encima de todo
+      }}
+    >
+      <div className="flex space-x-2 mb-2">
+        {/* Botones de formato de texto */}
+        <button
+          onClick={() => document.execCommand("bold")}
+          className="px-2 py-1 text-white bg-blue-600 rounded hover:bg-blue-700"
+        >
+          B
+        </button>
+        <button
+          onClick={() => document.execCommand("italic")}
+          className="px-2 py-1 text-white bg-blue-600 rounded hover:bg-blue-700"
+        >
+          I
+        </button>
+        <button
+          onClick={() => document.execCommand("underline")}
+          className="px-2 py-1 text-white bg-blue-600 rounded hover:bg-blue-700"
+        >
+          U
+        </button>
+      </div>
+
+      {/* Area editable para notas */}
+      <div
+        className="w-full h-[85%] p-2 border rounded-lg text-black overflow-auto"
+        contentEditable
+        placeholder="Take notes here..."
+        value={notes}
+        onInput={(e) => setNotes(e.target.innerHTML)}
+        style={{
+          minHeight: '200px',
+          outline: 'none',
+          fontFamily: 'Arial, sans-serif',
+          fontSize: '14px',
+        }}
+      ></div>
+
+      <button
+        onClick={printNotes}
+        className="mt-2 w-full bg-green-600 text-white py-2 px-3 rounded-lg shadow hover:bg-green-700 transition"
+      >
+        🖨️ Print Notes
+      </button>
+    </div>
+  )}
+</div>
+
+
+
+
+
+
+
+
+           
           )}
 
           {selectedLink.url.includes('drive.google.com') && !isCodeValid && (
@@ -268,7 +354,6 @@ const Hito = ({ selectedLink }) => {
   </div>
 )}
 
-// Acceso válido: botón para abrir el PDF
 {isCodeValid && (
   <div
     className="absolute top-4 right-4 w-[150px] h-[150px] bg-white/80 shadow-md rounded-lg flex flex-col items-center justify-center z-10 p-3 backdrop-blur"
