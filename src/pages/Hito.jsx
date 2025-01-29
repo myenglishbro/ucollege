@@ -245,8 +245,8 @@ const Hito = ({ selectedLink }) => {
   {/* Notepad Modal */}
   {showNotepad && (
     <div
-  className="absolute left-300 top-0 w-[300px] h-[450px] bg-white border rounded-lg shadow-lg p-3"
-  style={{
+      className="absolute left-[-360px] top-0 w-[300px] h-[450px] bg-white border rounded-lg shadow-lg p-3"
+      style={{
         color: "#333",
         zIndex: 9999, // Asegura que el notepad esté por encima de todo
       }}
@@ -273,7 +273,7 @@ const Hito = ({ selectedLink }) => {
         </button>
       </div>
 
-      {/* Area editable para notas */}
+      {/* Área editable para notas */}
       <div
         className="w-full h-[85%] p-2 border rounded-lg text-black overflow-auto"
         contentEditable
