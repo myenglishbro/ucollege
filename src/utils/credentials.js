@@ -15,6 +15,7 @@ export const validCredentials = [
     
       { nivel:"Udemy",usuario: 'udemy', password: 'repositorio', realname: 'Estudiante Autodidacta', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
       { nivel:"Suscriptor",usuario: 'youtube', password: '2025', realname: 'Estudiante Autodidacta', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+      { expirationDate:"28/02/25",nivel:"Solicitar Examen",usuario: 'luzdelcielo', password: 'vegaluz', realname: 'Luz del Cielo Mayhuire Vega', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
 
 
 
