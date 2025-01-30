@@ -85,7 +85,7 @@ const DefaultView = ({ realname, userImage, nivel, expirationDate }) => {
               </div>
             )}
             <iframe
-              src="https://docs.google.com/spreadsheets/d/1jpKL_kwxAWuqo9v6aVBSiKpiAij6i3E3ysPSxlajgRY/edit?usp=sharing"
+              src="https://docs.google.com/spreadsheets/d/1vEAJ1H82jT4PBnQ7DNxgPJOeTf_YA2eNE41aOQaBlN0/edit?usp=sharing"
               title="Horario de Clases"
               className={`w-full h-96 rounded-lg border-2 border-gray-300 shadow-xl transition-opacity duration-300 ${isLoading ? 'opacity-0' : 'opacity-100'}`}
               onLoad={() => setIsLoading(false)}
