@@ -30,12 +30,12 @@ const Hero2 = () => {
         {/* Left Col */}
         <div className="flex flex-col w-full md:w-2/5 justify-center items-center md:items-start text-center md:text-left mb-10 md:mb-0">
           <h1 className="text-3xl md:text-5xl text-white opacity-80 font-bold leading-tight">
-            ¿Inglés Robótico?
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-pink-500 to-purple-500"> Aprende Inglés </span>
-            de la Vida Real
+          Aprende el idioma y
+            <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-pink-500 to-purple-500"> Comunicate con todos </span>
+           
           </h1>
           <p className="text-base md:text-2xl text-white opacity-80 my-6">
-            Comunicate y expresate como todo un Nativo.
+          Deja atrás los métodos aburridos y comienza a hablar como un nativo.
           </p>
           <a href="https://api.whatsapp.com/send?phone=51926922032&text=Hello%20Carlos!%20%F0%9F%99%82" className="bg-gradient-to-r from-purple-800 to-green-500 hover:from-pink-500 hover:to-green-500 text-white font-bold py-3 px-6 rounded-lg transform hover:scale-105 transition duration-300">
             Reservar Clases

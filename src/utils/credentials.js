@@ -87,5 +87,6 @@ export const validCredentials = [
        {  expirationDate:"28/02/25",nivel:"solicitar examen",usuario: 'diegom', password: 'ingunzas', realname: 'Diego M. Ingunza S.', img: 'https://i.ibb.co/VWSjHtt2/473395106-3929003557355131-49389.png' }, // No image
        {  expirationDate:"28/02/25",nivel:"solicitar examen",usuario: 'eos', password: 'maviquispe', realname: 'Eos Mavi Quispe Cencia', img: 'https://i.ibb.co/YFBfbMYz/469412620-7889577004478284-2791725999957720992-n.jpg' }, // No image
        { expirationDate:"28/02/26",nivel:"solicitar examen",usuario: 'erix', password: 'erixpereyra', realname: 'Erix Pereyra S.', img:'https://i.ibb.co/4n9497yv/393875820-313689618102677-771283.png'},
+       { expirationDate:"28/02/26",nivel:"solicitar examen",usuario: 'marcelog', password: 'guerrero', realname: 'Marcelo Guerrero Rivera', img:'https://pics.paypal.com/00/p/YmM2ZTE1NWEtODgyYy00MTVlLWI5MTAtMGMwMDRmMDRjYTE0/image_34.JPG'},
 
     ];
