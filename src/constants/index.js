@@ -408,42 +408,42 @@ export const collabContent2 = [
     {
       id: "0",
       title: "Figma",
-      icon: figma,
-      width: 60,
+      icon: "https://flagsapi.com/GB/flat/64.png",
+      width: 56,
       height: 36,
     },
     {
       id: "1",
       title: "Notion",
-      icon: notion,
+      icon: "https://flagsapi.com/FR/flat/64.png",
       width: 56,
       height: 36,
     },
     {
       id: "2",
       title: "Discord",
-      icon: discord,
+      icon: "https://flagsapi.com/JP/flat/64.png",
       width: 56,
       height: 28,
     },
     {
       id: "3",
       title: "Slack",
-      icon: slack,
+      icon: "https://flagsapi.com/PT/flat/64.png",
       width: 56,
       height: 35,
     },
     {
       id: "4",
       title: "Photoshop",
-      icon: photoshop,
+      icon: "https://flagsapi.com/US/flat/64.png",
       width: 56,
       height: 34,
     },
     {
       id: "5",
       title: "Protopie",
-      icon: protopie,
+      icon: "https://flagsapi.com/CN/flat/64.png",
       width: 56,
 
       height: 34,
@@ -451,7 +451,7 @@ export const collabContent2 = [
     {
       id: "6",
       title: "Framer",
-      icon: framer,
+      icon: "https://flagsapi.com/DE/flat/64.png",
       width: 56,
 
       height: 34,
@@ -459,7 +459,7 @@ export const collabContent2 = [
     {
       id: "7",
       title: "Raindrop",
-      icon: raindrop,
+      icon: "https://flagsapi.com/IT/flat/64.png",
       width: 56,
 
       height: 32,

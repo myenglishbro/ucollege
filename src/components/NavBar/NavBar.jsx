@@ -18,12 +18,12 @@ const Navbar = () => {
       <nav className="flex items-center h-[70px] px-5 lg:px-10 max-lg:py-4">
         {/* Logo Section */}
         <div className="flex items-center">
-          <img
+          {/* <img
             src={logo}
             alt="Logo"
             className="h-[50px] w-[50px] md:h-[50px] md:w-[50px]"
-          />
-          <h3 className="ml-3 font-bold text-xl text-white">MyBro</h3>
+          /> */}
+          <h3 className="ml-3 font-bold text-xl text-white">LearniBox</h3>
         </div>
 
         {/* Desktop Navigation */}
