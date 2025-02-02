@@ -2,8 +2,7 @@ import React, { useState } from 'react';
 import { products } from '../utils/products.js';
 import Producto from './Producto.jsx';
 import { BsSearch } from 'react-icons/bs';
-import styles from '../style.js';
-import { Helmet } from 'react-helmet';
+
 import "../css/estilos.css";
 
 const ContainerProducts = () => {
@@ -15,29 +14,29 @@ const ContainerProducts = () => {
   );
 
   return (
-    <>
-      <div className="search-wrapper text-center my-3">
-        <div className="input-group search-bar">
-          <input
-            type="text"
-            className="form-control form-control-lg"
-            placeholder="Buscar por título"
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-          />
-          <span className="input-group-text">
-            <BsSearch size={20} />
-          </span>
+      <>
+        {/* Barra de búsqueda estilizada */}
+        <div className="flex justify-center my-6 mt-20">
+          <div className="relative w-full max-w-lg">
+            <input
+              type="text"
+              className="w-full px-4 py-3 pl-10 text-lg border rounded-full shadow-md focus:ring focus:ring-blue-400 focus:outline-none"
+              placeholder="Buscar por título..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+            />
+            <span className="absolute left-3 top-3 text-gray-500">
+              <BsSearch size={20} />
+            </span>
+          </div>
         </div>
-      </div>
-
-   
-
-      <div className="grilla">
-        {filteredProducts.length === 0 ? (
-          <p>No se encontraron productos.</p>
-        ) : (
-          filteredProducts.map((item) => (
+  
+        {/* Grilla de tarjetas */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 md:px-8 lg:px-12">
+          {filteredProducts.length === 0 ? (
+            <p className="col-span-full text-center text-gray-500 italic py-10">No se encontraron productos.</p>
+          ) : (
+            filteredProducts.map((item) => (
             <Producto
               key={item.id}
               thumbnail={item.thumbnail}

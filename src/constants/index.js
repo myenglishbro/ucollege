@@ -42,7 +42,8 @@ export const navLinks = [
   { title: "Home", path: "/" },
  
   { title: "Library",       path: "/Store" },
-  
+  { title: "Team",       path: "/Team" },
+
   // Dropdowns
  
   {

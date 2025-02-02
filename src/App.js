@@ -59,6 +59,8 @@ import RoadMapB2 from "./pages/RoadMapB2";
 import RoadMapC1 from "./pages/RoadMapC1";
 import RoadMapA1 from "./pages/RoadMapA1";
 import RoadMapB1 from "./pages/RoadMapB1";
+import Team from "./pages/Team";
+import MebLanding from "./pages/PhrasesAtWork";
 
 function App() {
   return (
@@ -76,6 +78,8 @@ function App() {
           <Route path="/About" element={<About />}></Route>
           <Route path="/Precios" element={<Precios />}></Route>
           <Route path="/Store" element={<Store />}></Route>
+          <Route path="/Team" element={<Team />}></Route>
+
           <Route path="/RoadMapA1" element={<RoadMapA1 />}></Route>
 
           <Route path="/RoadMap" element={<RoadMap />}></Route>
@@ -127,7 +131,7 @@ function App() {
           <Route path="/Pagos" element={<Pagos />}></Route>
           <Route path="/MyPortal" element={<ContainerPortal />}></Route>
           <Route path="/Certificacion" element={<EF />}></Route>
-          <Route path="/PhrasesAtWork" element={<PhrasesAtWork />}></Route>
+          <Route path="/Myenglishbro" element={<MebLanding />}></Route>
           <Route path="/PhrasesNative" element={<PhrasesNative />}></Route>
           <Route path="/ErroresB2" element={<ErroresB2 />}></Route>
           <Route path="/Interviewquestions" element={<Interviewquestions />}></Route>

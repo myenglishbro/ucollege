@@ -3,7 +3,7 @@ import { check2, grid } from "../asset";
 import { Gradient } from "../components/design/Roadmap";
 import Tagline from "../components/Tagline";
 
-const Producto  = ({ thumbnail, title, subtitle, description, calificacion, precio, enlaces }) => {
+const Staff = ({ thumbnail, title, subtitle, description, calificacion, precio, enlaces }) => {
   return (
     <div className="relative p-0.25 rounded-[2.5rem] bg-n-6 overflow-hidden">
       <div className="relative p-8 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
@@ -42,5 +42,4 @@ const Producto  = ({ thumbnail, title, subtitle, description, calificacion, prec
   );
 };
 
-
-export default Producto;
+export default Staff;
