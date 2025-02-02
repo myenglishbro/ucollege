@@ -21,18 +21,15 @@ const Producto  = ({ thumbnail, title, subtitle, description, calificacion, prec
           <div className="mb-6 flex justify-center">
             <img className="w-[80%] md:w-[60%] rounded-xl shadow-lg" src={thumbnail} alt={title} />
           </div>
-          <h4 className="h4 mb-3 text-white text-center">{title}</h4>
+          <h4 className="h5 mb-3 text-white text-center">{title}</h4>
           <p className="body-2 text-n-4 text-center">{description}</p>
-          <div className="flex items-center justify-between mt-6 px-4 md:px-8">
-            <span className="text-yellow-400 font-semibold text-lg md:text-xl">⭐ {calificacion}</span>
-            <span className="text-green-500 font-semibold text-lg md:text-xl">💲{precio}</span>
-          </div>
+         
           <div className="mt-6 flex justify-center">
             <a
               href={enlaces}
               className="bg-gradient-to-r from-blue-500 to-purple-600 hover:bg-gradient-to-l hover:from-blue-600 hover:to-purple-700 text-white px-6 py-2 rounded-full text-lg font-semibold transition-all duration-300 shadow-md"
             >
-              Descargar
+              Go to Space
             </a>
           </div>
         </div>

@@ -18,38 +18,18 @@ import RoadMapTech from "./pages/RoadMapTech";
 import RoadMapHealth from "./pages/RoadMapHealth";
 import RoadMapBusiness from "./pages/RoadMapBusiness";
 
-import PhrasesAtWork from "./pages/PhrasesAtWork";
-import PhrasesNative from "./pages/PhrasesNative";
-import ErroresB2 from "./pages/ErroresB2";
+
 import Precios from "./pages/Precios";
-import Interviewquestions from "./pages/Interviewquestions";
-import Preliminary from "./pages/Preliminary";
-import Errores10 from "./pages/Errores10";
-import Mistakes5 from "./pages/Mistakes5";
-import ConfusingWords from "./pages/ConfusingWords";
-import Specially from "./pages/Specially";
-import ErroresComunes from "./pages/ErroresComunes";
-import AvanzadoEnIngles from "./pages/AvanzadoEnIngles";
-import StayCalmCashier from "./pages/StayCalmCashier";
-import DealingComplaints from "./pages/DealingComplaints";
-import CommonIdioms from "./pages/CommonIdioms";
-import ShallShould from "./pages/ShallShould";
-import ModalVerbs from "./pages/ModalVerbs";
+
 import PoliticasClase from "./pages/PoliticasClase";
 import Pagos from "./pages/Pagos";
 
-import Abbreviations from "./pages/Abbreviations";
-import EachEvery from "./pages/EachEvery";
-import WhereInWhichWherein from "./pages/WhereInWhichWherein";
+
 import ContainerPortal from "./pages/ContainerPortal";
-import Article from "./pages/Article";
-import FalseFriends from "./pages/FalseFriends";
-import HospitalityAndTour from "./pages/HospitalityAndTour";
-import SuffixinEnglish01 from "./pages/SuffixinEnglish01";
-import SuffixinEnglish02 from "./pages/SuffixinEnglish02";
+
+
 import EF from "./pages/EF";
 import Navbar from "./components/NavBar/NavBar";
-import Footer from "./components/Footer";
 import RoadMapMed from "./pages/RoadMapMed";
 import RoadMapDev from "./pages/RoadMapDev";
 import RoadMapCelpip from "./pages/RoadMapCelpip";
@@ -60,7 +40,9 @@ import RoadMapC1 from "./pages/RoadMapC1";
 import RoadMapA1 from "./pages/RoadMapA1";
 import RoadMapB1 from "./pages/RoadMapB1";
 import Team from "./pages/Team";
-import MebLanding from "./pages/PhrasesAtWork";
+import MebLanding from "./pages/myenglishbro/MebLanding";
+import IPJLanding from "./pages/inglesconelprofejuan/IPJLanding";
+import RoadMapJA1 from "./pages/inglesconelprofejuan/Rutas/RoadMapA1";
 
 function App() {
   return (
@@ -102,7 +84,8 @@ function App() {
         
         
         
-        
+          <Route path="/Plataforma" element={<RoadMapJA1 />}></Route>
+
         
         
         
@@ -132,29 +115,11 @@ function App() {
           <Route path="/MyPortal" element={<ContainerPortal />}></Route>
           <Route path="/Certificacion" element={<EF />}></Route>
           <Route path="/Myenglishbro" element={<MebLanding />}></Route>
-          <Route path="/PhrasesNative" element={<PhrasesNative />}></Route>
-          <Route path="/ErroresB2" element={<ErroresB2 />}></Route>
-          <Route path="/Interviewquestions" element={<Interviewquestions />}></Route>
-          <Route path="/Preliminary" element={<Preliminary />}></Route>
-          <Route path="/Errores10" element={<Errores10 />}></Route>
-          <Route path="/Mistakes5" element={<Mistakes5 />}></Route>
-          <Route path="/ConfusingWords" element={<ConfusingWords />}></Route>
-          <Route path="/Specially" element={<Specially />}></Route>
-          <Route path="/ErroresComunes" element={<ErroresComunes />}></Route>
-          <Route path="/AvanzadoEnIngles" element={<AvanzadoEnIngles />}></Route>
-          <Route path="/StayCalmCashier" element={<StayCalmCashier />}></Route>
-          <Route path="/DealingComplaints" element={<DealingComplaints />}></Route>
-          <Route path="/CommonIdioms" element={<CommonIdioms />}></Route>
-          <Route path="/ShallShould" element={<ShallShould />}></Route>
-          <Route path="/ModalVerbs" element={<ModalVerbs />}></Route>
-          <Route path="/Abbreviations" element={<Abbreviations />}></Route>
-          <Route path="/EachEvery" element={<EachEvery />}></Route>
-          <Route path="/WhereInWhichWherein" element={<WhereInWhichWherein />}></Route>
-          <Route path="/Article" element={<Article />}></Route>
-          <Route path="/FalseFriends" element={<FalseFriends />}></Route>
-          <Route path="/HospitalityandTour" element={<HospitalityAndTour />}></Route>
-          <Route path="/SuffixinEnglish01" element={<SuffixinEnglish01 />}></Route>
-          <Route path="/SuffixinEnglish02" element={<SuffixinEnglish02 />}></Route>
+          <Route path="/Inglesconelprofejuan" element={<IPJLanding/>}></Route>
+
+       
+          
+          
 
         </Routes>
       

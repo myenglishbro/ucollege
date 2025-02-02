@@ -38,7 +38,8 @@ import {
   cambridge,
   celpip
 } from "../assets2";
-export const navLinks = [
+
+export const navLinksSDS = [
   { title: "Home", path: "/" },
  
   { title: "Library",       path: "/Store" },
@@ -91,6 +92,28 @@ export const navLinks = [
     
     ],
   },
+];
+export const navLinks = [
+  { title: "Home", path: "/" },
+ 
+  { title: "Library",       path: "/Store" },
+  { title: "Team",       path: "/Team" },
+
+  // Dropdowns
+ 
+  {
+    title: "About",
+    subLinks: [
+      { title: "Info",       path: "/Precios"
+      },
+      {
+        title: "Extra",
+        path: "/PoliticasClase"
+      },
+      // Otras subopciones de Roadmaps
+    ],
+  }, 
+  
 ];
 
   export const footerLinks = [

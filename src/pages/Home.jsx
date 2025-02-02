@@ -6,10 +6,7 @@ import wordwall from '../img/clients/wordwall.webp';
 import Benefit from '../components/Benefit/Benefit';
 import LearningExperience from '../components/LearningExperience/LearningExperience';
 import Situations from '../components/Situations/Situations';
-import Hero from '../components/Hero/Hero';
-import Iner from '../components/Iner';
 import styles from '../style';
-import Billing from '../components/Billing';
 import Business from '../components/Business';
 import CTA from '../components/CTA';
 import Schedule from '../components/Schedule';
@@ -20,7 +17,6 @@ import Collaboration from '../components/Collaboration';
 import Pricing from '../components/Pricing';
 import Roadmap from '../components/Roadmap';
 import Collaboration2 from '../components/Collaboration2';
-import Collaboration3 from '../components/Collaboration3';
 const Home = () => {
   return (
     <>
@@ -30,10 +26,9 @@ const Home = () => {
      
 
       <Collaboration></Collaboration>
-     <Billing></Billing>
      <Roadmap></Roadmap>
 
-     <Collaboration3 />
+   
 
       {/* Componente Collaboration2 */}
         <Collaboration2 />
@@ -42,40 +37,9 @@ const Home = () => {
   
     
    
-{/* <section id="clients" class="clients clients">
-        <div class="container ">
-  
-          <div class="row d-flex justify-center">
 
-            <div class="col-lg-2 col-md-4 col-6">
-              <img src={myenglishbro} class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="200"></img>
-            </div>
-  
-            <div class="col-lg-2 col-md-4 col-6">
-              <img src={islcollective} class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="400"></img>
-            </div>
-  
-            <div class="col-lg-2 col-md-4 col-6">
-              <img src={wordwall} class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="500"></img>
-            </div>
-
-            <div class="col-lg-2 col-md-4 col-6">
-              <img src={myenglishbro} class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="600"></img>
-            </div>
-
-            <div class="col-lg-2 col-md-4 col-6">
-              <img src={islcollective} class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="700"></img>
-            </div>
-  
-            <div class="col-lg-2 col-md-4 col-6">
-              <img src={wordwall} class="img-fluid" alt="" data-aos="zoom-in" data-aos-delay="800"></img>
-            </div>
-          </div>
-  
-        </div>
-      </section> */}
 {/* <Situations></Situations> */}
-{/* <Iner></Iner> */}
+
 {/* <SourceDisclaimer/> */}
 {/* <Benefit></Benefit> */}
 {/* <LearningExperience></LearningExperience> */}
