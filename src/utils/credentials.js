@@ -1,6 +1,7 @@
 export const validCredentials = [
    
-    { expirationDate:"05/12/35",nivel:"C2",usuario: 'mybro', password: 'meb1', realname: 'MyEnglishBro!', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
+    { expirationDate:"05/12/35",nivel:"C2",usuario: 'learnibox', password: '2025', realname: 'MyEnglishBro!', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
+    { expirationDate:"05/12/35",nivel:"C2",usuario: 'prueba', password: '2025', realname: 'MyEnglishBro!', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
 
       // { nivel:"6",usuario: 'KABEZINI', password: '@47830274S', realname: 'JUAN EDUARDO AYLAS INCISO', img: 'https://i.ibb.co/7bmgdmR/418722130-755683973286212-906722.png' }, // No image
       {expirationDate:"93 horas /128 horas ",nivel:"B1+ Intermediate",usuario: 'andresdesigner', password: 'designer123', realname: 'Andres Jaramillo', img: 'https://i.ibb.co/gTNwpJQ/67d46012622105-63d2bfcf57030.png'  }, // No image
