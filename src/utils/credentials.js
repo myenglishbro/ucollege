@@ -2,7 +2,7 @@ export const validCredentials = [
    
     { expirationDate:"05/12/35",nivel:"C2",usuario: 'learnibox', password: '2025', realname: 'MyEnglishBro!', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
     { expirationDate:"05/12/35",nivel:"C2",usuario: 'prueba', password: '2025', realname: 'MyEnglishBro!', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
-    { expirationDate:"05/12/35",nivel:"solicitar examen",usuario: 'milagros', password: '2025', realname: 'Milagros R. Quispe!', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
+    { expirationDate:"02/03/35",nivel:"solicitar examen",usuario: 'milagros', password: '2025', realname: 'Milagros R. Quispe!', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
 
       // { nivel:"6",usuario: 'KABEZINI', password: '@47830274S', realname: 'JUAN EDUARDO AYLAS INCISO', img: 'https://i.ibb.co/7bmgdmR/418722130-755683973286212-906722.png' }, // No image
       {expirationDate:"93 horas /128 horas ",nivel:"B1+ Intermediate",usuario: 'andresdesigner', password: 'designer123', realname: 'Andres Jaramillo', img: 'https://i.ibb.co/gTNwpJQ/67d46012622105-63d2bfcf57030.png'  }, // No image
@@ -40,7 +40,7 @@ export const validCredentials = [
       { expirationDate:"13/02/25",nivel:"Solicitar examen de Nivel ",usuario: 'pamelahellen30', password: 'rpamela', realname: 'Pamela Rodriguez.', img: '' }, // No image
       { expirationDate:"14/02/25",nivel:"B1+ ",usuario: 'hweny', password: 'cata08', realname: 'Weny Huaraca Magro', img: 'https://i.ibb.co/NZjv6vn/456531710-399933369790326-220531.png' }, // No image
       // { expirationDate:"31/12/25",nivel:"B2 ",usuario: 'michellev', password: 'michellvz2024', realname: 'Michelle velasquez', img: 'https://i.ibb.co/JHL68XL/423956245-401855062431899-906545.png' }, // No image
-      {  expirationDate:"31/12/24",nivel:"Tomar examen",usuario: 'rosagra2024', password: 'mamani24', realname: 'Rosa Mamani', img: 'https://i.ibb.co/XZ33ZpZ/468795513-536564286050468-273133.png' }, // No image
+      // {  expirationDate:"31/12/24",nivel:"Tomar examen",usuario: 'rosagra2024', password: 'mamani24', realname: 'Rosa Mamani', img: 'https://i.ibb.co/XZ33ZpZ/468795513-536564286050468-273133.png' }, // No image
 
       // { expirationDate:"11/01/25",nivel:"Solicitar examen de Nivel ",usuario: '75921486', password: 'dchavez', realname: 'Dayana Chavez Garibay', img: '' }, // No image
       { expirationDate:"27/02/25",nivel:"Solicitar examen de Nivel ",usuario: 'josephveri', password: 'serpa2024', realname: 'Joseph serpa verizueta', img: 'https://i.ibb.co/0yz5Yp9/468122005-536311562732132-368158.jpg' }, // No image
@@ -93,5 +93,6 @@ export const validCredentials = [
        { expirationDate:"28/02/25",nivel:"solicitar examen",usuario: 'andri', password: 'morales', realname: 'Andrineth Morales', img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
        { expirationDate:"28/02/25",nivel:"solicitar examen",usuario: 'normina', password: 'vargas25', realname: 'Normina Espiritu Vargas ', img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
        { expirationDate:"02/03/25",nivel:"solicitar examen",usuario: 'eliana', password: 'morales', realname: 'Eliana Morales ', img:'https://i.ibb.co/SXy6tBc3/473397092-2032434280515272-4832256887774314859-n.jpg'},
+       { expirationDate:"03/03/25",nivel:"solicitar examen",usuario: 'ciro', password: 'asencio', realname: 'Ciro Asencio ', img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
 
     ];

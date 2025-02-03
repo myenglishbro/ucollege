@@ -183,12 +183,12 @@ const Hito = ({ selectedLink }) => {
     }}
   >
     <img
-      src="https://i.ibb.co/xsLbfhf/Fondos-de-zoom-10.png"
+      src="https://i.ibb.co/CpM0rk4q/logo-removebg-preview.png"
       className="opacity-30 w-full h-full object-contain"
       alt="sda"
       style={{
         transform: 'rotate(45deg)',
-        opacity: 0.3, // Puedes ajustar la opacidad si lo deseas
+        opacity: 0.1, // Puedes ajustar la opacidad si lo deseas
       }}
     />
   </div>
@@ -226,12 +226,12 @@ const Hito = ({ selectedLink }) => {
         <div className="loader-container absolute top-10 left-0 w-full h-[150px] flex flex-col justify-center items-center bg-black bg-opacity-5 backdrop-blur-sm  z-50">
           <div className="flex flex-col items-center">
             <img
-              src="https://i.ibb.co/cDR4rhr/My-english-bro-Personajek-10.png"
+              src="https://i.ibb.co/0RsdKWdT/logo-removebg-preview.png"
               alt="Loading animation"
               className="w-20 h-20 animate-pulse drop-shadow-lg"
             />
             <p className="text-xl text-purple-400 font-semibold mt-4 animate-bounce">
-              Let me think, my bro! Wait a sec...
+              Let me think please!  Wait a sec...
             </p>
           </div>
         </div>

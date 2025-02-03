@@ -19,18 +19,19 @@ import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import Testimonial from "./components/Testimonial";
 import Plans from "./components/Plans";
+import Collaboration2 from "./components/Collaboration2";
 const IPJLanding = () => {
   return (
  <>
  <Hero></Hero>
 <Plans></Plans>
-
+<Collaboration2></Collaboration2>
   <Benefits></Benefits>
-                    <Collaboration></Collaboration>
-                    <Testimonial></Testimonial>
-  <Services></Services>
-  <Pricing></Pricing>
-  <Roadmap></Roadmap>
+                    {/* <Collaboration></Collaboration> */}
+                    {/* <Testimonial></Testimonial> */}
+  {/* <Services></Services> */}
+  {/* <Pricing></Pricing> */}
+  {/* <Roadmap></Roadmap> */}
   <Footer></Footer>
 </>
   );

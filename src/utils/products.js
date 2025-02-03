@@ -7,7 +7,7 @@ export const products =[
        dateAdded:"wswqe",
        calificacion:"Gratis",
        description:"Soy Carlos y En MyEnglishBro! creo firmemente que hablar un idioma con fluidez y seguridad no tiene que llevarte media vida, costarte “an arm an a leg”, ni ser una de tus peores pesadillas. Aquí aprenderás todo el inglés que necesitas en la vida real, de forma natural y divertida. ",
-       enlaces:"https://lernibox.vercel.app/myenglishbro",
+       enlaces:"https://learnibox.vercel.app/myenglishbro",
        precio:0,
        demo:"AAS",
       
@@ -21,7 +21,7 @@ export const products =[
        dateAdded:"wswqe",
        calificacion:"Gratis",
        description:"En Ingles con Juan creo firmemente que hablar un idioma con fluidez y seguridad no tiene que llevarte media vida, costarte “an arm an a leg”, ni ser una de tus peores pesadillas. Aquí aprenderás todo el inglés que necesitas en la vida real, de forma natural y divertida. ",
-       enlaces:"https://docs.google.com/document/d/18XLLq6gRiQqTNU4iIiI0qzc6epBd8hBQ/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
+       enlaces:"https://learnibox.vercel.app/Inglesconelprofejuan",
        precio:0,
        demo:"AAS",
        
