@@ -43,6 +43,7 @@ import Team from "./pages/Team";
 import MebLanding from "./pages/myenglishbro/MebLanding";
 import IPJLanding from "./pages/inglesconelprofejuan/IPJLanding";
 import RoadMapJA1 from "./pages/inglesconelprofejuan/Rutas/RoadMapA1";
+import Bilingualwill from "./pages/bilingualwill/Bilingualwill";
 
 function App() {
   return (
@@ -117,7 +118,8 @@ function App() {
           <Route path="/Myenglishbro" element={<MebLanding />}></Route>
           <Route path="/Inglesconelprofejuan" element={<IPJLanding/>}></Route>
 
-       
+          <Route path="/Bilingualwill" element={<Bilingualwill/>}></Route>
+
           
           
 

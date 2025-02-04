@@ -26,6 +26,20 @@ export const products =[
        demo:"AAS",
        
 
+    },
+    {
+        id:0,
+        thumbnail:"https://i.ibb.co/KxJp6gG4/picture.jpg",
+        title:"Bilingual.will.iam",
+       subtitle:"English",
+       dateAdded:"wswqe",
+       calificacion:"Gratis",
+       description:"En mi experiencia de más de 11 años como profesor, he desarrollado un profundo entendimiento del inglés y el español, así como los mejores métodos de enseñanza para ayudarte a alcanzar tus objetivos. Estudié Idiomas Modernos y Escritura Creativa, ayudo a mis alumnos a perder el miedo a hablar",
+       enlaces:"https://learnibox.vercel.app/Inglesconelprofejuan",
+       precio:0,
+       demo:"AAS",
+       
+
     }
 
 ]

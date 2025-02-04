@@ -1,7 +1,6 @@
 export const validCredentials = [
    
     { expirationDate:"05/12/35",nivel:"C2",usuario: 'learnibox', password: '2025', realname: 'MyEnglishBro!', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
-    { expirationDate:"05/12/35",nivel:"C2",usuario: 'prueba', password: '2025', realname: 'MyEnglishBro!', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
     { expirationDate:"02/03/35",nivel:"solicitar examen",usuario: 'milagros', password: '2025', realname: 'Milagros R. Quispe!', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
 
       // { nivel:"6",usuario: 'KABEZINI', password: '@47830274S', realname: 'JUAN EDUARDO AYLAS INCISO', img: 'https://i.ibb.co/7bmgdmR/418722130-755683973286212-906722.png' }, // No image
@@ -12,7 +11,6 @@ export const validCredentials = [
       { expirationDate:"10 HOURS",nivel:"B1 Intermediate",usuario: 'claudioelpro', password: '2219ielts', realname: 'Claudio Justiniano', img: 'https://i.ibb.co/hgHZTND/ALV-Uj-XH77p-Iy-HF4-A6v-ULRw-Kb-ZESWy2-B.png' }, // No image
       { nivel:"6",usuario: 'alison.arapa', password: 'ielts2025', realname: 'alison.arapa', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
       { nivel:"6",usuario: 'jose.tbravo', password: 'ielts2025', realname: 'jose.torres.bravo', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-      { nivel:"6",usuario: 'agnilivi', password: 'agnibal2024', realname: 'Agnibal Livisi', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
       { expirationDate:"10 HOURS",nivel:"A1 Basic",usuario: 'cesarh', password: 'hurtado24', realname: 'Cesar Hurtado', img: 'https://i.ibb.co/8jqVPR9/432422606-449362764805007-920126.png' }, // No image
     
       { nivel:"Udemy",usuario: 'udemy', password: 'repositorio', realname: 'Estudiante Autodidacta', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
@@ -23,7 +21,6 @@ export const validCredentials = [
 
 
 
-      {expirationDate:"03/04/25", nivel:"Avanzado",usuario: 'josephcerna', password: 'cerna24', realname: 'Joseph Cerna Alfaro', img: 'https://i.ibb.co/Zxcrb7Y/445123758-558907093130667-813258.png' }, // No image
       // { usuario: 'ragnarock129', password: 'edison129', realname: 'Edison Johamy Rossel Huaman', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
       // { nivel:"6",usuario: 'juanp', password: 'aguero24', realname: 'JUAN PABLO AGUERO JAIMES', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
       // { nivel:"6",usuario: 'dianah', password: 'dianah24', realname: 'Diana C. Huarcaya', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
@@ -39,17 +36,15 @@ export const validCredentials = [
       // { expirationDate:"12/01/25",nivel:"Solicitar examen de Nivel ",usuario: 'issis312', password: 'chavezu', realname: 'Issis Chavez Ugalde.', img: '' }, // No image
       { expirationDate:"13/02/25",nivel:"Solicitar examen de Nivel ",usuario: 'pamelahellen30', password: 'rpamela', realname: 'Pamela Rodriguez.', img: '' }, // No image
       { expirationDate:"14/02/25",nivel:"B1+ ",usuario: 'hweny', password: 'cata08', realname: 'Weny Huaraca Magro', img: 'https://i.ibb.co/NZjv6vn/456531710-399933369790326-220531.png' }, // No image
-      // { expirationDate:"31/12/25",nivel:"B2 ",usuario: 'michellev', password: 'michellvz2024', realname: 'Michelle velasquez', img: 'https://i.ibb.co/JHL68XL/423956245-401855062431899-906545.png' }, // No image
-      // {  expirationDate:"31/12/24",nivel:"Tomar examen",usuario: 'rosagra2024', password: 'mamani24', realname: 'Rosa Mamani', img: 'https://i.ibb.co/XZ33ZpZ/468795513-536564286050468-273133.png' }, // No image
 
       // { expirationDate:"11/01/25",nivel:"Solicitar examen de Nivel ",usuario: '75921486', password: 'dchavez', realname: 'Dayana Chavez Garibay', img: '' }, // No image
       { expirationDate:"27/02/25",nivel:"Solicitar examen de Nivel ",usuario: 'josephveri', password: 'serpa2024', realname: 'Joseph serpa verizueta', img: 'https://i.ibb.co/0yz5Yp9/468122005-536311562732132-368158.jpg' }, // No image
-      { expirationDate:"03/02/25",nivel:"Solicitar examen de Nivel ",usuario: 'respinoza', password: 'b22025', realname: 'Rodrigo Espinoza Purca', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-      { expirationDate:"03/02/25",nivel:"Solicitar examen de Nivel ",usuario: 'mapiscortes13', password: 'new2025', realname: 'Mapis Cortes', img: 'https://i.ibb.co/4tgC69R/440936636-615426947620202-708128.png' }, // No image
-      { expirationDate:"03/02/25",nivel:"Solicitar examen de Nivel ",usuario: 'ismael.cruz', password: 'new2025', realname: 'Ismael David Cruz Machaca', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-      { expirationDate:"03/02/25",nivel:"Solicitar examen de Nivel ",usuario: 'hectorvc295', password: 'new2025', realname: 'Héctor Ventura Cercado', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-      { expirationDate:"03/02/25",nivel:"Solicitar examen de Nivel ",usuario: 'mgarcia', password: 'new2025', realname: 'Monica Garcia', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-      { expirationDate:"04/02/25",nivel:"Solicitar examen de Nivel ",usuario: 'lucasfalconc', password: 'new2025', realname: 'Isidoro Falcon ', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+      // { expirationDate:"03/02/25",nivel:"Solicitar examen de Nivel ",usuario: 'respinoza', password: 'b22025', realname: 'Rodrigo Espinoza Purca', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+      // { expirationDate:"03/02/25",nivel:"Solicitar examen de Nivel ",usuario: 'mapiscortes13', password: 'new2025', realname: 'Mapis Cortes', img: 'https://i.ibb.co/4tgC69R/440936636-615426947620202-708128.png' }, // No image
+      // { expirationDate:"03/02/25",nivel:"Solicitar examen de Nivel ",usuario: 'ismael.cruz', password: 'new2025', realname: 'Ismael David Cruz Machaca', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+      // { expirationDate:"03/02/25",nivel:"Solicitar examen de Nivel ",usuario: 'hectorvc295', password: 'new2025', realname: 'Héctor Ventura Cercado', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+      // { expirationDate:"03/02/25",nivel:"Solicitar examen de Nivel ",usuario: 'mgarcia', password: 'new2025', realname: 'Monica Garcia', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+      // { expirationDate:"04/02/25",nivel:"Solicitar examen de Nivel ",usuario: 'lucasfalconc', password: 'new2025', realname: 'Isidoro Falcon ', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
       { expirationDate:"05/02/25",nivel:"Solicitar examen de Nivel ",usuario: 'ivanstb', password: 'new2025', realname: 'Ivan Santisteban ', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
 
 
@@ -62,7 +57,7 @@ export const validCredentials = [
       {  expirationDate:"06/04/25",nivel:"Solicitar examen de Nivel",usuario: 'zaidaz', password: 'zorrilla24', realname: 'Zaida Zorrilla', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
       { expirationDate:"06/04/25",nivel:"Avanzado",usuario: 'valeha', password: 'valehab2', realname: 'Valeria Huaynates', img: 'https://i.ibb.co/QK97rZ0/7146697477402558469c5-1080x1080.png' }, // No image
       { expirationDate:"07/04/25",nivel:"6",usuario: 'r23425307', password: 'rocio24', realname: 'Rocio Soncco Ancco', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-      {expirationDate:"03/02/25", nivel:"Avanzado",usuario: 'josephcerna', password: 'cerna24', realname: 'Joseph Cerna Alfaro', img: 'https://i.ibb.co/Zxcrb7Y/445123758-558907093130667-813258.png' }, // No image
+      // {expirationDate:"03/02/25", nivel:"Avanzado",usuario: 'josephcerna', password: 'cerna24', realname: 'Joseph Cerna Alfaro', img: 'https://i.ibb.co/Zxcrb7Y/445123758-558907093130667-813258.png' }, // No image
       { expirationDate:"10/04/25",nivel:"B2 ",usuario: 'jariel', password: 'jariel2025', realname: 'Johan Ariel Olives Vera', img: 'https://i.ibb.co/bvXp0XS/468271598-885227067051233-360620.png' }, // No image
       {  expirationDate:"06/04/25",nivel:"Solicitar examen de Nivel",usuario: 'everttello', password: 'everttello24', realname: 'Evert Tello Melo', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
       {  expirationDate:"07/04/25",nivel:"Solicitar examen de Nivel",usuario: 'r23425307', password: 'rocio24', realname: 'Rocio Soncco Ancco', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image

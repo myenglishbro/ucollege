@@ -14,22 +14,6 @@ export const roadA1 = [
 
         ],
     },
-    {
-        id: 1,
-        thumbnail:"https://i.ibb.co/whB5hS0B/B2-FIRST-29.png",
-        title: " Recursos Digitales",
-        subtitle: "Centro de Clasificación ",
-    
-        dateAdded: "Basic 0 ",
-        channel: " ",
-        description: "Si has llevado clases de inglés antes realiza un examen para calcular tu nivel,Envia tu examen para su corrección al correo temis_it@hotmail.com",
-        enlaces: [
-            {  titulo:"Guia 1",url: "https://drive.google.com/file/d/1RXkFo0gRyCUkvOmGFd_n01yQ8N_Mekza/view?usp=sharing"},        
-            {  titulo:"Guia 2",url: "https://drive.google.com/file/d/1WS1TCpptgyOz6buLF_7eUi0nn5LgDujC/view?usp=sharing"},        
-            {  titulo:"Guia 3",url: "https://drive.google.com/file/d/10z4cBCF_dOumKZYw6obU2OOu05euC1b7/view?usp=sharing"},        
-
-        ],
-    },
             
     {
         id: 2,
