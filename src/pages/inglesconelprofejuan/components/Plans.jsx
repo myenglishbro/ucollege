@@ -22,28 +22,10 @@ ruta: "https://learnibox.vercel.app/plataforma",
 
   },
   {
-    name: "Paquete de Clases Grupales",
-    description: "Este paquete de clases cuenta con 10 horas de clases en vivo",
-    imgSrc: "https://i.ibb.co/LLZ4ymC/clasegrupal.jpg",
-    features: [
-      "Tu clase se graba y se envia por correo a cada correo   ",
-      "Puedes hacer preguntas al profe por wsp directamente  ",
-      "Acceso al Roadmap con Material Exclusivo",
-      "Google Meet Premium",
-      "Material de Estudio de cada clase",
-      "Clases Personalizadas (decideden que quieren aprender)",
-      "Hora peruana (GMT-5), previa entrevista",
-    ],
-    price: " 110 USD - 350 PEN ",
-enlace:"https://docs.google.com/spreadsheets/d/1jpKL_kwxAWuqo9v6aVBSiKpiAij6i3E3ysPSxlajgRY/preview",
-ruta: "https://learnibox.vercel.app/plataforma",
-
-  },
-  {
     name: "Ruta de Aprendizaje Autonoma",
-    description: "Este paquete de clases cuenta con 10 horas de clases en vivo",
+    description: "Plataforma Educativa -Pago Unico",
     imgSrc: "https://i.ibb.co/9HLwLnzb/logo.jpg",
-    features: [
+    features: [ 
       "Técnicas básicas de pronunciación 🗣️",
       "Reglas gramaticales fundamentales 📚",
       "Vocabulario esencial 📝",
@@ -52,7 +34,7 @@ ruta: "https://learnibox.vercel.app/plataforma",
       "Clases grabadas y lecciones en video 🎥",
       "Cuestionarios y exámenes finales 📝"
     ],
-    price: "$90",
+    price: "$20",
     enlace: "https://i.ibb.co/Syb9m2M/Black-And-White-Aesthetic-Minimalist-Modern-Simple-Typography-Coconut-Cosmetics-Logo-6.png",
     ruta: "https://learnibox.vercel.app/plataforma",
 
@@ -61,8 +43,8 @@ ruta: "https://learnibox.vercel.app/plataforma",
 ];
 
 const levels = {
-  Clases: ["Paquete de Clases Privadas", "Paquete de Clases Grupales"],
-  Ruta: ["Ruta de Aprendizaje Autonoma"],
+  Clases: ["Paquete de Clases Privadas", "Ruta de Aprendizaje Autonoma"],
+
 
   
 };
