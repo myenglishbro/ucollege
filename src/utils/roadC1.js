@@ -95,6 +95,7 @@ export const roadC1 = [
             { titulo:"📚[Slide] -wise (suffix) ",url: "https://drive.google.com/file/d/1zzSan5isa6ok5M8b3TXW_Nm8eCcu9Eza/view?usp=sharing"},
             { titulo:"📚[Slide] WITH meaning because of ",url: "https://drive.google.com/file/d/1SGvkOoVIsU6ILExH_eyTHYYodpXDJlLO/view?usp=sharing"},
             { titulo:"📚WHAT and HOW (Exclamations) ",url: "https://drive.google.com/file/d/1OJI6_nCQEgh26dLzcN0Lta-I5Ln202Oq/view?usp=sharing"},
+            { titulo:"📚[Slide] To bits(phrases) ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
 
             { titulo:"📚[Slide] Summary Grammar : Resumen de Gramática Fundamental para Aprobar  ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
 
@@ -204,7 +205,6 @@ export const roadC1 = [
             { titulo:"📚[Slide] Tags - Statement/Reinforcement Tags ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] There is no questions (phrases) ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] To + Gerund(Phrases) ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] To bits(phrases) ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
          
          
 
