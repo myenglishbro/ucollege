@@ -484,17 +484,13 @@ export const roadB2 = [
             { titulo:"📚Universal Tags",url: "https://drive.google.com/file/d/1N2ZdcMbCQ_JEZEgXXsZ7QEjyhjgN2sjY/view?usp=sharing"},
             { titulo:"📚QUESTION TAG - HAVE",url: "https://drive.google.com/file/d/1TfK9qlZtV5D3m1PFQ98IpYTLV8G9RSTM/view?usp=sharing"},
 
-           
-           
-           
-           
+
            
             { titulo:"📚statement tags",url: "https://drive.google.com/file/d/1wPLJc7cxDP6KjIphJKOf5yDgy6PKGqQA/view?usp=sharing"},
-            { titulo:"📚SHALL I - QUESTION TAG..",url: "https://drive.google.com/file/d/1mZfz_uoyYNVEG70LhXfZ1SwPfyyIIAi9/view?usp=sharing"},
-            { titulo:"📚Question tags -LET’S",url: "https://drive.google.com/file/d/1gIAxg2SqZfz-NawyVGk7kRBm-SGuaL1b/view?usp=sharing"},
-            { titulo:"📚Question tags - Double Positives",url: "https://drive.google.com/file/d/15H24JhmJRhfgJRsurnXdLvtyiwgI60LR/view?usp=sharing"},
-            { titulo:"📚Question tags - IMPERATIVES..",url: "https://drive.google.com/file/d/1DeYr9sy5FSUJfjyn4xaGHU_Uz78rFwv9/view?usp=sharing"},
-            { titulo:"📚THERE ... QUESTION TAG",url: "https://drive.google.com/file/d/1xza1T8UmmTsyM6vSYK6uW-qoVmn5mYKe/view?usp=sharing"},
+           
+
+
+            
             { titulo:"📚Raise vs Rise..",url: "https://drive.google.com/file/d/1K57hHa19p8k36dka59AM7pyFERFxnap2/view?usp=sharing"},
             { titulo:"📚Rather than , Instead of . As opposed to",url: "https://drive.google.com/file/d/13ZK9zCLBTKe73OQNaqvXjK-38ZvaJ8VT/view?usp=sharing"},
             { titulo:"📚Saxon genitive",url: "https://drive.google.com/file/d/1vRBsRnPMX_9m_wNUkAvs2phvuR8DYHqD/view?usp=sharing"},

@@ -1,136 +1,7 @@
 export const roadC1 = [
-    {
-        id: 2,
-        thumbnail:"https://i.ibb.co/vcMnX0n/B2-FIRST-17.png",
-        title: "Flash Cards Anki",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 0 ",
-        channel: "sdasd",
-        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
-        enlaces: [
-            { titulo:"📒 Study Guide",url: "https://drive.google.com/file/d/1pKc3ccQW3ToLCZo3Hpl-t7AztxsMokMD/view?usp=sharing"},
-
-            { titulo:"📑English - Listening and speaking deck B2",url: "https://drive.google.com/file/d/1WWS3zyzQlu_5Zkv0y9HqRJMT9CeQnkpl/view?usp=sharing"},
-            { titulo:"📑Cambridge B2 APLICATIVO COMPLETO",url: "https://drive.google.com/file/d/1CU9wjKF6k91uq1vgXAiSPx9LQmIP9Gos/view?usp=sharing"},
-            { titulo:"📑FCE_english_words_and_collocations",url: "https://drive.google.com/file/d/1v46CdxreA1fd9G6L9bzttZrP2zEu5zs7/view?usp=sharing"},
-            
-        ],
-    },
    
-    {
-        id: 0,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
-        title: "Recordings 2024",
-        subtitle: "B2/C1",
-        color: "#D6083B", // Propiedad de color añadida
-
-        dateAdded: "Basic 0 ",
-        channel: "sdasd",
-        description: "Grabacion de clases Cambridge Preparation,no compartas las grabaciones ",
-        enlaces: [
-           
-                { "titulo": "[🖥️Class]  day 1", "url": "https://www.youtube.com/watch?v=gGWtrDuoUi0" },
-                { "titulo": "[🖥️Class]  day 2", "url": "https://www.youtube.com/watch?si=MHjaEN7bzBy3ZOhc&v=9bB9PgyB_bg&feature=youtu.be" },
-                { "titulo": "[🖥️Class]  after", "url": "https://www.youtube.com/watch?v=5ilyP5xsyes&feature=youtu.be" },
-                { "titulo": "[🖥️Class]  day 3", "url": "https://www.youtube.com/watch?si=m4xdSF6v23GibP_H&v=CR6rnB5Yg0Y&feature=youtu.be" },
-                { "titulo": "[🖥️Class]  day 4", "url": "https://www.youtube.com/watch?si=tixxZisScjmyyLzI&v=eOtsLBuwvgw&feature=youtu.be" },
-                { "titulo": "[🖥️Class]  day 5", "url": "https://www.youtube.com/watch?si=dYFzG1VF98Tqkvyi&v=I5E5Q3yByPs&feature=youtu.be" },
-                { "titulo": "[🖥️Class]  day 6", "url": "https://www.youtube.com/watch?si=-KYzJRc2XtTsfytL&v=OuqZlRsw7NE&feature=youtu.be" },
-                { "titulo": "[🖥️Class]  day 7", "url": "https://www.youtube.com/watch?v=4hyP05BgB9M&list=PLaYNhMsVRuHhY6xcwxg931ib5xCbw2zWC&index=8&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 8", "url": "https://www.youtube.com/watch?v=XE7dOWDGpek&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 9", "url": "https://www.youtube.com/watch?v=w2i-Q7YHpvc" },
-                { "titulo": "[🖥️Class]  day 10", "url": "https://youtu.be/1yYDsB_X9Ow" },
-                { "titulo": "[🖥️Class]  day 11", "url": "https://www.youtube.com/watch?v=G7noYDWA80I&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 12", "url": "https://youtu.be/96wYFY3lUh4" },
-                { "titulo": "[🖥️Class]  day 13", "url": "https://www.youtube.com/watch?v=tVZPNUMq2d0&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 14", "url": "https://www.youtube.com/watch?v=RAY0LxAjNOk&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 15", "url": "https://www.youtube.com/watch?v=Czy1TEgGXu4&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 16", "url": "https://www.youtube.com/watch?v=NZjOZDjhK3E" },
-                { "titulo": "[🖥️Class]  day 17", "url": "https://www.youtube.com/watch?v=gpbEMX4KPk8" },
-                { "titulo": "[🖥️Class]  day 18", "url": "https://www.youtube.com/watch?v=ez9eoYxzU-A&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 19", "url": "https://youtu.be/t1njSOFuS84" },
-                { "titulo": "[🖥️Class]  day 20", "url": "https://youtu.be/oNkeUNBrjG0" },
-                { "titulo": "[🖥️Class]  day 21", "url": "https://youtu.be/MdL2xj330bk" },
-                { "titulo": "[🖥️Class]  day 22", "url": "https://youtu.be/LYrMkpMS5RY" },
-                { "titulo": "[🖥️Class]  day 23", "url": "https://youtu.be/iYdTP-7wvzc" },
-                { "titulo": "[🖥️Class]  day 24", "url": "https://youtu.be/esjEITmf8Ug" },
-                { "titulo": "[🖥️Class]  day 25", "url": "https://youtu.be/OxXnEdw-LdU" }
-            ],
-            
-    },
-    {
-        id: 1,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
-
-
-        title: "Recordings 2025",
-        subtitle: "B2/C1",
-        color: "#D6083B", // Propiedad de color añadida
-
-        dateAdded: "Basic 0 ",
-        channel: "sdasd",
-        description: "Grabacion de clases Cambridge Preparation,no compartas las grabaciones ",
-        enlaces: [
-                { "titulo": "[🖥️Class]  day 5", "url": "https://www.youtube.com/watch?v=R2TVluocgUg&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&index=5&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 4", "url": "https://www.youtube.com/watch?v=kLjAWxOYZDI&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 3", "url": "https://www.youtube.com/watch?v=_FJtW3NHYxQ&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&index=2&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 2", "url": "https://www.youtube.com/watch?v=uSoQGya3n_Y&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&index=3&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 1", "url": "https://www.youtube.com/watch?v=ccyWNJz7FS4&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&index=4&ab_channel=MyEnglishBro" },
-                
-            ],
-            
-    },
-    {
-        id: 1,
-        thumbnail:"https://i.ibb.co/PGdF1Pw/Dise-o-sin-t-tulo-7.png",
-
-        title: "Recording IELTS 2024",
-        subtitle: "B2/C1",
-        color: "#D6083B", // Propiedad de color añadida
-
-        dateAdded: "Basic 0 ",
-        channel: "sdasd",
-        description: "Grabacion de clases Cambridge Preparation,no compartas las grabaciones ",
-        enlaces: [
-                { "titulo": "[🖥️Class]  day 5", "url": "https://www.youtube.com/watch?v=nIZcH0sQSf0&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=1&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 4", "url": "https://www.youtube.com/watch?v=C0RB86t1YIw&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=2&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 3", "url": "https://www.youtube.com/watch?v=TV10GT7j_es&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=3&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 2", "url": "https://www.youtube.com/watch?v=2ExYgxh9gjE&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=5&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 1", "url": "https://www.youtube.com/watch?v=UEEEwLpO7z0&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=4&ab_channel=MyEnglishBro" },
-                
-            ],
-            
-    },
-    {
-        id: 1,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
-
-        title: " English Expressions",
-        subtitle: "B2/C1",
-        color: "#D6083B", // Propiedad de color añadida
-
-        dateAdded: "Basic 0 ",
-        channel: "sdasd",
-        description: "Grabacion de clases Cambridge Preparation,no compartas las grabaciones ",
-        enlaces: [
-           
-                { "titulo": "Turn the Tables", "url": "https://www.youtube.com/watch?v=3BP1kSUR1f0&list=PLaYNhMsVRuHh71-1ztahYIwp_PDrvbWJF&ab_channel=MyEnglishBro" },
-                { "titulo": "Watch your Mouth", "url": "https://www.youtube.com/watch?v=_eriRuRfvvM&list=PLaYNhMsVRuHh71-1ztahYIwp_PDrvbWJF&index=2&ab_channel=MyEnglishBro" },
-                { "titulo": "Spreading Rumors", "url": "https://www.youtube.com/watch?v=or0ZxUll78g&list=PLaYNhMsVRuHh71-1ztahYIwp_PDrvbWJF&index=3&ab_channel=MyEnglishBro" },
-                { "titulo": "Yo me lo busqué", "url": "https://www.youtube.com/watch?v=lcmn32R7u4k&list=PLaYNhMsVRuHh71-1ztahYIwp_PDrvbWJF&index=4&ab_channel=MyEnglishBro" },
-                { "titulo": "Agarrarle el ritmo", "url": "https://www.youtube.com/watch?v=hHITyx_4An8&list=PLaYNhMsVRuHh71-1ztahYIwp_PDrvbWJF&index=5&ab_channel=MyEnglishBro" },
-                { "titulo": "Empezar con el Pie Izquierdo", "url": "https://www.youtube.com/watch?v=oDkLrT8xRkg&list=PLaYNhMsVRuHh71-1ztahYIwp_PDrvbWJF&index=6&ab_channel=MyEnglishBro" },
-              
-            ],
-            
-    }
-    
    
-
-    , 
-    
-   
+  
  
     {
         id: 12,
@@ -144,6 +15,7 @@ export const roadC1 = [
         description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
         enlaces: [
             { "titulo": "[🖥️Class] Need + ing", "url": "https://www.youtube.com/watch?v=TwRQIGq2Uw0&ab_channel=MyEnglishBro" },
+            { titulo:"📚 Dangling Modifiers  ",url: "https://drive.google.com/file/d/1-MCDQdx5K_v6mEL7dgjh6TU4rTdfFVSN/view?usp=sharing"},
 
             { titulo:"📚[Slide] Phrasal Prepositional Verbs Three-Word Phrasal Verbs  ",url: "https://drive.google.com/file/d/1Nl6kqqUhRt8kr5Kz6DSi5SnAgi29EaPm/view?usp=sharing"},
             { titulo:"📚[Slide] Popular English Proverbs  ",url: "https://drive.google.com/file/d/1A8KPhIU9Txfi6_BVKpQYcIN6QtKvdu4v/view?usp=sharing"},
@@ -164,21 +36,116 @@ export const roadC1 = [
             { titulo:"📚[Slide] Come as a .. to someone",url: "https://drive.google.com/file/d/1Y61w1e4uARR4djO4EsmecXgnDL5tvenx/view?usp=sharing"},
             { titulo:"📚[Slide] Common  C1/C2 Reflexive Pronouns",url: "https://drive.google.com/file/d/1r83pqetQV88Ll3AZmAquQF2sgzKoc-Ta/view?usp=sharing"},
             { titulo:"📚CORRELATIVE CONJUNCTIONS",url: "https://drive.google.com/file/d/16ud5EPb-q127g3tRlHKoV_Pk5HKpLoh8/view?usp=sharing"},
-            { titulo:"📚[Slide] Common  Words with silent letters in English ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Conditionals - Advanced Conditionals ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Conditionals - Conditionals Expressions ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Conditionals - If sentences -C1-C2 ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Conditionals - Mixed Conditionals ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Consist in - Consist of ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Count on/ Depend on / Rely on  ",url: "https://drive.google.com/file/d/1V1ru2-rRsqE8GlxGYcf5UzBbrLm9cVBZ/view?usp=sharing"},
-            { titulo:"📚[Slide] Differentiate,Distinguish,Discriminate ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Indirect and Direct Speech ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
+            { titulo:"📚[Slide] Common  Words with silent letters in English ",url: "https://drive.google.com/file/d/1hDcAjjbGpBocnFp8ofSVZ7XgAlaRdPrB/view?usp=sharing"},
+            { titulo:"📚[Slide] Conditionals - Advanced Conditionals ",url: "https://drive.google.com/file/d/1qg9Gx8ko88RdqBsU4T15vi6sGFpn08W0/view?usp=sharing"},
+            { titulo:"📚JOINING NEGATIVE IDEAS.pdf ",url: "https://drive.google.com/file/d/1OuDSE00YChqB4_W8nCFT7R2DTWt5ZfLF/view?usp=sharing"},
+            { titulo:"📚Prevent, Stop, Avoid.",url: "https://drive.google.com/file/d/1FoSc6244qwfBpG9EDxzX7YkHZTuk6EN8/view?usp=sharing"},
+            { titulo:"📚Consist in vs Consist of.. ",url: "https://drive.google.com/file/d/1F-XK5pIbsWwlOIDU-XfXpEVATQdlTggq/view?usp=sharing"},
+            { titulo:"📚it's a good job.pdf ",url: "https://drive.google.com/file/d/1vHHH_2VXuIdDf_NSp6Ie9FgvHFB94G92/view?usp=sharing"},
+            { titulo:"📚immediate future expressions ",url: "https://drive.google.com/file/d/1mOBysPhkjDIvx1ePzrM-LMnlrsGZuOzb/view?usp=sharing"},
+            { titulo:"📚57-common-reflexive-verbs-in-english-c1-c2 ",url: "https://drive.google.com/file/d/1ANHJvwOgP9BUAGOUtotZcrOKrIV0-_k8/view?usp=sharing"},
+            { titulo:"📚In the (short/medium /long) term / in the (short/long)run ",url: "https://drive.google.com/file/d/1OLnc9y-xWYZeoPXocHl4T0Hlow-W7-Jf/view?usp=sharing"},
+
+           { titulo:"📚[Slide] Conditionals - Conditionals Expressions ",url: "https://drive.google.com/file/d/17HKJ6ZhXNyGbNv9PcDFbQAQxS6fIpIQb/view?usp=sharing"},
+           { titulo:"📚[Slide] Conditionals - Mixed Conditionals ",url: "https://drive.google.com/file/d/1K-Rc6kI3OJXSheDjT-EfSP1WYuWh4vts/view?usp=sharing"},
+
+           { titulo:"📚[Slide] Conditionals - If sentences -C1-C2 ",url: "https://drive.google.com/file/d/12unjxwmidN9-_8fowT1cnuosTInLyX-1/view?usp=sharing"},
+           { titulo:"📚differentiate, distinguish, discriminate",url: "https://drive.google.com/file/d/1v-uIHL_GseKjuslDEgVGhiTajGCL9CQs/view?usp=sharing"},
+           { titulo:"📚[Slide] Would rather/Would Sooner ",url: "https://drive.google.com/file/d/1F-t7qwMfcb5PDKfFodN02qZFwCzIZFqu/view?usp=sharing"},
+           { titulo:"📚Expressing lack of surprise (phrases).. ",url: "https://drive.google.com/file/d/10OCN5p9pht9TviKo5C8Tlpq65n7LFSzV/view?usp=sharing"},
+           { titulo:"📚Personal and Impersonal Passive",url: "https://drive.google.com/file/d/1obtVtl8UEAVz9UCz4aff_q7WGGYwDim2/view?usp=sharing"},
+
+           { titulo:"📚count on - depend on - rely on",url: "https://drive.google.com/file/d/1DxZyMcb1NwXXbt_wIAbhPTiNFMuvAKG6/view?usp=sharing"},
+           { titulo:"📚Direct & Indirect speech (table) + kwt exercises",url: "https://drive.google.com/file/d/1rBQWS8z17BGn4B2mT0SGJt6J5CHEyZkw/view?usp=sharing"},
+
+           { titulo:"📚Universal Tags",url: "https://drive.google.com/file/d/1N2ZdcMbCQ_JEZEgXXsZ7QEjyhjgN2sjY/view?usp=sharing"},
+           { titulo:"📚QUESTION TAG - HAVE",url: "https://drive.google.com/file/d/1TfK9qlZtV5D3m1PFQ98IpYTLV8G9RSTM/view?usp=sharing"},
+           { titulo:"📚[Slide] The fact that  ",url: "https://drive.google.com/file/d/1FSd3Vt3C71C0kujDoy4egxFDy8_ZugZv/view?usp=sharing"},
+
+        
+          
+           { titulo:"📚statement tags",url: "https://drive.google.com/file/d/1wPLJc7cxDP6KjIphJKOf5yDgy6PKGqQA/view?usp=sharing"},
+           { titulo:"📚SHALL I - QUESTION TAG..",url: "https://drive.google.com/file/d/1mZfz_uoyYNVEG70LhXfZ1SwPfyyIIAi9/view?usp=sharing"},
+           { titulo:"📚Question tags -LET’S",url: "https://drive.google.com/file/d/1gIAxg2SqZfz-NawyVGk7kRBm-SGuaL1b/view?usp=sharing"},
+           { titulo:"📚Question tags - Double Positives",url: "https://drive.google.com/file/d/15H24JhmJRhfgJRsurnXdLvtyiwgI60LR/view?usp=sharing"},
+           { titulo:"📚Question tags - IMPERATIVES..",url: "https://drive.google.com/file/d/1DeYr9sy5FSUJfjyn4xaGHU_Uz78rFwv9/view?usp=sharing"},
+           { titulo:"📚it's (about-high) time ",url: "https://drive.google.com/file/d/1JsV99-95VmCWYE-ueZxQOT-2X7G8F-WJ/view?usp=sharing"},
+
+           { titulo:"📚THERE ... QUESTION TAG",url: "https://drive.google.com/file/d/1xza1T8UmmTsyM6vSYK6uW-qoVmn5mYKe/view?usp=sharing"},
+
+            { titulo:"📚[Slide] To-infinitive in non-finite relative clauses",url: "https://drive.google.com/file/d/12MXy8BXPHM2bOuUqbZkfld5vmp9ye03t/view?usp=sharing"},
+            { titulo:"📚[Slide] To like some or something -Phrases ",url: "https://drive.google.com/file/d/1gOzxiEFLu_IyCAUqaQM3yPJKsFSRFOj9/view?usp=sharing"},
+            { titulo:"📚[Slide] To use something to achieve something -Phrases ",url: "https://drive.google.com/file/d/1uACXzYYygl6bmK0mKXsYZ7kgysVD7H2o/view?usp=sharing"},
+            { titulo:"📚[Slide] Trinomials ",url: "https://drive.google.com/file/d/1jmROcj7We2J1xV26AwJZfyrwUj0lmjf5/view?usp=sharing"},
+            { titulo:"📚Doubt that vs Doubt if",url: "https://drive.google.com/file/d/1qEgnOfM7BoFG1lmMu_xWgNbRlwBTt9X2/view?usp=sharing"},
+
+            { titulo:"📚[Slide] Trust ,Distrust ,Entrust ",url: "https://drive.google.com/file/d/1gC2SLjM0tML-TVWLjl6a4V6wHYYkokbp/view?usp=sharing"},
+            { titulo:"📚[Slide] Useful Homophones ",url: "https://drive.google.com/file/d/1MWO2XHuHp0bAzFceREIteP_cKXyuwe1j/view?usp=sharing"},
+            { titulo:"📚[Slide] Very + Noun ",url: "https://drive.google.com/file/d/1oiyHIL4pSRBzTwnXmNtl6pPboSqoY76u/view?usp=sharing"},
+            { titulo:"📚[Slide] Wait ,Await, Expect ",url: "https://drive.google.com/file/d/1C1llJJ8yFX0i5pxSnTMUWPIjmNvISnHB/view?usp=sharing"},
+           
+            { titulo:"📚[Slide] Wary vs Weary",url: "https://drive.google.com/file/d/1C8y5Va1PO0FC5UJHWf5HQ4hwBq27lb_y/view?usp=sharing"},
+            { titulo:"📚[Slide] What little ,What few ",url: "https://drive.google.com/file/d/1T6khMo1jZdg8ZbNJk1OPBViUBizGTCLo/view?usp=sharing"},
+            { titulo:"📚[Slide] When is 'THE' used with superlatives ? ",url: "https://drive.google.com/file/d/1ANoTemvWys1sMGooLBQZyrVaBiWwmk2c/view?usp=sharing"},
+            { titulo:"📚[Slide] Will/Would Expressing Willingness and Unwillingness ",url: "https://drive.google.com/file/d/1OSlsIu3un1pwemLHChzkEApSyeaP77ZA/view?usp=sharing"},
+            { titulo:"📚[Slide] -wise (suffix) ",url: "https://drive.google.com/file/d/1zzSan5isa6ok5M8b3TXW_Nm8eCcu9Eza/view?usp=sharing"},
+            { titulo:"📚[Slide] WITH meaning because of ",url: "https://drive.google.com/file/d/1SGvkOoVIsU6ILExH_eyTHYYodpXDJlLO/view?usp=sharing"},
+            { titulo:"📚WHAT and HOW (Exclamations) ",url: "https://drive.google.com/file/d/1OJI6_nCQEgh26dLzcN0Lta-I5Ln202Oq/view?usp=sharing"},
+
+            { titulo:"📚[Slide] Summary Grammar : Resumen de Gramática Fundamental para Aprobar  ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
+
+            { titulo:"📚[pdf] First Conditional Grammar  ",url: "https://drive.google.com/file/d/1TtQyZh4nbaFmMEGqPHxpHIx9LhNoWbMh/view?usp=sharing"},
+            { titulo:"📚[ppt] Causative Grammar  ",url: "https://docs.google.com/presentation/d/1JqpdJ7rwpjCj7IRuHw8mkN2ZljQxkYbt/edit?usp=sharing&ouid=114588820780661373500&rtpof=true&sd=true"},
+            { titulo:"📚[pdf] Impersonal/Personal Passive   ",url: "https://drive.google.com/file/d/1ro-Akv2tledwTQjsG984zZsbYmrUhxY9/view?usp=sharing"},
+          
+            { titulo:"📚[pdf] Direct/Indirect Speech  ",url: "https://drive.google.com/file/d/1uVIQAKwwsRmvlzC9UNvKH3vrKmMak6F6/view?usp=sharing"},
+            { titulo:"📚[ppt] Gradable/Non Gradable Adjectives Grammar  ",url: "https://docs.google.com/presentation/d/1rNNytCWmiO5_TVlt-3yANAjAfAiJQn8c4JzC80tZYrg/edit?usp=sharing"},
+
+            { titulo:"📚[ppt] Inversion  ",url: "https://docs.google.com/presentation/d/13x3PsYRJVv5F6oeoVyim8Y7SBSx1udVd/edit?usp=sharing&ouid=114588820780661373500&rtpof=true&sd=true"},
+            { titulo:"📚[ppt] Inversion Full  ",url: "https://drive.google.com/file/d/1spoUQkw5ZlS6xnDsjni4-k-01SE0ERJW/view?usp=sharing"},
+            { titulo:"📚[ppt] Used to/ be used to / get used to   ",url: "https://drive.google.com/file/d/10RJV_9F_2hLn04DslKk5aDae3AdVOa8s/view?usp=sharing"},
+            { titulo:"📚[ppt] Whom/whose/Who  ",url: "https://drive.google.com/file/d/1SXlXv80QurkFMcgQ-0PJ0kb8WJOL_Cr9/view?usp=sharing"},
+            { titulo:"📚[pdf] Wait/hope/Expect Grammar FunSheet  ",url: "https://drive.google.com/file/d/1d98aBmRU07TtUiQvHhlU2bAklTRQ2iLZ/view?usp=sharing"},
+
+
+
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        ],
+    },
+    {
+        id: 5,
+        thumbnail:"https://i.ibb.co/DM385Vn/B2-FIRST-15.png",
+
+        title: "Comming Soon ",
+        subtitle: "C2",
+
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+        enlaces: [
+           
+          
+
             { titulo:"📚[Slide] Doing too much - phrases ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Doubt that / Doubt whether /if ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] Emphatic Pronouns ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] Ever to express emphasis ",url: "https://drive.google.com/file/d/1dyiH6U2JL6y85GWJ7R976gTw2DV5HZPV/view?usp=sharing"},
-            { titulo:"📚[Slide] Exclamation with What and How",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Expressing lack of Surprise (Phrases)",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] Extent - Phrases",url: "https://drive.google.com/file/d/1RNL8yvP8ciMWWd_vnp0hIsFfUpuANjEe/view?usp=sharing"},
             { titulo:"📚 For meaning because ",url: "https://drive.google.com/file/d/1p3vDChnpQWHcwZ8FbJ0S6TzoBgeWHe5V/view?usp=sharing"},
             { titulo:"📚[Slide] Future Continues ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
@@ -189,11 +156,8 @@ export const roadC1 = [
             { titulo:"📚[Slide] I wish you didn't / I wish you wouldn't    ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] If I were / If I was   ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] If meaning although   ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Immediate Future Expressions   ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Impersonal Passive/ Personal Passive  ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] Imposing or Transferring responsability  ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] Inasmuch as  vs insofar as   ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] In the (short/medium /long) term / in the (short/long)run ",url: "https://drive.google.com/file/d/1OLnc9y-xWYZeoPXocHl4T0Hlow-W7-Jf/view?usp=sharing"},
             { titulo:"📚[Slide] Including or omitting relative pronouns  ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] Indeed -How to use this word   ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] Inversion - Advanced Structures  ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
@@ -201,9 +165,6 @@ export const roadC1 = [
             { titulo:"📚[Slide] Inversion in English ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] It as an empty object   ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] It comes a time when ....or There comes a time when .. ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] It's a good job /It's a good thing / It's just as well   ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] It's about /high time + past subjunctive   ",url: "https://drive.google.com/file/d/1JsV99-95VmCWYE-ueZxQOT-2X7G8F-WJ/view?usp=sharing"},
-            { titulo:"📚[Slide] Joining Negative Ideas ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] Make it so that -Phrase ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] Might ( criticism / suggestions)",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] Much to someone's ../To someone's.. ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
@@ -221,7 +182,6 @@ export const roadC1 = [
             { titulo:"📚[Slide] Ponder  vs Pander  ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] Possessive Gerunds ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] Present Habits ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Prevent,Stop, Avoid ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] Propose ,Recommend,Suggest ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] Put someone to something - Put something to someone",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] Reduce Relative Clauses  ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
@@ -238,88 +198,14 @@ export const roadC1 = [
             { titulo:"📚[Slide] STILL meaning despite that ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] Subjunctive mood in English",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] Substitution with 'Do so'  ",url: "https://drive.google.com/file/d/1cDQYA8CIBaBKuYwBlERsFkKxtMLa2CbC/view?usp=sharing"},
-            { titulo:"📚[Slide] Tag Questions -Imperatives  ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] Tag Questions - Questions Tags :There  ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Tag Questions - Universal Tags Questions ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Tag Questions - Double Positives ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] Tags - Statement/Reinforcement Tags ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] The fact that  ",url: "https://drive.google.com/file/d/1FSd3Vt3C71C0kujDoy4egxFDy8_ZugZv/view?usp=sharing"},
             { titulo:"📚[Slide] There is no questions (phrases) ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] To + Gerund(Phrases) ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] To bits(phrases) ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] To-infinitive in non-finite relative clauses",url: "https://drive.google.com/file/d/12MXy8BXPHM2bOuUqbZkfld5vmp9ye03t/view?usp=sharing"},
-            { titulo:"📚[Slide] To like some or something -Phrases ",url: "https://drive.google.com/file/d/1gOzxiEFLu_IyCAUqaQM3yPJKsFSRFOj9/view?usp=sharing"},
-            { titulo:"📚[Slide] To use something to achieve something -Phrases ",url: "https://drive.google.com/file/d/1uACXzYYygl6bmK0mKXsYZ7kgysVD7H2o/view?usp=sharing"},
-            { titulo:"📚[Slide] Trinomials ",url: "https://drive.google.com/file/d/1jmROcj7We2J1xV26AwJZfyrwUj0lmjf5/view?usp=sharing"},
-            { titulo:"📚[Slide] Trust ,Distrust ,Entrust ",url: "https://drive.google.com/file/d/1gC2SLjM0tML-TVWLjl6a4V6wHYYkokbp/view?usp=sharing"},
-            { titulo:"📚[Slide] Useful Homophones ",url: "https://drive.google.com/file/d/1MWO2XHuHp0bAzFceREIteP_cKXyuwe1j/view?usp=sharing"},
-            { titulo:"📚[Slide] Very + Noun ",url: "https://drive.google.com/file/d/1oiyHIL4pSRBzTwnXmNtl6pPboSqoY76u/view?usp=sharing"},
-            { titulo:"📚[Slide] Wait ,Await, Expect ",url: "https://drive.google.com/file/d/1C1llJJ8yFX0i5pxSnTMUWPIjmNvISnHB/view?usp=sharing"},
-            { titulo:"📚[Slide] Wary vs Weary",url: "https://drive.google.com/file/d/1C8y5Va1PO0FC5UJHWf5HQ4hwBq27lb_y/view?usp=sharing"},
-            { titulo:"📚[Slide] What little ,What few ",url: "https://drive.google.com/file/d/1T6khMo1jZdg8ZbNJk1OPBViUBizGTCLo/view?usp=sharing"},
-            { titulo:"📚[Slide] When is 'THE' used with superlatives ? ",url: "https://drive.google.com/file/d/1ANoTemvWys1sMGooLBQZyrVaBiWwmk2c/view?usp=sharing"},
-            { titulo:"📚[Slide] Will/Would Expressing Willingness and Unwillingness ",url: "https://drive.google.com/file/d/1OSlsIu3un1pwemLHChzkEApSyeaP77ZA/view?usp=sharing"},
-            { titulo:"📚[Slide] -wise (suffix) ",url: "https://drive.google.com/file/d/1zzSan5isa6ok5M8b3TXW_Nm8eCcu9Eza/view?usp=sharing"},
-            { titulo:"📚[Slide] WITH meaning because of ",url: "https://drive.google.com/file/d/1SGvkOoVIsU6ILExH_eyTHYYodpXDJlLO/view?usp=sharing"},
-            { titulo:"📚[Slide] Would rather/Would Sooner ",url: "https://drive.google.com/file/d/1F-t7qwMfcb5PDKfFodN02qZFwCzIZFqu/view?usp=sharing"},
+         
+         
 
-            { titulo:"📚[Slide] Summary Grammar : Resumen de Gramática Fundamental para Aprobar  ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-
-            {
-                titulo: "🎯[Activity] Introduction to the Course",
-                url: "https://wordwall.net/play/11758/458/200",
-            },
-            { titulo:"📚[book] Summary Grammar : Resumen de Gramática Fundamental para Aprobar  ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[pdf] First Conditional Grammar  ",url: "https://drive.google.com/file/d/1TtQyZh4nbaFmMEGqPHxpHIx9LhNoWbMh/view?usp=sharing"},
-            { titulo:"📚[ppt] Causative Grammar  ",url: "https://docs.google.com/presentation/d/1JqpdJ7rwpjCj7IRuHw8mkN2ZljQxkYbt/edit?usp=sharing&ouid=114588820780661373500&rtpof=true&sd=true"},
-            { titulo:"📚[pdf] Impersonal/Personal Passive   ",url: "https://drive.google.com/file/d/1ro-Akv2tledwTQjsG984zZsbYmrUhxY9/view?usp=sharing"},
-            {
-                titulo: "🎯[Activity] Impersonal/Personal Passive 01",
-                url: "https://wordwall.net/play/11758/458/200",
-            },
-            {
-                titulo: "🎯[Activity] Impersonal/Personal Passive 02",
-                url: "https://wordwall.net/play/14060/593/9112",
-            },
-            {
-                titulo: "🎯[Activity - Speaking] Impersonal/Personal Passive 03",
-                url: "https://wordwall.net/play/55183/950/878",
-            },
-            {
-                titulo: "🎯[Activity] Impersonal/Personal Passive 04",
-                url: "https://wordwall.net/play/38436/833/237",
-            },
-            {
-                titulo: "🎯[Activity]  Passive Voice",
-                url: "https://wordwall.net/play/38436/833/237",
-            },
-            { titulo:"📚[pdf] Direct/Indirect Speech  ",url: "https://drive.google.com/file/d/1uVIQAKwwsRmvlzC9UNvKH3vrKmMak6F6/view?usp=sharing"},
-            { titulo:"📚[ppt] Gradable/Non Gradable Adjectives Grammar  ",url: "https://docs.google.com/presentation/d/1rNNytCWmiO5_TVlt-3yANAjAfAiJQn8c4JzC80tZYrg/edit?usp=sharing"},
-
-            { titulo:"📚[ppt] Inversion  ",url: "https://docs.google.com/presentation/d/13x3PsYRJVv5F6oeoVyim8Y7SBSx1udVd/edit?usp=sharing&ouid=114588820780661373500&rtpof=true&sd=true"},
-            { titulo:"📚[ppt] Inversion Full  ",url: "https://drive.google.com/file/d/1spoUQkw5ZlS6xnDsjni4-k-01SE0ERJW/view?usp=sharing"},
-            { titulo:"📚[ppt] Used to/ be used to / get used to   ",url: "https://drive.google.com/file/d/10RJV_9F_2hLn04DslKk5aDae3AdVOa8s/view?usp=sharing"},
-            { titulo:"📚[ppt] Whom/whose/Who  ",url: "https://drive.google.com/file/d/1SXlXv80QurkFMcgQ-0PJ0kb8WJOL_Cr9/view?usp=sharing"},
-            { titulo:"📚[pdf] Wait/hope/Expect Grammar FunSheet  ",url: "https://drive.google.com/file/d/1d98aBmRU07TtUiQvHhlU2bAklTRQ2iLZ/view?usp=sharing"},
-
-        ],
-    },
-    {
-        id: 5,
-        thumbnail:"https://i.ibb.co/DM385Vn/B2-FIRST-15.png",
-
-        title: "Essential Grammar ",
-        subtitle: "C2",
-
-        dateAdded: "Basic 0 ",
-        channel: "sdasd",
-        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
-        enlaces: [
-           
-          
-            { titulo:"📚 Dangling Modifiers  ",url: "https://drive.google.com/file/d/1-MCDQdx5K_v6mEL7dgjh6TU4rTdfFVSN/view?usp=sharing"},
-
-          
         ],
     },
     
@@ -411,34 +297,6 @@ export const roadC1 = [
         ],
     },
    
-    
-   
-    {
-        id: 18,
-        thumbnail:
-            "",
-        title: "M4 - Phrasal Verbs",
-        subtitle: "Pre-Intermediate",
-
-        dateAdded: "Basic 01 ",
-        channel: "sdasd",
-        description: "Desarrollando habilidades lingüísticas fundamentales",
-        enlaces: [
-            
-
-
-            {titulo: "📒Phrasal verb with Get",url: "https://drive.google.com/file/d/1txaA2U2EMDVKnJ--_UM8YhzDZBaHasDP/view?usp=sharing",},
-            {titulo: "📒Phrasal verb with Take",url: "https://drive.google.com/file/d/1ZkjaNFOku-6MgJSzH_QRRXHoYGm02uLQ/view?usp=sharing",},
-            {titulo: "📒Phrasal verb Get vs Take",url: "https://drive.google.com/file/d/1XyP5ABzwxOESdOwnOucJ_2-3beKDqxwv/view?usp=sharing",},
-            {titulo: "📒Phrasal verb with Up",url: "https://drive.google.com/file/d/1B7kiX_3JXK8jiRYNFkR4IxPqoHCz0J7K/view?usp=sharing",},
-            {titulo: "📒Phrasal verb Dictation",url: "https://drive.google.com/file/d/1Q78yaqJPpqUThoLZ4y5tqPFp-x6eCV8F/view?usp=sharing",},
-
-
-         
-            
-            
-        ],
-    },
     {
         id: 19,
         thumbnail:
@@ -535,82 +393,6 @@ export const roadC1 = [
                 url: "https://drive.google.com/file/d/17vYjDTq69ecevpRtiD1mSOevKqFLrOSM/view?usp=sharing",
             },
             
-        ],
-    },
-    {
-        id: 16,
-        thumbnail:
-            "https://i.ibb.co/W2FY74b/level5.png",
-        title: "Building Vocabulary",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 01 ",
-        channel: "sdasd",
-        description: "Amplía tu vocabulario de manera efectiva y práctica con este curso diseñado para ayudarte a aprender y recordar nuevas palabras de forma rápida y duradera.",
-        enlaces: [
-            {  titulo:"📑 [Flash Cards] Fce Essential Words ",url: "https://quizlet.com/109647789/fce-vocabulary-flash-cards/?i=2oqoxh&x=1jqt"},
-            {  titulo:"📑 [Game] Fce B2 First Prepositions ",url: "https://wordwall.net/play/39433/169/368"},
-
-            {  titulo:"📑 [Anki Words] Necessary Words for Cambridge Exams ",url: "https://drive.google.com/file/d/1Nyh8Zhw0XGYZg-vFrNqpUT4oqNC0LozD/view"},
-            {  titulo:"📑 [PDF] List of 200 Phrasal Verbs | B2 First (FCE) ",url: "https://docs.google.com/document/d/1kUtVFcyPfupiE32q77xJwfQ1afTjWB6nm39tZsNDoxI/edit"},
-            {  titulo:"📑 [PDF] Collocation 01 | B2 First (FCE|CAE) ",url: "https://drive.google.com/file/d/1dFsaNG_Ln6tt29-fHuf-L22ktIRxnBjf/view?usp=sharing"},
-            {  titulo:"📑 [App] Dictionary ",url: "https://www.mediafire.com/file/zofkpkpcylqtpfp/MacMillanED_2nd_Edition.rar/file"},
-            {  titulo:"📑 [PDF] Answer Sheet ",url: "https://drive.google.com/file/d/16srt09bwR_CaPRNKel7WfErJSVqTyXl4/view?usp=sharing"},
-
-            {  titulo:"📑 [PDF] Prepositions After Verbs & Adjectives ",url: "https://docs.google.com/document/d/1CeVFrtcUUUYYfBOyHIvXkZ0mUjl3vx7ri-L0BYkARd8/edit#heading=h.te6z9i49xc6a"},
-
-        ],
-    },
-    {
-        id: 17,
-        thumbnail:
-            "https://i.ibb.co/W2FY74b/level5.png",
-        title: "Inglés con Anime",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 01 ",
-        channel: "sdasd",
-        description: "Amplía tu vocabulario de manera efectiva y práctica con este curso diseñado para ayudarte a aprender y recordar nuevas palabras de forma rápida y duradera.",
-        enlaces: [
-            {  titulo:"🎥[Video] Aprende inglés con Dragon Ball Z - Conversaciones ",url: "https://drive.google.com/file/d/1wBA_z3emPwA8_7zG4PTh_3eM9kIrsw_G/view?usp=sharing"},
-            {  titulo:"🎥[Video]  Picoro entrena a Gohan ",url: "https://drive.google.com/file/d/1cSJBlQ_0_N-hLgm4A-g-wNnv9U9x1lJZ/view?usp=sharing"},
-            {  titulo:"🎥 [Video] Ingles con Naruto ",url: "https://drive.google.com/file/d/1olidUMObF_HhIZ0BMJGQrRpZERjm-euc/view?usp=sharing"},
-            {  titulo:"🎥 [Video] El sacrificio de Vegeta ",url: "https://youtu.be/ce1JkqjXKJ4"},
-            {  titulo:"🎥 [Video] Useful Expressions Death Note ",url: "https://youtu.be/MTaLzZikzv4"},
-            {  titulo:"🎥 [Video] Useful Expressions One Punch Man ",url: "https://youtu.be/n_DcqiFayc4"},
-            {  titulo:"🎥 [Video] La fusion de Vegito ",url: "https://youtu.be/ma7q6esT3cg"},
-            {  titulo:"🎥 [Video] Useful Expression My hero Academy ",url: "https://youtu.be/8sPqgQlfKsQ"},
-            {  titulo:"🎥 [Video] Useful Expression Goku enseña la tecnica de la Fusion ",url: "https://youtu.be/S5yooa_kHDY"},
-
-
-        ],
-    }, {
-        id: 18,
-        thumbnail:
-            "https://i.ibb.co/W2FY74b/level5.png",
-        title: "Exámenes Center",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 01 ",
-        channel: "sdasd",
-        description: "Completa los desafíos para dominar el Inglés",
-        enlaces: [
-            {  titulo:"📝 Examen 01  ",url: "https://drive.google.com/file/d/1Sk4W7Ax3Ao9ZqGR4sVY4IFik3Jq6BQ_N/view?usp=sharing"},
-
-            {  titulo:"📝[Test 01 ] FCE + SOLUCIONARIO ",url: "https://docs.google.com/document/d/17v-Bh_q-bTXR6ZzgRYy-GD6ZMx6EiIdT/edit?usp=sharing&ouid=114588820780661373500&rtpof=true&sd=true"},
-            {  titulo:"📝[Test 02 ] FCE + SOLUCIONARIO ",url: "https://docs.google.com/presentation/d/1LijSovlmiSEB4cvyYhr0PcGe3ZDpmDSI/edit?usp=sharing&ouid=114588820780661373500&rtpof=true&sd=true"},
-
-            {  titulo:"📝[Test] Key Word Transformation 01 ",url: "https://drive.google.com/file/d/1Ng-AL8s5uNqA4AeVSa9x-4ySFH_dqsKU/view?usp=sharing"},
-            {  titulo:"📝🔑[Test Answer Key] Key Word Transformation 01 ",url: "https://docs.google.com/presentation/d/1_lR0KYShBJeyFw-ZOuMIEwwLyIdLb2s591vIc4pAIsU/edit?usp=sharing"},
-
-            {  titulo:"📝[Test] Multiple Choice Cloze 01 ",url: "https://drive.google.com/file/d/1Y-2SMBjU5xafwMwdH2VB8NJMWwKQMB5-/view?usp=sharing"},
-            {  titulo:"📝🔑[Test Answer Key] Multiple Choice Cloze 01",url: "https://docs.google.com/presentation/d/1koBZiWPQtnw6GgFEfWpNORHWd0TvwYYnRbr661Ahh94/edit?usp=sharing"},
-
-            {  titulo:"📝[Test] Open Cloze 01 ",url: "https://drive.google.com/file/d/1yRCvF2OW3VJfHSqREMmUb4RzAXK6Hfg1/view?usp=sharing"},
-            {  titulo:"📝[Test] Word Formation 01 ",url: "https://drive.google.com/file/d/1SOnsELpD7Y4laW2l--YpXeKcut6QM8ZA/view?usp=sharing"},
-            {  titulo:"🗣[Test] Speaking Section 01 ",url: "https://drive.google.com/file/d/1tG0g65N35lS8hp1r4LRPDSkynxug5C51/view?usp=sharing"},
-
-
         ],
     },{
         id: 21,
