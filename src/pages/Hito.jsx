@@ -12,9 +12,12 @@ const Hito = ({ selectedLink }) => {
   const [error, setError] = useState('');
   const [showNotepad, setShowNotepad] = useState(false);
   const [notes, setNotes] = useState("");
-  
-  const validCode = 'nocode'; // Este es el código que debe ingresar el usuario para acceder al PDF
+  const [isExpanded, setIsExpanded] = useState(false);
 
+  const validCode = 'nocode'; // Este es el código que debe ingresar el usuario para acceder al PDF
+  const toggleSize = () => {
+    setIsExpanded(!isExpanded);
+  };
   const printNotes = () => {
     const printWindow = window.open("", "_blank");
   
@@ -282,54 +285,74 @@ const Hito = ({ selectedLink }) => {
         className={`transition-opacity duration-300 ${isLoading ? "opacity-0" : "opacity-100"} border-4 rounded-lg shadow-lg border-purple-700`}
       ></iframe>
 
-      {showNotepad && (
-        <div
-          className="absolute left-[-360px] top-0 w-[300px] h-[450px] bg-[#13131a] border border-purple-600 rounded-lg shadow-xl p-3 flex flex-col text-white"
-          style={{ zIndex: 9999 }}
-        >
-          {/* Botones de formato */}
-          <div className="flex space-x-2 mb-2">
-            <select
-              onChange={(e) => document.execCommand("fontSize", false, e.target.value)}
-              className="px-2 py-1 bg-gray-800 text-white rounded"
-            >
-              <option value="1">Small</option>
-              <option value="3" selected>Medium</option>
-              <option value="5">Big</option>
-            </select>
+{showNotepad && (
+  <div
+  className={`fixed top-0 ${
+    isExpanded ? "left-[50px] top-20  w-[1050px] h-[480px]" : "left-[50px] top-20 w-[300px]  h-[450px]"
+  } bg-[#13131a] border border-purple-600 rounded-lg shadow-xl p-3 flex flex-col text-white transition-all duration-300`}
+  style={{ zIndex: 9999 }}
+>
 
-            <button onClick={() => document.execCommand("bold")} className="px-2 py-1 text-white bg-purple-600 rounded hover:bg-purple-700">B</button>
-            <button onClick={() => document.execCommand("italic")} className="px-2 py-1 text-white bg-purple-600 rounded hover:bg-purple-700">I</button>
-            <button onClick={() => document.execCommand("underline")} className="px-2 py-1 text-white bg-purple-600 rounded hover:bg-purple-700">U</button>
-            <button onClick={() => document.execCommand("backColor", false, "#FFFF00")} className="px-2 py-1 text-black bg-yellow-400 rounded hover:bg-yellow-500">H</button>
-          </div>
+    {/* Botones de formato */}
+    <div className="flex space-x-2 mb-2">
+      <select
+        onChange={(e) => document.execCommand("fontSize", false, e.target.value)}
+        className="px-2 py-1 bg-gray-800 text-white rounded"
+      >
+        <option value="1">Small</option>
+        <option value="3" selected>Medium</option>
+        <option value="5">Big</option>
+      </select>
 
-          {/* Área editable con scroll mejorado */}
-          <div
-            className="w-full flex-grow p-2 border border-gray-700 rounded-lg text-white bg-[#1c1c24] overflow-auto"
-            contentEditable
-            placeholder="Take notes here..."
-            onInput={(e) => setNotes(e.target.innerHTML)}
-            style={{
-              minHeight: "250px",
-              maxHeight: "300px",
-              outline: "none",
-              fontFamily: "Inter, sans-serif",
-              fontSize: "14px",
-              wordWrap: "break-word",
-              whiteSpace: "pre-wrap",
-              overflowX: "auto",
-            }}
-          ></div>
-
-          <button
-            onClick={printNotes}
-            className="mt-2 w-full bg-green-600 text-white py-2 px-3 rounded-lg shadow hover:bg-green-700 transition"
-          >
-            🖨️ Print Notes
-      </button>
+      <button onClick={() => document.execCommand("bold")} className="px-2 py-1 text-white bg-purple-600 rounded hover:bg-purple-700">B</button>
+      <button onClick={() => document.execCommand("italic")} className="px-2 py-1 text-white bg-purple-600 rounded hover:bg-purple-700">I</button>
+      <button onClick={() => document.execCommand("underline")} className="px-2 py-1 text-white bg-purple-600 rounded hover:bg-purple-700">U</button>
+      <button onClick={() => document.execCommand("backColor", false, "#FFFF00")} className="px-2 py-1 text-black bg-yellow-400 rounded hover:bg-yellow-500">H</button>
     </div>
-  )}
+
+    {/* Área editable con scroll mejorado */}
+    <div
+      className="w-full flex-grow p-2 border border-gray-700 rounded-lg text-white bg-[#1c1c24] overflow-auto"
+      contentEditable
+      placeholder="Take notes here..."
+      onInput={(e) => setNotes(e.target.innerHTML)}
+      style={{
+        minHeight: isExpanded ? "350px" : "250px",
+        maxHeight: isExpanded ? "300px" : "550px",
+        outline: "none",
+        fontFamily: "Inter, sans-serif",
+        fontSize: "14px",
+        wordWrap: "break-word",
+        whiteSpace: "pre-wrap",
+        overflowX: "auto",
+      }}
+    ></div>
+
+   {/* Contenedor de botones */}
+<div className="mt-2 flex justify-end space-x-2">
+  {/* Botón de impresión */}
+  <button
+    onClick={printNotes}
+    className="p-2 bg-green-600 text-white rounded-full shadow hover:bg-green-700 transition"
+    title="Print Notes"
+  >
+    🖨️
+  </button>
+
+  {/* Botón para expandir/cerrar */}
+  <button
+    onClick={() => setIsExpanded(!isExpanded)}
+    className="p-2 bg-blue-600 text-white rounded-full shadow hover:bg-blue-700 transition"
+    title={isExpanded ? "Collapse" : "Expand"}
+  >
+    {isExpanded ? "🔽" : "🔼"}
+  </button>
+</div>
+
+  </div>
+)}
+
+
 </div>
 
 

@@ -23,7 +23,7 @@ const Navbar = () => {
             alt="Logo"
             className="h-[50px] w-[50px] md:h-[50px] md:w-[50px]"
           /> */}
-          <h3 className="ml-3 font-bold text-xl text-white">LearniBox</h3>
+          <h3 className="ml-6 font-bold text-xl text-white">LearniBox</h3>
         </div>
 
         {/* Desktop Navigation */}
