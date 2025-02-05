@@ -36,7 +36,7 @@ const DefaultView = ({ realname, userImage, nivel, expirationDate }) => {
           </div>
           <div className="flex flex-row justify-between gap-4">
             <a
-              href="https://api.whatsapp.com/send?phone=51926922032&text=Hello%20Carlos!%20%F0%9F%99%82"
+              href="https://wa.link/3lt1wc"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-6 py-3 text-sm font-semibold text-white bg-gradient-to-r from-green-500 to-blue-500 rounded-2xl shadow-lg hover:from-green-600 hover:to-blue-600 transition-all duration-300 transform hover:scale-105"

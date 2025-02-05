@@ -36,9 +36,22 @@ const Hero = () => {
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
           ✨ ¡Cumple tu sueño de hablar inglés con un curso hecho para ti! ✨          </p>
-          <Button href="https://learnibox.vercel.app/plataforma" white>
-           Platforma Educativa
-          </Button>
+          <div className="flex flex-col sm:flex-row gap-4 items-center justify-center w-full">
+      <Button 
+        href="https://learnibox.vercel.app/plataforma" 
+        white 
+        className="w-64 sm:w-auto"
+      >
+        Plataforma Educativa
+      </Button>
+      <Button 
+        href="https://wa.link/3lt1wc" 
+        white 
+        className="w-64 sm:w-auto"
+      >
+        Wsp
+      </Button>
+    </div>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
           <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
