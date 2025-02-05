@@ -15,6 +15,8 @@ export const roadC1 = [
         description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
         enlaces: [
             { "titulo": "[🖥️Class] Need + ing", "url": "https://www.youtube.com/watch?v=TwRQIGq2Uw0&ab_channel=MyEnglishBro" },
+            { titulo:"📚[Slide] Extent - Phrases",url: "https://drive.google.com/file/d/1RNL8yvP8ciMWWd_vnp0hIsFfUpuANjEe/view?usp=sharing"},
+            { titulo:"📚 For meaning because ",url: "https://drive.google.com/file/d/1p3vDChnpQWHcwZ8FbJ0S6TzoBgeWHe5V/view?usp=sharing"},
             { titulo:"📚 Dangling Modifiers  ",url: "https://drive.google.com/file/d/1-MCDQdx5K_v6mEL7dgjh6TU4rTdfFVSN/view?usp=sharing"},
             { titulo:"📚[Slide] Doing too much - phrases ",url: "https://drive.google.com/file/d/1MXfUisuFRIhKqnotZue3pU9ZibXR-oRu/view?usp=sharing"},
             { titulo:"📚[Slide] Emphatic Pronouns ",url: "https://drive.google.com/file/d/17TbrOkcSgLeyAUSK3bCw1MhrPPD2wWOF/view?usp=sharing"},
@@ -112,16 +114,31 @@ export const roadC1 = [
             { titulo:"📚[ppt] Whom/whose/Who  ",url: "https://drive.google.com/file/d/1SXlXv80QurkFMcgQ-0PJ0kb8WJOL_Cr9/view?usp=sharing"},
             { titulo:"📚[pdf] Wait/hope/Expect Grammar FunSheet  ",url: "https://drive.google.com/file/d/1d98aBmRU07TtUiQvHhlU2bAklTRQ2iLZ/view?usp=sharing"},
 
+            { titulo:"📚[Slide] Future Continues ",url: "https://drive.google.com/file/d/1L3tzPtKwtGTkRQim2uNsK5iE8tIhnFsT/view?usp=sharing"},
+            { titulo:"📚[Slide] Give rise to  / Give way to   ",url: "https://drive.google.com/file/d/1Wo3Ys2A-LbDFO6c2ilwj3_-JI4fG3TN6/view?usp=sharing"},
+            { titulo:"📚having a lot to do",url: "https://drive.google.com/file/d/1LiGCvmom_wRtwvNbKXx3WhALIglfBsgS/view?usp=sharing"},
+            { titulo:"📚[Slide] Historical Present    ",url: "https://drive.google.com/file/d/1gSil8v-a7EP3k-CU8ob95slVzC2g0JDX/view?usp=sharing"},
+            { titulo:"📚[Slide] Hope-Phrases    ",url: "https://drive.google.com/file/d/1ojSQmyHTNt0xMFz4A4_i7-skvREpwR-n/view?usp=sharing"},
+
+            { titulo:"📚[Slide] I wish you didn't / I wish you wouldn't    ",url: "https://drive.google.com/file/d/1jtBHXVvGFjF_v-lYaj7u7Lp7CrNDrmrx/view?usp=sharing"},
+
+            { titulo:"📚If I were vs If I was ",url: "https://drive.google.com/file/d/1L8gL4in7HNGsjw_fqgsCzi2FPNi3VYR8/view?usp=sharing"},
 
 
+            { titulo:"📚[Slide] If meaning although   ",url: "https://drive.google.com/file/d/1HchwZN2R5mEOoF2Ju0-Hpk_Oe4WFe1Rd/view?usp=sharing"},
+            { titulo:"📚[Slide] Imposing or Transferring responsability  ",url: "https://drive.google.com/file/d/1hNjafS0LbGoS7RqY8EtY6Mf6V6qsoeaY/view?usp=sharing"},
+            { titulo:"📚[Slide] Inasmuch as  vs insofar as   ",url: "https://drive.google.com/file/d/15SDhGYZiigaXw1FflTMWP8xC4blDWFNv/view?usp=sharing"},
 
-          
+            { titulo:"📚[Slide] Including or omitting relative pronouns  ",url: "https://drive.google.com/file/d/19D6FgL_bx6H4YftBWYdlB1876M8qabOE/view?usp=sharing"},
 
+            { titulo:"📚[Slide] To + Gerund(Phrases) ",url: "https://drive.google.com/file/d/1-bh7FHVKhKHXYzTNbFhmHLt0AtYlKNC8/view?usp=sharing"},
 
-
-
-
-
+            { titulo:"📚[Slide] Indeed -How to use this word   ",url: "https://drive.google.com/file/d/1eSjwXx-jlYTML8Usc_KH9uhZ4zJxWUfI/view?usp=sharing"},
+            { titulo:"📚[Slide] Phrases with All ",url: "https://drive.google.com/file/d/1mDGMt1JKRa30dj7cnfnknTZikyoxOSiE/view?usp=sharing"},
+            { titulo:"📚[Slide] Phrases with Along ",url: "https://drive.google.com/file/d/12KMtH6p9E1hLyx6Oq4ktuhlZ2NsWnBCb/view?usp=sharing"},
+            { titulo:"📚[Slide] Phrases with Cases ",url: "https://drive.google.com/file/d/1qjQKqOoDOzasj51JWmxQC6S7-qd_KjLO/view?usp=sharing"},
+            { titulo:"📚[Slide] Phrases with Once ",url: "https://drive.google.com/file/d/1oVEUrTm9O9vBv4EkgjuHsp2pe8jPMiQJ/view?usp=sharing"},
+            { titulo:"📚[Slide] Phrases with Yet ",url: "https://drive.google.com/file/d/1DQWYOuHyMFqL7X1_zUZ7o9txaZ2fEKc_/view?usp=sharing"},
 
 
 
@@ -149,20 +166,9 @@ export const roadC1 = [
           
 
            
-            { titulo:"📚[Slide] Extent - Phrases",url: "https://drive.google.com/file/d/1RNL8yvP8ciMWWd_vnp0hIsFfUpuANjEe/view?usp=sharing"},
-            { titulo:"📚 For meaning because ",url: "https://drive.google.com/file/d/1p3vDChnpQWHcwZ8FbJ0S6TzoBgeWHe5V/view?usp=sharing"},
-            { titulo:"📚[Slide] Future Continues ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Give rise to  / Give way to   ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Having a lot to do   ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Historical Present    ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Hope-Phrases    ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] I wish you didn't / I wish you wouldn't    ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] If I were / If I was   ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] If meaning although   ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Imposing or Transferring responsability  ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Inasmuch as  vs insofar as   ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Including or omitting relative pronouns  ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Indeed -How to use this word   ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
+           
+           
+         
             { titulo:"📚[Slide] Inversion - Advanced Structures  ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] Inversion in English -Neither and Nor  ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] Inversion in English ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
@@ -177,11 +183,7 @@ export const roadC1 = [
             { titulo:"📚[Slide] ONLY meaning but or except",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] Participle Clauses",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] Phrases meaning in Addition ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Phrases with All ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Phrases with Along ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Phrases with Cases ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Phrases with Once ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Phrases with Yet ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
+           
             { titulo:"📚[Slide] Ponder  vs Pander  ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] Possessive Gerunds ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] Present Habits ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
@@ -204,7 +206,6 @@ export const roadC1 = [
             { titulo:"📚[Slide] Tag Questions - Questions Tags :There  ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] Tags - Statement/Reinforcement Tags ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] There is no questions (phrases) ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] To + Gerund(Phrases) ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
          
          
 
