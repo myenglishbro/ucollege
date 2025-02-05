@@ -18,7 +18,7 @@ const plans = [
     ],
     price: " 110 USD - 350 PEN ",
 enlace:"https://docs.google.com/spreadsheets/d/1jpKL_kwxAWuqo9v6aVBSiKpiAij6i3E3ysPSxlajgRY/preview",
-ruta: "https://lernibox.vercel.app/RoadMapB2",
+ruta: "https://learnibox.vercel.app/RoadMapB2",
 
   },
   {
@@ -36,7 +36,7 @@ ruta: "https://lernibox.vercel.app/RoadMapB2",
     ],
     price: "$90",
     enlace: "https://i.ibb.co/Syb9m2M/Black-And-White-Aesthetic-Minimalist-Modern-Simple-Typography-Coconut-Cosmetics-Logo-6.png",
-    ruta: "https://lernibox.vercel.app/Celpip",
+    ruta: "https://learnibox.vercel.app/Celpip",
 
   },{
     name: "B2 Cambridge Preparation",
@@ -52,7 +52,7 @@ ruta: "https://lernibox.vercel.app/RoadMapB2",
       "Cuestionarios y exámenes finales 📝"
     ],
     price: "$90",
-    ruta: "https://lernibox.vercel.app/RoadMapB2",
+    ruta: "https://learnibox.vercel.app/RoadMapB2",
 
   },
   {
@@ -69,7 +69,7 @@ ruta: "https://lernibox.vercel.app/RoadMapB2",
       "Cuestionarios y exámenes finales 📝"
     ],
     price: "$90",
-    ruta: "https://lernibox.vercel.app/RoadMapC1",
+    ruta: "https://learnibox.vercel.app/RoadMapC1",
 
   },
   {
@@ -86,7 +86,7 @@ ruta: "https://lernibox.vercel.app/RoadMapB2",
       "Hora peruana (GMT-5), previa entrevista",
     ],
     price: " 106 USD - 330 PEN ",
-    ruta: "https://lernibox.vercel.app/RoadMapB2",
+    ruta: "https://learnibox.vercel.app/RoadMapB2",
 
   },
   {
@@ -103,7 +103,7 @@ ruta: "https://lernibox.vercel.app/RoadMapB2",
       "Cuestionarios y exámenes finales 📝"
     ],
     price: "$90",
-    ruta: "https://lernibox.vercel.app/RoadMapA1",
+    ruta: "https://learnibox.vercel.app/RoadMapA1",
 
   },
   {
@@ -119,7 +119,7 @@ ruta: "https://lernibox.vercel.app/RoadMapB2",
       "Clases grabadas y evaluaciones 📝"
     ],
     price: "$110",
-    ruta: "https://lernibox.vercel.app/RoadMapA2",
+    ruta: "https://learnibox.vercel.app/RoadMapA2",
 
   },
   {
@@ -135,7 +135,7 @@ ruta: "https://lernibox.vercel.app/RoadMapB2",
       "Exámenes para medir tu progreso 📝"
     ],
     price: "$150",
-    ruta: "https://lernibox.vercel.app/RoadMapB2",
+    ruta: "https://learnibox.vercel.app/RoadMapB2",
 
   },
   {
@@ -153,7 +153,7 @@ ruta: "https://lernibox.vercel.app/RoadMapB2",
     ],
    
     price: "S./30 / $10 Mensuales",
-    ruta: "https://lernibox.vercel.app/RoadMapB2",
+    ruta: "https://learnibox.vercel.app/RoadMapB2",
 
   }
 ,  
@@ -171,7 +171,7 @@ ruta: "https://lernibox.vercel.app/RoadMapB2",
       "Actividades interactivas 🧩",
     ],
     price: "S./30 / $10 Mensuales",
-    ruta: "https://lernibox.vercel.app/RoadMapC1",
+    ruta: "https://learnibox.vercel.app/RoadMapC1",
 
   },
   {
@@ -201,7 +201,7 @@ ruta: "https://lernibox.vercel.app/RoadMapB2",
       "Evaluaciones completas 📊"
     ],
     price: "$200",
-    ruta: "https://lernibox.vercel.app/RoadMapHealth",
+    ruta: "https://learnibox.vercel.app/RoadMapHealth",
 
   },
   {
@@ -231,7 +231,7 @@ ruta: "https://lernibox.vercel.app/RoadMapB2",
       "Exámenes completos 🏅"
     ],
     price: "$250",
-    ruta: "https://lernibox.vercel.app/RoadMapTech",
+    ruta: "https://learnibox.vercel.app/RoadMapTech",
 
   },
   {
@@ -247,7 +247,7 @@ ruta: "https://lernibox.vercel.app/RoadMapB2",
       "Escenarios de práctica en la vida real 🌍"
     ],
     price: "$90",
-    ruta: "https://lernibox.vercel.app/RoadMapFrench",
+    ruta: "https://learnibox.vercel.app/RoadMapFrench",
 
   },
 ];
