@@ -95,5 +95,6 @@ export const validCredentials = [
 
        { expirationDate:"05/03/25",nivel:"solicitar examen",usuario: 'sonia', password: 'huancas', realname: 'Sonia Huancas Huancas  ', img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
        { expirationDate:"05/03/25",nivel:"solicitar examen",usuario: 'pilar', password: 'golac', realname: 'Pilar Golac Tenorio', img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
+       { expirationDate:"05/03/25",nivel:"solicitar examen",usuario: 'andrea', password: 'castro', realname: 'Andrea Castro', img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
 
     ];
