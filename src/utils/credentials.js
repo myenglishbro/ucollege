@@ -2,7 +2,6 @@ export const validCredentials = [
    
     { expirationDate:"Cuenta de Por vida",nivel:"C2",usuario: 'meb', password: 'new2025', realname: 'MyEnglishBro!', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
     { expirationDate:"02/03/35",nivel:"solicitar examen",usuario: 'milagros', password: '2025', realname: 'Milagros R. Quispe!', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
-    { expirationDate:"05/12/35",nivel:"C2",usuario: 'capolaya', password: 'mybro', realname: 'MyEnglishBro!', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
 
       {expirationDate:"93 horas /128 horas ",nivel:"B1+ Intermediate",usuario: 'andresdesigner', password: 'designer123', realname: 'Andres Jaramillo', img: 'https://i.ibb.co/gTNwpJQ/67d46012622105-63d2bfcf57030.png'  }, // No image
       { expirationDate:"10 HOURS",nivel:"B2 Intermediate", usuario: 'Ppbergelund', password: 'pppublisher', realname: 'Pedro Bergelund', img: 'https://i.ibb.co/Ks3WrnN/426308282-432260169242381-257610.jpg' }, // No image
