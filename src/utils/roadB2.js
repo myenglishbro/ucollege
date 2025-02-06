@@ -2,9 +2,9 @@ export const roadB2 = [
 
     {
         id: 5,
-        thumbnail:"Week 01",
+        thumbnail:"https://i.ibb.co/vcMnX0n/B2-FIRST-17.png",
 
-        title: "Useful Structures in B2 ",
+        title: "Week 01 ",
         subtitle: "B2/C1",
 
         dateAdded: "Basic 0 ",
