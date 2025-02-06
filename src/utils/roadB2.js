@@ -1,8 +1,48 @@
 export const roadB2 = [
+
+    {
+        id: 5,
+        thumbnail:"Week 01",
+
+        title: "Useful Structures in B2 ",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+        enlaces: [
+            { titulo:"Forget vs Leave..",url: "https://drive.google.com/file/d/1prd3QB-l2_xQtJCB5F8zQnxjGfkfIs5J/view?usp=sharing"},
+            { titulo:"continually,  continuously ,  constantly",url: "https://drive.google.com/file/d/1kENm-lqtM22jiVAej6_Io_IoYFeRDprC/view?usp=sharing"},
+            { titulo:"Prevent, Stop, Avoid.",url: "https://drive.google.com/file/d/1FoSc6244qwfBpG9EDxzX7YkHZTuk6EN8/view?usp=sharing"},
+            { titulo:"differentiate, distinguish, discriminate",url: "https://drive.google.com/file/d/1v-uIHL_GseKjuslDEgVGhiTajGCL9CQs/view?usp=sharing"},
+            { titulo:"immediate future expressions ",url: "https://drive.google.com/file/d/1mOBysPhkjDIvx1ePzrM-LMnlrsGZuOzb/view?usp=sharing"},
+            { titulo:"shout at someone - shout to someone",url: "https://drive.google.com/file/d/1iisgsGHkBpj0nyGTvwxCiI8_aG3ukcsi/view?usp=sharing"},
+            { titulo:"Rather than , Instead of . As opposed to",url: "https://drive.google.com/file/d/13ZK9zCLBTKe73OQNaqvXjK-38ZvaJ8VT/view?usp=sharing"},
+            { titulo:"as far as, until, up to",url: "https://drive.google.com/file/d/16CJjTB0ZPDvQuzpOLMR22R0jK7QCe-c3/view?usp=sharing"},
+            { titulo:"it's a good job.pdf ",url: "https://drive.google.com/file/d/1vHHH_2VXuIdDf_NSp6Ie9FgvHFB94G92/view?usp=sharing"},
+          
+        ],
+    },
     {
         id: 2,
         thumbnail:"https://i.ibb.co/vcMnX0n/B2-FIRST-17.png",
-        title: "Flash Cards Anki",
+        title: "Week 02",
+        subtitle: "B2/C1",
+
+        dateAdded: "Week 01 ",
+        channel: "sdasd",
+        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+        enlaces: [
+            { titulo:"📑 Verbs 01",url: "https://drive.google.com/file/d/12Kh_QqxgHwz6dT7Vos8XAh-sZzYbc4hZ/view?usp=sharing"},
+
+            
+        ],
+    },
+    
+    {
+        id: 2,
+        thumbnail:"https://i.ibb.co/vcMnX0n/B2-FIRST-17.png",
+        title: "Recursos Descargables",
         subtitle: "B2/C1",
 
         dateAdded: "Basic 0 ",
@@ -18,22 +58,7 @@ export const roadB2 = [
         ],
     },
     
-    {
-        id: 2,
-        thumbnail:"https://i.ibb.co/vcMnX0n/B2-FIRST-17.png",
-        title: "Semana 01",
-        subtitle: "B2/C1",
-
-        dateAdded: "Week 01 ",
-        channel: "sdasd",
-        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
-        enlaces: [
-            { titulo:"📑 Verbs 01",url: "https://drive.google.com/file/d/12Kh_QqxgHwz6dT7Vos8XAh-sZzYbc4hZ/view?usp=sharing"},
-
-            
-        ],
-    },
-    
+   
     
    
     {
@@ -345,7 +370,6 @@ export const roadB2 = [
 
             { titulo:"📚WORK OUT - phrasal verb .pdf",url: "https://drive.google.com/file/d/1xW2Dsg0x1yQr5H04JIqLq7FjL3BecD97/view?usp=sharing"},
 
-            { titulo:"📚Forget vs Leave..",url: "https://drive.google.com/file/d/1prd3QB-l2_xQtJCB5F8zQnxjGfkfIs5J/view?usp=sharing"},
             { titulo:"📚[ppt] Used to/ be used to / get used to   ",url: "https://drive.google.com/file/d/1t9c1CP7VuTePAYy00qC3r85qRNoBM-7v/view?usp=sharing"},
             { titulo:"📚[Slide] Wait ,Await, Expect ",url: "https://drive.google.com/file/d/1C1llJJ8yFX0i5pxSnTMUWPIjmNvISnHB/view?usp=sharing"},
             { titulo:"📚Watch out for - Look out for.pdf",url: "https://drive.google.com/file/d/1-E-NvIWN5EmPErBDwZSZmoAQZdgC4g4O/view?usp=sharing"},
@@ -364,28 +388,12 @@ export const roadB2 = [
         description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
         enlaces: [
             { titulo:"📚feel like (doing) sth vs feel up to (doing) sth",url: "https://drive.google.com/file/d/1yVw8CbCu3FMAUYVJyKj42IoujDRxF1Iv/view?usp=sharing"},
-            { titulo:"📚continually,  continuously ,  constantly",url: "https://drive.google.com/file/d/1kENm-lqtM22jiVAej6_Io_IoYFeRDprC/view?usp=sharing"},
             { titulo:"📚Chance of-Chance to... ",url: "https://drive.google.com/file/d/18otkt_PTLMwlZGqs4rBnXRMdhz48xUaS/view?usp=sharing"},
 
           
         ],
     },
-    {
-        id: 5,
-        thumbnail:"https://i.ibb.co/h9SnjX0/B2-FIRST-35.png",
-
-        title: "Useful Structures in B2 ",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 0 ",
-        channel: "sdasd",
-        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
-        enlaces: [
-            { titulo:"📚it's a good job.pdf ",url: "https://drive.google.com/file/d/1vHHH_2VXuIdDf_NSp6Ie9FgvHFB94G92/view?usp=sharing"},
-
-          
-        ],
-    },
+   
     {
         id: 5,
         thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
@@ -405,7 +413,6 @@ export const roadB2 = [
             { titulo:"📚Amount ..Quantity ..Number  ",url: "https://drive.google.com/file/d/1CN4FalpOZBZ-SMMcatuxD_uasMzenrDA/view?usp=sharing"},
             { titulo:"📚apart from, aside from, except for  ",url: "https://drive.google.com/file/d/1EEftSd6UjyKcnVoP77VJFglfxUw_7gng/view?usp=sharing"},
             { titulo:"📚Aren't I vs Am I not ",url: "https://drive.google.com/file/d/1DKuTnhQurzBMHVo0P0GLL_EdI3y8LMvs/view?usp=sharing"},
-            { titulo:"📚as far as, until, up to",url: "https://drive.google.com/file/d/16CJjTB0ZPDvQuzpOLMR22R0jK7QCe-c3/view?usp=sharing"},
             { titulo:"📚AS...AS... vs NOT SO...AS..",url: "https://drive.google.com/file/d/1VLCJlD5Tgn9XU3oUo05emwf23WkT5XQ8/view?usp=sharing"},
             { titulo:"📚Future Plans- be going to vs present continuous",url: "https://drive.google.com/file/d/1Ov96Gz7ZEr3wDsnwDXF15q-6C8TrAPts/view?usp=sharing"},
             { titulo:"📚between you and me vs between you and I",url: "https://drive.google.com/file/d/1cpk7V_8qdxoX8VUpZYRT5zq_9GrCoWzc/view?usp=sharing"},
@@ -420,7 +427,6 @@ export const roadB2 = [
             { titulo:"📚DECISIONS, PLANS, PREDICTIONS",url: "https://drive.google.com/file/d/1LirHWCiSSatbjAv8q1ItdX32fnY2Tk8c/view?usp=sharing"},
             { titulo:"📚DESPITE vs IN SPITE OF",url: "https://drive.google.com/file/d/1Mz8VnETibHBD0ID3hanTfrNS66xHU6_h/view?usp=sharing"},
             { titulo:"📚didn't need to vs needn't have done..",url: "https://drive.google.com/file/d/134MeLLR89v9--eCmh35fZ7FnQsbra8lT/view?usp=sharing"},
-            { titulo:"📚differentiate, distinguish, discriminate",url: "https://drive.google.com/file/d/1v-uIHL_GseKjuslDEgVGhiTajGCL9CQs/view?usp=sharing"},
             { titulo:"📚Direct & Indirect speech (table) + kwt exercises",url: "https://drive.google.com/file/d/1rBQWS8z17BGn4B2mT0SGJt6J5CHEyZkw/view?usp=sharing"},
             { titulo:"📚do you mind  would you mind",url: "https://drive.google.com/file/d/1qUomEVgJdczYHV59Z_JCNTCSfQZ0Md9W/view?usp=sharing"},
             { titulo:"📚Doubt that vs Doubt if",url: "https://drive.google.com/file/d/1qEgnOfM7BoFG1lmMu_xWgNbRlwBTt9X2/view?usp=sharing"},
@@ -443,7 +449,6 @@ export const roadB2 = [
             { titulo:"📚I wish he were vs I wish he was. ",url: "https://drive.google.com/file/d/1fbiunfDO3ATtUfhVjJmYTVaiIl7wuHUM/view?usp=sharing"},
             { titulo:"📚wish you didn't - wish you wouldn't",url: "https://drive.google.com/file/d/1c_W6Rnvb2guEvvGvtz4UpXOXt-oowWLm/view?usp=sharing"},
             { titulo:"📚If I were vs If I was ",url: "https://drive.google.com/file/d/1L8gL4in7HNGsjw_fqgsCzi2FPNi3VYR8/view?usp=sharing"},
-            { titulo:"📚immediate future expressions ",url: "https://drive.google.com/file/d/1mOBysPhkjDIvx1ePzrM-LMnlrsGZuOzb/view?usp=sharing"},
             { titulo:"📚In the (short/medium /long) term / in the (short/long)run ",url: "https://drive.google.com/file/d/1OLnc9y-xWYZeoPXocHl4T0Hlow-W7-Jf/view?usp=sharing"},
             { titulo:"📚in the suburbs vs on the outskirts",url: "https://drive.google.com/file/d/1JMop9SCD1WVrMeQiXTFRD0IcsBqD-vjn/view?usp=sharing"},
             { titulo:"📚INCLUDING OR OMITTING RELATIVE PRONOUNS ",url: "https://drive.google.com/file/d/1Ewn06vQoRRM7-ObSlsWbRMMgY937yU6o/view?usp=sharing"},
@@ -477,7 +482,6 @@ export const roadB2 = [
             { titulo:"📚PREFER (structures)",url: "https://drive.google.com/file/d/1K1snnmMtNgzLZOuyZ5HQR62_5MWh4_kt/view?usp=sharing"},
             { titulo:"📚Prepare for, Prepare oneself for",url: "https://drive.google.com/file/d/1tG9gKZJ_jzgMHZZC2H5oqGvrf78UxRCU/view?usp=sharing"},
             { titulo:"📚present habits",url: "https://drive.google.com/file/d/1qoaInxhVWNQsxI354IL8Cj3ho7iHjCQ7/view?usp=sharing"},
-            { titulo:"📚Prevent, Stop, Avoid.",url: "https://drive.google.com/file/d/1FoSc6244qwfBpG9EDxzX7YkHZTuk6EN8/view?usp=sharing"},
        
        
             { titulo:"📚QUANTIFIERS",url: "https://drive.google.com/file/d/1iGVwAqosK0wGZ216J_rgHXVnuVnLBZLM/view?usp=sharing"},
@@ -492,9 +496,7 @@ export const roadB2 = [
 
             
             { titulo:"📚Raise vs Rise..",url: "https://drive.google.com/file/d/1K57hHa19p8k36dka59AM7pyFERFxnap2/view?usp=sharing"},
-            { titulo:"📚Rather than , Instead of . As opposed to",url: "https://drive.google.com/file/d/13ZK9zCLBTKe73OQNaqvXjK-38ZvaJ8VT/view?usp=sharing"},
             { titulo:"📚Saxon genitive",url: "https://drive.google.com/file/d/1vRBsRnPMX_9m_wNUkAvs2phvuR8DYHqD/view?usp=sharing"},
-            { titulo:"📚shout at someone - shout to someone",url: "https://drive.google.com/file/d/1iisgsGHkBpj0nyGTvwxCiI8_aG3ukcsi/view?usp=sharing"},
             { titulo:"📚sidetrack - distract - put someone off",url: "https://drive.google.com/file/d/1uXbNu9yt24xuTIVk0u60JO0lxdxT9Wt8/view?usp=sharing"},
             { titulo:"📚sign vs signal",url: "https://drive.google.com/file/d/1HhFh07shRGd8N9LoKQtuSj21YBq2TCMV/view?usp=sharing"},
             { titulo:"📚Words with Silent Letters",url: "https://drive.google.com/file/d/1eAPZFyNImLFcuMVSfvWhfJgUPj4f78jO/view?usp=sharing"},
