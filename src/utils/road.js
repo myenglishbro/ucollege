@@ -2,7 +2,7 @@ export const road = [
     {
         id: 0,
         thumbnail:
-            "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPOhWDPVD9wMvDy4K74KNokVyjpJp6pacaFVWIYcrR1ROZ5ZATKt4gpOY-dZEsqoDxLbSEzF5OVzFUmuFjxYETZi0Y6JjYw5Ht6FOHa49SqRRkLz2l2HjlV4teevsk60RS4UdJHl-WTjU/s800/bg_school_room_back.jpg",
+            "https://i.ibb.co/Jwz8bgPJ/B2-FIRST-30.png",
         title: "Ubica tu nivel",
         subtitle: "Centro de Clasificación ",
         color: "#D6083B", // Propiedad de color añadida
@@ -23,7 +23,256 @@ export const road = [
     },
     {
         id: 4,
-        thumbnail: "https://i.ibb.co/9wVtSxZ/B2-FIRST-18.png",
+        thumbnail: "https://i.ibb.co/Jwz8bgPJ/B2-FIRST-30.png",
+        title: " Antes del Curso",
+        subtitle: "Centro de Clasificación ",
+    
+        dateAdded: "Basic 0 ",
+        channel: " ",
+        description: "Si has llevado clases de inglés antes realiza un examen para calcular tu nivel,Envia tu examen para su corrección al correo temis_it@hotmail.com",
+        enlaces: [
+            {  titulo:"Presentación del Curso",url: "https://www.youtube.com/watch?v=_1DEJIOcJmY&t=2s"},        
+
+        ],
+    },
+            
+    {
+        id: 4,
+        thumbnail: "https://i.ibb.co/Jwz8bgPJ/B2-FIRST-30.png",
+        title: " Pronunciación Esencial I",
+        subtitle: "Centro de Clasificación ",
+    
+        dateAdded: "Basic 0 ",
+        channel: " ",
+        description: "Si has llevado clases de inglés antes realiza un examen para calcular tu nivel,Envia tu examen para su corrección al correo temis_it@hotmail.com",
+        enlaces: [
+            {  titulo:"🎬Presentacion", url: "https://youtu.be/dWDfFM88dSA"},
+          
+            {  titulo:"🎬 Mi primer truco de Pronunciación",url: "https://www.youtube.com/watch?v=gMlip7427kU&t=22s&ab_channel=MyEnglishBro"},           
+            {  titulo:"📑 Mi primer truco de Pronunciación",url: "https://drive.google.com/file/d/1VhB8Kjr3YbARZU6KhPMvlPa0pZi92hX0/view?usp=sharing"},
+            {  titulo:"🎬Diferencia de I/i", url: "https://www.youtube.com/watch?v=oMUO8eRSkXk"},
+
+            {  titulo:"📑Diferencia de I/i", url: "https://drive.google.com/file/d/1M5_cODEz8FA51UDbOQ85Su9I5zKFOSCL/view?usp=sharing"},
+            {  titulo:"📑Diferencia de /æ/, /ɑː/, y /ʌ/ ", url: "https://drive.google.com/file/d/1B1DI1uePifYoAs6EbQNYNvqz8dl4m9HU/view?usp=sharing"},
+            {  titulo:"📑Th en Inglés de /θ/ y /ð/", url: "https://drive.google.com/file/d/1pPwuSgKPW9MNpN6TqFfjRZ__hw3W2wOK/view?usp=sharing"},
+
+          
+          
+        ],
+    },
+    {
+        id: 1,
+        thumbnail: "https://i.ibb.co/Jwz8bgPJ/B2-FIRST-30.png",
+
+        title: "Fundamentos I",
+        subtitle: "Nivel Básico ",
+    
+        dateAdded: "Basic 0 ",
+        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
+        description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
+        enlaces: [
+            // {  titulo:"Welcome Unit",url: "https://drive.google.com/file/d/1qqZSEhaL0HcZRyKm5E_9j-ttnUNzxTFo/view?usp=sharing"},        
+
+            
+            {  titulo:"🎬Los Saludos",url: "https://www.youtube.com/watch?v=xipdKtlzxAg&t=435s"},           
+            {  titulo:"[🗂️Infografía]Los Saludos ", url: "https://drive.google.com/file/d/1o8x7wvOmzrozDie2dizqliw7Eb5QGsw4/view?usp=sharing"},
+
+            {  titulo:"🎬The Alphabet",url: "https://www.youtube.com/watch?v=fG9ccbmA0-o"},
+            {  titulo:"[🗂️Infografía]The Alphabet ", url: "https://drive.google.com/file/d/10pTYkkB8ni0Ng3cxwv8mYuE7pQ6BF_Y-/view?usp=sharing"},
+
+            {  titulo:"[🖥️Challenge] Spelling Names",url: "https://www.youtube.com/watch?v=NKZejheVK8w"},
+            {  titulo:"[🖥️Solution] Spelling Names",url: "https://youtu.be/s-PqZNY9NIE"},
+            {  titulo:"[🖥️Class] A/An Explicación",url: "https://youtu.be/6PHOdNLdjok"},
+            {  titulo:"[🗂️Infografía] a/an  ", url: "https://drive.google.com/file/d/1MsMemHQtawat60xSxQFrWp3daZOLKJ3l/view?usp=sharing"},
+            {  titulo:"🎬 12 Verbos Importantes en Ingles",url: "https://youtu.be/NuCWBUcvvaY"},
+            {  titulo:"[🗂️Infografía] 12 Verbos Importantes en Ingles  ", url: "https://drive.google.com/file/d/1NGzis_cW6axVXqX5h7scYNn48FvZifrv/view?usp=sharing"},
+            {  titulo:"🎬 Las Preposiciones",url: "https://youtu.be/8JEvVGC1HoQ"},
+            {  titulo:"[🗂️Infografía] Las Preposiciones  ", url: "https://drive.google.com/file/d/1T2S3iq7ziQCr5CIDOdMrAd_zEQ0SkGYH/view?usp=sharing"},
+
+            
+           
+
+        ],
+    },
+    {
+        id: 4,
+        thumbnail: "https://i.ibb.co/Jwz8bgPJ/B2-FIRST-30.png",
+        title: "Vocabulario Esencial I",
+        subtitle: "Centro de Clasificación ",
+    
+        dateAdded: "Basic 0 ",
+        channel: " ",
+        description: "Si has llevado clases de inglés antes realiza un examen para calcular tu nivel,Envia tu examen para su corrección al correo temis_it@hotmail.com",
+        enlaces: [
+        
+            {  titulo:"Las Frutas", url: "https://drive.google.com/file/d/1w2CwNRwhzm2zI7Wui33WHAiRWjPY74xl/view?usp=sharing"},
+            {  titulo:"Los Números", url: "https://drive.google.com/file/d/1v8Llb28x3bJCDzuRgfDJXPOmqbRkMKuz/view?usp=sharing"},
+            {  titulo:" Objetos de la casa ",url: "https://drive.google.com/file/d/1oJafOHW9rzR4-85EycQtGtZaDaHuIHdg/view?usp=sharing" },
+            {  titulo:" Partes del Cuerpo",url: "https://drive.google.com/file/d/16M8ghnjnDxLr-IhhuCfhHPOK7aXUz6ac/view?usp=sharing" },
+            {  titulo:" Lugares en Inglés",url: "https://drive.google.com/file/d/1zMMYEvI0nWXQZWpawErZ5J7OgnPf4rgO/view?usp=sharing" },
+            {  titulo:" Los colores",url: "https://drive.google.com/file/d/18iiQLhwnGzGnfJQxnZrsBlt8YLyA38wz/view?usp=sharing" },
+            {  titulo:" Los Animales",url: "https://drive.google.com/file/d/1hhtj5vmynyNva8Rx92O1yvR_7Wa0rPKb/view?usp=sharing" },
+
+          
+          
+          
+        ],
+    },
+    {
+        id: 1,
+        thumbnail: "https://i.ibb.co/Jwz8bgPJ/B2-FIRST-30.png",
+
+        title: "Fundamentos II",
+        subtitle: "Nivel Básico ",
+    
+        dateAdded: "Basic 0 ",
+        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
+        description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
+        enlaces: [
+            // {  titulo:"Welcome Unit",url: "https://drive.google.com/file/d/1qqZSEhaL0HcZRyKm5E_9j-ttnUNzxTFo/view?usp=sharing"},        
+
+            
+            
+            {  titulo:"[🖥️Class] A/An Explicación",url: "https://youtu.be/6PHOdNLdjok"},
+            {  titulo:"[🗂️Infografía] a/an  ", url: "https://drive.google.com/file/d/1MsMemHQtawat60xSxQFrWp3daZOLKJ3l/view?usp=sharing"},
+            {  titulo:"🎬 12 Verbos Importantes en Ingles",url: "https://youtu.be/NuCWBUcvvaY"},
+            {  titulo:"[🗂️Infografía] 12 Verbos Importantes en Ingles  ", url: "https://drive.google.com/file/d/1NGzis_cW6axVXqX5h7scYNn48FvZifrv/view?usp=sharing"},
+            {  titulo:"🎬 Las Preposiciones",url: "https://youtu.be/8JEvVGC1HoQ"},
+            {  titulo:"[🗂️Infografía] Las Preposiciones  ", url: "https://drive.google.com/file/d/1T2S3iq7ziQCr5CIDOdMrAd_zEQ0SkGYH/view?usp=sharing"},
+
+            
+           
+
+        ],
+    },
+   
+    {
+        id: 4,
+        thumbnail: "https://i.ibb.co/Jwz8bgPJ/B2-FIRST-30.png",
+        title: "Trucos de Pronunciación ",
+        subtitle: "Centro de Clasificación ",
+    
+        dateAdded: "Basic 0 ",
+        channel: " ",
+        description: "Si has llevado clases de inglés antes realiza un examen para calcular tu nivel,Envia tu examen para su corrección al correo temis_it@hotmail.com",
+        enlaces: [
+           
+            {
+                titulo: "💣PRONUNCIACIÓN en INGLÉS (Presentación)👄",
+                url: "https://www.youtube.com/watch?v=-YocPrBjydE&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: "Trucos con la T",
+                url: "https://www.youtube.com/watch?v=sh1-WReYeYY&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&index=2&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: "Dropped T",
+                url: "https://www.youtube.com/watch?v=MBPAI8TI-HA&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&index=3&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: "T Flap",
+                url: "https://www.youtube.com/watch?v=TAdE9TjixHk&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&index=4&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: " Omission ",
+                url: "https://www.youtube.com/watch?v=EbfroOu4_EU&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&index=5&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: " T flap 2 ",
+                url: "https://www.youtube.com/watch?v=8_-ABxzg3gE&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&index=6&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: " T flap 3",
+                url: "https://www.youtube.com/watch?v=w2BDLl5TVvA&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&index=7&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: " T as Sh",
+                url: "https://www.youtube.com/watch?v=VPFclhpx__s&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&index=8&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: " Consideraciones al Pronunciar",
+                url: "https://www.youtube.com/watch?v=717NdjUV9Po&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&index=9&ab_channel=MyEnglishBro",
+            },
+            {
+                titulo: " T/D between 2 consonant sounds",
+                url: "https://www.youtube.com/watch?v=vLUv888ckbk&list=PLaYNhMsVRuHgkd2T4axk-uFuJV-B9ZR2l&index=10&ab_channel=MyEnglishBro",
+            },
+          
+          
+        ],
+    },
+   
+   
+    {
+        id: 4,
+        thumbnail: "https://i.ibb.co/Jwz8bgPJ/B2-FIRST-30.png",
+        title: "Vocabulario Esencial II",
+        subtitle: "Centro de Clasificación ",
+    
+        dateAdded: "Basic 0 ",
+        channel: " ",
+        description: "Si has llevado clases de inglés antes realiza un examen para calcular tu nivel,Envia tu examen para su corrección al correo temis_it@hotmail.com",
+        enlaces: [
+        
+            {  titulo:"Las Nacionalidades", url: "https://drive.google.com/file/d/1t-NO8pU0eJr-CqjYoeakkTnZOWB7odPw/view?usp=sharing"},
+            {  titulo:"Días de la Semana", url: "https://drive.google.com/file/d/11JLBMEKHA5qK0hfzlsFI1SctOr7vSa47/view?usp=sharing"},
+            {  titulo:"Los Adjetivos", url: "https://drive.google.com/file/d/1a4bQQNWNjxPwO82z4ztO51A0Nq2GhVVv/view?usp=sharing"},
+            {  titulo:" Las estaciones ",url: "https://drive.google.com/file/d/1LGxrtVKrUYzgQfyNiaFGa2OhQG5WK2QL/view?usp=sharing" },
+            {  titulo:" Las Profesiones ",url: "https://drive.google.com/file/d/1k9ve-mH0Ja3oN3P-S2fuEy93gnHgs49k/view?usp=sharing" },
+            {  titulo:" Miembros de la familia",url: "https://drive.google.com/file/d/1cFE24uSHz39qd2F7QWD-A_Vr7I0GoD9P/view?usp=sharing" },
+
+            {  titulo:"🗂️Slide] The Numbers and The Time", url: "https://docs.google.com/presentation/d/1lLVrkj4nl8wvv3aGmqasKH3Mioo09DE7/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
+           
+            {  titulo:"[🧩 Activity]have got/has got", url: "https://wordwall.net/play/4935/754/2603"},
+
+            {  titulo:"[🧩 Activity] The Time  I", url: "https://wordwall.net/play/11993/400/13264"},
+            {
+                titulo: "📒[slides] La hora en Ingles",
+                url: "https://docs.google.com/presentation/d/1En8CAC9wcrXYWSawMEirZO7gU8tsAmBi/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
+            },
+          
+           
+            {  titulo:"📖 Ordinal Numbers ",url: "https://drive.google.com/file/d/18I58jFyIcYY_apm1YTzXvv2TVuMVHnXk/view?usp=sharing" },
+
+
+          
+          
+          
+        ],
+    },
+    {
+        id: 1,
+        thumbnail: "https://i.ibb.co/Jwz8bgPJ/B2-FIRST-30.png",
+
+        title: "Fundamentos II",
+        subtitle: "Nivel Básico ",
+    
+        dateAdded: "Basic 0 ",
+        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
+        description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
+        enlaces: [
+           
+            {  titulo:"[🧩 ] A/An Indefinite Articles ", url: "https://wordwall.net/play/25729/634/81869"},
+            {  titulo:"🎬 Practicando A/An Indefinite Articles",url: "https://www.youtube.com/watch?v=oJHez43MOCM&ab_channel=MyEnglishBro"},
+            {  titulo:"🎬 Los Plurales en Ingles",url: "https://youtu.be/acpprMF4NhY"},
+            {  titulo:"[🗂️Infografía]Plurales ", url: "https://drive.google.com/file/d/1QeZ9rmMlgkaqHO5Dyfpmp7hk5pcZ7Uwy/view?usp=sharing"},
+
+            {  titulo:"🎬 The English Structure ", url: "https://youtu.be/KHtBBCOnaKg"},
+            {  titulo:"[🗂️Slide] The English Structure", url: "https://drive.google.com/file/d/1uhrnYQzPAG_dm2uXmfjew22pXEtNa-6S/view?usp=sharing"},
+            {  titulo:"[🖥️Class] The Pronouns & Transformation", url: "https://www.youtube.com/watch?v=2Ty1I6hMq-g"},
+            {  titulo:"[🖥️Class] The English Map", url: "https://www.youtube.com/watch?v=fOPkF348Kgg"},
+           
+           
+            {  titulo:"📖Possessive", url: "https://docs.google.com/presentation/d/1UijMuEx-DdbZETXjEUUtT6IPkWF0az2w/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
+            {  titulo:"🧩Possessive Pronouns", url: "https://wordwall.net/play/52592/500/1753"},
+           
+           
+
+        ],
+    },
+    {
+        id: 4,
+        thumbnail: "https://i.ibb.co/Jwz8bgPJ/B2-FIRST-30.png",
         title: "M1- Vocabulario Base",
         subtitle: "Centro de Clasificación ",
     
@@ -61,7 +310,7 @@ export const road = [
     },
     {
         id: 1,
-        thumbnail: "https://i.ibb.co/9wVtSxZ/B2-FIRST-18.png",
+        thumbnail: "https://i.ibb.co/Jwz8bgPJ/B2-FIRST-30.png",
 
         title: "M1-Fundamentos",
         subtitle: "Nivel Básico ",
@@ -111,8 +360,7 @@ export const road = [
     },
     {
         id: 1,
-        thumbnail:
-            "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjWFBWaIq5f9wRc0ZOhE7iYo7fnItxzPcbmaXkRuCUXJczFJCOkXLr31xaLo7SoVzSUO2GkSfPDMtmcFyy84BTHA7cubztX2JjVKpN_S6G_MzHSE5HUZtbHNwwJZf9El1WeJBobZ5qq4MLG/w1200-h630-p-k-no-nu/school_gakkyu_houkai.png",
+        thumbnail: "https://i.ibb.co/Jwz8bgPJ/B2-FIRST-30.png",
         title: "Materiales Sesiones",
         subtitle: "Nivel Básico ",
     
@@ -139,8 +387,8 @@ export const road = [
     },
     {
         id: 2,
-        thumbnail:
-            "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhMOAaMy5c4-bwgq1f0OHo8Wb3uukwZRdiNzCwiAPjZSM9ezpVq2KaB-tJeapyJg_wzVfi6kobaPlwyyiMwHPbAZhDqMPSz_74gjl8IDSDDPIBhnqsQIKbPioL1vd9Wrm6MRLWAHE2PxVGc/s1600/bg_school_room2.jpg",
+        thumbnail: "https://i.ibb.co/Jwz8bgPJ/B2-FIRST-30.png",
+
         title: "Sesiones en Vivo",
         subtitle: "Nivel Básico ",
     
@@ -159,8 +407,8 @@ export const road = [
    
     {
         id: 5,
-        thumbnail:
-            "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimK5my_K0_FbDFSOhjhXCfdAD8MqNqA1DY2FG5jXEa93O-dbWO4a0KRX9YyXITJeBXcBS6Tt1WAx8jV1aWyCgC2BZ0IfsuzWjy-z4rd3fQ9iwXc65jnZn_x_aF_ikxdkkSU2Gtc6n09PuM/w1200-h630-p-k-no-nu/syukatsu_shigoto_sagashi.png",
+        thumbnail: "https://i.ibb.co/Jwz8bgPJ/B2-FIRST-30.png",
+
            
             title: "M1-Present Tense I ",
         subtitle: "Basic Level",

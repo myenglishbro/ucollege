@@ -17,10 +17,6 @@ export const validCredentials = [
       { nivel:"6",usuario: 'r23425307', password: 'rocio24', realname: 'Rocio Soncco Ancco', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
     
      
-      // { expirationDate:"05/02/25",nivel:"Solicitar examen de Nivel ",usuario: 'ivanstb', password: 'new2025', realname: 'Ivan Santisteban ', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-      // {  expirationDate:"05/02/25",nivel:"Solicitar examen de Nivel",usuario: 'Hernandez', password: '76221055', realname: 'Gustavo Hernández', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
-      // {  expirationDate:"05/02/25",nivel:"Solicitar examen de Nivel",usuario: 'naybeldy', password: 'tok2025', realname: 'Belen Garcia', img: 'https://i.ibb.co/ySRJWWC/471737707-615468074335571-438284.png' }, // No image
-      // { expirationDate:"06/02/25",nivel:"Solicitar examen de Nivel ",usuario: 'juancaipo', password: '14new2025', realname: 'Juan Jerson Caipo Celestino ', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
      //Febrero
      { expirationDate:"13/02/25",nivel:"Solicitar examen de Nivel ",usuario: 'pamelahellen30', password: 'rpamela', realname: 'Pamela Rodriguez.', img: '' }, // No image
      { expirationDate:"14/02/25",nivel:"B1+ ",usuario: 'hweny', password: 'cata08', realname: 'Weny Huaraca Magro', img: 'https://i.ibb.co/NZjv6vn/456531710-399933369790326-220531.png' }, // No image
@@ -75,5 +71,6 @@ export const validCredentials = [
        { expirationDate:"05/03/25",nivel:"solicitar examen",usuario: 'pilar', password: 'golac', realname: 'Pilar Golac Tenorio', img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
        { expirationDate:"05/03/25",nivel:"solicitar examen",usuario: 'andrea', password: 'castro', realname: 'Andrea Castro', img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
        { expirationDate:"07/03/25",nivel:"solicitar examen",usuario: 'zoila', password: 'huerta', realname: 'Zoila T. Huerta', img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
+       { expirationDate:"07/03/25",nivel:"solicitar examen",usuario: 'jorge', password: 'pita', realname: 'Jorge Pita', img:'https://i.ibb.co/938mVnNC/454152325-1718476462314898-89611.png'},
 
     ];
