@@ -11,8 +11,12 @@ export const roadB2 = [
         channel: "sdasd",
         description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
         enlaces: [
-            { titulo:"Forget vs Leave..",url: "https://drive.google.com/file/d/1prd3QB-l2_xQtJCB5F8zQnxjGfkfIs5J/view?usp=sharing"},
-            { titulo:"continually,  continuously ,  constantly",url: "https://drive.google.com/file/d/1kENm-lqtM22jiVAej6_Io_IoYFeRDprC/view?usp=sharing"},
+            { titulo:"Olvidar en Ingles",url: "https://drive.google.com/file/d/1prd3QB-l2_xQtJCB5F8zQnxjGfkfIs5J/view?usp=sharing"},
+            { titulo:"Test Forget vs Leave..",url: "https://drive.google.com/file/d/16EXaLrUSI1-6HPIwplL6mLjakFsnLRfu/view?usp=sharing"},
+            { titulo:"Continuamente en Inglés",url: "https://drive.google.com/file/d/1kENm-lqtM22jiVAej6_Io_IoYFeRDprC/view?usp=sharing"},
+            { titulo:"Test continually,  continuously ,  constantly",url: "https://drive.google.com/file/d/17UWJLib-ZYETsEc-rF0p3byGvy24R_kY/view?usp=sharing"},
+            { titulo:"Rather than , Instead of . As opposed to",url: "https://drive.google.com/file/d/13ZK9zCLBTKe73OQNaqvXjK-38ZvaJ8VT/view?usp=sharing"},
+            { titulo:"Test En lugar de ",url: "https://drive.google.com/file/d/1iqoLUXkRQqElYsf7faswD-xSfsSSuR9X/view?usp=sharing"},
             { titulo:"Prevent, Stop, Avoid.",url: "https://drive.google.com/file/d/1FoSc6244qwfBpG9EDxzX7YkHZTuk6EN8/view?usp=sharing"},
             { titulo:"differentiate, distinguish, discriminate",url: "https://drive.google.com/file/d/1v-uIHL_GseKjuslDEgVGhiTajGCL9CQs/view?usp=sharing"},
             { titulo:"immediate future expressions ",url: "https://drive.google.com/file/d/1mOBysPhkjDIvx1ePzrM-LMnlrsGZuOzb/view?usp=sharing"},
@@ -38,12 +42,8 @@ export const roadB2 = [
             { titulo:"📚Chance of-Chance to... ",url: "https://drive.google.com/file/d/18otkt_PTLMwlZGqs4rBnXRMdhz48xUaS/view?usp=sharing"},
             { titulo:"📚ASK FOR - ASK AFTER - ASK ABOUT",url: "https://drive.google.com/file/d/1gkbuIZJ6sRy1jro8NPpOZLKO4p7naizC/view?usp=sharing"},
             { titulo:"📚no good vs not good.pdf",url: "https://drive.google.com/file/d/1-5MHEN322Xi2xUYpDWYU115P2NXYQzdr/view?usp=sharing"},
-
-          
             { titulo:"📚BE UP TO _ BE UP FOR",url: "https://drive.google.com/file/d/1xzD1SJQbZJ1aAxkM0jljNOAE2tPD_FYz/view?usp=sharing"},
-
             { titulo:"📚WORK OUT - phrasal verb .pdf",url: "https://drive.google.com/file/d/1xW2Dsg0x1yQr5H04JIqLq7FjL3BecD97/view?usp=sharing"},
-
             { titulo:"📚[ppt] Used to/ be used to / get used to   ",url: "https://drive.google.com/file/d/1t9c1CP7VuTePAYy00qC3r85qRNoBM-7v/view?usp=sharing"},
             { titulo:"📚[Slide] Wait ,Await, Expect ",url: "https://drive.google.com/file/d/1C1llJJ8yFX0i5pxSnTMUWPIjmNvISnHB/view?usp=sharing"},
             { titulo:"📚Watch out for - Look out for.pdf",url: "https://drive.google.com/file/d/1-E-NvIWN5EmPErBDwZSZmoAQZdgC4g4O/view?usp=sharing"},
