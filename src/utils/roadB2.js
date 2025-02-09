@@ -11,8 +11,9 @@ export const roadB2 = [
         channel: "sdasd",
         description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
         enlaces: [
-            { titulo:"Olvidar en Ingles",url: "https://drive.google.com/file/d/1prd3QB-l2_xQtJCB5F8zQnxjGfkfIs5J/view?usp=sharing"},
-            { titulo:"Test Forget vs Leave..",url: "https://drive.google.com/file/d/16EXaLrUSI1-6HPIwplL6mLjakFsnLRfu/view?usp=sharing"},
+            { titulo:"🎬Leave vs Forget",url: "https://youtu.be/ZuTu0cKrgA4?si=SwLXrU0zQTyxjNDz"},
+            { titulo:"📑Leave vs Forget",url: "https://drive.google.com/file/d/1prd3QB-l2_xQtJCB5F8zQnxjGfkfIs5J/view?usp=sharing"},
+            { titulo:"📝Test Forget vs Leave..",url: "https://drive.google.com/file/d/16EXaLrUSI1-6HPIwplL6mLjakFsnLRfu/view?usp=sharing"},
             { titulo:"Continuamente en Inglés",url: "https://drive.google.com/file/d/1kENm-lqtM22jiVAej6_Io_IoYFeRDprC/view?usp=sharing"},
             { titulo:"Test continually,  continuously ,  constantly",url: "https://drive.google.com/file/d/17UWJLib-ZYETsEc-rF0p3byGvy24R_kY/view?usp=sharing"},
             { titulo:"Rather than , Instead of . As opposed to",url: "https://drive.google.com/file/d/13ZK9zCLBTKe73OQNaqvXjK-38ZvaJ8VT/view?usp=sharing"},
