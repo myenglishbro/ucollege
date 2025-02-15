@@ -139,6 +139,14 @@ const Hito = ({ selectedLink }) => {
       const fileId = url.split('/d/')[1]?.split('/')[0];
       return `https://drive.google.com/file/d/${fileId}/preview`;
     }
+    if (url.includes('forms.office.com')) {
+      if (url.includes('/r/')) {
+        // Convierte la URL corta en la versión embebida
+        return url.replace('/r/', '/Pages/ResponsePage.aspx?id=') + '&embed=true';
+      } 
+      // Si ya es una URL larga, solo aseguramos que tenga '&embed=true'
+      return url.includes('&embed=true') ? url : url + '&embed=true';
+    }
     return '';
   };
 
