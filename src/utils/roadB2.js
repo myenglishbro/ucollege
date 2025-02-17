@@ -10,6 +10,8 @@ export const roadB2 = [
         channel: "sdasd",
         description: "Completa los desafíos para dominar el Inglés",
         enlaces: [
+            {  titulo:"[📑5 Phrasal Verbs", url: "https://www.flippity.net/fc.php?k=e/2PACX-1vTaKWxtCnp5jo1jD77xTbihIoF3TG1eUiBh8mS14kM4o64z9-bSQGfIh_MoMmbDPdrlFV-z-b8XXZgx"},
+
             { titulo:"🎬 Introduccion ",url: "https://youtu.be/C9jsb_4RVyE"},
             { titulo:"🎬 Present Progressive Uso 01",url: "https://youtu.be/vKi-SGeme-w"},
             {  titulo:"[📑 Present Progressive en Uso", url: "https://drive.google.com/file/d/15m5KpSZhu7Q1vop2-MiqlARFmY8jLx9u/view?usp=sharing"},

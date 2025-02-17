@@ -147,6 +147,10 @@ const Hito = ({ selectedLink }) => {
       // Si ya es una URL larga, solo aseguramos que tenga '&embed=true'
       return url.includes('&embed=true') ? url : url + '&embed=true';
     }
+    if (url.includes('flippity.net')) {
+      // Aseguramos que la URL esté embebida y en minúsculas, extrayendo el parámetro 'k'
+      return `https://www.flippity.net/fc.php?k=${url.split('k=')[1]}`;
+    }
     return '';
   };
 
