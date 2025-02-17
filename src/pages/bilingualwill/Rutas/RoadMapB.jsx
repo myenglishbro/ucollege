@@ -7,7 +7,7 @@ import Sidebar from '../../../components/Sidebar';
 import Banner from '../../Banner';
 import DefaultView from '../components/DefaultView';
 
-const RoadMapJA1 = () => {
+const RoadMapB = () => {
   const [usuario, setUsuario] = useState('');
   const [nivel, setNivel] = useState('');
   const [codigo, setCodigo] = useState('');
@@ -92,14 +92,14 @@ const RoadMapJA1 = () => {
               </a>
               <div className="relative h-full">
                 <img
-                  src="https://i.ibb.co/jkjscD6M/Dise-o-sin-t-tulo-9.png"
+                  src="https://i.ibb.co/dwLzqfBX/Dise-o-sin-t-tulo-10.png"
                   alt="Desert landscape"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-purple-900/30"></div>
                 <div className="absolute bottom-12 left-12 text-white">
-                  <h2 className="text-2xl md:text-4xl font-semibold mb-1">Aprende inglés,</h2>
-                  <h2 className="text-2xl md:text-4xl font-semibold">con Juan </h2>
+                  <h2 className="text-2xl md:text-4xl font-semibold mb-1">Habla como,</h2>
+                  <h2 className="text-2xl md:text-4xl font-semibold">Todo un Nativo </h2>
                 </div>
               </div>
             </div>
@@ -187,4 +187,4 @@ const RoadMapJA1 = () => {
   );
 };
 
-export default RoadMapJA1;
+export default RoadMapB;

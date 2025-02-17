@@ -21,6 +21,8 @@ import Testimonial from "./components/Testimonial";
 import Plans from "./components/Plans";
 import Collaboration2 from "./components/Collaboration2";
 import Politicas from "./components/Politicas";
+import Horario from "../Horario";
+import ImageSlider from "./components/ImageSlider";
 const Bilingualwill = () => {
   return (
  <>
@@ -31,6 +33,7 @@ const Bilingualwill = () => {
   <Benefits></Benefits>
                     {/* <Collaboration></Collaboration> */}
                     {/* <Testimonial></Testimonial> */}
+                    {/* <ImageSlider></ImageSlider> */}
   {/* <Services></Services> */}
   {/* <Pricing></Pricing> */}
   {/* <Roadmap></Roadmap> */}

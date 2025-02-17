@@ -44,6 +44,7 @@ import MebLanding from "./pages/myenglishbro/MebLanding";
 import IPJLanding from "./pages/inglesconelprofejuan/IPJLanding";
 import RoadMapJA1 from "./pages/inglesconelprofejuan/Rutas/RoadMapA1";
 import Bilingualwill from "./pages/bilingualwill/Bilingualwill";
+import RoadMapB from "./pages/bilingualwill/Rutas/RoadMapB";
 
 function App() {
   return (
@@ -86,6 +87,7 @@ function App() {
         
         
           <Route path="/Plataforma" element={<RoadMapJA1 />}></Route>
+          <Route path="/PlataformaB" element={<RoadMapB />}></Route>
 
         
         
