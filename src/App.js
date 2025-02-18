@@ -45,6 +45,7 @@ import IPJLanding from "./pages/inglesconelprofejuan/IPJLanding";
 import RoadMapJA1 from "./pages/inglesconelprofejuan/Rutas/RoadMapA1";
 import Bilingualwill from "./pages/bilingualwill/Bilingualwill";
 import RoadMapB from "./pages/bilingualwill/Rutas/RoadMapB";
+import CambridgeExam from "./pages/CambridgeExam";
 
 function App() {
   return (
@@ -68,6 +69,7 @@ function App() {
 
           <Route path="/RoadMap" element={<RoadMap />}></Route>
           <Route path="/RoadMapB1" element={<RoadMapB1 />}></Route>
+          <Route path="/CambridgeExam" element={<CambridgeExam />}></Route>
 
           <Route path="/RoadMapB2" element={<RoadMapB2 />}></Route>
           <Route path="/RoadMapC1" element={<RoadMapC1 />}></Route>

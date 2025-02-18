@@ -11,6 +11,7 @@ export const roadB2 = [
         description: "Completa los desafíos para dominar el Inglés",
         enlaces: [
             {  titulo:"[📑5 Phrasal Verbs", url: "https://www.flippity.net/fc.php?k=e/2PACX-1vTaKWxtCnp5jo1jD77xTbihIoF3TG1eUiBh8mS14kM4o64z9-bSQGfIh_MoMmbDPdrlFV-z-b8XXZgx"},
+            {  titulo:"[📑sIMULACION", url: "https://learnibox.vercel.app/CambridgeExam"},
 
             { titulo:"🎬 Introduccion ",url: "https://youtu.be/C9jsb_4RVyE"},
             { titulo:"🎬 Present Progressive Uso 01",url: "https://youtu.be/vKi-SGeme-w"},
