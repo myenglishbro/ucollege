@@ -30,6 +30,7 @@ export const validCredentials = [
       { expirationDate:"13/03/25",nivel:"Solicitar examen de Nivel ",usuario: 'pamelahellen30', password: 'rpamela', realname: 'Pamela Rodriguez.', img: '' }, // No image
       { expirationDate:"14/03/25",nivel:"B1+ ",usuario: 'hweny', password: 'cata08', realname: 'Weny Huaraca Magro', img: 'https://i.ibb.co/NZjv6vn/456531710-399933369790326-220531.png' }, // No image
       { expirationDate:"16/03/25",nivel:"B1+ ",usuario: 'ana', password: 'grande', realname: 'Ana Grande', img: 'https://i.ibb.co/NZjv6vn/456531710-399933369790326-220531.png' }, // No image
+      { expirationDate:"17/03/25",nivel:"B2/C1 ",usuario: 'franco', password: 'leon', realname: 'Franco Leon', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png' }, // No image
 
       //abril
       { expirationDate:"06/04/25",nivel:"Avanzado",usuario: 'valeha', password: 'valehab2', realname: 'Valeria Huaynates', img: 'https://i.ibb.co/QK97rZ0/7146697477402558469c5-1080x1080.png' }, // No image
