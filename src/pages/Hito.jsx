@@ -18,56 +18,85 @@ const Hito = ({ selectedLink }) => {
   const toggleSize = () => {
     setIsExpanded(!isExpanded);
   };
-  const printNotes = () => {
-    const printWindow = window.open("", "_blank");
+    {/* Función para impresión mejorada */}
+    const printNotes = () => {
+      const printWindow = window.open("", "_blank");
   
-    // Estilos personalizados para la impresión
-    const styles = `
-      <style>
-        body {
-          font-family: 'Arial', sans-serif;
-          margin: 40px;
-          color: #333;
-        }
-        h1 {
-          font-size: 22px;
-          color: #2C3E50;
-          text-align: center;
-          text-transform: uppercase;
-          margin-bottom: 15px;
-        }
-        .notes-container {
-          display: grid;
-          grid-template-columns: 1fr 1fr; /* Dos columnas */
-          gap: 20px;
-        }
-        .notes-content {
-          font-size: 16px;
-          line-height: 1.6;
-          color: #333;
-          padding: 15px;
-          border: 1px solid #ccc;
-          border-radius: 8px;
-          background-color: #f9f9f9;
-          white-space: pre-wrap;
-          word-wrap: break-word;
-        }
-        .notes-content span {
-          background-color: #FFFF00; /* Resaltado amarillo */
-        }
-      </style>
-    `;
+      const styles = `
+        <style>
+          body {
+            font-family: 'Arial', sans-serif;
+            margin: 40px;
+            color: #333;
+          }
+          .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #2C3E50;
+            padding-bottom: 10px;
+          }
+          .logo {
+            width: 80px;
+            height: auto;
+          }
+          .date {
+            font-size: 14px;
+            color: #555;
+          }
+          h1 {
+            font-size: 22px;
+            color: #2C3E50;
+            text-align: center;
+            text-transform: uppercase;
+            margin-bottom: 15px;
+          }
+          .notes-container {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 20px;
+          }
+          .notes-content {
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #f9f9f9;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+          }
+          .footer {
+            text-align: center;
+            font-size: 12px;
+            margin-top: 30px;
+            color: #777;
+          }
+        </style>
+      `;
   
-    // Estructura del contenido impreso
-    printWindow.document.write(styles);
-    printWindow.document.write(`<h1>My Notes</h1>`);
-    printWindow.document.write(`<div class="notes-container"><div class="notes-content">${notes}</div></div>`);
-    printWindow.document.close();
+      const date = new Date().toLocaleDateString();
   
-    // Abre la ventana de impresión
-    printWindow.print();
-  };
+      printWindow.document.write(styles);
+      printWindow.document.write(`
+        <div class="header">
+          <img src="https://i.ibb.co/CpM0rk4q/logo-removebg-preview.png" class="logo" alt="Logo" />
+          <span class="date">Fecha: ${date}</span>
+        </div>
+        <h1>Mis Notas</h1>
+        <div class="notes-container">
+          <div class="notes-content">${notes}</div>
+        </div>
+        <div class="footer">Generado automáticamente por la aplicación</div>
+      `);
   
+      printWindow.document.close();
+      printWindow.print();
+    };
+
   
 
   const handleCodeSubmit = () => {
@@ -188,52 +217,47 @@ const Hito = ({ selectedLink }) => {
         <div className="fixed inset-0 bg-black z-50"></div>
       )}
 
-      {/* Marca de agua dinámica */}
-      <div className="fixed inset-0 pointer-events-none z-30">
-  <div
-    className="w-full h-full text-gray-300 opacity-30 flex items-center justify-center"
-    style={{
-      transform: 'rotate(-45deg)',
-      whiteSpace: 'nowrap',
-    }}
-  >
-    <img
-      src="https://i.ibb.co/CpM0rk4q/logo-removebg-preview.png"
-      className="opacity-30 w-full h-full object-contain"
-      alt="sda"
-      style={{
-        transform: 'rotate(45deg)',
-        opacity: 0.1, // Puedes ajustar la opacidad si lo deseas
-      }}
-    />
-  </div>
-</div>
+       {/* Marca de agua dinámica y futurista */}
+       <div className="fixed inset-0 pointer-events-none z-30">
+        <div
+          className="absolute w-full h-full flex items-center justify-center opacity-20"
+          style={{ transform: 'rotate(-30deg)' }}
+        >
+          <img
+            src="https://i.ibb.co/CpM0rk4q/logo-removebg-preview.png"
+            className="object-contain w-3/4 h-3/4 opacity-10 animate-pulse"
+            alt="Watermark"
+            style={{ filter: 'blur(3px)', mixBlendMode: 'soft-light' }}
+          />
+        </div>
+      </div>
 
 
-      {/* Alerta para el intento de inspección */}
-      {showAlert && (
-        <div className="fixed inset-0 flex items-center justify-center z-50 bg-gray-800 bg-opacity-50">
-          <div className="bg-red-500 text-white p-6 rounded-lg shadow-lg flex items-center space-x-4 animate-bounce max-w-xs w-full">
+           {/* Alerta para intento de inspección mejorada */}
+           {showAlert && (
+        <div className="fixed inset-0 flex items-center justify-center z-50 bg-gray-900 bg-opacity-60 backdrop-blur-md">
+          <div className="bg-red-600 text-white p-6 rounded-2xl shadow-2xl flex items-center space-x-4 animate-pulse max-w-sm w-full border border-red-800">
             <img
               src="https://i.ibb.co/cDR4rhr/My-english-bro-Personajek-10.png"
               alt="Alert icon"
-              className="w-10 h-10"
+              className="w-12 h-12 drop-shadow-lg"
             />
-            <div>
-              <h2 className="text-lg font-bold">¡No hagas esto! 🚫</h2>
-              <p className="text-sm">
-                Crear contenido toma tiempo y esfuerzo. Por favor, respeta nuestro trabajo.
+            <div className="flex flex-col space-y-2">
+              <h2 className="text-xl font-extrabold">⚠️ ¡No hagas esto!</h2>
+              <p className="text-sm opacity-90 leading-tight">
+                Este contenido requiere respeto. Por favor, evita inspeccionarlo.
               </p>
             </div>
             <button
               onClick={() => setShowAlert(false)}
-              className="bg-white text-red-500 font-bold rounded px-3 py-1"
+              className="bg-white text-red-600 font-bold rounded-lg px-4 py-2 shadow-md hover:bg-gray-200 transition"
             >
               Cerrar
             </button>
           </div>
         </div>
       )}
+
 
       {selectedLink ? (
         <>
@@ -285,17 +309,21 @@ const Hito = ({ selectedLink }) => {
         📝
       </button>
 
-      {/* Iframe */}
-      <iframe
-        src={getEmbedUrl(selectedLink.url)}
-        title={selectedLink.titulo}
-        width="100%"
-        height="450px"
-        frameBorder="0"
-        allow="fullscreen"
-        onLoad={() => setIsLoading(false)}
-        className={`transition-opacity duration-300 ${isLoading ? "opacity-0" : "opacity-100"} border-4 rounded-lg shadow-lg border-purple-700`}
-      ></iframe>
+      <div className="relative w-full h-[450px] rounded-xl overflow-hidden shadow-2xl border border-purple-700 bg-gray-900">
+        {isLoading && (
+          <div className="absolute inset-0 flex items-center justify-center bg-gray-900">
+            <span className="animate-spin h-10 w-10 border-4 border-t-transparent border-purple-500 rounded-full"></span>
+          </div>
+        )}
+        <iframe
+          src={getEmbedUrl(selectedLink.url)}
+          title={selectedLink.titulo}
+          className={`w-full h-full transition-opacity duration-500 ${isLoading ? "opacity-0" : "opacity-100"}`}
+          frameBorder="0"
+          allow="fullscreen"
+          onLoad={() => setIsLoading(false)}
+        ></iframe>
+      </div>
 
 {showNotepad && (
   <div
@@ -366,15 +394,7 @@ const Hito = ({ selectedLink }) => {
 
 
 </div>
-
-
-
-
-
-
-
-
-           
+    
           )}
 
           {selectedLink.url.includes('drive.google.com') && !isCodeValid && (
@@ -390,32 +410,34 @@ const Hito = ({ selectedLink }) => {
 
 
 {showModal && (
-  <div className="fixed inset-0 bg-black/50 backdrop-blur flex items-center justify-center z-20">
-    <div className="bg-white w-[250px] p-5 rounded-lg shadow-lg text-center">
-      <p className="text-sm font-semibold text-gray-700">🔒 Enter Code</p>
-      <p className="text-xs text-gray-500 mt-2">
+  <div className="fixed inset-0 bg-black/60 backdrop-blur-md flex items-center justify-center z-30">
+    <div className="bg-gray-900 w-[280px] p-6 rounded-2xl shadow-xl text-center text-white border border-gray-700">
+      <p className="text-base font-semibold flex items-center justify-center gap-2">
+        🔒 <span>Enter Code</span>
+      </p>
+      <p className="text-sm text-gray-400 mt-2">
         Please enter the access code to unlock.
       </p>
       <input
         type="text"
-        placeholder="Code"
+        placeholder="Enter your code"
         value={enteredCode}
         onChange={(e) => setEnteredCode(e.target.value)}
-        className="mt-3 px-3 py-2 rounded border border-gray-300 text-sm focus:outline-none focus:ring focus:ring-blue-200 w-full"
+        className="mt-4 px-4 py-2 rounded-lg border border-gray-600 bg-gray-800 text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-400 w-full"
       />
       <button
         onClick={() => {
           handleCodeSubmit();
-          setShowModal(false); // Cierra el modal después de enviar
+          setShowModal(false);
         }}
-        className="mt-3 bg-blue-600 hover:bg-blue-700 text-white px-3 py-2 rounded text-sm w-full"
+        className="mt-4 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm w-full font-medium shadow-md transition-all duration-200 transform hover:scale-105"
       >
         Submit
       </button>
-      {error && <p className="text-red-500 text-xs mt-2">{error}</p>}
+      {error && <p className="text-red-400 text-xs mt-2">{error}</p>}
       <button
-        onClick={() => setShowModal(false)} // Cierra el modal al cancelar
-        className="mt-3 text-gray-600 text-sm underline"
+        onClick={() => setShowModal(false)}
+        className="mt-4 text-gray-400 text-sm underline hover:text-white transition-colors"
       >
         Cancel
       </button>
@@ -425,18 +447,21 @@ const Hito = ({ selectedLink }) => {
 
 {isCodeValid && (
   <div
-    className="absolute top-4 right-4 w-[150px] h-[150px] bg-white/80 shadow-md rounded-lg flex flex-col items-center justify-center z-10 p-3 backdrop-blur"
+    className="absolute top-4 right-4 w-[160px] h-[160px] bg-white/30 shadow-xl rounded-2xl flex flex-col items-center justify-center z-20 p-4 backdrop-blur-lg border border-white/20 transition-all duration-300"
   >
-    <p className="text-xs font-semibold text-gray-700 text-center mb-1">
-      ✅ Access Granted
+    <p className="text-sm font-semibold text-gray-800 text-center mb-2 flex items-center gap-1">
+      <span className="text-green-500 text-lg">✔</span> Access Granted
     </p>
     <button
       onClick={() => {
-        window.open(selectedLink.url, '_blank');
-        setIsCodeValid(false); // Resetea estado después de abrir el PDF
+        const popup = window.open(selectedLink.url, 'PDFViewer', 'width=600,height=800');
+        if (!popup) {
+          alert('Popup blocked! Please allow popups for this site.');
+        }
+        setIsCodeValid(false);
         setEnteredCode('');
       }}
-      className="bg-green-600 hover:bg-green-700 text-white px-2 py-1 rounded text-[10px] w-full"
+      className="bg-green-600 hover:bg-green-700 text-white px-3 py-1.5 rounded-lg text-xs w-full font-medium shadow-md transition-all duration-200 transform hover:scale-105"
     >
       View PDF
     </button>

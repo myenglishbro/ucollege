@@ -1,6 +1,6 @@
 export const validCredentials = [
    
-    { expirationDate:"Cuenta de Por vida",nivel:"C2",usuario: 'xxx', password: 'xxx', realname: 'MyEnglishBro!', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
+    { expirationDate:"Cuenta de Por vida",nivel:"C2",usuario: 'no', password: 'code', realname: 'MyEnglishBro!', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
     { expirationDate:"Cuenta de Por vida",nivel:"C2",usuario: 'stephanie', password: 'mendez', realname: 'Stephanie Mendez', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
     { expirationDate:"Cuenta de Por vida",nivel:"C2",usuario: 'omarrguez22', password: 'celpip', realname: 'Omar', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
 

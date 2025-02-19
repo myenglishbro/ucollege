@@ -24,7 +24,7 @@ ruta: "https://learnibox.vercel.app/RoadMapB2",
   {
     name: "Celpip Preparation",
     description: "Este paquete de clases cuenta con 10 horas de clases en vivo",
-    imgSrc: "https://i.ibb.co/9wVtSxZ/B2-FIRST-18.png",
+    imgSrc: "https://i.ibb.co/1fm7v6yc/file-BXh-Pv5w-P5-GKrmui-Jz-M2-E8u.png",
     features: [
       "Técnicas básicas de pronunciación 🗣️",
       "Reglas gramaticales fundamentales 📚",
@@ -34,7 +34,7 @@ ruta: "https://learnibox.vercel.app/RoadMapB2",
       "Clases grabadas y lecciones en video 🎥",
       "Cuestionarios y exámenes finales 📝"
     ],
-    price: "$90",
+    price: "S/420 - $120 ",
     enlace: "https://i.ibb.co/Syb9m2M/Black-And-White-Aesthetic-Minimalist-Modern-Simple-Typography-Coconut-Cosmetics-Logo-6.png",
     ruta: "https://learnibox.vercel.app/Celpip",
 

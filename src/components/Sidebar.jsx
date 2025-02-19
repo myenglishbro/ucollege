@@ -114,46 +114,46 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar}) => 
       <div className={`sidebar ${isSidebarVisible ? 'visible' : ''} bg-gray-800 text-white w-72 h-full fixed shadow-lg`}>
     
 
-        <div className="timer-container">
-  <h2 className="timer-title">⏱ Timer</h2>
-  <div className="timer-progress">
-    <div className="progress-bar-bg">
-      <div
-        className="progress-bar-fill"
-        style={{
-          width: isTimerRunning
-            ? `${(timeLeft / (timerMinutes * 60)) * 100}%`
-            : "0%",
-        }}
-      ></div>
-    </div>
-    <span className="time-left">
-      {Math.floor(timeLeft / 60)}:{String(timeLeft % 60).padStart(2, "0")}
-    </span>
-  </div>
-  <div className="timer-input">
-    <label className="input-title" htmlFor="input-minutes">
-      Set Timer:
-    </label>
-    <input
-      id="input-minutes"
-      type="number"
-      min="1"
-      value={timerMinutes}
-      onChange={(e) => setTimerMinutes(Number(e.target.value))}
-      className="input-minutes"
-      placeholder="00"
-    />
-  </div>
-  <div className="timer-buttons">
-    <button onClick={startTimer} className="timer-button">
-      Start
-    </button>
-    <button onClick={stopTimer} className="timer-button stop">
-      Stop
-    </button>
-  </div>
-</div>
+                      <div className="timer-container">
+                <h2 className="timer-title">⏱ Timer</h2>
+                <div className="timer-progress">
+                  <div className="progress-bar-bg">
+                    <div
+                      className="progress-bar-fill"
+                      style={{
+                        width: isTimerRunning
+                          ? `${(timeLeft / (timerMinutes * 60)) * 100}%`
+                          : "0%",
+                      }}
+                    ></div>
+                  </div>
+                  <span className="time-left">
+                    {Math.floor(timeLeft / 60)}:{String(timeLeft % 60).padStart(2, "0")}
+                  </span>
+                </div>
+                <div className="timer-input">
+                  <label className="input-title" htmlFor="input-minutes">
+                    Set Timer:
+                  </label>
+                  <input
+                    id="input-minutes"
+                    type="number"
+                    min="1"
+                    value={timerMinutes}
+                    onChange={(e) => setTimerMinutes(Number(e.target.value))}
+                    className="input-minutes"
+                    placeholder="00"
+                  />
+                </div>
+                <div className="timer-buttons">
+                  <button onClick={startTimer} className="timer-button">
+                    Start
+                  </button>
+                  <button onClick={stopTimer} className="timer-button stop">
+                    Stop
+                  </button>
+                </div>
+              </div>
 
         {showModal && (
           <div className="modal-overlay">
@@ -173,19 +173,26 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar}) => 
         )}
 
       
-      {/* Search Bar */}
-<div className="search-bar">
+     {/* Search Bar Mejorada */}
+<div className="relative flex items-center bg-gray-800 rounded-full shadow-md p-2 transition-all duration-300 focus-within:ring-2 focus-within:ring-blue-500">
+  <FaSearch className="text-gray-400 ml-3" />
   <input
     type="text"
-    placeholder="Search..."
+    placeholder="Buscar..."
     value={searchTerm}
     onChange={(e) => setSearchTerm(e.target.value)}
-    className="search-input"
+    className="flex-1 bg-transparent border-none outline-none px-3 text-white placeholder-gray-500 transition-all duration-300 focus:placeholder-gray-400"
   />
-  <button className="search-icon">
-    <FaSearch className="icon" />
-  </button>
+  {searchTerm && (
+    <button
+      className="text-gray-400 hover:text-white transition-all pr-3"
+      onClick={() => setSearchTerm("")}
+    >
+      ✖
+    </button>
+  )}
 </div>
+
 
 
         {/* Progress Bar */}
