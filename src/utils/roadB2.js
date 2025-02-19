@@ -1,8 +1,8 @@
 export const roadB2 = [
     {
         id: 0,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
-        title: "IELTS 2025-BAND 6 ",
+        thumbnail:"https://i.ibb.co/C3pnhgt6/file-N3-Gw1-XXR7w-Wr-Wom-Bj-Xy-Mgg.png",
+        title: "IELTS Band 6 ",
         subtitle: "B2/C1",
         color: "#D6083B", // Propiedad de color añadida
 
@@ -25,8 +25,8 @@ export const roadB2 = [
     },
     {
         id: 0,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
-        title: "Recordings 2024",
+        thumbnail:"https://i.ibb.co/s8c60xX/file-81-Dp-Brqxt-Sarw-Dkn783t23.png",
+        title: "B2 First 2025",
         subtitle: "B2/C1",
         color: "#D6083B", // Propiedad de color añadida
 
@@ -66,10 +66,10 @@ export const roadB2 = [
     },
     {
         id: 1,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+        thumbnail:"https://i.ibb.co/Qvzg24T4/file-YU8-CLywp-Xm-Ewi69wvopi-We.png",
 
 
-        title: "Recordings 2025",
+        title: "B2 First 2024",
         subtitle: "B2/C1",
         color: "#D6083B", // Propiedad de color añadida
 
@@ -88,9 +88,9 @@ export const roadB2 = [
     },
     {
         id: 1,
-        thumbnail:"https://i.ibb.co/PGdF1Pw/Dise-o-sin-t-tulo-7.png",
+        thumbnail:"https://i.ibb.co/fdvHb0wg/file-Fg-Ck-CXPth2-Nv-VVv4mnbaiq.png",
 
-        title: "Recording IELTS 2024",
+        title: "IELTS Band 5",
         subtitle: "B2/C1",
         color: "#D6083B", // Propiedad de color añadida
 

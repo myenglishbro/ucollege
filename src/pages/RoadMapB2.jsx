@@ -77,73 +77,72 @@ const RoadMapB2 = () => {
   return (
     <>
      {!mostrarComponente && (
-        <div className="flex justify-center items-center bg-gray-900 min-h-screen p-4 mt-11">
-          <div className="w-full max-w-2xl bg-[#13131a] rounded-3xl overflow-hidden shadow-2xl flex flex-col md:flex-row">
-            {/* Left Section */}
-            <div className="w-full md:w-1/2 relative">
-              <a href="#" className="absolute top-6 left-6 text-white text-2xl font-bold z-10">
-                Meb
-              </a>
-              <a
-                href="https://myenglishbro-meb.vercel.app/"
-                className="absolute top-6 right-6 bg-white/10 backdrop-blur-sm text-white px-4 py-2 rounded-full text-sm hover:bg-white/20 transition-colors z-10"
-              >
-                Back to website →
-              </a>
-              <div className="relative h-full">
-                <img
-                  src="https://i.ibb.co/xsvgj3w/193023986-1232091603876509-8530458296279193537-n-copia.jpg"
-                  alt="Desert landscape"
-                  className="w-full h-full object-cover"
-                />
-                <div className="absolute inset-0 bg-purple-900/30"></div>
-                <div className="absolute bottom-12 left-12 text-white">
-                  <h2 className="text-2xl md:text-4xl font-semibold mb-2">Capturing Moments,</h2>
-                  <h2 className="text-2xl md:text-4xl font-semibold">Creating Memories</h2>
-                </div>
-              </div>
-            </div>
-
-            {/* Right Section (Login Form) */}
-            <div className="w-full md:w-1/2 p-6 md:p-12">
-              <div className="max-w-md mx-auto">
-                <h1 className="text-white text-2xl md:text-4xl font-semibold mb-2">Welcome, Student! 🎓</h1>
-                <p className="text-gray-400 mb-8">
-                  Enter your credentials below to access your roadmap.
-                </p>
-
-                <div className="space-y-4">
-                  <input
-                    type="text"
-                    placeholder="Username"
-                    value={usuario}
-                    onChange={handleChangeUsuario}
-                    className="w-full bg-[#1c1c24] text-white rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-purple-600"
-                  />
-                  <input
-                    type="password"
-                    placeholder="Password"
-                    value={codigo}
-                    onChange={handleChangeCodigo}
-                    onKeyPress={handleKeyPress}
-                    className="w-full bg-[#1c1c24] text-white rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-purple-600"
-                  />
-                  {errorMessage && <p className="text-red-500 text-sm">{errorMessage}</p>}
-                  <button
-                    type="button"
-                    onClick={handleMostrarComponente}
-                    className="w-full py-3 bg-purple-600 text-white rounded-lg mt-4"
-                  >
-                    Access Roadmap
-                  </button>
-                </div>
-                <p className="text-gray-400 text-sm mt-4">
-                  Forgot your credentials? <a href="https://api.whatsapp.com/send?phone=51926922032&text=Hello%20Carlos!%20%F0%9F%99%82" className="text-white hover:underline">Contact your instructor</a>.
-                </p>
-              </div>
+      <div className="flex justify-center items-center bg-gray-100 min-h-screen p-6 mt-11">
+      <div className="w-full max-w-3xl bg-white rounded-3xl overflow-hidden shadow-xl flex flex-col md:flex-row border border-gray-300">
+        
+        {/* Left Section */}
+        <div className="w-full md:w-1/2 relative">
+          <a href="#" className="absolute top-6 left-6 text-WHITE-800 text-2xl font-bold z-10">
+            USA Exams
+          </a>
+          <a
+            href="https://myenglishbro-meb.vercel.app/"
+            className="absolute top-6 right-6 bg-blue-600 text-white px-4 py-2 rounded-full text-sm hover:bg-blue-700 transition-colors z-10"
+          >
+            Back to website →
+          </a>
+          <div className="relative h-full">
+            <img
+              src="https://i.ibb.co/Q3PrrvFH/file-4y32-Yeg12as-Cdxmpv8p52t.png"
+              alt="USA Exam Setting"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-blue-700/50"></div>
+            <div className="absolute bottom-12 left-8 text-white">
+              <h2 className="text-3xl md:text-4xl font-bold mb-2">Your Path to Success</h2>
+              <h2 className="text-xl md:text-2xl font-medium">Excel in your USA Exams!</h2>
             </div>
           </div>
         </div>
+        
+        {/* Right Section (Login Form) */}
+        <div className="w-full md:w-1/2 p-8 md:p-12 bg-gray-50">
+          <div className="max-w-md mx-auto">
+            <h1 className="text-blue-600 text-3xl md:text-4xl font-bold mb-4">Welcome, Candidate! 🗽</h1>
+            <p className="text-gray-700 mb-6">Enter your credentials below to access your USA exam roadmap.</p>
+
+            <div className="space-y-4">
+              <input
+                type="text"
+                placeholder="Username"
+                value={usuario}
+                onChange={handleChangeUsuario}
+                className="w-full bg-white border border-gray-300 text-gray-800 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+              <input
+                type="password"
+                placeholder="Password"
+                value={codigo}
+                onChange={handleChangeCodigo}
+                onKeyPress={handleKeyPress}
+                className="w-full bg-white border border-gray-300 text-gray-800 rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-blue-500"
+              />
+              {errorMessage && <p className="text-red-600 text-sm">{errorMessage}</p>}
+              <button
+                type="button"
+                onClick={handleMostrarComponente}
+                className="w-full py-3 bg-blue-600 text-white rounded-lg mt-4 hover:bg-blue-700 transition-colors"
+              >
+                Access Roadmap
+              </button>
+            </div>
+            <p className="text-gray-600 text-sm mt-4">
+              Forgot your credentials? <a href="https://api.whatsapp.com/send?phone=51926922032&text=Hello%20Carlos!%20%F0%9F%99%82" className="text-blue-600 hover:underline">Contact your instructor</a>.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
       )}
 
     

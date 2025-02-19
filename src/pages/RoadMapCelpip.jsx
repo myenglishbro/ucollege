@@ -74,7 +74,7 @@ const RoadMapCelpip = () => {
   return (
     <>
       { !mostrarComponente && (
-      <div className="flex justify-center items-center bg-gray-100 min-h-screen p-6 mt-11">
+        <div className="flex justify-center items-center bg-gray-100 min-h-screen p-6 mt-11">
         <div className="w-full max-w-3xl bg-white rounded-3xl overflow-hidden shadow-xl flex flex-col md:flex-row border border-gray-300">
           
           {/* Left Section */}
@@ -105,7 +105,7 @@ const RoadMapCelpip = () => {
           {/* Right Section (Login Form) */}
           <div className="w-full md:w-1/2 p-8 md:p-12 bg-gray-50">
             <div className="max-w-md mx-auto">
-              <h1 className="text-red-600 text-3xl md:text-4xl font-bold mb-4">Welcome, Future Resident! 🍁</h1>
+              <h1 className="text-red-600 text-3xl md:text-4xl font-bold mb-4">Welcome, Candidate!🍁</h1>
               <p className="text-gray-700 mb-6">Enter your credentials below to access your CELPIP preparation roadmap.</p>
 
               <div className="space-y-4">
