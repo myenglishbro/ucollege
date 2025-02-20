@@ -180,6 +180,45 @@ export const roadB2 = [
             
         ],
     },
+    // {
+    //     id: 2,
+    //     thumbnail:"https://i.ibb.co/b53R08DX/file-BEBHv-Yhkgbs-E4pxzmsb5-Sd.png",
+    //     title: "Phrasal Verbs in use 01",
+    //     subtitle: "B2/C1",
+
+    //     dateAdded: "Week 01 ",
+    //     channel: "sdasd",
+    //     description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+    //     enlaces: [
+           
+    //     ],
+    // },
+    // {
+    //     id: 2,
+    //     thumbnail:"https://i.ibb.co/b53R08DX/file-BEBHv-Yhkgbs-E4pxzmsb5-Sd.png",
+    //     title: "Phrasal Verbs in use 02",
+    //     subtitle: "B2/C1",
+
+    //     dateAdded: "Week 01 ",
+    //     channel: "sdasd",
+    //     description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+    //     enlaces: [
+           
+    //     ],
+    // },
+    // {
+    //     id: 2,
+    //     thumbnail:"https://i.ibb.co/b53R08DX/file-BEBHv-Yhkgbs-E4pxzmsb5-Sd.png",
+    //     title: "Phrasal Verbs in use 03",
+    //     subtitle: "B2/C1",
+
+    //     dateAdded: "Week 01 ",
+    //     channel: "sdasd",
+    //     description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+    //     enlaces: [
+           
+    //     ],
+    // },
     {
         id: 5,
         thumbnail:"https://i.ibb.co/b53R08DX/file-BEBHv-Yhkgbs-E4pxzmsb5-Sd.png",
@@ -192,7 +231,7 @@ export const roadB2 = [
         description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
         enlaces: [
 
-            { titulo:"⚔️ Duelo de Recuerdos",descripcion:"Diferencias entre Leave vs Forget",url: "https://drive.google.com/file/d/1prd3QB-l2_xQtJCB5F8zQnxjGfkfIs5J/view?usp=sharing" ,url2: "https://youtu.be/ZuTu0cKrgA4?si=SwLXrU0zQTyxjNDz"},
+            { titulo:"⚔️ Duelo de Recuerdos",descripcion:"Diferencias entre Leave vs Forget",url: "https://drive.google.com/file/d/1y_j2Do4YAErfoQdNLDu5yXaxjgW0FH8O/view?usp=sharing" ,url2: "https://youtu.be/ZuTu0cKrgA4?si=SwLXrU0zQTyxjNDz"},
             { titulo:"📝Test Forget vs Leave..",url: "https://drive.google.com/file/d/16EXaLrUSI1-6HPIwplL6mLjakFsnLRfu/view?usp=sharing"},
             { titulo:"⏳ El Reloj del Tiempo Infinito ",descripcion:"Continually, Continuously, Constantly",url: "https://drive.google.com/file/d/1kENm-lqtM22jiVAej6_Io_IoYFeRDprC/view?usp=sharing",url2: "https://youtu.be/DXCOSUsATsE?si=KXNzdx8qbzOeCMkz"},
             { titulo:"📝Test continually,  continuously ,  constantly",url: "https://drive.google.com/file/d/17UWJLib-ZYETsEc-rF0p3byGvy24R_kY/view?usp=sharing"},
