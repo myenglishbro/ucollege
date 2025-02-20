@@ -564,17 +564,13 @@
 }
 
 .hito-container {
-  background-color: white;
-  padding: 20px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease-in-out;
+  background-color: transparent;
+  padding: 0;
   max-width: 70%;
-  margin: auto;
+  margin: 0;
 }
 
-.hito-container iframe {
-  border-radius: 5px;
-}
+
 
 .popup-container {
   position: fixed;

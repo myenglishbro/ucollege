@@ -206,7 +206,7 @@ const Hito = ({ selectedLink }) => {
   };
 
   return (
-    <div className="hito-container mt-6 p-4 bg-white rounded shadow-md w-full max-w-3xl mx-auto transition-all ease-in-out duration-300 relative">
+    <div className="hito-container mt-6 p-4 bg-white rounded shadow-md w-full h-[350px]max-w-3xl mx-auto transition-all ease-in-out duration-300 relative">
       {/* Overlay gris que cubre la página */}
       {overlayActive && (
         <div className="overlay fixed inset-0 bg-gray-500 opacity-50 z-40"></div>
@@ -217,20 +217,6 @@ const Hito = ({ selectedLink }) => {
         <div className="fixed inset-0 bg-black z-50"></div>
       )}
 
-       {/* Marca de agua dinámica y futurista */}
-       <div className="fixed inset-0 pointer-events-none z-30">
-        <div
-          className="absolute w-full h-full flex items-center justify-center opacity-20"
-          style={{ transform: 'rotate(-30deg)' }}
-        >
-          <img
-            src="https://i.ibb.co/CpM0rk4q/logo-removebg-preview.png"
-            className="object-contain w-3/4 h-3/4 opacity-10 animate-pulse"
-            alt="Watermark"
-            style={{ filter: 'blur(3px)', mixBlendMode: 'soft-light' }}
-          />
-        </div>
-      </div>
 
 
            {/* Alerta para intento de inspección mejorada */}
@@ -264,14 +250,8 @@ const Hito = ({ selectedLink }) => {
         {isLoading && (
         <div className="loader-container absolute top-10 left-0 w-full h-[150px] flex flex-col justify-center items-center bg-black bg-opacity-5 backdrop-blur-sm  z-50">
           <div className="flex flex-col items-center">
-            <img
-              src="https://i.ibb.co/0RsdKWdT/logo-removebg-preview.png"
-              alt="Loading animation"
-              className="w-20 h-20 animate-pulse drop-shadow-lg"
-            />
-            <p className="text-xl text-purple-400 font-semibold mt-4 animate-bounce">
-              Let me think please!  Wait a sec...
-            </p>
+            
+            
           </div>
         </div>
       )}
@@ -309,21 +289,32 @@ const Hito = ({ selectedLink }) => {
         📝
       </button>
 
-      <div className="relative w-full h-[450px] rounded-xl overflow-hidden shadow-2xl border border-purple-700 bg-gray-900">
-        {isLoading && (
-          <div className="absolute inset-0 flex items-center justify-center bg-gray-900">
-            <span className="animate-spin h-10 w-10 border-4 border-t-transparent border-purple-500 rounded-full"></span>
-          </div>
-        )}
-        <iframe
-          src={getEmbedUrl(selectedLink.url)}
-          title={selectedLink.titulo}
-          className={`w-full h-full transition-opacity duration-500 ${isLoading ? "opacity-0" : "opacity-100"}`}
-          frameBorder="0"
-          allow="fullscreen"
-          onLoad={() => setIsLoading(false)}
-        ></iframe>
-      </div>
+      <div className="relative w-full h-[450px] rounded-2xl overflow-hidden shadow-[0_0_20px_5px_rgba(138,43,226,0.6)] border-4 border-purple-700 bg-gradient-to-b from-gray-900 to-gray-800 relative">
+  {/* Carga animada */}
+  {isLoading && (
+    <div className="absolute inset-0 flex items-center justify-center bg-gray-900">
+      <span className="animate-spin h-12 w-12 mt-1 border-4 border-t-transparent border-purple-500 rounded-full"></span>
+    </div>
+  )}
+
+ 
+
+  {/* Iframe con efectos de portal */}
+  <iframe
+    src={getEmbedUrl(selectedLink.url)}
+    title={selectedLink.titulo}
+    className={`w-full h-full transition-opacity duration-500 ${isLoading ? "opacity-0" : "opacity-100"}`}
+    frameBorder="0"
+    allow="fullscreen"
+    onLoad={() => setIsLoading(false)}
+    style={{
+      borderRadius: "12px",
+      boxShadow: "0 4px 15px rgba(138,43,226,0.3)",
+      transition: "transform 0.3s ease-in-out",
+    }}
+  ></iframe>
+</div>
+
 
 {showNotepad && (
   <div

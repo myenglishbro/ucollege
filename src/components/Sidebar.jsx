@@ -230,59 +230,104 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar}) => 
             >
               {elemento.title}
             </button>
-
             {activeIndex === index && (
-              <div className="accordion-content">
-                {elemento.enlaces.map((enlace, i) => (
-                  <div
-                    key={i}
-                    className={`timeline-item ${viewedItems.includes(enlace.titulo) ? 'viewed' : ''}`}
-                    style={{
-                      padding: '10px',
-                      margin: '5px 0',
-                      background: '#334155',
-                      borderRadius: '8px',
-                      color: 'white',
-                      display: 'flex',
-                      justifyContent: 'space-between',
-                      alignItems: 'center',
-                    }}
-                  >
-                    <label style={{ display: 'flex', alignItems: 'center' }}>
-                      <input
-                        type="checkbox"
-                        checked={viewedItems.includes(enlace.titulo)}
-                        onChange={() => handleCheckboxChange(enlace.titulo)}
-                        style={{ marginRight: '10px' }}
-                      />
-                      {`${i + 1}. ${enlace.titulo}`}
-                    </label>
-                    <button
-                      onClick={() => handleLinkClick(enlace)}
-                      style={{
-                        background: viewedItems.includes(enlace.titulo) ? '#22C55E' : '#3B82F6',
-                        color: '#fff',
-                        borderRadius: '5px',
-                        padding: '5px 15px',
-                        border: 'none',
-                      }}
-                    >
-                      {viewedItems.includes(enlace.titulo) ? 'Done' : 'View'}
-                    </button>
-                  </div>
-                ))}
-              </div>
-            )}
-          </div>
-        ))}
-      </div>
+  <div className="accordion-content">
+    {elemento.enlaces.map((enlace, i) => (
+      <div
+        key={i}
+        className={`timeline-item ${viewedItems?.includes(enlace.titulo) ? 'viewed' : ''}`}
+        style={{
+          padding: '10px',
+          margin: '5px 0',
+          background: '#334155',
+          borderRadius: '8px',
+          color: 'white',
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'space-between',
+          alignItems: 'flex-start',
+        }}
+      >
+        {/* Título con Checkbox */}
+        <label style={{ display: 'flex', alignItems: 'center', width: '100%' }}>
+          <input
+            type="checkbox"
+            checked={viewedItems?.includes(enlace.titulo)}
+            onChange={() => handleCheckboxChange(enlace.titulo)}
+            style={{ marginRight: '10px' }}
+          />
+          <span style={{ fontWeight: 'bold' }}>{`${i + 1}. ${enlace.titulo}`}</span>
+        </label>
 
-      {selectedLink && (
-        <div className="popup-container">
-          <Hito selectedLink={selectedLink} />
-          <button onClick={() => setSelectedLink(null)} className="close-popup">✖</button>
+        {/* Descripción */}
+        <p style={{ fontSize: '14px', color: '#CBD5E1', marginLeft: '30px', fontStyle: 'italic' }}>{enlace.descripcion}</p>
+
+        <div style={{ display: 'flex', gap: '8px', marginTop: '8px' }}>
+  {/* Botón para URL principal */}
+  <button
+    onClick={() => handleLinkClick(enlace)}
+    style={{
+      background: viewedItems?.includes(enlace.titulo) ? 'linear-gradient(135deg, #1E90FF, #0073E6)' : 'linear-gradient(135deg, #004AAD, #001F3F)',
+      color: '#fff',
+      borderRadius: '6px',
+      padding: '6px 14px',
+      border: 'none',
+      fontWeight: 'bold',
+      fontSize: '14px',
+      transition: 'all 0.2s ease-in-out',
+      cursor: 'pointer',
+      display: 'flex',
+      alignItems: 'center',
+      gap: '6px'
+    }}
+    onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.03)'}
+    onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
+  >
+    {viewedItems?.includes(enlace.titulo) ? '✅ Done' : '▶ View'}
+  </button>
+
+
+        {/* Botón para URL secundaria (si existe) */}
+  {enlace.url2 && (
+    <button
+      onClick={() => handleLinkClick({ ...enlace, url: enlace.url2 })}
+      style={{
+        background: 'linear-gradient(135deg, #FF8C00, #FF4500)',
+        color: '#fff',
+        borderRadius: '6px',
+        padding: '6px 14px',
+        border: 'none',
+        fontWeight: 'bold',
+        fontSize: '14px',
+        transition: 'all 0.2s ease-in-out',
+        cursor: 'pointer',
+        display: 'flex',
+        alignItems: 'center',
+        gap: '6px'
+      }}
+      onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.03)'}
+      onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
+    >
+      🎬 Watch
+            </button>
+          )}
         </div>
-      )}
+      </div>
+    ))}
+  </div>
+)}
+
+</div>
+))}
+</div>
+
+{selectedLink && (
+  <div className="popup-container">
+    <Hito selectedLink={selectedLink} />
+    <button onClick={() => setSelectedLink(null)} className="close-popup">✖</button>
+  </div>
+)}
+
     </>
   );
 };
