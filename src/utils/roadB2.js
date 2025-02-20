@@ -180,19 +180,26 @@ export const roadB2 = [
             
         ],
     },
-    // {
-    //     id: 2,
-    //     thumbnail:"https://i.ibb.co/b53R08DX/file-BEBHv-Yhkgbs-E4pxzmsb5-Sd.png",
-    //     title: "Phrasal Verbs in use 01",
-    //     subtitle: "B2/C1",
+    {
+        id: 2,
+        thumbnail:"https://i.ibb.co/b53R08DX/file-BEBHv-Yhkgbs-E4pxzmsb5-Sd.png",
+        title: "Phrasal Verbs in use 01",
+        subtitle: "B2/C1",
 
-    //     dateAdded: "Week 01 ",
-    //     channel: "sdasd",
-    //     description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
-    //     enlaces: [
-           
-    //     ],
-    // },
+        dateAdded: "Week 01 ",
+        channel: "sdasd",
+        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+        enlaces: [
+            { titulo:"⚔️ Be on about ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/1i5m5Xo0rahB9re9xsLNJdclpA8FA03jy/view?usp=sharing" },
+            { titulo:"⚔️ Quiz Be on about ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/1JDpCXxAU9ozjBMEA2ouhBQGAJgpliOOc/view?usp=sharing" },
+
+            { titulo:"⚔️ zero in on  ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/18JztqKh0PP18_LPzUKZDJYnRQqip7x3a/view?usp=sharing" },
+            { titulo:"⚔️Quiz zero in on  ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/19y7aXWFScceuArjQNuN7FjpaLPfALo3w/view?usp=sharing" },
+
+            { titulo:"⚔️ Shy Away From sth   ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/1LKd3X2Qr8MJ-52QtwBi9f6NR-AWD9anl/view?usp=sharing" },
+            { titulo:"⚔️Quiz  Shy Away From sth   ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/188wbcEig0wGPF2gscPLlQhF_xayYwKHF/view?usp=sharing" },
+        ],
+    },
     // {
     //     id: 2,
     //     thumbnail:"https://i.ibb.co/b53R08DX/file-BEBHv-Yhkgbs-E4pxzmsb5-Sd.png",
