@@ -283,14 +283,22 @@ const Hito = ({ selectedLink }) => {
             <div className="relative flex bg-[#1c1c24] p-4 rounded-2xl shadow-lg">
       {/* Botón para abrir el notepad */}
       <button
-        onClick={() => setShowNotepad(!showNotepad)}
-        className="absolute left-[-60px] top-10 bg-purple-600 text-white px-3 py-2 rounded-lg shadow-lg hover:bg-purple-700 transition"
-      >
-        📝
-      </button>
+  onClick={() => setShowNotepad(!showNotepad)}
+  className="absolute left-[-60px] top-10 bg-gradient-to-r from-[#0d0d15] to-[#1a1a28] text-white px-4 py-3 rounded-lg shadow-[0_4px_15px_rgba(0, 74, 173, 0.4), 0_4px_25px_rgba(0, 31, 63, 0.6)] hover:bg-gradient-to-r hover:from-[#1E90FF] hover:to-[#0073E6] transition-all duration-300 ease-in-out"
+>
+  📝
+</button>
 
-      <div className="relative w-full h-[450px] rounded-2xl overflow-hidden shadow-[0_0_20px_5px_rgba(138,43,226,0.6)] border-4 border-purple-700 bg-gradient-to-b from-gray-900 to-gray-800 relative">
-  {/* Carga animada */}
+
+<div
+  className="relative w-full h-[450px] rounded-3xl overflow-hidden"
+  style={{
+    backgroundImage: 'linear-gradient(135deg, rgb(0, 74, 173), rgb(0, 31, 63))',
+    color: 'rgb(255, 255, 255)', // Color blanco para el texto
+    boxShadow: '0 4px 20px rgba(0, 74, 173, 0.4), 0 0 40px rgba(0, 31, 63, 0.6)', // Sombra moderna más difusa
+    transition: 'all 0.3s ease-in-out', // Transición suave para cambios
+  }}
+>  {/* Carga animada */}
   {isLoading && (
     <div className="absolute inset-0 flex items-center justify-center bg-gray-900">
       <span className="animate-spin h-12 w-12 mt-1 border-4 border-t-transparent border-purple-500 rounded-full"></span>
@@ -309,7 +317,6 @@ const Hito = ({ selectedLink }) => {
     onLoad={() => setIsLoading(false)}
     style={{
       borderRadius: "12px",
-      boxShadow: "0 4px 15px rgba(138,43,226,0.3)",
       transition: "transform 0.3s ease-in-out",
     }}
   ></iframe>
@@ -318,9 +325,7 @@ const Hito = ({ selectedLink }) => {
 
 {showNotepad && (
   <div
-  className={`fixed top-0 ${
-    isExpanded ? "left-[50px] top-20  w-[1050px] h-[480px]" : "left-[50px] top-20 w-[300px]  h-[450px]"
-  } bg-[#13131a] border border-purple-600 rounded-lg shadow-xl p-3 flex flex-col text-white transition-all duration-300`}
+  className={`fixed top-0 ${isExpanded ? "left-[50px] top-20 w-[1050px] h-[480px]" : "left-[50px] top-20 w-[300px] h-[450px]"} bg-gradient-to-r from-[#0d0d15] to-[#1a1a28] border border-transparent rounded-lg shadow-[0_4px_15px_rgba(0, 74, 173, 0.6), 0_4px_30px_rgba(0, 31, 63, 0.4)] p-4 flex flex-col text-white transition-all duration-300`}
   style={{ zIndex: 9999 }}
 >
 

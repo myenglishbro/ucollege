@@ -184,14 +184,13 @@ export const roadB2 = [
         id: 5,
         thumbnail:"https://i.ibb.co/b53R08DX/file-BEBHv-Yhkgbs-E4pxzmsb5-Sd.png",
 
-        title: "The Grammar Realm  ",
+        title: "Real Grammar in Use 01 ",
         subtitle: "B2/C1",
 
         dateAdded: "Basic 0 ",
         channel: "sdasd",
         description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
         enlaces: [
-            { titulo:"Descripción",url: "https://drive.google.com/file/d/1nJF91wQa_F1Ab0thtR-2wHG0cWPUAz2i/view?usp=sharing"},
 
             { titulo:"⚔️ Duelo de Recuerdos",descripcion:"Diferencias entre Leave vs Forget",url: "https://drive.google.com/file/d/1prd3QB-l2_xQtJCB5F8zQnxjGfkfIs5J/view?usp=sharing" ,url2: "https://youtu.be/ZuTu0cKrgA4?si=SwLXrU0zQTyxjNDz"},
             { titulo:"📝Test Forget vs Leave..",url: "https://drive.google.com/file/d/16EXaLrUSI1-6HPIwplL6mLjakFsnLRfu/view?usp=sharing"},
@@ -214,8 +213,8 @@ export const roadB2 = [
     },
     {
         id: 2,
-        thumbnail:"https://i.ibb.co/vcMnX0n/B2-FIRST-17.png",
-        title: "Week 02",
+        thumbnail:"https://i.ibb.co/b53R08DX/file-BEBHv-Yhkgbs-E4pxzmsb5-Sd.png",
+        title: "Real Grammar in use 02",
         subtitle: "B2/C1",
 
         dateAdded: "Week 01 ",
@@ -238,9 +237,9 @@ export const roadB2 = [
     },
     {
         id: 5,
-        thumbnail:"https://i.ibb.co/vcMnX0n/B2-FIRST-17.png",
+        thumbnail:"https://i.ibb.co/b53R08DX/file-BEBHv-Yhkgbs-E4pxzmsb5-Sd.png",
 
-        title: "Week 03 ",
+        title: "Real Grammar in Use 03 ",
         subtitle: "B2/C1",
 
         dateAdded: "Basic 0 ",
@@ -272,7 +271,67 @@ export const roadB2 = [
         ],
     },
     
-   
+    {
+        id: 15,
+        thumbnail:"https://i.ibb.co/5WQ17W7D/file-Fg6-EG7bvr-Nig-Ee3-S7m-XCfd.png",
+
+        title: "Writing",
+        subtitle: "B2/C1",
+
+        dateAdded: "B2",
+        channel: "sdasd",
+        description: "Aprende técnicas literarias avanzadas para enriquecer tu escritura y expresión creativa en inglés",
+        enlaces: [
+            {
+                titulo: "📃 Article  B2 Model",
+                url: "https://drive.google.com/file/d/1U8-YHSgp_xeZDvbmty19W-fevEden95O/view?usp=sharing",
+            },
+            {
+                titulo: "📃 Report  B2 Model",
+                url: "https://drive.google.com/file/d/1_z4lgav_LheAS_ep8UEw4qcoz1SnI-XT/view?usp=sharing",
+            },
+            {
+                titulo: "📃 Email  B2 Model",
+                url: "https://drive.google.com/file/d/14Sb5Q_2-XOevWNgGqLaWyBDHGF3iX-DG/view?usp=sharing",
+            },
+            {
+                titulo: "📃[pdf] Essay  B2 Model",
+                url: "https://drive.google.com/file/d/1shuKn4-Sgu3VW2SqO1Gbv4a3BNUjFWB0/view?usp=sharing",
+            }, {
+                titulo: "📃[pdf] Essay  B2 Model 2",
+                url: "https://drive.google.com/file/d/1A3zKsg5My6XQlKxWRNiCoM_Jh5Wwepvp/view?usp=sharing",
+            }
+            ,
+            {
+                titulo: "📃[pdf] C1 Template Essay 2025",
+                url: "https://drive.google.com/file/d/1ELdPTtS6V33-pBtJr2uRSizlrfuCH4nB/view?usp=sharing",
+            },
+            {
+                titulo: "📃[pdf]Useful Language",
+                url: "https://drive.google.com/file/d/1gMBSe_vvMgQq-IkIQtpDydmpuKq_YiMa/view?usp=sharing",
+            },
+            {
+                titulo: "📃[pdf] Amazing Template Essay 2025",
+                url: "https://drive.google.com/file/d/1GTnhTS-RWFKpJ2Q9DRhBOxb-IqgjIjmZ/view?usp=sharing",
+            }
+            ,
+            {
+                titulo: "📃[pdf] Writing Templates",
+                url: "https://docs.google.com/document/d/1ynAsrV2Uj-uR0qrCDzGvDw8I2sXYlzEg/edit?rtpof=true&sd=true",
+            },
+            {
+                titulo: "📃[pdf] How to write an Essay",
+                url: "https://docs.google.com/presentation/d/1ulmNP0wMeqUi-ZlMpg6ngsCi_jjX9nBn/edit?usp=sharing&ouid=114588820780661373500&rtpof=true&sd=true",
+            },{
+                titulo: "📃[ppt] Advanced Transitions",
+                url: "https://docs.google.com/presentation/d/1fGnuhWtExMKny18ZqasLeugnXi9cb9pU/edit?usp=sharing&ouid=114588820780661373500&rtpof=true&sd=true",
+            },{
+                titulo: "📃[Inf] Writing Mistakes everyone makes",
+                url: "https://drive.google.com/file/d/17vYjDTq69ecevpRtiD1mSOevKqFLrOSM/view?usp=sharing",
+            },
+            
+        ],
+    },
     
    
     {
@@ -930,55 +989,7 @@ export const roadB2 = [
     
    
     
-    {
-        id: 15,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
-
-        title: "Writing like Shakespeare",
-        subtitle: "B2/C1",
-
-        dateAdded: "B2",
-        channel: "sdasd",
-        description: "Aprende técnicas literarias avanzadas para enriquecer tu escritura y expresión creativa en inglés",
-        enlaces: [
-            {
-                titulo: "📃[pdf] Essay  B2 Model",
-                url: "https://drive.google.com/file/d/1shuKn4-Sgu3VW2SqO1Gbv4a3BNUjFWB0/view?usp=sharing",
-            }, {
-                titulo: "📃[pdf] Essay  B2 Model 2",
-                url: "https://drive.google.com/file/d/1A3zKsg5My6XQlKxWRNiCoM_Jh5Wwepvp/view?usp=sharing",
-            }
-            ,
-            {
-                titulo: "📃[pdf] C1 Template Essay 2025",
-                url: "https://drive.google.com/file/d/1ELdPTtS6V33-pBtJr2uRSizlrfuCH4nB/view?usp=sharing",
-            },
-            {
-                titulo: "📃[pdf]Useful Language",
-                url: "https://drive.google.com/file/d/1gMBSe_vvMgQq-IkIQtpDydmpuKq_YiMa/view?usp=sharing",
-            },
-            {
-                titulo: "📃[pdf] Amazing Template Essay 2025",
-                url: "https://drive.google.com/file/d/1GTnhTS-RWFKpJ2Q9DRhBOxb-IqgjIjmZ/view?usp=sharing",
-            }
-            ,
-            {
-                titulo: "📃[pdf] Writing Templates",
-                url: "https://docs.google.com/document/d/1ynAsrV2Uj-uR0qrCDzGvDw8I2sXYlzEg/edit?rtpof=true&sd=true",
-            },
-            {
-                titulo: "📃[pdf] How to write an Essay",
-                url: "https://docs.google.com/presentation/d/1ulmNP0wMeqUi-ZlMpg6ngsCi_jjX9nBn/edit?usp=sharing&ouid=114588820780661373500&rtpof=true&sd=true",
-            },{
-                titulo: "📃[ppt] Advanced Transitions",
-                url: "https://docs.google.com/presentation/d/1fGnuhWtExMKny18ZqasLeugnXi9cb9pU/edit?usp=sharing&ouid=114588820780661373500&rtpof=true&sd=true",
-            },{
-                titulo: "📃[Inf] Writing Mistakes everyone makes",
-                url: "https://drive.google.com/file/d/17vYjDTq69ecevpRtiD1mSOevKqFLrOSM/view?usp=sharing",
-            },
-            
-        ],
-    },
+   
     {
         id: 16,
         thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",

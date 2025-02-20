@@ -565,7 +565,7 @@
 
 .hito-container {
   background-color: transparent;
-  padding: 0;
+  padding:10;
   max-width: 70%;
   margin: 0;
 }
