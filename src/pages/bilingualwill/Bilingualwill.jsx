@@ -33,7 +33,7 @@ const Bilingualwill = () => {
   <Benefits></Benefits>
                     {/* <Collaboration></Collaboration> */}
                     {/* <Testimonial></Testimonial> */}
-                    {/* <ImageSlider></ImageSlider> */}
+                    <ImageSlider></ImageSlider>
   {/* <Services></Services> */}
   {/* <Pricing></Pricing> */}
   {/* <Roadmap></Roadmap> */}
