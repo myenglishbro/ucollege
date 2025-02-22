@@ -36,7 +36,7 @@ const Hero = () => {
           </h1>
           <p className="body-1 max-w-3xl mx-auto mb-6 text-n-2 lg:mb-8">
           ✨ Improve your pronunciation and become fluent in English ✨          </p>
-          <Button href="https://learnibox.vercel.app/plataforma" white>
+          <Button href="https://learnibox.vercel.app/PlataformaB" white>
            Platforma Educativa
           </Button>
         </div>

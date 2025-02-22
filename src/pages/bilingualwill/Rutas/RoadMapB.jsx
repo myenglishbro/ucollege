@@ -138,7 +138,7 @@ const RoadMapB = () => {
                   </button>
                 </div>
                 <p className="text-gray-400 text-sm mt-4">
-                  Forgot your credentials? <a href="https://api.whatsapp.com/send?phone=51926922032&text=Hello%20Carlos!%20%F0%9F%99%82" className="text-white hover:underline">Contact your instructor</a>.
+                  Forgot your credentials? <a href="https://wa.link/v7v6ga" className="text-white hover:underline">Contact your instructor</a>.
                 </p>
               </div>
             </div>

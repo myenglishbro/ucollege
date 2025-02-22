@@ -27,13 +27,15 @@ const Bilingualwill = () => {
   return (
  <>
  <Hero></Hero>
+
 <Plans></Plans>
+<ImageSlider></ImageSlider>
+
 <Collaboration2></Collaboration2>
 <Politicas></Politicas>
   <Benefits></Benefits>
                     {/* <Collaboration></Collaboration> */}
                     {/* <Testimonial></Testimonial> */}
-                    <ImageSlider></ImageSlider>
   {/* <Services></Services> */}
   {/* <Pricing></Pricing> */}
   {/* <Roadmap></Roadmap> */}

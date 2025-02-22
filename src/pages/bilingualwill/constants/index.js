@@ -269,7 +269,7 @@ export const benefits = [
   },
   {
     id: "3",
-    title: "🏆 +3 años de experiencia enseñando inglés",
+    title: "🏆 +10 años de experiencia enseñando inglés",
     text: "Hemos ayudado a cientos de hispanohablantes a mejorar su inglés con estrategias efectivas.",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl: benefitIcon4,
