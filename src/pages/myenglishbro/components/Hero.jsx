@@ -163,12 +163,12 @@ const Hero = () => {
         </svg>
         <div className="md:w-[520px] z-20">
           <h1 className="text-3xl md:text-[36px] lg:text-[46px] leading-[56px] text-white font-bold">
-          <span className="text-[#C0B7E8]">Unlock Your Potential</span> with
-          <span className="text-[#C0B7E8]"> Personalized English Classes</span>
+          <span className="text-[#C0B7E8]">Deja de </span> luchar con el inglés,  
+          <span className="text-[#C0B7E8]">  empieza a hablar </span> con confianza.
           </h1>
           <p className="text-base text-white mt-4 md:mt-9 mb-10 md:mb-16">
-            Elevate your English skills like never before with our tailored, one-on-one sessions. Whether you're a beginner or aiming for fluency, MyEnglish Bro is here to take you to the next level.
-          </p>
+    Mejora tu Inglés sin estrés! 🚀 Con nuestras clases 1:1, hablarás fluido sin miedo. Desde beginner hasta fluency, <b>MyEnglish Bro</b> te lleva al next level. 💬✨
+</p>
           <div className="flex gap-6 sm:gap-10">
             <button className="uppercase font-bold text-xs rounded-[40px] py-2 lg:py-4 px-4 lg:px-9 text-[#302c42] bg-gradient-to-r from-[#8176AF] to-[#C0B7E8]">
             START YOUR JOURNEY NOW

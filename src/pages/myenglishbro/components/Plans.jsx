@@ -4,95 +4,82 @@ import { useState } from "react";
 
 const plans = [
   {
-    name: "Paquete de Clases Premium",
+    name: "Paquete Premium",
     description: "Este paquete de clases cuenta con 10 horas de clases en vivo",
-    imgSrc: "https://i.ibb.co/Syb9m2M/Black-And-White-Aesthetic-Minimalist-Modern-Simple-Typography-Coconut-Cosmetics-Logo-6.png",
+    imgSrc: "https://i.ibb.co/Fkg95gHK/617a8fe4-c97d-4802-9789-23b7e7b0e058.webp",
+    imgGif:"https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZuazNnd2N5ODNrbHJmNmd6MXZ0eGt3cjJ5bjN5M2lxaTc4eGl2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r3WLuO5QRLyAV9MWEM/giphy.gif",
+
     features: [
-      "Tu clase se graba y se envia por correo a cada correo   ",
-      "Puedes hacer preguntas al profe por wsp directamente  ",
-      "Acceso al Roadmap con Material Exclusivo",
-      "Google Meet Premium",
-      "Material de Estudio de cada clase",
-      "Clases Personalizadas (decideden que quieren aprender)",
-      "Hora peruana (GMT-5), previa entrevista",
+     "✅Tu clase se graba y se envia por correo a cada correo   ",
+      "✅ Google Meet Premium",
+      "✅ Clases Personalizadas + Material de Clase",
+      "✅Puedes hacer preguntas al profe por wsp directamente  ",
+      "✅ Incluye preparacion para Exámenes Internacionales",
+      "✅ 03 Reprogramaciones",
+      "✅ Acceso al Roadmap con Material Exclusivo (A1 to C1 90 días)",
+      "✅ Código de Descarga Roadmap",
+      "✅ Talleres los fines de semana Sábados y Domingo",
+
+
     ],
-    price: " 110 USD - 350 PEN ",
+    price: "S/.590 Nuevos Soles",
 enlace:"https://docs.google.com/spreadsheets/d/1jpKL_kwxAWuqo9v6aVBSiKpiAij6i3E3ysPSxlajgRY/preview",
 ruta: "https://learnibox.vercel.app/RoadMapB2",
 
   },
   {
-    name: "Celpip Preparation",
+    name: "Paquete Standard",
     description: "Este paquete de clases cuenta con 10 horas de clases en vivo",
-    imgSrc: "https://i.ibb.co/1fm7v6yc/file-BXh-Pv5w-P5-GKrmui-Jz-M2-E8u.png",
-    features: [
-      "Técnicas básicas de pronunciación 🗣️",
-      "Reglas gramaticales fundamentales 📚",
-      "Vocabulario esencial 📝",
-      "Ejercicios interactivos 🎮",
-      "Tarjetas didácticas para aprendizaje rápido 📖",
-      "Clases grabadas y lecciones en video 🎥",
-      "Cuestionarios y exámenes finales 📝"
-    ],
-    price: "S/420 - $120 ",
-    enlace: "https://i.ibb.co/Syb9m2M/Black-And-White-Aesthetic-Minimalist-Modern-Simple-Typography-Coconut-Cosmetics-Logo-6.png",
-    ruta: "https://learnibox.vercel.app/Celpip",
+    imgSrc: "https://i.ibb.co/1tfLQVz1/DALL-E-2025-02-23-12-02-01-A-student-engaged-in-a-one-on-one-online-English-class-with-a-teacher-The.webp",
+    imgGif:"https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZuazNnd2N5ODNrbHJmNmd6MXZ0eGt3cjJ5bjN5M2lxaTc4eGl2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r3WLuO5QRLyAV9MWEM/giphy.gif",
 
-  },{
-    name: "B2 Cambridge Preparation",
-    description: "Domina lo esencial para comunicarte con confianza en situaciones cotidianas simples. ¡Empieza tu camino hacia la fluidez aquí! 🚀",
-    imgSrc: "https://i.ibb.co/P1Cg8JT/Black-And-White-Aesthetic-Minimalist-Modern-Simple-Typography-Coconut-Cosmetics-Logo-3.png",
     features: [
-      "Técnicas básicas de pronunciación 🗣️",
-      "Reglas gramaticales fundamentales 📚",
-      "Vocabulario esencial 📝",
-      "Ejercicios interactivos 🎮",
-      "Tarjetas didácticas para aprendizaje rápido 📖",
-      "Clases grabadas y lecciones en video 🎥",
-      "Cuestionarios y exámenes finales 📝"
+      "✅Tu clase se graba y se envia por correo a cada correo   ",
+      "✅ Google Meet Premium",
+      "✅ Clases Personalizadas + Material de Clase",
+      "✅Puedes hacer preguntas al profe por wsp directamente  ",
+      "✅ Incluye preparacion para Exámenes Internacionales",
+      "✅ 01 Reprogramaciones",
+      "✅ Acceso al Roadmap con Material Exclusivo(30 días)",
+      "❌ Código de Descarga Roadmap",
+      "✅ Talleres los fines de semana Sábados y Domingo",
+
     ],
-    price: "$90",
-    ruta: "https://learnibox.vercel.app/RoadMapB2",
+    price: " S/.390 Nuevos Soles ",
+enlace:"https://docs.google.com/spreadsheets/d/1jpKL_kwxAWuqo9v6aVBSiKpiAij6i3E3ysPSxlajgRY/preview",
+ruta: "https://learnibox.vercel.app/RoadMapB2",
 
   },
   {
-    name: "C1 Cambridge Preparation",
-    description: "Domina lo esencial para comunicarte con confianza en situaciones cotidianas simples. ¡Empieza tu camino hacia la fluidez aquí! 🚀",
-    imgSrc: "https://i.ibb.co/YkB6KMc/Black-And-White-Aesthetic-Minimalist-Modern-Simple-Typography-Coconut-Cosmetics-Logo-4.png",
-    features: [
-      "Técnicas básicas de pronunciación 🗣️",
-      "Reglas gramaticales fundamentales 📚",
-      "Vocabulario esencial 📝",
-      "Ejercicios interactivos 🎮",
-      "Tarjetas didácticas para aprendizaje rápido 📖",
-      "Clases grabadas y lecciones en video 🎥",
-      "Cuestionarios y exámenes finales 📝"
-    ],
-    price: "$90",
-    ruta: "https://learnibox.vercel.app/RoadMapC1",
-
-  },
-  {
-    name: "Paquete de Clases Basic",
+    name: "Paquete Básico",
     description: "Este paquete de clases cuenta con 10 horas de clases en vivo",
-    imgSrc: "https://i.ibb.co/bFQXFcC/Black-And-White-Aesthetic-Minimalist-Modern-Simple-Typography-Coconut-Cosmetics-Logo-7.png",
+    imgSrc: "https://i.ibb.co/Z6jWLK5g/DALL-E-2025-02-23-12-03-38-A-student-receiving-a-one-on-one-online-English-class-in-a-minimalistic-a.webp",
+       imgGif:"https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZuazNnd2N5ODNrbHJmNmd6MXZ0eGt3cjJ5bjN5M2lxaTc4eGl2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r3WLuO5QRLyAV9MWEM/giphy.gif",
+
     features: [
-      "Tu clase se graba y se envia por correo a cada correo   ",
-      "Puedes hacer preguntas al profe por wsp directamente  ",
-      "Acceso al Roadmap con Material Exclusivo",
-      "Google Meet Premium",
-      "Material de Estudio de cada clase",
-      "Clases Personalizadas (decideden que quieren aprender)",
-      "Hora peruana (GMT-5), previa entrevista",
+      "✅Tu clase se graba y se envia por correo a cada correo   ",
+      "✅ Google Meet Premium",
+      "✅ Clases Personalizadas + Material de Clase",
+      "❌ Puedes hacer preguntas al profe por wsp directamente  ",
+      "❌  Incluye preparacion para Exámenes Internacionales",
+      "❌  No hay Reprogramaciones",
+      "❌  Acceso al Roadmap con Material Exclusivo",
+      "❌ Código de Descarga Roadmap",
+      "❌ Talleres los fines de semana Sábados y Domingo",
+
     ],
-    price: " 106 USD - 330 PEN ",
-    ruta: "https://learnibox.vercel.app/RoadMapB2",
+    price: "S/.350 Nuevos Soles ",
+enlace:"https://docs.google.com/spreadsheets/d/1jpKL_kwxAWuqo9v6aVBSiKpiAij6i3E3ysPSxlajgRY/preview",
+ruta: "https://learnibox.vercel.app/RoadMapB2",
 
   },
+ 
   {
-    name: "Inglés A1 - La Base 🏗️",
+    name: "Ruta Autónoma A1",
     description: "Domina lo esencial para comunicarte con confianza en situaciones cotidianas simples. ¡Empieza tu camino hacia la fluidez aquí! 🚀",
-    imgSrc: "https://i.ibb.co/9wVtSxZ/B2-FIRST-18.png",
+    imgSrc: "https://i.ibb.co/VpvYPXmM/file-Qb-WLou8j-Ui5-SCqob-CQTs-Rq.png",
+    imgGif:"https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZuazNnd2N5ODNrbHJmNmd6MXZ0eGt3cjJ5bjN5M2lxaTc4eGl2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r3WLuO5QRLyAV9MWEM/giphy.gif",
+
     features: [
       "Técnicas básicas de pronunciación 🗣️",
       "Reglas gramaticales fundamentales 📚",
@@ -102,14 +89,16 @@ ruta: "https://learnibox.vercel.app/RoadMapB2",
       "Clases grabadas y lecciones en video 🎥",
       "Cuestionarios y exámenes finales 📝"
     ],
-    price: "$90",
+    price: "Suscripcion Mensual S/.30 Nuevos Soles",
     ruta: "https://learnibox.vercel.app/RoadMapA1",
 
   },
   {
-    name: "Inglés A2 - El Conector 🔗",
+    name: "Ruta Autónoma A2",
     description: "Cierra la brecha hacia la comunicación intermedia. Habla y entiende expresiones comunes con confianza. 💬",
-    imgSrc: "https://i.ibb.co/nRBctHK/B2-FIRST-19.png",
+    imgSrc: "https://i.ibb.co/Y7BLpPD5/file-TDf-W5-PCF77-VHWEG9-XEep-R5.png",
+    imgGif:"https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZuazNnd2N5ODNrbHJmNmd6MXZ0eGt3cjJ5bjN5M2lxaTc4eGl2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r3WLuO5QRLyAV9MWEM/giphy.gif",
+
     features: [
       "Estructuras simples para el día a día 🌟",
       "Expresiones y frases comunes 🗨️",
@@ -118,14 +107,16 @@ ruta: "https://learnibox.vercel.app/RoadMapB2",
       "Lecciones en video para mayor claridad 📹",
       "Clases grabadas y evaluaciones 📝"
     ],
-    price: "$110",
+    price: "Suscripcion Mensual S/.30 Nuevos Soles",
     ruta: "https://learnibox.vercel.app/RoadMapA2",
 
   },
   {
-    name: "Inglés B1 - El Avanzado 📈",
+    name: "Ruta Autónoma B1",
     description: "Lleva tus habilidades a un nuevo nivel. Maneja conversaciones detalladas y mejora tu escritura. ✍️",
-    imgSrc: "https://i.ibb.co/yQ8fQ7L/B2-FIRST-12.png",
+    imgSrc: "https://i.ibb.co/RTmJqwbj/file-4u8b-E1yz-Ja-Yaxig8-Gbj-Es-E.png",
+    imgGif:"https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZuazNnd2N5ODNrbHJmNmd6MXZ0eGt3cjJ5bjN5M2lxaTc4eGl2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r3WLuO5QRLyAV9MWEM/giphy.gif",
+
     features: [
       "Técnicas básicas de escritura 🖋️",
       "Conversaciones detalladas 🗨️",
@@ -134,14 +125,14 @@ ruta: "https://learnibox.vercel.app/RoadMapB2",
       "Lecciones completas en video 🎬",
       "Exámenes para medir tu progreso 📝"
     ],
-    price: "$150",
+    price: "Suscripcion Mensual S/.30 Nuevos Soles",
     ruta: "https://learnibox.vercel.app/RoadMapB2",
 
   },
   {
-    name: "Ruta B2 Autónoma",
+    name: "Ruta Autónoma B2",
     description: "¡Prepárate para alcanzar el nivel B2 de manera efectiva y a tu ritmo! Nuestra plataforma está diseñada para brindarte recursos exclusivos y explicaciones claras sobre más de 90 temas esenciales.",
-    imgSrc: "https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+    imgSrc: "https://i.ibb.co/Z66DdpTM/file-LDRse-LKf-G9vb-NXLZTx1-Z4q.png",
     imgGif:"https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZuazNnd2N5ODNrbHJmNmd6MXZ0eGt3cjJ5bjN5M2lxaTc4eGl2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r3WLuO5QRLyAV9MWEM/giphy.gif",
     features: [
       "Gramática esencial: Aprende las diferencias  y mucho más.",
@@ -152,15 +143,15 @@ ruta: "https://learnibox.vercel.app/RoadMapB2",
       "Actividades interactivas 🧩",
     ],
    
-    price: "S./30 / $10 Mensuales",
+    price: "Suscripcion Mensual S/.45 Nuevos Soles",
     ruta: "https://learnibox.vercel.app/RoadMapB2",
 
   }
 ,  
   {
-    name: "Ruta C1 Autónoma",
+    name: "Ruta Autónoma C1",
     description: "Logra un dominio profesional del inglés. Realiza presentaciones, escribe con precisión y conversa con facilidad. 💼",
-    imgSrc: "https://i.ibb.co/f4YQsS1/B2-FIRST-11.png",
+    imgSrc: "https://i.ibb.co/Swk9RQbB/file-DRh-Z3-Eu-Tn-Bpr-CKp-Tk6os-Wp.png",
     imgGif:"https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZuazNnd2N5ODNrbHJmNmd6MXZ0eGt3cjJ5bjN5M2lxaTc4eGl2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r3WLuO5QRLyAV9MWEM/giphy.gif",
     features: [
       "Gramática esencial: Aprende las diferencias  y mucho más.",
@@ -170,14 +161,16 @@ ruta: "https://learnibox.vercel.app/RoadMapB2",
       "Pruebas simuladas 📝",
       "Actividades interactivas 🧩",
     ],
-    price: "S./30 / $10 Mensuales",
+    price: "Suscripcion Mensual S/.45 Nuevos Soles",
     ruta: "https://learnibox.vercel.app/RoadMapC1",
 
   },
   {
-    name: "Inglés C2 - El Nativo 🌟",
+    name: "Ruta Autónoma C2",
     description: "Domina el idioma inglés con vocabulario avanzado, tonos profesionales y matices culturales. 🏆",
-    imgSrc: "https://i.ibb.co/DM385Vn/B2-FIRST-15.png",
+    imgSrc: "https://i.ibb.co/b5Kd6mMW/file-AHw-Kpi8-LJw-GRuhyuk-Vo-RGY.png",
+    imgGif:"https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZuazNnd2N5ODNrbHJmNmd6MXZ0eGt3cjJ5bjN5M2lxaTc4eGl2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r3WLuO5QRLyAV9MWEM/giphy.gif",
+
     features: [
       "Vocabulario avanzado y frases 🔝",
       "Expresiones fluidas y nativas 🗣️",
@@ -186,90 +179,21 @@ ruta: "https://learnibox.vercel.app/RoadMapB2",
       "Escenarios interactivos y evaluaciones 🔄",
       "Preparación para aplicaciones en el mundo real 🌐"
     ],
-    price: "$300",
+    price: "Suscripcion Mensual S/.55 Nuevos Soles",
   },
-  {
-    name: "Inglés Médico - El Lenguaje del Sanador 🩺",
-    description: "Aprende el idioma de los profesionales de la salud. Comunícate de manera efectiva en entornos clínicos. 🏥",
-    imgSrc: "https://i.ibb.co/pQ7Y22x/B2-FIRST-20.png",
-    features: [
-      "Terminología médica 📋",
-      "Simulaciones de entrevistas clínicas 👩‍⚕️",
-      "Actividades basadas en casos clínicos 🩻",
-      "Ejercicios interactivos y tarjetas didácticas 📖",
-      "Lecciones grabadas para repaso 🎥",
-      "Evaluaciones completas 📊"
-    ],
-    price: "$200",
-    ruta: "https://learnibox.vercel.app/RoadMapHealth",
-
-  },
-  {
-    name: "Inglés para Programadores - El Toque del Coder 💻",
-    description: "Impulsa tu carrera tecnológica con inglés especializado. Destácate en documentación técnica y reuniones de equipo. 🚀",
-    imgSrc: "https://i.ibb.co/wc58x4y/B2-FIRST-23.png",
-    features: [
-      "Terminología técnica 🔧",
-      "Comunicación efectiva en equipos de programación 👨‍💻",
-      "Frases para documentación y reuniones 🗂️",
-      "Escenarios interactivos de codificación 📟",
-      "Lecciones en video aplicadas a la industria 🎥",
-      "Evaluaciones finales para validar tus habilidades ✅"
-    ],
-    price: "$220",
-  },
-  {
-    name: "Inglés de Negocios - El Camino Profesional 📊",
-    description: "Avanza en tu carrera con inglés esencial para negocios. Domina presentaciones, correos y negociaciones. 💼",
-    imgSrc: "https://i.ibb.co/pvLX9Xc/B2-FIRST-22.png",
-    features: [
-      "Presentaciones efectivas 🎤",
-      "Escritura profesional de correos 📧",
-      "Términos financieros y de negociación 💹",
-      "Lecciones grabadas y tarjetas didácticas 📝",
-      "Escenarios interactivos de negocios 🌐",
-      "Exámenes completos 🏅"
-    ],
-    price: "$250",
-    ruta: "https://learnibox.vercel.app/RoadMapTech",
-
-  },
-  {
-    name: "Francés Básico - Le Voyageur 🗼",
-    description: "Comienza tu viaje en el idioma francés. Construye una base sólida con saludos y frases comunes. ✨",
-    imgSrc: "https://i.ibb.co/7rf31Ys/B2-FIRST-21.png",
-    features: [
-      "Saludos básicos y frases comunes 🗨️",
-      "Estructuras gramaticales simples 📚",
-      "Práctica interactiva y tarjetas didácticas 🔄",
-      "Lecciones grabadas en video 🎥",
-      "Evaluaciones y prueba final 📝",
-      "Escenarios de práctica en la vida real 🌍"
-    ],
-    price: "$90",
-    ruta: "https://learnibox.vercel.app/RoadMapFrench",
-
-  },
+  
+ 
+  
 ];
 
 const levels = {
-  ClasesPersonalizadas: ["Paquete de Clases Premium", "Paquete de Clases Basic"],
-  Cambridge: ["B2 Cambridge Preparation","C1 Cambridge Preparation"],
-  Celpip: ["Celpip Preparation"],
-
-  Básico: ["Inglés A1 - La Base 🏗️", "Inglés A2 - El Conector 🔗"],
-  Intermedio: ["Inglés B1 - El Avanzado 📈", "Ruta B2 Autónoma"],
-  Avanzado: ["Ruta C1 Autónoma", "Inglés C2 - El Nativo 🌟"],
-  Profesional: [
-    "Inglés Médico - El Lenguaje del Sanador 🩺",
-    "Inglés para Programadores - El Toque del Coder 💻",
-    "Inglés de Negocios - El Camino Profesional 📊",
-    "Francés Básico - Le Voyageur 🗼",
-  ],
+  Personalizadas: ["Paquete Premium","Paquete Standard", "Paquete Básico"],
+  Rutas: ["Ruta Autónoma A1", "Ruta Autónoma A2","Ruta Autónoma B1", "Ruta AutónomaB2","Ruta Autónoma C1", "Ruta Autónoma C2"],
+  
 };
 
 export const Plans = () => {
-  const [selectedLevel, setSelectedLevel] = useState("Básico");
+  const [selectedLevel, setSelectedLevel] = useState("Rutas");
   const [selectedPlan, setSelectedPlan] = useState(null);
   const [scheduleLink, setScheduleLink] = useState(null);
 
@@ -376,7 +300,7 @@ export const Plans = () => {
      {/* Pop-up Modal */}
 {selectedPlan && (
   <div className="fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-50">
-    <div className="relative bg-gray-800 rounded-lg shadow-2xl w-11/12 max-w-4xl max-h-[90vh] overflow-hidden">
+    <div className="relative bg-gray-800 rounded-lg shadow-2xl w-11/12 max-w-4xl max-h-[95vh] overflow-hidden">
       {/* Botón Cerrar */}
       <button
         onClick={closeModal}
@@ -411,7 +335,6 @@ export const Plans = () => {
           <ul className="space-y-3 text-gray-300 text-sm">
             {selectedPlan.features.map((feature, i) => (
               <li key={i} className="flex items-start space-x-2">
-                <span className="inline-block w-5 h-5 bg-green-400 rounded-full mt-1"></span>
                 <p>{feature}</p>
               </li>
             ))}
