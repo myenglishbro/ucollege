@@ -283,11 +283,36 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar}) => 
     onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.03)'}
     onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
   >
-    {viewedItems?.includes(enlace.titulo) ? '✅ Done' : '▶ View'}
+    {viewedItems?.includes(enlace.titulo) ? '✅ Done' : '📖 Slide'}
   </button>
 
 
         {/* Botón para URL secundaria (si existe) */}
+  {enlace.url3 && (
+    <button
+      onClick={() => handleLinkClick({ ...enlace, url: enlace.url3 })}
+      style={{
+        background: 'linear-gradient(135deg, #004AAD, #001F3F)',
+        color: '#fff',
+        borderRadius: '6px',
+        padding: '6px 14px',
+        border: 'none',
+        fontWeight: 'bold',
+        fontSize: '14px',
+        transition: 'all 0.2s ease-in-out',
+        cursor: 'pointer',
+        display: 'flex',
+        alignItems: 'center',
+        gap: '6px'
+      }}
+      onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.03)'}
+      onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
+    >
+      📝 Test
+            </button>
+          )}
+
+            {/* Botón para URL secundaria (si existe) */}
   {enlace.url2 && (
     <button
       onClick={() => handleLinkClick({ ...enlace, url: enlace.url2 })}

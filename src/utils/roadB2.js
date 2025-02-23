@@ -190,14 +190,11 @@ export const roadB2 = [
         channel: "sdasd",
         description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
         enlaces: [
-            { titulo:"⚔️ Be on about ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/1i5m5Xo0rahB9re9xsLNJdclpA8FA03jy/view?usp=sharing" },
-            { titulo:"⚔️ Quiz Be on about ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/1JDpCXxAU9ozjBMEA2ouhBQGAJgpliOOc/view?usp=sharing" },
+            { titulo:"⚔️ Be on about ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/1i5m5Xo0rahB9re9xsLNJdclpA8FA03jy/view?usp=sharing",url3: "https://drive.google.com/file/d/1JDpCXxAU9ozjBMEA2ouhBQGAJgpliOOc/view?usp=sharing" },
 
-            { titulo:"⚔️ zero in on  ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/18JztqKh0PP18_LPzUKZDJYnRQqip7x3a/view?usp=sharing" },
-            { titulo:"⚔️Quiz zero in on  ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/19y7aXWFScceuArjQNuN7FjpaLPfALo3w/view?usp=sharing" },
+            { titulo:"⚔️ zero in on  ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/18JztqKh0PP18_LPzUKZDJYnRQqip7x3a/view?usp=sharing",url3: "https://drive.google.com/file/d/19y7aXWFScceuArjQNuN7FjpaLPfALo3w/view?usp=sharing" },
 
-            { titulo:"⚔️ Shy Away From sth   ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/1LKd3X2Qr8MJ-52QtwBi9f6NR-AWD9anl/view?usp=sharing" },
-            { titulo:"⚔️Quiz  Shy Away From sth   ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/188wbcEig0wGPF2gscPLlQhF_xayYwKHF/view?usp=sharing" },
+            { titulo:"⚔️ Shy Away From sth   ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/1LKd3X2Qr8MJ-52QtwBi9f6NR-AWD9anl/view?usp=sharing",url3: "https://drive.google.com/file/d/188wbcEig0wGPF2gscPLlQhF_xayYwKHF/view?usp=sharing" },
         ],
     },
     // {
@@ -238,16 +235,12 @@ export const roadB2 = [
         description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
         enlaces: [
 
-            { titulo:"⚔️ Duelo de Recuerdos",descripcion:"Diferencias entre Leave vs Forget",url: "https://drive.google.com/file/d/1y_j2Do4YAErfoQdNLDu5yXaxjgW0FH8O/view?usp=sharing" ,url2: "https://youtu.be/ZuTu0cKrgA4?si=SwLXrU0zQTyxjNDz"},
-            { titulo:"📝Test Forget vs Leave..",url: "https://drive.google.com/file/d/16EXaLrUSI1-6HPIwplL6mLjakFsnLRfu/view?usp=sharing"},
-            { titulo:"⏳ El Reloj del Tiempo Infinito ",descripcion:"Continually, Continuously, Constantly",url: "https://drive.google.com/file/d/1kENm-lqtM22jiVAej6_Io_IoYFeRDprC/view?usp=sharing",url2: "https://youtu.be/DXCOSUsATsE?si=KXNzdx8qbzOeCMkz"},
-            { titulo:"📝Test continually,  continuously ,  constantly",url: "https://drive.google.com/file/d/17UWJLib-ZYETsEc-rF0p3byGvy24R_kY/view?usp=sharing"},
+            { titulo:"⚔️ Duelo de Recuerdos",descripcion:"Diferencias entre Leave vs Forget",url: "https://drive.google.com/file/d/1y_j2Do4YAErfoQdNLDu5yXaxjgW0FH8O/view?usp=sharing" ,url2: "https://youtu.be/ZuTu0cKrgA4?si=SwLXrU0zQTyxjNDz",url3: "https://drive.google.com/file/d/16EXaLrUSI1-6HPIwplL6mLjakFsnLRfu/view?usp=sharing"},
+            { titulo:"⏳ El Reloj del Tiempo Infinito ",descripcion:"Continually, Continuously, Constantly",url: "https://drive.google.com/file/d/1kENm-lqtM22jiVAej6_Io_IoYFeRDprC/view?usp=sharing",url2: "https://youtu.be/DXCOSUsATsE?si=KXNzdx8qbzOeCMkz",url3: "https://drive.google.com/file/d/17UWJLib-ZYETsEc-rF0p3byGvy24R_kY/view?usp=sharing"},
             { titulo:"🗣️ El Eco de las Voces",descripcion:"Shout at vs Shout to",url:"https://drive.google.com/file/d/1iisgsGHkBpj0nyGTvwxCiI8_aG3ukcsi/view?usp=sharing" ,url2: "https://youtu.be/QAJVD14o2a8"},
             { titulo:"🏷️Using Afraid ",descripcion:"Continually, Continuously, Constantly",url: "https://drive.google.com/file/d/1X_G4Rvia8Lpu4C5MHXcLx7dXtUnfFsZb/view?usp=sharing"},
-            { titulo:"😨 La Prueba del Valor ",descripcion:"Afraid to do vs Afraid of doing",url:"https://drive.google.com/file/d/19XX67MnZ-Mf-rmq9pPlYm9GMogYOHQa_/view?usp=sharing",url2: "https://youtu.be/pYaZjZIQBdM"},
-            { titulo:"📝Test afraid to do vs afraid of doing ",descripcion:"Continually, Continuously, Constantly",url: "https://drive.google.com/file/d/1cCllRuslCkOJyqtgAhukNp_eGwN94zre/view?usp=sharing"},
-            { titulo:"🔀 Encrucijada de Opciones ",descripcion:"Rather than, Instead of, As opposed to",url: "https://drive.google.com/file/d/13ZK9zCLBTKe73OQNaqvXjK-38ZvaJ8VT/view?usp=sharing"},
-            { titulo:"Test En lugar de ",descripcion:"Continually, Continuously, Constantly",url: "https://drive.google.com/file/d/1iqoLUXkRQqElYsf7faswD-xSfsSSuR9X/view?usp=sharing"},
+            { titulo:"😨 La Prueba del Valor ",descripcion:"Afraid to do vs Afraid of doing",url:"https://drive.google.com/file/d/19XX67MnZ-Mf-rmq9pPlYm9GMogYOHQa_/view?usp=sharing",url2: "https://youtu.be/pYaZjZIQBdM",url3: "https://drive.google.com/file/d/1cCllRuslCkOJyqtgAhukNp_eGwN94zre/view?usp=sharing"},
+            { titulo:"🔀 Encrucijada de Opciones ",descripcion:"Rather than, Instead of, As opposed to",url: "https://drive.google.com/file/d/13ZK9zCLBTKe73OQNaqvXjK-38ZvaJ8VT/view?usp=sharing",url3: "https://drive.google.com/file/d/1iqoLUXkRQqElYsf7faswD-xSfsSSuR9X/view?usp=sharing"},
             { titulo:"🚫 El Laberinto de la Prevención",descripcion:"Prevent, Stop, Avoid",url: "https://drive.google.com/file/d/1FoSc6244qwfBpG9EDxzX7YkHZTuk6EN8/view?usp=sharing"},
             { titulo:"🧐 El Reto de la Precisión",descripcion:"Differentiate, Distinguish, Discriminate",url: "https://drive.google.com/file/d/1v-uIHL_GseKjuslDEgVGhiTajGCL9CQs/view?usp=sharing"},
             { titulo:"🕒 Profecías del Futuro Cercano ",descripcion:"Immediate Future Expressions",url: "https://drive.google.com/file/d/1mOBysPhkjDIvx1ePzrM-LMnlrsGZuOzb/view?usp=sharing"},
