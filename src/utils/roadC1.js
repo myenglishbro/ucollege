@@ -15,7 +15,10 @@ export const roadC1 = [
         description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
         enlaces: [
             { "titulo": "[🖥️Class] Need + ing", "url": "https://www.youtube.com/watch?v=TwRQIGq2Uw0&ab_channel=MyEnglishBro" },
-            { titulo:"📚[Slide] Extent - Phrases",url: "https://drive.google.com/file/d/1RNL8yvP8ciMWWd_vnp0hIsFfUpuANjEe/view?usp=sharing"},
+            { titulo:"📚[Slide] Extent - Phrases",url: "https://drive.google.com/file/d/1RNL8yvP8ciMWWd_vnp0hIsFfUpuANjEe/view?usp=sharing",url2:"https://drive.google.com/file/d/1Drm5SAw6foxSrI7xHkUEI4sfdYl58_ZY/view?usp=sharing"},
+            { titulo:"📚[Slide] Substitution with 'Do so'  ",url: "https://drive.google.com/file/d/1cDQYA8CIBaBKuYwBlERsFkKxtMLa2CbC/view?usp=sharing"},
+            { titulo:"📚[Slide] If meaning although   ",url: "https://drive.google.com/file/d/1HchwZN2R5mEOoF2Ju0-Hpk_Oe4WFe1Rd/view?usp=sharing"},
+
             { titulo:"📚 For meaning because ",url: "https://drive.google.com/file/d/1p3vDChnpQWHcwZ8FbJ0S6TzoBgeWHe5V/view?usp=sharing"},
             { titulo:"📚 Dangling Modifiers  ",url: "https://drive.google.com/file/d/1-MCDQdx5K_v6mEL7dgjh6TU4rTdfFVSN/view?usp=sharing"},
             { titulo:"📚[Slide] Doing too much - phrases ",url: "https://drive.google.com/file/d/1MXfUisuFRIhKqnotZue3pU9ZibXR-oRu/view?usp=sharing"},
@@ -125,7 +128,6 @@ export const roadC1 = [
             { titulo:"📚If I were vs If I was ",url: "https://drive.google.com/file/d/1L8gL4in7HNGsjw_fqgsCzi2FPNi3VYR8/view?usp=sharing"},
 
 
-            { titulo:"📚[Slide] If meaning although   ",url: "https://drive.google.com/file/d/1HchwZN2R5mEOoF2Ju0-Hpk_Oe4WFe1Rd/view?usp=sharing"},
             { titulo:"📚[Slide] Imposing or Transferring responsability  ",url: "https://drive.google.com/file/d/1hNjafS0LbGoS7RqY8EtY6Mf6V6qsoeaY/view?usp=sharing"},
             { titulo:"📚[Slide] Inasmuch as  vs insofar as   ",url: "https://drive.google.com/file/d/15SDhGYZiigaXw1FflTMWP8xC4blDWFNv/view?usp=sharing"},
 
@@ -202,7 +204,6 @@ export const roadC1 = [
             { titulo:"📚[Slide] Spoken English -Advanced Phrases ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] STILL meaning despite that ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] Subjunctive mood in English",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Substitution with 'Do so'  ",url: "https://drive.google.com/file/d/1cDQYA8CIBaBKuYwBlERsFkKxtMLa2CbC/view?usp=sharing"},
             { titulo:"📚[Slide] Tag Questions - Questions Tags :There  ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] Tags - Statement/Reinforcement Tags ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] There is no questions (phrases) ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
