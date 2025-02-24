@@ -7,7 +7,7 @@ export const validCredentials = [
 
       {expirationDate:"93 horas /128 horas ",nivel:"B1+ Intermediate",usuario: 'andresdesigner', password: 'designer123', realname: 'Andres Jaramillo', img: 'https://i.ibb.co/gTNwpJQ/67d46012622105-63d2bfcf57030.png'  }, // No image
       { expirationDate:"10 HOURS",nivel:"B2 Intermediate", usuario: 'Ppbergelund', password: 'pppublisher', realname: 'Pedro Bergelund', img: 'https://i.ibb.co/Ks3WrnN/426308282-432260169242381-257610.jpg' }, // No image
-      { expirationDate:"05/01/25",nivel:"Intermedio",usuario: 'diegosego', password: 'segovia01', realname: 'Diego Segovia Gómez', img: 'https://i.ibb.co/ssX236w/454630848-467797286163219-647084.png' }, // No image
+      // { expirationDate:"05/01/25",nivel:"Intermedio",usuario: 'diegosego', password: 'segovia01', realname: 'Diego Segovia Gómez', img: 'https://i.ibb.co/ssX236w/454630848-467797286163219-647084.png' }, // No image
       // { expirationDate:"10 HOURS",nivel:"B1 Intermediate",usuario: 'claudioelpro', password: '2219ielts', realname: 'Claudio Justiniano', img: 'https://i.ibb.co/hgHZTND/ALV-Uj-XH77p-Iy-HF4-A6v-ULRw-Kb-ZESWy2-B.png' }, // No image
       // { expirationDate:"10 HOURS",nivel:"A1 Basic",usuario: 'cesarh', password: 'hurtado24', realname: 'Cesar Hurtado', img: 'https://i.ibb.co/8jqVPR9/432422606-449362764805007-920126.png' }, // No image
     
