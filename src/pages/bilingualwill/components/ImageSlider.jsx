@@ -4,7 +4,7 @@ import { ChevronRight, MessageCircle } from "lucide-react";
 
 const ImageSlider = () => {
   const images = [
-    { src: "https://i.ibb.co/gM9ZgSDz/20.jpg", text: "Grupo A - Lunes y Miércoles" },
+    { src: "https://i.ibb.co/gM9ZgSDz/20.jpg", text: "Grupo A  Miércoles" },
     { src: "https://i.ibb.co/nM721v1r/21.jpg", text: "Grupo B - Martes y Jueves" },
     { src: "https://i.ibb.co/6cKwHZnV/22.jpg", text: "Grupo C - Viernes y Sábado" },
     { src: "https://i.ibb.co/RTTZ0NHn/23.jpg", text: "Grupo D - Lunes y Viernes" },
@@ -39,9 +39,7 @@ const ImageSlider = () => {
                     transition={{ duration: 0.5 }}
                     onClick={nextCard}
                   >
-                    <p className="text-white text-lg font-semibold absolute top-4 bg-black/60 px-3 py-1 rounded-lg">
-                      {item.text}
-                    </p>
+                   
                     <img
                       src={item.src}
                       alt={item.text}

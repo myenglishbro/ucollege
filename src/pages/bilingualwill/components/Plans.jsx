@@ -5,64 +5,42 @@ import { useState } from "react";
 const plans = [
   {
     name: "Paquete de Clases Privadas",
-    description: "Este paquete de clases cuenta con 20 horas de clases en vivo",
+    description: "Este paquete de clases cuenta con 10 horas de clases en vivo",
     imgSrc: "https://i.ibb.co/ymhFCdRW/claseindividual.jpg",
     features: [
       "Tu clase se graba y se envia por correo a cada correo   ",
       "Puedes hacer preguntas al profe por wsp directamente  ",
       "Acceso al Roadmap con Material Exclusivo",
-      "Google Meet Premium",
+      "Zoom Premium",
       "Material de Estudio de cada clase",
       "Clases Personalizadas (decideden que quieren aprender)",
-      "Hora peruana (GMT-5), previa entrevista",
+      "Hora Argentina (GMT-3), previa entrevista",
     ],
-    price: " USD 200  ",
-enlace:"https://docs.google.com/spreadsheets/d/1jpKL_kwxAWuqo9v6aVBSiKpiAij6i3E3ysPSxlajgRY/preview",
-ruta: "https://learnibox.vercel.app/plataforma",
+    price: " USD 120  ",
+ruta: "https://learnibox.vercel.app/PlataformaB",
 
   },
   {
-    name: "Paquete de Clases Grupales",
-    description: "Este paquete de clases cuenta con 10 horas de clases en vivo",
+    name: "Taller de Fluidez y Pronunciación",
+    description: "Este paquete de clases cuenta con 16 horas de clases en vivo",
     imgSrc: "https://i.ibb.co/LLZ4ymC/clasegrupal.jpg",
     features: [
-      "Tu clase se graba y se envia por correo a cada correo   ",
-      "Puedes hacer preguntas al profe por wsp directamente  ",
-      "Acceso al Roadmap con Material Exclusivo",
-      "Google Meet Premium",
+      "Grupo Reducido ( Máximo 5 personas) para un mejor aprendizaje  ",
+      "Zoom Premium",
       "Material de Estudio de cada clase",
       "Clases Personalizadas (decideden que quieren aprender)",
-      "Hora peruana (GMT-5), previa entrevista",
+      "Hora peruana (GMT-3)",
     ],
-    price: " 110 USD - 350 PEN ",
-enlace:"https://docs.google.com/spreadsheets/d/1jpKL_kwxAWuqo9v6aVBSiKpiAij6i3E3ysPSxlajgRY/preview",
-ruta: "https://learnibox.vercel.app/plataforma",
+    price: " 80 USD  ",
+ruta: "https://learnibox.vercel.app/PlataformaB",
 
   },
-  {
-    name: "Ruta de Aprendizaje Autonoma",
-    description: "Este paquete de clases cuenta con 10 horas de clases en vivo",
-    imgSrc: "https://i.ibb.co/9HLwLnzb/logo.jpg",
-    features: [
-      "Técnicas básicas de pronunciación 🗣️",
-      "Reglas gramaticales fundamentales 📚",
-      "Vocabulario esencial 📝",
-      "Ejercicios interactivos 🎮",
-      "Tarjetas didácticas para aprendizaje rápido 📖",
-      "Clases grabadas y lecciones en video 🎥",
-      "Cuestionarios y exámenes finales 📝"
-    ],
-    price: "$90",
-    enlace: "https://i.ibb.co/Syb9m2M/Black-And-White-Aesthetic-Minimalist-Modern-Simple-Typography-Coconut-Cosmetics-Logo-6.png",
-    ruta: "https://learnibox.vercel.app/plataforma",
-
-  },
+  
   
 ];
 
 const levels = {
-  Clases: ["Paquete de Clases Privadas", "Paquete de Clases Grupales"],
-  Ruta: ["Ruta de Aprendizaje Autonoma"],
+  Clases: ["Paquete de Clases Privadas", "Taller de Fluidez y Pronunciación"],
 
   
 };
