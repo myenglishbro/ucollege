@@ -1,7 +1,6 @@
 export const validCredentialsa1 = [
    
     { expirationDate:"Esta cuenta es Gratuita",nivel:"C2",usuario: 'juan', password: '2025', realname: 'Cuenta Gratuita', img:'https://i.ibb.co/9HLwLnzb/logo.jpg'},
-     { expirationDate:"2026",nivel:"solicitar examen",usuario: 'milena', password: 'silva', realname: 'Milena  Silva', img:'https://i.ibb.co/9HLwLnzb/logo.jpg'},
     { expirationDate:"2026",nivel:"solicitar examen",usuario: 'oly', password: 'montiel', realname: 'Oly Montiel', img:'https://i.ibb.co/9HLwLnzb/logo.jpg'},
     { expirationDate:"2026",nivel:"solicitar examen",usuario: 'maria', password: 'cuevas', realname: 'María Andreina Cuevas', img:'https://i.ibb.co/9HLwLnzb/logo.jpg'},
 
@@ -27,5 +26,6 @@ export const validCredentialsa1 = [
  //debe
    { expirationDate:"2026",nivel:"solicitar examen",usuario: 'sandra', password: 'cortez', realname: 'Sandra Cortez', img:'https://i.ibb.co/9HLwLnzb/logo.jpg'},
    { expirationDate:"2026",nivel:"solicitar examen",usuario: 'sandra', password: 'fernandez', realname: 'Sandra Fernandez', img:'https://i.ibb.co/9HLwLnzb/logo.jpg'},
+   { expirationDate:"2026",nivel:"solicitar examen",usuario: 'milena', password: 'silva', realname: 'Milena  Silva', img:'https://i.ibb.co/9HLwLnzb/logo.jpg'},
 
 ];
