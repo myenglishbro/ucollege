@@ -1,5 +1,30 @@
 export const roadB2 = [
     {
+        id: 99,
+        thumbnail:
+            "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
+        title: "GUIAS MAESTRIA GRAMMAR ",
+        subtitle: "Nivel Básico ",
+    
+        dateAdded: "Basic 0 ",
+        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
+        description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
+        enlaces: [
+           
+           
+          
+            {  titulo:"[📑 Tense Infographic ", url: "https://drive.google.com/file/d/1Mxxxxi0x13HrO5EvSECowdaRF0Vg9fIK/view?usp=sharing"},
+
+            {  titulo:"[📑 Present Simple", url: "https://drive.google.com/file/d/1uosvGKLwegu9ECo9TZTG3uJd79ku4_G2/view?usp=sharing"},
+            {  titulo:"[📑 Present Progressive", url: "https://drive.google.com/file/d/15m5KpSZhu7Q1vop2-MiqlARFmY8jLx9u/view?usp=sharing"},
+            {  titulo:"[📑 Past Simple", url: "https://drive.google.com/file/d/19wgEn7E6c-hBR1q08aSUU7ibHn8ERRl-/view?usp=sharing"},
+            {  titulo:"[📑 Present Perfect", url: "https://drive.google.com/file/d/11x2FcIbUKSvFsAm2PyyfTOQ5zyYXE92i/view?usp=sharing"},
+
+            {  titulo:"[📑 Present Perfect Progressive", url: "https://drive.google.com/file/d/1CoGNeh_2_0CkmXYzSkwugtCx185XJUp-/view?usp=sharing"},
+
+        ],
+    },
+    {
         id: 0,
         thumbnail: "https://i.ibb.co/B2pxp5ZR/DALL-E-2025-02-26-11-55-47-A-powerful-warrior-representing-the-Present-Simple-tense-He-wears-a-class.webp",
 
