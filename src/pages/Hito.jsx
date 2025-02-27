@@ -1,4 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
+import TextBoxOverlay from './TextBoxOverlay';
+import { FiMaximize } from 'react-icons/fi';
+import { FiEdit, FiX } from 'react-icons/fi';
+import { FiLock } from 'react-icons/fi';
+import { FiPenTool } from 'react-icons/fi';
+import { FiPrinter, FiMinimize } from 'react-icons/fi';
 
 const Hito = ({ selectedLink }) => {
   const [isLoading, setIsLoading] = useState(true);
@@ -14,90 +20,96 @@ const Hito = ({ selectedLink }) => {
   const [notes, setNotes] = useState("");
   const [isExpanded, setIsExpanded] = useState(false);
 
-  const validCode = 'nocode'; // Este es el código que debe ingresar el usuario para acceder al PDF
+  const [fontSize, setFontSize] = useState(14);
+
+  // Estado para la caja de texto
+  const [textMode, setTextMode] = useState(false);
+  const [overlayText, setOverlayText] = useState("");
+  // Estado para detectar si estamos en pantalla completa
+  const [isFullscreen, setIsFullscreen] = useState(false);
+
+  // Ref para el contenedor principal (que se usará para fullscreen)
+  const containerRef = useRef(null);
+
+  const validCode = 'nocode';
+
   const toggleSize = () => {
     setIsExpanded(!isExpanded);
   };
-    {/* Función para impresión mejorada */}
-    const printNotes = () => {
-      const printWindow = window.open("", "_blank");
-  
-      const styles = `
-        <style>
-          body {
-            font-family: 'Arial', sans-serif;
-            margin: 40px;
-            color: #333;
-          }
-          .header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            margin-bottom: 20px;
-            border-bottom: 2px solid #2C3E50;
-            padding-bottom: 10px;
-          }
-          .logo {
-            width: 80px;
-            height: auto;
-          }
-          .date {
-            font-size: 14px;
-            color: #555;
-          }
-          h1 {
-            font-size: 22px;
-            color: #2C3E50;
-            text-align: center;
-            text-transform: uppercase;
-            margin-bottom: 15px;
-          }
-          .notes-container {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 20px;
-          }
-          .notes-content {
-            font-size: 16px;
-            line-height: 1.6;
-            color: #333;
-            padding: 15px;
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            background-color: #f9f9f9;
-            white-space: pre-wrap;
-            word-wrap: break-word;
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-          }
-          .footer {
-            text-align: center;
-            font-size: 12px;
-            margin-top: 30px;
-            color: #777;
-          }
-        </style>
-      `;
-  
-      const date = new Date().toLocaleDateString();
-  
-      printWindow.document.write(styles);
-      printWindow.document.write(`
-        <div class="header">
-          <img src="https://i.ibb.co/CpM0rk4q/logo-removebg-preview.png" class="logo" alt="Logo" />
-          <span class="date">Fecha: ${date}</span>
-        </div>
-        <h1>Mis Notas</h1>
-        <div class="notes-container">
-          <div class="notes-content">${notes}</div>
-        </div>
-        <div class="footer">Generado automáticamente por la aplicación</div>
-      `);
-  
-      printWindow.document.close();
-      printWindow.print();
-    };
 
-  
+  const printNotes = () => {
+    const printWindow = window.open("", "_blank");
+    const styles = `
+      <style>
+        body {
+          font-family: 'Arial', sans-serif;
+          margin: 40px;
+          color: #333;
+        }
+        .header {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          margin-bottom: 20px;
+          border-bottom: 2px solid #2C3E50;
+          padding-bottom: 10px;
+        }
+        .logo {
+          width: 80px;
+          height: auto;
+        }
+        .date {
+          font-size: 14px;
+          color: #555;
+        }
+        h1 {
+          font-size: 22px;
+          color: #2C3E50;
+          text-align: center;
+          text-transform: uppercase;
+          margin-bottom: 15px;
+        }
+        .notes-container {
+          display: grid;
+          grid-template-columns: 1fr;
+          gap: 20px;
+        }
+        .notes-content {
+          font-size: 16px;
+          line-height: 1.6;
+          color: #333;
+          padding: 15px;
+          border: 1px solid #ccc;
+          border-radius: 8px;
+          background-color: #f9f9f9;
+          white-space: pre-wrap;
+          word-wrap: break-word;
+          box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .footer {
+          text-align: center;
+          font-size: 12px;
+          margin-top: 30px;
+          color: #777;
+        }
+      </style>
+    `;
+    const date = new Date().toLocaleDateString();
+    printWindow.document.write(styles);
+    printWindow.document.write(`
+      <div class="header">
+        <img src="https://i.ibb.co/CpM0rk4q/logo-removebg-preview.png" class="logo" alt="Logo" />
+        <span class="date">Fecha: ${date}</span>
+      </div>
+      <h1>Mis Notas</h1>
+      <div class="notes-container">
+        <div class="notes-content">${notes}</div>
+      </div>
+      <div class="footer">Generado automáticamente por la aplicación</div>
+    `);
+    printWindow.document.close();
+    printWindow.print();
+  };
 
   const handleCodeSubmit = () => {
     if (enteredCode === validCode) {
@@ -107,6 +119,7 @@ const Hito = ({ selectedLink }) => {
       setError('Incorrect code. Please try again.');
     }
   };
+
   useEffect(() => {
     if (selectedLink) {
       setIsLoading(true);
@@ -117,14 +130,12 @@ const Hito = ({ selectedLink }) => {
       }
     }
 
-    // Detectar intentos de inspección y capturas de pantalla
     const handleContextMenu = (e) => {
       e.preventDefault();
       setShowAlert(true);
     };
 
     const handleKeyDown = (e) => {
-      // Bloquear F12, Ctrl + Shift + I, y capturas de pantalla
       if (
         e.key === 'F12' ||
         (e.ctrlKey && e.shiftKey && e.key === 'I') ||
@@ -133,14 +144,10 @@ const Hito = ({ selectedLink }) => {
         e.preventDefault();
         setShowAlert(true);
       }
-
-      // Simular pantalla negra al presionar PrintScreen
       if (e.key === 'PrintScreen') {
         setShowBlackScreen(true);
-        setTimeout(() => setShowBlackScreen(false), 2000); // Pantalla negra por 2 segundos
+        setTimeout(() => setShowBlackScreen(false), 2000);
       }
-
-      // Bloquear Ctrl + C
       if (e.ctrlKey && e.key === 'c') {
         e.preventDefault();
         setShowAlert(true);
@@ -150,9 +157,16 @@ const Hito = ({ selectedLink }) => {
     document.addEventListener('contextmenu', handleContextMenu);
     document.addEventListener('keydown', handleKeyDown);
 
+    // Evento para detectar cambios en el estado de fullscreen
+    const handleFullscreenChange = () => {
+      setIsFullscreen(document.fullscreenElement === containerRef.current);
+    };
+    document.addEventListener("fullscreenchange", handleFullscreenChange);
+
     return () => {
       document.removeEventListener('contextmenu', handleContextMenu);
       document.removeEventListener('keydown', handleKeyDown);
+      document.removeEventListener("fullscreenchange", handleFullscreenChange);
     };
   }, [selectedLink]);
 
@@ -170,14 +184,11 @@ const Hito = ({ selectedLink }) => {
     }
     if (url.includes('forms.office.com')) {
       if (url.includes('/r/')) {
-        // Convierte la URL corta en la versión embebida
         return url.replace('/r/', '/Pages/ResponsePage.aspx?id=') + '&embed=true';
-      } 
-      // Si ya es una URL larga, solo aseguramos que tenga '&embed=true'
+      }
       return url.includes('&embed=true') ? url : url + '&embed=true';
     }
     if (url.includes('flippity.net')) {
-      // Aseguramos que la URL esté embebida y en minúsculas, extrayendo el parámetro 'k'
       return `https://www.flippity.net/fc.php?k=${url.split('k=')[1]}`;
     }
     return '';
@@ -188,13 +199,11 @@ const Hito = ({ selectedLink }) => {
     const height = 600;
     const left = (window.innerWidth - width) / 2;
     const top = (window.innerHeight - height) / 2;
-
     const popup = window.open(
       url,
       'QuizletPopup',
       `width=${width},height=${height},top=${top},left=${left},scrollbars=yes,resizable=yes`
     );
-
     if (!popup || popup.closed || typeof popup.closed === 'undefined') {
       setPopupBlocked(true);
       setShowModal(false);
@@ -205,22 +214,33 @@ const Hito = ({ selectedLink }) => {
     }
   };
 
+  const toggleFullscreen = () => {
+    if (containerRef.current) {
+      if (!document.fullscreenElement) {
+        containerRef.current.requestFullscreen().catch((err) =>
+          console.error("Error al activar pantalla completa:", err)
+        );
+      } else {
+        document.exitFullscreen();
+      }
+    }
+  };
+
   return (
-    <div className="hito-container mt-6 p-4 bg-white rounded shadow-md w-full h-[350px]max-w-3xl mx-auto transition-all ease-in-out duration-300 relative">
-      {/* Overlay gris que cubre la página */}
+    <div
+      ref={containerRef}
+      className={`hito-container mt-1 p-4 bg-white rounded shadow-md w-full ${isFullscreen ? 'h-screen' : 'h-[530px]'} max-w-3xl mx-auto transition-all ease-in-out duration-300 relative`}
+    >
+      {/* Overlay gris */}
       {overlayActive && (
         <div className="overlay fixed inset-0 bg-gray-500 opacity-50 z-40"></div>
       )}
-
       {/* Pantalla negra temporal */}
       {showBlackScreen && (
         <div className="fixed inset-0 bg-black z-50"></div>
       )}
-
-
-
-           {/* Alerta para intento de inspección mejorada */}
-           {showAlert && (
+      {/* Alerta de inspección */}
+      {showAlert && (
         <div className="fixed inset-0 flex items-center justify-center z-50 bg-gray-900 bg-opacity-60 backdrop-blur-md">
           <div className="bg-red-600 text-white p-6 rounded-2xl shadow-2xl flex items-center space-x-4 animate-pulse max-w-sm w-full border border-red-800">
             <img
@@ -244,24 +264,27 @@ const Hito = ({ selectedLink }) => {
         </div>
       )}
 
-
       {selectedLink ? (
         <>
-        {isLoading && (
-        <div className="loader-container absolute top-10 left-0 w-full h-[150px] flex flex-col justify-center items-center bg-black bg-opacity-5 backdrop-blur-sm  z-50">
-          <div className="flex flex-col items-center">
-            
-            
-          </div>
-        </div>
-      )}
+          {isLoading && (
+            <div className="loader-container absolute top-10 left-0 w-full h-[150px] flex flex-col justify-center items-center bg-black bg-opacity-5 backdrop-blur-sm z-50">
+              <div className="flex flex-col items-center">
+                {/* Loader */}
+              </div>
+            </div>
+          )}
+
           {selectedLink.url.includes('quizlet.com') ? (
             <>
               {showModal && (
                 <div className="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-50 z-50">
                   <div className="bg-white p-6 rounded-lg shadow-lg text-center max-w-sm w-full">
-                    <h2 className="text-xl font-semibold text-blue-600">Abriendo Quizlet...</h2>
-                    <p className="mt-4 text-gray-600">Estamos preparando todo para ti. Por favor, espera un momento.</p>
+                    <h2 className="text-xl font-semibold text-blue-600">
+                      Abriendo Quizlet...
+                    </h2>
+                    <p className="mt-4 text-gray-600">
+                      Estamos preparando todo para ti. Por favor, espera un momento.
+                    </p>
                     <div className="mt-4">
                       <img
                         src="https://i.ibb.co/cDR4rhr/My-english-bro-Personajek-10.png"
@@ -275,40 +298,39 @@ const Hito = ({ selectedLink }) => {
 
               {popupBlocked && (
                 <div className="text-center text-red-600 mt-4">
-                  <p>El popup ha sido bloqueado. Por favor, permite popups en tu navegador.</p>
+                  <p>
+                    El popup ha sido bloqueado. Por favor, permite popups en tu
+                    navegador.
+                  </p>
                 </div>
               )}
             </>
           ) : (
             <div className="relative flex bg-[#1c1c24] p-4 rounded-2xl shadow-lg">
-      {/* Botón para abrir el notepad */}
-      <button
-  onClick={() => setShowNotepad(!showNotepad)}
-  className="absolute left-[-60px] top-10 bg-gradient-to-r from-[#0d0d15] to-[#1a1a28] text-white px-4 py-3 rounded-lg shadow-[0_4px_15px_rgba(0, 74, 173, 0.4), 0_4px_25px_rgba(0, 31, 63, 0.6)] hover:bg-gradient-to-r hover:from-[#1E90FF] hover:to-[#0073E6] transition-all duration-300 ease-in-out"
->
-  📝
-</button>
+              {/* Botón para abrir el notepad */}
+              <button
+            onClick={() => setShowNotepad(!showNotepad)}
+            className="absolute left-[-20px] top-28 flex items-center justify-center w-10 h-10 bg-white/30 backdrop-blur-md rounded-full shadow-md hover:bg-white/40 transition duration-300 z-50"
+          >
+            <FiPenTool className="text-white" size={20} />
+          </button> 
 
-
-<div
-  className="relative w-full h-[450px] rounded-3xl overflow-hidden"
+              <div
+                className={`relative w-full ${isFullscreen ? "h-[920px]" : "h-[450px]"} rounded-3xl overflow-hidden`}
   style={{
     backgroundImage: 'linear-gradient(135deg, rgb(0, 74, 173), rgb(0, 31, 63))',
-    color: 'rgb(255, 255, 255)', // Color blanco para el texto
-    boxShadow: '0 4px 20px rgba(0, 74, 173, 0.4), 0 0 40px rgba(0, 31, 63, 0.6)', // Sombra moderna más difusa
-    transition: 'all 0.3s ease-in-out', // Transición suave para cambios
+    color: 'rgb(255, 255, 255)',
+    boxShadow: '0 4px 20px rgba(0,74,173,0.4), 0 0 40px rgba(0,31,63,0.6)',
+    transition: 'all 0.3s ease-in-out',
   }}
->  {/* Carga animada */}
-  {isLoading && (
-    <div className="absolute inset-0 flex items-center justify-center bg-gray-900">
-      <span className="animate-spin h-12 w-12 mt-1 border-4 border-t-transparent border-purple-500 rounded-full"></span>
-    </div>
-  )}
+              >
+                {isLoading && (
+                  <div className="absolute inset-0 flex items-center justify-center bg-gray-900">
+                    <span className="animate-spin h-12 w-12 mt-1 border-4 border-t-transparent border-purple-500 rounded-full"></span>
+                  </div>
+                )}
 
- 
-
-  {/* Iframe con efectos de portal */}
-  <iframe
+                <iframe
     src={getEmbedUrl(selectedLink.url)}
     title={selectedLink.titulo}
     className={`w-full h-full transition-opacity duration-500 ${isLoading ? "opacity-0" : "opacity-100"}`}
@@ -320,35 +342,51 @@ const Hito = ({ selectedLink }) => {
       transition: "transform 0.3s ease-in-out",
     }}
   ></iframe>
-</div>
+              </div>
 
-
-{showNotepad && (
+              {showNotepad && (
   <div
-  className={`fixed top-0 ${isExpanded ? "left-[50px] top-20 w-[1050px] h-[480px]" : "left-[50px] top-20 w-[300px] h-[450px]"} bg-gradient-to-r from-[#0d0d15] to-[#1a1a28] border border-transparent rounded-lg shadow-[0_4px_15px_rgba(0, 74, 173, 0.6), 0_4px_30px_rgba(0, 31, 63, 0.4)] p-4 flex flex-col text-white transition-all duration-300`}
-  style={{ zIndex: 9999 }}
+    className={`fixed top-0 ${
+      isExpanded ? "left-[50px] top-20 w-[1050px] h-[480px]" : "left-[50px] top-20 w-[300px] h-[450px]"
+    } bg-white/10 backdrop-blur-xl border border-white/20 rounded-xl shadow-xl p-4 flex flex-col text-white transition-all duration-300`}
+    style={{ zIndex: 9999 }}
+  >
+    {/* Barra de herramientas */}
+    <div className="flex items-center space-x-2 mb-3">
+    <select
+  value={fontSize}
+  onChange={(e) => setFontSize(e.target.value)}
+  className="px-2 py-1 bg-white text-black rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 transition"
 >
+  <option value="30">30</option>
+  <option value="40">40</option>
+  <option value="50">50</option>
+  <option value="60">60</option>
+  <option value="70">70</option>
+</select>
 
-    {/* Botones de formato */}
-    <div className="flex space-x-2 mb-2">
-      <select
-        onChange={(e) => document.execCommand("fontSize", false, e.target.value)}
-        className="px-2 py-1 bg-gray-800 text-white rounded"
+      <button
+        onClick={() => document.execCommand("bold")}
+        className="px-2 py-1 bg-white/20 text-white rounded border border-white/20 hover:bg-white/30 transition"
       >
-        <option value="1">Small</option>
-        <option value="3" selected>Medium</option>
-        <option value="5">Big</option>
-      </select>
-
-      <button onClick={() => document.execCommand("bold")} className="px-2 py-1 text-white bg-purple-600 rounded hover:bg-purple-700">B</button>
-      <button onClick={() => document.execCommand("italic")} className="px-2 py-1 text-white bg-purple-600 rounded hover:bg-purple-700">I</button>
-      <button onClick={() => document.execCommand("underline")} className="px-2 py-1 text-white bg-purple-600 rounded hover:bg-purple-700">U</button>
-      <button onClick={() => document.execCommand("backColor", false, "#FFFF00")} className="px-2 py-1 text-black bg-yellow-400 rounded hover:bg-yellow-500">H</button>
+        B
+      </button>
+      <button
+        onClick={() => document.execCommand("italic")}
+        className="px-2 py-1 bg-white/20 text-white rounded border border-white/20 hover:bg-white/30 transition"
+      >
+        I
+      </button>
+      <button
+        onClick={() => document.execCommand("underline")}
+        className="px-2 py-1 bg-white/20 text-white rounded border border-white/20 hover:bg-white/30 transition"
+      >
+        U
+      </button>
     </div>
-
-    {/* Área editable con scroll mejorado */}
+    {/* Área editable */}
     <div
-      className="w-full flex-grow p-2 border border-gray-700 rounded-lg text-white bg-[#1c1c24] overflow-auto"
+      className="w-full flex-grow p-3 border border-white/20 rounded-lg text-gray bg-[#1c1c24] bg-opacity-70 overflow-auto transition"
       contentEditable
       placeholder="Take notes here..."
       onInput={(e) => setNotes(e.target.innerHTML)}
@@ -357,118 +395,131 @@ const Hito = ({ selectedLink }) => {
         maxHeight: isExpanded ? "300px" : "550px",
         outline: "none",
         fontFamily: "Inter, sans-serif",
-        fontSize: "14px",
+        fontSize: `${fontSize}px`,
         wordWrap: "break-word",
         whiteSpace: "pre-wrap",
         overflowX: "auto",
       }}
     ></div>
-
-   {/* Contenedor de botones */}
-<div className="mt-2 flex justify-end space-x-2">
-  {/* Botón de impresión */}
-  <button
-    onClick={printNotes}
-    className="p-2 bg-green-600 text-white rounded-full shadow hover:bg-green-700 transition"
-    title="Print Notes"
-  >
-    🖨️
-  </button>
-
-  {/* Botón para expandir/cerrar */}
-  <button
-    onClick={() => setIsExpanded(!isExpanded)}
-    className="p-2 bg-blue-600 text-white rounded-full shadow hover:bg-blue-700 transition"
-    title={isExpanded ? "Collapse" : "Expand"}
-  >
-    {isExpanded ? "🔽" : "🔼"}
-  </button>
-</div>
-
-  </div>
-)}
-
-
-</div>
-    
-          )}
-
-          {selectedLink.url.includes('drive.google.com') && !isCodeValid && (
-  <div
-    onClick={() => setShowModal(true)} // Abre el modal al hacer clic
-    className="absolute top-4 right-4 w-[100px] h-[100px] bg-black/75 text-white rounded-full flex items-center justify-center z-10 cursor-pointer shadow-lg"
-  >
-    <p className="text-xs text-center font-semibold">
-      🔒 Premium<br />Content
-    </p>
-  </div>
-)}
-
-
-{showModal && (
-  <div className="fixed inset-0 bg-black/60 backdrop-blur-md flex items-center justify-center z-30">
-    <div className="bg-gray-900 w-[280px] p-6 rounded-2xl shadow-xl text-center text-white border border-gray-700">
-      <p className="text-base font-semibold flex items-center justify-center gap-2">
-        🔒 <span>Enter Code</span>
-      </p>
-      <p className="text-sm text-gray-400 mt-2">
-        Please enter the access code to unlock.
-      </p>
-      <input
-        type="text"
-        placeholder="Enter your code"
-        value={enteredCode}
-        onChange={(e) => setEnteredCode(e.target.value)}
-        className="mt-4 px-4 py-2 rounded-lg border border-gray-600 bg-gray-800 text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-400 w-full"
-      />
+    {/* Botones de acción */}
+    <div className="mt-3 flex justify-end space-x-2">
       <button
-        onClick={() => {
-          handleCodeSubmit();
-          setShowModal(false);
-        }}
-        className="mt-4 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm w-full font-medium shadow-md transition-all duration-200 transform hover:scale-105"
+        onClick={printNotes}
+        className="p-2 bg-white/30 backdrop-blur-md text-white-600 rounded-full shadow-md hover:bg-white/40 transition duration-200"
+        title="Print Notes"
       >
-        Submit
+        <FiPrinter size={20} />
       </button>
-      {error && <p className="text-red-400 text-xs mt-2">{error}</p>}
       <button
-        onClick={() => setShowModal(false)}
-        className="mt-4 text-gray-400 text-sm underline hover:text-white transition-colors"
+        onClick={() => setIsExpanded(!isExpanded)}
+        className="p-2 bg-white/30 backdrop-blur-md text-white-600 rounded-full shadow-md hover:bg-white/40 transition duration-200"
+        title={isExpanded ? "Collapse" : "Expand"}
       >
-        Cancel
+        {isExpanded ? <FiMinimize size={20} /> : <FiMaximize size={20} />}
       </button>
     </div>
   </div>
 )}
 
-{isCodeValid && (
-  <div
-    className="absolute top-4 right-4 w-[160px] h-[160px] bg-white/30 shadow-xl rounded-2xl flex flex-col items-center justify-center z-20 p-4 backdrop-blur-lg border border-white/20 transition-all duration-300"
+
+            </div>
+          )}
+
+          {selectedLink.url.includes('drive.google.com') && !isCodeValid && (
+            <div
+    onClick={() => setShowModal(true)}
+    className="absolute top-4 right-4 flex items-center justify-center w-20 h-20 bg-black/75 rounded-full z-10 cursor-pointer shadow-lg transition hover:bg-black/90"
   >
-    <p className="text-sm font-semibold text-gray-800 text-center mb-2 flex items-center gap-1">
-      <span className="text-green-500 text-lg">✔</span> Access Granted
-    </p>
-    <button
-      onClick={() => {
-        const popup = window.open(selectedLink.url, 'PDFViewer', 'width=600,height=800');
-        if (!popup) {
-          alert('Popup blocked! Please allow popups for this site.');
-        }
-        setIsCodeValid(false);
-        setEnteredCode('');
-      }}
-      className="bg-green-600 hover:bg-green-700 text-white px-3 py-1.5 rounded-lg text-xs w-full font-medium shadow-md transition-all duration-200 transform hover:scale-105"
-    >
-      View PDF
-    </button>
+    <FiLock className="text-white" size={20} />
   </div>
-)}
+          )}
 
+          {showModal && (
+            <div className="fixed inset-0 bg-black/60 backdrop-blur-md flex items-center justify-center z-30">
+              <div className="bg-gray-900 w-[280px] p-6 rounded-2xl shadow-xl text-center text-white border border-gray-700">
+                <p className="text-base font-semibold flex items-center justify-center gap-2">
+                  🔒 <span>Enter Code</span>
+                </p>
+                <p className="text-sm text-gray-400 mt-2">
+                  Please enter the access code to unlock.
+                </p>
+                <input
+                  type="text"
+                  placeholder="Enter your code"
+                  value={enteredCode}
+                  onChange={(e) => setEnteredCode(e.target.value)}
+                  className="mt-4 px-4 py-2 rounded-lg border border-gray-600 bg-gray-800 text-white text-sm focus:outline-none focus:ring-2 focus:ring-blue-400 w-full"
+                />
+                <button
+                  onClick={() => {
+                    handleCodeSubmit();
+                    setShowModal(false);
+                  }}
+                  className="mt-4 bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg text-sm w-full font-medium shadow-md transition-all duration-200 transform hover:scale-105"
+                >
+                  Submit
+                </button>
+                {error && <p className="text-red-400 text-xs mt-2">{error}</p>}
+                <button
+                  onClick={() => setShowModal(false)}
+                  className="mt-4 text-gray-400 text-sm underline hover:text-white transition-colors"
+                >
+                  Cancel
+                </button>
+              </div>
+            </div>
+          )}
 
+          {isCodeValid && (
+            <div className="absolute top-4 right-4 w-[160px] h-[160px] bg-white/30 shadow-xl rounded-2xl flex flex-col items-center justify-center z-20 p-4 backdrop-blur-lg border border-white/20 transition-all duration-300">
+              <p className="text-sm font-semibold text-gray-800 text-center mb-2 flex items-center gap-1">
+                <span className="text-green-500 text-lg">✔</span> Access Granted
+              </p>
+              <button
+                onClick={() => {
+                  const popup = window.open(selectedLink.url, 'PDFViewer', 'width=600,height=800');
+                  if (!popup) {
+                    alert('Popup blocked! Please allow popups for this site.');
+                  }
+                  setIsCodeValid(false);
+                  setEnteredCode('');
+                }}
+                className="bg-green-600 hover:bg-green-700 text-white px-3 py-1.5 rounded-lg text-xs w-full font-medium shadow-md transition-all duration-200 transform hover:scale-105"
+              >
+                View PDF
+              </button>
+            </div>
+          )}
         </>
       ) : (
-        <p className="text-center text-gray-500">Selecciona un enlace para visualizar el contenido.</p>
+        <p className="text-center text-gray-500">
+          Selecciona un enlace para visualizar el contenido.
+        </p>
       )}
+
+      {/* Botón para activar/desactivar la caja de texto */}
+      <button
+  onClick={() => setTextMode(!textMode)}
+  className="absolute top-4 left-1 flex items-center justify-center w-10 h-10 bg-white/30 backdrop-blur-md rounded-full z-50 shadow-md transition-all duration-300"
+>
+  {textMode ? <FiX className="text-white" size={20} /> : <FiEdit className="text-white" size={20} />}
+</button>
+
+      {/* Botón para pantalla completa */}
+      <button
+  onClick={toggleFullscreen}
+  className="absolute  left-[-6px] top-15 flex items-center justify-center w-10 h-10 bg-white/30 backdrop-blur-md rounded-full shadow-md hover:bg-white/40 transition duration-300 z-50"
+>
+  <FiMaximize className="text-white-600" size={20} />
+      </button>
+
+      {/* Componente de caja de texto */}
+      <TextBoxOverlay
+        active={textMode}
+        onClose={() => setTextMode(false)}
+        text={overlayText}
+        setText={setOverlayText}
+      />
     </div>
   );
 };

@@ -2,8 +2,32 @@ export const roadB2 = [
     {
         id: 99,
         thumbnail:
-            "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
-        title: "GUIAS MAESTRIA GRAMMAR ",
+            "https://i.ibb.co/6JrNL8Js/DALL-E-2025-02-27-11-08-55-A-surreal-battlefield-where-students-are-fighting-against-English-grammar.webp",
+        title: "Essential Vocabulary  ",
+        subtitle: "Nivel Básico ",
+    
+        dateAdded: "Basic 0 ",
+        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
+        description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
+        enlaces: [
+           
+           
+          
+            {  titulo:" Bloque 01 ", url: "https://drive.google.com/file/d/1S8x1T_F486L1hYbyPdTeL4rvx-uQXGEt/view?usp=sharing  "},
+
+            {  titulo:" Bloque 02 ", url: " https://drive.google.com/file/d/1CA7Ub9WI-QKTBXhZI2S6yBrQV5gez1Jy/view?usp=sharing "},
+            {  titulo:" Bloque 03 ", url: " https://drive.google.com/file/d/1ETAjorHO8WFszYjEi6b_G6e8FM4i6y6N/view?usp=sharing "},
+            {  titulo:" Bloque 04 ", url: " https://drive.google.com/file/d/1uvJn25j4BA2gtkdvJZ5qvdY9GZs9Th0_/view?usp=sharing "},
+
+
+
+        ],
+    },
+    {
+        id: 99,
+        thumbnail:
+            "https://i.ibb.co/XftB6PSR/DALL-E-2025-02-27-11-10-10-A-surreal-and-dynamic-scene-of-students-leveling-up-and-gaining-power-in.webp",
+        title: "Grammar Syntax ",
         subtitle: "Nivel Básico ",
     
         dateAdded: "Basic 0 ",
