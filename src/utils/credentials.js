@@ -6,6 +6,7 @@ export const validCredentials = [
     
       { nivel:"Suscriptor",usuario: 'youtube', password: '2025', realname: 'Estudiante Autodidacta', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
 
+      { nivel:"Prueba Gratuira",usuario: 'prueba', password: 'gratuita', realname: 'Prueba Gratuita', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
 
     
     
