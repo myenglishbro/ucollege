@@ -84,5 +84,6 @@ export const validCredentials = [
 
        //mayo
        { expirationDate:"19/05/25",nivel:"B2",usuario: 'fabricio', password: 'paltan', realname: 'Fabricio Paltan', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
+       { expirationDate:"01/05/25",nivel:"B2",usuario: 'vania', password: 'cajavilca', realname: 'Vania Cajavica', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
 
     ];
