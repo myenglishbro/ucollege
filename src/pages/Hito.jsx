@@ -20,7 +20,7 @@ const Hito = ({ selectedLink }) => {
   const [notes, setNotes] = useState("");
   const [isExpanded, setIsExpanded] = useState(false);
 
-  const [fontSize, setFontSize] = useState(14);
+  const [fontSize, setFontSize] = useState(18);
 
   // Estado para la caja de texto
   const [textMode, setTextMode] = useState(false);
@@ -182,16 +182,16 @@ const Hito = ({ selectedLink }) => {
       const fileId = url.split('/d/')[1]?.split('/')[0];
       return `https://drive.google.com/file/d/${fileId}/preview`;
     }
-    if (url.includes('forms.office.com')) {
-      if (url.includes('/r/')) {
-        return url.replace('/r/', '/Pages/ResponsePage.aspx?id=') + '&embed=true';
+    if (url.includes("forms.office.com")) {
+      if (url.includes("/r/")) {
+        return url.replace("/r/", "/Pages/ResponsePage.aspx?id=") + "&embed=true";
       }
-      return url.includes('&embed=true') ? url : url + '&embed=true';
+      return url.includes("&embed=true") ? url : url + "&embed=true";
     }
-    if (url.includes('flippity.net')) {
-      return `https://www.flippity.net/fc.php?k=${url.split('k=')[1]}`;
+    if (url.includes("flippity.net")) {
+      return `https://www.flippity.net/fc.php?k=${url.split("k=")[1]}`;
     }
-    return '';
+    return url; // Retorna la URL original para otros enlaces.
   };
 
   const openPopup = (url) => {
@@ -347,23 +347,25 @@ const Hito = ({ selectedLink }) => {
               {showNotepad && (
   <div
     className={`fixed top-0 ${
-      isExpanded ? "left-[50px] top-20 w-[1050px] h-[480px]" : "left-[50px] top-20 w-[300px] h-[450px]"
+      isExpanded
+        ? "left-[50px] top-20 w-[1050px] h-[480px]"
+        : "left-[50px] top-20 w-[300px] h-[450px]"
     } bg-white/10 backdrop-blur-xl border border-white/20 rounded-xl shadow-xl p-4 flex flex-col text-white transition-all duration-300`}
     style={{ zIndex: 9999 }}
   >
     {/* Barra de herramientas */}
     <div className="flex items-center space-x-2 mb-3">
-    <select
-  value={fontSize}
-  onChange={(e) => setFontSize(e.target.value)}
-  className="px-2 py-1 bg-white text-black rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 transition"
->
-  <option value="30">30</option>
-  <option value="40">40</option>
-  <option value="50">50</option>
-  <option value="60">60</option>
-  <option value="70">70</option>
-</select>
+      <select
+        value={fontSize}
+        onChange={(e) => setFontSize(e.target.value)}
+        className="px-2 py-1 bg-white text-black rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 transition"
+      >
+        <option value="30">30</option>
+        <option value="40">40</option>
+        <option value="50">50</option>
+        <option value="60">60</option>
+        <option value="70">70</option>
+      </select>
 
       <button
         onClick={() => document.execCommand("bold")}
@@ -383,12 +385,15 @@ const Hito = ({ selectedLink }) => {
       >
         U
       </button>
+
+    
     </div>
+
     {/* Área editable */}
     <div
-      className="w-full flex-grow p-3 border border-white/20 rounded-lg text-gray bg-[#1c1c24] bg-opacity-70 overflow-auto transition"
+      className="w-full flex-grow p-3 border border-white/20 rounded-lg bg-[#1c1c24] bg-opacity-70 overflow-auto transition leading-relaxed"
       contentEditable
-      placeholder="Take notes here..."
+      placeholder="Toma notas aquí..."
       onInput={(e) => setNotes(e.target.innerHTML)}
       style={{
         minHeight: isExpanded ? "350px" : "250px",
@@ -399,27 +404,30 @@ const Hito = ({ selectedLink }) => {
         wordWrap: "break-word",
         whiteSpace: "pre-wrap",
         overflowX: "auto",
+        lineHeight: "1.6", // Interlineado mejorado
       }}
     ></div>
+
     {/* Botones de acción */}
     <div className="mt-3 flex justify-end space-x-2">
       <button
         onClick={printNotes}
-        className="p-2 bg-white/30 backdrop-blur-md text-white-600 rounded-full shadow-md hover:bg-white/40 transition duration-200"
-        title="Print Notes"
+        className="p-2 bg-white/30 backdrop-blur-md text-white rounded-full shadow-md hover:bg-white/40 transition duration-200"
+        title="Imprimir Notas"
       >
         <FiPrinter size={20} />
       </button>
       <button
         onClick={() => setIsExpanded(!isExpanded)}
-        className="p-2 bg-white/30 backdrop-blur-md text-white-600 rounded-full shadow-md hover:bg-white/40 transition duration-200"
-        title={isExpanded ? "Collapse" : "Expand"}
+        className="p-2 bg-white/30 backdrop-blur-md text-white rounded-full shadow-md hover:bg-white/40 transition duration-200"
+        title={isExpanded ? "Contraer" : "Expandir"}
       >
         {isExpanded ? <FiMinimize size={20} /> : <FiMaximize size={20} />}
       </button>
     </div>
   </div>
 )}
+
 
 
             </div>

@@ -3,6 +3,39 @@ export const roadB2 = [
         id: 1,
         thumbnail: "https://i.ibb.co/HpK9sf9d/DALL-E-2025-02-26-11-46-59-An-epic-battle-between-two-warriors-representing-Present-Simple-and-Prese.webp",
 
+        title: "Kit del Estudiante",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Completa los desafíos para dominar el Inglés",
+        enlaces: [
+           
+            { titulo:"🎬 Introduccion ",url: "https://youtu.be/C9jsb_4RVyE"},
+            { titulo:"🎬 Present Progressive Uso 01",url: "https://youtu.be/vKi-SGeme-w"},
+            {  titulo:"[📑 Present Progressive en Uso", url: "https://drive.google.com/file/d/15m5KpSZhu7Q1vop2-MiqlARFmY8jLx9u/view?usp=sharing"},
+            {  titulo:"[📑 Present Simple en Uso", url: "https://drive.google.com/file/d/1uosvGKLwegu9ECo9TZTG3uJd79ku4_G2/view?usp=sharing"},
+            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/19FdH7nnsqL0Ez9siyiFv3PCEvt4EknFv/view?usp=sharing", },
+            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1HRBxbp2b_5kcObTcgjMDmRKXH-xW0O4M/view?usp=sharing", },
+          
+            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1aAeXIW3wmnJwJjUTcCE6m7PV9aElcgeB/view?usp=sharing", },
+            { titulo: "✍ FORM Tense Simple and Progressive ",url: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__5DYD2BUMEJFTFdHTTM3V0gzREowUlJRUVkwSjBaVC4u", },
+
+            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1ugupTJWoGVpoH7q_UxAivmklT21IBsKv/view?usp=sharing", },
+            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1HlMPxx9G-eXDvAkpnoYcD_qhH8DRcUt_/view?usp=sharing", },
+            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1fQ23Xn4bXCSZJSaHGiWf5utUXeHAK0ma/view?usp=sharing", },
+            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1Gjn3DIa6xRDKcbKFvUopOvzMTA7vnW02/view?usp=sharing",url3:"https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAZAAPF2C5FUMTJFMU5UQ09VTkRXS09HREs3VVdWMk8zSy4u" },
+
+
+            
+
+
+        ],
+    },
+    {
+        id: 1,
+        thumbnail: "https://i.ibb.co/HpK9sf9d/DALL-E-2025-02-26-11-46-59-An-epic-battle-between-two-warriors-representing-Present-Simple-and-Prese.webp",
+
         title: "Present Simple or Progressive?",
         subtitle: "B2/C1",
 
@@ -1322,6 +1355,36 @@ export const roadB2 = [
             { titulo: "✍ Gerund or Infinitive Exercise  ",url: "https://drive.google.com/file/d/1FAsG76_HqxXJIftk59cJIuM-wbXupH93/view?usp=sharing", },    
             {  titulo:"[📑5 Phrasal Verbs", url: "https://www.flippity.net/fc.php?k=e/2PACX-1vTaKWxtCnp5jo1jD77xTbihIoF3TG1eUiBh8mS14kM4o64z9-bSQGfIh_MoMmbDPdrlFV-z-b8XXZgx"},
             {  titulo:"[📑sIMULACION", url: "https://learnibox.vercel.app/CambridgeExam"},
+        ],
+    },
+    {
+        id: 26,
+        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+
+        title: "Finalizacion del Curso",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Completa los desafíos para dominar el Inglés",
+        enlaces: [
+            { titulo: "Descargar Certificación",url: "learnibox.vercel.app/Certificate", },    
+         
+        ],
+    },
+    {
+        id: 26,
+        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+
+        title: "Finalizacion del Curso",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Completa los desafíos para dominar el Inglés",
+        enlaces: [
+            { titulo: "Descargar Certificación",url: "https://learnibox.vercel.apps/Certificate", },    
+         
         ],
     }
 ];

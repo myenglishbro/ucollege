@@ -46,6 +46,7 @@ import RoadMapJA1 from "./pages/inglesconelprofejuan/Rutas/RoadMapA1";
 import Bilingualwill from "./pages/bilingualwill/Bilingualwill";
 import RoadMapB from "./pages/bilingualwill/Rutas/RoadMapB";
 import CambridgeExam from "./pages/CambridgeExam";
+import Certificate from "./pages/Certificate";
 
 function App() {
   return (
@@ -83,6 +84,7 @@ function App() {
           <Route path="/RoadMapTech" element={<RoadMapTech />}></Route>
           <Route path="/Celpip" element={<RoadMapCelpip />}></Route>
           <Route path="/Enam" element={<RoadMapEnam />}></Route>
+          <Route path="/Certificate" element={<Certificate />}></Route>
 
         
         
