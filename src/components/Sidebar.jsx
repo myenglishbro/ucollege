@@ -123,7 +123,7 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
         ☰
       </button>
 
-      <div className={`sidebar ${isSidebarVisible ? 'visible' : ''} bg-gray-800 text-white w-72 h-full fixed shadow-lg`}>
+      <div className={`sidebar ${isSidebarVisible ? 'visible' : ''} bg-gray-800 text-white w-72 h-full fixed shadow-lg overflow-y-auto custom-scrollbar`}>
         <div className="timer-container">
           <h2 className="timer-title">⏱ Timer</h2>
           <div className="timer-progress">
@@ -239,26 +239,25 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
               <>
                 {elemento.code && !unlockedItems.includes(elemento.id) ? (
                   <div className="code-input-container p-4 bg-gradient-to-br from-gray-800 to-gray-700 rounded-lg shadow-md">
-  <p className="text-sm text-gray-300 mb-2">
-    Obtén el código desarrollando el examen del nivel anterior
-  </p>
-  <input
-    type="text"
-    placeholder="Ingresa el código"
-    value={codeInputs[index] || ""}
-    onChange={(e) =>
-      setCodeInputs({ ...codeInputs, [index]: e.target.value })
-    }
-    className="p-2 rounded w-full text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
-  />
-  <button
-    onClick={() => handleValidateCode(index, elemento)}
-    className="mt-2 bg-gradient-to-r from-blue-500 to-indigo-500 hover:from-blue-600 hover:to-indigo-600 text-white py-2 px-4 rounded w-full transition-all"
-  >
-    Enviar código
-  </button>
-</div>
-
+                    <p className="text-sm text-gray-300 mb-2">
+                      Obtén el código desarrollando el examen del nivel anterior
+                    </p>
+                    <input
+                      type="text"
+                      placeholder="Ingresa el código"
+                      value={codeInputs[index] || ""}
+                      onChange={(e) =>
+                        setCodeInputs({ ...codeInputs, [index]: e.target.value })
+                      }
+                      className="p-2 rounded w-full text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    />
+                    <button
+                      onClick={() => handleValidateCode(index, elemento)}
+                      className="mt-2 bg-gradient-to-r from-blue-500 to-indigo-500 hover:from-blue-600 hover:to-indigo-600 text-white py-2 px-4 rounded w-full transition-all"
+                    >
+                      Enviar código
+                    </button>
+                  </div>
                 ) : (
                   <div className="accordion-content">
                     {elemento.enlaces.map((enlace, i) => (
