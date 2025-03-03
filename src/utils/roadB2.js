@@ -1,34 +1,57 @@
 export const roadB2 = [
     {
         id: 1,
-        thumbnail: "https://i.ibb.co/HpK9sf9d/DALL-E-2025-02-26-11-46-59-An-epic-battle-between-two-warriors-representing-Present-Simple-and-Prese.webp",
+        thumbnail: "https://i.ibb.co/4CTCgND/DALL-E-2025-03-03-10-24-24-A-high-quality-digital-illustration-of-a-young-warrior-student-battling-t.webp",
 
-        title: "Kit del Estudiante",
+        title: "Week 01",
         subtitle: "B2/C1",
 
         dateAdded: "Basic 01 ",
         channel: "sdasd",
         description: "Completa los desafíos para dominar el Inglés",
         enlaces: [
-           
-            { titulo:"🎬 Introduccion ",url: "https://youtu.be/C9jsb_4RVyE"},
-            { titulo:"🎬 Present Progressive Uso 01",url: "https://youtu.be/vKi-SGeme-w"},
-            {  titulo:"[📑 Present Progressive en Uso", url: "https://drive.google.com/file/d/15m5KpSZhu7Q1vop2-MiqlARFmY8jLx9u/view?usp=sharing"},
-            {  titulo:"[📑 Present Simple en Uso", url: "https://drive.google.com/file/d/1uosvGKLwegu9ECo9TZTG3uJd79ku4_G2/view?usp=sharing"},
-            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/19FdH7nnsqL0Ez9siyiFv3PCEvt4EknFv/view?usp=sharing", },
-            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1HRBxbp2b_5kcObTcgjMDmRKXH-xW0O4M/view?usp=sharing", },
+            { titulo:"Saxon genitive",url: "https://drive.google.com/file/d/1vRBsRnPMX_9m_wNUkAvs2phvuR8DYHqD/view?usp=sharing",url3:"https://drive.google.com/file/d/18PItis9izfn8oMa-2V91VTX3SQq9W2Tq/view?usp=sharing"},
+            { titulo:"Saxon vs Of",url: "https://drive.google.com/file/d/1LeR_MDZFr_BJhZ3fu16vg6eUuvUQri3o/view?usp=sharing"},
+
+            { titulo:"Vocabulary 01",url: "https://drive.google.com/file/d/17OdvZytOobwQmpNyA5boo4a7SUfBnJtC/view?usp=sharing",url3:"https://drive.google.com/file/d/1mre82d_iD2qyoDP9IG6nmGGNooLOnlK5/view?usp=sharing"},
+            { titulo:" Common Binomials",url: "https://drive.google.com/file/d/1LgAKdAj0ftr1PIN46d4aAdBLuiyEdaPl/view?usp=sharing", url3:"https://drive.google.com/file/d/1Tg8SJHCNLodO3LwoMm8Y0qepMvDzUNMh/view?usp=sharing"},
+            { titulo:"Be up TO & FOR",url: "https://drive.google.com/file/d/1xzD1SJQbZJ1aAxkM0jljNOAE2tPD_FYz/view?usp=sharing"},
+
+
+        ],
+    },
+    {
+        id: 2,
+        thumbnail: "https://i.ibb.co/chjzRzhM/DALL-E-2025-03-03-10-26-54-A-high-quality-digital-illustration-of-a-young-warrior-student-advancing.webp",
+
+        title: "Week 02",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Completa los desafíos para dominar el Inglés",
+        enlaces: [
+            { titulo:"📚already/still/yet  ",url: "https://drive.google.com/file/d/126LmouA8outgNhw5x6wUcZI3F4tT1v4j/view?usp=sharing"},
+
+            { titulo:"📚That's why - that's because.pdf",url: "https://drive.google.com/file/d/1-VKBz1cVT8zW1yZFf1QYGry984MX7BML/view?usp=sharing"},
+            { titulo:"📚Among vs Between",url: "https://drive.google.com/file/d/1cpk7V_8qdxoX8VUpZYRT5zq_9GrCoWzc/view?usp=sharing",url3:"https://drive.google.com/file/d/1oL-Hu8nnXahjVI0gUZlN7YZWqVw5bkBC/view?usp=sharing"},
+
+            { titulo:"📚between you and me vs between you and I",url: "https://drive.google.com/file/d/1cpk7V_8qdxoX8VUpZYRT5zq_9GrCoWzc/view?usp=sharing",url3:"https://drive.google.com/file/d/1oL-Hu8nnXahjVI0gUZlN7YZWqVw5bkBC/view?usp=sharing"},
+
+        ],
+    },
+    {
+        id: 3,
+        thumbnail: "https://i.ibb.co/ch3pNKdT/DALL-E-2025-03-03-10-19-48-A-high-quality-digital-illustration-of-a-young-warrior-student-training-i.webp",
+
+        title: "Week 03",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Completa los desafíos para dominar el Inglés",
+        enlaces: [
           
-            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1aAeXIW3wmnJwJjUTcCE6m7PV9aElcgeB/view?usp=sharing", },
-            { titulo: "✍ FORM Tense Simple and Progressive ",url: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__5DYD2BUMEJFTFdHTTM3V0gzREowUlJRUVkwSjBaVC4u", },
-
-            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1ugupTJWoGVpoH7q_UxAivmklT21IBsKv/view?usp=sharing", },
-            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1HlMPxx9G-eXDvAkpnoYcD_qhH8DRcUt_/view?usp=sharing", },
-            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1fQ23Xn4bXCSZJSaHGiWf5utUXeHAK0ma/view?usp=sharing", },
-            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1Gjn3DIa6xRDKcbKFvUopOvzMTA7vnW02/view?usp=sharing",url3:"https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAZAAPF2C5FUMTJFMU5UQ09VTkRXS09HREs3VVdWMk8zSy4u" },
-
-
-            
-
 
         ],
     },
@@ -400,7 +423,6 @@ export const roadB2 = [
             { titulo:"📚Chance of-Chance to... ",url: "https://drive.google.com/file/d/18otkt_PTLMwlZGqs4rBnXRMdhz48xUaS/view?usp=sharing"},
             { titulo:"📚ASK FOR - ASK AFTER - ASK ABOUT",url: "https://drive.google.com/file/d/1gkbuIZJ6sRy1jro8NPpOZLKO4p7naizC/view?usp=sharing"},
             { titulo:"📚no good vs not good.pdf",url: "https://drive.google.com/file/d/1-5MHEN322Xi2xUYpDWYU115P2NXYQzdr/view?usp=sharing"},
-            { titulo:"📚BE UP TO _ BE UP FOR",url: "https://drive.google.com/file/d/1xzD1SJQbZJ1aAxkM0jljNOAE2tPD_FYz/view?usp=sharing"},
             { titulo:"📚WORK OUT - phrasal verb .pdf",url: "https://drive.google.com/file/d/1xW2Dsg0x1yQr5H04JIqLq7FjL3BecD97/view?usp=sharing"},
             { titulo:"📚[ppt] Used to/ be used to / get used to   ",url: "https://drive.google.com/file/d/1t9c1CP7VuTePAYy00qC3r85qRNoBM-7v/view?usp=sharing"},
             { titulo:"📚[Slide] Wait ,Await, Expect ",url: "https://drive.google.com/file/d/1C1llJJ8yFX0i5pxSnTMUWPIjmNvISnHB/view?usp=sharing"},
@@ -409,26 +431,7 @@ export const roadB2 = [
             
         ],
     },
-    {
-        id: 5,
-        thumbnail:"https://i.ibb.co/b53R08DX/file-BEBHv-Yhkgbs-E4pxzmsb5-Sd.png",
-
-        title: "Real Grammar in Use 03 ",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 0 ",
-        channel: "sdasd",
-        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
-        enlaces: [
-            { titulo:"📚already/still/yet  ",url: "https://drive.google.com/file/d/126LmouA8outgNhw5x6wUcZI3F4tT1v4j/view?usp=sharing"},
-
-            { titulo:"📚That's why - that's because.pdf",url: "https://drive.google.com/file/d/1-VKBz1cVT8zW1yZFf1QYGry984MX7BML/view?usp=sharing"},
-            { titulo:"📚Among vs Between",url: "https://drive.google.com/file/d/1cpk7V_8qdxoX8VUpZYRT5zq_9GrCoWzc/view?usp=sharing",url3:"https://drive.google.com/file/d/1oL-Hu8nnXahjVI0gUZlN7YZWqVw5bkBC/view?usp=sharing"},
-
-            { titulo:"📚between you and me vs between you and I",url: "https://drive.google.com/file/d/1cpk7V_8qdxoX8VUpZYRT5zq_9GrCoWzc/view?usp=sharing",url3:"https://drive.google.com/file/d/1oL-Hu8nnXahjVI0gUZlN7YZWqVw5bkBC/view?usp=sharing"},
-
-        ],
-    },
+    
     {
         id: 2,
         thumbnail:"https://i.ibb.co/vcMnX0n/B2-FIRST-17.png",
@@ -822,7 +825,6 @@ export const roadB2 = [
             { titulo:"📚Aren't I vs Am I not ",url: "https://drive.google.com/file/d/1DKuTnhQurzBMHVo0P0GLL_EdI3y8LMvs/view?usp=sharing"},
             { titulo:"📚AS...AS... vs NOT SO...AS..",url: "https://drive.google.com/file/d/1VLCJlD5Tgn9XU3oUo05emwf23WkT5XQ8/view?usp=sharing"},
             { titulo:"📚Future Plans- be going to vs present continuous",url: "https://drive.google.com/file/d/1Ov96Gz7ZEr3wDsnwDXF15q-6C8TrAPts/view?usp=sharing"},
-            { titulo:"📚25 Common Binomials",url: "https://drive.google.com/file/d/1LgAKdAj0ftr1PIN46d4aAdBLuiyEdaPl/view?usp=sharing"},
             { titulo:"📚by the time (that), by now, by then.",url: "https://drive.google.com/file/d/1VQxnXCmbei5cxZucSW8FJKBOdgMQGRmO/view?usp=sharing"},
             { titulo:"📚cannot vs can not",url: "https://drive.google.com/file/d/1CXcCzrtdDif6iBEi75d_9CFxIE6847Q4/view?usp=sharing"},
             { titulo:"📚CAUSATIVE VERBS (have - get) ",url: "https://drive.google.com/file/d/1-PErCarKwe61HtSAbgx2wtJapHkBM9bp/view?usp=sharing"},
@@ -900,7 +902,6 @@ export const roadB2 = [
 
             
             { titulo:"📚Raise vs Rise..",url: "https://drive.google.com/file/d/1K57hHa19p8k36dka59AM7pyFERFxnap2/view?usp=sharing"},
-            { titulo:"📚Saxon genitive",url: "https://drive.google.com/file/d/1vRBsRnPMX_9m_wNUkAvs2phvuR8DYHqD/view?usp=sharing"},
             { titulo:"📚sidetrack - distract - put someone off",url: "https://drive.google.com/file/d/1uXbNu9yt24xuTIVk0u60JO0lxdxT9Wt8/view?usp=sharing"},
             { titulo:"📚sign vs signal",url: "https://drive.google.com/file/d/1HhFh07shRGd8N9LoKQtuSj21YBq2TCMV/view?usp=sharing"},
             { titulo:"📚Words with Silent Letters",url: "https://drive.google.com/file/d/1eAPZFyNImLFcuMVSfvWhfJgUPj4f78jO/view?usp=sharing"},
