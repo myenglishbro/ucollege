@@ -182,16 +182,16 @@ const Hito = ({ selectedLink }) => {
       const fileId = url.split('/d/')[1]?.split('/')[0];
       return `https://drive.google.com/file/d/${fileId}/preview`;
     }
-    if (url.includes("forms.office.com")) {
-      if (url.includes("/r/")) {
-        return url.replace("/r/", "/Pages/ResponsePage.aspx?id=") + "&embed=true";
+    if (url.includes('forms.office.com')) {
+      if (url.includes('/r/')) {
+        return url.replace('/r/', '/Pages/ResponsePage.aspx?id=') + '&embed=true';
       }
-      return url.includes("&embed=true") ? url : url + "&embed=true";
+      return url.includes('&embed=true') ? url : url + '&embed=true';
     }
-    if (url.includes("flippity.net")) {
-      return `https://www.flippity.net/fc.php?k=${url.split("k=")[1]}`;
+    if (url.includes('flippity.net')) {
+      return `https://www.flippity.net/fc.php?k=${url.split('k=')[1]}`;
     }
-    return url; // Retorna la URL original para otros enlaces.
+    return '';
   };
 
   const openPopup = (url) => {

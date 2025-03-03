@@ -1383,7 +1383,7 @@ export const roadB2 = [
         channel: "sdasd",
         description: "Completa los desafíos para dominar el Inglés",
         enlaces: [
-            { titulo: "Descargar Certificación",url: "https://learnibox.vercel.apps/Certificate", },    
+            { titulo: "Descargar Certificación",url: "https://drive.google.com/file/d/1xNdjFuVgRQT55yOURQjR-c9d3ObNh8vU/view?usp=sharing", },    
          
         ],
     }
