@@ -56,7 +56,7 @@ export const validCredentials = [
 
       //  { expirationDate:"05/03/25",nivel:"solicitar examen",usuario: 'sonia', password: 'huancas', realname: 'Sonia Huancas Huancas  ', img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
       //  { expirationDate:"05/03/25",nivel:"solicitar examen",usuario: 'pilar', password: 'golac', realname: 'Pilar Golac Tenorio', img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
-      //  { expirationDate:"05/03/25",nivel:"solicitar examen",usuario: 'andrea', password: 'castro', realname: 'Andrea Castro', img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
+       { expirationDate:"05/03/25",nivel:"solicitar examen",usuario: 'andrea', password: 'castro', realname: 'Andrea Castro', img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
        { expirationDate:"07/03/25",nivel:"solicitar examen",usuario: 'zoila', password: 'huerta', realname: 'Zoila T. Huerta', img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
        { expirationDate:"07/03/25",nivel:"solicitar examen",usuario: 'jorge', password: 'pita', realname: 'Jorge Pita', img:'https://i.ibb.co/938mVnNC/454152325-1718476462314898-89611.png'},
        { expirationDate:"08/03/25",nivel:"solicitar examen",usuario: 'adrian', password: 'aliaga', realname: 'Adrian Aliaga',img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
