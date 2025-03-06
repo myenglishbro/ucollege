@@ -20,7 +20,8 @@ const Hito = ({ selectedLink }) => {
   const [notes, setNotes] = useState("");
   const [isExpanded, setIsExpanded] = useState(false);
 
-  const [fontSize, setFontSize] = useState(18);
+  const [fontSize, setFontSize] = useState("20");
+
 
   // Estado para la caja de texto
   const [textMode, setTextMode] = useState(false);
@@ -343,7 +344,6 @@ const Hito = ({ selectedLink }) => {
     }}
   ></iframe>
               </div>
-
               {showNotepad && (
   <div
     className={`fixed top-0 ${
@@ -355,42 +355,80 @@ const Hito = ({ selectedLink }) => {
   >
     {/* Barra de herramientas */}
     <div className="flex items-center space-x-2 mb-3">
+      {/* Combo box para tamaño de fuente */}
       <select
         value={fontSize}
-        onChange={(e) => setFontSize(e.target.value)}
+        onChange={(e) => {
+          const newSize = e.target.value;
+          setFontSize(newSize);
+
+          const selection = window.getSelection();
+          if (selection && !selection.isCollapsed) {
+            // Si hay texto seleccionado, lo envolvemos en un span con el nuevo tamaño
+            const range = selection.getRangeAt(0);
+            // Creamos un span y asignamos el estilo
+            const span = document.createElement("span");
+            span.style.fontSize = `${newSize}px`;
+            // Intentamos envolver la selección con el span
+            try {
+              range.surroundContents(span);
+            } catch (error) {
+              // Si la selección es compleja, usamos execCommand
+              document.execCommand("styleWithCSS", false, true);
+              document.execCommand("fontSize", false, "7");
+              // Reemplazamos los elementos <font size="7">
+              const editor = document.getElementById("notepadEditor");
+              const fonts = editor.getElementsByTagName("font");
+              for (let i = fonts.length - 1; i >= 0; i--) {
+                const fontElem = fonts[i];
+                if (fontElem.getAttribute("size") === "7") {
+                  fontElem.removeAttribute("size");
+                  fontElem.style.fontSize = `${newSize}px`;
+                }
+              }
+            }
+          }
+          // Si no hay selección, el nuevo texto que se ingrese usará el nuevo tamaño.
+          // (Esto depende de que el navegador mantenga el estilo del caret)
+        }}
         className="px-2 py-1 bg-white text-black rounded border border-gray-300 focus:outline-none focus:ring-2 focus:ring-blue-400 transition"
       >
+        <option value="16">16</option>
+        <option value="18">18</option>
+        <option value="20">20</option>
+        <option value="24">24</option>
         <option value="30">30</option>
+        <option value="36">36</option>
         <option value="40">40</option>
-        <option value="50">50</option>
-        <option value="60">60</option>
-        <option value="70">70</option>
       </select>
-
+      
+      {/* Botones de formato */}
       <button
         onClick={() => document.execCommand("bold")}
         className="px-2 py-1 bg-white/20 text-white rounded border border-white/20 hover:bg-white/30 transition"
+        title="Negrita"
       >
         B
       </button>
       <button
         onClick={() => document.execCommand("italic")}
         className="px-2 py-1 bg-white/20 text-white rounded border border-white/20 hover:bg-white/30 transition"
+        title="Cursiva"
       >
         I
       </button>
       <button
         onClick={() => document.execCommand("underline")}
         className="px-2 py-1 bg-white/20 text-white rounded border border-white/20 hover:bg-white/30 transition"
+        title="Subrayado"
       >
         U
       </button>
-
-    
     </div>
 
     {/* Área editable */}
     <div
+      id="notepadEditor"
       className="w-full flex-grow p-3 border border-white/20 rounded-lg bg-[#1c1c24] bg-opacity-70 overflow-auto transition leading-relaxed"
       contentEditable
       placeholder="Toma notas aquí..."
@@ -400,11 +438,11 @@ const Hito = ({ selectedLink }) => {
         maxHeight: isExpanded ? "300px" : "550px",
         outline: "none",
         fontFamily: "Inter, sans-serif",
-        fontSize: `${fontSize}px`,
         wordWrap: "break-word",
         whiteSpace: "pre-wrap",
         overflowX: "auto",
-        lineHeight: "1.6", // Interlineado mejorado
+        lineHeight: "1.6",
+        // No se fija fontSize aquí para que el contenido conserve sus propios estilos.
       }}
     ></div>
 
@@ -427,6 +465,7 @@ const Hito = ({ selectedLink }) => {
     </div>
   </div>
 )}
+
 
 
 
