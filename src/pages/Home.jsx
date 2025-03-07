@@ -23,7 +23,6 @@ const Home = () => {
 
      
         <Hero2></Hero2>
-     
 
       <Collaboration></Collaboration>
      <Roadmap></Roadmap>

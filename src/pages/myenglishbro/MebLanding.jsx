@@ -19,19 +19,24 @@ import Hero from "./components/Hero";
 import Footer from "./components/Footer";
 import Testimonial from "./components/Testimonial";
 import Plans from "./components/Plans";
+import Slider from "../../components/Slider";
 const MebLanding = () => {
   return (
  <>
  <Hero></Hero>
+ <Slider></Slider>
 <Plans></Plans>
 
   <Benefits></Benefits>
+  
                     <Collaboration></Collaboration>
                     <Testimonial></Testimonial>
   <Services></Services>
   <Pricing></Pricing>
   <Roadmap></Roadmap>
+  
   <Footer></Footer>
+
 </>
   );
 };
