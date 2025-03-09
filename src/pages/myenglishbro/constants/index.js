@@ -244,55 +244,238 @@ export const pricing = [
 export const benefits = [
   {
     id: "0",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Paquete Premium",
+    text: "Este paquete de clases cuenta con 10 horas de clases en vivo",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    iconUrl:benefitIcon1,
+    imgGif:
+      "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZuazNnd2N5ODNrbHJmNmd6MXZ0eGt3cjJ5bjN5M2lxaTc4eGl2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r3WLuO5QRLyAV9MWEM/giphy.gif",
+    imageUrl:
+      "https://i.ibb.co/Fkg95gHK/617a8fe4-c97d-4802-9789-23b7e7b0e058.webp",
+    // Se usa la propiedad "ruta" como enlace del icono
+    iconLink: "https://learnibox.vercel.app/RoadMapB2",
+    details: {
+      features: [
+        "✅Tu clase se graba y se envia por correo a cada correo",
+        "✅ Google Meet Premium",
+        "✅ Clases Personalizadas + Material de Clase",
+        "✅Puedes hacer preguntas al profe por wsp directamente",
+        "✅ Incluye preparacion para Exámenes Internacionales",
+        "✅ 03 Reprogramaciones",
+        "✅ Acceso al Roadmap con Material Exclusivo (A1 to C1 90 días)",
+        "✅ Código de Descarga Roadmap",
+        "✅ Talleres los fines de semana Sábados y Domingo",
+      ],
+      price: "S/.590 Nuevos Soles",
+      enlace:
+        "https://docs.google.com/spreadsheets/d/1jpKL_kwxAWuqo9v6aVBSiKpiAij6i3E3ysPSxlajgRY/preview",
+    },
   },
   {
     id: "1",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Paquete Standard",
+    text: "Este paquete de clases cuenta con 10 horas de clases en vivo",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
-    light: true,
+    iconUrl:benefitIcon1,
+    imgGif:
+    "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZuazNnd2N5ODNrbHJmNmd6MXZ0eGt3cjJ5bjN5M2lxaTc4eGl2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r3WLuO5QRLyAV9MWEM/giphy.gif",
+    imageUrl:
+      "https://i.ibb.co/1tfLQVz1/DALL-E-2025-02-23-12-02-01-A-student-engaged-in-a-one-on-one-online-English-class-with-a-teacher-The.webp",
+    iconLink: "https://learnibox.vercel.app/RoadMapB2",
+    details: {
+      features: [
+        "✅Tu clase se graba y se envia por correo a cada correo",
+        "✅ Google Meet Premium",
+        "✅ Clases Personalizadas + Material de Clase",
+        "✅Puedes hacer preguntas al profe por wsp directamente",
+        "✅ Incluye preparacion para Exámenes Internacionales",
+        "✅ 01 Reprogramaciones",
+        "✅ Acceso al Roadmap con Material Exclusivo(30 días)",
+        "❌ Código de Descarga Roadmap",
+        "✅ Talleres los fines de semana Sábados y Domingo",
+      ],
+      price: "S/.390 Nuevos Soles",
+      enlace:
+        "https://docs.google.com/spreadsheets/d/1jpKL_kwxAWuqo9v6aVBSiKpiAij6i3E3ysPSxlajgRY/preview",
+    },
   },
   {
     id: "2",
-    title: "Connect everywhere",
-    text: "Connect with the AI chatbot from anywhere, on any device, making it more accessible and convenient.",
+    title: "Paquete Básico",
+    text: "Este paquete de clases cuenta con 10 horas de clases en vivo",
     backgroundUrl: "./src/assets/benefits/card-3.svg",
-    iconUrl: benefitIcon3,
-    imageUrl: benefitImage2,
+    iconUrl:
+      benefitIcon1,
+      imgGif:
+      "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZuazNnd2N5ODNrbHJmNmd6MXZ0eGt3cjJ5bjN5M2lxaTc4eGl2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r3WLuO5QRLyAV9MWEM/giphy.gif",
+    imageUrl:
+      "https://i.ibb.co/Z6jWLK5g/DALL-E-2025-02-23-12-03-38-A-student-receiving-a-one-on-one-online-English-class-in-a-minimalistic-a.webp",
+    iconLink: "https://learnibox.vercel.app/RoadMapB2",
+    details: {
+      features: [
+        "✅Tu clase se graba y se envia por correo a cada correo",
+        "✅ Google Meet Premium",
+        "✅ Clases Personalizadas + Material de Clase",
+        "❌ Puedes hacer preguntas al profe por wsp directamente",
+        "❌ Incluye preparacion para Exámenes Internacionales",
+        "❌ No hay Reprogramaciones",
+        "❌ Acceso al Roadmap con Material Exclusivo",
+        "❌ Código de Descarga Roadmap",
+        "❌ Talleres los fines de semana Sábados y Domingo",
+      ],
+      price: "S/.350 Nuevos Soles",
+      enlace:
+        "https://docs.google.com/spreadsheets/d/1jpKL_kwxAWuqo9v6aVBSiKpiAij6i3E3ysPSxlajgRY/preview",
+    },
   },
   {
     id: "3",
-    title: "Fast responding",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Ruta Autónoma A1",
+    text: "Domina lo esencial para comunicarte con confianza en situaciones cotidianas simples. ¡Empieza tu camino hacia la fluidez aquí! 🚀",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
-    iconUrl: benefitIcon4,
-    imageUrl: benefitImage2,
-    light: true,
+    iconUrl:benefitIcon1,
+    
+    imgGif:
+    "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZuazNnd2N5ODNrbHJmNmd6MXZ0eGt3cjJ5bjN5M2lxaTc4eGl2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r3WLuO5QRLyAV9MWEM/giphy.gif",
+    imageUrl:
+      "https://i.ibb.co/VpvYPXmM/file-Qb-WLou8j-Ui5-SCqob-CQTs-Rq.png",
+    iconLink: "https://learnibox.vercel.app/RoadMapA1",
+    details: {
+      features: [
+        "Técnicas básicas de pronunciación 🗣️",
+        "Reglas gramaticales fundamentales 📚",
+        "Vocabulario esencial 📝",
+        "Ejercicios interactivos 🎮",
+        "Tarjetas didácticas para aprendizaje rápido 📖",
+        "Clases grabadas y lecciones en video 🎥",
+        "Cuestionarios y exámenes finales 📝",
+      ],
+      price: "Suscripcion Mensual S/.30 Nuevos Soles",
+    },
   },
   {
     id: "4",
-    title: "Ask anything",
-    text: "Lets users quickly find answers to their questions without having to search through multiple sources.",
+    title: "Ruta Autónoma A2",
+    text: "Cierra la brecha hacia la comunicación intermedia. Habla y entiende expresiones comunes con confianza. 💬",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
-    iconUrl: benefitIcon1,
-    imageUrl: benefitImage2,
+    iconUrl:
+      benefitIcon1,
+      imgGif:
+      "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZuazNnd2N5ODNrbHJmNmd6MXZ0eGt3cjJ5bjN5M2lxaTc4eGl2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r3WLuO5QRLyAV9MWEM/giphy.gif",
+    imageUrl:
+      "https://i.ibb.co/Y7BLpPD5/file-TDf-W5-PCF77-VHWEG9-XEep-R5.png",
+    iconLink: "https://learnibox.vercel.app/RoadMapA2",
+    details: {
+      features: [
+        "Estructuras simples para el día a día 🌟",
+        "Expresiones y frases comunes 🗨️",
+        "Diálogos prácticos 👫",
+        "Ejercicios interactivos y tarjetas didácticas 🧩",
+        "Lecciones en video para mayor claridad 📹",
+        "Clases grabadas y evaluaciones 📝",
+      ],
+      price: "Suscripcion Mensual S/.30 Nuevos Soles",
+    },
   },
   {
     id: "5",
-    title: "Improve everyday",
-    text: "The app uses natural language processing to understand user queries and provide accurate and relevant responses.",
+    title: "Ruta Autónoma B1",
+    text: "Lleva tus habilidades a un nuevo nivel. Maneja conversaciones detalladas y mejora tu escritura. ✍️",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
-    iconUrl: benefitIcon2,
-    imageUrl: benefitImage2,
+    iconUrl:benefitIcon1,
+    imgGif:
+      "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZuazNnd2N5ODNrbHJmNmd6MXZ0eGt3cjJ5bjN5M2lxaTc4eGl2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r3WLuO5QRLyAV9MWEM/giphy.gif",
+    imageUrl:
+      "https://i.ibb.co/RTmJqwbj/file-4u8b-E1yz-Ja-Yaxig8-Gbj-Es-E.png",
+    iconLink: "https://learnibox.vercel.app/RoadMapB2",
+    details: {
+      features: [
+        "Técnicas básicas de escritura 🖋️",
+        "Conversaciones detalladas 🗨️",
+        "Dominio de gramática intermedia 📖",
+        "Tarjetas didácticas y práctica interactiva 🔄",
+        "Lecciones completas en video 🎬",
+        "Exámenes para medir tu progreso 📝",
+      ],
+      price: "Suscripcion Mensual S/.30 Nuevos Soles",
+    },
+  },
+  {
+    id: "6",
+    title: "Ruta Autónoma B2",
+    text: "¡Prepárate para alcanzar el nivel B2 de manera efectiva y a tu ritmo! Nuestra plataforma está diseñada para brindarte recursos exclusivos y explicaciones claras sobre más de 90 temas esenciales.",
+    backgroundUrl: "./src/assets/benefits/card-7.svg",
+    iconUrl:
+      benefitIcon1,
+      imgGif:
+      "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZuazNnd2N5ODNrbHJmNmd6MXZ0eGt3cjJ5bjN5M2lxaTc4eGl2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r3WLuO5QRLyAV9MWEM/giphy.gif",
+    imageUrl:
+      "https://i.ibb.co/Z66DdpTM/file-LDRse-LKf-G9vb-NXLZTx1-Z4q.png",
+    iconLink: "https://learnibox.vercel.app/RoadMapB2",
+    details: {
+      features: [
+        "Gramática esencial: Aprende las diferencias y mucho más.",
+        "Phrasal verbs y expresiones fundamentales.",
+        "Estructuras avanzadas para expresarte con fluidez y precisión.",
+        "Clases grabadas 🎥",
+        "Pruebas simuladas 📝",
+        "Actividades interactivas 🧩",
+      ],
+      price: "Suscripcion Mensual S/.45 Nuevos Soles",
+    },
+  },
+  
+  {
+    id: "7",
+    title: "Ruta Autónoma C1",
+    text: "Logra un dominio profesional del inglés. Realiza presentaciones, escribe con precisión y conversa con facilidad. 💼",
+    backgroundUrl: "./src/assets/benefits/card-8.svg",
+    iconUrl:
+    benefitIcon1,
+    imgGif:
+      "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZuazNnd2N5ODNrbHJmNmd6MXZ0eGt3cjJ5bjN5M2lxaTc4eGl2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r3WLuO5QRLyAV9MWEM/giphy.gif",
+    imageUrl:
+      "https://i.ibb.co/Swk9RQbB/file-DRh-Z3-Eu-Tn-Bpr-CKp-Tk6os-Wp.png",
+    iconLink: "https://learnibox.vercel.app/RoadMapC1",
+    details: {
+      features: [
+        "Gramática esencial: Aprende las diferencias y mucho más.",
+        "Phrasal verbs y expresiones fundamentales.",
+        "Estructuras avanzadas para expresarte con fluidez y precisión.",
+        "Clases grabadas 🎥",
+        "Pruebas simuladas 📝",
+        "Actividades interactivas 🧩",
+      ],
+      price: "Suscripcion Mensual S/.45 Nuevos Soles",
+    },
+  },
+  {
+    id: "8",
+    title: "Ruta Autónoma C2",
+    text: "Domina el idioma inglés con vocabulario avanzado, tonos profesionales y matices culturales. 🏆",
+    backgroundUrl: "./src/assets/benefits/card-9.svg",
+    iconUrl:
+    benefitIcon1,
+    
+    imgGif:
+      "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZuazNnd2N5ODNrbHJmNmd6MXZ0eGt3cjJ5bjN5M2lxaTc4eGl2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r3WLuO5QRLyAV9MWEM/giphy.gif",
+    imageUrl:
+      "https://i.ibb.co/b5Kd6mMW/file-AHw-Kpi8-LJw-GRuhyuk-Vo-RGY.png",
+    // No se define iconLink para este plan
+    details: {
+      features: [
+        "Vocabulario avanzado y frases 🔝",
+        "Expresiones fluidas y nativas 🗣️",
+        "Dominio del tono profesional 📈",
+        "Tarjetas didácticas y clases grabadas 🎥",
+        "Escenarios interactivos y evaluaciones 🔄",
+        "Preparación para aplicaciones en el mundo real 🌐",
+      ],
+      price: "Suscripcion Mensual S/.55 Nuevos Soles",
+    },
   },
 ];
+
 
 export const socials = [
   {

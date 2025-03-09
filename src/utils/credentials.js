@@ -56,7 +56,6 @@ export const validCredentials = [
        { expirationDate:"05/04/25",nivel:"solicitar examen",usuario: 'andrea', password: 'castro', realname: 'Andrea Castro', img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
       //  { expirationDate:"07/03/25",nivel:"solicitar examen",usuario: 'zoila', password: 'huerta', realname: 'Zoila T. Huerta', img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
       //  { expirationDate:"07/03/25",nivel:"solicitar examen",usuario: 'jorge', password: 'pita', realname: 'Jorge Pita', img:'https://i.ibb.co/938mVnNC/454152325-1718476462314898-89611.png'},
-      //  { expirationDate:"08/03/25",nivel:"solicitar examen",usuario: 'adrian', password: 'aliaga', realname: 'Adrian Aliaga',img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
        { expirationDate:"11/03/25",nivel:"solicitar examen",usuario: 'franklin', password: 'castañeda', realname: 'Franklin Castañeda',img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
        { expirationDate:"11/03/25",nivel:"solicitar examen",usuario: 'furan', password: 'castañeda', realname: 'Franklin Castañeda',img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
        { expirationDate:"11/03/25",nivel:"solicitar examen",usuario: 'jose', password: 'castañeda', realname: 'Franklin Castañeda',img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
@@ -79,5 +78,6 @@ export const validCredentials = [
        { expirationDate:"16 hours ",nivel:"B2",usuario: 'omar', password: 'celpip', realname: ' Omar', img:'https://i.ibb.co/Wvyn0R11/473411171-2938144316352679-51928.png'},
        { expirationDate:"05/04/25",nivel:"B2",usuario: 'juanv', password: 'silvera', realname: 'Juan Siveral', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
        { expirationDate:"08/04/25",nivel:"A1",usuario: 'stephany', password: 'rflores', realname: 'Stephany R. Flores', img:'https://i.ibb.co/yBFPF93g/473413178-1647110686188345-76697.png'},
+       { expirationDate:"10/04/25",nivel:"solicitar examen",usuario: 'adrian', password: 'aliaga', realname: 'Adrian Aliaga',img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
 
     ];

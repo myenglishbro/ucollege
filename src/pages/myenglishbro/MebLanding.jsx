@@ -25,9 +25,10 @@ const MebLanding = () => {
  <>
  <Hero></Hero>
  <Slider></Slider>
-<Plans></Plans>
+ <Benefits></Benefits>
 
-  <Benefits></Benefits>
+{/* <Plans></Plans> */}
+
   
                     <Collaboration></Collaboration>
                     <Testimonial></Testimonial>
