@@ -1,93 +1,46 @@
-import React from "react";
-import "../style2.css"; // Asegúrate de que exista y contenga tus estilos
+import React, { useEffect, useRef, useState } from "react";
+import "../style2.css";
 
-function Slider() {
+const images = [
+  "https://i.ibb.co/Xk2S1YLk/DALL-E-2025-03-09-09-06-43-A-highly-detailed-medieval-style-shield-in-the-official-colors-of-the-Uni.webp",
+  "https://i.ibb.co/xS28VZc8/DALL-E-2025-03-09-09-05-13-A-detailed-medieval-style-shield-in-the-official-University-of-Michigan-c.webp",
+  "https://i.ibb.co/wNtFsXt3/DALL-E-2025-03-09-09-08-02-A-highly-detailed-medieval-style-shield-in-the-official-colors-of-TOEFL-b.webp",
+  "https://i.ibb.co/JZYg0MB/DALL-E-2025-03-09-09-08-53-A-highly-detailed-medieval-style-shield-in-the-official-colors-of-IELTS-r.webp",
+  "https://i.ibb.co/nNLB3m8V/DALL-E-2025-03-09-09-10-48-A-highly-detailed-medieval-style-shield-in-the-official-colors-of-CELPIP.webp"
+];
+
+function Slider({ reverse = false }) {
+  const sliderRef = useRef(null);
+  const [paused, setPaused] = useState(false);
+
+  useEffect(() => {
+    const slider = sliderRef.current;
+    if (!slider) return;
+
+    const handleMouseEnter = () => setPaused(true);
+    const handleMouseLeave = () => setPaused(false);
+
+    slider.addEventListener("mouseenter", handleMouseEnter);
+    slider.addEventListener("mouseleave", handleMouseLeave);
+
+    return () => {
+      slider.removeEventListener("mouseenter", handleMouseEnter);
+      slider.removeEventListener("mouseleave", handleMouseLeave);
+    };
+  }, []);
+
   return (
-    <main>
-      {/* Primer slider */}
-      <div
-        className="slider"
-        style={{
-          "--width": "100px",
-          "--height": "50px",
-          "--quantity": 10,
-        }}
-      >
-        <div className="list">
-          <div className="item" style={{ "--position": 1 }}>
-            <img src="https://i.ibb.co/VpvYPXmM/file-Qb-WLou8j-Ui5-SCqob-CQTs-Rq.png" alt="" />
-          </div>
-          <div className="item" style={{ "--position": 2 }}>
-            <img src="https://i.ibb.co/VpvYPXmM/file-Qb-WLou8j-Ui5-SCqob-CQTs-Rq.png" alt="" />
-          </div>
-          <div className="item" style={{ "--position": 3 }}>
-            <img src=".https://i.ibb.co/VpvYPXmM/file-Qb-WLou8j-Ui5-SCqob-CQTs-Rq.png" alt="" />
-          </div>
-          <div className="item" style={{ "--position": 4 }}>
-            <img src="https://i.ibb.co/VpvYPXmM/file-Qb-WLou8j-Ui5-SCqob-CQTs-Rq.png" alt="" />
-          </div>
-          <div className="item" style={{ "--position": 5 }}>
-            <img src="https://i.ibb.co/VpvYPXmM/file-Qb-WLou8j-Ui5-SCqob-CQTs-Rq.png" alt="" />
-          </div>
-          <div className="item" style={{ "--position": 6 }}>
-            <img src="https://i.ibb.co/VpvYPXmM/file-Qb-WLou8j-Ui5-SCqob-CQTs-Rq.png" alt="" />
-          </div>
-          <div className="item" style={{ "--position": 7 }}>
-            <img src="https://i.ibb.co/VpvYPXmM/file-Qb-WLou8j-Ui5-SCqob-CQTs-Rq.png" alt="" />
-          </div>
-          <div className="item" style={{ "--position": 8 }}>
-            <img src="../images/slider1_8.png" alt="" />
-          </div>
-          <div className="item" style={{ "--position": 9 }}>
-            <img src="../images/slider1_9.png" alt="" />
-          </div>
-          <div className="item" style={{ "--position": 10 }}>
-            <img src="../images/slider1_10.png" alt="" />
-          </div>
+    <div className="slider-container">
+      <div className={`slider ${reverse ? "reverse" : ""}`} ref={sliderRef}>
+        <div className="slider-track" style={{ animationPlayState: paused ? "paused" : "running" }}>
+          {images.concat(images).map((img, index) => (
+            <div key={index} className="slider-item">
+              <img src={img} alt={`Slide ${index}`} />
+            </div>
+          ))}
         </div>
       </div>
-
-      {/* Segundo slider (con el atributo 'reverse="true"') */}
-      <div
-        className="slider"
-        reverse="true"
-        style={{
-          "--width": "200px",
-          "--height": "200px",
-          "--quantity": 9,
-        }}
-      >
-        <div className="list">
-          <div className="item" style={{ "--position": 1 }}>
-            <img src="https://i.ibb.co/VpvYPXmM/file-Qb-WLou8j-Ui5-SCqob-CQTs-Rq.png" alt="" />
-          </div>
-          <div className="item" style={{ "--position": 2 }}>
-            <img src="https://i.ibb.co/VpvYPXmM/file-Qb-WLou8j-Ui5-SCqob-CQTs-Rq.png" alt="" />
-          </div>
-          <div className="item" style={{ "--position": 3 }}>
-            <img src="https://i.ibb.co/VpvYPXmM/file-Qb-WLou8j-Ui5-SCqob-CQTs-Rq.png" alt="" />
-          </div>
-          <div className="item" style={{ "--position": 4 }}>
-            <img src="https://i.ibb.co/VpvYPXmM/file-Qb-WLou8j-Ui5-SCqob-CQTs-Rq.png" alt="" />
-          </div>
-          <div className="item" style={{ "--position": 5 }}>
-            <img src="https://i.ibb.co/VpvYPXmM/file-Qb-WLou8j-Ui5-SCqob-CQTs-Rq.png" alt="" />
-          </div>
-          <div className="item" style={{ "--position": 6 }}>
-            <img src="https://i.ibb.co/VpvYPXmM/file-Qb-WLou8j-Ui5-SCqob-CQTs-Rq.png" alt="" />
-          </div>
-          <div className="item" style={{ "--position": 7 }}>
-            <img src="https://i.ibb.co/VpvYPXmM/file-Qb-WLou8j-Ui5-SCqob-CQTs-Rq.png" alt="" />
-          </div>
-          <div className="item" style={{ "--position": 8 }}>
-            <img src="../images/slider2_8.png" alt="" />
-          </div>
-          <div className="item" style={{ "--position": 9 }}>
-            <img src="../images/slider2_9.png" alt="" />
-          </div>
-        </div>
-      </div>
-    </main>
+    </div>
   );
 }
 

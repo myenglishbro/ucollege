@@ -1,59 +1,73 @@
-
-
-main{
+/* Contenedor principal del slider */
+.slider-container {
     width: min(1200px, 90vw);
     margin: auto;
-}
-.slider{
-    width: 100%;
-    height: var(--height);
     overflow: hidden;
-    mask-image: linear-gradient(
-        to right,
-        transparent,
-        #000 10% 90%,
-        transparent
-    );
-}
-.slider .list{
-    display: flex;
-    width: 100%;
-    min-width: calc(var(--width) * var(--quantity));
     position: relative;
 }
-.slider .list .item{
-    width: var(--width);
-    height: var(--height);
-    position: absolute;
-    left: 100%;
-    animation: autoRun 10s linear infinite;
-    transition: filter 0.5s;
-    animation-delay: calc( (10s / var(--quantity)) * (var(--position) - 1) - 10s)!important;
-}
-.slider .list .item img{
+
+/* Estilo del slider */
+.slider {
+    display: flex;
     width: 100%;
+    overflow: hidden;
+    mask-image: linear-gradient(to right, transparent, #000 10%, #000 90%, transparent);
 }
-@keyframes autoRun{
-    from{
-        left: 100%;
-    }to{
-        left: calc(var(--width) * -1);
+
+/* Pista de imágenes (se anima para crear el efecto de desplazamiento) */
+.slider-track {
+    display: flex;
+    width: calc(200px * 10); /* Ajuste para mayor dinamismo */
+    animation: scrollAnimation 10s linear infinite;
+}
+
+/* Elementos del slider */
+.slider-item {
+    flex: 0 0 200px;
+    height: 200px;
+    margin: 0 5px;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+/* Imágenes dentro del slider */
+.slider-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Animación de desplazamiento */
+@keyframes scrollAnimation {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(calc(-200px * 5)); /* Ajuste basado en la cantidad de imágenes */
     }
 }
-.slider:hover .item{
-    animation-play-state: paused!important;
-    filter: grayscale(1);
+
+/* Pausa la animación cuando el usuario pasa el mouse */
+.slider-container:hover .slider-track {
+    animation-play-state: paused;
 }
-.slider .item:hover{
-    filter: grayscale(0);
+
+/* Efecto de escala y color al pasar el mouse */
+.slider-item:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
 }
-.slider[reverse="true"] .item{
-    animation: reversePlay 10s linear infinite;
+
+/* Estilo alternativo para invertir la dirección del slider */
+.reverse .slider-track {
+    animation: reverseScroll 10s linear infinite;
 }
-@keyframes reversePlay{
-    from{
-        left: calc(var(--width) * -1);
-    }to{
-        left: 100%;
+
+@keyframes reverseScroll {
+    from {
+        transform: translateX(calc(-200px * 5));
+    }
+    to {
+        transform: translateX(0);
     }
 }
