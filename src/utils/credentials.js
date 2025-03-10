@@ -79,5 +79,6 @@ export const validCredentials = [
        { expirationDate:"05/04/25",nivel:"B2",usuario: 'juanv', password: 'silvera', realname: 'Juan Siveral', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
        { expirationDate:"08/04/25",nivel:"A1",usuario: 'stephany', password: 'rflores', realname: 'Stephany R. Flores', img:'https://i.ibb.co/yBFPF93g/473413178-1647110686188345-76697.png'},
        { expirationDate:"10/04/25",nivel:"solicitar examen",usuario: 'adrian', password: 'aliaga', realname: 'Adrian Aliaga',img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
+       { expirationDate:"Cuenta Gratuita",nivel:"B1",usuario: 'elvia', password: 'celpip', realname: 'Elvia',img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
 
     ];
