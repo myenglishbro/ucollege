@@ -477,6 +477,20 @@ export const benefits = [
 ];
 
 
+
+
+export const navLinks = [
+  { title: "Home", path: "/myenglishbro" },
+ 
+
+
+  
+  
+];
+
+
+
+
 export const socials = [
   {
     id: "0",

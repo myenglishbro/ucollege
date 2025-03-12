@@ -1,11 +1,13 @@
 import React, { useState, useEffect, useRef } from 'react';
 import ContainerRoad from './ContainerRoad';
 import { roadB2 } from "../utils/roadB2";
-import { validCredentials } from '../utils/credentials'; // Importa desde el archivo
+import { validCredentials } from '../utils/credentials';
+import { FaWhatsapp, FaGlobe } from 'react-icons/fa';
 
 import Sidebar from '../components/Sidebar';
 import DefaultView from '../components/DefaultView';
-import Banner from './Banner';
+import Step from '../components/Step';
+import Navbar from './myenglishbro/components/NavBar';
 
 const RoadMapB2 = () => {
   const [usuario, setUsuario] = useState('');
@@ -76,81 +78,178 @@ const RoadMapB2 = () => {
 
   return (
     <>
-     {!mostrarComponente && (
-  <div className="flex justify-center items-center bg-gradient-to-br from-gray-800 to-black min-h-screen p-6 mt-11">
-    <div className="w-full max-w-3xl bg-gray-900 rounded-3xl overflow-hidden shadow-xl flex flex-col md:flex-row border border-gray-700">
-      
-      {/* Left Section */}
-      <div className="w-full md:w-1/2 relative">
-        <a href="#" className="absolute top-6 left-6 text-white text-2xl font-bold z-10">
-         RoadMap
-        </a>
-        <a
-          href="https://myenglishbro-meb.vercel.app/"
-          className="absolute top-6 right-6 bg-indigo-600 text-white px-4 py-2 rounded-full text-sm hover:bg-indigo-700 transition-colors z-10"
-        >
-          Back to website →
-        </a>
-        <div className="relative h-full">
-          <img
-            src="https://i.ibb.co/Q3PrrvFH/file-4y32-Yeg12as-Cdxmpv8p52t.png"
-            alt="USA Exam Setting"
-            className="w-full h-full object-cover"
-          />
-          <div className="absolute inset-0 bg-gradient-to-br from-purple-800 to-indigo-800 opacity-50"></div>
-          <div className="absolute bottom-12 left-8 text-white">
-            <h2 className="text-3xl md:text-4xl font-bold mb-2">Your Path to Success</h2>
-            <h2 className="text-xl md:text-2xl font-medium">Excel in your  Exams!</h2>
-          </div>
-        </div>
-      </div>
-      
-      {/* Right Section (Login Form) */}
-      <div className="w-full md:w-1/2 p-8 md:p-12 bg-gray-800">
-        <div className="max-w-md mx-auto">
-          <h1 className="text-indigo-400 text-3xl md:text-4xl font-bold mb-4">Welcome, Mybro! 🗽</h1>
-          <p className="text-gray-300 mb-6">Enter your credentials below to access your USA exam roadmap.</p>
+    <Navbar></Navbar>
+      {/* Sección de Login y Step (solo visibles cuando mostrarComponente = false) */}
+      {!mostrarComponente && (
+        <>
+        <div className="fixed bottom-10 right-5 flex flex-col space-y-4 z-50">
+    {/* Botón WhatsApp Futurista */}
+    <a
+      href="https://api.whatsapp.com/send?phone=51926922032&text=Hello%20Carlos!"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Contact me on WhatsApp"
+      className="
+        relative group 
+        flex items-center justify-center
+        w-14 h-14 
+        rounded-full 
+        bg-[#0F0F0F]
+        text-green-400 
+        border border-green-500
+        shadow-[0_0_15px_rgba(34,197,94,0.5)]
+        transition-transform 
+        duration-300 
+        ease-in-out
+        hover:scale-110 
+        hover:shadow-[0_0_35px_rgba(34,197,94,0.8)]
+        active:scale-95
+      "
+    >
+      {/* Efecto pulsante (ping) */}
+      <span
+        className="
+          absolute w-full h-full
+          rounded-full 
+          bg-green-500
+          opacity-20 
+          group-hover:opacity-30
+          animate-ping
+        "
+      ></span>
 
-          <div className="space-y-4">
-            <input
-              type="text"
-              placeholder="Username"
-              value={usuario}
-              onChange={handleChangeUsuario}
-              className="w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-indigo-500"
-            />
-            <input
-              type="password"
-              placeholder="Password"
-              value={codigo}
-              onChange={handleChangeCodigo}
-              onKeyPress={handleKeyPress}
-              className="w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-indigo-500"
-            />
-            {errorMessage && <p className="text-red-400 text-sm">{errorMessage}</p>}
-            <button
-              type="button"
-              onClick={handleMostrarComponente}
-              className="w-full py-3 bg-indigo-600 text-white rounded-lg mt-4 hover:bg-indigo-700 transition-colors"
-            >
-              Access Roadmap
-            </button>
-          </div>
-          <p className="text-gray-400 text-sm mt-4">
-            Forgot your credentials?{" "}
-            <a href="https://api.whatsapp.com/send?phone=51926922032&text=Hello%20Carlos!%20%F0%9F%99%82" className="text-indigo-400 hover:underline">
-              Contact your instructor
-            </a>.
-          </p>
-        </div>
-      </div>
-    </div>
+      {/* Ícono WhatsApp (React Icons) */}
+      <FaWhatsapp className="w-7 h-7 relative" />
+    </a>
+
+    {/* Botón Website Futurista */}
+    <a
+      href="https://myenglishbro-meb.vercel.app/"
+      target="_blank"
+      rel="noopener noreferrer"
+      title="Go to my Website"
+      className="
+        relative group
+        flex items-center justify-center 
+        w-14 h-14 
+        rounded-full 
+        bg-[#0F0F0F]
+        text-purple-400 
+        border border-purple-500
+        shadow-[0_0_15px_rgba(192,132,252,0.5)]
+        transition-transform 
+        duration-300
+        ease-in-out 
+        hover:scale-110 
+        hover:shadow-[0_0_35px_rgba(192,132,252,0.8)]
+        active:scale-95
+      "
+    >
+      {/* Efecto pulsante (ping) */}
+      <span
+        className="
+          absolute w-full h-full 
+          rounded-full 
+          bg-purple-500
+          opacity-20 
+          group-hover:opacity-30
+          animate-ping
+        "
+      ></span>
+
+      {/* Ícono Globetrotter (React Icons) */}
+      <FaGlobe className="w-7 h-7 relative" />
+    </a>
   </div>
-)}
+          <div className="flex justify-center items-center bg-gradient-to-br from-gray-800 to-black min-h-screen p-6 mt-11">
+            <div className="w-full max-w-3xl bg-gray-900 rounded-3xl overflow-hidden shadow-xl flex flex-col md:flex-row border border-gray-700">
+              {/* Left Section */}
+              <div className="w-full md:w-1/2 relative">
+                <a href="#" className="absolute top-6 left-6 text-white text-2xl font-bold z-10">
+                  RoadMap
+                </a>
+                <a
+                  href="https://myenglishbro-meb.vercel.app/"
+                  className="absolute top-6 right-6 bg-indigo-600 text-white px-4 py-2 rounded-full text-sm hover:bg-indigo-700 transition-colors z-10"
+                >
+                  Back to website →
+                </a>
+                <div className="relative h-full">
+                  <img
+                    src="https://i.ibb.co/Q3PrrvFH/file-4y32-Yeg12as-Cdxmpv8p52t.png"
+                    alt="USA Exam Setting"
+                    className="w-full h-full object-cover"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-br from-purple-800 to-indigo-800 opacity-50"></div>
+                  <div className="absolute bottom-12 left-8 text-white">
+                    <h2 className="text-3xl md:text-4xl font-bold mb-2">
+                      Your Path to Success
+                    </h2>
+                    <h2 className="text-xl md:text-2xl font-medium">
+                      Excel in your Exams!
+                    </h2>
+                  </div>
+                </div>
+              </div>
 
-    
+              {/* Right Section (Login Form) */}
+              <div className="w-full md:w-1/2 p-8 md:p-12 bg-gray-800">
+                <div className="max-w-md mx-auto">
+                  <h1 className="text-indigo-400 text-3xl md:text-4xl font-bold mb-4">
+                    Welcome, Mybro! 🗽
+                  </h1>
+                  <p className="text-gray-300 mb-6">
+                    Enter your credentials below to access your USA exam roadmap.
+                  </p>
 
+                  <div className="space-y-4">
+                    <input
+                      type="text"
+                      placeholder="Username"
+                      value={usuario}
+                      onChange={handleChangeUsuario}
+                      className="w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                    />
+                    <input
+                      type="password"
+                      placeholder="Password"
+                      value={codigo}
+                      onChange={handleChangeCodigo}
+                      onKeyPress={handleKeyPress}
+                      className="w-full bg-gray-700 border border-gray-600 text-white rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                    />
+                    {errorMessage && (
+                      <p className="text-red-400 text-sm">{errorMessage}</p>
+                    )}
+                    <button
+                      type="button"
+                      onClick={handleMostrarComponente}
+                      className="w-full py-3 bg-indigo-600 text-white rounded-lg mt-4 hover:bg-indigo-700 transition-colors"
+                    >
+                      Access Roadmap
+                    </button>
+                  </div>
+                  <p className="text-gray-400 text-sm mt-4">
+                    Forgot your credentials?{' '}
+                    <a
+                      href="https://api.whatsapp.com/send?phone=51926922032&text=Hello%20Carlos!%20%F0%9F%99%82"
+                      className="text-indigo-400 hover:underline"
+                    >
+                      Contact your instructor
+                    </a>
+                    .
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
 
+          {/* Componente Step: Visible solo antes de iniciar sesión */}
+          <Step />
+        </>
+      )}
+
+      {/* Contenido principal (Roadmap + Sidebar), solo visible si mostrarComponente = true */}
       {mostrarComponente && (
         <>
           <button className="sidebar-toggle" onClick={toggleSidebar}>
@@ -186,6 +285,8 @@ const RoadMapB2 = () => {
           )}
         </>
       )}
+
+     
     </>
   );
 };

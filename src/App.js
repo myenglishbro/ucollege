@@ -29,7 +29,6 @@ import ContainerPortal from "./pages/ContainerPortal";
 
 
 import EF from "./pages/EF";
-import Navbar from "./components/NavBar/NavBar";
 import RoadMapMed from "./pages/RoadMapMed";
 import RoadMapDev from "./pages/RoadMapDev";
 import RoadMapCelpip from "./pages/RoadMapCelpip";
@@ -53,12 +52,7 @@ function App() {
     
 
 <div >
-<div>
-    
-        
-        <Navbar/>
-     
-      </div>
+
         <Routes>
           <Route path="/" element={<Home />}></Route>
           <Route path="/About" element={<About />}></Route>

@@ -17,11 +17,13 @@ import Collaboration from '../components/Collaboration';
 import Pricing from '../components/Pricing';
 import Roadmap from '../components/Roadmap';
 import Collaboration2 from '../components/Collaboration2';
+import Navbar from '../components/NavBar/NavBar';
 const Home = () => {
   return (
     <>
 
-     
+    <Navbar> </Navbar>
+
         <Hero2></Hero2>
 
       <Collaboration></Collaboration>

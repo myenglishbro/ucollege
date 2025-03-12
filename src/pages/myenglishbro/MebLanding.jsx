@@ -20,9 +20,11 @@ import Footer from "./components/Footer";
 import Testimonial from "./components/Testimonial";
 import Plans from "./components/Plans";
 import Slider from "../../components/Slider";
+import Navbar from "./components/NavBar";
 const MebLanding = () => {
   return (
  <>
+ <Navbar></Navbar>
  <Hero></Hero>
  <Slider></Slider>
  <Benefits></Benefits>
