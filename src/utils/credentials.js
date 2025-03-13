@@ -78,5 +78,6 @@ export const validCredentials = [
        { expirationDate:"11/04/25",nivel:"B2",usuario: 'adrian', password: 'grandez', realname: 'Marlos A. Grandez',img:'https://i.ibb.co/SXrkKs06/455208478-1104097444230484-38610.png'},
        { expirationDate:"11/04/25",nivel:"B2",usuario: 'martha', password: 'barua', realname: 'Martha Barua',img:'https://i.ibb.co/SXrkKs06/455208478-1104097444230484-38610.png'},
        { expirationDate:" purchased by Carlos Apolaya ",nivel:"B2",usuario: 'aurajuan', password: 'celpip', realname: 'Aura & Juan',img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
+       { expirationDate:"12/04/25",nivel:"B2",usuario: 'jasmin', password: 'betancourt', realname: 'Jasmín Betancourt',img:'https://i.ibb.co/SXrkKs06/455208478-1104097444230484-38610.png'},
 
     ];
