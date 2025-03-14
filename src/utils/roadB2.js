@@ -24,7 +24,7 @@ export const roadB2 = [
 
         title: "Challenge 01",
         subtitle: "B2/C1",
-        code:"secretyouthealou",
+        code:"secrevpouthealou",
 
         dateAdded: "Basic 01 ",
         channel: "sdasd",
