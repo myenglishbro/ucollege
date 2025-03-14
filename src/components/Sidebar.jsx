@@ -19,6 +19,12 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
   // Estado para los inputs de código (clave: índice del elemento)
   const [codeInputs, setCodeInputs] = useState({});
 
+  // Estados nuevos para el popup de recompensa
+  const [showRewardPopup, setShowRewardPopup] = useState(false);
+  const [reward, setReward] = useState('');
+  const [rewardDescription, setRewardDescription] = useState('');
+
+
   useEffect(() => {
     try {
       const savedViewedItems = JSON.parse(localStorage.getItem('viewedItems')) || [];
@@ -108,10 +114,14 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
   const totalItems = road.reduce((sum, item) => sum + item.enlaces.length, 0);
   const progress = totalItems > 0 ? Math.round((viewedItems.length / totalItems) * 100) : 0;
 
-  // Función para validar el código ingresado para un elemento
-  const handleValidateCode = (index, elemento) => {
+   // Función para validar el código ingresado para un elemento
+   const handleValidateCode = (index, elemento) => {
     if (codeInputs[index] === elemento.code) {
       setUnlockedItems((prev) => [...prev, elemento.id]);
+      // Asignamos la imagen y la descripción de recompensa. Puedes usar una propiedad específica o, de no existir, el description general.
+      setReward(elemento.reconpensa);
+      setRewardDescription(elemento.reconpensaDescripcion || elemento.description);
+      setShowRewardPopup(true);
     } else {
       alert("Código incorrecto");
     }
@@ -386,6 +396,78 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
           </button>
         </div>
       )}
+     
+
+
+      {showRewardPopup && (
+  <div
+    id="reward-popup"
+    role="dialog"
+    aria-modal="true"
+    tabIndex={-1}
+    onKeyDown={(e) => {
+      if (e.key === "Escape") setShowRewardPopup(false);
+    }}
+    onClick={(e) => {
+      if (e.target === e.currentTarget) setShowRewardPopup(false);
+    }}
+    className="fixed inset-0 flex items-center justify-center z-50 p-4 bg-black bg-opacity-85 animate-fadeInUp"
+  >
+    {/* Contenedor interno con overlay y fondo */}
+    <div
+      className="relative flex flex-col md:flex-row items-center gap-6 w-full max-w-3xl ml-10 p-6 rounded-xl border border-gray-700 shadow-2xl overflow-hidden bg-overlay"
+      style={{
+        backgroundImage:
+          "url('https://i.ibb.co/fG47Jd8b/DALL-E-2025-03-14-16-28-39-A-futuristic-dark-cyberpunk-background-featuring-a-neon-lit-environment-T.webp')",
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+      onClick={(e) => e.stopPropagation()}
+    >
+      {/* Capa de burbujas */}
+      <div className="bubbles absolute inset-0 pointer-events-none" style={{ zIndex: 1 }}>
+        {Array.from({ length: 20 }).map((_, index) => (
+          <span key={index} style={{ "--i": index + 10 }}></span>
+        ))}
+      </div>
+
+      {/* Sección de la Card */}
+      <div className="futuristic-card-container relative w-full md:w-2/3">
+        <div className="futuristic-card w-64 md:w-90 sm:w-72 rounded-xl overflow-hidden relative mx-auto">
+          <div className="futuristic-card-content" style={{ zIndex: 2 }}>
+            <h2 className="card-title">Epic Reward</h2>
+            <p className="card-subtitle">
+              You have acquired a legendary artifact of immense power!
+            </p>
+            <div className="futuristic-image-container mb-4">
+              <div className="holo-overlay"></div>
+              <div className="futuristic-particles"></div>
+              <img
+                src={reward}
+                alt="Reward"
+                className="futuristic-image"
+              />
+            </div>
+            <p className="card-description">{rewardDescription}</p>
+          </div>
+        </div>
+      </div>
+
+      {/* Sección de Botones */}
+      <div className="w-full md:w-1/3 flex flex-col items-center gap-4">
+        <button
+          onClick={() => setShowRewardPopup(false)}
+          className="bg-gradient-to-r from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-800 text-gray-100 font-bold py-2 px-6 rounded-full transition-all w-full"
+        >
+          Close
+        </button>
+           
+      </div>
+    </div>
+  </div>
+)}
+
+ 
     </>
   );
 };

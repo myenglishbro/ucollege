@@ -29,7 +29,8 @@ export const roadB2 = [
         title: "Challenge 01",
         subtitle: "B2/C1",
         code:"secrevpouthealou",
-
+        reconpensa: "https://i.ibb.co/jkkK0wXX/RECONPENSAPRESENTSIMPLE.webp",
+        reconpensaDescripcion: "La Espada Legendaria ‘Routine & Facts’ brilla con un aura ancestral, forjada con el poder inquebrantable del Present Simple. Su hoja resplandeciente está inscrita con los fundamentos del tiempo verbal, una reliquia de rutina y constancia. ",
         dateAdded: "Basic 01 ",
         channel: "sdasd",
         description: "Completa los desafíos para dominar el Inglés",
@@ -47,7 +48,8 @@ export const roadB2 = [
         id: 2,
         thumbnail: "https://i.ibb.co/ns4nywn7/DALL-E-2025-03-13-12-50-42-A-formidable-warrior-representing-the-Present-Progressive-tense-in-Englis.webp",
         code:"routine&fact",
-
+        reconpensa: "https://i.ibb.co/jkkK0wXX/RECONPENSAPRESENTSIMPLE.webp",
+        reconpensaDescripcion: "La Espada Legendaria ‘Routine & Facts’ resplandece con un aura mística, irradiando la esencia misma del Present Simple. Su hoja afilada y resplandeciente está grabada con inscripciones que representan la estructura inquebrantable de este tiempo verbal ⚔️✨",
         title: "Present Progressive",
         subtitle: "B2/C1",
 
@@ -120,6 +122,8 @@ export const roadB2 = [
     {
         id: 5,
         thumbnail: "https://i.ibb.co/4CTCgND/DALL-E-2025-03-03-10-24-24-A-high-quality-digital-illustration-of-a-young-warrior-student-battling-t.webp",
+        reconpensa: "https://i.ibb.co/jkkK0wXX/RECONPENSAPRESENTSIMPLE.webp",
+       reconpensaDescripcion: "La Espada Legendaria ‘Routine & Facts’ resplandece con un aura mística, irradiando la esencia misma del Present Simple. Su hoja afilada y resplandeciente está grabada con inscripciones que representan la estructura inquebrantable de este tiempo verbal ⚔️✨",
 
         title: "Test Center",
         subtitle: "B2/C1",
