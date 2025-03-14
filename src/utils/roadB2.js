@@ -12,14 +12,18 @@ export const roadB2 = [
         enlaces: [
            
             { titulo:"🎬 Introduccion ",url: "https://youtu.be/C9jsb_4RVyE"},
+            {  titulo:" Present Simple en Uso", url: "https://wordwall.net/play/57830/431/5147"},
+            {  titulo:" Present Simple en Uso II", url: "https://wordwall.net/play/12183/195/90006"},
+            {  titulo:" Present Simple en Uso III", url: "https://wordwall.net/play/57574/232/4109"},
+
             {  titulo:"[📑 Present Simple en Uso", url: "https://drive.google.com/file/d/1uosvGKLwegu9ECo9TZTG3uJd79ku4_G2/view?usp=sharing"},
-            {  titulo:"Obtener Codigo",url:"https://drive.google.com/file/d/19bs04pZ2WROkgtnCaKSEXxp4hB_Fk_qa/view?usp=sharing"},
+            {  titulo:"Obtener Codigo",descripcion:"Las respuestas de cada pregunta son el código del siguiente nivel",url:"https://drive.google.com/file/d/19bs04pZ2WROkgtnCaKSEXxp4hB_Fk_qa/view?usp=sharing"},
 
 
         ],
     },
     {
-        id: 0,
+        id: 1,
         thumbnail: "https://i.ibb.co/MJ4R5Hx/DALL-E-2025-03-13-15-26-05-An-epic-battlefield-where-students-have-fought-against-the-powerful-warri.webp",
 
         title: "Challenge 01",
@@ -32,6 +36,7 @@ export const roadB2 = [
         enlaces: [
            
             { titulo: "✍Reward ",url: "https://drive.google.com/file/d/1iuz0NUmT7kEFmnvAg4BsHjdMBvKRBZVL/view?usp=sharing", },
+            {  titulo:"[📑 Tense Infographic ", url: "https://drive.google.com/file/d/1Mxxxxi0x13HrO5EvSECowdaRF0Vg9fIK/view?usp=sharing"},
 
 
             
@@ -39,7 +44,7 @@ export const roadB2 = [
         ],
     },
     {
-        id: 0,
+        id: 2,
         thumbnail: "https://i.ibb.co/ns4nywn7/DALL-E-2025-03-13-12-50-42-A-formidable-warrior-representing-the-Present-Progressive-tense-in-Englis.webp",
         code:"routine&fact",
 
@@ -60,10 +65,10 @@ export const roadB2 = [
         ],
     },
     {
-        id: 0,
-        thumbnail: "https://i.ibb.co/HpK9sf9d/DALL-E-2025-02-26-11-46-59-An-epic-battle-between-two-warriors-representing-Present-Simple-and-Prese.webp",
+        id: 3,
+        thumbnail: "https://i.ibb.co/RxW0zs8/DALL-E-2025-03-14-09-59-57-An-intense-battlefield-where-students-have-fought-against-the-powerful-wa.webp",
 
-        title: "Challenge 01",
+        title: "Challenge 02",
         subtitle: "B2/C1",
         code:"spspsp",
 
@@ -89,9 +94,8 @@ export const roadB2 = [
 
 
         ],
-    },
-    {
-        id: 0,
+    }, {
+        id: 4,
         thumbnail: "https://i.ibb.co/4CTCgND/DALL-E-2025-03-03-10-24-24-A-high-quality-digital-illustration-of-a-young-warrior-student-battling-t.webp",
 
         title: "Week 01",
@@ -112,8 +116,9 @@ export const roadB2 = [
 
         ],
     },
+   
     {
-        id: 1,
+        id: 5,
         thumbnail: "https://i.ibb.co/4CTCgND/DALL-E-2025-03-03-10-24-24-A-high-quality-digital-illustration-of-a-young-warrior-student-battling-t.webp",
 
         title: "Test Center",
@@ -131,7 +136,27 @@ export const roadB2 = [
         ],
     },
     {
-        id: 2,
+        id: 5,
+        thumbnail: "https://i.ibb.co/vCS8bknP/DALL-E-2025-03-14-10-37-22-A-formidable-warrior-representing-the-challenge-of-mastering-English-voca.webp",
+
+        title: "Vocabulary",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Completa los desafíos para dominar el Inglés",
+        enlaces: [
+            { titulo:"List 01",url: "https://drive.google.com/file/d/1eGDk_XRymJiQx1EQdQ1VrrD-g-LKqAtT/view?usp=sharing"},
+            { titulo:"List 02",url: "https://drive.google.com/file/d/1p3CZYooGPIALtdYjYo6VgInqBclmhh3m/view?usp=sharing"},
+            { titulo:"List 03",url: "https://drive.google.com/file/d/1p29O7AwJXBxjKOR8CeRaeNTpISGO6-TC/view?usp=sharing"},
+            { titulo:"List 04",url: "https://drive.google.com/file/d/16BMsrHXCXLo3A2pHD3_B8e5_aI5BdU_l/view?usp=sharing"},
+            { titulo:"List 05",url: "https://drive.google.com/file/d/14Zc_IKDm1_Up-ByUsJH8fHWZRVEWMTYj/view?usp=sharing"},
+
+
+        ],
+    },
+    {
+        id: 6,
         thumbnail: "https://i.ibb.co/v6T66Y2g/DALL-E-2025-02-26-11-53-11-A-dramatic-battle-between-two-warriors-representing-Past-Simple-and-Prese.webp",
 
         title: "Past Simple or Present Perfect?",
@@ -255,10 +280,8 @@ export const roadB2 = [
            
             {  titulo:"[📑 Tense ss ", url: "https://drive.google.com/file/d/1ZY4xjMU2sMSNZSq9jme_78W2QEQiMKQX/view?usp=sharing"},
 
-            {  titulo:"[📑 Tense Infographic ", url: "https://drive.google.com/file/d/1Mxxxxi0x13HrO5EvSECowdaRF0Vg9fIK/view?usp=sharing"},
 
-            {  titulo:"[📑 Present Simple", url: "https://drive.google.com/file/d/1uosvGKLwegu9ECo9TZTG3uJd79ku4_G2/view?usp=sharing"},
-            {  titulo:"[📑 Present Progressive", url: "https://drive.google.com/file/d/15m5KpSZhu7Q1vop2-MiqlARFmY8jLx9u/view?usp=sharing"},
+         
            
         ],
     },
