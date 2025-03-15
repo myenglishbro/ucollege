@@ -24,8 +24,10 @@
     "react-markdown": "^9.0.3",
     "react-router-dom": "^6.9.0",
     "react-scripts": "5.0.1",
+    "react-tsparticles": "^2.12.2",
     "react-typewriter-effect": "^1.1.0",
     "react-typing-effect": "^2.0.5",
+    "tsparticles": "^3.8.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
