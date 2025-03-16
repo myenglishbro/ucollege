@@ -118,7 +118,7 @@ function App() {
           <Route path="/Myenglishbro" element={<MebLanding />}></Route>
           <Route path="/Inglesconelprofejuan" element={<IPJLanding/>}></Route>
 
-          <Route path="/Bilingualwill" element={<Bilingualwill/>}></Route>
+          <Route path="/Bilingualwill2" element={<Bilingualwill/>}></Route>
 
           
           
