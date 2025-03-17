@@ -72,7 +72,6 @@ export const roadB2 = [
 
         title: "Challenge 02",
         subtitle: "B2/C1",
-        code:"spspsp",
 
         dateAdded: "Basic 01 ",
         channel: "sdasd",
@@ -196,6 +195,8 @@ export const roadB2 = [
         description: "Completa los desafíos para dominar el Inglés",
         enlaces: [
             { titulo:"However vs Nevertheless  ",url: "https://drive.google.com/file/d/17HG1wBQ5zHdOzYjHMGitv20kmvUm4cQ3/view?usp=sharing"},
+            { titulo:"However vs Nevertheless 2  ",url: "https://drive.google.com/file/d/1Lg28Wbr5irTlfxbhDk-NQdQJf24Y0Tgz/view?usp=sharing"},
+
             { titulo:"on the one / other hand  ",url: "https://drive.google.com/file/d/1dB853cQmDq5i5K708OZKgwwO0_rEBaPQ/view?usp=sharing"},
             { titulo:"When it comes to   ",url: "https://drive.google.com/file/d/1lHB4gZng8Xl_ZCHbHyILcPI-yzbH_ErB/view?usp=sharing"},
             { titulo:"to what extent  ",url: "https://drive.google.com/file/d/1RMz56tFmTkfh08F8dWitdr0mT47hWP-e/view?usp=sharing"},
@@ -240,7 +241,14 @@ export const roadB2 = [
         description: "Completa los desafíos para dominar el Inglés",
         enlaces: [
           
-
+            { titulo:"📚MADE (OF, OUT OF, UP OF, FROM, WITH).pdf ",url: "https://drive.google.com/file/d/1-Mw6MXOBx3V6D0WvlN1l3Hn6XGBTrolK/view?usp=sharing"},
+            { titulo:"📚Make the most, Make the best, Get the better...pdf ",url: "https://drive.google.com/file/d/1pQvtcWZpqNw-8sWDfAST6b0DfqpubGz1/view?usp=sharing"},
+            { titulo:"📚CERTAINTY and Possibility.pdf ",url: "https://drive.google.com/file/d/1mm_5Vu6RvtWArxSLoK5sXT3cR5XVzWWJ/view?usp=sharing"},
+            { titulo:"📚MORE vs ELSE.pdf ",url: "https://drive.google.com/file/d/1vcmTTeSYW8DsLahQRM_WCGG-PYdeRmET/view?usp=sharing"},
+            { titulo:"📚MOST OF ALL...pdf ",url: "https://drive.google.com/file/d/1q9UddjPgJnivJ3jw1O4YUeFZQB38brVl/view?usp=sharing"},
+            { titulo:"📚Neither + singular or plural..pdf ",url: "https://drive.google.com/file/d/1-Q9yKb-unyv3FAKZLhiU5nVrjc0-yu3x/view?usp=sharing"},
+            { titulo:"📚Not only... but also...(structure)",url: "https://drive.google.com/file/d/1oXgZlGy5JdqxtVyzTQ-hiAfeyWadDkpG/view?usp=sharing"},
+            
         ],
     },
    
@@ -1017,13 +1025,6 @@ export const roadB2 = [
             { titulo:"📚it's (about-high) time ",url: "https://drive.google.com/file/d/1JsV99-95VmCWYE-ueZxQOT-2X7G8F-WJ/view?usp=sharing"},
             { titulo:"📚it is you who is or are.pdf ",url: "https://drive.google.com/file/d/1BndKeJOOstmHCB7pUYxQQyLr-YhfcSPJ/view?usp=sharing"},
             { titulo:"📚JOINING NEGATIVE IDEAS.pdf ",url: "https://drive.google.com/file/d/1OuDSE00YChqB4_W8nCFT7R2DTWt5ZfLF/view?usp=sharing"},
-            { titulo:"📚MADE (OF, OUT OF, UP OF, FROM, WITH).pdf ",url: "https://drive.google.com/file/d/1-Mw6MXOBx3V6D0WvlN1l3Hn6XGBTrolK/view?usp=sharing"},
-            { titulo:"📚Make the most, Make the best, Get the better...pdf ",url: "https://drive.google.com/file/d/1pQvtcWZpqNw-8sWDfAST6b0DfqpubGz1/view?usp=sharing"},
-            { titulo:"📚CERTAINTY and Possibility.pdf ",url: "https://drive.google.com/file/d/1mm_5Vu6RvtWArxSLoK5sXT3cR5XVzWWJ/view?usp=sharing"},
-            { titulo:"📚MORE vs ELSE.pdf ",url: "https://drive.google.com/file/d/1vcmTTeSYW8DsLahQRM_WCGG-PYdeRmET/view?usp=sharing"},
-            { titulo:"📚MOST OF ALL...pdf ",url: "https://drive.google.com/file/d/1q9UddjPgJnivJ3jw1O4YUeFZQB38brVl/view?usp=sharing"},
-            { titulo:"📚Neither + singular or plural..pdf ",url: "https://drive.google.com/file/d/1-Q9yKb-unyv3FAKZLhiU5nVrjc0-yu3x/view?usp=sharing"},
-            { titulo:"📚Not only... but also...(structure)",url: "https://drive.google.com/file/d/1oXgZlGy5JdqxtVyzTQ-hiAfeyWadDkpG/view?usp=sharing"},
             
 
 
