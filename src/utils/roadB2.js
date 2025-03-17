@@ -883,6 +883,25 @@ export const roadB2 = [
         id: 4,
         thumbnail:"https://i.ibb.co/vcMnX0n/B2-FIRST-17.png",
 
+        title: "Cambridge Essentials",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+        enlaces: [
+            { titulo:"50 Key Word Transformation ",url: "https://drive.google.com/file/d/1shC9iwswMYoymUEiJ8H1s8b9ngvp8gdB/view?usp=sharing"},
+            { titulo:"Mistakes in Writing ",url: "https://drive.google.com/file/d/1yiMC18Dxy5b5h-ve47g4SQT_wUOZ3yQX/view?usp=sharing"},
+            { titulo:"Key Word Transformation Secrets",url: "https://drive.google.com/file/d/11XTF7rYH66kt5GauEs65M4zMiyfrOKAy/view?usp=sharing"},
+            { titulo:"Reading Gap Secrets",url: "https://drive.google.com/file/d/1lNpyrE26v78RUX6T9VNWB3yvBuefKYoz/view?usp=sharing"},
+
+         
+        ],
+    },
+    {
+        id: 4,
+        thumbnail:"https://i.ibb.co/vcMnX0n/B2-FIRST-17.png",
+
         title: "Key Word Transformation",
         subtitle: "B2/C1",
 
@@ -891,6 +910,7 @@ export const roadB2 = [
         description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
         enlaces: [
             { titulo:"Presentación",url: "https://youtu.be/Hk1y2D9jbvQ"},
+            { titulo:"50 Key Word Transformation ",url: "https://drive.google.com/file/d/1shC9iwswMYoymUEiJ8H1s8b9ngvp8gdB/view?usp=sharing"},
 
             { titulo:"Solución KWT 01 ",url: "https://youtu.be/muqLK--ykjg"},
             { titulo:"Test KWT 01 ",url: "https://drive.google.com/file/d/10cOoRCKkswKlwi2GOM4cvdOlWNBE-Hbx/view?usp=sharing"},
