@@ -2,9 +2,9 @@ import React, { useState, useEffect, useRef } from 'react';
 import ContainerRoad from './ContainerRoad';
 import { roadC1 } from "../utils/roadC1";
 import { validCredentialsc1 } from '../utils/credentialsc1';
-import Sidebar from '../components/Sidebar';
 import DefaultView from '../components/DefaultView';
 import Banner from './Banner';
+import Sidebar2 from '../components/Sidebar2';
 
 const RoadMapC1 = () => {
   const [usuario, setUsuario] = useState('');
@@ -152,7 +152,7 @@ const RoadMapC1 = () => {
           <button className="sidebar-toggle" onClick={toggleSidebar}>
             ☰
           </button>
-          <Sidebar
+          <Sidebar2
             road={roadC1}
             seleccionarNivel={seleccionarNivel}
             isSidebarVisible={isSidebarVisible}

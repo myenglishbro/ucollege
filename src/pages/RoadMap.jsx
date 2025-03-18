@@ -48,7 +48,7 @@ const RoadMap = () => {
 
     if (userCredential) {
       setMostrarComponente(true);
-      setNivel(userCredential.nivela);
+      setNivel(userCredential.nivel);
       setRealname(userCredential.realname);  // Asignamos realname
       setUserImage(userCredential.img);      // Asignamos userImage
       setExpirationDate(userCredential.expirationDate);  // Asignamos expirationDate

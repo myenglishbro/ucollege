@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { FaSearch } from 'react-icons/fa';
-import Hito from '../pages/Hito';
+import Hito2 from '../pages/Hito2';
 import { mensajes } from '../utils/mensajes';
 
-const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) => {
+const Sidebar2 = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) => {
   const [selectedIndex, setSelectedIndex] = useState(null);
   const [activeIndex, setActiveIndex] = useState(null);
   const [selectedLink, setSelectedLink] = useState(null);
@@ -390,7 +390,7 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
 
       {selectedLink && (
         <div className="popup-container">
-          <Hito selectedLink={selectedLink} />
+          <Hito2 selectedLink={selectedLink} />
 
           <button onClick={() => setSelectedLink(null)} className="close-popup">
             ✖
@@ -473,4 +473,4 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
   );
 };
 
-export default Sidebar;
+export default Sidebar2;

@@ -4,7 +4,7 @@ export const validCredentials = [
       // {expirationDate:"93 horas /128 horas ",nivel:"B1+ Intermediate",usuario: 'andresdesigner', password: 'designer123', realname: 'Andres Jaramillo', img: 'https://i.ibb.co/gTNwpJQ/67d46012622105-63d2bfcf57030.png'  }, // No image
       { expirationDate:"10 HOURS",nivel:"B2 Intermediate", usuario: 'Ppbergelund', password: 'pppublisher', realname: 'Pedro Bergelund', img: 'https://i.ibb.co/Ks3WrnN/426308282-432260169242381-257610.jpg' }, // No image
     
-      { nivel:"Suscriptor",usuario: 'temis', password: 'temis', realname: 'Estudiante Autodidacta', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+      { expirationDate:"10 HOURS",nivel:"premium",usuario: 'temis2', password: 'temis2', realname: 'Estudiante Autodidacta', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
 
 
     
@@ -12,7 +12,7 @@ export const validCredentials = [
    
 
       //marzo
-      { expirationDate:"17/07/25",nivel:"B2 Usuario Premium ",usuario: 'lewis', password: 'henryq', realname: 'Lewis Henry Quispe', img: 'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png' }, // No image
+      { expirationDate:"17/07/25",nivel:"premium",usuario: 'lewis', password: 'henryq', realname: 'Lewis Henry Quispe', img: 'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png' }, // No image
       { expirationDate:"15/06/25",nivel:"Usuario Premium ",usuario: 'pamelahellen30', password: 'rpamela', realname: 'Pamela Rodriguez.', img: 'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png' }, // No image
       // { expirationDate:"14/03/25",nivel:"B1+ ",usuario: 'hweny', password: 'cata08', realname: 'Weny Huaraca Magro', img: 'https://i.ibb.co/NZjv6vn/456531710-399933369790326-220531.png' }, // No image
       // { expirationDate:"16/03/25",nivel:"B1+ ",usuario: 'ana', password: 'grande', realname: 'Ana Grande', img: 'https://i.ibb.co/NZjv6vn/456531710-399933369790326-220531.png' }, // No image
