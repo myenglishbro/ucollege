@@ -3,7 +3,7 @@ export const roadB2 = [
         id: 0,
         thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
 
-        title: "Present Simple",
+        title: "Present Simple Arc",
         subtitle: "B2/C1",
 
         dateAdded: "Basic 01 ",
@@ -11,43 +11,15 @@ export const roadB2 = [
         description: "Completa los desafíos para dominar el Inglés",
         enlaces: [
            
-            { titulo:"🎬 Introduccion ",url: "https://youtu.be/C9jsb_4RVyE"},
-            {  titulo:" Present Simple en Uso", url: "https://wordwall.net/play/57830/431/5147"},
-            {  titulo:" Present Simple en Uso II", url: "https://wordwall.net/play/12183/195/90006"},
-            {  titulo:" Present Simple en Uso III", url: "https://wordwall.net/play/57574/232/4109"},
-
-            {  titulo:"[📑 Present Simple en Uso", url: "https://drive.google.com/file/d/1uosvGKLwegu9ECo9TZTG3uJd79ku4_G2/view?usp=sharing"},
-            {  titulo:"Obtener Codigo",descripcion:"Las respuestas de cada pregunta son el código del siguiente nivel",url:"https://drive.google.com/file/d/19bs04pZ2WROkgtnCaKSEXxp4hB_Fk_qa/view?usp=sharing"},
-
-
+            { titulo:"Present Simple ",descripcion:"Aprenderemos a determinar en que situaciones usar el present simple ",url2: "https://youtu.be/b5KxYRP2I5s",url:"https://drive.google.com/file/d/1uosvGKLwegu9ECo9TZTG3uJd79ku4_G2/view?usp=sharing"},
+            {  titulo:"Battle Code ",descripcion:"Las respuestas de cada pregunta son el código del siguiente nivel",url:"https://drive.google.com/file/d/19bs04pZ2WROkgtnCaKSEXxp4hB_Fk_qa/view?usp=sharing"},
         ],
     },
-    {
-        id: 1,
-        thumbnail: "https://i.ibb.co/MJ4R5Hx/DALL-E-2025-03-13-15-26-05-An-epic-battlefield-where-students-have-fought-against-the-powerful-warri.webp",
-
-        title: "Challenge 01",
-        subtitle: "B2/C1",
-        code:"secrevpouthealou",
-        reconpensa: "https://i.ibb.co/jkkK0wXX/RECONPENSAPRESENTSIMPLE.webp",
-        reconpensaDescripcion: "La Espada Legendaria ‘Routine & Facts’ brilla con un aura ancestral, forjada con el poder inquebrantable del Present Simple. Su hoja resplandeciente está inscrita con los fundamentos del tiempo verbal, una reliquia de rutina y constancia. ",
-        dateAdded: "Basic 01 ",
-        channel: "sdasd",
-        description: "Completa los desafíos para dominar el Inglés",
-        enlaces: [
-           
-            { titulo: "✍Reward ",url: "https://drive.google.com/file/d/1iuz0NUmT7kEFmnvAg4BsHjdMBvKRBZVL/view?usp=sharing", },
-            {  titulo:"[📑 Tense Infographic ", url: "https://drive.google.com/file/d/1Mxxxxi0x13HrO5EvSECowdaRF0Vg9fIK/view?usp=sharing"},
-
-
-            
-
-        ],
-    },
+   
     {
         id: 2,
         thumbnail: "https://i.ibb.co/ns4nywn7/DALL-E-2025-03-13-12-50-42-A-formidable-warrior-representing-the-Present-Progressive-tense-in-Englis.webp",
-        code:"routine&fact",
+        code:"secrevpouthealou",
         reconpensa: "https://i.ibb.co/jkkK0wXX/RECONPENSAPRESENTSIMPLE.webp",
         reconpensaDescripcion: "La Espada Legendaria ‘Routine & Facts’ resplandece con un aura mística, irradiando la esencia misma del Present Simple. Su hoja afilada y resplandeciente está grabada con inscripciones que representan la estructura inquebrantable de este tiempo verbal ⚔️✨",
         title: "Present Progressive",
@@ -57,10 +29,8 @@ export const roadB2 = [
         channel: "sdasd",
         description: "Completa los desafíos para dominar el Inglés",
         enlaces: [
-           
-            { titulo:"🎬 Introduccion ",url: "https://youtu.be/C9jsb_4RVyE"},
-            { titulo:"🎬 Present Progressive Uso 01",url: "https://youtu.be/vKi-SGeme-w"},
-            {  titulo:"[📑 Present Progressive en Uso", url: "https://drive.google.com/file/d/15m5KpSZhu7Q1vop2-MiqlARFmY8jLx9u/view?usp=sharing"},
+
+          { titulo:"🎬 Present Progressive Usos",url:"https://drive.google.com/file/d/15m5KpSZhu7Q1vop2-MiqlARFmY8jLx9u/view?usp=sharing",url2: "https://youtu.be/Nnu6JOaenf0"},
             
 
 
@@ -70,7 +40,7 @@ export const roadB2 = [
         id: 3,
         thumbnail: "https://i.ibb.co/RxW0zs8/DALL-E-2025-03-14-09-59-57-An-intense-battlefield-where-students-have-fought-against-the-powerful-wa.webp",
 
-        title: "Challenge 02",
+        title: "Present Simple or Progressive ",
         subtitle: "B2/C1",
 
         dateAdded: "Basic 01 ",
@@ -106,6 +76,8 @@ export const roadB2 = [
         channel: "sdasd",
         description: "Completa los desafíos para dominar el Inglés",
         enlaces: [
+            {  titulo:"[📑 Tense Infographic ", url: "https://drive.google.com/file/d/1Mxxxxi0x13HrO5EvSECowdaRF0Vg9fIK/view?usp=sharing"},
+
             { titulo:"Saxon genitive",url: "https://drive.google.com/file/d/1vRBsRnPMX_9m_wNUkAvs2phvuR8DYHqD/view?usp=sharing",url3:"https://drive.google.com/file/d/18PItis9izfn8oMa-2V91VTX3SQq9W2Tq/view?usp=sharing"},
             { titulo:"Saxon vs Of",url: "https://drive.google.com/file/d/1LeR_MDZFr_BJhZ3fu16vg6eUuvUQri3o/view?usp=sharing"},
             { titulo:"📚That's why - that's because.pdf",url: "https://drive.google.com/file/d/1-VKBz1cVT8zW1yZFf1QYGry984MX7BML/view?usp=sharing"},
