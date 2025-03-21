@@ -12,7 +12,14 @@ export const roadB2 = [
         enlaces: [
            
             { titulo:"Present Simple ",descripcion:"Aprenderemos a determinar en que situaciones usar el present simple ",url2: "https://youtu.be/b5KxYRP2I5s",url:"https://drive.google.com/file/d/1uosvGKLwegu9ECo9TZTG3uJd79ku4_G2/view?usp=sharing"},
+            { titulo:"Usual",url: "https://drive.google.com/file/d/1Iru4Ttn7yf9vwOiUU8XjC6MCB9DPMHA8/view?usp=sharing"},
+            { titulo:"Usually",url: "https://drive.google.com/file/d/1IPWIh1B7oYwV4aPRJJKnM-gpZICitsX_/view?usp=sharing"},
+            { titulo:"I think not vs I don't think so. ",url: "https://drive.google.com/file/d/15nnCB3JJRtH1fqqx5TypEptgoRbo5q-P/view?usp=sharing"},
+            { titulo:"Work Out ",url: "https://drive.google.com/file/d/1xW2Dsg0x1yQr5H04JIqLq7FjL3BecD97/view?usp=sharing"},
+            { titulo:"Enough and Too ",url: "https://drive.google.com/file/d/1Tcadp5eOdfsHOlCwJWs0iNuphHQO4gYA/view?usp=sharing"},
+
             {  titulo:"Battle Code ",descripcion:"Las respuestas de cada pregunta son el código del siguiente nivel",url:"https://drive.google.com/file/d/19bs04pZ2WROkgtnCaKSEXxp4hB_Fk_qa/view?usp=sharing"},
+
         ],
     },
    
@@ -534,7 +541,6 @@ export const roadB2 = [
             { titulo:"📚Chance of-Chance to... ",url: "https://drive.google.com/file/d/18otkt_PTLMwlZGqs4rBnXRMdhz48xUaS/view?usp=sharing"},
             { titulo:"📚ASK FOR - ASK AFTER - ASK ABOUT",url: "https://drive.google.com/file/d/1gkbuIZJ6sRy1jro8NPpOZLKO4p7naizC/view?usp=sharing"},
             { titulo:"📚no good vs not good.pdf",url: "https://drive.google.com/file/d/1-5MHEN322Xi2xUYpDWYU115P2NXYQzdr/view?usp=sharing"},
-            { titulo:"📚WORK OUT - phrasal verb .pdf",url: "https://drive.google.com/file/d/1xW2Dsg0x1yQr5H04JIqLq7FjL3BecD97/view?usp=sharing"},
             { titulo:"📚[ppt] Used to/ be used to / get used to   ",url: "https://drive.google.com/file/d/1t9c1CP7VuTePAYy00qC3r85qRNoBM-7v/view?usp=sharing"},
             { titulo:"📚[Slide] Wait ,Await, Expect ",url: "https://drive.google.com/file/d/1C1llJJ8yFX0i5pxSnTMUWPIjmNvISnHB/view?usp=sharing"},
             { titulo:"📚Watch out for - Look out for.pdf",url: "https://drive.google.com/file/d/1-E-NvIWN5EmPErBDwZSZmoAQZdgC4g4O/view?usp=sharing"},
@@ -971,7 +977,6 @@ export const roadB2 = [
             { titulo:"📚Doubt that vs Doubt if",url: "https://drive.google.com/file/d/1qEgnOfM7BoFG1lmMu_xWgNbRlwBTt9X2/view?usp=sharing"},
             { titulo:"📚Early vs Soon ",url: "https://drive.google.com/file/d/1Acdy7DKjKxgj_6sWY4adIxRH9u5v-6bj/view?usp=sharing"},
             { titulo:"📚Either ...or  vs OR ",url: "https://drive.google.com/file/d/1DD4Z1gKhaIB3WK1wBB2aH1gk1bVglPhI/view?usp=sharing"},
-            { titulo:"📚Enough and Too ",url: "https://drive.google.com/file/d/1Tcadp5eOdfsHOlCwJWs0iNuphHQO4gYA/view?usp=sharing"},
             { titulo:"📚EVEN though-when-if-so ",url: "https://drive.google.com/file/d/1K5b3KQrgOSpO_5gfqRTbf7UEVFHuGrob/view?usp=sharing"},
             { titulo:"📚WHAT and HOW (Exclamations) ",url: "https://drive.google.com/file/d/1OJI6_nCQEgh26dLzcN0Lta-I5Ln202Oq/view?usp=sharing"},
             { titulo:"📚Expressing lack of surprise (phrases).. ",url: "https://drive.google.com/file/d/10OCN5p9pht9TviKo5C8Tlpq65n7LFSzV/view?usp=sharing"},
@@ -984,7 +989,6 @@ export const roadB2 = [
             { titulo:"📚had better",url: "https://drive.google.com/file/d/1HJEWIQQrKUc3ZeI0tQUVOz9Uq3ooXY6_/view?usp=sharing"},
             { titulo:"📚having a lot to do",url: "https://drive.google.com/file/d/1LiGCvmom_wRtwvNbKXx3WhALIglfBsgS/view?usp=sharing"},
             { titulo:"📚HOW TO USE HOPE ",url: "https://drive.google.com/file/d/1c3NJgBI41-5qIoln7xZ5RiPSeQ2UNyR_/view?usp=sharing"},
-            { titulo:"📚I think not vs I don't think so. ",url: "https://drive.google.com/file/d/15nnCB3JJRtH1fqqx5TypEptgoRbo5q-P/view?usp=sharing"},
             { titulo:"📚I wish he were vs I wish he was. ",url: "https://drive.google.com/file/d/1fbiunfDO3ATtUfhVjJmYTVaiIl7wuHUM/view?usp=sharing"},
             { titulo:"📚wish you didn't - wish you wouldn't",url: "https://drive.google.com/file/d/1c_W6Rnvb2guEvvGvtz4UpXOXt-oowWLm/view?usp=sharing"},
             { titulo:"📚If I were vs If I was ",url: "https://drive.google.com/file/d/1L8gL4in7HNGsjw_fqgsCzi2FPNi3VYR8/view?usp=sharing"},
@@ -1043,7 +1047,6 @@ export const roadB2 = [
             { titulo:"📚[Slide] Trust ,Distrust ,Entrust ",url: "https://drive.google.com/file/d/1gC2SLjM0tML-TVWLjl6a4V6wHYYkokbp/view?usp=sharing"},
             { titulo:"📚Universal Tags--.pdf",url: "https://drive.google.com/file/d/1OSz1iN5iCyX05MS1x0HLVUt93kuQUKKa/view?usp=sharing"},
             { titulo:"📚[Slide] Useful Homophones ",url: "https://drive.google.com/file/d/1MWO2XHuHp0bAzFceREIteP_cKXyuwe1j/view?usp=sharing"},
-            { titulo:"📚USUAL vs USUALLY.pdf",url: "https://drive.google.com/file/d/1eVER9cS5GdR1jGgkex3YBE-6h6IIk0o5/view?usp=sharing"},
             { titulo:"📚Verbs followed by infinitive or gerund with change in meaning ",url: "https://drive.google.com/file/d/1-zILhE9-k1jSvyi5Rx5u6G_mRR_cpXxa/view?usp=sharing"},
             { titulo:"📚IF vs WHETHER.pdf",url: "https://drive.google.com/file/d/1K8SHYnfmfuU7V8MBw2IGBot7wk1VO0hb/view?usp=sharing"},
             { titulo:"📚[Slide] Would rather/Would Sooner ",url: "https://drive.google.com/file/d/1F-t7qwMfcb5PDKfFodN02qZFwCzIZFqu/view?usp=sharing"},
