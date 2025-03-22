@@ -141,13 +141,23 @@ export const roadC1 = [
             { titulo:"📚[Slide] Phrases with Cases ",url: "https://drive.google.com/file/d/1qjQKqOoDOzasj51JWmxQC6S7-qd_KjLO/view?usp=sharing"},
             { titulo:"📚[Slide] Phrases with Once ",url: "https://drive.google.com/file/d/1oVEUrTm9O9vBv4EkgjuHsp2pe8jPMiQJ/view?usp=sharing"},
             { titulo:"📚[Slide] Phrases with Yet ",url: "https://drive.google.com/file/d/1DQWYOuHyMFqL7X1_zUZ7o9txaZ2fEKc_/view?usp=sharing"},
+            { titulo:"📚[Slide] Inversion - Table  ",url: "https://drive.google.com/file/d/14qXwjyRe7Cze827F_YwCASj-9aXev5ZG/view?usp=sharing"},
 
+            { titulo:"📚[Slide] Inversion - Advanced Structures  ",url: "https://drive.google.com/file/d/1aX5Yh67i2LdPWFHCsPRivVGuM5K0EIPs/view?usp=sharing"},
+            { titulo:"📚[Slide] Inversion in English -Neither and Nor  ",url: "https://drive.google.com/file/d/1gN81Sppa99dV3iLI9cgRhjmrWQDR9W2o/view?usp=sharing"},
+            { titulo:"📚INVERSIONS AT B2 LEVEL..pdf ",url: "https://drive.google.com/file/d/17DCJanovoUIB6Vome6kfXe4kMRVo24Cc/view?usp=sharing"},
+            { titulo:"📚[Slide] It as an empty object   ",url: "https://drive.google.com/file/d/1G8Lic6FhxA2q83W09F6Bt5utztkkVSi3/view?usp=sharing"},
+            { titulo:"📚[Slide] It comes a time when ....or There comes a time when .. ",url: "https://drive.google.com/file/d/1zaNV-bEQQWZYjKnaDDTputPzUaWFYI5w/view?usp=sharing"},
 
+            { titulo:"📚[Slide] Make it so that -Phrase ",url: "https://drive.google.com/file/d/1Hm_asZSbjMBSRXmYsgdthDikC74-07gk/view?usp=sharing"},
 
+            { titulo:"📚[Slide] Might ( criticism / suggestions)",url: "https://drive.google.com/file/d/1IYxzlKp0wyJji-pJfEgqJxRKeh7HF4iK/view?usp=sharing"},
 
+            { titulo:"📚[Slide] Much to someone's ../To someone's.. ",url: "https://drive.google.com/file/d/1WepNF28NcFBzr7x9DJlPwipJLXoe3yYU/view?usp=sharing"},
 
+            { titulo:"📚[Slide] Muse, Amuse , Bemuse  ",url: "https://drive.google.com/file/d/143LZdKC50ltIpSvzXLvGGLKBSOgN4L9d/view?usp=sharing"},
 
-
+            { titulo:"📚[Slide] Propose ,Recommend,Suggest ",url: "https://drive.google.com/file/d/1lIqneQZjM3aJ6GrbREhkPL1GfNNh6IyR/view?usp=sharing"},
 
 
 
@@ -171,15 +181,7 @@ export const roadC1 = [
            
            
          
-            { titulo:"📚[Slide] Inversion - Advanced Structures  ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Inversion in English -Neither and Nor  ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Inversion in English ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] It as an empty object   ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] It comes a time when ....or There comes a time when .. ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Make it so that -Phrase ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Might ( criticism / suggestions)",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Much to someone's ../To someone's.. ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Muse, Amuse , Bemuse  ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
+          
             { titulo:"📚[Slide] Not as ...as..., Not so ... as..",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] Not so much .../Not...so much as .../Not so much ...as",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] ONLY meaning but or except",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
@@ -188,8 +190,6 @@ export const roadC1 = [
            
             { titulo:"📚[Slide] Ponder  vs Pander  ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] Possessive Gerunds ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Present Habits ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-            { titulo:"📚[Slide] Propose ,Recommend,Suggest ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] Put someone to something - Put something to someone",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] Reduce Relative Clauses  ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
             { titulo:"📚[Slide] Reduplicatives ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
