@@ -1,4 +1,30 @@
 export const roadC1 = [
+    {
+        id: 1,
+        thumbnail:"https://i.ibb.co/9kqY7G0n/DALL-E-2025-03-23-15-06-19-Epic-widescreen-wallpaper-showing-a-group-of-students-as-heroic-warriors.webp",
+        reconpensa: "https://i.ibb.co/jkkK0wXX/RECONPENSAPRESENTSIMPLE.webp",
+        reconpensaDescripcion: "La Espada Legendaria ‘Routine & Facts’ resplandece con un aura mística, irradiando la esencia misma del Present Simple. Su hoja afilada y resplandeciente está grabada con inscripciones que representan la estructura inquebrantable de este tiempo verbal ⚔️✨",
+        title: "Real English World 01",
+        subtitle: "B2/C1",
+        color: "#8F2BBC",
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Aprende a hablar como un hablante nativo enfocándote en la pronunciación, entonación y expresiones idiomáticas para mejorar tu fluidez y naturalidad al hablar.",
+        enlaces: [
+            
+            { titulo:"Make it so that",descripcion:"sds",url: "https://drive.google.com/file/d/1Hm_asZSbjMBSRXmYsgdthDikC74-07gk/view?usp=sharing"},
+
+            { titulo:"Might ( criticism / suggestions)",codigo:"sss",url: "https://drive.google.com/file/d/1IYxzlKp0wyJji-pJfEgqJxRKeh7HF4iK/view?usp=sharing"},
+
+            { titulo:"Much to someone's ../To someone's.. ",url: "https://drive.google.com/file/d/1WepNF28NcFBzr7x9DJlPwipJLXoe3yYU/view?usp=sharing"},
+
+            { titulo:"📚[Slide] Muse, Amuse , Bemuse  ",url: "https://drive.google.com/file/d/143LZdKC50ltIpSvzXLvGGLKBSOgN4L9d/view?usp=sharing"},
+
+            { titulo:"📚[Slide] Propose ,Recommend,Suggest ",url: "https://drive.google.com/file/d/1lIqneQZjM3aJ6GrbREhkPL1GfNNh6IyR/view?usp=sharing"},
+
+
+        ],
+    },
    
    
   
@@ -149,17 +175,7 @@ export const roadC1 = [
             { titulo:"📚[Slide] It as an empty object   ",url: "https://drive.google.com/file/d/1G8Lic6FhxA2q83W09F6Bt5utztkkVSi3/view?usp=sharing"},
             { titulo:"📚[Slide] It comes a time when ....or There comes a time when .. ",url: "https://drive.google.com/file/d/1zaNV-bEQQWZYjKnaDDTputPzUaWFYI5w/view?usp=sharing"},
 
-            { titulo:"📚[Slide] Make it so that -Phrase ",url: "https://drive.google.com/file/d/1Hm_asZSbjMBSRXmYsgdthDikC74-07gk/view?usp=sharing"},
-
-            { titulo:"📚[Slide] Might ( criticism / suggestions)",url: "https://drive.google.com/file/d/1IYxzlKp0wyJji-pJfEgqJxRKeh7HF4iK/view?usp=sharing"},
-
-            { titulo:"📚[Slide] Much to someone's ../To someone's.. ",url: "https://drive.google.com/file/d/1WepNF28NcFBzr7x9DJlPwipJLXoe3yYU/view?usp=sharing"},
-
-            { titulo:"📚[Slide] Muse, Amuse , Bemuse  ",url: "https://drive.google.com/file/d/143LZdKC50ltIpSvzXLvGGLKBSOgN4L9d/view?usp=sharing"},
-
-            { titulo:"📚[Slide] Propose ,Recommend,Suggest ",url: "https://drive.google.com/file/d/1lIqneQZjM3aJ6GrbREhkPL1GfNNh6IyR/view?usp=sharing"},
-
-
+      
 
         ],
     },

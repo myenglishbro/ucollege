@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FaSearch } from 'react-icons/fa';
-import Hito from '../pages/Hito';
+import Hito2 from '../pages/Hito2';
 import { mensajes } from '../utils/mensajes';
 
 const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) => {
@@ -18,6 +18,16 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
   const [unlockedItems, setUnlockedItems] = useState([]);
   // Estado para los inputs de código (clave: índice del elemento)
   const [codeInputs, setCodeInputs] = useState({});
+// Nuevo estado para los enlaces desbloqueados
+const [unlockedLinks, setUnlockedLinks] = useState([]);
+
+// Estado para almacenar el enlace actualmente bloqueado (cuando se haga clic en "Locked")
+const [currentLockedLink, setCurrentLockedLink] = useState(null);
+// Estado para el input del código en el modal
+const [codeInputForPopup, setCodeInputForPopup] = useState("");
+
+
+
 
   // Estados nuevos para el popup de recompensa
   const [showRewardPopup, setShowRewardPopup] = useState(false);
@@ -126,6 +136,43 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
       alert("Código incorrecto");
     }
   };
+
+
+  const handleValidateLinkCode = (enlaceKey) => {
+    const userCode = codeInputs[enlaceKey] || "";
+    // Buscamos el enlace correspondiente entre todos los enlaces
+    const enlace = road.flatMap(item => item.enlaces).find(e => e.titulo === enlaceKey);
+    
+    if (!enlace) {
+      alert("Enlace no encontrado.");
+      return;
+    }
+  
+    if (userCode === enlace.codigo) {
+      setUnlockedLinks(prev => [...prev, enlaceKey]);
+      alert("¡Enlace desbloqueado!");
+    } else {
+      alert("Código incorrecto");
+    }
+  };
+  
+
+
+  const handleValidateLinkCodePopup = () => {
+    if (!currentLockedLink) return;
+  
+    if (codeInputForPopup === currentLockedLink.codigo) {
+      setUnlockedLinks(prev => [...prev, currentLockedLink.titulo]);
+      alert("¡Enlace desbloqueado!");
+      setCurrentLockedLink(null);
+      setCodeInputForPopup("");
+    } else {
+      alert("Código incorrecto");
+    }
+  };
+  
+
+
 
   return (
     <>
@@ -270,116 +317,144 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
                   </div>
                 ) : (
                   <div className="accordion-content">
-                    {elemento.enlaces.map((enlace, i) => (
-                      <div
-                        key={i}
-                        className={`timeline-item ${viewedItems?.includes(enlace.titulo) ? 'viewed' : ''}`}
-                        style={{
-                          padding: '10px',
-                          margin: '5px 0',
-                          background: '#334155',
-                          borderRadius: '8px',
-                          color: 'white',
-                          display: 'flex',
-                          flexDirection: 'column',
-                          justifyContent: 'space-between',
-                          alignItems: 'flex-start',
-                        }}
-                      >
-                        {/* Título con Checkbox */}
-                        <label style={{ display: 'flex', alignItems: 'center', width: '100%' }}>
-                          <input
-                            type="checkbox"
-                            checked={viewedItems?.includes(enlace.titulo)}
-                            onChange={() => handleCheckboxChange(enlace.titulo)}
-                            style={{ marginRight: '10px' }}
-                          />
-                          <span style={{ fontWeight: 'bold' }}>{`${i + 1}. ${enlace.titulo}`}</span>
-                        </label>
+                  {elemento.enlaces.map((enlace, i) => {
+  const requiresCode = Boolean(enlace.codigo);
+  const isUnlocked = unlockedLinks.includes(enlace.titulo);
 
-                        {/* Descripción */}
-                        <p style={{ fontSize: '14px', color: '#CBD5E1', marginLeft: '30px', fontStyle: 'italic' }}>
-                          {enlace.descripcion}
-                        </p>
+  if (requiresCode && !isUnlocked) {
+    // En lugar de mostrar el input inline, mostramos un botón que abre el modal
+    return (
+      <div
+        key={i}
+        className="timeline-item"
+        style={{
+          padding: '10px',
+          margin: '5px 0',
+          background: '#334155',
+          borderRadius: '8px',
+          color: 'white',
+        }}
+      >
+        <h4 style={{ fontWeight: 'bold' }}>{`${i + 1}. ${enlace.titulo}`}</h4>
+        <p style={{ fontSize: '14px', color: '#CBD5E1', fontStyle: 'italic' }}>
+          {enlace.descripcion}
+        </p>
+        <button
+          onClick={() => {
+            setCurrentLockedLink(enlace);
+            setCodeInputForPopup(""); // Limpia el input al abrir el modal
+          }}
+          style={{
+            padding: '8px 12px',
+            background: '#3B82F6',
+            color: 'white',
+            border: 'none',
+            borderRadius: '4px',
+            width: '100%',
+            cursor: 'pointer',
+            marginTop: '10px',
+          }}
+        >
+          🔒 Locked: Ingresa código
+        </button>
+      </div>
+    );
+  } else {
+    // Si el enlace no requiere código o ya fue desbloqueado, se muestra el contenido normal.
+    return (
+      <div
+        key={i}
+        className={`timeline-item ${viewedItems?.includes(enlace.titulo) ? 'viewed' : ''}`}
+        style={{
+          padding: '10px',
+          margin: '5px 0',
+          background: '#334155',
+          borderRadius: '8px',
+          color: 'white',
+          display: 'flex',
+          flexDirection: 'column',
+          justifyContent: 'space-between',
+          alignItems: 'flex-start',
+        }}
+      >
+        <label style={{ display: 'flex', alignItems: 'center', width: '100%' }}>
+          <input
+            type="checkbox"
+            checked={viewedItems?.includes(enlace.titulo)}
+            onChange={() => handleCheckboxChange(enlace.titulo)}
+            style={{ marginRight: '10px' }}
+          />
+          <span style={{ fontWeight: 'bold' }}>{`${i + 1}. ${enlace.titulo}`}</span>
+        </label>
+        <p
+          style={{
+            fontSize: '14px',
+            color: '#CBD5E1',
+            marginLeft: '30px',
+            fontStyle: 'italic',
+          }}
+        >
+          {enlace.descripcion}
+        </p>
+        <div style={{ display: 'flex', gap: '8px', marginTop: '8px' }}>
+          <button
+            onClick={() => handleLinkClick(enlace)}
+            style={{
+              background: viewedItems?.includes(enlace.titulo)
+                ? 'linear-gradient(135deg, #1E90FF, #0073E6)'
+                : 'linear-gradient(135deg, #004AAD, #001F3F)',
+              color: '#fff',
+              borderRadius: '6px',
+              padding: '6px 14px',
+              border: 'none',
+              fontWeight: 'bold',
+              fontSize: '14px',
+              cursor: 'pointer',
+            }}
+          >
+            {viewedItems?.includes(enlace.titulo) ? '✅ Done' : '📖 Slide'}
+          </button>
+          {enlace.url3 && (
+            <button
+              onClick={() => handleLinkClick({ ...enlace, url: enlace.url3 })}
+              style={{
+                background: 'linear-gradient(135deg, #004AAD, #001F3F)',
+                color: '#fff',
+                borderRadius: '6px',
+                padding: '6px 14px',
+                border: 'none',
+                fontWeight: 'bold',
+                fontSize: '14px',
+                cursor: 'pointer',
+              }}
+            >
+              📝 Test
+            </button>
+          )}
+          {enlace.url2 && (
+            <button
+              onClick={() => handleLinkClick({ ...enlace, url: enlace.url2 })}
+              style={{
+                background: 'linear-gradient(135deg, #FF8C00, #FF4500)',
+                color: '#fff',
+                borderRadius: '6px',
+                padding: '6px 14px',
+                border: 'none',
+                fontWeight: 'bold',
+                fontSize: '14px',
+                cursor: 'pointer',
+              }}
+            >
+              🎬 Watch
+            </button>
+          )}
+        </div>
+      </div>
+    );
+  }
+})}
 
-                        <div style={{ display: 'flex', gap: '8px', marginTop: '8px' }}>
-                          {/* Botón para URL principal */}
-                          <button
-                            onClick={() => handleLinkClick(enlace)}
-                            style={{
-                              background: viewedItems?.includes(enlace.titulo)
-                                ? 'linear-gradient(135deg, #1E90FF, #0073E6)'
-                                : 'linear-gradient(135deg, #004AAD, #001F3F)',
-                              color: '#fff',
-                              borderRadius: '6px',
-                              padding: '6px 14px',
-                              border: 'none',
-                              fontWeight: 'bold',
-                              fontSize: '14px',
-                              transition: 'all 0.2s ease-in-out',
-                              cursor: 'pointer',
-                              display: 'flex',
-                              alignItems: 'center',
-                              gap: '6px'
-                            }}
-                            onMouseEnter={(e) => (e.currentTarget.style.transform = 'scale(1.03)')}
-                            onMouseLeave={(e) => (e.currentTarget.style.transform = 'scale(1)')}
-                          >
-                            {viewedItems?.includes(enlace.titulo) ? '✅ Done' : '📖 Slide'}
-                          </button>
 
-                          {/* Botón para URL secundaria (si existe) */}
-                          {enlace.url3 && (
-                            <button
-                              onClick={() => handleLinkClick({ ...enlace, url: enlace.url3 })}
-                              style={{
-                                background: 'linear-gradient(135deg, #004AAD, #001F3F)',
-                                color: '#fff',
-                                borderRadius: '6px',
-                                padding: '6px 14px',
-                                border: 'none',
-                                fontWeight: 'bold',
-                                fontSize: '14px',
-                                transition: 'all 0.2s ease-in-out',
-                                cursor: 'pointer',
-                                display: 'flex',
-                                alignItems: 'center',
-                                gap: '6px'
-                              }}
-                              onMouseEnter={(e) => (e.currentTarget.style.transform = 'scale(1.03)')}
-                              onMouseLeave={(e) => (e.currentTarget.style.transform = 'scale(1)')}
-                            >
-                              📝 Test
-                            </button>
-                          )}
-
-                          {/* Botón para URL secundaria (si existe) */}
-                          {enlace.url2 && (
-                            <button
-                              onClick={() => handleLinkClick({ ...enlace, url: enlace.url2 })}
-                              style={{
-                                background: 'linear-gradient(135deg, #FF8C00, #FF4500)',
-                                color: '#fff',
-                                borderRadius: '6px',
-                                padding: '6px 14px',
-                                border: 'none',
-                                fontWeight: 'bold',
-                                fontSize: '14px',
-                                transition: 'all 0.2s ease-in-out',
-                                cursor: 'pointer',
-                                display: 'flex',
-                                alignItems: 'center',
-                                gap: '6px'
-                              }}
-                              onMouseEnter={(e) => (e.currentTarget.style.transform = 'scale(1.03)')}
-                              onMouseLeave={(e) => (e.currentTarget.style.transform = 'scale(1)')}
-                            >
-                              🎬 Watch
-                            </button>
-                          )}
-                        </div>
-                      </div>
-                    ))}
                   </div>
                 )}
               </>
@@ -390,7 +465,7 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
 
       {selectedLink && (
         <div className="popup-container">
-          <Hito selectedLink={selectedLink} />
+          <Hito2 selectedLink={selectedLink} />
 
           <button onClick={() => setSelectedLink(null)} className="close-popup">
             ✖
@@ -469,6 +544,104 @@ const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
 )}
 
  
+{currentLockedLink && (
+  <div
+    className="modal-overlay"
+    style={{
+      position: 'fixed',
+      top: 0,
+      left: 0,
+      right: 0,
+      bottom: 0,
+      background: 'rgba(0, 0, 0, 0.4)',
+      display: 'flex',
+      alignItems: 'center',
+      justifyContent: 'center',
+      zIndex: 1000,
+      backdropFilter: 'blur(5px)',
+      WebkitBackdropFilter: 'blur(5px)',
+    }}
+  >
+    <div
+      className="modal-content"
+      style={{
+        background: 'rgba(255, 255, 255, 0.1)',
+        borderRadius: '16px',
+        padding: '24px',
+        width: '320px',
+        textAlign: 'center',
+        boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)',
+        border: '1px solid rgba(255, 255, 255, 0.3)',
+        backdropFilter: 'blur(10px)',
+        WebkitBackdropFilter: 'blur(10px)',
+      }}
+    >
+      <h3 style={{ color: '#fff', marginBottom: '16px', fontSize: '1.5rem' }}>
+        Desbloquear enlace
+      </h3>
+      <p style={{ color: '#ddd', marginBottom: '16px', fontSize: '1rem' }}>
+        Ingresa el código para desbloquear: <br />
+        <strong>{currentLockedLink.titulo}</strong>
+      </p>
+      <input
+        type="text"
+        placeholder="Ingresa el código"
+        value={codeInputForPopup}
+        onChange={(e) => setCodeInputForPopup(e.target.value)}
+        style={{
+          padding: '12px',
+          width: '100%',
+          marginBottom: '16px',
+          borderRadius: '8px',
+          border: 'none',
+          outline: 'none',
+          background: 'rgba(255, 255, 255, 0.2)',
+          color: '#fff',
+          fontSize: '1rem',
+        }}
+      />
+      <button
+        onClick={() => handleValidateLinkCodePopup()}
+        style={{
+          padding: '12px 0',
+          background: 'linear-gradient(135deg, #6EE7B7, #3B82F6)',
+          color: 'white',
+          border: 'none',
+          borderRadius: '8px',
+          width: '100%',
+          cursor: 'pointer',
+          fontSize: '1rem',
+          marginBottom: '12px',
+        }}
+      >
+        Enviar código
+      </button>
+      <button
+        onClick={() => {
+          setCurrentLockedLink(null);
+          setCodeInputForPopup("");
+        }}
+        style={{
+          padding: '12px 0',
+          background: 'rgba(255, 0, 0, 0.7)',
+          color: 'white',
+          border: 'none',
+          borderRadius: '8px',
+          width: '100%',
+          cursor: 'pointer',
+          fontSize: '1rem',
+        }}
+      >
+        Cancelar
+      </button>
+    </div>
+  </div>
+)}
+
+
+
+
+
     </>
   );
 };
