@@ -12,7 +12,7 @@ export const roadB2 = [
         enlaces: [
            
             { titulo:"Present Simple ",descripcion:"Aprenderemos a determinar en que situaciones usar el present simple ",url2: "https://youtu.be/b5KxYRP2I5s",url:"https://drive.google.com/file/d/1uosvGKLwegu9ECo9TZTG3uJd79ku4_G2/view?usp=sharing"},
-            { titulo:"Usual",url: "https://drive.google.com/file/d/1Iru4Ttn7yf9vwOiUU8XjC6MCB9DPMHA8/view?usp=sharing"},
+            { titulo:"Usual",url: "https://drive.google.com/file/d/1Iru4Ttn7yf9vwOiUU8XjC6MCB9DPMHA8/view?usp=sharing",url2:"https://youtu.be/OSRAYauWH-I"},
             { titulo:"Usually",url: "https://drive.google.com/file/d/1IPWIh1B7oYwV4aPRJJKnM-gpZICitsX_/view?usp=sharing"},
             { titulo:"I think not vs I don't think so. ",url: "https://drive.google.com/file/d/15nnCB3JJRtH1fqqx5TypEptgoRbo5q-P/view?usp=sharing"},
             { titulo:"Work Out ",url: "https://drive.google.com/file/d/1h4pzMnsgFmBcpRj1QbPbBDjkJ0J9UYfE/view?usp=sharing"},
