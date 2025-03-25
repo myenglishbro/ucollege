@@ -32,7 +32,7 @@ const Hito = ({ selectedLink }) => {
   // Ref para el contenedor principal (que se usará para fullscreen)
   const containerRef = useRef(null);
 
-  const validCode = 'meb25034';
+  const validCode = 'nocode';
 
   const toggleSize = () => {
     setIsExpanded(!isExpanded);
