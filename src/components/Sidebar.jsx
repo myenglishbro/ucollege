@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { FaSearch } from 'react-icons/fa';
-import Hito2 from '../pages/Hito2';
+import Hito from '../pages/Hito';
 import { mensajes } from '../utils/mensajes';
+import { FaCheck, FaBookOpen, FaPencilAlt, FaVideo } from 'react-icons/fa';
+import { FaLock } from 'react-icons/fa';
 
-const Sidebar = ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) => {
+const Sidebar= ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) => {
   const [selectedIndex, setSelectedIndex] = useState(null);
   const [activeIndex, setActiveIndex] = useState(null);
   const [selectedLink, setSelectedLink] = useState(null);
@@ -325,39 +327,66 @@ const [codeInputForPopup, setCodeInputForPopup] = useState("");
     // En lugar de mostrar el input inline, mostramos un botón que abre el modal
     return (
       <div
-        key={i}
-        className="timeline-item"
-        style={{
-          padding: '10px',
-          margin: '5px 0',
-          background: '#334155',
-          borderRadius: '8px',
-          color: 'white',
-        }}
-      >
-        <h4 style={{ fontWeight: 'bold' }}>{`${i + 1}. ${enlace.titulo}`}</h4>
-        <p style={{ fontSize: '14px', color: '#CBD5E1', fontStyle: 'italic' }}>
-          {enlace.descripcion}
-        </p>
-        <button
-          onClick={() => {
-            setCurrentLockedLink(enlace);
-            setCodeInputForPopup(""); // Limpia el input al abrir el modal
-          }}
-          style={{
-            padding: '8px 12px',
-            background: '#3B82F6',
-            color: 'white',
-            border: 'none',
-            borderRadius: '4px',
-            width: '100%',
-            cursor: 'pointer',
-            marginTop: '10px',
-          }}
-        >
-          🔒 Locked: Ingresa código
-        </button>
-      </div>
+  key={i}
+  className="timeline-item"
+  style={{
+    padding: '16px',
+    margin: '10px auto',
+    maxWidth: '600px',
+    background: '#334155',
+    borderRadius: '8px',
+    color: 'white',
+    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+    display: 'flex',
+    flexDirection: 'column',
+    gap: '12px',
+  }}
+>
+  <h4 style={{ fontWeight: 'bold', margin: 0 }}>
+    {`${i + 1}. ${enlace.titulo}`}
+  </h4>
+  <p
+    style={{
+      fontSize: '14px',
+      color: '#CBD5E1',
+      fontStyle: 'italic',
+      margin: 0,
+    }}
+  >
+    {enlace.descripcion}
+  </p>
+  <div style={{ display: 'flex', justifyContent: 'center' }}>
+    <button
+      onClick={() => {
+        setCurrentLockedLink(enlace);
+        setCodeInputForPopup("");
+      }}
+      style={{
+        background: 'linear-gradient(135deg, #1f1c2c, #928DAB)',
+        color: '#fff',
+        borderRadius: '8px',
+        padding: '8px 16px',
+        border: 'none',
+        fontWeight: 'bold',
+        fontSize: '16px',
+        cursor: 'pointer',
+        boxShadow: '0 4px 10px rgba(0,0,0,0.3)',
+        transition: 'transform 0.2s ease-in-out',
+      }}
+      onMouseEnter={(e) =>
+        (e.currentTarget.style.transform = 'scale(1.1)')
+      }
+      onMouseLeave={(e) =>
+        (e.currentTarget.style.transform = 'scale(1)')
+      }
+      title="Unlock with code"
+      aria-label="Unlock with code"
+    >
+      <FaLock />
+    </button>
+
+    </div>
+</div>
     );
   } else {
     // Si el enlace no requiere código o ya fue desbloqueado, se muestra el contenido normal.
@@ -396,58 +425,94 @@ const [codeInputForPopup, setCodeInputForPopup] = useState("");
         >
           {enlace.descripcion}
         </p>
-        <div style={{ display: 'flex', gap: '8px', marginTop: '8px' }}>
-          <button
-            onClick={() => handleLinkClick(enlace)}
-            style={{
-              background: viewedItems?.includes(enlace.titulo)
-                ? 'linear-gradient(135deg, #1E90FF, #0073E6)'
-                : 'linear-gradient(135deg, #004AAD, #001F3F)',
-              color: '#fff',
-              borderRadius: '6px',
-              padding: '6px 14px',
-              border: 'none',
-              fontWeight: 'bold',
-              fontSize: '14px',
-              cursor: 'pointer',
-            }}
-          >
-            {viewedItems?.includes(enlace.titulo) ? '✅ Done' : '📖 Slide'}
-          </button>
-          {enlace.url3 && (
-            <button
-              onClick={() => handleLinkClick({ ...enlace, url: enlace.url3 })}
-              style={{
-                background: 'linear-gradient(135deg, #004AAD, #001F3F)',
-                color: '#fff',
-                borderRadius: '6px',
-                padding: '6px 14px',
-                border: 'none',
-                fontWeight: 'bold',
-                fontSize: '14px',
-                cursor: 'pointer',
-              }}
-            >
-              📝 Test
-            </button>
-          )}
-          {enlace.url2 && (
-            <button
-              onClick={() => handleLinkClick({ ...enlace, url: enlace.url2 })}
-              style={{
-                background: 'linear-gradient(135deg, #FF8C00, #FF4500)',
-                color: '#fff',
-                borderRadius: '6px',
-                padding: '6px 14px',
-                border: 'none',
-                fontWeight: 'bold',
-                fontSize: '14px',
-                cursor: 'pointer',
-              }}
-            >
-              🎬 Watch
-            </button>
-          )}
+        <div
+style={{
+        display: 'flex',
+        justifyContent: 'center', // centra horizontalmente
+        alignItems: 'center',     // centra verticalmente
+        width: '100%',
+        marginTop: '20px',
+      }}
+>
+
+<div
+        style={{
+          display: 'flex',
+          flexWrap: 'wrap',
+          alignItems: 'center',
+          gap: '8px',
+          justifyContent: 'center', // centra el grupo de botones
+        }}
+      >
+  <button
+    onClick={() => handleLinkClick(enlace)}
+    style={{
+      background: viewedItems?.includes(enlace.titulo)
+        ? 'linear-gradient(135deg, #1E90FF, #0073E6)'
+        : 'linear-gradient(135deg, #004AAD, #001F3F)',
+      color: '#fff',
+      borderRadius: '4px',
+      padding: '4px 12px',
+      border: 'none',
+      fontWeight: 600,
+      fontSize: '13px',
+      cursor: 'pointer',
+      transition: 'background 0.3s ease',
+      display: 'flex',
+      alignItems: 'center',
+      gap: '4px',
+    }}
+    aria-label={viewedItems?.includes(enlace.titulo) ? "Slide viewed" : "View slide"}
+  >
+    {viewedItems?.includes(enlace.titulo) ? <FaCheck /> : <FaBookOpen />}
+  </button>
+
+  {enlace.url3 && (
+    <button
+      onClick={() => handleLinkClick({ ...enlace, url: enlace.url3 })}
+      style={{
+        background: 'linear-gradient(135deg, #004AAD, #001F3F)',
+        color: '#fff',
+        borderRadius: '4px',
+        padding: '4px 12px',
+        border: 'none',
+        fontWeight: 600,
+        fontSize: '13px',
+        cursor: 'pointer',
+        transition: 'background 0.3s ease',
+        display: 'flex',
+        alignItems: 'center',
+        gap: '4px',
+      }}
+      aria-label="Take test"
+    >
+      <FaPencilAlt />
+    </button>
+  )}
+
+  {enlace.url2 && (
+    <button
+      onClick={() => handleLinkClick({ ...enlace, url: enlace.url2 })}
+      style={{
+        background: 'linear-gradient(135deg, #FF8C00, #FF4500)',
+        color: '#fff',
+        borderRadius: '4px',
+        padding: '4px 12px',
+        border: 'none',
+        fontWeight: 600,
+        fontSize: '13px',
+        cursor: 'pointer',
+        transition: 'background 0.3s ease',
+        display: 'flex',
+        alignItems: 'center',
+        gap: '4px',
+      }}
+      aria-label="Watch video"
+    >
+      <FaVideo />
+    </button>
+  )}
+        </div>
         </div>
       </div>
     );
@@ -465,7 +530,7 @@ const [codeInputForPopup, setCodeInputForPopup] = useState("");
 
       {selectedLink && (
         <div className="popup-container">
-          <Hito2 selectedLink={selectedLink} />
+          <Hito selectedLink={selectedLink} />
 
           <button onClick={() => setSelectedLink(null)} className="close-popup">
             ✖

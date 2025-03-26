@@ -11,12 +11,12 @@ export const roadB2 = [
         description: "Completa los desafíos para dominar el Inglés",
         enlaces: [
            
-            { titulo:"Present Simple ",descripcion:"Aprenderemos a determinar en que situaciones usar el present simple ",url2: "https://youtu.be/b5KxYRP2I5s",url:"https://drive.google.com/file/d/1uosvGKLwegu9ECo9TZTG3uJd79ku4_G2/view?usp=sharing"},
-            { titulo:"Usual",url: "https://drive.google.com/file/d/1Iru4Ttn7yf9vwOiUU8XjC6MCB9DPMHA8/view?usp=sharing",url2:"https://youtu.be/OSRAYauWH-I"},
-            { titulo:"Usually",url: "https://drive.google.com/file/d/1IPWIh1B7oYwV4aPRJJKnM-gpZICitsX_/view?usp=sharing"},
+            { titulo:"Present Simple ",descripcion:"Aprende a usar el present simple en diferentes contextos ",url:"https://drive.google.com/file/d/1uosvGKLwegu9ECo9TZTG3uJd79ku4_G2/view?usp=sharing",url2: "https://youtu.be/b5KxYRP2I5s",url3:"https://drive.google.com/file/d/19bs04pZ2WROkgtnCaKSEXxp4hB_Fk_qa/view?usp=sharing"},
+            { titulo:"Usual",descripcion:"Aprende los diferentes usos del usual",codigo:"GRAMMARISPOWER",url: "https://drive.google.com/file/d/1Iru4Ttn7yf9vwOiUU8XjC6MCB9DPMHA8/view?usp=sharing",url2:"https://youtu.be/OSRAYauWH-I",url3:"https://drive.google.com/file/d/1sugjoNOr6dwEHogTwcKeYHUVbebEBbpX/view?usp=sharing"},
+            { titulo:"Usually",codigo:"STICKTOUSUAL",url: "https://drive.google.com/file/d/1IPWIh1B7oYwV4aPRJJKnM-gpZICitsX_/view?usp=sharing"},
             { titulo:"I think not vs I don't think so. ",url: "https://drive.google.com/file/d/15nnCB3JJRtH1fqqx5TypEptgoRbo5q-P/view?usp=sharing"},
-            { titulo:"Work Out ",url: "https://drive.google.com/file/d/1h4pzMnsgFmBcpRj1QbPbBDjkJ0J9UYfE/view?usp=sharing"},
-            { titulo:"Enough and Too ",url: "https://drive.google.com/file/d/1Tcadp5eOdfsHOlCwJWs0iNuphHQO4gYA/view?usp=sharing"},
+            { titulo:"Work Out ",url: "https://drive.google.com/file/d/1h4pzMnsgFmBcpRj1QbPbBDjkJ0J9UYfE/view?usp=sharing",url3:"https://drive.google.com/file/d/14ovf4SmbRkZSWQVh-6Q9cOCousRjCrvZ/view?usp=sharing"},
+            { titulo:"Enough and Too ",codigo:"WORKSFINE",url: "https://drive.google.com/file/d/1Tcadp5eOdfsHOlCwJWs0iNuphHQO4gYA/view?usp=sharing"},
 
             {  titulo:"Battle Code ",descripcion:"Las respuestas de cada pregunta son el código del siguiente nivel",url:"https://drive.google.com/file/d/19bs04pZ2WROkgtnCaKSEXxp4hB_Fk_qa/view?usp=sharing"},
 
