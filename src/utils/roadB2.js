@@ -3,6 +3,25 @@ export const roadB2 = [
         id: 0,
         thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
 
+        title: "The Tense Trickster",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Completa los desafíos para dominar el Inglés",
+        enlaces: [
+           
+            { titulo:"Despite & In spite of",url: "https://drive.google.com/file/d/1Mz8VnETibHBD0ID3hanTfrNS66xHU6_h/view?usp=sharing"},
+            { titulo:"Hope ",url: "https://drive.google.com/file/d/1TcYDUgDV2y6dJcIJRToStpzojqNYu0iB/view?usp=sharing"},
+            { titulo:"📚In the (short/medium /long) term / in the (short/long)run ",url: "https://drive.google.com/file/d/1OLnc9y-xWYZeoPXocHl4T0Hlow-W7-Jf/view?usp=sharing"},
+            { titulo:"📚in the suburbs vs on the outskirts",url: "https://drive.google.com/file/d/1JMop9SCD1WVrMeQiXTFRD0IcsBqD-vjn/view?usp=sharing"},
+
+        ],
+    },
+    {
+        id: 0,
+        thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
+
         title: "Present Simple Arc",
         subtitle: "B2/C1",
 
@@ -50,7 +69,6 @@ export const roadB2 = [
             { titulo:"📚Consist in vs Consist of.. ",url: "https://drive.google.com/file/d/1F-XK5pIbsWwlOIDU-XfXpEVATQdlTggq/view?usp=sharing"},
             { titulo:"📚CORRELATIVE CONJUNCTIONS",url: "https://drive.google.com/file/d/16ud5EPb-q127g3tRlHKoV_Pk5HKpLoh8/view?usp=sharing"},
             { titulo:"📚DECISIONS, PLANS, PREDICTIONS",url: "https://drive.google.com/file/d/1LirHWCiSSatbjAv8q1ItdX32fnY2Tk8c/view?usp=sharing"},
-            { titulo:"📚DESPITE vs IN SPITE OF",url: "https://drive.google.com/file/d/1Mz8VnETibHBD0ID3hanTfrNS66xHU6_h/view?usp=sharing"},
             { titulo:"📚didn't need to vs needn't have done..",url: "https://drive.google.com/file/d/134MeLLR89v9--eCmh35fZ7FnQsbra8lT/view?usp=sharing"},
             { titulo:"📚Direct & Indirect speech (table) + kwt exercises",url: "https://drive.google.com/file/d/1rBQWS8z17BGn4B2mT0SGJt6J5CHEyZkw/view?usp=sharing"},
             { titulo:"📚do you mind  would you mind",url: "https://drive.google.com/file/d/1qUomEVgJdczYHV59Z_JCNTCSfQZ0Md9W/view?usp=sharing"},
@@ -67,12 +85,10 @@ export const roadB2 = [
             { titulo:"📚FUTURE CONTINUOUS",url: "https://drive.google.com/file/d/1CHKDeg9dOgpCRuGliPUKMI0vUI-ccZlK/view?usp=sharing"},
             { titulo:"📚had better",url: "https://drive.google.com/file/d/1HJEWIQQrKUc3ZeI0tQUVOz9Uq3ooXY6_/view?usp=sharing"},
             { titulo:"📚having a lot to do",url: "https://drive.google.com/file/d/1LiGCvmom_wRtwvNbKXx3WhALIglfBsgS/view?usp=sharing"},
-            { titulo:"📚HOW TO USE HOPE ",url: "https://drive.google.com/file/d/1c3NJgBI41-5qIoln7xZ5RiPSeQ2UNyR_/view?usp=sharing"},
             { titulo:"📚I wish he were vs I wish he was. ",url: "https://drive.google.com/file/d/1fbiunfDO3ATtUfhVjJmYTVaiIl7wuHUM/view?usp=sharing"},
             { titulo:"📚wish you didn't - wish you wouldn't",url: "https://drive.google.com/file/d/1c_W6Rnvb2guEvvGvtz4UpXOXt-oowWLm/view?usp=sharing"},
             { titulo:"📚If I were vs If I was ",url: "https://drive.google.com/file/d/1L8gL4in7HNGsjw_fqgsCzi2FPNi3VYR8/view?usp=sharing"},
-            { titulo:"📚In the (short/medium /long) term / in the (short/long)run ",url: "https://drive.google.com/file/d/1OLnc9y-xWYZeoPXocHl4T0Hlow-W7-Jf/view?usp=sharing"},
-            { titulo:"📚in the suburbs vs on the outskirts",url: "https://drive.google.com/file/d/1JMop9SCD1WVrMeQiXTFRD0IcsBqD-vjn/view?usp=sharing"},
+           
             { titulo:"📚INCLUDING OR OMITTING RELATIVE PRONOUNS ",url: "https://drive.google.com/file/d/1Ewn06vQoRRM7-ObSlsWbRMMgY937yU6o/view?usp=sharing"},
             { titulo:"📚INVERSIONS AT B2 LEVEL..pdf ",url: "https://drive.google.com/file/d/17DCJanovoUIB6Vome6kfXe4kMRVo24Cc/view?usp=sharing"},
             { titulo:"📚INVERSION - NEITHER and NOR..pdf ",url: "https://drive.google.com/file/d/1WPJd9-AcEd7p7uvD6IMT1LLVgh0c6JrO/view?usp=sharing"},
