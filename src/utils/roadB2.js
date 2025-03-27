@@ -1,5 +1,74 @@
 export const roadB2 = [
     {
+        id: 5,
+        thumbnail:"https://i.ibb.co/b53R08DX/file-BEBHv-Yhkgbs-E4pxzmsb5-Sd.png",
+
+        title: "Real Grammar in Use 01 ",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+        enlaces: [
+
+            { titulo:"Leave vs Forget",descripcion:"Diferencias claves ",url: "https://drive.google.com/file/d/1y_j2Do4YAErfoQdNLDu5yXaxjgW0FH8O/view?usp=sharing" ,url2: "https://youtu.be/ZuTu0cKrgA4?si=SwLXrU0zQTyxjNDz",url3: "https://drive.google.com/file/d/16EXaLrUSI1-6HPIwplL6mLjakFsnLRfu/view?usp=sharing"},
+            { titulo:"Continuamente en Inglés ",descripcion:"Continually, Continuously, Constantly",url: "https://drive.google.com/file/d/1kENm-lqtM22jiVAej6_Io_IoYFeRDprC/view?usp=sharing",url2: "https://youtu.be/DXCOSUsATsE?si=KXNzdx8qbzOeCMkz",url3: "https://drive.google.com/file/d/17UWJLib-ZYETsEc-rF0p3byGvy24R_kY/view?usp=sharing"},
+            { titulo:"Shout at vs Shout to",descripcion:"Diferencias claves",url:"https://drive.google.com/file/d/1iisgsGHkBpj0nyGTvwxCiI8_aG3ukcsi/view?usp=sharing" ,url2: "https://youtu.be/QAJVD14o2a8"},
+            { titulo:"Afraid ",descripcion:"Como usarlo",url: "https://drive.google.com/file/d/1X_G4Rvia8Lpu4C5MHXcLx7dXtUnfFsZb/view?usp=sharing"},
+            { titulo:"Afraid to do vs Afraid of doing ",descripcion:"Diferencias claves",url:"https://drive.google.com/file/d/19XX67MnZ-Mf-rmq9pPlYm9GMogYOHQa_/view?usp=sharing",url2: "https://youtu.be/pYaZjZIQBdM",url3: "https://drive.google.com/file/d/1cCllRuslCkOJyqtgAhukNp_eGwN94zre/view?usp=sharing"},
+            { titulo:" Encrucijada de Opciones ",descripcion:"Rather than, Instead of, As opposed to",url: "https://drive.google.com/file/d/13ZK9zCLBTKe73OQNaqvXjK-38ZvaJ8VT/view?usp=sharing",url3: "https://drive.google.com/file/d/1iqoLUXkRQqElYsf7faswD-xSfsSSuR9X/view?usp=sharing"},
+            { titulo:" El Laberinto de la Prevención",descripcion:"Prevent, Stop, Avoid",url: "https://drive.google.com/file/d/1FoSc6244qwfBpG9EDxzX7YkHZTuk6EN8/view?usp=sharing"},
+            { titulo:" El Reto de la Precisión",descripcion:"Differentiate, Distinguish, Discriminate",url: "https://drive.google.com/file/d/1v-uIHL_GseKjuslDEgVGhiTajGCL9CQs/view?usp=sharing"},
+            { titulo:" Profecías del Futuro Cercano ",descripcion:"Immediate Future Expressions",url: "https://drive.google.com/file/d/1mOBysPhkjDIvx1ePzrM-LMnlrsGZuOzb/view?usp=sharing"},
+            { titulo:"Rather than , Instead of . As opposed to",descripcion:"Continually, Continuously, Constantly",url: "https://drive.google.com/file/d/13ZK9zCLBTKe73OQNaqvXjK-38ZvaJ8VT/view?usp=sharing"},
+            { titulo:" Los Límites del Territorio ",descripcion:"As far as, Until, Up to",url: "https://drive.google.com/file/d/16CJjTB0ZPDvQuzpOLMR22R0jK7QCe-c3/view?usp=sharing"},
+            { titulo:" El Secreto del Buen Trabajo ",descripcion:"It's a good job /a good thing/just as well  that",url: "https://drive.google.com/file/d/1vHHH_2VXuIdDf_NSp6Ie9FgvHFB94G92/view?usp=sharing"},
+          
+        ],
+    },
+    {
+        id: 2,
+        thumbnail:"https://i.ibb.co/b53R08DX/file-BEBHv-Yhkgbs-E4pxzmsb5-Sd.png",
+        title: "Real Grammar in use 02",
+        subtitle: "B2/C1",
+
+        dateAdded: "Week 01 ",
+        channel: "sdasd",
+        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+        enlaces: [
+            { titulo:"📑 Verbs 01",url: "https://drive.google.com/file/d/12Kh_QqxgHwz6dT7Vos8XAh-sZzYbc4hZ/view?usp=sharing"},
+            { titulo:"📚feel like (doing) sth vs feel up to (doing) sth",url: "https://drive.google.com/file/d/1yVw8CbCu3FMAUYVJyKj42IoujDRxF1Iv/view?usp=sharing"},
+            { titulo:"📚Chance of-Chance to... ",url: "https://drive.google.com/file/d/18otkt_PTLMwlZGqs4rBnXRMdhz48xUaS/view?usp=sharing"},
+            { titulo:"📚ASK FOR - ASK AFTER - ASK ABOUT",url: "https://drive.google.com/file/d/1gkbuIZJ6sRy1jro8NPpOZLKO4p7naizC/view?usp=sharing"},
+            { titulo:"📚no good vs not good.pdf",url: "https://drive.google.com/file/d/1-5MHEN322Xi2xUYpDWYU115P2NXYQzdr/view?usp=sharing"},
+            { titulo:"📚[ppt] Used to/ be used to / get used to   ",url: "https://drive.google.com/file/d/1t9c1CP7VuTePAYy00qC3r85qRNoBM-7v/view?usp=sharing"},
+            { titulo:"📚[Slide] Wait ,Await, Expect ",url: "https://drive.google.com/file/d/1C1llJJ8yFX0i5pxSnTMUWPIjmNvISnHB/view?usp=sharing"},
+            { titulo:"📚Watch out for - Look out for.pdf",url: "https://drive.google.com/file/d/1-E-NvIWN5EmPErBDwZSZmoAQZdgC4g4O/view?usp=sharing"},
+
+            
+        ],
+    },
+    
+    {
+        id: 2,
+        thumbnail:"https://i.ibb.co/vcMnX0n/B2-FIRST-17.png",
+        title: "Recursos Descargables",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+        enlaces: [
+            { titulo:"📒 Study Guide",url: "https://drive.google.com/file/d/1pKc3ccQW3ToLCZo3Hpl-t7AztxsMokMD/view?usp=sharing"},
+
+            { titulo:"📑English - Listening and speaking deck B2",url: "https://drive.google.com/file/d/1WWS3zyzQlu_5Zkv0y9HqRJMT9CeQnkpl/view?usp=sharing"},
+            { titulo:"📑Cambridge B2 APLICATIVO COMPLETO",url: "https://drive.google.com/file/d/1CU9wjKF6k91uq1vgXAiSPx9LQmIP9Gos/view?usp=sharing"},
+            { titulo:"📑FCE_english_words",url: "https://drive.google.com/file/d/1v46CdxreA1fd9G6L9bzttZrP2zEu5zs7/view?usp=sharing"},
+            
+        ],
+    },
+    
+    {
         id: 0,
         thumbnail:"https://i.ibb.co/tphjRLC8/Chat-GPT-Image-27-mar-2025-10-15-21.png",
         title: "B2 Bootcamp ",
@@ -40,6 +109,52 @@ export const roadB2 = [
             ],
             
     },
+
+    {
+        id: 2,
+        thumbnail:"https://i.ibb.co/Qvzg24T4/file-YU8-CLywp-Xm-Ewi69wvopi-We.png",
+
+
+        title: "B2 First 2024",
+        subtitle: "B2/C1",
+        color: "#D6083B", // Propiedad de color añadida
+
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: "Grabacion de clases Cambridge Preparation,no compartas las grabaciones ",
+        enlaces: [
+                { "titulo": "[🖥️Class]  day 5", "url": "https://www.youtube.com/watch?v=R2TVluocgUg&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&index=5&ab_channel=MyEnglishBro" },
+                { "titulo": "[🖥️Class]  day 4", "url": "https://www.youtube.com/watch?v=kLjAWxOYZDI&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&ab_channel=MyEnglishBro" },
+                { "titulo": "[🖥️Class]  day 3", "url": "https://www.youtube.com/watch?v=_FJtW3NHYxQ&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&index=2&ab_channel=MyEnglishBro" },
+                { "titulo": "[🖥️Class]  day 2", "url": "https://www.youtube.com/watch?v=uSoQGya3n_Y&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&index=3&ab_channel=MyEnglishBro" },
+                { "titulo": "[🖥️Class]  day 1", "url": "https://www.youtube.com/watch?v=ccyWNJz7FS4&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&index=4&ab_channel=MyEnglishBro" },
+                
+            ],
+            
+    },
+    {
+        id: 3,
+        thumbnail:"https://i.ibb.co/fdvHb0wg/file-Fg-Ck-CXPth2-Nv-VVv4mnbaiq.png",
+
+        title: "IELTS Band 5",
+        subtitle: "B2/C1",
+        color: "#D6083B", // Propiedad de color añadida
+
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: "Grabacion de clases Cambridge Preparation,no compartas las grabaciones ",
+        enlaces: [
+                { "titulo": "[🖥️Class]  day 5", "url": "https://www.youtube.com/watch?v=nIZcH0sQSf0&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=1&ab_channel=MyEnglishBro" },
+                { "titulo": "[🖥️Class]  day 4", "url": "https://www.youtube.com/watch?v=C0RB86t1YIw&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=2&ab_channel=MyEnglishBro" },
+                { "titulo": "[🖥️Class]  day 3", "url": "https://www.youtube.com/watch?v=TV10GT7j_es&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=3&ab_channel=MyEnglishBro" },
+                { "titulo": "[🖥️Class]  day 2", "url": "https://www.youtube.com/watch?v=2ExYgxh9gjE&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=5&ab_channel=MyEnglishBro" },
+                { "titulo": "[🖥️Class]  day 1", "url": "https://www.youtube.com/watch?v=UEEEwLpO7z0&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=4&ab_channel=MyEnglishBro" },
+                
+            ],
+            
+    },
+    
+   
     {
         id: 0,
         thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
@@ -73,7 +188,7 @@ export const roadB2 = [
            
             { titulo:"Present Simple ",descripcion:"Aprende a usar el present simple en diferentes contextos ",url:"https://drive.google.com/file/d/1uosvGKLwegu9ECo9TZTG3uJd79ku4_G2/view?usp=sharing",url2: "https://youtu.be/b5KxYRP2I5s",url3:"https://drive.google.com/file/d/19bs04pZ2WROkgtnCaKSEXxp4hB_Fk_qa/view?usp=sharing"},
             { titulo:"Usual",descripcion:"Aprende los diferentes usos del usual",codigo:"GRAMMARISPOWER",url: "https://drive.google.com/file/d/1Iru4Ttn7yf9vwOiUU8XjC6MCB9DPMHA8/view?usp=sharing",url2:"https://youtu.be/OSRAYauWH-I",url3:"https://drive.google.com/file/d/1sugjoNOr6dwEHogTwcKeYHUVbebEBbpX/view?usp=sharing"},
-            { titulo:"Usually",codigo:"STICKTOUSUAL",url: "https://drive.google.com/file/d/1IPWIh1B7oYwV4aPRJJKnM-gpZICitsX_/view?usp=sharing"},
+            { titulo:"Usually",codigo:"STICKTOUSUAL",url: "https://drive.google.com/file/d/1IPWIh1B7oYwV4aPRJJKnM-gpZICitsX_/view?usp=sharing",url2:"https://www.youtube.com/watch?v=nYxi8UCraJI&ab_channel=MyEnglishBro"},
             { titulo:"I think not vs I don't think so. ",url: "https://drive.google.com/file/d/15nnCB3JJRtH1fqqx5TypEptgoRbo5q-P/view?usp=sharing"},
             { titulo:"Work Out ",url: "https://drive.google.com/file/d/1h4pzMnsgFmBcpRj1QbPbBDjkJ0J9UYfE/view?usp=sharing",url3:"https://drive.google.com/file/d/14ovf4SmbRkZSWQVh-6Q9cOCousRjCrvZ/view?usp=sharing"},
             { titulo:"Enough and Too ",codigo:"WORKSFINE",url: "https://drive.google.com/file/d/1Tcadp5eOdfsHOlCwJWs0iNuphHQO4gYA/view?usp=sharing"},
@@ -541,50 +656,6 @@ export const roadB2 = [
             
     },
    
-    {
-        id: 1,
-        thumbnail:"https://i.ibb.co/Qvzg24T4/file-YU8-CLywp-Xm-Ewi69wvopi-We.png",
-
-
-        title: "B2 First 2024",
-        subtitle: "B2/C1",
-        color: "#D6083B", // Propiedad de color añadida
-
-        dateAdded: "Basic 0 ",
-        channel: "sdasd",
-        description: "Grabacion de clases Cambridge Preparation,no compartas las grabaciones ",
-        enlaces: [
-                { "titulo": "[🖥️Class]  day 5", "url": "https://www.youtube.com/watch?v=R2TVluocgUg&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&index=5&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 4", "url": "https://www.youtube.com/watch?v=kLjAWxOYZDI&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 3", "url": "https://www.youtube.com/watch?v=_FJtW3NHYxQ&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&index=2&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 2", "url": "https://www.youtube.com/watch?v=uSoQGya3n_Y&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&index=3&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 1", "url": "https://www.youtube.com/watch?v=ccyWNJz7FS4&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&index=4&ab_channel=MyEnglishBro" },
-                
-            ],
-            
-    },
-    {
-        id: 1,
-        thumbnail:"https://i.ibb.co/fdvHb0wg/file-Fg-Ck-CXPth2-Nv-VVv4mnbaiq.png",
-
-        title: "IELTS Band 5",
-        subtitle: "B2/C1",
-        color: "#D6083B", // Propiedad de color añadida
-
-        dateAdded: "Basic 0 ",
-        channel: "sdasd",
-        description: "Grabacion de clases Cambridge Preparation,no compartas las grabaciones ",
-        enlaces: [
-                { "titulo": "[🖥️Class]  day 5", "url": "https://www.youtube.com/watch?v=nIZcH0sQSf0&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=1&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 4", "url": "https://www.youtube.com/watch?v=C0RB86t1YIw&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=2&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 3", "url": "https://www.youtube.com/watch?v=TV10GT7j_es&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=3&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 2", "url": "https://www.youtube.com/watch?v=2ExYgxh9gjE&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=5&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 1", "url": "https://www.youtube.com/watch?v=UEEEwLpO7z0&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=4&ab_channel=MyEnglishBro" },
-                
-            ],
-            
-    },
-    
    
     {
         id: 2,
@@ -629,75 +700,7 @@ export const roadB2 = [
            
     //     ],
     // },
-    {
-        id: 5,
-        thumbnail:"https://i.ibb.co/b53R08DX/file-BEBHv-Yhkgbs-E4pxzmsb5-Sd.png",
-
-        title: "Real Grammar in Use 01 ",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 0 ",
-        channel: "sdasd",
-        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
-        enlaces: [
-
-            { titulo:"⚔️ Duelo de Recuerdos",descripcion:"Diferencias entre Leave vs Forget",url: "https://drive.google.com/file/d/1y_j2Do4YAErfoQdNLDu5yXaxjgW0FH8O/view?usp=sharing" ,url2: "https://youtu.be/ZuTu0cKrgA4?si=SwLXrU0zQTyxjNDz",url3: "https://drive.google.com/file/d/16EXaLrUSI1-6HPIwplL6mLjakFsnLRfu/view?usp=sharing"},
-            { titulo:"⏳ El Reloj del Tiempo Infinito ",descripcion:"Continually, Continuously, Constantly",url: "https://drive.google.com/file/d/1kENm-lqtM22jiVAej6_Io_IoYFeRDprC/view?usp=sharing",url2: "https://youtu.be/DXCOSUsATsE?si=KXNzdx8qbzOeCMkz",url3: "https://drive.google.com/file/d/17UWJLib-ZYETsEc-rF0p3byGvy24R_kY/view?usp=sharing"},
-            { titulo:"🗣️ El Eco de las Voces",descripcion:"Shout at vs Shout to",url:"https://drive.google.com/file/d/1iisgsGHkBpj0nyGTvwxCiI8_aG3ukcsi/view?usp=sharing" ,url2: "https://youtu.be/QAJVD14o2a8"},
-            { titulo:"🏷️Using Afraid ",descripcion:"Continually, Continuously, Constantly",url: "https://drive.google.com/file/d/1X_G4Rvia8Lpu4C5MHXcLx7dXtUnfFsZb/view?usp=sharing"},
-            { titulo:"😨 La Prueba del Valor ",descripcion:"Afraid to do vs Afraid of doing",url:"https://drive.google.com/file/d/19XX67MnZ-Mf-rmq9pPlYm9GMogYOHQa_/view?usp=sharing",url2: "https://youtu.be/pYaZjZIQBdM",url3: "https://drive.google.com/file/d/1cCllRuslCkOJyqtgAhukNp_eGwN94zre/view?usp=sharing"},
-            { titulo:"🔀 Encrucijada de Opciones ",descripcion:"Rather than, Instead of, As opposed to",url: "https://drive.google.com/file/d/13ZK9zCLBTKe73OQNaqvXjK-38ZvaJ8VT/view?usp=sharing",url3: "https://drive.google.com/file/d/1iqoLUXkRQqElYsf7faswD-xSfsSSuR9X/view?usp=sharing"},
-            { titulo:"🚫 El Laberinto de la Prevención",descripcion:"Prevent, Stop, Avoid",url: "https://drive.google.com/file/d/1FoSc6244qwfBpG9EDxzX7YkHZTuk6EN8/view?usp=sharing"},
-            { titulo:"🧐 El Reto de la Precisión",descripcion:"Differentiate, Distinguish, Discriminate",url: "https://drive.google.com/file/d/1v-uIHL_GseKjuslDEgVGhiTajGCL9CQs/view?usp=sharing"},
-            { titulo:"🕒 Profecías del Futuro Cercano ",descripcion:"Immediate Future Expressions",url: "https://drive.google.com/file/d/1mOBysPhkjDIvx1ePzrM-LMnlrsGZuOzb/view?usp=sharing"},
-            { titulo:"Rather than , Instead of . As opposed to",descripcion:"Continually, Continuously, Constantly",url: "https://drive.google.com/file/d/13ZK9zCLBTKe73OQNaqvXjK-38ZvaJ8VT/view?usp=sharing"},
-            { titulo:"🌍 Los Límites del Territorio ",descripcion:"As far as, Until, Up to",url: "https://drive.google.com/file/d/16CJjTB0ZPDvQuzpOLMR22R0jK7QCe-c3/view?usp=sharing"},
-            { titulo:"🏆 El Secreto del Buen Trabajo ",descripcion:"It's a good job /a good thing/just as well  that",url: "https://drive.google.com/file/d/1vHHH_2VXuIdDf_NSp6Ie9FgvHFB94G92/view?usp=sharing"},
-          
-        ],
-    },
-    {
-        id: 2,
-        thumbnail:"https://i.ibb.co/b53R08DX/file-BEBHv-Yhkgbs-E4pxzmsb5-Sd.png",
-        title: "Real Grammar in use 02",
-        subtitle: "B2/C1",
-
-        dateAdded: "Week 01 ",
-        channel: "sdasd",
-        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
-        enlaces: [
-            { titulo:"📑 Verbs 01",url: "https://drive.google.com/file/d/12Kh_QqxgHwz6dT7Vos8XAh-sZzYbc4hZ/view?usp=sharing"},
-            { titulo:"📚feel like (doing) sth vs feel up to (doing) sth",url: "https://drive.google.com/file/d/1yVw8CbCu3FMAUYVJyKj42IoujDRxF1Iv/view?usp=sharing"},
-            { titulo:"📚Chance of-Chance to... ",url: "https://drive.google.com/file/d/18otkt_PTLMwlZGqs4rBnXRMdhz48xUaS/view?usp=sharing"},
-            { titulo:"📚ASK FOR - ASK AFTER - ASK ABOUT",url: "https://drive.google.com/file/d/1gkbuIZJ6sRy1jro8NPpOZLKO4p7naizC/view?usp=sharing"},
-            { titulo:"📚no good vs not good.pdf",url: "https://drive.google.com/file/d/1-5MHEN322Xi2xUYpDWYU115P2NXYQzdr/view?usp=sharing"},
-            { titulo:"📚[ppt] Used to/ be used to / get used to   ",url: "https://drive.google.com/file/d/1t9c1CP7VuTePAYy00qC3r85qRNoBM-7v/view?usp=sharing"},
-            { titulo:"📚[Slide] Wait ,Await, Expect ",url: "https://drive.google.com/file/d/1C1llJJ8yFX0i5pxSnTMUWPIjmNvISnHB/view?usp=sharing"},
-            { titulo:"📚Watch out for - Look out for.pdf",url: "https://drive.google.com/file/d/1-E-NvIWN5EmPErBDwZSZmoAQZdgC4g4O/view?usp=sharing"},
-
-            
-        ],
-    },
-    
-    {
-        id: 2,
-        thumbnail:"https://i.ibb.co/vcMnX0n/B2-FIRST-17.png",
-        title: "Recursos Descargables",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 0 ",
-        channel: "sdasd",
-        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
-        enlaces: [
-            { titulo:"📒 Study Guide",url: "https://drive.google.com/file/d/1pKc3ccQW3ToLCZo3Hpl-t7AztxsMokMD/view?usp=sharing"},
-
-            { titulo:"📑English - Listening and speaking deck B2",url: "https://drive.google.com/file/d/1WWS3zyzQlu_5Zkv0y9HqRJMT9CeQnkpl/view?usp=sharing"},
-            { titulo:"📑Cambridge B2 APLICATIVO COMPLETO",url: "https://drive.google.com/file/d/1CU9wjKF6k91uq1vgXAiSPx9LQmIP9Gos/view?usp=sharing"},
-            { titulo:"📑FCE_english_words",url: "https://drive.google.com/file/d/1v46CdxreA1fd9G6L9bzttZrP2zEu5zs7/view?usp=sharing"},
-            
-        ],
-    },
-    
+   
     {
         id: 15,
         thumbnail:"https://i.ibb.co/5WQ17W7D/file-Fg6-EG7bvr-Nig-Ee3-S7m-XCfd.png",
