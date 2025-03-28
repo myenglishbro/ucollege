@@ -1,7 +1,25 @@
 export const roadB2 = [
     {
         id: 0,
-        thumbnail:"https://i.ibb.co/35vyPMbV/Chat-GPT-Image-28-mar-2025-12-13-34.png",
+        thumbnail:"https://i.ibb.co/vcMnX0n/B2-FIRST-17.png",
+        title: "Recursos Descargables",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+        enlaces: [
+            { titulo:"📒 Study Guide",url: "https://drive.google.com/file/d/1pKc3ccQW3ToLCZo3Hpl-t7AztxsMokMD/view?usp=sharing"},
+
+            { titulo:"📑English - Listening and speaking deck B2",url: "https://drive.google.com/file/d/1WWS3zyzQlu_5Zkv0y9HqRJMT9CeQnkpl/view?usp=sharing"},
+            { titulo:"📑Cambridge B2 APLICATIVO COMPLETO",url: "https://drive.google.com/file/d/1CU9wjKF6k91uq1vgXAiSPx9LQmIP9Gos/view?usp=sharing"},
+            { titulo:"📑FCE_english_words",url: "https://drive.google.com/file/d/1v46CdxreA1fd9G6L9bzttZrP2zEu5zs7/view?usp=sharing"},
+            
+        ],
+    },
+    {
+        id: 1,
+        thumbnail:"https://i.ibb.co/bwqB54s/Chat-GPT-Image-28-mar-2025-13-39-28.png",
 
         title: "Grammar Showdown",
         subtitle: "B2/C1",
@@ -24,20 +42,24 @@ export const roadB2 = [
             { titulo:"Rather than , Instead of . As opposed to",descripcion:"Continually, Continuously, Constantly",url: "https://drive.google.com/file/d/13ZK9zCLBTKe73OQNaqvXjK-38ZvaJ8VT/view?usp=sharing"},
             { titulo:" Los Límites del Territorio ",descripcion:"As far as, Until, Up to",url: "https://drive.google.com/file/d/16CJjTB0ZPDvQuzpOLMR22R0jK7QCe-c3/view?usp=sharing"},
             { titulo:" El Secreto del Buen Trabajo ",descripcion:"It's a good job /a good thing/just as well  that",url: "https://drive.google.com/file/d/1vHHH_2VXuIdDf_NSp6Ie9FgvHFB94G92/view?usp=sharing"},
-            { titulo:"📚Chance of-Chance to... ",url: "https://drive.google.com/file/d/18otkt_PTLMwlZGqs4rBnXRMdhz48xUaS/view?usp=sharing"},
-            { titulo:"📚feel like (doing) sth vs feel up to (doing) sth",url: "https://drive.google.com/file/d/1yVw8CbCu3FMAUYVJyKj42IoujDRxF1Iv/view?usp=sharing"},
-            { titulo:"📚[Slide] Wait ,Await, Expect ",url: "https://drive.google.com/file/d/1C1llJJ8yFX0i5pxSnTMUWPIjmNvISnHB/view?usp=sharing"},
-            { titulo:"📚Raise vs Rise..",url: "https://drive.google.com/file/d/1K57hHa19p8k36dka59AM7pyFERFxnap2/view?usp=sharing"},
-            { titulo:"📚sidetrack - distract - put someone off",url: "https://drive.google.com/file/d/1uXbNu9yt24xuTIVk0u60JO0lxdxT9Wt8/view?usp=sharing"},
-            { titulo:"📚sign vs signal",url: "https://drive.google.com/file/d/1HhFh07shRGd8N9LoKQtuSj21YBq2TCMV/view?usp=sharing"},
-            { titulo:"📚in the suburbs vs on the outskirts",url: "https://drive.google.com/file/d/1JMop9SCD1WVrMeQiXTFRD0IcsBqD-vjn/view?usp=sharing"},
+            { titulo:"Chance of-Chance to... ",url: "https://drive.google.com/file/d/18otkt_PTLMwlZGqs4rBnXRMdhz48xUaS/view?usp=sharing"},
+            { titulo:"feel like (doing) sth vs feel up to (doing) sth",url: "https://drive.google.com/file/d/1yVw8CbCu3FMAUYVJyKj42IoujDRxF1Iv/view?usp=sharing"},
+            { titulo:"Wait ,Await, Expect ",url: "https://drive.google.com/file/d/1C1llJJ8yFX0i5pxSnTMUWPIjmNvISnHB/view?usp=sharing"},
+            { titulo:"Raise vs Rise..",url: "https://drive.google.com/file/d/1K57hHa19p8k36dka59AM7pyFERFxnap2/view?usp=sharing"},
+            { titulo:"sidetrack - distract - put someone off",url: "https://drive.google.com/file/d/1uXbNu9yt24xuTIVk0u60JO0lxdxT9Wt8/view?usp=sharing"},
+            { titulo:"sign vs signal",url: "https://drive.google.com/file/d/1HhFh07shRGd8N9LoKQtuSj21YBq2TCMV/view?usp=sharing"},
+            { titulo:"in the suburbs vs on the outskirts",url: "https://drive.google.com/file/d/1JMop9SCD1WVrMeQiXTFRD0IcsBqD-vjn/view?usp=sharing"},
+            { titulo:"Notice - realize - be aware",url: "https://drive.google.com/file/d/1ZUCrPpie-3e4GKFt5xuyqDXvdF4EwQ1P/view?usp=sharing"},
+            { titulo:"TIME vs MOMENT",url: "https://drive.google.com/file/d/1DLFl-bn78Abyr-UQYLh9LN2J45t9UO8Q/view?usp=sharing"},
+            { titulo:"Trust ,Distrust ,Entrust ",url: "https://drive.google.com/file/d/1gC2SLjM0tML-TVWLjl6a4V6wHYYkokbp/view?usp=sharing"},
+            { titulo:"📚In the (short/medium /long) term / in the (short/long)run ",url: "https://drive.google.com/file/d/1OLnc9y-xWYZeoPXocHl4T0Hlow-W7-Jf/view?usp=sharing"},
 
         ],
     },
 
     {
         id: 2,
-        thumbnail:"https://i.ibb.co/b53R08DX/file-BEBHv-Yhkgbs-E4pxzmsb5-Sd.png",
+        thumbnail:"https://i.ibb.co/GGxkRKV/Chat-GPT-Image-28-mar-2025-13-53-07.png",
         title: "Phrasal Quest",
         subtitle: "B2/C1",
 
@@ -57,10 +79,10 @@ export const roadB2 = [
             { titulo:"Shy Away From sth   ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/1LKd3X2Qr8MJ-52QtwBi9f6NR-AWD9anl/view?usp=sharing",url3: "https://drive.google.com/file/d/188wbcEig0wGPF2gscPLlQhF_xayYwKHF/view?usp=sharing" },
         ],
     },
-
+ 
     {
-        id: 4,
-        thumbnail: "https://i.ibb.co/4CTCgND/DALL-E-2025-03-03-10-24-24-A-high-quality-digital-illustration-of-a-young-warrior-student-battling-t.webp",
+        id: 3,
+        thumbnail: "https://i.ibb.co/Jj8dwTCN/Chat-GPT-Image-28-mar-2025-10-34-49.png",
 
         title: "Real English Grammar",
         subtitle: "B2/C1",
@@ -95,29 +117,114 @@ export const roadB2 = [
             { titulo:"📑 Verbs 01",url: "https://drive.google.com/file/d/12Kh_QqxgHwz6dT7Vos8XAh-sZzYbc4hZ/view?usp=sharing"},
             { titulo:"📚no good vs not good.pdf",url: "https://drive.google.com/file/d/1-5MHEN322Xi2xUYpDWYU115P2NXYQzdr/view?usp=sharing"},
             { titulo:"📚[ppt] Used to/ be used to / get used to   ",url: "https://drive.google.com/file/d/1t9c1CP7VuTePAYy00qC3r85qRNoBM-7v/view?usp=sharing"},
+            { titulo:"📚MADE (OF, OUT OF, UP OF, FROM, WITH).pdf ",url: "https://drive.google.com/file/d/1-Mw6MXOBx3V6D0WvlN1l3Hn6XGBTrolK/view?usp=sharing"},
+            { titulo:"📚Make the most, Make the best, Get the better...pdf ",url: "https://drive.google.com/file/d/1pQvtcWZpqNw-8sWDfAST6b0DfqpubGz1/view?usp=sharing"},
+            { titulo:"📚CERTAINTY and Possibility.pdf ",url: "https://drive.google.com/file/d/1mm_5Vu6RvtWArxSLoK5sXT3cR5XVzWWJ/view?usp=sharing"},
+            { titulo:"📚MORE vs ELSE.pdf ",url: "https://drive.google.com/file/d/1vcmTTeSYW8DsLahQRM_WCGG-PYdeRmET/view?usp=sharing"},
+            { titulo:"📚MOST OF ALL...pdf ",url: "https://drive.google.com/file/d/1q9UddjPgJnivJ3jw1O4YUeFZQB38brVl/view?usp=sharing"},
+            { titulo:"📚Neither + singular or plural..pdf ",url: "https://drive.google.com/file/d/1-Q9yKb-unyv3FAKZLhiU5nVrjc0-yu3x/view?usp=sharing"},
+            { titulo:"📚Not only... but also...(structure)",url: "https://drive.google.com/file/d/1oXgZlGy5JdqxtVyzTQ-hiAfeyWadDkpG/view?usp=sharing"},
+            { titulo:"Despite & In spite of",url: "https://drive.google.com/file/d/1Mz8VnETibHBD0ID3hanTfrNS66xHU6_h/view?usp=sharing"},
+            { titulo:"Hope ",url: "https://drive.google.com/file/d/1TcYDUgDV2y6dJcIJRToStpzojqNYu0iB/view?usp=sharing"},
+
+        ],
+    },
+    {
+        id: 19,
+        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+
+        title: "Prepositions",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Completa los desafíos para dominar el Inglés",
+        enlaces: [
+            {  titulo:"📝Prepositions 01 ",url: "https://drive.google.com/file/d/1ybpVAlxfM2Zvqe8xxBOPVCfFVCgk-W9U/view?usp=sharing"},
+            {  titulo:"📝Prepositions 02 ",url: "https://drive.google.com/file/d/1PlFqX6zlyiNyjqOlaYQka6IeDomq0e0E/view?usp=sharing"},
+            {  titulo:"📝Prepositions 03 ",url: "https://drive.google.com/file/d/1wDbMgx8z91WcmuY-6tF_aFLoRGhrXKd-/view?usp=sharing"},
+            {  titulo:"📝Prepositions 04",url: "https://drive.google.com/file/d/1UHVi7z-9D8Es-kCBqmooDYLDlfB5vBct/view?usp=sharing"},
+            {  titulo:"📝Prepositions 05 ",url: "https://drive.google.com/file/d/1ZqQgXsnezJZNDhCBA_3xO90IlsO3oN6o/view?usp=sharing"},
+           
+            { titulo:"📑Interested in vs Interested to.pdf ",url: "https://drive.google.com/file/d/1vbKk7R4t3Zq1Zsfkl-3F3DPyhU2NXzhe/view?usp=sharing"},
+            { titulo:"📑Sorry to/about/for ",url: "https://drive.google.com/file/d/1BrzsIhSqoqY7IWbRVQtwsvWWzciozGzr/view?usp=sharing"},
+            { titulo:"☠️ Exam Prepositions 01 ",url: "https://drive.google.com/file/d/1Nea8nudn5VaF3B7RodO-5nmZOYr0koq4/view?usp=sharing"},
+            { titulo:"🔑 Exam Key Prepositions 01 ",url: "https://drive.google.com/file/d/1oTS5PeWp8RPWcBzx0pCypXuI1WmWnjlI/view?usp=sharing"},
+            { titulo:"📚At, In, By ( the end)..",url: "https://drive.google.com/file/d/1agtpiCvGtERX_ee7wHpNaax0hU1OmXyp/view?usp=sharing"},
+            { titulo:"📚count on - depend on - rely on",url: "https://drive.google.com/file/d/1DxZyMcb1NwXXbt_wIAbhPTiNFMuvAKG6/view?usp=sharing"},
+
+            { titulo:"📚BY, IN, ON + ING",url: "https://drive.google.com/file/d/1VmZIuWIV0IXYDd1RGtIo7krxPcBPGLOF/view?usp=sharing"},
+            { titulo:"📚for sale - on sale - in the sale",url: "https://drive.google.com/file/d/1X4c4ZKEORCzHHE1SC0RVPRuDwRdB-hwb/view?usp=sharing"},
+            
+
+
+        ],
+    },
+    {
+        id: 25,
+        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+
+        title: "Word Formation (B2)",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Completa los desafíos para dominar el Inglés",
+        enlaces: [
+            { titulo: "✍ WF001 - Negative Forms ",url: "https://drive.google.com/file/d/1FoMiuTrYJHxJYyBsbBrqvs10Kb8cYf2T/view?usp=sharing", },    
+            { titulo: "✍ WF002 - Prefixes and Negative Meanings ",url: "https://drive.google.com/file/d/1NI-L5UBxQ5gFeRac6oVhMXD_T-5YCjiv/view?usp=sharing", },    
+            { titulo: "✍ WF003 - Crossword - Word Formation ",url: "https://drive.google.com/file/d/194QnF1Gc-wIRpiWAOtqWy-D8B78coaSL/view?usp=sharing", },    
+            { titulo: "✍ WF004 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1j5T_mLOody8iDftkPJLcsPjNZ3pK9ot2/view?usp=sharing", },    
+            { titulo: "✍ WF005 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1GAfwTA5CIrNcDW6hFA-Nbok78IlKdrh9/view?usp=sharing", },    
+            { titulo: "✍ WF006 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1VsED-djskHE3PJwF2U8fXGPhENb07SxJ/view?usp=sharing", },    
+            { titulo: "✍ WF007 - Word Formation Sentences ",url: "https://drive.google.com/file/d/11PrvYO0MoUzPqjgWwhPFARAdU9hOoKx8/view?usp=sharing", },    
+            { titulo: "✍ WF008 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1susqk-7RPZOjTMidwHWzk2EDWCY_54CO/view?usp=sharing", },    
+            { titulo: "✍ WF009 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1S9N--Mr5SS0nS7v3GLp4Xh2MKkhGh2d1/view?usp=sharing", },    
+            { titulo: "✍ WF010 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1-W82gGyyTEkwiNn8_7n54jcS4vED76Fm/view?usp=sharing", },    
+
+            { titulo: "✍ WF011 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1I4gNHDTaMU9lNwGsEv8Fyqct9NU2eXyR/view?usp=sharing", },    
+            { titulo: "✍ WF012 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1aJM4ArL2IIOc48AM5tAhCUvf1MhWXfal/view?usp=sharing", },    
+            { titulo: "✍ WF013 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1U0drN7vU3cQ67HifCfJcE0IpEt5jeUad/view?usp=sharing", },    
+            { titulo: "✍ WF014 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1GpFgkjeAIjSzFftj3fLuo70W2K96CHEH/view?usp=sharing", },    
+            { titulo: "✍ WF015 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1QampSegCjNaiMXPSvylWpawvPSwYoU6C/view?usp=sharing", },    
+            { titulo: "✍ WF016 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1bfRaXcHxF_jtjmrdkIJYNi3-7kDRUAo6/view?usp=sharing", },    
+            { titulo: "✍ WF017 - Word Formation Sentences ",url: "https://drive.google.com/file/d/18Omg11ZTsuP2_FAj1ygXHASgA70SVCq8/view?usp=sharing", },    
+            { titulo: "✍ WF018 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1J2ZcjSpAXztp2Aw12RnYgh4w2FT0B3Xb/view?usp=sharing", },  
+            
+            
+            { titulo: "✍ WF019 - Word Formation - Nouns, Verbs, Adjectives ",url: "https://drive.google.com/file/d/18krxCjRSmgc3wfWPtGK2qggwq0lUlfnW/view?usp=sharing", },    
+            { titulo: "✍ WF020 - Word Formation - Nouns, Verbs, Adjectives ",url: "https://drive.google.com/file/d/18J49WKoMt8jXjiKAcxrFnaqTykF-0QHw/view?usp=sharing", },    
+            { titulo: "✍ WF021 - Word Formation - Nouns, Verbs, Adjectives ",url: "https://drive.google.com/file/d/17L45VWvsHTY1ToaELcaEXaIpT8bgSKRB/view?usp=sharing", },    
+            { titulo: "✍ WF022 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1pQvadnaDQBG7XFiBmcTBWcd63U9Ev5o0/view?usp=sharing", },    
+            { titulo: "✍ WF023 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1C9hVqtk28R1nm-hx65SgSHl3_YDCZyVF/view?usp=sharing", },    
+            { titulo: "✍ WF024 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1vLs14YohPvffTs6s3PuFznGWKsM0_1TV/view?usp=sharing", },    
+            { titulo: "✍ WF025 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1w45SJf4eSJkURAPHI4Be2ygqhUfH8oGb/view?usp=sharing", },    
+            { titulo: "✍ WF026 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1ut_DldDoGR9ZqmMBjztnq2V_jtvyc6xW/view?usp=sharing", },    
 
             
         ],
     },
-    
     {
-        id: 2,
-        thumbnail:"https://i.ibb.co/vcMnX0n/B2-FIRST-17.png",
-        title: "Recursos Descargables",
+        id: 5,
+        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+
+        title: "Connectives and Linking Phrases ",
         subtitle: "B2/C1",
 
         dateAdded: "Basic 0 ",
         channel: "sdasd",
         description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
         enlaces: [
-            { titulo:"📒 Study Guide",url: "https://drive.google.com/file/d/1pKc3ccQW3ToLCZo3Hpl-t7AztxsMokMD/view?usp=sharing"},
+           
+            { titulo:"📚[pdf] Connectives and Linking Phrases 001 ",url: "https://drive.google.com/file/d/1E-4DPNChktOiBETwI-npC9fPdRGotUqQ/view?usp=sharing"},
+            { titulo:"📚[pdf] Connectives and Linking Phrases  002 ",url: "https://drive.google.com/file/d/1n3fWZPpV_DY9QCpUyvRqwO1wTMYZ67jA/view?usp=sharing"},
+            { titulo:"📚[pdf] Connectives and Linking Phrases  003 ",url: "https://drive.google.com/file/d/1sxWll8fBOnh8JxQSUEYSF6ez4xqLhe3F/view?usp=sharing"},
+            { titulo:"📚[pdf] Connectives and Linking Phrases  004 ",url: "https://drive.google.com/file/d/1nREywm6HXbce0qeVlH_kkcTV-DIAEtJI/view?usp=sharing"},
 
-            { titulo:"📑English - Listening and speaking deck B2",url: "https://drive.google.com/file/d/1WWS3zyzQlu_5Zkv0y9HqRJMT9CeQnkpl/view?usp=sharing"},
-            { titulo:"📑Cambridge B2 APLICATIVO COMPLETO",url: "https://drive.google.com/file/d/1CU9wjKF6k91uq1vgXAiSPx9LQmIP9Gos/view?usp=sharing"},
-            { titulo:"📑FCE_english_words",url: "https://drive.google.com/file/d/1v46CdxreA1fd9G6L9bzttZrP2zEu5zs7/view?usp=sharing"},
-            
+          
         ],
     },
+    
     
     {
         id: 0,
@@ -206,24 +313,7 @@ export const roadB2 = [
     },
     
    
-    {
-        id: 0,
-        thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
-
-        title: "The Tense Trickster",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 01 ",
-        channel: "sdasd",
-        description: "Completa los desafíos para dominar el Inglés",
-        enlaces: [
-           
-            { titulo:"Despite & In spite of",url: "https://drive.google.com/file/d/1Mz8VnETibHBD0ID3hanTfrNS66xHU6_h/view?usp=sharing"},
-            { titulo:"Hope ",url: "https://drive.google.com/file/d/1TcYDUgDV2y6dJcIJRToStpzojqNYu0iB/view?usp=sharing"},
-            { titulo:"📚In the (short/medium /long) term / in the (short/long)run ",url: "https://drive.google.com/file/d/1OLnc9y-xWYZeoPXocHl4T0Hlow-W7-Jf/view?usp=sharing"},
-
-        ],
-    },
+   
     {
         id: 0,
         thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
@@ -311,7 +401,6 @@ export const roadB2 = [
 
 
           
-            { titulo:"📚Notice - realize - be aware",url: "https://drive.google.com/file/d/1ZUCrPpie-3e4GKFt5xuyqDXvdF4EwQ1P/view?usp=sharing"},
             { titulo:"📚Personal and Impersonal Passive",url: "https://drive.google.com/file/d/1obtVtl8UEAVz9UCz4aff_q7WGGYwDim2/view?usp=sharing"},
             { titulo:"📚PREFER (structures)",url: "https://drive.google.com/file/d/1K1snnmMtNgzLZOuyZ5HQR62_5MWh4_kt/view?usp=sharing"},
             { titulo:"📚Prepare for, Prepare oneself for",url: "https://drive.google.com/file/d/1tG9gKZJ_jzgMHZZC2H5oqGvrf78UxRCU/view?usp=sharing"},
@@ -340,8 +429,7 @@ export const roadB2 = [
 
 
          
-            { titulo:"📚TIME vs MOMENT.(phrases) docx.pdf",url: "https://drive.google.com/file/d/1DLFl-bn78Abyr-UQYLh9LN2J45t9UO8Q/view?usp=sharing"},
-            { titulo:"📚[Slide] Trust ,Distrust ,Entrust ",url: "https://drive.google.com/file/d/1gC2SLjM0tML-TVWLjl6a4V6wHYYkokbp/view?usp=sharing"},
+        
             { titulo:"📚Universal Tags--.pdf",url: "https://drive.google.com/file/d/1OSz1iN5iCyX05MS1x0HLVUt93kuQUKKa/view?usp=sharing"},
             { titulo:"📚[Slide] Useful Homophones ",url: "https://drive.google.com/file/d/1MWO2XHuHp0bAzFceREIteP_cKXyuwe1j/view?usp=sharing"},
             { titulo:"📚Verbs followed by infinitive or gerund with change in meaning ",url: "https://drive.google.com/file/d/1-zILhE9-k1jSvyi5Rx5u6G_mRR_cpXxa/view?usp=sharing"},
@@ -517,28 +605,6 @@ export const roadB2 = [
         ],
     },
 
-    {
-        id: 3,
-        thumbnail: "https://i.ibb.co/ch3pNKdT/DALL-E-2025-03-03-10-19-48-A-high-quality-digital-illustration-of-a-young-warrior-student-training-i.webp",
-
-        title: "Week 03",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 01 ",
-        channel: "sdasd",
-        description: "Completa los desafíos para dominar el Inglés",
-        enlaces: [
-          
-            { titulo:"📚MADE (OF, OUT OF, UP OF, FROM, WITH).pdf ",url: "https://drive.google.com/file/d/1-Mw6MXOBx3V6D0WvlN1l3Hn6XGBTrolK/view?usp=sharing"},
-            { titulo:"📚Make the most, Make the best, Get the better...pdf ",url: "https://drive.google.com/file/d/1pQvtcWZpqNw-8sWDfAST6b0DfqpubGz1/view?usp=sharing"},
-            { titulo:"📚CERTAINTY and Possibility.pdf ",url: "https://drive.google.com/file/d/1mm_5Vu6RvtWArxSLoK5sXT3cR5XVzWWJ/view?usp=sharing"},
-            { titulo:"📚MORE vs ELSE.pdf ",url: "https://drive.google.com/file/d/1vcmTTeSYW8DsLahQRM_WCGG-PYdeRmET/view?usp=sharing"},
-            { titulo:"📚MOST OF ALL...pdf ",url: "https://drive.google.com/file/d/1q9UddjPgJnivJ3jw1O4YUeFZQB38brVl/view?usp=sharing"},
-            { titulo:"📚Neither + singular or plural..pdf ",url: "https://drive.google.com/file/d/1-Q9yKb-unyv3FAKZLhiU5nVrjc0-yu3x/view?usp=sharing"},
-            { titulo:"📚Not only... but also...(structure)",url: "https://drive.google.com/file/d/1oXgZlGy5JdqxtVyzTQ-hiAfeyWadDkpG/view?usp=sharing"},
-            
-        ],
-    },
    
     {
         id: 2,
@@ -896,38 +962,8 @@ export const roadB2 = [
            
         ],
     },
-    {
-        id: 19,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
-
-        title: "Prepositions",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 01 ",
-        channel: "sdasd",
-        description: "Completa los desafíos para dominar el Inglés",
-        enlaces: [
-            {  titulo:"📝Prepositions 01 ",url: "https://drive.google.com/file/d/1ybpVAlxfM2Zvqe8xxBOPVCfFVCgk-W9U/view?usp=sharing"},
-            {  titulo:"📝Prepositions 02 ",url: "https://drive.google.com/file/d/1PlFqX6zlyiNyjqOlaYQka6IeDomq0e0E/view?usp=sharing"},
-            {  titulo:"📝Prepositions 03 ",url: "https://drive.google.com/file/d/1wDbMgx8z91WcmuY-6tF_aFLoRGhrXKd-/view?usp=sharing"},
-            {  titulo:"📝Prepositions 04",url: "https://drive.google.com/file/d/1UHVi7z-9D8Es-kCBqmooDYLDlfB5vBct/view?usp=sharing"},
-            {  titulo:"📝Prepositions 05 ",url: "https://drive.google.com/file/d/1ZqQgXsnezJZNDhCBA_3xO90IlsO3oN6o/view?usp=sharing"},
-           
-            { titulo:"📑Interested in vs Interested to.pdf ",url: "https://drive.google.com/file/d/1vbKk7R4t3Zq1Zsfkl-3F3DPyhU2NXzhe/view?usp=sharing"},
-            { titulo:"📑Sorry to/about/for ",url: "https://drive.google.com/file/d/1BrzsIhSqoqY7IWbRVQtwsvWWzciozGzr/view?usp=sharing"},
-            { titulo:"☠️ Exam Prepositions 01 ",url: "https://drive.google.com/file/d/1Nea8nudn5VaF3B7RodO-5nmZOYr0koq4/view?usp=sharing"},
-            { titulo:"🔑 Exam Key Prepositions 01 ",url: "https://drive.google.com/file/d/1oTS5PeWp8RPWcBzx0pCypXuI1WmWnjlI/view?usp=sharing"},
-            { titulo:"📚At, In, By ( the end)..",url: "https://drive.google.com/file/d/1agtpiCvGtERX_ee7wHpNaax0hU1OmXyp/view?usp=sharing"},
-            { titulo:"📚count on - depend on - rely on",url: "https://drive.google.com/file/d/1DxZyMcb1NwXXbt_wIAbhPTiNFMuvAKG6/view?usp=sharing"},
-
-            { titulo:"📚BY, IN, ON + ING",url: "https://drive.google.com/file/d/1VmZIuWIV0IXYDd1RGtIo7krxPcBPGLOF/view?usp=sharing"},
-            { titulo:"📚for sale - on sale - in the sale",url: "https://drive.google.com/file/d/1X4c4ZKEORCzHHE1SC0RVPRuDwRdB-hwb/view?usp=sharing"},
-            
-
-
-        ],
-    }
-    , 
+   
+    
     {
         id: 3,
         thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
@@ -962,50 +998,7 @@ export const roadB2 = [
             { titulo:"📚[pdf] FCE Use of English Part 1, Test 20 ",url: "https://drive.google.com/file/d/1vXWiy1U15JiJOhDxa33qPTWf7kVupGfx/view?usp=sharing"},
         ],
     },
-    {
-        id: 25,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
-
-        title: "Word Formation (B2)",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 01 ",
-        channel: "sdasd",
-        description: "Completa los desafíos para dominar el Inglés",
-        enlaces: [
-            { titulo: "✍ WF001 - Negative Forms ",url: "https://drive.google.com/file/d/1FoMiuTrYJHxJYyBsbBrqvs10Kb8cYf2T/view?usp=sharing", },    
-            { titulo: "✍ WF002 - Prefixes and Negative Meanings ",url: "https://drive.google.com/file/d/1NI-L5UBxQ5gFeRac6oVhMXD_T-5YCjiv/view?usp=sharing", },    
-            { titulo: "✍ WF003 - Crossword - Word Formation ",url: "https://drive.google.com/file/d/194QnF1Gc-wIRpiWAOtqWy-D8B78coaSL/view?usp=sharing", },    
-            { titulo: "✍ WF004 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1j5T_mLOody8iDftkPJLcsPjNZ3pK9ot2/view?usp=sharing", },    
-            { titulo: "✍ WF005 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1GAfwTA5CIrNcDW6hFA-Nbok78IlKdrh9/view?usp=sharing", },    
-            { titulo: "✍ WF006 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1VsED-djskHE3PJwF2U8fXGPhENb07SxJ/view?usp=sharing", },    
-            { titulo: "✍ WF007 - Word Formation Sentences ",url: "https://drive.google.com/file/d/11PrvYO0MoUzPqjgWwhPFARAdU9hOoKx8/view?usp=sharing", },    
-            { titulo: "✍ WF008 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1susqk-7RPZOjTMidwHWzk2EDWCY_54CO/view?usp=sharing", },    
-            { titulo: "✍ WF009 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1S9N--Mr5SS0nS7v3GLp4Xh2MKkhGh2d1/view?usp=sharing", },    
-            { titulo: "✍ WF010 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1-W82gGyyTEkwiNn8_7n54jcS4vED76Fm/view?usp=sharing", },    
-
-            { titulo: "✍ WF011 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1I4gNHDTaMU9lNwGsEv8Fyqct9NU2eXyR/view?usp=sharing", },    
-            { titulo: "✍ WF012 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1aJM4ArL2IIOc48AM5tAhCUvf1MhWXfal/view?usp=sharing", },    
-            { titulo: "✍ WF013 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1U0drN7vU3cQ67HifCfJcE0IpEt5jeUad/view?usp=sharing", },    
-            { titulo: "✍ WF014 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1GpFgkjeAIjSzFftj3fLuo70W2K96CHEH/view?usp=sharing", },    
-            { titulo: "✍ WF015 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1QampSegCjNaiMXPSvylWpawvPSwYoU6C/view?usp=sharing", },    
-            { titulo: "✍ WF016 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1bfRaXcHxF_jtjmrdkIJYNi3-7kDRUAo6/view?usp=sharing", },    
-            { titulo: "✍ WF017 - Word Formation Sentences ",url: "https://drive.google.com/file/d/18Omg11ZTsuP2_FAj1ygXHASgA70SVCq8/view?usp=sharing", },    
-            { titulo: "✍ WF018 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1J2ZcjSpAXztp2Aw12RnYgh4w2FT0B3Xb/view?usp=sharing", },  
-            
-            
-            { titulo: "✍ WF019 - Word Formation - Nouns, Verbs, Adjectives ",url: "https://drive.google.com/file/d/18krxCjRSmgc3wfWPtGK2qggwq0lUlfnW/view?usp=sharing", },    
-            { titulo: "✍ WF020 - Word Formation - Nouns, Verbs, Adjectives ",url: "https://drive.google.com/file/d/18J49WKoMt8jXjiKAcxrFnaqTykF-0QHw/view?usp=sharing", },    
-            { titulo: "✍ WF021 - Word Formation - Nouns, Verbs, Adjectives ",url: "https://drive.google.com/file/d/17L45VWvsHTY1ToaELcaEXaIpT8bgSKRB/view?usp=sharing", },    
-            { titulo: "✍ WF022 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1pQvadnaDQBG7XFiBmcTBWcd63U9Ev5o0/view?usp=sharing", },    
-            { titulo: "✍ WF023 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1C9hVqtk28R1nm-hx65SgSHl3_YDCZyVF/view?usp=sharing", },    
-            { titulo: "✍ WF024 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1vLs14YohPvffTs6s3PuFznGWKsM0_1TV/view?usp=sharing", },    
-            { titulo: "✍ WF025 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1w45SJf4eSJkURAPHI4Be2ygqhUfH8oGb/view?usp=sharing", },    
-            { titulo: "✍ WF026 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1ut_DldDoGR9ZqmMBjztnq2V_jtvyc6xW/view?usp=sharing", },    
-
-            
-        ],
-    },
+    
     {
         id: 4,
         thumbnail:"https://i.ibb.co/vcMnX0n/B2-FIRST-17.png",
@@ -1059,26 +1052,7 @@ export const roadB2 = [
 
         ],
     },
-    {
-        id: 5,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
-
-        title: "Connectives and Linking Phrases ",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 0 ",
-        channel: "sdasd",
-        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
-        enlaces: [
-           
-            { titulo:"📚[pdf] Connectives and Linking Phrases 001 ",url: "https://drive.google.com/file/d/1E-4DPNChktOiBETwI-npC9fPdRGotUqQ/view?usp=sharing"},
-            { titulo:"📚[pdf] Connectives and Linking Phrases  002 ",url: "https://drive.google.com/file/d/1n3fWZPpV_DY9QCpUyvRqwO1wTMYZ67jA/view?usp=sharing"},
-            { titulo:"📚[pdf] Connectives and Linking Phrases  003 ",url: "https://drive.google.com/file/d/1sxWll8fBOnh8JxQSUEYSF6ez4xqLhe3F/view?usp=sharing"},
-            { titulo:"📚[pdf] Connectives and Linking Phrases  004 ",url: "https://drive.google.com/file/d/1nREywm6HXbce0qeVlH_kkcTV-DIAEtJI/view?usp=sharing"},
-
-          
-        ],
-    },
+   
     
     
    
