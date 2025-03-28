@@ -37,6 +37,9 @@ const [codeInputForPopup, setCodeInputForPopup] = useState("");
   const [rewardDescription, setRewardDescription] = useState('');
 
 
+
+
+  
   useEffect(() => {
     try {
       const savedViewedItems = JSON.parse(localStorage.getItem('viewedItems')) || [];
@@ -392,86 +395,61 @@ const [codeInputForPopup, setCodeInputForPopup] = useState("");
     // Si el enlace no requiere código o ya fue desbloqueado, se muestra el contenido normal.
     return (
       <div
-        key={i}
-        className={`timeline-item ${viewedItems?.includes(enlace.titulo) ? 'viewed' : ''}`}
-        style={{
-          padding: '10px',
-          margin: '5px 0',
-          background: '#334155',
-          borderRadius: '8px',
-          color: 'white',
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'space-between',
-          alignItems: 'flex-start',
-        }}
-      >
-        <label style={{ display: 'flex', alignItems: 'center', width: '100%' }}>
-          <input
-            type="checkbox"
-            checked={viewedItems?.includes(enlace.titulo)}
-            onChange={() => handleCheckboxChange(enlace.titulo)}
-            style={{ marginRight: '10px' }}
-          />
-          <span style={{ fontWeight: 'bold' }}>{`${i + 1}. ${enlace.titulo}`}</span>
-        </label>
-        <p
-          style={{
-            fontSize: '14px',
-            color: '#CBD5E1',
-            marginLeft: '30px',
-            fontStyle: 'italic',
-          }}
-        >
-          {enlace.descripcion}
-        </p>
-        <div
-style={{
-        display: 'flex',
-        justifyContent: 'center', // centra horizontalmente
-        alignItems: 'center',     // centra verticalmente
-        width: '100%',
-        marginTop: '20px',
-      }}
+  key={i}
+  className={`timeline-item ${viewedItems?.includes(enlace.titulo) ? 'viewed' : ''}`}
+  style={{
+    padding: '10px',
+    margin: '5px 0',
+    background: '#334155',
+    borderRadius: '8px',
+    color: 'white',
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'flex-start',
+    gap: '20px',
+  }}
 >
+  {/* Contenido (título y descripción) */}
+  <div style={{ flex: 1 }}>
+    <label style={{ display: 'flex', alignItems: 'center', width: '100%' }}>
+      <input
+        type="checkbox"
+        checked={viewedItems?.includes(enlace.titulo)}
+        onChange={() => handleCheckboxChange(enlace.titulo)}
+        style={{ marginRight: '10px' }}
+      />
+      <span style={{ fontWeight: 'bold' }}>{`${i + 1}. ${enlace.titulo}`}</span>
+    </label>
+    <p
+      style={{
+        fontSize: '14px',
+        color: '#CBD5E1',
+        marginLeft: '30px',
+        fontStyle: 'italic',
+        marginTop: '5px',
+      }}
+    >
+      {enlace.descripcion}
+    </p>
+  </div>
 
-<div
-        style={{
-          display: 'flex',
-          flexWrap: 'wrap',
-          alignItems: 'center',
-          gap: '8px',
-          justifyContent: 'center', // centra el grupo de botones
-        }}
-      >
-  <button
-    onClick={() => handleLinkClick(enlace)}
+  {/* Botones */}
+  <div
     style={{
-      background: viewedItems?.includes(enlace.titulo)
-        ? 'linear-gradient(135deg, #1E90FF, #0073E6)'
-        : 'linear-gradient(135deg, #004AAD, #001F3F)',
-      color: '#fff',
-      borderRadius: '4px',
-      padding: '4px 12px',
-      border: 'none',
-      fontWeight: 600,
-      fontSize: '13px',
-      cursor: 'pointer',
-      transition: 'background 0.3s ease',
       display: 'flex',
+      flexDirection: 'column',
+      gap: '8px',
       alignItems: 'center',
-      gap: '4px',
+      justifyContent: 'center',
     }}
-    aria-label={viewedItems?.includes(enlace.titulo) ? "Slide viewed" : "View slide"}
   >
-    {viewedItems?.includes(enlace.titulo) ? <FaCheck /> : <FaBookOpen />}
-  </button>
-
-  {enlace.url3 && (
     <button
-      onClick={() => handleLinkClick({ ...enlace, url: enlace.url3 })}
+      onClick={() => handleLinkClick(enlace)}
       style={{
-        background: 'linear-gradient(135deg, #004AAD, #001F3F)',
+        background: viewedItems?.includes(enlace.titulo)
+          ? 'linear-gradient(135deg, #1E90FF, #0073E6)'
+          : 'linear-gradient(135deg, #004AAD, #001F3F)',
         color: '#fff',
         borderRadius: '4px',
         padding: '4px 12px',
@@ -484,37 +462,59 @@ style={{
         alignItems: 'center',
         gap: '4px',
       }}
-      aria-label="Take test"
+      aria-label={viewedItems?.includes(enlace.titulo) ? "Slide viewed" : "View slide"}
     >
-      <FaPencilAlt />
+      {viewedItems?.includes(enlace.titulo) ? <FaCheck /> : <FaBookOpen />}
     </button>
-  )}
 
-  {enlace.url2 && (
-    <button
-      onClick={() => handleLinkClick({ ...enlace, url: enlace.url2 })}
-      style={{
-        background: 'linear-gradient(135deg, #FF8C00, #FF4500)',
-        color: '#fff',
-        borderRadius: '4px',
-        padding: '4px 12px',
-        border: 'none',
-        fontWeight: 600,
-        fontSize: '13px',
-        cursor: 'pointer',
-        transition: 'background 0.3s ease',
-        display: 'flex',
-        alignItems: 'center',
-        gap: '4px',
-      }}
-      aria-label="Watch video"
-    >
-      <FaVideo />
-    </button>
-  )}
-        </div>
-        </div>
-      </div>
+    {enlace.url3 && (
+      <button
+        onClick={() => handleLinkClick({ ...enlace, url: enlace.url3 })}
+        style={{
+          background: 'linear-gradient(135deg, #004AAD, #001F3F)',
+          color: '#fff',
+          borderRadius: '4px',
+          padding: '4px 12px',
+          border: 'none',
+          fontWeight: 600,
+          fontSize: '13px',
+          cursor: 'pointer',
+          transition: 'background 0.3s ease',
+          display: 'flex',
+          alignItems: 'center',
+          gap: '4px',
+        }}
+        aria-label="Take test"
+      >
+        <FaPencilAlt />
+      </button>
+    )}
+
+    {enlace.url2 && (
+      <button
+        onClick={() => handleLinkClick({ ...enlace, url: enlace.url2 })}
+        style={{
+          background: 'linear-gradient(135deg, #FF8C00, #FF4500)',
+          color: '#fff',
+          borderRadius: '4px',
+          padding: '4px 12px',
+          border: 'none',
+          fontWeight: 600,
+          fontSize: '13px',
+          cursor: 'pointer',
+          transition: 'background 0.3s ease',
+          display: 'flex',
+          alignItems: 'center',
+          gap: '4px',
+        }}
+        aria-label="Watch video"
+      >
+        <FaVideo />
+      </button>
+    )}
+  </div>
+</div>
+
     );
   }
 })}

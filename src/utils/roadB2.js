@@ -1,19 +1,20 @@
 export const roadB2 = [
     {
-        id: 5,
-        thumbnail:"https://i.ibb.co/b53R08DX/file-BEBHv-Yhkgbs-E4pxzmsb5-Sd.png",
+        id: 0,
+        thumbnail:"https://i.ibb.co/35vyPMbV/Chat-GPT-Image-28-mar-2025-12-13-34.png",
 
-        title: "Real Grammar in Use 01 ",
+        title: "Grammar Showdown",
         subtitle: "B2/C1",
 
         dateAdded: "Basic 0 ",
         channel: "sdasd",
         description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
         enlaces: [
+            { titulo:"Welcome",descripcion:"Las diferencias en Inglés ",url: "https://drive.google.com/file/d/1xTKk8uS9tVBQ4rk-X4-VEBA3ZUAwCIW8/view?usp=sharing"},
 
-            { titulo:"Leave vs Forget",descripcion:"Diferencias claves ",url: "https://drive.google.com/file/d/1y_j2Do4YAErfoQdNLDu5yXaxjgW0FH8O/view?usp=sharing" ,url2: "https://youtu.be/ZuTu0cKrgA4?si=SwLXrU0zQTyxjNDz",url3: "https://drive.google.com/file/d/16EXaLrUSI1-6HPIwplL6mLjakFsnLRfu/view?usp=sharing"},
-            { titulo:"Continuamente en Inglés ",descripcion:"Continually, Continuously, Constantly",url: "https://drive.google.com/file/d/1kENm-lqtM22jiVAej6_Io_IoYFeRDprC/view?usp=sharing",url2: "https://youtu.be/DXCOSUsATsE?si=KXNzdx8qbzOeCMkz",url3: "https://drive.google.com/file/d/17UWJLib-ZYETsEc-rF0p3byGvy24R_kY/view?usp=sharing"},
-            { titulo:"Shout at vs Shout to",descripcion:"Diferencias claves",url:"https://drive.google.com/file/d/1iisgsGHkBpj0nyGTvwxCiI8_aG3ukcsi/view?usp=sharing" ,url2: "https://youtu.be/QAJVD14o2a8"},
+            { titulo:"Leave vs Forget",descripcion:"Diferencias en uso ",url: "https://drive.google.com/file/d/1y_j2Do4YAErfoQdNLDu5yXaxjgW0FH8O/view?usp=sharing" ,url2: "https://youtu.be/ZuTu0cKrgA4?si=SwLXrU0zQTyxjNDz",url3: "https://drive.google.com/file/d/16EXaLrUSI1-6HPIwplL6mLjakFsnLRfu/view?usp=sharing"},
+            { titulo:"Continuamente ",descripcion:"Diferencias en uso",url: "https://drive.google.com/file/d/1kENm-lqtM22jiVAej6_Io_IoYFeRDprC/view?usp=sharing",url2: "https://youtu.be/DXCOSUsATsE?si=KXNzdx8qbzOeCMkz",url3: "https://drive.google.com/file/d/17UWJLib-ZYETsEc-rF0p3byGvy24R_kY/view?usp=sharing"},
+            { titulo:"Shout at vs Shout to",descripcion:"Diferencias en uso",url:"https://drive.google.com/file/d/1iisgsGHkBpj0nyGTvwxCiI8_aG3ukcsi/view?usp=sharing" ,url2: "https://youtu.be/QAJVD14o2a8"},
             { titulo:"Afraid ",descripcion:"Como usarlo",url: "https://drive.google.com/file/d/1X_G4Rvia8Lpu4C5MHXcLx7dXtUnfFsZb/view?usp=sharing"},
             { titulo:"Afraid to do vs Afraid of doing ",descripcion:"Diferencias claves",url:"https://drive.google.com/file/d/19XX67MnZ-Mf-rmq9pPlYm9GMogYOHQa_/view?usp=sharing",url2: "https://youtu.be/pYaZjZIQBdM",url3: "https://drive.google.com/file/d/1cCllRuslCkOJyqtgAhukNp_eGwN94zre/view?usp=sharing"},
             { titulo:" Encrucijada de Opciones ",descripcion:"Rather than, Instead of, As opposed to",url: "https://drive.google.com/file/d/13ZK9zCLBTKe73OQNaqvXjK-38ZvaJ8VT/view?usp=sharing",url3: "https://drive.google.com/file/d/1iqoLUXkRQqElYsf7faswD-xSfsSSuR9X/view?usp=sharing"},
@@ -23,7 +24,62 @@ export const roadB2 = [
             { titulo:"Rather than , Instead of . As opposed to",descripcion:"Continually, Continuously, Constantly",url: "https://drive.google.com/file/d/13ZK9zCLBTKe73OQNaqvXjK-38ZvaJ8VT/view?usp=sharing"},
             { titulo:" Los Límites del Territorio ",descripcion:"As far as, Until, Up to",url: "https://drive.google.com/file/d/16CJjTB0ZPDvQuzpOLMR22R0jK7QCe-c3/view?usp=sharing"},
             { titulo:" El Secreto del Buen Trabajo ",descripcion:"It's a good job /a good thing/just as well  that",url: "https://drive.google.com/file/d/1vHHH_2VXuIdDf_NSp6Ie9FgvHFB94G92/view?usp=sharing"},
+            { titulo:"📚Chance of-Chance to... ",url: "https://drive.google.com/file/d/18otkt_PTLMwlZGqs4rBnXRMdhz48xUaS/view?usp=sharing"},
+            { titulo:"📚feel like (doing) sth vs feel up to (doing) sth",url: "https://drive.google.com/file/d/1yVw8CbCu3FMAUYVJyKj42IoujDRxF1Iv/view?usp=sharing"},
+            { titulo:"📚[Slide] Wait ,Await, Expect ",url: "https://drive.google.com/file/d/1C1llJJ8yFX0i5pxSnTMUWPIjmNvISnHB/view?usp=sharing"},
+            { titulo:"📚Raise vs Rise..",url: "https://drive.google.com/file/d/1K57hHa19p8k36dka59AM7pyFERFxnap2/view?usp=sharing"},
+            { titulo:"📚sidetrack - distract - put someone off",url: "https://drive.google.com/file/d/1uXbNu9yt24xuTIVk0u60JO0lxdxT9Wt8/view?usp=sharing"},
+            { titulo:"📚sign vs signal",url: "https://drive.google.com/file/d/1HhFh07shRGd8N9LoKQtuSj21YBq2TCMV/view?usp=sharing"},
+            { titulo:"📚in the suburbs vs on the outskirts",url: "https://drive.google.com/file/d/1JMop9SCD1WVrMeQiXTFRD0IcsBqD-vjn/view?usp=sharing"},
+
+        ],
+    },
+
+    {
+        id: 2,
+        thumbnail:"https://i.ibb.co/b53R08DX/file-BEBHv-Yhkgbs-E4pxzmsb5-Sd.png",
+        title: "Phrasal Quest",
+        subtitle: "B2/C1",
+
+        dateAdded: "Week 01 ",
+        channel: "sdasd",
+        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+        enlaces: [
+            { titulo:"Welcome",descripcion:"Las diferencias en Inglés ",url: "https://drive.google.com/file/d/1VTKLgs-w-Bc-_TPtmNScaaQf0ATs8oCl/view?usp=sharing"},
+
+            { titulo:" Be on about ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/1i5m5Xo0rahB9re9xsLNJdclpA8FA03jy/view?usp=sharing",url3: "https://drive.google.com/file/d/1JDpCXxAU9ozjBMEA2ouhBQGAJgpliOOc/view?usp=sharing" },
+            { titulo:"📚Watch out for - Look out for.pdf",url: "https://drive.google.com/file/d/1-E-NvIWN5EmPErBDwZSZmoAQZdgC4g4O/view?usp=sharing"},
+            { titulo:"📚ASK FOR - ASK AFTER - ASK ABOUT",url: "https://drive.google.com/file/d/1gkbuIZJ6sRy1jro8NPpOZLKO4p7naizC/view?usp=sharing"},
+            { titulo:"Work Out ",url: "https://drive.google.com/file/d/1h4pzMnsgFmBcpRj1QbPbBDjkJ0J9UYfE/view?usp=sharing",url3:"https://drive.google.com/file/d/14ovf4SmbRkZSWQVh-6Q9cOCousRjCrvZ/view?usp=sharing"},
+
+            { titulo:"zero in on  ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/18JztqKh0PP18_LPzUKZDJYnRQqip7x3a/view?usp=sharing",url3: "https://drive.google.com/file/d/19y7aXWFScceuArjQNuN7FjpaLPfALo3w/view?usp=sharing" },
+
+            { titulo:"Shy Away From sth   ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/1LKd3X2Qr8MJ-52QtwBi9f6NR-AWD9anl/view?usp=sharing",url3: "https://drive.google.com/file/d/188wbcEig0wGPF2gscPLlQhF_xayYwKHF/view?usp=sharing" },
+        ],
+    },
+
+    {
+        id: 4,
+        thumbnail: "https://i.ibb.co/4CTCgND/DALL-E-2025-03-03-10-24-24-A-high-quality-digital-illustration-of-a-young-warrior-student-battling-t.webp",
+
+        title: "Real English Grammar",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Completa los desafíos para dominar el Inglés",
+        enlaces: [
+            {  titulo:"[📑 Tense Infographic ", url: "https://drive.google.com/file/d/1Mxxxxi0x13HrO5EvSECowdaRF0Vg9fIK/view?usp=sharing"},
+
+            { titulo:"Saxon genitive",url: "https://drive.google.com/file/d/1vRBsRnPMX_9m_wNUkAvs2phvuR8DYHqD/view?usp=sharing",url3:"https://drive.google.com/file/d/18PItis9izfn8oMa-2V91VTX3SQq9W2Tq/view?usp=sharing"},
+            { titulo:"Saxon vs Of",url: "https://drive.google.com/file/d/1LeR_MDZFr_BJhZ3fu16vg6eUuvUQri3o/view?usp=sharing"},
+            { titulo:"📚That's why - that's because.pdf",url: "https://drive.google.com/file/d/1-VKBz1cVT8zW1yZFf1QYGry984MX7BML/view?usp=sharing"},
+
+            { titulo:"Vocabulary 01",url: "https://drive.google.com/file/d/17OdvZytOobwQmpNyA5boo4a7SUfBnJtC/view?usp=sharing",url3:"https://drive.google.com/file/d/1mre82d_iD2qyoDP9IG6nmGGNooLOnlK5/view?usp=sharing"},
           
+            { titulo:"Obtener Codigo",url: "https://drive.google.com/file/d/1elKV4DgU5egBqau8EzDvYkub2OCfiORs/view?usp=sharing"},
+
+
         ],
     },
     {
@@ -37,13 +93,8 @@ export const roadB2 = [
         description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
         enlaces: [
             { titulo:"📑 Verbs 01",url: "https://drive.google.com/file/d/12Kh_QqxgHwz6dT7Vos8XAh-sZzYbc4hZ/view?usp=sharing"},
-            { titulo:"📚feel like (doing) sth vs feel up to (doing) sth",url: "https://drive.google.com/file/d/1yVw8CbCu3FMAUYVJyKj42IoujDRxF1Iv/view?usp=sharing"},
-            { titulo:"📚Chance of-Chance to... ",url: "https://drive.google.com/file/d/18otkt_PTLMwlZGqs4rBnXRMdhz48xUaS/view?usp=sharing"},
-            { titulo:"📚ASK FOR - ASK AFTER - ASK ABOUT",url: "https://drive.google.com/file/d/1gkbuIZJ6sRy1jro8NPpOZLKO4p7naizC/view?usp=sharing"},
             { titulo:"📚no good vs not good.pdf",url: "https://drive.google.com/file/d/1-5MHEN322Xi2xUYpDWYU115P2NXYQzdr/view?usp=sharing"},
             { titulo:"📚[ppt] Used to/ be used to / get used to   ",url: "https://drive.google.com/file/d/1t9c1CP7VuTePAYy00qC3r85qRNoBM-7v/view?usp=sharing"},
-            { titulo:"📚[Slide] Wait ,Await, Expect ",url: "https://drive.google.com/file/d/1C1llJJ8yFX0i5pxSnTMUWPIjmNvISnHB/view?usp=sharing"},
-            { titulo:"📚Watch out for - Look out for.pdf",url: "https://drive.google.com/file/d/1-E-NvIWN5EmPErBDwZSZmoAQZdgC4g4O/view?usp=sharing"},
 
             
         ],
@@ -170,7 +221,6 @@ export const roadB2 = [
             { titulo:"Despite & In spite of",url: "https://drive.google.com/file/d/1Mz8VnETibHBD0ID3hanTfrNS66xHU6_h/view?usp=sharing"},
             { titulo:"Hope ",url: "https://drive.google.com/file/d/1TcYDUgDV2y6dJcIJRToStpzojqNYu0iB/view?usp=sharing"},
             { titulo:"📚In the (short/medium /long) term / in the (short/long)run ",url: "https://drive.google.com/file/d/1OLnc9y-xWYZeoPXocHl4T0Hlow-W7-Jf/view?usp=sharing"},
-            { titulo:"📚in the suburbs vs on the outskirts",url: "https://drive.google.com/file/d/1JMop9SCD1WVrMeQiXTFRD0IcsBqD-vjn/view?usp=sharing"},
 
         ],
     },
@@ -190,7 +240,6 @@ export const roadB2 = [
             { titulo:"Usual",descripcion:"Aprende los diferentes usos del usual",codigo:"GRAMMARISPOWER",url: "https://drive.google.com/file/d/1Iru4Ttn7yf9vwOiUU8XjC6MCB9DPMHA8/view?usp=sharing",url2:"https://youtu.be/OSRAYauWH-I",url3:"https://drive.google.com/file/d/1sugjoNOr6dwEHogTwcKeYHUVbebEBbpX/view?usp=sharing"},
             { titulo:"Usually",codigo:"STICKTOUSUAL",url: "https://drive.google.com/file/d/1IPWIh1B7oYwV4aPRJJKnM-gpZICitsX_/view?usp=sharing",url2:"https://www.youtube.com/watch?v=nYxi8UCraJI&ab_channel=MyEnglishBro"},
             { titulo:"I think not vs I don't think so. ",url: "https://drive.google.com/file/d/15nnCB3JJRtH1fqqx5TypEptgoRbo5q-P/view?usp=sharing"},
-            { titulo:"Work Out ",url: "https://drive.google.com/file/d/1h4pzMnsgFmBcpRj1QbPbBDjkJ0J9UYfE/view?usp=sharing",url3:"https://drive.google.com/file/d/14ovf4SmbRkZSWQVh-6Q9cOCousRjCrvZ/view?usp=sharing"},
             { titulo:"Enough and Too ",codigo:"WORKSFINE",url: "https://drive.google.com/file/d/1Tcadp5eOdfsHOlCwJWs0iNuphHQO4gYA/view?usp=sharing"},
 
             {  titulo:"Battle Code ",descripcion:"Las respuestas de cada pregunta son el código del siguiente nivel",url:"https://drive.google.com/file/d/19bs04pZ2WROkgtnCaKSEXxp4hB_Fk_qa/view?usp=sharing"},
@@ -280,9 +329,7 @@ export const roadB2 = [
 
 
             
-            { titulo:"📚Raise vs Rise..",url: "https://drive.google.com/file/d/1K57hHa19p8k36dka59AM7pyFERFxnap2/view?usp=sharing"},
-            { titulo:"📚sidetrack - distract - put someone off",url: "https://drive.google.com/file/d/1uXbNu9yt24xuTIVk0u60JO0lxdxT9Wt8/view?usp=sharing"},
-            { titulo:"📚sign vs signal",url: "https://drive.google.com/file/d/1HhFh07shRGd8N9LoKQtuSj21YBq2TCMV/view?usp=sharing"},
+         
             { titulo:"📚Words with Silent Letters",url: "https://drive.google.com/file/d/1eAPZFyNImLFcuMVSfvWhfJgUPj4f78jO/view?usp=sharing"},
             { titulo:"📚SINGULAR THEY",url: "https://drive.google.com/file/d/1xAT_pnOmVjImRxmr1LX57yWLdWbKGVf4/view?usp=sharing"},
             { titulo:"📚so+adj+that vs so+adj+as to",url: "https://drive.google.com/file/d/1Dox44XMlIjIJkzhUO1-wjetHjtfbn13Q/view?usp=sharing"},
@@ -354,29 +401,6 @@ export const roadB2 = [
 
 
             
-
-
-        ],
-    }, {
-        id: 4,
-        thumbnail: "https://i.ibb.co/4CTCgND/DALL-E-2025-03-03-10-24-24-A-high-quality-digital-illustration-of-a-young-warrior-student-battling-t.webp",
-
-        title: "Week 01",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 01 ",
-        channel: "sdasd",
-        description: "Completa los desafíos para dominar el Inglés",
-        enlaces: [
-            {  titulo:"[📑 Tense Infographic ", url: "https://drive.google.com/file/d/1Mxxxxi0x13HrO5EvSECowdaRF0Vg9fIK/view?usp=sharing"},
-
-            { titulo:"Saxon genitive",url: "https://drive.google.com/file/d/1vRBsRnPMX_9m_wNUkAvs2phvuR8DYHqD/view?usp=sharing",url3:"https://drive.google.com/file/d/18PItis9izfn8oMa-2V91VTX3SQq9W2Tq/view?usp=sharing"},
-            { titulo:"Saxon vs Of",url: "https://drive.google.com/file/d/1LeR_MDZFr_BJhZ3fu16vg6eUuvUQri3o/view?usp=sharing"},
-            { titulo:"📚That's why - that's because.pdf",url: "https://drive.google.com/file/d/1-VKBz1cVT8zW1yZFf1QYGry984MX7BML/view?usp=sharing"},
-
-            { titulo:"Vocabulary 01",url: "https://drive.google.com/file/d/17OdvZytOobwQmpNyA5boo4a7SUfBnJtC/view?usp=sharing",url3:"https://drive.google.com/file/d/1mre82d_iD2qyoDP9IG6nmGGNooLOnlK5/view?usp=sharing"},
-          
-            { titulo:"Obtener Codigo",url: "https://drive.google.com/file/d/1elKV4DgU5egBqau8EzDvYkub2OCfiORs/view?usp=sharing"},
 
 
         ],
@@ -657,23 +681,7 @@ export const roadB2 = [
     },
    
    
-    {
-        id: 2,
-        thumbnail:"https://i.ibb.co/b53R08DX/file-BEBHv-Yhkgbs-E4pxzmsb5-Sd.png",
-        title: "Phrasal Verbs in use 01",
-        subtitle: "B2/C1",
-
-        dateAdded: "Week 01 ",
-        channel: "sdasd",
-        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
-        enlaces: [
-            { titulo:"⚔️ Be on about ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/1i5m5Xo0rahB9re9xsLNJdclpA8FA03jy/view?usp=sharing",url3: "https://drive.google.com/file/d/1JDpCXxAU9ozjBMEA2ouhBQGAJgpliOOc/view?usp=sharing" },
-
-            { titulo:"⚔️ zero in on  ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/18JztqKh0PP18_LPzUKZDJYnRQqip7x3a/view?usp=sharing",url3: "https://drive.google.com/file/d/19y7aXWFScceuArjQNuN7FjpaLPfALo3w/view?usp=sharing" },
-
-            { titulo:"⚔️ Shy Away From sth   ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/1LKd3X2Qr8MJ-52QtwBi9f6NR-AWD9anl/view?usp=sharing",url3: "https://drive.google.com/file/d/188wbcEig0wGPF2gscPLlQhF_xayYwKHF/view?usp=sharing" },
-        ],
-    },
+   
     // {
     //     id: 2,
     //     thumbnail:"https://i.ibb.co/b53R08DX/file-BEBHv-Yhkgbs-E4pxzmsb5-Sd.png",
