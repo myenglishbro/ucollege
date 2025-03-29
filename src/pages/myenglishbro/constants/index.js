@@ -284,13 +284,11 @@ export const benefits = [
     iconLink: "https://learnibox.vercel.app/RoadMapB2",
     details: {
       features: [
-        "✅Tu clase se graba y se envia por correo a cada correo",
-        "✅ Google Meet Premium",
         "✅ Clases Personalizadas + Material de Clase",
         "✅Puedes hacer preguntas al profe por wsp directamente",
         "✅ Incluye preparacion para Exámenes Internacionales",
-        "✅ 01 Reprogramaciones",
-        "✅ Acceso al Roadmap con Material Exclusivo(30 días)",
+        "❌ No hay Reprogramaciones",
+        "❌ Acceso al Roadmap con Material Exclusivo(30 días)",
         "❌ Código de Descarga Roadmap",
         "✅ Talleres los fines de semana Sábados y Domingo",
       ],
