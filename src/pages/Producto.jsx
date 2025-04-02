@@ -23,7 +23,10 @@ const Producto  = ({ thumbnail, title, subtitle, description, calificacion, prec
           </div>
           <h4 className="h5 mb-3 text-white text-center">{title}</h4>
           <p className="body-2 text-n-4 text-center">{description}</p>
-         
+          <div className="flex items-center justify-between mt-6 px-4 md:px-8">
+            <span className="text-yellow-400 font-semibold text-lg md:text-xl">⭐ {calificacion}</span>
+            <span className="text-green-500 font-semibold text-lg md:text-xl">💲{precio}</span>
+          </div>
           <div className="mt-6 flex justify-center">
             <a
               href={enlaces}

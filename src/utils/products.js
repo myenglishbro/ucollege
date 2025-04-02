@@ -1,45 +1,183 @@
-export const products =[
+export const products = [
     {
-        id:0,
-        thumbnail:"https://media.licdn.com/dms/image/v2/D5635AQGNUp945X9_Xg/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1736957510235?e=1739062800&v=beta&t=4VOU1T6N_57rS6DHciFVBuJuaa57PxKwnqfvbCChq2I",
-        title:"Myenglishbro",
-       subtitle:"English",
-       dateAdded:"wswqe",
-       calificacion:"Gratis",
-       description:"Soy Carlos y En MyEnglishBro! creo firmemente que hablar un idioma con fluidez y seguridad no tiene que llevarte media vida, costarte “an arm an a leg”, ni ser una de tus peores pesadillas. Aquí aprenderás todo el inglés que necesitas en la vida real, de forma natural y divertida. ",
-       enlaces:"https://learnibox.vercel.app/myenglishbro",
-       precio:0,
-       demo:"AAS",
-      
-
+      id: 1,
+      thumbnail: "https://i.ibb.co/bM4cVL5G/Chat-GPT-Image-2-abr-2025-00-32-35.png",
+      title: "Ruta A1",
+      subtitle: "English",
+      dateAdded: "2025-04-02",
+      calificacion: "5",
+      description: "¡Tu primer paso en inglés! Aprende saludos, frases básicas y vocabulario esencial para presentarte y hablar del día a día.",
+      enlaces: "https://learnibox.vercel.app/RoadMapA1",
+      precio: 30,
+      demo: "AAS"
     },
     {
-        id:0,
-        thumbnail:"https://i.ibb.co/1HFNYvZ/AB9-BEF8-D-DA18-4-E3-C-8349-25-E9-FA6-EED69.jpg",
-        title:"Aprende con Juan ",
-       subtitle:"English",
-       dateAdded:"wswqe",
-       calificacion:"Gratis",
-       description:"En Ingles con Juan creo firmemente que hablar un idioma con fluidez y seguridad no tiene que llevarte media vida, costarte “an arm an a leg”, ni ser una de tus peores pesadillas. Aquí aprenderás todo el inglés que necesitas en la vida real, de forma natural y divertida. ",
-       enlaces:"https://learnibox.vercel.app/Inglesconelprofejuan",
-       precio:0,
-       demo:"AAS",
-       
-
+      id: 2,
+      thumbnail: "https://i.ibb.co/bM4cVL5G/Chat-GPT-Image-2-abr-2025-00-32-35.png",
+      title: "Ruta A2",
+      subtitle: "English",
+      dateAdded: "2025-04-02",
+      calificacion: "Gratis",
+      description: "Mejora tu base de inglés: empieza a formar frases completas, hablar de rutinas, lugares y actividades cotidianas.",
+      enlaces: "https://learnibox.vercel.app/RoadMap",
+      precio: 0,
+      demo: "AAS"
     },
     {
-        id:0,
-        thumbnail:"https://i.ibb.co/KxJp6gG4/picture.jpg",
-        title:"Bilingual.will.iam",
-       subtitle:"English",
-       dateAdded:"wswqe",
-       calificacion:"Gratis",
-       description:"En mi experiencia de más de 11 años como profesor, he desarrollado un profundo entendimiento del inglés y el español, así como los mejores métodos de enseñanza para ayudarte a alcanzar tus objetivos. Estudié Idiomas Modernos y Escritura Creativa, ayudo a mis alumnos a perder el miedo a hablar",
-       enlaces:"https://learnibox.vercel.app/Inglesconelprofejuan",
-       precio:0,
-       demo:"AAS",
-       
-
+      id: 3,
+      title: "Ruta B1",
+      subtitle: "English",
+      thumbnail: "https://i.ibb.co/bM4cVL5G/Chat-GPT-Image-2-abr-2025-00-32-35.png",
+      dateAdded: "2025-04-02",
+      calificacion: "Gratis",
+      description: "¡Hora de expresarte! Aprende a dar opiniones, hablar en pasado y entender conversaciones sencillas.",
+      enlaces: "https://learnibox.vercel.app/RoadMapB1",
+      precio: 0,
+      demo: "AAS"
+    },
+    {
+      id: 4,
+      title: "Ruta B2",
+      subtitle: "English",
+      thumbnail: "https://i.ibb.co/bM4cVL5G/Chat-GPT-Image-2-abr-2025-00-32-35.png",
+      dateAdded: "2025-04-02",
+      calificacion: "Gratis",
+      description: "Domina estructuras más complejas, conéctate con hablantes nativos y prepárate para situaciones reales.",
+      enlaces: "https://learnibox.vercel.app/RoadMapB2",
+      precio: 0,
+      demo: "AAS"
+    },
+    {
+      id: 5,
+      title: "Ruta C1",
+      subtitle: "English",
+      thumbnail: "https://i.ibb.co/bM4cVL5G/Chat-GPT-Image-2-abr-2025-00-32-35.png",
+      dateAdded: "2025-04-02",
+      calificacion: "Gratis",
+      description: "Habla con fluidez, defiende tus ideas con claridad y entiende textos y audios avanzados.",
+      enlaces: "https://learnibox.vercel.app/RoadMapC1",
+      precio: 0,
+      demo: "AAS"
+    },
+    {
+      id: 6,
+      title: "Ruta C2",
+      subtitle: "English",
+      thumbnail: "https://i.ibb.co/bM4cVL5G/Chat-GPT-Image-2-abr-2025-00-32-35.png",
+      dateAdded: "2025-04-02",
+      calificacion: "Gratis",
+      description: "Nivel experto: domina el inglés con precisión, como un hablante nativo en entornos académicos y profesionales.",
+      enlaces: "https://learnibox.vercel.app/myenglishbro",
+      precio: 0,
+      demo: "AAS"
+    },
+    {
+      id: 7,
+      title: "Cambridge B2 First",
+      subtitle: "English",
+      thumbnail: "https://i.ibb.co/bM4cVL5G/Chat-GPT-Image-2-abr-2025-00-32-35.png",
+      dateAdded: "2025-04-02",
+      calificacion: "Gratis",
+      description: "Prepárate para aprobar el B2 First (FCE) con estrategias, práctica de speaking, writing y mucho más.",
+      enlaces: "https://learnibox.vercel.app/myenglishbro",
+      precio: 0,
+      demo: "AAS"
+    },
+    {
+      id: 8,
+      title: "Cambridge C1 Advanced",
+      subtitle: "English",
+      thumbnail: "https://i.ibb.co/bM4cVL5G/Chat-GPT-Image-2-abr-2025-00-32-35.png",
+      dateAdded: "2025-04-02",
+      calificacion: "Gratis",
+      description: "Supera el C1 Advanced (CAE) con ejercicios tipo examen y simulacros reales.",
+      enlaces: "https://learnibox.vercel.app/myenglishbro",
+      precio: 0,
+      demo: "AAS"
+    },
+    {
+      id: 9,
+      title: "Cambridge C2 Proficiency",
+      subtitle: "English",
+      thumbnail: "https://i.ibb.co/bM4cVL5G/Chat-GPT-Image-2-abr-2025-00-32-35.png",
+      dateAdded: "2025-04-02",
+      calificacion: "Gratis",
+      description: "¡Ve por todo! Este curso te prepara para el examen más avanzado del Cambridge.",
+      enlaces: "https://learnibox.vercel.app/myenglishbro",
+      precio: 0,
+      demo: "AAS"
+    },
+    {
+      id: 10,
+      title: "IELTS Preparation",
+      subtitle: "English",
+      thumbnail: "https://i.ibb.co/bM4cVL5G/Chat-GPT-Image-2-abr-2025-00-32-35.png",
+      dateAdded: "2025-04-02",
+      calificacion: "Gratis",
+      description: "Entrena todas las habilidades (Listening, Reading, Writing, Speaking) para tu mejor score en el IELTS.",
+      enlaces: "https://learnibox.vercel.app/myenglishbro",
+      precio: 0,
+      demo: "AAS"
+    },
+    {
+      id: 11,
+      title: "CELPIP Speaking",
+      subtitle: "English",
+      thumbnail: "https://i.ibb.co/bM4cVL5G/Chat-GPT-Image-2-abr-2025-00-32-35.png",
+      dateAdded: "2025-04-02",
+      calificacion: "Gratis",
+      description: "Aprende a dominar el examen canadiense CELPIP con plantillas, estrategias y práctica guiada.",
+      enlaces: "https://learnibox.vercel.app/myenglishbro",
+      precio: 0,
+      demo: "AAS"
+    },
+    {
+      id: 12,
+      title: "Inglés para negocios",
+      subtitle: "English",
+      thumbnail: "https://i.ibb.co/bM4cVL5G/Chat-GPT-Image-2-abr-2025-00-32-35.png",
+      dateAdded: "2025-04-02",
+      calificacion: "Gratis",
+      description: "Aprende inglés para reuniones, presentaciones, correos y negociaciones internacionales.",
+      enlaces: "https://learnibox.vercel.app/myenglishbro",
+      precio: 0,
+      demo: "AAS"
+    },
+    {
+      id: 13,
+      title: "Inglés para programadores",
+      subtitle: "English",
+      thumbnail: "https://i.ibb.co/bM4cVL5G/Chat-GPT-Image-2-abr-2025-00-32-35.png",
+      dateAdded: "2025-04-02",
+      calificacion: "Gratis",
+      description: "Habla de código, frameworks y proyectos en inglés técnico con confianza.",
+      enlaces: "https://learnibox.vercel.app/myenglishbro",
+      precio: 0,
+      demo: "AAS"
+    },
+    {
+      id: 14,
+      title: "Inglés para médicos",
+      subtitle: "English",
+      thumbnail: "https://i.ibb.co/bM4cVL5G/Chat-GPT-Image-2-abr-2025-00-32-35.png",
+      dateAdded: "2025-04-02",
+      calificacion: "Gratis",
+      description: "Comunícate con pacientes y colegas en inglés clínico y profesional.",
+      enlaces: "https://learnibox.vercel.app/myenglishbro",
+      precio: 0,
+      demo: "AAS"
+    },
+    {
+      id: 15,
+      title: "Inglés para RR.HH.",
+      subtitle: "English",
+      thumbnail: "https://i.ibb.co/bM4cVL5G/Chat-GPT-Image-2-abr-2025-00-32-35.png",
+      dateAdded: "2025-04-02",
+      calificacion: "Gratis",
+      description: "Domina el inglés en reclutamiento, entrevistas, onboarding y más en Recursos Humanos.",
+      enlaces: "https://learnibox.vercel.app/myenglishbro",
+      precio: 10,
+      demo: "AAS"
     }
-
-]
+  ]
+  

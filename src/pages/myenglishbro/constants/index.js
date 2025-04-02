@@ -480,6 +480,7 @@ export const benefits = [
 export const navLinks = [
   { title: "Home", path: "/myenglishbro" },
  
+  { title: "Cursos",       path: "/Store" },
 
 
   
