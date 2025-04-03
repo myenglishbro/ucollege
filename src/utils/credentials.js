@@ -70,5 +70,6 @@ export const validCredentials = [
        { expirationDate:"26/04/25",nivel:"B2",usuario: 'andres', password: 'ortega', realname: 'Andres Ortega ',img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
        { expirationDate:"30/04/25",nivel:"B1",usuario: 'katherine', password: 'Mendieta', realname: 'Katherine Lizeth Mendieta ',img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
        { expirationDate:"01/06/25",nivel:"B1",usuario: 'carlos', password: 'abardales', realname: 'Carlos A. Bardales',img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
+       { expirationDate:"03/05/25",nivel:"B1",usuario: 'mossi', password: 'bendezu', realname: 'Mossi Bendezu',img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
 
     ];
