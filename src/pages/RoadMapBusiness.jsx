@@ -1,34 +1,46 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import ContainerRoad from './ContainerRoad';
-import styles from "../style";
 import { roadbusiness } from "../utils/roadbusiness";
 import Sidebar from '../components/Sidebar';
 import DefaultView from '../components/DefaultView';
+import Step from '../components/Step';
+import Navbar from './myenglishbro/components/NavBar';
+import LoginForm from './LoginForm';
+import CabezeraB2 from './Standarizado/CabezeraB2';
 
 const RoadMapBusiness = () => {
-  const [codigo, setCodigo] = useState(''); 
+  // Estados para datos de usuario y vista
   const [mostrarComponente, setMostrarComponente] = useState(false);
-  const [isSidebarVisible, setIsSidebarVisible] = useState(false); 
+  const [nivel, setNivel] = useState('');
+  const [codigo, setCodigo] = useState('');
+  const [realname, setRealname] = useState('');
+  const [userImage, setUserImage] = useState('');
+  const [expirationDate, setExpirationDate] = useState('');
   const [nivelSeleccionado, setNivelSeleccionado] = useState(null);
-  const containerRefs = useRef([]); 
+  const [viewedItems, setViewedItems] = useState([]);
+  const [isSidebarVisible, setIsSidebarVisible] = useState(false);
+  const containerRefs = useRef([]);
 
-  const handleChangeCodigo = (event) => {
-    setCodigo(event.target.value);
-  };
+  // Cargar elementos vistos desde localStorage
+  useEffect(() => {
+    const savedViewedItems = JSON.parse(localStorage.getItem("viewedItems")) || [];
+    setViewedItems(savedViewedItems);
+  }, []);
 
-  const handleKeyPress = (event) => {
-    if (event.key === 'Enter') {
-      handleMostrarComponente();
+  useEffect(() => {
+    if (viewedItems.length > 0) {
+      localStorage.setItem("viewedItems", JSON.stringify(viewedItems));
     }
-  };
+  }, [viewedItems]);
 
-  const handleMostrarComponente = () => {
-    const validPasswords = ['andreavargas','leonardoporras','eduardoaylas','ximenasolca','diegoalvarado','udemystudent', 'andresjaramillo', 'davidbenites', 'jrvchoche', 'cesarhurtado', 'roycondori', 'maxcontreras','rosamamani','manuellopez','fabrirondon','angelorondon','diegosegovia','shirleyapaza']; 
-    if (validPasswords.includes(codigo)) {
-      setMostrarComponente(true);
-    } else {
-      setMostrarComponente(false);
-    }
+  const handleLoginSuccess = (userCredential, userPassword) => {
+    // Se actualizan los estados en base a la información recibida
+    setMostrarComponente(true);
+    setRealname(userCredential.realname);
+    setUserImage(userCredential.img);
+    setExpirationDate(userCredential.expirationDate);
+    setNivel(userCredential.nivel);
+    setCodigo(userPassword);
   };
 
   const seleccionarNivel = (index) => {
@@ -42,62 +54,48 @@ const RoadMapBusiness = () => {
     }
   };
 
-  const toggleSidebar = () => {
-    setIsSidebarVisible(!isSidebarVisible);
-  };
+  const toggleSidebar = () => setIsSidebarVisible(!isSidebarVisible);
 
   return (
     <>
-      {!mostrarComponente && (
-        <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
-          <div className={`${styles.boxWidth}`}>
-            <section className={`${styles.flexCenter} ${styles.marginY} ${styles.padding} sm:flex-row flex-col bg-black-gradient-2 rounded-[20px] box-shadow`}>
-              <div className="flex-1 flex flex-col">
-                <h2 className={styles.heading2}>Bienvenido Student!</h2>
-                <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-                  Al Estudiar con nosotros recibes un código para acceder a nuestro repositorio, ¡Ingrésalo Aquí!
-                </p>
-              </div>
-              <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
-                <input
-                  type="password"
-                  placeholder="Ingresa el código"
-                  value={codigo}
-                  onChange={handleChangeCodigo}
-                  onKeyPress={handleKeyPress}
-                  className={`py-3 px-3 mx-5 font-poppins font-medium text-[18px]  text-n-2 rounded-[10px] outline-none`}
-                />
-                <button
-                  type="button"
-                  onClick={handleMostrarComponente}
-                  className={`py-3 px-3 font-poppins font-medium text-[18px] text-primary bg-blue-gradient rounded-[10px] outline-none ${styles}`}
-                >
-                  Ver Ruta
-                </button>
-              </div>
-            </section>
-          </div>
-        </div>
-      )}
-      {mostrarComponente && (
+      <Navbar />
+      {!mostrarComponente ? (
+        <>
+          <LoginForm onLoginSuccess={handleLoginSuccess} />
+          <Step />
+        </>
+      ) : (
         <>
           <button className="sidebar-toggle" onClick={toggleSidebar}>
             ☰
           </button>
-          <Sidebar 
-            road={roadbusiness} 
-            seleccionarNivel={seleccionarNivel} 
+          <Sidebar
+            road={roadbusiness}
+            seleccionarNivel={seleccionarNivel}
             isSidebarVisible={isSidebarVisible}
             toggleSidebar={toggleSidebar}
+            viewedItems={viewedItems}
+            setViewedItems={setViewedItems}
+            className={isSidebarVisible ? 'visible' : ''}
           />
           {nivelSeleccionado !== null ? (
-            <ContainerRoad 
-              road={[roadbusiness[nivelSeleccionado]]} 
-              containerRefs={containerRefs} 
-              password={codigo} 
+            <ContainerRoad
+              road={[roadbusiness[nivelSeleccionado]]}
+              containerRefs={containerRefs}
+              password={codigo}
+              realname={realname}
+              nivel={nivel}
+              expirationDate={expirationDate}
+              userImage={userImage}
             />
           ) : (
-            <DefaultView password={codigo} />
+            <DefaultView
+              password={codigo}
+              nivel={nivel}
+              expirationDate={expirationDate}
+              realname={realname}
+              userImage={userImage}
+            />
           )}
         </>
       )}

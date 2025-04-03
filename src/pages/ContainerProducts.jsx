@@ -14,29 +14,29 @@ const ContainerProducts = () => {
   );
 
   return (
-      <>
-        {/* Barra de búsqueda estilizada */}
-        <div className="flex justify-center my-6 mt-20">
-          <div className="relative w-full max-w-lg">
-            <input
-              type="text"
-              className="w-full px-4 py-3 pl-10 text-lg border rounded-full shadow-md focus:ring focus:ring-blue-400 focus:outline-none"
-              placeholder="Buscar por título..."
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-            />
-            <span className="absolute left-3 top-3 text-gray-500">
-              <BsSearch size={20} />
-            </span>
-          </div>
+    <>
+      {/* Barra de búsqueda estilizada */}
+      <div className="flex justify-center mt-20 mb-10 px-4">
+        <div className="relative w-full max-w-xl">
+          <input
+            type="text"
+            className="w-full px-4 py-3 pl-12 text-lg border border-gray-300 rounded-full shadow-md focus:ring focus:ring-blue-400 focus:outline-none transition-all duration-300"
+            placeholder="Buscar por título..."
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+          />
+          <span className="absolute left-4 top-3.5 text-gray-400">
+            <BsSearch size={20} />
+          </span>
         </div>
-  
-        {/* Grilla de tarjetas */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 md:px-8 lg:px-12">
-          {filteredProducts.length === 0 ? (
-            <p className="col-span-full text-center text-gray-500 italic py-10">No se encontraron productos.</p>
-          ) : (
-            filteredProducts.map((item) => (
+      </div>
+
+      {/* Lista de tarjetas en formato columna con diseño horizontal */}
+      <div className="flex flex-col gap-8 px-4 md:px-10 lg:px-16 pb-16">
+        {filteredProducts.length === 0 ? (
+          <p className="text-center text-gray-500 italic py-10 text-lg">No se encontraron productos.</p>
+        ) : (
+          filteredProducts.map((item) => (
             <Producto
               key={item.id}
               thumbnail={item.thumbnail}
