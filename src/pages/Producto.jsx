@@ -56,16 +56,43 @@ const Producto = ({ thumbnail, title, subtitle, description, calificacion, preci
             <span className="text-green-400 text-2xl font-bold">S/. {precio}</span>
           </div>
 
+          {/* Botones de acción mejorados */}
           <motion.div
-            className="mt-4"
+            className="mt-4 flex flex-col md:flex-row gap-4"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
             <a
               href={enlaces}
-              className="inline-block bg-gradient-to-r from-indigo-500 to-pink-500 hover:from-pink-500 hover:to-indigo-500 text-white px-5 py-2.5 rounded-full text-base font-bold shadow-lg transition-all duration-300"
+              className="flex items-center justify-center gap-2 bg-gradient-to-r from-sky-500 to-indigo-500 hover:from-indigo-500 hover:to-sky-500 text-white px-5 py-2.5 rounded-full text-base font-bold shadow-lg transition-all duration-300"
+            >
+              Ir a la Ruta
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="w-5 h-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth="2"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+              </svg>
+            </a>
+            <a
+              href="https://wa.link/d1m1h1"
+              className="flex items-center justify-center gap-2 bg-gradient-to-r from-purple-500 to-pink-500 hover:from-pink-500 hover:to-purple-500 text-white px-5 py-2.5 rounded-full text-base font-bold shadow-lg transition-all duration-300"
             >
               🚀 Comprar Ahora
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="w-5 h-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth="2"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" d="M3 12h18m-6-6l6 6-6 6" />
+              </svg>
             </a>
           </motion.div>
         </motion.div>

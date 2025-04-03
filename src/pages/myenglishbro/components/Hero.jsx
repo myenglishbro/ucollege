@@ -192,7 +192,7 @@ const Hero = () => {
         <div className="p-4 z-20 bg-black rounded-[100px] md:rounded-bl-[200px] lg:rounded-bl-[250px] bg-opacity-20">
           <img
             className="max-w-[490px] w-full"
-            src="https://iili.io/39E0tiQ.png"
+            src="https://i.ibb.co/k663WbPb/Chat-GPT-Image-3-abr-2025-15-38-33-removebg-preview.png"
             alt=""
           />
         </div>
