@@ -47,6 +47,8 @@ import RoadMapB from "./pages/bilingualwill/Rutas/RoadMapB";
 import CambridgeExam from "./pages/CambridgeExam";
 import Certificate from "./pages/Certificate";
 import RoadMapC2 from "./pages/RoadMapC2";
+import RoadMapUoe from "./pages/RoadMapUoe";
+import RoadMapEg from "./pages/RoadMapEg";
 
 function App() {
   return (
@@ -70,6 +72,8 @@ function App() {
           <Route path="/RoadMapB2" element={<RoadMapB2 />}></Route>
           <Route path="/RoadMapC1" element={<RoadMapC1 />}></Route>
           <Route path="/RoadMapC2" element={<RoadMapC2 />}></Route>
+          <Route path="/RoadMapUoe" element={<RoadMapUoe />}></Route>
+          <Route path="/RoadMapEg" element={<RoadMapEg />}></Route>
 
           <Route path="/RoadMapFrench" element={<RoadMapFrench />}></Route>
 

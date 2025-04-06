@@ -4,7 +4,7 @@ import { Gradient } from "../components/design/Roadmap";
 import Tagline from "../components/Tagline";
 import { motion } from "framer-motion";
 
-const Producto = ({ thumbnail, title, subtitle, description, calificacion, precio, enlaces }) => {
+const Producto = ({ thumbnail, title, subtitle, description, demo,calificacion, precio, enlaces }) => {
   return (
     <div className="relative rounded-3xl bg-n-6 overflow-hidden shadow-2xl">
       <div className="relative flex flex-col lg:flex-row gap-8 bg-n-8 rounded-3xl overflow-hidden p-6 md:p-10">
@@ -43,7 +43,7 @@ const Producto = ({ thumbnail, title, subtitle, description, calificacion, preci
             <Tagline>{subtitle}</Tagline>
             <div className="flex items-center px-4 py-1 bg-white rounded-full text-n-8 shadow">
               <img className="mr-2.5" src={check2} width={16} height={16} alt="Verified" />
-              <span className="text-sm font-semibold">Verified</span>
+              <span className="text-sm font-semibold">Verificado</span>
             </div>
           </div>
 
@@ -52,7 +52,9 @@ const Producto = ({ thumbnail, title, subtitle, description, calificacion, preci
           <p className="text-sm md:text-base text-gray-300 leading-relaxed max-w-2xl">{description}</p>
 
           <div className="flex items-center flex-wrap gap-6 mt-2 text-lg font-semibold">
-            <span className="text-yellow-400">{calificacion} ⭐</span>
+            <span className="text-yellow-400">{calificacion} </span>
+            <span className="text-blue-400">{demo} </span>
+
             <span className="text-green-400 text-2xl font-bold">S/. {precio}</span>
           </div>
 

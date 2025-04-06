@@ -1,51 +1,109 @@
 export const products = [
     {
       id: 1,
-      thumbnail: "https://i.ibb.co/MkVH9Xhf/Chat-GPT-Image-3-abr-2025-13-26-52.png",
+      thumbnail: "https://i.ibb.co/ZzpVhdy9/Chat-GPT-Image-6-abr-2025-17-50-23.png",
       title: "Ruta Autónoma A1",
-      subtitle: "85 HORAS",
+      subtitle: "+85 HORAS",
       dateAdded: "2025-04-02",
-      calificacion: "Most Popular",
+      calificacion: "3 Meses x S/90",
       description: "¡Tu primer paso en inglés! Aprende saludos, frases básicas y vocabulario esencial para presentarte y hablar del día a día.",
       enlaces: "https://learnibox.vercel.app/RoadMapA1",
-      precio: 35,
-      demo: "AAS"
+      precio: "35 Mensuales",
     },
     {
       id: 2,
-      thumbnail: "https://i.ibb.co/SXmGyP1x/Chat-GPT-Image-3-abr-2025-13-29-31.png",
+      thumbnail: "https://i.ibb.co/WvdJJGYR/Chat-GPT-Image-6-abr-2025-17-49-21.png",
+      title: "Ruta Autónoma A1 Premium",
+      subtitle: "+85 HORAS",
+      dateAdded: "2025-04-02",
+      calificacion: "3 Meses x S/180",
+      description: "¡Tu primer paso en inglés! Aprende saludos, frases básicas y vocabulario esencial para presentarte y hablar del día a día.",
+      enlaces: "https://learnibox.vercel.app/RoadMapA1",
+      precio: "65 Mensuales",
+      demo:"Permite Descargas"
+    },
+    {
+      id: 2,
+      thumbnail: "https://i.ibb.co/hxHGSZNm/Chat-GPT-Image-6-abr-2025-18-00-53.png",
       title: "Ruta A2",
-      subtitle: "English",
+      subtitle: "+95 HORAS",
       dateAdded: "2025-04-02",
       calificacion: "Most Popular",
       description: "Mejora tu base de inglés: empieza a formar frases completas, hablar de rutinas, lugares y actividades cotidianas.",
       enlaces: "https://learnibox.vercel.app/RoadMap",
-      precio: 35,
-      demo: "AAS"
+      precio: "35 Mensuales",
+    },
+    {
+      id: 2,
+      thumbnail: "https://i.ibb.co/8Lc4vPN3/Chat-GPT-Image-6-abr-2025-18-09-14.png",
+      title: "Ruta A2 Premium",
+      subtitle: "+95 HORAS",
+      dateAdded: "2025-04-02",
+      calificacion: "Most Popular",
+      description: "Mejora tu base de inglés: empieza a formar frases completas, hablar de rutinas, lugares y actividades cotidianas.",
+      enlaces: "https://learnibox.vercel.app/RoadMap",
+      precio: "65 Mensuales",
+      demo:"Permite Descargas"
+
     },
     {
       id: 3,
       title: "Ruta B1",
-      subtitle: "English",
-      thumbnail: "https://i.ibb.co/WN4Cg1cd/Chat-GPT-Image-3-abr-2025-13-31-27.png",
+      subtitle: "+85 HORAS",
+      thumbnail: "https://i.ibb.co/bgrkXmzw/Chat-GPT-Image-6-abr-2025-18-25-08.png",
       dateAdded: "2025-04-02",
       calificacion: "Most Popular",
       description: "¡Hora de expresarte! Aprende a dar opiniones, hablar en pasado y entender conversaciones sencillas.",
       enlaces: "https://learnibox.vercel.app/RoadMapB1",
-      precio: 35,
-      demo: "AAS"
+      precio: "35 Mensuales",
     },
+    {
+      id: 3,
+      title: "Ruta B1 Premium",
+      subtitle: "+85 HORAS",
+      thumbnail: "https://i.ibb.co/F4Y6D03H/Chat-GPT-Image-6-abr-2025-18-27-21.png",
+      dateAdded: "2025-04-02",
+      calificacion: "Most Popular",
+      description: "¡Hora de expresarte! Aprende a dar opiniones, hablar en pasado y entender conversaciones sencillas.",
+      enlaces: "https://learnibox.vercel.app/RoadMapB1",
+      precio: "35 Mensuales",
+    },
+
     {
       id: 4,
       title: "Ruta B2",
-      subtitle: "English",
-      thumbnail: "https://i.ibb.co/20d7Xr7D/Chat-GPT-Image-3-abr-2025-13-41-36.png",
+      subtitle: "+85 HORAS",
+      thumbnail: "https://i.ibb.co/XZJPxTpk/Chat-GPT-Image-6-abr-2025-18-14-34.png",
+      dateAdded: "2025-04-02",
+      calificacion: "3 Meses x S/120",
+      description: "Domina estructuras más complejas, conéctate con hablantes nativos y prepárate para situaciones reales.",
+      enlaces: "https://learnibox.vercel.app/RoadMapB2",
+      precio: "45 Mensuales",
+    },
+    {
+      id: 4,
+      title: "Ruta B2 Premium",
+      subtitle: "+85 HORAS",
+      thumbnail: "https://i.ibb.co/Qvqqs98m/Chat-GPT-Image-6-abr-2025-18-18-13.png",
+      dateAdded: "2025-04-02",
+      calificacion: "3 Meses x S/180",
+      description: "Domina estructuras más complejas, conéctate con hablantes nativos y prepárate para situaciones reales.",
+      enlaces: "https://learnibox.vercel.app/RoadMapB2",
+      precio: "95 Mensuales",
+      demo:"Permite Descargas"
+
+    },
+    {
+      id: 4,
+      title: "Essential Grammar B2 FIRST",
+      subtitle: "+85 HORAS",
+      thumbnail: "https://i.ibb.co/TD3vN1Gx/Chat-GPT-Image-6-abr-2025-16-29-02.png",
       dateAdded: "2025-04-02",
       calificacion: "Most Popular",
       description: "Domina estructuras más complejas, conéctate con hablantes nativos y prepárate para situaciones reales.",
-      enlaces: "https://learnibox.vercel.app/RoadMapB2",
-      precio: 40,
-      demo: "AAS"
+      enlaces: "https://learnibox.vercel.app/RoadMapUoe",
+      precio: "90 Pago Único",
+      demo: "Permite Descargas"
     },
     {
       id: 5,
@@ -57,7 +115,6 @@ export const products = [
       description: "Habla con fluidez, defiende tus ideas con claridad y entiende textos y audios avanzados.",
       enlaces: "https://learnibox.vercel.app/RoadMapC1",
       precio: 45,
-      demo: "AAS"
     },
     {
       id: 6,
@@ -69,7 +126,6 @@ export const products = [
       description: "Nivel experto: domina el inglés con precisión, como un hablante nativo en entornos académicos y profesionales.",
       enlaces: "https://learnibox.vercel.app/myenglishbro",
       precio: 50,
-      demo: "AAS"
     },
     {
       id: 7,
@@ -80,8 +136,7 @@ export const products = [
       calificacion: "Gratis",
       description: "Prepárate para aprobar el B2 First (FCE) con estrategias, práctica de speaking, writing y mucho más.",
       enlaces: "https://learnibox.vercel.app/myenglishbro",
-      precio: 0,
-      demo: "AAS"
+      precio: 90,
     },
     {
       id: 8,
@@ -89,11 +144,10 @@ export const products = [
       subtitle: "English",
       thumbnail: "https://i.ibb.co/HpKxMN1W/Chat-GPT-Image-3-abr-2025-13-09-48.png",
       dateAdded: "2025-04-02",
-      calificacion: "Gratis",
+      calificacion: "Most Popular",
       description: "Supera el C1 Advanced (CAE) con ejercicios tipo examen y simulacros reales.",
       enlaces: "https://learnibox.vercel.app/myenglishbro",
-      precio: 0,
-      demo: "AAS"
+      precio: 90,
     },
     
     {
@@ -102,11 +156,10 @@ export const products = [
       subtitle: "English",
       thumbnail: "https://i.ibb.co/wN520qnQ/Chat-GPT-Image-3-abr-2025-13-52-46.png",
       dateAdded: "2025-04-02",
-      calificacion: "Gratis",
+      calificacion: "Most Popular",
       description: "Entrena todas las habilidades (Listening, Reading, Writing, Speaking) para tu mejor score en el IELTS.",
       enlaces: "https://learnibox.vercel.app/myenglishbro",
-      precio: 0,
-      demo: "AAS"
+      precio: 150,
     },
     {
       id: 11,
@@ -114,11 +167,10 @@ export const products = [
       subtitle: "English",
       thumbnail: "https://i.ibb.co/tMhCmrgZ/Chat-GPT-Image-3-abr-2025-11-55-42.png",
       dateAdded: "2025-04-02",
-      calificacion: "Gratis",
+      calificacion: "Most Popular",
       description: "Aprende a dominar el examen canadiense CELPIP con plantillas, estrategias y práctica guiada.",
       enlaces: "https://learnibox.vercel.app/myenglishbro",
-      precio: 0,
-      demo: "AAS"
+      precio: 150,
     },
     {
       id: 12,
@@ -126,11 +178,10 @@ export const products = [
       subtitle: "English",
       thumbnail: "https://i.ibb.co/FbTL6wJQ/Chat-GPT-Image-3-abr-2025-11-03-01.png",
       dateAdded: "2025-04-02",
-      calificacion: "Gratis",
+      calificacion: "Most Popular",
       description: "Aprende inglés para reuniones, presentaciones, correos y negociaciones internacionales.",
       enlaces: "https://learnibox.vercel.app/RoadMapBusiness",
-      precio: 0,
-      demo: "AAS"
+      precio: 200,
     },
     {
       id: 13,
@@ -138,11 +189,10 @@ export const products = [
       subtitle: "English",
       thumbnail: "https://i.ibb.co/8gj3GF41/Chat-GPT-Image-3-abr-2025-11-00-15.png",
       dateAdded: "2025-04-02",
-      calificacion: "Gratis",
+      calificacion: "Most Popular",
       description: "Habla de código, frameworks y proyectos en inglés técnico con confianza.",
       enlaces: "https://learnibox.vercel.app/myenglishbro",
-      precio: 0,
-      demo: "AAS"
+      precio: 150,
     },
     {
       id: 14,
@@ -150,11 +200,10 @@ export const products = [
       subtitle: "English",
       thumbnail: "https://i.ibb.co/qYLnBVSf/Chat-GPT-Image-3-abr-2025-11-04-57.png",
       dateAdded: "2025-04-02",
-      calificacion: "Gratis",
+      calificacion: "Most Popular",
       description: "Comunícate con pacientes y colegas en inglés clínico y profesional.",
       enlaces: "https://learnibox.vercel.app/myenglishbro",
-      precio: 0,
-      demo: "AAS"
+      precio: 250,
     },
     {
       id: 17,
@@ -162,11 +211,10 @@ export const products = [
       subtitle: "English",
       thumbnail: "https://i.ibb.co/S4b3kDYc/Chat-GPT-Image-3-abr-2025-12-09-39.png",
       dateAdded: "2025-04-02",
-      calificacion: "Gratis",
+      calificacion: "Most Popular",
       description: "Domina el inglés en reclutamiento, entrevistas, onboarding y más en Recursos Humanos.",
       enlaces: "https://learnibox.vercel.app/myenglishbro",
-      precio: 10,
-      demo: "AAS"
+      precio: 150,
     },
     {
       id: 15,
@@ -174,11 +222,10 @@ export const products = [
       subtitle: "English",
       thumbnail: "https://i.ibb.co/4R202s1T/Chat-GPT-Image-3-abr-2025-11-27-03.png",
       dateAdded: "2025-04-02",
-      calificacion: "Gratis",
+      calificacion: "Most Popular",
       description: "Domina el inglés en reclutamiento, entrevistas, onboarding y más en Recursos Humanos.",
       enlaces: "https://learnibox.vercel.app/myenglishbro",
-      precio: 10,
-      demo: "AAS"
+      precio: 150,
     },
    
     {
@@ -187,11 +234,10 @@ export const products = [
       subtitle: "English",
       thumbnail: "https://i.ibb.co/gLm5hFdb/Chat-GPT-Image-3-abr-2025-11-52-24.png",
       dateAdded: "2025-04-02",
-      calificacion: "Gratis",
+      calificacion: "Most Popular",
       description: "Domina el inglés en reclutamiento, entrevistas, onboarding y más en Recursos Humanos.",
       enlaces: "https://learnibox.vercel.app/myenglishbro",
-      precio: 10,
-      demo: "AAS"
+      precio: 150,
     },
  
   ]
