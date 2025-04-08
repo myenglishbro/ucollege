@@ -63,7 +63,6 @@ const RoadMapB2C = () => {
       {!mostrarComponente ? (
         <>
           <LoginFormB2C onLoginSuccess={handleLoginSuccess} />
-          <Step />
         </>
       ) : (
         <>

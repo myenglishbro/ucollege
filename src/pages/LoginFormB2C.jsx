@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 import { validCredentials } from '../utils/credentials';
-import { FaWhatsapp, FaGlobe } from 'react-icons/fa';
+import { FaWhatsapp, FaGlobe, FaUserAlt, FaLock } from 'react-icons/fa';
 
 const LoginFormB2C = ({ onLoginSuccess }) => {
   const [usuario, setUsuario] = useState('');
   const [codigo, setCodigo] = useState('');
   const [errorMessage, setErrorMessage] = useState('');
 
+  // Función de login
   const handleLogin = () => {
     const userCredential = validCredentials.find(
       (cred) => cred.usuario === usuario && cred.password === codigo
@@ -15,182 +16,165 @@ const LoginFormB2C = ({ onLoginSuccess }) => {
       setErrorMessage('');
       onLoginSuccess(userCredential, codigo);
     } else {
-      setErrorMessage('El usuario o la contraseña son incorrectos.');
+      setErrorMessage('⚠️ Usuario o contraseña incorrectos.');
     }
   };
 
+  // Función para el "Enter"
   const handleKeyPress = (event) => {
     if (event.key === 'Enter') {
       handleLogin();
     }
   };
 
+  // Datos de los pasos
+  const steps = [
+    {
+      title: "Realiza el Pago",
+      description: "Yape/Plin: 982668882 - PayPal: temis_it@hotmail.com",
+    },
+    {
+      title: "Envía tu comprobante",
+      description: "Manda la foto al +51 926922032",
+    },
+    {
+      title: "Envía tus datos y Ruta de Preferencia",
+      description: "Indica la ruta que deseas junto con tus datos",
+    },
+    {
+      title: "Accede",
+      description: "Inicia sesión y disfruta del contenido.",
+    },
+  ];
+
   return (
-    <div className="overflow-hidden pb-9 px-4 md:px-8 bg-[#2D0D8A] min-h-screen flex flex-col mt-6">
-      {/* Cabecera */}
-      {/* Aquí puedes incluir el logo o encabezado de Cambridge B2 First Preparation */}
+    <div className="relative overflow-hidden min-h-screen flex flex-col items-center bg-black mt-10">
+      {/* Fondo animado cyberpunk */}
+      <div className="absolute inset-0 bg-[url('https://i.ibb.co/JRq450kr/Fondos-de-zoom-11.png')] bg-cover bg-center animate-pulse-slow opacity-30" />
+      <div className="absolute inset-0 bg-gradient-to-br from-[#0f1123] to-[#1c1e2f] opacity-80" />
 
-      {/* Sección principal con fondos SVG, formulario y la ilustración */}
-      <section className="relative flex flex-col-reverse md:flex-row max-w-[1300px] mx-auto justify-between items-center gap-9 md:gap-4 py-4 my-12">
-        {/* Fondos SVG */}
-        <svg
-          width="736"
-          height="423"
-          className="absolute top-[50px] sm:top-[200px] sm:right-[-150px]"
-          viewBox="0 0 736 423"
-          fill="none"
-        >
-          <defs>
-            <linearGradient
-              id="paint0_linear_16_172"
-              x1="700.5"
-              y1="-4"
-              x2="14.5"
-              y2="361"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop stopColor="#2D0D8A" />
-              <stop offset="0.72" stopColor="#F34006" />
-            </linearGradient>
-          </defs>
-          <path
-            d="M738.5 4.5C491.667 -7.66666 -0.9 58.9 3.5 422.5"
-            stroke="url(#paint0_linear_16_172)"
-            strokeWidth="6"
-          />
-        </svg>
-        <svg
-          className="absolute sm:right-28 md:right-6"
-          width="383"
-          height="846"
-          viewBox="0 0 383 846"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <defs>
-            <linearGradient
-              id="paint0_linear_16_173"
-              x1="16.5"
-              y1="39.5"
-              x2="363"
-              y2="814"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop offset="0.01" stopColor="#2D0D8A" />
-              <stop offset="0.78" stopColor="#F34006" />
-            </linearGradient>
-          </defs>
-          <path
-            d="M3.19293 0C-0.08791 140.127 37.2087 433.314 212.642 485.053C388.075 536.792 391.776 746.576 371.697 845"
-            stroke="url(#paint0_linear_16_173)"
-            strokeWidth="6"
-          />
-        </svg>
-        <svg
-          className="absolute -top-14 sm:right-7"
-          width="416"
-          height="675"
-          viewBox="0 0 416 675"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <defs>
-            <linearGradient
-              id="paint0_linear_16_171"
-              x1="365.5"
-              y1="28"
-              x2="110"
-              y2="594"
-              gradientUnits="userSpaceOnUse"
-            >
-              <stop stopColor="#2D0D8A" />
-              <stop offset="0.74" stopColor="#F34006" />
-            </linearGradient>
-          </defs>
-          <path
-            d="M415 3C325.774 17.8434 155.913 102.224 190.271 320.998C224.63 539.772 78.4065 646.155 1 672"
-            stroke="url(#paint0_linear_16_171)"
-            strokeWidth="6"
-          />
-        </svg>
-
-        {/* Sección izquierda: Formulario de login */}
-        <div className="z-20 md:w-[520px] bg-[#2D0D8A] bg-opacity-80 p-6 rounded-lg">
-          <h1 className="text-white text-2xl md:text-3xl font-bold mb-4">
-            ¡Bienvenido a Cambridge B2 First Preparation!
+      {/* Contenedor Principal */}
+      <div className="relative z-10 flex flex-col items-center w-full px-4 py-12">
+        {/* Sección de Login */}
+        <div className="w-full max-w-sm p-8 rounded-3xl border border-gray-800 shadow-2xl backdrop-blur-lg bg-white/5">
+          <h1 className="text-center text-3xl font-extrabold text-white mb-2 drop-shadow-lg">
+            Cambridge B2 Access
           </h1>
-          <p className="text-gray-200 text-sm mb-6">
-            Ingresa tus credenciales para acceder a tu ruta de preparación de Cambridge B2.
+          <p className="text-center text-indigo-300 text-sm mb-6 tracking-wide">
+            Log in to ignite your exam journey.
           </p>
-          <div className="space-y-4">
-            <input
-              type="text"
-              placeholder="Usuario"
-              value={usuario}
-              onChange={(e) => setUsuario(e.target.value)}
-              className="w-full bg-[#1E1070] border border-[#1E1070] text-white rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[#F34006]"
-            />
-            <input
-              type="password"
-              placeholder="Contraseña"
-              value={codigo}
-              onChange={(e) => setCodigo(e.target.value)}
-              onKeyPress={handleKeyPress}
-              className="w-full bg-[#1E1070] border border-[#1E1070] text-white rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[#F34006]"
-            />
+
+          <div className="space-y-6">
+            <div className="relative">
+              <FaUserAlt className="absolute top-3 left-3 text-gray-400" />
+              <input
+                type="text"
+                placeholder="Username"
+                value={usuario}
+                onChange={(e) => setUsuario(e.target.value)}
+                className="w-full pl-10 pr-4 py-3 bg-[#1f1f2e] text-white rounded-lg border border-gray-700 focus:outline-none focus:ring-2 focus:ring-cyan-500 transition"
+              />
+            </div>
+            <div className="relative">
+              <FaLock className="absolute top-3 left-3 text-gray-400" />
+              <input
+                type="password"
+                placeholder="Password"
+                value={codigo}
+                onChange={(e) => setCodigo(e.target.value)}
+                onKeyPress={handleKeyPress}
+                className="w-full pl-10 pr-4 py-3 bg-[#1f1f2e] text-white rounded-lg border border-gray-700 focus:outline-none focus:ring-2 focus:ring-cyan-500 transition"
+              />
+            </div>
+
             {errorMessage && (
-              <p className="text-red-400 text-sm">{errorMessage}</p>
+              <p className="text-red-400 text-center text-sm animate-pulse">
+                {errorMessage}
+              </p>
             )}
+
             <button
               type="button"
               onClick={handleLogin}
-              className="w-full py-3 bg-[#F34006] text-white rounded-lg hover:bg-[#d63004] transition-colors"
+              className="w-full py-3 bg-gradient-to-r from-cyan-500 via-purple-500 to-pink-500 text-white font-bold rounded-lg shadow-lg hover:brightness-110 transition duration-200"
             >
-              Acceder
+              Access My Roadmap
             </button>
           </div>
-          <p className="text-gray-300 text-xs mt-4">
-            ¿Olvidaste tus credenciales?{' '}
+
+          <p className="mt-6 text-center text-gray-500 text-xs tracking-wide">
+            Forgot your credentials?{' '}
             <a
-              href="https://api.whatsapp.com/send?phone=51926922032&text=Hola,%20necesito%20ayuda%20con%20mis%20credenciales%20de%20Cambridge%20B2!"
-              className="text-[#F34006] hover:underline"
+              href="https://api.whatsapp.com/send?phone=51926922032&text=Hello%20Carlos!%20%F0%9F%99%82"
+              className="text-cyan-400 hover:underline"
             >
-              Contacta a tu instructor
+              Contact your instructor
             </a>
-            .
+          </p>
+
+          <p className="mt-4 text-center text-gray-600 italic text-xs">
+            Powered by MyEnglishBro™
           </p>
         </div>
 
-        {/* Sección derecha: Ilustración */}
-        <div className="z-20 p-4 bg-[#2D0D8A] bg-opacity-0 rounded-[100px] md:rounded-bl-[200px] lg:rounded-bl-[250px]">
-          <img
-            className="max-w-[490px] w-full"
-            src="https://i.ibb.co/ZpV7N0mX/20250408-0304-Casual-English-Teacher-Illustration-remix-01jra6w3zrf1dswt1fmcfkhqkc-removebg-preview.png"
-            alt="Ilustración de Cambridge B2 First Preparation"
-          />
-        </div>
-      </section>
+        {/* Sección de Información (Steps) */}
+<section className="w-full max-w-4xl mt-12">
+  <div className="bg-white/5 backdrop-blur-2xl border border-violet-900 rounded-3xl p-8 text-white shadow-2xl transform transition-all duration-300 hover:scale-105">
+    <h2 className="text-center text-4xl font-bold mb-4 drop-shadow-lg">
+      ¿Cómo funciona?
+    </h2>
+    <p className="text-center text-gray-300 mb-8 tracking-wide">
+      Sigue estos sencillos pasos para comenzar:
+    </p>
+    <ul className="grid grid-cols-1 md:grid-cols-2 gap-8">
+      {steps.map((step, index) => (
+        <li
+          key={index}
+          className="relative group overflow-hidden p-6 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 rounded-3xl shadow-2xl border border-violet-700 transition-transform duration-300 hover:scale-105"
+        >
+          {/* Efecto neon al pasar el cursor */}
+          <div className="absolute inset-0 bg-gradient-to-r from-purple-500 to-pink-500 opacity-0 group-hover:opacity-20 transition-opacity duration-300 blur-xl"></div>
 
-      {/* Botones flotantes */}
-      <div className="fixed bottom-10 right-5 flex flex-col space-y-4 z-50">
+          {/* Número del paso */}
+          <div className="relative z-10 flex items-center justify-center w-14 h-14 rounded-full bg-indigo-600 text-2xl font-bold text-white shadow-xl border border-indigo-400 mb-4 transition-colors duration-300 group-hover:bg-indigo-700">
+            {index + 1}
+          </div>
+          
+          {/* Título y descripción */}
+          <h3 className="relative z-10 text-xl font-semibold mb-2">
+            {step.title}
+          </h3>
+          <p className="relative z-10 text-gray-300">
+            {step.description}
+          </p>
+        </li>
+      ))}
+    </ul>
+  </div>
+</section>
+
+      </div>
+
+      {/* Botones flotantes cyberpunk */}
+      <div className="fixed bottom-10 right-5 flex flex-col space-y-4 z-20">
         <a
-          href="https://api.whatsapp.com/send?phone=51926922032&text=Hola,%20necesito%20asistencia%20con%20mi%20preparación%20Cambridge!"
+          href="https://api.whatsapp.com/send?phone=51926922032&text=Hello%20Carlos!"
           target="_blank"
           rel="noopener noreferrer"
-          title="Contacta vía WhatsApp"
-          className="relative group flex items-center justify-center w-14 h-14 rounded-full bg-[#2D0D8A] text-white border border-[#F34006] shadow-[0_0_15px_rgba(243,64,6,0.5)] transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-[0_0_35px_rgba(243,64,6,0.8)] active:scale-95"
+          title="Contact on WhatsApp"
+          className="relative group flex items-center justify-center w-14 h-14 rounded-full bg-[#0F0F0F] text-green-400 border border-green-500 shadow-[0_0_15px_rgba(34,197,94,0.5)] transition-transform hover:scale-110 hover:shadow-[0_0_35px_rgba(34,197,94,0.8)]"
         >
-          <span className="absolute w-full h-full rounded-full bg-[#F34006] opacity-20 group-hover:opacity-30 animate-ping"></span>
+          <span className="absolute w-full h-full rounded-full bg-green-500 opacity-20 group-hover:opacity-30 animate-ping"></span>
           <FaWhatsapp className="w-7 h-7 relative" />
         </a>
         <a
           href="https://myenglishbro-meb.vercel.app/"
           target="_blank"
           rel="noopener noreferrer"
-          title="Ir a nuestro sitio"
-          className="relative group flex items-center justify-center w-14 h-14 rounded-full bg-[#2D0D8A] text-white border border-[#F34006] shadow-[0_0_15px_rgba(243,64,6,0.5)] transition-transform duration-300 ease-in-out hover:scale-110 hover:shadow-[0_0_35px_rgba(243,64,6,0.8)] active:scale-95"
+          title="Visit Website"
+          className="relative group flex items-center justify-center w-14 h-14 rounded-full bg-[#0F0F0F] text-purple-400 border border-purple-500 shadow-[0_0_15px_rgba(192,132,252,0.5)] transition-transform hover:scale-110 hover:shadow-[0_0_35px_rgba(192,132,252,0.8)]"
         >
-          <span className="absolute w-full h-full rounded-full bg-[#F34006] opacity-20 group-hover:opacity-30 animate-ping"></span>
+          <span className="absolute w-full h-full rounded-full bg-purple-500 opacity-20 group-hover:opacity-30 animate-ping"></span>
           <FaGlobe className="w-7 h-7 relative" />
         </a>
       </div>
