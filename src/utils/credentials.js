@@ -53,7 +53,7 @@ export const validCredentials = [
        { expirationDate:"16 hours ",nivel:"B2",usuario: 'omar', password: 'celpip', realname: ' Omar', img:'https://i.ibb.co/Wvyn0R11/473411171-2938144316352679-51928.png'},
       //  { expirationDate:"05/04/25",nivel:"B2",usuario: 'juanv', password: 'silvera', realname: 'Juan Siveral', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
        { expirationDate:"08/04/25",nivel:"A1",usuario: 'stephany', password: 'rflores', realname: 'Stephany R. Flores', img:'https://i.ibb.co/yBFPF93g/473413178-1647110686188345-76697.png'},
-       { expirationDate:"10/04/25",nivel:"solicitar examen",usuario: 'adrian', password: 'aliaga', realname: 'Adrian Aliaga',img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
+       { expirationDate:"10/07/25",nivel:"solicitar examen",usuario: 'adrian', password: 'aliaga', realname: 'Adrian Aliaga',img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
        { expirationDate:"11/04/25",nivel:"B2",usuario: 'adrian', password: 'grandez', realname: 'Marlos A. Grandez',img:'https://i.ibb.co/SXrkKs06/455208478-1104097444230484-38610.png'},
        { expirationDate:"11/04/25",nivel:"B2",usuario: 'martha', password: 'barua', realname: 'Martha Barua',img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
        { expirationDate:"12/04/25",nivel:"B2",usuario: 'jasmin', password: 'betancourt', realname: 'Jasmín Betancourt',img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
