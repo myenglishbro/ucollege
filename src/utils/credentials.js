@@ -17,7 +17,7 @@ export const validCredentials = [
       //abril
       // { expirationDate:"06/04/25",nivel:"Avanzado",usuario: 'valeha', password: 'valehab2', realname: 'Valeria Huaynates', img: 'https://i.ibb.co/QK97rZ0/7146697477402558469c5-1080x1080.png' }, // No image
       { expirationDate:"09/04/25",nivel:"Tomar Examen",usuario: 'angenuza', password: 'angelatoefl', realname: 'Angela Núñez Zambrano', img: 'https://i.ibb.co/vmtmVP8/353048455-232726119612469-634925.png' }, // No image
-      // {  expirationDate:"05/04/25",nivel:"Solicitar examen de Nivel",usuario: 'alison.arone', password: 'espinoza24', realname: 'Alison Arone', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+      {  expirationDate:"08/05/25",nivel:"Solicitar examen de Nivel",usuario: 'alison.arone', password: 'espinoza24', realname: 'Alison Arone', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
       // { expirationDate:"06/04/25",nivel:"Solicitar examen de Nivel ",usuario: 'alexandra.julca', password: '3new2025', realname: 'Alexandra Julca Gamonal ', img: 'https://i.ibb.co/Ph1qW3s/465756046-439448415853203-490663.png' }, // No image
       // { expirationDate:"06/04/25",nivel:"Solicitar examen de Nivel ",usuario: 'alissonrondan0227', password: '3new2025', realname: 'Alisson Geraldine Rondan Niño  ', img: 'https://i.ibb.co/QcGTbNB/462751865-538130182184053-172767.png' }, // No image
       // {  expirationDate:"06/04/25",nivel:"Solicitar examen de Nivel",usuario: 'zaidaz', password: 'zorrilla24', realname: 'Zaida Zorrilla', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
