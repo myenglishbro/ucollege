@@ -14,15 +14,12 @@ const Navbar = () => {
   };
 
   return (
-    <div className="fixed top-0 left-0 w-full z-50 border-b border-gray-700 bg-gray-900 lg:bg-gray-900/90 lg:backdrop-blur-sm">
+    <div className="fixed top-0 left-0 w-full z-50 border-b border-[#F34006] bg-[#2D0D8A] lg:bg-[#2D0D8A]/90 lg:backdrop-blur-sm">
       <nav className="flex items-center h-[70px] px-5 lg:px-10 max-lg:py-4">
         {/* Logo Section */}
         <div className="flex items-center">
-          {/* <img
-            src={logo}
-            alt="Logo"
-            className="h-[50px] w-[50px] md:h-[50px] md:w-[50px]"
-          /> */}
+          {/* Si deseas incluir un logo, descomenta y actualiza la imagen */}
+          {/* <img src={logo} alt="Logo" className="h-[50px] w-[50px] md:h-[50px] md:w-[50px]" /> */}
           <h3 className="ml-6 font-bold text-xl text-white">MyenglishBro!</h3>
         </div>
 
@@ -33,7 +30,7 @@ const Navbar = () => {
               <motion.li
                 key={nav.title}
                 className={`font-medium cursor-pointer text-[16px] transition-all duration-300 ${
-                  active === nav.title ? "text-white" : "text-gray-400"
+                  active === nav.title ? "text-white" : "text-[#F34006]"
                 } mr-10`}
                 onClick={() => setActive(nav.title)}
                 whileHover={{ scale: 1.1 }}
@@ -45,7 +42,7 @@ const Navbar = () => {
                 <button
                   onClick={() => handleDropdownToggle(index)}
                   className={`font-medium cursor-pointer text-[16px] transition-all ${
-                    dropdownOpen === index ? "text-white" : "text-gray-400"
+                    dropdownOpen === index ? "text-white" : "text-[#F34006]"
                   }`}
                 >
                   {nav.title}
@@ -56,16 +53,16 @@ const Navbar = () => {
                       initial={{ opacity: 0, y: -10 }}
                       animate={{ opacity: 1, y: 0 }}
                       exit={{ opacity: 0, y: -10 }}
-                      className="absolute mt-4 bg-gray-800 rounded-lg shadow-xl py-3 px-4 w-[200px] z-50"
+                      className="absolute mt-4 bg-[#2D0D8A] rounded-lg shadow-xl py-3 px-4 w-[200px] z-50"
                     >
-                      {nav.subLinks.map((subNav, subIndex) => (
+                      {nav.subLinks.map((subNav) => (
                         <motion.li
                           key={subNav.title}
                           whileHover={{
                             scale: 1.05,
-                            backgroundColor: "#1E293B",
+                            backgroundColor: "#F34006",
                           }}
-                          className="font-medium text-[14px] text-gray-300 py-2 px-3 rounded-md cursor-pointer transition-all"
+                          className="font-medium text-[14px] text-white py-2 px-3 rounded-md cursor-pointer transition-all"
                           onClick={() => {
                             setActive(subNav.title);
                             setDropdownOpen(null);
@@ -101,7 +98,7 @@ const Navbar = () => {
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 exit={{ opacity: 0, y: -20 }}
-                className="p-6 bg-gray-800 absolute top-20 right-0 mx-4 my-2 min-w-[200px] rounded-lg shadow-lg z-50"
+                className="p-6 bg-[#2D0D8A] absolute top-20 right-0 mx-4 my-2 min-w-[200px] rounded-lg shadow-lg z-50"
               >
                 <ul className="list-none flex justify-end items-start flex-1 flex-col">
                   {navLinks.map((nav, index) =>
@@ -111,7 +108,7 @@ const Navbar = () => {
                         className={`font-medium cursor-pointer text-[16px] ${
                           active === nav.title
                             ? "text-white"
-                            : "text-gray-400"
+                            : "text-[#F34006]"
                         } mb-6`}
                         onClick={() => {
                           setActive(nav.title);
@@ -124,7 +121,7 @@ const Navbar = () => {
                       <li key={nav.title} className="relative mb-6">
                         <button
                           onClick={() => handleDropdownToggle(index)}
-                          className="font-medium cursor-pointer text-[16px] text-gray-400"
+                          className="font-medium cursor-pointer text-[16px] text-[#F34006]"
                         >
                           {nav.title}
                         </button>
@@ -134,15 +131,16 @@ const Navbar = () => {
                               initial={{ opacity: 0, y: -10 }}
                               animate={{ opacity: 1, y: 0 }}
                               exit={{ opacity: 0, y: -10 }}
-                              className="bg-gray-700 rounded-lg shadow-lg py-2 px-4 w-full"
+                              className="bg-[#2D0D8A] rounded-lg shadow-lg py-2 px-4 w-full mt-2"
                             >
                               {nav.subLinks.map((subNav) => (
                                 <li
                                   key={subNav.title}
-                                  className="font-medium text-[14px] text-gray-300 py-2 px-3 rounded-md hover:bg-gray-600 cursor-pointer"
+                                  className="font-medium text-[14px] text-white py-2 px-3 rounded-md hover:bg-[#F34006] cursor-pointer transition-all"
                                   onClick={() => {
                                     setActive(subNav.title);
                                     setDropdownOpen(null);
+                                    setToggle(false);
                                   }}
                                 >
                                   <Link to={subNav.path}>{subNav.title}</Link>
