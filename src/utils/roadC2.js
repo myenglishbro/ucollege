@@ -13,6 +13,9 @@ export const roadC2 = [
         enlaces: [
             
             { titulo:"PART 1 OVERVIEW",url: "https://drive.google.com/file/d/1CvLUtdF4ubVK3Ml5GVnQV_pwBs5hQ_R6/view?usp=sharing"},
+            { titulo:"CPE Reading Part 01 ",descripcion:"Exercise 01",url: "https://drive.google.com/file/d/10HFrjniiquZmP7IgTqvYXfb842RszD1W/view?usp=sharing",url2:"https://youtu.be/NfV8MQ5eTMo"},
+            { titulo:"CPE Reading Part 02 ",codigo:"DADCBB",descripcion:"Exercise 02",url: "https://drive.google.com/file/d/1wkB-ZVVhJq1JYRH4W3hjOW7uY9aWfeQK/view?usp=sharing",url2:"https://youtu.be/ytQyuALwa9Y"},
+            { titulo:"CPE Reading Part 03 ",codigo:"BDCABC",descripcion:"Exercise 03",url: "https://drive.google.com/file/d/1uLHic2wcMZyi3JjfkAb_tJyLuM8WOHvz/view?usp=sharing"},
 
             { titulo:"Might",descripcion:"criticism / suggestions",codigo:"sss",url: "https://drive.google.com/file/d/1IYxzlKp0wyJji-pJfEgqJxRKeh7HF4iK/view?usp=sharing",url3:"https://drive.google.com/file/d/1S08Nlr5g0wLFD6A6ueY8s5qSbsHIRHSW/view?usp=sharing"},
 
