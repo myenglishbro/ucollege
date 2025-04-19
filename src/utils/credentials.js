@@ -71,8 +71,8 @@ export const validCredentials = [
 
 
 
-       { expirationDate:"19/05/25",nivel:"B2",usuario: 'deniam_01', password: 'mora', realname: 'Deniam Mora',img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
-       { expirationDate:"19/05/25",nivel:"B2",usuario: 'deniam_02', password: 'mora', realname: 'Deniam Mora',img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
-       { expirationDate:"19/05/25",nivel:"A1",usuario: 'deniam', password: 'mora', realname: 'Deniam Mora',img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
+       { expirationDate:"19/05/25",nivel:"B2",usuario: 'juan', password: 'dgarcia', realname: 'Juan angel Díaz García',img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
+       { expirationDate:"19/05/25",nivel:"B2",usuario: 'nicolas', password: 'agarcia', realname: 'Nicolás Antía García',img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
+       { expirationDate:"19/05/25",nivel:"A1",usuario: 'luz', password: 'garcia', realname: 'Luz Stella García',img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
 
     ];
