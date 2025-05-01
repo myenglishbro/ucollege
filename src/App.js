@@ -50,6 +50,7 @@ import RoadMapC2 from "./pages/RoadMapC2";
 import RoadMapUoe from "./pages/RoadMapUoe";
 import RoadMapEg from "./pages/RoadMapEg";
 import RoadMapB2C from "./pages/RoadMapB2C";
+import RoadMapB2CF from "./pages/RoadMapB2CF";
 
 function App() {
   return (
@@ -72,6 +73,7 @@ function App() {
 
           <Route path="/RoadMapB2" element={<RoadMapB2 />}></Route>
           <Route path="/RoadMapB2C" element={<RoadMapB2C />}></Route>
+          <Route path="/RoadMapB2CF" element={<RoadMapB2CF />}></Route>
 
           <Route path="/RoadMapC1" element={<RoadMapC1 />}></Route>
           <Route path="/RoadMapC2" element={<RoadMapC2 />}></Route>
