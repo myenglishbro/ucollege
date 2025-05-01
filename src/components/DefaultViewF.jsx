@@ -67,7 +67,7 @@ const DefaultViewF = ({ realname, userImage, nivel, expirationDate }) => {
 
   return (
     <Modal isOpen={isOpen} onClose={() => setIsOpen(false)}>
-      <div className="relative z-10 flex flex-col items-center text-center p-6 bg-[rgba(0,0,0,0.7)]">
+      <div className="relative z-10 flex flex-col items-center text-center p-6 ">
         {/* Avatar */}
         <div className="relative p-1 ">
           <motion.img
