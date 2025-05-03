@@ -827,13 +827,19 @@ right: 40px;
 }
 
 .timer-container {
-  padding: 15px;
+  background-image: url('https://i.ibb.co/B5tPhTC6/Chat-GPT-Image-May-3-2025-12-57-38-PM-removebg-preview.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 240px; /* o el tamaño de tu imagen */
+
+  padding: 35px;
   text-align: center;
-  background-color: #1f2937;
-  border-radius: 10px;
+  
   max-width: 300px;
-  margin: 10px auto;
+  margin: 8px auto;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  
 }
 
 .timer-title {

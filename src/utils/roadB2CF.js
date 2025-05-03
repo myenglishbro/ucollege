@@ -1,9 +1,9 @@
 export const roadB2CF = [
     {
         id: 0,
-        thumbnail:"https://i.ibb.co/vcMnX0n/B2-FIRST-17.png",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
 
-        title: "Cambridge Essentials",
+        title: "Key Word Transformation",
         subtitle: "B2/C1",
 
         dateAdded: "Basic 0 ",
@@ -22,7 +22,7 @@ export const roadB2CF = [
     },
     {
         id: 1,
-        thumbnail:"https://i.ibb.co/vcMnX0n/B2-FIRST-17.png",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
         title: "Recursos Descargables",
         subtitle: "B2/C1",
 
@@ -40,7 +40,7 @@ export const roadB2CF = [
     },
     {
         id: 2,
-        thumbnail:"https://i.ibb.co/bwqB54s/Chat-GPT-Image-28-mar-2025-13-39-28.png",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
 
         title: "Grammar Showdown",
         subtitle: "B2/C1",

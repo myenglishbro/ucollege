@@ -288,11 +288,13 @@ const [codeInputForPopup, setCodeInputForPopup] = useState("");
                 backgroundPosition: 'center',
                 color: 'white',
                 fontWeight: 'bold',
-                padding: '15px 20px',
-                borderRadius: '10px',
+                padding: '15px 20px ',
                 border: 'none',
                 transition: 'transform 0.2s, box-shadow 0.2s',
                 marginBottom: '10px',
+                alignItems: 'center',
+      justifyContent: 'center',
+      textAlign: 'center',
               }}
             >
               {elemento.title}
