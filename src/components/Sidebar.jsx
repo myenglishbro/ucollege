@@ -187,7 +187,6 @@ const [codeInputForPopup, setCodeInputForPopup] = useState("");
 
       <div className={`sidebar ${isSidebarVisible ? 'visible' : ''} bg-gray-800 text-white w-72 h-full fixed shadow-lg overflow-y-auto custom-scrollbar`}>
         <div className="timer-container">
-          <h2 className="timer-title">⏱ Timer</h2>
           <div className="timer-progress">
             <div className="progress-bar-bg">
               <div
@@ -215,14 +214,15 @@ const [codeInputForPopup, setCodeInputForPopup] = useState("");
               placeholder="00"
             />
           </div>
-          <div className="timer-buttons">
-            <button onClick={startTimer} className="timer-button">
-              Start
-            </button>
-            <button onClick={stopTimer} className="timer-button stop">
-              Stop
-            </button>
-          </div>
+          <di
+          v className="timer-buttons">
+          <button onClick={startTimer} className="timer-button start">
+            
+          </button>
+          <button onClick={stopTimer} className="timer-button stop">
+            
+          </button>
+        </di>
         </div>
 
         {showModal && (

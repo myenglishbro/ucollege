@@ -827,13 +827,13 @@ right: 40px;
 }
 
 .timer-container {
-  background-image: url('https://i.ibb.co/B5tPhTC6/Chat-GPT-Image-May-3-2025-12-57-38-PM-removebg-preview.png');
+  background-image: url('https://i.ibb.co/BV2pH925/Chat-GPT-Image-May-3-2025-03-15-33-PM-1-removebg-preview-2.png');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 240px; /* o el tamaño de tu imagen */
+  min-height: 300px; /* o el tamaño de tu imagen */
 
-  padding: 35px;
+  padding: 70px;
   text-align: center;
   
   max-width: 300px;
@@ -842,21 +842,39 @@ right: 40px;
   
 }
 
-.timer-title {
-  font-size: 1.4rem;
-  font-weight: bold;
-  color: #ffffff;
-  margin-bottom: 10px;
-}
+
 
 .timer-progress {
   position: relative;
   width: 100%;
-  margin: 10px 0;
+  margin:35px 0;
 }
 
+.timer-button {
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 180px;         /* ajusta según la imagen */
+  height: 90px;
+  border: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  text-shadow: 1px 1px 3px black;
+  cursor: pointer;
+  margin-top: -20px;
+}
+
+.timer-button.start {
+  background-image: url('https://i.ibb.co/C3T6Snwk/Chat-GPT-Image-May-3-2025-03-24-29-PM-removebg-preview.png');
+}
+
+.timer-button.stop {
+  background-image: url('https://i.ibb.co/XZLKpF00/Chat-GPT-Image-May-3-2025-02-59-30-PM-removebg-preview.png');
+}
 .progress-bar-bg {
   width: 100%;
+  margin-top: 10px;
   height: 20px;
   background: #4b5563;
   border-radius: 10px;
@@ -885,7 +903,7 @@ right: 40px;
   align-items: center;
   justify-content: center;
   gap: 10px;
-  margin-top: 10px;
+  margin-top: -30px;
 }
 
 .input-title {
@@ -925,33 +943,13 @@ right: 40px;
   display: flex;
   justify-content: center;
   gap: 10px;
-  margin-top: 10px;
+  margin-top: 1px;
 }
 
-.timer-button {
-  padding: 8px 16px;
-  font-size: 12px;
-  font-weight: bold;
-  color: #ffffff;
-  background-color: #4caf50;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
 
-.timer-button:hover {
-  background-color: #45a049;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
-}
 
-.timer-button.stop {
-  background-color: #f44336;
-}
 
-.timer-button.stop:hover {
-  background-color: #e53935;
-}
+
 
 /* Modal overlay styles */
 .modal-overlay {
@@ -1040,10 +1038,7 @@ right: 40px;
   background-color: #22c55e; /* Green color for restart */
 }
 
-/* Stop button */
-.stop {
-  background-color: #ef4444; /* Red color for stop */
-}
+
 
 .default-view {
   position: relative;
