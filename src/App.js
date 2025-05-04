@@ -73,7 +73,7 @@ function App() {
 
           <Route path="/RoadMapB2" element={<RoadMapB2 />}></Route>
           <Route path="/RoadMapB2C" element={<RoadMapB2C />}></Route>
-          <Route path="/RoadMapB2CF" element={<RoadMapB2CF />}></Route>
+          <Route path="/RoadMapB2CFREE" element={<RoadMapB2CF />}></Route>
 
           <Route path="/RoadMapC1" element={<RoadMapC1 />}></Route>
           <Route path="/RoadMapC2" element={<RoadMapC2 />}></Route>

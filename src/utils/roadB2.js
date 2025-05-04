@@ -1,25 +1,49 @@
 export const roadB2 = [
     {
         id: 0,
-        thumbnail:"https://i.ibb.co/vcMnX0n/B2-FIRST-17.png",
-        title: "Recursos Descargables",
-        subtitle: "B2/C1",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
+        title: "English Verb Patterns",
+        subtitle: "Basic Level",
 
         dateAdded: "Basic 0 ",
-        channel: "sdasd",
-        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
+        description: "We will learn to introduce ourselves, spell names and words, describe people, introduce family members, and provide personal information.",
         enlaces: [
-            { titulo:"📒 Study Guide",url: "https://drive.google.com/file/d/1pKc3ccQW3ToLCZo3Hpl-t7AztxsMokMD/view?usp=sharing",url2:"https://youtu.be/Ge1WzZFQm9w"},
+            { titulo: "📒[slides] Transitive and Intransitive Verbs",url: "https://drive.google.com/file/d/1q9Ay8KRUU9tSwuHEvjIM8bKZ3PWCyjkZ/view?usp=sharing", },
+            { titulo: "📒[slides] Gerunds and Infinitives Explanation",url: "https://drive.google.com/file/d/1rE08bQrEyF0TVO7FTYWGtLaiOGKuLjRO/view?usp=sharing", },
+            { titulo: "✍  Gerunds and Infinitives Exercise 1",url: "https://drive.google.com/file/d/1KJKLqjSwQeILyViRun9ADqge1ikKPmSD/view?usp=sharing", },
+            { titulo: "✍  Gerunds and Infinitives Exercise 2",url: "https://drive.google.com/file/d/19WY1c2LJZrAjj84niwx-u5dgh-dafQb6/view?usp=sharing", },
+            { titulo: "✍  Gerunds and Infinitives Exercise 3",url: "https://drive.google.com/file/d/1xURjjQPkur3dYBtFRuZTmbnqlC-ZCb2b/view?usp=sharing", },
+            { titulo: "💡  GI003 - Gerund or Infinitive - Fill in the correct form ",url: "https://drive.google.com/file/d/1H6BxX1OPZ-5fU7peCACnw6vRV5-lnUPW/view?usp=sharing", },
+            { titulo: "🔑  GI003 - Gerund or Infinitive - Fill in the correct form ",url: "https://drive.google.com/file/d/1OYpGW81Wt7dvLTsTa7zddJRJIKKo7Mpn/view?usp=sharing", },
+            { titulo: "💡  GI004 - Gerund or Infinitive - Fill in the correct form ",url: "https://drive.google.com/file/d/1GOe8JtMyfLpayGkIgkUn1IkGRblKsoGf/view?usp=sharing", },
+            { titulo: "🔑  GI004 - Gerund or Infinitive - Fill in the correct form ",url: "https://drive.google.com/file/d/1iAOBovzOkjJH9Z9rToPCj8losTuXz9ov/view?usp=sharing", },
+            { titulo: "🧩  Desafio gerund vs infinitive",url: "https://wordwall.net/play/7240/772/7948", },
+            { titulo: "🧩  Desafio gerund vs infinitive II",url: "https://wordwall.net/play/22920/270/462", },
+            { titulo: "🧩  Desafio gerund vs infinitive III",url: "https://wordwall.net/play/76232/915/656", },
+            { titulo: "🧩  Desafio gerund vs infinitive IV",url: "https://wordwall.net/play/71477/712/378", },
+            { titulo: "🧩  Desafio gerund vs infinitive V",url: "https://wordwall.net/play/75464/667/869", },
+            { titulo: "🧩  Desafio gerund vs infinitive VI ",url: "https://wordwall.net/play/59257/372/969", },
+            { titulo: "🧩  Desafio gerund vs infinitive VII ",url: "https://wordwall.net/play/4838/285/4447", },
 
-            { titulo:"English - Listening and speaking  B2",url: "https://drive.google.com/file/d/1WWS3zyzQlu_5Zkv0y9HqRJMT9CeQnkpl/view?usp=sharing"},
-            { titulo:"Cambridge B2 ",url: "https://drive.google.com/file/d/1CU9wjKF6k91uq1vgXAiSPx9LQmIP9Gos/view?usp=sharing"},
-            { titulo:"B2/C1 Vocabulary",url: "https://drive.google.com/file/d/1v46CdxreA1fd9G6L9bzttZrP2zEu5zs7/view?usp=sharing"},
+           
+           
+
+
+
+          
+            {
+                titulo: "📒[slides] UNIT 5:PRESENT PERFECT AND SIMPLE PAST",
+                url: "https://docs.google.com/presentation/d/1bpMRMy7LVba68bhwB6w2KUEXmD7n-MAP/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
+            },
+
             
         ],
     },
+
     {
         id: 1,
-        thumbnail:"https://i.ibb.co/bwqB54s/Chat-GPT-Image-28-mar-2025-13-39-28.png",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
 
         title: "Grammar Showdown",
         subtitle: "B2/C1",
@@ -56,6 +80,25 @@ export const roadB2 = [
 
         ],
     },
+    {
+        id: 1,
+        thumbnail:"https://i.ibb.co/vcMnX0n/B2-FIRST-17.png",
+        title: "Recursos Descargables",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+        enlaces: [
+            { titulo:"📒 Study Guide",url: "https://drive.google.com/file/d/1pKc3ccQW3ToLCZo3Hpl-t7AztxsMokMD/view?usp=sharing",url2:"https://youtu.be/Ge1WzZFQm9w"},
+
+            { titulo:"English - Listening and speaking  B2",url: "https://drive.google.com/file/d/1WWS3zyzQlu_5Zkv0y9HqRJMT9CeQnkpl/view?usp=sharing"},
+            { titulo:"Cambridge B2 ",url: "https://drive.google.com/file/d/1CU9wjKF6k91uq1vgXAiSPx9LQmIP9Gos/view?usp=sharing"},
+            { titulo:"B2/C1 Vocabulary",url: "https://drive.google.com/file/d/1v46CdxreA1fd9G6L9bzttZrP2zEu5zs7/view?usp=sharing"},
+            
+        ],
+    },
+
 
     {
         id: 2,

@@ -2,27 +2,6 @@ export const roadB2CF = [
     {
         id: 0,
         thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
-
-        title: "Key Word Transformation",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 0 ",
-        channel: "sdasd",
-        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
-        enlaces: [
-            { titulo:"50 Key Word Transformation DAY 01  ",url: "https://drive.google.com/file/d/1shC9iwswMYoymUEiJ8H1s8b9ngvp8gdB/view?usp=sharing" ,url2:"https://youtu.be/c-8ZhXBLThg"},
-            { titulo:"50 Key Word Transformation DAY 02  ",url: "https://drive.google.com/file/d/1shC9iwswMYoymUEiJ8H1s8b9ngvp8gdB/view?usp=sharing",url2:"https://youtu.be/CxG4A-NPmfA"},
-
-            { titulo:"Mistakes in Writing ",url: "https://drive.google.com/file/d/1yiMC18Dxy5b5h-ve47g4SQT_wUOZ3yQX/view?usp=sharing"},
-            { titulo:"Key Word Transformation Secrets",url: "https://drive.google.com/file/d/11XTF7rYH66kt5GauEs65M4zMiyfrOKAy/view?usp=sharing"},
-            { titulo:"Reading Gap Secrets",url: "https://drive.google.com/file/d/1lNpyrE26v78RUX6T9VNWB3yvBuefKYoz/view?usp=sharing"},
-
-         
-        ],
-    },
-    {
-        id: 1,
-        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
         title: "Recursos Descargables",
         subtitle: "B2/C1",
 
@@ -39,8 +18,56 @@ export const roadB2CF = [
         ],
     },
     {
+        id: 1,
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
+        title: "Phrasal Quest",
+        subtitle: "B2/C1",
+        code:"bro",
+
+        dateAdded: "Week 01 ",
+        channel: "sdasd",
+        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+        enlaces: [
+            { titulo:"Welcome",descripcion:"Las diferencias en Inglés ",url: "https://drive.google.com/file/d/1VTKLgs-w-Bc-_TPtmNScaaQf0ATs8oCl/view?usp=sharing"},
+
+            { titulo:" Be on about ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/1i5m5Xo0rahB9re9xsLNJdclpA8FA03jy/view?usp=sharing",url3: "https://drive.google.com/file/d/1JDpCXxAU9ozjBMEA2ouhBQGAJgpliOOc/view?usp=sharing" },
+            { titulo:"📚Watch out for - Look out for.pdf",url: "https://drive.google.com/file/d/1-E-NvIWN5EmPErBDwZSZmoAQZdgC4g4O/view?usp=sharing"},
+            { titulo:"📚ASK FOR - ASK AFTER - ASK ABOUT",url: "https://drive.google.com/file/d/1gkbuIZJ6sRy1jro8NPpOZLKO4p7naizC/view?usp=sharing"},
+            { titulo:"Work Out ",url: "https://drive.google.com/file/d/1h4pzMnsgFmBcpRj1QbPbBDjkJ0J9UYfE/view?usp=sharing",url3:"https://drive.google.com/file/d/14ovf4SmbRkZSWQVh-6Q9cOCousRjCrvZ/view?usp=sharing"},
+
+            { titulo:"zero in on  ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/18JztqKh0PP18_LPzUKZDJYnRQqip7x3a/view?usp=sharing",url3: "https://drive.google.com/file/d/19y7aXWFScceuArjQNuN7FjpaLPfALo3w/view?usp=sharing" },
+
+            { titulo:"Shy Away From sth   ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/1LKd3X2Qr8MJ-52QtwBi9f6NR-AWD9anl/view?usp=sharing",url3: "https://drive.google.com/file/d/188wbcEig0wGPF2gscPLlQhF_xayYwKHF/view?usp=sharing" },
+        ],
+    },
+ 
+    {
+        id: 0,
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
+
+        title: "Key Word Transformation",
+        subtitle: "B2/C1",
+        code:"bro",
+
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+        enlaces: [
+            { titulo:"50 Key Word Transformation DAY 01  ",url: "https://drive.google.com/file/d/1shC9iwswMYoymUEiJ8H1s8b9ngvp8gdB/view?usp=sharing" ,url2:"https://youtu.be/c-8ZhXBLThg"},
+            { titulo:"50 Key Word Transformation DAY 02  ",url: "https://drive.google.com/file/d/1shC9iwswMYoymUEiJ8H1s8b9ngvp8gdB/view?usp=sharing",url2:"https://youtu.be/CxG4A-NPmfA"},
+
+            { titulo:"Mistakes in Writing ",url: "https://drive.google.com/file/d/1yiMC18Dxy5b5h-ve47g4SQT_wUOZ3yQX/view?usp=sharing"},
+            { titulo:"Key Word Transformation Secrets",url: "https://drive.google.com/file/d/11XTF7rYH66kt5GauEs65M4zMiyfrOKAy/view?usp=sharing"},
+            { titulo:"Reading Gap Secrets",url: "https://drive.google.com/file/d/1lNpyrE26v78RUX6T9VNWB3yvBuefKYoz/view?usp=sharing"},
+
+         
+        ],
+    },
+    
+    {
         id: 2,
         thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
+        code:"bro",
 
         title: "Grammar Showdown",
         subtitle: "B2/C1",
@@ -78,32 +105,11 @@ export const roadB2CF = [
         ],
     },
 
-    {
-        id: 3,
-        thumbnail:"https://i.ibb.co/GGxkRKV/Chat-GPT-Image-28-mar-2025-13-53-07.png",
-        title: "Phrasal Quest",
-        subtitle: "B2/C1",
-
-        dateAdded: "Week 01 ",
-        channel: "sdasd",
-        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
-        enlaces: [
-            { titulo:"Welcome",descripcion:"Las diferencias en Inglés ",url: "https://drive.google.com/file/d/1VTKLgs-w-Bc-_TPtmNScaaQf0ATs8oCl/view?usp=sharing"},
-
-            { titulo:" Be on about ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/1i5m5Xo0rahB9re9xsLNJdclpA8FA03jy/view?usp=sharing",url3: "https://drive.google.com/file/d/1JDpCXxAU9ozjBMEA2ouhBQGAJgpliOOc/view?usp=sharing" },
-            { titulo:"📚Watch out for - Look out for.pdf",url: "https://drive.google.com/file/d/1-E-NvIWN5EmPErBDwZSZmoAQZdgC4g4O/view?usp=sharing"},
-            { titulo:"📚ASK FOR - ASK AFTER - ASK ABOUT",url: "https://drive.google.com/file/d/1gkbuIZJ6sRy1jro8NPpOZLKO4p7naizC/view?usp=sharing"},
-            { titulo:"Work Out ",url: "https://drive.google.com/file/d/1h4pzMnsgFmBcpRj1QbPbBDjkJ0J9UYfE/view?usp=sharing",url3:"https://drive.google.com/file/d/14ovf4SmbRkZSWQVh-6Q9cOCousRjCrvZ/view?usp=sharing"},
-
-            { titulo:"zero in on  ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/18JztqKh0PP18_LPzUKZDJYnRQqip7x3a/view?usp=sharing",url3: "https://drive.google.com/file/d/19y7aXWFScceuArjQNuN7FjpaLPfALo3w/view?usp=sharing" },
-
-            { titulo:"Shy Away From sth   ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/1LKd3X2Qr8MJ-52QtwBi9f6NR-AWD9anl/view?usp=sharing",url3: "https://drive.google.com/file/d/188wbcEig0wGPF2gscPLlQhF_xayYwKHF/view?usp=sharing" },
-        ],
-    },
- 
+  
     {
         id: 4,
-        thumbnail: "https://i.ibb.co/Jj8dwTCN/Chat-GPT-Image-28-mar-2025-10-34-49.png",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
+        code:"bro",
 
         title: "Real English Grammar",
         subtitle: "B2/C1",
@@ -127,9 +133,10 @@ export const roadB2CF = [
     },
     {
         id: 2,
-        thumbnail:"https://i.ibb.co/b53R08DX/file-BEBHv-Yhkgbs-E4pxzmsb5-Sd.png",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
         title: "Real Grammar in use 02",
         subtitle: "B2/C1",
+        code:"bro",
 
         dateAdded: "Week 01 ",
         channel: "sdasd",
@@ -152,7 +159,8 @@ export const roadB2CF = [
     },
     {
         id: 19,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
+        code:"bro",
 
         title: "Prepositions",
         subtitle: "B2/C1",
@@ -188,7 +196,8 @@ export const roadB2CF = [
     },
     {
         id: 25,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
+        code:"bro",
 
         title: "Word Formation (B2)",
         subtitle: "B2/C1",
@@ -232,9 +241,10 @@ export const roadB2CF = [
     },
     {
         id: 5,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
+        code:"bro",
 
-        title: "Connectives and Linking Phrases ",
+        title: "Connectives and Linking Words ",
         subtitle: "B2/C1",
 
         dateAdded: "Basic 0 ",
@@ -254,10 +264,11 @@ export const roadB2CF = [
     
     {
         id: 0,
-        thumbnail:"https://i.ibb.co/tphjRLC8/Chat-GPT-Image-27-mar-2025-10-15-21.png",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
         title: "B2 Bootcamp ",
         subtitle: "B2/C1",
-        color: "#D6083B", // Propiedad de color añadida
+        // color: "#D6083B", // Propiedad de color añadida
+        code:"bro",
 
         dateAdded: "Basic 0 ",
         channel: "sdasd",
@@ -296,12 +307,13 @@ export const roadB2CF = [
 
     {
         id: 2,
-        thumbnail:"https://i.ibb.co/Qvzg24T4/file-YU8-CLywp-Xm-Ewi69wvopi-We.png",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
 
+        code:"bro",
 
         title: "B2 First 2024",
         subtitle: "B2/C1",
-        color: "#D6083B", // Propiedad de color añadida
+        // color: "#D6083B", // Propiedad de color añadida
 
         dateAdded: "Basic 0 ",
         channel: "sdasd",
@@ -318,11 +330,12 @@ export const roadB2CF = [
     },
     {
         id: 3,
-        thumbnail:"https://i.ibb.co/fdvHb0wg/file-Fg-Ck-CXPth2-Nv-VVv4mnbaiq.png",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
 
         title: "IELTS Band 5",
         subtitle: "B2/C1",
-        color: "#D6083B", // Propiedad de color añadida
+        // color: "#D6083B", // Propiedad de color añadida
+        code:"bro",
 
         dateAdded: "Basic 0 ",
         channel: "sdasd",
@@ -342,10 +355,11 @@ export const roadB2CF = [
    
     {
         id: 0,
-        thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
 
         title: "Present Simple Arc",
         subtitle: "B2/C1",
+        code:"bro",
 
         dateAdded: "Basic 01 ",
         channel: "sdasd",
@@ -364,10 +378,11 @@ export const roadB2CF = [
     },
     {
         id: 5,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
 
         title: "Essential Grammar ",
         subtitle: "B2",
+        code:"bro",
 
         dateAdded: "Basic 0 ",
         channel: "sdasd",
@@ -639,7 +654,7 @@ export const roadB2CF = [
             "https://i.ibb.co/6JrNL8Js/DALL-E-2025-02-27-11-08-55-A-surreal-battlefield-where-students-are-fighting-against-English-grammar.webp",
         title: "Essential Vocabulary  ",
         subtitle: "Nivel Básico ",
-    
+
         dateAdded: "Basic 0 ",
         channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
         description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
@@ -663,7 +678,8 @@ export const roadB2CF = [
             "https://i.ibb.co/XftB6PSR/DALL-E-2025-02-27-11-10-10-A-surreal-and-dynamic-scene-of-students-leveling-up-and-gaining-power-in.webp",
         title: "Grammar Syntax ",
         subtitle: "Nivel Básico ",
-    
+        code:"bro",
+
         dateAdded: "Basic 0 ",
         channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
         description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
@@ -683,6 +699,7 @@ export const roadB2CF = [
 
         title: "Present Simple",
         subtitle: "B2/C1",
+        code:"bro",
 
         dateAdded: "Basic 01 ",
         channel: "sdasd",
@@ -704,6 +721,7 @@ export const roadB2CF = [
     {
         id: 0,
         thumbnail: "https://i.ibb.co/B2pxp5ZR/DALL-E-2025-02-26-11-55-47-A-powerful-warrior-representing-the-Present-Simple-tense-He-wears-a-class.webp",
+        code:"bro",
 
         title: "Present Progressive",
         subtitle: "B2/C1",
@@ -729,6 +747,7 @@ export const roadB2CF = [
     {
         id: 22,
         thumbnail: "https://i.ibb.co/4npzrRYN/DALL-E-2025-02-26-11-50-46-An-intense-battle-between-two-warriors-representing-Past-Simple-and-Past.webp",
+        code:"bro",
 
         title: "Past Simple or Progressive?",
         subtitle: "B2/C1",
@@ -753,6 +772,7 @@ export const roadB2CF = [
         title: "IELTS Band 6 ",
         subtitle: "B2/C1",
         color: "#D6083B", // Propiedad de color añadida
+        code:"bro",
 
         dateAdded: "Basic 0 ",
         channel: "sdasd",
@@ -804,6 +824,7 @@ export const roadB2CF = [
     {
         id: 15,
         thumbnail:"https://i.ibb.co/5WQ17W7D/file-Fg6-EG7bvr-Nig-Ee3-S7m-XCfd.png",
+        code:"bro",
 
         title: "Writing",
         subtitle: "B2/C1",
@@ -866,7 +887,7 @@ export const roadB2CF = [
    
     {
         id: 0,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
         title: "Recordings 2024",
         subtitle: "B2/C1",
         color: "#D6083B", // Propiedad de color añadida
@@ -907,7 +928,8 @@ export const roadB2CF = [
     },
     {
         id: 1,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
+        code:"bro",
 
 
         title: "Recordings 2025",
@@ -929,7 +951,8 @@ export const roadB2CF = [
     },
     {
         id: 1,
-        thumbnail:"https://i.ibb.co/PGdF1Pw/Dise-o-sin-t-tulo-7.png",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
+        code:"bro",
 
         title: "Recording IELTS 2024",
         subtitle: "B2/C1",
@@ -950,7 +973,8 @@ export const roadB2CF = [
     },
     {
         id: 1,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
+        code:"bro",
 
         title: " English Expressions",
         subtitle: "B2/C1",
@@ -974,7 +998,8 @@ export const roadB2CF = [
     
     {
         id: 1,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
+        code:"bro",
 
         title: "Information",
         subtitle: "B2/C1",
@@ -992,7 +1017,8 @@ export const roadB2CF = [
     
     {
         id: 3,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
+        code:"bro",
 
         title: "Use of English - Part 1",
         subtitle: "B2/C1",
@@ -1028,7 +1054,8 @@ export const roadB2CF = [
     
     {
         id: 4,
-        thumbnail:"https://i.ibb.co/vcMnX0n/B2-FIRST-17.png",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
+        code:"bro",
 
         title: "Key Word Transformation",
         subtitle: "B2/C1",
@@ -1070,7 +1097,8 @@ export const roadB2CF = [
     
     {
         id: 13,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
+        code:"bro",
 
         title: "Speaking Center",
         subtitle: "B2/C1",
@@ -1157,7 +1185,8 @@ export const roadB2CF = [
    
     {
         id: 14,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
+        code:"bro",
 
         title: "Listening Center",
         subtitle: "B2/C1",
@@ -1188,7 +1217,8 @@ export const roadB2CF = [
     
     {
         id: 15,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
+        code:"bro",
 
         title: "M4 - English Verb Patterns",
         subtitle: "Basic Level",
@@ -1230,7 +1260,8 @@ export const roadB2CF = [
     },
     {
         id: 18,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
+        code:"bro",
 
         title: "M4 - Phrasal Verbs",
         subtitle: "Pre-Intermediate",
@@ -1256,7 +1287,8 @@ export const roadB2CF = [
     },
     {
         id: 19,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
+        code:"bro",
 
         title: "M4 - Relative Clauses I",
         subtitle: "Pre-Intermediate",
@@ -1306,7 +1338,8 @@ export const roadB2CF = [
    
     {
         id: 16,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
+        code:"bro",
 
         title: "Building Vocabulary",
         subtitle: "B2/C1",
@@ -1330,10 +1363,11 @@ export const roadB2CF = [
     },
     {
         id: 17,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
 
         title: "Inglés con Anime",
         subtitle: "B2/C1",
+        code:"bro",
 
         dateAdded: "Basic 01 ",
         channel: "sdasd",
@@ -1353,7 +1387,8 @@ export const roadB2CF = [
         ],
     }, {
         id: 18,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
+        code:"bro",
 
         title: "Exámenes Center",
         subtitle: "B2/C1",
@@ -1382,7 +1417,8 @@ export const roadB2CF = [
         ],
     },{
         id: 21,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
+        code:"bro",
 
         title: "If-Clauses",
         subtitle: "B2/C1",
@@ -1410,7 +1446,8 @@ export const roadB2CF = [
     }
     , {
         id: 23,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
+        code:"bro",
 
         title: "Present Perfect Tense",
         subtitle: "B2/C1",
@@ -1432,7 +1469,8 @@ export const roadB2CF = [
         ],
     }, {
         id: 26,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
+        code:"bro",
 
         title: "Future Tenses",
         subtitle: "B2/C1",
@@ -1451,10 +1489,11 @@ export const roadB2CF = [
     },
     {
         id: 26,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
 
         title: "TOEFL - Grammar",
         subtitle: "B2/C1",
+        code:"bro",
 
         dateAdded: "Basic 01 ",
         channel: "sdasd",
@@ -1497,7 +1536,8 @@ export const roadB2CF = [
     },
     {
         id: 26,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
+        code:"bro",
 
         title: "Finalizacion del Curso",
         subtitle: "B2/C1",
@@ -1512,7 +1552,8 @@ export const roadB2CF = [
     },
     {
         id: 26,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
+        code:"bro",
 
         title: "Finalizacion del Curso",
         subtitle: "B2/C1",
