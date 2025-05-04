@@ -5,6 +5,9 @@ import medievalBg from '../asset/medieval-bg.png';
 import youtubeBg from '../asset/youtube-bg.png';
 import tiktokBg from '../asset/tiktok-bg.png';
 import kickBg from '../asset/kick-bg.png';
+import wspBg from '../asset/wsp-bg.png';
+import teleBg from '../asset/tele-bg.png';
+import contactBg from '../asset/contact-bg.png';
 
 // Modal reutilizable
 const Modal = ({ isOpen, onClose, children }) => {
@@ -63,6 +66,10 @@ const DefaultViewF = ({ realname, userImage, nivel, expirationDate }) => {
     { name: '', href: 'https://www.youtube.com/@_myenglishbro', bg: youtubeBg, bgSize: 'contain' },
     { name: '', href: 'https://www.tiktok.com/@myenglishbro', bg: tiktokBg, bgSize: 'contain' },
     { name: '', href: 'https://kick.com/MyEnglishBro', bg: kickBg, bgSize: 'contain' },
+    { name: '', href: 'https://www.whatsapp.com/channel/0029Vb0hd9TADTO5mGsjsO2Y', bg: wspBg, bgSize: 'contain' },
+    { name: '', href: 'https://t.me/+KedLi1PcdmNhZjNh', bg: teleBg, bgSize: 'contain' },
+    { name: '', href: 'https://api.whatsapp.com/send?phone=51926922032&text=Me%20gustaria%20Informacion%20de%20cursos%0A', bg: contactBg, bgSize: 'contain' },
+
   ];
 
   return (
@@ -97,8 +104,8 @@ const DefaultViewF = ({ realname, userImage, nivel, expirationDate }) => {
 
 
         {/* Botones de plataformas */}
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-5 w-full">
-          {platforms.map(({ name, href, bg, bgSize }, idx) => (
+        <div className="grid grid-cols-2 sm:grid-cols-3 gap-1 w-full">
+        {platforms.map(({ name, href, bg, bgSize }, idx) => (
             <a
               key={idx}
               href={href}
