@@ -18,6 +18,120 @@ export const roadB2CF = [
         ],
     },
     {
+        id: 0,
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
+        title: "B2 - Clases en Vivo ",
+        subtitle: "B2/C1",
+        // color: "#D6083B", // Propiedad de color añadida
+
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: "Grabacion de clases Cambridge Preparation,no compartas las grabaciones ",
+        enlaces: [
+           
+                { "titulo": "B2 first Essential", "url": "https://www.youtube.com/watch?v=gGWtrDuoUi0" },
+                { "titulo": " day 2", "url": "https://www.youtube.com/watch?si=MHjaEN7bzBy3ZOhc&v=9bB9PgyB_bg&feature=youtu.be" },
+                { "titulo": " after", "url": "https://www.youtube.com/watch?v=5ilyP5xsyes&feature=youtu.be" },
+                { "titulo": " day 3", "url": "https://www.youtube.com/watch?si=m4xdSF6v23GibP_H&v=CR6rnB5Yg0Y&feature=youtu.be" },
+                { "titulo": " day 4", "url": "https://www.youtube.com/watch?si=tixxZisScjmyyLzI&v=eOtsLBuwvgw&feature=youtu.be" },
+                { "titulo": "day 5", "url": "https://www.youtube.com/watch?si=dYFzG1VF98Tqkvyi&v=I5E5Q3yByPs&feature=youtu.be" },
+                { "titulo": "  day 6", "url": "https://www.youtube.com/watch?si=-KYzJRc2XtTsfytL&v=OuqZlRsw7NE&feature=youtu.be" },
+                { "titulo": " day 7", "url": "https://www.youtube.com/watch?v=4hyP05BgB9M&list=PLaYNhMsVRuHhY6xcwxg931ib5xCbw2zWC&index=8&ab_channel=MyEnglishBro" },
+                { "titulo": " day 8", "url": "https://www.youtube.com/watch?v=XE7dOWDGpek&ab_channel=MyEnglishBro" },
+                { "titulo": "day 9", "url": "https://www.youtube.com/watch?v=w2i-Q7YHpvc" },
+                { "titulo": " day 10", "url": "https://youtu.be/1yYDsB_X9Ow" },
+                { "titulo": " day 11", "url": "https://www.youtube.com/watch?v=G7noYDWA80I&ab_channel=MyEnglishBro" },
+                { "titulo": " day 12", "url": "https://youtu.be/96wYFY3lUh4" },
+                { "titulo": " day 13", "url": "https://www.youtube.com/watch?v=tVZPNUMq2d0&ab_channel=MyEnglishBro" },
+                { "titulo": " day 14", "url": "https://www.youtube.com/watch?v=RAY0LxAjNOk&ab_channel=MyEnglishBro" },
+                { "titulo": " day 15", "url": "https://www.youtube.com/watch?v=Czy1TEgGXu4&ab_channel=MyEnglishBro" },
+                { "titulo": " day 16", "url": "https://www.youtube.com/watch?v=NZjOZDjhK3E" },
+                { "titulo": "  day 17", "url": "https://www.youtube.com/watch?v=gpbEMX4KPk8" },
+                { "titulo": "  day 18", "url": "https://www.youtube.com/watch?v=ez9eoYxzU-A&ab_channel=MyEnglishBro" },
+                { "titulo": "  day 19", "url": "https://youtu.be/t1njSOFuS84" },
+                { "titulo": "  day 20", "url": "https://youtu.be/oNkeUNBrjG0" },
+                { "titulo": "  day 21", "url": "https://youtu.be/MdL2xj330bk" },
+                { "titulo": " day 22", "url": "https://youtu.be/LYrMkpMS5RY" },
+                { "titulo": "  day 23", "url": "https://youtu.be/iYdTP-7wvzc" },
+                { "titulo": "  day 24", "url": "https://youtu.be/esjEITmf8Ug" },
+                { "titulo": "  day 25", "url": "https://youtu.be/OxXnEdw-LdU" }
+            ],
+            
+    },
+
+    {
+        id: 2,
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
+
+
+        title: "B2 Clases en Vivo 2024",
+        subtitle: "B2/C1",
+        // color: "#D6083B", // Propiedad de color añadida
+
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: "Grabacion de clases Cambridge Preparation,no compartas las grabaciones ",
+        enlaces: [
+                { "titulo": "[🖥️Class]  day 5", "url": "https://www.youtube.com/watch?v=R2TVluocgUg&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&index=5&ab_channel=MyEnglishBro" },
+                { "titulo": "[🖥️Class]  day 4", "url": "https://www.youtube.com/watch?v=kLjAWxOYZDI&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&ab_channel=MyEnglishBro" },
+                { "titulo": "[🖥️Class]  day 3", "url": "https://www.youtube.com/watch?v=_FJtW3NHYxQ&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&index=2&ab_channel=MyEnglishBro" },
+                { "titulo": "[🖥️Class]  day 2", "url": "https://www.youtube.com/watch?v=uSoQGya3n_Y&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&index=3&ab_channel=MyEnglishBro" },
+                { "titulo": "[🖥️Class]  day 1", "url": "https://www.youtube.com/watch?v=ccyWNJz7FS4&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&index=4&ab_channel=MyEnglishBro" },
+                
+            ],
+            
+    },
+    {
+        id: 3,
+        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
+
+        title: "IELTS Band 5",
+        subtitle: "B2/C1",
+        // color: "#D6083B", // Propiedad de color añadida
+
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: "Grabacion de clases Cambridge Preparation,no compartas las grabaciones ",
+        enlaces: [
+                { "titulo": "[🖥️Class]  day 5", "url": "https://www.youtube.com/watch?v=nIZcH0sQSf0&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=1&ab_channel=MyEnglishBro" },
+                { "titulo": "[🖥️Class]  day 4", "url": "https://www.youtube.com/watch?v=C0RB86t1YIw&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=2&ab_channel=MyEnglishBro" },
+                { "titulo": "[🖥️Class]  day 3", "url": "https://www.youtube.com/watch?v=TV10GT7j_es&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=3&ab_channel=MyEnglishBro" },
+                { "titulo": "[🖥️Class]  day 2", "url": "https://www.youtube.com/watch?v=2ExYgxh9gjE&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=5&ab_channel=MyEnglishBro" },
+                { "titulo": "[🖥️Class]  day 1", "url": "https://www.youtube.com/watch?v=UEEEwLpO7z0&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=4&ab_channel=MyEnglishBro" },
+                
+            ],
+            
+    },
+    
+   
+    {
+        id: 0,
+        thumbnail:"https://i.ibb.co/C3pnhgt6/file-N3-Gw1-XXR7w-Wr-Wom-Bj-Xy-Mgg.png",
+        title: "IELTS Band 6 ",
+        subtitle: "B2/C1",
+        color: "#D6083B", // Propiedad de color añadida
+        code:"bro",
+
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: "Grabacion de clases Cambridge Preparation,no compartas las grabaciones ",
+        enlaces: [
+           
+                { "titulo": "[🖥️Class]  day 10", "url": "https://youtu.be/vOFnYJj2YDw?si=97D43xFvTa5T62Ki" },
+                { "titulo": "[🖥️Class]  day 09", "url": "https://youtu.be/b6djjYxzL2E?si=oi_jE9U0HIGCTQPO" },
+                { "titulo": "[🖥️Class]  DAY 07-08", "url": "https://youtu.be/1mtFYWdDKRk?si=-AYtTZEFO5J6cde0" },
+                { "titulo": "[🖥️Class]  day 6", "url": "https://youtu.be/QCqUi-A0aFo?si=Nq1-DkvbDPf-5kzW" },
+
+                { "titulo": "[🖥️Class]  day 3-4-5", "url": "https://youtu.be/0j8cXsFRvjU?si=qspyfEdp9ckn4KA4" },
+                { "titulo": "[🖥️Class]  day 1", "url": "https://youtu.be/e413NPHCLzk?si=qMuNrow1upMvf3Xz" },
+
+              
+            ],
+            
+    },
+   
+   
+    {
         id: 1,
         thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
         title: "Phrasal Quest",
@@ -262,92 +376,6 @@ export const roadB2CF = [
         ],
     },
     
-    
-    {
-        id: 0,
-        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
-        title: "B2 - Clases en Vivo ",
-        subtitle: "B2/C1",
-        // color: "#D6083B", // Propiedad de color añadida
-
-        dateAdded: "Basic 0 ",
-        channel: "sdasd",
-        description: "Grabacion de clases Cambridge Preparation,no compartas las grabaciones ",
-        enlaces: [
-           
-                { "titulo": "B2 first Essential", "url": "https://www.youtube.com/watch?v=gGWtrDuoUi0" },
-                { "titulo": " day 2", "url": "https://www.youtube.com/watch?si=MHjaEN7bzBy3ZOhc&v=9bB9PgyB_bg&feature=youtu.be" },
-                { "titulo": " after", "url": "https://www.youtube.com/watch?v=5ilyP5xsyes&feature=youtu.be" },
-                { "titulo": " day 3", "url": "https://www.youtube.com/watch?si=m4xdSF6v23GibP_H&v=CR6rnB5Yg0Y&feature=youtu.be" },
-                { "titulo": " day 4", "url": "https://www.youtube.com/watch?si=tixxZisScjmyyLzI&v=eOtsLBuwvgw&feature=youtu.be" },
-                { "titulo": "day 5", "url": "https://www.youtube.com/watch?si=dYFzG1VF98Tqkvyi&v=I5E5Q3yByPs&feature=youtu.be" },
-                { "titulo": "  day 6", "url": "https://www.youtube.com/watch?si=-KYzJRc2XtTsfytL&v=OuqZlRsw7NE&feature=youtu.be" },
-                { "titulo": " day 7", "url": "https://www.youtube.com/watch?v=4hyP05BgB9M&list=PLaYNhMsVRuHhY6xcwxg931ib5xCbw2zWC&index=8&ab_channel=MyEnglishBro" },
-                { "titulo": " day 8", "url": "https://www.youtube.com/watch?v=XE7dOWDGpek&ab_channel=MyEnglishBro" },
-                { "titulo": "day 9", "url": "https://www.youtube.com/watch?v=w2i-Q7YHpvc" },
-                { "titulo": " day 10", "url": "https://youtu.be/1yYDsB_X9Ow" },
-                { "titulo": " day 11", "url": "https://www.youtube.com/watch?v=G7noYDWA80I&ab_channel=MyEnglishBro" },
-                { "titulo": " day 12", "url": "https://youtu.be/96wYFY3lUh4" },
-                { "titulo": " day 13", "url": "https://www.youtube.com/watch?v=tVZPNUMq2d0&ab_channel=MyEnglishBro" },
-                { "titulo": " day 14", "url": "https://www.youtube.com/watch?v=RAY0LxAjNOk&ab_channel=MyEnglishBro" },
-                { "titulo": " day 15", "url": "https://www.youtube.com/watch?v=Czy1TEgGXu4&ab_channel=MyEnglishBro" },
-                { "titulo": " day 16", "url": "https://www.youtube.com/watch?v=NZjOZDjhK3E" },
-                { "titulo": "  day 17", "url": "https://www.youtube.com/watch?v=gpbEMX4KPk8" },
-                { "titulo": "  day 18", "url": "https://www.youtube.com/watch?v=ez9eoYxzU-A&ab_channel=MyEnglishBro" },
-                { "titulo": "  day 19", "url": "https://youtu.be/t1njSOFuS84" },
-                { "titulo": "  day 20", "url": "https://youtu.be/oNkeUNBrjG0" },
-                { "titulo": "  day 21", "url": "https://youtu.be/MdL2xj330bk" },
-                { "titulo": " day 22", "url": "https://youtu.be/LYrMkpMS5RY" },
-                { "titulo": "  day 23", "url": "https://youtu.be/iYdTP-7wvzc" },
-                { "titulo": "  day 24", "url": "https://youtu.be/esjEITmf8Ug" },
-                { "titulo": "  day 25", "url": "https://youtu.be/OxXnEdw-LdU" }
-            ],
-            
-    },
-
-    {
-        id: 2,
-        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
-
-
-        title: "B2 Clases en Vivo 2024",
-        subtitle: "B2/C1",
-        // color: "#D6083B", // Propiedad de color añadida
-
-        dateAdded: "Basic 0 ",
-        channel: "sdasd",
-        description: "Grabacion de clases Cambridge Preparation,no compartas las grabaciones ",
-        enlaces: [
-                { "titulo": "[🖥️Class]  day 5", "url": "https://www.youtube.com/watch?v=R2TVluocgUg&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&index=5&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 4", "url": "https://www.youtube.com/watch?v=kLjAWxOYZDI&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 3", "url": "https://www.youtube.com/watch?v=_FJtW3NHYxQ&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&index=2&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 2", "url": "https://www.youtube.com/watch?v=uSoQGya3n_Y&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&index=3&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 1", "url": "https://www.youtube.com/watch?v=ccyWNJz7FS4&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&index=4&ab_channel=MyEnglishBro" },
-                
-            ],
-            
-    },
-    {
-        id: 3,
-        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
-
-        title: "IELTS Band 5",
-        subtitle: "B2/C1",
-        // color: "#D6083B", // Propiedad de color añadida
-
-        dateAdded: "Basic 0 ",
-        channel: "sdasd",
-        description: "Grabacion de clases Cambridge Preparation,no compartas las grabaciones ",
-        enlaces: [
-                { "titulo": "[🖥️Class]  day 5", "url": "https://www.youtube.com/watch?v=nIZcH0sQSf0&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=1&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 4", "url": "https://www.youtube.com/watch?v=C0RB86t1YIw&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=2&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 3", "url": "https://www.youtube.com/watch?v=TV10GT7j_es&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=3&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 2", "url": "https://www.youtube.com/watch?v=2ExYgxh9gjE&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=5&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 1", "url": "https://www.youtube.com/watch?v=UEEEwLpO7z0&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=4&ab_channel=MyEnglishBro" },
-                
-            ],
-            
-    },
     
    
    
@@ -764,32 +792,6 @@ export const roadB2CF = [
     },
      
     
-    {
-        id: 0,
-        thumbnail:"https://i.ibb.co/C3pnhgt6/file-N3-Gw1-XXR7w-Wr-Wom-Bj-Xy-Mgg.png",
-        title: "IELTS Band 6 ",
-        subtitle: "B2/C1",
-        color: "#D6083B", // Propiedad de color añadida
-        code:"bro",
-
-        dateAdded: "Basic 0 ",
-        channel: "sdasd",
-        description: "Grabacion de clases Cambridge Preparation,no compartas las grabaciones ",
-        enlaces: [
-           
-                { "titulo": "[🖥️Class]  day 10", "url": "https://youtu.be/vOFnYJj2YDw?si=97D43xFvTa5T62Ki" },
-                { "titulo": "[🖥️Class]  day 09", "url": "https://youtu.be/b6djjYxzL2E?si=oi_jE9U0HIGCTQPO" },
-                { "titulo": "[🖥️Class]  DAY 07-08", "url": "https://youtu.be/1mtFYWdDKRk?si=-AYtTZEFO5J6cde0" },
-                { "titulo": "[🖥️Class]  day 6", "url": "https://youtu.be/QCqUi-A0aFo?si=Nq1-DkvbDPf-5kzW" },
-
-                { "titulo": "[🖥️Class]  day 3-4-5", "url": "https://youtu.be/0j8cXsFRvjU?si=qspyfEdp9ckn4KA4" },
-                { "titulo": "[🖥️Class]  day 1", "url": "https://youtu.be/e413NPHCLzk?si=qMuNrow1upMvf3Xz" },
-
-              
-            ],
-            
-    },
-   
    
    
     // {
