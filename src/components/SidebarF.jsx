@@ -649,6 +649,10 @@ const [codeInputForPopup, setCodeInputForPopup] = useState("");
       <p style={{ color: '#ddd', marginBottom: '16px', fontSize: '1rem' }}>
         Ingresa el código para desbloquear: <br />
         <strong>{currentLockedLink.titulo}</strong>
+        <p>Yape 98266882 - 5 soles / 1 dolar</p>
+        <p>Envia Comprobante al mismo numero para recibir codigo de descarga</p>
+
+
       </p>
       <input
         type="text"
