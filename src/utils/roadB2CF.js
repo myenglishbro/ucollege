@@ -47,7 +47,6 @@ export const roadB2CF = [
 
         title: "Key Word Transformation",
         subtitle: "B2/C1",
-        code:"bro",
 
         dateAdded: "Basic 0 ",
         channel: "sdasd",
@@ -58,6 +57,8 @@ export const roadB2CF = [
 
             { titulo:"Mistakes in Writing ",url: "https://drive.google.com/file/d/1yiMC18Dxy5b5h-ve47g4SQT_wUOZ3yQX/view?usp=sharing"},
             { titulo:"Key Word Transformation Secrets",url: "https://drive.google.com/file/d/11XTF7rYH66kt5GauEs65M4zMiyfrOKAy/view?usp=sharing"},
+            { titulo:" Full Key Word Transformation Secrets",codigo:"fullkwt",url: "https://drive.google.com/file/d/1pv6CehZHKe5UB03-Fo0Mv522g0bZzS8c/view?usp=sharing"},
+
             { titulo:"Reading Gap Secrets",url: "https://drive.google.com/file/d/1lNpyrE26v78RUX6T9VNWB3yvBuefKYoz/view?usp=sharing"},
 
          
@@ -265,10 +266,9 @@ export const roadB2CF = [
     {
         id: 0,
         thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
-        title: "B2 Bootcamp ",
+        title: "B2 - Clases en Vivo ",
         subtitle: "B2/C1",
         // color: "#D6083B", // Propiedad de color añadida
-        code:"bro",
 
         dateAdded: "Basic 0 ",
         channel: "sdasd",
@@ -309,9 +309,8 @@ export const roadB2CF = [
         id: 2,
         thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
 
-        code:"bro",
 
-        title: "B2 First 2024",
+        title: "B2 Clases en Vivo 2024",
         subtitle: "B2/C1",
         // color: "#D6083B", // Propiedad de color añadida
 
@@ -335,7 +334,6 @@ export const roadB2CF = [
         title: "IELTS Band 5",
         subtitle: "B2/C1",
         // color: "#D6083B", // Propiedad de color añadida
-        code:"bro",
 
         dateAdded: "Basic 0 ",
         channel: "sdasd",
@@ -1053,9 +1051,8 @@ export const roadB2CF = [
     
     
     {
-        id: 4,
+        id: 3,
         thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
-        code:"bro",
 
         title: "Key Word Transformation",
         subtitle: "B2/C1",
