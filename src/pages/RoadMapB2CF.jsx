@@ -1,9 +1,9 @@
 import React, { useState, useEffect, useRef } from 'react';
 import ContainerRoad from './ContainerRoad';
 import { roadB2CF } from '../utils/roadB2CF';
-import Sidebar from '../components/Sidebar';
 import Navbar from './myenglishbro/components/NavBar';
 import DefaultViewF from '../components/DefaultViewF';
+import SidebarF from '../components/SidebarF';
 
 const RoadMapB2CF = () => {
   // Datos por defecto para DefaultView
@@ -54,7 +54,7 @@ const RoadMapB2CF = () => {
         ☰
       </button>
 
-      <Sidebar
+      <SidebarF
         road={roadB2CF}
         seleccionarNivel={seleccionarNivel}
         isSidebarVisible={isSidebarVisible}
