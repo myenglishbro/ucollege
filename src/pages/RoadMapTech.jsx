@@ -1,63 +1,49 @@
 import React, { useState, useEffect, useRef } from 'react';
 import ContainerRoad from './ContainerRoad';
-import { roadtech } from "../utils/roadtech"; // Aquí puedes tener un mapa de rutas relacionado con tecnología
-import { validCredentials } from '../utils/credentials'; // Importa las credenciales válidas
-
+import { roadtech } from "../utils/roadtech";
 import Sidebar from '../components/Sidebar';
 import DefaultView from '../components/DefaultView';
+import Step from '../components/Step';
+import Navbar from './myenglishbro/components/NavBar';
+import LoginForm from './LoginForm';
+import CabezeraB2 from './Standarizado/CabezeraB2';
+import LoginFormB2C from './LoginFormB2C';
+import LoginFormB2T from './LoginFormB2T';
+import SidebarT from '../components/SidebarT';
 
 const RoadMapTech = () => {
-  const [usuario, setUsuario] = useState('');
+  // Estados para datos de usuario y vista
+  const [mostrarComponente, setMostrarComponente] = useState(false);
   const [nivel, setNivel] = useState('');
   const [codigo, setCodigo] = useState('');
-  const [mostrarComponente, setMostrarComponente] = useState(false);
-  const [isSidebarVisible, setIsSidebarVisible] = useState(false);
-  const [nivelSeleccionado, setNivelSeleccionado] = useState(null);
   const [realname, setRealname] = useState('');
   const [userImage, setUserImage] = useState('');
   const [expirationDate, setExpirationDate] = useState('');
-  const [errorMessage, setErrorMessage] = useState('');
+  const [nivelSeleccionado, setNivelSeleccionado] = useState(null);
   const [viewedItems, setViewedItems] = useState([]);
+  const [isSidebarVisible, setIsSidebarVisible] = useState(false);
   const containerRefs = useRef([]);
 
-  // Cargar elementos vistos desde localStorage al montar el componente
+  // Cargar elementos vistos desde localStorage
   useEffect(() => {
     const savedViewedItems = JSON.parse(localStorage.getItem("viewedItems")) || [];
     setViewedItems(savedViewedItems);
   }, []);
 
-  // Guardar los elementos vistos en localStorage cuando cambie viewedItems
   useEffect(() => {
     if (viewedItems.length > 0) {
       localStorage.setItem("viewedItems", JSON.stringify(viewedItems));
     }
   }, [viewedItems]);
 
-  const handleChangeUsuario = (event) => setUsuario(event.target.value);
-  const handleChangeCodigo = (event) => setCodigo(event.target.value);
-
-  const handleKeyPress = (event) => {
-    if (event.key === 'Enter') {
-      handleMostrarComponente();
-    }
-  };
-
-  const handleMostrarComponente = () => {
-    const userCredential = validCredentials.find(
-      (cred) => cred.usuario === usuario && cred.password === codigo
-    );
-
-    if (userCredential) {
-      setMostrarComponente(true);
-      setRealname(userCredential.realname);
-      setUserImage(userCredential.img);
-      setExpirationDate(userCredential.expirationDate);
-      setNivel(userCredential.nivel);
-      setErrorMessage('');
-    } else {
-      setMostrarComponente(false);
-      setErrorMessage('La contraseña o usuario es incorrecto.');
-    }
+  const handleLoginSuccess = (userCredential, userPassword) => {
+    // Se actualizan los estados en base a la información recibida
+    setMostrarComponente(true);
+    setRealname(userCredential.realname);
+    setUserImage(userCredential.img);
+    setExpirationDate(userCredential.expirationDate);
+    setNivel(userCredential.nivel);
+    setCodigo(userPassword);
   };
 
   const seleccionarNivel = (index) => {
@@ -75,64 +61,17 @@ const RoadMapTech = () => {
 
   return (
     <>
-      {!mostrarComponente && (
-        <div className="py-5 flex justify-center items-center min-h-screen bg-gray-100">
-          <div className="bg-white rounded-lg shadow-lg p-6 w-full max-w-sm">
-            <div className="flex justify-center mb-4">
-              <img
-                src="https://i.ibb.co/55qqtX6/My-english-bro-Logo-10.png"
-                alt="Logo"
-                className="h-16"
-              />
-            </div>
-            <h2 className="text-2xl font-bold text-gray-800 text-center mb-2">
-              Welcome, Tech Student! 🎓
-            </h2>
-            <p className="text-sm text-gray-600 text-center mb-4">
-              Enter your credentials below.
-            </p>
-            <div className="space-y-4">
-              <input
-                type="text"
-                placeholder="Username"
-                value={usuario}
-                onChange={handleChangeUsuario}
-                className="w-full px-3 py-2 rounded-lg border border-gray-300 shadow-sm text-gray-700 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-400"
-              />
-              <input
-                type="password"
-                placeholder="Password"
-                value={codigo}
-                onChange={handleChangeCodigo}
-                onKeyPress={handleKeyPress}
-                className="w-full px-3 py-2 rounded-lg border border-gray-300 shadow-sm text-gray-700 bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-400"
-              />
-              {errorMessage && (
-                <p className="text-red-500 text-xs text-center">
-                  {errorMessage}
-                </p>
-              )}
-              <button
-                type="button"
-                onClick={handleMostrarComponente}
-                className="w-full py-2 bg-blue-500 text-white font-semibold rounded-lg shadow-md hover:bg-blue-600 transition duration-300"
-              >
-                Access Tech Roadmap
-              </button>
-            </div>
-            <p className="text-xs text-gray-500 text-center mt-4">
-              Forgot your credentials? Contact your instructor. ✉️
-            </p>
-          </div>
-        </div>
-      )}
-
-      {mostrarComponente && (
+      <Navbar />
+      {!mostrarComponente ? (
+        <>
+          <LoginFormB2T onLoginSuccess={handleLoginSuccess} />
+        </>
+      ) : (
         <>
           <button className="sidebar-toggle" onClick={toggleSidebar}>
             ☰
           </button>
-          <Sidebar
+          <SidebarT
             road={roadtech}
             seleccionarNivel={seleccionarNivel}
             isSidebarVisible={isSidebarVisible}

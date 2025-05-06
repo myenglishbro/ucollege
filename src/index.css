@@ -841,6 +841,21 @@ right: 40px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   
 }
+.timer-container-tech {
+  background-image: url('https://i.ibb.co/9SBX5KG/Chat-GPT-Image-May-6-2025-02-15-59-AM-removebg-preview.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 300px; /* o el tamaño de tu imagen */
+
+  padding: 70px;
+  text-align: center;
+  
+  max-width: 300px;
+  margin: 8px ;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  
+}
 
 
 
