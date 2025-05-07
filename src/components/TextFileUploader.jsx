@@ -131,6 +131,7 @@ const TextFileUploader = () => {
           <div className="text-white text-center">
             <h1 className="text-4xl font-bold mb-4">🧠 Bienvenido a EngHelp</h1>
             <p className="mb-4 text-lg">Sube tus archivos para comenzar</p>
+            
             <input
               type="file"
               accept=".txt"
