@@ -51,6 +51,7 @@ import RoadMapUoe from "./pages/RoadMapUoe";
 import RoadMapEg from "./pages/RoadMapEg";
 import RoadMapB2C from "./pages/RoadMapB2C";
 import RoadMapB2CF from "./pages/RoadMapB2CF";
+import TextFileUploader from "./components/TextFileUploader";
 
 function App() {
   return (
@@ -91,7 +92,8 @@ function App() {
           <Route path="/Enam" element={<RoadMapEnam />}></Route>
           <Route path="/Certificate" element={<Certificate />}></Route>
 
-        
+          <Route path="/Anki" element={<TextFileUploader  />}></Route>
+
         
         
         
