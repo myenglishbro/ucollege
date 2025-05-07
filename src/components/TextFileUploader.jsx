@@ -129,7 +129,7 @@ const TextFileUploader = () => {
       return (
         <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-gray-900 to-black">
           <div className="text-white text-center">
-            <h1 className="text-4xl font-bold mb-4">🧠 Bienvenido a EngHelp</h1>
+            <h1 className="text-4xl font-bold mb-4"> Bienvenido a EngHelp</h1>
             <p className="mb-4 text-lg">Sube tus archivos para comenzar</p>
             
             <input
@@ -148,7 +148,7 @@ const TextFileUploader = () => {
       return (
         <div className="min-h-screen flex items-center justify-center bg-gray-900 text-white">
           <div className="text-center">
-            <h2 className="text-3xl font-bold mb-4">🎉 ¡Has completado todas las tarjetas!</h2>
+            <h2 className="text-3xl font-bold mb-4"> ¡Has completado todas las tarjetas!</h2>
             <p className="mb-6">✔️ {correctCount} correctas — ❌ {incorrectCount} incorrectas</p>
             <div className="flex flex-col gap-4">
               <button
@@ -187,7 +187,7 @@ const TextFileUploader = () => {
     return (
       <div className="min-h-screen bg-gray-900 text-white p-6 flex flex-col items-center justify-start">
         <header className="w-full max-w-5xl mb-6 flex justify-between items-center border-b border-gray-700 pb-3">
-          <h1 className="text-2xl font-bold">🧠 Anki React</h1>
+          <h1 className="text-2xl font-bold"> MyenglishBro!</h1>
           <div className="flex gap-4 text-sm">
             <label className="flex items-center gap-1">
               <input type="checkbox" checked={modeFlexible} onChange={() => setModeFlexible(!modeFlexible)} /> Flexible
