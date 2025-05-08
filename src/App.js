@@ -92,7 +92,7 @@ function App() {
           <Route path="/Enam" element={<RoadMapEnam />}></Route>
           <Route path="/Certificate" element={<Certificate />}></Route>
 
-          <Route path="/Anki" element={<TextFileUploader  />}></Route>
+          <Route path="/Enghelp" element={<TextFileUploader  />}></Route>
 
         
         
