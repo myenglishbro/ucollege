@@ -4,6 +4,7 @@ export const validCredentials = [
       // {expirationDate:"93 horas /128 horas ",nivel:"B1+ Intermediate",usuario: 'andresdesigner', password: 'designer123', realname: 'Andres Jaramillo', img: 'https://i.ibb.co/gTNwpJQ/67d46012622105-63d2bfcf57030.png'  }, // No image
       // { expirationDate:"10 HOURS",nivel:"B2 Intermediate", usuario: 'Ppbergelund', password: 'pppublisher', realname: 'Pedro Bergelund', img: 'https://i.ibb.co/Ks3WrnN/426308282-432260169242381-257610.jpg' }, // No image
 
+      { expirationDate:"10 days",nivel:"premium",usuario: 'valeria', password: 'valeriah', realname: 'Prueba Gratuita', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
 
       { expirationDate:"10 days",nivel:"premium",usuario: 'alexsandra', password: 'zavaleta', realname: 'Prueba Gratuita', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
 
