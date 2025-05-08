@@ -17,12 +17,19 @@ const Character = ({ lives }) => {
       animate={{ scale: 1, opacity: 1 }}
       transition={{ duration: 0.5 }}
     >
-      <motion.img
-        key={lives}
-        src={sprites[lives]}
-        alt={`Character with ${lives} lives`}
-        className="w-36 h-36 md:w-48 md:h-48"
-      />
+     <motion.img
+  key={lives}
+  src={sprites[lives]}
+  alt={`Character with ${lives} lives`}
+  className="w-68 h-64 mt-10"             
+  initial={{ y: 0, scale: 1 }}    
+  animate={{ y: -20, scale: 1.2 }}    
+  transition={{
+    type: 'spring',
+    stiffness: 300,
+    damping: 20
+  }}
+/>
     </motion.div>
   );
 };
