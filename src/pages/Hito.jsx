@@ -171,29 +171,40 @@ const Hito = ({ selectedLink }) => {
     };
   }, [selectedLink]);
 
-  const getEmbedUrl = (url) => {
-    if (url.includes('wordwall.net')) {
-      return url.replace('https://wordwall.net/play/', 'https://wordwall.net/embed/play/');
+const getEmbedUrl = (url) => {
+  if (url.includes('wordwall.net')) {
+    return url.replace(
+      'https://wordwall.net/play/',
+      'https://wordwall.net/embed/play/'
+    );
+  }
+  if (url.includes('youtu.be') || url.includes('youtube.com')) {
+    const videoId =
+      url.split('v=')[1]?.split('&')[0] ||
+      url.split('youtu.be/')[1];
+    return `https://www.youtube.com/embed/${videoId}`;
+  }
+  if (url.includes('drive.google.com')) {
+    const fileId = url.split('/d/')[1]?.split('/')[0];
+    return `https://drive.google.com/file/d/${fileId}/preview`;
+  }
+  if (url.includes('forms.office.com')) {
+    if (url.includes('/r/')) {
+      return (
+        url.replace('/r/', '/Pages/ResponsePage.aspx?id=') +
+        '&embed=true'
+      );
     }
-    if (url.includes('youtu.be') || url.includes('youtube.com')) {
-      const videoId = url.split('v=')[1]?.split('&')[0] || url.split('youtu.be/')[1];
-      return `https://www.youtube.com/embed/${videoId}`;
-    }
-    if (url.includes('drive.google.com')) {
-      const fileId = url.split('/d/')[1]?.split('/')[0];
-      return `https://drive.google.com/file/d/${fileId}/preview`;
-    }
-    if (url.includes('forms.office.com')) {
-      if (url.includes('/r/')) {
-        return url.replace('/r/', '/Pages/ResponsePage.aspx?id=') + '&embed=true';
-      }
-      return url.includes('&embed=true') ? url : url + '&embed=true';
-    }
-    if (url.includes('flippity.net')) {
-      return `https://www.flippity.net/fc.php?k=${url.split('k=')[1]}`;
-    }
-    return '';
-  };
+    return url.includes('&embed=true')
+      ? url
+      : url + '&embed=true';
+  }
+  
+
+  // Si no es ninguno de los anteriores, devolvemos la URL tal cual
+  return url;
+};
+
 
   const openPopup = (url) => {
     const width = 800;

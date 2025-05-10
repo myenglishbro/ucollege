@@ -53,6 +53,10 @@ import RoadMapB2C from "./pages/RoadMapB2C";
 import RoadMapB2CF from "./pages/RoadMapB2CF";
 import TextFileUploader from "./components/TextFileUploader";
 import GrammarSpaceDefender from "./components/GrammarSpaceDefender";
+import GrammarMazeRunner from "./components/GrammarCodeQuest";
+import GrammarCodeQuest from "./components/GrammarCodeQuest";
+import GrammarGlassBridge from "./components/FightingGrammar";
+import FightingGrammar from "./components/FightingGrammar";
 
 function App() {
   return (
@@ -96,8 +100,10 @@ function App() {
           <Route path="/Enghelp" element={<TextFileUploader  />}></Route>
           <Route path="/GSPACE" element={<GrammarSpaceDefender  />}></Route>
 
-        
-        
+                  <Route path="/maze" element={<GrammarCodeQuest  />}></Route>
+
+                          <Route path="/fight" element={<FightingGrammar  />}></Route>
+
         
           <Route path="/Plataforma" element={<RoadMapJA1 />}></Route>
           <Route path="/PlataformaB" element={<RoadMapB />}></Route>

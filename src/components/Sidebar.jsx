@@ -4,6 +4,7 @@ import Hito from '../pages/Hito';
 import { mensajes } from '../utils/mensajes';
 import { FaCheck, FaBookOpen, FaPencilAlt, FaVideo } from 'react-icons/fa';
 import { FaLock } from 'react-icons/fa';
+import { GiCrossedSGiBrain, GiBattleAxe, GiShieldCrossed, GiBrain, GiOpenBook, GiRocketThruster, GiHealthPotion, GiCrossedSwords } from 'react-icons/gi';
 
 const Sidebar= ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) => {
   const [selectedIndex, setSelectedIndex] = useState(null);
@@ -406,7 +407,7 @@ const [codeInputForPopup, setCodeInputForPopup] = useState("");
     borderRadius: '8px',
     color: 'white',
     display: 'flex',
-    flexDirection: 'row',
+    flexDirection: 'column',
     justifyContent: 'space-between',
     alignItems: 'flex-start',
     gap: '20px',
@@ -423,28 +424,27 @@ const [codeInputForPopup, setCodeInputForPopup] = useState("");
       />
       <span style={{ fontWeight: 'bold' }}>{`${i + 1}. ${enlace.titulo}`}</span>
     </label>
-    <p
-      style={{
-        fontSize: '14px',
-        color: '#CBD5E1',
-        marginLeft: '30px',
-        fontStyle: 'italic',
-        marginTop: '5px',
-      }}
-    >
-      {enlace.descripcion}
-    </p>
+     {/* Descripción */}
+  <p
+    style={{
+      fontSize: '14px',
+      color: '#CBD5E1',
+      fontStyle: 'italic',
+      marginBottom: '12px',
+      lineHeight: 1.4,
+    }}
+  >
+    {enlace.descripcion}
+  </p>
   </div>
 
   {/* Botones */}
-  <div
+ <div
     style={{
-      display: 'flex',
-      flexDirection: 'column',
-      gap: '8px',
-      alignItems: 'center',
-      justifyContent: 'center',
-    }}
+    display: 'grid',
+    gridTemplateColumns: 'repeat(3, 1fr)', // 3 columnas iguales
+    gap: '8px',                             // espacio entre botones
+  }}
   >
     <button
       onClick={() => handleLinkClick(enlace)}
@@ -461,6 +461,8 @@ const [codeInputForPopup, setCodeInputForPopup] = useState("");
         cursor: 'pointer',
         transition: 'background 0.3s ease',
         display: 'flex',
+              justifyContent: 'flex-start',
+
         alignItems: 'center',
         gap: '4px',
       }}
@@ -468,6 +470,40 @@ const [codeInputForPopup, setCodeInputForPopup] = useState("");
     >
       {viewedItems?.includes(enlace.titulo) ? <FaCheck /> : <FaBookOpen />}
     </button>
+
+ {enlace.url2 && (
+      <button
+        onClick={() => handleLinkClick({ ...enlace, url: enlace.url2 })}
+        style={{
+          background: 'linear-gradient(135deg, #FF8C00, #FF4500)',
+          color: '#fff',
+          borderRadius: '4px',
+          padding: '4px 12px',
+          border: 'none',
+          fontWeight: 600,
+          fontSize: '13px',
+          cursor: 'pointer',
+          transition: 'background 0.3s ease',
+          display: 'flex',
+          alignItems: 'center',
+          gap: '4px',
+        }}
+        aria-label="Watch video"
+      >
+        <FaVideo />
+      </button>
+    )}
+
+
+
+
+
+
+
+
+
+
+
 
     {enlace.url3 && (
       <button
@@ -492,28 +528,80 @@ const [codeInputForPopup, setCodeInputForPopup] = useState("");
       </button>
     )}
 
-    {enlace.url2 && (
-      <button
-        onClick={() => handleLinkClick({ ...enlace, url: enlace.url2 })}
-        style={{
-          background: 'linear-gradient(135deg, #FF8C00, #FF4500)',
-          color: '#fff',
-          borderRadius: '4px',
-          padding: '4px 12px',
-          border: 'none',
-          fontWeight: 600,
-          fontSize: '13px',
-          cursor: 'pointer',
-          transition: 'background 0.3s ease',
-          display: 'flex',
-          alignItems: 'center',
-          gap: '4px',
-        }}
-        aria-label="Watch video"
-      >
-        <FaVideo />
-      </button>
-    )}
+   
+    {enlace.url4 && (
+  <button
+    onClick={() => handleLinkClick({ ...enlace, url: enlace.url4 })}
+    style={{
+      background: 'linear-gradient(135deg, #FF8C00, #FF4500)', // Naranja a rojo
+      color: '#fff',
+      borderRadius: '4px',
+      padding: '4px 12px',
+      border: 'none',
+      fontWeight: 600,
+      fontSize: '13px',
+      cursor: 'pointer',
+      transition: 'background 0.3s ease',
+      display: 'flex',
+      alignItems: 'center',
+      gap: '4px',
+    }}
+    aria-label="Desafío"
+  >
+    <GiCrossedSwords />
+  </button>
+)}
+
+{enlace.url5 && (
+  <button
+    onClick={() => handleLinkClick({ ...enlace, url: enlace.url4 })}
+    style={{
+      background: 'linear-gradient(135deg, #FF8C00, #FF4500)', // Naranja a rojo
+      color: '#fff',
+      borderRadius: '4px',
+      padding: '4px 12px',
+      border: 'none',
+      fontWeight: 600,
+      fontSize: '13px',
+      cursor: 'pointer',
+      transition: 'background 0.3s ease',
+      display: 'flex',
+      alignItems: 'center',
+      gap: '4px',
+    }}
+    aria-label="Desafío"
+  >
+    <GiHealthPotion  />
+  </button>
+)}
+
+{enlace.url6 && (
+  <button
+    onClick={() => handleLinkClick({ ...enlace, url: enlace.url4 })}
+    style={{
+      background: 'linear-gradient(135deg, #FF8C00, #FF4500)', // Naranja a rojo
+      color: '#fff',
+      borderRadius: '4px',
+      padding: '4px 12px',
+      border: 'none',
+      fontWeight: 600,
+      fontSize: '13px',
+      cursor: 'pointer',
+      transition: 'background 0.3s ease',
+      display: 'flex',
+      alignItems: 'center',
+      gap: '4px',
+    }}
+    aria-label="Desafío"
+  >
+    <GiRocketThruster  />
+  </button>
+)}
+
+
+
+
+
   </div>
 </div>
 
