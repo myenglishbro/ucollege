@@ -171,6 +171,7 @@ const Hito = ({ selectedLink }) => {
     };
   }, [selectedLink]);
 
+// Función para convertir URL a embed
 const getEmbedUrl = (url) => {
   if (url.includes('wordwall.net')) {
     return url.replace(
@@ -199,9 +200,6 @@ const getEmbedUrl = (url) => {
       ? url
       : url + '&embed=true';
   }
-  
-
-  // Si no es ninguno de los anteriores, devolvemos la URL tal cual
   return url;
 };
 

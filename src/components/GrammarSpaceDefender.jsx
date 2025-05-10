@@ -233,7 +233,6 @@ const GrammarSpaceDefender = () => {
               whileTap={{ scale: 0.95 }}
               onClick={() => checkAnswer(opt)}
               className={`p-3 rounded transition-all bg-cover bg-center text-white font-bold ${selected === opt ? 'ring-2 ring-yellow-300' : ''}`}
-              style={{ backgroundImage: "url('https://i.ibb.co/4xz2LmW/Chat-GPT-Image-May-8-2025-05-51-28-PM-removebg-preview.png')" }}
               disabled={!!feedback}
             >
               {opt}

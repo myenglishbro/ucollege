@@ -548,13 +548,12 @@ const [codeInputForPopup, setCodeInputForPopup] = useState("");
     }}
     aria-label="Desafío"
   >
-    <GiCrossedSwords />
-  </button>
+  <GiRocketThruster  />   </button>
 )}
 
 {enlace.url5 && (
   <button
-    onClick={() => handleLinkClick({ ...enlace, url: enlace.url4 })}
+    onClick={() => handleLinkClick({ ...enlace, url: enlace.url5 })}
     style={{
       background: 'linear-gradient(135deg, #FF8C00, #FF4500)', // Naranja a rojo
       color: '#fff',
@@ -577,7 +576,7 @@ const [codeInputForPopup, setCodeInputForPopup] = useState("");
 
 {enlace.url6 && (
   <button
-    onClick={() => handleLinkClick({ ...enlace, url: enlace.url4 })}
+    onClick={() => handleLinkClick({ ...enlace, url: enlace.url6 })}
     style={{
       background: 'linear-gradient(135deg, #FF8C00, #FF4500)', // Naranja a rojo
       color: '#fff',
@@ -594,7 +593,8 @@ const [codeInputForPopup, setCodeInputForPopup] = useState("");
     }}
     aria-label="Desafío"
   >
-    <GiRocketThruster  />
+      <GiCrossedSwords />
+
   </button>
 )}
 
