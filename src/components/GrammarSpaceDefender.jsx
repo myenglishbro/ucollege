@@ -2,28 +2,27 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 
 const GrammarSpaceDefender = () => {
-  const loseLife = () => {
-    setProgress(prev => Math.max(0, prev - 10));
-    setLives(prev => {
-      const newLives = prev - 1;
-      if (newLives <= 0) {
-        setTimeout(() => setGameOver(true), 1500);
-      } else {
-        setTimeout(() => advance(), 1500);
-      }
-      return Math.max(0, newLives);
-    });
-  };
+  const COUNTDOWN_START = 15;
+  const LOSE_LIFE_DAMAGE = 10;
+
   const [questions, setQuestions] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [selected, setSelected] = useState(null);
   const [feedback, setFeedback] = useState(null);
   const [progress, setProgress] = useState(0);
   const [lives, setLives] = useState(3);
-  const [timer, setTimer] = useState(15);
+  const [timer, setTimer] = useState(COUNTDOWN_START);
   const [gameOver, setGameOver] = useState(false);
   const [gameWon, setGameWon] = useState(false);
 
+  // End the game immediately when lives reach zero
+  useEffect(() => {
+    if (lives <= 0) {
+      setGameOver(true);
+    }
+  }, [lives]);
+
+  // Countdown logic
   useEffect(() => {
     let countdown;
     if (questions.length && timer > 0 && !gameOver && !gameWon) {
@@ -39,11 +38,13 @@ const GrammarSpaceDefender = () => {
   const parseTXT = (text) => {
     const pattern = /E:\s*(.*?)\s*O:\s*(.*?)\s*A:\s*(.*?)(?=\nE:|$)/gs;
     const matches = [...text.matchAll(pattern)];
-    return matches.map(match => ({
-      error: match[1].trim(),
-      options: match[2].split('|').map(o => o.trim()),
-      answer: match[3].trim(),
-    }));
+    return matches.map(match => {
+      const error = match[1].trim();
+      const options = match[2].split('|').map(o => o.trim());
+      const rawAnswer = match[3].trim();
+      const answer = rawAnswer.split('→')[0].trim();
+      return { error, options, answer };
+    });
   };
 
   const handleUpload = async (e) => {
@@ -52,14 +53,32 @@ const GrammarSpaceDefender = () => {
     const text = await file.text();
     const parsed = parseTXT(text);
     setQuestions(parsed);
+    resetGameState();
+  };
+
+  const resetGameState = (clear = false) => {
+    if (clear) setQuestions([]);
     setCurrentIndex(0);
     setSelected(null);
     setFeedback(null);
     setProgress(0);
     setLives(3);
-    setTimer(15);
+    setTimer(COUNTDOWN_START);
     setGameOver(false);
     setGameWon(false);
+  };
+
+  const loseLife = () => {
+    // Decrease progress
+    setProgress(prev => Math.max(0, prev - LOSE_LIFE_DAMAGE));
+    // Decrement lives and optionally advance or end
+    setLives(prev => {
+      const newLives = Math.max(0, prev - 1);
+      if (newLives > 0) {
+        setTimeout(() => advance(), 1500);
+      }
+      return newLives;
+    });
   };
 
   const handleTimeout = () => {
@@ -70,11 +89,10 @@ const GrammarSpaceDefender = () => {
   const checkAnswer = (option) => {
     const current = questions[currentIndex];
     setSelected(option);
-
-    if (option === current.answer) {
+    if (option.trim().toLowerCase() === current.answer.trim().toLowerCase()) {
       setFeedback('✅ ¡Correcto!');
-      const nextProgress = progress + 10;
-      setProgress(prev => Math.min(100, nextProgress));
+      const nextProgress = Math.min(100, progress + LOSE_LIFE_DAMAGE);
+      setProgress(nextProgress);
       setTimeout(() => {
         if (nextProgress >= 100 || currentIndex + 1 >= questions.length) {
           setGameWon(true);
@@ -84,23 +102,14 @@ const GrammarSpaceDefender = () => {
       }, 1500);
     } else {
       setFeedback(`❌ Incorrecto. Respuesta correcta: ${current.answer}`);
-      setProgress(prev => Math.max(0, prev - 10));
-      setLives(prev => {
-        const newLives = prev - 1;
-        if (newLives <= 0) {
-          setTimeout(() => setGameOver(true), 1500);
-        } else {
-          setTimeout(() => advance(), 1500);
-        }
-        return Math.max(0, newLives);
-      });
+      loseLife();
     }
   };
 
   const advance = () => {
     setSelected(null);
     setFeedback(null);
-    setTimer(15);
+    setTimer(COUNTDOWN_START);
     setCurrentIndex(i => (i + 1) % questions.length);
   };
 
@@ -119,36 +128,18 @@ const GrammarSpaceDefender = () => {
   if (gameOver) {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center bg-black text-white">
-        <motion.img 
-          initial={{ scale: 0 }} 
-          animate={{ scale: 1.2, rotate: 20 }} 
+        <motion.img
+          initial={{ scale: 0 }}
+          animate={{ scale: 1.2, rotate: 20 }}
           transition={{ type: 'spring', stiffness: 100 }}
-          src="https://i.ibb.co/8LNbbNTb/Chat-GPT-Image-May-8-2025-05-48-32-PM-removebg-preview.png" 
-          alt="explosion" 
-          className="w-32 mb-4" 
+          src="https://i.ibb.co/8LNbbNTb/Chat-GPT-Image-May-8-2025-05-48-32-PM-removebg-preview.png"
+          alt="explosion"
+          className="w-32 mb-4"
         />
         <h2 className="text-2xl font-bold mb-2">💥 ¡Perdiste! La nave ha explotado</h2>
         <div className="flex gap-4 mt-4">
-          <button onClick={() => {
-            setCurrentIndex(0);
-            setSelected(null);
-            setFeedback(null);
-            setProgress(0);
-            setLives(3);
-            setTimer(15);
-            setGameOver(false);
-            setGameWon(false);
-          }} className="bg-blue-600 px-4 py-2 rounded">Subir otro archivo</button>
-          <button onClick={() => {
-            setCurrentIndex(0);
-            setSelected(null);
-            setFeedback(null);
-            setProgress(0);
-            setLives(3);
-            setTimer(15);
-            setGameOver(false);
-            setGameWon(false);
-          }} className="bg-green-600 px-4 py-2 rounded">Jugar de nuevo</button>
+          <button onClick={() => resetGameState(true)} className="bg-blue-600 px-4 py-2 rounded">Subir otro archivo</button>
+          <button onClick={() => resetGameState()} className="bg-green-600 px-4 py-2 rounded">Jugar de nuevo</button>
         </div>
       </div>
     );
@@ -157,37 +148,19 @@ const GrammarSpaceDefender = () => {
   if (gameWon) {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center bg-black text-white">
-        <motion.img 
-          initial={{ scale: 0 }} 
-          animate={{ scale: 1 }} 
+        <motion.img
+          initial={{ scale: 0 }}
+          animate={{ scale: 1 }}
           transition={{ duration: 1 }}
-          src="https://i.ibb.co/hRZxMxbd/Chat-GPT-Image-May-8-2025-06-08-50-PM.png" 
-          alt="nave ganadora" 
-          className="w-32 mb-4" 
+          src="https://i.ibb.co/hRZxMxbd/Chat-GPT-Image-May-8-2025-06-08-50-PM.png"
+          alt="nave ganadora"
+          className="w-32 mb-4"
         />
         <h2 className="text-2xl font-bold mb-2">🎉 ¡Misión cumplida!</h2>
         <p className="mb-4">Has corregido todos los errores gramaticales</p>
         <div className="flex gap-4">
-          <button onClick={() => {
-            setCurrentIndex(0);
-            setSelected(null);
-            setFeedback(null);
-            setProgress(0);
-            setLives(3);
-            setTimer(15);
-            setGameOver(false);
-            setGameWon(false);
-          }} className="bg-blue-600 px-4 py-2 rounded">Subir otro archivo</button>
-          <button onClick={() => {
-            setCurrentIndex(0);
-            setSelected(null);
-            setFeedback(null);
-            setProgress(0);
-            setLives(3);
-            setTimer(15);
-            setGameOver(false);
-            setGameWon(false);
-          }} className="bg-green-600 px-4 py-2 rounded">Jugar de nuevo</button>
+          <button onClick={() => resetGameState(true)} className="bg-blue-600 px-4 py-2 rounded">Subir otro archivo</button>
+          <button onClick={() => resetGameState()} className="bg-green-600 px-4 py-2 rounded">Jugar de nuevo</button>
         </div>
       </div>
     );
@@ -200,7 +173,6 @@ const GrammarSpaceDefender = () => {
       <div className="bg-black bg-opacity-60 p-6 rounded-xl shadow-xl max-w-xl w-full">
         <h2 className="text-2xl font-bold mb-4 text-center">Corrige el error gramatical</h2>
 
-        {/* Barra de progreso tipo nave avanzando */}
         <div className="relative w-full mb-6">
           <div className="h-4 bg-gray-700 rounded-full overflow-hidden">
             <motion.div
@@ -219,7 +191,6 @@ const GrammarSpaceDefender = () => {
           <p className="text-sm text-center mt-1">Progreso de la nave</p>
         </div>
 
-        {/* Contador de vidas y tiempo */}
         <div className="flex justify-between items-center w-full mb-4 text-sm">
           <div>❤️ Vidas: {lives}</div>
           <div>⏳ Tiempo: {timer}s</div>
