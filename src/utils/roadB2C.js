@@ -52,9 +52,10 @@ export const roadB2C = [
         description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
         enlaces: [
             { titulo:"Welcome",descripcion:"Las diferencias en Inglés ",url: "https://drive.google.com/file/d/1xTKk8uS9tVBQ4rk-X4-VEBA3ZUAwCIW8/view?usp=sharing"},
+            { titulo:"Apps",descripcion:"Aprende usar las apps ",url: "https://youtu.be/pXTv0jaOgwM"},
 
             { titulo:"Leave vs Forget",descripcion:"Diferencias en uso ",url: "https://drive.google.com/file/d/1y_j2Do4YAErfoQdNLDu5yXaxjgW0FH8O/view?usp=sharing" ,url2: "https://youtu.be/ZuTu0cKrgA4?si=SwLXrU0zQTyxjNDz",url3: "https://drive.google.com/file/d/1lATJkiV8vcDJ21Mu5jPDOjPRkyX_a5qZ/view?usp=sharing",url4:"https://learnibox.vercel.app/gspace",url5:"https://learnibox.vercel.app/enghelp",url6:"https://learnibox.vercel.app/fight"},
-            { titulo:"Continuamente ",descripcion:"Diferencias en uso",url: "https://drive.google.com/file/d/1kENm-lqtM22jiVAej6_Io_IoYFeRDprC/view?usp=sharing",url2: "https://youtu.be/DXCOSUsATsE?si=KXNzdx8qbzOeCMkz",url3: "https://drive.google.com/file/d/17UWJLib-ZYETsEc-rF0p3byGvy24R_kY/view?usp=sharing"},
+            { titulo:"Continuamente ",codigo:"LEAVE&FOCODE",descripcion:"Diferencias en uso",url: "https://drive.google.com/file/d/1kENm-lqtM22jiVAej6_Io_IoYFeRDprC/view?usp=sharing",url2: "https://youtu.be/DXCOSUsATsE?si=KXNzdx8qbzOeCMkz",url3: "https://drive.google.com/file/d/17UWJLib-ZYETsEc-rF0p3byGvy24R_kY/view?usp=sharing"},
             { titulo:"Shout at vs Shout to",descripcion:"Diferencias en uso",url:"https://drive.google.com/file/d/1iisgsGHkBpj0nyGTvwxCiI8_aG3ukcsi/view?usp=sharing" ,url2: "https://youtu.be/QAJVD14o2a8"},
             { titulo:"Afraid ",descripcion:"Como usarlo",url: "https://drive.google.com/file/d/1X_G4Rvia8Lpu4C5MHXcLx7dXtUnfFsZb/view?usp=sharing"},
             { titulo:"Afraid to do vs Afraid of doing ",descripcion:"Diferencias claves",url:"https://drive.google.com/file/d/19XX67MnZ-Mf-rmq9pPlYm9GMogYOHQa_/view?usp=sharing",url2: "https://youtu.be/pYaZjZIQBdM",url3: "https://drive.google.com/file/d/1cCllRuslCkOJyqtgAhukNp_eGwN94zre/view?usp=sharing"},
