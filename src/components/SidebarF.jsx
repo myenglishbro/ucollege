@@ -201,9 +201,7 @@ const [codeInputForPopup, setCodeInputForPopup] = useState("");
             </span>
           </div>
           <div className="timer-input">
-            <label className="input-title" htmlFor="input-minutes">
-              Set Timer:
-            </label>
+            
             <input
               id="input-minutes"
               type="number"
@@ -211,11 +209,11 @@ const [codeInputForPopup, setCodeInputForPopup] = useState("");
               value={timerMinutes}
               onChange={(e) => setTimerMinutes(Number(e.target.value))}
               className="input-minutes"
-              placeholder="00"
+              placeholder="Set timer"
             />
           </div>
           <di
-          v className="timer-buttons">
+           className="timer-buttons">
           <button onClick={startTimer} className="timer-button start">
             
           </button>

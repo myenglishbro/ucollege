@@ -1,7 +1,7 @@
 export const roadB2CF = [
     {
         id: 0,
-        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
+        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
         title: "Recursos Descargables",
         subtitle: "B2/C1",
 
@@ -19,7 +19,7 @@ export const roadB2CF = [
     },
     {
         id: 0,
-        thumbnail:"https://i.ibb.co/pBgwzxqm/B2-FIRST-24-removebg-preview.png",
+        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
         title: "B2 - Clases en Vivo ",
         subtitle: "B2/C1",
         // color: "#D6083B", // Propiedad de color añadida

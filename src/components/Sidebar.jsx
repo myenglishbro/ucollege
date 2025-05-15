@@ -202,9 +202,7 @@ const [codeInputForPopup, setCodeInputForPopup] = useState("");
             </span>
           </div>
           <div className="timer-input">
-            <label className="input-title" htmlFor="input-minutes">
-              Set Timer:
-            </label>
+           
             <input
               id="input-minutes"
               type="number"
@@ -598,7 +596,29 @@ const [codeInputForPopup, setCodeInputForPopup] = useState("");
   </button>
 )}
 
+{enlace.url7 && (
+  <button
+    onClick={() => handleLinkClick({ ...enlace, url: enlace.url7 })}
+    style={{
+      background: 'linear-gradient(135deg, #FF8C00, #FF4500)', // Naranja a rojo
+      color: '#fff',
+      borderRadius: '4px',
+      padding: '4px 12px',
+      border: 'none',
+      fontWeight: 600,
+      fontSize: '13px',
+      cursor: 'pointer',
+      transition: 'background 0.3s ease',
+      display: 'flex',
+      alignItems: 'center',
+      gap: '4px',
+    }}
+    aria-label="Desafío"
+  >
+      <GiCrossedSwords />
 
+  </button>
+)}
 
 
 

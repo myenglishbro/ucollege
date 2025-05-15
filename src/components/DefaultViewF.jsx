@@ -35,7 +35,7 @@ const Modal = ({ isOpen, onClose, children }) => {
         >
           <motion.div
             key="modal"
-            className="relative rounded-2xl overflow-hidden w-full sm:w-4/5 md:w-3/5 lg:w-2/5 shadow-[0_0_50px_rgba(0,0,0,0.9)]"
+            className="relative rounded-2xl overflow-hidden w-full sm:w-4/5 md:w-3/5 lg:w-1/4 h-full shadow-[0_0_50px_rgba(0,0,0,0.9)]"
             style={{
               backgroundImage: `url(${medievalBg})`,
               backgroundSize: 'cover',
@@ -104,14 +104,14 @@ const DefaultViewF = ({ realname, userImage, nivel, expirationDate }) => {
 
 
         {/* Botones de plataformas */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-1 w-full">
+        <div className="grid grid-cols-2 sm:grid-cols-2 gap-0 w-full">
         {platforms.map(({ name, href, bg, bgSize }, idx) => (
             <a
               key={idx}
               href={href}
               target="_blank"
               rel="noopener noreferrer"
-              className="relative flex items-center justify-center h-40 font-bold text-white rounded-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-[rgba(180,90,0,0.9)] transition-transform duration-200 ease-in-out hover:scale-110"
+              className="relative flex items-center justify-center h-20 font-bold text-white rounded-lg overflow-hidden focus:outline-none focus:ring-2 focus:ring-[rgba(180,90,0,0.9)] transition-transform duration-200 ease-in-out hover:scale-110"
               style={{
                 backgroundImage: `url(${bg})`,
                 backgroundSize: bgSize,

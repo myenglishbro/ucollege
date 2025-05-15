@@ -57,6 +57,9 @@ import GrammarMazeRunner from "./components/GrammarCodeQuest";
 import GrammarCodeQuest from "./components/GrammarCodeQuest";
 import GrammarGlassBridge from "./components/FightingGrammar";
 import FightingGrammar from "./components/FightingGrammar";
+import EncryptTextUploader from "./components/EncryptTextUploader";
+import KeywordTransformerTrainer from "./components/KeywordTransformerTrainer";
+import CambridgeEncryptor from "./components/CambridgeEncryptor";
 
 function App() {
   return (
@@ -103,8 +106,11 @@ function App() {
                   <Route path="/maze" element={<GrammarCodeQuest  />}></Route>
 
                           <Route path="/fight" element={<FightingGrammar  />}></Route>
+                  <Route path="/kwt" element={<KeywordTransformerTrainer  />}></Route>
 
-        
+                  <Route path="/encri" element={<EncryptTextUploader  />}></Route>
+                  <Route path="/encri2" element={<CambridgeEncryptor  />}></Route>
+
           <Route path="/Plataforma" element={<RoadMapJA1 />}></Route>
           <Route path="/PlataformaB" element={<RoadMapB />}></Route>
 

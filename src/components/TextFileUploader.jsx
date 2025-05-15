@@ -56,15 +56,22 @@ const TextFileUploader = () => {
   ];
 
   // Parseo de flashcards
-  const parseFlashcards = (text) => {
+  const parseFlashcards = (encodedText) => {
+  try {
+    const decodedText = atob(encodedText); // decodifica el texto en Base64
     const pattern = /P:\s*([\s\S]*?)\s*R:\s*([\s\S]*?)(?=(?:\r?\nP:|$))/g;
     const matches = [];
     let match;
-    while ((match = pattern.exec(text)) !== null) {
+    while ((match = pattern.exec(decodedText)) !== null) {
       matches.push({ question: match[1].trim(), answer: match[2].trim() });
     }
     return matches;
-  };
+  } catch (e) {
+    alert("❌ El archivo no está correctamente cifrado o es inválido.");
+    return [];
+  }
+};
+
 
   const handleUpload = async (e) => {
     const files = Array.from(e.target.files);

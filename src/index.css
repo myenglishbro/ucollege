@@ -827,7 +827,7 @@ right: 40px;
 }
 
 .timer-container {
-  background-image: url('https://i.ibb.co/BV2pH925/Chat-GPT-Image-May-3-2025-03-15-33-PM-1-removebg-preview-2.png');
+  background-image: url('https://i.ibb.co/k20dWSXG/newframeb2.png');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -881,11 +881,11 @@ right: 40px;
 }
 
 .timer-button.start {
-  background-image: url('https://i.ibb.co/C3T6Snwk/Chat-GPT-Image-May-3-2025-03-24-29-PM-removebg-preview.png');
+  background-image: url('https://i.ibb.co/9HCJKtFB/start.png');
 }
 
 .timer-button.stop {
-  background-image: url('https://i.ibb.co/XZLKpF00/Chat-GPT-Image-May-3-2025-02-59-30-PM-removebg-preview.png');
+  background-image: url('https://i.ibb.co/5gSBTxB6/stop.png');
 }
 .progress-bar-bg {
   width: 100%;
@@ -921,13 +921,13 @@ right: 40px;
   margin-top: -30px;
 }
 
-.input-title {
-  font-size: 1rem;
+/* .input-title {
+  font-size: 0.1rem;
   color: #ffffff;
   font-family: 'Poppins', sans-serif;
   text-transform: uppercase;
   letter-spacing: 1px;
-}
+} */
 
 .input-minutes {
   width: 80px;
