@@ -78,60 +78,70 @@ const KeywordTransformerTrainer = () => {
     return () => clearInterval(timerRef.current);
   }, [stage, current]);
 
-  if (stage === 'upload') {
-    return (
-      <div className="min-h-screen bg-white text-black p-6 flex flex-col items-center justify-center">
-        <h1 className="text-2xl font-bold mb-4">Upload Encrypted Key Word Transformation File</h1>
-        <input type="file" accept=".txt" multiple onChange={handleUpload} className="p-2 border rounded" />
-      </div>
-    );
-  }
-
-  if (stage === 'report') {
-    return (
-      <div className="min-h-screen bg-gray-100 text-black p-6">
-        <h2 className="text-2xl font-bold mb-4">Resultado Final</h2>
-        {flashcards.map((card, i) => {
-          const userAnswer = answers[i] || '';
-          const isCorrect = userAnswer.trim().toLowerCase() === card.answer.trim().toLowerCase();
-          return (
-            <div key={i} className="mb-4 p-4 border rounded bg-white shadow">
-              <p><strong>P:</strong> {card.question}</p>
-              <p><strong>Palabra clave:</strong> {card.keyword}</p>
-              <p><strong>Tu respuesta:</strong> {userAnswer || '[Sin respuesta]'}</p>
-              <p className={isCorrect ? 'text-green-600' : 'text-red-600'}>
-                {isCorrect ? '✔ Correcta' : `✘ Incorrecta. Respuesta correcta: ${card.answer}`}
-              </p>
-            </div>
-          );
-        })}
-        <div className="flex gap-4 mt-6">
-          <button onClick={() => { setStage('playing'); setCurrent(0); setInput(''); setAnswers(Array(flashcards.length).fill(null)); setTimer(100); }} className="bg-blue-600 text-white px-4 py-2 rounded">Intentar de nuevo</button>
-          <label className="bg-gray-600 text-white px-4 py-2 rounded cursor-pointer">Subir otro archivo<input type="file" accept=".txt" multiple onChange={handleUpload} className="hidden"/></label>
-        </div>
-      </div>
-    );
-  }
-
   return (
-    <div className="min-h-screen bg-white text-black p-6">
-      <div className="max-w-3xl mx-auto">
-        <h2 className="text-xl font-semibold mb-2">Pregunta {current + 1} de {flashcards.length}</h2>
-        <p className="mb-1 text-gray-800"><strong>Reescribe la oración usando la palabra clave:</strong></p>
-        <p className="mb-2 text-gray-800">{flashcards[current].question}</p>
-        <p className="mb-4 text-purple-700 font-semibold">Palabra clave: <span className="underline">{flashcards[current].keyword}</span></p>
-        <input
-          type="text"
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-          placeholder="Escribe tu transformación..."
-          className="w-full p-3 border rounded mb-4"
-        />
-        <div className="flex items-center justify-between">
-          <button onClick={nextQuestion} className="bg-blue-600 text-white px-4 py-2 rounded">Siguiente</button>
-          <p className="text-gray-600">⏳ Tiempo restante: {timer}s</p>
+    <div className="min-h-screen bg-gradient-to-br from-gray-900 to-black text-white font-sans p-8">
+      {stage === 'upload' && (
+        <div className="flex flex-col items-center justify-center h-full text-center">
+          <h1 className="text-4xl font-extrabold mb-4 text-cyan-400 animate-pulse">🔥 KEY WORD TRANSFORMATION TRAINER 🔥</h1>
+          <p className="mb-6 text-lg text-gray-300">Upload your challenge file and begin your epic transformation training.</p>
+          <label className="bg-cyan-600 hover:bg-cyan-700 text-white font-bold py-3 px-6 rounded-lg cursor-pointer transition-all shadow-lg">
+            Upload .txt File
+            <input type="file" accept=".txt" multiple onChange={handleUpload} className="hidden" />
+          </label>
         </div>
-      </div>
+      )}
+
+      {stage === 'playing' && (
+        <div className="max-w-4xl mx-auto border-2 border-cyan-500 rounded-xl p-8 bg-gray-800 shadow-2xl animate-fade-in">
+          <h2 className="text-3xl font-bold mb-4 text-cyan-400">Question {current + 1} / {flashcards.length}</h2>
+          <div className="mb-4">
+            <p className="text-lg text-white mb-2">🧩 <span className="font-semibold">Transform this sentence:</span></p>
+            <p className="bg-gray-700 p-4 rounded text-lg text-yellow-200">{flashcards[current].question}</p>
+          </div>
+          <div className="mb-6">
+            <p className="text-sm uppercase tracking-wider text-pink-400">KEYWORD</p>
+            <p className="text-xl font-semibold underline text-pink-300">{flashcards[current].keyword}</p>
+          </div>
+          <input
+            type="text"
+            value={input}
+            onChange={(e) => setInput(e.target.value)}
+            placeholder="Type your transformation..."
+            className="w-full p-3 text-lg rounded-md bg-gray-900 border border-cyan-400 text-white mb-4 focus:outline-none focus:ring-2 focus:ring-cyan-500"
+          />
+          <div className="flex justify-between items-center">
+            <button onClick={nextQuestion} className="bg-cyan-600 hover:bg-cyan-700 text-white px-6 py-2 rounded-lg shadow-md font-semibold">Next</button>
+            <p className="text-sm text-gray-300">⏳ {timer}s remaining</p>
+          </div>
+        </div>
+      )}
+
+      {stage === 'report' && (
+        <div className="max-w-5xl mx-auto p-6 bg-gray-900 border border-cyan-500 rounded-lg shadow-xl">
+          <h2 className="text-3xl font-bold text-cyan-400 mb-6">🚀 Final Results</h2>
+          {flashcards.map((card, i) => {
+            const userAnswer = answers[i] || '';
+            const isCorrect = userAnswer.trim().toLowerCase() === card.answer.trim().toLowerCase();
+            return (
+              <div key={i} className={`p-4 mb-4 rounded-lg ${isCorrect ? 'bg-green-700' : 'bg-red-700'}`}>
+                <p><strong className="text-white">P:</strong> {card.question}</p>
+                <p><strong className="text-white">Keyword:</strong> {card.keyword}</p>
+                <p><strong className="text-white">Your Answer:</strong> {userAnswer || '[No Answer]'}</p>
+                <p className={isCorrect ? 'text-green-300' : 'text-yellow-200 font-semibold'}>
+                  {isCorrect ? '✔ Correct' : `✘ Incorrect. Correct answer: ${card.answer}`}
+                </p>
+              </div>
+            );
+          })}
+          <div className="flex gap-4 mt-8">
+            <button onClick={() => { setStage('playing'); setCurrent(0); setInput(''); setAnswers(Array(flashcards.length).fill(null)); setTimer(100); }} className="bg-cyan-600 hover:bg-cyan-700 text-white px-6 py-2 rounded-lg shadow">Try Again</button>
+            <label className="bg-gray-700 text-white px-6 py-2 rounded-lg cursor-pointer shadow hover:bg-gray-600">
+              Upload New File
+              <input type="file" accept=".txt" multiple onChange={handleUpload} className="hidden" />
+            </label>
+          </div>
+        </div>
+      )}
     </div>
   );
 };

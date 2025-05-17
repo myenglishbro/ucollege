@@ -4,7 +4,9 @@ import Hito from '../pages/Hito';
 import { mensajes } from '../utils/mensajes';
 import { FaCheck, FaBookOpen, FaPencilAlt, FaVideo } from 'react-icons/fa';
 import { FaLock } from 'react-icons/fa';
-import { GiCrossedSGiBrain, GiBattleAxe, GiShieldCrossed, GiBrain, GiOpenBook, GiRocketThruster, GiHealthPotion, GiCrossedSwords } from 'react-icons/gi';
+import { GiBookCover ,GiCrossedSGiBrain, GiBattleAxe, GiShieldCrossed, GiBrain, GiOpenBook, GiRocketThruster, GiHealthPotion, GiCrossedSwords } from 'react-icons/gi';
+import { BiDownload } from "react-icons/bi";
+import { BiHighlight } from "react-icons/bi";
 
 const Sidebar= ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) => {
   const [selectedIndex, setSelectedIndex] = useState(null);
@@ -591,7 +593,7 @@ const [codeInputForPopup, setCodeInputForPopup] = useState("");
     }}
     aria-label="Desafío"
   >
-      <GiCrossedSwords />
+      <GiBookCover  />
 
   </button>
 )}
@@ -615,11 +617,35 @@ const [codeInputForPopup, setCodeInputForPopup] = useState("");
     }}
     aria-label="Desafío"
   >
-      <GiCrossedSwords />
+     <BiDownload />
 
   </button>
 )}
 
+{enlace.url8 && (
+  <button
+    onClick={() => handleLinkClick({ ...enlace, url: enlace.url8 })}
+    style={{
+      background: 'linear-gradient(135deg, #1E90FF, #0073E6))', // Naranja a rojo
+      color: '#fff',
+      borderRadius: '4px',
+      padding: '4px 12px',
+      border: 'none',
+      fontWeight: 600,
+      fontSize: '13px',
+      cursor: 'pointer',
+      transition: 'background 0.3s ease',
+      display: 'flex',
+      alignItems: 'center',
+      gap: '4px',
+    }}
+    aria-label="Desafío"
+  >
+
+<BiHighlight />
+
+  </button>
+)}
 
 
   </div>

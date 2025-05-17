@@ -93,7 +93,7 @@ export const roadB2C = [
             { titulo:"Test KWT 01 ",url: "https://drive.google.com/file/d/10cOoRCKkswKlwi2GOM4cvdOlWNBE-Hbx/view?usp=sharing"},
             { titulo:"Solución KWT 02 ",url: "https://drive.google.com/file/d/1VeU2a_peDOk2WMACF8anyG0GwLGZzOvM/view?usp=sharing",url2: "https://youtu.be/7wrY5gW_Xco"},
             { titulo:"Solución KWT 03 ",url: "https://drive.google.com/file/d/1meGXse7csULGWCCAAOkANu1ckqn_bg5o/view?usp=sharing",url2: "https://youtu.be/D11X4WGnhuU",},
-            { titulo:"📚[pdf] Key Word Transformation 001 ",url: "https://drive.google.com/file/d/1fzxVyBLvMHRwzfHTGLgYapKOXasOXv0m/view?usp=sharing",url7:"http://learnibox.vercel.app/kwt"},
+            { titulo:"📚[pdf] Key Word Transformation 001 ",url: "https://drive.google.com/file/d/1fzxVyBLvMHRwzfHTGLgYapKOXasOXv0m/view?usp=sharing",url3:"https://drive.google.com/file/d/1cXjQsg8lVZghohRvTd1D5DLjgByRfnww/view?usp=sharing",url7:"http://learnibox.vercel.app/kwt"},
             { titulo:"📚[pdf] Key Word Transformation 002 ",url: "https://drive.google.com/file/d/1AytA61HbBmJgFLcXNEwEBHJQjVelp1T3/view?usp=sharing"},
             { titulo:"📚[pdf] Key Word Transformation 003 ",url: "https://drive.google.com/file/d/1Kx3tL5lWNxOaeJwuu5bKqhaML8fi9nb6/view?usp=sharing"},
             { titulo:"📚[pdf] Key Word Transformation 004 ",url: "https://drive.google.com/file/d/1CkMzAwGVkwxbkDaLMAIaxo_cs3o4KADY/view?usp=sharing"},
@@ -251,7 +251,7 @@ export const roadB2C = [
         channel: "sdasd",
         description: "Completa los desafíos para dominar el Inglés",
         enlaces: [
-            { titulo: "✍ WF001 - Negative Forms ",url: "https://drive.google.com/file/d/1FoMiuTrYJHxJYyBsbBrqvs10Kb8cYf2T/view?usp=sharing", },    
+            { titulo: "✍ WF001 - Negative Forms ",url: "https://drive.google.com/file/d/1FoMiuTrYJHxJYyBsbBrqvs10Kb8cYf2T/view?usp=sharing",url7:"https://drive.google.com/file/d/1cy_Ap7DUYRZWyCVjPoAYy3njDBlrmXm_/view?usp=sharing",url8:"http://learnibox.vercel.app/tc" },    
             { titulo: "✍ WF002 - Prefixes and Negative Meanings ",url: "https://drive.google.com/file/d/1NI-L5UBxQ5gFeRac6oVhMXD_T-5YCjiv/view?usp=sharing", },    
             { titulo: "✍ WF003 - Crossword - Word Formation ",url: "https://drive.google.com/file/d/194QnF1Gc-wIRpiWAOtqWy-D8B78coaSL/view?usp=sharing", },    
             { titulo: "✍ WF004 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1j5T_mLOody8iDftkPJLcsPjNZ3pK9ot2/view?usp=sharing", },    

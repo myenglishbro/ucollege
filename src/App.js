@@ -60,6 +60,7 @@ import FightingGrammar from "./components/FightingGrammar";
 import EncryptTextUploader from "./components/EncryptTextUploader";
 import KeywordTransformerTrainer from "./components/KeywordTransformerTrainer";
 import CambridgeEncryptor from "./components/CambridgeEncryptor";
+import TrainingCenter from "./components/TrainingCenter";
 
 function App() {
   return (
@@ -107,6 +108,7 @@ function App() {
 
                           <Route path="/fight" element={<FightingGrammar  />}></Route>
                   <Route path="/kwt" element={<KeywordTransformerTrainer  />}></Route>
+                  <Route path="/tc" element={<TrainingCenter  />}></Route>
 
                   <Route path="/encri" element={<EncryptTextUploader  />}></Route>
                   <Route path="/encri2" element={<CambridgeEncryptor  />}></Route>
