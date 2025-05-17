@@ -216,7 +216,7 @@ export const roadB2C = [
     },
     {
         id: 2,
-        thumbnail:"https://i.ibb.co/b53R08DX/file-BEBHv-Yhkgbs-E4pxzmsb5-Sd.png",
+        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
         title: "Real Grammar in use 02",
         subtitle: "B2/C1",
 
@@ -242,9 +242,9 @@ export const roadB2C = [
     
     {
         id: 25,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
 
-        title: "Word Formation (B2)",
+        title: "Word Formation",
         subtitle: "B2/C1",
 
         dateAdded: "Basic 01 ",
@@ -254,41 +254,19 @@ export const roadB2C = [
             { titulo: "✍ WF001 - Negative Forms ",url: "https://drive.google.com/file/d/1FoMiuTrYJHxJYyBsbBrqvs10Kb8cYf2T/view?usp=sharing",url7:"https://drive.google.com/file/d/1cy_Ap7DUYRZWyCVjPoAYy3njDBlrmXm_/view?usp=sharing",url8:"http://learnibox.vercel.app/tc" },    
             { titulo: "✍ WF002 - Prefixes and Negative Meanings ",url: "https://drive.google.com/file/d/1NI-L5UBxQ5gFeRac6oVhMXD_T-5YCjiv/view?usp=sharing", },    
             { titulo: "✍ WF003 - Crossword - Word Formation ",url: "https://drive.google.com/file/d/194QnF1Gc-wIRpiWAOtqWy-D8B78coaSL/view?usp=sharing", },    
-            { titulo: "✍ WF004 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1j5T_mLOody8iDftkPJLcsPjNZ3pK9ot2/view?usp=sharing", },    
-            { titulo: "✍ WF005 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1GAfwTA5CIrNcDW6hFA-Nbok78IlKdrh9/view?usp=sharing", },    
-            { titulo: "✍ WF006 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1VsED-djskHE3PJwF2U8fXGPhENb07SxJ/view?usp=sharing", },    
-            { titulo: "✍ WF007 - Word Formation Sentences ",url: "https://drive.google.com/file/d/11PrvYO0MoUzPqjgWwhPFARAdU9hOoKx8/view?usp=sharing", },    
-            { titulo: "✍ WF008 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1susqk-7RPZOjTMidwHWzk2EDWCY_54CO/view?usp=sharing", },    
-            { titulo: "✍ WF009 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1S9N--Mr5SS0nS7v3GLp4Xh2MKkhGh2d1/view?usp=sharing", },    
-            { titulo: "✍ WF010 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1-W82gGyyTEkwiNn8_7n54jcS4vED76Fm/view?usp=sharing", },    
-
-            { titulo: "✍ WF011 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1I4gNHDTaMU9lNwGsEv8Fyqct9NU2eXyR/view?usp=sharing", },    
-            { titulo: "✍ WF012 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1aJM4ArL2IIOc48AM5tAhCUvf1MhWXfal/view?usp=sharing", },    
-            { titulo: "✍ WF013 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1U0drN7vU3cQ67HifCfJcE0IpEt5jeUad/view?usp=sharing", },    
-            { titulo: "✍ WF014 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1GpFgkjeAIjSzFftj3fLuo70W2K96CHEH/view?usp=sharing", },    
-            { titulo: "✍ WF015 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1QampSegCjNaiMXPSvylWpawvPSwYoU6C/view?usp=sharing", },    
-            { titulo: "✍ WF016 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1bfRaXcHxF_jtjmrdkIJYNi3-7kDRUAo6/view?usp=sharing", },    
-            { titulo: "✍ WF017 - Word Formation Sentences ",url: "https://drive.google.com/file/d/18Omg11ZTsuP2_FAj1ygXHASgA70SVCq8/view?usp=sharing", },    
-            { titulo: "✍ WF018 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1J2ZcjSpAXztp2Aw12RnYgh4w2FT0B3Xb/view?usp=sharing", },  
-            
-            
             { titulo: "✍ WF019 - Word Formation - Nouns, Verbs, Adjectives ",url: "https://drive.google.com/file/d/18krxCjRSmgc3wfWPtGK2qggwq0lUlfnW/view?usp=sharing", },    
             { titulo: "✍ WF020 - Word Formation - Nouns, Verbs, Adjectives ",url: "https://drive.google.com/file/d/18J49WKoMt8jXjiKAcxrFnaqTykF-0QHw/view?usp=sharing", },    
             { titulo: "✍ WF021 - Word Formation - Nouns, Verbs, Adjectives ",url: "https://drive.google.com/file/d/17L45VWvsHTY1ToaELcaEXaIpT8bgSKRB/view?usp=sharing", },    
-            { titulo: "✍ WF022 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1pQvadnaDQBG7XFiBmcTBWcd63U9Ev5o0/view?usp=sharing", },    
-            { titulo: "✍ WF023 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1C9hVqtk28R1nm-hx65SgSHl3_YDCZyVF/view?usp=sharing", },    
             { titulo: "✍ WF024 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1vLs14YohPvffTs6s3PuFznGWKsM0_1TV/view?usp=sharing", },    
-            { titulo: "✍ WF025 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1w45SJf4eSJkURAPHI4Be2ygqhUfH8oGb/view?usp=sharing", },    
-            { titulo: "✍ WF026 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1ut_DldDoGR9ZqmMBjztnq2V_jtvyc6xW/view?usp=sharing", },    
 
             
         ],
     },
     {
         id: 5,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
 
-        title: "Connectives and Linking Phrases ",
+        title: "Connectives & Linking ",
         subtitle: "B2/C1",
 
         dateAdded: "Basic 0 ",
@@ -308,11 +286,12 @@ export const roadB2C = [
     
     {
         id: 0,
-        thumbnail:"https://i.ibb.co/tphjRLC8/Chat-GPT-Image-27-mar-2025-10-15-21.png",
+        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
         title: "B2 Bootcamp ",
         subtitle: "B2/C1",
-        color: "#D6083B", // Propiedad de color añadida
+        // color: "#D6083B", // Propiedad de color añadida
 
+        
         dateAdded: "Basic 0 ",
         channel: "sdasd",
         description: "Grabacion de clases Cambridge Preparation,no compartas las grabaciones ",
@@ -350,12 +329,11 @@ export const roadB2C = [
 
     {
         id: 2,
-        thumbnail:"https://i.ibb.co/Qvzg24T4/file-YU8-CLywp-Xm-Ewi69wvopi-We.png",
+        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
 
 
         title: "B2 First 2024",
         subtitle: "B2/C1",
-        color: "#D6083B", // Propiedad de color añadida
 
         dateAdded: "Basic 0 ",
         channel: "sdasd",

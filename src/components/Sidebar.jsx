@@ -626,7 +626,7 @@ const [codeInputForPopup, setCodeInputForPopup] = useState("");
   <button
     onClick={() => handleLinkClick({ ...enlace, url: enlace.url8 })}
     style={{
-      background: 'linear-gradient(135deg, #1E90FF, #0073E6))', // Naranja a rojo
+      background: 'linear-gradient(135deg, #004AAD, #001F3F)', // Naranja a rojo
       color: '#fff',
       borderRadius: '4px',
       padding: '4px 12px',
