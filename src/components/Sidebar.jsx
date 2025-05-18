@@ -396,6 +396,13 @@ const [codeInputForPopup, setCodeInputForPopup] = useState("");
     );
   } else {
     // Si el enlace no requiere código o ya fue desbloqueado, se muestra el contenido normal.
+  const normalizeUrl = (url) => {
+  if (!url) return url;
+  return url.startsWith('http://')
+    ? url.replace(/^http:\/\//, 'https://')
+    : url;
+};
+  
     return (
       <div
   key={i}
@@ -438,217 +445,61 @@ const [codeInputForPopup, setCodeInputForPopup] = useState("");
   </p>
   </div>
 
-  {/* Botones */}
- <div
+ {/* Botones revisar este código en los botones */}
+  <div
     style={{
-    display: 'grid',
-    gridTemplateColumns: 'repeat(3, 1fr)', // 3 columnas iguales
-    gap: '8px',                             // espacio entre botones
-  }}
+      display: 'grid',
+      gridTemplateColumns: 'repeat(3, 1fr)', // siempre 3 columnas
+      gap: '4px',                              // menos espacio
+      alignItems: 'center',
+    }}
   >
-    <button
-      onClick={() => handleLinkClick(enlace)}
-      style={{
-        background: viewedItems?.includes(enlace.titulo)
-          ? 'linear-gradient(135deg, #1E90FF, #0073E6)'
-          : 'linear-gradient(135deg, #004AAD, #001F3F)',
-        color: '#fff',
-        borderRadius: '4px',
-        padding: '4px 12px',
-        border: 'none',
-        fontWeight: 600,
-        fontSize: '13px',
-        cursor: 'pointer',
-        transition: 'background 0.3s ease',
-        display: 'flex',
-              justifyContent: 'flex-start',
-
-        alignItems: 'center',
-        gap: '4px',
-      }}
-      aria-label={viewedItems?.includes(enlace.titulo) ? "Slide viewed" : "View slide"}
-    >
-      {viewedItems?.includes(enlace.titulo) ? <FaCheck /> : <FaBookOpen />}
-    </button>
-
- {enlace.url2 && (
-      <button
-        onClick={() => handleLinkClick({ ...enlace, url: enlace.url2 })}
-        style={{
-          background: 'linear-gradient(135deg, #FF8C00, #FF4500)',
-          color: '#fff',
-          borderRadius: '4px',
-          padding: '4px 12px',
-          border: 'none',
-          fontWeight: 600,
-          fontSize: '13px',
-          cursor: 'pointer',
-          transition: 'background 0.3s ease',
-          display: 'flex',
-          alignItems: 'center',
-          gap: '4px',
-        }}
-        aria-label="Watch video"
-      >
-        <FaVideo />
-      </button>
+    {/* Estilos base para todos los botones */}
+    {[
+      { key: 'url', icon: viewedItems?.includes(enlace.titulo) ? <FaCheck /> : <FaBookOpen />, label: viewedItems?.includes(enlace.titulo) ? 'Slide viewed' : 'View slide', urlProp: 'url', gradient: viewedItems?.includes(enlace.titulo) ? '135deg, #1E90FF, #0073E6' : '135deg, #004AAD, #001F3F' },
+      { key: 'url2', icon: <FaVideo />, label: 'Watch video', urlProp: 'url2', gradient: '135deg, #FF8C00, #FF4500' },
+      { key: 'url3', icon: <FaPencilAlt />, label: 'Take test', urlProp: 'url3', gradient: '135deg, #004AAD, #001F3F' },
+      { key: 'url4', icon: <GiRocketThruster />, label: 'Desafío 4', urlProp: 'url4', gradient: '135deg, #FF8C00, #FF4500' },
+      { key: 'url5', icon: <GiHealthPotion />, label: 'Desafío 5', urlProp: 'url5', gradient: '135deg, #FF8C00, #FF4500' },
+      { key: 'url6', icon: <GiBookCover />, label: 'Desafío 6', urlProp: 'url6', gradient: '135deg, #FF8C00, #FF4500' },
+      { key: 'url7', icon: <BiDownload />, label: 'Desafío 7', urlProp: 'url7', gradient: '135deg, #FF8C00, #FF4500' },
+      { key: 'url8', icon: <BiHighlight />, label: 'Desafío 8', urlProp: 'url8', gradient: '135deg, #004AAD, #001F3F' },
+    ].map(({ key, icon, label, urlProp, gradient }) =>
+      enlace[urlProp] ? (
+        <button
+          key={key}
+          onClick={() =>
+            handleLinkClick({
+              ...enlace,
+              url: normalizeUrl(enlace[urlProp]),
+            })
+          }
+          style={{
+            background: `linear-gradient(${gradient})`,
+            color: '#fff',
+            borderRadius: '4px',
+            padding: '2px 8px',           // padding reducido
+            border: 'none',
+            fontWeight: 600,
+            fontSize: '12px',             // fuente más pequeña
+            cursor: 'pointer',
+            transition: 'background 0.3s ease',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',     // centrar icono
+            gap: '2px',                   // gap reducido
+            height: '32px',               // altura fija
+          }}
+          aria-label={label}
+          title={label}
+        >
+          {icon}
+        </button>
+      ) : null
     )}
-
-
-
-
-
-
-
-
-
-
-
-
-    {enlace.url3 && (
-      <button
-        onClick={() => handleLinkClick({ ...enlace, url: enlace.url3 })}
-        style={{
-          background: 'linear-gradient(135deg, #004AAD, #001F3F)',
-          color: '#fff',
-          borderRadius: '4px',
-          padding: '4px 12px',
-          border: 'none',
-          fontWeight: 600,
-          fontSize: '13px',
-          cursor: 'pointer',
-          transition: 'background 0.3s ease',
-          display: 'flex',
-          alignItems: 'center',
-          gap: '4px',
-        }}
-        aria-label="Take test"
-      >
-        <FaPencilAlt />
-      </button>
-    )}
-
-   
-    {enlace.url4 && (
-  <button
-    onClick={() => handleLinkClick({ ...enlace, url: enlace.url4 })}
-    style={{
-      background: 'linear-gradient(135deg, #FF8C00, #FF4500)', // Naranja a rojo
-      color: '#fff',
-      borderRadius: '4px',
-      padding: '4px 12px',
-      border: 'none',
-      fontWeight: 600,
-      fontSize: '13px',
-      cursor: 'pointer',
-      transition: 'background 0.3s ease',
-      display: 'flex',
-      alignItems: 'center',
-      gap: '4px',
-    }}
-    aria-label="Desafío"
-  >
-  <GiRocketThruster  />   </button>
-)}
-
-{enlace.url5 && (
-  <button
-    onClick={() => handleLinkClick({ ...enlace, url: enlace.url5 })}
-    style={{
-      background: 'linear-gradient(135deg, #FF8C00, #FF4500)', // Naranja a rojo
-      color: '#fff',
-      borderRadius: '4px',
-      padding: '4px 12px',
-      border: 'none',
-      fontWeight: 600,
-      fontSize: '13px',
-      cursor: 'pointer',
-      transition: 'background 0.3s ease',
-      display: 'flex',
-      alignItems: 'center',
-      gap: '4px',
-    }}
-    aria-label="Desafío"
-  >
-    <GiHealthPotion  />
-  </button>
-)}
-
-{enlace.url6 && (
-  <button
-    onClick={() => handleLinkClick({ ...enlace, url: enlace.url6 })}
-    style={{
-      background: 'linear-gradient(135deg, #FF8C00, #FF4500)', // Naranja a rojo
-      color: '#fff',
-      borderRadius: '4px',
-      padding: '4px 12px',
-      border: 'none',
-      fontWeight: 600,
-      fontSize: '13px',
-      cursor: 'pointer',
-      transition: 'background 0.3s ease',
-      display: 'flex',
-      alignItems: 'center',
-      gap: '4px',
-    }}
-    aria-label="Desafío"
-  >
-      <GiBookCover  />
-
-  </button>
-)}
-
-{enlace.url7 && (
-  <button
-    onClick={() => handleLinkClick({ ...enlace, url: enlace.url7 })}
-    style={{
-      background: 'linear-gradient(135deg, #FF8C00, #FF4500)', // Naranja a rojo
-      color: '#fff',
-      borderRadius: '4px',
-      padding: '4px 12px',
-      border: 'none',
-      fontWeight: 600,
-      fontSize: '13px',
-      cursor: 'pointer',
-      transition: 'background 0.3s ease',
-      display: 'flex',
-      alignItems: 'center',
-      gap: '4px',
-    }}
-    aria-label="Desafío"
-  >
-     <BiDownload />
-
-  </button>
-)}
-
-{enlace.url8 && (
-  <button
-    onClick={() => handleLinkClick({ ...enlace, url: enlace.url8 })}
-    style={{
-      background: 'linear-gradient(135deg, #004AAD, #001F3F)', // Naranja a rojo
-      color: '#fff',
-      borderRadius: '4px',
-      padding: '4px 12px',
-      border: 'none',
-      fontWeight: 600,
-      fontSize: '13px',
-      cursor: 'pointer',
-      transition: 'background 0.3s ease',
-      display: 'flex',
-      alignItems: 'center',
-      gap: '4px',
-    }}
-    aria-label="Desafío"
-  >
-
-<BiHighlight />
-
-  </button>
-)}
-
-
   </div>
+
+
 </div>
 
     );
