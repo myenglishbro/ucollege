@@ -16,7 +16,7 @@ const CambridgeEncryptor = () => {
   const isCambridgeFormat = (text) => {
     const blocks = text
       .split(/\n\s*\n/) // Permite bloques separados por líneas en blanco
-      .map(b => b.trim())
+      .map((b) => b.trim())
       .filter(Boolean);
 
     let errorMessages = [];
@@ -47,17 +47,22 @@ const CambridgeEncryptor = () => {
     try {
       return btoa(unescape(encodeURIComponent(str)));
     } catch (e) {
-      alert("❌ Error al codificar el archivo. Verifica que no contenga caracteres inválidos.");
+      alert('❌ Error al codificar el archivo. Verifica que no contenga caracteres inválidos.');
       return null;
     }
   };
 
   const handleUpload = async (e) => {
     const file = e.target.files[0];
-    if (!file || !file.name.endsWith('.txt')) {
+    if (!file || !file.name.toLowerCase().endsWith('.txt')) {
       alert('❌ Sube un archivo .txt válido');
       return;
     }
+
+    // Derivar nombre de archivo para descarga
+    const originalName = file.name;
+    const baseName = originalName.replace(/\.[^/.]+$/, '');
+    setFileName(`${baseName}-encrypted.txt`);
 
     const text = await file.text();
 
@@ -140,4 +145,3 @@ const CambridgeEncryptor = () => {
 };
 
 export default CambridgeEncryptor;
-

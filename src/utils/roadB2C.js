@@ -93,6 +93,9 @@ export const roadB2C = [
             { titulo:"Test KWT 01 ",url: "https://drive.google.com/file/d/10cOoRCKkswKlwi2GOM4cvdOlWNBE-Hbx/view?usp=sharing"},
             { titulo:"Solución KWT 02 ",url: "https://drive.google.com/file/d/1VeU2a_peDOk2WMACF8anyG0GwLGZzOvM/view?usp=sharing",url2: "https://youtu.be/7wrY5gW_Xco"},
             { titulo:"Solución KWT 03 ",url: "https://drive.google.com/file/d/1meGXse7csULGWCCAAOkANu1ckqn_bg5o/view?usp=sharing",url2: "https://youtu.be/D11X4WGnhuU",},
+            { titulo:"Key Word Transformation ",url: "https://drive.google.com/file/d/1fzxVyBLvMHRwzfHTGLgYapKOXasOXv0m/view?usp=sharing",url3:"https://drive.google.com/file/d/1SlBZ6S1G4Jk_fMSC9kPJRa_XY_GuJfRN/view?usp=sharing",url7:"http://learnibox.vercel.app/kwt"},
+
+         
             { titulo:"📚[pdf] Key Word Transformation 001 ",url: "https://drive.google.com/file/d/1fzxVyBLvMHRwzfHTGLgYapKOXasOXv0m/view?usp=sharing",url3:"https://drive.google.com/file/d/1cXjQsg8lVZghohRvTd1D5DLjgByRfnww/view?usp=sharing",url7:"http://learnibox.vercel.app/kwt"},
             { titulo:"📚[pdf] Key Word Transformation 002 ",url: "https://drive.google.com/file/d/1AytA61HbBmJgFLcXNEwEBHJQjVelp1T3/view?usp=sharing"},
             { titulo:"📚[pdf] Key Word Transformation 003 ",url: "https://drive.google.com/file/d/1Kx3tL5lWNxOaeJwuu5bKqhaML8fi9nb6/view?usp=sharing"},
