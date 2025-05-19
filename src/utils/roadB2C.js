@@ -78,7 +78,7 @@ export const roadB2C = [
         id: 3,
         thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
 
-        title: "Multiple Cloze Choice ",
+        title: "Multiple  Choice Cloze ",
         subtitle: "B2/C1",
 
         dateAdded: "Basic 0 ",
@@ -86,6 +86,22 @@ export const roadB2C = [
         description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
         enlaces: [
             { titulo:"Simulacion ",url: "https://youtu.be/Hk1y2D9jbvQ",url3: "https://drive.google.com/file/d/1ZuTexZqm-GlIFwAuRLCaACwAwGGtLgKD/view?usp=sharing",url4:"https://learnibox.vercel.app/gspace"},
+
+           
+        ],
+    },
+     {
+        id: 3,
+        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
+
+        title: "Open Cloze ",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+        enlaces: [
+            { titulo:"Simulacion ",url: "https://youtu.be/Hk1y2D9jbvQ",url3: "https://drive.google.com/file/d/1InWYabnMh49xh4J1dp6ewYCL3G71vfcb/view?usp=sharing",url4:"https://learnibox.vercel.app/gspace"},
 
            
         ],
