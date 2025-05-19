@@ -101,7 +101,7 @@ export const roadB2C = [
         channel: "sdasd",
         description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
         enlaces: [
-            { titulo:"Simulacion ",url: "https://youtu.be/Hk1y2D9jbvQ",url3: "https://drive.google.com/file/d/1InWYabnMh49xh4J1dp6ewYCL3G71vfcb/view?usp=sharing",url4:"https://learnibox.vercel.app/gspace"},
+            { titulo:"Simulacion ",url: "https://youtu.be/Hk1y2D9jbvQ",url3: "https://drive.google.com/file/d/1InWYabnMh49xh4J1dp6ewYCL3G71vfcb/view?usp=sharing",url4:"https://learnibox.vercel.app/enghelp"},
 
            
         ],
