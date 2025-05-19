@@ -74,7 +74,22 @@ export const roadB2C = [
             { titulo:"Shy Away From sth   ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/1LKd3X2Qr8MJ-52QtwBi9f6NR-AWD9anl/view?usp=sharing",url3: "https://drive.google.com/file/d/188wbcEig0wGPF2gscPLlQhF_xayYwKHF/view?usp=sharing" },
         ],
     },
-      
+       {
+        id: 3,
+        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
+
+        title: "Multiple Cloze Choice ",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+        enlaces: [
+            { titulo:"Simulacion ",url: "https://youtu.be/Hk1y2D9jbvQ",url3: "https://drive.google.com/file/d/1ZuTexZqm-GlIFwAuRLCaACwAwGGtLgKD/view?usp=sharing",url4:"https://learnibox.vercel.app/gspace"},
+
+           
+        ],
+    },
     {
         id: 3,
         thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",

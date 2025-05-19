@@ -1,9 +1,13 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { motion } from 'framer-motion';
 
 const GrammarSpaceDefender = () => {
   const COUNTDOWN_START = 15;
   const LOSE_LIFE_DAMAGE = 10;
+
+  const [showSettings, setShowSettings] = useState(true);
+  const [showTimer, setShowTimer] = useState(true);
+  const [showLives, setShowLives] = useState(true);
 
   const [questions, setQuestions] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -14,29 +18,24 @@ const GrammarSpaceDefender = () => {
   const [timer, setTimer] = useState(COUNTDOWN_START);
   const [gameOver, setGameOver] = useState(false);
   const [gameWon, setGameWon] = useState(false);
+  const [dragActive, setDragActive] = useState(false);
 
-  // End the game immediately when lives reach zero
   useEffect(() => {
-    if (lives <= 0) {
-      setGameOver(true);
-    }
+    if (lives <= 0) setGameOver(true);
   }, [lives]);
 
-  // Countdown logic
   useEffect(() => {
     let countdown;
-    if (questions.length && timer > 0 && !gameOver && !gameWon) {
-      countdown = setInterval(() => {
-        setTimer(prev => prev - 1);
-      }, 1000);
-    } else if (timer === 0) {
+    if (questions.length && timer > 0 && !gameOver && !gameWon && showTimer) {
+      countdown = setInterval(() => setTimer(prev => prev - 1), 1000);
+    } else if (timer === 0 && showTimer) {
       handleTimeout();
     }
     return () => clearInterval(countdown);
-  }, [timer, questions, gameOver, gameWon]);
+  }, [timer, questions, gameOver, gameWon, showTimer]);
 
-  const parseTXT = (text) => {
-    const pattern = /E:\s*(.*?)\s*O:\s*(.*?)\s*A:\s*(.*?)(?=\nE:|$)/gs;
+  const parseTXT = text => {
+const pattern = /E:\s*(.*?)\s*[\r\n]+O:\s*(.*?)\s*[\r\n]+A:\s*(.*?)(?=[\r\n]+E:|$)/gs;
     const matches = [...text.matchAll(pattern)];
     return matches.map(match => {
       const error = match[1].trim();
@@ -47,13 +46,54 @@ const GrammarSpaceDefender = () => {
     });
   };
 
-  const handleUpload = async (e) => {
+  const base64ToUtf8 = (base64) => {
+  // Quita posibles saltos de línea o espacios
+  const cleaned = base64.replace(/[\r\n\s]/g, '');
+  const binary = atob(cleaned);
+  const bytes = Uint8Array.from(binary, c => c.charCodeAt(0));
+  return new TextDecoder().decode(bytes);
+};
+
+
+const handleText = useCallback(async (text) => {
+  try {
+    text = base64ToUtf8(text);
+    alert('✅ Archivo descifrado correctamente.');
+  } catch {
+    console.log('⚠️ No es Base64 válido. Usando texto plano.');
+  }
+  setQuestions(parseTXT(text));
+  resetGameState();
+  setShowSettings(false);
+}, []);
+
+
+  const handleUpload = async e => {
     const file = e.target.files[0];
     if (!file) return;
     const text = await file.text();
-    const parsed = parseTXT(text);
-    setQuestions(parsed);
-    resetGameState();
+    handleText(text);
+  };
+
+  const handleDrop = async (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    setDragActive(false);
+    if (e.dataTransfer.files && e.dataTransfer.files[0]) {
+      const file = e.dataTransfer.files[0];
+      const text = await file.text();
+      handleText(text);
+    }
+  };
+
+  const handleDrag = (e) => {
+    e.preventDefault();
+    e.stopPropagation();
+    if (e.type === 'dragenter' || e.type === 'dragover') {
+      setDragActive(true);
+    } else if (e.type === 'dragleave') {
+      setDragActive(false);
+    }
   };
 
   const resetGameState = (clear = false) => {
@@ -66,17 +106,14 @@ const GrammarSpaceDefender = () => {
     setTimer(COUNTDOWN_START);
     setGameOver(false);
     setGameWon(false);
+    setShowSettings(clear);
   };
 
   const loseLife = () => {
-    // Decrease progress
     setProgress(prev => Math.max(0, prev - LOSE_LIFE_DAMAGE));
-    // Decrement lives and optionally advance or end
     setLives(prev => {
       const newLives = Math.max(0, prev - 1);
-      if (newLives > 0) {
-        setTimeout(() => advance(), 1500);
-      }
+      if (newLives > 0) setTimeout(() => advance(), 1500);
       return newLives;
     });
   };
@@ -86,19 +123,17 @@ const GrammarSpaceDefender = () => {
     loseLife();
   };
 
-  const checkAnswer = (option) => {
+  const checkAnswer = option => {
+    if (!questions.length || !questions[currentIndex]) return;
     const current = questions[currentIndex];
     setSelected(option);
     if (option.trim().toLowerCase() === current.answer.trim().toLowerCase()) {
-      setFeedback('✅ ¡Correcto!');
+      setFeedback('✅ Correcto');
       const nextProgress = Math.min(100, progress + LOSE_LIFE_DAMAGE);
       setProgress(nextProgress);
       setTimeout(() => {
-        if (nextProgress >= 100 || currentIndex + 1 >= questions.length) {
-          setGameWon(true);
-        } else {
-          advance();
-        }
+        if (nextProgress >= 100 || currentIndex + 1 >= questions.length) setGameWon(true);
+        else advance();
       }, 1500);
     } else {
       setFeedback(`❌ Incorrecto. Respuesta correcta: ${current.answer}`);
@@ -113,55 +148,37 @@ const GrammarSpaceDefender = () => {
     setCurrentIndex(i => (i + 1) % questions.length);
   };
 
-  if (!questions.length) {
+  if (showSettings) {
     return (
-      <div className="min-h-screen flex items-center justify-center bg-black text-white">
-        <div className="text-center">
-          <h1 className="text-3xl font-bold mb-4">🚀 Grammar Space Defender</h1>
-          <p className="mb-4">Sube un archivo .txt con errores gramaticales</p>
-          <input type="file" accept=".txt" onChange={handleUpload} className="bg-gray-800 p-2 rounded" />
+      <div onDrop={handleDrop} onDragOver={handleDrag} onDragEnter={handleDrag} onDragLeave={handleDrag} className={`min-h-screen flex items-center justify-center bg-gray-900 text-gray-200 p-4 ${dragActive ? 'ring-4 ring-purple-500' : ''}`}>
+        <div className="bg-gray-800 p-6 rounded-2xl shadow-xl w-full max-w-md border border-gray-700 text-center">
+          <h1 className="text-3xl font-extrabold mb-6 bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">Multiple Choice Trainer</h1>
+          <p className="mb-4 text-sm text-gray-400">Arrastra y suelta un archivo .txt aquí o usa el botón</p>
+          <input type="file" accept=".txt" onChange={handleUpload} className="mb-6 block w-full text-gray-200" />
+          <motion.button
+            onClick={() => resetGameState(false)}
+            className="w-full py-3 font-semibold rounded-lg bg-gradient-to-r from-green-400 to-blue-600 shadow-md hover:from-green-500 hover:to-blue-700 focus:outline-none"
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 0.98 }}
+          >
+            Iniciar sin archivo
+          </motion.button>
         </div>
       </div>
     );
   }
 
-  if (gameOver) {
+  if (!questions.length || !questions[currentIndex]) {
     return (
-      <div className="min-h-screen flex flex-col items-center justify-center bg-black text-white">
-        <motion.img
-          initial={{ scale: 0 }}
-          animate={{ scale: 1.2, rotate: 20 }}
-          transition={{ type: 'spring', stiffness: 100 }}
-          src="https://i.ibb.co/8LNbbNTb/Chat-GPT-Image-May-8-2025-05-48-32-PM-removebg-preview.png"
-          alt="explosion"
-          className="w-32 mb-4"
-        />
-        <h2 className="text-2xl font-bold mb-2">💥 ¡Perdiste! La nave ha explotado</h2>
-        <div className="flex gap-4 mt-4">
-          <button onClick={() => resetGameState(true)} className="bg-blue-600 px-4 py-2 rounded">Subir otro archivo</button>
-          <button onClick={() => resetGameState()} className="bg-green-600 px-4 py-2 rounded">Jugar de nuevo</button>
-        </div>
-      </div>
-    );
-  }
-
-  if (gameWon) {
-    return (
-      <div className="min-h-screen flex flex-col items-center justify-center bg-black text-white">
-        <motion.img
-          initial={{ scale: 0 }}
-          animate={{ scale: 1 }}
-          transition={{ duration: 1 }}
-          src="https://i.ibb.co/hRZxMxbd/Chat-GPT-Image-May-8-2025-06-08-50-PM.png"
-          alt="nave ganadora"
-          className="w-32 mb-4"
-        />
-        <h2 className="text-2xl font-bold mb-2">🎉 ¡Misión cumplida!</h2>
-        <p className="mb-4">Has corregido todos los errores gramaticales</p>
-        <div className="flex gap-4">
-          <button onClick={() => resetGameState(true)} className="bg-blue-600 px-4 py-2 rounded">Subir otro archivo</button>
-          <button onClick={() => resetGameState()} className="bg-green-600 px-4 py-2 rounded">Jugar de nuevo</button>
-        </div>
+      <div className="min-h-screen flex flex-col items-center justify-center bg-black text-white p-8 text-center">
+        <h2 className="text-2xl font-bold mb-4">❌ No se pudo cargar el archivo</h2>
+        <p className="mb-6">Verifica que el archivo esté en formato correcto (.txt con bloques E:, O:, A:).</p>
+        <button
+          onClick={() => setShowSettings(true)}
+          className="px-6 py-2 rounded bg-indigo-600 hover:bg-indigo-700 text-white font-semibold"
+        >
+          Volver a cargar archivo
+        </button>
       </div>
     );
   }
@@ -169,48 +186,42 @@ const GrammarSpaceDefender = () => {
   const current = questions[currentIndex];
 
   return (
-    <div className="min-h-screen bg-[url('https://i.ibb.co/x0Xwhp7/Chat-GPT-Image-May-8-2025-05-30-17-PM.png')] bg-cover bg-center text-white flex flex-col items-center justify-center p-4">
-      <div className="bg-black bg-opacity-60 p-6 rounded-xl shadow-xl max-w-xl w-full">
-        <h2 className="text-2xl font-bold mb-4 text-center">Corrige el error gramatical</h2>
+    <div className="min-h-screen bg-black text-white flex items-center justify-center p-4">
+      <div className="bg-gray-900 p-8 rounded-3xl shadow-2xl w-full max-w-2xl">
+        <h2 className="text-2xl font-bold mb-4 text-center uppercase tracking-widest text-indigo-300">Selecciona la respuesta correcta</h2>
+        <p className="text-center text-gray-400 mb-6">Elige la opción que consideres correcta para completar la oración dada.</p>
 
-        <div className="relative w-full mb-6">
-          <div className="h-4 bg-gray-700 rounded-full overflow-hidden">
-            <motion.div
-              className="h-full bg-green-500"
-              animate={{ width: `${progress}%` }}
-              transition={{ duration: 0.5 }}
-            />
+        <div className="mb-6">
+          <div className="h-3 bg-gray-800 rounded-full overflow-hidden">
+            <motion.div className="h-full bg-gradient-to-r from-indigo-500 to-purple-600" animate={{ width: `${progress}%` }} transition={{ duration: 0.5 }} />
           </div>
-          <motion.img
-            src="https://i.ibb.co/wFLGC3GH/Chat-GPT-Image-May-8-2025-05-34-22-PM-removebg-preview-2.png"
-            alt="nave"
-            className="absolute -top-10 w-12"
-            animate={{ left: `calc(${progress}% - 24px)` }}
-            transition={{ type: 'spring', stiffness: 80 }}
-          />
-          <p className="text-sm text-center mt-1">Progreso de la nave</p>
+          <p className="text-sm text-center mt-1 text-gray-400">Progreso</p>
         </div>
 
-        <div className="flex justify-between items-center w-full mb-4 text-sm">
-          <div>❤️ Vidas: {lives}</div>
-          <div>⏳ Tiempo: {timer}s</div>
+        <div className="flex justify-between text-sm mb-6">
+          {showLives && <div className="flex items-center gap-1">❤️ <span className="text-red-500 font-semibold">{lives}</span></div>}
+          {showTimer && <div className="flex items-center gap-1">⏳ <span className="text-yellow-300 font-semibold">{timer}s</span></div>}
         </div>
 
-        <p className="text-lg mb-4">❌ {current.error}</p>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <p className="text-xl mb-6 text-gray-200">{current.error}</p>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           {current.options.map((opt, idx) => (
             <motion.button
               key={idx}
+              whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={() => checkAnswer(opt)}
-              className={`p-3 rounded transition-all bg-cover bg-center text-white font-bold ${selected === opt ? 'ring-2 ring-yellow-300' : ''}`}
+              className={`p-4 rounded-xl border border-gray-700 font-semibold focus:outline-none focus:ring-2 focus:ring-purple-400 bg-gray-800 hover:bg-gray-700 transition-colors ${
+                selected === opt ? 'ring-4 ring-purple-600 bg-gray-700' : ''
+              }`}
               disabled={!!feedback}
             >
               {opt}
             </motion.button>
           ))}
         </div>
-        {feedback && <p className="mt-4 text-center font-bold">{feedback}</p>}
+
+        {feedback && <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-6 text-center font-bold text-lg">{feedback}</motion.p>}
       </div>
     </div>
   );

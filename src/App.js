@@ -61,6 +61,7 @@ import EncryptTextUploader from "./components/EncryptTextUploader";
 import KeywordTransformerTrainer from "./components/KeywordTransformerTrainer";
 import CambridgeEncryptor from "./components/CambridgeEncryptor";
 import TrainingCenter from "./components/TrainingCenter";
+import TxtEncryptor from "./components/TxtEncryptor";
 
 function App() {
   return (
@@ -112,6 +113,7 @@ function App() {
 
                   <Route path="/encri" element={<EncryptTextUploader  />}></Route>
                   <Route path="/encri2" element={<CambridgeEncryptor  />}></Route>
+                  <Route path="/encri3" element={<TxtEncryptor  />}></Route>
 
           <Route path="/Plataforma" element={<RoadMapJA1 />}></Route>
           <Route path="/PlataformaB" element={<RoadMapB />}></Route>
