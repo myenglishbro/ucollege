@@ -64,6 +64,7 @@ import TrainingCenter from "./components/TrainingCenter";
 import TxtEncryptor from "./components/TxtEncryptor";
 import MultipleChoiceTrainer from "./components/MultipleChoiceTrainer";
 import GappedTextQuizUploader from "./components/GappedTextQuizUploader";
+import ReadingEn from "./components/ReadingEn";
 
 function App() {
   return (
@@ -117,6 +118,7 @@ function App() {
                   <Route path="/encri" element={<EncryptTextUploader  />}></Route>
                   <Route path="/encri2" element={<CambridgeEncryptor  />}></Route>
                   <Route path="/encri3" element={<TxtEncryptor  />}></Route>
+                  <Route path="/readingencriptador" element={<ReadingEn  />}></Route>
 
           <Route path="/Plataforma" element={<RoadMapJA1 />}></Route>
           <Route path="/PlataformaB" element={<RoadMapB />}></Route>

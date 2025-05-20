@@ -24,9 +24,9 @@ export const roadB2C = [
 
         dateAdded: "Basic 0 ",
         channel: "sdasd",
-        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+        description: " ",
         enlaces: [
-            { titulo:"Simulacion ",url: "https://youtu.be/Hk1y2D9jbvQ",url3: "https://drive.google.com/file/d/1ZuTexZqm-GlIFwAuRLCaACwAwGGtLgKD/view?usp=sharing",url4:"https://learnibox.vercel.app/mct"},
+            { titulo:"Simulation Exam ",descripcion:"The first part of the Use of English paper in the B2 First Examination is multiple choice cloze where students have to choose the correct word from four similar given words.",url: "https://youtu.be/Hk1y2D9jbvQ",url3: "https://drive.google.com/file/d/1ZuTexZqm-GlIFwAuRLCaACwAwGGtLgKD/view?usp=sharing",url4:"https://learnibox.vercel.app/mct"},
 
            
         ],
@@ -42,7 +42,7 @@ export const roadB2C = [
         channel: "sdasd",
         description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
         enlaces: [
-            { titulo:"Simulacion ",url: "https://youtu.be/Hk1y2D9jbvQ",url3: "https://drive.google.com/file/d/1InWYabnMh49xh4J1dp6ewYCL3G71vfcb/view?usp=sharing",url4:"https://learnibox.vercel.app/enghelp"},
+            { titulo:"Simulation Exam ",descripcion:"The second part of the Use of English paper in the B2 First Examination is open cloze, in which students use one word to fill each space in a short text. The required words are usually grammatical, such as pronouns, articles, prepositions, auxiliary verbs and so on.",url: "https://youtu.be/Hk1y2D9jbvQ",url3: "https://drive.google.com/file/d/1InWYabnMh49xh4J1dp6ewYCL3G71vfcb/view?usp=sharing",url4:"https://learnibox.vercel.app/enghelp"},
 
            
         ],
@@ -58,7 +58,7 @@ export const roadB2C = [
         channel: "sdasd",
         description: "Completa los desafíos para dominar el Inglés",
         enlaces: [
-            { titulo: "Simulations",url: "https://drive.google.com/file/d/1FoMiuTrYJHxJYyBsbBrqvs10Kb8cYf2T/view?usp=sharing",url7:"https://drive.google.com/file/d/1cy_Ap7DUYRZWyCVjPoAYy3njDBlrmXm_/view?usp=sharing",url8:"http://learnibox.vercel.app/tc" },    
+            { titulo: "Simulations",descripcion:"The third part of the Use of English paper in the B2 First Examination is word formation where students use a root such as 'able' and create an appropriate word (disable, unable, ability) to fill the gap in a text.",url: "https://drive.google.com/file/d/1FoMiuTrYJHxJYyBsbBrqvs10Kb8cYf2T/view?usp=sharing",url7:"https://drive.google.com/file/d/1cy_Ap7DUYRZWyCVjPoAYy3njDBlrmXm_/view?usp=sharing",url8:"http://learnibox.vercel.app/tc" },    
             { titulo: "✍ WF002 - Prefixes and Negative Meanings ",url: "https://drive.google.com/file/d/1NI-L5UBxQ5gFeRac6oVhMXD_T-5YCjiv/view?usp=sharing", },    
             { titulo: "✍ WF003 - Crossword - Word Formation ",url: "https://drive.google.com/file/d/194QnF1Gc-wIRpiWAOtqWy-D8B78coaSL/view?usp=sharing", },    
             { titulo: "✍ WF019 - Word Formation - Nouns, Verbs, Adjectives ",url: "https://drive.google.com/file/d/18krxCjRSmgc3wfWPtGK2qggwq0lUlfnW/view?usp=sharing", },    
@@ -80,6 +80,8 @@ export const roadB2C = [
         channel: "sdasd",
         description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
         enlaces: [
+              { titulo:"Key Word Transformation ",descripcion:"The final part of the Use of English paper is Key Word Transformations. A sentence followed by a key word and a second sentence which has a gap in it. A student has to use the key word to complete the second sentence so that it means the same as the first sentence.",url: "https://drive.google.com/file/d/1fzxVyBLvMHRwzfHTGLgYapKOXasOXv0m/view?usp=sharing",url3:"https://drive.google.com/file/d/1SlBZ6S1G4Jk_fMSC9kPJRa_XY_GuJfRN/view?usp=sharing",url7:"http://learnibox.vercel.app/kwt"},
+
             { titulo:"Presentación",url: "https://youtu.be/Hk1y2D9jbvQ"},
             { titulo:"50 Key Word Transformation ",url: "https://drive.google.com/file/d/1shC9iwswMYoymUEiJ8H1s8b9ngvp8gdB/view?usp=sharing"},
 
@@ -87,7 +89,6 @@ export const roadB2C = [
             { titulo:"Test KWT 01 ",url: "https://drive.google.com/file/d/10cOoRCKkswKlwi2GOM4cvdOlWNBE-Hbx/view?usp=sharing"},
             { titulo:"Solución KWT 02 ",url: "https://drive.google.com/file/d/1VeU2a_peDOk2WMACF8anyG0GwLGZzOvM/view?usp=sharing",url2: "https://youtu.be/7wrY5gW_Xco"},
             { titulo:"Solución KWT 03 ",url: "https://drive.google.com/file/d/1meGXse7csULGWCCAAOkANu1ckqn_bg5o/view?usp=sharing",url2: "https://youtu.be/D11X4WGnhuU",},
-            { titulo:"Key Word Transformation ",url: "https://drive.google.com/file/d/1fzxVyBLvMHRwzfHTGLgYapKOXasOXv0m/view?usp=sharing",url3:"https://drive.google.com/file/d/1SlBZ6S1G4Jk_fMSC9kPJRa_XY_GuJfRN/view?usp=sharing",url7:"http://learnibox.vercel.app/kwt"},
 
          
             { titulo:"📚[pdf] Key Word Transformation 001 ",url: "https://drive.google.com/file/d/1fzxVyBLvMHRwzfHTGLgYapKOXasOXv0m/view?usp=sharing",url3:"https://drive.google.com/file/d/1cXjQsg8lVZghohRvTd1D5DLjgByRfnww/view?usp=sharing",url7:"http://learnibox.vercel.app/kwt"},
@@ -102,6 +103,23 @@ export const roadB2C = [
             { titulo:"📚 Key Word Transformation 31 ",url: "https://drive.google.com/file/d/10vJ82iasNVDoCWiUomoA_zyp_NilAknA/view?usp=sharing"},
             { titulo:"📚 Key Word Transformation 32 ",url: "https://drive.google.com/file/d/1-92IEBQQcqQwK3LxDdLYmiAw0zaD6WGp/view?usp=sharing"},
 
+        ],
+    },
+      {
+        id: 25,
+        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
+
+        title: "Gapped Text",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Completa los desafíos para dominar el Inglés",
+        enlaces: [
+            { titulo: "Simulations",descripcion:"A single page of text with some numbered gaps which represent missing sentences. After the text there are some sentences which are not in the right order. Students have to read the text and the sentences and decide which sentence best fits each gap.",url3: "https://drive.google.com/file/d/1W-uiH_VebMKmHmdY2JPzsODDyhJa_ayi/view?usp=sharing",url7:"https://drive.google.com/file/d/1W-uiH_VebMKmHmdY2JPzsODDyhJa_ayi/view?usp=sharing",url8:"http://learnibox.vercel.app/gt" },    
+           
+
+            
         ],
     },
     {
