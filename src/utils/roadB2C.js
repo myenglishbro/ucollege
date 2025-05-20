@@ -15,7 +15,95 @@ export const roadB2C = [
 
         ],
     },
+     {
+        id: 3,
+        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
 
+        title: "Multiple  Choice Cloze ",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+        enlaces: [
+            { titulo:"Simulacion ",url: "https://youtu.be/Hk1y2D9jbvQ",url3: "https://drive.google.com/file/d/1ZuTexZqm-GlIFwAuRLCaACwAwGGtLgKD/view?usp=sharing",url4:"https://learnibox.vercel.app/mct"},
+
+           
+        ],
+    },
+     {
+        id: 3,
+        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
+
+        title: "Open Cloze ",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+        enlaces: [
+            { titulo:"Simulacion ",url: "https://youtu.be/Hk1y2D9jbvQ",url3: "https://drive.google.com/file/d/1InWYabnMh49xh4J1dp6ewYCL3G71vfcb/view?usp=sharing",url4:"https://learnibox.vercel.app/enghelp"},
+
+           
+        ],
+    },
+        {
+        id: 25,
+        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
+
+        title: "Word Formation",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Completa los desafíos para dominar el Inglés",
+        enlaces: [
+            { titulo: "Simulations",url: "https://drive.google.com/file/d/1FoMiuTrYJHxJYyBsbBrqvs10Kb8cYf2T/view?usp=sharing",url7:"https://drive.google.com/file/d/1cy_Ap7DUYRZWyCVjPoAYy3njDBlrmXm_/view?usp=sharing",url8:"http://learnibox.vercel.app/tc" },    
+            { titulo: "✍ WF002 - Prefixes and Negative Meanings ",url: "https://drive.google.com/file/d/1NI-L5UBxQ5gFeRac6oVhMXD_T-5YCjiv/view?usp=sharing", },    
+            { titulo: "✍ WF003 - Crossword - Word Formation ",url: "https://drive.google.com/file/d/194QnF1Gc-wIRpiWAOtqWy-D8B78coaSL/view?usp=sharing", },    
+            { titulo: "✍ WF019 - Word Formation - Nouns, Verbs, Adjectives ",url: "https://drive.google.com/file/d/18krxCjRSmgc3wfWPtGK2qggwq0lUlfnW/view?usp=sharing", },    
+            { titulo: "✍ WF020 - Word Formation - Nouns, Verbs, Adjectives ",url: "https://drive.google.com/file/d/18J49WKoMt8jXjiKAcxrFnaqTykF-0QHw/view?usp=sharing", },    
+            { titulo: "✍ WF021 - Word Formation - Nouns, Verbs, Adjectives ",url: "https://drive.google.com/file/d/17L45VWvsHTY1ToaELcaEXaIpT8bgSKRB/view?usp=sharing", },    
+            { titulo: "✍ WF024 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1vLs14YohPvffTs6s3PuFznGWKsM0_1TV/view?usp=sharing", },    
+
+            
+        ],
+    },
+    {
+        id: 3,
+        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
+
+        title: "Key Word Transformation",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+        enlaces: [
+            { titulo:"Presentación",url: "https://youtu.be/Hk1y2D9jbvQ"},
+            { titulo:"50 Key Word Transformation ",url: "https://drive.google.com/file/d/1shC9iwswMYoymUEiJ8H1s8b9ngvp8gdB/view?usp=sharing"},
+
+            { titulo:"Solución KWT 01 ",url: "https://youtu.be/muqLK--ykjg"},
+            { titulo:"Test KWT 01 ",url: "https://drive.google.com/file/d/10cOoRCKkswKlwi2GOM4cvdOlWNBE-Hbx/view?usp=sharing"},
+            { titulo:"Solución KWT 02 ",url: "https://drive.google.com/file/d/1VeU2a_peDOk2WMACF8anyG0GwLGZzOvM/view?usp=sharing",url2: "https://youtu.be/7wrY5gW_Xco"},
+            { titulo:"Solución KWT 03 ",url: "https://drive.google.com/file/d/1meGXse7csULGWCCAAOkANu1ckqn_bg5o/view?usp=sharing",url2: "https://youtu.be/D11X4WGnhuU",},
+            { titulo:"Key Word Transformation ",url: "https://drive.google.com/file/d/1fzxVyBLvMHRwzfHTGLgYapKOXasOXv0m/view?usp=sharing",url3:"https://drive.google.com/file/d/1SlBZ6S1G4Jk_fMSC9kPJRa_XY_GuJfRN/view?usp=sharing",url7:"http://learnibox.vercel.app/kwt"},
+
+         
+            { titulo:"📚[pdf] Key Word Transformation 001 ",url: "https://drive.google.com/file/d/1fzxVyBLvMHRwzfHTGLgYapKOXasOXv0m/view?usp=sharing",url3:"https://drive.google.com/file/d/1cXjQsg8lVZghohRvTd1D5DLjgByRfnww/view?usp=sharing",url7:"http://learnibox.vercel.app/kwt"},
+            { titulo:"📚[pdf] Key Word Transformation 002 ",url: "https://drive.google.com/file/d/1AytA61HbBmJgFLcXNEwEBHJQjVelp1T3/view?usp=sharing"},
+            { titulo:"📚[pdf] Key Word Transformation 003 ",url: "https://drive.google.com/file/d/1Kx3tL5lWNxOaeJwuu5bKqhaML8fi9nb6/view?usp=sharing"},
+            { titulo:"📚[pdf] Key Word Transformation 004 ",url: "https://drive.google.com/file/d/1CkMzAwGVkwxbkDaLMAIaxo_cs3o4KADY/view?usp=sharing"},
+            { titulo:"📚[pdf] Key Word Transformation 005 ",url: "https://drive.google.com/file/d/1qDQx3HJZL9Vkm6vOC9a-m7vUkqw4HMRa/view?usp=sharing"},
+
+            { titulo:"📚 Key Word Transformation 28 ",url: "https://drive.google.com/file/d/10ct8FrtXch8uWcAuVeXoOw0h9aRZMm3f/view?usp=sharing"},
+            { titulo:"📚 Key Word Transformation 29 ",url: "https://drive.google.com/file/d/1pTn7jQaGDjGHZ6LjXOUDpTy5j86W73BZ/view?usp=sharing"},
+            { titulo:"📚 Key Word Transformation 30 ",url: "https://drive.google.com/file/d/1is1Fl-t-3IUPB31eclX1E6JpyyESoqtY/view?usp=sharing"},
+            { titulo:"📚 Key Word Transformation 31 ",url: "https://drive.google.com/file/d/10vJ82iasNVDoCWiUomoA_zyp_NilAknA/view?usp=sharing"},
+            { titulo:"📚 Key Word Transformation 32 ",url: "https://drive.google.com/file/d/1-92IEBQQcqQwK3LxDdLYmiAw0zaD6WGp/view?usp=sharing"},
+
+        ],
+    },
     {
         id: 1,
         thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
@@ -74,73 +162,9 @@ export const roadB2C = [
             { titulo:"Shy Away From sth   ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/1LKd3X2Qr8MJ-52QtwBi9f6NR-AWD9anl/view?usp=sharing",url3: "https://drive.google.com/file/d/188wbcEig0wGPF2gscPLlQhF_xayYwKHF/view?usp=sharing" },
         ],
     },
-       {
-        id: 3,
-        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
-
-        title: "Multiple  Choice Cloze ",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 0 ",
-        channel: "sdasd",
-        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
-        enlaces: [
-            { titulo:"Simulacion ",url: "https://youtu.be/Hk1y2D9jbvQ",url3: "https://drive.google.com/file/d/1ZuTexZqm-GlIFwAuRLCaACwAwGGtLgKD/view?usp=sharing",url4:"https://learnibox.vercel.app/gspace"},
-
-           
-        ],
-    },
-     {
-        id: 3,
-        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
-
-        title: "Open Cloze ",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 0 ",
-        channel: "sdasd",
-        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
-        enlaces: [
-            { titulo:"Simulacion ",url: "https://youtu.be/Hk1y2D9jbvQ",url3: "https://drive.google.com/file/d/1InWYabnMh49xh4J1dp6ewYCL3G71vfcb/view?usp=sharing",url4:"https://learnibox.vercel.app/enghelp"},
-
-           
-        ],
-    },
-    {
-        id: 3,
-        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
-
-        title: "Key Word Transformation",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 0 ",
-        channel: "sdasd",
-        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
-        enlaces: [
-            { titulo:"Presentación",url: "https://youtu.be/Hk1y2D9jbvQ"},
-            { titulo:"50 Key Word Transformation ",url: "https://drive.google.com/file/d/1shC9iwswMYoymUEiJ8H1s8b9ngvp8gdB/view?usp=sharing"},
-
-            { titulo:"Solución KWT 01 ",url: "https://youtu.be/muqLK--ykjg"},
-            { titulo:"Test KWT 01 ",url: "https://drive.google.com/file/d/10cOoRCKkswKlwi2GOM4cvdOlWNBE-Hbx/view?usp=sharing"},
-            { titulo:"Solución KWT 02 ",url: "https://drive.google.com/file/d/1VeU2a_peDOk2WMACF8anyG0GwLGZzOvM/view?usp=sharing",url2: "https://youtu.be/7wrY5gW_Xco"},
-            { titulo:"Solución KWT 03 ",url: "https://drive.google.com/file/d/1meGXse7csULGWCCAAOkANu1ckqn_bg5o/view?usp=sharing",url2: "https://youtu.be/D11X4WGnhuU",},
-            { titulo:"Key Word Transformation ",url: "https://drive.google.com/file/d/1fzxVyBLvMHRwzfHTGLgYapKOXasOXv0m/view?usp=sharing",url3:"https://drive.google.com/file/d/1SlBZ6S1G4Jk_fMSC9kPJRa_XY_GuJfRN/view?usp=sharing",url7:"http://learnibox.vercel.app/kwt"},
-
-         
-            { titulo:"📚[pdf] Key Word Transformation 001 ",url: "https://drive.google.com/file/d/1fzxVyBLvMHRwzfHTGLgYapKOXasOXv0m/view?usp=sharing",url3:"https://drive.google.com/file/d/1cXjQsg8lVZghohRvTd1D5DLjgByRfnww/view?usp=sharing",url7:"http://learnibox.vercel.app/kwt"},
-            { titulo:"📚[pdf] Key Word Transformation 002 ",url: "https://drive.google.com/file/d/1AytA61HbBmJgFLcXNEwEBHJQjVelp1T3/view?usp=sharing"},
-            { titulo:"📚[pdf] Key Word Transformation 003 ",url: "https://drive.google.com/file/d/1Kx3tL5lWNxOaeJwuu5bKqhaML8fi9nb6/view?usp=sharing"},
-            { titulo:"📚[pdf] Key Word Transformation 004 ",url: "https://drive.google.com/file/d/1CkMzAwGVkwxbkDaLMAIaxo_cs3o4KADY/view?usp=sharing"},
-            { titulo:"📚[pdf] Key Word Transformation 005 ",url: "https://drive.google.com/file/d/1qDQx3HJZL9Vkm6vOC9a-m7vUkqw4HMRa/view?usp=sharing"},
-
-            { titulo:"📚 Key Word Transformation 28 ",url: "https://drive.google.com/file/d/10ct8FrtXch8uWcAuVeXoOw0h9aRZMm3f/view?usp=sharing"},
-            { titulo:"📚 Key Word Transformation 29 ",url: "https://drive.google.com/file/d/1pTn7jQaGDjGHZ6LjXOUDpTy5j86W73BZ/view?usp=sharing"},
-            { titulo:"📚 Key Word Transformation 30 ",url: "https://drive.google.com/file/d/1is1Fl-t-3IUPB31eclX1E6JpyyESoqtY/view?usp=sharing"},
-            { titulo:"📚 Key Word Transformation 31 ",url: "https://drive.google.com/file/d/10vJ82iasNVDoCWiUomoA_zyp_NilAknA/view?usp=sharing"},
-            { titulo:"📚 Key Word Transformation 32 ",url: "https://drive.google.com/file/d/1-92IEBQQcqQwK3LxDdLYmiAw0zaD6WGp/view?usp=sharing"},
-
-        ],
-    },
+      
+    
+    
     {
         id: 4,
         thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
@@ -274,28 +298,7 @@ export const roadB2C = [
         ],
     },
     
-    {
-        id: 25,
-        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
-
-        title: "Word Formation",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 01 ",
-        channel: "sdasd",
-        description: "Completa los desafíos para dominar el Inglés",
-        enlaces: [
-            { titulo: "Simulations",url: "https://drive.google.com/file/d/1FoMiuTrYJHxJYyBsbBrqvs10Kb8cYf2T/view?usp=sharing",url7:"https://drive.google.com/file/d/1cy_Ap7DUYRZWyCVjPoAYy3njDBlrmXm_/view?usp=sharing",url8:"http://learnibox.vercel.app/tc" },    
-            { titulo: "✍ WF002 - Prefixes and Negative Meanings ",url: "https://drive.google.com/file/d/1NI-L5UBxQ5gFeRac6oVhMXD_T-5YCjiv/view?usp=sharing", },    
-            { titulo: "✍ WF003 - Crossword - Word Formation ",url: "https://drive.google.com/file/d/194QnF1Gc-wIRpiWAOtqWy-D8B78coaSL/view?usp=sharing", },    
-            { titulo: "✍ WF019 - Word Formation - Nouns, Verbs, Adjectives ",url: "https://drive.google.com/file/d/18krxCjRSmgc3wfWPtGK2qggwq0lUlfnW/view?usp=sharing", },    
-            { titulo: "✍ WF020 - Word Formation - Nouns, Verbs, Adjectives ",url: "https://drive.google.com/file/d/18J49WKoMt8jXjiKAcxrFnaqTykF-0QHw/view?usp=sharing", },    
-            { titulo: "✍ WF021 - Word Formation - Nouns, Verbs, Adjectives ",url: "https://drive.google.com/file/d/17L45VWvsHTY1ToaELcaEXaIpT8bgSKRB/view?usp=sharing", },    
-            { titulo: "✍ WF024 - Word Formation Sentences ",url: "https://drive.google.com/file/d/1vLs14YohPvffTs6s3PuFznGWKsM0_1TV/view?usp=sharing", },    
-
-            
-        ],
-    },
+    
     {
         id: 5,
         thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",

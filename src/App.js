@@ -52,7 +52,7 @@ import RoadMapEg from "./pages/RoadMapEg";
 import RoadMapB2C from "./pages/RoadMapB2C";
 import RoadMapB2CF from "./pages/RoadMapB2CF";
 import TextFileUploader from "./components/TextFileUploader";
-import GrammarSpaceDefender from "./components/GrammarSpaceDefender";
+import GrammarSpaceDefender from "./components/MultipleChoiceTrainer";
 import GrammarMazeRunner from "./components/GrammarCodeQuest";
 import GrammarCodeQuest from "./components/GrammarCodeQuest";
 import GrammarGlassBridge from "./components/FightingGrammar";
@@ -62,6 +62,8 @@ import KeywordTransformerTrainer from "./components/KeywordTransformerTrainer";
 import CambridgeEncryptor from "./components/CambridgeEncryptor";
 import TrainingCenter from "./components/TrainingCenter";
 import TxtEncryptor from "./components/TxtEncryptor";
+import MultipleChoiceTrainer from "./components/MultipleChoiceTrainer";
+import GappedTextQuizUploader from "./components/GappedTextQuizUploader";
 
 function App() {
   return (
@@ -103,13 +105,14 @@ function App() {
           <Route path="/Certificate" element={<Certificate />}></Route>
 
           <Route path="/Enghelp" element={<TextFileUploader  />}></Route>
-          <Route path="/GSPACE" element={<GrammarSpaceDefender  />}></Route>
+          <Route path="/mct" element={<MultipleChoiceTrainer  />}></Route>
 
                   <Route path="/maze" element={<GrammarCodeQuest  />}></Route>
 
                           <Route path="/fight" element={<FightingGrammar  />}></Route>
                   <Route path="/kwt" element={<KeywordTransformerTrainer  />}></Route>
                   <Route path="/tc" element={<TrainingCenter  />}></Route>
+                  <Route path="/gt" element={<GappedTextQuizUploader  />}></Route>
 
                   <Route path="/encri" element={<EncryptTextUploader  />}></Route>
                   <Route path="/encri2" element={<CambridgeEncryptor  />}></Route>
