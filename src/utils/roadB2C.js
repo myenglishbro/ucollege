@@ -42,7 +42,7 @@ export const roadB2C = [
         channel: "sdasd",
         description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
         enlaces: [
-            { titulo:"Simulation Exam ",descripcion:"The second part of the Use of English paper in the B2 First Examination is open cloze, in which students use one word to fill each space in a short text. The required words are usually grammatical, such as pronouns, articles, prepositions, auxiliary verbs and so on.",url: "https://youtu.be/Hk1y2D9jbvQ",url3: "https://drive.google.com/file/d/1InWYabnMh49xh4J1dp6ewYCL3G71vfcb/view?usp=sharing",url4:"https://learnibox.vercel.app/writequiz"},
+            { titulo:"Simulation Exams ",descripcion:"The second part of the Use of English paper in the B2 First Examination is open cloze, in which students use one word to fill each space in a short text. The required words are usually grammatical, such as pronouns, articles, prepositions, auxiliary verbs and so on.",url: "https://youtu.be/Hk1y2D9jbvQ",url3: "https://drive.google.com/file/d/1InWYabnMh49xh4J1dp6ewYCL3G71vfcb/view?usp=sharing",url5:"https://learnibox.vercel.app/tq"},
 
            
         ],
