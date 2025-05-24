@@ -1,39 +1,21 @@
 import React, { useState, useEffect, useCallback } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-
-const COUNTDOWN_START = 15;
-const MODES = { LIFE: 'LIFE', QUIZ: 'QUIZ' };
+import { motion } from 'framer-motion';
 
 export default function MultipleChoiceTrainer() {
-  const [mode, setMode] = useState(MODES.LIFE);
-  const [showSettings, setShowSettings] = useState(true);
   const [questions, setQuestions] = useState([]);
   const [answersLog, setAnswersLog] = useState([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const [feedback, setFeedback] = useState('');
-  const [lives, setLives] = useState(3);
-  const [timer, setTimer] = useState(COUNTDOWN_START);
   const [streak, setStreak] = useState(0);
   const [maxStreak, setMaxStreak] = useState(0);
-  const [gameOver, setGameOver] = useState(false);
   const [finished, setFinished] = useState(false);
-  const [animateCorrect, setAnimateCorrect] = useState(false);
+  const [selectedOption, setSelectedOption] = useState(null);
+  const [showSettings, setShowSettings] = useState(true);
   const [dragActive, setDragActive] = useState(false);
 
   useEffect(() => {
-    if (mode !== MODES.LIFE || gameOver || finished) return;
-    if (timer <= 0) return handleAnswer(null);
-    const id = setInterval(() => setTimer(t => t - 1), 1000);
-    return () => clearInterval(id);
-  }, [timer, mode, gameOver, finished]);
-
-  useEffect(() => {
-    if (mode === MODES.QUIZ && currentIndex >= questions.length) setFinished(true);
-  }, [currentIndex, mode, questions.length]);
-
-  useEffect(() => {
-    if (mode === MODES.LIFE && lives <= 0) setGameOver(true);
-  }, [lives, mode]);
+    if (currentIndex >= questions.length && questions.length > 0) setFinished(true);
+  }, [currentIndex, questions.length]);
 
   const parseTXT = text => {
     const pattern = /E:\s*(.*?)\s*[\r\n]+O:\s*(.*?)\s*[\r\n]+A:(.*?)(?=[\r\n]+E:|$)/gs;
@@ -50,12 +32,15 @@ export default function MultipleChoiceTrainer() {
       const bin = atob(clean);
       const arr = Uint8Array.from(bin, c => c.charCodeAt(0));
       return new TextDecoder().decode(arr);
-    } catch { return b64; }
+    } catch {
+      return b64;
+    }
   };
 
   const handleUpload = async file => {
     if (!file) return;
-    let raw = await file.text(); raw = base64ToUtf8(raw);
+    let raw = await file.text();
+    raw = base64ToUtf8(raw);
     const loaded = parseTXT(raw);
     if (loaded.length) {
       setQuestions(loaded);
@@ -66,7 +51,7 @@ export default function MultipleChoiceTrainer() {
 
   const handleFileChange = e => handleUpload(e.target.files[0]);
 
-  const handleDrop = useCallback((e) => {
+  const handleDrop = useCallback(e => {
     e.preventDefault();
     setDragActive(false);
     if (e.dataTransfer.files && e.dataTransfer.files[0]) {
@@ -83,21 +68,20 @@ export default function MultipleChoiceTrainer() {
     if (clear) setQuestions([]);
     setCurrentIndex(0);
     setFeedback('');
-    setLives(3);
-    setTimer(COUNTDOWN_START);
     setStreak(0);
     setMaxStreak(0);
-    setGameOver(false);
     setFinished(false);
-    setAnimateCorrect(false);
+    setSelectedOption(null);
     setShowSettings(clear);
+    setAnswersLog([]);
   };
 
   const handleAnswer = choice => {
-    const q = questions[currentIndex]; if (!q) return;
+    const q = questions[currentIndex];
+    if (!q) return;
     const correct = choice?.trim().toLowerCase() === q.answer.trim().toLowerCase();
     setAnswersLog(log => [...log, { question: q.error, chosen: choice || '⏰', correct: q.answer }]);
-    setAnimateCorrect(correct);
+    setSelectedOption(choice);
     if (correct) {
       setStreak(s => {
         const newStreak = s + 1;
@@ -109,105 +93,109 @@ export default function MultipleChoiceTrainer() {
     }
     setFeedback(correct ? '✔️ ¡Correcto!' : `✖️ ${q.answer}`);
     setTimeout(() => {
-      if (mode === MODES.LIFE && !correct) setLives(l => l - 1);
-      if (mode === MODES.LIFE) setTimer(COUNTDOWN_START);
       setCurrentIndex(i => i + 1);
       setFeedback('');
-      setAnimateCorrect(false);
+      setSelectedOption(null);
     }, 1000);
   };
 
   const current = questions[currentIndex] || {};
-  const gradient = 'bg-gradient-to-br from-[#121212] via-[#1F1F1F] to-[#2B2B2B]';
-  const card = 'rounded-3xl p-6 shadow-xl border border-[#333]';
 
-  if (showSettings) return (
+  return (
     <div
-      className={`flex items-center justify-center min-h-screen ${gradient} text-white font-sans px-4 transition-all duration-500`}
+      className="relative min-h-screen bg-black flex items-center justify-center p-6 overflow-hidden"
       onDrop={handleDrop}
       onDragOver={e => handleDrag(e, true)}
       onDragLeave={e => handleDrag(e, false)}
     >
-      <div className={`${card} w-full max-w-md text-center ${dragActive ? 'border-4 border-dashed border-[#FFD700]' : ''}`}>
-        <h1 className="text-3xl font-bold mb-6 tracking-wider text-[#FFD700]">Multiple Choice Trainer 🚀</h1>
-        <p className="text-sm text-gray-400 mb-4">Train smarter. Answer sharper.</p>
-        <div className="flex justify-center gap-4 mb-6">
-          {[MODES.LIFE, MODES.QUIZ].map(m => (
-            <motion.button
-              key={m}
-              onClick={() => setMode(m)}
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.95 }}
-              className={`px-4 py-2 rounded-xl text-sm font-semibold transition-all duration-200 ${mode===m ? 'bg-[#FFD700] text-black' : 'bg-[#333] text-gray-300'}`}
-            >{m==='LIFE' ? '🎯 Modo Vida' : '🌀 Modo Quiz'}</motion.button>
-          ))}
-        </div>
-        <label className="block cursor-pointer bg-[#333] hover:bg-[#444] text-sm py-2 px-4 rounded-xl font-medium">
-          📂 Subir archivo .txt o arrástralo aquí
-          <input type="file" accept=".txt" onChange={handleFileChange} className="hidden" />
-        </label>
-      </div>
-    </div>
-  );
+      {/* Fondo animado + capa oscura */}
+      <div className="absolute inset-0 bg-[url('https://i.ibb.co/JRq450kr/Fondos-de-zoom-11.png')] bg-cover bg-center animate-pulse-slow opacity-30" />
+      <div className="absolute inset-0 bg-gradient-to-br from-[#0f1123] to-[#1c1e2f] opacity-90" />
 
-  if (gameOver || finished) {
-    const total = answersLog.length;
-    const correctCount = answersLog.filter(a=>a.chosen===a.correct).length;
-    const accuracy = total ? Math.round((correctCount/total)*100):0;
-    return (
-      <div className={`flex items-center justify-center min-h-screen ${gradient} text-white p-4`}>
-        <div className={`${card} w-full max-w-2xl`}>
-          <h2 className="text-2xl font-bold mb-4">{finished ? '✅ Quiz Completado' : '💀 Game Over'}</h2>
-          <div className="grid grid-cols-2 gap-4 mb-4 text-sm">
-            <div>Aciertos:</div><div>{correctCount}/{total} ({accuracy}%)</div>
-            <div>Racha Máxima:</div><div>{maxStreak}</div>
+      {/* Contenido principal */}
+      <div className="relative z-10 w-full max-w-4xl">
+        {showSettings ? (
+          <div className={`rounded-2xl p-8 shadow-2xl border border-white/10 bg-[#0D122B]/60 backdrop-blur-xl text-center ${dragActive ? 'border-4 border-cyan-400' : ''}`}>
+            <h1 className="text-3xl font-bold text-cyan-300 mb-4">Multiple Choice Cloze</h1>
+            <p className="text-gray-400 text-sm mb-4">Sube tu archivo para comenzar.</p>
+            <label className="cursor-pointer bg-[#1f1f2e] hover:bg-[#29293d] border border-gray-600 text-gray-200 text-sm py-2 px-4 rounded-xl inline-block">
+              📂 Subir archivo .txt o arrástralo aquí
+              <input type="file" accept=".txt" onChange={handleFileChange} className="hidden" />
+            </label>
           </div>
-          <div className="max-h-60 overflow-y-auto mb-4 space-y-1 px-3 py-2 bg-[#222] rounded-lg">
-            {answersLog.map((a,i)=>(
-              <div key={i} className="flex justify-between text-xs">
-                <span className="text-gray-400">Q{i+1}: {a.question}</span>
-                <span className={a.chosen===a.correct?'text-green-400':'text-red-400'}>{a.chosen}</span>
+        ) : finished ? (
+          <div className="rounded-2xl p-8 shadow-2xl border border-white/10 bg-[#0D122B]/60 backdrop-blur-xl">
+            <h2 className="text-2xl font-bold mb-4 text-purple-400">✅ Quiz Completado</h2>
+            <div className="grid grid-cols-2 gap-4 text-sm text-gray-300 mb-4">
+              <div>Aciertos:</div>
+              <div className="text-cyan-400 font-bold">
+                {answersLog.filter(a => a.chosen === a.correct).length}/{answersLog.length} (
+                {Math.round((answersLog.filter(a => a.chosen === a.correct).length / answersLog.length) * 100)}%)
               </div>
-            ))}
+              <div>Racha Máxima:</div>
+              <div className="text-pink-400 font-bold">{maxStreak}</div>
+            </div>
+            <div className="max-h-64 overflow-y-auto bg-[#1f1f2e]/60 rounded-lg p-3 mb-4">
+              {answersLog.map((a, i) => (
+                <div key={i} className="flex justify-between text-xs text-gray-400">
+                  <span>Q{i + 1}: {a.question}</span>
+                  <span className={a.chosen === a.correct ? 'text-cyan-400' : 'text-red-400'}>
+                    {a.chosen}
+                  </span>
+                </div>
+              ))}
+            </div>
+            <div className="flex justify-end gap-2">
+              <button onClick={() => resetState(true)} className="px-4 py-2 rounded-lg bg-[#1f1f2e] text-white border border-gray-600 hover:bg-[#29293d] text-sm">
+                📂 Subir otro
+              </button>
+              <button onClick={() => resetState(false)} className="px-4 py-2 rounded-lg bg-[#1f1f2e] text-white border border-gray-600 hover:bg-[#29293d] text-sm">
+                🔁 Reintentar
+              </button>
+            </div>
           </div>
-          <div className="flex justify-end gap-2">
-            <motion.button whileHover={{opacity:0.8}} onClick={()=>resetState(true)} className="px-4 py-2 bg-[#444] rounded-xl text-sm">📂 Subir otro</motion.button>
-            <motion.button whileHover={{opacity:0.8}} onClick={()=>resetState(false)} className="px-4 py-2 bg-[#444] rounded-xl text-sm">🔁 Reintentar</motion.button>
-          </div>
-        </div>
+        ) : (
+          <motion.div
+            initial={{ opacity: 0, scale: 0.95 }}
+            animate={{ opacity: 1, scale: 1 }}
+            transition={{ duration: 0.4 }}
+            className="rounded-2xl p-8 shadow-2xl border border-white/10 bg-[#0D122B]/60 backdrop-blur-xl"
+          >
+            <div className="mb-6 text-white text-lg font-semibold">{current.error}</div>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+              {current.options?.map((opt, i) => (
+                <motion.button
+                  key={i}
+                  onClick={() => handleAnswer(opt)}
+                  whileHover={{ scale: 1.05 }}
+                  whileTap={{ scale: 0.97 }}
+                  className={`
+                    py-3 px-4 rounded-xl text-sm font-semibold transition-all
+                    ${
+                      selectedOption === opt
+                        ? (opt === current.answer
+                            ? 'bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 text-white shadow-lg shadow-cyan-400/40'
+                            : 'bg-red-500/80 text-white shadow-md')
+                        : 'bg-[#1f1f2e] hover:bg-[#29293d] text-gray-200 border border-gray-600'
+                    }
+                  `}
+                >
+                  {opt}
+                </motion.button>
+              ))}
+            </div>
+            {feedback && (
+              <motion.div
+                initial={{ opacity: 0, y: -10 }}
+                animate={{ opacity: 1, y: 0 }}
+                className="mt-6 text-center text-lg font-bold text-cyan-400 animate-pulse"
+              >
+                {feedback}
+              </motion.div>
+            )}
+          </motion.div>
+        )}
       </div>
-    );
-  }
-
-  return (
-    <div className={`flex items-center justify-center min-h-screen ${gradient} text-white p-4`}>
-      <motion.div
-        initial={{ opacity: 0, scale: 0.95 }}
-        animate={{ opacity: 1, scale: 1 }}
-        transition={{ duration: 0.4 }}
-        className={`${card} w-full max-w-3xl`}
-      >
-        <div className="flex justify-between mb-4 text-sm text-gray-400">
-          {mode==='LIFE' ? <span>❤️ {lives} ⏳ {timer}s</span> : <span>🔥 Racha: {streak}</span>}
-        </div>
-        <div className="mb-6 text-lg font-semibold leading-tight text-white">{current.error}</div>
-        <div className="grid grid-cols-2 gap-4">
-          {current.options?.map((opt,i)=>(
-            <motion.button
-              key={i}
-              onClick={()=>handleAnswer(opt)}
-              whileHover={{scale:1.05}}
-              whileTap={{scale:0.95}}
-              animate={animateCorrect && opt.trim().toLowerCase() === current.answer.trim().toLowerCase() ? { scale: [1, 1.2, 1], backgroundColor: ["#2A2A2A", "#4CAF50", "#2A2A2A"] } : false}
-              transition={{ duration: 0.6 }}
-              className="p-3 bg-[#333] hover:bg-[#444] rounded-xl text-sm text-white transition-all"
-            >
-              {opt}
-            </motion.button>
-          ))}
-        </div>
-        {feedback && <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="mt-4 text-center text-sm font-bold text-green-400">{feedback}</motion.div>}
-      </motion.div>
     </div>
   );
 }
