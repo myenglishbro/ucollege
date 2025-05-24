@@ -51,7 +51,7 @@ import RoadMapUoe from "./pages/RoadMapUoe";
 import RoadMapEg from "./pages/RoadMapEg";
 import RoadMapB2C from "./pages/RoadMapB2C";
 import RoadMapB2CF from "./pages/RoadMapB2CF";
-import TextFileUploader from "./components/TextFileUploader";
+import TextFileUploader from "./components/WriteQuiz";
 import GrammarSpaceDefender from "./components/MultipleChoiceTrainer";
 import GrammarMazeRunner from "./components/GrammarCodeQuest";
 import GrammarCodeQuest from "./components/GrammarCodeQuest";
@@ -65,6 +65,7 @@ import TxtEncryptor from "./components/TxtEncryptor";
 import MultipleChoiceTrainer from "./components/MultipleChoiceTrainer";
 import GappedTextQuizUploader from "./components/GappedTextQuizUploader";
 import ReadingEn from "./components/ReadingEn";
+import WriteQuiz from "./components/WriteQuiz";
 
 function App() {
   return (
@@ -105,7 +106,7 @@ function App() {
           <Route path="/Enam" element={<RoadMapEnam />}></Route>
           <Route path="/Certificate" element={<Certificate />}></Route>
 
-          <Route path="/Enghelp" element={<TextFileUploader  />}></Route>
+          <Route path="/writequiz" element={<WriteQuiz  />}></Route>
           <Route path="/mct" element={<MultipleChoiceTrainer  />}></Route>
 
                   <Route path="/maze" element={<GrammarCodeQuest  />}></Route>
