@@ -70,6 +70,27 @@ export const roadB2C = [
         ],
     },
      {
+        id: 8,
+        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
+        title: " Mastering Verbs",
+        subtitle: "Basic Level",
+        dateAdded: "Basic 0 ",
+        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
+        description: "We will learn to introduce ourselves, spell names and words, describe people, introduce family members, and provide personal information.",
+        enlaces: [
+           { titulo: "Los Verbos Irregulares II ", url: "https://drive.google.com/file/d/1EhALfkVQb-G5ylK9qMc674zmh8LWd-kT/view?usp=share_link",},
+           { titulo:"Irregular Verbs forms ",descripcion:"Practice this with more than 200 exercises",url: "https://drive.google.com/file/d/1RpV1uLe-A215sfP1S954zi2zQs_XDvDg/view?usp=share_link",url3: "https://drive.google.com/file/d/19PGRN6t6JF3TyYxYBCJOzAdKDWIIurX3/view?usp=sharing",url5:"https://learnibox.vercel.app/tq"},
+
+           { titulo: "Transitive and Intransitive Verbs",url: "https://drive.google.com/file/d/1q9Ay8KRUU9tSwuHEvjIM8bKZ3PWCyjkZ/view?usp=sharing", },
+            { titulo: " Gerunds and Infinitives Explanation",url: "https://drive.google.com/file/d/1rE08bQrEyF0TVO7FTYWGtLaiOGKuLjRO/view?usp=sharing",url3:"https://drive.google.com/file/d/1ezv2iZSq1XyKjAdi8gye4qm8SzSvLEv8/view?usp=sharing",url7:"https://learnibox.vercel.app/tq" },
+         
+
+           
+            
+        ],
+    },
+    
+     {
         id: 6,
         thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
         title: "Passive Voice",
@@ -1261,48 +1282,7 @@ export const roadB2C = [
         ],
     },
     
-    {
-        id: 15,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
-
-        title: "M4 - English Verb Patterns",
-        subtitle: "Basic Level",
-
-        dateAdded: "Basic 0 ",
-        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
-        description: "We will learn to introduce ourselves, spell names and words, describe people, introduce family members, and provide personal information.",
-        enlaces: [
-            { titulo: "📒[slides] Transitive and Intransitive Verbs",url: "https://drive.google.com/file/d/1q9Ay8KRUU9tSwuHEvjIM8bKZ3PWCyjkZ/view?usp=sharing", },
-            { titulo: "📒[slides] Gerunds and Infinitives Explanation",url: "https://drive.google.com/file/d/1rE08bQrEyF0TVO7FTYWGtLaiOGKuLjRO/view?usp=sharing", },
-            { titulo: "✍  Gerunds and Infinitives Exercise 1",url: "https://drive.google.com/file/d/1KJKLqjSwQeILyViRun9ADqge1ikKPmSD/view?usp=sharing", },
-            { titulo: "✍  Gerunds and Infinitives Exercise 2",url: "https://drive.google.com/file/d/19WY1c2LJZrAjj84niwx-u5dgh-dafQb6/view?usp=sharing", },
-            { titulo: "✍  Gerunds and Infinitives Exercise 3",url: "https://drive.google.com/file/d/1xURjjQPkur3dYBtFRuZTmbnqlC-ZCb2b/view?usp=sharing", },
-            { titulo: "💡  GI003 - Gerund or Infinitive - Fill in the correct form ",url: "https://drive.google.com/file/d/1H6BxX1OPZ-5fU7peCACnw6vRV5-lnUPW/view?usp=sharing", },
-            { titulo: "🔑  GI003 - Gerund or Infinitive - Fill in the correct form ",url: "https://drive.google.com/file/d/1OYpGW81Wt7dvLTsTa7zddJRJIKKo7Mpn/view?usp=sharing", },
-            { titulo: "💡  GI004 - Gerund or Infinitive - Fill in the correct form ",url: "https://drive.google.com/file/d/1GOe8JtMyfLpayGkIgkUn1IkGRblKsoGf/view?usp=sharing", },
-            { titulo: "🔑  GI004 - Gerund or Infinitive - Fill in the correct form ",url: "https://drive.google.com/file/d/1iAOBovzOkjJH9Z9rToPCj8losTuXz9ov/view?usp=sharing", },
-            { titulo: "🧩  Desafio gerund vs infinitive",url: "https://wordwall.net/play/7240/772/7948", },
-            { titulo: "🧩  Desafio gerund vs infinitive II",url: "https://wordwall.net/play/22920/270/462", },
-            { titulo: "🧩  Desafio gerund vs infinitive III",url: "https://wordwall.net/play/76232/915/656", },
-            { titulo: "🧩  Desafio gerund vs infinitive IV",url: "https://wordwall.net/play/71477/712/378", },
-            { titulo: "🧩  Desafio gerund vs infinitive V",url: "https://wordwall.net/play/75464/667/869", },
-            { titulo: "🧩  Desafio gerund vs infinitive VI ",url: "https://wordwall.net/play/59257/372/969", },
-            { titulo: "🧩  Desafio gerund vs infinitive VII ",url: "https://wordwall.net/play/4838/285/4447", },
-
-           
-           
-
-
-
-          
-            {
-                titulo: "📒[slides] UNIT 5:PRESENT PERFECT AND SIMPLE PAST",
-                url: "https://docs.google.com/presentation/d/1bpMRMy7LVba68bhwB6w2KUEXmD7n-MAP/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true",
-            },
-
-            
-        ],
-    },
+    
     {
         id: 18,
         thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
