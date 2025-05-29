@@ -67,6 +67,9 @@ import GappedTextQuizUploader from "./components/GappedTextQuizUploader";
 import ReadingEn from "./components/ReadingEn";
 import WriteQuiz from "./components/WriteQuiz";
 import TypeQuiz from "./components/TypeQuiz";
+import WordReorderGame from "./components/WordReorderGame";
+import AudioListeningQuiz from "./components/AudioListeningQuiz";
+import ConversationPracticeBot from "./components/ConversationPracticeBot.jsx";
 
 function App() {
   return (
@@ -109,6 +112,9 @@ function App() {
 
           <Route path="/tq" element={<TypeQuiz  />}></Route>
           <Route path="/mct" element={<MultipleChoiceTrainer  />}></Route>
+          <Route path="/wo" element={<WordReorderGame  />}></Route>
+          <Route path="/audio" element={<AudioListeningQuiz  />}></Route>
+          <Route path="/conversa" element={<ConversationPracticeBot  />}></Route>
 
                   <Route path="/maze" element={<GrammarCodeQuest  />}></Route>
 
