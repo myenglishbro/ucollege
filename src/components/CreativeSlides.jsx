@@ -103,6 +103,15 @@ export default function CreativeSlides() {
     return () => window.removeEventListener('keydown', handler);
   }, [stage, currentIndex]);
 
+  const toggleFullScreen = () => {
+    const elem = document.documentElement;
+    if (!document.fullscreenElement) {
+      elem.requestFullscreen().catch(err => console.error(err));
+    } else {
+      document.exitFullscreen().catch(err => console.error(err));
+    }
+  };
+
   const current = slides[currentIndex] || {};
 
   return (
@@ -130,8 +139,16 @@ export default function CreativeSlides() {
 
       {stage === 'playing' && (
         <div className="relative z-10 max-w-6xl w-full rounded-xl p-8 bg-black/60 backdrop-blur-lg shadow-xl">
-          <div className="w-full bg-gray-800 rounded-full h-2.5 mb-4">
-            <div className="bg-cyan-400 h-2.5" style={{ width: `${((currentIndex + 1) / slides.length) * 100}%` }}></div>
+          <div className="flex justify-between items-center mb-4">
+            <div className="w-full bg-gray-800 rounded-full h-2.5">
+              <div className="bg-cyan-400 h-2.5" style={{ width: `${((currentIndex + 1) / slides.length) * 100}%` }}></div>
+            </div>
+            <button
+              onClick={toggleFullScreen}
+              className="ml-4 px-3 py-1 text-xs bg-gray-700 hover:bg-gray-600 rounded"
+            >
+              🖥 Full Screen
+            </button>
           </div>
 
           <AnimatePresence mode="wait">
