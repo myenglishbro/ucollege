@@ -71,7 +71,7 @@ const RoadMapTech = () => {
           <button className="sidebar-toggle" onClick={toggleSidebar}>
             ☰
           </button>
-          <SidebarT
+          <Sidebar
             road={roadtech}
             seleccionarNivel={seleccionarNivel}
             isSidebarVisible={isSidebarVisible}
