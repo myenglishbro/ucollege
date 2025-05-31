@@ -264,7 +264,6 @@ export const benefits = [
         "✅ 03 Reprogramaciones",
         "✅ Acceso al Roadmap con Material Exclusivo (A1 to C1 90 días)",
         "✅ Código de Descarga Roadmap",
-        "✅ Talleres los fines de semana Sábados y Domingo",
       ],
       price: "S/.590 Nuevos Soles",
       enlace:
@@ -285,12 +284,14 @@ export const benefits = [
     details: {
       features: [
         "✅ Clases Personalizadas + Material de Clase",
+        "✅ Material de Clase",
+
         "✅Puedes hacer preguntas al profe por wsp directamente",
         "✅ Incluye preparacion para Exámenes Internacionales",
-        "❌ No hay Reprogramaciones",
+        "❌ No hay Reprogramaciones - si faltas no se recuperan",
         "❌ Acceso al Roadmap con Material Exclusivo(30 días)",
         "❌ Código de Descarga Roadmap",
-        "✅ Talleres los fines de semana Sábados y Domingo",
+       
       ],
       price: "S/.390 Nuevos Soles",
       enlace:
