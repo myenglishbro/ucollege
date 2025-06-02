@@ -17,6 +17,7 @@ export default function TypeQuiz() {
   const [maxStreak, setMaxStreak] = useState(0);
   const [stage, setStage] = useState('splash');
   const timerRef = useRef(null);
+const [attempts, setAttempts] = useState([]);
 
   const parseFlashcards = encodedText => {
     try {
@@ -110,10 +111,24 @@ export default function TypeQuiz() {
     }, 1500);
   };
 
-  const check = () => {
-    const clean = s => s.trim().toLowerCase().replace(/[.,!?¡¿'"`]/g, '');
-    clean(input) === clean(queue[index]?.answer) ? markCorrect() : markWrong();
-  };
+ const check = () => {
+  const clean = s => s.trim().toLowerCase().replace(/[.,!?¡¿'"`]/g, '');
+  const userAnswer = input.trim();
+  const correctAnswer = queue[index]?.answer || '';
+  const isCorrect = clean(userAnswer) === clean(correctAnswer);
+
+  setAttempts(prev => [
+    ...prev,
+    {
+      question: queue[index]?.question,
+      userAnswer,
+      correctAnswer,
+      isCorrect,
+    }
+  ]);
+
+  isCorrect ? markCorrect() : markWrong();
+};
 
   const nextCard = () => {
     setInput('');
@@ -164,6 +179,20 @@ export default function TypeQuiz() {
     <p>✔️ {correct} — ❌ {wrong}</p>
     <p className="text-cyan-300 font-bold">🔥 Racha Máxima: {maxStreak}</p>
     <p className="text-gray-400">Sigue estudiando</p>
+<div className="text-left bg-[#0f1123]/60 p-4 rounded-lg max-h-[300px] overflow-y-auto border border-gray-700">
+  <h3 className="text-lg font-bold text-cyan-300 mb-2">📋 Resumen de respuestas</h3>
+  <ul className="space-y-2 text-sm">
+    {attempts.map((a, i) => (
+      <li key={i} className={`p-2 rounded ${a.isCorrect ? 'bg-green-800/40' : 'bg-red-800/40'}`}>
+        <p><strong>❓ Pregunta:</strong> {a.question}</p>
+        <p><strong>📝 Tu respuesta:</strong> <span className={a.isCorrect ? 'text-green-300' : 'text-red-300'}>{a.userAnswer}</span></p>
+        {!a.isCorrect && (
+          <p><strong>✅ Respuesta correcta:</strong> <span className="text-green-400">{a.correctAnswer}</span></p>
+        )}
+      </li>
+    ))}
+  </ul>
+</div>
 
     <div className="flex flex-col items-center gap-3">
       <button

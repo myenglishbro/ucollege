@@ -71,6 +71,8 @@ import WordReorderGame from "./components/WordReorderGame";
 import AudioListeningQuiz from "./components/AudioListeningQuiz";
 import ConversationPracticeBot from "./components/ConversationPracticeBot.jsx";
 import CreativeSlides from "./components/CreativeSlides.jsx";
+import AttendanceTracker from "./components/AttendanceTracker.jsx";
+import ReporteMensual from "./components/ReporteMensual.jsx";
 
 function App() {
   return (
@@ -117,6 +119,9 @@ function App() {
           <Route path="/audio" element={<AudioListeningQuiz  />}></Route>
           <Route path="/conversa" element={<ConversationPracticeBot  />}></Route>
           <Route path="/slides" element={<CreativeSlides  />}></Route>
+          <Route path="/attendance" element={<AttendanceTracker  />}></Route>
+          <Route path="/attendance" element={<AttendanceTracker  />}></Route>
+          <Route path="/report-attendance" element={<ReporteMensual  />}></Route>
 
                   <Route path="/maze" element={<GrammarCodeQuest  />}></Route>
 
