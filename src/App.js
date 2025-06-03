@@ -108,7 +108,7 @@ function App() {
           <Route path="/RoadMapEngine" element={<RoadMapEngine />}></Route>
           <Route path="/RoadMapHealth" element={<RoadMapHealth />}></Route>
           <Route path="/RoadMapMix" element={<RoadMapMix />}></Route>
-          <Route path="/RoadMapTech" element={<RoadMapTech />}></Route>
+          <Route path="/valere" element={<RoadMapTech />}></Route>
           <Route path="/Celpip" element={<RoadMapCelpip />}></Route>
           <Route path="/Enam" element={<RoadMapEnam />}></Route>
           <Route path="/Certificate" element={<Certificate />}></Route>
