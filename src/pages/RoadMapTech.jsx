@@ -61,7 +61,8 @@ const RoadMapTech = () => {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
+
       {!mostrarComponente ? (
         <>
           <LoginFormB2T onLoginSuccess={handleLoginSuccess} />

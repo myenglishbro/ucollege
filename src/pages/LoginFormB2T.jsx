@@ -1,65 +1,35 @@
 "use client";
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { validCredentials } from "../utils/credentials";
-import { 
-  FaWhatsapp, 
-  FaUserAlt, 
-  FaLock, 
-  FaMoneyBillAlt, 
-  FaFileUpload, 
-  FaUserEdit, 
-  FaSignInAlt 
+import {
+  FaUserAlt,
+  FaLock,
+  FaMoneyBillAlt,
+  FaFileUpload,
+  FaUserEdit,
+  FaSignInAlt,
 } from "react-icons/fa";
 
-// Componente Wrapper para el Tooltip con animación dinámica
-const TooltipWrapper = ({ tooltip, children }) => (
-  <div className="relative group">
-    {children}
-    <div
-      className="
-        absolute bottom-full left-1/2 transform -translate-x-1/2 mb-2 
-        px-2 py-1 rounded bg-gray-800 text-white text-xs 
-        opacity-0 translate-y-2 scale-95 
-        group-hover:opacity-100 group-hover:translate-y-0 group-hover:scale-100 
-        transition-all duration-300 ease-in-out pointer-events-none 
-        whitespace-nowrap z-30"
-    >
-      {tooltip}
-    </div>
-  </div>
-);
-
 const LoginFormB2T = ({ onLoginSuccess }) => {
-  // Estados para el login
   const [usuario, setUsuario] = useState("");
   const [codigo, setCodigo] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
+  const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
+  const [loading, setLoading] = useState(true);
 
-  // Datos de los pasos con íconos y descripción para el tooltip
-  const steps = [
-    {
-      title: "Realiza el Pago",
-      description: "Yape/Plin: 982668882 - PayPal: temis_it@hotmail.com",
-      icon: <FaMoneyBillAlt className="w-5 h-5 text-white" />,
-    },
-    {
-      title: "Envía tu comprobante",
-      description: "Manda la foto al +51 926922032",
-      icon: <FaFileUpload className="w-5 h-5 text-white" />,
-    },
-    {
-      title: "Envía tus datos y Ruta",
-      description: "Indica la ruta deseada junto con tus datos",
-      icon: <FaUserEdit className="w-5 h-5 text-white" />,
-    },
-    {
-      title: "Accede",
-      description: "Inicia sesión y disfruta del contenido.",
-      icon: <FaSignInAlt className="w-5 h-5 text-white" />,
-    },
-  ];
+  useEffect(() => {
+    const updateMouse = (e) => {
+      setMousePosition({ x: e.clientX, y: e.clientY });
+    };
+    window.addEventListener("mousemove", updateMouse);
+    return () => window.removeEventListener("mousemove", updateMouse);
+  }, []);
 
-  // Función de login
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 2500);
+    return () => clearTimeout(timer);
+  }, []);
+
   const handleLogin = () => {
     const userCredential = validCredentials.find(
       (cred) => cred.usuario === usuario && cred.password === codigo
@@ -72,126 +42,135 @@ const LoginFormB2T = ({ onLoginSuccess }) => {
     }
   };
 
-  // Login al presionar Enter
   const handleKeyPress = (event) => {
     if (event.key === "Enter") {
       handleLogin();
     }
   };
 
-  return (
-    <div className="relative min-h-screen bg-black flex flex-col items-center justify-center pt-20">
-      {/* Fondo animado cyberpunk */}
-      <div className="absolute inset-0 bg-[url('https://i.ibb.co/JRq450kr/Fondos-de-zoom-11.png')] bg-cover bg-center animate-pulse-slow opacity-30" />
-      <div className="absolute inset-0 bg-gradient-to-br from-[#0f1123] to-[#1c1e2f] opacity-80" />
+  if (loading) {
+    return (
+      <div className="min-h-screen bg-[#0a0a0a] flex items-center justify-center">
+        <div className="text-center animate-pulse">
+          <h1 className="text-3xl font-semibold text-gray-300 tracking-wide">
+            Initializing Secure Gateway
+          </h1>
+          <p className="text-sm text-gray-500 mt-2">Authenticating environment...</p>
+        </div>
+      </div>
+    );
+  }
 
-      {/* Contenedor Principal */}
+  return (
+    <div className="relative min-h-screen bg-[#0a0a0a] flex flex-col items-center justify-center pt-20 overflow-hidden">
+      <div
+        className="pointer-events-none fixed inset-0 z-0"
+        style={{
+          background: `radial-gradient(400px at ${mousePosition.x}px ${mousePosition.y}px, rgba(150,150,150,0.08), transparent 80%)`,
+        }}
+      ></div>
+      <div className="absolute inset-0 bg-[url('https://i.ibb.co/hxFnL9kQ/Logo-Header-edited.png')] bg-cover bg-center animate-pulse-slow opacity-10" />
+      <div className="absolute inset-0 bg-gradient-to-br from-[#0a0a0a] to-[#1a1a1a] opacity-90" />
+
       <div className="relative z-10 container mx-auto px-4">
-        <div className="max-w-4xl mx-auto bg-black/40 rounded-xl shadow-xl overflow-hidden">
+        <div className="max-w-4xl mx-auto bg-[#141414]/80 rounded-xl shadow-lg overflow-hidden">
           <div className="flex flex-col lg:flex-row">
-            {/* Sección de Login */}
-            <div className="w-full lg:w-1/2 p-6 lg:p-8 border-b lg:border-b-0 lg:border-r border-gray-700">
-              <h1 className="text-2xl lg:text-3xl font-extrabold text-white text-center mb-3">
-                Ruta technología
+            <div className="w-full lg:w-1/2 p-6 lg:p-8 border-b lg:border-b-0 lg:border-r border-gray-800">
+              <h1 className="text-2xl font-bold text-gray-200 text-center mb-3 tracking-wide">
+                Welcome Back
               </h1>
-              <p className="text-center text-indigo-300 text-sm mb-4">
-                Log in to ignite your exam journey.
+              <p className="text-center text-gray-500 text-sm mb-4 italic">
+                Enter your credentials to continue.
               </p>
               <div className="space-y-3">
                 <div className="relative">
-                  <FaUserAlt className="absolute top-2 left-3 text-gray-400" />
+                  <FaUserAlt className="absolute top-2 left-3 text-gray-500" />
                   <input
                     type="text"
                     placeholder="Username"
                     value={usuario}
                     onChange={(e) => setUsuario(e.target.value)}
-                    className="w-full pl-10 pr-3 py-2 bg-[#1f1f2e] text-white rounded-lg border border-gray-700 focus:outline-none focus:ring-2 focus:ring-cyan-500 transition"
+                    className="w-full pl-10 pr-3 py-2 bg-[#1f1f1f] text-gray-200 rounded-lg border border-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-600 transition"
                   />
                 </div>
                 <div className="relative">
-                  <FaLock className="absolute top-2 left-3 text-gray-400" />
+                  <FaLock className="absolute top-2 left-3 text-gray-500" />
                   <input
                     type="password"
                     placeholder="Password"
                     value={codigo}
                     onChange={(e) => setCodigo(e.target.value)}
                     onKeyPress={handleKeyPress}
-                    className="w-full pl-10 pr-3 py-2 bg-[#1f1f2e] text-white rounded-lg border border-gray-700 focus:outline-none focus:ring-2 focus:ring-cyan-500 transition"
+                    className="w-full pl-10 pr-3 py-2 bg-[#1f1f1f] text-gray-200 rounded-lg border border-gray-700 focus:outline-none focus:ring-2 focus:ring-gray-600 transition"
                   />
                 </div>
                 {errorMessage && (
-                  <p className="text-red-400 text-center text-xs animate-pulse">
+                  <p className="text-red-500 text-center text-xs animate-pulse">
                     {errorMessage}
                   </p>
                 )}
                 <button
                   type="button"
                   onClick={handleLogin}
-                  className="w-full py-2 bg-gradient-to-r from-cyan-500 via-purple-500 to-pink-500 text-white font-bold rounded-lg shadow hover:brightness-110 transition duration-200 text-sm"
+                  className="w-full py-2 bg-[#232323] hover:bg-[#2a2a2a] text-gray-300 font-semibold rounded-lg border border-gray-700 transition duration-200 text-sm"
                 >
-                  Access My Roadmap
+                  Access System
                 </button>
               </div>
               <p className="mt-3 text-center text-gray-500 text-xs">
-                Forgot your credentials?{" "}
+                Trouble logging in?{' '}
                 <a
                   href="https://api.whatsapp.com/send?phone=51926922032&text=Hello%20Carlos!%20%F0%9F%99%82"
-                  className="text-cyan-400 hover:underline"
+                  className="text-gray-400 hover:underline"
                 >
-                  Contact your instructor
+                  Contact support
                 </a>
               </p>
               <p className="mt-1 text-center text-gray-600 italic text-xs">
-                Powered by MyEnglishBro™
+                © Valerians System
               </p>
-            </div>
-
-            {/* Sección de Pasos */}
-            <div className="w-full lg:w-1/2 p-6 lg:p-8 flex flex-col justify-center">
-              <div className="text-center lg:text-left">
-                <span className="inline-block text-base font-bold uppercase tracking-widest text-indigo-500 animate-pulse">
-                  Empieza ahora
-                </span>
-                <h2 className="mt-1 text-3xl font-extrabold text-white drop-shadow-lg">
-                  Tu camino hacia el <span className="text-indigo-400">éxito</span>
-                </h2>
-                <p className="mt-1 text-xs text-gray-300">
-                  Sigue estos sencillos pasos y únete a la revolución del aprendizaje.
-                </p>
-              </div>
-
-              {/* Grid de pasos en 1 o 2 columnas */}
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-3 mt-4">
-                {steps.map((step, index) => (
-                  <TooltipWrapper key={index} tooltip={step.description}>
-                    <div className="cursor-pointer p-3 bg-gradient-to-r from-gray-800 via-gray-900 to-gray-800 rounded-xl shadow border border-gray-700 backdrop-blur-sm transition-transform hover:scale-105 flex items-center space-x-3">
-                      <div className="flex-shrink-0">{step.icon}</div>
-                      <div>
-                        <h3 className="text-xs font-semibold text-white">
-                          {step.title}
-                        </h3>
-                      </div>
-                    </div>
-                  </TooltipWrapper>
-                ))}
-              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      {/* Botón fijo de WhatsApp */}
-      <div className="fixed bottom-6 right-6 z-20">
-        <a
-          href="https://api.whatsapp.com/send?phone=51926922032&text=Hello%20Carlos!"
-          target="_blank"
-          rel="noopener noreferrer"
-          title="Contact on WhatsApp"
-          className="relative group flex items-center justify-center w-12 h-12 rounded-full bg-[#0F0F0F] text-green-400 border border-green-500 shadow-md transition-transform hover:scale-110 hover:shadow-xl"
-        >
-          <span className="absolute w-full h-full rounded-full bg-green-500 opacity-20 group-hover:opacity-30 animate-ping"></span>
-          <FaWhatsapp className="w-6 h-6 relative" />
-        </a>
+        {[...Array(3)].map((_, i) => (
+          <div key={i} className="mt-24">
+            <div className="relative isolate overflow-clip bg-gray-900 px-6 pt-16 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
+              <div
+                aria-hidden="true"
+                className="absolute right-0 top-0 -z-10 aspect-square w-full max-w-3xl translate-x-3/4 rounded-full bg-gray-700/40 blur-[10rem] lg:-top-[40rem] lg:left-1/2 lg:-translate-x-1/2"
+              ></div>
+              <div className="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:py-24 lg:text-start">
+                <h2 className="text-3xl font-semibold tracking-tight text-white sm:text-4xl">
+                  Want to partner with design experts in SaaS?
+                </h2>
+                <p className="mt-6 text-base text-gray-300">
+                  We're excited to talk to you about your project requirements and business goals.
+                </p>
+                <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
+                  <a
+                    href="#"
+                    className="rounded-md bg-white px-3.5 py-2.5 text-sm font-semibold text-gray-900 hover:bg-gray-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-white"
+                  >
+                    Schedule a call
+                  </a>
+                  <a href="#" className="text-sm font-semibold leading-6 text-white">
+                    Send an email
+                  </a>
+                </div>
+              </div>
+              <div className="relative mt-16 h-80 lg:mt-8 lg:h-auto">
+                <img
+                  width="1920"
+                  height="1139"
+                  className="absolute left-0 top-0 w-[58rem] max-w-none rounded-2xl bg-white/5 ring-1 ring-white/10 lg:top-14"
+                  src="https://htmlwind.com/assets/images/dark-dashboard-screenshot.webp"
+                  alt="dashboard screenshot"
+                />
+              </div>
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   );
