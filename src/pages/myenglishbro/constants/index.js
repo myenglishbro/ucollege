@@ -272,7 +272,7 @@ export const benefits = [
   },
   {
     id: "1",
-    title: "Paquete Standard",
+    title: "Paquete Standard 10 horas",
     text: "Este paquete de clases cuenta con 10 horas de clases en vivo",
     backgroundUrl: "./src/assets/benefits/card-2.svg",
     iconUrl:benefitIcon1,
@@ -329,6 +329,35 @@ export const benefits = [
   },
   {
     id: "3",
+    title: "Paquete Standard 20 horas",
+    text: "Este paquete de clases cuenta con 20 horas de clases en vivo",
+    backgroundUrl: "./src/assets/benefits/card-3.svg",
+    iconUrl:
+      benefitIcon1,
+      imgGif:
+      "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZuazNnd2N5ODNrbHJmNmd6MXZ0eGt3cjJ5bjN5M2lxaTc4eGl2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r3WLuO5QRLyAV9MWEM/giphy.gif",
+    imageUrl:
+      "https://i.ibb.co/Q7pKqT32/Chat-GPT-Image-Jun-4-2025-10-13-49-AM.png",
+    iconLink: "https://learnibox.vercel.app/RoadMapB2",
+    details: {
+      features: [
+        "✅Tu clase se graba y se envia por correo a cada correo",
+        "✅ Google Meet Premium",
+        "✅ Clases Personalizadas + Material de Clase",
+        "❌ Puedes hacer preguntas al profe por wsp directamente",
+        "❌ Incluye preparacion para Exámenes Internacionales",
+        "❌ No hay Reprogramaciones",
+        "❌ Acceso al Roadmap con Material Exclusivo",
+        "❌ Código de Descarga Roadmap",
+        "❌ Talleres los fines de semana Sábados y Domingo",
+      ],
+      price: "S/.700 Nuevos Soles",
+      enlace:
+        "https://docs.google.com/spreadsheets/d/1jpKL_kwxAWuqo9v6aVBSiKpiAij6i3E3ysPSxlajgRY/preview",
+    },
+  },
+  {
+    id: "4",
     title: "Ruta Autónoma A1",
     text: "Domina lo esencial para comunicarte con confianza en situaciones cotidianas simples. ¡Empieza tu camino hacia la fluidez aquí! 🚀",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
@@ -353,7 +382,7 @@ export const benefits = [
     },
   },
   {
-    id: "4",
+    id: "5",
     title: "Ruta Autónoma A2",
     text: "Cierra la brecha hacia la comunicación intermedia. Habla y entiende expresiones comunes con confianza. 💬",
     backgroundUrl: "./src/assets/benefits/card-5.svg",
@@ -377,7 +406,7 @@ export const benefits = [
     },
   },
   {
-    id: "5",
+    id: "6",
     title: "Ruta Autónoma B1",
     text: "Lleva tus habilidades a un nuevo nivel. Maneja conversaciones detalladas y mejora tu escritura. ✍️",
     backgroundUrl: "./src/assets/benefits/card-6.svg",
@@ -400,7 +429,7 @@ export const benefits = [
     },
   },
   {
-    id: "6",
+    id: "7",
     title: "Ruta Autónoma B2",
     text: "¡Prepárate para alcanzar el nivel B2 de manera efectiva y a tu ritmo! Nuestra plataforma está diseñada para brindarte recursos exclusivos y explicaciones claras sobre más de 90 temas esenciales.",
     backgroundUrl: "./src/assets/benefits/card-7.svg",
@@ -425,7 +454,7 @@ export const benefits = [
   },
   
   {
-    id: "7",
+    id: "8",
     title: "Ruta Autónoma C1",
     text: "Logra un dominio profesional del inglés. Realiza presentaciones, escribe con precisión y conversa con facilidad. 💼",
     backgroundUrl: "./src/assets/benefits/card-8.svg",
@@ -449,7 +478,7 @@ export const benefits = [
     },
   },
   {
-    id: "8",
+    id: "9",
     title: "Ruta Autónoma C2",
     text: "Domina el idioma inglés con vocabulario avanzado, tonos profesionales y matices culturales. 🏆",
     backgroundUrl: "./src/assets/benefits/card-9.svg",

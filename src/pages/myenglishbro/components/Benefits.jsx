@@ -8,7 +8,7 @@ import ClipPath from "../assets/svg/ClipPath";
 
 // Definición de niveles para el filtrado
 const levels = {
-  Personalizadas: ["Paquete Premium", "Paquete Standard", "Paquete Básico"],
+  Personalizadas: ["Paquete Premium", "Paquete Standard 10 horas","Paquete Standard 20 horas", "Paquete Básico"],
   Rutas: [
     "Ruta Autónoma A1",
     "Ruta Autónoma A2",
