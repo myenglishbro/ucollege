@@ -130,8 +130,8 @@ function App() {
                   <Route path="/tc" element={<TrainingCenter  />}></Route>
                   <Route path="/gt" element={<GappedTextQuizUploader  />}></Route>
 
-                  <Route path="/encri" element={<EncryptTextUploader  />}></Route>
-                  <Route path="/encri2" element={<CambridgeEncryptor  />}></Route>
+                  <Route path="/encripreguntarespuesta" element={<EncryptTextUploader  />}></Route>
+                  <Route path="/encrikeyword" element={<CambridgeEncryptor  />}></Route>
                   <Route path="/encri3" element={<TxtEncryptor  />}></Route>
                   <Route path="/readingencriptador" element={<ReadingEn  />}></Route>
 

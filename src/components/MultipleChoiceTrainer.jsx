@@ -18,11 +18,12 @@ export default function MultipleChoiceTrainer() {
   }, [currentIndex, questions.length]);
 
   const parseTXT = text => {
-    const pattern = /E:\s*(.*?)\s*[\r\n]+O:\s*(.*?)\s*[\r\n]+A:(.*?)(?=[\r\n]+E:|$)/gs;
+    const pattern = /E:\s*(.*?)\s*[\r\n]+O:\s*(.*?)\s*[\r\n]+A:\s*(.*?)\s*[\r\n]+N:\s*(.*?)(?=\nE:|$)/gs;
     return [...text.matchAll(pattern)].map(m => ({
       error: m[1].trim(),
       options: m[2].split('|').map(o => o.trim()),
-      answer: m[3].split('→')[0].trim(),
+      answer: m[3].trim(),
+      note: m[4]?.trim() || ''
     }));
   };
 
@@ -42,11 +43,13 @@ export default function MultipleChoiceTrainer() {
     let raw = await file.text();
     raw = base64ToUtf8(raw);
     const loaded = parseTXT(raw);
-    if (loaded.length) {
-      setQuestions(loaded);
-      setAnswersLog([]);
-      resetState(false);
+    if (!loaded.length) {
+      alert('❌ El archivo no tiene el formato esperado.\n\nEjemplo:\nE: pregunta\nO: opción1 | opción2 | opción3\nA: respuesta\nN: explicación');
+      return;
     }
+    setQuestions(loaded);
+    setAnswersLog([]);
+    resetState(false);
   };
 
   const handleFileChange = e => handleUpload(e.target.files[0]);
@@ -91,12 +94,16 @@ export default function MultipleChoiceTrainer() {
     } else {
       setStreak(0);
     }
-    setFeedback(correct ? '✔️ ¡Correcto!' : `✖️ ${q.answer}`);
+    setFeedback(
+      correct
+        ? '✔️ ¡Correcto!'
+        : `✖️ ${q.answer}${q.note ? ` → ${q.note}` : ''}`
+    );
     setTimeout(() => {
       setCurrentIndex(i => i + 1);
       setFeedback('');
       setSelectedOption(null);
-    }, 1000);
+    }, 2000);
   };
 
   const current = questions[currentIndex] || {};
@@ -108,11 +115,8 @@ export default function MultipleChoiceTrainer() {
       onDragOver={e => handleDrag(e, true)}
       onDragLeave={e => handleDrag(e, false)}
     >
-      {/* Fondo animado + capa oscura */}
       <div className="absolute inset-0 bg-[url('https://i.ibb.co/JRq450kr/Fondos-de-zoom-11.png')] bg-cover bg-center animate-pulse-slow opacity-30" />
       <div className="absolute inset-0 bg-gradient-to-br from-[#0f1123] to-[#1c1e2f] opacity-90" />
-
-      {/* Contenido principal */}
       <div className="relative z-10 w-full max-w-4xl">
         {showSettings ? (
           <div className={`rounded-2xl p-8 shadow-2xl border border-white/10 bg-[#0D122B]/60 backdrop-blur-xl text-center ${dragActive ? 'border-4 border-cyan-400' : ''}`}>
@@ -188,7 +192,11 @@ export default function MultipleChoiceTrainer() {
               <motion.div
                 initial={{ opacity: 0, y: -10 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="mt-6 text-center text-lg font-bold text-cyan-400 animate-pulse"
+                className={`mt-6 text-center text-sm px-4 py-3 rounded-lg ${
+                  feedback.startsWith('✔️')
+                    ? 'bg-green-700 text-white'
+                    : 'bg-red-700 text-white'
+                }`}
               >
                 {feedback}
               </motion.div>

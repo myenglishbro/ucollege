@@ -27,8 +27,9 @@ export const roadtech = [
         channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
         description: "Envia tu examen para su corrección al correo temis_it@hotmail.com",
         enlaces: [
+            {  titulo:"Perks & Benefits",url: "https://drive.google.com/file/d/1mhls1rPXb02o7Q20-9Ij-lux3H979Ill/view?usp=sharing",url2:"https://youtu.be/fmkpwvqoqYo?si=8VhBYWNVvcerUEem",url3:"http://learnibox.vercel.app/slides",url4:"http://learnibox.vercel.app/mct"},        
+
             {  titulo:"[CF-01🎧] How to ask and tell the time.",url: "https://drive.google.com/file/d/1g7koS1NXbtXk3wZsmnQE4M-OWHd5Yn10/view?usp=sharing"},        
-            {  titulo:"[CF-01📝] How to ask and tell the time.",url: "https://drive.google.com/file/d/1mhls1rPXb02o7Q20-9Ij-lux3H979Ill/view?usp=sharing"},        
             {  titulo:"[CF-02🎧] Adverbs of Frequency",url: "https://drive.google.com/file/d/1fMB0kNX29KcUt7-4qmmD87yU8mtgXZ1X/view?usp=sharing"},        
             {  titulo:"[CF-02📝] Adverbs of Frequency",url: "https://drive.google.com/file/d/1UQB7m55PboD6apGNmBECTyNLa-HdJUTJ/view?usp=sharing"},        
             {  titulo:"[CF-03🎧] The past simple-regular verbs",url: "https://drive.google.com/file/d/1lkzNNLGmNFWa0hkuGWSY514lwJU6JYJn/view?usp=sharing"},        
