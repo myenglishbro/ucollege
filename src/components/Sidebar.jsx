@@ -189,42 +189,57 @@ const [codeInputForPopup, setCodeInputForPopup] = useState("");
       </button>
 
       <div className={`sidebar ${isSidebarVisible ? 'visible' : ''} bg-gray-800 text-white w-72 h-full fixed shadow-lg overflow-y-auto custom-scrollbar`}>
-        <div className="timer-container">
-          <div className="timer-progress">
-            <div className="progress-bar-bg">
-              <div
-                className="progress-bar-fill"
-                style={{
-                  width: isTimerRunning ? `${(timeLeft / (timerMinutes * 60)) * 100}%` : "0%",
-                }}
-              ></div>
-            </div>
-            <span className="time-left">
-              {Math.floor(timeLeft / 60)}:{String(timeLeft % 60).padStart(2, "0")}
-            </span>
-          </div>
-          <div className="timer-input">
-           
-            <input
-              id="input-minutes"
-              type="number"
-              min="1"
-              value={timerMinutes}
-              onChange={(e) => setTimerMinutes(Number(e.target.value))}
-              className="input-minutes"
-              placeholder="00"
-            />
-          </div>
-          <di
-          v className="timer-buttons">
-          <button onClick={startTimer} className="timer-button start">
-            
-          </button>
-          <button onClick={stopTimer} className="timer-button stop">
-            
-          </button>
-        </di>
-        </div>
+        <div className="timer-container p-4 rounded-lg  text-white space-y-4">
+  <div className="flex flex-col space-y-1">
+    <p className="text-sm font-semibold tracking-wider text-gray-300">TIMER</p>
+
+    {/* Barra de progreso */}
+    <div className="w-full">
+      <div className="w-full bg-gray-700 h-2 rounded-full overflow-hidden">
+        <div
+          className="bg-blue-500 h-full transition-all duration-300 ease-in-out"
+          style={{
+            width: isTimerRunning ? `${(timeLeft / (timerMinutes * 60)) * 100}%` : "0%",
+          }}
+        ></div>
+      </div>
+      <span className="text-sm text-gray-400 mt-1 block">
+        {Math.floor(timeLeft / 60)}:{String(timeLeft % 60).padStart(2, "0")}
+      </span>
+    </div>
+  </div>
+
+  {/* Input de minutos */}
+  <div className="w-full">
+    <input
+    id="input-minutes"
+    type="number"
+    min="1"
+    value={timerMinutes}
+    onChange={(e) => setTimerMinutes(Number(e.target.value))}
+    className="bg-[#1A1F2E] text-white px-3 py-2 rounded-md w-24 border border-[#2D3748] focus:outline-none focus:ring-2 focus:ring-[#2F78FF] text-center"
+    placeholder="00"
+  />
+  </div>
+
+  {/* Botones en fila */}
+{/* Botones estilo dark y futurista */}
+  <div className="flex justify-center items-center gap-4">
+    <button
+      onClick={startTimer}
+      className="px-3 py-1 text-xs rounded-md font-medium text-gray-300 bg-gradient-to-br from-[#202632] to-[#1C1F26] border border-[#2F3A4F] hover:bg-[#2F3746] hover:text-white transition-all shadow-inner shadow-black"
+    >
+      Start
+    </button>
+    <button
+      onClick={stopTimer}
+      className="px-3 py-1 text-xs rounded-md font-medium text-gray-300 bg-gradient-to-br from-[#202632] to-[#1C1F26] border border-[#2F3A4F] hover:bg-[#2F3746] hover:text-white transition-all shadow-inner shadow-black"
+    >
+      Stop
+    </button>
+  </div>
+</div>
+
 
         {showModal && (
           <div className="modal-overlay">

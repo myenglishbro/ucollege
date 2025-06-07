@@ -10,6 +10,7 @@ import CabezeraB2 from './Standarizado/CabezeraB2';
 import LoginFormB2C from './LoginFormB2C';
 import LoginFormB2T from './LoginFormB2T';
 import SidebarT from '../components/SidebarT';
+import DefaultViewdos from '../components/DefaultViewdos';
 
 const RoadMapTech = () => {
   // Estados para datos de usuario y vista
@@ -92,7 +93,7 @@ const RoadMapTech = () => {
               userImage={userImage}
             />
           ) : (
-            <DefaultView
+            <DefaultViewdos
               password={codigo}
               nivel={nivel}
               expirationDate={expirationDate}

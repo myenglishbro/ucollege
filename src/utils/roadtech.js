@@ -1,7 +1,24 @@
 export const roadtech = [
+     {
+        id: 0,
+        thumbnail:"https://i.ibb.co/LdQkxbYg/Chat-GPT-Image-Jun-6-2025-08-14-58-PM-removebg-preview.png",
+        title: "Cloud Computing on AWS",
+        subtitle: "Centro de Clasificación ",
+    
+        dateAdded: "Basic 0 ",
+        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
+        description: "Envia tu examen para su corrección al correo temis_it@hotmail.com",
+        enlaces: [
+            {  titulo:"Design for Devs",url4:"http://learnibox.vercel.app/slides",url7: "https://drive.google.com/file/d/1Pq8VsFMfZWIvqi8J_6Lq58YWkOyd9vHy/view?usp=sharing"},        
+           
+           
+
+            
+        ],
+    },
     {
         id: 0,
-        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
+        thumbnail:"https://i.ibb.co/LdQkxbYg/Chat-GPT-Image-Jun-6-2025-08-14-58-PM-removebg-preview.png",
         title: "Design for Devs",
         subtitle: "Centro de Clasificación ",
     
@@ -19,7 +36,7 @@ export const roadtech = [
     {
         id: 1,
         thumbnail:
-            "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
+            "https://i.ibb.co/LdQkxbYg/Chat-GPT-Image-Jun-6-2025-08-14-58-PM-removebg-preview.png",
         title: "Sesiones",
         subtitle: "Centro de Clasificación ",
     
@@ -96,7 +113,7 @@ export const roadtech = [
     {
         id: 1,
         thumbnail:
-            "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
+            "https://i.ibb.co/LdQkxbYg/Chat-GPT-Image-Jun-6-2025-08-14-58-PM-removebg-preview.png",
         title: "Graphic Designer",
         subtitle: "Nivel Básico ",
     
@@ -131,7 +148,7 @@ export const roadtech = [
     {
         id: 2,
         thumbnail:
-            "https://i.ibb.co/VL5G53c/My-english-bro-Personajek-09.png",
+            "https://i.ibb.co/LdQkxbYg/Chat-GPT-Image-Jun-6-2025-08-14-58-PM-removebg-preview.png",
            
             title: "Developer ",
         subtitle: "Basic Level",

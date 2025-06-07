@@ -827,7 +827,7 @@ right: 40px;
 }
 
 .timer-container {
-  background-image: url('https://i.ibb.co/k20dWSXG/newframeb2.png');
+  background-image: url('https://i.ibb.co/HLfvC52G/Chat-GPT-Image-Jun-6-2025-04-40-34-PM-removebg-preview.png');
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -880,13 +880,7 @@ right: 40px;
   margin-top: -20px;
 }
 
-.timer-button.start {
-  background-image: url('https://i.ibb.co/9HCJKtFB/start.png');
-}
 
-.timer-button.stop {
-  background-image: url('https://i.ibb.co/5gSBTxB6/stop.png');
-}
 .progress-bar-bg {
   width: 100%;
   margin-top: 10px;
