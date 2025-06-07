@@ -1,7 +1,7 @@
 export const roadtech = [
      {
         id: 0,
-        thumbnail:"https://i.ibb.co/LdQkxbYg/Chat-GPT-Image-Jun-6-2025-08-14-58-PM-removebg-preview.png",
+        thumbnail:"https://i.ibb.co/gLqnk1z3/B2-FIRST-31-removebg-preview.png",
         title: "Cloud Computing on AWS",
         subtitle: "Centro de Clasificación ",
     
@@ -18,7 +18,7 @@ export const roadtech = [
     },
     {
         id: 0,
-        thumbnail:"https://i.ibb.co/LdQkxbYg/Chat-GPT-Image-Jun-6-2025-08-14-58-PM-removebg-preview.png",
+        thumbnail:"https://i.ibb.co/gLqnk1z3/B2-FIRST-31-removebg-preview.png",
         title: "Design for Devs",
         subtitle: "Centro de Clasificación ",
     
@@ -35,8 +35,8 @@ export const roadtech = [
     },
     {
         id: 1,
-        thumbnail:
-            "https://i.ibb.co/LdQkxbYg/Chat-GPT-Image-Jun-6-2025-08-14-58-PM-removebg-preview.png",
+                thumbnail:"https://i.ibb.co/gLqnk1z3/B2-FIRST-31-removebg-preview.png",
+
         title: "Sesiones",
         subtitle: "Centro de Clasificación ",
     
@@ -112,8 +112,8 @@ export const roadtech = [
     },
     {
         id: 1,
-        thumbnail:
-            "https://i.ibb.co/LdQkxbYg/Chat-GPT-Image-Jun-6-2025-08-14-58-PM-removebg-preview.png",
+                thumbnail:"https://i.ibb.co/gLqnk1z3/B2-FIRST-31-removebg-preview.png",
+
         title: "Graphic Designer",
         subtitle: "Nivel Básico ",
     

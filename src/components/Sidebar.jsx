@@ -307,7 +307,7 @@ const [codeInputForPopup, setCodeInputForPopup] = useState("");
                 padding: '15px 20px ',
                 border: 'none',
                 transition: 'transform 0.2s, box-shadow 0.2s',
-                marginBottom: '10px',
+                marginBottom: '2px',
                 alignItems: 'center',
       justifyContent: 'center',
       textAlign: 'center',
