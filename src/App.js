@@ -120,7 +120,6 @@ function App() {
           <Route path="/conversa" element={<ConversationPracticeBot  />}></Route>
           <Route path="/slides" element={<CreativeSlides  />}></Route>
           <Route path="/attendance" element={<AttendanceTracker  />}></Route>
-          <Route path="/attendance" element={<AttendanceTracker  />}></Route>
           <Route path="/report-attendance" element={<ReporteMensual  />}></Route>
 
                   <Route path="/maze" element={<GrammarCodeQuest  />}></Route>

@@ -1,23 +1,47 @@
 import React, { useState, useRef } from 'react';
 import html2canvas from 'html2canvas';
 
-const studentsData = [
-  { name: 'Ana Martínez' },
-  { name: 'Luis Gómez' },
-  { name: 'Carlos Sánchez' },
-  { name: 'Valeria Torres' },
-];
+const groups = {
+  grupo1: [
+    { name: 'Miguel Barrientos' },
+    { name: 'Jose Espinoza' },
+    { name: 'Joseph Rodriguez' },
+    { name: 'David Romero' }
+  ],
+  grupo2: [
+    { name: 'Thalia Castro' }
+  ],
+  grupo3: [
+    { name: 'Elvis Mori' },
+    { name: 'Melissa Cossío' },
+    { name: 'Mafer Vilchez' },
+    { name: 'Daniela Albarrán' }
+  ]
+};
 
 const AttendanceTracker = () => {
+  const [selectedGroup, setSelectedGroup] = useState('grupo1');
   const [attendance, setAttendance] = useState(
-    studentsData.map((student) => ({
+    groups['grupo1'].map(student => ({
       name: student.name,
       status: '',
-      comment: '',
+      comment: ''
     }))
   );
 
   const containerRef = useRef();
+
+  const handleGroupChange = (e) => {
+    const newGroup = e.target.value;
+    setSelectedGroup(newGroup);
+    setAttendance(
+      groups[newGroup].map(student => ({
+        name: student.name,
+        status: '',
+        comment: ''
+      }))
+    );
+  };
 
   const handleChange = (index, field, value) => {
     const updated = [...attendance];
@@ -31,7 +55,6 @@ const AttendanceTracker = () => {
 
     const canvas = await html2canvas(element);
     const imgData = canvas.toDataURL('image/png');
-
     const link = document.createElement('a');
     const date = new Date().toLocaleDateString();
     link.href = imgData;
@@ -44,7 +67,8 @@ const AttendanceTracker = () => {
     const dataToExport = {
       date,
       teacher: 'Carlos Apolaya Sánchez',
-      attendance,
+      group: selectedGroup,
+      attendance
     };
 
     const blob = new Blob([JSON.stringify(dataToExport, null, 2)], {
@@ -52,37 +76,29 @@ const AttendanceTracker = () => {
     });
     const link = document.createElement('a');
     link.href = URL.createObjectURL(blob);
-    link.download = `Asistencia-${date}.json`;
+    link.download = `Asistencia-${selectedGroup}-${date}.json`;
     link.click();
   };
 
   return (
     <div className="p-6 text-white bg-[#1a1c2b] min-h-screen">
-      <div ref={containerRef} className="bg-[#1a1c2b] p-4">
-        <h1 className="text-2xl font-bold mb-2 text-cyan-300">ASSISTENCIA CLASES DE INGLÉS</h1>
-        <p className="text-sm mb-1 text-white/70">DOCENTE: Carlos Apolaya Sánchez</p>
-        <p className="text-sm mb-4 text-white/70">FECHA: {new Date().toLocaleDateString()}</p>
-        <table className="w-full text-left border-collapse">
-          <thead>
-            <tr className="bg-[#2a2e3f] text-cyan-100">
-              <th className="p-2 border border-gray-600">Nombre</th>
-              <th className="p-2 border border-gray-600">Estado</th>
-              <th className="p-2 border border-gray-600">Comentario</th>
-            </tr>
-          </thead>
-          <tbody>
-            {attendance.map((entry, index) => (
-              <tr key={index} className="bg-[#22263d]">
-                <td className="p-2 border border-gray-700">{entry.name}</td>
-                <td className="p-2 border border-gray-700">{entry.status}</td>
-                <td className="p-2 border border-gray-700">{entry.comment}</td>
-              </tr>
-            ))}
-          </tbody>
-        </table>
+      <div className="mb-4">
+        <label className="block mb-2 text-sm text-cyan-200">Seleccionar grupo:</label>
+        <select
+          className="bg-[#2a2e3f] text-white p-2 rounded"
+          value={selectedGroup}
+          onChange={handleGroupChange}
+        >
+          <option value="grupo1">Grupo 1 - Devs</option>
+          <option value="grupo2">Grupo 2 - Recursos Humanos</option>
+          <option value="grupo3">Grupo 3 - UX y PM</option>
+        </select>
       </div>
 
-      <div className="mt-6">
+      <div ref={containerRef} className="bg-[#1a1c2b] p-4">
+        <h1 className="text-2xl font-bold mb-2 text-cyan-300">ASISTENCIA CLASES DE INGLÉS</h1>
+        <p className="text-sm mb-1 text-white/70">DOCENTE: Carlos Apolaya Sánchez</p>
+        <p className="text-sm mb-4 text-white/70">FECHA: {new Date().toLocaleDateString()}</p>
         <table className="w-full text-left border-collapse">
           <thead>
             <tr className="bg-[#2a2e3f] text-cyan-100">

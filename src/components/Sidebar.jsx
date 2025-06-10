@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { FaSearch } from 'react-icons/fa';
+import { FaMousePointer, FaRegFileAlt, FaRegFilePdf, FaRegFilePowerpoint, FaRegFolderOpen, FaRegKeyboard, FaSearch } from 'react-icons/fa';
 import Hito from '../pages/Hito';
 import { mensajes } from '../utils/mensajes';
 import { FaCheck, FaBookOpen, FaPencilAlt, FaVideo } from 'react-icons/fa';
@@ -471,14 +471,16 @@ const [codeInputForPopup, setCodeInputForPopup] = useState("");
   >
     {/* Estilos base para todos los botones */}
     {[
-      { key: 'url', icon: viewedItems?.includes(enlace.titulo) ? <FaCheck /> : <FaBookOpen />, label: viewedItems?.includes(enlace.titulo) ? 'Slide viewed' : 'View slide', urlProp: 'url', gradient: viewedItems?.includes(enlace.titulo) ? '135deg, #1E90FF, #0073E6' : '135deg, #004AAD, #001F3F' },
-      { key: 'url2', icon: <FaVideo />, label: 'Watch video', urlProp: 'url2', gradient: '135deg, #FF8C00, #FF4500' },
-      { key: 'url3', icon: <FaPencilAlt />, label: 'Take test', urlProp: 'url3', gradient: '135deg, #004AAD, #001F3F' },
-      { key: 'url4', icon: <GiRocketThruster />, label: 'Desafío 4', urlProp: 'url4', gradient: '135deg, #FF8C00, #FF4500' },
-      { key: 'url5', icon: <GiHealthPotion />, label: 'Desafío 5', urlProp: 'url5', gradient: '135deg, #FF8C00, #FF4500' },
+      { key: 'url', icon: viewedItems?.includes(enlace.titulo) ? <FaCheck /> : <FaRegFilePowerpoint />, label: viewedItems?.includes(enlace.titulo) ? 'Slide viewed' : 'View slide', urlProp: 'url', gradient: viewedItems?.includes(enlace.titulo) ? '135deg, #1E90FF, #0073E6' : '135deg, #004AAD, #001F3F' },
+      { key: 'url2', icon: <FaVideo />, label: 'Watch video', urlProp: 'url2', gradient: '135deg, #004AAD, #001F3F' },
+      { key: 'url3', icon: <FaRegFolderOpen />, label: 'Take test', urlProp: 'url3', gradient: '135deg, #FF8C00, #FF4500' },
+      { key: 'url4', icon: <FaMousePointer />, label: 'Desafío 4', urlProp: 'url4', gradient: '135deg, #FF8C00, #FF4500' },
+      { key: 'url5', icon: <FaRegKeyboard />, label: 'Desafío 5', urlProp: 'url5', gradient: '135deg, #FF8C00, #FF4500' },
       { key: 'url6', icon: <GiBookCover />, label: 'Desafío 6', urlProp: 'url6', gradient: '135deg, #FF8C00, #FF4500' },
       { key: 'url7', icon: <BiDownload />, label: 'Desafío 7', urlProp: 'url7', gradient: '135deg, #FF8C00, #FF4500' },
       { key: 'url8', icon: <BiHighlight />, label: 'Desafío 8', urlProp: 'url8', gradient: '135deg, #004AAD, #001F3F' },
+      { key: 'url9', icon: <FaRegFileAlt />, label: 'Desafío 9', urlProp: 'url9', gradient: '135deg, #004AAD, #001F3F' },
+
     ].map(({ key, icon, label, urlProp, gradient }) =>
       enlace[urlProp] ? (
         <button

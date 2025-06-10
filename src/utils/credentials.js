@@ -74,7 +74,8 @@ export const validCredentials = [
       { expirationDate:"Acceso Ilimitado",nivel:"B2+",usuario: 'miguel', password: 'barrientos', realname: 'Miguel Barrientos',img:'https://i.ibb.co/N6VWYpNX/TKSEJTSGH-U03-SSP6-S5-PV-e6cf1902a16d-512.png'},
 
       { expirationDate:"Acceso Ilimitado",nivel:"B2",usuario: 'daniela', password: 'albarran', realname: 'Daniela Albarrán',img:'https://i.ibb.co/GvcjSj9c/TKSEJTSGH-U062-T01-UP7-D-20437e1f9ee2-512.jpg'},
-      { expirationDate:"Acceso Ilimitado",nivel:"B2",usuario: 'miguel', password: 'barrientos', realname: 'Miguel Barrientos',img:'https://i.ibb.co/N6VWYpNX/TKSEJTSGH-U03-SSP6-S5-PV-e6cf1902a16d-512.png'},
-      { expirationDate:"Acceso Ilimitado",nivel:"B2",usuario: 'miguel', password: 'barrientos', realname: 'Miguel Barrientos',img:'https://i.ibb.co/N6VWYpNX/TKSEJTSGH-U03-SSP6-S5-PV-e6cf1902a16d-512.png'},
+      { expirationDate:"Acceso Ilimitado",nivel:"B2",usuario: 'elvis.mori', password: 'mori', realname: 'Elvis Mori',img:'https://i.ibb.co/zHWp4Q11/TKSEJTSGH-U088-VQEA4-RZ-fd0a5bc435a4-512.png'},
+      { expirationDate:"Acceso Ilimitado",nivel:"B2",usuario: 'mafer.vilchez', password: 'vilchez', realname: 'Mafer Vilchez',img:'https://i.ibb.co/5gr2r9m1/TKSEJTSGH-U06-QA6-R7-LBV-bc01258039d3-512.jpg'},
+      { expirationDate:"Acceso Ilimitado",nivel:"B2",usuario: 'melissa', password: 'cossio', realname: 'Melissa Cossío',img:'https://i.ibb.co/8nc8YStR/TKSEJTSGH-U06-BY5-BHK9-Q-9c50b01c38d4-512.jpg'},
 
     ];
