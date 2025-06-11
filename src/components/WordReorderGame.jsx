@@ -21,17 +21,34 @@ export default function WordReorderGame() {
   const handleUpload = async (file) => {
     if (!file) return;
     const text = await file.text();
-    const lines = text.split(/\r?\n/).map(l => l.trim());
+    console.log("Texto cargado:", text);
+
+    const lines = text
+      .split(/\r?\n/)
+      .map(l => l.trim())
+      .filter(Boolean); // quita líneas vacías
+
     const results = [];
-    for (let i = 0; i < lines.length; i += 2) {
-      if (lines[i].startsWith('P:') && lines[i + 1]?.startsWith('R:')) {
+
+    for (let i = 0; i < lines.length - 1; i++) {
+      const lineP = lines[i].trim().toLowerCase();
+      const lineR = lines[i + 1].trim().toLowerCase();
+
+      if (lineP.startsWith('p:') && lineR.startsWith('r:')) {
         results.push({
-          question: lines[i].replace('P:', '').trim(),
-          answer: lines[i + 1].replace('R:', '').trim().toLowerCase()
+          question: lines[i].substring(2).trim(),
+          answer: lines[i + 1].substring(2).trim().toLowerCase(),
         });
+        i++; // salta la siguiente línea (R)
       }
     }
-    if (!results.length) return;
+
+    if (!results.length) {
+      alert("❌ El archivo no contiene pares válidos con 'P:' y 'R:'.");
+      console.error("Archivo no válido. Líneas leídas:", lines);
+      return;
+    }
+
     setPairs(results);
     setCurrentIndex(0);
     setLetters(shuffleArray(results[0].answer.split('')));
@@ -77,10 +94,7 @@ export default function WordReorderGame() {
   const isCorrect = letters.join('') === current?.answer;
 
   return (
-    <div
-      className="relative min-h-screen flex items-center justify-center overflow-hidden p-6"
-      onDragOver={e => e.preventDefault()}
-    >
+    <div className="relative min-h-screen flex items-center justify-center overflow-hidden p-6" onDragOver={e => e.preventDefault()}>
       <div className="absolute inset-0 bg-[url('https://i.ibb.co/JRq450kr/Fondos-de-zoom-11.png')] bg-cover bg-center animate-pulse-slow opacity-30" />
       <div className="absolute inset-0 bg-gradient-to-br from-[#0f1123] to-[#1c1e2f] opacity-90" />
       <div className="relative z-10 w-full max-w-3xl">
@@ -98,14 +112,9 @@ export default function WordReorderGame() {
         {stage === 'playing' && current && (
           <motion.div className="rounded-xl p-8 shadow-2xl bg-[#1c1e2f]/80 backdrop-blur text-center">
             <p className="text-cyan-300 text-lg font-semibold mb-6">{current.question}</p>
-
             <div className="w-full bg-gray-800 h-2 rounded-full mb-4">
-              <div
-                className="bg-cyan-500 h-2 rounded-full transition-all"
-                style={{ width: `${progress}%` }}
-              ></div>
+              <div className="bg-cyan-500 h-2 rounded-full transition-all" style={{ width: `${progress}%` }}></div>
             </div>
-
             <div className="flex flex-wrap justify-center gap-2 mb-4">
               {letters.map((letter, index) => (
                 <div
@@ -120,7 +129,6 @@ export default function WordReorderGame() {
                 </div>
               ))}
             </div>
-
             {isCorrect && setTimeout(() => handleCorrect(), 1000) && (
               <p className="text-green-400 font-bold animate-pulse">🎉 ¡Correcto!</p>
             )}
@@ -132,20 +140,12 @@ export default function WordReorderGame() {
             <h2 className="text-2xl font-bold">¡Completado!</h2>
             <p className="text-cyan-300 font-bold">✔️ Total: {answersLog.length}</p>
             <div className="flex flex-col items-center gap-3">
-              <button
-                onClick={() => resetGame(pairs)}
-                className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded-lg"
-              >
+              <button onClick={() => resetGame(pairs)} className="bg-purple-600 hover:bg-purple-700 px-4 py-2 rounded-lg">
                 Practicar nuevamente
               </button>
               <label className="cursor-pointer bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg text-white text-sm">
                 Subir nuevo archivo
-                <input
-                  type="file"
-                  accept=".txt"
-                  onChange={e => handleUpload(e.target.files[0])}
-                  className="hidden"
-                />
+                <input type="file" accept=".txt" onChange={e => handleUpload(e.target.files[0])} className="hidden" />
               </label>
             </div>
           </motion.div>
