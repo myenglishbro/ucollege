@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { FaStar, FaRegHeart, FaRocket } from 'react-icons/fa';
 import { motion } from 'framer-motion';
 
@@ -48,7 +48,7 @@ const RatingStars = ({ rating }) => {
   );
 };
 
-const AppCard = ({ app }) => (
+const AppCard = ({ app, onTry }) => (
   <motion.div
     whileHover={{ scale: 1.05 }}
     whileTap={{ scale: 0.98 }}
@@ -74,22 +74,33 @@ const AppCard = ({ app }) => (
       <p className="text-slate-400 text-sm mb-4 leading-snug">{app.description}</p>
       <div className="flex items-center justify-between">
         <RatingStars rating={app.rating} />
-        <a
-          href={app.url}
-          target="_blank"
-          rel="noopener noreferrer"
+        <button
+          onClick={() => onTry(app)}
           className="bg-indigo-600 text-white px-4 py-1 rounded-lg text-sm font-semibold hover:bg-indigo-700 transition flex items-center gap-1"
         >
           <FaRocket /> Try
-        </a>
+        </button>
       </div>
     </div>
   </motion.div>
 );
 
 const EducationalAppsShowcase = () => {
+  const [selectedApp, setSelectedApp] = useState(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const openModal = (app) => {
+    setSelectedApp(app);
+    setIsModalOpen(true);
+  };
+
+  const closeModal = () => {
+    setIsModalOpen(false);
+    setSelectedApp(null);
+  };
+
   return (
-    <section className="bg-[#0a0f1c] py-16 px-6 min-h-screen font-sans">
+    <section className="bg-[#0a0f1c] py-16 px-6 min-h-screen font-sans relative z-0">
       <motion.h1
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
@@ -98,9 +109,32 @@ const EducationalAppsShowcase = () => {
       >
         🚀 Explore English Learning Apps
       </motion.h1>
+
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10">
-        {englishApps.map((app, idx) => <AppCard app={app} key={idx} />)}
+        {englishApps.map((app, idx) => (
+          <AppCard key={idx} app={app} onTry={openModal} />
+        ))}
       </div>
+
+      {/* Modal */}
+      {isModalOpen && selectedApp && (
+        <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm p-4">
+          <div className="bg-[#0f172a] p-6 rounded-2xl max-w-3xl w-full relative shadow-2xl border border-indigo-600">
+            <button
+              onClick={closeModal}
+              className="absolute top-2 right-2 text-white text-xl hover:text-red-500 transition"
+            >
+              ✕
+            </button>
+            <h2 className="text-white text-2xl font-bold mb-4">{selectedApp.title}</h2>
+            <iframe
+              src={selectedApp.url}
+              className="w-full h-[500px] rounded-xl border border-slate-700"
+              title={selectedApp.title}
+            />
+          </div>
+        </div>
+      )}
     </section>
   );
 };
