@@ -12,7 +12,7 @@ export default function TypeQuiz() {
   const [lives, setLives] = useState(3);
   const [correct, setCorrect] = useState(0);
   const [wrong, setWrong] = useState(0);
-  const [timer, setTimer] = useState(30);
+  const [timer, setTimer] = useState(60);
   const [streak, setStreak] = useState(0);
   const [maxStreak, setMaxStreak] = useState(0);
   const [stage, setStage] = useState('splash');
@@ -47,7 +47,7 @@ const [attempts, setAttempts] = useState([]);
     setInput('');
     setFeedback(null);
     setShowCorrectAnswer(null);
-    setTimer(30);
+    setTimer(60);
   };
 
   const handleUpload = async file => {
@@ -66,7 +66,7 @@ const [attempts, setAttempts] = useState([]);
 
   const startTimer = () => {
     clearInterval(timerRef.current);
-    setTimer(30);
+    setTimer(60);
     timerRef.current = setInterval(() => {
       setTimer(t => {
         if (t <= 1) {
