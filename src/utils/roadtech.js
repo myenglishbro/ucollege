@@ -1,6 +1,25 @@
 export const roadtech = [
-     {
+    {
         id: 0,
+        thumbnail:"https://i.ibb.co/gLqnk1z3/B2-FIRST-31-removebg-preview.png",
+        title: "Product Design",
+        subtitle: "Centro de Clasificación ",
+    
+        dateAdded: "Basic 0 ",
+        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
+        description: "Envia tu examen para su corrección al correo temis_it@hotmail.com",
+        enlaces: [
+            {  titulo:"Fundamentals of Digital Product Design",url:"https://drive.google.com/file/d/1tAjIrwktgBn7CwCkPfg6mF_HHyJXtpEE/view?usp=sharing",url9
+                
+                : "https://drive.google.com/file/d/1JQw6nB5CkW9T3vDvcPCSDld5r9b6n40E/view?usp=sharing"},        
+           
+           
+
+            
+        ],
+    },
+     {
+        id: 1,
         thumbnail:"https://i.ibb.co/gLqnk1z3/B2-FIRST-31-removebg-preview.png",
         title: "Cloud Computing on AWS",
         subtitle: "Centro de Clasificación ",
@@ -17,7 +36,7 @@ export const roadtech = [
         ],
     },
     {
-        id: 0,
+        id: 2,
         thumbnail:"https://i.ibb.co/gLqnk1z3/B2-FIRST-31-removebg-preview.png",
         title: "Design for Devs",
         subtitle: "Centro de Clasificación ",
@@ -34,7 +53,7 @@ export const roadtech = [
         ],
     },
     {
-        id: 1,
+        id: 3,
                 thumbnail:"https://i.ibb.co/gLqnk1z3/B2-FIRST-31-removebg-preview.png",
 
         title: "Sesiones",
@@ -111,7 +130,7 @@ export const roadtech = [
         ],
     },
     {
-        id: 1,
+        id: 4,
                 thumbnail:"https://i.ibb.co/gLqnk1z3/B2-FIRST-31-removebg-preview.png",
 
         title: "Graphic Designer",
