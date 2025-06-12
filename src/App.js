@@ -66,13 +66,15 @@ import MultipleChoiceTrainer from "./components/MultipleChoiceTrainer";
 import GappedTextQuizUploader from "./components/GappedTextQuizUploader";
 import ReadingEn from "./components/ReadingEn";
 import WriteQuiz from "./components/WriteQuiz";
-import TypeQuiz from "./components/TypeQuiz";
+import TypeQuiz from "./components/SixtyType.jsx";
 import WordReorderGame from "./components/WordReorderGame";
 import AudioListeningQuiz from "./components/AudioListeningQuiz";
 import ConversationPracticeBot from "./components/ConversationPracticeBot.jsx";
 import CreativeSlides from "./components/CreativeSlides.jsx";
 import AttendanceTracker from "./components/AttendanceTracker.jsx";
 import ReporteMensual from "./components/ReporteMensual.jsx";
+import EducationalAppsShowcase from "./components/EducationalAppsShowcase.jsx";
+import SixtyType from "./components/SixtyType.jsx";
 
 function App() {
   return (
@@ -112,8 +114,9 @@ function App() {
           <Route path="/Celpip" element={<RoadMapCelpip />}></Route>
           <Route path="/Enam" element={<RoadMapEnam />}></Route>
           <Route path="/Certificate" element={<Certificate />}></Route>
+          <Route path="/xd" element={<EducationalAppsShowcase  />}></Route>
 
-          <Route path="/tq" element={<TypeQuiz  />}></Route>
+          <Route path="/sixtytype" element={<SixtyType  />}></Route>
           <Route path="/mct" element={<MultipleChoiceTrainer  />}></Route>
           <Route path="/wo" element={<WordReorderGame  />}></Route>
           <Route path="/audio" element={<AudioListeningQuiz  />}></Route>

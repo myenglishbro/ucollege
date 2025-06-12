@@ -15,6 +15,45 @@ export const roadB2C = [
 
         ],
     },
+    {
+        id: 6,
+        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
+
+        title: "Important Difference",
+        subtitle: "B2/C1",
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+        enlaces: [
+            { titulo:"Welcome",descripcion:"Las diferencias en Inglés ",url: "https://drive.google.com/file/d/1xTKk8uS9tVBQ4rk-X4-VEBA3ZUAwCIW8/view?usp=sharing"},
+
+            { titulo:"Leave vs Forget",descripcion:"Diferencias en uso ",url: "https://drive.google.com/file/d/111yc2_YM2otUrY5Zd7x4XMEghsDeVhuq/view?usp=sharing" ,url2: "https://youtu.be/ZuTu0cKrgA4?si=SwLXrU0zQTyxjNDz",url3: "https://drive.google.com/file/d/1lATJkiV8vcDJ21Mu5jPDOjPRkyX_a5qZ/view?usp=sharing",url4:"https://learnibox.vercel.app/gspace",url5:"https://learnibox.vercel.app/enghelp",url6:"https://learnibox.vercel.app/xd"},
+            { titulo:"Continuamente ",codigo:"LEAVE&FOCODE",descripcion:"Diferencias en uso",url: "https://drive.google.com/file/d/1kENm-lqtM22jiVAej6_Io_IoYFeRDprC/view?usp=sharing",url2: "https://youtu.be/DXCOSUsATsE?si=KXNzdx8qbzOeCMkz",url3: "https://drive.google.com/file/d/17UWJLib-ZYETsEc-rF0p3byGvy24R_kY/view?usp=sharing"},
+            { titulo:"Shout at vs Shout to",descripcion:"Diferencias en uso",url:"https://drive.google.com/file/d/1iisgsGHkBpj0nyGTvwxCiI8_aG3ukcsi/view?usp=sharing" ,url2: "https://youtu.be/QAJVD14o2a8"},
+            { titulo:"Afraid ",descripcion:"Como usarlo",url: "https://drive.google.com/file/d/1X_G4Rvia8Lpu4C5MHXcLx7dXtUnfFsZb/view?usp=sharing"},
+            { titulo:"Afraid to do vs Afraid of doing ",descripcion:"Diferencias claves",url:"https://drive.google.com/file/d/19XX67MnZ-Mf-rmq9pPlYm9GMogYOHQa_/view?usp=sharing",url2: "https://youtu.be/pYaZjZIQBdM",url3: "https://drive.google.com/file/d/1cCllRuslCkOJyqtgAhukNp_eGwN94zre/view?usp=sharing"},
+            { titulo:" Encrucijada de Opciones ",descripcion:"Rather than, Instead of, As opposed to",url: "https://drive.google.com/file/d/13ZK9zCLBTKe73OQNaqvXjK-38ZvaJ8VT/view?usp=sharing",url3: "https://drive.google.com/file/d/1iqoLUXkRQqElYsf7faswD-xSfsSSuR9X/view?usp=sharing"},
+            { titulo:" El Laberinto de la Prevención",descripcion:"Prevent, Stop, Avoid",url: "https://drive.google.com/file/d/1FoSc6244qwfBpG9EDxzX7YkHZTuk6EN8/view?usp=sharing"},
+            { titulo:" El Reto de la Precisión",descripcion:"Differentiate, Distinguish, Discriminate",url: "https://drive.google.com/file/d/1v-uIHL_GseKjuslDEgVGhiTajGCL9CQs/view?usp=sharing"},
+            { titulo:" Profecías del Futuro Cercano ",descripcion:"Immediate Future Expressions",url: "https://drive.google.com/file/d/1mOBysPhkjDIvx1ePzrM-LMnlrsGZuOzb/view?usp=sharing"},
+            { titulo:"Rather than , Instead of . As opposed to",descripcion:"Continually, Continuously, Constantly",url: "https://drive.google.com/file/d/13ZK9zCLBTKe73OQNaqvXjK-38ZvaJ8VT/view?usp=sharing"},
+            { titulo:" Los Límites del Territorio ",descripcion:"As far as, Until, Up to",url: "https://drive.google.com/file/d/16CJjTB0ZPDvQuzpOLMR22R0jK7QCe-c3/view?usp=sharing"},
+            { titulo:" El Secreto del Buen Trabajo ",descripcion:"It's a good job /a good thing/just as well  that",url: "https://drive.google.com/file/d/1vHHH_2VXuIdDf_NSp6Ie9FgvHFB94G92/view?usp=sharing"},
+            { titulo:"Chance of-Chance to... ",url: "https://drive.google.com/file/d/18otkt_PTLMwlZGqs4rBnXRMdhz48xUaS/view?usp=sharing"},
+            { titulo:"feel like (doing) sth vs feel up to (doing) sth",url: "https://drive.google.com/file/d/1yVw8CbCu3FMAUYVJyKj42IoujDRxF1Iv/view?usp=sharing"},
+            { titulo:"Wait ,Await, Expect ",url: "https://drive.google.com/file/d/1C1llJJ8yFX0i5pxSnTMUWPIjmNvISnHB/view?usp=sharing"},
+            { titulo:"Raise vs Rise..",url: "https://drive.google.com/file/d/1K57hHa19p8k36dka59AM7pyFERFxnap2/view?usp=sharing"},
+            { titulo:"sidetrack - distract - put someone off",url: "https://drive.google.com/file/d/1uXbNu9yt24xuTIVk0u60JO0lxdxT9Wt8/view?usp=sharing"},
+            { titulo:"sign vs signal",url: "https://drive.google.com/file/d/1HhFh07shRGd8N9LoKQtuSj21YBq2TCMV/view?usp=sharing"},
+            { titulo:"in the suburbs vs on the outskirts",url: "https://drive.google.com/file/d/1JMop9SCD1WVrMeQiXTFRD0IcsBqD-vjn/view?usp=sharing"},
+            { titulo:"Notice - realize - be aware",url: "https://drive.google.com/file/d/1ZUCrPpie-3e4GKFt5xuyqDXvdF4EwQ1P/view?usp=sharing"},
+            { titulo:"TIME vs MOMENT",url: "https://drive.google.com/file/d/1DLFl-bn78Abyr-UQYLh9LN2J45t9UO8Q/view?usp=sharing"},
+            { titulo:"Trust ,Distrust ,Entrust ",url: "https://drive.google.com/file/d/1gC2SLjM0tML-TVWLjl6a4V6wHYYkokbp/view?usp=sharing"},
+            { titulo:"📚In the (short/medium /long) term / in the (short/long)run ",url: "https://drive.google.com/file/d/1OLnc9y-xWYZeoPXocHl4T0Hlow-W7-Jf/view?usp=sharing"},
+
+        ],
+    },
+
      {
         id: 3,
         thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
@@ -42,7 +81,7 @@ export const roadB2C = [
         channel: "sdasd",
         description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
         enlaces: [
-            { titulo:"Simulation Exams ",descripcion:"The second part of the Use of English paper in the B2 First Examination is open cloze, in which students use one word to fill each space in a short text. The required words are usually grammatical, such as pronouns, articles, prepositions, auxiliary verbs and so on.",url: "https://youtu.be/Hk1y2D9jbvQ",url3: "https://drive.google.com/file/d/1InWYabnMh49xh4J1dp6ewYCL3G71vfcb/view?usp=sharing",url5:"https://learnibox.vercel.app/tq"},
+            { titulo:"Simulation Exams ",descripcion:"The second part of the Use of English paper in the B2 First Examination is open cloze, in which students use one word to fill each space in a short text. The required words are usually grammatical, such as pronouns, articles, prepositions, auxiliary verbs and so on.",url: "https://youtu.be/Hk1y2D9jbvQ",url3: "https://drive.google.com/file/d/1InWYabnMh49xh4J1dp6ewYCL3G71vfcb/view?usp=sharing",url5:"https://learnibox.vercel.app/sixtytype"},
 
            
         ],
@@ -79,10 +118,10 @@ export const roadB2C = [
         description: "We will learn to introduce ourselves, spell names and words, describe people, introduce family members, and provide personal information.",
         enlaces: [
            { titulo: "Los Verbos Irregulares II ", url: "https://drive.google.com/file/d/1EhALfkVQb-G5ylK9qMc674zmh8LWd-kT/view?usp=share_link",},
-           { titulo:"Irregular Verbs forms ",descripcion:"Practice this with more than 200 exercises",url: "https://drive.google.com/file/d/1RpV1uLe-A215sfP1S954zi2zQs_XDvDg/view?usp=share_link",url3: "https://drive.google.com/file/d/19PGRN6t6JF3TyYxYBCJOzAdKDWIIurX3/view?usp=sharing",url5:"https://learnibox.vercel.app/tq"},
+           { titulo:"Irregular Verbs forms ",descripcion:"Practice this with more than 200 exercises",url: "https://drive.google.com/file/d/1RpV1uLe-A215sfP1S954zi2zQs_XDvDg/view?usp=share_link",url3: "https://drive.google.com/file/d/19PGRN6t6JF3TyYxYBCJOzAdKDWIIurX3/view?usp=sharing",url5:"https://learnibox.vercel.app/sixtytype"},
 
            { titulo: "Transitive and Intransitive Verbs",url: "https://drive.google.com/file/d/1q9Ay8KRUU9tSwuHEvjIM8bKZ3PWCyjkZ/view?usp=sharing", },
-            { titulo: " Gerunds and Infinitives Explanation",url: "https://drive.google.com/file/d/1rE08bQrEyF0TVO7FTYWGtLaiOGKuLjRO/view?usp=sharing",url3:"https://drive.google.com/file/d/1ezv2iZSq1XyKjAdi8gye4qm8SzSvLEv8/view?usp=sharing",url7:"https://learnibox.vercel.app/tq" },
+            { titulo: " Gerunds and Infinitives Explanation",url: "https://drive.google.com/file/d/1rE08bQrEyF0TVO7FTYWGtLaiOGKuLjRO/view?usp=sharing",url3:"https://drive.google.com/file/d/1ezv2iZSq1XyKjAdi8gye4qm8SzSvLEv8/view?usp=sharing",url7:"https://learnibox.vercel.app/sixtytype" },
          
 
            
@@ -100,7 +139,7 @@ export const roadB2C = [
         channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
         description: "We will learn to introduce ourselves, spell names and words, describe people, introduce family members, and provide personal information.",
         enlaces: [
-          { titulo:"Passive Voice Quizz ",descripcion:"Practice this with more than 200 exercises",url: "https://youtu.be/Hk1y2D9jbvQ",url3: "https://drive.google.com/file/d/1eiZnSoOK7R8yvCZGyBtegOXcZwsmQTCS/view?usp=sharing",url5:"https://learnibox.vercel.app/tq"},
+          { titulo:"Passive Voice Quizz ",descripcion:"Practice this with more than 200 exercises",url: "https://youtu.be/Hk1y2D9jbvQ",url3: "https://drive.google.com/file/d/1eiZnSoOK7R8yvCZGyBtegOXcZwsmQTCS/view?usp=sharing",url5:"https://learnibox.vercel.app/sixtytype"},
 
             { titulo: "✍ PA001 - Passive Voice - Sentence Building",url: "https://drive.google.com/file/d/1dnTe8P1YghBdXX-241IbAgBwY4Q906_R/view?usp=sharing", },
             { titulo: "✍ PA006 - Passive Voice - Make sentences using the tenses in brackets ",url: "https://drive.google.com/file/d/12WGBkRNI1TTH3LYZiDrLCn0XjIWoeIbQ/view?usp=sharing", },
@@ -267,46 +306,7 @@ export const roadB2C = [
 
         ],
     },
-    {
-        id: 6,
-        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
-
-        title: "Grammar Showdown",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 0 ",
-        channel: "sdasd",
-        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
-        enlaces: [
-            { titulo:"Welcome",descripcion:"Las diferencias en Inglés ",url: "https://drive.google.com/file/d/1xTKk8uS9tVBQ4rk-X4-VEBA3ZUAwCIW8/view?usp=sharing"},
-
-            { titulo:"Leave vs Forget",descripcion:"Diferencias en uso ",url: "https://drive.google.com/file/d/111yc2_YM2otUrY5Zd7x4XMEghsDeVhuq/view?usp=sharing" ,url2: "https://youtu.be/ZuTu0cKrgA4?si=SwLXrU0zQTyxjNDz",url3: "https://drive.google.com/file/d/1lATJkiV8vcDJ21Mu5jPDOjPRkyX_a5qZ/view?usp=sharing",url4:"https://learnibox.vercel.app/gspace",url5:"https://learnibox.vercel.app/enghelp",url6:"https://learnibox.vercel.app/fight"},
-            { titulo:"Continuamente ",codigo:"LEAVE&FOCODE",descripcion:"Diferencias en uso",url: "https://drive.google.com/file/d/1kENm-lqtM22jiVAej6_Io_IoYFeRDprC/view?usp=sharing",url2: "https://youtu.be/DXCOSUsATsE?si=KXNzdx8qbzOeCMkz",url3: "https://drive.google.com/file/d/17UWJLib-ZYETsEc-rF0p3byGvy24R_kY/view?usp=sharing"},
-            { titulo:"Shout at vs Shout to",descripcion:"Diferencias en uso",url:"https://drive.google.com/file/d/1iisgsGHkBpj0nyGTvwxCiI8_aG3ukcsi/view?usp=sharing" ,url2: "https://youtu.be/QAJVD14o2a8"},
-            { titulo:"Afraid ",descripcion:"Como usarlo",url: "https://drive.google.com/file/d/1X_G4Rvia8Lpu4C5MHXcLx7dXtUnfFsZb/view?usp=sharing"},
-            { titulo:"Afraid to do vs Afraid of doing ",descripcion:"Diferencias claves",url:"https://drive.google.com/file/d/19XX67MnZ-Mf-rmq9pPlYm9GMogYOHQa_/view?usp=sharing",url2: "https://youtu.be/pYaZjZIQBdM",url3: "https://drive.google.com/file/d/1cCllRuslCkOJyqtgAhukNp_eGwN94zre/view?usp=sharing"},
-            { titulo:" Encrucijada de Opciones ",descripcion:"Rather than, Instead of, As opposed to",url: "https://drive.google.com/file/d/13ZK9zCLBTKe73OQNaqvXjK-38ZvaJ8VT/view?usp=sharing",url3: "https://drive.google.com/file/d/1iqoLUXkRQqElYsf7faswD-xSfsSSuR9X/view?usp=sharing"},
-            { titulo:" El Laberinto de la Prevención",descripcion:"Prevent, Stop, Avoid",url: "https://drive.google.com/file/d/1FoSc6244qwfBpG9EDxzX7YkHZTuk6EN8/view?usp=sharing"},
-            { titulo:" El Reto de la Precisión",descripcion:"Differentiate, Distinguish, Discriminate",url: "https://drive.google.com/file/d/1v-uIHL_GseKjuslDEgVGhiTajGCL9CQs/view?usp=sharing"},
-            { titulo:" Profecías del Futuro Cercano ",descripcion:"Immediate Future Expressions",url: "https://drive.google.com/file/d/1mOBysPhkjDIvx1ePzrM-LMnlrsGZuOzb/view?usp=sharing"},
-            { titulo:"Rather than , Instead of . As opposed to",descripcion:"Continually, Continuously, Constantly",url: "https://drive.google.com/file/d/13ZK9zCLBTKe73OQNaqvXjK-38ZvaJ8VT/view?usp=sharing"},
-            { titulo:" Los Límites del Territorio ",descripcion:"As far as, Until, Up to",url: "https://drive.google.com/file/d/16CJjTB0ZPDvQuzpOLMR22R0jK7QCe-c3/view?usp=sharing"},
-            { titulo:" El Secreto del Buen Trabajo ",descripcion:"It's a good job /a good thing/just as well  that",url: "https://drive.google.com/file/d/1vHHH_2VXuIdDf_NSp6Ie9FgvHFB94G92/view?usp=sharing"},
-            { titulo:"Chance of-Chance to... ",url: "https://drive.google.com/file/d/18otkt_PTLMwlZGqs4rBnXRMdhz48xUaS/view?usp=sharing"},
-            { titulo:"feel like (doing) sth vs feel up to (doing) sth",url: "https://drive.google.com/file/d/1yVw8CbCu3FMAUYVJyKj42IoujDRxF1Iv/view?usp=sharing"},
-            { titulo:"Wait ,Await, Expect ",url: "https://drive.google.com/file/d/1C1llJJ8yFX0i5pxSnTMUWPIjmNvISnHB/view?usp=sharing"},
-            { titulo:"Raise vs Rise..",url: "https://drive.google.com/file/d/1K57hHa19p8k36dka59AM7pyFERFxnap2/view?usp=sharing"},
-            { titulo:"sidetrack - distract - put someone off",url: "https://drive.google.com/file/d/1uXbNu9yt24xuTIVk0u60JO0lxdxT9Wt8/view?usp=sharing"},
-            { titulo:"sign vs signal",url: "https://drive.google.com/file/d/1HhFh07shRGd8N9LoKQtuSj21YBq2TCMV/view?usp=sharing"},
-            { titulo:"in the suburbs vs on the outskirts",url: "https://drive.google.com/file/d/1JMop9SCD1WVrMeQiXTFRD0IcsBqD-vjn/view?usp=sharing"},
-            { titulo:"Notice - realize - be aware",url: "https://drive.google.com/file/d/1ZUCrPpie-3e4GKFt5xuyqDXvdF4EwQ1P/view?usp=sharing"},
-            { titulo:"TIME vs MOMENT",url: "https://drive.google.com/file/d/1DLFl-bn78Abyr-UQYLh9LN2J45t9UO8Q/view?usp=sharing"},
-            { titulo:"Trust ,Distrust ,Entrust ",url: "https://drive.google.com/file/d/1gC2SLjM0tML-TVWLjl6a4V6wHYYkokbp/view?usp=sharing"},
-            { titulo:"📚In the (short/medium /long) term / in the (short/long)run ",url: "https://drive.google.com/file/d/1OLnc9y-xWYZeoPXocHl4T0Hlow-W7-Jf/view?usp=sharing"},
-
-        ],
-    },
-
+    
   
  
     {
