@@ -1,4 +1,6 @@
-// utils/getEmbedUrl.js
+export const isGoogleDriveFolder = (url) => {
+  return url.includes('drive.google.com/drive/folders/');
+};
 
 export const getEmbedUrl = (url) => {
   if (url.includes('wordwall.net')) {
@@ -16,6 +18,10 @@ export const getEmbedUrl = (url) => {
   }
 
   if (url.includes('drive.google.com')) {
+    if (url.includes('/folders/')) {
+      const folderId = url.split('/folders/')[1]?.split(/[/?#]/)[0];
+      return `https://drive.google.com/embeddedfolderview?id=${folderId}#grid`;
+    }
     const fileId = url.split('/d/')[1]?.split('/')[0];
     return `https://drive.google.com/file/d/${fileId}/preview`;
   }
