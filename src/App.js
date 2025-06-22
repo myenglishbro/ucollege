@@ -75,6 +75,7 @@ import AttendanceTracker from "./components/AttendanceTracker.jsx";
 import ReporteMensual from "./components/ReporteMensual.jsx";
 import EducationalAppsShowcase from "./components/EducationalAppsShowcase.jsx";
 import SixtyType from "./components/SixtyType.jsx";
+import RoadMapKeyMastery from "./pages/RoadMapKeyMastery.jsx";
 
 function App() {
   return (
@@ -94,6 +95,7 @@ function App() {
           <Route path="/RoadMap" element={<RoadMap />}></Route>
           <Route path="/RoadMapB1" element={<RoadMapB1 />}></Route>
           <Route path="/CambridgeExam" element={<CambridgeExam />}></Route>
+          <Route path="/KeywordMastery" element={<RoadMapKeyMastery />}></Route>
 
           <Route path="/RoadMapB2" element={<RoadMapB2 />}></Route>
           <Route path="/RoadMapB2C" element={<RoadMapB2C />}></Route>
