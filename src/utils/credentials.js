@@ -71,6 +71,7 @@ export const validCredentials = [
         { expirationDate:"18/07/25",nivel:"B2 ",usuario: 'teresa', password: 'trigoso', realname: 'Teresa Trigoso', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png' }, // No image
         { expirationDate:"18/07/25",nivel:"B2 ",usuario: 'kwt', password: 'mastery', realname: 'Teresa Trigoso', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png' }, // No image
         { expirationDate:"10 hours",nivel:"B2 ",usuario: 'ninos', password: 'morcillo', realname: 'Ninoska Morcillo', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png' }, // No image
+        { expirationDate:"26/07725",nivel:"B2 ",usuario: 'jersson', password: 'luza', realname: 'Jersson Ccachura Luza', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png' }, // No image
 
        //valere students
       { expirationDate:"Acceso Ilimitado",nivel:"B2",usuario: 'jose.espinoza', password: 'espinoza', realname: 'Jose Espinoza',img:'https://i.ibb.co/KxnCbbsN/TKSEJTSGH-U06-ESMT4-N3-E-b7c4ebc0c00f-512.jpg'},
