@@ -1,7 +1,29 @@
 export const roadcelpip = [
+    {
+        id: 0,
+        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
+
+        title: "Speaking - Task01 ",
+        subtitle: "B2/C1",
+
+        dateAdded: "B2/C1",
+        channel: "sdasd",
+        description: "Mejora tus habilidades de comprensión auditiva con este curso que te ayudará a entender a hablantes nativos en diferentes situaciones y acentos, fortaleciendo tu confianza al escuchar y comprender el idioma.",
+        enlaces: [
+            { titulo: "Model Phrases", url: "https://drive.google.com/file/d/1cbVXH6_B53GUueclHcB5VDdvVqEwHg72/view?usp=sharing" },
+            { titulo: "Important Verbs 01", descripcion:"Lista de verbos y sustantivos que debes aprender",url: "https://drive.google.com/file/d/1yrca73cClmiMA57nV-3gdKrwYMYuBMKK/view?usp=sharing" },
+            { titulo: "Estructuras útiles", url: "https://drive.google.com/file/d/1-e0x523KlYcBN8i9aXeR89P8o2uLdJu2/view?usp=sharing" },
+            { titulo: "Important Verbs 02",descripcion:"Lista de verbos y sustantivos que debes aprender", url: "https://drive.google.com/file/d/110QCO_Oc1VOl68kyyZbqmTEEILVkxFID/view?usp=sharing" },
+            { titulo: "Phrasal Verbs", url: "https://drive.google.com/file/d/1_Cih6YVDejIcq5HLRtxTWxqEx9aH9ORN/view?usp=sharing" },
+            { titulo: "Important Verbs 03", descripcion:"Lista de verbos y sustantivos que debes aprender",url: "https://drive.google.com/file/d/13hVp8g2kwShzbPLc7xCmWxbFcgJC-suP/view?usp=sharing" },
+            { titulo: "Idioms ",descripcion:"Lista de Idioms con contexto", url: "https://drive.google.com/file/d/1WISY0XjhB5ZumY5HAq02SvuectxuS93A/view?usp=sharing" },
+            { titulo: "Mock Test", descripcion:"Preguntas similares a la de los exámenes",url: "https://drive.google.com/file/d/1oeX011FOugCybCGtFqFPe4yTiJf-kIGe/view?usp=sharing" },
+
+        ],
+    },
 {
         id: 0,
-                     thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
+        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
 
         title: "Books ",
         subtitle: "B2/C1",
@@ -58,7 +80,7 @@ export const roadcelpip = [
     },
     {
         id: 2,
-                thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
+        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
 
         title: "Writing ",
         subtitle: "B2/C1",
