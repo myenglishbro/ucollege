@@ -39,4 +39,8 @@ export const validCredentials = [
       { expirationDate:"Acceso Ilimitado",nivel:"B2",usuario: 'melissa', password: 'cossio', realname: 'Melissa Cossío',img:'https://i.ibb.co/8nc8YStR/TKSEJTSGH-U06-BY5-BHK9-Q-9c50b01c38d4-512.jpg'},
       { expirationDate:"Acceso Ilimitado",nivel:"B2",usuario: 'thalia', password: 'castro', realname: 'Thalia Castro',img:'https://i.ibb.co/mCHLpZqd/TKSEJTSGH-U06-SMT2-J13-R-ee6798c0e891-512.png'},
 
+
+
+     { expirationDate:"29/07",nivel:"B2",usuario: 'andrea', password: 'pacara', realname: 'Andrea Pacara',img:'https://i.ibb.co/mCHLpZqd/TKSEJTSGH-U06-SMT2-J13-R-ee6798c0e891-512.png'},
+
     ];

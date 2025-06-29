@@ -1,598 +1,128 @@
+// components/SidebarBook.jsx
 import React, { useState, useEffect } from 'react';
-import { FaMousePointer, FaRegFileAlt, FaRegFilePdf, FaRegFilePowerpoint, FaRegFolderOpen, FaRegKeyboard, FaSearch } from 'react-icons/fa';
+import { FaSearch, FaBars, FaTimes } from 'react-icons/fa';
+import AccordionSection from './AccordionSection';
+import RewardPopup from './RewardPopup';
+import UnlockLinkModal from './UnlockLinkModal';
 import Hito from '../pages/Hito';
-import { mensajes } from '../utils/mensajes';
-import { FaCheck, FaBookOpen, FaPencilAlt, FaVideo } from 'react-icons/fa';
-import { FaLock } from 'react-icons/fa';
-import { GiBookCover ,GiCrossedSGiBrain, GiBattleAxe, GiShieldCrossed, GiBrain, GiOpenBook, GiRocketThruster, GiHealthPotion, GiCrossedSwords } from 'react-icons/gi';
-import { BiDownload } from "react-icons/bi";
-import { BiHighlight } from "react-icons/bi";
 
-const SidebarBook= ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) => {
+export default function SidebarBook({ road, seleccionarNivel }) {
+  const NAVBAR_HEIGHT = 64; // altura del navbar
+  const SIDEBAR_WIDTH = 288; // ancho del sidebar en px
+
+  const [isSidebarVisible, setIsSidebarVisible] = useState(false);
   const [selectedIndex, setSelectedIndex] = useState(null);
   const [activeIndex, setActiveIndex] = useState(null);
   const [selectedLink, setSelectedLink] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
-  const [viewedItems, setViewedItems] = useState([]);
-  const [achievementMessage, setAchievementMessage] = useState('');
-  const [timerMinutes, setTimerMinutes] = useState(1);
-  const [timeLeft, setTimeLeft] = useState(0);
-  const [isTimerRunning, setIsTimerRunning] = useState(false);
-  const [showModal, setShowModal] = useState(false);
-  // Estado para llevar registro de los elementos desbloqueados (por su id)
   const [unlockedItems, setUnlockedItems] = useState([]);
-  // Estado para los inputs de código (clave: índice del elemento)
-  const [codeInputs, setCodeInputs] = useState({});
-// Nuevo estado para los enlaces desbloqueados
-const [unlockedLinks, setUnlockedLinks] = useState([]);
-
-// Estado para almacenar el enlace actualmente bloqueado (cuando se haga clic en "Locked")
-const [currentLockedLink, setCurrentLockedLink] = useState(null);
-// Estado para el input del código en el modal
-const [codeInputForPopup, setCodeInputForPopup] = useState("");
-
-
-
-
-  // Estados nuevos para el popup de recompensa
+  const [unlockedLinks, setUnlockedLinks] = useState([]);
+  const [currentLockedLink, setCurrentLockedLink] = useState(null);
   const [showRewardPopup, setShowRewardPopup] = useState(false);
-  const [reward, setReward] = useState('');
-  const [rewardDescription, setRewardDescription] = useState('');
+  const [rewardData, setRewardData] = useState({ image: '', description: '' });
 
+  const toggleSidebar = () => setIsSidebarVisible(v => !v);
 
-
-
-  
-  useEffect(() => {
-    try {
-      const savedViewedItems = JSON.parse(localStorage.getItem('viewedItems')) || [];
-      setViewedItems(savedViewedItems);
-    } catch (error) {
-      console.error('Error al cargar los datos desde localStorage:', error);
-    }
-  }, []);
-
-  useEffect(() => {
-    localStorage.setItem('viewedItems', JSON.stringify(viewedItems));
-  }, [viewedItems]);
-
-  useEffect(() => {
-    if (isTimerRunning && timeLeft > 0) {
-      const timer = setInterval(() => {
-        setTimeLeft((prev) => prev - 1);
-      }, 1000);
-      return () => clearInterval(timer);
-    } else if (timeLeft === 0 && isTimerRunning) {
-      setIsTimerRunning(false);
-      setShowModal(true);
-    }
-  }, [isTimerRunning, timeLeft]);
-
- 
-
-
-
-
-  const handleSelect = (index) => {
-    setSelectedIndex(index);
-    seleccionarNivel(index);
-  };
-
-  const toggleAccordion = (index) => {
-    setActiveIndex(activeIndex === index ? null : index);
-  };
-
-  const handleLinkClick = (enlace) => {
-    setSelectedLink(enlace);
-  };
-
-  const handleCheckboxChange = (enlaceTitulo) => {
-    setViewedItems((prev) =>
-      prev.includes(enlaceTitulo)
-        ? prev.filter((item) => item !== enlaceTitulo)
-        : [...prev, enlaceTitulo]
-    );
-  };
-
-  const filteredRoad = road.filter((elemento) =>
-    elemento.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    elemento.enlaces.some((enlace) =>
-      enlace.titulo.toLowerCase().includes(searchTerm.toLowerCase())
-    )
+  const filteredRoad = road.filter(item =>
+    item.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    item.enlaces.some(link => link.titulo.toLowerCase().includes(searchTerm.toLowerCase()))
   );
 
-  const totalItems = road.reduce((sum, item) => sum + item.enlaces.length, 0);
-
-   // Función para validar el código ingresado para un elemento
-   const handleValidateCode = (index, elemento) => {
-    if (codeInputs[index] === elemento.code) {
-      setUnlockedItems((prev) => [...prev, elemento.id]);
-      // Asignamos la imagen y la descripción de recompensa. Puedes usar una propiedad específica o, de no existir, el description general.
-      setReward(elemento.reconpensa);
-      setRewardDescription(elemento.reconpensaDescripcion || elemento.description);
+  const handleValidateSectionCode = (idx, section) => {
+    if (section.code === section.codeInput) {
+      setUnlockedItems(prev => [...prev, section.id]);
+      setRewardData({ image: section.recompensa, description: section.recompensaDescripcion || section.description });
       setShowRewardPopup(true);
     } else {
-      alert("Código incorrecto");
+      alert('Código incorrecto');
     }
   };
-
-
-  const handleValidateLinkCode = (enlaceKey) => {
-    const userCode = codeInputs[enlaceKey] || "";
-    // Buscamos el enlace correspondiente entre todos los enlaces
-    const enlace = road.flatMap(item => item.enlaces).find(e => e.titulo === enlaceKey);
-    
-    if (!enlace) {
-      alert("Enlace no encontrado.");
-      return;
-    }
-  
-    if (userCode === enlace.codigo) {
-      setUnlockedLinks(prev => [...prev, enlaceKey]);
-      alert("¡Enlace desbloqueado!");
-    } else {
-      alert("Código incorrecto");
-    }
-  };
-  
-
-
-  const handleValidateLinkCodePopup = () => {
-    if (!currentLockedLink) return;
-  
-    if (codeInputForPopup === currentLockedLink.codigo) {
-      setUnlockedLinks(prev => [...prev, currentLockedLink.titulo]);
-      alert("¡Enlace desbloqueado!");
-      setCurrentLockedLink(null);
-      setCodeInputForPopup("");
-    } else {
-      alert("Código incorrecto");
-    }
-  };
-  
-
-
 
   return (
-    <>
-      <button className="sidebar-toggle" onClick={toggleSidebar}>
-        ☰
+    <div className="relative h-full">
+       {/* Toggle button aligned to sidebar edge */}
+      <button
+        onClick={toggleSidebar}
+        className="fixed z-30 bg-indigo-600 hover:bg-indigo-700 text-white p-3 rounded-r-lg focus:outline-none transition-colors duration-200 ease-in-out shadow-md"
+        style={{ top: NAVBAR_HEIGHT + 16, left: isSidebarVisible ? SIDEBAR_WIDTH : 0 }}
+      >
+        {isSidebarVisible ? <FaTimes size={20} /> : <FaBars size={20} />}
       </button>
 
-      <div className={`sidebar ${isSidebarVisible ? 'visible' : ''} bg-gray-800 text-white w-72 h-full fixed shadow-lg overflow-y-auto custom-scrollbar`}>
-        <div className=" p-4   text-white space-y-4">
-
-</div>
-
-
-
-        {/* Sidebar Content */}
-        {filteredRoad.map((elemento, index) => (
-          <div key={index} className="accordion-section">
-            <button
-              onClick={() => {
-                handleSelect(index);
-                toggleAccordion(index);
-              }}
-              className={`sidebar-button ${selectedIndex === index ? 'selected' : ''}`}
-              style={{
-                backgroundColor: elemento.color || '#1E293B',
-                backgroundImage: elemento.thumbnail
-                  ? `linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(${elemento.thumbnail})`
-                  : 'none',
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                color: 'white',
-                fontWeight: 'bold',
-                padding: '15px 20px ',
-                border: 'none',
-                transition: 'transform 0.2s, box-shadow 0.2s',
-                marginBottom: '2px',
-                alignItems: 'center',
-      justifyContent: 'center',
-      textAlign: 'center',
-              }}
-            >
-              {elemento.title}
-            </button>
-            {activeIndex === index && (
-              <>
-                {elemento.code && !unlockedItems.includes(elemento.id) ? (
-                  <div className="code-input-container p-4 bg-gradient-to-br from-gray-800 to-gray-700 rounded-lg shadow-md">
-                    <p className="text-sm text-gray-300 mb-2">
-                      Obtén el código desarrollando el examen del nivel anterior
-                    </p>
-                    <input
-                      type="text"
-                      placeholder="Ingresa el código"
-                      value={codeInputs[index] || ""}
-                      onChange={(e) =>
-                        setCodeInputs({ ...codeInputs, [index]: e.target.value })
-                      }
-                      className="p-2 rounded w-full text-black focus:outline-none focus:ring-2 focus:ring-blue-500"
-                    />
-                    <button
-                      onClick={() => handleValidateCode(index, elemento)}
-                      className="mt-2 bg-gradient-to-r from-blue-500 to-indigo-500 hover:from-blue-600 hover:to-indigo-600 text-white py-2 px-4 rounded w-full transition-all"
-                    >
-                      Enviar código
-                    </button>
-                  </div>
-                ) : (
-                  <div className="accordion-content">
-                  {elemento.enlaces.map((enlace, i) => {
-  const requiresCode = Boolean(enlace.codigo);
-  const isUnlocked = unlockedLinks.includes(enlace.titulo);
-
-  if (requiresCode && !isUnlocked) {
-    // En lugar de mostrar el input inline, mostramos un botón que abre el modal
-    return (
-      <div
-  key={i}
-  className="timeline-item"
-  style={{
-    padding: '16px',
-    margin: '10px auto',
-    maxWidth: '600px',
-    background: '#334155',
-    borderRadius: '8px',
-    color: 'white',
-    boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
-    display: 'flex',
-    flexDirection: 'column',
-    gap: '12px',
-  }}
->
-  <h4 style={{ fontWeight: 'bold', margin: 0 }}>
-    {`${i + 1}. ${enlace.titulo}`}
-  </h4>
-  <p
-    style={{
-      fontSize: '14px',
-      color: '#CBD5E1',
-      fontStyle: 'italic',
-      margin: 0,
-    }}
-  >
-    {enlace.descripcion}
-  </p>
-  <div style={{ display: 'flex', justifyContent: 'center' }}>
-    <button
-      onClick={() => {
-        setCurrentLockedLink(enlace);
-        setCodeInputForPopup("");
-      }}
-      style={{
-        background: 'linear-gradient(135deg, #1f1c2c, #928DAB)',
-        color: '#fff',
-        borderRadius: '8px',
-        padding: '8px 16px',
-        border: 'none',
-        fontWeight: 'bold',
-        fontSize: '16px',
-        cursor: 'pointer',
-        boxShadow: '0 4px 10px rgba(0,0,0,0.3)',
-        transition: 'transform 0.2s ease-in-out',
-      }}
-      onMouseEnter={(e) =>
-        (e.currentTarget.style.transform = 'scale(1.1)')
-      }
-      onMouseLeave={(e) =>
-        (e.currentTarget.style.transform = 'scale(1)')
-      }
-      title="Unlock with code"
-      aria-label="Unlock with code"
-    >
-      <FaLock />
-    </button>
-
-    </div>
-</div>
-    );
-  } else {
-    // Si el enlace no requiere código o ya fue desbloqueado, se muestra el contenido normal.
-  const normalizeUrl = (url) => {
-  if (!url) return url;
-  return url.startsWith('http://')
-    ? url.replace(/^http:\/\//, 'https://')
-    : url;
-};
-  
-    return (
-      <div
-  key={i}
-  className={`timeline-item ${viewedItems?.includes(enlace.titulo) ? 'viewed' : ''}`}
-  style={{
-    padding: '10px',
-    margin: '5px 0',
-    background: '#334155',
-    borderRadius: '8px',
-    color: 'white',
-    display: 'flex',
-    flexDirection: 'column',
-    justifyContent: 'space-between',
-    alignItems: 'flex-start',
-    gap: '20px',
-  }}
->
-  {/* Contenido (título y descripción) */}
-  <div style={{ flex: 1 }}>
-    <label style={{ display: 'flex', alignItems: 'center', width: '100%' }}>
-      <input
-        type="checkbox"
-        checked={viewedItems?.includes(enlace.titulo)}
-        onChange={() => handleCheckboxChange(enlace.titulo)}
-        style={{ marginRight: '10px' }}
-      />
-      <span style={{ fontWeight: 'bold' }}>{`${i + 1}. ${enlace.titulo}`}</span>
-    </label>
-     {/* Descripción */}
-  <p
-    style={{
-      fontSize: '14px',
-      color: '#CBD5E1',
-      fontStyle: 'italic',
-      marginBottom: '12px',
-      lineHeight: 1.4,
-    }}
-  >
-    {enlace.descripcion}
-  </p>
-  </div>
-
- {/* Botones revisar este código en los botones */}
-  <div
-    style={{
-      display: 'grid',
-      gridTemplateColumns: 'repeat(3, 1fr)', // siempre 3 columnas
-      gap: '4px',                              // menos espacio
-      alignItems: 'center',
-    }}
-  >
-    {/* Estilos base para todos los botones */}
-    {[
-      { key: 'url', icon: viewedItems?.includes(enlace.titulo) ? <FaCheck /> : <FaRegFilePowerpoint />, label: viewedItems?.includes(enlace.titulo) ? 'Slide viewed' : 'View slide', urlProp: 'url', gradient: viewedItems?.includes(enlace.titulo) ? '135deg, #1E90FF, #0073E6' : '135deg, #004AAD, #001F3F' },
-      { key: 'url2', icon: <FaVideo />, label: 'Watch video', urlProp: 'url2', gradient: '135deg, #004AAD, #001F3F' },
-      { key: 'url3', icon: <FaRegFolderOpen />, label: 'Take test', urlProp: 'url3', gradient: '135deg, #FF8C00, #FF4500' },
-      { key: 'url4', icon: <FaMousePointer />, label: 'Desafío 4', urlProp: 'url4', gradient: '135deg, #FF8C00, #FF4500' },
-      { key: 'url5', icon: <FaRegKeyboard />, label: 'Desafío 5', urlProp: 'url5', gradient: '135deg, #FF8C00, #FF4500' },
-      { key: 'url6', icon: <GiBookCover />, label: 'Desafío 6', urlProp: 'url6', gradient: '135deg, #FF8C00, #FF4500' },
-      { key: 'url7', icon: <BiDownload />, label: 'Desafío 7', urlProp: 'url7', gradient: '135deg, #FF8C00, #FF4500' },
-      { key: 'url8', icon: <BiHighlight />, label: 'Desafío 8', urlProp: 'url8', gradient: '135deg, #004AAD, #001F3F' },
-      { key: 'url9', icon: <FaRegFileAlt />, label: 'Desafío 9', urlProp: 'url9', gradient: '135deg, #004AAD, #001F3F' },
-
-    ].map(({ key, icon, label, urlProp, gradient }) =>
-      enlace[urlProp] ? (
-        <button
-          key={key}
-          onClick={() =>
-            handleLinkClick({
-              ...enlace,
-              url: normalizeUrl(enlace[urlProp]),
-            })
-          }
-          style={{
-            background: `linear-gradient(${gradient})`,
-            color: '#fff',
-            borderRadius: '4px',
-            padding: '2px 8px',           // padding reducido
-            border: 'none',
-            fontWeight: 600,
-            fontSize: '12px',             // fuente más pequeña
-            cursor: 'pointer',
-            transition: 'background 0.3s ease',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',     // centrar icono
-            gap: '2px',                   // gap reducido
-            height: '32px',               // altura fija
-          }}
-          aria-label={label}
-          title={label}
-        >
-          {icon}
-        </button>
-      ) : null
-    )}
-  </div>
-
-
-</div>
-
-    );
-  }
-})}
-
-
-                  </div>
-                )}
-              </>
-            )}
+      {/* Sidebar slide-in/out */}
+      <aside
+        className={`fixed left-0 w-72 bg-gray-800 text-white shadow-lg z-20 transform transition-transform duration-300 ease-in-out
+          ${isSidebarVisible ? 'translate-x-0' : '-translate-x-full'}`}
+        style={{ top: NAVBAR_HEIGHT, height: `calc(100% - ${NAVBAR_HEIGHT}px)` }}
+      >
+        <div className="flex flex-col h-full">
+          {/* Search header */}
+          <div className="flex-none p-4 flex items-center space-x-3">
+            <FaSearch className="text-gray-400" />
+            <input
+              type="text"
+              placeholder="Buscar..."
+              value={searchTerm}
+              onChange={e => setSearchTerm(e.target.value)}
+              className="w-full pl-2 py-1 rounded bg-gray-700 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-150"
+            />
           </div>
-        ))}
-      </div>
-
-      {selectedLink && (
-        <div className="popup-container">
-          <Hito selectedLink={selectedLink} />
-
-          <button onClick={() => setSelectedLink(null)} className="close-popup">
-            ✖
-          </button>
-        </div>
-      )}
-     
-
-
-      {showRewardPopup && (
-  <div
-    id="reward-popup"
-    role="dialog"
-    aria-modal="true"
-    tabIndex={-1}
-    onKeyDown={(e) => {
-      if (e.key === "Escape") setShowRewardPopup(false);
-    }}
-    onClick={(e) => {
-      if (e.target === e.currentTarget) setShowRewardPopup(false);
-    }}
-    className="fixed inset-0 flex items-center justify-center z-50 p-4 bg-black bg-opacity-85 animate-fadeInUp"
-  >
-    {/* Contenedor interno con overlay y fondo */}
-    <div
-      className="relative flex flex-col md:flex-row items-center gap-6 w-full max-w-3xl ml-10 p-6 rounded-xl border border-gray-700 shadow-2xl overflow-hidden bg-overlay"
-      style={{
-        backgroundImage:
-          "url('https://i.ibb.co/fG47Jd8b/DALL-E-2025-03-14-16-28-39-A-futuristic-dark-cyberpunk-background-featuring-a-neon-lit-environment-T.webp')",
-        backgroundSize: "cover",
-        backgroundPosition: "center",
-      }}
-      onClick={(e) => e.stopPropagation()}
-    >
-      {/* Capa de burbujas */}
-      <div className="bubbles absolute inset-0 pointer-events-none" style={{ zIndex: 1 }}>
-        {Array.from({ length: 20 }).map((_, index) => (
-          <span key={index} style={{ "--i": index + 10 }}></span>
-        ))}
-      </div>
-
-      {/* Sección de la Card */}
-      <div className="futuristic-card-container relative w-full md:w-2/3">
-        <div className="futuristic-card w-64 md:w-90 sm:w-72 rounded-xl overflow-hidden relative mx-auto">
-          <div className="futuristic-card-content" style={{ zIndex: 2 }}>
-            <h2 className="card-title">Epic Reward</h2>
-            <p className="card-subtitle">
-              You have acquired a legendary artifact of immense power!
-            </p>
-            <div className="futuristic-image-container mb-4">
-              <div className="holo-overlay"></div>
-              <div className="futuristic-particles"></div>
-              <img
-                src={reward}
-                alt="Reward"
-                className="futuristic-image"
+          {/* Content list */}
+          <div className="flex-1 overflow-auto px-4 py-2">
+            {filteredRoad.map((section, idx) => (
+              <AccordionSection
+                key={section.id}
+                section={section}
+                index={idx}
+                isActive={activeIndex === idx}
+                isSelected={selectedIndex === idx}
+                isUnlocked={unlockedItems.includes(section.id)}
+                unlockedLinks={unlockedLinks}
+                onToggle={() => setActiveIndex(activeIndex === idx ? null : idx)}
+                onSelect={() => { setSelectedIndex(idx); seleccionarNivel(idx); }}
+                onValidateSectionCode={codeInput => handleValidateSectionCode(idx, { ...section, codeInput })}
+                onLinkClick={link => setSelectedLink(link)}
+                onUnlockLink={setCurrentLockedLink}
               />
-            </div>
-            <p className="card-description">{rewardDescription}</p>
+            ))}
           </div>
         </div>
-      </div>
+      </aside>
 
-      {/* Sección de Botones */}
-      <div className="w-full md:w-1/3 flex flex-col items-center gap-4">
-        <button
-          onClick={() => setShowRewardPopup(false)}
-          className="bg-gradient-to-r from-gray-700 to-gray-900 hover:from-gray-600 hover:to-gray-800 text-gray-100 font-bold py-2 px-6 rounded-full transition-all w-full"
-        >
-          Close
-        </button>
-           
-      </div>
-    </div>
-  </div>
-)}
-
- 
-{currentLockedLink && (
-  <div
-    className="modal-overlay"
-    style={{
-      position: 'fixed',
-      top: 0,
-      left: 0,
-      right: 0,
-      bottom: 0,
-      background: 'rgba(0, 0, 0, 0.4)',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-      zIndex: 1000,
-      backdropFilter: 'blur(5px)',
-      WebkitBackdropFilter: 'blur(5px)',
-    }}
-  >
-    <div
-      className="modal-content"
-      style={{
-        background: 'rgba(255, 255, 255, 0.1)',
-        borderRadius: '16px',
-        padding: '24px',
-        width: '320px',
-        textAlign: 'center',
-        boxShadow: '0 4px 30px rgba(0, 0, 0, 0.1)',
-        border: '1px solid rgba(255, 255, 255, 0.3)',
-        backdropFilter: 'blur(10px)',
-        WebkitBackdropFilter: 'blur(10px)',
-      }}
-    >
-      <h3 style={{ color: '#fff', marginBottom: '16px', fontSize: '1.5rem' }}>
-        Desbloquear enlace
-      </h3>
-      <p style={{ color: '#ddd', marginBottom: '16px', fontSize: '1rem' }}>
-        Ingresa el código para desbloquear: <br />
-        <strong>{currentLockedLink.titulo}</strong>
-      </p>
-      <input
-        type="text"
-        placeholder="Ingresa el código"
-        value={codeInputForPopup}
-        onChange={(e) => setCodeInputForPopup(e.target.value)}
+      {/* Main content area */}
+      <main
+        className="transition-all duration-300 ease-in-out relative p-4 flex items-center justify-center"
         style={{
-          padding: '12px',
-          width: '100%',
-          marginBottom: '16px',
-          borderRadius: '8px',
-          border: 'none',
-          outline: 'none',
-          background: 'rgba(255, 255, 255, 0.2)',
-          color: '#fff',
-          fontSize: '1rem',
-        }}
-      />
-      <button
-        onClick={() => handleValidateLinkCodePopup()}
-        style={{
-          padding: '12px 0',
-          background: 'linear-gradient(135deg, #6EE7B7, #3B82F6)',
-          color: 'white',
-          border: 'none',
-          borderRadius: '8px',
-          width: '100%',
-          cursor: 'pointer',
-          fontSize: '1rem',
-          marginBottom: '12px',
+          marginTop: NAVBAR_HEIGHT,
+          marginLeft: isSidebarVisible ? SIDEBAR_WIDTH : 0,
+          height: `calc(100% - ${NAVBAR_HEIGHT}px)`
         }}
       >
-        Enviar código
-      </button>
-      <button
-        onClick={() => {
-          setCurrentLockedLink(null);
-          setCodeInputForPopup("");
-        }}
-        style={{
-          padding: '12px 0',
-          background: 'rgba(255, 0, 0, 0.7)',
-          color: 'white',
-          border: 'none',
-          borderRadius: '8px',
-          width: '100%',
-          cursor: 'pointer',
-          fontSize: '1rem',
-        }}
-      >
-        Cancelar
-      </button>
+        {selectedLink ? (
+          <Hito selectedLink={selectedLink} />
+        ) : (
+          <p className="text-gray-500">Selecciona un enlace.</p>
+        )}
+      </main>
+
+      {/* Modals */}
+      {showRewardPopup && <RewardPopup data={rewardData} onClose={() => setShowRewardPopup(false)} />}
+      {currentLockedLink && (
+        <UnlockLinkModal
+          link={currentLockedLink}
+          onConfirm={code => {
+            if (code === currentLockedLink.codigo) {
+              setUnlockedLinks(prev => [...prev, currentLockedLink.titulo]);
+              setCurrentLockedLink(null);
+            } else alert('Código incorrecto');
+          }}
+          onClose={() => setCurrentLockedLink(null)}
+        />
+      )}
     </div>
-  </div>
-)}
-
-
-
-
-
-    </>
   );
-};
+}
 
-export default SidebarBook;
+// components/AccordionSection.jsx (unchanged)
+// components/RewardPopup.jsx (unchanged)
+// components/UnlockLinkModal.jsx (unchanged)

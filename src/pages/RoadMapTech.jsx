@@ -9,7 +9,6 @@ import LoginForm from './LoginForm';
 import CabezeraB2 from './Standarizado/CabezeraB2';
 import LoginFormB2C from './LoginFormB2C';
 import LoginFormB2T from './LoginFormB2T';
-import SidebarT from '../components/SidebarT';
 import DefaultViewdos from '../components/DefaultViewdos';
 
 const RoadMapTech = () => {
