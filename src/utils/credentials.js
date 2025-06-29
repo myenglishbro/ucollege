@@ -41,6 +41,6 @@ export const validCredentials = [
 
 
 
-     { expirationDate:"29/07",nivel:"B2",usuario: 'andrea', password: 'pacara', realname: 'Andrea Pacara',img:'https://i.ibb.co/mCHLpZqd/TKSEJTSGH-U06-SMT2-J13-R-ee6798c0e891-512.png'},
+     { expirationDate:"29/07",nivel:"B2",usuario: 'andrea', password: 'pacara', realname: 'Andrea Pacara',img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
 
     ];
