@@ -1,0 +1,124 @@
+{
+  "logo": "https://i.ibb.co/HpP9XPB7/My-english-bro-Logo-12.png",
+  "bgImage":"https://i.ibb.co/JWB7fRRr/jsm-abstract.webp",
+  "robotImage":"https://i.ibb.co/nqqMs8L0/Chat-GPT-Image-2-jul-2025-18-43-49.png",
+
+  "titulo": "Ruta de Aprendizaje Autónoma CELPIP",
+  "descripcion": "Domina el CELPIP con esta ruta de aprendizaje diseñada para mejorar tus habilidades en Speaking, Writing, pronunciación y expresión natural. Aprende a comunicarte con claridad, confianza y fluidez en cada parte del examen para alcanzar la mejor puntuación",
+  "teacher": "Carlos Apolaya Sanchez",
+  "video": "https://www.youtube.com/embed/-Ry35MjUsqU",
+  "precio": "S/30 por mes",
+  "precio_original": "S/79.90",
+  "descuento": "36% off",
+  "oferta_time": "⏰ 11 hours left at this price!",
+  "soporte_wsp": "https://api.whatsapp.com/send?phone=51926922032&text=Hola%20quiero%20informacion%20sobre%20el%20curso",
+  "badge": {
+    "label": "Role Play",
+    "color": "#8b5cf6"
+  },
+  "ratings": {
+    "score": 4.2,
+    "votes": 660,
+    "students": 3187
+  },
+  "last_updated": "07/07/2025",
+  "idiomas": ["English", "Spanish"],
+  "learning": [
+    "Habilidades de comunicación en inglés profesional con pronunciación y acento nativos.",
+    "Mejorar las habilidades esenciales como el habla, la escucha y la gramática.",
+    "Frases para asistir a reuniones en inglés.",
+    "Domina habilidades para expresar opiniones y discutir trabajo.",
+    "Frases que harán que tu inglés sea más natural y fluido.",
+    "Frases para llamadas y correos electrónicos en inglés."
+  ],
+  "includes": [
+    ["Role Play", "FaRegPlayCircle"],
+    ["2 hours on-demand video", "FaRegClock"],
+    ["1 practice test", "FaCheckCircle"],
+    ["Assignments", "FaRegFileAlt"],
+    ["4 articles", "FaRegFileAlt"],
+    ["16 downloadable resources", "FaRegFileAlt"],
+    ["Access on mobile and TV", "FaRegFileAlt"],
+    ["Certificate of completion", "FaRegFileAlt"]
+  ],
+  "temario_titulo": "Course content",
+  "rutas": [
+    {
+    "titulo": "Introducción al CELPIP",
+    "tiempo": "2 horas de contenido",
+    "cursos": [
+      "¿Qué es el CELPIP? Formato y secciones",
+      "Escala de puntuación y criterios de evaluación",
+      "Errores comunes en el examen"
+    ]
+  },
+  {
+    "titulo": "Pronunciación y Fluidez",
+    "tiempo": "6 horas de contenido",
+    "cursos": [
+      "Sonidos clave del inglés canadiense",
+      "Entonación, ritmo y pausas naturales",
+      "Conectores y transiciones para sonar fluido",
+      "Práctica de Shadowing y reducción de acento"
+    ]
+  },
+  {
+    "titulo": "Speaking Parte 1 a Parte 8 (Paso a Paso)",
+    "tiempo": "12 horas de contenido",
+    "cursos": [
+      "Speaking Parte 1: Giving Advice (dar consejos)",
+      "Speaking Parte 2: Talking about a Personal Experience",
+      "Speaking Parte 3: Describing a Scene (descripciones detalladas)",
+      "Speaking Parte 4: Making Predictions (predicciones y futuro)",
+      "Speaking Parte 5: Comparing and Persuading (comparar y persuadir)",
+      "Speaking Parte 6: Dealing with a Difficult Situation (problemas y quejas)",
+      "Speaking Parte 7: Expressing Opinions",
+      "Speaking Parte 8: Describing an Unusual Situation"
+    ]
+  },
+  {
+    "titulo": "Writing Parte 1: Email Formal e Informal",
+    "tiempo": "5 horas de contenido",
+    "cursos": [
+      "Estructura de correos en CELPIP",
+      "Frases clave para solicitudes, disculpas y reclamos",
+      "Errores comunes y cómo evitarlos",
+      "Práctica guiada paso a paso"
+    ]
+  },
+  {
+    "titulo": "Writing Parte 2: Encuesta y Opinión",
+    "tiempo": "4 horas de contenido",
+    "cursos": [
+      "Cómo responder encuestas de forma convincente",
+      "Expresar y justificar opiniones con naturalidad",
+      "Conectores avanzados para Writing",
+      "Práctica con plantillas y correcciones"
+    ]
+  },
+  {
+    "titulo": "Vocabulario y Expresiones Avanzadas",
+    "tiempo": "3 horas de contenido",
+    "cursos": [
+      "Phrasal verbs esenciales para CELPIP",
+      "Idioms y expresiones naturales para sonar como nativo",
+      "Vocabulario temático para cada parte del Speaking y Writing"
+    ]
+  },
+  {
+    "titulo": "Simulacros y Feedback Personalizado",
+    "tiempo": "8 horas de contenido",
+    "cursos": [
+      "Speaking Mock Tests con retroalimentación",
+      "Writing Mock Tests con corrección detallada",
+      "Técnicas para mejorar la puntuación en tiempo real"
+    ]
+  }
+  ],
+  "docentes": [
+    {
+      "nombre": "Carlos Apolaya",
+      "img": "https://i.ibb.co/TMn0qczS/Pi7-Passport-Photo-1.jpg"
+    }
+  ]
+}

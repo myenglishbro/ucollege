@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import LandingFuturista from '../LandingFuturista';
+import LandingFuturista from '../../LandingCourse/LandingFuturista';
 import LoginUniversal from '../LoginUniversal'; // Universal!
 import RoadMapB2 from '../../../pages/RoadMapB2';
 import landingDataB2 from "../../../utils/datalanding/dataLandingB2.json";

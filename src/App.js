@@ -31,7 +31,6 @@ import ContainerPortal from "./pages/ContainerPortal";
 import EF from "./pages/EF";
 import RoadMapMed from "./pages/RoadMapMed";
 import RoadMapDev from "./pages/RoadMapDev";
-import RoadMapCelpip from "./pages/RoadMapCelpip";
 import RoadMapEnam from "./pages/RoadMapEnam";
 import RoadMapFrench from "./pages/RoadMapFrench";
 import RoadMapB2 from "./pages/RoadMapB2";
@@ -81,6 +80,7 @@ import InicioB2 from "./components/Login/LoginB2/InicioB2.jsx";
 import InicioCelpip from "./components/Login/LoginCelpip/InicioCelpip.jsx";
 import IniciobB1 from "./components/Login/LoginB1/InicioB1.jsx";
 import InicioB2C from "./components/Login/LoginB2C/InicioB2C.jsx";
+import InicioC from "./components/Login/LoginCelpip/InicioCelpip.jsx";
 
 function App() {
   return (
@@ -101,7 +101,7 @@ function App() {
           <Route path="/B2" element={<InicioB2 />}></Route>
          <Route path="/B2C" element={<InicioB2C />}></Route>
 
-          <Route path="/Celpip" element={<InicioCelpip />}></Route>
+          <Route path="/Celpip" element={<InicioC />}></Route>
 
           <Route path="/RoadMap" element={<RoadMap />}></Route>
           <Route path="/CambridgeExam" element={<CambridgeExam />}></Route>

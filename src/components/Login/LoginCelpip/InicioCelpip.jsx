@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
-import LandingFuturista from '../LandingFuturista';
+import LandingFuturista from '../../LandingCourse/LandingFuturista';
 import LoginUniversal from '../LoginUniversal'; // Universal!
-import RoadMapCelpip from '../../../pages/RoadMapCelpip';
-import landingDataCelpip from "../../../utils/datalanding/dataLandingCelpip.json";
+import RoadMapC from '../../../pages/RoadMapC';
+import landingDataC from "../../../utils/datalanding/dataLandingC.json";
 import Navbar from '../../../pages/myenglishbro/components/NavBar';
 import { validCredentials } from "../../../utils/credentials";
 
 // Opcional: trae las imágenes desde el JSON o un archivo por nivel
-const bgImage = landingDataCelpip.bgImage ;
-const robotImage = landingDataCelpip.robotImage ;
+const bgImage = landingDataC.bgImage ;
+const robotImage = landingDataC.robotImage ;
 
-export default function InicioCelpip() {
+export default function InicioC() {
   const [fase, setFase] = useState('landing');
   const [userCredential, setUserCredential] = useState(null);
   const [userPassword, setUserPassword] = useState('');
@@ -25,7 +25,7 @@ export default function InicioCelpip() {
   return (
     <>
       <Navbar />
-      {fase === 'landing' && <LandingFuturista {...landingDataCelpip} onAccessClick={handleAccessClick} />}
+      {fase === 'landing' && <LandingFuturista {...landingDataC} onAccessClick={handleAccessClick} />}
       {fase === 'login' && (
         <LoginUniversal
           onLoginSuccess={handleLoginSuccess}
@@ -35,7 +35,7 @@ export default function InicioCelpip() {
           title="Inicia sesión Celpip"
         />
       )}
-      {fase === 'roadmap' && <RoadMapCelpip userCredential={userCredential} userPassword={userPassword} />}
+      {fase === 'roadmap' && <RoadMapC userCredential={userCredential} userPassword={userPassword} />}
     </>
   );
 }

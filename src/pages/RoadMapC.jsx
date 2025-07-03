@@ -1,13 +1,13 @@
 // RoadMapA1.jsx
 import React, { useState, useEffect, useRef } from 'react';
 import ContainerRoad from './ContainerRoad';
-import { roadcelpip} from "../utils/roadcelpip";
+import { roadC } from "../utils/roadC";
 import Sidebar from '../components/Sidebar';
 import DefaultView from '../components/DefaultView';
 import Navbar from './myenglishbro/components/NavBar';
 
 // userCredential, userPassword ahora vienen como props
-const RoadMapCelpip = ({ userCredential, userPassword }) => {
+const RoadMapC = ({ userCredential, userPassword }) => {
   const [nivelSeleccionado, setNivelSeleccionado] = useState(null);
   const [viewedItems, setViewedItems] = useState([]);
   const [isSidebarVisible, setIsSidebarVisible] = useState(false);
@@ -49,7 +49,7 @@ const RoadMapCelpip = ({ userCredential, userPassword }) => {
       </button>
 
       <Sidebar
-        road={roadcelpip}
+        road={roadC}
         seleccionarNivel={seleccionarNivel}
         isSidebarVisible={isSidebarVisible}
         toggleSidebar={toggleSidebar}
@@ -60,7 +60,7 @@ const RoadMapCelpip = ({ userCredential, userPassword }) => {
 
       {nivelSeleccionado !== null ? (
         <ContainerRoad
-          road={[roadcelpip[nivelSeleccionado]]}
+          road={[roadC[nivelSeleccionado]]}
           containerRefs={containerRefs}
           password={userPassword}
           realname={userCredential.realname}
@@ -78,37 +78,9 @@ const RoadMapCelpip = ({ userCredential, userPassword }) => {
         />
       )}
 
-      {/* ➕ Botón flotante */}
-      <div className="fixed bottom-6 right-6 z-50">
-        <button
-          onClick={() => setShowToolboxPopup(true)}
-          className="w-14 h-14 rounded-full bg-indigo-700 text-white text-3xl flex items-center justify-center shadow-lg hover:bg-indigo-800 transition duration-300"
-          title="Abrir recurso"
-        >
-          +
-        </button>
-      </div>
-
-      {/* 🧰 Modal con iframe */}
-      {showToolboxPopup && (
-        <div className="fixed inset-0 bg-black/50 z-50 flex items-center justify-center">
-          <div className="bg-white w-[90%] max-w-4xl h-[80%] rounded-xl shadow-xl relative overflow-hidden">
-            <button
-              onClick={() => setShowToolboxPopup(false)}
-              className="absolute top-2 right-3 text-gray-600 hover:text-black text-xl z-10"
-            >
-              ✖
-            </button>
-            <iframe
-              src="https://learnibox.vercel.app/xd"
-              title="Learnibox XD"
-              className="w-full h-full border-none"
-            />
-          </div>
-        </div>
-      )}
+     
     </>
   );
 };
 
-export default RoadMapCelpip;
+export default RoadMapC;
