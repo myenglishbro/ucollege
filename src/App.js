@@ -79,6 +79,8 @@ import RoadMapKeyMastery from "./pages/RoadMapKeyMastery.jsx";
 import InicioA1 from "./components/Login/LoginA1/InicioA1.jsx";
 import InicioB2 from "./components/Login/LoginB2/InicioB2.jsx";
 import InicioCelpip from "./components/Login/LoginCelpip/InicioCelpip.jsx";
+import IniciobB1 from "./components/Login/LoginB1/InicioB1.jsx";
+import InicioB2C from "./components/Login/LoginB2C/InicioB2C.jsx";
 
 function App() {
   return (
@@ -94,15 +96,17 @@ function App() {
           <Route path="/Team" element={<Team />}></Route>
 
           <Route path="/A1" element={<InicioA1 />}></Route>
+          <Route path="/B1" element={<IniciobB1 />}></Route>
+
           <Route path="/B2" element={<InicioB2 />}></Route>
+         <Route path="/B2C" element={<InicioB2C />}></Route>
+
           <Route path="/Celpip" element={<InicioCelpip />}></Route>
 
           <Route path="/RoadMap" element={<RoadMap />}></Route>
-          <Route path="/RoadMapB1" element={<RoadMapB1 />}></Route>
           <Route path="/CambridgeExam" element={<CambridgeExam />}></Route>
           <Route path="/KeywordMastery" element={<RoadMapKeyMastery />}></Route>
 
-          <Route path="/RoadMapB2C" element={<RoadMapB2C />}></Route>
           <Route path="/RoadMapB2CFREE" element={<RoadMapB2CF />}></Route>
 
           <Route path="/RoadMapC1" element={<RoadMapC1 />}></Route>

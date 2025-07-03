@@ -1,7 +1,46 @@
 {
   "logo": "https://i.ibb.co/HpP9XPB7/My-english-bro-Logo-12.png",
-  "titulo": "Roadmap A1",
+  "bgImage":"https://i.ibb.co/JWB7fRRr/jsm-abstract.webp",
+  "robotImage":"https://i.ibb.co/nqqMs8L0/Chat-GPT-Image-2-jul-2025-18-43-49.png",
+  "titulo": "Ruta de Aprendizaje Autónoma A1",
+  "descripcion": "Mejora su expresión oral y comprensión para comunicarse en inglés con confianza en el trabajo.",
+  "teacher": "Carlos Apolaya Sanchez",
   "video": "https://www.youtube.com/embed/pXTv0jaOgwM?start=118",
+  "precio": "S/30 por mes",
+  "precio_original": "S/79.90",
+  "descuento": "36% off",
+  "oferta_time": "⏰ 11 hours left at this price!",
+  "soporte_wsp": "https://api.whatsapp.com/send?phone=51926922032&text=Hola%20quiero%20informacion%20sobre%20el%20curso",
+  "badge": {
+    "label": "Role Play",
+    "color": "#8b5cf6"
+  },
+  "ratings": {
+    "score": 4.2,
+    "votes": 660,
+    "students": 3187
+  },
+  "last_updated": "07/07/2025",
+  "idiomas": ["English", "Spanish"],
+  "learning": [
+    "Habilidades de comunicación en inglés profesional con pronunciación y acento nativos.",
+    "Mejorar las habilidades esenciales como el habla, la escucha y la gramática.",
+    "Frases para asistir a reuniones en inglés.",
+    "Domina habilidades para expresar opiniones y discutir trabajo.",
+    "Frases que harán que tu inglés sea más natural y fluido.",
+    "Frases para llamadas y correos electrónicos en inglés."
+  ],
+  "includes": [
+    ["Role Play", "FaRegPlayCircle"],
+    ["2 hours on-demand video", "FaRegClock"],
+    ["1 practice test", "FaCheckCircle"],
+    ["Assignments", "FaRegFileAlt"],
+    ["4 articles", "FaRegFileAlt"],
+    ["16 downloadable resources", "FaRegFileAlt"],
+    ["Access on mobile and TV", "FaRegFileAlt"],
+    ["Certificate of completion", "FaRegFileAlt"]
+  ],
+  "temario_titulo": "Course content",
   "rutas": [
     {
       "titulo": "Fundamentos del Desarrollo Web Profesional",
@@ -34,7 +73,5 @@
       "nombre": "Carlos Apolaya",
       "img": "https://i.ibb.co/TMn0qczS/Pi7-Passport-Photo-1.jpg"
     }
-  ],
-  "precio": "S/30 por mes",
-  "soporte_wsp": "https://api.whatsapp.com/send?phone=51926922032&text=Hola%20quiero%20informacion%20sobre%20el%20curso"
+  ]
 }

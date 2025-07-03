@@ -1,12 +1,16 @@
+// components/Login/LoginForm.jsx
 "use client";
 import React, { useState, useRef, useEffect } from "react";
-import { validCredentials } from "../../../utils/credentials";
 import { FaUserAlt, FaLock, FaEye, FaEyeSlash } from "react-icons/fa";
 
-const bgImage = "https://i.ibb.co/JWB7fRRr/jsm-abstract.webp";
-const robotImage = "https://i.ibb.co/nqqMs8L0/Chat-GPT-Image-2-jul-2025-18-43-49.png";
-
-const LoginFormCelpip = ({ onLoginSuccess }) => {
+const LoginUniversal = ({
+  onLoginSuccess,
+  validCredentials,
+  backgroundImage,
+  robotImage,
+  title = "Inicia sesión",
+  theme = {},
+}) => {
   const [usuario, setUsuario] = useState("");
   const [clave, setClave] = useState("");
   const [showPassword, setShowPassword] = useState(false);
@@ -38,26 +42,26 @@ const LoginFormCelpip = ({ onLoginSuccess }) => {
   return (
     <div className="min-h-screen w-full flex items-center justify-center relative font-sans bg-[#101015] overflow-hidden mt-10">
       {/* Fondo */}
-      <img
-        src={bgImage}
-        alt="Fondo"
-        className="fixed inset-0 w-full h-full object-cover z-0 select-none pointer-events-none"
-        draggable={false}
-        style={{ objectPosition: "center" }}
-      />
-      {/* Overlay sutil */}
+      {backgroundImage && (
+        <img
+          src={backgroundImage}
+          alt="Fondo"
+          className="fixed inset-0 w-full h-full object-cover z-0 select-none pointer-events-none"
+          draggable={false}
+          style={{ objectPosition: "center" }}
+        />
+      )}
+      {/* Overlay */}
       <div className="fixed inset-0 z-10 bg-gradient-to-br from-[#181B1Eea] via-[#181C2290] to-[#0a0c10ef]" />
-
-      {/* Robot superior (esquina o centro) */}
-      <img
-        src={robotImage}
-        alt="Robot de bienvenida"
-        className="absolute z-30 top-[8%] left-1/2 -translate-x-1/2 w-[120px] md:w-[160px] lg:w-[150px] pointer-events-none select-none drop-shadow-xl animate-bounce-slow"
-        style={{maxWidth: "34vw"}}
-      />
-
-    
-
+      {/* Robot */}
+      {robotImage && (
+        <img
+          src={robotImage}
+          alt="Robot"
+          className="absolute z-30 top-[8%] left-1/2 -translate-x-1/2 w-[120px] md:w-[160px] lg:w-[150px] pointer-events-none select-none drop-shadow-xl animate-bounce-slow"
+          style={{ maxWidth: "34vw" }}
+        />
+      )}
       {/* FORMULARIO */}
       <div className="relative z-20 flex flex-col items-center justify-center w-full min-h-screen px-3">
         <div
@@ -65,11 +69,12 @@ const LoginFormCelpip = ({ onLoginSuccess }) => {
           style={{
             boxShadow: "0 8px 32px #000c, 0 1.5px 0 #232b3460 inset",
             background: "linear-gradient(135deg,#181C23f8 50%,#161821ec 100%)",
-            border: "1.2px solid #232b3480"
+            border: "1.2px solid #232b3480",
+            ...theme.box,
           }}
         >
           <h2 className="text-2xl font-bold text-[#e3eaf5] mb-7 text-center tracking-tight">
-            Inicia sesión
+            {title}
           </h2>
           <div className="mb-5 relative">
             <FaUserAlt className="absolute left-3 top-3 text-[#667088] opacity-55" />
@@ -118,12 +123,10 @@ const LoginFormCelpip = ({ onLoginSuccess }) => {
           </button>
         </div>
       </div>
-
-      {/* Animaciones y fix overflow */}
+      {/* Animaciones */}
       <style>{`
         html, body, #__next { overflow: hidden !important; height: 100% !important; }
         ::selection { background: #23283a; }
-
         @keyframes bounce-slow {
           0%, 100% { transform: translateY(0); }
           50% { transform: translateY(-9px); }
@@ -131,19 +134,9 @@ const LoginFormCelpip = ({ onLoginSuccess }) => {
         .animate-bounce-slow {
           animation: bounce-slow 5s cubic-bezier(.44,2,.56,.81) infinite;
         }
-        @keyframes float {
-          0%, 100% { transform: translateY(0) scale(1); }
-          50% { transform: translateY(-14px) scale(1.03); }
-        }
-        .animate-float {
-          animation: float 7s cubic-bezier(.44,2,.56,.81) infinite;
-        }
-        @media (max-width: 767px) {
-          .animate-float { display: none !important; }
-        }
       `}</style>
     </div>
   );
 };
 
-export default LoginFormCelpip;
+export default LoginUniversal;

@@ -12,6 +12,7 @@ export const roadA1 = [
         enlaces: [
             {  titulo:"Presentación del Curso",url: "https://www.youtube.com/watch?v=_1DEJIOcJmY&t=2s"},        
             {  titulo:"Cómo usar chatGPT",url: "https://drive.google.com/file/d/1eSTYAUSLdwJ1BrHiRdpStfYjXGgFqPg_/view?usp=sharing"},        
+            { titulo:"Apps",descripcion:"Estudia de manera dinámica ",url: "https://youtu.be/pXTv0jaOgwM"},
 
         ],
     },
@@ -37,10 +38,22 @@ export const roadA1 = [
             {  titulo:" There is/ There are",url: "https://wordwall.net/play/19158/687/83046"},
             {  titulo:" There is/ There are II ",url: "https://wordwall.net/play/21498/511/4430"},
              {  titulo:"Días de la Semana", url: "https://drive.google.com/file/d/11JLBMEKHA5qK0hfzlsFI1SctOr7vSa47/view?usp=sharing",url3: "https://wordwall.net/play/22419/293/58122"},
-
             {  titulo:" 12 Verbos Importantes en Ingles",url: "https://drive.google.com/file/d/1NGzis_cW6axVXqX5h7scYNn48FvZifrv/view?usp=sharing",url2: "https://youtu.be/NuCWBUcvvaY"},
             {  titulo:" Las Preposiciones",url: "https://drive.google.com/file/d/1T2S3iq7ziQCr5CIDOdMrAd_zEQ0SkGYH/view?usp=sharing",url2: "https://youtu.be/8JEvVGC1HoQ"},
 
+            {  titulo:"🎬 The English Structure ", url: "https://youtu.be/KHtBBCOnaKg"},
+            {  titulo:"[🗂️Slide] The English Structure", url: "https://drive.google.com/file/d/1uhrnYQzPAG_dm2uXmfjew22pXEtNa-6S/view?usp=sharing"},
+            {  titulo:"[🖥️Class] The English Map", url: "https://www.youtube.com/watch?v=fOPkF348Kgg"},
+          
+            {  titulo:" Los Plurales en Ingles",url: "https://drive.google.com/file/d/1QeZ9rmMlgkaqHO5Dyfpmp7hk5pcZ7Uwy/view?usp=sharing",url2: "https://youtu.be/acpprMF4NhY"},
+            {  titulo:" Practicando Plural Nouns", url2: "https://youtu.be/K2v046W9AoE"},
+            {  titulo:"[🧩 Activity] Plural Nouns Rules", url: "https://wordwall.net/play/75502/816/809" },
+           {  titulo:"[🖥️ Class] Plural Nouns", url: "https://youtu.be/K2v046W9AoE"},
+            {  titulo:"[🗂️Slide] Plural Nouns", url: "https://docs.google.com/presentation/d/1uGlaHgl2gR_LI3_Z9wZzlp99FmqRvZAp/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
+            {  titulo:"[🖥️ Class] Practicando Plural Nouns", url: "https://youtu.be/K2v046W9AoE"},
+            {  titulo:"[🧩 Activity] Plural Nouns Rules", url: "https://wordwall.net/play/75502/816/809" },
+           
+       
         ],
     },
      {
@@ -86,15 +99,14 @@ export const roadA1 = [
         description: "Si has llevado clases de inglés antes realiza un examen para calcular tu nivel,Envia tu examen para su corrección al correo temis_it@hotmail.com",
         enlaces: [
 
-            {  titulo:"[🖥️ Class] Prensent Simple with Be Negative", url: "https://youtu.be/bBUUAjkC0Go"},
-            {  titulo:"[📊 Diagrama] Prensent Simple with Be Negative", url: "https://drive.google.com/file/d/1CVydEJyBwS2X_9A_A4kRBleq_glgCopc/view?usp=sharing"},
+            {  titulo:"[🖥️ Class] Prensent Simple with Be Negative", url: "https://drive.google.com/file/d/1CVydEJyBwS2X_9A_A4kRBleq_glgCopc/view?usp=sharing",url2: "https://youtu.be/bBUUAjkC0Go"},
 
             {  titulo:"[🔖Practice]The Verb Be Negative Form",url: "https://drive.google.com/file/d/15uWVRNGSUj0D8zZQ-O6K-UjTiArG5TA3/view?usp=sharing" },
             {  titulo:"[🧩 Activity] The Verb Be Negative Form", url: "https://wordwall.net/play/21158/025/3896" },
             {  titulo:"[📝 FunSheet] BE VERB: Negative",url: "https://drive.google.com/file/d/1Y5UlRlzuV3TLR79_IutdZYshmYs23cIf/view?usp=sharing"},
           {  titulo:"[🖥️ Class] Prensent Simple with Be Negative", url: "https://youtu.be/bBUUAjkC0Go"},
             {  titulo:"[📊 Diagrama] Prensent Simple with Be Negative", url: "https://drive.google.com/file/d/1CVydEJyBwS2X_9A_A4kRBleq_glgCopc/view?usp=sharing"},
-   {  titulo:"[🧩 Activity] The Verb Be Negative Form", url: "https://wordwall.net/play/21158/025/3896" },
+          {  titulo:"[🧩 Activity] The Verb Be Negative Form", url: "https://wordwall.net/play/21158/025/3896" },
             {  titulo:"[📝 FunSheet] BE VERB: Negative",url: "https://drive.google.com/file/d/1Y5UlRlzuV3TLR79_IutdZYshmYs23cIf/view?usp=sharing"},
             {  titulo:"[🔖Practice]The Verb Be Negative Form",url: "https://drive.google.com/file/d/15uWVRNGSUj0D8zZQ-O6K-UjTiArG5TA3/view?usp=sharing" },
 
@@ -231,19 +243,8 @@ export const roadA1 = [
 
 
           
-          
-            {  titulo:" Los Plurales en Ingles",url: "https://drive.google.com/file/d/1QeZ9rmMlgkaqHO5Dyfpmp7hk5pcZ7Uwy/view?usp=sharing",url2: "https://youtu.be/acpprMF4NhY"},
-            {  titulo:" Practicando Plural Nouns", url2: "https://youtu.be/K2v046W9AoE"},
-            {  titulo:"[🧩 Activity] Plural Nouns Rules", url: "https://wordwall.net/play/75502/816/809" },
-           {  titulo:"[🖥️ Class] Plural Nouns", url: "https://youtu.be/K2v046W9AoE"},
-            {  titulo:"[🗂️Slide] Plural Nouns", url: "https://docs.google.com/presentation/d/1uGlaHgl2gR_LI3_Z9wZzlp99FmqRvZAp/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
-            {  titulo:"[🖥️ Class] Practicando Plural Nouns", url: "https://youtu.be/K2v046W9AoE"},
-            {  titulo:"[🧩 Activity] Plural Nouns Rules", url: "https://wordwall.net/play/75502/816/809" },
-           
+       
          
-            {  titulo:"🎬 The English Structure ", url: "https://youtu.be/KHtBBCOnaKg"},
-            {  titulo:"[🗂️Slide] The English Structure", url: "https://drive.google.com/file/d/1uhrnYQzPAG_dm2uXmfjew22pXEtNa-6S/view?usp=sharing"},
-            {  titulo:"[🖥️Class] The English Map", url: "https://www.youtube.com/watch?v=fOPkF348Kgg"},
             {  titulo:"📖Possessive", url: "https://docs.google.com/presentation/d/1UijMuEx-DdbZETXjEUUtT6IPkWF0az2w/edit?usp=sharing&ouid=115002005624760024053&rtpof=true&sd=true"},
             {  titulo:"🧩Possessive Pronouns", url: "https://wordwall.net/play/52592/500/1753"},
             {  titulo:"[🖥️ Class] Adjectives", url: "https://youtu.be/CpG5KE79gFg"},
@@ -428,7 +429,7 @@ export const roadA1 = [
      {
         id: 4,
         thumbnail: "https://i.ibb.co/rpNz4py/B2-FIRST-31.png",
-        title: "Trucos de Pronunciación ",
+        title: "Trucos de Pronunciación Básico ",
         subtitle: "Centro de Clasificación ",
     
         dateAdded: "Basic 0 ",
@@ -437,8 +438,7 @@ export const roadA1 = [
         enlaces: [
             {  titulo:"🎬Presentacion", url: "https://youtu.be/dWDfFM88dSA"},
           
-            {  titulo:"🎬 Mi primer truco de Pronunciación",url: "https://www.youtube.com/watch?v=gMlip7427kU&t=22s&ab_channel=MyEnglishBro"},           
-            {  titulo:"📑 Mi primer truco de Pronunciación",url: "https://drive.google.com/file/d/1VhB8Kjr3YbARZU6KhPMvlPa0pZi92hX0/view?usp=sharing"},
+            {  titulo:"🎬 Mi primer truco de Pronunciación",url: "https://drive.google.com/file/d/1VhB8Kjr3YbARZU6KhPMvlPa0pZi92hX0/view?usp=sharing",url2: "https://www.youtube.com/watch?v=gMlip7427kU&t=22s&ab_channel=MyEnglishBro"},           
             {  titulo:"🎬Diferencia de I/i", url: "https://www.youtube.com/watch?v=oMUO8eRSkXk"},
 
             {  titulo:"📑Diferencia de I/i", url: "https://drive.google.com/file/d/1M5_cODEz8FA51UDbOQ85Su9I5zKFOSCL/view?usp=sharing"},

@@ -1,5 +1,20 @@
 export const roadB1= [
     {
+        id: 0,
+        thumbnail: "https://i.ibb.co/rpNz4py/B2-FIRST-31.png",
+        title: " Antes del Curso",
+        subtitle: "Centro de Clasificación ",
+    
+        dateAdded: "Basic 0 ",
+        channel: " ",
+        description: "Si has llevado clases de inglés antes realiza un examen para calcular tu nivel,Envia tu examen para su corrección al correo temis_it@hotmail.com",
+        enlaces: [
+            {  titulo:"Presentación del Curso",url: "https://www.youtube.com/watch?v=_1DEJIOcJmY&t=2s"},        
+            {  titulo:"Cómo usar chatGPT",url: "https://drive.google.com/file/d/1eSTYAUSLdwJ1BrHiRdpStfYjXGgFqPg_/view?usp=sharing"},        
+            { titulo:"Apps",descripcion:"Estudia de manera dinámica ",url: "https://youtu.be/pXTv0jaOgwM"},
+        ],
+    },
+    {
         id: 2,
         thumbnail:"https://i.ibb.co/vcMnX0n/B2-FIRST-17.png",
         title: "Flash Cards Anki",
