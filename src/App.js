@@ -76,6 +76,8 @@ import ReporteMensual from "./components/ReporteMensual.jsx";
 import EducationalAppsShowcase from "./components/EducationalAppsShowcase.jsx";
 import SixtyType from "./components/SixtyType.jsx";
 import RoadMapKeyMastery from "./pages/RoadMapKeyMastery.jsx";
+import InicioA1 from "./components/Login/LoginA1/InicioA1.jsx";
+import InicioB2 from "./components/Login/LoginB2/InicioB2.jsx";
 
 function App() {
   return (
@@ -90,14 +92,14 @@ function App() {
           <Route path="/Store" element={<Store />}></Route>
           <Route path="/Team" element={<Team />}></Route>
 
-          <Route path="/RoadMapA1" element={<RoadMapA1 />}></Route>
+          <Route path="/A1" element={<InicioA1 />}></Route>
+          <Route path="/B2" element={<InicioB2 />}></Route>
 
           <Route path="/RoadMap" element={<RoadMap />}></Route>
           <Route path="/RoadMapB1" element={<RoadMapB1 />}></Route>
           <Route path="/CambridgeExam" element={<CambridgeExam />}></Route>
           <Route path="/KeywordMastery" element={<RoadMapKeyMastery />}></Route>
 
-          <Route path="/RoadMapB2" element={<RoadMapB2 />}></Route>
           <Route path="/RoadMapB2C" element={<RoadMapB2C />}></Route>
           <Route path="/RoadMapB2CFREE" element={<RoadMapB2CF />}></Route>
 

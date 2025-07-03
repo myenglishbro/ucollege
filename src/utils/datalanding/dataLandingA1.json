@@ -1,0 +1,40 @@
+{
+  "logo": "https://i.ibb.co/HpP9XPB7/My-english-bro-Logo-12.png",
+  "titulo": "Roadmap A1",
+  "video": "https://www.youtube.com/embed/pXTv0jaOgwM?start=118",
+  "rutas": [
+    {
+      "titulo": "Fundamentos del Desarrollo Web Profesional",
+      "tiempo": "51 horas de contenido",
+      "cursos": [
+        "Introducción a la Web: Historia y Funcionamiento",
+        "Computadoras e Informática Básica",
+        "Terminal y Línea de Comandos",
+        "Fundamentos de Ingeniería de Software",
+        "HTML y CSS Definitivo",
+        "Práctico de HTML y CSS",
+        "Programación Básica Gratis",
+        "Fundamentos de JavaScript",
+        "Git y GitHub Básico"
+      ]
+    },
+    {
+      "titulo": "Diseño y Desarrollo Frontend",
+      "tiempo": "39 horas de contenido",
+      "cursos": [
+        "Frontend Developer",
+        "Práctico de Frontend Developer",
+        "Responsive Design: Maquetación Mobile First",
+        "Práctico de Maquetación en CSS"
+      ]
+    }
+  ],
+  "docentes": [
+    {
+      "nombre": "Carlos Apolaya",
+      "img": "https://i.ibb.co/TMn0qczS/Pi7-Passport-Photo-1.jpg"
+    }
+  ],
+  "precio": "S/30 por mes",
+  "soporte_wsp": "https://api.whatsapp.com/send?phone=51926922032&text=Hola%20quiero%20informacion%20sobre%20el%20curso"
+}
