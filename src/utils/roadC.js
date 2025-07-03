@@ -10,6 +10,22 @@ export const roadC = [
         channel: "sdasd",
         description: "Mejora tus habilidades de comprensión auditiva con este curso que te ayudará a entender a hablantes nativos en diferentes situaciones y acentos, fortaleciendo tu confianza al escuchar y comprender el idioma.",
         enlaces: [
+            { titulo: "CELPIP General Overview", url2: "https://youtu.be/Jh3ZyiEq1w4?si=EJE3st7ZIlSu0rRv" },
+           
+
+        ],
+    },
+    {
+        id: 1,
+        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
+
+        title: "Speaking - Task01 ",
+        subtitle: "B2/C1",
+
+        dateAdded: "B2/C1",
+        channel: "sdasd",
+        description: "Mejora tus habilidades de comprensión auditiva con este curso que te ayudará a entender a hablantes nativos en diferentes situaciones y acentos, fortaleciendo tu confianza al escuchar y comprender el idioma.",
+        enlaces: [
             { titulo: "Model Phrases", url: "https://drive.google.com/file/d/1cbVXH6_B53GUueclHcB5VDdvVqEwHg72/view?usp=sharing" },
             { titulo: "Important Verbs 01", descripcion:"Lista de verbos y sustantivos que debes aprender",url: "https://drive.google.com/file/d/1yrca73cClmiMA57nV-3gdKrwYMYuBMKK/view?usp=sharing" },
             { titulo: "Estructuras útiles", url: "https://drive.google.com/file/d/1-e0x523KlYcBN8i9aXeR89P8o2uLdJu2/view?usp=sharing" },
@@ -22,7 +38,7 @@ export const roadC = [
         ],
     },
 {
-        id: 0,
+        id: 2,
         thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
 
         title: "Books ",
@@ -41,7 +57,7 @@ export const roadC = [
         ],
     },
      {
-        id: 1,
+        id: 3,
                thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
 
         title: " Speaking Tasks",
