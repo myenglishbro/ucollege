@@ -80,7 +80,7 @@ export default function Sidebar({ road, seleccionarNivel, isSidebarVisible, togg
         </div>
         
         {/* Scrollable Content */}
-        <div className="overflow-y-auto h-[calc(100vh-92px)] px-2 pt-3 pb-8">
+        <div className="overflow-y-auto h-[calc(100vh-92px)] px-2 pt-1 pb-20">
           {filteredRoad.map((section, idx) => (
             <AccordionSection
               key={idx}
