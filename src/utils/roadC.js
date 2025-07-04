@@ -3,13 +3,15 @@ export const roadC = [
         id: 0,
         thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
 
-        title: "Speaking - Task01 ",
+        title: "Before you start!",
         subtitle: "B2/C1",
 
         dateAdded: "B2/C1",
         channel: "sdasd",
         description: "Mejora tus habilidades de comprensión auditiva con este curso que te ayudará a entender a hablantes nativos en diferentes situaciones y acentos, fortaleciendo tu confianza al escuchar y comprender el idioma.",
         enlaces: [
+            { titulo: "What to Expect on Test Day",descripcion:"you can review what you need to bring, what will happen when you check-in at your test centre, what will happen during the test, and what you can expect once you have completed your test sitting. ",  url2: "https://youtu.be/INzOxpo0eT8?si=0BENEP1kw6-1Xqgr" },
+
             { titulo: "CELPIP General Overview", url2: "https://youtu.be/Jh3ZyiEq1w4?si=EJE3st7ZIlSu0rRv" },
            
 
