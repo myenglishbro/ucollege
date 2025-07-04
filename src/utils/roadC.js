@@ -25,6 +25,7 @@ export const roadC = [
         subtitle: "B2/C1",
 
         dateAdded: "B2/C1",
+        
         channel: "sdasd",
         description: "Mejora tus habilidades de comprensión auditiva con este curso que te ayudará a entender a hablantes nativos en diferentes situaciones y acentos, fortaleciendo tu confianza al escuchar y comprender el idioma.",
         enlaces: [

@@ -242,8 +242,59 @@ export const pricing = [
 ];
 
 export const benefits = [
+   {
+    id: "0",
+    title: "CELPIP Prep Course",
+    text: "Este paquete de clases cuenta con 10 horas de clases en vivo",
+    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    iconUrl:benefitIcon1,
+    imgGif:
+      "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZuazNnd2N5ODNrbHJmNmd6MXZ0eGt3cjJ5bjN5M2lxaTc4eGl2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r3WLuO5QRLyAV9MWEM/giphy.gif",
+    imageUrl:
+      "https://i.ibb.co/nNp7wb22/Chat-GPT-Image-4-jul-2025-17-24-37.png",
+    // Se usa la propiedad "ruta" como enlace del icono
+    iconLink: "https://learnibox.vercel.app/celpip",
+    details: {
+      features: [
+        " Clases personalizadas y material exclusivo en cada sesión",
+        "Soporte y acompañamiento 24/7 vía WhatsApp ",
+        "Acceso exclusivo al Roadmap, simuladores y herramientas prácticas",
+      ],
+      price: "S/.420 Nuevos Soles",
+      enlace:
+        "https://learnibox.vercel.app/celpip",
+    },
+  },
   {
     id: "0",
+    title: "Cambridge Prep Course",
+    text: "Este paquete de clases cuenta con 10 horas de clases en vivo",
+    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    iconUrl:benefitIcon1,
+    imgGif:
+      "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZuazNnd2N5ODNrbHJmNmd6MXZ0eGt3cjJ5bjN5M2lxaTc4eGl2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r3WLuO5QRLyAV9MWEM/giphy.gif",
+    imageUrl:
+      "https://i.ibb.co/5W6ZMH6b/Chat-GPT-Image-4-jul-2025-15-48-59.png",
+    // Se usa la propiedad "ruta" como enlace del icono
+    iconLink: "https://learnibox.vercel.app/RoadMapB2",
+    details: {
+      features: [
+        "✅Tu clase se graba y se envia por correo a cada correo",
+        "✅ Google Meet Premium",
+        "✅ Clases Personalizadas + Material de Clase",
+        "✅Puedes hacer preguntas al profe por wsp directamente",
+        "✅ Incluye preparacion para Exámenes Internacionales",
+        "✅ 03 Reprogramaciones",
+        "✅ Acceso al Roadmap con Material Exclusivo (A1 to C1 90 días)",
+        "✅ Código de Descarga Roadmap",
+      ],
+      price: "S/.590 Nuevos Soles",
+      enlace:
+        "https://docs.google.com/spreadsheets/d/1jpKL_kwxAWuqo9v6aVBSiKpiAij6i3E3ysPSxlajgRY/preview",
+    },
+  },
+  {
+    id: "1",
     title: "Paquete Premium",
     text: "Este paquete de clases cuenta con 10 horas de clases en vivo",
     backgroundUrl: "./src/assets/benefits/card-1.svg",
@@ -251,7 +302,7 @@ export const benefits = [
     imgGif:
       "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZuazNnd2N5ODNrbHJmNmd6MXZ0eGt3cjJ5bjN5M2lxaTc4eGl2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r3WLuO5QRLyAV9MWEM/giphy.gif",
     imageUrl:
-      "https://i.ibb.co/Fkg95gHK/617a8fe4-c97d-4802-9789-23b7e7b0e058.webp",
+      "https://i.ibb.co/MyFH0rND/Chat-GPT-Image-4-jul-2025-16-25-38.png",
     // Se usa la propiedad "ruta" como enlace del icono
     iconLink: "https://learnibox.vercel.app/RoadMapB2",
     details: {
@@ -279,7 +330,7 @@ export const benefits = [
     imgGif:
     "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZuazNnd2N5ODNrbHJmNmd6MXZ0eGt3cjJ5bjN5M2lxaTc4eGl2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r3WLuO5QRLyAV9MWEM/giphy.gif",
     imageUrl:
-      "https://i.ibb.co/1tfLQVz1/DALL-E-2025-02-23-12-02-01-A-student-engaged-in-a-one-on-one-online-English-class-with-a-teacher-The.webp",
+      "https://i.ibb.co/BH2knmK0/Chat-GPT-Image-4-jul-2025-15-14-44.png",
     iconLink: "https://learnibox.vercel.app/RoadMapB2",
     details: {
       features: [
@@ -308,7 +359,7 @@ export const benefits = [
       imgGif:
       "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZuazNnd2N5ODNrbHJmNmd6MXZ0eGt3cjJ5bjN5M2lxaTc4eGl2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r3WLuO5QRLyAV9MWEM/giphy.gif",
     imageUrl:
-      "https://i.ibb.co/Z6jWLK5g/DALL-E-2025-02-23-12-03-38-A-student-receiving-a-one-on-one-online-English-class-in-a-minimalistic-a.webp",
+      "https://i.ibb.co/x8qsfY5C/Chat-GPT-Image-4-jul-2025-16-31-56.png",
     iconLink: "https://learnibox.vercel.app/RoadMapB2",
     details: {
       features: [
@@ -358,7 +409,7 @@ export const benefits = [
   },
   {
     id: "4",
-    title: "Ruta Autónoma A1",
+    title: "RoadMap A1",
     text: "Domina lo esencial para comunicarte con confianza en situaciones cotidianas simples. ¡Empieza tu camino hacia la fluidez aquí! 🚀",
     backgroundUrl: "./src/assets/benefits/card-4.svg",
     iconUrl:benefitIcon1,
@@ -366,7 +417,7 @@ export const benefits = [
     imgGif:
     "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZuazNnd2N5ODNrbHJmNmd6MXZ0eGt3cjJ5bjN5M2lxaTc4eGl2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r3WLuO5QRLyAV9MWEM/giphy.gif",
     imageUrl:
-      "https://i.ibb.co/VpvYPXmM/file-Qb-WLou8j-Ui5-SCqob-CQTs-Rq.png",
+      "https://i.ibb.co/0R16wVz3/Chat-GPT-Image-4-jul-2025-15-06-26.png",
     iconLink: "https://learnibox.vercel.app/RoadMapA1",
     details: {
       features: [
@@ -391,7 +442,7 @@ export const benefits = [
       imgGif:
       "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZuazNnd2N5ODNrbHJmNmd6MXZ0eGt3cjJ5bjN5M2lxaTc4eGl2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r3WLuO5QRLyAV9MWEM/giphy.gif",
     imageUrl:
-      "https://i.ibb.co/Y7BLpPD5/file-TDf-W5-PCF77-VHWEG9-XEep-R5.png",
+      "https://i.ibb.co/Z6WcNLDR/Chat-GPT-Image-4-jul-2025-14-52-20.png",
     iconLink: "https://learnibox.vercel.app/RoadMapA2",
     details: {
       features: [
@@ -414,7 +465,7 @@ export const benefits = [
     imgGif:
       "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZuazNnd2N5ODNrbHJmNmd6MXZ0eGt3cjJ5bjN5M2lxaTc4eGl2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r3WLuO5QRLyAV9MWEM/giphy.gif",
     imageUrl:
-      "https://i.ibb.co/RTmJqwbj/file-4u8b-E1yz-Ja-Yaxig8-Gbj-Es-E.png",
+      "https://i.ibb.co/bgmjf5RB/Chat-GPT-Image-4-jul-2025-14-55-55.png",
     iconLink: "https://learnibox.vercel.app/RoadMapB2",
     details: {
       features: [
@@ -438,7 +489,7 @@ export const benefits = [
       imgGif:
       "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZuazNnd2N5ODNrbHJmNmd6MXZ0eGt3cjJ5bjN5M2lxaTc4eGl2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r3WLuO5QRLyAV9MWEM/giphy.gif",
     imageUrl:
-      "https://i.ibb.co/Z66DdpTM/file-LDRse-LKf-G9vb-NXLZTx1-Z4q.png",
+      "https://i.ibb.co/cKwYVGwB/Chat-GPT-Image-4-jul-2025-14-58-15.png",
     iconLink: "https://learnibox.vercel.app/RoadMapB2",
     details: {
       features: [
@@ -463,7 +514,7 @@ export const benefits = [
     imgGif:
       "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZuazNnd2N5ODNrbHJmNmd6MXZ0eGt3cjJ5bjN5M2lxaTc4eGl2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r3WLuO5QRLyAV9MWEM/giphy.gif",
     imageUrl:
-      "https://i.ibb.co/Swk9RQbB/file-DRh-Z3-Eu-Tn-Bpr-CKp-Tk6os-Wp.png",
+      "https://i.ibb.co/5XjhWbzg/Chat-GPT-Image-4-jul-2025-15-00-48.png",
     iconLink: "https://learnibox.vercel.app/RoadMapC1",
     details: {
       features: [
@@ -488,7 +539,7 @@ export const benefits = [
     imgGif:
       "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZuazNnd2N5ODNrbHJmNmd6MXZ0eGt3cjJ5bjN5M2lxaTc4eGl2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r3WLuO5QRLyAV9MWEM/giphy.gif",
     imageUrl:
-      "https://i.ibb.co/b5Kd6mMW/file-AHw-Kpi8-LJw-GRuhyuk-Vo-RGY.png",
+      "https://i.ibb.co/JFgyH9wP/Chat-GPT-Image-4-jul-2025-15-03-34.png",
     // No se define iconLink para este plan
     details: {
       features: [
