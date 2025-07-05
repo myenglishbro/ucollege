@@ -21,7 +21,7 @@ export const validCredentials = [
      
        { expirationDate:"10/07/25",nivel:"solicitar examen",usuario: 'adrian', password: 'aliaga', realname: 'Adrian Aliaga',img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
      
-       { expirationDate:"after 10 hours of classes",nivel:"B2",usuario: 'carolina', password: 'dtasayco', realname: 'Carolina D. Tasayco',img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
+      //  { expirationDate:"after 10 hours of classes",nivel:"B2",usuario: 'carolina', password: 'dtasayco', realname: 'Carolina D. Tasayco',img:'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png'},
         { expirationDate:"20 sessions",nivel:"Celpip ",usuario: 'marce', password: 'celpip', realname: 'Marcela', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png' }, // No image
         { expirationDate:"18/07/25",nivel:"B2 ",usuario: 'teresa', password: 'trigoso', realname: 'Teresa Trigoso', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png' }, // No image
         { expirationDate:"18/07/25",nivel:"B2 ",usuario: 'kwt', password: 'mastery', realname: 'Teresa Trigoso', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png' }, // No image
