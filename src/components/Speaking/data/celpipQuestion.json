@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "prompt": "Your friend wants to find a summer job but doesn’t know where to start. What advice would you give him?"
+  },
+  {
+    "id": 2,
+    "prompt": "Your cousin is feeling homesick after moving to a new city. What suggestions can you give her to feel better?"
+  },
+  {
+    "id": 3,
+    "prompt": "Your brother wants to save money to buy a new phone. What steps should he take?"
+  },
+  {
+    "id": 4,
+    "prompt": "Your classmate is always stressed before exams. What advice can you give her to relax?"
+  },
+  {
+    "id": 5,
+    "prompt": "Your neighbor wants to improve his English speaking skills. What would you recommend?"
+  },
+  {
+    "id": 6,
+    "prompt": "Your friend is moving to a different country for work. What should he do to prepare for life there?"
+  },
+  {
+    "id": 7,
+    "prompt": "Your sister wants to make new friends at her university. What suggestions do you have for her?"
+  },
+  {
+    "id": 8,
+    "prompt": "Your coworker finds it difficult to manage time effectively. What advice would you give him?"
+  },
+  {
+    "id": 9,
+    "prompt": "Your uncle is planning to visit your city as a tourist. Which places and activities would you recommend?"
+  },
+  {
+    "id": 10,
+    "prompt": "Your cousin is considering adopting a pet but is unsure. What factors should he consider before making a decision?"
+  },
+  {
+    "id": 11,
+    "prompt": "Your friend wants to get fit but doesn’t like going to the gym. What alternatives can you suggest?"
+  },
+  {
+    "id": 12,
+    "prompt": "Your classmate is thinking about joining a club at school. What benefits could you tell her about?"
+  },
+  {
+    "id": 13,
+    "prompt": "Your neighbor wants to start recycling at home but doesn’t know how. What would you suggest?"
+  },
+  {
+    "id": 14,
+    "prompt": "Your friend wants to improve his cooking skills. What should he do?"
+  },
+  {
+    "id": 15,
+    "prompt": "Your sibling wants to travel alone for the first time. What advice would you give her for a safe trip?"
+  },
+  {
+    "id": 16,
+    "prompt": "Your friend just started a new job and feels nervous. How can he build confidence at work?"
+  },
+  {
+    "id": 17,
+    "prompt": "Your classmate wants to participate more in class discussions but feels shy. What could help him?"
+  },
+  {
+    "id": 18,
+    "prompt": "Your aunt wants to start eating healthier but doesn’t know how to begin. What would you recommend?"
+  },
+  {
+    "id": 19,
+    "prompt": "Your friend is struggling to balance work and family responsibilities. What advice can you offer?"
+  },
+  {
+    "id": 20,
+    "prompt": "Your cousin is thinking about learning to drive. What should she keep in mind as a beginner?"
+  }
+]
