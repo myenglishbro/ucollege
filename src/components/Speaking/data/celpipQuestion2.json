@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "prompt": "Talk about a great time you had with a family member or friend. What happened and why was it memorable?"
+  },
+  {
+    "id": 2,
+    "prompt": "Describe a party or celebration you enjoyed. Who was there and what did you do?"
+  },
+  {
+    "id": 3,
+    "prompt": "Tell me about a time you helped someone. What happened and how did you feel?"
+  },
+  {
+    "id": 4,
+    "prompt": "Talk about a time you travelled somewhere new. Who did you go with and what did you do?"
+  },
+  {
+    "id": 5,
+    "prompt": "Describe an experience when you learned something important."
+  },
+  {
+    "id": 6,
+    "prompt": "Tell me about a time you achieved a goal. What was the goal and how did you achieve it?"
+  },
+  {
+    "id": 7,
+    "prompt": "Describe a time when you had to overcome a challenge. What did you do?"
+  },
+  {
+    "id": 8,
+    "prompt": "Talk about a special day you spent with someone. Why was it special?"
+  },
+  {
+    "id": 9,
+    "prompt": "Tell me about a time you received good news. What was it and how did you react?"
+  },
+  {
+    "id": 10,
+    "prompt": "Describe a fun activity you did at school or at work. Why did you enjoy it?"
+  },
+  {
+    "id": 11,
+    "prompt": "Talk about a time when you made a new friend. How did you meet and what did you do together?"
+  },
+  {
+    "id": 12,
+    "prompt": "Describe a memorable family gathering or event. What made it memorable?"
+  },
+  {
+    "id": 13,
+    "prompt": "Tell me about a time you solved a difficult problem. How did you manage it?"
+  },
+  {
+    "id": 14,
+    "prompt": "Describe a time you felt proud of yourself. What did you do?"
+  },
+  {
+    "id": 15,
+    "prompt": "Talk about a time when something unexpected happened. How did you handle the situation?"
+  },
+  {
+    "id": 16,
+    "prompt": "Describe a time you tried something for the first time. What was it like?"
+  },
+  {
+    "id": 17,
+    "prompt": "Tell me about a time you received a compliment. Who gave it to you and how did you feel?"
+  },
+  {
+    "id": 18,
+    "prompt": "Talk about a time when you were disappointed. What happened and what did you learn?"
+  },
+  {
+    "id": 19,
+    "prompt": "Describe a time you participated in a team activity. What was your role?"
+  },
+  {
+    "id": 20,
+    "prompt": "Tell me about a time you faced a difficult decision. How did you make your choice?"
+  }
+]

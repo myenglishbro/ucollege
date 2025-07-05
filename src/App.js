@@ -82,6 +82,9 @@ import IniciobB1 from "./components/Login/LoginB1/InicioB1.jsx";
 import InicioB2C from "./components/Login/LoginB2C/InicioB2C.jsx";
 import InicioC from "./components/Login/LoginCelpip/InicioCelpip.jsx";
 import CELPIPSpeaking from "./components/Speaking/CELPIPSpeaking.jsx";
+import CELPIPSpeaking2 from "./components/Speaking/CELPIPSpeaking2.jsx";
+import CELPIPSpeaking3 from "./components/Speaking/CELPIPSpeaking3.jsx";
+import CELPIPSpeaking4 from "./components/Speaking/CELPIPSpeaking4.jsx";
 
 function App() {
   return (
@@ -104,6 +107,9 @@ function App() {
 
           <Route path="/Celpip" element={<InicioC />}></Route>
           <Route path="/task01" element={<CELPIPSpeaking />}></Route>
+          <Route path="/task02" element={<CELPIPSpeaking2 />}></Route>
+          <Route path="/task03" element={<CELPIPSpeaking3 />}></Route>
+          <Route path="/task04" element={<CELPIPSpeaking4 />}></Route>
 
           <Route path="/RoadMap" element={<RoadMap />}></Route>
           <Route path="/CambridgeExam" element={<CambridgeExam />}></Route>

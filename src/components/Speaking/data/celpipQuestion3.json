@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "prompt": "Describe some things that are happening in the picture below as well as you can. The person with whom you are speaking cannot see the picture.",
+    "image": "https://images.unsplash.com/photo-1503676382389-4809596d5290?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 2,
+    "prompt": "Describe in detail everything you see in this kitchen scene. Explain what each person is doing.",
+    "image": "https://images.unsplash.com/photo-1514512364185-4c2b678557d7?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 3,
+    "prompt": "Describe what is happening in this busy city street. Imagine explaining it to a friend who cannot see the image.",
+    "image": "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 4,
+    "prompt": "Describe this playground scene. Focus on the actions and feelings of the children.",
+    "image": "https://images.unsplash.com/photo-1508780709619-79562169bc64?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 5,
+    "prompt": "Describe what is happening in this supermarket scene. What are the people doing?",
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 6,
+    "prompt": "Describe everything you notice in this park. Talk about what people are doing.",
+    "image": "https://images.unsplash.com/photo-1465101178521-c1a9136a3ca4?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 7,
+    "prompt": "Describe this scene at the beach. Mention what people are doing and the general atmosphere.",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 8,
+    "prompt": "Describe what is happening in this hospital room. What are the different people doing?",
+    "image": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd23?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 9,
+    "prompt": "Describe this office scene. Who is doing what and what do you think the atmosphere is like?",
+    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 10,
+    "prompt": "Describe everything you see happening in this school classroom. Explain it for someone who cannot see the picture.",
+    "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 11,
+    "prompt": "Describe what is happening in this restaurant scene. What are people doing, and what kind of mood do you think there is?",
+    "image": "https://images.unsplash.com/photo-1454023492550-5696f8ff10e1?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 12,
+    "prompt": "Describe this scene at a train station. Who is in the image and what are they doing?",
+    "image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 13,
+    "prompt": "Describe everything you see in this library. What are the people doing and what is the atmosphere like?",
+    "image": "https://images.unsplash.com/photo-1514361892635-cd7e6e99e15c?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 14,
+    "prompt": "Describe what is happening at this sports event. Who is participating and what are others doing?",
+    "image": "https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 15,
+    "prompt": "Describe this scene in a shopping mall. What are some of the people doing?",
+    "image": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 16,
+    "prompt": "Describe what is happening at this airport. What are the people doing, and what might they be feeling?",
+    "image": "https://images.unsplash.com/photo-1464037866556-6812c9d1c72e?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 17,
+    "prompt": "Describe the different activities happening in this playground. What do you notice about the children and adults?",
+    "image": "https://images.unsplash.com/photo-1519121786083-4c58b298cf90?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 18,
+    "prompt": "Describe what is happening in this grocery store. What do you see people buying or doing?",
+    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 19,
+    "prompt": "Describe this scene at a bus stop. Who is waiting, and what might they be thinking or feeling?",
+    "image": "https://images.unsplash.com/photo-1468421870903-4df1664ac249?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": 20,
+    "prompt": "Describe everything happening in this family living room. What activities are taking place?",
+    "image": "https://images.unsplash.com/photo-1519340333755-c190e9c39b57?auto=format&fit=crop&w=600&q=80"
+  }
+]
