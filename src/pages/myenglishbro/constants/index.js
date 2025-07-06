@@ -35,6 +35,16 @@ import {
   twitter,
   yourlogo,
 } from "../assets";
+import {
+  Home,
+  BookOpen,
+  User2,
+  ChevronRight,
+  GraduationCap,
+  Star,
+  Rocket,
+  ShieldCheck
+} from "lucide-react";
 
 export const navigation = [
   {
@@ -241,7 +251,9 @@ export const pricing = [
   },
 ];
 
-export const benefits = [
+export const 
+
+benefits = [
    {
     id: "0",
     title: "CELPIP Prep Course",
@@ -251,14 +263,16 @@ export const benefits = [
     imgGif:
       "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZuazNnd2N5ODNrbHJmNmd6MXZ0eGt3cjJ5bjN5M2lxaTc4eGl2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r3WLuO5QRLyAV9MWEM/giphy.gif",
     imageUrl:
-      "https://i.ibb.co/nNp7wb22/Chat-GPT-Image-4-jul-2025-17-24-37.png",
+      "https://i.ibb.co/QjHmb4c1/Chat-GPT-Image-4-jul-2025-15-19-30.png",
     // Se usa la propiedad "ruta" como enlace del icono
     iconLink: "https://learnibox.vercel.app/celpip",
     details: {
       features: [
-        " Clases personalizadas y material exclusivo en cada sesión",
-        "Soporte y acompañamiento 24/7 vía WhatsApp ",
-        "Acceso exclusivo al Roadmap, simuladores y herramientas prácticas",
+        { text: "Certificación oficial Cambridge", icon: <Star size={16} /> },
+        { text: "Material exclusivo cada mes", icon: <Rocket size={16} /> },
+        { text: "Feedback 1:1 con expertos", icon: <User2 size={16} /> },
+        { text: "Aula virtual 24/7", icon: <BookOpen size={16} /> },
+        { text: "Soporte prioritario", icon: <ShieldCheck size={16} /> }
       ],
       price: "S/.420 Nuevos Soles",
       enlace:
@@ -279,14 +293,11 @@ export const benefits = [
     iconLink: "https://learnibox.vercel.app/RoadMapB2",
     details: {
       features: [
-        "✅Tu clase se graba y se envia por correo a cada correo",
-        "✅ Google Meet Premium",
-        "✅ Clases Personalizadas + Material de Clase",
-        "✅Puedes hacer preguntas al profe por wsp directamente",
-        "✅ Incluye preparacion para Exámenes Internacionales",
-        "✅ 03 Reprogramaciones",
-        "✅ Acceso al Roadmap con Material Exclusivo (A1 to C1 90 días)",
-        "✅ Código de Descarga Roadmap",
+        { text: "Certificación oficial Cambridge", icon: <Star size={16} /> },
+        { text: "Material exclusivo cada mes", icon: <Rocket size={16} /> },
+        { text: "Feedback 1:1 con expertos", icon: <User2 size={16} /> },
+        { text: "Aula virtual 24/7", icon: <BookOpen size={16} /> },
+        { text: "Soporte prioritario", icon: <ShieldCheck size={16} /> }
       ],
       price: "S/.590 Nuevos Soles",
       enlace:
@@ -559,9 +570,9 @@ export const benefits = [
 
 
 export const navLinks = [
-  { title: "Home", path: "/myenglishbro" },
+  { title: "Home", path: "/myenglishbro", icon: <Home size={18} strokeWidth={2.2} /> },
  
-  { title: "Cursos",       path: "/Store" },
+  { title: "Courses", path: "/Store", icon: <BookOpen  size={18} strokeWidth={2.2} /> },
 
 
   

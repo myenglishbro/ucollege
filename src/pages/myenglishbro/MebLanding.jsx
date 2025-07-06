@@ -10,15 +10,9 @@ import Notification from "./components/Notification";
 import CompanyLogos from "./components/CompanyLogos";
 
 import Benefits from "./components/Benefits";
-import Collaboration from "./components/Collaboration";
 
-import Services from "./components/Services";
-import Pricing from "./components/Pricing";
-import Roadmap from "./components/Roadmap";
 import Hero from "./components/Hero";
 import Footer from "./components/Footer";
-import Testimonial from "./components/Testimonial";
-import Plans from "./components/Plans";
 import Navbar from "./components/NavBar";
 const MebLanding = () => {
   return (
@@ -26,15 +20,7 @@ const MebLanding = () => {
  <Navbar></Navbar>
  <Hero></Hero>
  <Benefits></Benefits>
-
-{/* <Plans></Plans> */}
-
   
-                    <Collaboration></Collaboration>
-                    <Testimonial></Testimonial>
-  <Services></Services>
-  <Pricing></Pricing>
-  <Roadmap></Roadmap>
   
   <Footer></Footer>
 

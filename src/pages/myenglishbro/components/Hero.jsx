@@ -1,76 +1,203 @@
 import React from "react";
+import { Star, Sparkles } from "lucide-react";
+import { motion, AnimatePresence } from "framer-motion";
+import Section from "./Section";
+
+const flareVariants = {
+  initial: { opacity: 0, scale: 0.5, rotate: 0 },
+  animate: {
+    opacity: [0.5, 1, 0],
+    scale: [0.5, 1.6, 2.4],
+    rotate: [0, 44, 88],
+    transition: {
+      duration: 1.5,
+      repeat: Infinity,
+      repeatDelay: 2,
+      ease: "easeInOut"
+    }
+  }
+};
 
 const Hero = () => {
   return (
-    <section
-      className="relative pb-16 pt-12 px-4 md:px-10 mt-15"
-      style={{
-        background: "linear-gradient(120deg,#182034 70%,#25314a 100%)",
-        minHeight: "70vh",
-      }}
-    >
+    <Section>
       {/* Glass Card Main */}
-      <div
-        className="relative flex flex-col md:flex-row justify-center items-center max-w-5xl mx-auto gap-3 md:gap-0 shadow-xl"
+      <motion.div
+        initial={{ opacity: 0, y: 32 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.7 }}
+        className="relative flex flex-col md:flex-row justify-center items-center max-w-5xl mx-auto gap-4 md:gap-0"
         style={{
           backdropFilter: "blur(14px)",
-          background: "rgba(36,51,82,0.7)",
-          borderRadius: "2.5rem",
-          border: "2.5px solid #30406070",
-          boxShadow: "0 8px 50px 0 #36a6f735",
+          background: "rgba(18,21,34,0.88)",
+          borderRadius: "2.4rem",
+          border: "2px solid #23263a99",
         }}
       >
         {/* Text Side */}
-        <div className="w-full md:w-[54%] p-6 md:pl-10 md:py-10 flex flex-col items-start">
-          <div className="flex gap-2 mb-2">
-            <svg width="36" height="36" viewBox="0 0 36 36"><circle cx="18" cy="18" r="17" fill="#46b3f7" opacity="0.18"/><path d="M11 18h14M18 11v14" stroke="#46b3f7" strokeWidth="2.5" strokeLinecap="round" /></svg>
-            <span className="uppercase tracking-wider text-[#46b3f7] font-semibold text-xs drop-shadow-glow">Your English Journey</span>
+        <div className="w-full md:w-[54%] p-6 md:pl-10 md:py-12 flex flex-col items-start">
+          <div className="flex gap-2 mb-2 items-center">
+            <motion.span
+              initial={{ rotate: 0 }}
+              animate={{ rotate: 360 }}
+              transition={{ repeat: Infinity, duration: 10, ease: "linear" }}
+              className="rounded-full bg-gradient-to-br from-[#253152] to-[#202334] w-9 h-9 flex items-center justify-center"
+            >
+              <Sparkles className="text-[#5d6b86] opacity-80" size={25} />
+            </motion.span>
+            <span className="uppercase tracking-wider text-[#5a6d92] font-semibold text-xs">
+              Your English Journey
+            </span>
           </div>
-          <h1 className="text-[2.2rem] md:text-[2.6rem] font-extrabold leading-tight tracking-tight text-[#eaf3fa] mb-2 drop-shadow-glow">
-            <span className="text-[#46b3f7]">Hello!</span> MyEnglishBro
+          <h1 className="text-[2.2rem] md:text-[2.6rem] font-extrabold leading-tight tracking-tight text-[#e8ebf1] mb-2">
+            <span className="text-[#42587a]">Hello!</span> MyEnglishBro
           </h1>
-          <p className="text-lg md:text-xl text-[#b5d1fc] mb-8 font-medium" style={{ textShadow: "0 2px 12px #101c2c60" }}>
-            Aprender inglés <b className="text-[#fff8de] bg-[#ffe0852a] rounded px-2 py-0.5 shadow">puede ser fácil y divertido</b>.<br />
-            Clases 1:1, feedback en vivo y <span className="text-[#46b3f7] font-semibold">progreso real</span>. <br />
-            <span className="inline-block mt-2 text-[#b5d1fc] font-bold">Level Up <span className="font-normal text-[#9dfbfa]">/ˈlɛvəl ʌp/</span></span>
+          <p className="text-lg md:text-xl text-[#8b97ae] mb-8 font-medium">
+            Aprender inglés{" "}
+            <span className="relative inline-block group">
+              <b
+                className="text-[#ede8c8] bg-[#3b394026] rounded px-2 py-0.5 shadow-sm transition-all duration-200"
+                style={{
+                  boxShadow: "0 0 12px 0 #ede8c826",
+                }}
+              >
+                puede ser fácil y divertido
+              </b>
+              {/* Glow animado sutil */}
+              <motion.span
+                layoutId="glow"
+                className="absolute -inset-1 z-[-1] rounded blur-[7px] opacity-55 pointer-events-none"
+                initial={{ opacity: 0.35 }}
+                animate={{ opacity: [0.35, 0.65, 0.35] }}
+                transition={{
+                  duration: 2.4,
+                  repeat: Infinity,
+                  repeatType: "loop",
+                  ease: "easeInOut",
+                }}
+                style={{
+                  background: "radial-gradient(ellipse at 60% 70%, #ede8c844 40%, transparent 75%)"
+                }}
+              />
+            </span>
+            .<br />
+            Clases 1:1, feedback en vivo y{" "}
+            <span className="text-[#788db5] font-semibold">progreso real</span>. <br />
+            {/* Badge animado para Level Up */}
+            <motion.span
+              className="inline-flex items-center mt-2 text-[#9ba6c4] font-bold text-base gap-2"
+              initial={{ scale: 1 }}
+              animate={{ scale: [1, 1.11, 1] }}
+              transition={{ duration: 1.8, repeat: Infinity, repeatType: "loop", ease: "easeInOut" }}
+            >
+              Level Up{" "}
+              <span className="font-normal text-[#6a7a97]">/ˈlɛvəl ʌp/</span>
+              <svg width={16} height={16} viewBox="0 0 16 16" fill="none">
+                <circle cx={8} cy={8} r={7.3} stroke="#7c95c6" strokeWidth={1.4} opacity={0.16} />
+                <circle cx={8} cy={8} r={2.6} fill="#7c95c6" opacity={0.22} />
+              </svg>
+            </motion.span>
           </p>
-          <a
-  href="https://api.whatsapp.com/send?phone=51926922032&text=Hola%20quiero%20informacion%20sobre%20el%20curso"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="uppercase font-bold text-sm rounded-2xl py-3 px-10 bg-[#25314a]/70 border border-[#b55cff] text-[#eaf3fa] shadow-xl hover:bg-[#b55cff] hover:text-[#222741] hover:shadow-[0_0_18px_#b55cffaa] transition-all"
->
-  Start Now
-</a>
-
+          {/* Tooltip con AnimatePresence */}
+          <div className="relative group">
+            <motion.a
+              href="https://api.whatsapp.com/send?phone=51926922032&text=Hola%20quiero%20informacion%20sobre%20el%20curso"
+              target="_blank"
+              rel="noopener noreferrer"
+              whileHover={{
+                scale: 1.065,
+                boxShadow: "0 0 0 3px #313c5275",
+              }}
+              whileTap={{ scale: 0.98 }}
+              className={`
+                flex items-center gap-2
+                px-8 py-3 rounded-2xl font-bold uppercase text-sm
+                bg-[#181b2a]/90 border border-[#29314a88]
+                text-[#e8ebf1]
+                transition-all duration-200
+                hover:bg-[#23263a]/90
+                hover:text-[#7c95c6]
+                focus-visible:ring-2 focus-visible:ring-[#313c52]
+                outline-none
+                shadow-none
+              `}
+              tabIndex={0}
+            >
+              Start Now
+              <svg
+                width="20"
+                height="20"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2.1"
+                className="inline align-middle text-[#475470] group-hover:text-[#7c95c6] transition-colors"
+                viewBox="0 0 24 24"
+              >
+                <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </motion.a>
+            <AnimatePresence>
+              <motion.div
+                className="absolute left-1/2 top-full mt-3 -translate-x-1/2 w-max bg-[#161b28] px-4 py-2 rounded-xl text-xs text-[#b6bad6] font-medium border border-[#2a2e41] opacity-0 group-hover:opacity-100 pointer-events-none z-30 transition-all shadow"
+                initial={{ opacity: 0, y: 12 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: 10 }}
+                transition={{ duration: 0.23 }}
+              >
+                Escríbeme directo por WhatsApp
+              </motion.div>
+            </AnimatePresence>
+          </div>
         </div>
-        {/* Image Side with 3D Glow Glass Style */}
-        <div className="flex justify-center items-center w-full md:w-[46%] p-4 md:pr-10 md:py-10 -mt-8 md:mt-0">
-          <div
-            className="relative rounded-3xl p-2"
+        {/* Image Side with Glass Style */}
+        <div className="flex justify-center items-center w-full md:w-[46%] p-4 md:pr-10 md:py-12 -mt-8 md:mt-0">
+          <motion.div
+            initial={{ opacity: 0, scale: 0.97, y: 20 }}
+            animate={{ opacity: 1, scale: 1, y: 0 }}
+            transition={{ duration: 0.7, delay: 0.13 }}
+            whileHover={{
+              boxShadow: "0 0 36px 0 #7c95c633",
+              scale: 1.025,
+            }}
+            className="relative rounded-3xl p-2 transition-all duration-200"
             style={{
-              background: "linear-gradient(120deg,rgba(59,86,151,0.25) 70%,rgba(70,179,247,0.19) 100%)",
-              border: "2.5px solid #46b3f7a6",
-              boxShadow: "0 6px 60px 0 #46b3f7a0",
-              backdropFilter: "blur(8px)",
+              background: "linear-gradient(120deg,rgba(38,42,60,0.18) 70%,rgba(60,90,127,0.11) 100%)",
+              border: "2px solid #2d314055",
               maxWidth: "330px",
             }}
           >
             <img
-              className="w-full max-w-[310px] rounded-[1.4rem] shadow-2xl"
+              className="w-full max-w-[310px] rounded-[1.4rem] bg-[#181b2a]"
               src="https://i.ibb.co/YBBvdhz8/Chat-GPT-Image-4-jul-2025-11-23-15.png"
               alt="MyEnglishBro Mascot"
               draggable={false}
             />
-            {/* Star icon for a little 3D accent */}
+            {/* Star icon badge con flare animado */}
             <div className="absolute bottom-4 right-4">
-              <svg width="28" height="28" viewBox="0 0 34 34"><path d="M17 3l4.09 8.26L30 12.27l-6.18 6.02L25.18 29 17 24.27 8.82 29l1.36-10.71L4 12.27l8.91-1.01L17 3z" fill="#f7d144" stroke="#dcc674" strokeWidth="1.5"/></svg>
+              <Star size={27} className="text-[#d7bd71]" strokeWidth={1.5} />
+              {/* Flare animado sobre la estrella */}
+              <motion.svg
+                width={18}
+                height={18}
+                className="absolute -top-2 left-2 pointer-events-none"
+                variants={flareVariants}
+                initial="initial"
+                animate="animate"
+                style={{ filter: "blur(2.5px)" }}
+              >
+                <circle
+                  cx={9}
+                  cy={9}
+                  r={6}
+                  fill="#fff4db"
+                  fillOpacity={0.4}
+                />
+              </motion.svg>
             </div>
-          </div>
+          </motion.div>
         </div>
-      </div>
-      
-    </section>
+      </motion.div>
+    </Section>
   );
 };
 
