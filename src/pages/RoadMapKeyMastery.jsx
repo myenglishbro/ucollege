@@ -59,9 +59,9 @@ const RoadMapKeyMastery = () => {
         <LoginLibro onLoginSuccess={handleLoginSuccess} />
       ) : (
         <>
-          <button className="sidebar-toggle" onClick={toggleSidebar}>
+          {/* <button className="sidebar-toggle" onClick={toggleSidebar}>
             ☰
-          </button>
+          </button> */}
 
           <SidebarBook
             road={roadMk}
