@@ -93,7 +93,7 @@ const DefaultView = ({ realname, userImage, nivel, expirationDate }) => {
             <FaWhatsapp className="text-green-400" /> WhatsApp
           </a>
           <a
-            href="https://docs.google.com/document/d/1OV0QilMHzo3OsYqw1XveVlsfiFm90_Ji5_E5SIBpSSM/edit?usp=sharing"
+            href="https://meet.google.com/dkc-noko-zey"
             target="_blank" rel="noopener noreferrer"
             className="flex items-center justify-center gap-2 px-4 py-2 rounded-lg bg-[#23243b] hover:bg-[#24272f] text-gray-100 font-semibold border border-[#283042] shadow-md transition"
           >
