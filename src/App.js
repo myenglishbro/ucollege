@@ -14,7 +14,6 @@ import Horario from "./pages/Horario";
 import RoadMap from "./pages/RoadMap";
 import RoadMapEngine from "./pages/RoadMapEngine";
 import RoadMapMix from "./pages/RoadMapMix";
-import RoadMapTech from "./pages/RoadMapTech";
 import RoadMapHealth from "./pages/RoadMapHealth";
 import RoadMapBusiness from "./pages/RoadMapBusiness";
 
@@ -77,7 +76,7 @@ import SixtyType from "./components/SixtyType.jsx";
 import RoadMapKeyMastery from "./pages/RoadMapKeyMastery.jsx";
 import InicioA1 from "./components/Login/LoginA1/InicioA1.jsx";
 import InicioB2 from "./components/Login/LoginB2/InicioB2.jsx";
-import InicioCelpip from "./components/Login/LoginCelpip/InicioCelpip.jsx";
+import InicioiT from "./components/Login/LoginIt/InicioIt.jsx";
 import IniciobB1 from "./components/Login/LoginB1/InicioB1.jsx";
 import InicioB2C from "./components/Login/LoginB2C/InicioB2C.jsx";
 import InicioC from "./components/Login/LoginCelpip/InicioCelpip.jsx";
@@ -104,6 +103,7 @@ function App() {
 
           <Route path="/B2" element={<InicioB2 />}></Route>
          <Route path="/B2C" element={<InicioB2C />}></Route>
+          <Route path="/valere" element={<InicioiT />}></Route>
 
           <Route path="/Celpip" element={<InicioC />}></Route>
           <Route path="/task01" element={<CELPIPSpeaking />}></Route>
@@ -128,7 +128,6 @@ function App() {
           <Route path="/RoadMapEngine" element={<RoadMapEngine />}></Route>
           <Route path="/RoadMapHealth" element={<RoadMapHealth />}></Route>
           <Route path="/RoadMapMix" element={<RoadMapMix />}></Route>
-          <Route path="/valere" element={<RoadMapTech />}></Route>
           <Route path="/Enam" element={<RoadMapEnam />}></Route>
           <Route path="/Certificate" element={<Certificate />}></Route>
           <Route path="/xd" element={<EducationalAppsShowcase  />}></Route>

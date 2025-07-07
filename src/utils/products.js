@@ -7,7 +7,7 @@ export const products = [
       dateAdded: "2025-04-02",
       calificacion: "3 Meses x S/90",
       description: "¡Tu primer paso en inglés! Aprende saludos, frases básicas y vocabulario esencial para presentarte y hablar del día a día.",
-      enlaces: "https://learnibox.vercel.app/RoadMapA1",
+      enlaces: "https://learnibox.vercel.app/A1",
       precio: "35 Mensuales",
     },
     {
@@ -18,7 +18,7 @@ export const products = [
       dateAdded: "2025-04-02",
       calificacion: "3 Meses x S/180",
       description: "¡Tu primer paso en inglés! Aprende saludos, frases básicas y vocabulario esencial para presentarte y hablar del día a día.",
-      enlaces: "https://learnibox.vercel.app/RoadMapA1",
+      enlaces: "https://learnibox.vercel.app/A1",
       precio: "65 Mensuales",
       demo:"Permite Descargas"
     },
@@ -54,7 +54,7 @@ export const products = [
       dateAdded: "2025-04-02",
       calificacion: "Most Popular",
       description: "¡Hora de expresarte! Aprende a dar opiniones, hablar en pasado y entender conversaciones sencillas.",
-      enlaces: "https://learnibox.vercel.app/RoadMapB1",
+      enlaces: "https://learnibox.vercel.app/B1",
       precio: "35 Mensuales",
     },
     {
@@ -65,7 +65,7 @@ export const products = [
       dateAdded: "2025-04-02",
       calificacion: "Most Popular",
       description: "¡Hora de expresarte! Aprende a dar opiniones, hablar en pasado y entender conversaciones sencillas.",
-      enlaces: "https://learnibox.vercel.app/RoadMapB1",
+      enlaces: "https://learnibox.vercel.app/B1",
       precio: "35 Mensuales",
     },
 
@@ -77,7 +77,7 @@ export const products = [
       dateAdded: "2025-04-02",
       calificacion: "3 Meses x S/120",
       description: "Domina estructuras más complejas, conéctate con hablantes nativos y prepárate para situaciones reales.",
-      enlaces: "https://learnibox.vercel.app/RoadMapB2",
+      enlaces: "https://learnibox.vercel.app/B2",
       precio: "45 Mensuales",
     },
     {
@@ -88,7 +88,7 @@ export const products = [
       dateAdded: "2025-04-02",
       calificacion: "3 Meses x S/180",
       description: "Domina estructuras más complejas, conéctate con hablantes nativos y prepárate para situaciones reales.",
-      enlaces: "https://learnibox.vercel.app/RoadMapB2",
+      enlaces: "https://learnibox.vercel.app/B2",
       precio: "95 Mensuales",
       demo:"Permite Descargas"
 
@@ -135,7 +135,7 @@ export const products = [
       dateAdded: "2025-04-02",
       calificacion: "Gratis",
       description: "Prepárate para aprobar el B2 First (FCE) con estrategias, práctica de speaking, writing y mucho más.",
-      enlaces: "https://learnibox.vercel.app/myenglishbro",
+      enlaces: "https://learnibox.vercel.app/B2C",
       precio: 90,
     },
     {

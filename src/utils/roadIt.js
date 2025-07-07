@@ -1,4 +1,4 @@
-export const roadtech = [
+export const roadIt = [
      {
         id: 0,
         thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
