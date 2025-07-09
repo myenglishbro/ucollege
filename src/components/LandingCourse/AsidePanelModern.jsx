@@ -49,7 +49,7 @@ export default function AsidePanelModern({
             </div>
 
             {/* PRECIO */}
-            <div className="flex flex-col gap-2 items-center">
+            {/* <div className="flex flex-col gap-2 items-center">
               <span className="text-3xl font-black tracking-wider text-[#e6eaf0] drop-shadow">
                 {precio}
               </span>
@@ -61,7 +61,7 @@ export default function AsidePanelModern({
               {descuento && (
                 <span className="text-[#4fc0a9] font-semibold text-sm">{descuento}</span>
               )}
-            </div>
+            </div> */}
 
             {/* BOTÓN ACCEDER CURSO */}
             <motion.button
@@ -84,7 +84,7 @@ export default function AsidePanelModern({
               `}
             >
               <MdLockOpen className="text-2xl opacity-80" />
-              <span>Acceder al Curso</span>
+              <span>Acceder al Repo</span>
             </motion.button>
 
             {/* SOPORTE WHATSAPP */}
@@ -118,11 +118,11 @@ export default function AsidePanelModern({
               </motion.div>
             )}
 
-            {/* Garantía y acceso */}
+            {/* Garantía y acceso
             <div className="text-center text-[11px] text-[#b3b8c5] mt-2 opacity-75">
               <span className="block mb-0.5">Garantía de Reembolso 30 Días</span>
               <span className="text-[#4fc0a9] font-medium">Acceso de por vida</span>
-            </div>
+            </div> */}
           </div>
         </motion.div>
       </div>
