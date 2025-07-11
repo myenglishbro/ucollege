@@ -268,13 +268,34 @@ benefits = [
     iconLink: "https://learnibox.vercel.app/celpip",
     details: {
       features: [
-        { text: "Certificación oficial Cambridge", icon: <Star size={16} /> },
-        { text: "Material exclusivo cada mes", icon: <Rocket size={16} /> },
         { text: "Feedback 1:1 con expertos", icon: <User2 size={16} /> },
-        { text: "Aula virtual 24/7", icon: <BookOpen size={16} /> },
         { text: "Soporte prioritario", icon: <ShieldCheck size={16} /> }
       ],
       price: "S/.420 Nuevos Soles",
+      enlace:
+        "https://learnibox.vercel.app/celpip",
+    },
+  },
+  {
+    id: "1",
+    title: "CELPIP Prep Course",
+    text: "Este paquete de clases cuenta con 10 horas de clases en vivo",
+    backgroundUrl: "./src/assets/benefits/card-1.svg",
+    iconUrl:benefitIcon1,
+    imgGif:
+      "https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExd2ZuazNnd2N5ODNrbHJmNmd6MXZ0eGt3cjJ5bjN5M2lxaTc4eGl2MSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/r3WLuO5QRLyAV9MWEM/giphy.gif",
+    imageUrl:
+      "https://i.ibb.co/QjHmb4c1/Chat-GPT-Image-4-jul-2025-15-19-30.png",
+    // Se usa la propiedad "ruta" como enlace del icono
+    iconLink: "https://learnibox.vercel.app/celpip",
+    details: {
+      features: [
+        { text: "Material exclusivo cada mes", icon: <Rocket size={16} /> },
+        { text: "Feedback 1:1 con expertos", icon: <User2 size={16} /> },
+        { text: "Repositorio 30 días", icon: <BookOpen size={16} /> },
+        { text: "Soporte prioritario", icon: <ShieldCheck size={16} /> }
+      ],
+      price: "S/.470 Nuevos Soles",
       enlace:
         "https://learnibox.vercel.app/celpip",
     },
