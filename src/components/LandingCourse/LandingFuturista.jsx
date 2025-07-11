@@ -9,7 +9,7 @@ import { Star } from "lucide-react";
 import { motion } from "framer-motion";
 
 export default function LandingFuturista({
-  logo, titulo, descripcion, teacher, video, precio, precio_original, descuento, oferta_time, soporte_wsp,
+  logo, titulo, descripcion, teacher, video, precio, precio_original, descuento,precio_anual, oferta_time, soporte_wsp,
   badge = { label: "Premium" },
   ratings = { score: 4.9, votes: 320, students: 1200 },
   last_updated,
@@ -166,7 +166,7 @@ export default function LandingFuturista({
           video={video}
           precio={precio}
           precio_original={precio_original}
-          descuento={descuento}
+          precio_anual={precio_anual}
           oferta_time={oferta_time}
           soporte_wsp={soporte_wsp}
           onAccessClick={onAccessClick}

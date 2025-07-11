@@ -313,6 +313,12 @@ export const navLinks = [
       icon: send,
       title: "¿Qué ocurre si no asisto a mi reserva? 🤔❌",
       content:"Cuando haces una reserva, te comprometes a asistir a esa lección. Entendemos que las emergencias surgen y que hay muchas razones por las que un estudiante puede tener que perder una lección inesperadamente.Si resulta que no vas a poder asistir a tu lección programada, por favor, cancélala al menos con 24 horas de antelación.Después, puedes programar una nueva lección para el horario que más te convenga",   
+     },
+     {
+      id: "politica-5",
+      icon: send,
+      title: "Plazo para agendar ",
+      content:"Cuando haces una reserva, te comprometes a asistir a esa lección. Entendemos que las emergencias surgen y que hay muchas razones por las que un estudiante puede tener que perder una lección inesperadamente.Si resulta que no vas a poder asistir a tu lección programada, por favor, cancélala al menos con 24 horas de antelación.Después, puedes programar una nueva lección para el horario que más te convenga",   
      }
 
   ];

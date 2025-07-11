@@ -1,0 +1,146 @@
+{
+  "logo": "https://i.ibb.co/HpP9XPB7/My-english-bro-Logo-12.png",
+  "bgImage":"https://i.ibb.co/JWB7fRRr/jsm-abstract.webp",
+  "robotImage":"https://i.ibb.co/nqqMs8L0/Chat-GPT-Image-2-jul-2025-18-43-49.png",
+    "mascotImage":"https://i.ibb.co/vCKHSkZK/20250711-0123-Cartoon-Student-Studying-remix-01jzw28330fq19yhnja0a3s9qy.png",
+
+  "titulo": "Curso de Preparación para IELTS",
+  "descripcion": "Practica todas las secciones del IELTS: reading, listening, writing y speaking. Domina tipos de preguntas, técnicas para responder, criterios de evaluación y simula el examen real con ejercicios guiados.",
+  "teacher": "Carlos Apolaya Sanchez",
+  "video": "https://www.youtube.com/embed/r5eiUU3EpHE?si=OV1u-SrmOkfco8yP",
+  "precio": "S/80 por mes",
+  "precio_original": "Antes S/160",
+  "precio_anual":"S/400",
+  "descuento": "50% off",
+  "oferta_time": "⏰ 11 hours left at this price!",
+  "soporte_wsp": "https://api.whatsapp.com/send?phone=51926922032&text=Hola%20quiero%20informacion%20sobre%20el%20curso",
+  "badge": {
+    "label": "Role Play",
+    "color": "#8b5cf6"
+  },
+  "ratings": {
+    "score": 4.2,
+    "votes": 660,
+    "students": 3187
+  },
+  "last_updated": "07/07/2025",
+  "idiomas": ["English", "Spanish"],
+"learning": [
+  "Comunicación profesional en inglés con claridad y confianza.",
+  "Pronunciación y acento nativos para entornos laborales.",
+  "Habla, escucha y gramática aplicadas al trabajo.",
+  "Frases clave para reuniones y llamadas.",
+  "Expresar opiniones y negociar de forma natural.",
+  "Inglés fluido para correos y conversaciones laborales."
+],
+
+
+  "includes": [
+    ["Role Play", "FaRegPlayCircle"],
+    ["2 hours on-demand video", "FaRegClock"],
+    ["1 practice test", "FaCheckCircle"],
+    ["Assignments", "FaRegFileAlt"],
+    ["4 articles", "FaRegFileAlt"],
+    ["16 downloadable resources", "FaRegFileAlt"],
+    ["Access on mobile and TV", "FaRegFileAlt"]
+  ],
+  "temario_titulo": "Course content",
+  "rutas": [
+    {
+    "titulo": "Introducción al IELTS",
+    "tiempo": "2 horas de contenido",
+    "cursos": [
+      "¿Qué es el IELTS? Formato y versiones (Academic y General)",
+      "Escala de puntuación y criterios Band Score",
+      "Errores comunes y cómo evitarlos",
+      "Estrategias generales para Band 7+"
+    ]
+  },
+  {
+    "titulo": "Speaking: Técnicas y Práctica",
+    "tiempo": "8 horas de contenido",
+    "cursos": [
+      "Part 1: Temas frecuentes (casa, familia, estudios, rutinas, hobbies)",
+      "Part 2: Cómo desarrollar tu monólogo (estructura, storytelling, ejemplos)",
+      "Part 3: Expresar opiniones, comparar, especular y analizar",
+      "Fluidez y pronunciación: shadowing y connected speech",
+      "Errores comunes en Speaking y cómo evitarlos",
+      "Simulacros de Speaking con feedback"
+    ]
+  },
+  {
+    "titulo": "Writing Task 1: Academic y General",
+    "tiempo": "6 horas de contenido",
+    "cursos": [
+      "Writing Task 1 Academic: Describir gráficos, tablas y mapas",
+      "Writing Task 1 General: Cartas formales e informales",
+      "Estructura, vocabulario y conectores clave para Task 1",
+      "Errores frecuentes y estrategias para Band 7+",
+      "Práctica guiada con ejemplos reales"
+    ]
+  },
+  {
+    "titulo": "Writing Task 2: Essay Argumentativo",
+    "tiempo": "8 horas de contenido",
+    "cursos": [
+      "Tipos de preguntas: opinion, discussion, advantages/disadvantages, problem/solution",
+      "Cómo organizar y estructurar tu ensayo",
+      "Vocabulario avanzado y linking words",
+      "Cómo argumentar y justificar opiniones",
+      "Errores comunes en Task 2 y cómo evitarlos",
+      "Simulacros de essays con retroalimentación"
+    ]
+  },
+  {
+    "titulo": "Reading: Estrategias y Temas Clave",
+    "tiempo": "8 horas de contenido",
+    "cursos": [
+      "Skimming, scanning y lectura intensiva",
+      "Tipos de preguntas: multiple choice, matching, True/False/Not Given",
+      "Identificación de ideas principales y detalles",
+      "Manejo del tiempo y orden recomendado",
+      "Vocabulario académico esencial",
+      "Práctica con textos reales de exámenes anteriores"
+    ]
+  },
+  {
+    "titulo": "Listening: Práctica y Técnicas",
+    "tiempo": "7 horas de contenido",
+    "cursos": [
+      "Introducción a las 4 secciones del Listening",
+      "Escucha activa: cómo anticipar información",
+      "Notetaking efectivo y palabras clave",
+      "Reconocer diferentes acentos y pronunciaciones",
+      "Errores típicos y cómo evitarlos",
+      "Práctica con audios reales y simulacros"
+    ]
+  },
+  {
+    "titulo": "Vocabulario y Gramática para Band 7+",
+    "tiempo": "6 horas de contenido",
+    "cursos": [
+      "Academic vocabulary y collocations",
+      "Phrasal verbs y expresiones útiles",
+      "Linking words para cohesión y coherencia",
+      "Gramática avanzada: condicionales, voz pasiva, relative clauses",
+      "Errores gramaticales frecuentes en IELTS"
+    ]
+  },
+  {
+    "titulo": "Simulacros Integrales y Feedback Personalizado",
+    "tiempo": "8 horas de contenido",
+    "cursos": [
+      "Mock tests completos (Listening, Reading, Writing y Speaking)",
+      "Corrección detallada y análisis de respuestas",
+      "Técnicas para mejorar bajo presión de tiempo real",
+      "Plan de mejora personalizado para alcanzar Band 7+"
+    ]
+  }
+  ],
+  "docentes": [
+    {
+      "nombre": "Carlos Apolaya",
+      "img": "https://i.ibb.co/TMn0qczS/Pi7-Passport-Photo-1.jpg"
+    }
+  ]
+}

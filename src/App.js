@@ -86,6 +86,7 @@ import CELPIPSpeaking3 from "./components/Speaking/CELPIPSpeaking3.jsx";
 import CELPIPSpeaking4 from "./components/Speaking/CELPIPSpeaking4.jsx";
 import Quizbank01Enhanced from "./components/Aplicativos/Quizer/Quizbank01.jsx";
 import Quizbank01 from "./components/Aplicativos/Quizer/Quizbank01.jsx";
+import InicioIelts from "./components/Login/LoginIelts/InicioIelts.jsx";
 
 function App() {
   return (
@@ -102,6 +103,7 @@ function App() {
 
           <Route path="/A1" element={<InicioA1 />}></Route>
           <Route path="/B1" element={<IniciobB1 />}></Route>
+          <Route path="/ielts" element={<InicioIelts />}></Route>
 
           <Route path="/B2" element={<InicioB2 />}></Route>
          <Route path="/B2C" element={<InicioB2C />}></Route>
