@@ -1,0 +1,855 @@
+{
+  "tests": [
+    {
+      "title": "Test 1: Phrasal-Prepositional Verbs 1-10",
+      "questions": [
+        {
+          "id": 1,
+          "question": "¿Phrasal verb para calcular un promedio?",
+          "answer": "average out at",
+          "example": "Our expenses averaged out at $500 per month.",
+          "context": "Used when calculating the average result of numbers or amounts.",
+          "object_type": "thing"
+        },
+        {
+          "id": 2,
+          "question": "¿Phrasal verb para eliminar algo/alguien?",
+          "answer": "do away with",
+          "example": "The company plans to do away with paper invoices.",
+          "context": "Used when abolishing, getting rid of, or removing something or someone.",
+          "object_type": "thing"
+        },
+        {
+          "id": 3,
+          "question": "¿Phrasal verb para proceder con algo?",
+          "answer": "go ahead with",
+          "example": "Despite objections, the manager went ahead with the plan.",
+          "context": "Used when you proceed with a plan or action.",
+          "object_type": "thing"
+        },
+        {
+          "id": 4,
+          "question": "¿Phrasal verb para admitir algo?",
+          "answer": "own up to",
+          "example": "He owned up to breaking the window.",
+          "context": "Used when someone admits responsibility for something wrong.",
+          "object_type": "thing"
+        },
+        {
+          "id": 5,
+          "question": "¿Phrasal verb para sumar un total?",
+          "answer": "add up to",
+          "example": "The bills add up to $300.",
+          "context": "Used when amounts combine to make a total.",
+          "object_type": "thing"
+        },
+        {
+          "id": 6,
+          "question": "¿Phrasal verb para privar a alguien de algo?",
+          "answer": "do sb out of",
+          "example": "She was done out of her promotion by a colleague.",
+          "context": "Used when someone is unfairly deprived of something they deserve.",
+          "object_type": "person"
+        },
+        {
+          "id": 7,
+          "question": "¿Phrasal verb para estar de acuerdo con algo?",
+          "answer": "go along with",
+          "example": "I'll go along with your suggestion.",
+          "context": "Used when you agree or accept an idea, plan, or suggestion.",
+          "object_type": "thing"
+        },
+        {
+          "id": 8,
+          "question": "¿Phrasal verb para continuar presionando con algo?",
+          "answer": "press on with",
+          "example": "Despite the rain, they pressed on with the marathon.",
+          "context": "Used when continuing an activity with determination.",
+          "object_type": "thing"
+        },
+        {
+          "id": 9,
+          "question": "¿Phrasal verb para echarse atrás de algo?",
+          "answer": "back out of",
+          "example": "He backed out of the contract at the last moment.",
+          "context": "Used when you decide not to do something you had agreed to.",
+          "object_type": "thing"
+        },
+        {
+          "id": 10,
+          "question": "¿Phrasal verb para visitar a alguien sin avisar?",
+          "answer": "drop in on",
+          "example": "We decided to drop in on our neighbors for a quick chat.",
+          "context": "Used when visiting someone unexpectedly.",
+          "object_type": "person"
+        }
+      ]
+    },
+    {
+      "title": "Test 2: Phrasal-Prepositional Verbs 11-20",
+      "questions": [
+        {
+          "id": 11,
+          "question": "¿Phrasal verb para retractarse de algo?",
+          "answer": "go back on",
+          "example": "He never goes back on his word.",
+          "context": "Used when someone breaks a promise or agreement.",
+          "object_type": "thing"
+        },
+        {
+          "id": 12,
+          "question": "¿Phrasal verb para continuar rápidamente?",
+          "answer": "push on with",
+          "example": "Let's push on with our project despite the difficulties.",
+          "context": "Used when continuing something with energy and focus.",
+          "object_type": "thing"
+        },
+        {
+          "id": 13,
+          "question": "¿Phrasal verb para hablar mucho de algo?",
+          "answer": "be on about",
+          "example": "He was on about his new car again.",
+          "context": "Used when someone keeps talking about a subject, often annoyingly.",
+          "object_type": "thing"
+        },
+        {
+          "id": 14,
+          "question": "¿Phrasal verb para abandonar algo?",
+          "answer": "drop out of",
+          "example": "She dropped out of college in her second year.",
+          "context": "Used when someone leaves a course, school, or activity before finishing.",
+          "object_type": "thing"
+        },
+        {
+          "id": 15,
+          "question": "¿Phrasal verb para empezar a interesarse por algo?",
+          "answer": "go in for",
+          "example": "He goes in for extreme sports.",
+          "context": "Used when someone chooses or starts to like a particular activity.",
+          "object_type": "thing"
+        },
+        {
+          "id": 16,
+          "question": "¿Phrasal verb para atribuir algo a otra cosa?",
+          "answer": "put down to",
+          "example": "She puts her success down to hard work.",
+          "context": "Used to identify the cause of something.",
+          "object_type": "thing"
+        },
+        {
+          "id": 17,
+          "question": "¿Phrasal verb para estar dispuesto a algo?",
+          "answer": "be up for",
+          "example": "Are you up for going out tonight?",
+          "context": "Used when someone is willing or ready for an activity.",
+          "object_type": "thing"
+        },
+        {
+          "id": 18,
+          "question": "¿Phrasal verb para enfrentar algo?",
+          "answer": "face up to",
+          "example": "It's time to face up to your responsibilities.",
+          "context": "Used when accepting and dealing with something difficult or unpleasant.",
+          "object_type": "thing"
+        },
+        {
+          "id": 19,
+          "question": "¿Phrasal verb para dejar atrás algo?",
+          "answer": "grow out of",
+          "example": "He grew out of his fear of the dark.",
+          "context": "Used when someone becomes too mature or too old for something.",
+          "object_type": "thing"
+        },
+        {
+          "id": 20,
+          "question": "¿Phrasal verb para solicitar algo?",
+          "answer": "put in for",
+          "example": "She put in for a pay rise.",
+          "context": "Used when formally requesting something, usually a job or benefit.",
+          "object_type": "thing"
+        }
+      ]
+    },
+    {
+      "title": "Test 3: Phrasal-Prepositional Verbs 21-30",
+      "questions": [
+        {
+          "id": 21,
+          "question": "¿Phrasal verb para estar haciendo algo sospechoso?",
+          "answer": "be up to",
+          "example": "The kids are very quiet. I wonder what they're up to.",
+          "context": "Used when someone is doing something, often secretly or suspiciously.",
+          "object_type": "either"
+        },
+        {
+          "id": 22,
+          "question": "¿Phrasal verb para recurrir a algo en caso de necesidad?",
+          "answer": "fall back on",
+          "example": "If I lose my job, I'll have my savings to fall back on.",
+          "context": "Used when you use something for help when other things have failed.",
+          "object_type": "thing"
+        },
+        {
+          "id": 23,
+          "question": "¿Phrasal verb para esperar algo mejor?",
+          "answer": "hold out for",
+          "example": "They're holding out for a better offer.",
+          "context": "Used when waiting for what you want or refusing something until you get it.",
+          "object_type": "thing"
+        },
+        {
+          "id": 24,
+          "question": "¿Phrasal verb para animar a alguien a hacer algo malo?",
+          "answer": "put sb up to",
+          "example": "Who put you up to breaking the window?",
+          "context": "Used when someone encourages another to do something, usually wrong.",
+          "object_type": "person"
+        },
+        {
+          "id": 25,
+          "question": "¿Phrasal verb para brotar en algo (enfermedad, reacción)?",
+          "answer": "break out in",
+          "example": "She broke out in a rash after eating strawberries.",
+          "context": "Used when a skin reaction suddenly appears.",
+          "object_type": "thing"
+        },
+        {
+          "id": 26,
+          "question": "¿Phrasal verb para quedarse atrás en algo?",
+          "answer": "fall behind with",
+          "example": "He fell behind with his rent payments.",
+          "context": "Used when you do not do something as quickly as planned.",
+          "object_type": "thing"
+        },
+        {
+          "id": 27,
+          "question": "¿Phrasal verb para mantenerse alejado de alguien/algo?",
+          "answer": "keep away from",
+          "example": "Keep away from the edge of the cliff.",
+          "context": "Used to warn or advise someone to avoid something or someone.",
+          "object_type": "either"
+        },
+        {
+          "id": 28,
+          "question": "¿Phrasal verb para tolerar a alguien/algo?",
+          "answer": "put up with",
+          "example": "I can't put up with his behavior anymore.",
+          "context": "Used when you tolerate something unpleasant or annoying.",
+          "object_type": "either"
+        },
+        {
+          "id": 29,
+          "question": "¿Phrasal verb para escapar de un lugar o situación?",
+          "answer": "break out of",
+          "example": "Several prisoners broke out of jail.",
+          "context": "Used when someone escapes from a place or situation.",
+          "object_type": "place"
+        },
+        {
+          "id": 30,
+          "question": "¿Phrasal verb para tener una pelea con alguien?",
+          "answer": "fall out with",
+          "example": "She fell out with her best friend over a boy.",
+          "context": "Used when two people stop being friendly after an argument.",
+          "object_type": "person"
+        }
+      ]
+    },
+    {
+      "title": "Test 4: Phrasal-Prepositional Verbs 31-40",
+      "questions": [
+        {
+          "id": 31,
+          "question": "¿Phrasal verb para mantenerse al ritmo de algo/alguien?",
+          "answer": "keep up with",
+          "example": "I can't keep up with all these emails.",
+          "context": "Used when matching the speed or level of someone or something.",
+          "object_type": "either"
+        },
+        {
+          "id": 32,
+          "question": "¿Phrasal verb para comunicarse con alguien para ofrecer ayuda?",
+          "answer": "reach out to",
+          "example": "The company is reaching out to customers for feedback.",
+          "context": "Used when trying to communicate or offer help to someone.",
+          "object_type": "person"
+        },
+        {
+          "id": 33,
+          "question": "¿Phrasal verb para influenciar negativamente a alguien?",
+          "answer": "bring sb out in",
+          "example": "His jokes always bring me out in laughter.",
+          "context": "Used when something causes a reaction, usually on the skin or emotionally.",
+          "object_type": "person"
+        },
+        {
+          "id": 34,
+          "question": "¿Phrasal verb para estar harto de algo/alguien?",
+          "answer": "fed up with",
+          "example": "I'm fed up with all this noise.",
+          "context": "Used when you are extremely annoyed or bored with someone or something.",
+          "object_type": "either"
+        },
+        {
+          "id": 35,
+          "question": "¿Phrasal verb para permitir que alguien sepa algo?",
+          "answer": "let sb in on",
+          "example": "She let me in on her secret.",
+          "context": "Used when sharing a secret or private information.",
+          "object_type": "person"
+        },
+        {
+          "id": 36,
+          "question": "¿Phrasal verb para huir de alguien/algo?",
+          "answer": "run away from",
+          "example": "He ran away from home at the age of fifteen.",
+          "context": "Used when escaping from a place or a difficult situation.",
+          "object_type": "either"
+        },
+        {
+          "id": 37,
+          "question": "¿Phrasal verb para pedir ayuda a distancia?",
+          "answer": "call out to",
+          "example": "She called out to her friend for help.",
+          "context": "Used when you shout or speak loudly to attract someone's attention.",
+          "object_type": "person"
+        },
+        {
+          "id": 38,
+          "question": "¿Phrasal verb para sustituir a alguien temporalmente?",
+          "answer": "fill in for",
+          "example": "I'm filling in for my colleague while she's on leave.",
+          "context": "Used when temporarily replacing someone in their job or duty.",
+          "object_type": "person"
+        },
+        {
+          "id": 39,
+          "question": "¿Phrasal verb para estar atento a un sonido?",
+          "answer": "listen out for",
+          "example": "Listen out for your name being called.",
+          "context": "Used when paying special attention to hear a particular sound.",
+          "object_type": "thing"
+        },
+        {
+          "id": 40,
+          "question": "¿Phrasal verb para solicitar algo por correo?",
+          "answer": "send away for",
+          "example": "I sent away for a free sample.",
+          "context": "Used when requesting something by post or online.",
+          "object_type": "thing"
+        }
+      ]
+    },
+    {
+      "title": "Test 5: Phrasal-Prepositional Verbs 41-50",
+      "questions": [
+        {
+          "id": 41,
+          "question": "¿Phrasal verb para acusar a alguien de algo?",
+          "answer": "call sb out on",
+          "example": "She called him out on his lies.",
+          "context": "Used when challenging or criticizing someone openly about something.",
+          "object_type": "person"
+        },
+        {
+          "id": 42,
+          "question": "¿Phrasal verb para arreglarle una cita a alguien?",
+          "answer": "fix sb up with",
+          "example": "My friend fixed me up with a date for the party.",
+          "context": "Used when arranging for someone to meet or go out with another person.",
+          "object_type": "person"
+        },
+        {
+          "id": 43,
+          "question": "¿Phrasal verb para estar a la altura de algo?",
+          "answer": "live up to",
+          "example": "The product didn't live up to my expectations.",
+          "context": "Used when something meets or fails to meet standards or expectations.",
+          "object_type": "thing"
+        },
+        {
+          "id": 44,
+          "question": "¿Phrasal verb para evitar algo?",
+          "answer": "shy away from",
+          "example": "He doesn't shy away from difficult questions.",
+          "context": "Used when deliberately avoiding something or someone.",
+          "object_type": "either"
+        },
+        {
+          "id": 45,
+          "question": "¿Phrasal verb para reponer fuerzas con comida, recursos, etc.?",
+          "answer": "load up on",
+          "example": "We loaded up on snacks for the road trip.",
+          "context": "Used when collecting or consuming a large amount of something.",
+          "object_type": "thing"
+        },
+        {
+          "id": 46,
+          "question": "¿Phrasal verb para ser el suplente de alguien?",
+          "answer": "stand in for",
+          "example": "He stood in for the manager at the meeting.",
+          "context": "Used when replacing someone temporarily.",
+          "object_type": "person"
+        },
+        {
+          "id": 47,
+          "question": "¿Phrasal verb para ponerse al día con algo?",
+          "answer": "catch up on",
+          "example": "I need to catch up on some sleep.",
+          "context": "Used when doing something you have not had time to do earlier.",
+          "object_type": "thing"
+        },
+        {
+          "id": 48,
+          "question": "¿Phrasal verb para conspirar contra alguien?",
+          "answer": "gang up against",
+          "example": "The students ganged up against the new teacher.",
+          "context": "Used when a group joins together to oppose or criticize someone.",
+          "object_type": "person"
+        },
+        {
+          "id": 49,
+          "question": "¿Phrasal verb para menospreciar a alguien?",
+          "answer": "look down on",
+          "example": "She looks down on people who don't have a degree.",
+          "context": "Used when considering someone as less important.",
+          "object_type": "person"
+        },
+        {
+          "id": 50,
+          "question": "¿Phrasal verb para defender a alguien/algo?",
+          "answer": "stand up for",
+          "example": "It's important to stand up for your rights.",
+          "context": "Used when defending or supporting someone or something.",
+          "object_type": "either"
+        }
+      ]
+    },
+        {
+      "title": "Test 6: Phrasal-Prepositional Verbs 51-60",
+      "questions": [
+        {
+          "id": 51,
+          "question": "¿Phrasal verb para ponerse al día con alguien?",
+          "answer": "catch up with",
+          "example": "I hope to catch up with you soon.",
+          "context": "Used when meeting someone to share the latest news, or when reaching the same level as someone.",
+          "object_type": "person"
+        },
+        {
+          "id": 52,
+          "question": "¿Phrasal verb para salirse con la suya?",
+          "answer": "get away with",
+          "example": "He always gets away with cheating.",
+          "context": "Used when someone does something bad and is not punished.",
+          "object_type": "thing"
+        },
+        {
+          "id": 53,
+          "question": "¿Phrasal verb para esperar algo con ansias?",
+          "answer": "look forward to",
+          "example": "I'm looking forward to the holidays.",
+          "context": "Used to express excitement about something that will happen.",
+          "object_type": "thing"
+        },
+        {
+          "id": 54,
+          "question": "¿Phrasal verb para cuidar de alguien/algo?",
+          "answer": "look out for",
+          "example": "Look out for cars when crossing the street.",
+          "context": "Used when you watch for something or take care to avoid danger.",
+          "object_type": "either"
+        },
+        {
+          "id": 55,
+          "question": "¿Phrasal verb para desquitarse con alguien?",
+          "answer": "take out on",
+          "example": "Don't take your frustration out on me.",
+          "context": "Used when you treat someone badly because you are upset about something else.",
+          "object_type": "person"
+        },
+        {
+          "id": 56,
+          "question": "¿Phrasal verb para ponerse en contacto con alguien?",
+          "answer": "get back to",
+          "example": "I'll get back to you as soon as I can.",
+          "context": "Used when returning a call, message, or reply to someone.",
+          "object_type": "person"
+        },
+        {
+          "id": 57,
+          "question": "¿Phrasal verb para vengarse de alguien?",
+          "answer": "get back at",
+          "example": "She got back at him for lying.",
+          "context": "Used when taking revenge on someone.",
+          "object_type": "person"
+        },
+        {
+          "id": 58,
+          "question": "¿Phrasal verb para admirar a alguien?",
+          "answer": "look up to",
+          "example": "He has always looked up to his older brother.",
+          "context": "Used when respecting or admiring someone.",
+          "object_type": "person"
+        },
+        {
+          "id": 59,
+          "question": "¿Phrasal verb para aceptar un reto/invitación?",
+          "answer": "take sb up on",
+          "example": "I think I'll take you up on your offer.",
+          "context": "Used when accepting someone's offer or invitation.",
+          "object_type": "person"
+        },
+        {
+          "id": 60,
+          "question": "¿Phrasal verb para vigilar a alguien/algo?",
+          "answer": "watch out for",
+          "example": "Watch out for pickpockets in the city.",
+          "context": "Used when being alert for potential danger or problems.",
+          "object_type": "either"
+        }
+      ]
+    },
+    {
+      "title": "Test 7: Phrasal-Prepositional Verbs 61-70",
+      "questions": [
+        {
+          "id": 61,
+          "question": "¿Phrasal verb para imponer restricciones a algo?",
+          "answer": "clamp down on",
+          "example": "The government is clamping down on tax evasion.",
+          "context": "Used when taking strict action to stop illegal or unwanted activity.",
+          "object_type": "thing"
+        },
+        {
+          "id": 62,
+          "question": "¿Phrasal verb para acercarse a alguien?",
+          "answer": "close in on",
+          "example": "The police closed in on the suspect.",
+          "context": "Used when moving closer in order to catch or attack.",
+          "object_type": "person"
+        },
+        {
+          "id": 63,
+          "question": "¿Phrasal verb para aprovecharse de algo?",
+          "answer": "cash in on",
+          "example": "They cashed in on the popularity of healthy snacks.",
+          "context": "Used when taking advantage of a situation for profit.",
+          "object_type": "thing"
+        },
+        {
+          "id": 64,
+          "question": "¿Phrasal verb para revisar a alguien/algo?",
+          "answer": "check up on",
+          "example": "My boss likes to check up on our progress.",
+          "context": "Used when making sure that someone is doing what they should.",
+          "object_type": "either"
+        },
+        {
+          "id": 65,
+          "question": "¿Phrasal verb para contraer una enfermedad?",
+          "answer": "come down with",
+          "example": "She came down with the flu.",
+          "context": "Used when becoming sick with an illness.",
+          "object_type": "thing"
+        },
+        {
+          "id": 66,
+          "question": "¿Phrasal verb para criticar duramente a alguien?",
+          "answer": "come down on",
+          "example": "The coach came down on the team for their poor performance.",
+          "context": "Used when punishing or criticizing someone strongly.",
+          "object_type": "person"
+        },
+        {
+          "id": 67,
+          "question": "¿Phrasal verb para presentar algo (evidencia, idea, etc.)?",
+          "answer": "come forward with",
+          "example": "No witnesses have come forward with information.",
+          "context": "Used when giving information or help, especially to the authorities.",
+          "object_type": "thing"
+        },
+        {
+          "id": 68,
+          "question": "¿Phrasal verb para enfrentarse a algo?",
+          "answer": "come up against",
+          "example": "We came up against a serious problem.",
+          "context": "Used when encountering a difficulty or opposition.",
+          "object_type": "thing"
+        },
+        {
+          "id": 69,
+          "question": "¿Phrasal verb para idear algo o sugerir una idea?",
+          "answer": "come up with",
+          "example": "She came up with a brilliant idea.",
+          "context": "Used when producing or suggesting an idea or plan.",
+          "object_type": "thing"
+        },
+        {
+          "id": 70,
+          "question": "¿Phrasal verb para reducir el consumo de algo?",
+          "answer": "cut back on",
+          "example": "You should cut back on sugar.",
+          "context": "Used when consuming less of something.",
+          "object_type": "thing"
+        }
+      ]
+    },
+    {
+      "title": "Test 8: Phrasal-Prepositional Verbs 71-80",
+      "questions": [
+        {
+          "id": 71,
+          "question": "¿Phrasal verb para reducir algo?",
+          "answer": "cut down on",
+          "example": "I've decided to cut down on smoking.",
+          "context": "Used when reducing the amount of something.",
+          "object_type": "thing"
+        },
+        {
+          "id": 72,
+          "question": "¿Phrasal verb para participar en algo?",
+          "answer": "get in on",
+          "example": "She wanted to get in on the action.",
+          "context": "Used when becoming involved in an activity.",
+          "object_type": "thing"
+        },
+        {
+          "id": 73,
+          "question": "¿Phrasal verb para quedarse sin algo?",
+          "answer": "run out of",
+          "example": "We've run out of milk.",
+          "context": "Used when all of something has been used and there is none left.",
+          "object_type": "thing"
+        },
+        {
+          "id": 74,
+          "question": "¿Phrasal verb para abastecerse de recursos?",
+          "answer": "load up on",
+          "example": "We loaded up on snacks for the trip.",
+          "context": "Used when buying or collecting a large amount of something.",
+          "object_type": "thing"
+        },
+        {
+          "id": 75,
+          "question": "¿Phrasal verb para sustituir a alguien temporalmente?",
+          "answer": "fill in for",
+          "example": "Could you fill in for me at the meeting?",
+          "context": "Used when temporarily doing someone else's job.",
+          "object_type": "person"
+        },
+        {
+          "id": 76,
+          "question": "¿Phrasal verb para ser suplente de alguien?",
+          "answer": "stand in for",
+          "example": "He stood in for the teacher when she was ill.",
+          "context": "Used when temporarily taking someone's place.",
+          "object_type": "person"
+        },
+        {
+          "id": 77,
+          "question": "¿Phrasal verb para incitar a alguien a hacer algo malo?",
+          "answer": "put sb up to",
+          "example": "Who put you up to this prank?",
+          "context": "Used when encouraging someone to do something, especially wrong or foolish.",
+          "object_type": "person"
+        },
+        {
+          "id": 78,
+          "question": "¿Phrasal verb para pedir ayuda a distancia?",
+          "answer": "call out to",
+          "example": "She called out to the children to come inside.",
+          "context": "Used when shouting or speaking loudly to attract attention.",
+          "object_type": "person"
+        },
+        {
+          "id": 79,
+          "question": "¿Phrasal verb para terminar con algo difícil o desagradable?",
+          "answer": "get over with",
+          "example": "Let's get the meeting over with.",
+          "context": "Used when doing something unpleasant so it is finished and you can stop worrying.",
+          "object_type": "thing"
+        },
+        {
+          "id": 80,
+          "question": "¿Phrasal verb para posponer algo?",
+          "answer": "put off",
+          "example": "We had to put off our trip until next month.",
+          "context": "Used when delaying or postponing something.",
+          "object_type": "thing"
+        }
+      ]
+    },
+    {
+      "title": "Test 9: Phrasal-Prepositional Verbs 81-90",
+      "questions": [
+        {
+          "id": 81,
+          "question": "¿Phrasal verb para pasar a algo nuevo?",
+          "answer": "move on to",
+          "example": "Let's move on to the next topic.",
+          "context": "Used when changing to a new subject, activity, or stage.",
+          "object_type": "thing"
+        },
+        {
+          "id": 82,
+          "question": "¿Phrasal verb para cambiar de tema o actividad?",
+          "answer": "move on to",
+          "example": "After a short break, we moved on to the main discussion.",
+          "context": "Used when progressing from one thing to another.",
+          "object_type": "thing"
+        },
+        {
+          "id": 83,
+          "question": "¿Phrasal verb para estar atento a un peligro?",
+          "answer": "watch out for",
+          "example": "Watch out for icy roads.",
+          "context": "Used to warn about danger or something that requires attention.",
+          "object_type": "thing"
+        },
+        {
+          "id": 84,
+          "question": "¿Phrasal verb para centrarse en un objetivo?",
+          "answer": "zero in on",
+          "example": "The scientists zeroed in on the cause of the disease.",
+          "context": "Used when directing all attention to one thing.",
+          "object_type": "thing"
+        },
+        {
+          "id": 85,
+          "question": "¿Phrasal verb para hacer las paces con alguien?",
+          "answer": "make up to",
+          "example": "He tried to make up to his boss after the argument.",
+          "context": "Used when trying to become friends with someone again, often to gain a benefit.",
+          "object_type": "person"
+        },
+        {
+          "id": 86,
+          "question": "¿Phrasal verb para salir de un sitio difícil?",
+          "answer": "walk away from",
+          "example": "He walked away from the accident unharmed.",
+          "context": "Used when leaving a place, situation, or relationship.",
+          "object_type": "either"
+        },
+        {
+          "id": 87,
+          "question": "¿Phrasal verb para salir de una relación?",
+          "answer": "walk out on",
+          "example": "He walked out on his family.",
+          "context": "Used when leaving someone you have a relationship or responsibility with.",
+          "object_type": "person"
+        },
+        {
+          "id": 88,
+          "question": "¿Phrasal verb para hacer algo finalmente?",
+          "answer": "get around to",
+          "example": "I never got around to calling her.",
+          "context": "Used when finally doing something you intended to do for a long time.",
+          "object_type": "thing"
+        },
+        {
+          "id": 89,
+          "question": "¿Phrasal verb para avanzar pese a dificultades?",
+          "answer": "press on with",
+          "example": "They pressed on with the project despite the setbacks.",
+          "context": "Used when continuing something determinedly, despite difficulties.",
+          "object_type": "thing"
+        },
+        {
+          "id": 90,
+          "question": "¿Phrasal verb para compensar algo?",
+          "answer": "make up for",
+          "example": "She worked hard to make up for her mistake.",
+          "context": "Used when doing something good to balance something bad.",
+          "object_type": "thing"
+        }
+      ]
+    },
+    {
+      "title": "Test 10: Phrasal-Prepositional Verbs 91-100",
+      "questions": [
+        {
+          "id": 91,
+          "question": "¿Phrasal verb para perder una oportunidad?",
+          "answer": "miss out on",
+          "example": "He missed out on the chance to travel abroad.",
+          "context": "Used when not getting an opportunity or experience.",
+          "object_type": "thing"
+        },
+        {
+          "id": 92,
+          "question": "¿Phrasal verb para mantener la comunicación con alguien?",
+          "answer": "keep in touch with",
+          "example": "We keep in touch with our old friends from college.",
+          "context": "Used when maintaining communication with someone.",
+          "object_type": "person"
+        },
+        {
+          "id": 93,
+          "question": "¿Phrasal verb para darse cuenta de algo?",
+          "answer": "wake up to",
+          "example": "People are waking up to the importance of healthy eating.",
+          "context": "Used when becoming aware of a fact or situation.",
+          "object_type": "thing"
+        },
+        {
+          "id": 94,
+          "question": "¿Phrasal verb para comparar algo con un estándar?",
+          "answer": "measure up to",
+          "example": "The new employee doesn't measure up to our expectations.",
+          "context": "Used when reaching the expected standard.",
+          "object_type": "thing"
+        },
+        {
+          "id": 95,
+          "question": "¿Phrasal verb para retirarse de una negociación?",
+          "answer": "walk away from",
+          "example": "She walked away from the deal at the last minute.",
+          "context": "Used when leaving a situation, often because you don't accept the terms.",
+          "object_type": "thing"
+        },
+        {
+          "id": 96,
+          "question": "¿Phrasal verb para quedarse sin algo?",
+          "answer": "run out of",
+          "example": "We've run out of time.",
+          "context": "Used when there is none of something left.",
+          "object_type": "thing"
+        },
+        {
+          "id": 97,
+          "question": "¿Phrasal verb para solicitar algo formalmente?",
+          "answer": "put in for",
+          "example": "She put in for a transfer to the New York office.",
+          "context": "Used when officially requesting something.",
+          "object_type": "thing"
+        },
+        {
+          "id": 98,
+          "question": "¿Phrasal verb para defenderse frente a alguien?",
+          "answer": "stand up to",
+          "example": "He stood up to the bully at school.",
+          "context": "Used when defending yourself against a person or force.",
+          "object_type": "person"
+        },
+        {
+          "id": 99,
+          "question": "¿Phrasal verb para atribuir algo a una causa?",
+          "answer": "chalk up to",
+          "example": "He chalked his failure up to bad luck.",
+          "context": "Used when explaining the reason for something.",
+          "object_type": "thing"
+        },
+        {
+          "id": 100,
+          "question": "¿Phrasal verb para vivir según los estándares de algo?",
+          "answer": "live up to",
+          "example": "The film didn't live up to my expectations.",
+          "context": "Used when matching or failing to match an expected standard.",
+          "object_type": "thing"
+        }
+      ]
+    }
+
+  ]
+}
