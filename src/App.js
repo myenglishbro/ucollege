@@ -87,6 +87,7 @@ import CELPIPSpeaking4 from "./components/Speaking/CELPIPSpeaking4.jsx";
 import Quizbank01Enhanced from "./components/Aplicativos/Quizer/Quizbank01.jsx";
 import Quizbank01 from "./components/Aplicativos/Quizer/Quizbank01.jsx";
 import InicioIelts from "./components/Login/LoginIelts/InicioIelts.jsx";
+import UseOfEnglishSimulator from "./components/SimulatorB2/UseOfEnglishSimulator.jsx";
 
 function App() {
   return (
@@ -109,6 +110,7 @@ function App() {
          <Route path="/B2C" element={<InicioB2C />}></Route>
           <Route path="/valere" element={<InicioiT />}></Route>
           <Route path="/108pv" element={<Quizbank01 />}></Route>
+          <Route path="/simulator" element={<UseOfEnglishSimulator />}></Route>
 
           <Route path="/Celpip" element={<InicioC />}></Route>
           <Route path="/task01" element={<CELPIPSpeaking />}></Route>

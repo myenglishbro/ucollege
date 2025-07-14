@@ -1,0 +1,205 @@
+{
+  "Part1": {
+    "title": "Part 1: Multiple Choice Cloze",
+    "questions": [
+     {
+        "text": "My personal _____ is that both parents should go out to work if they wish.",
+        "type": "select",
+        "options": ["idea", "view", "thought", "decision"],
+        "answer": "view"
+      },
+      {
+        "text": "Some parents invest so much in a career that they cannot _____ to give it up.",
+        "type": "select",
+        "options": ["bear", "decide", "hope", "expect"],
+        "answer": "bear"
+      },
+      {
+        "text": "Others have to work because of economic _____ .",
+        "type": "select",
+        "options": ["a reason", "duty", "necessity", "task"],
+        "answer": "necessity"
+      },
+      {
+        "text": "There are several options when it _____ to choosing childcare from child minders to the kind neighbour _____ the street.",
+        "type": "select",
+        "options": ["refers", "concerns", "turns", "comes"],
+        "answer": "comes"
+      },
+      {
+        "text": "There are several options when it comes to choosing childcare from child minders to the kind neighbour _____ the street.",
+        "type": "select",
+        "options": ["of", "opposite", "across", "next to"],
+        "answer": "across"
+      },
+      {
+        "text": "Babies become dependent on parents and close family _____ , so parents should make sure they allow time to help their child settle in.",
+        "type": "select",
+        "options": ["a way", "matter", "surprise", "exception"],
+        "answer": "as a matter"
+      },
+      {
+        "text": "Babies become dependent on parents and close family as a matter of _____ , so parents should make sure they allow time to help their child settle in with their new carer.",
+        "type": "select",
+        "options": ["people", "adults", "members", "grown-ups"],
+        "answer": "course"
+      },
+      {
+        "text": "If parents want to _____ the best for their children, it’s not the quantity of time they spend with them, it’s the quality that matters.",
+        "type": "select",
+        "options": ["make", "give", "have", "do"],
+        "answer": "do"
+      }
+      
+    ]
+  },
+  "Part2": {
+    "title": "Part 2: Open Cloze",
+    "questions": [
+       {
+        "text": "I’ve always (0) _____ an outdoors kind of girl.",
+        "type": "text",
+        "answer": "been"
+      },
+      {
+        "text": "and (9) _____ a kid, I’d get up to all sorts of stuff with my friends...",
+        "type": "text",
+        "answer": "as"
+      },
+      {
+        "text": "my friends started doing other things (10) _____ shopping and listening to music...",
+        "type": "text",
+        "answer": "like"
+      },
+      {
+        "text": "(11) _____ was my brother who first got me (12) _____ skateboarding.",
+        "type": "text",
+        "answer": "it"
+      },
+      {
+        "text": "who first got me into (12) _____ skateboarding.",
+        "type": "text",
+        "answer": "into"
+      },
+      {
+        "text": "and to (13) _____ honest, I used to think it was uncool.",
+        "type": "text",
+        "answer": "be"
+      },
+      {
+        "text": "even (14) _____ it was dark – in order to compete.",
+        "type": "text",
+        "answer": "though"
+      },
+      {
+        "text": "(15) _____ my brother. It obviously paid (16) _____ because I beat him...",
+        "type": "text",
+        "answer": "against"
+      },
+      {
+        "text": "It obviously paid off because I beat him in a competition.",
+        "type": "text",
+        "answer": "off"
+      }
+      
+    ]
+  },
+  "Part3": {
+    "title": "Part 3: Word Formation",
+    "questions": [
+     {
+        "text": "The London Eye, the giant (0) _____ wheel...",
+        "type": "text",
+        "answer": "OBSERVATION"
+      },
+      {
+        "text": "The wheel is one of the tallest of its kind, at a (17) _____ of 135 metres.",
+        "type": "text",
+        "answer": "HEIGHT"
+      },
+      {
+        "text": "1,700 tons of steel were used for its (18) _____ .",
+        "type": "text",
+        "answer": "CONSTRUCTION"
+      },
+      {
+        "text": "People make special journeys to see the (19) _____ wheel.",
+        "type": "text",
+        "answer": "EXCITING"
+      },
+      {
+        "text": "Their design was the most (20) _____ of all the projects...",
+        "type": "text",
+        "answer": "IMAGINATIVE"
+      },
+      {
+        "text": "The first (21) _____ of the wheel were made on their kitchen table.",
+        "type": "text",
+        "answer": "DRAWINGS"
+      },
+      {
+        "text": "Julia found the (22) _____ site by drawing a circle around London.",
+        "type": "text",
+        "answer": "IDEAL"
+      },
+      {
+        "text": "Not (23) _____, it took about three years to get the wheel built.",
+        "type": "text",
+        "answer": "SURPRISINGLY"
+      },
+      {
+        "text": "In (24) _____ of their work, the couple were awarded the MBE.",
+        "type": "text",
+        "answer": "RECOGNITION"
+      }
+     
+    ]
+  },
+  "Part4": {
+    "title": "Part 4: Key Word Transformation",
+    "questions": [
+      {
+        "original": "Richard asked me how much I had paid for the theatre tickets.",
+        "transformed": "Richard wanted to ___________________________ the theatre tickets.",
+        "keyword": "COST",
+        "type": "text",
+        "answer": "KNOW HOW MUCH THEY COST"
+      },
+      {
+        "original": "It wasn’t a good idea for you to delete that file.",
+        "transformed": "You ___________________________ that file.",
+        "keyword": "SHOULD",
+        "type": "text",
+        "answer": "SHOULDN'T HAVE DELETED"
+      },
+      {
+        "original": "The ferry couldn’t sail because the weather was bad.",
+        "transformed": "The ferry couldn’t sail ___________________________ weather.",
+        "keyword": "DUE",
+        "type": "text",
+        "answer": "DUE TO THE BAD"
+      },
+      {
+        "original": "The teacher told us not to be late on Friday.",
+        "transformed": "‘You ___________________________ late on Friday,’ the teacher said.",
+        "keyword": "BETTER",
+        "type": "text",
+        "answer": "HAD BETTER NOT BE"
+      },
+      {
+        "original": "There are Spanish and French translations of the book.",
+        "transformed": "The book ___________________________ into Spanish and French.",
+        "keyword": "BEEN",
+        "type": "text",
+        "answer": "HAS BEEN TRANSLATED"
+      },
+      {
+        "original": "She will only phone if she gets lost.",
+        "transformed": "She will ___________________________ lost.",
+        "keyword": "UNLESS",
+        "type": "text",
+        "answer": "NOT PHONE UNLESS SHE GETS"
+      }
+    ]
+  }
+}
