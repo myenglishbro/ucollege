@@ -88,6 +88,7 @@ import Quizbank01Enhanced from "./components/Aplicativos/Quizer/Quizbank01.jsx";
 import Quizbank01 from "./components/Aplicativos/Quizer/Quizbank01.jsx";
 import InicioIelts from "./components/Login/LoginIelts/InicioIelts.jsx";
 import UseOfEnglishSimulator from "./components/SimulatorB2/UseOfEnglishSimulator.jsx";
+import KeywordTransformation from "./components/Aplicativos/kwt/KeywordTransformation.jsx";
 
 function App() {
   return (
@@ -154,6 +155,7 @@ function App() {
                   <Route path="/kwt" element={<KeywordTransformerTrainer  />}></Route>
                   <Route path="/tc" element={<TrainingCenter  />}></Route>
                   <Route path="/gt" element={<GappedTextQuizUploader  />}></Route>
+                  <Route path="/keysimulation" element={<KeywordTransformation  />}></Route>
 
                   <Route path="/encripreguntarespuesta" element={<EncryptTextUploader  />}></Route>
                   <Route path="/encrikeyword" element={<CambridgeEncryptor  />}></Route>

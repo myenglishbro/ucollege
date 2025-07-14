@@ -1,0 +1,2229 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "questions": [
+        {
+          "id": 1,
+          "original": "Many people think Steve stole the money.",
+          "transformed": "Steve ___________________________ the money.",
+          "keyword": "BELIEVED",
+          "type": "text",
+          "answer": "IS BELIEVED TO HAVE STOLEN"
+        },
+        {
+          "id": 2,
+          "original": "The strong winds blew down the two ancient trees during the storm.",
+          "transformed": "The two ancient trees __________________ during the storm.",
+          "keyword": "BLOWN",
+          "type": "text",
+          "answer": "WERE BLOWN DOWN"
+        },
+        {
+          "id": 3,
+          "original": "He doesn't have enough money to buy the computer.",
+          "transformed": "The computer __________________ to buy.",
+          "keyword": "TOO",
+          "type": "text",
+          "answer": "IS TOO EXPENSIVE"
+        },
+        {
+          "id": 4,
+          "original": "\"You should start a new hobby, Mr. Jenkins\", the doctor said.",
+          "transformed": "The doctor advised __________________ a new hobby.",
+          "keyword": "TAKE",
+          "type": "text",
+          "answer": "HIM TO TAKE UP"
+        },
+        {
+          "id": 5,
+          "original": "We have been waiting here since half past ten.",
+          "transformed": "We have been waiting __________________ one hour.",
+          "keyword": "FOR",
+          "type": "text",
+          "answer": "FOR ONE HOUR"
+        },
+        {
+          "id": 6,
+          "original": "The man suddenly realised that the neighbor was watching him.",
+          "transformed": "The man suddenly realised that he __________________ by the neighbor.",
+          "keyword": "WATCHED",
+          "type": "text",
+          "answer": "WAS BEING WATCHED BY THE NEIGHBOR"
+        },
+        {
+          "id": 7,
+          "original": "I could never have passed that exam without your help.",
+          "transformed": "I could never have passed that exam __________________ me.",
+          "keyword": "YOU",
+          "type": "text",
+          "answer": "WITHOUT YOU"
+        },
+        {
+          "id": 8,
+          "original": "We paid some people to landscape the garden for us last year.",
+          "transformed": "We __________________ last year.",
+          "keyword": "HAD",
+          "type": "text",
+          "answer": "HAD THE GARDEN LANDSCAPED"
+        }
+      ]
+    },
+    {
+      "level": 2,
+      "questions": [
+        {
+          "id": 9,
+          "original": "\"How about going to the cinema tonight?\", said Anne.",
+          "transformed": "Anne __________________ to the cinema.",
+          "keyword": "SUGGESTED",
+          "type": "text",
+          "answer": "SUGGESTED GOING TO THE CINEMA THAT NIGHT"
+        },
+        {
+          "id": 10,
+          "original": "My advice to you is to talk to your parents.",
+          "transformed": "If __________________ talk to my parents.",
+          "keyword": "WOULD",
+          "type": "text",
+          "answer": "I WERE YOU, I WOULD TALK TO MY PARENTS"
+        },
+        {
+          "id": 11,
+          "original": "Barry wasn't strong enough to lift the box.",
+          "transformed": "Barry __________________ to lift the box.",
+          "keyword": "HAVE",
+          "type": "text",
+          "answer": "DIDN'T HAVE THE STRENGTH"
+        },
+        {
+          "id": 12,
+          "original": "They started the company in 1997.",
+          "transformed": "The company __________________.",
+          "keyword": "SET",
+          "type": "text",
+          "answer": "WAS SET UP IN 1997"
+        },
+        {
+          "id": 13,
+          "original": "I think Jean really likes Simon.",
+          "transformed": "Jean __________________ Simon.",
+          "keyword": "KEEN",
+          "type": "text",
+          "answer": "IS KEEN ON"
+        },
+        {
+          "id": 14,
+          "original": "I was made responsible for foreign sales.",
+          "transformed": "They __________________ foreign sales.",
+          "keyword": "CHARGE",
+          "type": "text",
+          "answer": "PUT ME IN CHARGE OF FOREIGN SALES"
+        },
+        {
+          "id": 15,
+          "original": "The brothers really enjoyed themselves in Spain last summer.",
+          "transformed": "The brothers __________________ in Spain last summer.",
+          "keyword": "TIME",
+          "type": "text",
+          "answer": "HAD A GREAT TIME"
+        },
+        {
+          "id": 16,
+          "original": "The Queen is opening the new school tomorrow afternoon.",
+          "transformed": "The new school __________________.",
+          "keyword": "OPENED",
+          "type": "text",
+          "answer": "WILL BE OPENED BY THE QUEEN TOMORROW AFTERNOON"
+        }
+      ]
+    },
+    {
+  "level": 3,
+  "questions": [
+    {
+      "id": 17,
+      "original": "Marcus started learning French two years ago.",
+      "transformed": "Marcus has __________________ two years.",
+      "keyword": "LEARNING",
+      "type": "text",
+      "answer": "HAS BEEN LEARNING FRENCH FOR"
+    },
+    {
+      "id": 18,
+      "original": "Harry isn't here. He went to lunch twenty minutes ago.",
+      "transformed": "Harry isn't here. He __________________ lunch.",
+      "keyword": "GONE",
+      "type": "text",
+      "answer": "HAS GONE TO LUNCH"
+    },
+    {
+      "id": 19,
+      "original": "Do you own that phone?",
+      "transformed": "Is __________________?",
+      "keyword": "YOURS",
+      "type": "text",
+      "answer": "THAT PHONE YOURS"
+    },
+    {
+      "id": 20,
+      "original": "Look at how black the sky is! There is rain arriving.",
+      "transformed": "It __________________.",
+      "keyword": "GOING",
+      "type": "text",
+      "answer": "IS GOING TO RAIN"
+    },
+    {
+      "id": 21,
+      "original": "What a shame. There is no food left!",
+      "transformed": "I wish __________________ left!",
+      "keyword": "WISH",
+      "type": "text",
+      "answer": "THERE WAS SOME FOOD"
+    },
+    {
+      "id": 22,
+      "original": "What a shame. They ate all the food.",
+      "transformed": "I wish __________________ all the food.",
+      "keyword": "WISH",
+      "type": "text",
+      "answer": "THEY HADN'T EATEN"
+    },
+    {
+      "id": 23,
+      "original": "The teenagers were stealing my car when I arrived.",
+      "transformed": "My car __________________ teenagers when I arrived.",
+      "keyword": "BEING",
+      "type": "text",
+      "answer": "WAS BEING STOLEN BY THE"
+    },
+    {
+      "id": 24,
+      "original": "You use that little hammer to crack the stones.",
+      "transformed": "This little hammer __________________.",
+      "keyword": "FOR",
+      "type": "text",
+      "answer": "IS USED FOR CRACKING STONES"
+    }
+  ]
+},
+
+{
+  "level": 4,
+  "questions": [
+    {
+      "id": 25,
+      "original": "The last time John came to my house was in 2021.",
+      "transformed": "John hasn't __________________ 2021.",
+      "keyword": "SINCE",
+      "type": "text",
+      "answer": "COME TO MY HOUSE SINCE"
+    },
+    {
+      "id": 26,
+      "original": "No dinner for me, thanks. I ate half an hour ago.",
+      "transformed": "Thanks, but I __________________ already.",
+      "keyword": "ALREADY",
+      "type": "text",
+      "answer": "HAVE EATEN"
+    },
+    {
+      "id": 27,
+      "original": "I haven't been swimming for nearly a year.",
+      "transformed": "The __________________ was nearly a year ago.",
+      "keyword": "LAST",
+      "type": "text",
+      "answer": "TIME I WENT SWIMMING"
+    },
+    {
+      "id": 28,
+      "original": "I regret not speaking to Marge sooner.",
+      "transformed": "I wish __________________ sooner.",
+      "keyword": "HAD",
+      "type": "text",
+      "answer": "I HAD SPOKEN TO MARGE"
+    },
+    {
+      "id": 29,
+      "original": "Yesterday, they cut down two old trees in the local park.",
+      "transformed": "Yesterday, two __________________ in the local park.",
+      "keyword": "WERE",
+      "type": "text",
+      "answer": "OLD TREES WERE CUT DOWN"
+    },
+    {
+      "id": 30,
+      "original": "The army were treating the prisoners well.",
+      "transformed": "The prisoners __________________ the army.",
+      "keyword": "WERE",
+      "type": "text",
+      "answer": "WERE BEING TREATED WELL BY"
+    },
+    {
+      "id": 31,
+      "original": "I walked quietly because I didn't want to wake the baby.",
+      "transformed": "I walked quietly __________________ wake the baby.",
+      "keyword": "SO",
+      "type": "text",
+      "answer": "SO AS NOT TO"
+    },
+    {
+      "id": 32,
+      "original": "I think we will arrive at 7pm if the weather remains good.",
+      "transformed": "We __________________ if the weather remains good.",
+      "keyword": "SHOULD",
+      "type": "text",
+      "answer": "SHOULD ARRIVE AT 7PM"
+    }
+  ]
+},
+
+{
+  "level": 5,
+  "questions": [
+    {
+      "id": 33,
+      "original": "This is the first time I have ever drunk rum.",
+      "transformed": "I __________________ rum before.",
+      "keyword": "NEVER",
+      "type": "text",
+      "answer": "HAVE NEVER DRUNK"
+    },
+    {
+      "id": 34,
+      "original": "The bank closed before I arrived.",
+      "transformed": "When I got to the bank, it __________________.",
+      "keyword": "ALREADY",
+      "type": "text",
+      "answer": "HAD ALREADY CLOSED"
+    },
+    {
+      "id": 35,
+      "original": "You press the green button to start the mixer.",
+      "transformed": "If you press the green button, __________________.",
+      "keyword": "STARTS",
+      "type": "text",
+      "answer": "THE MIXER STARTS"
+    },
+    {
+      "id": 36,
+      "original": "Do you know how many letters are delivered by the post office every year?",
+      "transformed": "Do you know how many letters __________________ year?",
+      "keyword": "DELIVERS",
+      "type": "text",
+      "answer": "ARE DELIVERED BY THE POST OFFICE EACH"
+    },
+    {
+      "id": 37,
+      "original": "Stop interrupting me all the time!",
+      "transformed": "I wish __________________ all the time.",
+      "keyword": "WOULD",
+      "type": "text",
+      "answer": "YOU WOULDN'T INTERRUPT ME"
+    },
+    {
+      "id": 38,
+      "original": "We should leave for the disco now.",
+      "transformed": "It's __________________ disco.",
+      "keyword": "LEFT",
+      "type": "text",
+      "answer": "TIME WE LEFT FOR THE"
+    },
+    {
+      "id": 39,
+      "original": "\"Remember to give Alan the card,\" Beryl shouted at me.",
+      "transformed": "Beryl __________________ the card.",
+      "keyword": "REMINDED",
+      "type": "text",
+      "answer": "REMINDED ME TO GIVE ALAN THE CARD"
+    },
+    {
+      "id": 40,
+      "original": "He locked the door to prevent the prisoner escaping.",
+      "transformed": "He locked the door __________________ escape.",
+      "keyword": "SO",
+      "type": "text",
+      "answer": "SO THAT THE PRISONER COULDN'T"
+    }
+  ]
+},
+{
+  "level": 6,
+  "questions": [
+    {
+      "id": 41,
+      "original": "How long have you had your new car?",
+      "transformed": "When __________________ your new car?",
+      "keyword": "GET",
+      "type": "text",
+      "answer": "DID YOU GET"
+    },
+    {
+      "id": 42,
+      "original": "Is this your first time driving a Volvo?",
+      "transformed": "Have __________________ before?",
+      "keyword": "EVER",
+      "type": "text",
+      "answer": "YOU EVER DRIVEN A VOLVO"
+    },
+    {
+      "id": 43,
+      "original": "Leave the shop or I will call the police.",
+      "transformed": "I'll call the police unless __________________.",
+      "keyword": "UNLESS",
+      "type": "text",
+      "answer": "YOU LEAVE THE SHOP"
+    },
+    {
+      "id": 44,
+      "original": "I would like to be able to speak Arabic.",
+      "transformed": "I wish __________________.",
+      "keyword": "COULD",
+      "type": "text",
+      "answer": "I COULD SPEAK ARABIC"
+    },
+    {
+      "id": 45,
+      "original": "The Lord of Brecon built this castle in 1286.",
+      "transformed": "This castle __________________ of Brecon in 1286.",
+      "keyword": "BY",
+      "type": "text",
+      "answer": "WAS BUILT BY THE LORD"
+    },
+    {
+      "id": 46,
+      "original": "Our teachers never let us leave the school.",
+      "transformed": "We were not __________________ by our teachers.",
+      "keyword": "TO",
+      "type": "text",
+      "answer": "ALLOWED TO LEAVE THE SCHOOL"
+    },
+    {
+      "id": 47,
+      "original": "I graduated from college a year ago today!",
+      "transformed": "I graduated from college __________________ year!",
+      "keyword": "TIME",
+      "type": "text",
+      "answer": "AT THIS TIME A YEAR AGO"
+    },
+    {
+      "id": 48,
+      "original": "I couldn't reach the shelf. It was too high.",
+      "transformed": "The shelf __________________.",
+      "keyword": "TO",
+      "type": "text",
+      "answer": "WAS TOO HIGH TO REACH"
+    }
+  ]
+},
+
+{
+  "level": 7,
+  "questions": [
+    {
+      "id": 49,
+      "original": "Jane dyed her hair orange two months ago and it has been that colour ever since.",
+      "transformed": "Jane's hair __________________ two months.",
+      "keyword": "FOR",
+      "type": "text",
+      "answer": "HAS BEEN THAT COLOUR FOR"
+    },
+    {
+      "id": 50,
+      "original": "During the film on TV, the phone rang.",
+      "transformed": "While I __________________ on TV, the phone rang.",
+      "keyword": "WAS",
+      "type": "text",
+      "answer": "WAS WATCHING THE FILM"
+    },
+    {
+      "id": 51,
+      "original": "Do you have any plans for next Wednesday evening?",
+      "transformed": "What __________________ next Wednesday evening?",
+      "keyword": "DOING",
+      "type": "text",
+      "answer": "ARE YOU DOING"
+    },
+    {
+      "id": 52,
+      "original": "Please don't smoke in this room.",
+      "transformed": "I'd __________________ in this room.",
+      "keyword": "RATHER",
+      "type": "text",
+      "answer": "RATHER YOU DIDN'T SMOKE"
+    },
+    {
+      "id": 53,
+      "original": "Everyone thinks that someone murdered Harry.",
+      "transformed": "It __________________ murdered.",
+      "keyword": "WAS",
+      "type": "text",
+      "answer": "WAS THOUGHT TO HAVE BEEN"
+    },
+    {
+      "id": 54,
+      "original": "I visited Paris with the idea of improving my French.",
+      "transformed": "I visited Paris __________________.",
+      "keyword": "TO",
+      "type": "text",
+      "answer": "TO IMPROVE MY FRENCH"
+    },
+    {
+      "id": 55,
+      "original": "I didn't answer the phone, even though I knew it was my husband calling.",
+      "transformed": "I didn't answer the phone __________________ husband.",
+      "keyword": "DESPITE",
+      "type": "text",
+      "answer": "DESPITE KNOWING IT WAS MY HUSBAND CALLING"
+    },
+    {
+      "id": 56,
+      "original": "The weather was beautiful but we never went on the picnic.",
+      "transformed": "We never went on the picnic __________________ weather.",
+      "keyword": "OF",
+      "type": "text",
+      "answer": "BECAUSE OF THE BEAUTIFUL WEATHER"
+    }
+  ]
+},
+{
+  "level": 8,
+  "questions": [
+    {
+      "id": 57,
+      "original": "I am sure it will snow tomorrow.",
+      "transformed": "It __________________ tomorrow.",
+      "keyword": "BOUND",
+      "type": "text",
+      "answer": "IS BOUND TO SNOW"
+    },
+    {
+      "id": 58,
+      "original": "My car keys are possibly in the kitchen.",
+      "transformed": "My car keys __________________ the kitchen.",
+      "keyword": "MIGHT",
+      "type": "text",
+      "answer": "MIGHT BE IN"
+    },
+    {
+      "id": 59,
+      "original": "Can I come over to your house at about 7pm?",
+      "transformed": "Is __________________ come to your house at about 7pm?",
+      "keyword": "IT",
+      "type": "text",
+      "answer": "IT OK IF I"
+    },
+    {
+      "id": 60,
+      "original": "Is it a problem if I open the window a little?",
+      "transformed": "Do __________________ the window a little?",
+      "keyword": "MIND",
+      "type": "text",
+      "answer": "YOU MIND IF I OPEN"
+    },
+    {
+      "id": 61,
+      "original": "This car costs $10,000 and so does that one.",
+      "transformed": "This car __________________ that one.",
+      "keyword": "AS",
+      "type": "text",
+      "answer": "COSTS AS MUCH AS"
+    },
+    {
+      "id": 62,
+      "original": "Kate is a teacher.",
+      "transformed": "Kate __________________ teacher.",
+      "keyword": "AS",
+      "type": "text",
+      "answer": "WORKS AS A"
+    },
+    {
+      "id": 63,
+      "original": "I met your sister by chance at the airport last week.",
+      "transformed": "I __________________ the airport last week.",
+      "keyword": "RAN",
+      "type": "text",
+      "answer": "RAN INTO YOUR SISTER AT"
+    },
+    {
+      "id": 64,
+      "original": "The doctor told me to give up smoking.",
+      "transformed": "The doctor told __________________.",
+      "keyword": "STOP",
+      "type": "text",
+      "answer": "ME TO STOP SMOKING"
+    }
+  ]
+},
+{
+  "level": 9,
+  "questions": [
+    {
+      "id": 65,
+      "original": "If I were you, I would go and speak to your boss.",
+      "transformed": "You __________________ your boss.",
+      "keyword": "SHOULD",
+      "type": "text",
+      "answer": "SHOULD GO AND SPEAK TO"
+    },
+    {
+      "id": 66,
+      "original": "It wasn't obligatory to go to work today. I thought it was!",
+      "transformed": "I __________________ gone to work today.",
+      "keyword": "NEED",
+      "type": "text",
+      "answer": "NEEDN'T HAVE"
+    },
+    {
+      "id": 67,
+      "original": "It was a mistake of you to lose your passport.",
+      "transformed": "You __________________ your passport.",
+      "keyword": "LOST",
+      "type": "text",
+      "answer": "SHOULDN'T HAVE LOST"
+    },
+    {
+      "id": 68,
+      "original": "Why don't we leave after breakfast on Saturday?",
+      "transformed": "How __________________ on Saturday?",
+      "keyword": "LEAVING",
+      "type": "text",
+      "answer": "ABOUT LEAVING AFTER BREAKFAST"
+    },
+    {
+      "id": 69,
+      "original": "This is the most boring film I have ever seen!",
+      "transformed": "I have __________________ film!",
+      "keyword": "MORE",
+      "type": "text",
+      "answer": "NEVER SEEN A MORE BORING"
+    },
+    {
+      "id": 70,
+      "original": "We will have to leave early tomorrow.",
+      "transformed": "We will __________________ tomorrow.",
+      "keyword": "SET",
+      "type": "text",
+      "answer": "NEED TO SET OFF"
+    },
+    {
+      "id": 71,
+      "original": "The robbers escaped with a thousand dollars without being caught.",
+      "transformed": "The robbers __________________ dollars.",
+      "keyword": "GOT",
+      "type": "text",
+      "answer": "GOT AWAY WITH A THOUSAND"
+    },
+    {
+      "id": 72,
+      "original": "I told them not to cross the park at night.",
+      "transformed": "I __________________ the park at night.",
+      "keyword": "WARNED",
+      "type": "text",
+      "answer": "WARNED THEM NOT TO CROSS"
+    }
+  ]
+},
+{
+  "level": 10,
+  "questions": [
+    {
+      "id": 73,
+      "original": "You should have finished that report, not John!",
+      "transformed": "You __________________ that report, not John!",
+      "keyword": "WERE",
+      "type": "text",
+      "answer": "WERE SUPPOSED TO HAVE FINISHED"
+    },
+    {
+      "id": 74,
+      "original": "Is this the right bus for San Diego?",
+      "transformed": "Could __________________ is the right bus for San Diego?",
+      "keyword": "TELL",
+      "type": "text",
+      "answer": "YOU TELL ME WHICH BUS"
+    },
+    {
+      "id": 75,
+      "original": "\"Sorry I'm late,\" Mark whispered as he took his seat in the cinema.",
+      "transformed": "Mark apologised __________________ to the cinema.",
+      "keyword": "BEING",
+      "type": "text",
+      "answer": "FOR BEING LATE AS HE SAT"
+    },
+    {
+      "id": 76,
+      "original": "This train is late. It was supposed to arrive five minutes ago.",
+      "transformed": "This train __________________ five minutes ago.",
+      "keyword": "ARRIVED",
+      "type": "text",
+      "answer": "SHOULD HAVE ARRIVED"
+    },
+    {
+      "id": 77,
+      "original": "If you continue to drink, you will get drunk.",
+      "transformed": "The __________________, the drunker you will get.",
+      "keyword": "THE",
+      "type": "text",
+      "answer": "MORE YOU DRINK"
+    },
+    {
+      "id": 78,
+      "original": "Bring me the phone book if you happen to find it.",
+      "transformed": "If __________________ book, bring it to me.",
+      "keyword": "COME",
+      "type": "text",
+      "answer": "YOU COME ACROSS THE PHONE"
+    },
+    {
+      "id": 79,
+      "original": "I have no memory of my first day at school.",
+      "transformed": "I __________________ to school on my first day.",
+      "keyword": "REMEMBER",
+      "type": "text",
+      "answer": "DON'T REMEMBER GOING"
+    },
+    {
+      "id": 80,
+      "original": "I didn't forget to buy the bread. Here it is!",
+      "transformed": "I __________________. Here it is!",
+      "keyword": "REMEMBERED",
+      "type": "text",
+      "answer": "REMEMBERED TO BUY THE BREAD"
+    }
+  ]
+},
+{
+  "level": 11,
+  "questions": [
+    {
+      "id": 81,
+      "original": "It was silly of you to speak to your boss like that.",
+      "transformed": "You __________________ your boss like that!",
+      "keyword": "SPOKEN",
+      "type": "text",
+      "answer": "SHOULDN'T HAVE SPOKEN TO"
+    },
+    {
+      "id": 82,
+      "original": "What do you advise me to do?",
+      "transformed": "What __________________?",
+      "keyword": "I",
+      "type": "text",
+      "answer": "DO YOU ADVISE ME TO DO"
+    },
+    {
+      "id": 83,
+      "original": "There are always a lot of cars in the downtown area at this time.",
+      "transformed": "There is __________________ in the downtown area at this time.",
+      "keyword": "TRAFFIC",
+      "type": "text",
+      "answer": "A LOT OF TRAFFIC"
+    },
+    {
+      "id": 84,
+      "original": "Is it possible to smoke in this room?",
+      "transformed": "Is __________________ this room?",
+      "keyword": "ALLOWED",
+      "type": "text",
+      "answer": "SMOKING ALLOWED IN"
+    },
+    {
+      "id": 85,
+      "original": "She was taken in an ambulance five minutes ago.",
+      "transformed": "They __________________ five minutes ago.",
+      "keyword": "HOSPITAL",
+      "type": "text",
+      "answer": "TOOK HER TO HOSPITAL"
+    },
+    {
+      "id": 86,
+      "original": "Chicago is a big city, but Los Angeles is bigger.",
+      "transformed": "Chicago __________________ Los Angeles.",
+      "keyword": "NOT",
+      "type": "text",
+      "answer": "IS NOT AS BIG AS"
+    },
+    {
+      "id": 87,
+      "original": "That story he told sounded very invented.",
+      "transformed": "I'm sure that story __________________.",
+      "keyword": "MADE",
+      "type": "text",
+      "answer": "WAS MADE UP"
+    },
+    {
+      "id": 88,
+      "original": "Who owns this pen?",
+      "transformed": "Who __________________ to?",
+      "keyword": "BELONG",
+      "type": "text",
+      "answer": "DOES THIS PEN BELONG"
+    }
+  ]
+},
+{
+  "level": 12,
+  "questions": [
+    {
+      "id": 89,
+      "original": "It is possible that Mike isn't at home now.",
+      "transformed": "Mike __________________ home now.",
+      "keyword": "BE",
+      "type": "text",
+      "answer": "MIGHT NOT BE AT"
+    },
+    {
+      "id": 90,
+      "original": "Don't put the blame on me. I wasn't even there at the time.",
+      "transformed": "It was __________________.",
+      "keyword": "MY",
+      "type": "text",
+      "answer": "NOT MY FAULT"
+    },
+    {
+      "id": 91,
+      "original": "In my opinion, if a dog is small, it is more likely to bark.",
+      "transformed": "In my opinion, __________________ more likely it is to bark.",
+      "keyword": "THE",
+      "type": "text",
+      "answer": "THE SMALLER A DOG IS, THE"
+    },
+    {
+      "id": 92,
+      "original": "I play tennis every Wednesday.",
+      "transformed": "I play tennis __________________.",
+      "keyword": "A",
+      "type": "text",
+      "answer": "ON A WEDNESDAY"
+    },
+    {
+      "id": 93,
+      "original": "He is intelligent and so is she.",
+      "transformed": "__________________ are intelligent.",
+      "keyword": "BOTH",
+      "type": "text",
+      "answer": "BOTH HE AND SHE"
+    },
+    {
+      "id": 94,
+      "original": "All of the people in the room are French.",
+      "transformed": "In this room, __________________.",
+      "keyword": "IS",
+      "type": "text",
+      "answer": "EVERYONE IS FRENCH"
+    },
+    {
+      "id": 95,
+      "original": "Not everyone in this room is stupid.",
+      "transformed": "__________________ this room are intelligent.",
+      "keyword": "SOME",
+      "type": "text",
+      "answer": "SOME PEOPLE IN"
+    },
+    {
+      "id": 96,
+      "original": "He already has a conviction for shoplifting.",
+      "transformed": "He has __________________ shoplifting.",
+      "keyword": "OF",
+      "type": "text",
+      "answer": "A CONVICTION OF"
+    }
+  ]
+},
+{
+  "level": 13,
+  "questions": [
+    {
+      "id": 97,
+      "original": "If you believe all the stories about my brother's former boss, it is clear he wasn't very nice.",
+      "transformed": "My brother's former boss __________________ nice if you believe all the stories about him.",
+      "keyword": "BEEN",
+      "type": "text",
+      "answer": "WOULDN'T HAVE BEEN VERY"
+    },
+    {
+      "id": 98,
+      "original": "How about going to the cinema this evening?",
+      "transformed": "I __________________ the cinema.",
+      "keyword": "GOING",
+      "type": "text",
+      "answer": "SUGGEST GOING TO"
+    },
+    {
+      "id": 99,
+      "original": "I wasn't strong enough to push it all the way.",
+      "transformed": "I __________________ to push it all the way.",
+      "keyword": "STRENGTH",
+      "type": "text",
+      "answer": "HAD NO STRENGTH"
+    },
+    {
+      "id": 100,
+      "original": "There isn't any money at all in the bank account.",
+      "transformed": "There __________________ in the bank account.",
+      "keyword": "NO",
+      "type": "text",
+      "answer": "IS NO MONEY"
+    },
+    {
+      "id": 101,
+      "original": "Sharon is not as good at tennis as you.",
+      "transformed": "You __________________ Sharon.",
+      "keyword": "THAN",
+      "type": "text",
+      "answer": "ARE BETTER THAN"
+    },
+    {
+      "id": 102,
+      "original": "How do I complete this form?",
+      "transformed": "How __________________ form?",
+      "keyword": "FILL",
+      "type": "text",
+      "answer": "DO I FILL IN THIS"
+    },
+    {
+      "id": 103,
+      "original": "You should consider the position of sales manager very carefully.",
+      "transformed": "You should __________________ of sales manager very carefully.",
+      "keyword": "OVER",
+      "type": "text",
+      "answer": "THINK OVER THE POSITION"
+    },
+    {
+      "id": 104,
+      "original": "We managed to free ourselves and escaped.",
+      "transformed": "We __________________ and escaped.",
+      "keyword": "IN",
+      "type": "text",
+      "answer": "BROKE IN"
+    }
+  ]
+},
+{
+  "level": 14,
+  "questions": [
+    {
+      "id": 105,
+      "original": "\"Sorry that I drew that picture of you,\" he said to Tim.",
+      "transformed": "He __________________ the picture.",
+      "keyword": "APOLOGISED",
+      "type": "text",
+      "answer": "APOLOGISED FOR DRAWING"
+    },
+    {
+      "id": 106,
+      "original": "A nice walk in the park might help us both to relax, don't you think?",
+      "transformed": "Mike __________________ a walk in the park.",
+      "keyword": "SUGGESTED",
+      "type": "text",
+      "answer": "SUGGESTED GOING FOR"
+    },
+    {
+      "id": 107,
+      "original": "I really don't want to go out tonight.",
+      "transformed": "I __________________ out tonight.",
+      "keyword": "FEEL",
+      "type": "text",
+      "answer": "DON'T FEEL LIKE GOING"
+    },
+    {
+      "id": 108,
+      "original": "Astronomy fascinates Kate and she spends hours reading about it.",
+      "transformed": "Kate __________________ spends hours reading about it.",
+      "keyword": "IS",
+      "type": "text",
+      "answer": "IS SO FASCINATED BY ASTRONOMY SHE"
+    },
+    {
+      "id": 109,
+      "original": "If you stop smoking, you will feel much better for it.",
+      "transformed": "You'll feel much better if __________________.",
+      "keyword": "GIVE",
+      "type": "text",
+      "answer": "YOU GIVE UP SMOKING"
+    },
+    {
+      "id": 110,
+      "original": "I told you I would lend you the money and I will.",
+      "transformed": "I __________________ you the money and I will.",
+      "keyword": "PROMISED",
+      "type": "text",
+      "answer": "PROMISED TO LEND"
+    },
+    {
+      "id": 111,
+      "original": "I wish I had rung him earlier.",
+      "transformed": "I __________________ ring him earlier.",
+      "keyword": "SORRY",
+      "type": "text",
+      "answer": "AM SORRY I DIDN'T"
+    },
+    {
+      "id": 112,
+      "original": "The Wilsons are leaving shortly so go and tell them what we agreed.",
+      "transformed": "The Wilsons __________________ so go and tell them what we agreed.",
+      "keyword": "ABOUT",
+      "type": "text",
+      "answer": "ARE ABOUT TO LEAVE"
+    }
+  ]
+},
+{
+  "level": 15,
+  "questions": [
+    {
+      "id": 113,
+      "original": "\"Don't tell anyone about my wig, will you?\"",
+      "transformed": "Promise __________________ tell anyone about my wig!",
+      "keyword": "PROMISE",
+      "type": "text",
+      "answer": "NOT TO"
+    },
+    {
+      "id": 114,
+      "original": "I won't work late again. That would be the third time this week. I won't do it!",
+      "transformed": "Mr. Hamley __________________ as he has already done so twice this month.",
+      "keyword": "REFUSED",
+      "type": "text",
+      "answer": "REFUSED TO WORK LATE AGAIN"
+    },
+    {
+      "id": 115,
+      "original": "We couldn't afford The Regal Hotel so we stayed somewhere cheaper.",
+      "transformed": "The Regal Hotel __________________ so we stayed somewhere cheaper.",
+      "keyword": "COST",
+      "type": "text",
+      "answer": "COST TOO MUCH"
+    },
+    {
+      "id": 116,
+      "original": "\"Do you both work together?\", she asked the twins.",
+      "transformed": "She __________________ together.",
+      "keyword": "IF",
+      "type": "text",
+      "answer": "ASKED THE TWINS IF THEY WORKED"
+    },
+    {
+      "id": 117,
+      "original": "Is it OK if I open the window a little Miss Jackson?",
+      "transformed": "Miss Jackson, __________________ the window?",
+      "keyword": "MAY",
+      "type": "text",
+      "answer": "MAY I OPEN"
+    },
+    {
+      "id": 118,
+      "original": "Despite looking everywhere, he never found his wallet.",
+      "transformed": "He didn't find __________________ everywhere.",
+      "keyword": "ALTHOUGH",
+      "type": "text",
+      "answer": "HIS WALLET ALTHOUGH HE LOOKED"
+    },
+    {
+      "id": 119,
+      "original": "Imagine your father returning home now! What would he say?",
+      "transformed": "Just __________________ home now! What would he say?",
+      "keyword": "SUPPOSING",
+      "type": "text",
+      "answer": "SUPPOSING YOUR FATHER WERE RETURNING"
+    },
+    {
+      "id": 120,
+      "original": "I imagine you had a great time in Tunisia.",
+      "transformed": "You __________________ had a great time in Tunisia.",
+      "keyword": "MUST",
+      "type": "text",
+      "answer": "MUST HAVE"
+    }
+  ]
+},
+{
+  "level": 16,
+  "questions": [
+    {
+      "id": 121,
+      "original": "“It would be better to wait a year before going to university.”",
+      "transformed": "Peter __________________ to university for another year.",
+      "keyword": "ADVISED",
+      "type": "text",
+      "answer": "ADVISED HIM TO WAIT ANOTHER YEAR BEFORE GOING"
+    },
+    {
+      "id": 122,
+      "original": "“You will see better results if you study harder, Pete.”",
+      "transformed": "Pete’s mother __________________ saying he would see better results.",
+      "keyword": "ENCOURAGED",
+      "type": "text",
+      "answer": "ENCOURAGED HIM TO STUDY HARDER"
+    },
+    {
+      "id": 123,
+      "original": "I really don’t like sitting down all day.",
+      "transformed": "I __________________ chairs all day.",
+      "keyword": "STAND",
+      "type": "text",
+      "answer": "CAN’T STAND SITTING ON"
+    },
+    {
+      "id": 124,
+      "original": "“Do you like the work you do here, John?”",
+      "transformed": "Are you __________________ you do here, John?",
+      "keyword": "ON",
+      "type": "text",
+      "answer": "KEEN ON THE WORK"
+    },
+    {
+      "id": 125,
+      "original": "They had argued but were friends again by the time of the party.",
+      "transformed": "They __________________ and were friends again by the time of the party.",
+      "keyword": "MADE",
+      "type": "text",
+      "answer": "MADE UP"
+    },
+    {
+      "id": 126,
+      "original": "Mrs Patterson would sit on that old rocking chair for hours telling us stories from her childhood.",
+      "transformed": "Mrs Patterson __________________ old rocking chair for hours telling us stories from her childhood.",
+      "keyword": "USED",
+      "type": "text",
+      "answer": "USED TO SIT IN THAT"
+    },
+    {
+      "id": 127,
+      "original": "I regret not studying more in the final weeks.",
+      "transformed": "If __________________ more in the final weeks.",
+      "keyword": "ONLY",
+      "type": "text",
+      "answer": "ONLY I HAD STUDIED"
+    },
+    {
+      "id": 128,
+      "original": "It really annoys me how people use cell phones on the bus.",
+      "transformed": "I __________________ cell phones on the bus.",
+      "keyword": "WISH",
+      "type": "text",
+      "answer": "WISH PEOPLE WOULDN’T USE"
+    }
+  ]
+},
+{
+  "level": 17,
+  "questions": [
+    {
+      "id": 129,
+      "original": "\"You'd better not speak to me like that again!\" he said to me.",
+      "transformed": "I __________________ to him like that again.",
+      "keyword": "WARNED",
+      "type": "text",
+      "answer": "WAS WARNED NOT TO SPEAK"
+    },
+    {
+      "id": 130,
+      "original": "Don't ask Hannah here to have lunch on Friday. If you do, I won't stay to meet her.",
+      "transformed": "If I __________________ on Friday, I won't stay to meet her.",
+      "keyword": "INVITE",
+      "type": "text",
+      "answer": "AM INVITED HERE TO HAVE LUNCH"
+    },
+    {
+      "id": 131,
+      "original": "Do you think it would be a good idea to get my hair cut?",
+      "transformed": "Would you __________________ hair cut?",
+      "keyword": "SUGGEST",
+      "type": "text",
+      "answer": "SUGGEST I GET MY"
+    },
+    {
+      "id": 132,
+      "original": "I told him he should go and speak to his mother.",
+      "transformed": "He ought __________________ to speak to his mother.",
+      "keyword": "OUGHT",
+      "type": "text",
+      "answer": "TO HAVE GONE AND SPOKEN"
+    },
+    {
+      "id": 133,
+      "original": "If you don't call me, I won't know where you are!",
+      "transformed": "I won't know __________________ you call me!",
+      "keyword": "UNLESS",
+      "type": "text",
+      "answer": "WHERE YOU ARE UNLESS"
+    },
+    {
+      "id": 134,
+      "original": "We should leave now if we don't want to miss the start of the performance.",
+      "transformed": "It's __________________ or we'll miss the start of the performance.",
+      "keyword": "TIME",
+      "type": "text",
+      "answer": "TIME WE LEFT"
+    },
+    {
+      "id": 135,
+      "original": "Let's go to \"The Blue Whale\" where it's less crowded.",
+      "transformed": "\"The Blue Whale\" is __________________ here, so let's go there.",
+      "keyword": "AS",
+      "type": "text",
+      "answer": "LESS CROWDED THAN"
+    },
+    {
+      "id": 136,
+      "original": "I would prefer to stay at home tonight.",
+      "transformed": "I __________________ tonight.",
+      "keyword": "RATHER",
+      "type": "text",
+      "answer": "WOULD RATHER STAY AT HOME"
+    }
+  ]
+},
+{
+  "level": 18,
+  "questions": [
+    {
+      "id": 137,
+      "original": "They blamed the theft of the missing computer on Jenkins.",
+      "transformed": "Jenkins __________________ the missing computer.",
+      "keyword": "ACCUSED",
+      "type": "text",
+      "answer": "WAS ACCUSED OF STEALING"
+    },
+    {
+      "id": 138,
+      "original": "OK, I can see you tomorrow evening at six.",
+      "transformed": "My boss __________________ at six the following evening.",
+      "keyword": "AGREED",
+      "type": "text",
+      "answer": "AGREED TO SEE ME"
+    },
+    {
+      "id": 139,
+      "original": "Don't say you're ill if you're not!",
+      "transformed": "Don't __________________ you're not!",
+      "keyword": "PRETEND",
+      "type": "text",
+      "answer": "PRETEND TO BE"
+    },
+    {
+      "id": 140,
+      "original": "I haven't eaten ice cream for six months.",
+      "transformed": "I __________________ six months ago.",
+      "keyword": "UP",
+      "type": "text",
+      "answer": "GAVE UP EATING ICE CREAM"
+    },
+    {
+      "id": 141,
+      "original": "Are we allowed to drink coffee in this part of the building?",
+      "transformed": "Can __________________ in this part of the building?",
+      "keyword": "CAN",
+      "type": "text",
+      "answer": "WE DRINK COFFEE"
+    },
+    {
+      "id": 142,
+      "original": "Should you be in here Mark?",
+      "transformed": "Are __________________ Mark?",
+      "keyword": "SUPPOSED",
+      "type": "text",
+      "answer": "YOU SUPPOSED TO BE IN HERE"
+    },
+    {
+      "id": 143,
+      "original": "Why don't you help me more around the house?",
+      "transformed": "I __________________ more around the house.",
+      "keyword": "WISH",
+      "type": "text",
+      "answer": "WISH YOU WOULD HELP ME"
+    },
+    {
+      "id": 144,
+      "original": "The hill was slippery because of the rain so we had difficulty climbing.",
+      "transformed": "The rain __________________ so we had difficulty climbing.",
+      "keyword": "MADE",
+      "type": "text",
+      "answer": "MADE THE HILL SLIPPERY"
+    }
+  ]
+},
+{
+  "level": 19,
+  "questions": [
+    {
+      "id": 145,
+      "original": "It wasn't me who took the book. I didn't touch it!",
+      "transformed": "I __________________ the book.",
+      "keyword": "DENIED",
+      "type": "text",
+      "answer": "DENIED TAKING"
+    },
+    {
+      "id": 146,
+      "original": "I can take you to the airport if your flight is early.",
+      "transformed": "I __________________ Jenny to the airport for the following morning.",
+      "keyword": "OFFERED",
+      "type": "text",
+      "answer": "OFFERED TO DRIVE"
+    },
+    {
+      "id": 147,
+      "original": "\"Why not try for Harvard University, Karen?\"",
+      "transformed": "He __________________ apply to Harvard University.",
+      "keyword": "ENCOURAGED",
+      "type": "text",
+      "answer": "ENCOURAGED HER TO"
+    },
+    {
+      "id": 148,
+      "original": "Could I stay with you in Chicago for a few day, John?",
+      "transformed": "Could __________________ Chicago for a few days?",
+      "keyword": "PUT",
+      "type": "text",
+      "answer": "YOU PUT ME UP IN"
+    },
+    {
+      "id": 149,
+      "original": "I don't know how you tolerate such a miserable person.",
+      "transformed": "How do you __________________ is so miserable?",
+      "keyword": "PUT",
+      "type": "text",
+      "answer": "PUT UP WITH SOMEONE WHO"
+    },
+    {
+      "id": 150,
+      "original": "I would like to be thinner.",
+      "transformed": "I __________________ fat.",
+      "keyword": "WISH",
+      "type": "text",
+      "answer": "WISH I WERE LESS"
+    },
+    {
+      "id": 151,
+      "original": "\"Well done! You got the job,\" her mother said.",
+      "transformed": "Her mother __________________ job.",
+      "keyword": "ON",
+      "type": "text",
+      "answer": "CONGRATULATED HER ON GETTING THE"
+    },
+    {
+      "id": 152,
+      "original": "\"It was Peter who stole the fruit,\" Jenny shouted.",
+      "transformed": "Jenny __________________ stealing the fruit.",
+      "keyword": "FOR",
+      "type": "text",
+      "answer": "ACCUSED PETER OF"
+    }
+  ]
+},
+{
+  "level": 20,
+  "questions": [
+    {
+      "id": 153,
+      "original": "Though I haven't seen him for a month, we have spoken by phone.",
+      "transformed": "Carol __________________ on the phone.",
+      "keyword": "ADMITTED",
+      "type": "text",
+      "answer": "ADMITTED SHE HAD SPOKEN TO HIM"
+    },
+    {
+      "id": 154,
+      "original": "Visit my doctor, Dr. Hamish, if your arm is still hurting.",
+      "transformed": "My brother __________________ his doctor if my arm continued hurting.",
+      "keyword": "RECOMMENDED",
+      "type": "text",
+      "answer": "RECOMMENDED I SEE"
+    },
+    {
+      "id": 155,
+      "original": "I won't come. I have told you I am busy.",
+      "transformed": "I __________________ as I am busy.",
+      "keyword": "REFUSE",
+      "type": "text",
+      "answer": "REFUSE TO COME"
+    },
+    {
+      "id": 156,
+      "original": "It isn't possible that Jane was absent from work today.",
+      "transformed": "Jane __________________ work today.",
+      "keyword": "MUST",
+      "type": "text",
+      "answer": "MUST HAVE BEEN AT"
+    },
+    {
+      "id": 157,
+      "original": "I drive both a sports car and an off-road vehicle.",
+      "transformed": "In __________________, I also drive an off-road vehicle.",
+      "keyword": "ADDITION",
+      "type": "text",
+      "answer": "ADDITION TO MY SPORTS CAR"
+    },
+    {
+      "id": 158,
+      "original": "Barry continued to smoke even though his doctor told him to quit.",
+      "transformed": "__________________ not to, Barry continued to smoke.",
+      "keyword": "DESPITE",
+      "type": "text",
+      "answer": "DESPITE BEING TOLD"
+    },
+    {
+      "id": 159,
+      "original": "Only a few books were left at the yard sale when we left.",
+      "transformed": "__________________ been sold when we left the yard sale.",
+      "keyword": "MOST",
+      "type": "text",
+      "answer": "MOST OF THEM HAD"
+    },
+    {
+      "id": 160,
+      "original": "Was it really necessary to buy such an expensive bottle of wine?",
+      "transformed": "Was there __________________ an expensive bottle of wine?",
+      "keyword": "NEED",
+      "type": "text",
+      "answer": "ANY NEED TO BUY"
+    }
+  ]
+},
+{
+  "level": 21,
+  "questions": [
+    {
+      "id": 161,
+      "original": "How much do these leather shoes cost?",
+      "transformed": "What __________________ these leather shoes?",
+      "keyword": "PRICE",
+      "type": "text",
+      "answer": "IS THE PRICE OF"
+    },
+    {
+      "id": 162,
+      "original": "It's not important if you come to work today or not.",
+      "transformed": "It __________________ you come to work today or not.",
+      "keyword": "MATTER",
+      "type": "text",
+      "answer": "DOESN'T MATTER WHETHER"
+    },
+    {
+      "id": 163,
+      "original": "Parking is prohibited in all areas of the business park.",
+      "transformed": "You __________________ the business park.",
+      "keyword": "ANYWHERE",
+      "type": "text",
+      "answer": "MUST NOT PARK ANYWHERE IN"
+    },
+    {
+      "id": 164,
+      "original": "Mark's biggest problem is that he often ignores what I say in class.",
+      "transformed": "His biggest problem is that he __________________ to what I say in class.",
+      "keyword": "PAY",
+      "type": "text",
+      "answer": "DOESN'T PAY ATTENTION"
+    },
+    {
+      "id": 165,
+      "original": "Your sister said she had told you everything.",
+      "transformed": "Your sister __________________ everything.",
+      "keyword": "ADMITTED",
+      "type": "text",
+      "answer": "ADMITTED HAVING TOLD YOU"
+    },
+    {
+      "id": 166,
+      "original": "If we light the fire, the rescuers will see us.",
+      "transformed": "We __________________ rescuers if we light the fire.",
+      "keyword": "BE",
+      "type": "text",
+      "answer": "WILL BE SEEN BY"
+    },
+    {
+      "id": 167,
+      "original": "For us to win this match now would be impossible.",
+      "transformed": "There is __________________ this match now.",
+      "keyword": "HOPE",
+      "type": "text",
+      "answer": "NO HOPE OF WINNING"
+    },
+    {
+      "id": 168,
+      "original": "Don't tell anyone this information",
+      "transformed": "Keep __________________.",
+      "keyword": "KEEP",
+      "type": "text",
+      "answer": "THIS INFORMATION TO YOURSELF"
+    }
+  ]
+},
+{
+  "level": 22,
+  "questions": [
+    {
+      "id": 169,
+      "original": "Fred asked the cost of one night in the hotel.",
+      "transformed": "\"How __________________ per night, please?\"",
+      "keyword": "DOES",
+      "type": "text",
+      "answer": "MUCH DOES IT COST"
+    },
+    {
+      "id": 170,
+      "original": "The last time I went to the museum was a week ago.",
+      "transformed": "I __________________ museum for a week.",
+      "keyword": "BEEN",
+      "type": "text",
+      "answer": "HAVEN'T BEEN TO THE"
+    },
+    {
+      "id": 171,
+      "original": "It is certainly a good example of Van Gogh's work.",
+      "transformed": "There's __________________ a good example of Van Gogh's work.",
+      "keyword": "NO",
+      "type": "text",
+      "answer": "NO BETTER EXAMPLE OF"
+    },
+    {
+      "id": 172,
+      "original": "Pay attention to me!",
+      "transformed": "__________________ saying!",
+      "keyword": "LISTEN",
+      "type": "text",
+      "answer": "LISTEN TO WHAT I'M"
+    },
+    {
+      "id": 173,
+      "original": "I regret leaving my job now.",
+      "transformed": "I __________________ my job.",
+      "keyword": "WISH",
+      "type": "text",
+      "answer": "WISH I HADN'T LEFT"
+    },
+    {
+      "id": 174,
+      "original": "\"I went to the cinema before going to the cafe,\" he said.",
+      "transformed": "He said he __________________ before the cafe.",
+      "keyword": "HAD",
+      "type": "text",
+      "answer": "HAD GONE TO THE CINEMA"
+    },
+    {
+      "id": 175,
+      "original": "I've never seen so many people in this bar before.",
+      "transformed": "This is __________________ ever seen so many people in this bar.",
+      "keyword": "FIRST",
+      "type": "text",
+      "answer": "THE FIRST TIME I'VE"
+    },
+    {
+      "id": 176,
+      "original": "You should tell her what you think and let her decide.",
+      "transformed": "You __________________ what you think and let her decide.",
+      "keyword": "BETTER",
+      "type": "text",
+      "answer": "WOULD BE BETTER TO TELL"
+    }
+  ]
+},
+{
+  "level": 23,
+  "questions": [
+    {
+      "id": 177,
+      "original": "Don't continue to speak if I've asked you a question.",
+      "transformed": "Don't __________________ have asked you a question.",
+      "keyword": "ON",
+      "type": "text",
+      "answer": "GO ON SPEAKING"
+    },
+    {
+      "id": 178,
+      "original": "We arrive at the castle one hour after we leave the hotel.",
+      "transformed": "It __________________ to the castle.",
+      "keyword": "GET",
+      "type": "text",
+      "answer": "GETS US TO THE CASTLE ONE HOUR AFTER WE LEAVE THE HOTEL"
+    },
+    {
+      "id": 179,
+      "original": "Can you take care of Mary on Saturday evening for us?",
+      "transformed": "Can __________________ Saturday evening for us?",
+      "keyword": "LOOK",
+      "type": "text",
+      "answer": "LOOK AFTER MARY"
+    },
+    {
+      "id": 180,
+      "original": "Is that wallet yours, John?",
+      "transformed": "Does __________________, John?",
+      "keyword": "BELONG",
+      "type": "text",
+      "answer": "THAT WALLET BELONG TO YOU"
+    },
+    {
+      "id": 181,
+      "original": "You have only just started work on this project.",
+      "transformed": "You __________________ this project.",
+      "keyword": "HARDLY",
+      "type": "text",
+      "answer": "HAVE HARDLY STARTED WORK ON"
+    },
+    {
+      "id": 182,
+      "original": "In this office, I am responsible for the sales department.",
+      "transformed": "I am __________________ department.",
+      "keyword": "CHARGE",
+      "type": "text",
+      "answer": "IN CHARGE OF THE SALES DEPARTMENT"
+    },
+    {
+      "id": 183,
+      "original": "When I see Lucy, I always think of my youngest sister.",
+      "transformed": "Lucy __________________ younger sister.",
+      "keyword": "ME",
+      "type": "text",
+      "answer": "MAKES ME THINK OF MY"
+    },
+    {
+      "id": 184,
+      "original": "This is the cheapest typewriter you can buy.",
+      "transformed": "There __________________ on the market.",
+      "keyword": "CHEAPER",
+      "type": "text",
+      "answer": "IS NO CHEAPER TYPEWRITER"
+    }
+  ]
+},
+{
+  "level": 24,
+  "questions": [
+    {
+      "id": 185,
+      "original": "Heavy rain has caused the cancellation of the outdoor garden party.",
+      "transformed": "__________________, the garden party has been cancelled.",
+      "keyword": "DUE",
+      "type": "text",
+      "answer": "DUE TO HEAVY RAIN"
+    },
+    {
+      "id": 186,
+      "original": "There isn't enough space for me to park my car there.",
+      "transformed": "My car __________________ in that space.",
+      "keyword": "FIT",
+      "type": "text",
+      "answer": "WOULDN'T FIT"
+    },
+    {
+      "id": 187,
+      "original": "Phone me immediately after you arrive at the conference.",
+      "transformed": "__________________ at the conference, telephone me.",
+      "keyword": "SOON",
+      "type": "text",
+      "answer": "AS SOON AS YOU ARRIVE"
+    },
+    {
+      "id": 188,
+      "original": "Who does this pen belong to?",
+      "transformed": "Do you know __________________?",
+      "keyword": "WHOSE",
+      "type": "text",
+      "answer": "WHOSE THIS PEN IS"
+    },
+    {
+      "id": 189,
+      "original": "The amount of money spent on the project makes it very important.",
+      "transformed": "This project __________________ owing to the money spent on it.",
+      "keyword": "OF",
+      "type": "text",
+      "answer": "IS OF GREAT IMPORTANCE"
+    },
+    {
+      "id": 190,
+      "original": "At first, I couldn't speak Russian. Now I find it easy.",
+      "transformed": "Eventually, I __________________ Russian.",
+      "keyword": "GOT",
+      "type": "text",
+      "answer": "GOT USED TO SPEAKING"
+    },
+    {
+      "id": 191,
+      "original": "Is your house big enough to take us if we come and stay for a few days?",
+      "transformed": "Is there __________________ if we come and stay for a few days?",
+      "keyword": "ROOM",
+      "type": "text",
+      "answer": "ROOM FOR US TO STAY"
+    },
+    {
+      "id": 192,
+      "original": "Although it was raining, we had the barbecue.",
+      "transformed": "In __________________, we had the barbecue.",
+      "keyword": "SPITE",
+      "type": "text",
+      "answer": "SPITE OF THE RAIN"
+    }
+  ]
+},
+{
+  "level": 25,
+  "questions": [
+    {
+      "id": 193,
+      "original": "Do you regret leaving your job now?",
+      "transformed": "Do you wish __________________ job now?",
+      "keyword": "YOU",
+      "type": "text",
+      "answer": "YOU HADN'T LEFT YOUR"
+    },
+    {
+      "id": 194,
+      "original": "Could you try a little harder to listen to what I'm saying?",
+      "transformed": "Can you __________________ listen to what I'm saying?",
+      "keyword": "EFFORT",
+      "type": "text",
+      "answer": "MAKE A BIT MORE EFFORT TO"
+    },
+    {
+      "id": 195,
+      "original": "It doesn't matter which chemical you put into the mixture first. The results will be the same.",
+      "transformed": "It __________________ you put into the mixture first.",
+      "keyword": "DIFFERENCE",
+      "type": "text",
+      "answer": "MAKES NO DIFFERENCE WHICH CHEMICAL"
+    },
+    {
+      "id": 196,
+      "original": "My mother said I could go with you only if I return home by 5pm.",
+      "transformed": "I can go with you __________________ home by 5pm.",
+      "keyword": "LONG",
+      "type": "text",
+      "answer": "AS LONG AS I RETURN"
+    },
+    {
+      "id": 197,
+      "original": "Unfortunately, I couldn't see you because I didn't have time.",
+      "transformed": "If I had had more time, I __________________ see you.",
+      "keyword": "ABLE",
+      "type": "text",
+      "answer": "WOULD HAVE BEEN ABLE TO"
+    },
+    {
+      "id": 198,
+      "original": "These windows need cleaning again.",
+      "transformed": "These windows will __________________.",
+      "keyword": "HAVE",
+      "type": "text",
+      "answer": "HAVE TO BE CLEANED"
+    },
+    {
+      "id": 199,
+      "original": "It wasn't a good idea resigning from your job before you have another one.",
+      "transformed": "It would __________________ hadn't resigned from your job.",
+      "keyword": "BETTER",
+      "type": "text",
+      "answer": "HAVE BEEN BETTER IF YOU"
+    },
+    {
+      "id": 200,
+      "original": "Hardly any of the cars on special offer were left when we arrived.",
+      "transformed": "By the time we arrived, __________________ had been bought.",
+      "keyword": "NEARLY",
+      "type": "text",
+      "answer": "NEARLY ALL THE CARS"
+    }
+  ]
+},
+{
+  "level": 26,
+  "questions": [
+    {
+      "id": 201,
+      "original": "The Queen is launching this ship tomorrow morning.",
+      "transformed": "This ship __________________ the Queen tomorrow morning.",
+      "keyword": "BEING",
+      "type": "text",
+      "answer": "IS BEING LAUNCHED BY"
+    },
+    {
+      "id": 202,
+      "original": "Could you try and spend a little less on Christmas presents this year?",
+      "transformed": "I would rather __________________ money on Christmas presents this year.",
+      "keyword": "RATHER",
+      "type": "text",
+      "answer": "NOT SPEND SO MUCH"
+    },
+    {
+      "id": 203,
+      "original": "If you find a dress cheaper in another store, can you tell me?",
+      "transformed": "Let me know __________________ elsewhere.",
+      "keyword": "LET",
+      "type": "text",
+      "answer": "IF YOU FIND THE DRESS CHEAPER"
+    },
+    {
+      "id": 204,
+      "original": "Can you distribute these tests to the other students, Kathy?",
+      "transformed": "Can you hand __________________ to the other students, Kathy?",
+      "keyword": "HAND",
+      "type": "text",
+      "answer": "THESE TESTS OUT"
+    },
+    {
+      "id": 205,
+      "original": "The report says a child was operating the machine.",
+      "transformed": "According to the report, the machine __________________ by a child.",
+      "keyword": "BEING",
+      "type": "text",
+      "answer": "WAS BEING OPERATED"
+    },
+    {
+      "id": 206,
+      "original": "I didn't see anyone wearing yellow at the dinner.",
+      "transformed": "There __________________ wearing yellow at the dinner.",
+      "keyword": "NOBODY",
+      "type": "text",
+      "answer": "WAS NOBODY"
+    },
+    {
+      "id": 207,
+      "original": "I can't wait to see Margaret's face when we arrive.",
+      "transformed": "I'm __________________ Margaret's face when we arrive.",
+      "keyword": "FORWARD",
+      "type": "text",
+      "answer": "LOOKING FORWARD TO SEEING"
+    },
+    {
+      "id": 208,
+      "original": "Once you give me a full description of the hotel, I can decide whether or not to go there.",
+      "transformed": "I can decide to go to the hotel after __________________.",
+      "keyword": "DESCRIBE",
+      "type": "text",
+      "answer": "YOU DESCRIBE IT TO ME"
+    }
+  ]
+},
+{
+  "level": 27,
+  "questions": [
+    {
+      "id": 209,
+      "original": "In my opinion, it was an error to give him so much money so young.",
+      "transformed": "He __________________ so much money at such a young age.",
+      "keyword": "SHOULD",
+      "type": "text",
+      "answer": "SHOULDN'T HAVE BEEN GIVEN"
+    },
+    {
+      "id": 210,
+      "original": "Do you think this antique vase is good value for money?",
+      "transformed": "In your opinion, is __________________ buying?",
+      "keyword": "WORTH",
+      "type": "text",
+      "answer": "IT WORTH"
+    },
+    {
+      "id": 211,
+      "original": "The lesson was cancelled as only three students came.",
+      "transformed": "Only three students __________________ the lesson, so it was cancelled.",
+      "keyword": "TURNED",
+      "type": "text",
+      "answer": "TURNED UP FOR"
+    },
+    {
+      "id": 212,
+      "original": "The picnic was cancelled due to the rain.",
+      "transformed": "The picnic __________________ rain.",
+      "keyword": "BECAUSE",
+      "type": "text",
+      "answer": "WAS CANCELLED BECAUSE OF"
+    },
+    {
+      "id": 213,
+      "original": "When you get to the large oak tree, keep going until you get to the lake.",
+      "transformed": "After getting to the large oak tree, __________________ until you get to the lake.",
+      "keyword": "CARRY",
+      "type": "text",
+      "answer": "CARRY ON"
+    },
+    {
+      "id": 214,
+      "original": "This is the most expensive book we've seen so far in this shop.",
+      "transformed": "There hasn't __________________ than this in the shop so far.",
+      "keyword": "MORE",
+      "type": "text",
+      "answer": "BEEN A MORE EXPENSIVE BOOK"
+    },
+    {
+      "id": 215,
+      "original": "Whose is this bicycle?",
+      "transformed": "Who __________________ to?",
+      "keyword": "BELONG",
+      "type": "text",
+      "answer": "DOES THIS BICYCLE BELONG"
+    },
+    {
+      "id": 216,
+      "original": "She doesn't usually eat three meals a day, so she got full pretty quickly.",
+      "transformed": "She __________________ three meals a day, so she got full quickly.",
+      "keyword": "USED",
+      "type": "text",
+      "answer": "ISN'T USED TO EATING"
+    }
+  ]
+},
+{
+  "level": 28,
+  "questions": [
+    {
+      "id": 217,
+      "original": "That fence is there to prevent you entering the grounds of the house.",
+      "transformed": "They put the fence there __________________ enter the grounds of the house.",
+      "keyword": "SO/CAN'T",
+      "type": "text",
+      "answer": "SO THAT YOU CAN'T"
+    },
+    {
+      "id": 218,
+      "original": "Does your brother have the ability to take so many exams in the same week?",
+      "transformed": "Is __________________ capable of taking so many exams in the same week?",
+      "keyword": "CAPABLE",
+      "type": "text",
+      "answer": "YOUR BROTHER CAPABLE"
+    },
+    {
+      "id": 219,
+      "original": "We were able to cross the river, despite the strong current.",
+      "transformed": "We __________________ despite the strong current.",
+      "keyword": "SUCCEEDED",
+      "type": "text",
+      "answer": "SUCCEEDED IN CROSSING"
+    },
+    {
+      "id": 220,
+      "original": "I would prefer you to leave now. Goodbye.",
+      "transformed": "I __________________ now. Goodbye.",
+      "keyword": "RATHER",
+      "type": "text",
+      "answer": "WOULD RATHER YOU LEFT"
+    },
+    {
+      "id": 221,
+      "original": "I think you should say sorry for your behavior.",
+      "transformed": "I think __________________ behaviour.",
+      "keyword": "APOLOGISE",
+      "type": "text",
+      "answer": "YOU SHOULD APOLOGISE FOR YOUR"
+    },
+    {
+      "id": 222,
+      "original": "I have a lot to do so I can't come with you to the cinema this afternoon.",
+      "transformed": "I have __________________ to be able to come to the cinema.",
+      "keyword": "TOO",
+      "type": "text",
+      "answer": "TOO MUCH TO DO"
+    },
+    {
+      "id": 223,
+      "original": "Entrance into the museum is free today.",
+      "transformed": "It __________________ the museum today.",
+      "keyword": "COSTS",
+      "type": "text",
+      "answer": "COSTS NOTHING TO ENTER"
+    },
+    {
+      "id": 224,
+      "original": "All the cars have been cleaned except the manager's.",
+      "transformed": "The manager's is the __________________ been cleaned.",
+      "keyword": "WHICH",
+      "type": "text",
+      "answer": "ONLY ONE WHICH HASN'T"
+    }
+  ]
+},
+
+{
+  "level": 29,
+  "questions": [
+    {
+      "id": 225,
+      "original": "We'll go for a walk only if the weather is nice.",
+      "transformed": "We'll go for a walk __________________ is nice.",
+      "keyword": "LONG",
+      "type": "text",
+      "answer": "SO LONG AS THE WEATHER"
+    },
+    {
+      "id": 226,
+      "original": "Go to my chiropractor, Dr. Smith, if your back pain persists.",
+      "transformed": "My co-worker __________________ his chiropractor if my back pain persisted.",
+      "keyword": "RECOMMENDED",
+      "type": "text",
+      "answer": "RECOMMENDED I GO TO"
+    },
+    {
+      "id": 227,
+      "original": "This book is not mine.",
+      "transformed": "This book doesn't __________________.",
+      "keyword": "BELONG",
+      "type": "text",
+      "answer": "BELONG TO ME"
+    },
+    {
+      "id": 228,
+      "original": "I told my son I would buy him the toy only if he came home on time.",
+      "transformed": "I told my son I would buy him the toy, as __________________ home on time.",
+      "keyword": "LONG",
+      "type": "text",
+      "answer": "SO LONG AS HE CAME"
+    },
+    {
+      "id": 229,
+      "original": "They had disagreed but reached a consensus before the presentation.",
+      "transformed": "They __________________ agreement before the presentation.",
+      "keyword": "COME",
+      "type": "text",
+      "answer": "CAME TO AN"
+    },
+    {
+      "id": 230,
+      "original": "The shop down the street usually fixes my bike.",
+      "transformed": "I usually __________________ by the shop down the street.",
+      "keyword": "HAVE",
+      "type": "text",
+      "answer": "HAVE MY BIKE FIXED"
+    },
+    {
+      "id": 231,
+      "original": "This cake is more delicious than the one I had yesterday.",
+      "transformed": "This cake is not __________________ the one I had yesterday.",
+      "keyword": "AS",
+      "type": "text",
+      "answer": "AS DELICIOUS AS"
+    },
+    {
+      "id": 232,
+      "original": "The event was cancelled as only a few people showed up.",
+      "transformed": "Only a __________________ the event, so it was cancelled.",
+      "keyword": "TURNED",
+      "type": "text",
+      "answer": "FEW TURNED UP FOR"
+    }
+  ]
+},
+
+{
+  "level": 30,
+  "questions": [
+    {
+      "id": 233,
+      "original": "\"You need to complete your assignment today,\" the instructor said.",
+      "transformed": "The instructor __________________ my assignment today.",
+      "keyword": "TOLD",
+      "type": "text",
+      "answer": "TOLD ME TO COMPLETE"
+    },
+    {
+      "id": 234,
+      "original": "It would be better to save money before buying a new car.",
+      "transformed": "Laura __________________ before purchasing a new car.",
+      "keyword": "SUGGESTED",
+      "type": "text",
+      "answer": "SUGGESTED SAVING MONEY"
+    },
+    {
+      "id": 235,
+      "original": "Karen is too anti-social to attend the party.",
+      "transformed": "Karen is not __________________ the party.",
+      "keyword": "SOCIABLE",
+      "type": "text",
+      "answer": "SOCIABLE ENOUGH TO ATTEND"
+    },
+    {
+      "id": 236,
+      "original": "The cake is too big for the box.",
+      "transformed": "The box isn't __________________ the cake.",
+      "keyword": "ENOUGH",
+      "type": "text",
+      "answer": "BIG ENOUGH FOR"
+    },
+    {
+      "id": 237,
+      "original": "It's improbable that Lucy missed the bus this morning.",
+      "transformed": "Lucy __________________ the bus this morning.",
+      "keyword": "MUST",
+      "type": "text",
+      "answer": "MUST NOT HAVE MISSED"
+    },
+    {
+      "id": 238,
+      "original": "It's a pity the concert tickets are sold out.",
+      "transformed": "I __________________ weren't sold out.",
+      "keyword": "WISH",
+      "type": "text",
+      "answer": "WISH THEY"
+    },
+    {
+      "id": 239,
+      "original": "I didn't like the shirt, so I returned it to the shop.",
+      "transformed": "I didn't like the shirt, so I __________________ the shop.",
+      "keyword": "TOOK",
+      "type": "text",
+      "answer": "TOOK IT BACK TO"
+    },
+    {
+      "id": 240,
+      "original": "In this team, I oversee the marketing division.",
+      "transformed": "I am __________________ division.",
+      "keyword": "CHARGE",
+      "type": "text",
+      "answer": "IN CHARGE OF THE MARKETING"
+    }
+  ]
+},
+{
+  "level": 31,
+  "questions": [
+    {
+      "id": 241,
+      "original": "There's a total lack of communication in our team.",
+      "transformed": "Our __________________ communication at all.",
+      "keyword": "NO",
+      "type": "text",
+      "answer": "TEAM HAS NO"
+    },
+    {
+      "id": 242,
+      "original": "It's not necessary for you to attend the meeting.",
+      "transformed": "You __________________ the meeting.",
+      "keyword": "NEED",
+      "type": "text",
+      "answer": "DON'T NEED TO ATTEND"
+    },
+    {
+      "id": 243,
+      "original": "Why not join us for dinner tonight?",
+      "transformed": "She __________________ for dinner tonight.",
+      "keyword": "SUGGESTED",
+      "type": "text",
+      "answer": "SUGGESTED JOINING US"
+    },
+    {
+      "id": 244,
+      "original": "I didn't accept the job offer from the prestigious company.",
+      "transformed": "I __________________ from the prestigious company.",
+      "keyword": "DOWN",
+      "type": "text",
+      "answer": "TURNED IT DOWN"
+    },
+    {
+      "id": 245,
+      "original": "This painting is undoubtedly a masterpiece by Monet.",
+      "transformed": "There's __________________ a masterpiece by Monet.",
+      "keyword": "NO",
+      "type": "text",
+      "answer": "NO DOUBT THAT THIS IS"
+    },
+    {
+      "id": 246,
+      "original": "The mechanic fixed her car.",
+      "transformed": "She __________________ by the mechanic.",
+      "keyword": "HAD",
+      "type": "text",
+      "answer": "HAD HER CAR FIXED"
+    },
+    {
+      "id": 247,
+      "original": "It's possible she was in the garden, so she didn't hear the phone ring.",
+      "transformed": "She __________________ the garden, so she didn't hear the phone ring.",
+      "keyword": "MAY",
+      "type": "text",
+      "answer": "MAY HAVE BEEN IN"
+    },
+    {
+      "id": 248,
+      "original": "Winning this chess match is now beyond our reach.",
+      "transformed": "There is __________________ this chess match now.",
+      "keyword": "HOPE",
+      "type": "text",
+      "answer": "NO HOPE OF WINNING"
+    }
+  ]
+},
+{
+  "level": 32,
+  "questions": [
+    {
+      "id": 249,
+      "original": "The teacher explains the rules at the start of the class.",
+      "transformed": "At the start of the class, students __________________ the rules.",
+      "keyword": "TOLD",
+      "type": "text",
+      "answer": "ARE TOLD"
+    },
+    {
+      "id": 250,
+      "original": "They will have informed her about the decision by now.",
+      "transformed": "She __________________ about the decision by now.",
+      "keyword": "TOLD",
+      "type": "text",
+      "answer": "WILL HAVE BEEN TOLD"
+    },
+    {
+      "id": 251,
+      "original": "This is the best deal on the smartphone you can find.",
+      "transformed": "You __________________ deal on the smartphone.",
+      "keyword": "BETTER",
+      "type": "text",
+      "answer": "WOULDN'T FIND A BETTER"
+    },
+    {
+      "id": 252,
+      "original": "Don't worry if you can't finish the task today.",
+      "transformed": "It __________________ you can't finish the task today.",
+      "keyword": "MATTER",
+      "type": "text",
+      "answer": "DOESN'T MATTER IF"
+    },
+    {
+      "id": 253,
+      "original": "The book that I borrowed from you is interesting.",
+      "transformed": "The book __________________ from you is interesting.",
+      "keyword": "WHICH",
+      "type": "text",
+      "answer": "WHICH I BORROWED"
+    },
+    {
+      "id": 254,
+      "original": "They must finish their work before they leave.",
+      "transformed": "They __________________ their work before they leave.",
+      "keyword": "HAVE",
+      "type": "text",
+      "answer": "HAVE TO FINISH"
+    },
+    {
+      "id": 255,
+      "original": "Not as many people know about this amazing restaurant.",
+      "transformed": "This amazing restaurant is __________________ known.",
+      "keyword": "WIDELY",
+      "type": "text",
+      "answer": "NOT WIDELY"
+    },
+    {
+      "id": 256,
+      "original": "I haven't visited the art gallery in a month.",
+      "transformed": "I __________________ the art gallery for a month.",
+      "keyword": "BEEN",
+      "type": "text",
+      "answer": "HAVEN'T BEEN TO"
+    }
+  ]
+}
+
+
+
+
+
+
+
+
+
+
+  ]
+
+  
+}

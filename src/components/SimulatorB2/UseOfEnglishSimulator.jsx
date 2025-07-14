@@ -162,16 +162,19 @@ function PartComponent({ part, data, onSubmit }) {
     );
   }
 
-  // Render para Part4 (sin slider, sin botón Start por ahora)
+  // Render para Part4
   return (
     <div className="p-6 bg-gradient-to-br from-[#12121c] to-[#1b1b2d] text-gray-100 rounded-2xl shadow-2xl my-6 border border-[#2c2c3e]">
       <h2 className="text-3xl font-bold mb-6 text-teal-400 drop-shadow">🧠 {data.title}</h2>
       {data.questions.map((q, idx) => (
         <div key={idx} className="mb-6">
-          <p className="text-lg mb-2">
+          <p className="text-sm text-gray-400 italic mb-1">Original: {q.original}</p>
+          <p className="text-lg font-medium text-white mb-1">
             <span className="text-teal-300 font-semibold">Q{idx + 1}.</span>{' '}
-            {q.text.replace(/_+/, '_____')}
+            {q.transformed.replace(/_+/, '_____')}
           </p>
+          <p className="text-sm text-cyan-400 mb-3">Keyword: <span className="font-bold">{q.keyword}</span></p>
+
           <input
             type="text"
             value={answers[idx]}
@@ -180,6 +183,7 @@ function PartComponent({ part, data, onSubmit }) {
             placeholder="Your answer"
             className="w-full p-3 rounded-lg bg-[#232334] border border-[#3b3b4f] text-gray-100"
           />
+
           {submitted && (
             <p className={`font-semibold mt-2 ${answers[idx] === q.answer ? 'text-green-400' : 'text-rose-400'}`}>
               {answers[idx] === q.answer ? '✔ Correct' : `✘ ${q.answer}`}
