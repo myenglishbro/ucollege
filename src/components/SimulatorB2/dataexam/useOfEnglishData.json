@@ -1,66 +1,49 @@
 {
   "Part1": {
-    "title": "Part 1: Multiple Choice Cloze",
+    "title": "Part 1: Multiple Choice Cloze – Working parents",
+    "passageImage": "https://i.ibb.co/kd5mNDB/1-FCE-PART1.png",
     "questions": [
-     {
-        "text": "My personal _____ is that both parents should go out to work if they wish.",
-        "type": "select",
-        "options": ["idea", "view", "thought", "decision"],
-        "answer": "view"
-      },
       {
-        "text": "Some parents invest so much in a career that they cannot _____ to give it up.",
-        "type": "select",
         "options": ["bear", "decide", "hope", "expect"],
         "answer": "bear"
       },
       {
-        "text": "Others have to work because of economic _____ .",
-        "type": "select",
-        "options": ["a reason", "duty", "necessity", "task"],
+        "options": ["reason", "duty", "necessity", "task"],
         "answer": "necessity"
       },
       {
-        "text": "There are several options when it _____ to choosing childcare from child minders to the kind neighbour _____ the street.",
-        "type": "select",
         "options": ["refers", "concerns", "turns", "comes"],
-        "answer": "comes"
+        "answer": "turns"
       },
       {
-        "text": "There are several options when it comes to choosing childcare from child minders to the kind neighbour _____ the street.",
-        "type": "select",
         "options": ["of", "opposite", "across", "next to"],
         "answer": "across"
       },
       {
-        "text": "Babies become dependent on parents and close family _____ , so parents should make sure they allow time to help their child settle in.",
-        "type": "select",
-        "options": ["a way", "matter", "surprise", "exception"],
-        "answer": "as a matter"
+        "options": ["way", "matter", "surprise", "exception"],
+        "answer": "matter"
       },
       {
-        "text": "Babies become dependent on parents and close family as a matter of _____ , so parents should make sure they allow time to help their child settle in with their new carer.",
-        "type": "select",
         "options": ["people", "adults", "members", "grown-ups"],
-        "answer": "course"
+        "answer": "adults"
       },
       {
-        "text": "If parents want to _____ the best for their children, it’s not the quantity of time they spend with them, it’s the quality that matters.",
-        "type": "select",
+        "options": ["little", "no", "lots", "plenty of"],
+        "answer": "no"
+      },
+      {
         "options": ["make", "give", "have", "do"],
-        "answer": "do"
+        "answer": "make"
       }
-      
     ]
-  },
+  
+},
   "Part2": {
     "title": "Part 2: Open Cloze",
+    "passageImage": "https://i.ibb.co/LzZrn04d/2-FCE-PART1.png",
+
     "questions": [
-       {
-        "text": "I’ve always (0) _____ an outdoors kind of girl.",
-        "type": "text",
-        "answer": "been"
-      },
+      
       {
         "text": "and (9) _____ a kid, I’d get up to all sorts of stuff with my friends...",
         "type": "text",
@@ -72,15 +55,16 @@
         "answer": "like"
       },
       {
-        "text": "(11) _____ was my brother who first got me (12) _____ skateboarding.",
+        "text": "(11) _____ was my brother who first got me _____ skateboarding.",
         "type": "text",
         "answer": "it"
       },
       {
-        "text": "who first got me into (12) _____ skateboarding.",
+        "text": "(12) _____ was my brother who first got me  _____ skateboarding.",
         "type": "text",
         "answer": "into"
       },
+     
       {
         "text": "and to (13) _____ honest, I used to think it was uncool.",
         "type": "text",
@@ -97,7 +81,7 @@
         "answer": "against"
       },
       {
-        "text": "It obviously paid off because I beat him in a competition.",
+        "text": " _____ my brother. It obviously paid (16) _____ because I beat him...",
         "type": "text",
         "answer": "off"
       }
@@ -106,12 +90,10 @@
   },
   "Part3": {
     "title": "Part 3: Word Formation",
+        "passageImage": "https://i.ibb.co/F474FdcH/3-FCE-PART1.png",
+
     "questions": [
-     {
-        "text": "The London Eye, the giant (0) _____ wheel...",
-        "type": "text",
-        "answer": "OBSERVATION"
-      },
+     
       {
         "text": "The wheel is one of the tallest of its kind, at a (17) _____ of 135 metres.",
         "type": "text",
