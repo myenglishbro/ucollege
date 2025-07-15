@@ -3,7 +3,7 @@ export const validCredentials = [
     
        { expirationDate:"10 days",nivel:"premium",usuario: 'sara', password: 'terreros', realname: 'Sara Terreros', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
 
-      { expirationDate:"Acceso Ilimitado",nivel:"premium",usuario: 'carlitos', password: 'apolaya', realname: 'Prueba Gratuita', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+      { expirationDate:"Acceso Ilimitado",nivel:"premium",usuario: 'myenglish', password: 'bro2', realname: 'Prueba Gratuita', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
 
         { expirationDate:"17/07/25",nivel:"Usuario Premium ",usuario: 'franco', password: 'leon', realname: 'Franco Leon', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png' }, // No image
       { expirationDate:"17/07/25",nivel:"premium",usuario: 'lewis', password: 'henryq', realname: 'Lewis Henry Quispe', img: 'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png' }, // No image
