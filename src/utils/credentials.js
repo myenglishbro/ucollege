@@ -1,7 +1,6 @@
 export const validCredentials = [
    
     
-       { expirationDate:"10 days",nivel:"premium",usuario: 'sara', password: 'terreros', realname: 'Sara Terreros', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
 
       { expirationDate:"Acceso Ilimitado",nivel:"premium",usuario: 'myenglish', password: 'bro2', realname: 'Prueba Gratuita', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
 
@@ -38,7 +37,6 @@ export const validCredentials = [
       { expirationDate:"Acceso Ilimitado",nivel:"B2",usuario: 'thalia', password: 'castro', realname: 'Thalia Castro',img:'https://i.ibb.co/mCHLpZqd/TKSEJTSGH-U06-SMT2-J13-R-ee6798c0e891-512.png'},
 
 
-    //  { expirationDate:"5 DAYS TRIAL",nivel:"B2",usuario: 'stephanie', password: 'mendez', realname: ' Stephanie Mendez',img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
 
      { expirationDate:"29/07",nivel:"B2",usuario: 'andrea', password: 'pacara', realname: 'Andrea Pacara',img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
      { expirationDate:"03/09",nivel:"B2",usuario: 'rivaldo', password: 'ccopa', realname: 'Rivaldo A. Ccopa',img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
@@ -49,5 +47,6 @@ export const validCredentials = [
      { expirationDate:"14/08/25",nivel:"B2",usuario: 'iara', password: 'nsilva', realname: 'Lara N. Silva',img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
      { expirationDate:"14/08/25",nivel:"B2",usuario: 'alexsandra', password: 'zavaleta', realname: 'Alexsandra Zavaleta',img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
      { expirationDate:"15/09/25",nivel:"B2",usuario: 'beatriz', password: 'cordova', realname: 'Beatriz Alejandra Cordova',img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
+     { expirationDate:"15/08/25",nivel:"B2",usuario: 'luana', password: 'cayo', realname: 'Luana Cayo Chiri',img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
 
     ];
