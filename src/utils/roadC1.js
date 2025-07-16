@@ -1,4 +1,29 @@
 export const roadC1 = [
+       {
+        id: 0,
+        thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
+
+        title: "Present Simple & Progressive",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Completa los desafíos para dominar el Inglés",
+        enlaces: [
+           
+            { titulo:"Present Simple ",descripcion:"Aprende a usar el present simple en diferentes contextos ",url:"https://drive.google.com/file/d/1rwleyKN1vwRdZLJuHZXbIB3t88hevTl3/view?usp=sharing",url2: "https://youtu.be/b5KxYRP2I5s"},
+            { titulo:"Present Progressive",descripcion:"Aprende a usar el present progressive en diferentes contextos ",url:"https://drive.google.com/file/d/1Rqx1bzuRRJbjHZnH_iutOhx7oIzQoeut/view?usp=sharing",url2: "https://youtu.be/Nnu6JOaenf0"},
+            { titulo:"Test Center App",descripcion:"Desafio de tiempo Present simple y progressive ",url4: "https://learnibox.vercel.app/presentsimpleprogressive"},
+
+            { titulo:"Usual",descripcion:"Aprende los diferentes usos del usual",url: "https://drive.google.com/file/d/1Iru4Ttn7yf9vwOiUU8XjC6MCB9DPMHA8/view?usp=sharing",url2:"https://youtu.be/OSRAYauWH-I",url3:"https://drive.google.com/file/d/1sugjoNOr6dwEHogTwcKeYHUVbebEBbpX/view?usp=sharing"},
+            { titulo:"Usually",url: "https://drive.google.com/file/d/1IPWIh1B7oYwV4aPRJJKnM-gpZICitsX_/view?usp=sharing",url2:"https://www.youtube.com/watch?v=nYxi8UCraJI&ab_channel=MyEnglishBro"},
+            { titulo:"I think not vs I don't think so. ",url: "https://drive.google.com/file/d/15nnCB3JJRtH1fqqx5TypEptgoRbo5q-P/view?usp=sharing"},
+            { titulo:"Enough and Too ",url: "https://drive.google.com/file/d/1Tcadp5eOdfsHOlCwJWs0iNuphHQO4gYA/view?usp=sharing"},
+
+            {  titulo:"Battle Code ",descripcion:"Las respuestas de cada pregunta son el código del siguiente nivel",url:"https://drive.google.com/file/d/19bs04pZ2WROkgtnCaKSEXxp4hB_Fk_qa/view?usp=sharing"},
+
+        ],
+    },
     {
         id: 1,
         thumbnail:"https://i.ibb.co/9kqY7G0n/DALL-E-2025-03-23-15-06-19-Epic-widescreen-wallpaper-showing-a-group-of-students-as-heroic-warriors.webp",

@@ -1,22 +1,34 @@
 export const roadB2C = [
-     {
+      {
         id: 0,
-        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
+        thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
 
-        title: "Tools in Learnibox",
+        title: "Present Simple & Progressive",
         subtitle: "B2/C1",
 
-        dateAdded: "Basic 0 ",
+        dateAdded: "Basic 01 ",
         channel: "sdasd",
-        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+        description: "Completa los desafíos para dominar el Inglés",
         enlaces: [
-            { titulo:"Pomodoro ",descripcion:"Estudia de forma eficiente",url:"https://youtu.be/wa0kcBEqJgw"},
-            { titulo:"Apps",descripcion:"Estudia de manera dinámica ",url: "https://youtu.be/pXTv0jaOgwM"},
+           
+            { titulo:"Present Simple ",descripcion:"Aprende a usar el present simple en diferentes contextos ",url:"https://drive.google.com/file/d/1rwleyKN1vwRdZLJuHZXbIB3t88hevTl3/view?usp=sharing",url2: "https://youtu.be/b5KxYRP2I5s"},
+            { titulo:"Present Progressive",descripcion:"Aprende a usar el present progressive en diferentes contextos ",url:"https://drive.google.com/file/d/1Rqx1bzuRRJbjHZnH_iutOhx7oIzQoeut/view?usp=sharing",url2: "https://youtu.be/Nnu6JOaenf0"},
+            { titulo:"Test Center App",descripcion:"Desafio de tiempo Present simple y progressive ",url4: "https://learnibox.vercel.app/presentsimpleprogressive"},
+
+            { titulo:"Usual",descripcion:"Aprende los diferentes usos del usual",url: "https://drive.google.com/file/d/1Iru4Ttn7yf9vwOiUU8XjC6MCB9DPMHA8/view?usp=sharing",url2:"https://youtu.be/OSRAYauWH-I",url3:"https://drive.google.com/file/d/1sugjoNOr6dwEHogTwcKeYHUVbebEBbpX/view?usp=sharing"},
+            { titulo:"Usually",url: "https://drive.google.com/file/d/1IPWIh1B7oYwV4aPRJJKnM-gpZICitsX_/view?usp=sharing",url2:"https://www.youtube.com/watch?v=nYxi8UCraJI&ab_channel=MyEnglishBro"},
+            { titulo:"I think not vs I don't think so. ",url: "https://drive.google.com/file/d/15nnCB3JJRtH1fqqx5TypEptgoRbo5q-P/view?usp=sharing"},
+            { titulo:"Enough and Too ",url: "https://drive.google.com/file/d/1Tcadp5eOdfsHOlCwJWs0iNuphHQO4gYA/view?usp=sharing"},
+
+            {  titulo:"Battle Code ",descripcion:"Las respuestas de cada pregunta son el código del siguiente nivel",url:"https://drive.google.com/file/d/19bs04pZ2WROkgtnCaKSEXxp4hB_Fk_qa/view?usp=sharing"},
 
         ],
     },
+     
+    
+   
     {
-        id: 2,
+        id: 0,
         thumbnail: "https://i.ibb.co/4CTCgND/DALL-E-2025-03-03-10-24-24-A-high-quality-digital-illustration-of-a-young-warrior-student-battling-t.webp",
         reconpensa: "https://i.ibb.co/jkkK0wXX/RECONPENSAPRESENTSIMPLE.webp",
        reconpensaDescripcion: "La Espada Legendaria ‘Routine & Facts’ resplandece con un aura mística, irradiando la esencia misma del Present Simple. Su hoja afilada y resplandeciente está grabada con inscripciones que representan la estructura inquebrantable de este tiempo verbal ⚔️✨",
@@ -48,7 +60,9 @@ export const roadB2C = [
         description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
         enlaces: [
             { titulo:"Welcome",descripcion:"Las diferencias en Inglés ",url: "https://drive.google.com/file/d/1xTKk8uS9tVBQ4rk-X4-VEBA3ZUAwCIW8/view?usp=sharing"},
-
+  { titulo:"📚Doubt that vs Doubt if",url: "https://drive.google.com/file/d/1qEgnOfM7BoFG1lmMu_xWgNbRlwBTt9X2/view?usp=sharing"},
+          { titulo:"📚[Slide] The fact that  ",url: "https://drive.google.com/file/d/1FSd3Vt3C71C0kujDoy4egxFDy8_ZugZv/view?usp=sharing"},
+          { titulo:"📚the same as - the same that.pdf",url: "https://drive.google.com/file/d/1XxkdYtKE6YyMH3jP93Aog9mXF_l9wu9l/view?usp=sharing"},
             { titulo:"Leave vs Forget",descripcion:"Diferencias en uso ",url: "https://drive.google.com/file/d/111yc2_YM2otUrY5Zd7x4XMEghsDeVhuq/view?usp=sharing" ,url2: "https://youtu.be/ZuTu0cKrgA4?si=SwLXrU0zQTyxjNDz",url3: "https://drive.google.com/file/d/1lATJkiV8vcDJ21Mu5jPDOjPRkyX_a5qZ/view?usp=sharing",url4:"https://learnibox.vercel.app/gspace",url5:"https://learnibox.vercel.app/enghelp",url6:"https://learnibox.vercel.app/xd"},
             { titulo:"Continuamente ",descripcion:"Diferencias en uso",url: "https://drive.google.com/file/d/1kENm-lqtM22jiVAej6_Io_IoYFeRDprC/view?usp=sharing",url2: "https://youtu.be/DXCOSUsATsE?si=KXNzdx8qbzOeCMkz",url3: "https://drive.google.com/file/d/17UWJLib-ZYETsEc-rF0p3byGvy24R_kY/view?usp=sharing"},
             { titulo:"Shout at vs Shout to",descripcion:"Diferencias en uso",url:"https://drive.google.com/file/d/1iisgsGHkBpj0nyGTvwxCiI8_aG3ukcsi/view?usp=sharing" ,url2: "https://youtu.be/QAJVD14o2a8"},
@@ -200,7 +214,7 @@ export const roadB2C = [
         channel: "sdasd",
         description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
         enlaces: [
-                          { titulo:"Key Word Transformation Simulation ",descripcion:"The final part of the Use of English paper is Key Word Transformations. A sentence followed by a key word and a second sentence which has a gap in it. A student has to use the key word to complete the second sentence so that it means the same as the first sentence.",url7:"http://learnibox.vercel.app/keysimulation"},
+             { titulo:"Key Word Transformation Simulation ",descripcion:"The final part of the Use of English paper is Key Word Transformations. A sentence followed by a key word and a second sentence which has a gap in it. A student has to use the key word to complete the second sentence so that it means the same as the first sentence.",url7:"http://learnibox.vercel.app/keysimulation"},
 
               { titulo:"Key Word Transformation ",descripcion:"The final part of the Use of English paper is Key Word Transformations. A sentence followed by a key word and a second sentence which has a gap in it. A student has to use the key word to complete the second sentence so that it means the same as the first sentence.",url: "https://drive.google.com/file/d/1fzxVyBLvMHRwzfHTGLgYapKOXasOXv0m/view?usp=sharing",url3:"https://drive.google.com/file/d/1SlBZ6S1G4Jk_fMSC9kPJRa_XY_GuJfRN/view?usp=sharing",url7:"http://learnibox.vercel.app/kwt"},
 
@@ -510,28 +524,7 @@ export const roadB2C = [
     
    
    
-    {
-        id: 0,
-        thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
-
-        title: "Present Simple Arc",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 01 ",
-        channel: "sdasd",
-        description: "Completa los desafíos para dominar el Inglés",
-        enlaces: [
-           
-            { titulo:"Present Simple ",descripcion:"Aprende a usar el present simple en diferentes contextos ",url:"https://drive.google.com/file/d/1uosvGKLwegu9ECo9TZTG3uJd79ku4_G2/view?usp=sharing",url2: "https://youtu.be/b5KxYRP2I5s",url3:"https://drive.google.com/file/d/19bs04pZ2WROkgtnCaKSEXxp4hB_Fk_qa/view?usp=sharing"},
-            { titulo:"Usual",descripcion:"Aprende los diferentes usos del usual",codigo:"GRAMMARISPOWER",url: "https://drive.google.com/file/d/1Iru4Ttn7yf9vwOiUU8XjC6MCB9DPMHA8/view?usp=sharing",url2:"https://youtu.be/OSRAYauWH-I",url3:"https://drive.google.com/file/d/1sugjoNOr6dwEHogTwcKeYHUVbebEBbpX/view?usp=sharing"},
-            { titulo:"Usually",codigo:"STICKTOUSUAL",url: "https://drive.google.com/file/d/1IPWIh1B7oYwV4aPRJJKnM-gpZICitsX_/view?usp=sharing",url2:"https://www.youtube.com/watch?v=nYxi8UCraJI&ab_channel=MyEnglishBro"},
-            { titulo:"I think not vs I don't think so. ",url: "https://drive.google.com/file/d/15nnCB3JJRtH1fqqx5TypEptgoRbo5q-P/view?usp=sharing"},
-            { titulo:"Enough and Too ",codigo:"WORKSFINE",url: "https://drive.google.com/file/d/1Tcadp5eOdfsHOlCwJWs0iNuphHQO4gYA/view?usp=sharing"},
-
-            {  titulo:"Battle Code ",descripcion:"Las respuestas de cada pregunta son el código del siguiente nivel",url:"https://drive.google.com/file/d/19bs04pZ2WROkgtnCaKSEXxp4hB_Fk_qa/view?usp=sharing"},
-
-        ],
-    },
+   
     {
         id: 5,
         thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
@@ -637,58 +630,6 @@ export const roadB2C = [
         ],
     },
    
-    {
-        id: 2,
-        thumbnail: "https://i.ibb.co/ns4nywn7/DALL-E-2025-03-13-12-50-42-A-formidable-warrior-representing-the-Present-Progressive-tense-in-Englis.webp",
-        code:"secrevpouthealou",
-        reconpensa: "https://i.ibb.co/jkkK0wXX/RECONPENSAPRESENTSIMPLE.webp",
-        reconpensaDescripcion: "La Espada Legendaria ‘Routine & Facts’ resplandece con un aura mística, irradiando la esencia misma del Present Simple. Su hoja afilada y resplandeciente está grabada con inscripciones que representan la estructura inquebrantable de este tiempo verbal ⚔️✨",
-        title: "Present Progressive",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 01 ",
-        channel: "sdasd",
-        description: "Completa los desafíos para dominar el Inglés",
-        enlaces: [
-
-          { titulo:"🎬 Present Progressive Usos",url:"https://drive.google.com/file/d/15m5KpSZhu7Q1vop2-MiqlARFmY8jLx9u/view?usp=sharing",url2: "https://youtu.be/Nnu6JOaenf0"},
-          { titulo:"📚Doubt that vs Doubt if",url: "https://drive.google.com/file/d/1qEgnOfM7BoFG1lmMu_xWgNbRlwBTt9X2/view?usp=sharing"},
-          { titulo:"📚[Slide] The fact that  ",url: "https://drive.google.com/file/d/1FSd3Vt3C71C0kujDoy4egxFDy8_ZugZv/view?usp=sharing"},
-          { titulo:"📚the same as - the same that.pdf",url: "https://drive.google.com/file/d/1XxkdYtKE6YyMH3jP93Aog9mXF_l9wu9l/view?usp=sharing"},
-
-
-        ],
-    },
-    {
-        id: 3,
-        thumbnail: "https://i.ibb.co/RxW0zs8/DALL-E-2025-03-14-09-59-57-An-intense-battlefield-where-students-have-fought-against-the-powerful-wa.webp",
-
-        title: "Present Simple or Progressive ",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 01 ",
-        channel: "sdasd",
-        description: "Completa los desafíos para dominar el Inglés",
-        enlaces: [
-           
-            
-            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/19FdH7nnsqL0Ez9siyiFv3PCEvt4EknFv/view?usp=sharing", },
-            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1HRBxbp2b_5kcObTcgjMDmRKXH-xW0O4M/view?usp=sharing", },
-          
-            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1aAeXIW3wmnJwJjUTcCE6m7PV9aElcgeB/view?usp=sharing", },
-            { titulo: "✍ FORM Tense Simple and Progressive ",url: "https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__5DYD2BUMEJFTFdHTTM3V0gzREowUlJRUVkwSjBaVC4u", },
-
-            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1ugupTJWoGVpoH7q_UxAivmklT21IBsKv/view?usp=sharing", },
-            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1HlMPxx9G-eXDvAkpnoYcD_qhH8DRcUt_/view?usp=sharing", },
-            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1fQ23Xn4bXCSZJSaHGiWf5utUXeHAK0ma/view?usp=sharing", },
-            { titulo: "✍ Present Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1Gjn3DIa6xRDKcbKFvUopOvzMTA7vnW02/view?usp=sharing",url3:"https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAZAAPF2C5FUMTJFMU5UQ09VTkRXS09HREs3VVdWMk8zSy4u" },
-
-
-            
-
-
-        ],
-    },
    
     
     {
@@ -1600,5 +1541,24 @@ export const roadB2C = [
             { titulo: "Descargar Certificación",url: "https://drive.google.com/file/d/1xNdjFuVgRQT55yOURQjR-c9d3ObNh8vU/view?usp=sharing", },    
          
         ],
-    }
+    },
+    {
+        id: 2,
+        thumbnail: "https://i.ibb.co/ns4nywn7/DALL-E-2025-03-13-12-50-42-A-formidable-warrior-representing-the-Present-Progressive-tense-in-Englis.webp",
+        code:"secrevpouthealou",
+        reconpensa: "https://i.ibb.co/jkkK0wXX/RECONPENSAPRESENTSIMPLE.webp",
+        reconpensaDescripcion: "La Espada Legendaria ‘Routine & Facts’ resplandece con un aura mística, irradiando la esencia misma del Present Simple. Su hoja afilada y resplandeciente está grabada con inscripciones que representan la estructura inquebrantable de este tiempo verbal ⚔️✨",
+        title: "Present Progressive",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Completa los desafíos para dominar el Inglés",
+        enlaces: [
+
+        
+
+
+        ],
+    },
 ];

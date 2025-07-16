@@ -90,6 +90,7 @@ import InicioIelts from "./components/Login/LoginIelts/InicioIelts.jsx";
 import UseOfEnglishSimulator from "./components/SimulatorB2/UseOfEnglishSimulator.jsx";
 import KeywordTransformation from "./components/Aplicativos/kwt/KeywordTransformation.jsx";
 import InicioC1 from "./components/Login/LoginC1/InicioC1.jsx";
+import MultiLevelQuiz from "./components/Aplicativos/presentsimpleduo/Multilevelquiz.jsx";
 
 function App() {
   return (
@@ -115,6 +116,7 @@ function App() {
           <Route path="/valere" element={<InicioiT />}></Route>
           <Route path="/108pv" element={<Quizbank01 />}></Route>
           <Route path="/simulator" element={<UseOfEnglishSimulator />}></Route>
+          <Route path="/presentsimpleprogressive" element={<MultiLevelQuiz />}></Route>
 
           <Route path="/Celpip" element={<InicioC />}></Route>
           <Route path="/task01" element={<CELPIPSpeaking />}></Route>
