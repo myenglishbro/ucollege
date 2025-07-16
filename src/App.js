@@ -89,6 +89,7 @@ import Quizbank01 from "./components/Aplicativos/Quizer/Quizbank01.jsx";
 import InicioIelts from "./components/Login/LoginIelts/InicioIelts.jsx";
 import UseOfEnglishSimulator from "./components/SimulatorB2/UseOfEnglishSimulator.jsx";
 import KeywordTransformation from "./components/Aplicativos/kwt/KeywordTransformation.jsx";
+import InicioC1 from "./components/Login/LoginC1/InicioC1.jsx";
 
 function App() {
   return (
@@ -109,6 +110,8 @@ function App() {
 
           <Route path="/B2" element={<InicioB2 />}></Route>
          <Route path="/B2C" element={<InicioB2C />}></Route>
+                  <Route path="/C1" element={<InicioC1 />}></Route>
+
           <Route path="/valere" element={<InicioiT />}></Route>
           <Route path="/108pv" element={<Quizbank01 />}></Route>
           <Route path="/simulator" element={<UseOfEnglishSimulator />}></Route>
