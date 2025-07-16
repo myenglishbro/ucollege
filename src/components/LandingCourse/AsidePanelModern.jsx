@@ -1,5 +1,5 @@
 import { FaWhatsapp } from "react-icons/fa";
-import { MdLockOpen } from "react-icons/md";
+import { MdLogin } from "react-icons/md";
 import { motion } from "framer-motion";
 
 export default function AsidePanelModern({
@@ -37,7 +37,6 @@ export default function AsidePanelModern({
           />
 
           <div className="relative z-10 flex flex-col gap-8">
-            
             {/* VIDEO */}
             <div className="w-full aspect-video rounded-xl overflow-hidden border border-[#2d2f40] shadow-lg bg-[#16171d]/60 flex items-center justify-center">
               <iframe
@@ -89,9 +88,10 @@ export default function AsidePanelModern({
                 text-[#e6eaf0] shadow hover:shadow-indigo-900/50 transition focus:outline-none
                 flex items-center justify-center gap-2
               "
+              title="Haz clic para iniciar sesión o acceder a tu cuenta"
             >
-              <MdLockOpen className="text-2xl opacity-80" />
-              <span>Acceder al Repo</span>
+              <MdLogin className="text-2xl opacity-80" />
+              <span> Acceder</span>
             </motion.button>
 
             {/* SOPORTE WHATSAPP */}
