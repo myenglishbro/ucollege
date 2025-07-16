@@ -1,4 +1,6 @@
 import brainwave from "./brainwave.png";
+import fondito from "./fondito.svg";
+
 import check from "./check.svg";
 import brainwaveSymbol from "./brainwave-symbol.png";
 import brainwaveWhiteSymbol from "./brainwave-symbol-white.png";
@@ -78,6 +80,7 @@ import instagram from "./socials/instagram.svg";
 import telegram from "./socials/telegram.svg";
 import twitter from "./socials/twitter.svg";
 export {
+  fondito,
   celpip,
   cambridge,
   ielts,
