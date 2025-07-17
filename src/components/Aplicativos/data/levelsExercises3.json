@@ -1,0 +1,1139 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "levelCode": "LEVEL1-UNLOCK",
+            "thumbnail":"https://i.ibb.co/Wpq0b5W7/20250709-1507-Vibrant-Cartoon-Character-remix-01jzrcpjj8fa7v98xk6tem1d9q-1.png",
+
+     "exercises": [
+        {
+          "id": 1,
+          "prompt": "Don't waste time looking ___________ a cheap hotel when you arrive. They are all about the same price.",
+          "options": [
+            "at",
+            "by",
+            "for",
+            "on"
+          ],
+          "answer": "for"
+        },
+        {
+          "id": 2,
+          "prompt": "The man was questioned by the police after acting in a(n) ___________ way outside the bank.",
+          "options": [
+            "suspicious",
+            "faulty",
+            "dishonest",
+            "unfriendly"
+          ],
+          "answer": "suspicious"
+        },
+        {
+          "id": 3,
+          "prompt": "Sharon never stops telling us how wonderful she is. She can be a little ___________.",
+          "options": [
+            "selfish",
+            "arrogant",
+            "sensible",
+            "silly"
+          ],
+          "answer": "arrogant"
+        },
+        {
+          "id": 4,
+          "prompt": "If you ___________ all the lessons on the course, you get a certificate anyway.",
+          "options": [
+            "go",
+            "frequent",
+            "attend",
+            "assist"
+          ],
+          "answer": "attend"
+        },
+        {
+          "id": 5,
+          "prompt": "Although they tried to put ___________ the fire for nearly two hours, eventually the firefighters had to give up.",
+          "options": [
+            "out",
+            "off",
+            "away",
+            "on"
+          ],
+          "answer": "out"
+        },
+        {
+          "id": 6,
+          "prompt": "It's absolutely ___________ tonight so make sure you wear both your gloves and your heavy coat.",
+          "options": [
+            "mild",
+            "cold",
+            "freezing",
+            "chilly"
+          ],
+          "answer": "freezing"
+        },
+        {
+          "id": 7,
+          "prompt": "Your behavior today will have serious ___________ for your future promotion chances.",
+          "options": [
+            "warnings",
+            "predictions",
+            "consequences",
+            "results"
+          ],
+          "answer": "consequences"
+        },
+        {
+          "id": 8,
+          "prompt": "How can you deny the allegations Mrs. Penney? ___________ people saw you leave the store without paying.",
+          "options": [
+            "several",
+            "few",
+            "some of",
+            "any"
+          ],
+          "answer": "several"
+        }
+      ]
+    },
+     {
+      "level": 2,
+      "levelCode": "LEVEL2-ACCESS",
+      "prerequisiteCode": "LEVEL1-UNLOCK",
+            "thumbnail":"https://i.ibb.co/Wpq0b5W7/20250709-1507-Vibrant-Cartoon-Character-remix-01jzrcpjj8fa7v98xk6tem1d9q-1.png",
+      "exercises": [
+        {
+          "id": 1,
+          "prompt": "How can you possibly work in a zoo if you are terrified ___________ snakes?",
+          "options": [
+            "at",
+            "of",
+            "with",
+            "in"
+          ],
+          "answer": "of"
+        },
+        {
+          "id": 2,
+          "prompt": "Are you ___________ on foreign language films?",
+          "options": [
+            "enthusiastic",
+            "excited",
+            "keen",
+            "liking"
+          ],
+          "answer": "keen"
+        },
+        {
+          "id": 3,
+          "prompt": "This government should be using far ___________ policies in an attempt to beat unemployment.",
+          "options": [
+            "crueler",
+            "meaner",
+            "tougher",
+            "harder"
+          ],
+          "answer": "tougher"
+        },
+        {
+          "id": 4,
+          "prompt": "Homeschooling, which involves ___________ children at home, is becoming ever more popular.",
+          "options": [
+            "training",
+            "managing",
+            "bringing up",
+            "educating"
+          ],
+          "answer": "bringing up"
+        },
+        {
+          "id": 5,
+          "prompt": "Can you put me ___________ for two days if I come and stay with you?",
+          "options": [
+            "up",
+            "about",
+            "in",
+            "out"
+          ],
+          "answer": "up"
+        },
+        {
+          "id": 6,
+          "prompt": "The floods were caused by two days of ___________ rain.",
+          "options": [
+            "pouring",
+            "drowning",
+            "flowing",
+            "shattering"
+          ],
+          "answer": "pouring"
+        },
+        {
+          "id": 7,
+          "prompt": "It was only a minor accident and we all escaped without ___________.",
+          "options": [
+            "damage",
+            "wounds",
+            "injury",
+            "hurt"
+          ],
+          "answer": "injury"
+        },
+        {
+          "id": 8,
+          "prompt": "By 10pm it was very dark and the black car was ___________ almost impossible to see.",
+          "options": [
+            "so",
+            "therefore",
+            "that",
+            "such"
+          ],
+          "answer": "so"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "prerequisiteCode": "LEVEL2-ACCESS",
+            "thumbnail":"https://i.ibb.co/Wpq0b5W7/20250709-1507-Vibrant-Cartoon-Character-remix-01jzrcpjj8fa7v98xk6tem1d9q-1.png",
+
+      "levelCode": "LEVEL3-KEY",
+      "exercises": [
+    {
+      "id": 1,
+      "prompt": "Can I borrow $10 ___________ you until tomorrow? I have to buy a book for college.",
+      "options": [
+        "to",
+        "from",
+        "for",
+        "with"
+      ],
+      "answer": "from"
+    },
+    {
+      "id": 2,
+      "prompt": "There is so little time left until the exams. I think I need to just concentrate my effort ___________ the most important two exams that I cannot fail.",
+      "options": [
+        "for",
+        "with",
+        "of",
+        "on"
+      ],
+      "answer": "on"
+    },
+    {
+      "id": 3,
+      "prompt": "I was never very ___________ at history at school and now I work in a museum. How ironic!",
+      "options": [
+        "good",
+        "expert",
+        "keen",
+        "able"
+      ],
+      "answer": "good"
+    },
+    {
+      "id": 4,
+      "prompt": "My mother would like to consider herself ___________ but I think even she would be shocked if we took her to see that film!",
+      "options": [
+        "broad-minded",
+        "independent",
+        "stubborn",
+        "well-behaved"
+      ],
+      "answer": "broad-minded"
+    },
+    {
+      "id": 5,
+      "prompt": "When I first arrived in Russia, I took ___________ lessons from an old woman to help me with the language.",
+      "options": [
+        "private",
+        "secret",
+        "personal",
+        "reserved"
+      ],
+      "answer": "private"
+    },
+    {
+      "id": 6,
+      "prompt": "There was only a light ___________ in the morning with no sign that a storm was coming.",
+      "options": [
+        "gale",
+        "cyclone",
+        "breeze",
+        "draught"
+      ],
+      "answer": "breeze"
+    },
+    {
+      "id": 7,
+      "prompt": "A new type of transistor radio has been ___________ by South African electrical engineers.",
+      "options": [
+        "developed",
+        "found",
+        "discovered",
+        "looked into"
+      ],
+      "answer": "developed"
+    },
+    {
+      "id": 8,
+      "prompt": "I want to play a game with you. First, ___________ about an animal you would like to be. Ready?",
+      "options": [
+        "consider",
+        "imagine",
+        "think",
+        "wonder"
+      ],
+      "answer": "imagine"
+        }
+      ]
+    },
+    {
+  "level": 4,
+  "prerequisiteCode": "LEVEL3-KEY",
+        "thumbnail":"https://i.ibb.co/Wpq0b5W7/20250709-1507-Vibrant-Cartoon-Character-remix-01jzrcpjj8fa7v98xk6tem1d9q-1.png",
+
+  "levelCode": "LEVEL4-UNLOCK",
+   "exercises": [
+    {
+      "id": 1,
+      "prompt": "Seeing you in that red dress reminds me a lot ___________ our honeymoon. Do you remember that red dress you bought in Hawaii and you wore it nearly every day!",
+      "options": ["about", "to", "on", "of"],
+      "answer": "of"
+    },
+    {
+      "id": 2,
+      "prompt": "My favourite ___________ at school was undoubtedly geography. Now I want to study it at university.",
+      "options": ["material", "subject", "object", "matter"],
+      "answer": "subject"
+    },
+    {
+      "id": 3,
+      "prompt": "You will need very different clothes when you go on holiday ___________ to where you go and the time of year.",
+      "options": ["relying", "according", "depending", "concluding"],
+      "answer": "depending"
+    },
+    {
+      "id": 4,
+      "prompt": "This wine is from the north of the country, is drunk with the local fish and must be ___________ ice cold.",
+      "options": ["given", "prepared", "made", "served"],
+      "answer": "served"
+    },
+    {
+      "id": 5,
+      "prompt": "The price of heating oil has been ___________ up again by the local government. Many people have criticised them for doing so as winter approaches.",
+      "options": ["pushed", "taken", "put", "cost"],
+      "answer": "put"
+    },
+    {
+      "id": 6,
+      "prompt": "Houston is a very ___________ city in the summer and it can be very difficult to sleep at night.",
+      "options": ["wet", "damp", "dripping", "humid"],
+      "answer": "humid"
+    },
+    {
+      "id": 7,
+      "prompt": "My uncle is ___________ deaf so you may have to raise your voice a little, but don't shout at him!",
+      "options": ["slightly", "hardly", "extremely", "just"],
+      "answer": "slightly"
+    },
+    {
+      "id": 8,
+      "prompt": "After the government's defeat in parliament last night, the new transportation recommendations will have to ___________ a little longer before becoming law.",
+      "options": ["anticipate", "expect", "wait", "delay"],
+      "answer": "wait"
+    }
+  ]
+},
+{
+  "level": 5,
+  "prerequisiteCode": "LEVEL4-UNLOCK",
+        "thumbnail":"https://i.ibb.co/Wpq0b5W7/20250709-1507-Vibrant-Cartoon-Character-remix-01jzrcpjj8fa7v98xk6tem1d9q-1.png",
+
+  "levelCode": "LEVEL5-ACCESS",
+  "exercises": [
+    {
+      "id": 1,
+      "prompt": "\"Does this pen belong ___________ you Juan?\" \"No, it is Mick's I think.\"",
+      "options": ["to", "at", "with", "on"],
+      "answer": "to"
+    },
+    {
+      "id": 2,
+      "prompt": "I need to pass a difficult ___________ even before they see me for interview.",
+      "options": ["proof", "skill", "test", "course"],
+      "answer": "test"
+    },
+    {
+      "id": 3,
+      "prompt": "Pass me the ___________, I need to put these sheets together.",
+      "options": ["scissors", "eraser", "stapler", "sharpener"],
+      "answer": "stapler"
+    },
+    {
+      "id": 4,
+      "prompt": "If you help me ___________ the potatoes, I will chop them and you can go and watch the movie.",
+      "options": ["mash", "skin", "break", "peel"],
+      "answer": "peel"
+    },
+    {
+      "id": 5,
+      "prompt": "It isn't going to rain tomorrow, they said, but there may be a few ___________ in the evening.",
+      "options": ["puddles", "showers", "breezes", "gales"],
+      "answer": "showers"
+    },
+    {
+      "id": 6,
+      "prompt": "___________ sounding very boring, the film was actually pretty interesting. I would recommend it!",
+      "options": ["although", "however", "despite", "nevertheless"],
+      "answer": "despite"
+    },
+    {
+      "id": 7,
+      "prompt": "My doctor told me to follow a more ___________ diet and to cut down on my sugar and caffeine.",
+      "options": ["even", "balanced", "equalised", "unbiased"],
+      "answer": "balanced"
+    },
+    {
+      "id": 8,
+      "prompt": "I went back to that house ___________ again but never saw anything that looked like a ghost ever again.",
+      "options": ["over and over", "repeatedly", "constantly", "moreover"],
+      "answer": "repeatedly"
+    }
+  ]
+},
+{
+  "level": 6,
+  "prerequisiteCode": "LEVEL5-ACCESS",
+        "thumbnail":"https://i.ibb.co/Wpq0b5W7/20250709-1507-Vibrant-Cartoon-Character-remix-01jzrcpjj8fa7v98xk6tem1d9q-1.png",
+
+  "levelCode": "LEVEL6-KEY",
+  "exercises": [
+    {
+      "id": 1,
+      "prompt": "I am not accusing you ___________ taking the money. I just want to know if you know where it is!",
+      "options": ["of", "by", "to", "from"],
+      "answer": "of"
+    },
+    {
+      "id": 2,
+      "prompt": "Older people are going to make ___________ a larger proportion of the population in the future.",
+      "options": ["up", "out", "off", "on"],
+      "answer": "up"
+    },
+    {
+      "id": 3,
+      "prompt": "She saw me crying and I expected her to be ___________ to my problems but she just walked away.",
+      "options": ["merciful", "friendly", "sympathetic", "understanding"],
+      "answer": "sympathetic"
+    },
+    {
+      "id": 4,
+      "prompt": "You should make an omelette in a ___________ pan for the best results.",
+      "options": ["flat", "frying", "roasting", "cooking"],
+      "answer": "frying"
+    },
+    {
+      "id": 5,
+      "prompt": "The equipment at the school is old-fashioned and in bad condition. ___________, the teachers seem very unmotivated.",
+      "options": ["anyway", "furthermore", "however", "and"],
+      "answer": "furthermore"
+    },
+    {
+      "id": 6,
+      "prompt": "The machine can be very dangerous, especially when it ___________ in motion.",
+      "options": ["is", "moves", "goes", "has"],
+      "answer": "is"
+    },
+    {
+      "id": 7,
+      "prompt": "You got back so late and you didn't even give me a proper ___________ why you hadn't called me! I'm very unhappy with you.",
+      "options": ["reason", "cause", "motive", "result"],
+      "answer": "reason"
+    },
+    {
+      "id": 8,
+      "prompt": "We have such a long car journey tomorrow. Make sure we bring enough food and games to ___________ for 4 hours so the kids don't get bored.",
+      "options": ["endure", "tolerate", "last", "during"],
+      "answer": "last"
+    }
+  ]
+},
+ {
+      "level": 7,
+      "prerequisiteCode": "LEVEL6-ACCESS",
+      "thumbnail":"https://i.ibb.co/Wpq0b5W7/20250709-1507-Vibrant-Cartoon-Character-remix-01jzrcpjj8fa7v98xk6tem1d9q-1.png",
+      "levelCode": "LEVEL7-KEY",
+       "exercises": [
+    {
+      "id": 1,
+      "prompt": "The champion dancer will hold a press ___________ tomorrow at which you will all be able to ask her any questions you may have.",
+      "options": ["meeting", "seminar", "lecture", "conference"],
+      "answer": "conference"
+    },
+    {
+      "id": 2,
+      "prompt": "When the water ___________, put the eggs in and leave them there for just over two minutes.",
+      "options": ["boils", "steams", "bakes", "simmers"],
+      "answer": "boils"
+    },
+    {
+      "id": 3,
+      "prompt": "This rain means we can't go to the zoo today. ___________, I have a lot to do and it's best we stay home.",
+      "options": ["besides", "however", "on the other hand", "therefore"],
+      "answer": "besides"
+    },
+    {
+      "id": 4,
+      "prompt": "___________ you don't stay out too late, you may go to the party. But remember to be back here no later than 11.30pm.",
+      "options": ["seeing", "though", "provided", "unless"],
+      "answer": "provided"
+    },
+    {
+      "id": 5,
+      "prompt": "Your attitude ___________ it absolutely impossible for me to sympathise with you, Jenny!",
+      "options": ["makes", "causes", "forces", "does"],
+      "answer": "makes"
+    },
+    {
+      "id": 6,
+      "prompt": "The government has a ___________ range of powers to deal with security threats, some of them introduced in recent years.",
+      "options": ["large", "big", "wide", "narrow"],
+      "answer": "wide"
+    },
+    {
+      "id": 7,
+      "prompt": "The problem with your daughter, Mrs. Reilly, is that she sits in my class paying ___________ or no attention to anything that is happening in the class.",
+      "options": ["hardly", "little", "few", "nothing"],
+      "answer": "little"
+    },
+    {
+      "id": 8,
+      "prompt": "Have you ___________ to the same conclusion as I have, Martin? That it must have been William in your office last night?",
+      "options": ["arrived", "reached", "come", "gained"],
+      "answer": "come"
+        }
+      ]
+    },
+ {
+      "level": 8,
+      "prerequisiteCode": "LEVEL7-ACCESS",
+      "thumbnail":"https://i.ibb.co/Wpq0b5W7/20250709-1507-Vibrant-Cartoon-Character-remix-01jzrcpjj8fa7v98xk6tem1d9q-1.png",
+      "levelCode": "LEVEL8-KEY",
+       "exercises": [
+    {
+      "id": 1,
+      "prompt": "This house is so old now. When it rains, the windows leak and the roof needs to be replaced soon. ___________, we love it and would never move to another.",
+      "options": ["nevertheless", "although", "though", "despite"],
+      "answer": "nevertheless"
+    },
+    {
+      "id": 2,
+      "prompt": "You can't ignore this problem any longer. You have to ___________ with it so we can go on with the plan.",
+      "options": ["deal", "do", "solve", "beat"],
+      "answer": "deal"
+    },
+    {
+      "id": 3,
+      "prompt": "I don't like watching soap operas and films on TV. I prefer documentaries with ___________ people talking about their lives.",
+      "options": ["reality", "real", "authentic", "genuine"],
+      "answer": "real"
+    },
+    {
+      "id": 4,
+      "prompt": "Has someone moved the drinks ___________ the table while I was gone? I'm sure that glass in front of Peter was mine.",
+      "options": ["off", "along", "around", "on"],
+      "answer": "around"
+    },
+    {
+      "id": 5,
+      "prompt": "We couldn't find the hotel and it was getting dark ___________ we got out a map and studied it carefully.",
+      "options": ["so", "and", "but", "if"],
+      "answer": "so"
+    },
+    {
+      "id": 6,
+      "prompt": "Well, according to the timetable, a bus should be along in ___________ two minutes. But I wouldn't be surprised if we had to wait another half an hour!",
+      "options": ["less", "below", "about", "round"],
+      "answer": "about"
+    },
+    {
+      "id": 7,
+      "prompt": "Martin Jones, ___________ as the Gentle Bank Robber during his three-year reign, was jailed for 25 years today at the Central Court.",
+      "options": ["named", "reputed", "called", "known"],
+      "answer": "known"
+    },
+    {
+      "id": 8,
+      "prompt": "I was born about 30km ___________ Rome but have always lived in Great Britain.",
+      "options": ["from", "to", "far", "near"],
+      "answer": "from"
+        }
+      ]
+    },
+    {
+  "level": 9,
+  "levelCode": "LEVEL9-KEY",
+  "prerequisiteCode": "LEVEL8-KEY",
+  "thumbnail": "https://i.ibb.co/Wpq0b5W7/20250709-1507-Vibrant-Cartoon-Character-remix-01jzrcpjj8fa7v98xk6tem1d9q-1.png",
+  "exercises": [
+    {
+      "id": 1,
+      "prompt": "Don't wash that sweater in hot water, ___________ it will shrink.",
+      "options": ["unless", "if", "moreover", "otherwise"],
+      "answer": "otherwise"
+    },
+    {
+      "id": 2,
+      "prompt": "___________ the vacation, we had the most wonderful weather imaginable. Sunshine all the way!",
+      "options": ["along", "throughout", "moreover", "all in all"],
+      "answer": "throughout"
+    },
+    {
+      "id": 3,
+      "prompt": "Police arrested a man late last night in connection with the murder. Police expect to charge the ___________ later this morning.",
+      "options": ["guilty", "suspect", "condemned", "arrested"],
+      "answer": "suspect"
+    },
+    {
+      "id": 4,
+      "prompt": "Right, Mrs. Jones. Take these pills twice a day and if the problem ___________ more serious, come back and pay me a visit.",
+      "options": ["goes", "becomes", "turns", "develops"],
+      "answer": "becomes"
+    },
+    {
+      "id": 5,
+      "prompt": "When each group of tourists have paid the entrance fee, ___________ them with a picnic hamper and two parasols.",
+      "options": ["provide", "give", "lend", "give out"],
+      "answer": "provide"
+    },
+    {
+      "id": 6,
+      "prompt": "You are the only person in this company who ___________ access to both the staff phone list and the bank information of every employee. Please remember it is a huge responsibility.",
+      "options": ["has", "takes", "opens", "sees"],
+      "answer": "has"
+    },
+    {
+      "id": 7,
+      "prompt": "We all just looked at the bill and then realised that __________ wasn't even included! So we had to pay another 15% on top of that! I am never going back to that restaurant.",
+      "options": ["services", "serving", "serves", "service"],
+      "answer": "service"
+    },
+    {
+      "id": 8,
+      "prompt": "We got home to find the children __________ down the marble hallway in their socks.",
+      "options": ["sliding", "skidding", "falling", "crashing"],
+      "answer": "sliding"
+    }
+  ]
+},
+{
+  "level": 10,
+  "levelCode": "LEVEL10-KEY",
+  "prerequisiteCode": "LEVEL9-KEY",
+  "thumbnail": "https://i.ibb.co/Wpq0b5W7/20250709-1507-Vibrant-Cartoon-Character-remix-01jzrcpjj8fa7v98xk6tem1d9q-1.png",
+  "exercises": [
+    {
+      "id": 1,
+      "prompt": "It was in the 19th Century that scientists began to realise that monkeys and apes were ____________ relatives of man.",
+      "options": ["remote", "distant", "far", "vague"],
+      "answer": "distant"
+    },
+    {
+      "id": 2,
+      "prompt": "Overall, six universities have accepted my application but I ____________ to go to Chicago because my aunt and uncle live there.",
+      "options": ["select", "prefer", "like", "enjoy"],
+      "answer": "prefer"
+    },
+    {
+      "id": 3,
+      "prompt": "The ____________ of the coastal areas in these parts were called \"Myami\" but the tribes died out around 600 years ago as European explorers moved into the area.",
+      "options": ["tenants", "inhabitants", "constituents", "citizens"],
+      "answer": "inhabitants"
+    },
+    {
+      "id": 4,
+      "prompt": "He's taken my bag! Just when you need a policeman, there isn't a single one in ____________!",
+      "options": ["vision", "sight", "reach", "existence"],
+      "answer": "sight"
+    },
+    {
+      "id": 5,
+      "prompt": "Christmas Day ____________ on a Sunday this year.",
+      "options": ["comes", "becomes", "falls", "places"],
+      "answer": "falls"
+    },
+    {
+      "id": 6,
+      "prompt": "My original ____________ was not to cut jobs but only to reduce expenditure in the company.",
+      "options": ["direction", "view", "aim", "destination"],
+      "answer": "aim"
+    },
+    {
+      "id": 7,
+      "prompt": "Why are you blaming your sister? In my opinion, you are ____________ to blame for this accident!",
+      "options": ["strongly", "dominantly", "entirely", "freely"],
+      "answer": "entirely"
+    },
+    {
+      "id": 8,
+      "prompt": "You should ____________ advantage of our special offer while we have it, Mrs. Foulkes.",
+      "options": ["get", "take", "hold", "have"],
+      "answer": "take"
+    }
+  ]
+},
+{
+    "level": 11,
+    "levelCode": "LEVEL11-KEY",
+    "prerequisiteCode": "LEVEL10-KEY",
+    "thumbnail": "https://i.ibb.co/Wpq0b5W7/20250709-1507-Vibrant-Cartoon-Character-remix-01jzrcpjj8fa7v98xk6tem1d9q-1.png",
+    "exercises": [
+      {
+        "id": 1,
+        "prompt": "Inspector Grant visited the suspect's house on three occasions and on the third ____________ a remarkable discovery.",
+        "options": ["did", "found", "took", "made"],
+        "answer": "made"
+      },
+      {
+        "id": 2,
+        "prompt": "By studying fossils, many things can be learnt including even the events that ____________ to the animal's death.",
+        "options": ["caused", "went", "led", "influenced"],
+        "answer": "led"
+      },
+      {
+        "id": 3,
+        "prompt": "To ____________ up, what we would like to see is a more aggressive policing in the area and more attention given to the victims of crime...and less to the criminals!",
+        "options": ["add", "sum", "total", "figure"],
+        "answer": "sum"
+      },
+      {
+        "id": 4,
+        "prompt": "My uncle has a large greenhouse in his garden which he uses to ____________ tropical fruit.",
+        "options": ["grow", "rear", "breed", "raise"],
+        "answer": "grow"
+      },
+      {
+        "id": 5,
+        "prompt": "If we want to get to Chicago by sunset, it ____________ having to leave at dawn tomorrow.",
+        "options": ["intends", "means", "wants", "needs"],
+        "answer": "means"
+      },
+      {
+        "id": 6,
+        "prompt": "It will be hard to find the area of land ____________ to build a factory such as this.",
+        "options": ["obliged", "required", "meant", "designed"],
+        "answer": "required"
+      },
+      {
+        "id": 7,
+        "prompt": "I like my part time job but I would like all the advantages of having a full-time contract, ____________ a company car and a good vacation package.",
+        "options": ["such", "example", "like", "containing"],
+        "answer": "such"
+      },
+      {
+        "id": 8,
+        "prompt": "Be careful swimming Jason. The water here gets very ____________ suddenly.",
+        "options": ["profound", "deep", "wide", "high"],
+        "answer": "deep"
+      }
+    ]
+  },
+  {
+    "level": 12,
+    "levelCode": "LEVEL12-KEY",
+    "prerequisiteCode": "LEVEL11-KEY",
+    "thumbnail": "https://i.ibb.co/Wpq0b5W7/20250709-1507-Vibrant-Cartoon-Character-remix-01jzrcpjj8fa7v98xk6tem1d9q-1.png",
+    "exercises": [
+      {
+        "id": 1,
+        "prompt": "Could you turn the central heating up a little more please. I can ____________ notice any difference in the temperature from an hour ago.",
+        "options": ["barely", "hard", "just", "rather"],
+        "answer": "barely"
+      },
+      {
+        "id": 2,
+        "prompt": "Scientists are warning that human activity is starting to cause ____________ in the Earth's climate due to increasing temperatures.",
+        "options": ["alterations", "changes", "deviations", "substitutions"],
+        "answer": "changes"
+      },
+      {
+        "id": 3,
+        "prompt": "The unions are trying to present a ____________ front in their dispute with the government.",
+        "options": ["united", "bound", "single", "unique"],
+        "answer": "united"
+      },
+      {
+        "id": 4,
+        "prompt": "Though many eminent scientists have travelled to Loch Ness in Scotland, the famous monster has never been ____________ by any of them.",
+        "options": ["seen", "witnessed", "viewed", "watched"],
+        "answer": "seen"
+      },
+      {
+        "id": 5,
+        "prompt": "If you need to speak to me, I ____________ that my attorney is present.",
+        "options": ["insist", "must", "force", "make"],
+        "answer": "insist"
+      },
+      {
+        "id": 6,
+        "prompt": "We found a wonderful house just on the ____________ of the town.",
+        "options": ["border", "confines", "edge", "side"],
+        "answer": "edge"
+      },
+      {
+        "id": 7,
+        "prompt": "Run to the supermarket! We're ____________ out of wine.",
+        "options": ["running", "falling", "going", "dropping"],
+        "answer": "running"
+      },
+      {
+        "id": 8,
+        "prompt": "The islands in this area were ____________ when a huge volcano erupted.",
+        "options": ["manufactured", "created", "set", "founded"],
+        "answer": "created"
+      }
+    ]
+  },
+  {
+    "level": 13,
+    "levelCode": "LEVEL13-KEY",
+    "prerequisiteCode": "LEVEL12-KEY",
+    "thumbnail": "https://i.ibb.co/Wpq0b5W7/20250709-1507-Vibrant-Cartoon-Character-remix-01jzrcpjj8fa7v98xk6tem1d9q-1.png",
+    "exercises": [
+      {
+        "id": 1,
+        "prompt": "I lifted the lid of the box just a centimetre or two and could ____________ two shiny eyes staring out at me.",
+        "options": ["give out", "make out", "make up", "look up"],
+        "answer": "make out"
+      },
+      {
+        "id": 2,
+        "prompt": "The famous dodo, which lived on the island of Madagascar, ____________ extinct in the 17th Century.",
+        "options": ["left", "got", "turned", "became"],
+        "answer": "became"
+      },
+      {
+        "id": 3,
+        "prompt": "A ____________ in communication led to further fighting.",
+        "options": ["fall off", "break-up", "breakout", "breakdown"],
+        "answer": "breakdown"
+      },
+      {
+        "id": 4,
+        "prompt": "I don't know why you are laughing Maggie. I consider this to be a ____________ serious issue.",
+        "options": ["sharply", "gravely", "mainly", "largely"],
+        "answer": "gravely"
+      },
+      {
+        "id": 5,
+        "prompt": "Do you feel ____________ talking about your childhood?",
+        "options": ["comfortable", "favorable", "warm", "agreeable"],
+        "answer": "comfortable"
+      },
+      {
+        "id": 6,
+        "prompt": "The course also ____________ a few lesson specifically for those interested in going to live in Spain.",
+        "options": ["involves", "consists", "contains", "comprises"],
+        "answer": "includes"
+      },
+      {
+        "id": 7,
+        "prompt": "The noise in the hall was terrible but he just ____________ on speaking.",
+        "options": ["went", "let", "ran", "set"],
+        "answer": "went"
+      },
+      {
+        "id": 8,
+        "prompt": "That's the first good idea you've ____________ since breakfast.",
+        "options": ["made", "had", "got", "thought"],
+        "answer": "had"
+      }
+    ]
+  },
+  {
+    "level": 14,
+    "levelCode": "LEVEL14-KEY",
+    "prerequisiteCode": "LEVEL13-KEY",
+    "thumbnail": "https://i.ibb.co/Wpq0b5W7/20250709-1507-Vibrant-Cartoon-Character-remix-01jzrcpjj8fa7v98xk6tem1d9q-1.png",
+    "exercises": [
+      {
+        "id": 1,
+        "prompt": "Michelle came nearer the house but then she ran ____________ when she saw our big black dog.",
+        "options": ["of", "away", "across", "around"],
+        "answer": "away"
+      },
+      {
+        "id": 2,
+        "prompt": "The tiger belongs to the big cat family, but ____________ the panther which lives in South America, it is found mainly in Asia.",
+        "options": ["whether", "while", "unlike", "dissimilar"],
+        "answer": "unlike"
+      },
+      {
+        "id": 3,
+        "prompt": "Jason Rewerd, 27, has been charged with abandoning his ____________ and failing to report for duty.",
+        "options": ["gate", "post", "job", "checkpoint"],
+        "answer": "post"
+      },
+      {
+        "id": 4,
+        "prompt": "The Antarctic may seem empty but it is actually ____________ to hundreds of animal species.",
+        "options": ["dwelling", "shelter", "home", "habitat"],
+        "answer": "home"
+      },
+      {
+        "id": 5,
+        "prompt": "You can see how this artist has ____________ the well-known style of earlier artists.",
+        "options": ["repeated", "imitated", "twinned", "modelled"],
+        "answer": "imitated"
+      },
+      {
+        "id": 6,
+        "prompt": "____________ temperatures have made living in this region more difficult.",
+        "options": ["raising", "enlarging", "rising", "growing"],
+        "answer": "rising"
+      },
+      {
+        "id": 7,
+        "prompt": "How much would it cost to put a new ____________ on this old picture?",
+        "options": ["border", "surround", "frame", "square"],
+        "answer": "frame"
+      },
+      {
+        "id": 8,
+        "prompt": "In the event of fire, ____________ the glass and use the extinguisher.",
+        "options": ["crash", "crack", "hit", "smash"],
+        "answer": "smash"
+      }
+    ]
+  },
+  {
+    "level": 15,
+    "levelCode": "LEVEL15-KEY",
+    "prerequisiteCode": "LEVEL14-KEY",
+    "thumbnail": "https://i.ibb.co/Wpq0b5W7/20250709-1507-Vibrant-Cartoon-Character-remix-01jzrcpjj8fa7v98xk6tem1d9q-1.png",
+    "exercises": [
+      {
+        "id": 1,
+        "prompt": "I don't need these typewriters. If you can ________ a good use for them, you can have them.",
+        "options": ["find", "have", "put", "do"],
+        "answer": "find"
+      },
+      {
+        "id": 2,
+        "prompt": "I didn't buy this ring. It was ________ down to me by my uncle Peter.",
+        "options": ["given", "passed", "handed", "sent"],
+        "answer": "passed"
+      },
+      {
+        "id": 3,
+        "prompt": "The two soldiers looked up at the sun ________ in the sky.",
+        "options": ["burning", "glittering", "gleaming", "firing"],
+        "answer": "burning"
+      },
+      {
+        "id": 4,
+        "prompt": "I can't ________ why you lent him the money.",
+        "options": ["assume", "think of", "figure", "imagine"],
+        "answer": "figure"
+      },
+      {
+        "id": 5,
+        "prompt": "There's no way I can let you go out again tonight. ________, it's raining.",
+        "options": ["although", "however", "moreover", "besides"],
+        "answer": "besides"
+      },
+      {
+        "id": 6,
+        "prompt": "Only put a little oil. If you ________ in too much, it will be greasy.",
+        "options": ["crumble", "spill", "sip", "pour"],
+        "answer": "pour"
+      },
+      {
+        "id": 7,
+        "prompt": "The wild area to the north of the lake ________ of forests and small lakes.",
+        "options": ["makes", "comprises", "consists", "contains"],
+        "answer": "consists"
+      },
+      {
+        "id": 8,
+        "prompt": "We're going to play a game which should be ________ to you all: scrabble!",
+        "options": ["popular", "normal", "widespread", "familiar"],
+        "answer": "familiar"
+      }
+    ]
+  },
+  {
+    "level": 16,
+    "levelCode": "LEVEL16-KEY",
+    "prerequisiteCode": "LEVEL15-KEY",
+    "thumbnail": "https://i.ibb.co/Wpq0b5W7/20250709-1507-Vibrant-Cartoon-Character-remix-01jzrcpjj8fa7v98xk6tem1d9q-1.png",
+    "exercises": [
+      {
+        "id": 1,
+        "prompt": "I couldn't ________ the courage to go inside the haunted house.",
+        "options": ["get", "see", "find", "experience"],
+        "answer": "get"
+      },
+      {
+        "id": 2,
+        "prompt": "He is a very ________ man and you can learn a lot from him.",
+        "options": ["well known", "all knowing", "knowledgeable", "know-it-all"],
+        "answer": "knowledgeable"
+      },
+      {
+        "id": 3,
+        "prompt": "You can go anywhere along the riverfront ________ from 'The Grand Eatery'.",
+        "options": ["apart", "excluding", "except", "but"],
+        "answer": "except"
+      },
+      {
+        "id": 4,
+        "prompt": "I got lost again. That ________ it three times this month!",
+        "options": ["makes", "leaves", "totals", "gives"],
+        "answer": "makes"
+      },
+      {
+        "id": 5,
+        "prompt": "They want to build a lake in the park, which ________ two districts.",
+        "options": ["disconnects", "splits", "separates", "parts"],
+        "answer": "separates"
+      },
+      {
+        "id": 6,
+        "prompt": "Be careful of the high winds on that ________ stretch of road.",
+        "options": ["horizontal", "straight", "open", "fast"],
+        "answer": "open"
+      },
+      {
+        "id": 7,
+        "prompt": "He now earns ________ to double what he earned before.",
+        "options": ["near", "almost", "next", "close"],
+        "answer": "almost"
+      },
+      {
+        "id": 8,
+        "prompt": "Each farmworker was given a small ________ of land.",
+        "options": ["line", "plot", "measure", "breadth"],
+        "answer": "plot"
+      }
+    ]
+  },
+  {
+    "level": 17,
+    "levelCode": "LEVEL17-KEY",
+    "prerequisiteCode": "LEVEL16-KEY",
+    "thumbnail": "https://i.ibb.co/Wpq0b5W7/20250709-1507-Vibrant-Cartoon-Character-remix-01jzrcpjj8fa7v98xk6tem1d9q-1.png",
+    "exercises": [
+      {
+        "id": 1,
+        "prompt": "Elvis Presley was, without ________, one of the best rock and roll singers of all time.",
+        "options": ["hesitation", "doubt", "explanation", "questions"],
+        "answer": "doubt"
+      },
+      {
+        "id": 2,
+        "prompt": "I stayed at work all day and ________ got very little done.",
+        "options": ["yet", "despite", "just", "moreover"],
+        "answer": "yet"
+      },
+      {
+        "id": 3,
+        "prompt": "________ you won't appreciate it yet, you'll be happy that you stopped smoking when your health improves.",
+        "options": ["But", "However", "Although", "Yet"],
+        "answer": "Although"
+      },
+      {
+        "id": 4,
+        "prompt": "I haven't seen Kathy since we both ________ school in 1999.",
+        "options": ["stopped", "graduated", "departed", "left"],
+        "answer": "left"
+      },
+      {
+        "id": 5,
+        "prompt": "For ________ of security, we have had to cancel tonight's performance...",
+        "options": ["motivation", "because", "reasons", "consequence"],
+        "answer": "reasons"
+      },
+      {
+        "id": 6,
+        "prompt": "...but all ticket costs will be refunded in ________.",
+        "options": ["full", "complete", "wholeness", "entire"],
+        "answer": "full"
+      },
+      {
+        "id": 7,
+        "prompt": "He graduated from Harvard but never ________ to become as successful as his father was.",
+        "options": ["achieved", "reached", "succeeded", "managed"],
+        "answer": "managed"
+      },
+      {
+        "id": 8,
+        "prompt": "We had taken more supplies than usual with us ________ the weather turned bad.",
+        "options": ["supposing", "if", "in case", "because of"],
+        "answer": "in case"
+      }
+    ]
+  },
+  {
+    "level": 18,
+    "levelCode": "LEVEL18-KEY",
+    "prerequisiteCode": "LEVEL17-KEY",
+    "thumbnail": "https://i.ibb.co/Wpq0b5W7/20250709-1507-Vibrant-Cartoon-Character-remix-01jzrcpjj8fa7v98xk6tem1d9q-1.png",
+    "exercises": [
+      {
+        "id": 1,
+        "prompt": "That medicine is working well, I'm feeling better than _____.",
+        "options": ["never", "ever", "once", "only"],
+        "answer": "ever"
+      },
+      {
+        "id": 2,
+        "prompt": "Two thousand years ago, it was still _____ believed that the Earth was flat.",
+        "options": ["widely", "mostly", "heavily", "strictly"],
+        "answer": "widely"
+      },
+      {
+        "id": 3,
+        "prompt": "Can you _____ out the name of the mechanic you used?",
+        "options": ["pull", "draw", "give", "find"],
+        "answer": "find"
+      },
+      {
+        "id": 4,
+        "prompt": "I was walking _____ the street yesterday when I met my uncle.",
+        "options": ["over", "along", "into", "round"],
+        "answer": "along"
+      },
+      {
+        "id": 5,
+        "prompt": "I'm very _____ to the idea of working from home.",
+        "options": ["pushed", "pulled", "attracted", "taken"],
+        "answer": "attracted"
+      },
+      {
+        "id": 6,
+        "prompt": "John Keely? Are you any _____ to Daniel Keely?",
+        "options": ["parent", "family", "relation", "connection"],
+        "answer": "relation"
+      },
+      {
+        "id": 7,
+        "prompt": "Can you find your _____ back to the main road?",
+        "options": ["way", "road", "path", "track"],
+        "answer": "way"
+      },
+      {
+        "id": 8,
+        "prompt": "I haven't been up into the attic for twenty years. Anything _____ be up there!",
+        "options": ["can", "must", "should", "might"],
+        "answer": "might"
+      }
+    ]
+  }
+
+
+    
+  ]
+}

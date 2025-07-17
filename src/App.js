@@ -32,10 +32,7 @@ import RoadMapMed from "./pages/RoadMapMed";
 import RoadMapDev from "./pages/RoadMapDev";
 import RoadMapEnam from "./pages/RoadMapEnam";
 import RoadMapFrench from "./pages/RoadMapFrench";
-import RoadMapB2 from "./pages/RoadMapB2";
 import RoadMapC1 from "./pages/RoadMapC1";
-import RoadMapA1 from "./pages/RoadMapA1";
-import RoadMapB1 from "./pages/RoadMapB1";
 import Team from "./pages/Team";
 import MebLanding from "./pages/myenglishbro/MebLanding";
 import IPJLanding from "./pages/inglesconelprofejuan/IPJLanding";
@@ -47,7 +44,6 @@ import Certificate from "./pages/Certificate";
 import RoadMapC2 from "./pages/RoadMapC2";
 import RoadMapUoe from "./pages/RoadMapUoe";
 import RoadMapEg from "./pages/RoadMapEg";
-import RoadMapB2C from "./pages/RoadMapB2C";
 import RoadMapB2CF from "./pages/RoadMapB2CF";
 import TextFileUploader from "./components/WriteQuiz";
 import GrammarSpaceDefender from "./components/MultipleChoiceTrainer";
@@ -91,6 +87,8 @@ import UseOfEnglishSimulator from "./components/SimulatorB2/UseOfEnglishSimulato
 import KeywordTransformation from "./components/Aplicativos/kwt/KeywordTransformation.jsx";
 import InicioC1 from "./components/Login/LoginC1/InicioC1.jsx";
 import MultiLevelQuiz from "./components/Aplicativos/presentsimpleduo/Multilevelquiz.jsx";
+import MultiLevelQuiz2 from "./components/Aplicativos/pastsimpleperfect/Multilevelquiz2.jsx";
+import MultiLevelQuiz3 from "./components/Aplicativos/multiplechoicecloze/Multilevelquiz3.jsx";
 
 function App() {
   return (
@@ -117,6 +115,8 @@ function App() {
           <Route path="/108pv" element={<Quizbank01 />}></Route>
           <Route path="/simulator" element={<UseOfEnglishSimulator />}></Route>
           <Route path="/presentsimpleprogressive" element={<MultiLevelQuiz />}></Route>
+          <Route path="/pastsimpleperfect" element={<MultiLevelQuiz2 />}></Route>
+          <Route path="/multiplechoice" element={<MultiLevelQuiz3 />}></Route>
 
           <Route path="/Celpip" element={<InicioC />}></Route>
           <Route path="/task01" element={<CELPIPSpeaking />}></Route>

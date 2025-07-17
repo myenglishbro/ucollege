@@ -1,0 +1,1399 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "levelCode": "LEVEL1-UNLOCK",
+            "thumbnail":"https://i.ibb.co/Wpq0b5W7/20250709-1507-Vibrant-Cartoon-Character-remix-01jzrcpjj8fa7v98xk6tem1d9q-1.png",
+
+     "exercises": [
+        {
+          "id": 1,
+          "prompt": "So far, Jill ______________ almost half of the book.",
+          "options": [
+            "Jill has read almost half of the book.",
+            "Jill reads almost half of the book."
+          ],
+          "answer": "Jill has read almost half of the book."
+        },
+        {
+          "id": 2,
+          "prompt": "Do you know who ______________ the telephone? – It ______________ Alexander Graham Bell.",
+          "options": [
+            "invented / was",
+            "has invented / is"
+          ],
+          "answer": "invented / was"
+        },
+        {
+          "id": 3,
+          "prompt": "On her trip across Asia, Mum ______________ three countries up to now.",
+          "options": [
+            "has visited three countries up to now.",
+            "visited three countries up to now."
+          ],
+          "answer": "has visited three countries up to now."
+        },
+        {
+          "id": 4,
+          "prompt": "How many books ______________ in the last few years?",
+          "options": [
+            "has he written in the last few years?",
+            "did he write in the last few years?"
+          ],
+          "answer": "has he written in the last few years?"
+        },
+        {
+          "id": 5,
+          "prompt": "Martha lives in Dublin. She's ______________ there her whole life, ever since her dad ______________ a few years ago.",
+          "options": [
+            "has lived / died",
+            "lived / has died"
+          ],
+          "answer": "has lived / died"
+        },
+        {
+          "id": 6,
+          "prompt": "Paul and Gina ______________ an hour ago. They ______________ problems with their flight.",
+          "options": [
+            "arrived / had",
+            "have arrived / have had"
+          ],
+          "answer": "arrived / had"
+        },
+        {
+          "id": 7,
+          "prompt": "Drugs ______________ a huge problem in the United States.",
+          "options": [
+            "have become a huge problem in the United States.",
+            "become a huge problem in the United States."
+          ],
+          "answer": "have become a huge problem in the United States."
+        },
+        {
+          "id": 8,
+          "prompt": "Granddad ______________ in hospital since Monday. He ______________ in hospital before.",
+          "options": [
+            "has been in hospital since Monday. He has never been in hospital before.",
+            "is in hospital since Monday. He never was in hospital before."
+          ],
+          "answer": "has been in hospital since Monday. He has never been in hospital before."
+        },
+        {
+          "id": 9,
+          "prompt": "______________ the Queen in person? No, but I ______________ Prince Andrew at a concert a few months ago.",
+          "options": [
+            "Have you ever seen / saw",
+            "Did you ever see / have seen"
+          ],
+          "answer": "Have you ever seen / saw"
+        },
+        {
+          "id": 10,
+          "prompt": "Mozart ______________ over 600 pieces of music during his lifetime.",
+          "options": [
+            "wrote over 600 pieces of music during his lifetime.",
+            "has written over 600 pieces of music during his lifetime."
+          ],
+          "answer": "wrote over 600 pieces of music during his lifetime."
+        },
+        {
+          "id": 11,
+          "prompt": "They ______________ to Spain on holiday last summer.",
+          "options": [
+            "went to Spain on holiday last summer.",
+            "have gone to Spain on holiday last summer."
+          ],
+          "answer": "went to Spain on holiday last summer."
+        },
+        {
+          "id": 12,
+          "prompt": "I'm hungry. I ______________ anything for hours.",
+          "options": [
+            "haven't eaten anything for hours.",
+            "didn't eat anything for hours."
+          ],
+          "answer": "haven't eaten anything for hours."
+        },
+        {
+          "id": 13,
+          "prompt": "I ______________ my key and can't find it anywhere.",
+          "options": [
+            "have lost my key and can't find it anywhere.",
+            "lost my key and can't find it anywhere."
+          ],
+          "answer": "have lost my key and can't find it anywhere."
+        },
+        {
+          "id": 14,
+          "prompt": "He ______________ as a war correspondent during the second Iraq war.",
+          "options": [
+            "worked as a war correspondent during the second Iraq war.",
+            "has worked as a war correspondent during the second Iraq war."
+          ],
+          "answer": "worked as a war correspondent during the second Iraq war."
+        },
+        {
+          "id": 15,
+          "prompt": "I ______________ a huge meal for lunch and simply can't eat anything at the moment.",
+          "options": [
+            "have had a huge meal for lunch and simply can't eat anything at the moment.",
+            "had a huge meal for lunch and simply can't eat anything at the moment."
+          ],
+          "answer": "have had a huge meal for lunch and simply can't eat anything at the moment."
+        },
+        {
+          "id": 16,
+          "prompt": "It ______________ yet this week, but last week it ______________ a lot.",
+          "options": [
+            "hasn't rained yet this week, but last week it rained a lot.",
+            "didn't rain yet this week, but last week it has rained a lot."
+          ],
+          "answer": "hasn't rained yet this week, but last week it rained a lot."
+        },
+        {
+          "id": 17,
+          "prompt": "According to her statement, she ______________ at the Crown Hotel from last Monday to Thursday.",
+          "options": [
+            "stayed at the Crown Hotel from last Monday to Thursday.",
+            "has stayed at the Crown Hotel from last Monday to Thursday."
+          ],
+          "answer": "stayed at the Crown Hotel from last Monday to Thursday."
+        },
+        {
+          "id": 18,
+          "prompt": "Who ______________ at the cinema last night?",
+          "options": [
+            "did you meet at the cinema last night?",
+            "have you met at the cinema last night?"
+          ],
+          "answer": "did you meet at the cinema last night?"
+        },
+        {
+          "id": 19,
+          "prompt": "I don't need any new driving lessons. I ______________ the test.",
+          "options": [
+            "have already passed the test.",
+            "already passed the test."
+          ],
+          "answer": "have already passed the test."
+        },
+        {
+          "id": 20,
+          "prompt": "Fortunately, I ______________ any bones.",
+          "options": [
+            "have never broken any bones.",
+            "never broke any bones."
+          ],
+          "answer": "have never broken any bones."
+        },
+        {
+          "id": 21,
+          "prompt": "My cousins ______________ in Dublin since their childhood. Marvin ______________ to America when he was 16 but only ______________ there for a few years. Then he ______________ back to Ireland.",
+          "options": [
+            "have been in Dublin since their childhood. Marvin went to America when he was 16 but only stayed there for a few years. Then he came back to Ireland.",
+            "are in Dublin since their childhood. Marvin has gone to America when he was 16 but only staying there for a few years. Then he is coming back to Ireland."
+          ],
+          "answer": "have been in Dublin since their childhood. Marvin went to America when he was 16 but only stayed there for a few years. Then he came back to Ireland."
+        },
+        {
+          "id": 22,
+          "prompt": "I ______________ the car. Now it looks great!",
+          "options": [
+            "have washed the car. Now it looks great!",
+            "washed the car. Now it looks great!"
+          ],
+          "answer": "have washed the car. Now it looks great!"
+        },
+        {
+          "id": 23,
+          "prompt": "She ______________ smoking a few months ago.",
+          "options": [
+            "stopped smoking a few months ago.",
+            "has stopped smoking a few months ago."
+          ],
+          "answer": "stopped smoking a few months ago."
+        },
+        {
+          "id": 24,
+          "prompt": "Back in March, I ______________ enough money to buy a new car. Now, I can afford one.",
+          "options": [
+            "hadn't had enough money to buy a new car. Now, I can afford one.",
+            "haven't had enough money to buy a new car. Now, I can afford one."
+          ],
+          "answer": "hadn't had enough money to buy a new car. Now, I can afford one."
+        },
+        {
+          "id": 25,
+          "prompt": "Scientist ______________ a major discovery in medicine.",
+          "options": [
+            "have just made a major discovery in medicine.",
+            "just made a major discovery in medicine."
+          ],
+          "answer": "have just made a major discovery in medicine."
+        }
+      ]
+    },
+     {
+      "level": 2,
+      "levelCode": "LEVEL2-ACCESS",
+      "prerequisiteCode": "LEVEL1-UNLOCK",
+            "thumbnail":"https://i.ibb.co/Wpq0b5W7/20250709-1507-Vibrant-Cartoon-Character-remix-01jzrcpjj8fa7v98xk6tem1d9q-1.png",
+      "exercises": [
+        {
+          "id": 1,
+          "prompt": "The weather around here ______________ terrible in the last few weeks.",
+          "options": [
+            "has been terrible",
+            "was terrible"
+          ],
+          "answer": "has been terrible"
+        },
+        {
+          "id": 2,
+          "prompt": "Maria ______________ her suitcase last night.",
+          "options": [
+            "packed her suitcase last night",
+            "has packed her suitcase last night"
+          ],
+          "answer": "packed her suitcase last night"
+        },
+        {
+          "id": 3,
+          "prompt": "I ______________ volleyball since I was a teenager.",
+          "options": [
+            "haven't played volleyball since I was a teenager",
+            "didn't play volleyball since I was a teenager"
+          ],
+          "answer": "haven't played volleyball since I was a teenager"
+        },
+        {
+          "id": 4,
+          "prompt": "We ______________ help wash the dishes. They're all clean now.",
+          "options": [
+            "haven't had to help wash the dishes",
+            "didn't have to help wash the dishes"
+          ],
+          "answer": "haven't had to help wash the dishes"
+        },
+        {
+          "id": 5,
+          "prompt": "They ______________ the factory. – Really? When ______________?",
+          "options": [
+            "closed / did that happen",
+            "have closed / has that happened"
+          ],
+          "answer": "closed / did that happen"
+        },
+        {
+          "id": 6,
+          "prompt": "______________ yet? (YOUR BUSINESS COURSE – START)",
+          "options": [
+            "Has your business course started yet",
+            "Did your business course start yet"
+          ],
+          "answer": "Has your business course started yet"
+        },
+        {
+          "id": 7,
+          "prompt": "How long ______________ that camera? – About a month. I ______________ it because it was on sale just before Christmas.",
+          "options": [
+            "have you had / bought",
+            "did you have / have bought"
+          ],
+          "answer": "have you had / bought"
+        },
+        {
+          "id": 8,
+          "prompt": "______________ last week's magazine? – It must be here because I ______________ it on Monday.",
+          "options": [
+            "Have you seen / bought",
+            "Did you see / have bought"
+          ],
+          "answer": "Have you seen / bought"
+        },
+        {
+          "id": 9,
+          "prompt": "The books you ordered ______________. The delivery service ______________ them an hour ago.",
+          "options": [
+            "have arrived / brought",
+            "arrived / have brought"
+          ],
+          "answer": "have arrived / brought"
+        },
+        {
+          "id": 10,
+          "prompt": "The Queen ______________ her two-week tour through Australia yesterday.",
+          "options": [
+            "started her two-week tour through Australia yesterday",
+            "has started her two-week tour through Australia yesterday"
+          ],
+          "answer": "started her two-week tour through Australia yesterday"
+        },
+        {
+          "id": 11,
+          "prompt": "The plane from New York ______________. The passengers are getting out.",
+          "options": [
+            "has just landed",
+            "just landed"
+          ],
+          "answer": "has just landed"
+        },
+        {
+          "id": 12,
+          "prompt": "We ______________ a party at school for ages.",
+          "options": [
+            "haven't had a party at school for ages",
+            "didn't have a party at school for ages"
+          ],
+          "answer": "haven't had a party at school for ages"
+        },
+        {
+          "id": 13,
+          "prompt": "I ______________ a cold in school a few days ago and ______________ ill ever since.",
+          "options": [
+            "caught / have been",
+            "have caught / was"
+          ],
+          "answer": "caught / have been"
+        },
+        {
+          "id": 14,
+          "prompt": "Dinosaurs ______________ around the earth millions of years ago.",
+          "options": [
+            "wandered around the earth millions of years ago",
+            "have wandered around the earth millions of years ago"
+          ],
+          "answer": "wandered around the earth millions of years ago"
+        },
+        {
+          "id": 15,
+          "prompt": "Prices ______________ up last year, but they ______________ by 8% already this year.",
+          "options": [
+            "didn't go / have increased",
+            "haven't gone / increased"
+          ],
+          "answer": "didn't go / have increased"
+        },
+        {
+          "id": 16,
+          "prompt": "I'm so tired. I ______________ all the way to the underground station.",
+          "options": [
+            "have walked all the way to the underground station",
+            "walked all the way to the underground station"
+          ],
+          "answer": "have walked all the way to the underground station"
+        },
+        {
+          "id": 17,
+          "prompt": "We ______________ home from our holidays and are getting ready to settle in.",
+          "options": [
+            "have just come home from our holidays",
+            "just came home from our holidays"
+          ],
+          "answer": "have just come home from our holidays"
+        },
+        {
+          "id": 18,
+          "prompt": "She ______________ in London for three years. However, when her mom ______________, she ______________ to Leeds and ______________ there ever since.",
+          "options": [
+            "has lived / died / moved / has lived",
+            "lived / has died / has moved / lived"
+          ],
+          "answer": "has lived / died / moved / has lived"
+        },
+        {
+          "id": 19,
+          "prompt": "Dusty ______________ a match so far this year. He is more successful than last year, when he ______________ the first three matches.",
+          "options": [
+            "has never lost / lost",
+            "never lost / has lost"
+          ],
+          "answer": "has never lost / lost"
+        },
+        {
+          "id": 20,
+          "prompt": "He ______________ off the ladder and ______________ his ankle. That's why he ______________ in school for a while.",
+          "options": [
+            "fell / broke / hasn't been",
+            "has fallen / has broken / didn't be"
+          ],
+          "answer": "fell / broke / hasn't been"
+        }
+      ]
+    },
+    {
+      "level": 3,
+      "prerequisiteCode": "LEVEL2-ACCESS",
+            "thumbnail":"https://i.ibb.co/Wpq0b5W7/20250709-1507-Vibrant-Cartoon-Character-remix-01jzrcpjj8fa7v98xk6tem1d9q-1.png",
+
+      "levelCode": "LEVEL3-KEY",
+      "exercises": [
+        {
+          "id": 1,
+          "prompt": "Dad ______________ us to school every morning. (DRIVE)",
+          "options": [
+            "Dad drives us to school every morning.",
+            "Dad is driving us to school every morning."
+          ],
+          "answer": "Dad drives us to school every morning."
+        },
+        {
+          "id": 2,
+          "prompt": "Max ______________ at an Internet café this summer. (WORK)",
+          "options": [
+            "Max works at an Internet café this summer.",
+            "Max is working at an Internet café this summer."
+          ],
+          "answer": "Max is working at an Internet café this summer."
+        },
+        {
+          "id": 3,
+          "prompt": "We ______________ abroad this year because of the pandemic. (NOT GO)",
+          "options": [
+            "We do not go abroad this year because of the pandemic.",
+            "We are not going abroad this year because of the pandemic."
+          ],
+          "answer": "We are not going abroad this year because of the pandemic."
+        },
+        {
+          "id": 4,
+          "prompt": "It never ______________ in the Atacama Desert in Chile. (RAIN)",
+          "options": [
+            "It never rains in the Atacama Desert in Chile.",
+            "It is never raining in the Atacama Desert in Chile."
+          ],
+          "answer": "It never rains in the Atacama Desert in Chile."
+        },
+        {
+          "id": 5,
+          "prompt": "Marty ______________ to the fitness centre on Mondays. (NOT USUALLY GO)",
+          "options": [
+            "Marty does not usually go to the fitness centre on Mondays.",
+            "Marty is not usually going to the fitness centre on Mondays."
+          ],
+          "answer": "Marty does not usually go to the fitness centre on Mondays."
+        },
+        {
+          "id": 6,
+          "prompt": "What is that? – I ______________ sounds that are not there. (HEAR)",
+          "options": [
+            "I hear sounds that are not there.",
+            "I am hearing sounds that are not there."
+          ],
+          "answer": "I hear sounds that are not there."
+        },
+        {
+          "id": 7,
+          "prompt": "We ______________ of leaving Britain next year. We might go to America. (THINK)",
+          "options": [
+            "We think of leaving Britain next year.",
+            "We are thinking of leaving Britain next year."
+          ],
+          "answer": "We are thinking of leaving Britain next year."
+        },
+        {
+          "id": 8,
+          "prompt": "I ______________ my ex-husband next Monday. (SEE)",
+          "options": [
+            "I see my ex-husband next Monday.",
+            "I am seeing my ex-husband next Monday."
+          ],
+          "answer": "I am seeing my ex-husband next Monday."
+        },
+        {
+          "id": 9,
+          "prompt": "This box ______________ a lot. What is in it? (WEIGH)",
+          "options": [
+            "This box weighs a lot. What is in it?",
+            "This box is weighing a lot. What is in it?"
+          ],
+          "answer": "This box weighs a lot. What is in it?"
+        },
+        {
+          "id": 10,
+          "prompt": "What ______________ under the table? – Is there anything wrong? (YOU DO)",
+          "options": [
+            "What do you do under the table?",
+            "What are you doing under the table?"
+          ],
+          "answer": "What are you doing under the table?"
+        },
+        {
+          "id": 11,
+          "prompt": "She never ______________ to anyone about her problems. (TALK)",
+          "options": [
+            "She never talks to anyone about her problems.",
+            "She is never talking to anyone about her problems."
+          ],
+          "answer": "She never talks to anyone about her problems."
+        },
+        {
+          "id": 12,
+          "prompt": "Mary ______________ very sad. What's happened to her? (LOOK)",
+          "options": [
+            "Mary looks very sad. What's happened to her?",
+            "Mary is looking very sad. What's happened to her?"
+          ],
+          "answer": "Mary looks very sad. What's happened to her?"
+        },
+        {
+          "id": 13,
+          "prompt": "They ______________ a few days in Stockholm next month. (SPEND)",
+          "options": [
+            "They spend a few days in Stockholm next month.",
+            "They are spending a few days in Stockholm next month."
+          ],
+          "answer": "They are spending a few days in Stockholm next month."
+        },
+        {
+          "id": 14,
+          "prompt": "You can't go in. They ______________ a meeting. (HAVE)",
+          "options": [
+            "They have a meeting.",
+            "They are having a meeting."
+          ],
+          "answer": "They are having a meeting."
+        },
+        {
+          "id": 15,
+          "prompt": "I ______________ I'll have a cup of coffee. I'm so tired. (THINK)",
+          "options": [
+            "I think I'll have a cup of coffee. I'm so tired.",
+            "I am thinking I'll have a cup of coffee. I'm so tired."
+          ],
+          "answer": "I think I'll have a cup of coffee. I'm so tired."
+        },
+        {
+          "id": 16,
+          "prompt": "______________ fishing with me on Sunday? – I don't know. I'll think about it. (YOU GO)",
+          "options": [
+            "Do you go fishing with me on Sunday?",
+            "Are you going fishing with me on Sunday?"
+          ],
+          "answer": "Are you going fishing with me on Sunday?"
+        },
+        {
+          "id": 17,
+          "prompt": "I ______________ here as a waiter on weekends. (WORK)",
+          "options": [
+            "I work here as a waiter on weekends.",
+            "I am working here as a waiter on weekends."
+          ],
+          "answer": "I work here as a waiter on weekends."
+        },
+        {
+          "id": 18,
+          "prompt": "Max ______________ to be a nice student. Let's see how he ______________ in class. (APPEAR, HE DO)",
+          "options": [
+            "Max appears to be a nice student. Let's see how he does in class.",
+            "Max is appearing to be a nice student. Let's see how he is doing in class."
+          ],
+          "answer": "Max appears to be a nice student. Let's see how he does in class."
+        },
+        {
+          "id": 19,
+          "prompt": "I ______________ what this letter means. It ______________ no sense. (NOT UNDERSTAND, MAKE)",
+          "options": [
+            "I do not understand what this letter means. It makes no sense.",
+            "I am not understanding what this letter means. It is making no sense."
+          ],
+          "answer": "I do not understand what this letter means. It makes no sense."
+        },
+        {
+          "id": 20,
+          "prompt": "I ______________ the dog for a walk because it's so sunny outside. (TAKE)",
+          "options": [
+            "I take the dog for a walk because it's so sunny outside.",
+            "I am taking the dog for a walk because it's so sunny outside."
+          ],
+          "answer": "I am taking the dog for a walk because it's so sunny outside."
+        },
+        {
+          "id": 21,
+          "prompt": "______________ at night? (YOU EVER DREAM)",
+          "options": [
+            "Do you ever dream at night?",
+            "Are you ever dreaming at night?"
+          ],
+          "answer": "Do you ever dream at night?"
+        },
+        {
+          "id": 22,
+          "prompt": "I ______________ on you to help me organise the meeting. (COUNT)",
+          "options": [
+            "I count on you to help me organise the meeting.",
+            "I am counting on you to help me organise the meeting."
+          ],
+          "answer": "I am counting on you to help me organise the meeting."
+        },
+        {
+          "id": 23,
+          "prompt": "My sister ______________ a video conference in her company next week. (HOLD)",
+          "options": [
+            "My sister holds a video conference in her company next week.",
+            "My sister is holding a video conference in her company next week."
+          ],
+          "answer": "My sister is holding a video conference in her company next week."
+        },
+        {
+          "id": 24,
+          "prompt": "Why ______________ to what he has to say? (YOU NOT EVER LISTEN)",
+          "options": [
+            "Why do you not ever listen to what he has to say?",
+            "Why are you not ever listening to what he has to say?"
+          ],
+          "answer": "Why do you not ever listen to what he has to say?"
+        },
+        {
+          "id": 25,
+          "prompt": "I ______________ meat. I'm a vegetarian. (NOT EAT)",
+          "options": [
+            "I do not eat meat. I'm a vegetarian.",
+            "I am not eating meat. I'm a vegetarian."
+          ],
+          "answer": "I do not eat meat. I'm a vegetarian."
+        }
+      ]
+    },
+    {
+  "level": 4,
+  "prerequisiteCode": "LEVEL3-KEY",
+        "thumbnail":"https://i.ibb.co/Wpq0b5W7/20250709-1507-Vibrant-Cartoon-Character-remix-01jzrcpjj8fa7v98xk6tem1d9q-1.png",
+
+  "levelCode": "LEVEL4-UNLOCK",
+  "exercises": [
+    {
+      "id": 1,
+      "prompt": "They normally ______________ a coffee break at ten, but today there's a lot of work to do so they ______________ one.",
+      "options": [
+        "They normally have a coffee break at ten, but today they are not having one.",
+        "They normally are having a coffee break at ten, but today they do not have one."
+      ],
+      "answer": "They normally have a coffee break at ten, but today they are not having one."
+    },
+    {
+      "id": 2,
+      "prompt": "Why ______________ my coat? – I'm sorry. – It ______________ just like mine.",
+      "options": [
+        "Why are you wearing my coat? – I'm sorry. – It looks just like mine.",
+        "Why do you wear my coat? – I'm sorry. – It is looking just like mine."
+      ],
+      "answer": "Why are you wearing my coat? – I'm sorry. – It looks just like mine."
+    },
+    {
+      "id": 3,
+      "prompt": "______________ the men in black suits over there? – They ______________ at us in a strange way.",
+      "options": [
+        "Do you see the men in black suits over there? – They are looking at us in a strange way.",
+        "Are you seeing the men in black suits over there? – They look at us in a strange way."
+      ],
+      "answer": "Do you see the men in black suits over there? – They are looking at us in a strange way."
+    },
+    {
+      "id": 4,
+      "prompt": "The food ______________ chemicals that make it last longer.",
+      "options": [
+        "The food contains chemicals that make it last longer.",
+        "The food is containing chemicals that make it last longer."
+      ],
+      "answer": "The food contains chemicals that make it last longer."
+    },
+    {
+      "id": 5,
+      "prompt": "It ______________ the moon about 28 days to travel around the earth.",
+      "options": [
+        "It takes the moon about 28 days to travel around the earth.",
+        "It is taking the moon about 28 days to travel around the earth."
+      ],
+      "answer": "It takes the moon about 28 days to travel around the earth."
+    },
+    {
+      "id": 6,
+      "prompt": "Everything in this box ______________ to my grandfather. He ______________ it to me instead of my brother.",
+      "options": [
+        "Everything in this box belongs to my grandfather. He gave it to me instead of my brother.",
+        "Everything in this box is belonging to my grandfather. He is giving it to me instead of my brother."
+      ],
+      "answer": "Everything in this box belongs to my grandfather. He gave it to me instead of my brother."
+    },
+    {
+      "id": 7,
+      "prompt": "Mary ______________ through a very difficult period at university this year.",
+      "options": [
+        "Mary is going through a very difficult period at university this year.",
+        "Mary goes through a very difficult period at university this year."
+      ],
+      "answer": "Mary is going through a very difficult period at university this year."
+    },
+    {
+      "id": 8,
+      "prompt": "Dad ______________ everything about airplanes. He always ______________ books about aviation.",
+      "options": [
+        "Dad knows everything about airplanes. He is always reading books about aviation.",
+        "Dad is knowing everything about airplanes. He always reads books about aviation."
+      ],
+      "answer": "Dad knows everything about airplanes. He is always reading books about aviation."
+    },
+    {
+      "id": 9,
+      "prompt": "I used to play football in school but now I ______________ rugby.",
+      "options": [
+        "I prefer rugby.",
+        "I am preferring rugby."
+      ],
+      "answer": "I prefer rugby."
+    },
+    {
+      "id": 10,
+      "prompt": "Hi Dan! – What ______________ to do this evening? – Well, I ______________ to a concert with a few friends and after that we ______________ a good meal at a fine restaurant.",
+      "options": [
+        "What are you planning to do this evening? – Well, I’m going to a concert with a few friends and after that we’ll have a good meal at a fine restaurant.",
+        "What do you plan to do this evening? – Well, I go to a concert with a few friends and after that we have a good meal at a fine restaurant."
+      ],
+      "answer": "What are you planning to do this evening? – Well, I’m going to a concert with a few friends and after that we’ll have a good meal at a fine restaurant."
+    },
+    {
+      "id": 11,
+      "prompt": "What ______________ for a living? – Well, he's a lawyer but he quit his old job and at the moment he ______________ for a new one.",
+      "options": [
+        "What does your dad do for a living? – Well, he's a lawyer but he quit his old job and at the moment he is looking for a new one.",
+        "What is your dad doing for a living? – Well, he's a lawyer but he quit his old job and at the moment he looks for a new one."
+      ],
+      "answer": "What does your dad do for a living? – Well, he's a lawyer but he quit his old job and at the moment he is looking for a new one."
+    },
+    {
+      "id": 12,
+      "prompt": "You ______________ shopping every Saturday. – Why ______________ that?",
+      "options": [
+        "You go shopping every Saturday. – Why do you do that?",
+        "You are going shopping every Saturday. – Why are you doing that?"
+      ],
+      "answer": "You go shopping every Saturday. – Why do you do that?"
+    },
+    {
+      "id": 13,
+      "prompt": "I ______________ absolutely no idea what this movie is about.",
+      "options": [
+        "I have absolutely no idea what this movie is about.",
+        "I am having absolutely no idea what this movie is about."
+      ],
+      "answer": "I have absolutely no idea what this movie is about."
+    },
+    {
+      "id": 14,
+      "prompt": "The two department managers ______________ lunch at the moment. We shouldn't disturb them.",
+      "options": [
+        "The two department managers are having lunch at the moment. We shouldn't disturb them.",
+        "The two department managers have lunch at the moment. We shouldn't disturb them."
+      ],
+      "answer": "The two department managers are having lunch at the moment. We shouldn't disturb them."
+    },
+    {
+      "id": 15,
+      "prompt": "Teachers ______________ us homework every day, but this weekend they ______________ us any because of the mid-term break.",
+      "options": [
+        "Teachers give us homework every day, but this weekend they are not giving us any because of the mid-term break.",
+        "Teachers are giving us homework every day, but this weekend they do not give us any because of the mid-term break."
+      ],
+      "answer": "Teachers give us homework every day, but this weekend they are not giving us any because of the mid-term break."
+    },
+    {
+      "id": 16,
+      "prompt": "Where ______________ from? I think they ______________ from Jamaica, but I'm not sure.",
+      "options": [
+        "Where do the new neighbours come from? I think they are from Jamaica, but I'm not sure.",
+        "Where are the new neighbours coming from? I think they come from Jamaica, but I'm not sure."
+      ],
+      "answer": "Where do the new neighbours come from? I think they are from Jamaica, but I'm not sure."
+    },
+    {
+      "id": 17,
+      "prompt": "The air ______________ strange. There must be something going on in the factory.",
+      "options": [
+        "The air smells strange. There must be something going on in the factory.",
+        "The air is smelling strange. There must be something going on in the factory."
+      ],
+      "answer": "The air smells strange. There must be something going on in the factory."
+    },
+    {
+      "id": 18,
+      "prompt": "I can't listen to what you ______________ to tell me because I'm so nervous at the moment.",
+      "options": [
+        "I can't listen to what you are trying to tell me because I'm so nervous at the moment.",
+        "I can't listen to what you try to tell me because I'm so nervous at the moment."
+      ],
+      "answer": "I can't listen to what you are trying to tell me because I'm so nervous at the moment."
+    }
+  ]
+},
+{
+  "level": 5,
+  "prerequisiteCode": "LEVEL4-UNLOCK",
+        "thumbnail":"https://i.ibb.co/Wpq0b5W7/20250709-1507-Vibrant-Cartoon-Character-remix-01jzrcpjj8fa7v98xk6tem1d9q-1.png",
+
+  "levelCode": "LEVEL5-ACCESS",
+  "exercises": [
+    {
+      "id": 1,
+      "prompt": "You can’t see Jimmy now. He ______________ a bath.",
+      "options": [
+        "He has a bath.",
+        "He is having a bath."
+      ],
+      "answer": "He is having a bath."
+    },
+    {
+      "id": 2,
+      "prompt": "He ______________ to the theatre.",
+      "options": [
+        "He never goes to the theatre.",
+        "He is never going to the theatre."
+      ],
+      "answer": "He never goes to the theatre."
+    },
+    {
+      "id": 3,
+      "prompt": "Anne ______________ all her clothes herself. At the moment she ______________ a dress for a fancy dress party.",
+      "options": [
+        "Anne makes all her clothes herself. At the moment she is making a dress for a fancy dress party.",
+        "Anne is making all her clothes herself. At the moment she makes a dress for a fancy dress party."
+      ],
+      "answer": "Anne makes all her clothes herself. At the moment she is making a dress for a fancy dress party."
+    },
+    {
+      "id": 4,
+      "prompt": "He usually ______________ coffee for breakfast, but today he ______________ tea.",
+      "options": [
+        "He has coffee for breakfast, but today he is having tea.",
+        "He is having coffee for breakfast, but today he has tea."
+      ],
+      "answer": "He has coffee for breakfast, but today he is having tea."
+    },
+    {
+      "id": 5,
+      "prompt": "I can’t go home now because it ______________, and I ______________ an umbrella.",
+      "options": [
+        "It is raining, and I do not have an umbrella.",
+        "It rains, and I am not having an umbrella."
+      ],
+      "answer": "It is raining, and I do not have an umbrella."
+    },
+    {
+      "id": 6,
+      "prompt": "In Britain women normally ______________ hats.",
+      "options": [
+        "Women normally do not wear hats.",
+        "Women are not normally wearing hats."
+      ],
+      "answer": "Women normally do not wear hats."
+    },
+    {
+      "id": 7,
+      "prompt": "The sun ______________ in the east and ______________ in the west.",
+      "options": [
+        "The sun rises in the east and sets in the west.",
+        "The sun is rising in the east and is setting in the west."
+      ],
+      "answer": "The sun rises in the east and sets in the west."
+    },
+    {
+      "id": 8,
+      "prompt": "Who ______________ that terrible noise outside? – It’s Dad. He ______________ the lawn.",
+      "options": [
+        "Who is making that terrible noise outside? – It’s Dad. He is mowing the lawn.",
+        "Who makes that terrible noise outside? – It’s Dad. He mows the lawn."
+      ],
+      "answer": "Who is making that terrible noise outside? – It’s Dad. He is mowing the lawn."
+    },
+    {
+      "id": 9,
+      "prompt": "I ______________ this weekend near the coast. I ______________ there nearly every weekend.",
+      "options": [
+        "I am spending this weekend near the coast. I go there nearly every weekend.",
+        "I spend this weekend near the coast. I am going there nearly every weekend."
+      ],
+      "answer": "I am spending this weekend near the coast. I go there nearly every weekend."
+    },
+    {
+      "id": 10,
+      "prompt": "She ______________ thirty cigarettes a day but at the moment she ______________ to stop.",
+      "options": [
+        "She smokes thirty cigarettes a day but at the moment she is trying to stop.",
+        "She is smoking thirty cigarettes a day but at the moment she tries to stop."
+      ],
+      "answer": "She smokes thirty cigarettes a day but at the moment she is trying to stop."
+    },
+    {
+      "id": 11,
+      "prompt": "We ______________ breakfast together every Sunday morning.",
+      "options": [
+        "We have breakfast together every Sunday morning.",
+        "We are having breakfast together every Sunday morning."
+      ],
+      "answer": "We have breakfast together every Sunday morning."
+    },
+    {
+      "id": 12,
+      "prompt": "What’s that smell? – It’s in the kitchen. Something ______________.",
+      "options": [
+        "Something is burning.",
+        "Something burns."
+      ],
+      "answer": "Something is burning."
+    },
+    {
+      "id": 13,
+      "prompt": "Who ______________ to on the phone? – It’s my friend Carry.",
+      "options": [
+        "Who are you speaking to on the phone? – It’s my friend Carry.",
+        "Who do you speak to on the phone? – It’s my friend Carry."
+      ],
+      "answer": "Who are you speaking to on the phone? – It’s my friend Carry."
+    },
+    {
+      "id": 14,
+      "prompt": "I ______________ overtime this month because I ______________ up some money to buy a new car.",
+      "options": [
+        "I am working overtime this month because I am saving up some money to buy a new car.",
+        "I work overtime this month because I save up some money to buy a new car."
+      ],
+      "answer": "I am working overtime this month because I am saving up some money to buy a new car."
+    },
+    {
+      "id": 15,
+      "prompt": "The moon ______________ around the earth.",
+      "options": [
+        "The moon goes around the earth.",
+        "The moon is going around the earth."
+      ],
+      "answer": "The moon goes around the earth."
+    },
+    {
+      "id": 16,
+      "prompt": "She usually ______________ languages very quickly, but she ______________ problems with Chinese.",
+      "options": [
+        "She learns languages very quickly, but she has problems with Chinese.",
+        "She is learning languages very quickly, but she is having problems with Chinese."
+      ],
+      "answer": "She learns languages very quickly, but she has problems with Chinese."
+    },
+    {
+      "id": 17,
+      "prompt": "______________ TV every evening?",
+      "options": [
+        "Do you watch TV every evening?",
+        "Are you watching TV every evening?"
+      ],
+      "answer": "Do you watch TV every evening?"
+    },
+    {
+      "id": 18,
+      "prompt": "He always ______________ his bills on time.",
+      "options": [
+        "He always pays his bills on time.",
+        "He is always paying his bills on time."
+      ],
+      "answer": "He always pays his bills on time."
+    },
+    {
+      "id": 19,
+      "prompt": "How long ______________ you to get to the office? – It ______________ me about half an hour.",
+      "options": [
+        "How long do you take to get to the office? – It takes me about half an hour.",
+        "How long are you taking to get to the office? – It is taking me about half an hour."
+      ],
+      "answer": "How long do you take to get to the office? – It takes me about half an hour."
+    },
+    {
+      "id": 20,
+      "prompt": "The plane that ______________ Heathrow at 9.15 is on schedule.",
+      "options": [
+        "The plane that leaves Heathrow at 9.15 is on schedule.",
+        "The plane that is leaving Heathrow at 9.15 is on schedule."
+      ],
+      "answer": "The plane that leaves Heathrow at 9.15 is on schedule."
+    }
+  ]
+},
+{
+  "level": 6,
+  "prerequisiteCode": "LEVEL5-ACCESS",
+        "thumbnail":"https://i.ibb.co/Wpq0b5W7/20250709-1507-Vibrant-Cartoon-Character-remix-01jzrcpjj8fa7v98xk6tem1d9q-1.png",
+
+  "levelCode": "LEVEL6-KEY",
+  "exercises": [
+    {
+      "id": 1,
+      "prompt": "_______________ how old I am? (YOU KNOW)",
+      "options": [
+        "Do you know how old I am?",
+        "Are you knowing how old I am?"
+      ],
+      "answer": "Do you know how old I am?"
+    },
+    {
+      "id": 2,
+      "prompt": "How ______________ to work? – I usually ______________ by car, but today Jack ______________ me up. (YOU GET, DRIVE, PICK)",
+      "options": [
+        "How do you get to work? – I usually drive, but today Jack is picking me up.",
+        "How are you getting to work? – I am usually driving, but today Jack picks me up."
+      ],
+      "answer": "How do you get to work? – I usually drive, but today Jack is picking me up."
+    },
+    {
+      "id": 3,
+      "prompt": "It often ______________ in Ireland, but it never ______________ for days on end. (RAIN, RAIN)",
+      "options": [
+        "It often rains in Ireland, but it is never raining for days on end.",
+        "It often rains in Ireland, but it never rains for days on end."
+      ],
+      "answer": "It often rains in Ireland, but it never rains for days on end."
+    },
+    {
+      "id": 4,
+      "prompt": "I usually ______________ so quickly that he ______________ me. (SPEAK, NOT UNDERSTAND)",
+      "options": [
+        "I speak so quickly that he does not understand me.",
+        "I am speaking so quickly that he is not understanding me."
+      ],
+      "answer": "I speak so quickly that he does not understand me."
+    },
+    {
+      "id": 5,
+      "prompt": "Jane’s husband ______________. (NOT SMOKE)",
+      "options": [
+        "Jane’s husband does not smoke.",
+        "Jane’s husband is not smoking."
+      ],
+      "answer": "Jane’s husband does not smoke."
+    },
+    {
+      "id": 6,
+      "prompt": "Why ______________ on your coat? – I ______________ for a walk. – ______________ to come with me? (YOU PUT, GO, YOU WANT)",
+      "options": [
+        "Why are you putting on your coat? – I am going for a walk. – Do you want to come with me?",
+        "Why do you put on your coat? – I go for a walk. – Are you wanting to come with me?"
+      ],
+      "answer": "Why are you putting on your coat? – I am going for a walk. – Do you want to come with me?"
+    },
+    {
+      "id": 7,
+      "prompt": "I ______________ lottery tickets, but I never ______________ anything. (BUY, WIN)",
+      "options": [
+        "I buy lottery tickets, but I never win anything.",
+        "I am buying lottery tickets, but I am not winning anything."
+      ],
+      "answer": "I buy lottery tickets, but I never win anything."
+    },
+    {
+      "id": 8,
+      "prompt": "It ______________ in Egypt. (NOT OFTEN RAIN)",
+      "options": [
+        "It does not often rain in Egypt.",
+        "It is not often raining in Egypt."
+      ],
+      "answer": "It does not often rain in Egypt."
+    },
+    {
+      "id": 9,
+      "prompt": "_______________ to him today? – Yes, I always ______________ to him on his birthday. (YOU WRITE, WRITE)",
+      "options": [
+        "Are you writing to him today? – Yes, I always write to him on his birthday.",
+        "Do you write to him today? – Yes, I am always writing to him on his birthday."
+      ],
+      "answer": "Are you writing to him today? – Yes, I always write to him on his birthday."
+    },
+    {
+      "id": 10,
+      "prompt": "Can you hear that? The car ______________ such a strange noise. – It’s OK. It always ______________ like that. (MAKE, SOUND)",
+      "options": [
+        "The car is making such a strange noise. – It always sounds like that.",
+        "The car makes such a strange noise. – It is always sounding like that."
+      ],
+      "answer": "The car is making such a strange noise. – It always sounds like that."
+    },
+    {
+      "id": 11,
+      "prompt": "The plane that you ______________ at right now ______________ for Paris. (LOOK, LEAVE)",
+      "options": [
+        "The plane that you are looking at right now is leaving for Paris.",
+        "The plane that you look at right now leaves for Paris."
+      ],
+      "answer": "The plane that you are looking at right now is leaving for Paris."
+    },
+    {
+      "id": 12,
+      "prompt": "What ______________ to his car? – I think he ______________ it. (HE DO, POLISH)",
+      "options": [
+        "What is he doing to his car? – I think he is polishing it.",
+        "What does he do to his car? – I think he polishes it."
+      ],
+      "answer": "What is he doing to his car? – I think he is polishing it."
+    },
+    {
+      "id": 13,
+      "prompt": "Susan ______________ to her parents every Sunday. In fact, she ______________ to them today. (WRITE, WRITE)",
+      "options": [
+        "Susan writes to her parents every Sunday. In fact, she is writing to them today.",
+        "Susan is writing to her parents every Sunday. In fact, she writes to them today."
+      ],
+      "answer": "Susan writes to her parents every Sunday. In fact, she is writing to them today."
+    },
+    {
+      "id": 14,
+      "prompt": "Stop at once! You ______________ the flowers every time the ball ______________ in the garden! (DESTROY, LAND)",
+      "options": [
+        "You are destroying the flowers every time the ball lands in the garden!",
+        "You destroy the flowers every time the ball is landing in the garden!"
+      ],
+      "answer": "You are destroying the flowers every time the ball lands in the garden!"
+    },
+    {
+      "id": 15,
+      "prompt": "Where is Kevin? I can’t find him anywhere. – He ______________ with Sue in the garden. (PLAY)",
+      "options": [
+        "He is playing with Sue in the garden.",
+        "He plays with Sue in the garden."
+      ],
+      "answer": "He is playing with Sue in the garden."
+    },
+    {
+      "id": 16,
+      "prompt": "She normally ______________ in London, but this weekend she ______________ with some friends in Liverpool. (LIVE, STAY)",
+      "options": [
+        "She normally lives in London, but this weekend she is staying with some friends in Liverpool.",
+        "She normally is living in London, but this weekend she stays with some friends in Liverpool."
+      ],
+      "answer": "She normally lives in London, but this weekend she is staying with some friends in Liverpool."
+    },
+    {
+      "id": 17,
+      "prompt": "Hurry up, the teacher ______________ to begin! (WAIT)",
+      "options": [
+        "The teacher is waiting to begin!",
+        "The teacher waits to begin!"
+      ],
+      "answer": "The teacher is waiting to begin!"
+    },
+    {
+      "id": 18,
+      "prompt": "I ______________ a word he ______________. (NOT BELIEVE, SAY)",
+      "options": [
+        "I do not believe a word he is saying.",
+        "I am not believing a word he says."
+      ],
+      "answer": "I do not believe a word he is saying."
+    },
+    {
+      "id": 19,
+      "prompt": "What ______________ for a living, Claire? – Well as a secretary , I ______________ emails for my boss all the time. (YOU DO, WRITE)",
+      "options": [
+        "What do you do for a living, Claire? – I write emails for my boss all the time.",
+        "What are you doing for a living, Claire? – I am writing emails for my boss all the time."
+      ],
+      "answer": "What do you do for a living, Claire? – I write emails for my boss all the time."
+    },
+    {
+      "id": 20,
+      "prompt": "Look over there! He ______________ in a non-smoking area! (SMOKE)",
+      "options": [
+        "He is smoking in a non-smoking area!",
+        "He smokes in a non-smoking area!"
+      ],
+      "answer": "He is smoking in a non-smoking area!"
+    }
+  ]
+},
+ {
+      "level": 7,
+      "prerequisiteCode": "LEVEL6-ACCESS",
+      "thumbnail":"https://i.ibb.co/Wpq0b5W7/20250709-1507-Vibrant-Cartoon-Character-remix-01jzrcpjj8fa7v98xk6tem1d9q-1.png",
+      "levelCode": "LEVEL7-KEY",
+      "exercises": [
+        {
+          "id": 1,
+          "prompt": "We ______________ our break now, Mr. Miller. (TAKE)",
+          "options": [
+            "We take our break now, Mr. Miller.",
+            "We are taking our break now, Mr. Miller."
+          ],
+          "answer": "We are taking our break now, Mr. Miller."
+        },
+        {
+          "id": 2,
+          "prompt": "She ______________ for Liverpool later in the day. (LEAVE)",
+          "options": [
+            "She leaves for Liverpool later in the day.",
+            "She is leaving for Liverpool later in the day."
+          ],
+          "answer": "She is leaving for Liverpool later in the day."
+        },
+        {
+          "id": 3,
+          "prompt": "The actor usually ______________ a lot of fan mail, because he’s so famous. (GET)",
+          "options": [
+            "The actor usually gets a lot of fan mail.",
+            "The actor is usually getting a lot of fan mail."
+          ],
+          "answer": "The actor usually gets a lot of fan mail."
+        },
+        {
+          "id": 4,
+          "prompt": "The car ______________ oil. Can you repair it? (LOSE)",
+          "options": [
+            "The car loses oil.",
+            "The car is losing oil."
+          ],
+          "answer": "The car is losing oil."
+        },
+        {
+          "id": 5,
+          "prompt": "Dorothy ______________ reading good books during her holidays. (LOVE)",
+          "options": [
+            "Dorothy loves reading good books during her holidays.",
+            "Dorothy is loving reading good books during her holidays."
+          ],
+          "answer": "Dorothy loves reading good books during her holidays."
+        },
+        {
+          "id": 6,
+          "prompt": "My brother ______________ Italy at the moment. (TOUR)",
+          "options": [
+            "My brother tours Italy at the moment.",
+            "My brother is touring Italy at the moment."
+          ],
+          "answer": "My brother is touring Italy at the moment."
+        },
+        {
+          "id": 7,
+          "prompt": "They ______________ a game of cards right now. (HAVE)",
+          "options": [
+            "They have a game of cards right now.",
+            "They are having a game of cards right now."
+          ],
+          "answer": "They are having a game of cards right now."
+        },
+        {
+          "id": 8,
+          "prompt": "I ______________ a hat today because there’s a very special event in town. (WEAR)",
+          "options": [
+            "I wear a hat today because there’s a very special event in town.",
+            "I am wearing a hat today because there’s a very special event in town."
+          ],
+          "answer": "I am wearing a hat today because there’s a very special event in town."
+        },
+        {
+          "id": 9,
+          "prompt": "Such bad behaviour always ______________ me mad. (MAKE)",
+          "options": [
+            "Such bad behaviour makes me mad.",
+            "Such bad behaviour is making me mad."
+          ],
+          "answer": "Such bad behaviour makes me mad."
+        },
+        {
+          "id": 10,
+          "prompt": "Unpopular songs ______________ very well. (NOT SELL)",
+          "options": [
+            "Unpopular songs do not sell very well.",
+            "Unpopular songs are not selling very well."
+          ],
+          "answer": "Unpopular songs do not sell very well."
+        },
+        {
+          "id": 11,
+          "prompt": "She usually ______________ out with her friends on Saturday evenings. (GO)",
+          "options": [
+            "She usually goes out with her friends on Saturday evenings.",
+            "She is usually going out with her friends on Saturday evenings."
+          ],
+          "answer": "She usually goes out with her friends on Saturday evenings."
+        },
+        {
+          "id": 12,
+          "prompt": "What ______________, Mum? – It smells so good! (YOU BAKE)",
+          "options": [
+            "What do you bake, Mum?",
+            "What are you baking, Mum?"
+          ],
+          "answer": "What are you baking, Mum?"
+        },
+        {
+          "id": 13,
+          "prompt": "______________ to the bridge club? (YOU BELONG)",
+          "options": [
+            "Do you belong to the bridge club?",
+            "Are you belonging to the bridge club?"
+          ],
+          "answer": "Do you belong to the bridge club?"
+        },
+        {
+          "id": 14,
+          "prompt": "The children ______________ playing in the hut whenever we’re at our weekend house. (ENJOY)",
+          "options": [
+            "The children enjoy playing in the hut whenever we’re at our weekend house.",
+            "The children are enjoying playing in the hut whenever we’re at our weekend house."
+          ],
+          "answer": "The children enjoy playing in the hut whenever we’re at our weekend house."
+        },
+        {
+          "id": 15,
+          "prompt": "The headmaster rarely ______________ a class. He normally ______________ administrative work. (TEACH, DO)",
+          "options": [
+            "The headmaster rarely teaches a class. He normally does administrative work.",
+            "The headmaster is rarely teaching a class. He is normally doing administrative work."
+          ],
+          "answer": "The headmaster rarely teaches a class. He normally does administrative work."
+        },
+        {
+          "id": 16,
+          "prompt": "______________ if I ask you a question? (YOU MIND)",
+          "options": [
+            "Do you mind if I ask you a question?",
+            "Are you minding if I ask you a question?"
+          ],
+          "answer": "Do you mind if I ask you a question?"
+        },
+        {
+          "id": 17,
+          "prompt": "I ______________ some money because I want to travel to Spain next summer. (CURRENTLY SAVE)",
+          "options": [
+            "I currently save some money because I want to travel to Spain next summer.",
+            "I am currently saving some money because I want to travel to Spain next summer."
+          ],
+          "answer": "I am currently saving some money because I want to travel to Spain next summer."
+        },
+        {
+          "id": 18,
+          "prompt": "What ______________? (THIS BOOK – COST)",
+          "options": [
+            "What does this book cost?",
+            "What is this book costing?"
+          ],
+          "answer": "What does this book cost?"
+        },
+        {
+          "id": 19,
+          "prompt": "The boy and his father ______________ a long conversation. – I wonder what they ______________ about. (HAVE, TALK)",
+          "options": [
+            "The boy and his father are having a long conversation. – I wonder what they are talking about.",
+            "The boy and his father have a long conversation. – I wonder what they talk about."
+          ],
+          "answer": "The boy and his father are having a long conversation. – I wonder what they are talking about."
+        },
+        {
+          "id": 20,
+          "prompt": "Robert ______________ to catch the same bus every morning, but he ______________. (TRY, NOT ALWAYS SUCCEED)",
+          "options": [
+            "Robert tries to catch the same bus every morning, but he does not always succeed.",
+            "Robert is trying to catch the same bus every morning, but he is not always succeeding."
+          ],
+          "answer": "Robert tries to catch the same bus every morning, but he does not always succeed."
+        }
+      ]
+    }
+
+
+    
+  ]
+}
