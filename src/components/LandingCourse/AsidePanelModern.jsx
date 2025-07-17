@@ -19,111 +19,91 @@ export default function AsidePanelModern({
           initial={{ opacity: 0, y: 28, scale: 0.97 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
           transition={{ duration: 0.7, ease: "easeOut" }}
-          className="
-            relative rounded-3xl p-8 border border-[#2d2f40] shadow-2xl group overflow-hidden
-            bg-gradient-to-br from-[#181a23]/95 via-[#161821]/96 to-[#1f2130]/85
-            hover:border-[#7c95c6] transition
-          "
+          className="relative rounded-3xl p-6 border border-indigo-100 shadow-xl overflow-hidden bg-white backdrop-blur-lg"
         >
+          {/* Animación decorativa de fondo */}
           <motion.div
-            initial={{ opacity: 0.18, scale: 0.7 }}
-            animate={{ opacity: 0.32, scale: 1.06 }}
-            transition={{ duration: 2.4, repeat: Infinity, repeatType: "reverse", ease: "easeInOut" }}
-            className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-36 bg-gradient-to-tr from-[#7c95c6]/25 via-[#4fc0a9]/10 to-[#bfcad6]/5 blur-2xl rounded-full pointer-events-none"
+            initial={{ opacity: 0.2, scale: 0.8 }}
+            animate={{ opacity: 0.4, scale: 1 }}
+            transition={{
+              repeat: Infinity,
+              repeatType: "reverse",
+              duration: 4,
+              ease: "easeInOut",
+            }}
+            className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 w-80 h-40 bg-gradient-to-r from-purple-300 via-pink-300 to-yellow-200 opacity-30 blur-3xl rounded-full pointer-events-none"
           />
 
-          <div className="relative z-10 flex flex-col gap-8">
+          <div className="relative z-10 flex flex-col gap-6">
             {/* Video */}
-            <div className="w-full aspect-video rounded-xl overflow-hidden border border-[#2d2f40] shadow-lg bg-[#16171d]/60 flex items-center justify-center">
+            <div className="w-full aspect-video rounded-xl overflow-hidden border border-gray-200 bg-gray-50">
               <iframe
                 src={video}
                 title="Video Promocional"
                 className="w-full h-full"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
-                style={{ background: "transparent" }}
               />
             </div>
 
             {/* Precios */}
-            <div className="flex flex-col items-center text-[#e6eaf0]">
-              <span className="text-4xl font-extrabold tracking-wider text-[#ffffff] drop-shadow mb-1">
+            <div className="flex flex-col items-center text-gray-800">
+              <span className="text-3xl font-extrabold tracking-tight text-indigo-700">
                 {precio}
               </span>
               {precio_original && (
-                <span className="line-through text-[#7c8295] text-sm mb-1">
+                <span className="line-through text-gray-400 text-sm">
                   {precio_original}
                 </span>
               )}
               {descuento && (
-                <span className="bg-[#4fc0a9]/10 text-[#4fc0a9] text-xs font-semibold px-3 py-1 rounded-full mb-1 shadow-sm border border-[#4fc0a9]/30">
+                <span className="bg-violet-100 text-violet-600 text-xs font-medium px-3 py-1 rounded-full border border-violet-200 shadow-sm">
                   {descuento}
                 </span>
               )}
               {precio_anual && (
-                <span className="mt-2 text-xs text-[#bfcad6] italic">
+                <span className="mt-2 text-xs text-gray-500 italic">
                   Precio anual:{" "}
-                  <span className="text-[#4fc0a9] font-medium">{precio_anual}</span>
+                  <span className="text-purple-600 font-medium">{precio_anual}</span>
                 </span>
               )}
             </div>
 
-            {/* Botón Acceder (degradado Indigo→Azul) */}
+            {/* Botón Acceder */}
             <motion.button
               whileHover={{
-                scale: 1.03,
-                boxShadow: "0 0 16px rgba(66, 153, 225, 0.6)",
+                scale: 1.02,
+                boxShadow: "0 0 12px rgba(125, 86, 255, 0.4)",
               }}
               whileTap={{ scale: 0.98 }}
               onClick={onAccessClick}
-              className="
-                w-full py-4 rounded-xl font-semibold text-lg tracking-wide
-                bg-gradient-to-r from-indigo-700 to-blue-600
-                text-white shadow-lg transition
-                flex items-center justify-center gap-2 focus:outline-none
-                hover:from-indigo-600 hover:to-blue-500
-              "
-              title="Haz clic para iniciar sesión o acceder a tu cuenta"
+              className="w-full py-3 rounded-full font-semibold text-sm tracking-wide bg-gradient-to-r from-indigo-600 to-purple-600 text-white shadow-md transition duration-200 flex items-center justify-center gap-2 focus:outline-none hover:from-indigo-500 hover:to-purple-500"
+              title="Haz clic para acceder"
             >
-              <MdLogin className="text-2xl opacity-90" />
+              <MdLogin className="text-xl opacity-90" />
               <span>Acceder</span>
             </motion.button>
 
-            {/* Soporte WhatsApp (degradado Púrpura→Índigo) */}
+            {/* Soporte WhatsApp */}
             <motion.a
               whileHover={{
-                scale: 1.03,
-                boxShadow: "0 0 16px rgba(131, 110, 255, 0.6)",
+                scale: 1.02,
+                boxShadow: "0 0 8px rgba(0,0,0,0.08)",
               }}
               href={soporte_wsp}
               target="_blank"
               rel="noopener noreferrer"
-              className="
-                w-full flex items-center justify-center gap-2 py-3 rounded-xl
-                bg-gradient-to-r from-purple-700 to-indigo-600
-                text-white shadow-lg transition focus:outline-none
-                hover:from-purple-600 hover:to-indigo-500
-              "
+              className="w-full flex items-center justify-center gap-2 py-3 px-4 rounded-full bg-white border border-gray-300 text-gray-800 text-sm font-semibold shadow-sm hover:bg-gray-50 transition duration-200"
             >
-              <FaWhatsapp className="text-lg opacity-90" />
+              <FaWhatsapp className="text-green-500 text-lg" />
               <span>Soporte por WhatsApp</span>
             </motion.a>
 
-            {/* Oferta Tiempo */}
+            {/* Tiempo de oferta */}
             {oferta_time && (
-              <motion.div
-                initial={{ opacity: 0.7, scale: 1 }}
-                animate={{ opacity: 1, scale: 1.03 }}
-                transition={{
-                  repeat: Infinity,
-                  duration: 1.2,
-                  repeatType: "reverse",
-                  ease: "easeInOut",
-                }}
-                className="text-xs text-[#7c95c6] font-medium text-center mt-1"
-              >
+              <div className="text-xs text-purple-500 text-center mt-1 font-medium">
                 {oferta_time}
-              </motion.div>
+              </div>
             )}
           </div>
         </motion.div>

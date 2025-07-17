@@ -32,28 +32,26 @@ export default function LandingVibrante({
   mascotImage
 }) {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#0f0c15] via-[#1b1136] to-[#0f0c15] text-slate-200 font-sans overflow-x-hidden pt-10 mt-16 relative">
-      {/* Intensified gradient glow */}
-      <div className="absolute top-0 left-0 w-96 h-96 bg-gradient-to-tr from-[#4f46e5]/20 via-[#3b82f6]/20 to-[#9333ea]/20 rounded-full blur-2xl opacity-50 pointer-events-none z-0" />
+    <div className="min-h-screen bg-white text-gray-900 font-sans overflow-x-hidden pt-10 mt-16 relative">
+      <div className="absolute inset-0 -z-10 bg-gradient-to-br from-violet-100 via-white to-indigo-100 animate-pulse-slow" />
 
-      <main className="flex flex-col md:flex-row max-w-7xl mx-auto pt-3 px-6 gap-10 z-10 relative">
-        {/* Left Column */}
-        <div className="md:w-2/3 flex-1 min-w-0">
-          <section className="flex flex-col md:flex-row items-start gap-8 mb-6">
-            <div className="w-full md:w-2/3">
-              <span className="text-sm font-semibold tracking-wide bg-gradient-to-r from-indigo-600 to-blue-500 bg-clip-text text-transparent uppercase mb-1 inline-block">
+      <main className="grid grid-cols-1 lg:grid-cols-[2fr_1fr] max-w-7xl mx-auto px-6 gap-12 z-10 relative">
+        <div>
+          <section className="flex flex-col lg:flex-row items-start gap-8 mb-10">
+            <div className="w-full lg:w-3/5 space-y-5">
+              <span className="text-xs font-semibold tracking-wide bg-indigo-100 text-indigo-600 uppercase inline-block px-3 py-1.5 rounded-full shadow-sm">
                 Your English Journey
               </span>
-              <h1 className="text-4xl md:text-5xl font-extrabold bg-gradient-to-r from-slate-100 to-slate-200 bg-clip-text text-transparent leading-tight mb-3">
-                {titulo}
+              <h1 className="text-5xl font-extrabold leading-tight">
+                <span role="img" aria-label="comet">☄️</span> {titulo}
               </h1>
-              <div className="flex flex-wrap items-center gap-2 text-sm text-slate-400 mb-4">
+              <div className="flex flex-wrap items-center gap-2 text-sm text-gray-600">
                 <span>
-                  By <span className="underline hover:text-slate-200 cursor-pointer transition">{teacher}</span>
+                  By <span className="underline hover:text-gray-900 cursor-pointer transition">{teacher}</span>
                 </span>
                 <span className="mx-1 font-bold">·</span>
                 <span>Updated {last_updated}</span>
-                {idiomas && idiomas.length > 0 && (
+                {idiomas?.length > 0 && (
                   <>
                     <span className="mx-1 font-bold">·</span>
                     {idiomas.map((lang, idx) => (
@@ -62,93 +60,78 @@ export default function LandingVibrante({
                   </>
                 )}
               </div>
-
-              <div className="flex flex-wrap gap-4 mb-6">
-                <span className="inline-block bg-gradient-to-r from-indigo-700 to-blue-600 px-4 py-1.5 rounded-full text-sm font-semibold text-white shadow-lg">
+              <div className="flex flex-wrap gap-4">
+                <span className="inline-block bg-indigo-600 text-white px-4 py-1.5 rounded-full text-sm font-semibold shadow">
                   {badge.label}
                 </span>
-                <span className="flex items-center gap-1 bg-gradient-to-r from-purple-700 to-indigo-600 px-3 py-1.5 rounded-full text-sm font-semibold text-white shadow-lg">
-                  <Star size={14} strokeWidth={1.2} className="text-white" />
+                <span className="flex items-center gap-1 bg-indigo-100 text-indigo-600 px-3 py-1.5 rounded-full text-sm font-semibold shadow">
+                  <Star size={14} strokeWidth={1.2} />
                   {ratings.score} ({ratings.votes})
                 </span>
               </div>
-
-              <p className="text-lg font-medium text-slate-300 mb-6">
+              <p className="text-lg text-gray-700 leading-relaxed">
                 {descripcion}
               </p>
             </div>
 
-            {/* Mascot Image */}
             <motion.div
               initial={{ opacity: 0, y: 40, scale: 0.92 }}
               animate={{ opacity: 1, y: 0, scale: 1 }}
               transition={{ duration: 0.7, delay: 0.12 }}
-              className="w-full flex justify-center items-center md:w-1/3 relative z-10"
+              className="w-full lg:w-2/5 flex justify-center"
             >
               <motion.div
-                className="relative w-[170px] md:w-[220px] rounded-2xl overflow-visible group transition-all duration-500"
+                className="relative w-48 md:w-60 rounded-full overflow-visible group"
                 whileHover={{ scale: 1.05 }}
               >
-                <div
-                  className="absolute inset-0 -z-10 rounded-full blur-3xl opacity-30 scale-110 bg-gradient-to-tr from-[#4f46e5]/30 via-[#3b82f6]/20 to-[#9333ea]/30"
-                />
+                <div className="absolute inset-0 -z-10 rounded-full blur-3xl opacity-30 scale-110 bg-gradient-to-tr from-indigo-100 via-violet-100 to-pink-100" />
                 <img
                   src={mascotImage || '/tupersonaje.png'}
-                  alt="Mascota del curso"
-                  className="w-full h-auto object-contain select-none transition-transform duration-500 ease-in-out group-hover:scale-105"
+                  alt="Mascota"
+                  className="w-full object-contain select-none group-hover:scale-105 transition-transform"
                   draggable={false}
                 />
               </motion.div>
             </motion.div>
           </section>
 
-          {/* Navigation Tags */}
-          <nav className="flex flex-wrap text-sm gap-3 mb-6">
-            <span className="px-3 py-1.5 rounded-full bg-gradient-to-r from-slate-700 to-slate-600 text-white font-medium">
+          <div className="flex flex-wrap text-sm gap-3 mb-8">
+            <span className="px-3 py-1.5 rounded-full bg-indigo-100 text-indigo-600 font-medium">
               Language Learning
             </span>
-            <span className="text-slate-400">/</span>
-            <span className="px-3 py-1.5 rounded-full bg-gradient-to-r from-slate-700 to-slate-600 text-white font-medium">
+            <span className="text-gray-400">/</span>
+            <span className="px-3 py-1.5 rounded-full bg-indigo-100 text-indigo-600 font-medium">
               Business English
             </span>
-          </nav>
-
-          {/* Learning & Includes Lists */}
-          <div className="mb-6">
-            <LearningList items={learning} />
-          </div>
-          <div className="mb-8">
-            <IncludesList includes={includes} />
           </div>
 
-          {/* Course Content Accordion */}
-          <div className="bg-gradient-to-br from-[#1b1136]/80 via-[#2b1b4a]/80 to-[#1b1136]/80 border border-slate-600 rounded-xl p-6 mb-8 backdrop-blur-sm shadow-lg">
-            <h2 className="font-semibold text-xl bg-gradient-to-r from-slate-100 to-slate-200 bg-clip-text text-transparent mb-4">
-              Course content
+          <LearningList items={learning} />
+          <IncludesList includes={includes} />
+
+          <div className="bg-indigo-50 border border-indigo-100 rounded-xl p-6 mb-10">
+            <h2 className="text-3xl font-extrabold mb-2 text-indigo-800">
+              Course Content 🚀
             </h2>
             <Accordion data={rutas} />
           </div>
 
-          {/* Instructors Section */}
           <SeccionDocentes docentes={docentes} />
         </div>
 
-        {/* Aside Panel */}
-        <div className="md:w-1/3 flex-shrink-0 mt-8 md:mt-0">
-          <AsidePanelModern
-            video={video}
-            precio={precio}
-            precio_original={precio_original}
-            precio_anual={precio_anual}
-            oferta_time={oferta_time}
-            soporte_wsp={soporte_wsp}
-            onAccessClick={onAccessClick}
-          />
-        </div>
+        <AsidePanelModern
+          video={video}
+          precio={precio}
+          precio_original={precio_original}
+          descuento={descuento}
+          precio_anual={precio_anual}
+          oferta_time={oferta_time}
+          soporte_wsp={soporte_wsp}
+          onAccessClick={onAccessClick}
+        />
       </main>
 
-      <footer className="text-center text-sm text-slate-400 py-6 border-t border-slate-700 mt-12 tracking-wide">
-        © 2025 <span className="text-slate-200 font-semibold">MyEnglishBro™</span>. Todos los derechos reservados.
+      <footer className="text-center text-sm text-gray-500 py-6 border-t border-gray-200 mt-12">
+        © 2025 <span className="text-gray-900 font-semibold">MyEnglishBro™</span>. Todos los derechos reservados.
       </footer>
     </div>
   );
