@@ -68,43 +68,44 @@ export default function AsidePanelModern({
               )}
             </div>
 
-            {/* Botón Acceder */}
+            {/* Botón Acceder (degradado Indigo→Azul) */}
             <motion.button
               whileHover={{
                 scale: 1.03,
-                boxShadow: "0 0 16px #7c95c660",
-                background: "linear-gradient(90deg, #4fc0a9 0%, #3B82F6 100%)",
+                boxShadow: "0 0 16px rgba(66, 153, 225, 0.6)",
               }}
               whileTap={{ scale: 0.98 }}
               onClick={onAccessClick}
               className="
                 w-full py-4 rounded-xl font-semibold text-lg tracking-wide
-                bg-gradient-to-r from-[#4fc0a9] to-[#3B82F6]
-                text-[#e6eaf0] shadow transition flex items-center justify-center gap-2 focus:outline-none
+                bg-gradient-to-r from-indigo-700 to-blue-600
+                text-white shadow-lg transition
+                flex items-center justify-center gap-2 focus:outline-none
+                hover:from-indigo-600 hover:to-blue-500
               "
               title="Haz clic para iniciar sesión o acceder a tu cuenta"
             >
-              <MdLogin className="text-2xl opacity-80" />
+              <MdLogin className="text-2xl opacity-90" />
               <span>Acceder</span>
             </motion.button>
 
-            {/* Soporte WhatsApp */}
+            {/* Soporte WhatsApp (degradado Púrpura→Índigo) */}
             <motion.a
               whileHover={{
                 scale: 1.03,
-                color: "#4fc0a9",
-                backgroundColor: "#1e2a2e",
+                boxShadow: "0 0 16px rgba(131, 110, 255, 0.6)",
               }}
               href={soporte_wsp}
               target="_blank"
               rel="noopener noreferrer"
               className="
                 w-full flex items-center justify-center gap-2 py-3 rounded-xl
-                bg-[#222336]/70 text-[#bfcad6] border border-[#2d2f40]
-                hover:border-[#4fc0a9] hover:text-[#4fc0a9] shadow transition focus:outline-none
+                bg-gradient-to-r from-purple-700 to-indigo-600
+                text-white shadow-lg transition focus:outline-none
+                hover:from-purple-600 hover:to-indigo-500
               "
             >
-              <FaWhatsapp className="text-lg opacity-80" />
+              <FaWhatsapp className="text-lg opacity-90" />
               <span>Soporte por WhatsApp</span>
             </motion.a>
 
