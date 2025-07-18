@@ -142,6 +142,25 @@ export const roadIt = [
     },
      {
         id: 0,
+        thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
+
+        title: "English for Devs",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Completa los desafíos para dominar el Inglés",
+        enlaces: [
+           
+            { titulo:"Pronunciación para Devs",descripcion:"Learn how to pronounce common words in the field ",url:"https://drive.google.com/file/d/1WdIHEljmhrNTcY52Ma3gEvzeNcK-kB4u/view?usp=sharing",url3:"https://drive.google.com/file/d/1969Yu6mxfPjOAuV8m52dyonidYm8GlDK/view?usp=sharing"},
+            { titulo:"Reading Code",descripcion:"Learn how read code in English ",url:"https://drive.google.com/file/d/1Z7TDrWTPOPLau7ZT2nAVsxzkPww6ka60/view?usp=sharing",url3:"https://drive.google.com/file/d/10DYA8JP4tKXtrysyk8-YXVZtdLs8ZxXk/view?usp=sharing"},
+            { titulo:"Acro",descripcion:"Learn how read Acro",url:"https://drive.google.com/file/d/1jPPz6cGrldqC6FicxrvyNnZw6-VXUDON/view?usp=sharing",url3:"https://drive.google.com/file/d/1mZ1f86AP0rEU0O5d13_-VMvkABBJyFFB/view?usp=sharing"},
+
+
+        ],
+    },
+     {
+        id: 0,
         thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
         title: "Real Life",
         subtitle: "B2/C1",
