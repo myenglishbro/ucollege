@@ -49,9 +49,9 @@ export default function LandingVibrante({
               Your English Journey
             </span>
             <h1 className="text-5xl font-extrabold leading-tight">
-              <span role="img" aria-label="comet">☄️</span>{" "}
+              <span role="img" aria-label="comet">Ruta de Aprendizaje</span>{" "}
               <Typing
-                text={[titulo, "Habla Inglés real", "Habla inglés con confianza"]}
+                text={[titulo, "Autónomo", "Real"]}
                 speed={70}
                 eraseSpeed={40}
                 eraseDelay={1500}

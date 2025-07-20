@@ -3,15 +3,15 @@
   "bgImage":"https://i.ibb.co/JWB7fRRr/jsm-abstract.webp",
   "robotImage":"https://i.ibb.co/nqqMs8L0/Chat-GPT-Image-2-jul-2025-18-43-49.png",
     "mascotImage":"https://i.ibb.co/gZ928GZq/20250709-1510-British-Cartoon-Transformation-remix-01jzrcx34xecqv3g9qmk4xpdvn.png",
-  "precio": "S/30 por mes",
+  "precio": "S/45 por mes",
 
-  "precio_original": "S/79.90",
-  "descuento": "36% off",
+  "precio_original": "S/90.90",
+  "descuento": "50% off",
   "oferta_time": "⏰ 11 hours left at this price!",
-  "titulo": "Roadmap B2 Cambridge",
+  "titulo": "B2",
   "descripcion": "Mejora su expresión oral y comprensión para comunicarse en inglés con confianza en el trabajo.",
   "teacher": "Carlos Apolaya Sanchez",
-  "video": "https://www.youtube.com/embed/pXTv0jaOgwM?start=118",
+  "video": "https://www.youtube.com/embed/JWWReTAUnF0?si=g-rb2xXgr9oll5Lg",
   "soporte_wsp": "https://api.whatsapp.com/send?phone=51926922032&text=Hola%20quiero%20informacion%20sobre%20el%20curso",
   "badge": {
     "label": "Role Play",
@@ -22,7 +22,7 @@
     "votes": 660,
     "students": 3187
   },
-  "last_updated": "07/07/2025",
+  "last_updated": "20/07/2025",
   "idiomas": ["English", "Spanish"],
   "learning": [
     "Habilidades de comunicación en inglés profesional con pronunciación y acento nativos.",
@@ -33,13 +33,13 @@
     "Frases para llamadas y correos electrónicos en inglés."
   ],
   "includes": [
-    ["Role Play", "FaRegPlayCircle"],
-    ["2 hours on-demand video", "FaRegClock"],
-    ["1 practice test", "FaCheckCircle"],
+    ["PDF", "FaRegPlayCircle"],
+    ["+30 hours on-demand video", "FaRegClock"],
+    ["100 practice test", "FaCheckCircle"],
     ["Assignments", "FaRegFileAlt"],
     ["4 articles", "FaRegFileAlt"],
     ["16 downloadable resources", "FaRegFileAlt"],
-    ["Access on mobile and TV", "FaRegFileAlt"],
+    ["Access on mobile and Computer", "FaRegFileAlt"],
     ["Certificate of completion", "FaRegFileAlt"]
   ],
   "temario_titulo": "Course content",
