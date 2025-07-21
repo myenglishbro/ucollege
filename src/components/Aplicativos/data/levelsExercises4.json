@@ -1,0 +1,275 @@
+{
+  "levels": [
+    {
+      "level": 1,
+      "levelCode": "LEVEL1-UNLOCK",
+            "thumbnail":"https://i.ibb.co/ZpRbcWyq/20250721-1020-Java-Script-Coding-Monster-remix-01k0prqanjfqtsd92mbenxd7c4-1.png",
+
+     "exercises": [
+        {
+    "id": 1,
+    "prompt": "Which of the following is the correct pronunciation of the word 'Cache' as used in tech?",
+    "options": [
+      "/keɪʃ/",
+      "/kæʃ/",
+      "/kɑːʃ/",
+      "/kæʃe/"
+    ],
+    "answer": "/kæʃ/"
+  },
+  {
+    "id": 2,
+    "prompt": "Select the correct pronunciation of 'Queue' as used in 'processing queue':",
+    "options": [
+      "/kjuː/",
+      "/kwe/",
+      "/kwiː/",
+      "/kwuː/"
+    ],
+    "answer": "/kjuː/"
+  },
+  {
+    "id": 3,
+    "prompt": "The correct pronunciation of 'Debugger' is:",
+    "options": [
+      "/dəˈbʌɡ.ər/",
+      "/diˈbʌɡ.ər/",
+      "/duːˈbʌɡ.ɚ/",
+      "/daɪˈbʌɡ.ɚ/"
+    ],
+    "answer": "/diˈbʌɡ.ər/"
+  },
+  {
+    "id": 4,
+    "prompt": "Which word is a **possessive** determiner?",
+    "options": [
+      "its",
+      "it’s",
+      "is",
+      "his"
+    ],
+    "answer": "its"
+  },
+  {
+    "id": 5,
+    "prompt": "Which of the following is a government building?",
+    "options": [
+      "Capital",
+      "Principal",
+      "Capitol",
+      "Genre"
+    ],
+    "answer": "Capitol"
+  },
+  {
+    "id": 6,
+    "prompt": "Choose the correct option to complete the sentence: The _______ of this system is based on solid rules.",
+    "options": [
+      "principal",
+      "principle",
+      "capital",
+      "genre"
+    ],
+    "answer": "principle"
+  },
+  {
+    "id": 7,
+    "prompt": "Identify the correct pronunciation of 'Segue' often used in mobile development.",
+    "options": [
+      "/ˈsɛɡ.weɪ/",
+      "/siːɡ/",
+      "/sɛɡju/",
+      "/sɪɡ/"
+    ],
+    "answer": "/ˈsɛɡ.weɪ/"
+  },
+  {
+    "id": 8,
+    "prompt": "Which of these is pronounced as /ˈʒɑːn.rə/?",
+    "options": [
+      "Giga",
+      "Queue",
+      "Genre",
+      "Cue"
+    ],
+    "answer": "Genre"
+  }
+      ]
+    },
+     {
+      "level": 2,
+      "levelCode": "LEVEL2-ACCESS",
+      "prerequisiteCode": "jsisdead",
+            "thumbnail":"https://i.ibb.co/C56FDKxM/20250721-1042-React-Monster-Coding-Beast-remix-01k0pt0h8rf4c8ygc6y9px670s.png",
+      "exercises": [
+        {
+    "id": 1,
+    "prompt": "What are the symbols ( ) called in English when reading code?",
+    "options": [
+      "Brackets",
+      "Parentheses",
+      "Braces",
+      "Quotes"
+    ],
+    "answer": "Parentheses"
+  },
+  {
+    "id": 2,
+    "prompt": "Which symbol is known as 'curly brackets'?",
+    "options": [
+      "[ ]",
+      "{ }",
+      "( )",
+      "< >"
+    ],
+    "answer": "{ }"
+  },
+  {
+    "id": 3,
+    "prompt": "What is the correct name for ` ` in programming?",
+    "options": [
+      "Single quotes",
+      "Backquotes or Backtick",
+      "Double quotes",
+      "Caret"
+    ],
+    "answer": "Backquotes or Backtick"
+  },
+  {
+    "id": 4,
+    "prompt": "Which of the following is referred to as a 'pipe'?",
+    "options": [
+      "-",
+      "|",
+      "/",
+      "&"
+    ],
+    "answer": "|"
+  },
+  {
+    "id": 5,
+    "prompt": "What is the name for the _ symbol in programming?",
+    "options": [
+      "Dash",
+      "Hyphen",
+      "Underscore",
+      "Tilde"
+    ],
+    "answer": "Underscore"
+  },
+  {
+    "id": 6,
+    "prompt": "The symbol ^ is commonly called:",
+    "options": [
+      "Ampersand",
+      "Caret",
+      "Tilde",
+      "Dollar sign"
+    ],
+    "answer": "Caret"
+  },
+  {
+    "id": 7,
+    "prompt": "Which of the following is a valid example of snake_case?",
+    "options": [
+      "myVariable",
+      "my-variable",
+      "my_variable",
+      "MyVariable"
+    ],
+    "answer": "my_variable"
+  },
+  {
+    "id": 8,
+    "prompt": "In code notation, what is typically used to access object properties?",
+    "options": [
+      "Comma",
+      "Dot",
+      "Colon",
+      "Semicolon"
+    ],
+    "answer": "Dot"
+  },
+  {
+    "id": 9,
+    "prompt": "What is the symbol / called?",
+    "options": [
+      "Backslash",
+      "Slash or division",
+      "Pipe",
+      "Minus"
+    ],
+    "answer": "Slash or division"
+  },
+  {
+    "id": 10,
+    "prompt": "Which naming style is used in the variable 'myVariable'?",
+    "options": [
+      "snake_case",
+      "camelCase",
+      "flatcase",
+      "kebab-case"
+    ],
+    "answer": "camelCase"
+  },
+  {
+    "id": 11,
+    "prompt": "What are foobar, foo, bar, and baz typically used for?",
+    "options": [
+      "Function names for UI animations",
+      "Reserved words in JavaScript",
+      "Placeholders or generic variable names",
+      "Debugging tools"
+    ],
+    "answer": "Placeholders or generic variable names"
+  },
+  {
+    "id": 12,
+    "prompt": "The symbol ~ is referred to as:",
+    "options": [
+      "Tilde",
+      "Caret",
+      "Backtick",
+      "Ampersand"
+    ],
+    "answer": "Tilde"
+  },
+  {
+    "id": 13,
+    "prompt": "Which symbol is used for a double equal comparison in most programming languages?",
+    "options": [
+      "==",
+      "=",
+      "===",
+      "!="
+    ],
+    "answer": "=="
+  },
+  {
+    "id": 14,
+    "prompt": "What is the correct English name for ; used in code?",
+    "options": [
+      "Colon",
+      "Semicolon",
+      "Comma",
+      "Dot"
+    ],
+    "answer": "Semicolon"
+  },
+  {
+    "id": 15,
+    "prompt": "What is the naming style of 'my-variable'?",
+    "options": [
+      "camelCase",
+      "flatcase",
+      "snake_case",
+      "kebab-case"
+    ],
+    "answer": "kebab-case"
+  }
+      ]
+    }
+ 
+    
+  ]
+}

@@ -89,6 +89,7 @@ import InicioC1 from "./components/Login/LoginC1/InicioC1.jsx";
 import MultiLevelQuiz from "./components/Aplicativos/presentsimpleduo/Multilevelquiz.jsx";
 import MultiLevelQuiz2 from "./components/Aplicativos/pastsimpleperfect/Multilevelquiz2.jsx";
 import MultiLevelQuiz3 from "./components/Aplicativos/multiplechoicecloze/Multilevelquiz3.jsx";
+import MultiLevelQuiz4 from "./components/Aplicativos/devs/Multilevelquiz4.jsx";
 
 function App() {
   return (
@@ -117,6 +118,7 @@ function App() {
           <Route path="/presentsimpleprogressive" element={<MultiLevelQuiz />}></Route>
           <Route path="/pastsimpleperfect" element={<MultiLevelQuiz2 />}></Route>
           <Route path="/multiplechoice" element={<MultiLevelQuiz3 />}></Route>
+          <Route path="/devs" element={<MultiLevelQuiz4 />}></Route>
 
           <Route path="/Celpip" element={<InicioC />}></Route>
           <Route path="/task01" element={<CELPIPSpeaking />}></Route>
