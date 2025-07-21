@@ -339,16 +339,12 @@ benefits = [
     iconLink: "https://learnibox.vercel.app/RoadMapB2",
     details: {
       features: [
-        "✅Tu clase se graba y se envia por correo a cada correo",
-        "✅ Google Meet Premium",
         "✅ Clases Personalizadas + Material de Clase",
-        "✅Puedes hacer preguntas al profe por wsp directamente",
+        "✅ Asesoria 24/7", 
         "✅ Incluye preparacion para Exámenes Internacionales",
-        "✅ 03 Reprogramaciones",
-        "✅ Acceso al Roadmap con Material Exclusivo (A1 to C1 90 días)",
-        "✅ Código de Descarga Roadmap",
+        "❌ No hay Reprogramaciones",
       ],
-      price: "S/.590 Nuevos Soles",
+      price: "S/.420 Nuevos Soles",
       enlace:
         "https://docs.google.com/spreadsheets/d/1jpKL_kwxAWuqo9v6aVBSiKpiAij6i3E3ysPSxlajgRY/preview",
     },
@@ -367,13 +363,11 @@ benefits = [
     details: {
       features: [
         "✅ Clases Personalizadas + Material de Clase",
-        "✅ Material de Clase",
-
-        "✅Puedes hacer preguntas al profe por wsp directamente",
-        "✅ Incluye preparacion para Exámenes Internacionales",
-        "❌ No hay Reprogramaciones - si faltas no se recuperan",
-        "❌ Acceso al Roadmap con Material Exclusivo(30 días)",
-        "❌ Código de Descarga Roadmap",
+        "✅ Asesoria 24/7",       
+        "❌ Puedes hacer preguntas al profe por wsp directamente",
+        "❌ Incluye preparacion para Exámenes Internacionales",
+        "❌ No hay Reprogramaciones",
+        "❌ Acceso al Roadmap con Material Exclusivo",
        
       ],
       price: "S/.390 Nuevos Soles",
@@ -395,15 +389,12 @@ benefits = [
     iconLink: "https://learnibox.vercel.app/RoadMapB2",
     details: {
       features: [
-        "✅Tu clase se graba y se envia por correo a cada correo",
-        "✅ Google Meet Premium",
         "✅ Clases Personalizadas + Material de Clase",
+        "❌ Asesoria 24/7",  
         "❌ Puedes hacer preguntas al profe por wsp directamente",
         "❌ Incluye preparacion para Exámenes Internacionales",
         "❌ No hay Reprogramaciones",
         "❌ Acceso al Roadmap con Material Exclusivo",
-        "❌ Código de Descarga Roadmap",
-        "❌ Talleres los fines de semana Sábados y Domingo",
       ],
       price: "S/.350 Nuevos Soles",
       enlace:
