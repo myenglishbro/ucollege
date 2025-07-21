@@ -82,7 +82,7 @@ export default function AsidePanelModern({
         className="block w-full bg-[#1515FF] text-white py-3 rounded-full font-semibold text-sm transition shadow-md hover:bg-[#1a1aff] mb-4"
         onClick={onAccessClick}
       >
-        Inscribirme ahora
+        Acceder
       </motion.button>
 
       {/* Soporte por WhatsApp centrado */}
