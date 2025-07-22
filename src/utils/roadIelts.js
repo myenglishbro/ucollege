@@ -3,16 +3,164 @@ export const roadIelts = [
         id: 0,
         thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
 
-        title: "Tools in Learnibox",
+        title: "IELTS Speaking",
         subtitle: "B2/C1",
 
         dateAdded: "Basic 0 ",
         channel: "sdasd",
-        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+        description: " ",
         enlaces: [
-            { titulo:"Pomodoro ",descripcion:"Estudia de forma eficiente",url:"https://youtu.be/wa0kcBEqJgw"},
-            { titulo:"Apps",descripcion:"Estudia de manera dinámica ",url: "https://youtu.be/pXTv0jaOgwM"},
+            { titulo:"IELTS Speaking - Worksheet One",descripcion:"Shops & shopping / Climate & climate change.",url: "https://drive.google.com/file/d/1u6Ibo6fhsp4Xcn9pp4LI1sPrIQRfI0HU/view?usp=sharing"},
+            { titulo:"IELTS Speaking - Worksheet Two",descripcion:"Pets / Learning new things & new technology.",url: "https://drive.google.com/file/d/1FmYYQa_xgQUoQxbgWAq4ko3N6ydMY5NM/view?usp=sharing"},
+            { titulo:"IELTS Speaking - Worksheet Three",descripcion:"Reading / Visiting new places & travel and other cultures.",url: "https://drive.google.com/file/d/1U3VfF8alZ8T0b3-fMAv4j3L8S1WKMkZl/view?usp=sharing"},
+            { titulo:"IELTS Speaking - Worksheet Four",descripcion:"Television / Teachers, education and preparing young people.",url: "https://drive.google.com/file/d/1fGtUwI6zWw-aTxljgQlkXpYC4r_uF1Y5/view?usp=sharing"},
+            { titulo:"IELTS Speaking - Worksheet Five",descripcion:"Your town / Giving presents & national holidays.",url: "https://drive.google.com/file/d/1LcIdTIv7GKS4ZmNYPi9gzddzefA--WJ0/view?usp=sharing"},
+            { titulo:"IELTS Speaking - Worksheet Six",descripcion:"Neighbours / First journey & childhood memories.",url: "https://drive.google.com/file/d/16VgBTGy77_Q5bVMonyqLkvVIhGVOrOKz/view?usp=sharing"},
+            { titulo:"IELTS Speaking - Worksheet Seven",descripcion:"Meals / Cooking a meal & healthy eating.",url: "https://drive.google.com/file/d/1DDJ12YpuTDFQ0l_hx72TH7Jxxl84KBZE/view?usp=sharing"},
+            { titulo:"IELTS Speaking - Worksheet Eight",descripcion:"Sleep / Valued possessions & wealth",url: "https://drive.google.com/file/d/1pL_x654FGjAo-5d5AjmN_tZKy2GM-J96/view?usp=sharing"},
 
+           
+        ],
+    },
+         {
+        id: 0,
+        thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
+
+        title: "Present Simple or Progressive?",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Completa los desafíos para dominar el Inglés",
+        enlaces: [
+           
+            { titulo:"Present Simple ",descripcion:"Aprende a usar el present simple en diferentes contextos ",url:"https://drive.google.com/file/d/1rwleyKN1vwRdZLJuHZXbIB3t88hevTl3/view?usp=sharing",url2: "https://youtu.be/b5KxYRP2I5s"},
+            { titulo:"Present Progressive",descripcion:"Aprende a usar el present progressive en diferentes contextos ",url:"https://drive.google.com/file/d/1Rqx1bzuRRJbjHZnH_iutOhx7oIzQoeut/view?usp=sharing",url2: "https://youtu.be/Nnu6JOaenf0"},
+            { titulo:"Test Center App",descripcion:"Desafio de tiempo Present simple y progressive ",url4: "https://learnibox.vercel.app/presentsimpleprogressive"},
+
+            { titulo:"Usual",descripcion:"Aprende los diferentes usos del usual",url: "https://drive.google.com/file/d/1Iru4Ttn7yf9vwOiUU8XjC6MCB9DPMHA8/view?usp=sharing",url2:"https://youtu.be/OSRAYauWH-I",url3:"https://drive.google.com/file/d/1sugjoNOr6dwEHogTwcKeYHUVbebEBbpX/view?usp=sharing"},
+            { titulo:"Usually",url: "https://drive.google.com/file/d/1IPWIh1B7oYwV4aPRJJKnM-gpZICitsX_/view?usp=sharing",url2:"https://www.youtube.com/watch?v=nYxi8UCraJI&ab_channel=MyEnglishBro"},
+            { titulo:"I think not vs I don't think so. ",url: "https://drive.google.com/file/d/15nnCB3JJRtH1fqqx5TypEptgoRbo5q-P/view?usp=sharing"},
+            { titulo:"Enough and Too ",url: "https://drive.google.com/file/d/1Tcadp5eOdfsHOlCwJWs0iNuphHQO4gYA/view?usp=sharing"},
+
+
+        ],
+    },
+       {
+        id: 1,
+        thumbnail: "https://i.ibb.co/4npzrRYN/DALL-E-2025-02-26-11-50-46-An-intense-battle-between-two-warriors-representing-Past-Simple-and-Past.webp",
+
+        title: "Past Simple or  Past Progressive?",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Completa los desafíos para dominar el Inglés",
+        enlaces: [
+           { titulo: "Past Progressive ",url: "https://drive.google.com/file/d/18QxoihCFpTI0wyWQgr50OZtCdWWNVwqw/view?usp=sharing", },
+
+            { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1GWFlQ8RvPK7qb3S8HLBhKTlBONeogy0H/view?usp=sharing", },
+            { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/18h8QAkzm5UIzr-TF3DywBw_F-KtkjUYY/view?usp=sharing", },
+            { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1LCS98Vmh3gzPntxzCx5kX_EdackIK0v_/view?usp=sharing", },
+            { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1gxGscWmK3hDwJTXbNQpUEKlWSh_J9VLG/view?usp=sharing", },
+            { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1_3IiO9AC-y6Ks5RZujHdQyaWKKeMO9pu/view?usp=sharing", },
+            { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1Cc3RqGtZefUPxDSohH0Xssr4OSO5uftZ/view?usp=sharing", },
+        ],
+    },
+     
+    {
+        id: 2,
+        thumbnail: "https://i.ibb.co/v6T66Y2g/DALL-E-2025-02-26-11-53-11-A-dramatic-battle-between-two-warriors-representing-Past-Simple-and-Prese.webp",
+
+        title: "Past Simple or Present Perfect?",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Completa los desafíos para dominar el Inglés",
+        enlaces: [
+            {  titulo:"Past Simple", url: "https://drive.google.com/file/d/1aAwupScFNRFoNArgtm5f_3k5a0Eyfztt/view?usp=sharing"},
+            {  titulo:"Present Perfect", url: "https://drive.google.com/file/d/1Vgvz7c7QrW_FMs5AN70TscKd_z6nh0Pv/view?usp=sharing"},
+            { titulo:"Test Center App",descripcion:"Desafio de tiempo Present simple y progressive ",url4: "https://learnibox.vercel.app/pastsimpleperfect"},
+            
+        ],
+    },
+    
+     {
+        id: 3,
+        thumbnail: "https://i.ibb.co/v6T66Y2g/DALL-E-2025-02-26-11-53-11-A-dramatic-battle-between-two-warriors-representing-Past-Simple-and-Prese.webp",
+
+        title: "Present Perfect  or Present Perfect Progressive?",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Completa los desafíos para dominar el Inglés",
+        enlaces: [
+
+            {  titulo:" Present Perfect Progressive", url: "https://drive.google.com/file/d/1XKmee6Sthrl756nWgoifeDb0D6jrob1e/view?usp=sharing"},
+            {  titulo:" Perfect Simple vs  Perfect Progressive", url: "https://drive.google.com/file/d/1IGrGmE7B44z6YCVSVVSFjWS10CV_mjdC/view?usp=sharing"},
+
+            { titulo: "✍ Past Simple and Present Perfect (Simple and Progressive) ",url: "https://drive.google.com/file/d/10efo7YOPNaICX_E6_DQJsYZ5ctxm2xYQ/view?usp=sharing", },    
+             { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/1D0VK7vPjtlAMOc8WqxQUQn62_F3-uJsa/view?usp=sharing", },            { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/1GWFlQ8RvPK7qb3S8HLBhKTlBONeogy0H/view?usp=sharing", },
+            { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/1jgcxBuSKBZ6LdIQbWXL3_4lJDv4D8QVa/view?usp=sharing", },
+            { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/1jvFbc4GPFUHXIgx0gmbgslQQz7KmIMG0/view?usp=sharing", },
+            { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/1iCSWPTOFu1vGbkEaW6xSPh-Z_-koKr3V/view?usp=sharing", },
+            { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/1uik-f0MFXujPMnbgmOiCIegxSmWAI5qI/view?usp=sharing", },
+            { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/1CyruZuJFKhWpzmNmFQ9H9oigRjqgY0ui/view?usp=sharing", },
+            { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/1i-A68Tl92LNR87MyIWPPTEceTrIlU_hw/view?usp=sharing", },
+            { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/11Jj4BydUErvqumFiFy5goX5pGQkZq9HY/view?usp=sharing", },
+
+            
+        ],
+    },
+    {
+        id: 4,
+        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+
+        title: "Future Tenses",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Completa los desafíos para dominar el Inglés",
+        enlaces: [
+            { titulo: "Future Simple ",url: "https://drive.google.com/file/d/1qv1NHearXkAYne1cH9N0MBc4ikdNtAV-/view?usp=sharing", },    
+
+            { titulo: "✍ Ways of Expressing Future Tense ",url: "https://drive.google.com/file/d/1J6r3JFYzr-U4CzRQihyMcl6uB2Ms7bu0/view?usp=sharing", },    
+            { titulo: "✍  Future Tenses ",url: "https://drive.google.com/file/d/1uQEVuavBgrytYsOTlD3dAg8qZDCtZEa_/view?usp=sharing", },
+            
+           
+
+            
+        ],
+    },
+    {
+        id: 5,
+        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
+
+        title: "Phrasal Verbs ",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: " ",
+        enlaces: [
+            { titulo: "Phrasal Verbs",descripcion:"108 Phrasal Verbs with 3 words",url4:"http://learnibox.vercel.app/108pv"}, 
+            { titulo:"Welcome",descripcion:"Las diferencias en Inglés ",url: "https://drive.google.com/file/d/1VTKLgs-w-Bc-_TPtmNScaaQf0ATs8oCl/view?usp=sharing"},
+            { titulo:" Be on about ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/1i5m5Xo0rahB9re9xsLNJdclpA8FA03jy/view?usp=sharing",url3: "https://drive.google.com/file/d/1JDpCXxAU9ozjBMEA2ouhBQGAJgpliOOc/view?usp=sharing" },
+            { titulo:"📚Watch out for - Look out for.pdf",url: "https://drive.google.com/file/d/1-E-NvIWN5EmPErBDwZSZmoAQZdgC4g4O/view?usp=sharing"},
+            { titulo:"📚ASK FOR - ASK AFTER - ASK ABOUT",url: "https://drive.google.com/file/d/1gkbuIZJ6sRy1jro8NPpOZLKO4p7naizC/view?usp=sharing"},
+            { titulo:"Work Out ",url: "https://drive.google.com/file/d/1h4pzMnsgFmBcpRj1QbPbBDjkJ0J9UYfE/view?usp=sharing",url3:"https://drive.google.com/file/d/14ovf4SmbRkZSWQVh-6Q9cOCousRjCrvZ/view?usp=sharing"},
+            { titulo:"zero in on  ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/18JztqKh0PP18_LPzUKZDJYnRQqip7x3a/view?usp=sharing",url3: "https://drive.google.com/file/d/19y7aXWFScceuArjQNuN7FjpaLPfALo3w/view?usp=sharing" },
+            { titulo:"Shy Away From sth   ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/1LKd3X2Qr8MJ-52QtwBi9f6NR-AWD9anl/view?usp=sharing",url3: "https://drive.google.com/file/d/188wbcEig0wGPF2gscPLlQhF_xayYwKHF/view?usp=sharing" },
+            {titulo: "📒Phrasal verb with Get",url: "https://drive.google.com/file/d/1txaA2U2EMDVKnJ--_UM8YhzDZBaHasDP/view?usp=sharing",},
+            {titulo: "📒Phrasal verb with Take",url: "https://drive.google.com/file/d/1ZkjaNFOku-6MgJSzH_QRRXHoYGm02uLQ/view?usp=sharing",},
+            {titulo: "📒Phrasal verb Get vs Take",url: "https://drive.google.com/file/d/1XyP5ABzwxOESdOwnOucJ_2-3beKDqxwv/view?usp=sharing",},
+            {titulo: "📒Phrasal verb with Up",url: "https://drive.google.com/file/d/1B7kiX_3JXK8jiRYNFkR4IxPqoHCz0J7K/view?usp=sharing",},
+            {titulo: "📒Phrasal verb Dictation",url: "https://drive.google.com/file/d/1Q78yaqJPpqUThoLZ4y5tqPFp-x6eCV8F/view?usp=sharing",},
+      
+      
         ],
     },
     {
@@ -382,92 +530,7 @@ export const roadIelts = [
     },
     
     
-    {
-        id: 0,
-        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
-        title: "B2 Bootcamp ",
-        subtitle: "B2/C1",
-        // color: "#D6083B", // Propiedad de color añadida
-
-        
-        dateAdded: "Basic 0 ",
-        channel: "sdasd",
-        description: "Grabacion de clases Cambridge Preparation,no compartas las grabaciones ",
-        enlaces: [
-           
-                { "titulo": "B2 first Essential", "url": "https://www.youtube.com/watch?v=gGWtrDuoUi0" },
-                { "titulo": " day 2", "url": "https://www.youtube.com/watch?si=MHjaEN7bzBy3ZOhc&v=9bB9PgyB_bg&feature=youtu.be" },
-                { "titulo": " after", "url": "https://www.youtube.com/watch?v=5ilyP5xsyes&feature=youtu.be" },
-                { "titulo": " day 3", "url": "https://www.youtube.com/watch?si=m4xdSF6v23GibP_H&v=CR6rnB5Yg0Y&feature=youtu.be" },
-                { "titulo": " day 4", "url": "https://www.youtube.com/watch?si=tixxZisScjmyyLzI&v=eOtsLBuwvgw&feature=youtu.be" },
-                { "titulo": "day 5", "url": "https://www.youtube.com/watch?si=dYFzG1VF98Tqkvyi&v=I5E5Q3yByPs&feature=youtu.be" },
-                { "titulo": "  day 6", "url": "https://www.youtube.com/watch?si=-KYzJRc2XtTsfytL&v=OuqZlRsw7NE&feature=youtu.be" },
-                { "titulo": " day 7", "url": "https://www.youtube.com/watch?v=4hyP05BgB9M&list=PLaYNhMsVRuHhY6xcwxg931ib5xCbw2zWC&index=8&ab_channel=MyEnglishBro" },
-                { "titulo": " day 8", "url": "https://www.youtube.com/watch?v=XE7dOWDGpek&ab_channel=MyEnglishBro" },
-                { "titulo": "day 9", "url": "https://www.youtube.com/watch?v=w2i-Q7YHpvc" },
-                { "titulo": " day 10", "url": "https://youtu.be/1yYDsB_X9Ow" },
-                { "titulo": " day 11", "url": "https://www.youtube.com/watch?v=G7noYDWA80I&ab_channel=MyEnglishBro" },
-                { "titulo": " day 12", "url": "https://youtu.be/96wYFY3lUh4" },
-                { "titulo": " day 13", "url": "https://www.youtube.com/watch?v=tVZPNUMq2d0&ab_channel=MyEnglishBro" },
-                { "titulo": " day 14", "url": "https://www.youtube.com/watch?v=RAY0LxAjNOk&ab_channel=MyEnglishBro" },
-                { "titulo": " day 15", "url": "https://www.youtube.com/watch?v=Czy1TEgGXu4&ab_channel=MyEnglishBro" },
-                { "titulo": " day 16", "url": "https://www.youtube.com/watch?v=NZjOZDjhK3E" },
-                { "titulo": "  day 17", "url": "https://www.youtube.com/watch?v=gpbEMX4KPk8" },
-                { "titulo": "  day 18", "url": "https://www.youtube.com/watch?v=ez9eoYxzU-A&ab_channel=MyEnglishBro" },
-                { "titulo": "  day 19", "url": "https://youtu.be/t1njSOFuS84" },
-                { "titulo": "  day 20", "url": "https://youtu.be/oNkeUNBrjG0" },
-                { "titulo": "  day 21", "url": "https://youtu.be/MdL2xj330bk" },
-                { "titulo": " day 22", "url": "https://youtu.be/LYrMkpMS5RY" },
-                { "titulo": "  day 23", "url": "https://youtu.be/iYdTP-7wvzc" },
-                { "titulo": "  day 24", "url": "https://youtu.be/esjEITmf8Ug" },
-                { "titulo": "  day 25", "url": "https://youtu.be/OxXnEdw-LdU" }
-            ],
-            
-    },
-
-    {
-        id: 2,
-        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
-
-
-        title: "B2 First 2024",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 0 ",
-        channel: "sdasd",
-        description: "Grabacion de clases Cambridge Preparation,no compartas las grabaciones ",
-        enlaces: [
-                { "titulo": "[🖥️Class]  day 5", "url": "https://www.youtube.com/watch?v=R2TVluocgUg&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&index=5&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 4", "url": "https://www.youtube.com/watch?v=kLjAWxOYZDI&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 3", "url": "https://www.youtube.com/watch?v=_FJtW3NHYxQ&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&index=2&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 2", "url": "https://www.youtube.com/watch?v=uSoQGya3n_Y&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&index=3&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 1", "url": "https://www.youtube.com/watch?v=ccyWNJz7FS4&list=PLaYNhMsVRuHit4WfPV4jdNX06vlIirQZp&index=4&ab_channel=MyEnglishBro" },
-                
-            ],
-            
-    },
-    {
-        id: 3,
-        thumbnail:"https://i.ibb.co/fdvHb0wg/file-Fg-Ck-CXPth2-Nv-VVv4mnbaiq.png",
-
-        title: "IELTS Band 5",
-        subtitle: "B2/C1",
-        color: "#D6083B", // Propiedad de color añadida
-
-        dateAdded: "Basic 0 ",
-        channel: "sdasd",
-        description: "Grabacion de clases Cambridge Preparation,no compartas las grabaciones ",
-        enlaces: [
-                { "titulo": "[🖥️Class]  day 5", "url": "https://www.youtube.com/watch?v=nIZcH0sQSf0&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=1&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 4", "url": "https://www.youtube.com/watch?v=C0RB86t1YIw&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=2&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 3", "url": "https://www.youtube.com/watch?v=TV10GT7j_es&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=3&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 2", "url": "https://www.youtube.com/watch?v=2ExYgxh9gjE&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=5&ab_channel=MyEnglishBro" },
-                { "titulo": "[🖥️Class]  day 1", "url": "https://www.youtube.com/watch?v=UEEEwLpO7z0&list=PLaYNhMsVRuHjJu7pN_j8lKxb-r4Hjwc4_&index=4&ab_channel=MyEnglishBro" },
-                
-            ],
-            
-    },
-    
+   
    
    
     {

@@ -56,6 +56,7 @@ export const validCredentials = [
      { expirationDate:"16/08/25",nivel:"B2",usuario: 'jhoan', password: 'rufino', realname: 'Jhoan G Rufino',img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
      { expirationDate:"16/11/25",nivel:"B2",usuario: 'esther', password: 'campos', realname: 'Esther A. Campos',img:'https://i.ibb.co/gFvTfbyv/489443188-1181057673715179-39559.jpg'},
      { expirationDate:"16/08/25",nivel:"B2",usuario: 'tatiana', password: 'porras', realname: 'tatiana Porras',img:'https://i.ibb.co/ynbL39Bx/505486947-1373472863709226-49176.png'},
-     { expirationDate:"16/08/25",nivel:"B2",usuario: 'ary', password: 'b2cambridge', realname: 'Ary',img:'https://i.ibb.co/ynbL39Bx/505486947-1373472863709226-49176.png'},
+     { expirationDate:"16/08/25",nivel:"B2",usuario: 'fabricio', password: 'paltan', realname: 'Fabricio Paltan',img:'https://i.ibb.co/ynbL39Bx/505486947-1373472863709226-49176.png'},
+     { expirationDate:"16/08/25",nivel:"B2",usuario: 'claudio', password: 'justiniano', realname: 'Claudio Justiniano',img:'https://i.ibb.co/ynbL39Bx/505486947-1373472863709226-49176.png'},
 
     ];
