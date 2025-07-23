@@ -59,4 +59,8 @@ export const validCredentials = [
      { expirationDate:"22/10/25",nivel:"B2",usuario: 'fabricio', password: 'paltan', realname: 'Fabricio Paltan',img:'https://i.ibb.co/ynbL39Bx/505486947-1373472863709226-49176.png'},
      { expirationDate:"16/08/25",nivel:"B2",usuario: 'claudio', password: 'justiniano', realname: 'Claudio Justiniano',img:'https://i.ibb.co/ynbL39Bx/505486947-1373472863709226-49176.png'},
 
+
+          { expirationDate:"5 days",nivel:"B2",usuario: 'claudio', password: 'celpip', realname: 'David',img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
+     { expirationDate:"5 days",nivel:"B2",usuario: 'ary', password: 'b2cambridge', realname: 'Ary',img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
+
     ];
