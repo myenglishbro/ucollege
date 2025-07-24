@@ -11,7 +11,8 @@ export const roadIelts = [
         description: " ",
         enlaces: [
             { titulo:"Ielts Info",descripcion:"Información sobre el examen ",url: "https://drive.google.com/file/d/14JiBhX3Njztj1U4CflfrW6J9bQd_Psju/view?usp=sharing"},
-         
+            { titulo:"Secretos Ielts Speaking",descripcion:"Información sobre el examen ",url: "https://drive.google.com/file/d/1Lmpp14X3e1wsuXlKY6lcawoS0svUx2nL/view?usp=sharing"},
+
 
            
         ],
@@ -181,6 +182,111 @@ export const roadIelts = [
         ],
     },
     {
+        id: 5,
+        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+
+        title: "Essential Grammar ",
+        subtitle: "B2",
+
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+        enlaces: [
+             { titulo:"Amount vs Quantity vs Number  ",url: "https://drive.google.com/file/d/1CN4FalpOZBZ-SMMcatuxD_uasMzenrDA/view?usp=sharing"},
+            { titulo:"already/still/yet  ",url: "https://drive.google.com/file/d/126LmouA8outgNhw5x6wUcZI3F4tT1v4j/view?usp=sharing"},
+            { titulo:"apart from, aside from, except for  ",url: "https://drive.google.com/file/d/1EEftSd6UjyKcnVoP77VJFglfxUw_7gng/view?usp=sharing"},
+            { titulo:"Consist in vs Consist of.. ",url: "https://drive.google.com/file/d/1F-XK5pIbsWwlOIDU-XfXpEVATQdlTggq/view?usp=sharing"},
+            { titulo:"CORRELATIVE CONJUNCTIONS",url: "https://drive.google.com/file/d/16ud5EPb-q127g3tRlHKoV_Pk5HKpLoh8/view?usp=sharing"},
+
+        
+            { titulo:"📚[Slide] Impersonal Passive/ Personal Passive  ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
+
+            { titulo:"📚Aren't I vs Am I not ",url: "https://drive.google.com/file/d/1DKuTnhQurzBMHVo0P0GLL_EdI3y8LMvs/view?usp=sharing"},
+            { titulo:"📚AS...AS... vs NOT SO...AS..",url: "https://drive.google.com/file/d/1VLCJlD5Tgn9XU3oUo05emwf23WkT5XQ8/view?usp=sharing"},
+            { titulo:"📚Future Plans- be going to vs present continuous",url: "https://drive.google.com/file/d/1Ov96Gz7ZEr3wDsnwDXF15q-6C8TrAPts/view?usp=sharing"},
+            { titulo:"📚by the time (that), by now, by then.",url: "https://drive.google.com/file/d/1VQxnXCmbei5cxZucSW8FJKBOdgMQGRmO/view?usp=sharing"},
+            { titulo:"📚cannot vs can not",url: "https://drive.google.com/file/d/1CXcCzrtdDif6iBEi75d_9CFxIE6847Q4/view?usp=sharing"},
+            { titulo:"📚CAUSATIVE VERBS (have - get) ",url: "https://drive.google.com/file/d/1-PErCarKwe61HtSAbgx2wtJapHkBM9bp/view?usp=sharing"},
+            { titulo:"📚Table CAUSATIVE VERBS (have - get) ",url: "https://drive.google.com/file/d/1NoE0tUIpAlHgGNHc1xBIi_YFIyoBax15/view?usp=sharing"},
+            { titulo:"📚CLEFT SENTENCES (TABLE) ",url: "https://drive.google.com/file/d/13-JhSbUYrCntdTi5t097wDYyeUmJH-g1/view?usp=sharing"},
+            { titulo:"📚DECISIONS, PLANS, PREDICTIONS",url: "https://drive.google.com/file/d/1LirHWCiSSatbjAv8q1ItdX32fnY2Tk8c/view?usp=sharing"},
+            { titulo:"📚didn't need to vs needn't have done..",url: "https://drive.google.com/file/d/134MeLLR89v9--eCmh35fZ7FnQsbra8lT/view?usp=sharing"},
+            { titulo:"📚Direct & Indirect speech (table) + kwt exercises",url: "https://drive.google.com/file/d/1rBQWS8z17BGn4B2mT0SGJt6J5CHEyZkw/view?usp=sharing"},
+            { titulo:"📚do you mind  would you mind",url: "https://drive.google.com/file/d/1qUomEVgJdczYHV59Z_JCNTCSfQZ0Md9W/view?usp=sharing"},
+            { titulo:"📚Early vs Soon ",url: "https://drive.google.com/file/d/1Acdy7DKjKxgj_6sWY4adIxRH9u5v-6bj/view?usp=sharing"},
+            { titulo:"📚Either ...or  vs OR ",url: "https://drive.google.com/file/d/1DD4Z1gKhaIB3WK1wBB2aH1gk1bVglPhI/view?usp=sharing"},
+            { titulo:"📚EVEN though-when-if-so ",url: "https://drive.google.com/file/d/1K5b3KQrgOSpO_5gfqRTbf7UEVFHuGrob/view?usp=sharing"},
+            { titulo:"📚WHAT and HOW (Exclamations) ",url: "https://drive.google.com/file/d/1OJI6_nCQEgh26dLzcN0Lta-I5Ln202Oq/view?usp=sharing"},
+            { titulo:"📚Expressing lack of surprise (phrases).. ",url: "https://drive.google.com/file/d/10OCN5p9pht9TviKo5C8Tlpq65n7LFSzV/view?usp=sharing"},
+            { titulo:"📚EXPRESSING PURPOSE-- ",url: "https://drive.google.com/file/d/1aRymKDEhwoQRppVdi-ztAThEOAOp0JMe/view?usp=sharing"},
+            { titulo:"📚Expressing willingness (Will and Would ) ",url: "https://drive.google.com/file/d/1AJr_SKwGzajEuvqdC72Mumc0DVJZwag0/view?usp=sharing"},
+            { titulo:"📚Few vs Little Full Explanation",url: "https://drive.google.com/file/d/1aBJdWZnhLdBVlvxlBl3hb_-0tac67XUw/view?usp=sharing"},
+            { titulo:"📚FOR + ING vs TO+ INFINITIVE",url: "https://drive.google.com/file/d/1rX-n7tp2oviaCzq6QjiSlBe4jZlTW2y5/view?usp=sharing"},
+            { titulo:"📚FOR...TO",url: "https://drive.google.com/file/d/17TmzNhbfrrhN344SE_TnKDMo0Jip1-b5/view?usp=sharing"},
+            { titulo:"📚FUTURE CONTINUOUS",url: "https://drive.google.com/file/d/1CHKDeg9dOgpCRuGliPUKMI0vUI-ccZlK/view?usp=sharing"},
+            { titulo:"📚had better",url: "https://drive.google.com/file/d/1HJEWIQQrKUc3ZeI0tQUVOz9Uq3ooXY6_/view?usp=sharing"},
+            { titulo:"📚having a lot to do",url: "https://drive.google.com/file/d/1LiGCvmom_wRtwvNbKXx3WhALIglfBsgS/view?usp=sharing"},
+            { titulo:"📚I wish he were vs I wish he was. ",url: "https://drive.google.com/file/d/1fbiunfDO3ATtUfhVjJmYTVaiIl7wuHUM/view?usp=sharing"},
+            { titulo:"📚wish you didn't - wish you wouldn't",url: "https://drive.google.com/file/d/1c_W6Rnvb2guEvvGvtz4UpXOXt-oowWLm/view?usp=sharing"},
+            { titulo:"📚If I were vs If I was ",url: "https://drive.google.com/file/d/1L8gL4in7HNGsjw_fqgsCzi2FPNi3VYR8/view?usp=sharing"},
+           
+            { titulo:"📚INCLUDING OR OMITTING RELATIVE PRONOUNS ",url: "https://drive.google.com/file/d/1Ewn06vQoRRM7-ObSlsWbRMMgY937yU6o/view?usp=sharing"},
+            { titulo:"📚INVERSIONS AT B2 LEVEL..pdf ",url: "https://drive.google.com/file/d/17DCJanovoUIB6Vome6kfXe4kMRVo24Cc/view?usp=sharing"},
+            { titulo:"📚INVERSION - NEITHER and NOR..pdf ",url: "https://drive.google.com/file/d/1WPJd9-AcEd7p7uvD6IMT1LLVgh0c6JrO/view?usp=sharing"},
+            { titulo:"📚Irregular verbs that stay the same.pdf ",url: "https://drive.google.com/file/d/1lXnJki--FsJONo7pe-kcyTrP_ULPrPGq/view?usp=sharing"},
+            { titulo:"📚it's (about-high) time ",url: "https://drive.google.com/file/d/1JsV99-95VmCWYE-ueZxQOT-2X7G8F-WJ/view?usp=sharing"},
+            { titulo:"📚it is you who is or are.pdf ",url: "https://drive.google.com/file/d/1BndKeJOOstmHCB7pUYxQQyLr-YhfcSPJ/view?usp=sharing"},
+            { titulo:"📚JOINING NEGATIVE IDEAS.pdf ",url: "https://drive.google.com/file/d/1OuDSE00YChqB4_W8nCFT7R2DTWt5ZfLF/view?usp=sharing"},
+            
+
+
+
+
+
+
+
+
+          
+            { titulo:"📚Personal and Impersonal Passive",url: "https://drive.google.com/file/d/1obtVtl8UEAVz9UCz4aff_q7WGGYwDim2/view?usp=sharing"},
+            { titulo:"📚PREFER (structures)",url: "https://drive.google.com/file/d/1K1snnmMtNgzLZOuyZ5HQR62_5MWh4_kt/view?usp=sharing"},
+            { titulo:"📚Prepare for, Prepare oneself for",url: "https://drive.google.com/file/d/1tG9gKZJ_jzgMHZZC2H5oqGvrf78UxRCU/view?usp=sharing"},
+            { titulo:"📚present habits",url: "https://drive.google.com/file/d/1qoaInxhVWNQsxI354IL8Cj3ho7iHjCQ7/view?usp=sharing"},
+       
+       
+            { titulo:"📚QUANTIFIERS",url: "https://drive.google.com/file/d/1iGVwAqosK0wGZ216J_rgHXVnuVnLBZLM/view?usp=sharing"},
+            { titulo:"📚Universal Tags",url: "https://drive.google.com/file/d/1N2ZdcMbCQ_JEZEgXXsZ7QEjyhjgN2sjY/view?usp=sharing"},
+            { titulo:"📚QUESTION TAG - HAVE",url: "https://drive.google.com/file/d/1TfK9qlZtV5D3m1PFQ98IpYTLV8G9RSTM/view?usp=sharing"},
+
+
+           
+            { titulo:"📚statement tags",url: "https://drive.google.com/file/d/1wPLJc7cxDP6KjIphJKOf5yDgy6PKGqQA/view?usp=sharing"},
+           
+
+
+            
+         
+            { titulo:"📚Words with Silent Letters",url: "https://drive.google.com/file/d/1eAPZFyNImLFcuMVSfvWhfJgUPj4f78jO/view?usp=sharing"},
+            { titulo:"📚SINGULAR THEY",url: "https://drive.google.com/file/d/1xAT_pnOmVjImRxmr1LX57yWLdWbKGVf4/view?usp=sharing"},
+            { titulo:"📚so+adj+that vs so+adj+as to",url: "https://drive.google.com/file/d/1Dox44XMlIjIJkzhUO1-wjetHjtfbn13Q/view?usp=sharing"},
+
+            { titulo:"📚take for, mistake for, confuse with",url: "https://drive.google.com/file/d/19Vprq7R-KXX0JVHNjK5p9et5eLlAduJ-/view?usp=sharing"},
+
+
+
+
+         
+        
+            { titulo:"📚Universal Tags--.pdf",url: "https://drive.google.com/file/d/1OSz1iN5iCyX05MS1x0HLVUt93kuQUKKa/view?usp=sharing"},
+            { titulo:"📚[Slide] Useful Homophones ",url: "https://drive.google.com/file/d/1MWO2XHuHp0bAzFceREIteP_cKXyuwe1j/view?usp=sharing"},
+            { titulo:"📚Verbs followed by infinitive or gerund with change in meaning ",url: "https://drive.google.com/file/d/1-zILhE9-k1jSvyi5Rx5u6G_mRR_cpXxa/view?usp=sharing"},
+            { titulo:"📚IF vs WHETHER.pdf",url: "https://drive.google.com/file/d/1K8SHYnfmfuU7V8MBw2IGBot7wk1VO0hb/view?usp=sharing"},
+            { titulo:"📚[Slide] Would rather/Would Sooner ",url: "https://drive.google.com/file/d/1F-t7qwMfcb5PDKfFodN02qZFwCzIZFqu/view?usp=sharing"},
+            { titulo:"📚You and me vs You and I.pdf",url: "https://drive.google.com/file/d/1HQvOU9nI4uYstFx3AndBDY2Krj7C1cso/view?usp=sharing"},
+            { titulo:"📚Zero article vs definite article (locations).pdf",url: "https://drive.google.com/file/d/1C1ia0DWTYVI0wI-aZS3CGf2oEuLwmwyk/view?usp=sharing"},
+
+        ],
+    },
+    {
         id: 6,
         thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
 
@@ -316,59 +422,7 @@ export const roadIelts = [
         ],
     },
     
-    {
-        id: 3,
-        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
-
-        title: "Key Word Transformation",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 0 ",
-        channel: "sdasd",
-        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
-        enlaces: [
-              { titulo:"Key Word Transformation ",descripcion:"The final part of the Use of English paper is Key Word Transformations. A sentence followed by a key word and a second sentence which has a gap in it. A student has to use the key word to complete the second sentence so that it means the same as the first sentence.",url: "https://drive.google.com/file/d/1fzxVyBLvMHRwzfHTGLgYapKOXasOXv0m/view?usp=sharing",url3:"https://drive.google.com/file/d/1SlBZ6S1G4Jk_fMSC9kPJRa_XY_GuJfRN/view?usp=sharing",url7:"http://learnibox.vercel.app/kwt"},
-
-            { titulo:"Presentación",url: "https://youtu.be/Hk1y2D9jbvQ"},
-            { titulo:"50 Key Word Transformation ",url: "https://drive.google.com/file/d/1shC9iwswMYoymUEiJ8H1s8b9ngvp8gdB/view?usp=sharing"},
-
-            { titulo:"Solución KWT 01 ",url: "https://youtu.be/muqLK--ykjg"},
-            { titulo:"Test KWT 01 ",url: "https://drive.google.com/file/d/10cOoRCKkswKlwi2GOM4cvdOlWNBE-Hbx/view?usp=sharing"},
-            { titulo:"Solución KWT 02 ",url: "https://drive.google.com/file/d/1VeU2a_peDOk2WMACF8anyG0GwLGZzOvM/view?usp=sharing",url2: "https://youtu.be/7wrY5gW_Xco"},
-            { titulo:"Solución KWT 03 ",url: "https://drive.google.com/file/d/1meGXse7csULGWCCAAOkANu1ckqn_bg5o/view?usp=sharing",url2: "https://youtu.be/D11X4WGnhuU",},
-
-         
-            { titulo:"📚[pdf] Key Word Transformation 001 ",url: "https://drive.google.com/file/d/1fzxVyBLvMHRwzfHTGLgYapKOXasOXv0m/view?usp=sharing",url3:"https://drive.google.com/file/d/1cXjQsg8lVZghohRvTd1D5DLjgByRfnww/view?usp=sharing",url7:"http://learnibox.vercel.app/kwt"},
-            { titulo:"📚[pdf] Key Word Transformation 002 ",url: "https://drive.google.com/file/d/1AytA61HbBmJgFLcXNEwEBHJQjVelp1T3/view?usp=sharing"},
-            { titulo:"📚[pdf] Key Word Transformation 003 ",url: "https://drive.google.com/file/d/1Kx3tL5lWNxOaeJwuu5bKqhaML8fi9nb6/view?usp=sharing"},
-            { titulo:"📚[pdf] Key Word Transformation 004 ",url: "https://drive.google.com/file/d/1CkMzAwGVkwxbkDaLMAIaxo_cs3o4KADY/view?usp=sharing"},
-            { titulo:"📚[pdf] Key Word Transformation 005 ",url: "https://drive.google.com/file/d/1qDQx3HJZL9Vkm6vOC9a-m7vUkqw4HMRa/view?usp=sharing"},
-
-            { titulo:"📚 Key Word Transformation 28 ",url: "https://drive.google.com/file/d/10ct8FrtXch8uWcAuVeXoOw0h9aRZMm3f/view?usp=sharing"},
-            { titulo:"📚 Key Word Transformation 29 ",url: "https://drive.google.com/file/d/1pTn7jQaGDjGHZ6LjXOUDpTy5j86W73BZ/view?usp=sharing"},
-            { titulo:"📚 Key Word Transformation 30 ",url: "https://drive.google.com/file/d/1is1Fl-t-3IUPB31eclX1E6JpyyESoqtY/view?usp=sharing"},
-            { titulo:"📚 Key Word Transformation 31 ",url: "https://drive.google.com/file/d/10vJ82iasNVDoCWiUomoA_zyp_NilAknA/view?usp=sharing"},
-            { titulo:"📚 Key Word Transformation 32 ",url: "https://drive.google.com/file/d/1-92IEBQQcqQwK3LxDdLYmiAw0zaD6WGp/view?usp=sharing"},
-
-        ],
-    },
-      {
-        id: 25,
-        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
-
-        title: "Gapped Text",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 01 ",
-        channel: "sdasd",
-        description: "Completa los desafíos para dominar el Inglés",
-        enlaces: [
-            { titulo: "Simulations",descripcion:"A single page of text with some numbered gaps which represent missing sentences. After the text there are some sentences which are not in the right order. Students have to read the text and the sentences and decide which sentence best fits each gap.",url3: "https://drive.google.com/file/d/1W-uiH_VebMKmHmdY2JPzsODDyhJa_ayi/view?usp=sharing",url7:"https://drive.google.com/file/d/1W-uiH_VebMKmHmdY2JPzsODDyhJa_ayi/view?usp=sharing",url8:"http://learnibox.vercel.app/gt" },    
-           
-
-            
-        ],
-    },
+   
     {
         id: 1,
         thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
@@ -572,110 +626,7 @@ export const roadIelts = [
 
         ],
     },
-    {
-        id: 5,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
-
-        title: "Essential Grammar ",
-        subtitle: "B2",
-
-        dateAdded: "Basic 0 ",
-        channel: "sdasd",
-        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
-        enlaces: [
-           
-        
-            { titulo:"📚[Slide] Impersonal Passive/ Personal Passive  ",url: "https://drive.google.com/file/d/1D8o4Rz__F5-0ej6rz_gwwJCY9-Ogg_A1/view"},
-
-            { titulo:"📚Amount ..Quantity ..Number  ",url: "https://drive.google.com/file/d/1CN4FalpOZBZ-SMMcatuxD_uasMzenrDA/view?usp=sharing"},
-            { titulo:"📚apart from, aside from, except for  ",url: "https://drive.google.com/file/d/1EEftSd6UjyKcnVoP77VJFglfxUw_7gng/view?usp=sharing"},
-            { titulo:"📚Aren't I vs Am I not ",url: "https://drive.google.com/file/d/1DKuTnhQurzBMHVo0P0GLL_EdI3y8LMvs/view?usp=sharing"},
-            { titulo:"📚AS...AS... vs NOT SO...AS..",url: "https://drive.google.com/file/d/1VLCJlD5Tgn9XU3oUo05emwf23WkT5XQ8/view?usp=sharing"},
-            { titulo:"📚Future Plans- be going to vs present continuous",url: "https://drive.google.com/file/d/1Ov96Gz7ZEr3wDsnwDXF15q-6C8TrAPts/view?usp=sharing"},
-            { titulo:"📚by the time (that), by now, by then.",url: "https://drive.google.com/file/d/1VQxnXCmbei5cxZucSW8FJKBOdgMQGRmO/view?usp=sharing"},
-            { titulo:"📚cannot vs can not",url: "https://drive.google.com/file/d/1CXcCzrtdDif6iBEi75d_9CFxIE6847Q4/view?usp=sharing"},
-            { titulo:"📚CAUSATIVE VERBS (have - get) ",url: "https://drive.google.com/file/d/1-PErCarKwe61HtSAbgx2wtJapHkBM9bp/view?usp=sharing"},
-            { titulo:"📚Table CAUSATIVE VERBS (have - get) ",url: "https://drive.google.com/file/d/1NoE0tUIpAlHgGNHc1xBIi_YFIyoBax15/view?usp=sharing"},
-            { titulo:"📚CLEFT SENTENCES (TABLE) ",url: "https://drive.google.com/file/d/13-JhSbUYrCntdTi5t097wDYyeUmJH-g1/view?usp=sharing"},
-            { titulo:"📚Consist in vs Consist of.. ",url: "https://drive.google.com/file/d/1F-XK5pIbsWwlOIDU-XfXpEVATQdlTggq/view?usp=sharing"},
-            { titulo:"📚CORRELATIVE CONJUNCTIONS",url: "https://drive.google.com/file/d/16ud5EPb-q127g3tRlHKoV_Pk5HKpLoh8/view?usp=sharing"},
-            { titulo:"📚DECISIONS, PLANS, PREDICTIONS",url: "https://drive.google.com/file/d/1LirHWCiSSatbjAv8q1ItdX32fnY2Tk8c/view?usp=sharing"},
-            { titulo:"📚didn't need to vs needn't have done..",url: "https://drive.google.com/file/d/134MeLLR89v9--eCmh35fZ7FnQsbra8lT/view?usp=sharing"},
-            { titulo:"📚Direct & Indirect speech (table) + kwt exercises",url: "https://drive.google.com/file/d/1rBQWS8z17BGn4B2mT0SGJt6J5CHEyZkw/view?usp=sharing"},
-            { titulo:"📚do you mind  would you mind",url: "https://drive.google.com/file/d/1qUomEVgJdczYHV59Z_JCNTCSfQZ0Md9W/view?usp=sharing"},
-            { titulo:"📚Early vs Soon ",url: "https://drive.google.com/file/d/1Acdy7DKjKxgj_6sWY4adIxRH9u5v-6bj/view?usp=sharing"},
-            { titulo:"📚Either ...or  vs OR ",url: "https://drive.google.com/file/d/1DD4Z1gKhaIB3WK1wBB2aH1gk1bVglPhI/view?usp=sharing"},
-            { titulo:"📚EVEN though-when-if-so ",url: "https://drive.google.com/file/d/1K5b3KQrgOSpO_5gfqRTbf7UEVFHuGrob/view?usp=sharing"},
-            { titulo:"📚WHAT and HOW (Exclamations) ",url: "https://drive.google.com/file/d/1OJI6_nCQEgh26dLzcN0Lta-I5Ln202Oq/view?usp=sharing"},
-            { titulo:"📚Expressing lack of surprise (phrases).. ",url: "https://drive.google.com/file/d/10OCN5p9pht9TviKo5C8Tlpq65n7LFSzV/view?usp=sharing"},
-            { titulo:"📚EXPRESSING PURPOSE-- ",url: "https://drive.google.com/file/d/1aRymKDEhwoQRppVdi-ztAThEOAOp0JMe/view?usp=sharing"},
-            { titulo:"📚Expressing willingness (Will and Would ) ",url: "https://drive.google.com/file/d/1AJr_SKwGzajEuvqdC72Mumc0DVJZwag0/view?usp=sharing"},
-            { titulo:"📚Few vs Little Full Explanation",url: "https://drive.google.com/file/d/1aBJdWZnhLdBVlvxlBl3hb_-0tac67XUw/view?usp=sharing"},
-            { titulo:"📚FOR + ING vs TO+ INFINITIVE",url: "https://drive.google.com/file/d/1rX-n7tp2oviaCzq6QjiSlBe4jZlTW2y5/view?usp=sharing"},
-            { titulo:"📚FOR...TO",url: "https://drive.google.com/file/d/17TmzNhbfrrhN344SE_TnKDMo0Jip1-b5/view?usp=sharing"},
-            { titulo:"📚FUTURE CONTINUOUS",url: "https://drive.google.com/file/d/1CHKDeg9dOgpCRuGliPUKMI0vUI-ccZlK/view?usp=sharing"},
-            { titulo:"📚had better",url: "https://drive.google.com/file/d/1HJEWIQQrKUc3ZeI0tQUVOz9Uq3ooXY6_/view?usp=sharing"},
-            { titulo:"📚having a lot to do",url: "https://drive.google.com/file/d/1LiGCvmom_wRtwvNbKXx3WhALIglfBsgS/view?usp=sharing"},
-            { titulo:"📚I wish he were vs I wish he was. ",url: "https://drive.google.com/file/d/1fbiunfDO3ATtUfhVjJmYTVaiIl7wuHUM/view?usp=sharing"},
-            { titulo:"📚wish you didn't - wish you wouldn't",url: "https://drive.google.com/file/d/1c_W6Rnvb2guEvvGvtz4UpXOXt-oowWLm/view?usp=sharing"},
-            { titulo:"📚If I were vs If I was ",url: "https://drive.google.com/file/d/1L8gL4in7HNGsjw_fqgsCzi2FPNi3VYR8/view?usp=sharing"},
-           
-            { titulo:"📚INCLUDING OR OMITTING RELATIVE PRONOUNS ",url: "https://drive.google.com/file/d/1Ewn06vQoRRM7-ObSlsWbRMMgY937yU6o/view?usp=sharing"},
-            { titulo:"📚INVERSIONS AT B2 LEVEL..pdf ",url: "https://drive.google.com/file/d/17DCJanovoUIB6Vome6kfXe4kMRVo24Cc/view?usp=sharing"},
-            { titulo:"📚INVERSION - NEITHER and NOR..pdf ",url: "https://drive.google.com/file/d/1WPJd9-AcEd7p7uvD6IMT1LLVgh0c6JrO/view?usp=sharing"},
-            { titulo:"📚Irregular verbs that stay the same.pdf ",url: "https://drive.google.com/file/d/1lXnJki--FsJONo7pe-kcyTrP_ULPrPGq/view?usp=sharing"},
-            { titulo:"📚it's (about-high) time ",url: "https://drive.google.com/file/d/1JsV99-95VmCWYE-ueZxQOT-2X7G8F-WJ/view?usp=sharing"},
-            { titulo:"📚it is you who is or are.pdf ",url: "https://drive.google.com/file/d/1BndKeJOOstmHCB7pUYxQQyLr-YhfcSPJ/view?usp=sharing"},
-            { titulo:"📚JOINING NEGATIVE IDEAS.pdf ",url: "https://drive.google.com/file/d/1OuDSE00YChqB4_W8nCFT7R2DTWt5ZfLF/view?usp=sharing"},
-            
-
-
-
-
-
-
-
-
-          
-            { titulo:"📚Personal and Impersonal Passive",url: "https://drive.google.com/file/d/1obtVtl8UEAVz9UCz4aff_q7WGGYwDim2/view?usp=sharing"},
-            { titulo:"📚PREFER (structures)",url: "https://drive.google.com/file/d/1K1snnmMtNgzLZOuyZ5HQR62_5MWh4_kt/view?usp=sharing"},
-            { titulo:"📚Prepare for, Prepare oneself for",url: "https://drive.google.com/file/d/1tG9gKZJ_jzgMHZZC2H5oqGvrf78UxRCU/view?usp=sharing"},
-            { titulo:"📚present habits",url: "https://drive.google.com/file/d/1qoaInxhVWNQsxI354IL8Cj3ho7iHjCQ7/view?usp=sharing"},
-       
-       
-            { titulo:"📚QUANTIFIERS",url: "https://drive.google.com/file/d/1iGVwAqosK0wGZ216J_rgHXVnuVnLBZLM/view?usp=sharing"},
-            { titulo:"📚Universal Tags",url: "https://drive.google.com/file/d/1N2ZdcMbCQ_JEZEgXXsZ7QEjyhjgN2sjY/view?usp=sharing"},
-            { titulo:"📚QUESTION TAG - HAVE",url: "https://drive.google.com/file/d/1TfK9qlZtV5D3m1PFQ98IpYTLV8G9RSTM/view?usp=sharing"},
-
-
-           
-            { titulo:"📚statement tags",url: "https://drive.google.com/file/d/1wPLJc7cxDP6KjIphJKOf5yDgy6PKGqQA/view?usp=sharing"},
-           
-
-
-            
-         
-            { titulo:"📚Words with Silent Letters",url: "https://drive.google.com/file/d/1eAPZFyNImLFcuMVSfvWhfJgUPj4f78jO/view?usp=sharing"},
-            { titulo:"📚SINGULAR THEY",url: "https://drive.google.com/file/d/1xAT_pnOmVjImRxmr1LX57yWLdWbKGVf4/view?usp=sharing"},
-            { titulo:"📚so+adj+that vs so+adj+as to",url: "https://drive.google.com/file/d/1Dox44XMlIjIJkzhUO1-wjetHjtfbn13Q/view?usp=sharing"},
-
-            { titulo:"📚take for, mistake for, confuse with",url: "https://drive.google.com/file/d/19Vprq7R-KXX0JVHNjK5p9et5eLlAduJ-/view?usp=sharing"},
-
-
-
-
-         
-        
-            { titulo:"📚Universal Tags--.pdf",url: "https://drive.google.com/file/d/1OSz1iN5iCyX05MS1x0HLVUt93kuQUKKa/view?usp=sharing"},
-            { titulo:"📚[Slide] Useful Homophones ",url: "https://drive.google.com/file/d/1MWO2XHuHp0bAzFceREIteP_cKXyuwe1j/view?usp=sharing"},
-            { titulo:"📚Verbs followed by infinitive or gerund with change in meaning ",url: "https://drive.google.com/file/d/1-zILhE9-k1jSvyi5Rx5u6G_mRR_cpXxa/view?usp=sharing"},
-            { titulo:"📚IF vs WHETHER.pdf",url: "https://drive.google.com/file/d/1K8SHYnfmfuU7V8MBw2IGBot7wk1VO0hb/view?usp=sharing"},
-            { titulo:"📚[Slide] Would rather/Would Sooner ",url: "https://drive.google.com/file/d/1F-t7qwMfcb5PDKfFodN02qZFwCzIZFqu/view?usp=sharing"},
-            { titulo:"📚You and me vs You and I.pdf",url: "https://drive.google.com/file/d/1HQvOU9nI4uYstFx3AndBDY2Krj7C1cso/view?usp=sharing"},
-            { titulo:"📚Zero article vs definite article (locations).pdf",url: "https://drive.google.com/file/d/1C1ia0DWTYVI0wI-aZS3CGf2oEuLwmwyk/view?usp=sharing"},
-
-        ],
-    },
+    
    
     {
         id: 2,
@@ -813,7 +764,6 @@ export const roadIelts = [
             { titulo:"When it comes to   ",url: "https://drive.google.com/file/d/1lHB4gZng8Xl_ZCHbHyILcPI-yzbH_ErB/view?usp=sharing"},
             { titulo:"to what extent  ",url: "https://drive.google.com/file/d/1RMz56tFmTkfh08F8dWitdr0mT47hWP-e/view?usp=sharing"},
 
-            { titulo:"📚already/still/yet  ",url: "https://drive.google.com/file/d/126LmouA8outgNhw5x6wUcZI3F4tT1v4j/view?usp=sharing"},
 
             { titulo:"📚Among vs Between",url: "https://drive.google.com/file/d/1cpk7V_8qdxoX8VUpZYRT5zq_9GrCoWzc/view?usp=sharing",url3:"https://drive.google.com/file/d/1oL-Hu8nnXahjVI0gUZlN7YZWqVw5bkBC/view?usp=sharing"},
 
@@ -982,34 +932,7 @@ export const roadIelts = [
             
     },
    
-   
-   
-    // {
-    //     id: 2,
-    //     thumbnail:"https://i.ibb.co/b53R08DX/file-BEBHv-Yhkgbs-E4pxzmsb5-Sd.png",
-    //     title: "Phrasal Verbs in use 02",
-    //     subtitle: "B2/C1",
-
-    //     dateAdded: "Week 01 ",
-    //     channel: "sdasd",
-    //     description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
-    //     enlaces: [
-           
-    //     ],
-    // },
-    // {
-    //     id: 2,
-    //     thumbnail:"https://i.ibb.co/b53R08DX/file-BEBHv-Yhkgbs-E4pxzmsb5-Sd.png",
-    //     title: "Phrasal Verbs in use 03",
-    //     subtitle: "B2/C1",
-
-    //     dateAdded: "Week 01 ",
-    //     channel: "sdasd",
-    //     description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
-    //     enlaces: [
-           
-    //     ],
-    // },
+ 
    
     {
         id: 15,
@@ -1182,61 +1105,7 @@ export const roadIelts = [
             
     },
     
-    {
-        id: 1,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
-
-        title: "Information",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 0 ",
-        channel: "sdasd",
-        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
-        enlaces: [
-           
-            { titulo:"📚[pdf] B2 First Speaking Overview  ",url: "https://drive.google.com/file/d/1QJ_hjTeJIBEb01q5q7L-UeVwwK2sW0Wg/view?usp=sharing"},
-           
-        ],
-    },
-   
     
-    {
-        id: 3,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
-
-        title: "Use of English - Part 1",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 0 ",
-        channel: "sdasd",
-        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
-        enlaces: [
-           
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 1 ",url: "https://drive.google.com/file/d/1h54cY7q3mJV1UeyAmMKDHb9tLuTKgy65/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 2 ",url: "https://drive.google.com/file/d/1aeBR35udYiAWDQkReUq02MWQ45-mNlaY/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 3 ",url: "https://drive.google.com/file/d/1jxc8MXuj2aBSCE3n_K94IcyIz7DChfVX/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 4 ",url: "https://drive.google.com/file/d/13vp7gfLpY6nL8Fxqu-WI1yCcL2VbRUhp/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 5 ",url: "https://drive.google.com/file/d/11HwB5yX7D93zRPOVUF2RtDQPCplZDlCM/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 6 ",url: "https://drive.google.com/file/d/1g4U5r2kQXR-CB2j2acqwBz4ikNmWaWlf/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 7 ",url: "https://drive.google.com/file/d/1cqZwr_NyJ4pDkC9i5PiVpIOW-wIWpTwh/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 8 ",url: "https://drive.google.com/file/d/1Q1ls0rqyYuGNNGyVRRuoAZkuisAAqYC4/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 9 ",url: "https://drive.google.com/file/d/1ynY5s8E2_bNFnXdWlz0UAvIr2dg8GxeZ/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 10 ",url: "https://drive.google.com/file/d/1eELz_nshYOo48s2Dvjj-jU6E2mjh4zNx/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 11 ",url: "https://drive.google.com/file/d/1HbNg2K9EqAnu_LekOsClaAPyQe21syga/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 12 ",url: "https://docs.google.com/document/d/1hLDtbuz4h5Uc0WZz5ziOth3nXBdL4vrj/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 13 ",url: "https://drive.google.com/file/d/1SbgYMOfgIQHLGJbJqQndK5Hq-T7yC906/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 14",url: "https://drive.google.com/file/d/1P4EYZxf-LlzFdnoDUwfFQoQtDUHm2thY/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 15",url: "https://drive.google.com/file/d/1_ZouF_vlYUUZPVen-oZRkrYg10z684tn/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 16",url: "https://drive.google.com/file/d/1DKU9KwN7nqYHRpcllrq6uCiohtizg0o1/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 17",url: "https://drive.google.com/file/d/1pqkL1oyQX_pYglNVYzxd-F7VhvzS98E1/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 18",url: "https://drive.google.com/file/d/1_OEQdmovxPjXWo-ngaryTAKNDf13ronJ/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 19 ",url: "https://drive.google.com/file/d/1h-Kg1T7l9KgUecfEJC_r0pMZEIPMPpdE/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 20 ",url: "https://drive.google.com/file/d/1vXWiy1U15JiJOhDxa33qPTWf7kVupGfx/view?usp=sharing"},
-        ],
-    },
-    
-  
-   
     
     
    
@@ -1483,35 +1352,6 @@ export const roadIelts = [
             {  titulo:"🎥 [Video] La fusion de Vegito ",url: "https://youtu.be/ma7q6esT3cg"},
             {  titulo:"🎥 [Video] Useful Expression My hero Academy ",url: "https://youtu.be/8sPqgQlfKsQ"},
             {  titulo:"🎥 [Video] Useful Expression Goku enseña la tecnica de la Fusion ",url: "https://youtu.be/S5yooa_kHDY"},
-
-
-        ],
-    }, {
-        id: 18,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
-
-        title: "Exámenes Center",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 01 ",
-        channel: "sdasd",
-        description: "Completa los desafíos para dominar el Inglés",
-        enlaces: [
-            {  titulo:"📝 Examen 01  ",url: "https://drive.google.com/file/d/1Sk4W7Ax3Ao9ZqGR4sVY4IFik3Jq6BQ_N/view?usp=sharing"},
-            {  titulo:"📝 Examen 01 Solucionario ",url: "https://drive.google.com/file/d/13NnSnUDD8m95_AryEwZ5hMnfdxKYrQKV/view?usp=sharing"},
-
-            {  titulo:"📝[Test 01 ] FCE + SOLUCIONARIO ",url: "https://drive.google.com/file/d/1sz-WQ4yS7S4GMUgZHXz6uqTD0oA5pJ5M/view?usp=sharing"},
-            {  titulo:"📝[Test 02 ] FCE + SOLUCIONARIO ",url: "https://drive.google.com/file/d/192v80IEi93ZaiRY1-NkY5h-qk2XyA6O_/view?usp=sharing"},
-
-            {  titulo:"📝[Test] Key Word Transformation 01 ",url: "https://drive.google.com/file/d/1Ng-AL8s5uNqA4AeVSa9x-4ySFH_dqsKU/view?usp=sharing"},
-            {  titulo:"📝🔑[Test Answer Key] Key Word Transformation 01 ",url: "https://docs.google.com/presentation/d/1_lR0KYShBJeyFw-ZOuMIEwwLyIdLb2s591vIc4pAIsU/edit?usp=sharing"},
-
-            {  titulo:"📝[Test] Multiple Choice Cloze 01 ",url: "https://drive.google.com/file/d/1Y-2SMBjU5xafwMwdH2VB8NJMWwKQMB5-/view?usp=sharing"},
-            {  titulo:"📝🔑[Test Answer Key] Multiple Choice Cloze 01",url: "https://docs.google.com/presentation/d/1koBZiWPQtnw6GgFEfWpNORHWd0TvwYYnRbr661Ahh94/edit?usp=sharing"},
-
-            {  titulo:"📝[Test] Open Cloze 01 ",url: "https://drive.google.com/file/d/1yRCvF2OW3VJfHSqREMmUb4RzAXK6Hfg1/view?usp=sharing"},
-            {  titulo:"📝[Test] Word Formation 01 ",url: "https://drive.google.com/file/d/1SOnsELpD7Y4laW2l--YpXeKcut6QM8ZA/view?usp=sharing"},
-            {  titulo:"🗣[Test] Speaking Section 01 ",url: "https://drive.google.com/file/d/1tG0g65N35lS8hp1r4LRPDSkynxug5C51/view?usp=sharing"},
 
 
         ],
