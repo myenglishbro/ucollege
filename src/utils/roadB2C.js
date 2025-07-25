@@ -1,6 +1,25 @@
 export const roadB2C = [
-     {
+    {
         id: 0,
+        thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
+
+        title: "Cambridge Placement Test",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Examen de Nivel de inglés de Cambridge",
+        enlaces: [
+           { titulo:"Guia Cambridge Placement Test",descripcion:"Guia para comprender el examen",url:"https://drive.google.com/file/d/11dS3tCmiTMgaL8nv8cehWwY9eaGuDAKI/view?usp=sharing"},
+
+            { titulo:"Examen Modelo CEPT",descripcion:"Examen de ubicación de nivel",url2:"https://youtu.be/xKic5HFl-fg"},
+
+
+
+        ],
+    },
+     {
+        id: 1,
         thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
 
         title: "Cambridge Information",
