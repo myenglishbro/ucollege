@@ -22,7 +22,7 @@ const EmbedFrame = ({ url, title, isLoading, setIsLoading }) => {
   if (isFolder) return null;
 
   return (
-    <div className="relative w-full h-[65vh] sm:h-[80vh] rounded-xl shadow-lg bg-black/5 overflow-hidden">
+    <div className="relative w-full h-[80vh] rounded-xl shadow-lg bg-black/5 overflow-hidden">
       <iframe
         src={getEmbedUrl(url)}
         title={title}
