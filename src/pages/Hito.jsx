@@ -26,7 +26,6 @@ const Hito = ({ selectedLink }) => {
   const [fontSize, setFontSize] = useState('20');
   const [textMode, setTextMode] = useState(false);
   const [overlayText, setOverlayText] = useState('');
-  
 
   const containerRef = useRef(null);
   const validCode = 'nocode';
@@ -52,16 +51,20 @@ const Hito = ({ selectedLink }) => {
   return (
     <div
       ref={containerRef}
-      className={`hito-container mt-1 p-4 bg-white rounded shadow-md w-full ${
-        isFullscreen ? 'h-screen' : 'h-[530px]'
-      } max-w-3xl mx-auto transition-all ease-in-out duration-300 relative`}
+      className={`hito-container mt-1 px-2 sm:px-4 py-4 bg-white rounded shadow-md w-full ${
+        isFullscreen && window.innerWidth > 640 ? 'h-screen' : 'min-h-[500px]'
+      } max-w-5xl mx-auto transition-all ease-in-out duration-300 relative`}
     >
-      {/* Tool button */}
-      <ToolboxButton
-        onToggleNotepad={() => setShowNotepad(!showNotepad)}
-        onToggleTextBox={() => setTextMode(!textMode)}
-        onToggleFullscreen={toggleFullscreen}
-      />
+      {/* Floating Toolbox Button for Mobile */}
+      <div className="fixed bottom-4 right-4 z-50 sm:relative sm:bottom-auto sm:right-auto">
+        <ToolboxButton
+          onToggleNotepad={() => setShowNotepad(!showNotepad)}
+          onToggleTextBox={() => setTextMode(!textMode)}
+          onToggleFullscreen={() => {
+            if (window.innerWidth > 640) toggleFullscreen();
+          }}
+        />
+      </div>
 
       {showBlackScreen && <div className="fixed inset-0 bg-black z-50"></div>}
       {showAlert && <SecurityAlert onClose={() => setShowAlert(false)} />}
@@ -69,10 +72,10 @@ const Hito = ({ selectedLink }) => {
       {selectedLink ? (
         <>
           {isLoading && <Loader />}
-          <div className="relative flex bg-[#1c1c24] p-4 rounded-2xl shadow-lg">
+          <div className="relative flex flex-col sm:flex-row bg-[#1c1c24] p-4 rounded-2xl shadow-lg">
             <div
               className={`relative w-full ${
-                isFullscreen ? 'h-[920px]' : 'h-[450px]'
+                isFullscreen && window.innerWidth > 640 ? 'h-[92vh]' : 'h-auto'
               } rounded-3xl overflow-hidden`}
               style={{
                 backgroundImage:
@@ -96,7 +99,8 @@ const Hito = ({ selectedLink }) => {
               />
             </div>
 
-            {showNotepad && (
+            {/* Notepad only visible on sm+ */}
+            {showNotepad && window.innerWidth > 640 && (
               <Notepad
                 notes={notes}
                 setNotes={setNotes}

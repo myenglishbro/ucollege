@@ -1,8 +1,9 @@
+// Aplicativos/components/MultiLevelQuiz.jsx
+
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
-import levelsData from "../data/levelsExercises.json";
 
-export default function MultiLevelQuiz() {
+export default function MultiLevelQuiz({ levelsData, title }) {
   const levels = levelsData.levels;
   const [selectedLevel, setSelectedLevel] = useState(null);
   const [codeInput, setCodeInput] = useState("");
@@ -22,22 +23,19 @@ export default function MultiLevelQuiz() {
     setQuizFinished(false);
   }, [selectedLevel]);
 
-  // Vertical timeline menu with images
   if (selectedLevel === null) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-[#05020d] to-[#1d1b29] flex flex-col items-center justify-center p-4 text-gray-200">
         <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-indigo-400 mb-8 drop-shadow-lg animate-pulse">
-          Present Simple vs Progressive
+          {title}
         </h1>
         <div className="relative w-full max-w-lg flex flex-col items-center px-4 py-8">
-          {/* Vertical line */}
           <div className="absolute top-16 bottom-16 left-1/2 w-1 bg-gray-800 transform -translate-x-1/2"></div>
           {levels.map((lvl, idx) => (
             <motion.div
               key={idx}
               whileHover={{ scale: 1.05 }}
               className={`relative w-full flex mb-6 items-center ${idx % 2 === 0 ? 'justify-start' : 'justify-end'}`}>
-              {/* Image thumbnail */}
               <img
                 src={lvl.thumbnail}
                 alt={`Level ${lvl.level}`}
@@ -51,7 +49,7 @@ export default function MultiLevelQuiz() {
                     ${unlockedLevels[idx]
                       ? 'bg-gradient-to-tr from-indigo-500 to-indigo-300 text-black shadow-[0_0_15px_rgba(130,130,200,0.6)]'
                       : 'bg-gray-700 text-gray-500 shadow-inner'
-                  }`}>
+                    }`}>
                   {idx + 1}
                 </button>
                 {unlockedLevels[idx] && (
@@ -92,7 +90,6 @@ export default function MultiLevelQuiz() {
     }
   };
 
-  // Locked screen
   if (selectedLevel > 0 && !unlockedLevels[selectedLevel]) {
     return (
       <div className="min-h-screen bg-gradient-to-br from-[#05020d] to-[#1d1b29] flex items-center justify-center p-6 text-gray-200">
@@ -120,7 +117,6 @@ export default function MultiLevelQuiz() {
     );
   }
 
-  // Results screen
   if (quizFinished) {
     const allCorrect = score === exercises.length;
     return (
@@ -152,7 +148,6 @@ export default function MultiLevelQuiz() {
     );
   }
 
-  // Quiz interface
   return (
     <div className="min-h-screen bg-gradient-to-br from-[#05020d] to-[#1d1b29] flex flex-col items-center py-8 text-gray-200">
       <button onClick={() => setSelectedLevel(null)} className="self-start ml-4 mb-4 text-gray-400 hover:text-gray-200">Menu</button>
@@ -162,7 +157,7 @@ export default function MultiLevelQuiz() {
           <p className="text-lg text-gray-100">{q.prompt}</p>
           <div className="grid grid-cols-1 gap-4">
             {q.options.map(opt => (
-              <motion.button key={opt} onClick={() => setSelectedOption(opt)} whileTap={{ scale: 0.95 }} className={`py-3 px-4 rounded-3xl border border-gray-600 text-lg transition ${selectedOption===opt ? 'bg-indigo-600 text-white' : 'bg-[#2a2d48] text-gray-200'}`}>
+              <motion.button key={opt} onClick={() => setSelectedOption(opt)} whileTap={{ scale: 0.95 }} className={`py-3 px-4 rounded-3xl border border-gray-600 text-lg transition ${selectedOption === opt ? 'bg-indigo-600 text-white' : 'bg-[#2a2d48] text-gray-200'}`}>
                 {opt}
               </motion.button>
             ))}

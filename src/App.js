@@ -86,10 +86,10 @@ import InicioIelts from "./components/Login/LoginIelts/InicioIelts.jsx";
 import UseOfEnglishSimulator from "./components/SimulatorB2/UseOfEnglishSimulator.jsx";
 import KeywordTransformation from "./components/Aplicativos/kwt/KeywordTransformation.jsx";
 import InicioC1 from "./components/Login/LoginC1/InicioC1.jsx";
-import MultiLevelQuiz from "./components/Aplicativos/presentsimpleduo/Multilevelquiz.jsx";
-import MultiLevelQuiz2 from "./components/Aplicativos/pastsimpleperfect/Multilevelquiz2.jsx";
 import MultiLevelQuiz3 from "./components/Aplicativos/multiplechoicecloze/Multilevelquiz3.jsx";
 import MultiLevelQuiz4 from "./components/Aplicativos/devs/Multilevelquiz4.jsx";
+import Desafio01 from "./components/Aplicativos/presentsimpleduo/Desafio01.jsx";
+import Desafio02 from "./components/Aplicativos/pastsimpleperfect/Desafio02.jsx";
 
 function App() {
   return (
@@ -115,8 +115,9 @@ function App() {
           <Route path="/valere" element={<InicioiT />}></Route>
           <Route path="/108pv" element={<Quizbank01 />}></Route>
           <Route path="/simulator" element={<UseOfEnglishSimulator />}></Route>
-          <Route path="/presentsimpleprogressive" element={<MultiLevelQuiz />}></Route>
-          <Route path="/pastsimpleperfect" element={<MultiLevelQuiz2 />}></Route>
+          <Route path="/presentsimpleprogressive" element={<Desafio01 />}></Route>
+
+          <Route path="/pastsimpleperfect" element={<Desafio02 />}></Route>
           <Route path="/multiplechoice" element={<MultiLevelQuiz3 />}></Route>
           <Route path="/devs" element={<MultiLevelQuiz4 />}></Route>
 
