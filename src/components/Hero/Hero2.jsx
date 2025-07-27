@@ -12,7 +12,7 @@ const Hero2 = () => {
             Say hello a la <br /> forma más
             <span className="bg-pink-400 text-white px-3 py-1 rounded-lg ml-2">
               <Typing
-                text={["fluida", "natural", "divertida"]}
+                text={["fluida", "natural", "easy"]}
                 speed={90}
                 eraseSpeed={60}
                 typingDelay={400}
@@ -20,7 +20,7 @@ const Hero2 = () => {
                 cursorClassName="text-white"
               />
             </span><br />
-            de aprender inglés
+            de aprender idiomas
           </h1>
 
           <p className="text-lg md:text-xl text-white/90 mt-4">

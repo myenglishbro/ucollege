@@ -1,5 +1,4 @@
 import React from "react";
-import { check2, grid } from "../asset";
 import { Gradient } from "../components/design/Roadmap";
 import Tagline from "../components/Tagline";
 
@@ -8,13 +7,11 @@ const Staff = ({ thumbnail, title, subtitle, description, calificacion, precio, 
     <div className="relative p-0.25 rounded-[2.5rem] bg-n-6 overflow-hidden">
       <div className="relative p-8 bg-n-8 rounded-[2.4375rem] overflow-hidden xl:p-15">
         <div className="absolute top-0 left-0 max-w-full opacity-10">
-          <img className="w-full" src={grid} width={550} height={550} alt="Grid" />
         </div>
         <div className="relative z-1">
           <div className="flex items-center justify-between max-w-[27rem] mb-6 md:mb-12">
             <Tagline>{subtitle}</Tagline>
             <div className="flex items-center px-4 py-1 bg-n-1 rounded text-n-8">
-              <img className="mr-2.5" src={check2} width={16} height={16} alt="Verified" />
               <div className="tagline">Verified</div>
             </div>
           </div>

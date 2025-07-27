@@ -1,6 +1,12 @@
-import React, { useState, useEffect } from "react";
-import { motion } from "framer-motion";
+import React, { useState, useEffect, useRef } from "react";
+import { motion, AnimatePresence } from "framer-motion";
 import levelsData from "../data/levelsExercises3.json";
+
+// Paleta base
+const accent = "#1515FF";
+const bgMain = "#F6F8FF";
+const circleLockedBg = "#EEF1FF";
+const circleShadow = "0 4px 24px 0 #1515FF10";
 
 export default function MultiLevelQuiz3() {
   const levels = levelsData.levels;
@@ -12,7 +18,14 @@ export default function MultiLevelQuiz3() {
   const [score, setScore] = useState(0);
   const [answersLog, setAnswersLog] = useState([]);
   const [quizFinished, setQuizFinished] = useState(false);
+  const [timeLeft, setTimeLeft] = useState(60);
+  const [showCorrectMessage, setShowCorrectMessage] = useState(false);
+  const [showWrongMessage, setShowWrongMessage] = useState(false);
+  const timerRef = useRef(null);
+  const [showLockModal, setShowLockModal] = useState(false);
+  const [lockModalLevel, setLockModalLevel] = useState(null);
 
+  // Reset quiz when level changes
   useEffect(() => {
     setCurrentQuestion(0);
     setSelectedOption("");
@@ -20,50 +33,139 @@ export default function MultiLevelQuiz3() {
     setAnswersLog([]);
     setCodeInput("");
     setQuizFinished(false);
+    setTimeLeft(60);
+    clearInterval(timerRef.current);
   }, [selectedLevel]);
 
-  // Vertical timeline menu with images
+  // Timer effect
+  useEffect(() => {
+    if (selectedLevel !== null && !quizFinished) {
+      setTimeLeft(60);
+      clearInterval(timerRef.current);
+      timerRef.current = setInterval(() => {
+        setTimeLeft(prev => {
+          if (prev <= 1) {
+            clearInterval(timerRef.current);
+            handleSubmitAnswer();
+            return 0;
+          }
+          return prev - 1;
+        });
+      }, 1000);
+    }
+    return () => clearInterval(timerRef.current);
+  }, [selectedLevel, currentQuestion, quizFinished]);
+
+  // MENÚ DE NIVELES - horizontal, responsive, candaditos, miniaturas
   if (selectedLevel === null) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-[#05020d] to-[#1d1b29] flex flex-col items-center justify-center p-4 text-gray-200">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-indigo-400 mb-8 drop-shadow-lg animate-pulse">
-          Multiple Choice Cloze 
+      <div style={{ background: bgMain }} className="min-h-screen flex flex-col items-center justify-center py-8 px-2">
+        <h1
+          style={{ color: accent, fontWeight: 800, letterSpacing: 0.5 }}
+          className="text-2xl sm:text-3xl md:text-5xl mb-6 text-center drop-shadow-lg"
+        >
+          Multiple Choice Cloze
         </h1>
-        <div className="relative w-full max-w-lg flex flex-col items-center px-4 py-8">
-          {/* Vertical line */}
-          <div className="absolute top-16 bottom-16 left-1/2 w-1 bg-gray-800 transform -translate-x-1/2"></div>
-          {levels.map((lvl, idx) => (
-            <motion.div
-              key={idx}
-              whileHover={{ scale: 1.05 }}
-              className={`relative w-full flex mb-6 items-center ${idx % 2 === 0 ? 'justify-start' : 'justify-end'}`}>
-              {/* Image thumbnail */}
-              <img
-                src={lvl.thumbnail}
-                alt={`Level ${lvl.level}`}
-                className="w-12 h-12 sm:w-16 sm:h-16 rounded-lg object-contain mr-2"
-                style={{ order: idx % 2 === 0 ? 0 : 1 }}
-              />
-              <div className="relative flex flex-col items-center">
-                <button
-                  onClick={() => setSelectedLevel(idx)}
-                  className={`w-12 h-12 sm:w-16 sm:h-16 md:w-20 md:h-20 rounded-full flex items-center justify-center text-lg sm:text-xl font-bold transition-shadow
-                    ${unlockedLevels[idx]
-                      ? 'bg-gradient-to-tr from-indigo-500 to-indigo-300 text-black shadow-[0_0_15px_rgba(130,130,200,0.6)]'
-                      : 'bg-gray-700 text-gray-500 shadow-inner'
-                  }`}>
-                  {idx + 1}
-                </button>
-                {unlockedLevels[idx] && (
-                  <motion.span
-                    className="absolute -bottom-3 w-3 h-3 bg-indigo-400 rounded-full"
-                    animate={{ scale: [1, 1.5, 1] }}
-                    transition={{ repeat: Infinity, duration: 1.2 }}
+        <div className="w-full max-w-3xl flex flex-col items-center">
+          <div className="flex gap-3 justify-center w-full flex-wrap mb-4 overflow-x-auto">
+            {levels.map((lvl, idx) => (
+              <motion.div
+                key={idx}
+                whileHover={{ scale: unlockedLevels[idx] ? 1.06 : 1 }}
+                whileTap={{ scale: unlockedLevels[idx] ? 0.95 : 1 }}
+                onClick={() => {
+                  if (unlockedLevels[idx]) setSelectedLevel(idx);
+                  else {
+                    setLockModalLevel(idx);
+                    setShowLockModal(true);
+                  }
+                }}
+                className={`flex flex-col items-center cursor-pointer transition-all duration-150 ${unlockedLevels[idx] ? "" : "opacity-40"}`}
+                style={{ minWidth: 55 }}
+              >
+                <div
+                  className="w-10 h-10 md:w-12 md:h-12 rounded-full flex items-center justify-center border-4 shadow mb-1 relative bg-white"
+                  style={{
+                    borderColor: unlockedLevels[idx] ? accent : "#AAA",
+                    boxShadow: circleShadow
+                  }}
+                >
+                  {unlockedLevels[idx] ? (
+                    <span style={{ color: accent, fontWeight: 800, fontSize: 15 }}>{idx + 1}</span>
+                  ) : (
+                    <span className="text-sm md:text-lg" style={{ color: "#888" }}>🔒</span>
+                  )}
+                  {/* Miniatura */}
+                  <img
+                    src={lvl.thumbnail}
+                    alt={`Nivel ${lvl.level}`}
+                    className="absolute -bottom-2 right-0 w-5 h-5 md:w-6 md:h-6 rounded-md object-contain border border-[#f1f1f1] bg-white shadow"
                   />
-                )}
-              </div>
-            </motion.div>
-          ))}
+                </div>
+                <span
+                  style={{
+                    color: unlockedLevels[idx] ? accent : "#8787a3",
+                    fontWeight: unlockedLevels[idx] ? 700 : 400,
+                    fontSize: 13
+                  }}
+                >
+                  {lvl.level}
+                </span>
+              </motion.div>
+            ))}
+            {/* Modal para código de desbloqueo (sólo si el usuario intenta entrar a un nivel bloqueado) */}
+            <AnimatePresence>
+              {showLockModal && (
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  className="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50"
+                >
+                  <motion.div
+                    initial={{ scale: 0.8 }}
+                    animate={{ scale: 1 }}
+                    exit={{ scale: 0.8 }}
+                    className="bg-white p-6 rounded-xl shadow-xl w-80 max-w-xs"
+                  >
+                    <h2 style={{ color: accent }} className="text-xl font-bold mb-3 flex items-center gap-2">
+                      <span>🔒</span>
+                      Nivel {lockModalLevel + 1}
+                    </h2>
+                    <p className="mb-2 text-gray-700 text-center">Ingresa el código de acceso para desbloquear:</p>
+                    <input
+                      type="text"
+                      value={codeInput}
+                      onChange={e => setCodeInput(e.target.value)}
+                      className="w-full p-3 border border-[#1515FF] rounded-lg mb-4 focus:border-[#1515FF] text-[#1515FF] font-semibold bg-white placeholder:text-[#B3B8C2]"
+                      placeholder="Código de acceso"
+                    />
+                    <button
+                      onClick={() => {
+                        if (codeInput === levels[lockModalLevel].prerequisiteCode) {
+                          setUnlockedLevels(prev => ({ ...prev, [lockModalLevel]: true }));
+                          setShowLockModal(false);
+                          setCodeInput("");
+                        } else {
+                          alert("Código incorrecto");
+                        }
+                      }}
+                      className="w-full py-2 bg-[#1515FF] hover:bg-[#0e0ec9] text-white rounded-lg font-semibold mb-2 transition"
+                    >
+                      Desbloquear
+                    </button>
+                    <button
+                      onClick={() => setShowLockModal(false)}
+                      style={{ color: accent }}
+                      className="w-full py-2 hover:underline text-sm"
+                    >
+                      Cancelar
+                    </button>
+                  </motion.div>
+                </motion.div>
+              )}
+            </AnimatePresence>
+          </div>
         </div>
       </div>
     );
@@ -73,9 +175,17 @@ export default function MultiLevelQuiz3() {
   const exercises = level.exercises;
   const q = exercises[currentQuestion];
 
-  const handleSubmitAnswer = () => {
+  function handleSubmitAnswer() {
+    clearInterval(timerRef.current);
     const isCorrect = selectedOption === q.answer;
-    if (isCorrect) setScore(s => s + 1);
+    if (isCorrect) {
+      setScore(s => s + 1);
+      setShowCorrectMessage(true);
+      setTimeout(() => setShowCorrectMessage(false), 1400);
+    } else {
+      setShowWrongMessage(true);
+      setTimeout(() => setShowWrongMessage(false), 1400);
+    }
     setAnswersLog(log => [
       ...log,
       { prompt: q.prompt, selected: selectedOption, answer: q.answer, correct: isCorrect }
@@ -83,67 +193,43 @@ export default function MultiLevelQuiz3() {
     setSelectedOption("");
     if (currentQuestion + 1 < exercises.length) {
       setCurrentQuestion(i => i + 1);
+      setTimeLeft(60);
     } else {
       setQuizFinished(true);
-      const total = isCorrect ? score + 1 : score;
-      if (total === exercises.length) {
+      // **Desbloquear automáticamente el siguiente nivel**
+      if (selectedLevel + 1 < levels.length) {
         setUnlockedLevels(prev => ({ ...prev, [selectedLevel + 1]: true }));
       }
     }
-  };
-
-  // Locked screen
-  if (selectedLevel > 0 && !unlockedLevels[selectedLevel]) {
-    return (
-      <div className="min-h-screen bg-gradient-to-br from-[#05020d] to-[#1d1b29] flex items-center justify-center p-6 text-gray-200">
-        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="bg-[#1f2130] p-8 rounded-3xl border border-gray-700 shadow-2xl max-w-md w-full">
-          <h2 className="text-2xl font-bold text-indigo-400 mb-4">Level {selectedLevel + 1} Locked</h2>
-          <p className="mb-4">Enter code to unlock:</p>
-          <input
-            type="text"
-            value={codeInput}
-            onChange={e => setCodeInput(e.target.value)}
-            className="w-full p-3 bg-[#100f1e] border border-gray-600 rounded-lg text-lg mb-4"
-            placeholder="Access Code"
-          />
-          <button
-            onClick={() =>
-              codeInput === level.prerequisiteCode
-                ? setUnlockedLevels(prev => ({ ...prev, [selectedLevel]: true }))
-                : alert('Wrong code')
-            }
-            className="w-full py-3 bg-gradient-to-tr from-indigo-500 to-indigo-300 text-black font-bold rounded-3xl mb-2"
-          >Unlock</button>
-          <button onClick={() => setSelectedLevel(null)} className="w-full py-2 text-gray-400 hover:text-gray-200">Back to Menu</button>
-        </motion.div>
-      </div>
-    );
   }
 
-  // Results screen
+  // RESULTS SCREEN
   if (quizFinished) {
     const allCorrect = score === exercises.length;
     return (
-      <div className="min-h-screen bg-gradient-to-br from-[#05020d] to-[#1d1b29] flex flex-col items-center py-8 text-gray-200">
-        <button onClick={() => setSelectedLevel(null)} className="self-start ml-4 mb-4 text-gray-400 hover:text-gray-200">Menu</button>
+      <div style={{ background: bgMain }} className="min-h-screen flex flex-col items-center py-8">
+        <button onClick={() => setSelectedLevel(null)} style={{ color: accent }} className="self-start ml-4 mb-4 hover:underline">Menú</button>
         <div className="w-full max-w-xl space-y-6 p-4">
-          <h2 className="text-3xl font-bold text-indigo-400 text-center">Level {level.level} Results</h2>
-          <div className="bg-[#1f2130] p-6 rounded-3xl space-y-4">
+          <h2 style={{ color: accent }} className="text-3xl font-bold text-center">Resultados Nivel {level.level}</h2>
+          <div className="bg-white p-6 rounded-2xl space-y-4 border shadow-md">
             {answersLog.map((e, i) => (
-              <div key={i} className="p-3 rounded-lg bg-[#2a2d48]">
-                <p className="italic mb-1">{e.prompt}</p>
-                <p>Your: <span className={e.correct ? 'text-indigo-300' : 'text-red-400'}>{e.selected}</span></p>
-                {!e.correct && <p>Correct: <span className="text-indigo-300">{e.answer}</span></p>}
+              <div key={i} className="p-3 rounded-lg bg-[#F7F9FF]">
+                <p className="italic mb-1" style={{ color: accent }}>{e.prompt}</p>
+                <p>Tu respuesta: <span style={{ color: e.correct ? "green" : "red" }}>{e.selected}</span></p>
+                {!e.correct && <p>Correcta: <span style={{ color: accent }}>{e.answer}</span></p>}
               </div>
             ))}
-            <p className="font-bold">Score: {score} / {exercises.length}</p>
+            <p className="font-bold" style={{ color: accent }}>Puntaje: {score} / {exercises.length}</p>
           </div>
           {allCorrect && (
-            <motion.div initial={{ scale: 0.8 }} animate={{ scale: 1 }} className="bg-indigo-700 p-6 rounded-3xl text-center space-y-3">
-              <p className="text-xl font-bold">You earned code:</p>
+            <motion.div initial={{ scale: 0.9 }} animate={{ scale: 1 }} className="bg-[#1515FF] p-6 rounded-2xl text-center space-y-3">
+              <p className="text-xl font-bold text-white">¡Código desbloqueado!</p>
               <p className="text-2xl font-extrabold text-yellow-300">{level.levelCode}</p>
-              <button onClick={() => setSelectedLevel(selectedLevel + 1)} className="mt-2 px-6 py-2 bg-gradient-to-tr from-indigo-300 to-indigo-500 rounded-3xl font-bold">
-                Next Level
+              <button
+                onClick={() => setSelectedLevel(selectedLevel + 1)}
+                className="mt-2 px-6 py-2 bg-white text-[#1515FF] rounded-xl font-bold shadow"
+              >
+                Siguiente Nivel
               </button>
             </motion.div>
           )}
@@ -152,24 +238,72 @@ export default function MultiLevelQuiz3() {
     );
   }
 
-  // Quiz interface
+  // QUIZ INTERFACE
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#05020d] to-[#1d1b29] flex flex-col items-center py-8 text-gray-200">
-      <button onClick={() => setSelectedLevel(null)} className="self-start ml-4 mb-4 text-gray-400 hover:text-gray-200">Menu</button>
+    <div style={{ background: bgMain }} className="min-h-screen flex flex-col items-center py-8">
+      <AnimatePresence>
+        {showCorrectMessage && (
+          <motion.div
+            initial={{ opacity: 0, y: -16 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0 }}
+            className="fixed top-6 left-1/2 -translate-x-1/2 bg-green-500 text-white px-6 py-2 rounded-xl shadow-lg z-50 font-bold text-lg"
+          >
+            ¡Buen trabajo! 🎉
+          </motion.div>
+        )}
+        {showWrongMessage && (
+          <motion.div
+            initial={{ opacity: 0, y: -16 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0 }}
+            className="fixed top-6 left-1/2 -translate-x-1/2 bg-red-500 text-white px-6 py-2 rounded-xl shadow-lg z-50 font-bold text-lg"
+          >
+            ¡Keep trying!
+          </motion.div>
+        )}
+      </AnimatePresence>
+      <button onClick={() => setSelectedLevel(null)} style={{ color: accent }} className="self-start ml-4 mb-4 hover:underline">Menú</button>
       <div className="w-full max-w-xl space-y-6 p-4">
-        <h2 className="text-3xl font-bold text-indigo-400 text-center">Level {level.level} ({currentQuestion + 1}/{exercises.length})</h2>
-        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="bg-[#1f2130] p-6 rounded-3xl border border-gray-700 shadow-2xl space-y-4">
-          <p className="text-lg text-gray-100">{q.prompt}</p>
-          <div className="grid grid-cols-1 gap-4">
+        <div className="flex justify-between items-center mb-3">
+          <h2 style={{ color: accent }} className="text-2xl font-bold">Nivel {level.level}</h2>
+          <span className="font-semibold" style={{ color: accent }}>
+            ⏱️ {timeLeft}s
+          </span>
+        </div>
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="bg-white p-5 rounded-2xl border shadow-md space-y-4">
+          <p className="text-lg" style={{ color: accent }}>{q.prompt}</p>
+          <div className="grid grid-cols-1 gap-2">
             {q.options.map(opt => (
-              <motion.button key={opt} onClick={() => setSelectedOption(opt)} whileTap={{ scale: 0.95 }} className={`py-3 px-4 rounded-3xl border border-gray-600 text-lg transition ${selectedOption===opt ? 'bg-indigo-600 text-white' : 'bg-[#2a2d48] text-gray-200'}`}>
+              <motion.button
+                key={opt}
+                onClick={() => setSelectedOption(opt)}
+                whileTap={{ scale: 0.96 }}
+                className="py-2 px-3 rounded-md border transition focus:outline-none font-medium text-base"
+                style={{
+                  background: selectedOption === opt ? accent : "#F7F9FF",
+                  color: selectedOption === opt ? "#fff" : accent,
+                  borderColor: accent
+                }}
+              >
                 {opt}
               </motion.button>
             ))}
           </div>
-          <div className="flex justify-between items-center">
-            <button onClick={handleSubmitAnswer} disabled={!selectedOption} className="px-6 py-2 bg-gradient-to-tr from-indigo-500 to-indigo-300 text-black rounded-3xl font-bold disabled:opacity-50">Submit</button>
-            <div className="text-gray-400">Score: {score}</div>
+          <div className="flex justify-end items-center mt-4">
+            <button
+              onClick={handleSubmitAnswer}
+              disabled={!selectedOption}
+              className="px-5 py-2 rounded-md font-bold transition-colors"
+              style={{
+                backgroundColor: accent,
+                color: "#FFFFFF",
+                opacity: !selectedOption ? 0.5 : 1,
+                cursor: !selectedOption ? "not-allowed" : "pointer"
+              }}
+            >
+              Enviar
+            </button>
           </div>
         </motion.div>
       </div>

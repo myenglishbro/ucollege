@@ -1,5 +1,4 @@
 import React from "react";
-import { check2, grid } from "../asset";
 import { Gradient } from "../components/design/Roadmap";
 import Tagline from "../components/Tagline";
 import { motion } from "framer-motion";
@@ -15,7 +14,6 @@ const Producto = ({ thumbnail, title, subtitle, description, demo,calificacion, 
           animate={{ opacity: 0.1, y: 0 }}
           transition={{ duration: 1 }}
         >
-          <img className="w-full h-full object-cover" src={grid} alt="Grid" />
         </motion.div>
 
         {/* Imagen a la izquierda */}
@@ -42,7 +40,6 @@ const Producto = ({ thumbnail, title, subtitle, description, demo,calificacion, 
           <div className="flex flex-wrap items-center justify-between">
             <Tagline>{subtitle}</Tagline>
             <div className="flex items-center px-4 py-1 bg-white rounded-full text-n-8 shadow">
-              <img className="mr-2.5" src={check2} width={16} height={16} alt="Verified" />
               <span className="text-sm font-semibold">Verificado</span>
             </div>
           </div>

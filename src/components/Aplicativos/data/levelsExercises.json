@@ -19,35 +19,35 @@
           "id": 2,
           "prompt": "How often ______________ to the park for a picnic?",
           "options": [
-            "How often do you go to the park for a picnic?",
-            "How often are you going to the park for a picnic?"
+            "do you go",
+            "are you going"
           ],
-          "answer": "How often do you go to the park for a picnic?"
+          "answer": "do you go"
         },
         {
           "id": 3,
           "prompt": "Northern California ______________ a lot of rain during the wintertime but this winter it ______________ at all.",
           "options": [
-            "Northern California gets a lot of rain during the wintertime but this winter it is not raining at all.",
-            "Northern California is getting a lot of rain during the wintertime but this winter it gets not rain at all."
+            "gets a lot of rain during the wintertime but this winter it is not raining at all.",
+            "is getting a lot of rain during the wintertime but this winter it gets not rain at all."
           ],
-          "answer": "Northern California gets a lot of rain during the wintertime but this winter it is not raining at all."
+          "answer": "gets a lot of rain during the wintertime but this winter it is not raining at all."
         },
         {
           "id": 4,
           "prompt": "My sister often ______________ in bed but today she ______________ anything at all.",
           "options": [
-            "My sister often reads in bed but today she is not reading anything at all.",
-            "My sister is often reading in bed but today she does not read anything at all."
+            "reads in bed but today she is not reading anything at all.",
+            "reading in bed but today she does not read anything at all."
           ],
-          "answer": "My sister often reads in bed but today she is not reading anything at all."
+          "answer": "reads in bed but today she is not reading anything at all."
         },
         {
           "id": 5,
           "prompt": "Look to your right! Mary ______________ her little sister to school. How sweet!",
           "options": [
-            "Mary brings her little sister to school.",
-            "Mary is bringing her little sister to school."
+            "brings her little sister to school.",
+            "is bringing her little sister to school."
           ],
           "answer": "Mary is bringing her little sister to school."
         },
@@ -55,109 +55,109 @@
           "id": 6,
           "prompt": "Mom can't help you right now because she ______________ dinner.",
           "options": [
-            "Mom prepares dinner.",
-            "Mom is preparing dinner."
+            "prepares dinner.",
+            "is preparing dinner."
           ],
-          "answer": "Mom is preparing dinner."
+          "answer": "is preparing dinner."
         },
         {
           "id": 7,
           "prompt": "The neighbours' boys always ______________ to school late.",
           "options": [
-            "The neighbours' boys always come to school late.",
-            "The neighbours' boys are always coming to school late."
+            "always come to school late.",
+            "are always coming to school late."
           ],
-          "answer": "The neighbours' boys always come to school late."
+          "answer": "always come to school late."
         },
         {
           "id": 8,
-          "prompt": "My parents never ______________ cigarettes in front of us.",
+          "prompt": "My parents______________ cigarettes in front of us.",
           "options": [
-            "My parents never smoke cigarettes in front of us.",
-            "My parents are never smoking cigarettes in front of us."
+            "never smoke cigarettes in front of us.",
+            "are never smoking cigarettes in front of us."
           ],
-          "answer": "My parents never smoke cigarettes in front of us."
+          "answer": "never smoke cigarettes in front of us."
         },
         {
           "id": 9,
           "prompt": "I can't understand him because I ______________ any French.",
           "options": [
-            "I do not know any French.",
-            "I am not knowing any French."
+            "do not know",
+            "am not knowing"
           ],
-          "answer": "I do not know any French."
+          "answer": "do not know"
         },
         {
           "id": 10,
           "prompt": "Mary ______________ eating sweets. Every morning she ______________ coffee with lots of sweets.",
           "options": [
-            "Mary likes eating sweets. Every morning she has coffee with lots of sweets.",
-            "Mary is liking eating sweets. Every morning she is having coffee with lots of sweets."
+            "likes eating sweets. Every morning she has coffee with lots of sweets.",
+            "is liking eating sweets. Every morning she is having coffee with lots of sweets."
           ],
-          "answer": "Mary likes eating sweets. Every morning she has coffee with lots of sweets."
+          "answer": "likes eating sweets. Every morning she has coffee with lots of sweets."
         },
         {
           "id": 11,
           "prompt": "What ______________? – I think they ______________ to be fed by the tourists.",
           "options": [
-            "What are the ducks doing? – I think they are waiting to be fed by the tourists.",
-            "What do the ducks do? – I think they wait to be fed by the tourists."
+            "are the ducks doing? – I think they are waiting to be fed by the tourists.",
+            "do the ducks do? – I think they wait to be fed by the tourists."
           ],
-          "answer": "What are the ducks doing? – I think they are waiting to be fed by the tourists."
+          "answer": "are the ducks doing? – I think they are waiting to be fed by the tourists."
         },
         {
           "id": 12,
           "prompt": "It ______________ very hard at the moment.",
           "options": [
-            "It rains very hard at the moment.",
-            "It is raining very hard at the moment."
+            "rains",
+            "is raining"
           ],
-          "answer": "It is raining very hard at the moment."
+          "answer": "is raining"
         },
         {
           "id": 13,
-          "prompt": "They normally ______________ TV on Sundays but today they ______________ a nap.",
+          "prompt": "They______________ TV on Sundays but today they ______________ a nap.",
           "options": [
-            "They normally watch TV on Sundays but today they are taking a nap.",
-            "They are normally watching TV on Sundays but today they take a nap."
+            "normally watch TV on Sundays but today they are taking a nap.",
+            "are normally watching TV on Sundays but today they take a nap."
           ],
-          "answer": "They normally watch TV on Sundays but today they are taking a nap."
+          "answer": "normally watch TV on Sundays but today they are taking a nap."
         },
         {
           "id": 14,
           "prompt": "Dad ______________ TV when he ______________ home from the office.",
           "options": [
-            "Dad doesn't usually watch TV when he comes home from the office.",
-            "Dad isn't usually watching TV when he is coming home from the office."
+            "doesn't usually watch TV when he comes home from the office.",
+            "isn't usually watching TV when he is coming home from the office."
           ],
-          "answer": "Dad doesn't usually watch TV when he comes home from the office."
+          "answer": "doesn't usually watch TV when he comes home from the office."
         },
         {
           "id": 15,
           "prompt": "Every Monday my dad ______________ to work by train because my mom ______________ the car.",
           "options": [
-            "Every Monday my dad goes to work by train because my mom needs the car.",
-            "Every Monday my dad is going to work by train because my mom is needing the car."
+            "goes to work by train because my mom needs the car.",
+            "is going to work by train because my mom is needing the car."
           ],
-          "answer": "Every Monday my dad goes to work by train because my mom needs the car."
+          "answer": "goes to work by train because my mom needs the car."
         },
         {
           "id": 16,
-          "prompt": "Our teacher often ______________ at us when she's in a bad mood.",
+          "prompt": "Our teacher ______________ at us when she's in a bad mood.",
           "options": [
-            "Our teacher often shouts at us when she's in a bad mood.",
-            "Our teacher is often shouting at us when she's in a bad mood."
+            "often shouts at us when she's in a bad mood.",
+            "is often shouting at us when she's in a bad mood."
           ],
-          "answer": "Our teacher often shouts at us when she's in a bad mood."
+          "answer": "often shouts at us when she's in a bad mood."
         },
         {
           "id": 17,
           "prompt": "I ______________ for a new car which I want to buy as soon as possible.",
           "options": [
-            "I save for a new car which I want to buy as soon as possible.",
-            "I am saving for a new car which I want to buy as soon as possible."
+            "save for a new car which I want to buy as soon as possible.",
+            "am saving for a new car which I want to buy as soon as possible."
           ],
-          "answer": "I am saving for a new car which I want to buy as soon as possible."
+          "answer": "am saving for a new car which I want to buy as soon as possible."
         },
         {
           "id": 18,
