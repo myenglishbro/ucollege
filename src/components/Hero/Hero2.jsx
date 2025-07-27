@@ -1,87 +1,88 @@
-import { LeftCurve, RightCurve } from "../design/Collaboration";
-import { collabApps, collabContent, collabText } from "../../constants";
-import Section from "../Hero/Section";
+import { motion } from "framer-motion";
 import { brainwaveSymbol } from "../../assets2";
-import Button from "../Button";
+import Typing from "react-typing-effect";
 
 const Hero2 = () => {
   return (
-    <div className="h-screen flex flex-col    items-center justify-center text-indigo-400 bg-cover bg-fixed"  >
-   
-      {/* Main */}
-      <div className="container mx-auto flex flex-col items-center md:flex-row">
-        {/* Left Col */}
-        <div className="flex flex-col w-full md:w-2/5 justify-center items-center md:items-start text-center md:text-left mb-10 md:mb-0">
-          <h1 className="text-3xl md:text-5xl text-white opacity-80 font-bold leading-tight">
-          Aprende el idioma y
-            <span className="bg-clip-text text-transparent bg-gradient-to-r from-green-400 via-pink-500 to-purple-500"> Comunicate con todos </span>
-           
+    <div className="w-full min-h-screen bg-[#001BFF] text-white flex items-center justify-center px-6 py-12 mt-10 overflow-hidden">
+      <div className="max-w-7xl w-full grid md:grid-cols-2 gap-12 items-center">
+        {/* Left Side */}
+        <div className="flex flex-col gap-6">
+          <h1 className="text-4xl md:text-6xl font-bold leading-tight">
+            Say hello a la <br /> forma más
+            <span className="bg-pink-400 text-white px-3 py-1 rounded-lg ml-2">
+              <Typing
+                text={["fluida", "natural", "divertida"]}
+                speed={90}
+                eraseSpeed={60}
+                typingDelay={400}
+                eraseDelay={1500}
+                cursorClassName="text-white"
+              />
+            </span><br />
+            de aprender inglés
           </h1>
-          <p className="text-base md:text-2xl text-white opacity-80 my-6">
-          Deja atrás los métodos aburridos y comienza a hablar como un nativo.
+
+          <p className="text-lg md:text-xl text-white/90 mt-4">
+            Aprende con las clases que han ayudado a más de <strong>1 millón</strong> de estudiantes a hablar con confianza y fluidez.
           </p>
-          <a href="https://api.whatsapp.com/send?phone=51926922032&text=Hello%20Carlos!%20%F0%9F%99%82" className="bg-gradient-to-r from-purple-800 to-green-500 hover:from-pink-500 hover:to-green-500 text-white font-bold py-3 px-6 rounded-lg transform hover:scale-105 transition duration-300">
-            Reservar Clases
+
+        
+
+          <a
+            href="https://api.whatsapp.com/send?phone=51926922032&text=Hello%20Carlos!%20%F0%9F%99%82"
+            className="mt-6 w-fit bg-pink-400 hover:bg-pink-500 text-white font-semibold py-3 px-6 rounded-xl text-lg shadow-md hover:scale-105 transition-transform duration-300"
+          >
+            Let’s get fluent!
           </a>
         </div>
 
-        {/* Right Col */}
-        <Section crosses>
-      <div className="container lg:flex">
-        
+        {/* Right Side - Embedded YouTube video with floating elements */}
+        <div className="relative w-full flex justify-center">
+          <div className="relative w-[320px] h-[480px] rounded-[2rem] overflow-hidden shadow-xl rotate-[6deg]">
+            <iframe
+              className="w-full h-full rounded-[2rem]"
+              src="https://www.youtube.com/embed/AtFAyHefJBY?autoplay=1&mute=1&controls=0&loop=1"
+              title="Aprende inglés video"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+            ></iframe>
 
-        <div className="lg:ml-auto xl:w-[38rem] ">
-         
+            {/* Floating elements */}
+            <motion.div
+              animate={{ y: [0, -10, 0] }}
+              transition={{ duration: 3, repeat: Infinity }}
+              className="absolute top-4 left-4 w-10 h-10 rounded-full border-2 border-white overflow-hidden shadow-md"
+            >
+              <img
+                src={brainwaveSymbol}
+                alt="avatar"
+                className="w-full h-full object-cover"
+              />
+            </motion.div>
 
-          <div className="relative left-1/2 flex w-[22rem] aspect-square border border-n-6 rounded-full -translate-x-1/2 scale:75 ">
-            <div className="flex w-80 aspect-square m-auto border border-n-6 rounded-full">
-              <div className="w-[6rem] aspect-square m-auto p-[0.2rem] bg-conic-gradient rounded-full">
-                <div className="flex items-center justify-center w-full h-full bg-n-8 rounded-full">
-                  <img
-                    src={brainwaveSymbol}
-                    width={68}
-                    height={68}
-                    alt="brainwave"
-                  />
-                </div>
-              </div>
-            </div>
+            <motion.div
+              animate={{ rotate: [0, 5, -5, 0] }}
+              transition={{ duration: 4, repeat: Infinity }}
+              className="absolute top-4 right-4 bg-white text-black px-2 py-1 text-xs font-bold rounded-full shadow"
+            >
+              ✨
+            </motion.div>
 
-            <ul>
-              {collabApps.map((app, index) => (
-                <li
-                  key={app.id}
-                  className={`absolute top-0 left-1/2 h-1/2 -ml-[2.6rem] origin-bottom rotate-${
-                    index * 45
-                  }`}
-                >
-                  <div
-                    className={`relative -top-[1.6rem] flex w-[4.2rem] h-[4.2rem] bg-n-7 border border-n-1/15 rounded-xl -rotate-${
-                      index * 45
-                    }`}
-                  >
-                    <img
-                    className="m-auto rounded-lg"
-                      width={app.width}
-                      height={app.height}
-                      alt={app.title}
-                      src={app.icon}
-                    />
-                  </div>
-                </li>
-              ))}
-            </ul>
-
-            <LeftCurve />
-            <RightCurve />
+            <motion.p
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: 1.5, duration: 1 }}
+              className="absolute bottom-4 left-4 text-sm font-medium text-white bg-black/60 px-3 py-1 rounded-lg shadow-md"
+            >
+              This is the real way
+            </motion.p>
           </div>
         </div>
-      </div>
-    </Section>
       </div>
     </div>
   );
 };
 
 export default Hero2;
-
