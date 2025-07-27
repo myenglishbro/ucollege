@@ -12,7 +12,7 @@ export const roadB2C = [
         enlaces: [
            { titulo:"Guia Cambridge Placement Test",descripcion:"Guia para comprender el examen",url:"https://drive.google.com/file/d/11dS3tCmiTMgaL8nv8cehWwY9eaGuDAKI/view?usp=sharing"},
 
-            { titulo:"Examen Modelo CEPT",descripcion:"Examen de ubicación de nivel",url2:"https://youtu.be/xKic5HFl-fg"},
+            { titulo:"Examen Modelo CEPT",descripcion:"Examen de -ubicación de nivel",url2:"https://youtu.be/xKic5HFl-fg"},
 
 
 
@@ -37,69 +37,38 @@ export const roadB2C = [
 
         ],
     },
-      {
-        id: 0,
+     {
+        id: 1,
         thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
 
-        title: "Present Simple or Progressive?",
+        title: "Complete Guide to All English Tense Differences",
         subtitle: "B2/C1",
 
         dateAdded: "Basic 01 ",
         channel: "sdasd",
-        description: "Completa los desafíos para dominar el Inglés",
+        description: "Entiende como usar cada matiz gramatical",
         enlaces: [
-           
-            { titulo:"Present Simple ",descripcion:"Aprende a usar el present simple en diferentes contextos ",url:"https://drive.google.com/file/d/1rwleyKN1vwRdZLJuHZXbIB3t88hevTl3/view?usp=sharing",url2: "https://youtu.be/b5KxYRP2I5s"},
-            { titulo:"Present Progressive",descripcion:"Aprende a usar el present progressive en diferentes contextos ",url:"https://drive.google.com/file/d/1Rqx1bzuRRJbjHZnH_iutOhx7oIzQoeut/view?usp=sharing",url2: "https://youtu.be/Nnu6JOaenf0"},
-            { titulo:"Test Center App",descripcion:"Desafio de tiempo Present simple y progressive ",url4: "https://learnibox.vercel.app/presentsimpleprogressive"},
-
-            { titulo:"Usual",descripcion:"Aprende los diferentes usos del usual",url: "https://drive.google.com/file/d/1Iru4Ttn7yf9vwOiUU8XjC6MCB9DPMHA8/view?usp=sharing",url2:"https://youtu.be/OSRAYauWH-I",url3:"https://drive.google.com/file/d/1sugjoNOr6dwEHogTwcKeYHUVbebEBbpX/view?usp=sharing"},
-            { titulo:"Usually",url: "https://drive.google.com/file/d/1IPWIh1B7oYwV4aPRJJKnM-gpZICitsX_/view?usp=sharing",url2:"https://www.youtube.com/watch?v=nYxi8UCraJI&ab_channel=MyEnglishBro"},
-            { titulo:"I think not vs I don't think so. ",url: "https://drive.google.com/file/d/15nnCB3JJRtH1fqqx5TypEptgoRbo5q-P/view?usp=sharing"},
-            { titulo:"Enough and Too ",url: "https://drive.google.com/file/d/1Tcadp5eOdfsHOlCwJWs0iNuphHQO4gYA/view?usp=sharing"},
+         { titulo:"Present Simple ",descripcion:"Aprende a usar el present simple en diferentes contextos ",url:"https://drive.google.com/file/d/1rwleyKN1vwRdZLJuHZXbIB3t88hevTl3/view?usp=sharing",url2: "https://youtu.be/b5KxYRP2I5s"},
+         { titulo:"Present Progressive",descripcion:"Aprende a usar el present progressive en diferentes contextos ",url:"https://drive.google.com/file/d/1Rqx1bzuRRJbjHZnH_iutOhx7oIzQoeut/view?usp=sharing",url2: "https://youtu.be/Nnu6JOaenf0"},
+         { titulo:"Present Simple vs Progressive ",descripcion:"Completa los niveles para dominar estos tiempos ",url4: "https://learnibox.vercel.app/presentsimpleprogressive"},
+         {  titulo:"Past Simple", url: "https://drive.google.com/file/d/1aAwupScFNRFoNArgtm5f_3k5a0Eyfztt/view?usp=sharing"},
+         {  titulo:"Present Perfect", url: "https://drive.google.com/file/d/1Vgvz7c7QrW_FMs5AN70TscKd_z6nh0Pv/view?usp=sharing"},
+         { titulo:"Past Simple vs Present Perfect",descripcion:"Completa los niveles para dominar estos tiempos ",url4: "https://learnibox.vercel.app/pastsimpleperfect"},
+         
+         { titulo: "Past Progressive ",url: "https://drive.google.com/file/d/18QxoihCFpTI0wyWQgr50OZtCdWWNVwqw/view?usp=sharing", },
+         { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1GWFlQ8RvPK7qb3S8HLBhKTlBONeogy0H/view?usp=sharing", },
+         { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/18h8QAkzm5UIzr-TF3DywBw_F-KtkjUYY/view?usp=sharing", },
+         { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1LCS98Vmh3gzPntxzCx5kX_EdackIK0v_/view?usp=sharing", },
+         { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1gxGscWmK3hDwJTXbNQpUEKlWSh_J9VLG/view?usp=sharing", },
+         { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1_3IiO9AC-y6Ks5RZujHdQyaWKKeMO9pu/view?usp=sharing", },
+         { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1Cc3RqGtZefUPxDSohH0Xssr4OSO5uftZ/view?usp=sharing", },
 
 
         ],
     },
-       {
-        id: 1,
-        thumbnail: "https://i.ibb.co/4npzrRYN/DALL-E-2025-02-26-11-50-46-An-intense-battle-between-two-warriors-representing-Past-Simple-and-Past.webp",
-
-        title: "Past Simple or  Past Progressive?",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 01 ",
-        channel: "sdasd",
-        description: "Completa los desafíos para dominar el Inglés",
-        enlaces: [
-           { titulo: "Past Progressive ",url: "https://drive.google.com/file/d/18QxoihCFpTI0wyWQgr50OZtCdWWNVwqw/view?usp=sharing", },
-
-            { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1GWFlQ8RvPK7qb3S8HLBhKTlBONeogy0H/view?usp=sharing", },
-            { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/18h8QAkzm5UIzr-TF3DywBw_F-KtkjUYY/view?usp=sharing", },
-            { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1LCS98Vmh3gzPntxzCx5kX_EdackIK0v_/view?usp=sharing", },
-            { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1gxGscWmK3hDwJTXbNQpUEKlWSh_J9VLG/view?usp=sharing", },
-            { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1_3IiO9AC-y6Ks5RZujHdQyaWKKeMO9pu/view?usp=sharing", },
-            { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1Cc3RqGtZefUPxDSohH0Xssr4OSO5uftZ/view?usp=sharing", },
-        ],
-    },
-     
-    {
-        id: 2,
-        thumbnail: "https://i.ibb.co/v6T66Y2g/DALL-E-2025-02-26-11-53-11-A-dramatic-battle-between-two-warriors-representing-Past-Simple-and-Prese.webp",
-
-        title: "Past Simple or Present Perfect?",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 01 ",
-        channel: "sdasd",
-        description: "Completa los desafíos para dominar el Inglés",
-        enlaces: [
-            {  titulo:"Past Simple", url: "https://drive.google.com/file/d/1aAwupScFNRFoNArgtm5f_3k5a0Eyfztt/view?usp=sharing"},
-            {  titulo:"Present Perfect", url: "https://drive.google.com/file/d/1Vgvz7c7QrW_FMs5AN70TscKd_z6nh0Pv/view?usp=sharing"},
-            { titulo:"Test Center App",descripcion:"Desafio de tiempo Present simple y progressive ",url4: "https://learnibox.vercel.app/pastsimpleperfect"},
-            
-        ],
-    },
+      
+       
+   
     
      {
         id: 3,
@@ -188,6 +157,11 @@ export const roadB2C = [
         channel: "sdasd",
         description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
         enlaces: [
+            
+            { titulo:"Usual",descripcion:"Aprende los diferentes usos del usual",url: "https://drive.google.com/file/d/1Iru4Ttn7yf9vwOiUU8XjC6MCB9DPMHA8/view?usp=sharing",url2:"https://youtu.be/OSRAYauWH-I",url3:"https://drive.google.com/file/d/1sugjoNOr6dwEHogTwcKeYHUVbebEBbpX/view?usp=sharing"},
+            { titulo:"Usually",url: "https://drive.google.com/file/d/1IPWIh1B7oYwV4aPRJJKnM-gpZICitsX_/view?usp=sharing",url2:"https://www.youtube.com/watch?v=nYxi8UCraJI&ab_channel=MyEnglishBro"},
+            { titulo:"I think not vs I don't think so. ",url: "https://drive.google.com/file/d/15nnCB3JJRtH1fqqx5TypEptgoRbo5q-P/view?usp=sharing"},
+            { titulo:"Enough and Too ",url: "https://drive.google.com/file/d/1Tcadp5eOdfsHOlCwJWs0iNuphHQO4gYA/view?usp=sharing"},
          { titulo:"📚Doubt that vs Doubt if",url: "https://drive.google.com/file/d/1qEgnOfM7BoFG1lmMu_xWgNbRlwBTt9X2/view?usp=sharing"},
           { titulo:"📚[Slide] The fact that  ",url: "https://drive.google.com/file/d/1FSd3Vt3C71C0kujDoy4egxFDy8_ZugZv/view?usp=sharing"},
           { titulo:"📚the same as - the same that.pdf",url: "https://drive.google.com/file/d/1XxkdYtKE6YyMH3jP93Aog9mXF_l9wu9l/view?usp=sharing"},
@@ -408,7 +382,73 @@ export const roadB2C = [
 
         ],
     },
-     
+      {
+        id: 15,
+        thumbnail:"https://i.ibb.co/5WQ17W7D/file-Fg6-EG7bvr-Nig-Ee3-S7m-XCfd.png",
+
+        title: "Writing",
+        subtitle: "B2/C1",
+
+        dateAdded: "B2",
+        channel: "sdasd",
+        description: "Aprende técnicas literarias avanzadas para enriquecer tu escritura y expresión creativa en inglés",
+        enlaces: [
+             { titulo:"Guía Completa para el Writing",url: "https://drive.google.com/file/d/1OgZ88ntg0_7aHZ-D6qD3lfIvFGjkHnzd/view?usp=sharing"},
+
+            
+            { titulo:"Mistakes in Writing ",url: "https://drive.google.com/file/d/1yiMC18Dxy5b5h-ve47g4SQT_wUOZ3yQX/view?usp=sharing"},
+
+            {
+                titulo: "📃 Article  B2 Model",
+                url: "https://drive.google.com/file/d/1U8-YHSgp_xeZDvbmty19W-fevEden95O/view?usp=sharing",
+            },
+            {
+                titulo: "📃 Report  B2 Model",
+                url: "https://drive.google.com/file/d/1_z4lgav_LheAS_ep8UEw4qcoz1SnI-XT/view?usp=sharing",
+            },
+            {
+                titulo: "📃 Email  B2 Model",
+                url: "https://drive.google.com/file/d/14Sb5Q_2-XOevWNgGqLaWyBDHGF3iX-DG/view?usp=sharing",
+            },
+            {
+                titulo: "📃[pdf] Essay  B2 Model",
+                url: "https://drive.google.com/file/d/1shuKn4-Sgu3VW2SqO1Gbv4a3BNUjFWB0/view?usp=sharing",
+            }, {
+                titulo: "📃[pdf] Essay  B2 Model 2",
+                url: "https://drive.google.com/file/d/1A3zKsg5My6XQlKxWRNiCoM_Jh5Wwepvp/view?usp=sharing",
+            }
+            ,
+            {
+                titulo: "📃[pdf] C1 Template Essay 2025",
+                url: "https://drive.google.com/file/d/1ELdPTtS6V33-pBtJr2uRSizlrfuCH4nB/view?usp=sharing",
+            },
+            {
+                titulo: "📃[pdf]Useful Language",
+                url: "https://drive.google.com/file/d/1gMBSe_vvMgQq-IkIQtpDydmpuKq_YiMa/view?usp=sharing",
+            },
+            {
+                titulo: "📃[pdf] Amazing Template Essay 2025",
+                url: "https://drive.google.com/file/d/1GTnhTS-RWFKpJ2Q9DRhBOxb-IqgjIjmZ/view?usp=sharing",
+            }
+            ,
+            {
+                titulo: "📃[pdf] Writing Templates",
+                url: "https://docs.google.com/document/d/1ynAsrV2Uj-uR0qrCDzGvDw8I2sXYlzEg/edit?rtpof=true&sd=true",
+            },
+            {
+                titulo: "📃[pdf] How to write an Essay",
+                url: "https://docs.google.com/presentation/d/1ulmNP0wMeqUi-ZlMpg6ngsCi_jjX9nBn/edit?usp=sharing&ouid=114588820780661373500&rtpof=true&sd=true",
+            },{
+                titulo: "📃[ppt] Advanced Transitions",
+                url: "https://docs.google.com/presentation/d/1fGnuhWtExMKny18ZqasLeugnXi9cb9pU/edit?usp=sharing&ouid=114588820780661373500&rtpof=true&sd=true",
+            },{
+                titulo: "📃[Inf] Writing Mistakes everyone makes",
+                url: "https://drive.google.com/file/d/17vYjDTq69ecevpRtiD1mSOevKqFLrOSM/view?usp=sharing",
+            },
+            
+        ],
+    },
+    
     
     
 
@@ -516,7 +556,7 @@ export const roadB2C = [
         thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
         title: "B2 Bootcamp ",
         subtitle: "B2/C1",
-        // color: "#D6083B", // Propiedad de color añadida
+        color: "#D6083B", // Propiedad de color añadida
 
         
         dateAdded: "Basic 0 ",
@@ -800,70 +840,7 @@ export const roadB2C = [
             ],
             
     },
-    {
-        id: 15,
-        thumbnail:"https://i.ibb.co/5WQ17W7D/file-Fg6-EG7bvr-Nig-Ee3-S7m-XCfd.png",
-
-        title: "Writing",
-        subtitle: "B2/C1",
-
-        dateAdded: "B2",
-        channel: "sdasd",
-        description: "Aprende técnicas literarias avanzadas para enriquecer tu escritura y expresión creativa en inglés",
-        enlaces: [
-                        { titulo:"Mistakes in Writing ",url: "https://drive.google.com/file/d/1yiMC18Dxy5b5h-ve47g4SQT_wUOZ3yQX/view?usp=sharing"},
-
-            {
-                titulo: "📃 Article  B2 Model",
-                url: "https://drive.google.com/file/d/1U8-YHSgp_xeZDvbmty19W-fevEden95O/view?usp=sharing",
-            },
-            {
-                titulo: "📃 Report  B2 Model",
-                url: "https://drive.google.com/file/d/1_z4lgav_LheAS_ep8UEw4qcoz1SnI-XT/view?usp=sharing",
-            },
-            {
-                titulo: "📃 Email  B2 Model",
-                url: "https://drive.google.com/file/d/14Sb5Q_2-XOevWNgGqLaWyBDHGF3iX-DG/view?usp=sharing",
-            },
-            {
-                titulo: "📃[pdf] Essay  B2 Model",
-                url: "https://drive.google.com/file/d/1shuKn4-Sgu3VW2SqO1Gbv4a3BNUjFWB0/view?usp=sharing",
-            }, {
-                titulo: "📃[pdf] Essay  B2 Model 2",
-                url: "https://drive.google.com/file/d/1A3zKsg5My6XQlKxWRNiCoM_Jh5Wwepvp/view?usp=sharing",
-            }
-            ,
-            {
-                titulo: "📃[pdf] C1 Template Essay 2025",
-                url: "https://drive.google.com/file/d/1ELdPTtS6V33-pBtJr2uRSizlrfuCH4nB/view?usp=sharing",
-            },
-            {
-                titulo: "📃[pdf]Useful Language",
-                url: "https://drive.google.com/file/d/1gMBSe_vvMgQq-IkIQtpDydmpuKq_YiMa/view?usp=sharing",
-            },
-            {
-                titulo: "📃[pdf] Amazing Template Essay 2025",
-                url: "https://drive.google.com/file/d/1GTnhTS-RWFKpJ2Q9DRhBOxb-IqgjIjmZ/view?usp=sharing",
-            }
-            ,
-            {
-                titulo: "📃[pdf] Writing Templates",
-                url: "https://docs.google.com/document/d/1ynAsrV2Uj-uR0qrCDzGvDw8I2sXYlzEg/edit?rtpof=true&sd=true",
-            },
-            {
-                titulo: "📃[pdf] How to write an Essay",
-                url: "https://docs.google.com/presentation/d/1ulmNP0wMeqUi-ZlMpg6ngsCi_jjX9nBn/edit?usp=sharing&ouid=114588820780661373500&rtpof=true&sd=true",
-            },{
-                titulo: "📃[ppt] Advanced Transitions",
-                url: "https://docs.google.com/presentation/d/1fGnuhWtExMKny18ZqasLeugnXi9cb9pU/edit?usp=sharing&ouid=114588820780661373500&rtpof=true&sd=true",
-            },{
-                titulo: "📃[Inf] Writing Mistakes everyone makes",
-                url: "https://drive.google.com/file/d/17vYjDTq69ecevpRtiD1mSOevKqFLrOSM/view?usp=sharing",
-            },
-            
-        ],
-    },
-    
+   
    
     {
         id: 0,

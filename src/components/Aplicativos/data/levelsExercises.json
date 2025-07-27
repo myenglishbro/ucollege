@@ -8,12 +8,12 @@
       "exercises": [
         {
           "id": 1,
-          "prompt": "Jeremy usually ______________ to school by bus but today his dad ______________ him.",
+          "prompt": "Jeremy ______________ to school by bus but today his dad ______________ him.",
           "options": [
-            "Jeremy goes to school by bus but today his dad is driving him.",
-            "Jeremy is going to school by bus but today his dad drives him."
+            "usually goes to school by bus but today his dad is driving him.",
+            "is usually going to school by bus but today his dad drives him."
           ],
-          "answer": "Jeremy goes to school by bus but today his dad is driving him."
+          "answer": "usually goes to school by bus but today his dad is driving him."
         },
         {
           "id": 2,
