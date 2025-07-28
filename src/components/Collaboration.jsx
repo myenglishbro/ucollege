@@ -1,6 +1,4 @@
-import { brainwaveSymbol, check } from "../assets2";
 import { collabContent } from "../constants";
-import Button from "./Button";
 
 const Collaboration = () => {
   return (

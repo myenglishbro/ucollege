@@ -1,7 +1,6 @@
 import React from 'react'
 import { about } from "../assets/index.js";
 import styles, { layout } from "../style";
-import Button from "../components/Button.jsx";
 const About = () => {
   return (
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
@@ -16,7 +15,7 @@ const About = () => {
       Garantizamos un aprendizaje individualizado. Domina el inglés que realmente necesitas para socializar, trabajar y viajar con confianza. ¡Únete ahora y desbloquea tu potencial lingüístico!
       </p>
 
-      <Button styles={`mt-10`} />
+    
     </div>
 
     <div className={layout.sectionImg}>

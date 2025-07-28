@@ -1,5 +1,4 @@
 import { card } from "../assets";
-import Button from "../components/Button";
 import styles, { layout } from "../style";
 
 const MyPortal = () => {
@@ -15,7 +14,7 @@ const MyPortal = () => {
       Recuerda que puedes cancelar tu clase con 24 horas de anticipación
       </p>
 
-      <a href=""> <Button styles={`mt-10`}  /></a>
+      <a href=""> </a>
     </div>
 
     <div className={layout.sectionImg}>
@@ -32,7 +31,7 @@ const MyPortal = () => {
     </div>
 
     <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
-      <a href="https://docs.google.com/spreadsheets/d/1ztiRdJp4b6odziiqhwlEoE6VfLopJiMOrT_RvOl7KDc/edit?usp=sharing"> <Button /></a>
+      <a href="https://docs.google.com/spreadsheets/d/1ztiRdJp4b6odziiqhwlEoE6VfLopJiMOrT_RvOl7KDc/edit?usp=sharing"> </a>
     </div>
   </section>
     </>

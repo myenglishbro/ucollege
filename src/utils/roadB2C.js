@@ -12,9 +12,7 @@ export const roadB2C = [
         enlaces: [
            { titulo:"Guia Cambridge Placement Test",descripcion:"Guia para comprender el examen",url:"https://drive.google.com/file/d/11dS3tCmiTMgaL8nv8cehWwY9eaGuDAKI/view?usp=sharing"},
 
-            { titulo:"Examen Modelo CEPT",descripcion:"Examen de -ubicación de nivel",url2:"https://youtu.be/xKic5HFl-fg"},
-
-
+           { titulo:"Examen Modelo CEPT",descripcion:"Examen de -ubicación de nivel",url2:"https://youtu.be/xKic5HFl-fg"},
 
         ],
     },
@@ -34,6 +32,59 @@ export const roadB2C = [
             { titulo:"Hacks and Secrets B2 First",descripcion:"Conoce los trucos y secretos  de este examen ",url:"https://drive.google.com/file/d/1vxvFCXalbtMf0ENxDZ3XcM1MZTp_exvG/view?usp=sharing"},
 
 
+
+        ],
+    },
+     {
+        id: 3,
+        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
+
+        title: "Cambridge Simulator ",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: " ",
+        enlaces: [
+            { titulo:"Multiple Choice Cloze Simulation I ",descripcion:"The first part of the Use of English paper in the B2 First Examination is multiple choice cloze where students have to choose the correct word from four similar given words.",url4:"https://learnibox.vercel.app/uoe1"},
+
+            { titulo:"Multiple Choice Cloze Simulation II ",descripcion:"The first part of the Use of English paper in the B2 First Examination is multiple choice cloze where students have to choose the correct word from four similar given words.",url4:"https://learnibox.vercel.app/multiplechoice"},
+             { titulo:"Open Cloze",descripcion:"The second part of the Use of English paper in the B2 First Examination is open cloze, in which students use one word to fill each space in a short text. The required words are usually grammatical, such as pronouns, articles, prepositions, auxiliary verbs and so on.",url4:"https://learnibox.vercel.app/uoe2"},
+
+            { titulo:"Key Word Transformation Simulation ",descripcion:"The final part of the Use of English paper is Key Word Transformations. A sentence followed by a key word and a second sentence which has a gap in it. A student has to use the key word to complete the second sentence so that it means the same as the first sentence.",url4:"http://learnibox.vercel.app/keysimulation"},
+
+            
+            { titulo: "Gapped Text Simulations",descripcion:"A single page of text with some numbered gaps which represent missing sentences. After the text there are some sentences which are not in the right order. Students have to read the text and the sentences and decide which sentence best fits each gap.",url3: "https://drive.google.com/file/d/1W-uiH_VebMKmHmdY2JPzsODDyhJa_ayi/view?usp=sharing",url7:"https://drive.google.com/file/d/1W-uiH_VebMKmHmdY2JPzsODDyhJa_ayi/view?usp=sharing",url8:"http://learnibox.vercel.app/gt" },    
+            { titulo:"Reading Gap Secrets",url: "https://drive.google.com/file/d/1lNpyrE26v78RUX6T9VNWB3yvBuefKYoz/view?usp=sharing"},
+
+
+             { titulo:"Real exam Simulation 01 ",url3: "https://learnibox.vercel.app/simulator"},
+
+        
+
+            { titulo: "Word Formation",descripcion:"The third part of the Use of English paper in the B2 First Examination is word formation where students use a root such as 'able' and create an appropriate word (disable, unable, ability) to fill the gap in a text.",url: "https://drive.google.com/file/d/1FoMiuTrYJHxJYyBsbBrqvs10Kb8cYf2T/view?usp=sharing",url7:"https://drive.google.com/file/d/1cy_Ap7DUYRZWyCVjPoAYy3njDBlrmXm_/view?usp=sharing",url8:"http://learnibox.vercel.app/tc" },    
+            { titulo: "✍ WF002 - Prefixes and Negative Meanings ",url: "https://drive.google.com/file/d/1NI-L5UBxQ5gFeRac6oVhMXD_T-5YCjiv/view?usp=sharing",url3:"https://drive.google.com/drive/folders/1T8c6lyVyjh6a2e2MM4M5jeDN8PRcARnR?usp=sharing" },    
+            { titulo: "✍ WF003 - Crossword - Word Formation ",url: "https://drive.google.com/file/d/194QnF1Gc-wIRpiWAOtqWy-D8B78coaSL/view?usp=sharing", },    
+            { titulo: "✍ WF019 - Word Formation - Nouns, Verbs, Adjectives ",url: "https://drive.google.com/file/d/18krxCjRSmgc3wfWPtGK2qggwq0lUlfnW/view?usp=sharing", },    
+            { titulo: "✍ WF020 - Word Formation - Nouns, Verbs, Adjectives ",url: "https://drive.google.com/file/d/18J49WKoMt8jXjiKAcxrFnaqTykF-0QHw/view?usp=sharing", },    
+            { titulo: "✍ WF021 - Word Formation - Nouns, Verbs, Adjectives ",url: "https://drive.google.com/file/d/17L45VWvsHTY1ToaELcaEXaIpT8bgSKRB/view?usp=sharing", },    
+
+           
+            {  titulo:"📝 Examen 01  ",url: "https://drive.google.com/file/d/1Sk4W7Ax3Ao9ZqGR4sVY4IFik3Jq6BQ_N/view?usp=sharing"},
+            {  titulo:"📝 Examen 01 Solucionario ",url: "https://drive.google.com/file/d/13NnSnUDD8m95_AryEwZ5hMnfdxKYrQKV/view?usp=sharing"},
+
+            {  titulo:"📝[Test 01 ] FCE + SOLUCIONARIO ",url: "https://drive.google.com/file/d/1sz-WQ4yS7S4GMUgZHXz6uqTD0oA5pJ5M/view?usp=sharing"},
+            {  titulo:"📝[Test 02 ] FCE + SOLUCIONARIO ",url: "https://drive.google.com/file/d/192v80IEi93ZaiRY1-NkY5h-qk2XyA6O_/view?usp=sharing"},
+
+            {  titulo:"📝[Test] Key Word Transformation 01 ",url: "https://drive.google.com/file/d/1Ng-AL8s5uNqA4AeVSa9x-4ySFH_dqsKU/view?usp=sharing"},
+            {  titulo:"📝🔑[Test Answer Key] Key Word Transformation 01 ",url: "https://docs.google.com/presentation/d/1_lR0KYShBJeyFw-ZOuMIEwwLyIdLb2s591vIc4pAIsU/edit?usp=sharing"},
+
+            {  titulo:"📝[Test] Multiple Choice Cloze 01 ",url: "https://drive.google.com/file/d/1Y-2SMBjU5xafwMwdH2VB8NJMWwKQMB5-/view?usp=sharing"},
+            {  titulo:"📝🔑[Test Answer Key] Multiple Choice Cloze 01",url: "https://docs.google.com/presentation/d/1koBZiWPQtnw6GgFEfWpNORHWd0TvwYYnRbr661Ahh94/edit?usp=sharing"},
+
+            {  titulo:"📝[Test] Open Cloze 01 ",url: "https://drive.google.com/file/d/1yRCvF2OW3VJfHSqREMmUb4RzAXK6Hfg1/view?usp=sharing"},
+            {  titulo:"📝[Test] Word Formation 01 ",url: "https://drive.google.com/file/d/1SOnsELpD7Y4laW2l--YpXeKcut6QM8ZA/view?usp=sharing"},
+            {  titulo:"🗣[Test] Speaking Section 01 ",url: "https://drive.google.com/file/d/1tG0g65N35lS8hp1r4LRPDSkynxug5C51/view?usp=sharing"},
 
         ],
     },
@@ -202,7 +253,6 @@ export const roadB2C = [
         channel: "sdasd",
         description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
         enlaces: [
-            { titulo:"Key Word Transformation Simulation ",descripcion:"The final part of the Use of English paper is Key Word Transformations. A sentence followed by a key word and a second sentence which has a gap in it. A student has to use the key word to complete the second sentence so that it means the same as the first sentence.",url4:"http://learnibox.vercel.app/keysimulation"},
             { titulo:"Ebook ",descripcion:"Versión digital v.001",url:"https://drive.google.com/file/d/12-I0FaAIz-w2-wjfV5s8TkbIEwwSZCIm/view?usp=sharing"},
 
               { titulo:"Key Word Transformation ",descripcion:"The final part of the Use of English paper is Key Word Transformations. A sentence followed by a key word and a second sentence which has a gap in it. A student has to use the key word to complete the second sentence so that it means the same as the first sentence.",url: "https://drive.google.com/file/d/1fzxVyBLvMHRwzfHTGLgYapKOXasOXv0m/view?usp=sharing",url3:"https://drive.google.com/file/d/1SlBZ6S1G4Jk_fMSC9kPJRa_XY_GuJfRN/view?usp=sharing",url7:"http://learnibox.vercel.app/kwt"},
@@ -232,75 +282,7 @@ export const roadB2C = [
 
         ],
     },
-     {
-        id: 3,
-        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
-
-        title: "Cambridge Exam Simulator ",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 0 ",
-        channel: "sdasd",
-        description: " ",
-        enlaces: [
-          { titulo:"Exam 01 ",url3: "https://learnibox.vercel.app/simulator"},
-
-            { titulo:"Multiple Choice Cloze Simulation ",descripcion:"The first part of the Use of English paper in the B2 First Examination is multiple choice cloze where students have to choose the correct word from four similar given words.",url4:"https://learnibox.vercel.app/multiplechoice"},
-             { titulo:"📚[pdf] FCE Use of English Part 1, Test 1 ",url: "https://drive.google.com/file/d/1h54cY7q3mJV1UeyAmMKDHb9tLuTKgy65/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 2 ",url: "https://drive.google.com/file/d/1aeBR35udYiAWDQkReUq02MWQ45-mNlaY/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 3 ",url: "https://drive.google.com/file/d/1jxc8MXuj2aBSCE3n_K94IcyIz7DChfVX/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 4 ",url: "https://drive.google.com/file/d/13vp7gfLpY6nL8Fxqu-WI1yCcL2VbRUhp/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 5 ",url: "https://drive.google.com/file/d/11HwB5yX7D93zRPOVUF2RtDQPCplZDlCM/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 6 ",url: "https://drive.google.com/file/d/1g4U5r2kQXR-CB2j2acqwBz4ikNmWaWlf/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 7 ",url: "https://drive.google.com/file/d/1cqZwr_NyJ4pDkC9i5PiVpIOW-wIWpTwh/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 8 ",url: "https://drive.google.com/file/d/1Q1ls0rqyYuGNNGyVRRuoAZkuisAAqYC4/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 9 ",url: "https://drive.google.com/file/d/1ynY5s8E2_bNFnXdWlz0UAvIr2dg8GxeZ/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 10 ",url: "https://drive.google.com/file/d/1eELz_nshYOo48s2Dvjj-jU6E2mjh4zNx/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 11 ",url: "https://drive.google.com/file/d/1HbNg2K9EqAnu_LekOsClaAPyQe21syga/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 12 ",url: "https://docs.google.com/document/d/1hLDtbuz4h5Uc0WZz5ziOth3nXBdL4vrj/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 13 ",url: "https://drive.google.com/file/d/1SbgYMOfgIQHLGJbJqQndK5Hq-T7yC906/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 14",url: "https://drive.google.com/file/d/1P4EYZxf-LlzFdnoDUwfFQoQtDUHm2thY/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 15",url: "https://drive.google.com/file/d/1_ZouF_vlYUUZPVen-oZRkrYg10z684tn/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 16",url: "https://drive.google.com/file/d/1DKU9KwN7nqYHRpcllrq6uCiohtizg0o1/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 17",url: "https://drive.google.com/file/d/1pqkL1oyQX_pYglNVYzxd-F7VhvzS98E1/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 18",url: "https://drive.google.com/file/d/1_OEQdmovxPjXWo-ngaryTAKNDf13ronJ/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 19 ",url: "https://drive.google.com/file/d/1h-Kg1T7l9KgUecfEJC_r0pMZEIPMPpdE/view?usp=sharing"},
-            { titulo:"📚[pdf] FCE Use of English Part 1, Test 20 ",url: "https://drive.google.com/file/d/1vXWiy1U15JiJOhDxa33qPTWf7kVupGfx/view?usp=sharing"},
-           
-           
-           
-
-            { titulo:"Open Cloze",descripcion:"The second part of the Use of English paper in the B2 First Examination is open cloze, in which students use one word to fill each space in a short text. The required words are usually grammatical, such as pronouns, articles, prepositions, auxiliary verbs and so on.",url: "https://youtu.be/Hk1y2D9jbvQ",url3: "https://drive.google.com/file/d/1InWYabnMh49xh4J1dp6ewYCL3G71vfcb/view?usp=sharing",url5:"https://learnibox.vercel.app/sixtytype"},
-            { titulo: "Word Formation",descripcion:"The third part of the Use of English paper in the B2 First Examination is word formation where students use a root such as 'able' and create an appropriate word (disable, unable, ability) to fill the gap in a text.",url: "https://drive.google.com/file/d/1FoMiuTrYJHxJYyBsbBrqvs10Kb8cYf2T/view?usp=sharing",url7:"https://drive.google.com/file/d/1cy_Ap7DUYRZWyCVjPoAYy3njDBlrmXm_/view?usp=sharing",url8:"http://learnibox.vercel.app/tc" },    
-            { titulo: "✍ WF002 - Prefixes and Negative Meanings ",url: "https://drive.google.com/file/d/1NI-L5UBxQ5gFeRac6oVhMXD_T-5YCjiv/view?usp=sharing",url3:"https://drive.google.com/drive/folders/1T8c6lyVyjh6a2e2MM4M5jeDN8PRcARnR?usp=sharing" },    
-            { titulo: "✍ WF003 - Crossword - Word Formation ",url: "https://drive.google.com/file/d/194QnF1Gc-wIRpiWAOtqWy-D8B78coaSL/view?usp=sharing", },    
-            { titulo: "✍ WF019 - Word Formation - Nouns, Verbs, Adjectives ",url: "https://drive.google.com/file/d/18krxCjRSmgc3wfWPtGK2qggwq0lUlfnW/view?usp=sharing", },    
-            { titulo: "✍ WF020 - Word Formation - Nouns, Verbs, Adjectives ",url: "https://drive.google.com/file/d/18J49WKoMt8jXjiKAcxrFnaqTykF-0QHw/view?usp=sharing", },    
-            { titulo: "✍ WF021 - Word Formation - Nouns, Verbs, Adjectives ",url: "https://drive.google.com/file/d/17L45VWvsHTY1ToaELcaEXaIpT8bgSKRB/view?usp=sharing", },    
-
-           
-    {  titulo:"📝 Examen 01  ",url: "https://drive.google.com/file/d/1Sk4W7Ax3Ao9ZqGR4sVY4IFik3Jq6BQ_N/view?usp=sharing"},
-            {  titulo:"📝 Examen 01 Solucionario ",url: "https://drive.google.com/file/d/13NnSnUDD8m95_AryEwZ5hMnfdxKYrQKV/view?usp=sharing"},
-
-            {  titulo:"📝[Test 01 ] FCE + SOLUCIONARIO ",url: "https://drive.google.com/file/d/1sz-WQ4yS7S4GMUgZHXz6uqTD0oA5pJ5M/view?usp=sharing"},
-            {  titulo:"📝[Test 02 ] FCE + SOLUCIONARIO ",url: "https://drive.google.com/file/d/192v80IEi93ZaiRY1-NkY5h-qk2XyA6O_/view?usp=sharing"},
-
-            {  titulo:"📝[Test] Key Word Transformation 01 ",url: "https://drive.google.com/file/d/1Ng-AL8s5uNqA4AeVSa9x-4ySFH_dqsKU/view?usp=sharing"},
-            {  titulo:"📝🔑[Test Answer Key] Key Word Transformation 01 ",url: "https://docs.google.com/presentation/d/1_lR0KYShBJeyFw-ZOuMIEwwLyIdLb2s591vIc4pAIsU/edit?usp=sharing"},
-
-            {  titulo:"📝[Test] Multiple Choice Cloze 01 ",url: "https://drive.google.com/file/d/1Y-2SMBjU5xafwMwdH2VB8NJMWwKQMB5-/view?usp=sharing"},
-            {  titulo:"📝🔑[Test Answer Key] Multiple Choice Cloze 01",url: "https://docs.google.com/presentation/d/1koBZiWPQtnw6GgFEfWpNORHWd0TvwYYnRbr661Ahh94/edit?usp=sharing"},
-
-            {  titulo:"📝[Test] Open Cloze 01 ",url: "https://drive.google.com/file/d/1yRCvF2OW3VJfHSqREMmUb4RzAXK6Hfg1/view?usp=sharing"},
-            {  titulo:"📝[Test] Word Formation 01 ",url: "https://drive.google.com/file/d/1SOnsELpD7Y4laW2l--YpXeKcut6QM8ZA/view?usp=sharing"},
-            {  titulo:"🗣[Test] Speaking Section 01 ",url: "https://drive.google.com/file/d/1tG0g65N35lS8hp1r4LRPDSkynxug5C51/view?usp=sharing"},
-
-            { titulo: "Gapped Text Simulations",descripcion:"A single page of text with some numbered gaps which represent missing sentences. After the text there are some sentences which are not in the right order. Students have to read the text and the sentences and decide which sentence best fits each gap.",url3: "https://drive.google.com/file/d/1W-uiH_VebMKmHmdY2JPzsODDyhJa_ayi/view?usp=sharing",url7:"https://drive.google.com/file/d/1W-uiH_VebMKmHmdY2JPzsODDyhJa_ayi/view?usp=sharing",url8:"http://learnibox.vercel.app/gt" },    
-            { titulo:"Reading Gap Secrets",url: "https://drive.google.com/file/d/1lNpyrE26v78RUX6T9VNWB3yvBuefKYoz/view?usp=sharing"},
-
-
-        ],
-    },
+    
      {
         id: 8,
         thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",

@@ -1,7 +1,6 @@
 import React from 'react';
 import { politicas } from "../constants";
 import styles, { layout } from "../style";
-import Button from '../components/Button';
 
 const PoliticasClase = () => {
   return (
@@ -11,7 +10,7 @@ const PoliticasClase = () => {
           Políticas de mis clases a distancia
         </h2>
       
-        <a href="https://wa.link/qwnf6w"><Button styles={`mt-10`} /></a>
+        <a href="https://wa.link/qwnf6w"></a>
       </div>
 
       <div className={`${layout.sectionImg} flex-col`}>
