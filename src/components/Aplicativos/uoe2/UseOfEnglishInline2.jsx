@@ -23,7 +23,7 @@ export default function UseOfEnglishInline2() {
 
   useEffect(() => {
     if (selectedTest !== null && !submitted) {
-      setTimeLeft(60);
+      setTimeLeft(360);
       clearInterval(timerRef.current);
       timerRef.current = setInterval(() => {
         setTimeLeft(prev => {
