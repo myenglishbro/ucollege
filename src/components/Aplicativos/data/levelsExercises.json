@@ -179,12 +179,12 @@
       "exercises": [
         {
           "id": 1,
-          "prompt": "It often ______________ in Ireland. But it ______________ there at the moment.",
+          "prompt": "It______________ in Ireland. But it ______________ there at the moment.",
           "options": [
-            "It often rains in Ireland. But it is not raining there at the moment.",
-            "It often is raining in Ireland. But it does not rain there at the moment."
+            "often rains in Ireland. But it is not raining there at the moment.",
+            "is often raining in Ireland. But it does not rain there at the moment."
           ],
-          "answer": "It often rains in Ireland. But it is not raining there at the moment."
+          "answer": "often rains in Ireland. But it is not raining there at the moment."
         },
         {
           "id": 2,
@@ -199,10 +199,10 @@
           "id": 3,
           "prompt": "I ______________ a word he says.",
           "options": [
-            "I do not believe a word he says.",
-            "I am not believing a word he says."
+            "do not believe a word he says.",
+            "am not believing a word he says."
           ],
-          "answer": "I do not believe a word he says."
+          "answer": "do not believe a word he says."
         },
         {
           "id": 4,
