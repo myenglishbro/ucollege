@@ -66,5 +66,6 @@ export const validCredentials = [
           { expirationDate:"24/08",nivel:"B2",usuario: 'segundo', password: 'cerro', realname: 'Segundo F. Cerro',img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
       { expirationDate:"25/08",nivel:"B2",usuario: 'bruno', password: 'maguiña', realname: 'Bruno Alfonso Maguiña', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
       { expirationDate:"28/08",nivel:"B2",usuario: 'kath', password: 'contreras', realname: 'Katherine Contreras', img: 'https://i.ibb.co/jv0jDGgs/Chat-GPT-Image-6-jul-2025-13-23-34.png' }, // No image
+      { expirationDate:"28/08",nivel:"B2",usuario: 'manuel', password: 'lopez', realname: 'Andres Lopez', img: 'https://i.ibb.co/jv0jDGgs/Chat-GPT-Image-6-jul-2025-13-23-34.png' }, // No image
 
     ];
