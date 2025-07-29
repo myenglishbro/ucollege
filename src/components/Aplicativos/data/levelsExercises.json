@@ -188,12 +188,12 @@
         },
         {
           "id": 2,
-          "prompt": "Such behaviour normally ______________ me furious.",
+          "prompt": "______________ me furious.",
           "options": [
-            "Such behaviour normally makes me furious.",
-            "Such behaviour is normally making me furious."
+            "Such behaviour normally makes",
+            "Such behaviour is normally making"
           ],
-          "answer": "Such behaviour normally makes me furious."
+          "answer": "Such behaviour normally makes"
         },
         {
           "id": 3,
@@ -208,46 +208,46 @@
           "id": 4,
           "prompt": "I ______________ a hat today because it’s such a special event.",
           "options": [
-            "I wear a hat today because it’s such a special event.",
-            "I am wearing a hat today because it’s such a special event."
+            "wear",
+            "am wearing"
           ],
-          "answer": "I am wearing a hat today because it’s such a special event."
+          "answer": "am wearing"
         },
         {
           "id": 5,
           "prompt": "Susan ______________ an email to her parents nearly every Saturday evening.",
           "options": [
-            "Susan writes an email to her parents nearly every Saturday evening.",
-            "Susan is writing an email to her parents nearly every Saturday evening."
+            "writes",
+            "is writing"
           ],
-          "answer": "Susan writes an email to her parents nearly every Saturday evening."
+          "answer": "writes"
         },
         {
           "id": 6,
           "prompt": "Stop right now! You ______________ the flowers every time the ball ______________ in the flower bed.",
           "options": [
-            "You break the flowers every time the ball lands in the flower bed.",
-            "You are breaking the flowers every time the ball lands in the flower bed."
+            "break the flowers every time the ball lands in the flower bed.",
+            "are breaking the flowers every time the ball lands in the flower bed."
           ],
-          "answer": "You are breaking the flowers every time the ball lands in the flower bed."
+          "answer": "are breaking the flowers every time the ball lands in the flower bed."
         },
         {
           "id": 7,
           "prompt": "Where is Jimmy? – I don’t know. I ______________ he ______________ tennis with his younger brother, Mark.",
           "options": [
-            "I think he plays tennis with his younger brother, Mark.",
-            "I think he is playing tennis with his younger brother, Mark."
+            "think he plays tennis with his younger brother, Mark.",
+            "think he is playing tennis with his younger brother, Mark."
           ],
-          "answer": "I think he is playing tennis with his younger brother, Mark."
+          "answer": "think he is playing tennis with his younger brother, Mark."
         },
         {
           "id": 8,
           "prompt": "My mum ______________ a party for her best friends once a year.",
           "options": [
-            "My mum organises a party for her best friends once a year.",
-            "My mum is organising a party for her best friends once a year."
+            "organises",
+            "is organising"
           ],
-          "answer": "My mum organises a party for her best friends once a year."
+          "answer": "organises"
         },
         {
           "id": 9,
@@ -307,23 +307,23 @@
           "id": 15,
           "prompt": "Songs that are not very popular ______________ very well.",
           "options": [
-            "Songs that are not very popular do not sell very well.",
-            "Songs that are not very popular are not selling very well."
+            "do not sell very well.",
+            "are not selling very well."
           ],
-          "answer": "Songs that are not very popular do not sell very well."
+          "answer": "do not sell very well."
         },
         {
           "id": 16,
           "prompt": "My brother isn’t here. He ______________ Spain at the moment.",
           "options": [
-            "He tours Spain at the moment.",
-            "He is touring Spain at the moment."
+            "tours Spain at the moment.",
+            "is touring Spain at the moment."
           ],
-          "answer": "He is touring Spain at the moment."
+          "answer": "is touring Spain at the moment."
         },
         {
           "id": 17,
-          "prompt": "Tom always ______________ the strangest questions in class.",
+          "prompt": "______________ the strangest questions in class.",
           "options": [
             "Tom always asks the strangest questions in class.",
             "Tom is always asking the strangest questions in class."
@@ -1278,14 +1278,14 @@
           "id": 10,
           "prompt": "Unpopular songs ______________ very well. (NOT SELL)",
           "options": [
-            "Unpopular songs do not sell very well.",
-            "Unpopular songs are not selling very well."
+            "do not sell very well.",
+            "are not selling very well."
           ],
-          "answer": "Unpopular songs do not sell very well."
+          "answer": "do not sell very well."
         },
         {
           "id": 11,
-          "prompt": "She usually ______________ out with her friends on Saturday evenings. (GO)",
+          "prompt": "______________ out with her friends on Saturday evenings. (GO)",
           "options": [
             "She usually goes out with her friends on Saturday evenings.",
             "She is usually going out with her friends on Saturday evenings."
@@ -1296,28 +1296,28 @@
           "id": 12,
           "prompt": "What ______________, Mum? – It smells so good! (YOU BAKE)",
           "options": [
-            "What do you bake, Mum?",
-            "What are you baking, Mum?"
+            "do you bake, Mum?",
+            "are you baking, Mum?"
           ],
-          "answer": "What are you baking, Mum?"
+          "answer": "are you baking, Mum?"
         },
         {
           "id": 13,
           "prompt": "______________ to the bridge club? (YOU BELONG)",
           "options": [
-            "Do you belong to the bridge club?",
-            "Are you belonging to the bridge club?"
+            "Do you belong",
+            "Are you belonging"
           ],
-          "answer": "Do you belong to the bridge club?"
+          "answer": "Do you belong"
         },
         {
           "id": 14,
           "prompt": "The children ______________ playing in the hut whenever we’re at our weekend house. (ENJOY)",
           "options": [
-            "The children enjoy playing in the hut whenever we’re at our weekend house.",
-            "The children are enjoying playing in the hut whenever we’re at our weekend house."
+            "enjoy playing in the hut whenever we’re at our weekend house.",
+            "are enjoying playing in the hut whenever we’re at our weekend house."
           ],
-          "answer": "The children enjoy playing in the hut whenever we’re at our weekend house."
+          "answer": "enjoy playing in the hut whenever we’re at our weekend house."
         },
         {
           "id": 15,
@@ -1332,10 +1332,10 @@
           "id": 16,
           "prompt": "______________ if I ask you a question? (YOU MIND)",
           "options": [
-            "Do you mind if I ask you a question?",
-            "Are you minding if I ask you a question?"
+            "Do you mind",
+            "Are you minding"
           ],
-          "answer": "Do you mind if I ask you a question?"
+          "answer": "Do you mind"
         },
         {
           "id": 17,
