@@ -49,34 +49,34 @@
             "brings her little sister to school.",
             "is bringing her little sister to school."
           ],
-          "answer": "Mary is bringing her little sister to school."
+          "answer": "is bringing her little sister to school."
         },
         {
           "id": 6,
           "prompt": "Mom can't help you right now because she ______________ dinner.",
           "options": [
-            "prepares dinner.",
-            "is preparing dinner."
+            "prepares",
+            "is preparing"
           ],
-          "answer": "is preparing dinner."
+          "answer": "is preparing"
         },
         {
           "id": 7,
           "prompt": "The neighbours' boys always ______________ to school late.",
           "options": [
-            "always come to school late.",
-            "are always coming to school late."
+            "always come",
+            "are always coming to"
           ],
-          "answer": "always come to school late."
+          "answer": "always come"
         },
         {
           "id": 8,
           "prompt": "My parents______________ cigarettes in front of us.",
           "options": [
-            "never smoke cigarettes in front of us.",
-            "are never smoking cigarettes in front of us."
+            "never smoke",
+            "are never smoking"
           ],
-          "answer": "never smoke cigarettes in front of us."
+          "answer": "never smoke"
         },
         {
           "id": 9,
@@ -154,19 +154,19 @@
           "id": 17,
           "prompt": "I ______________ for a new car which I want to buy as soon as possible.",
           "options": [
-            "save for a new car which I want to buy as soon as possible.",
-            "am saving for a new car which I want to buy as soon as possible."
+            "save",
+            "am saving"
           ],
-          "answer": "am saving for a new car which I want to buy as soon as possible."
+          "answer": "am saving"
         },
         {
           "id": 18,
           "prompt": "What ______________ right now? – He ______________ in the river.",
           "options": [
-            "What does Tom do right now? – He swims in the river.",
-            "What is Tom doing right now? – He is swimming in the river."
+            "does Tom do right now? – He swims in the river.",
+            "is Tom doing right now? – He is swimming in the river."
           ],
-          "answer": "What is Tom doing right now? – He is swimming in the river."
+          "answer": "is Tom doing right now? – He is swimming in the river."
         }
       ]
     },
