@@ -946,6 +946,9 @@ export const roadB2C = [
         channel: "sdasd",
         description: "Aprende a hablar como un hablante nativo enfocándote en la pronunciación, entonación y expresiones idiomáticas para mejorar tu fluidez y naturalidad al hablar.",
         enlaces: [
+           { titulo:"USEFUL PHRASES I",url: "https://drive.google.com/file/d/1dk9Et3VSG60L6DcFkxAMT-xM2CTtbXe4/view?usp=sharing"},
+
+                    { titulo:"USEFUL PHRASES II",url: "https://drive.google.com/file/d/1jyUmrJVnuw7QOxq7Pvbl9CQRJXdwFkL1/view?usp=sharing"},
             {
                 titulo: "🖥️[Video] Episodem  Website",
                 url: "https://www.youtube.com/watch?v=9dt6WOuoXos",
