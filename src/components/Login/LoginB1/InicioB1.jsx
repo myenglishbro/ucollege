@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import LandingFuturista from '../../LandingCourse/LandingFuturista';
 import LoginUniversal from '../LoginUniversal'; // Universal!
-import RoadMapB1 from '../../../pages/RoadMapB1';
+import RoadMapB1 from '../../../pages/ROADMAPS/RoadMapB1';
 import landingDataB1 from "../../../utils/datalanding/dataLandingB1.json";
 import Navbar from '../../../pages/myenglishbro/components/NavBar';
 import { validCredentials } from "../../../utils/credentials";

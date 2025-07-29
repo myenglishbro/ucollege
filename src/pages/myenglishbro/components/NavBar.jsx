@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
-import { menu, close } from "../assets/index";
+import { HiMenuAlt3 } from "react-icons/hi";
+import { IoClose } from "react-icons/io5";
 import { navLinks } from "../constants/index";
 
 // Animations & effects
@@ -71,12 +72,10 @@ const Navbar = () => {
                 onClick={() => setActive(nav.title)}
               >
                 <Link to={nav.path} className="flex items-center gap-2">
-                  {/* Ícono minimal */}
                   <span className="text-[#a5b4fc] group-hover:text-white transition-colors duration-200">
                     {nav.icon}
                   </span>
                   <span>{nav.title}</span>
-                  {/* efecto glass ring al hover */}
                   <motion.span
                     className={`absolute inset-0 rounded-2xl pointer-events-none transition-all duration-200 ${
                       active === nav.title ? glassRing : ""
@@ -113,7 +112,6 @@ const Navbar = () => {
                     }
                   `}
                 >
-                  {/* Ícono minimal */}
                   <span className="text-[#a5b4fc] group-hover:text-white transition-colors duration-200">
                     {nav.icon}
                   </span>
@@ -186,11 +184,11 @@ const Navbar = () => {
             whileTap={{ scale: 0.88 }}
             className="focus:outline-none transition-transform"
           >
-            <img
-              src={toggle ? close : menu}
-              alt="menu"
-              className="w-8 h-8"
-            />
+            {toggle ? (
+              <IoClose className="w-8 h-8 text-white" />
+            ) : (
+              <HiMenuAlt3 className="w-8 h-8 text-white" />
+            )}
           </motion.button>
           <AnimatePresence>
             {toggle && (

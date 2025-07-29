@@ -1,16 +1,16 @@
 import React, { useState } from 'react';
 import LandingFuturista from '../../LandingCourse/LandingFuturista';
 import LoginUniversal from '../LoginUniversal'; // Universal!
-import RoadMapA1 from '../../../pages/ROADMAPS/RoadMapA1';
-import landingDataA1 from "../../../utils/datalanding/dataLandingA1.json";
+import RoadMapB2CF from '../../../pages/ROADMAPS/RoadMapB2CF';
+import landingDataB2CF from "../../../utils/datalanding/dataLandingB2CF.json";
 import Navbar from '../../../pages/myenglishbro/components/NavBar';
 import { validCredentials } from "../../../utils/credentials";
 
 // Opcional: trae las imágenes desde el JSON o un archivo por nivel
-const bgImage = landingDataA1.bgImage ;
-const robotImage = landingDataA1.robotImage ;
+const bgImage = landingDataB2CF.bgImage 
+const robotImage = landingDataB2CF.robotImage 
 
-export default function InicioA1() {
+export default function InicioB2CFR() {
   const [fase, setFase] = useState('landing');
   const [userCredential, setUserCredential] = useState(null);
   const [userPassword, setUserPassword] = useState('');
@@ -25,17 +25,17 @@ export default function InicioA1() {
   return (
     <>
       <Navbar />
-      {fase === 'landing' && <LandingFuturista {...landingDataA1} onAccessClick={handleAccessClick} />}
+      {fase === 'landing' && <LandingFuturista {...landingDataB2CF} onAccessClick={handleAccessClick} />}
       {fase === 'login' && (
         <LoginUniversal
           onLoginSuccess={handleLoginSuccess}
           validCredentials={validCredentials}
           backgroundImage={bgImage}
           robotImage={robotImage}
-          title="Inicia sesión A1"
+          title="Inicia sesión B2 FREE"
         />
       )}
-      {fase === 'roadmap' && <RoadMapA1 userCredential={userCredential} userPassword={userPassword} />}
+      {fase === 'roadmap' && <RoadMapB2CF userCredential={userCredential} userPassword={userPassword} />}
     </>
   );
 }

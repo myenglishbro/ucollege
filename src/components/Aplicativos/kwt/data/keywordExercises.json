@@ -9,7 +9,7 @@
           "transformed": "Steve ___________________________ the money.",
           "keyword": "BELIEVED",
           "type": "text",
-          "answer": "IS BELIEVED TO HAVE STOLEN"
+          "answer": "is believed to have stolen"
         },
         {
           "id": 2,
@@ -17,7 +17,7 @@
           "transformed": "The two ancient trees __________________ during the storm.",
           "keyword": "BLOWN",
           "type": "text",
-          "answer": "WERE BLOWN DOWN"
+          "answer": "were blown down"
         },
         {
           "id": 3,
@@ -25,7 +25,7 @@
           "transformed": "The computer __________________ to buy.",
           "keyword": "TOO",
           "type": "text",
-          "answer": "IS TOO EXPENSIVE"
+          "answer": "is too expensive"
         },
         {
           "id": 4,
@@ -33,7 +33,7 @@
           "transformed": "The doctor advised __________________ a new hobby.",
           "keyword": "TAKE",
           "type": "text",
-          "answer": "HIM TO TAKE UP"
+          "answer": "him to take up"
         },
         {
           "id": 5,
@@ -41,7 +41,7 @@
           "transformed": "We have been waiting __________________ one hour.",
           "keyword": "FOR",
           "type": "text",
-          "answer": "FOR ONE HOUR"
+          "answer": "for"
         },
         {
           "id": 6,

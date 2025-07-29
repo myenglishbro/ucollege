@@ -1,9 +1,9 @@
 export const validCredentials = [
    
     
-      { expirationDate:"Acceso Ilimitado",nivel:"premium",usuario: 'ninos', password: 'morcillo', realname: 'Ninos Morcillo', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+      // { expirationDate:"Acceso Ilimitado",nivel:"premium",usuario: 'ninos', password: 'morcillo', realname: 'Ninos Morcillo', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
 
-      { expirationDate:"Acceso Ilimitado",nivel:"premium",usuario: 'carlos', password: 'alberto', realname: 'Prueba Gratuita', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+      { expirationDate:"Acceso Ilimitado",nivel:"premium",usuario: 'myenglish', password: 'bro2025', realname: 'Prueba Gratuita', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
 
         // { expirationDate:"17/07/25",nivel:"Usuario Premium ",usuario: 'franco', password: 'leon', realname: 'Franco Leon', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png' }, // No image
       // { expirationDate:"17/07/25",nivel:"premium",usuario: 'lewis', password: 'henryq', realname: 'Lewis Henry Quispe', img: 'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png' }, // No image

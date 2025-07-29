@@ -7,10 +7,8 @@ import "./index.css"
 import Home from "./pages/Home";
 import Clases from "./pages/Clases";
 
-import About from "./pages/About";
 import Store from "./pages/Store";
 import { Route, Routes } from "react-router-dom";
-import Horario from "./pages/Horario";
 import RoadMap from "./pages/RoadMap";
 import RoadMapEngine from "./pages/RoadMapEngine";
 import RoadMapMix from "./pages/RoadMapMix";
@@ -27,7 +25,6 @@ import Pagos from "./pages/Pagos";
 import ContainerPortal from "./pages/ContainerPortal";
 
 
-import EF from "./pages/EF";
 import RoadMapMed from "./pages/RoadMapMed";
 import RoadMapDev from "./pages/RoadMapDev";
 import RoadMapEnam from "./pages/RoadMapEnam";
@@ -65,7 +62,6 @@ import WordReorderGame from "./components/WordReorderGame";
 import AudioListeningQuiz from "./components/AudioListeningQuiz";
 import ConversationPracticeBot from "./components/ConversationPracticeBot.jsx";
 import CreativeSlides from "./components/CreativeSlides.jsx";
-import AttendanceTracker from "./components/AttendanceTracker.jsx";
 import ReporteMensual from "./components/ReporteMensual.jsx";
 import EducationalAppsShowcase from "./components/EducationalAppsShowcase.jsx";
 import SixtyType from "./components/SixtyType.jsx";
@@ -92,6 +88,7 @@ import Desafio01 from "./components/Aplicativos/presentsimpleduo/Desafio01.jsx";
 import Desafio02 from "./components/Aplicativos/pastsimpleperfect/Desafio02.jsx";
 import UseOfEnglishInline from "./components/Aplicativos/uoe1/UseOfEnglishInline.jsx";
 import UseOfEnglishInline2 from "./components/Aplicativos/uoe2/UseOfEnglishInline2.jsx";
+import InicioB2CFR from "./components/Login/LoginB2CF/InicioB2CFR.jsx";
 
 function App() {
   return (
@@ -101,7 +98,6 @@ function App() {
 
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/About" element={<About />}></Route>
           <Route path="/Precios" element={<Precios />}></Route>
           <Route path="/Store" element={<Store />}></Route>
           <Route path="/Team" element={<Team />}></Route>
@@ -112,6 +108,8 @@ function App() {
 
           <Route path="/B2" element={<InicioB2 />}></Route>
          <Route path="/B2C" element={<InicioB2C />}></Route>
+         <Route path="/B2CF" element={<InicioB2CFR />}></Route>
+
                   <Route path="/C1" element={<InicioC1 />}></Route>
 
           <Route path="/valere" element={<InicioiT />}></Route>
@@ -158,7 +156,6 @@ function App() {
           <Route path="/audio" element={<AudioListeningQuiz  />}></Route>
           <Route path="/conversa" element={<ConversationPracticeBot  />}></Route>
           <Route path="/slides" element={<CreativeSlides  />}></Route>
-          <Route path="/attendance" element={<AttendanceTracker  />}></Route>
           <Route path="/report-attendance" element={<ReporteMensual  />}></Route>
 
                   <Route path="/maze" element={<GrammarCodeQuest  />}></Route>
@@ -204,7 +201,6 @@ function App() {
           <Route path="/PoliticasClase" element={<PoliticasClase />}></Route>
           <Route path="/Pagos" element={<Pagos />}></Route>
           <Route path="/MyPortal" element={<ContainerPortal />}></Route>
-          <Route path="/Certificacion" element={<EF />}></Route>
           <Route path="/Myenglishbro" element={<MebLanding />}></Route>
           <Route path="/Inglesconelprofejuan" element={<IPJLanding/>}></Route>
 

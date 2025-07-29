@@ -1,4 +1,5 @@
 import React from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 
 /**
  * Generic Modal component
@@ -8,30 +9,44 @@ import React from 'react';
  * @param {() => void} onClose - callback when closing the modal
  */
 export default function Modal({ isOpen, title, children, onClose }) {
-  if (!isOpen) return null;
   return (
-    <div
-      className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50"
-      role="dialog"
-      aria-modal="true"
-      onClick={onClose}
-    >
-      <div
-        className="bg-white dark:bg-gray-800 rounded-lg shadow-lg w-11/12 max-w-md p-6 relative"
-        onClick={(e) => e.stopPropagation()}
-      >
-        <button
+    <AnimatePresence>
+      {isOpen && (
+        <motion.div
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/50 backdrop-blur-sm"
+          role="dialog"
+          aria-modal="true"
           onClick={onClose}
-          className="absolute top-3 right-3 text-gray-500 hover:text-gray-700"
-          aria-label="Close modal"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
         >
-          ✖
-        </button>
-        {title && <h2 className="text-xl font-semibold mb-4">{title}</h2>}
-        <div className="modal-content">
-          {children}
-        </div>
-      </div>
-    </div>
+          <motion.div
+            className="bg-[#11131A] text-[#E5E7EB] rounded-2xl shadow-xl w-11/12 max-w-lg p-6 relative border border-[#2E3352]"
+            onClick={(e) => e.stopPropagation()}
+            initial={{ y: 40, opacity: 0, scale: 0.95 }}
+            animate={{ y: 0, opacity: 1, scale: 1 }}
+            exit={{ y: 20, opacity: 0, scale: 0.95 }}
+            transition={{ duration: 0.2, ease: 'easeOut' }}
+          >
+            <button
+              onClick={onClose}
+              className="absolute top-4 right-4 text-[#A0A3C2] hover:text-[#FFA8F4] text-xl font-bold transition"
+              aria-label="Cerrar modal"
+            >
+              ✕
+            </button>
+
+            {title && (
+              <h2 className="text-2xl font-semibold mb-4 text-[#FFA8F4]">
+                {title}
+              </h2>
+            )}
+
+            <div className="modal-content">{children}</div>
+          </motion.div>
+        </motion.div>
+      )}
+    </AnimatePresence>
   );
 }

@@ -5,7 +5,6 @@ import { validCredentials } from '../utils/credentials';
 
 import Sidebar from '../components/Sidebar';
 import DefaultView from '../components/DefaultView';
-import Banner from './Banner';
 
 const RoadMap = () => {
   const [usuario, setUsuario] = useState('');

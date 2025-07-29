@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import LandingFuturista from '../../LandingCourse/LandingFuturista';
 import LoginUniversal from '../LoginUniversal'; // Universal!
-import RoadMapB2C from '../../../pages/RoadMapB2C';
+import RoadMapB2C from '../../../pages/ROADMAPS/RoadMapB2C';
 import landingDataB2C from "../../../utils/datalanding/dataLandingB2C.json";
 import Navbar from '../../../pages/myenglishbro/components/NavBar';
 import { validCredentials } from "../../../utils/credentials";

@@ -1,4 +1,3 @@
-import SectionSvg from "../assets/svg/SectionSvg";
 
 const Section = ({
   className,
@@ -31,7 +30,6 @@ const Section = ({
               crossesOffset && crossesOffset
             } pointer-events-none lg:block xl:left-10 right-10`}
           />
-          <SectionSvg crossesOffset={crossesOffset} />
         </>
       )}
     </div>
