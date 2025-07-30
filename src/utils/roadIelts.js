@@ -10,8 +10,9 @@ export const roadIelts = [
         channel: "sdasd",
         description: " ",
         enlaces: [
-            { titulo:"Ielts Info",descripcion:"Información sobre el examen ",url: "https://drive.google.com/file/d/14JiBhX3Njztj1U4CflfrW6J9bQd_Psju/view?usp=sharing"},
-            { titulo:"Secretos Ielts Speaking",descripcion:"Información sobre el examen ",url: "https://drive.google.com/file/d/1Lmpp14X3e1wsuXlKY6lcawoS0svUx2nL/view?usp=sharing"},
+            { titulo:"Ielts Info",descripcion:"Información sobre el examen ",url: "https://drive.google.com/file/d/14JiBhX3Njztj1U4CflfrW6J9bQd_Psju/view?usp=sharing",url2:"https://youtu.be/r5eiUU3EpHE?si=t52HAp-aGunly1sS"},
+            { titulo:"Secretos Ielts ",descripcion:"Información sobre el examen ",url: "https://drive.google.com/file/d/1Lmpp14X3e1wsuXlKY6lcawoS0svUx2nL/view?usp=sharing",url2:"https://youtu.be/tOFm-zoI6-w?si=kWbAAcUksVGOWO-R"},
+            { titulo:"Tips for the exam",descripcion:"Información sobre el examen ",url2:"https://youtu.be/IciqQUtAgfg?si=nDTk2vc2E5JmXRsn"},
 
 
            
@@ -28,8 +29,38 @@ export const roadIelts = [
         channel: "sdasd",
         description: " ",
         enlaces: [
+             { titulo:"IELTS Listening Skills: Improve your Band Score",url: "https://youtu.be/7UZi4B6r0WU?si=u-fbvCffKyxE69pu"},
+
+            { titulo:"IELTS Listening Instructions",url: "https://drive.google.com/file/d/1cyiJe3eodmMe-fBaT3TkHgzlP9a1Sqr4/view?usp=sharing"},
+
             { titulo:"IELTS Listening One",descripcion:"Test 01",url: "https://drive.google.com/file/d/1q8jcs-q1G4CiWL8HPc1wyS67_ml7rrG7/view?usp=sharing",url2:"https://drive.google.com/drive/folders/16MfI37XQyKHc9x7x2UJFXVoXp4NhE88O"},
           
+
+           
+        ],
+    },
+     {
+        id: 1,
+        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
+
+        title: "IELTS Writing",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: " ",
+        enlaces: [
+                        { titulo:"How IELTS Writing is marked! (band score breakdown and tips)",url: "https://youtu.be/v4aezQmTBps?si=-ddkQvtVFTn9n6b9"},
+
+            { titulo:"IELTS Writing: grammatical range and accuracy explained",url: "https://youtu.be/sV_aDrq3aLk?si=u3w7JE1VkAJLTUu2"},
+
+            { titulo:"IELTS Writing: boost your vocabulary skills",url: "https://youtu.be/Ttw-lekGMTI?si=6BGwbckcsWwtGjUr"},
+                      { titulo:"IELTS Writing: perfecting the essay question with coherence and cohesion",url: "https://youtu.be/EKWqGu_zVFg?si=07Xm2g_BDietCBl9"},
+                      { titulo:"IELTS General Training Writing Task 1: how to boost your score",url: "https://youtu.be/3lSPAcIy-RU?si=2YtRoXb0-SPN0uBA"},
+                      { titulo:"IELTS Academic Writing Task 1: how to achieve a high score",url: "https://www.youtube.com/watch?v=OApBQNkx-9k"},
+
+                      { titulo:"IELTS Writing Task 2: master task response and improve your essay",url: "https://youtu.be/axYuP7T2uaA?si=ipecJN9e_A390zjf"},
+
 
            
         ],
@@ -45,6 +76,9 @@ export const roadIelts = [
         channel: "sdasd",
         description: " ",
         enlaces: [
+             { titulo:"IELTS Speaking mock test",url: "https://youtu.be/cQ-kYU3uSP0?si=kJJcxD9Brpii9VSm"},
+             { titulo:"Speaking Part 2 Tips for IELTS Speaking / Take IELTS",url: "https://youtu.be/u0BuspOplJw?si=Y4zkkJn3njmZuJ2J"},
+
             { titulo:"IELTS Speaking - Worksheet One",descripcion:"Shops & shopping / Climate & climate change.",url: "https://drive.google.com/file/d/1u6Ibo6fhsp4Xcn9pp4LI1sPrIQRfI0HU/view?usp=sharing"},
             { titulo:"IELTS Speaking - Worksheet Two",descripcion:"Pets / Learning new things & new technology.",url: "https://drive.google.com/file/d/1FmYYQa_xgQUoQxbgWAq4ko3N6ydMY5NM/view?usp=sharing"},
             { titulo:"IELTS Speaking - Worksheet Three",descripcion:"Reading / Visiting new places & travel and other cultures.",url: "https://drive.google.com/file/d/1U3VfF8alZ8T0b3-fMAv4j3L8S1WKMkZl/view?usp=sharing"},

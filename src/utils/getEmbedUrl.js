@@ -14,7 +14,7 @@ export const getEmbedUrl = (url) => {
     const videoId =
       url.split('v=')[1]?.split('&')[0] ||
       url.split('youtu.be/')[1];
-    return `https://www.youtube.com/embed/${videoId}`;
+    return `https://www.youtube.com/embed/${videoId}?rel=0&modestbranding=1&controls=1&iv_load_policy=3&disablekb=1`;
   }
 
   if (url.includes('drive.google.com')) {
