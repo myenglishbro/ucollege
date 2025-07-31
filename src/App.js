@@ -86,6 +86,8 @@ import MultiLevelQuiz3 from "./components/Aplicativos/multiplechoicecloze/Multil
 import MultiLevelQuiz4 from "./components/Aplicativos/devs/Multilevelquiz4.jsx";
 import Desafio01 from "./components/Aplicativos/presentsimpleduo/Desafio01.jsx";
 import Desafio02 from "./components/Aplicativos/pastsimpleperfect/Desafio02.jsx";
+import Desafio03 from "./components/Aplicativos/pastsimpleprogressive/Desafio03.jsx";
+
 import UseOfEnglishInline from "./components/Aplicativos/uoe1/UseOfEnglishInline.jsx";
 import UseOfEnglishInline2 from "./components/Aplicativos/uoe2/UseOfEnglishInline2.jsx";
 import InicioB2CFR from "./components/Login/LoginB2CF/InicioB2CFR.jsx";
@@ -117,6 +119,8 @@ function App() {
           <Route path="/simulator" element={<UseOfEnglishSimulator />}></Route>
           <Route path="/presentsimpleprogressive" element={<Desafio01 />}></Route>
           <Route path="/pastsimpleperfect" element={<Desafio02 />}></Route>
+                    <Route path="/pastsimpleprogressive" element={<Desafio03 />}></Route>
+
           <Route path="/uoe1" element={<UseOfEnglishInline />}></Route>
           <Route path="/uoe2" element={<UseOfEnglishInline2 />}></Route>
 

@@ -1,6 +1,33 @@
 export const roadIt = [
-    {
+     {
         id: 0,
+        thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
+
+        title: "Complete Guide to All English Tense Differences",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Entiende como usar cada matiz gramatical",
+        enlaces: [
+         { titulo:"Present Simple ",descripcion:"Aprende a usar el present simple en diferentes contextos ",url:"https://drive.google.com/file/d/1rwleyKN1vwRdZLJuHZXbIB3t88hevTl3/view?usp=sharing",url2: "https://youtu.be/b5KxYRP2I5s"},
+         { titulo:"Present Progressive",descripcion:"Aprende a usar el present progressive en diferentes contextos ",url:"https://drive.google.com/file/d/1Rqx1bzuRRJbjHZnH_iutOhx7oIzQoeut/view?usp=sharing",url2: "https://youtu.be/Nnu6JOaenf0"},
+         { titulo:"Present Simple vs Present Progressive ",descripcion:"Completa los niveles para dominar estos tiempos ",url4: "https://learnibox.vercel.app/presentsimpleprogressive"},
+         {  titulo:"Past Simple", url: "https://drive.google.com/file/d/1aAwupScFNRFoNArgtm5f_3k5a0Eyfztt/view?usp=sharing"},
+         { titulo: "Past Progressive ",url: "https://drive.google.com/file/d/18QxoihCFpTI0wyWQgr50OZtCdWWNVwqw/view?usp=sharing", },
+         { titulo:"Past Simple vs Past Progressive ",descripcion:"Completa los niveles para dominar estos tiempos ",url4: "https://learnibox.vercel.app/pastsimpleprogressive"},
+
+         {  titulo:"Present Perfect", url: "https://drive.google.com/file/d/1Vgvz7c7QrW_FMs5AN70TscKd_z6nh0Pv/view?usp=sharing"},
+        
+         { titulo:"Past Simple vs Present Perfect",descripcion:"Completa los niveles para dominar estos tiempos ",url4: "https://learnibox.vercel.app/pastsimpleperfect"},
+         
+
+
+        ],
+    },
+      
+    {
+        id: 1,
         thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
 
         title: "English for Devs",
