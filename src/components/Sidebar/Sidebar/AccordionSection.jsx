@@ -1,3 +1,4 @@
+// AccordionSection.js (sin cambios)
 import React from 'react';
 
 /**

@@ -1,3 +1,4 @@
+// Sidebar.js
 import React, { useState } from 'react';
 import { FaBars, FaTimes } from 'react-icons/fa';
 import SearchBar from './Sidebar/Sidebar/SearchBar';
@@ -34,9 +35,13 @@ export default function Sidebar({
   const [rewardDescription, setRewardDescription] = useState('');
 
   const handleSelect = idx => {
-    setSelectedIndex(idx);
-    seleccionarNivel(idx);
-    setActiveIndex(idx); // controlado desde el padre
+    const isSame = activeIndex === idx;
+    // Si es el mismo índice, lo cerramos (null), si no, abrimos el nuevo idx
+    setActiveIndex(isSame ? null : idx);
+    // Para el estilo de "selected"
+    setSelectedIndex(isSame ? null : idx);
+    // Solo notificamos al padre cuando abrimos
+    if (!isSame) seleccionarNivel(idx);
   };
 
   const handleCheckboxChange = titulo => {
@@ -47,19 +52,26 @@ export default function Sidebar({
     );
   };
 
-  const handleLinkClick = url => setSelectedLink({ url });
+  const handleLinkClick = url => {
+    setSelectedLink({ url });
+  };
 
   const handleUnlockSubmit = code => {
     if (!currentLockedLink) return;
     if (code === currentLockedLink.codigo) {
       setUnlockedLinks(prev => [...prev, currentLockedLink.titulo]);
       setCurrentLockedLink(null);
-    } else alert('Código incorrecto');
+      setCodeInputForPopup('');
+    } else {
+      alert('Código incorrecto');
+    }
   };
 
   const filteredRoad = road.filter(section =>
     section.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    section.enlaces.some(e => e.titulo.toLowerCase().includes(searchTerm.toLowerCase()))
+    section.enlaces.some(e =>
+      e.titulo.toLowerCase().includes(searchTerm.toLowerCase())
+    )
   );
 
   return (
@@ -107,7 +119,7 @@ export default function Sidebar({
                     enlace={enlace}
                     isViewed={viewedItems.includes(enlace.titulo)}
                     onToggleViewed={handleCheckboxChange}
-                    onActionClick={url => handleLinkClick(url)}
+                    onActionClick={handleLinkClick}
                     isLocked={Boolean(enlace.codigo) && !unlockedLinks.includes(enlace.titulo)}
                     onRequestUnlock={() => setCurrentLockedLink(enlace)}
                     className="timeline-item"
