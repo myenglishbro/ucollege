@@ -26,6 +26,7 @@
     "react-dropzone": "^14.3.8",
     "react-helmet": "^6.1.0",
     "react-icons": "^4.8.0",
+    "react-joyride": "^2.9.3",
     "react-just-parallax": "^3.1.16",
     "react-loading-skeleton": "^3.5.0",
     "react-markdown": "^9.0.3",

@@ -10,15 +10,21 @@ import Hito from '../pages/Hito';
 import useLocalStorage from './Sidebar/Hooks/useLocalStorage';
 import { normalizeUrl, calculateProgress } from './Sidebar/utils/sidebarUtils';
 
-const NAVBAR_HEIGHT = 64; // Ajusta si tu navbar es más grande/pequeño
-const SIDEBAR_WIDTH = 288; // 72*4 (w-72)
+const NAVBAR_HEIGHT = 64;
+const SIDEBAR_WIDTH = 288;
 
-export default function Sidebar({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) {
-  // State...
+export default function Sidebar({
+  road,
+  seleccionarNivel,
+  isSidebarVisible,
+  toggleSidebar,
+  viewedItems,
+  setViewedItems,
+  activeIndex,
+  setActiveIndex,
+}) {
   const [selectedIndex, setSelectedIndex] = useState(null);
-  const [activeIndex, setActiveIndex] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
-  const [viewedItems, setViewedItems] = useLocalStorage('viewedItems', []);
   const [selectedLink, setSelectedLink] = useState(null);
   const [unlockedLinks, setUnlockedLinks] = useState([]);
   const [currentLockedLink, setCurrentLockedLink] = useState(null);
@@ -27,12 +33,12 @@ export default function Sidebar({ road, seleccionarNivel, isSidebarVisible, togg
   const [reward, setReward] = useState('');
   const [rewardDescription, setRewardDescription] = useState('');
 
-  // Handlers (igual que los tuyos)...
   const handleSelect = idx => {
     setSelectedIndex(idx);
     seleccionarNivel(idx);
+    setActiveIndex(idx); // controlado desde el padre
   };
-  const toggleAccordion = idx => setActiveIndex(activeIndex === idx ? null : idx);
+
   const handleCheckboxChange = titulo => {
     setViewedItems(prev =>
       prev.includes(titulo)
@@ -40,7 +46,9 @@ export default function Sidebar({ road, seleccionarNivel, isSidebarVisible, togg
         : [...prev, titulo]
     );
   };
+
   const handleLinkClick = url => setSelectedLink({ url });
+
   const handleUnlockSubmit = code => {
     if (!currentLockedLink) return;
     if (code === currentLockedLink.codigo) {
@@ -56,22 +64,19 @@ export default function Sidebar({ road, seleccionarNivel, isSidebarVisible, togg
 
   return (
     <>
-      {/* Toggle button morado premium */}
       <button
         onClick={toggleSidebar}
-        className="fixed z-30 bg-indigo-600 hover:bg-indigo-700 text-white p-3 rounded-r-lg focus:outline-none transition-colors duration-200 ease-in-out shadow-lg"
+        className="sidebar-toggle-btn fixed z-30 bg-indigo-600 hover:bg-indigo-700 text-white p-3 rounded-r-lg focus:outline-none transition-colors duration-200 ease-in-out shadow-lg"
         style={{ top: NAVBAR_HEIGHT + 16, left: isSidebarVisible ? SIDEBAR_WIDTH : 0 }}
       >
         {isSidebarVisible ? <FaTimes size={22} /> : <FaBars size={22} />}
       </button>
 
-      {/* Sidebar animado */}
       <aside
         className={`fixed left-0 w-72 bg-gray-900 text-white shadow-xl z-20 transition-transform duration-300 ease-in-out
           ${isSidebarVisible ? 'translate-x-0' : '-translate-x-full'}`}
         style={{ top: NAVBAR_HEIGHT, height: `calc(100% - ${NAVBAR_HEIGHT}px)` }}
       >
-        {/* Sticky header visual */}
         <div className="sticky top-0 z-30 bg-gray-900/95 border-b border-indigo-600/40">
           <div className="px-4 pt-3">
             <ProgressBar percent={calculateProgress(viewedItems, road)} />
@@ -84,7 +89,7 @@ export default function Sidebar({ road, seleccionarNivel, isSidebarVisible, togg
             />
           </div>
         </div>
-        {/* Scrollable content */}
+
         <div className="overflow-y-auto h-[calc(100vh-92px)] px-2 pt-1 pb-20">
           {filteredRoad.map((section, idx) => (
             <AccordionSection
@@ -92,7 +97,8 @@ export default function Sidebar({ road, seleccionarNivel, isSidebarVisible, togg
               title={section.title}
               isOpen={activeIndex === idx}
               isSelected={selectedIndex === idx}
-              onToggle={() => { handleSelect(idx); toggleAccordion(idx); }}
+              onToggle={() => handleSelect(idx)}
+              className="accordion-header"
             >
               <div className="space-y-2">
                 {section.enlaces.map((enlace, i) => (
@@ -104,6 +110,7 @@ export default function Sidebar({ road, seleccionarNivel, isSidebarVisible, togg
                     onActionClick={url => handleLinkClick(url)}
                     isLocked={Boolean(enlace.codigo) && !unlockedLinks.includes(enlace.titulo)}
                     onRequestUnlock={() => setCurrentLockedLink(enlace)}
+                    className="timeline-item"
                   />
                 ))}
               </div>
@@ -112,7 +119,6 @@ export default function Sidebar({ road, seleccionarNivel, isSidebarVisible, togg
         </div>
       </aside>
 
-      {/* Popups */}
       {selectedLink && (
         <div className="popup-container">
           <Hito selectedLink={selectedLink} />
@@ -133,7 +139,10 @@ export default function Sidebar({ road, seleccionarNivel, isSidebarVisible, togg
         codeValue={codeInputForPopup}
         onCodeChange={setCodeInputForPopup}
         onSubmit={handleUnlockSubmit}
-        onCancel={() => { setCurrentLockedLink(null); setCodeInputForPopup(''); }}
+        onCancel={() => {
+          setCurrentLockedLink(null);
+          setCodeInputForPopup('');
+        }}
       />
     </>
   );

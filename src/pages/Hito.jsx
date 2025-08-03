@@ -26,7 +26,6 @@ const Hito = ({ selectedLink }) => {
   const [fontSize, setFontSize] = useState('20');
   const [textMode, setTextMode] = useState(false);
   const [overlayText, setOverlayText] = useState('');
-  
 
   const containerRef = useRef(null);
   const validCode = 'nocode';
@@ -43,6 +42,41 @@ const Hito = ({ selectedLink }) => {
     }
   };
 
+  // 🛡️ Protección contra copias y capturas
+  useEffect(() => {
+    const disableRightClick = (e) => e.preventDefault();
+    const disableSelection = (e) => e.preventDefault();
+    const handleKeyDown = (e) => {
+      const forbidden = ['c', 'u', 's'];
+      if (
+        (e.ctrlKey && forbidden.includes(e.key.toLowerCase())) ||
+        e.key === 'F12' ||
+        e.key === 'PrintScreen'
+      ) {
+        e.preventDefault();
+      }
+    };
+    const clearClipboard = (e) => {
+      if (e.key === 'PrintScreen') {
+        navigator.clipboard.writeText('');
+        setShowBlackScreen(true);
+        setTimeout(() => setShowBlackScreen(false), 3000);
+      }
+    };
+
+    document.addEventListener('contextmenu', disableRightClick);
+    document.addEventListener('selectstart', disableSelection);
+    window.addEventListener('keydown', handleKeyDown);
+    window.addEventListener('keyup', clearClipboard);
+
+    return () => {
+      document.removeEventListener('contextmenu', disableRightClick);
+      document.removeEventListener('selectstart', disableSelection);
+      window.removeEventListener('keydown', handleKeyDown);
+      window.removeEventListener('keyup', clearClipboard);
+    };
+  }, []);
+
   useEffect(() => {
     if (selectedLink) {
       setIsLoading(true);
@@ -52,20 +86,31 @@ const Hito = ({ selectedLink }) => {
   return (
     <div
       ref={containerRef}
-      className={`hito-container mt-1 p-4 bg-white rounded shadow-md w-full ${
+      className={`hito-container mt-1 p-4 bg-white rounded shadow-md w-full relative noselect watermark ${
         isFullscreen ? 'h-screen' : 'h-[530px]'
-      } max-w-3xl mx-auto transition-all ease-in-out duration-300 relative`}
+      } max-w-3xl mx-auto transition-all ease-in-out duration-300`}
     >
-      {/* Tool button */}
+      {/* Herramientas */}
       <ToolboxButton
         onToggleNotepad={() => setShowNotepad(!showNotepad)}
         onToggleTextBox={() => setTextMode(!textMode)}
         onToggleFullscreen={toggleFullscreen}
       />
 
-      {showBlackScreen && <div className="fixed inset-0 bg-black z-50"></div>}
+      {/* Pantalla negra de bloqueo */}
+      {showBlackScreen && (
+        <>
+          <div className="fixed inset-0 bg-black z-[100] opacity-100 transition-opacity duration-300 pointer-events-auto"></div>
+          <div className="fixed inset-0 z-[101] flex items-center justify-center text-white text-2xl font-bold">
+            Captura bloqueada por seguridad
+          </div>
+        </>
+      )}
+
+      {/* Alertas de seguridad */}
       {showAlert && <SecurityAlert onClose={() => setShowAlert(false)} />}
 
+      {/* Contenido principal */}
       {selectedLink ? (
         <>
           {isLoading && <Loader />}
@@ -109,10 +154,12 @@ const Hito = ({ selectedLink }) => {
             )}
           </div>
 
+          {/* Bloqueo de Drive sin código */}
           {selectedLink.url.includes('drive.google.com') && !isCodeValid && (
             <AccessLockButton onClick={() => setShowModal(true)} />
           )}
 
+          {/* Modal de código */}
           {showModal && (
             <CodeAccessModal
               enteredCode={enteredCode}
@@ -126,6 +173,7 @@ const Hito = ({ selectedLink }) => {
             />
           )}
 
+          {/* Acceso concedido */}
           {isCodeValid && (
             <AccessGrantedBox
               url={selectedLink.url}
@@ -142,6 +190,7 @@ const Hito = ({ selectedLink }) => {
         </p>
       )}
 
+      {/* Caja flotante de texto */}
       <TextBoxOverlay
         active={textMode}
         onClose={() => setTextMode(false)}

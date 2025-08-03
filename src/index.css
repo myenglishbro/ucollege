@@ -24,7 +24,12 @@
 * {
   scroll-behavior: smooth;
 }
-
+.noselect {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 @layer base {
   body {
     @apply font-sans bg-n-8 text-n-1 text-base;
