@@ -318,3 +318,4 @@ export default function MultiLevelQuiz({ levelsData, title }) {
     </div>
   );
 }
+
