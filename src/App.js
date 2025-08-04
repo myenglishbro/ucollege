@@ -91,6 +91,7 @@ import Desafio03 from "./components/Aplicativos/pastsimpleprogressive/Desafio03.
 import UseOfEnglishInline from "./components/Aplicativos/uoe1/UseOfEnglishInline.jsx";
 import UseOfEnglishInline2 from "./components/Aplicativos/uoe2/UseOfEnglishInline2.jsx";
 import InicioB2CFR from "./components/Login/LoginB2CF/InicioB2CFR.jsx";
+import Essentialgrammar from "./components/Aplicativos/essentialgrammar/Essentialgrammar.jsx";
 
 function App() {
   return (
@@ -120,6 +121,7 @@ function App() {
           <Route path="/presentsimpleprogressive" element={<Desafio01 />}></Route>
           <Route path="/pastsimpleperfect" element={<Desafio02 />}></Route>
                     <Route path="/pastsimpleprogressive" element={<Desafio03 />}></Route>
+                    <Route path="/essentialgrammar" element={<Essentialgrammar />}></Route>
 
           <Route path="/uoe1" element={<UseOfEnglishInline />}></Route>
           <Route path="/uoe2" element={<UseOfEnglishInline2 />}></Route>
