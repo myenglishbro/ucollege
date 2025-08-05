@@ -13,6 +13,7 @@
     "bootstrap": "^5.2.3",
     "bootstrap-icons": "^1.10.3",
     "canvas-confetti": "^1.9.3",
+    "emoji-picker-react": "^4.13.2",
     "flowbite": "^2.5.2",
     "framer-motion": "^11.18.2",
     "html2canvas": "^1.4.1",

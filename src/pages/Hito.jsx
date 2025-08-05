@@ -42,20 +42,31 @@ const Hito = ({ selectedLink }) => {
     }
   };
 
-  // 🛡️ Protección contra copias y capturas
+  // 🛡️ Protección contra copias y capturas (con excepción para el Notepad)
   useEffect(() => {
     const disableRightClick = (e) => e.preventDefault();
-    const disableSelection = (e) => e.preventDefault();
+
+    const disableSelection = (e) => {
+      // Permitir selección dentro del notepad
+      if (e.target.closest('.notepad-editable')) return;
+      e.preventDefault();
+    };
+
     const handleKeyDown = (e) => {
       const forbidden = ['c', 'u', 's'];
+      const isInNotepad = document.activeElement.closest('.notepad-editable');
       if (
         (e.ctrlKey && forbidden.includes(e.key.toLowerCase())) ||
         e.key === 'F12' ||
         e.key === 'PrintScreen'
       ) {
-        e.preventDefault();
+        // Solo bloquear si NO está dentro del notepad
+        if (!isInNotepad) {
+          e.preventDefault();
+        }
       }
     };
+
     const clearClipboard = (e) => {
       if (e.key === 'PrintScreen') {
         navigator.clipboard.writeText('');
