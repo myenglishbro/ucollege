@@ -222,168 +222,96 @@
   "prerequisiteCode": "LEVEL2-PAST",
   "thumbnail": "https://i.ibb.co/Wpq0b5W7/20250709-1507-Vibrant-Cartoon-Character-remix-01jzrcpjj8fa7v98xk6tem1d9q-1.png",
   "levelCode": "LEVEL3-PAST",
-  "exercises": [
+   "exercises": [
     {
       "id": 1,
-      "prompt": "Angela ______________ herself while she _________________ up a tree.",
+      "prompt": "This suitcase is __________ heavy for me to carry alone.",
       "options": [
-        "hurt / was climbing",
-        "was hurting / climbed"
+        "too",
+        "enough"
       ],
-      "answer": "hurt / was climbing"
+      "answer": "too"
     },
     {
       "id": 2,
-      "prompt": "The police car _________________ the robbers when they _________________ a lamppost.",
+      "prompt": "She wasn\u2019t strong __________ to move the furniture by herself.",
       "options": [
-        "was chasing / hit",
-        "chased / were hitting"
+        "enough",
+        "too"
       ],
-      "answer": "was chasing / hit"
+      "answer": "enough"
     },
     {
       "id": 3,
-      "prompt": "I _________________ when there _________________ a knock at the door.",
+      "prompt": "There weren\u2019t __________ chairs for all the guests.",
       "options": [
-        "was studying / was",
-        "studied / was being"
+        "enough",
+        "too"
       ],
-      "answer": "was studying / was"
+      "answer": "enough"
     },
     {
       "id": 4,
-      "prompt": "My brother _________________ on the ice while he _________________.",
+      "prompt": "It was __________ late to catch the last train.",
       "options": [
-        "fell / was skating",
-        "was falling / skated"
+        "too",
+        "enough"
       ],
-      "answer": "fell / was skating"
+      "answer": "too"
     },
     {
       "id": 5,
-      "prompt": "Margie _________________ dinner when the fire alarm _________________.",
+      "prompt": "He didn\u2019t run fast __________ to win the race.",
       "options": [
-        "was having / rang",
-        "had / was ringing"
+        "enough",
+        "too"
       ],
-      "answer": "was having / rang"
+      "answer": "enough"
     },
     {
       "id": 6,
-      "prompt": "Mom _________________ herself while she ____________________ onions.",
+      "prompt": "We had __________ food for the whole team.",
       "options": [
-        "injured / was cutting",
-        "was injuring / cut"
+        "enough",
+        "too"
       ],
-      "answer": "injured / was cutting"
+      "answer": "enough"
     },
     {
       "id": 7,
-      "prompt": "Dad ___________________ the car when a storm suddenly _________________ up.",
+      "prompt": "This coffee is __________ hot to drink right now.",
       "options": [
-        "was repairing / came",
-        "repaired / was coming"
+        "too",
+        "enough"
       ],
-      "answer": "was repairing / came"
+      "answer": "too"
     },
     {
       "id": 8,
-      "prompt": "Mona _________________ asleep while she _________________ a book.",
+      "prompt": "The house is not big __________ to host the party.",
       "options": [
-        "fell / was reading",
-        "was falling / read"
+        "enough",
+        "too"
       ],
-      "answer": "fell / was reading"
+      "answer": "enough"
     },
     {
       "id": 9,
-      "prompt": "I _________________ an old friend while I ___________________ home from the shop.",
+      "prompt": "We arrived __________ early and had to wait for hours.",
       "options": [
-        "met / was walking",
-        "was meeting / walked"
+        "too",
+        "enough"
       ],
-      "answer": "met / was walking"
+      "answer": "too"
     },
     {
       "id": 10,
-      "prompt": "She _________________ at the ceiling when the door _________________.",
+      "prompt": "There was __________ noise in the room to make it hard to concentrate.",
       "options": [
-        "was staring / opened",
-        "stared / was opening"
+        "too much",
+        "enough"
       ],
-      "answer": "was staring / opened"
-    },
-    {
-      "id": 11,
-      "prompt": "I _________________ myself while I _________________ milk on the stove.",
-      "options": [
-        "burned / was putting",
-        "was burning / put"
-      ],
-      "answer": "burned / was putting"
-    },
-    {
-      "id": 12,
-      "prompt": "While the children ___________________ the weather _________________ to clear up.",
-      "options": [
-        "were resting / started",
-        "rested / was starting"
-      ],
-      "answer": "were resting / started"
-    },
-    {
-      "id": 13,
-      "prompt": "When I __________________ at the station a car _________________ to take me home.",
-      "options": [
-        "arrived / was waiting",
-        "was arriving / waited"
-      ],
-      "answer": "arrived / was waiting"
-    },
-    {
-      "id": 14,
-      "prompt": "I _________________ my cousin while I ___________________ in Paris.",
-      "options": [
-        "visited / was staying",
-        "was visiting / stayed"
-      ],
-      "answer": "visited / was staying"
-    },
-    {
-      "id": 15,
-      "prompt": "While the pilot ___________________ to stabilize the plane the master alarm __________________ off.",
-      "options": [
-        "was trying / went",
-        "tried / was going"
-      ],
-      "answer": "was trying / went"
-    },
-    {
-      "id": 16,
-      "prompt": "I _________________ an ambulance while I _________________ out of the window.",
-      "options": [
-        "saw / was looking",
-        "was seeing / looked"
-      ],
-      "answer": "saw / was looking"
-    },
-    {
-      "id": 17,
-      "prompt": "The children ___________________ a movie when their aunt _________________.",
-      "options": [
-        "were watching / arrived",
-        "watched / was arriving"
-      ],
-      "answer": "were watching / arrived"
-    },
-    {
-      "id": 18,
-      "prompt": "We _________________ about our jobs when the phone _________________.",
-      "options": [
-        "were talking / rang",
-        "talked / was ringing"
-      ],
-      "answer": "were talking / rang"
+      "answer": "too much"
     }
   ]
 },
@@ -395,147 +323,93 @@
   "exercises": [
     {
       "id": 1,
-      "prompt": "Mrs Smith __________________ past the house in Sunset Street when she _______________ fire on the ground floor.",
+      "prompt": "He refuses to accept __________________ he was wrong.",
       "options": [
-        "was driving / saw",
-        "drove / was seeing"
+        "the fact that",
+        "that"
       ],
-      "answer": "was driving / saw"
+      "answer": "the fact that"
     },
     {
       "id": 2,
-      "prompt": "While he __________________ off the coast the pilot __________________ sharks approaching the swimmers.",
+      "prompt": "The meeting was delayed due to __________________ the CEO hadn\u2019t arrived.",
       "options": [
-        "was flying / saw",
-        "flew / was seeing"
+        "the fact that",
+        "that"
       ],
-      "answer": "was flying / saw"
+      "answer": "the fact that"
     },
     {
       "id": 3,
-      "prompt": "Alice __________________ herself while she __________________ football.",
+      "prompt": "We cannot ignore __________________ sales have dropped for three quarters.",
       "options": [
-        "hurt / was playing",
-        "was hurting / played"
+        "the fact that",
+        "that"
       ],
-      "answer": "hurt / was playing"
+      "answer": "the fact that"
     },
     {
       "id": 4,
-      "prompt": "She __________________ while she __________________ after the bus.",
+      "prompt": "She\u2019s upset about __________________ you didn\u2019t invite her.",
       "options": [
-        "fell / was running",
-        "was falling / ran"
+        "the fact that",
+        "that"
       ],
-      "answer": "fell / was running"
+      "answer": "the fact that"
     },
     {
       "id": 5,
-      "prompt": "I __________________ my wallet while I __________________ my bike.",
+      "prompt": "At the time, I didn\u2019t realize __________________ she had already decided.",
       "options": [
-        "lost / was riding",
-        "was losing / rode"
+        "that",
+        "the fact that"
       ],
-      "answer": "lost / was riding"
+      "answer": "that"
     },
     {
       "id": 6,
-      "prompt": "We __________________ dinner when the lights __________________ out.",
+      "prompt": "There\u2019s no escaping __________________ the plan failed completely.",
       "options": [
-        "were having / went",
-        "had / were going"
+        "the fact that",
+        "that"
       ],
-      "answer": "were having / went"
+      "answer": "the fact that"
     },
     {
       "id": 7,
-      "prompt": "She __________________ of something else while you __________________ to her.",
+      "prompt": "I was shocked by __________________ he never told me the truth.",
       "options": [
-        "was thinking / were talking",
-        "thought / talked"
+        "the fact that",
+        "that"
       ],
-      "answer": "was thinking / were talking"
+      "answer": "the fact that"
     },
     {
       "id": 8,
-      "prompt": "The fireman __________________ the fire on the balcony below when he suddenly __________________ someone shouting.",
+      "prompt": "My parents disapproved of __________________ my brother dropped out of college.",
       "options": [
-        "was fighting / heard",
-        "fought / was hearing"
+        "the fact that",
+        "that"
       ],
-      "answer": "was fighting / heard"
+      "answer": "the fact that"
     },
     {
       "id": 9,
-      "prompt": "I __________________ her while I __________________ out of the window.",
+      "prompt": "Despite __________________ he apologized, she stayed angry.",
       "options": [
-        "saw / was looking",
-        "was seeing / looked"
+        "the fact that",
+        "that"
       ],
-      "answer": "saw / was looking"
+      "answer": "the fact that"
     },
     {
       "id": 10,
-      "prompt": "While the teacher __________________ instructions, the students __________________ at a spider climbing up the wall.",
+      "prompt": "The report highlighted __________________ productivity had decreased across all departments.",
       "options": [
-        "was giving / were looking",
-        "gave / looked"
+        "the fact that",
+        "that"
       ],
-      "answer": "was giving / were looking"
-    },
-    {
-      "id": 11,
-      "prompt": "Sally __________________ dinner last night when someone __________________ at the door.",
-      "options": [
-        "was having / knocked",
-        "had / was knocking"
-      ],
-      "answer": "was having / knocked"
-    },
-    {
-      "id": 12,
-      "prompt": "I __________________ to study at seven last night. Fred __________________ at 7.30. So I __________________ when Fred __________________.",
-      "options": [
-        "began / came / was studying / arrived",
-        "was beginning / was coming / studied / was arriving"
-      ],
-      "answer": "began / came / was studying / arrived"
-    },
-    {
-      "id": 13,
-      "prompt": "My roommate's parents __________________ him last night while __________________ watching TV.",
-      "options": [
-        "called / we were",
-        "were calling / we watched"
-      ],
-      "answer": "called / we were"
-    },
-    {
-      "id": 14,
-      "prompt": "When my husband __________________ home, I __________________ the laundry.",
-      "options": [
-        "came / was doing",
-        "was coming / did"
-      ],
-      "answer": "came / was doing"
-    },
-    {
-      "id": 15,
-      "prompt": "While they __________________ home it __________________ to rain, so they __________________ at a small cafe and __________________ a cup of coffee.",
-      "options": [
-        "were walking / began / stopped / had",
-        "walked / was beginning / were stopping / were having"
-      ],
-      "answer": "were walking / began / stopped / had"
-    },
-    {
-      "id": 16,
-      "prompt": "When I __________________ home at around 2 o'clock, Mum __________________ in her garden. She __________________ some flowers and Dad __________________ the oil of the car in the garage.",
-      "options": [
-        "got / was / was planting / was changing",
-        "was getting / was being / planted / changed"
-      ],
-      "answer": "got / was / was planting / was changing"
+      "answer": "the fact that"
     }
   ]
 }
@@ -548,147 +422,93 @@
   "exercises": [
     {
       "id": 1,
-      "prompt": "While I ____________________ whether to buy the CD player, a woman ____________________ in and ____________________ it.",
+      "prompt": "The sun ______________ at 6:15 this morning.",
       "options": [
-        "was wondering / came / snatched",
-        "wondered / was coming / was snatching"
+        "rose",
+        "raised"
       ],
-      "answer": "was wondering / came / snatched"
+      "answer": "rose"
     },
     {
       "id": 2,
-      "prompt": "The teacher asked me, \"What _____________________ all afternoon yesterday?\"",
+      "prompt": "Can you ______________ your hand if you have a question?",
       "options": [
-        "were you doing",
-        "did you do"
+        "raise",
+        "rise"
       ],
-      "answer": "were you doing"
+      "answer": "raise"
     },
     {
       "id": 3,
-      "prompt": "Our neighbour's dog ____________________ the postman while he ____________________ a letter.",
+      "prompt": "Temperatures are expected to ______________ again this weekend.",
       "options": [
-        "attacked / was delivering",
-        "was attacking / delivered"
+        "rise",
+        "raise"
       ],
-      "answer": "attacked / was delivering"
+      "answer": "rise"
     },
     {
       "id": 4,
-      "prompt": "The chairman ____________________ the conference room and ____________________ that everyone ____________________ nervously with their neighbour.",
+      "prompt": "They plan to ______________ money for the new shelter.",
       "options": [
-        "entered / realised / was chatting",
-        "was entering / was realising / chatted"
+        "raise",
+        "rise"
       ],
-      "answer": "entered / realised / was chatting"
+      "answer": "raise"
     },
     {
       "id": 5,
-      "prompt": "We _______________________ last night because our neighbours ____________________ loud music.",
+      "prompt": "She ______________ from her chair and walked to the podium.",
       "options": [
-        "could not sleep / were playing",
-        "were not able to sleep / played"
+        "rose",
+        "raised"
       ],
-      "answer": "could not sleep / were playing"
+      "answer": "rose"
     },
     {
       "id": 6,
-      "prompt": "Why __________________________ the crime?",
+      "prompt": "The company ______________ its prices last month.",
       "options": [
-        "didn't you report",
-        "weren't you reporting"
+        "raised",
+        "rose"
       ],
-      "answer": "didn't you report"
+      "answer": "raised"
     },
     {
       "id": 7,
-      "prompt": "When they ____________________ home, they ____________________ the burglars as they ____________________ the house.",
+      "prompt": "The balloon slowly ______________ into the sky.",
       "options": [
-        "got / saw / were leaving",
-        "were getting / were seeing / left"
+        "rose",
+        "raised"
       ],
-      "answer": "got / saw / were leaving"
+      "answer": "rose"
     },
     {
       "id": 8,
-      "prompt": "The match official ____________________ the game because it ____________________.",
+      "prompt": "He ______________ his eyebrows in surprise.",
       "options": [
-        "postponed / was raining",
-        "was postponing / rained"
+        "raised",
+        "rose"
       ],
-      "answer": "postponed / was raining"
+      "answer": "raised"
     },
     {
       "id": 9,
-      "prompt": "I ____________________ on the report the whole afternoon yesterday.",
+      "prompt": "Wages have ______________ significantly in the last decade.",
       "options": [
-        "was working",
-        "worked"
+        "risen",
+        "raised"
       ],
-      "answer": "was working"
+      "answer": "risen"
     },
     {
       "id": 10,
-      "prompt": "I ____________________ to the police office to report the break-in.",
+      "prompt": "They ______________ concerns about the lack of safety protocols.",
       "options": [
-        "hurried",
-        "was hurrying"
+        "raised",
+        "rose"
       ],
-      "answer": "hurried"
-    },
-    {
-      "id": 11,
-      "prompt": "While Mom ____________________ the tree, the children ____________________ their favourite Christmas TV show.",
-      "options": [
-        "was decorating / were watching",
-        "decorated / watched"
-      ],
-      "answer": "was decorating / were watching"
-    },
-    {
-      "id": 12,
-      "prompt": "As we ____________________ on the motorway to Cardiff, I suddenly ____________________ that I had left the cellar door open.",
-      "options": [
-        "were driving / remembered",
-        "drove / was remembering"
-      ],
-      "answer": "were driving / remembered"
-    },
-    {
-      "id": 13,
-      "prompt": "When I ____________________ Mary at the dinner party last night, she ____________________ a wonderful dress.",
-      "options": [
-        "saw / was wearing",
-        "was seeing / wore"
-      ],
-      "answer": "saw / was wearing"
-    },
-    {
-      "id": 14,
-      "prompt": "He ____________________ his leg when he ____________________ off the horse.",
-      "options": [
-        "broke / fell",
-        "was breaking / was falling"
-      ],
-      "answer": "broke / fell"
-    },
-    {
-      "id": 15,
-      "prompt": "We ____________________ outside the café when, all of a sudden, we ____________________ an explosion. Everyone ____________________ what they ____________________ and ____________________ towards the crossing.",
-      "options": [
-        "were sitting / heard / stopped / were doing / looked",
-        "sat / was hearing / was stopping / did / were looking"
-      ],
-      "answer": "were sitting / heard / stopped / were doing / looked"
-    },
-    {
-      "id": 16,
-      "prompt": "When I ____________________ up this morning, I ____________________ out of the window and ____________________ that it ____________________. It ____________________ me so happy.",
-      "options": [
-        "woke / looked / saw / was snowing / made",
-        "was waking / was looking / was seeing / snowed / was making"
-      ],
-      "answer": "woke / looked / saw / was snowing / made"
+      "answer": "raised"
     }
   ]
 },
@@ -697,150 +517,194 @@
   "prerequisiteCode": "LEVEL5-PAST",
   "thumbnail": "https://i.ibb.co/Wpq0b5W7/20250709-1507-Vibrant-Cartoon-Character-remix-01jzrcpjj8fa7v98xk6tem1d9q-1.png",
   "levelCode": "LEVEL6-PAST",
-  "exercises": [
+   "exercises": [
     {
       "id": 1,
-      "prompt": "While the policeman __________________ out of the window, he __________________ that a blue SUV __________________ down the road.",
+      "prompt": "They live ______________ of Rome, near the industrial area.",
       "options": [
-        "was looking / noticed / was parking",
-        "looked / was noticing / parked"
+        "on the outskirts",
+        "in the suburbs"
       ],
-      "answer": "was looking / noticed / was parking"
+      "answer": "on the outskirts"
     },
     {
       "id": 2,
-      "prompt": "I __________________ on my report when the phone __________________. My wife ____________ to know when I __________________ home.",
+      "prompt": "We bought a small house ______________ to raise our family.",
       "options": [
-        "was working / rang / wanted / was coming",
-        "worked / was ringing / was wanting / came"
+        "in the suburbs",
+        "on the outskirts"
       ],
-      "answer": "was working / rang / wanted / was coming"
+      "answer": "in the suburbs"
     },
     {
       "id": 3,
-      "prompt": "He __________________ down the street when he __________________ his old schoolteacher on the other side.",
+      "prompt": "There\u2019s a warehouse being built ______________ of the city.",
       "options": [
-        "was walking / saw",
-        "walked / was seeing"
+        "on the outskirts",
+        "in the suburbs"
       ],
-      "answer": "was walking / saw"
+      "answer": "on the outskirts"
     },
     {
       "id": 4,
-      "prompt": "During the time I __________________ in South Africa I never __________________ a serious crime.",
+      "prompt": "Most people who live ______________ commute to the city center for work.",
       "options": [
-        "was spending / saw",
-        "spent / was seeing"
+        "in the suburbs",
+        "on the outskirts"
       ],
-      "answer": "was spending / saw"
+      "answer": "in the suburbs"
     },
     {
       "id": 5,
-      "prompt": "While they __________________ lunch at the new restaurant, a journalist __________________ up to them and __________________ to ask a few questions.",
+      "prompt": "You\u2019ll find logistics centers and factories ______________.",
       "options": [
-        "were having / came / wanted",
-        "had / was coming / was wanting"
+        "on the outskirts",
+        "in the suburbs"
       ],
-      "answer": "were having / came / wanted"
+      "answer": "on the outskirts"
     },
     {
       "id": 6,
-      "prompt": "The farmer __________________ the whole neighbourhood with fruit and vegetables.",
+      "prompt": "She grew up ______________ of a quiet American town, surrounded by parks and schools.",
       "options": [
-        "supplied",
-        "was supplying"
+        "in the suburbs",
+        "on the outskirts"
       ],
-      "answer": "supplied"
+      "answer": "in the suburbs"
     },
     {
       "id": 7,
-      "prompt": "The hairdresser __________________ up her shop, __________________ into the car and __________________ home.",
+      "prompt": "Their new office is located ______________ to save on rental costs.",
       "options": [
-        "locked / got / drove",
-        "was locking / was getting / was driving"
+        "on the outskirts",
+        "in the suburbs"
       ],
-      "answer": "locked / got / drove"
+      "answer": "on the outskirts"
     },
     {
       "id": 8,
-      "prompt": "My brother __________________ to contact me at the office, but he __________________ me because I __________________ lunch with a customer.",
+      "prompt": "Families with children often prefer living ______________ for the space and schools.",
       "options": [
-        "tried / couldn't reach / was having",
-        "was trying / didn’t reach / had"
+        "in the suburbs",
+        "on the outskirts"
       ],
-      "answer": "tried / couldn't reach / was having"
+      "answer": "in the suburbs"
     },
     {
       "id": 9,
-      "prompt": "Jack __________________ over the carpet because he __________________ attention to where he __________________.",
+      "prompt": "Traffic is usually lighter ______________ than downtown.",
       "options": [
-        "tripped / wasn't paying / was going",
-        "was tripping / didn’t pay / went"
+        "in the suburbs",
+        "on the outskirts"
       ],
-      "answer": "tripped / wasn't paying / was going"
+      "answer": "in the suburbs"
     },
     {
       "id": 10,
-      "prompt": "Where __________________ when I __________________ across you yesterday?",
+      "prompt": "There\u2019s a new shopping center opening ______________ of Birmingham next month.",
       "options": [
-        "were you going / came",
-        "did you go / was coming"
+        "on the outskirts",
+        "in the suburbs"
       ],
-      "answer": "were you going / came"
+      "answer": "on the outskirts"
+    }
+  ]
+},
+{
+  "level": 7,
+  "prerequisiteCode": "LEVEL6-PAST",
+  "thumbnail": "https://i.ibb.co/Wpq0b5W7/20250709-1507-Vibrant-Cartoon-Character-remix-01jzrcpjj8fa7v98xk6tem1d9q-1.png",
+  "levelCode": "LEVEL7-PAST",
+   "exercises": [
+    {
+      "id": 1,
+      "prompt": "She\u2019s not available ______________. Can I take a message?",
+      "options": [
+        "at the moment",
+        "at this very moment"
+      ],
+      "answer": "at the moment"
     },
     {
-      "id": 11,
-      "prompt": "I __________________ him off at the airport when the police __________________ and __________________ him.",
+      "id": 2,
+      "prompt": "I remember clearly the feeling I had ______________ I saw her again.",
       "options": [
-        "was seeing / came / arrested",
-        "saw / was coming / was arresting"
+        "the moment",
+        "the time"
       ],
-      "answer": "was seeing / came / arrested"
+      "answer": "the moment"
     },
     {
-      "id": 12,
-      "prompt": "The old man __________________ on the pavement, so James __________________ to help him.",
+      "id": 3,
+      "prompt": "We have no further information ______________.",
       "options": [
-        "fell / stopped",
-        "was falling / was stopping"
+        "at this time",
+        "at the moment"
       ],
-      "answer": "fell / stopped"
+      "answer": "at this time"
     },
     {
-      "id": 13,
-      "prompt": "How __________________ your leg? – Well, I __________________ on the ladder when, suddenly, I __________________ my balance and __________________.",
+      "id": 4,
+      "prompt": "She might arrive ______________, so stay ready.",
       "options": [
-        "did you break / was standing / lost / fell",
-        "were you breaking / stood / was losing / was falling"
+        "at any moment",
+        "for a moment"
       ],
-      "answer": "did you break / was standing / lost / fell"
+      "answer": "at any moment"
     },
     {
-      "id": 14,
-      "prompt": "She __________________ in France at the time she __________________ the bad news.",
+      "id": 5,
+      "prompt": "He was silent ______________ before answering the question.",
       "options": [
-        "was living / received",
-        "lived / was receiving"
+        "for a moment",
+        "at the moment"
       ],
-      "answer": "was living / received"
+      "answer": "for a moment"
     },
     {
-      "id": 15,
-      "prompt": "I __________________ the new Prime Minister while I __________________ the press conference.",
+      "id": 6,
+      "prompt": "We were quite happy ______________, but things changed.",
       "options": [
-        "met / was attending",
-        "was meeting / attended"
+        "for a time",
+        "at one time"
       ],
-      "answer": "met / was attending"
+      "answer": "for a time"
     },
     {
-      "id": 16,
-      "prompt": "While I __________________ on the motorway, more and more police cars __________________ in my direction.",
+      "id": 7,
+      "prompt": "They started dating again, but ______________ they\u2019re just friends.",
       "options": [
-        "was driving / were coming",
-        "drove / were coming"
+        "for the moment",
+        "at that moment"
       ],
-      "answer": "was driving / were coming"
+      "answer": "for the moment"
+    },
+    {
+      "id": 8,
+      "prompt": "I was too young to understand it ______________.",
+      "options": [
+        "at the time",
+        "at this point in time"
+      ],
+      "answer": "at the time"
+    },
+    {
+      "id": 9,
+      "prompt": "Try to be ______________ and enjoy the concert.",
+      "options": [
+        "in the moment",
+        "on the moment"
+      ],
+      "answer": "in the moment"
+    },
+    {
+      "id": 10,
+      "prompt": "He changed completely ______________ he became a father.",
+      "options": [
+        "from the moment",
+        "at the moment"
+      ],
+      "answer": "from the moment"
     }
   ]
 }

@@ -28,7 +28,7 @@ const Hito = ({ selectedLink }) => {
   const [overlayText, setOverlayText] = useState('');
 
   const containerRef = useRef(null);
-  const validCode = 'nocode';
+  const validCode = 'newcode';
 
   const { isFullscreen, toggleFullscreen } = useFullscreen(containerRef);
   useSecurityListeners(setShowAlert, setShowBlackScreen);

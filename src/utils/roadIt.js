@@ -25,7 +25,30 @@ export const roadIt = [
 
         ],
     },
-      
+      {
+        id: 7,
+        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
+
+        title: "Essential Grammar I",
+        subtitle: "B2/C1",
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
+        enlaces: [
+            { titulo:"As far as, Until, Up to ",descripcion:"diferencias ",url: "https://drive.google.com/file/d/16CJjTB0ZPDvQuzpOLMR22R0jK7QCe-c3/view?usp=sharing"},
+            { titulo:"Doubt that vs Doubt if",descripcion:"diferencias ",url: "https://drive.google.com/file/d/1qEgnOfM7BoFG1lmMu_xWgNbRlwBTt9X2/view?usp=sharing"},
+            { titulo:"Enough and Too ",url: "https://drive.google.com/file/d/1Tcadp5eOdfsHOlCwJWs0iNuphHQO4gYA/view?usp=sharing"},
+            { titulo:"The fact that  ",url: "https://drive.google.com/file/d/1FSd3Vt3C71C0kujDoy4egxFDy8_ZugZv/view?usp=sharing"},
+            { titulo:"Raise vs Rise..",url: "https://drive.google.com/file/d/1K57hHa19p8k36dka59AM7pyFERFxnap2/view?usp=sharing"},
+            { titulo:"in the suburbs vs on the outskirts",url: "https://drive.google.com/file/d/1JMop9SCD1WVrMeQiXTFRD0IcsBqD-vjn/view?usp=sharing"},
+            { titulo:"Time vs Moment",url: "https://drive.google.com/file/d/1DLFl-bn78Abyr-UQYLh9LN2J45t9UO8Q/view?usp=sharing"},
+
+            { titulo:"Challenges",descripcion:"Completa todos  los niveles",url4: "https://learnibox.vercel.app/essentialgrammar"},
+
+          
+
+        ],
+    },
     {
         id: 1,
         thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
