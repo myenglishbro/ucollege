@@ -8,6 +8,8 @@ const circleShadow = "0 4px 24px 0 #1515FF10";
 
 export default function MultiLevelQuiz({ levelsData, title }) {
   const levels = levelsData.levels;
+  // Mode: 'test' (timer & codes) or 'practice' (no timer, no codes)
+  const [mode, setMode] = useState(null);
   const [selectedLevel, setSelectedLevel] = useState(null);
   const [codeInput, setCodeInput] = useState("");
   const [unlockedLevels, setUnlockedLevels] = useState({ 0: true });
@@ -18,10 +20,19 @@ export default function MultiLevelQuiz({ levelsData, title }) {
   const [quizFinished, setQuizFinished] = useState(false);
   const [timeLeft, setTimeLeft] = useState(60);
   const [showCorrectMessage, setShowCorrectMessage] = useState(false);
-  const timerRef = useRef(null);
   const [showLockModal, setShowLockModal] = useState(false);
   const [lockModalLevel, setLockModalLevel] = useState(null);
   const [showBlackScreen, setShowBlackScreen] = useState(false);
+  const timerRef = useRef(null);
+
+  // Unlock all levels in practice mode
+  useEffect(() => {
+    if (mode === 'practice') {
+      const all = {};
+      levels.forEach((_, i) => all[i] = true);
+      setUnlockedLevels(all);
+    }
+  }, [mode, levels]);
 
   // Reset quiz state on level change
   useEffect(() => {
@@ -33,9 +44,9 @@ export default function MultiLevelQuiz({ levelsData, title }) {
     setQuizFinished(false);
   }, [selectedLevel]);
 
-  // Timer effect
+  // Timer effect (only in test mode)
   useEffect(() => {
-    if (selectedLevel !== null && !quizFinished) {
+    if (mode === 'test' && selectedLevel !== null && !quizFinished) {
       setTimeLeft(60);
       clearInterval(timerRef.current);
       timerRef.current = setInterval(() => {
@@ -50,18 +61,15 @@ export default function MultiLevelQuiz({ levelsData, title }) {
       }, 1000);
     }
     return () => clearInterval(timerRef.current);
-  }, [selectedLevel, currentQuestion, quizFinished]);
+  }, [mode, selectedLevel, currentQuestion, quizFinished]);
 
-  // Block copy, selection, and screenshots
+  // Security blocking copy/screenshot (applies to both modes)
   useEffect(() => {
     const disableRightClick = e => e.preventDefault();
     const disableSelection = e => e.preventDefault();
     const handleKeyDown = e => {
-      const forbidden = ['c', 'u', 's'];
-      if (
-        (e.ctrlKey && forbidden.includes(e.key.toLowerCase())) ||
-        ['F12', 'PrintScreen'].includes(e.key)
-      ) {
+      const forbidden = ['c','u','s'];
+      if ((e.ctrlKey && forbidden.includes(e.key.toLowerCase())) || ['F12','PrintScreen'].includes(e.key)) {
         e.preventDefault();
       }
     };
@@ -77,7 +85,6 @@ export default function MultiLevelQuiz({ levelsData, title }) {
     document.addEventListener('selectstart', disableSelection);
     window.addEventListener('keydown', handleKeyDown);
     window.addEventListener('keyup', handleKeyUp);
-
     return () => {
       document.removeEventListener('contextmenu', disableRightClick);
       document.removeEventListener('selectstart', disableSelection);
@@ -86,16 +93,20 @@ export default function MultiLevelQuiz({ levelsData, title }) {
     };
   }, []);
 
-  const level = selectedLevel !== null ? levels[selectedLevel] : null;
+  const level = selectedLevel != null ? levels[selectedLevel] : null;
   const exercises = level?.exercises || [];
   const q = exercises[currentQuestion] || {};
 
   const handleLevelClick = idx => {
-    if (unlockedLevels[idx]) {
+    if (mode === 'practice') {
       setSelectedLevel(idx);
     } else {
-      setLockModalLevel(idx);
-      setShowLockModal(true);
+      if (unlockedLevels[idx]) {
+        setSelectedLevel(idx);
+      } else {
+        setLockModalLevel(idx);
+        setShowLockModal(true);
+      }
     }
   };
 
@@ -117,17 +128,14 @@ export default function MultiLevelQuiz({ levelsData, title }) {
       setShowCorrectMessage(true);
       setTimeout(() => setShowCorrectMessage(false), 2000);
     }
-    setAnswersLog(prev => [
-      ...prev,
-      { prompt: q.prompt, selected: selectedOption || '—', answer: q.answer, correct: isCorrect }
-    ]);
+    setAnswersLog(prev => [...prev, { prompt: q.prompt, selected: selectedOption || '—', answer: q.answer, correct: isCorrect }]);
     setSelectedOption("");
     if (currentQuestion + 1 < exercises.length) {
       setCurrentQuestion(prev => prev + 1);
     } else {
       setQuizFinished(true);
       const total = isCorrect ? score + 1 : score;
-      if (total === exercises.length) {
+      if (mode === 'test' && total === exercises.length) {
         setUnlockedLevels(prev => ({ ...prev, [selectedLevel + 1]: true }));
       }
     }
@@ -139,6 +147,22 @@ export default function MultiLevelQuiz({ levelsData, title }) {
     </div>
   );
 
+  // Initial mode selection screen
+  if (mode === null) {
+    return (
+      <div className="min-h-screen flex flex-col items-center justify-center bg-white p-6">
+        <h1 className="text-3xl font-bold mb-6" style={{ color: accent }}>{title}</h1>
+        <div className="flex gap-4">
+          <button onClick={() => setMode('test')} className="px-6 py-3 rounded-lg font-semibold" style={{ backgroundColor: accent, color: '#fff' }}>
+            Modo Prueba
+          </button>
+          <button onClick={() => setMode('practice')} className="px-6 py-3 rounded-lg font-semibold border" style={{ borderColor: accent, color: accent }}>
+            Modo Práctica
+          </button>
+        </div>
+      </div>
+    );
+  }
   return (
     <div className="relative noselect">
       {BlackScreenOverlay()}
