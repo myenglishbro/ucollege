@@ -313,31 +313,71 @@ export default function MultiLevelQuiz({ levelsData, title }) {
       )}
 
       {/* Results Screen */}
-      {selectedLevel !== null && quizFinished && (
-        <div style={{ background: bgMain }} className="min-h-screen flex flex-col items-center p-4 md:p-6">
-          <button onClick={() => setSelectedLevel(null)} style={{ color: accent }} className="self-start mb-4 text-sm md:text-base hover:underline">Menú</button>
-          <div className="bg-white p-6 rounded-2xl shadow-lg max-w-lg w-full">
-            <h2 style={{ color: accent }} className="text-2xl font-bold mb-4">Resultados Nivel {level.level}</h2>
-            <div className="space-y-3">
-              {answersLog.map((e, i) => (
-                <div key={i} className="p-3 border-l-4 rounded" style={{ backgroundColor: "#F9F9F9", borderColor: e.correct ? "green" : "red" }}>
-                  <p className="italic" style={{ color: accent }}><strong>{e.prompt}</strong></p>
-                  <p>Tu respuesta: <strong style={{ color: e.correct ? "green" : "red" }}>{e.selected}</strong></p>
-                  {!e.correct && <p>Correcta: <strong style={{ color: "green" }}>{e.answer}</strong></p>}
-                </div>
-              ))}
-              <p className="mt-4 font-semibold" style={{ color: accent }}>Puntuación: {score} / {exercises.length}</p>
-            </div>
-            {score === exercises.length && (
-              <div className="mt-6 flex flex-col items-center">
-                <p className="text-xl font-bold" style={{ color: accent }}>¡Felicidades! 🎉</p>
-                <p className="text-lg">Código desbloqueado: <span className="font-mono" style={{ color: accent }}>{level.levelCode}</span></p>
-                <button onClick={() => setSelectedLevel(selectedLevel + 1)} className="mt-4 px-6 py-2 rounded-lg font-semibold" style={{ backgroundColor: accent, color: "#FFFFFF" }}>Siguiente Nivel</button>
-              </div>
+     {/* Results Screen - Dark Premium Elegante */}
+{selectedLevel !== null && quizFinished && (
+  <div className="min-h-screen flex flex-col items-center p-6 bg-gray-900">
+    <button
+      onClick={() => setSelectedLevel(null)}
+      className="self-start mb-6 text-sm md:text-base text-white hover:underline"
+    >
+      Menú
+    </button>
+
+    <div className="bg-gray-800 p-6 rounded-2xl shadow-lg max-w-lg w-full">
+      <h2 className="text-2xl font-semibold mb-4 text-white">
+        Resultados Nivel <span className="font-bold">{level.level}</span>
+      </h2>
+
+      <div className="space-y-4">
+        {answersLog.map((e, i) => (
+          <div
+            key={i}
+            className={`p-4 rounded border-l-4 border-opacity-50 bg-gray-700 ${
+              e.correct ? 'border-green-500' : 'border-red-500'
+            }`}
+          >
+            <p className="italic mb-1 text-gray-200">
+              <strong>{e.prompt}</strong>
+            </p>
+            <p className="text-gray-100">
+              Tu respuesta: <strong className={`${e.correct ? 'text-green-300' : 'text-red-300'}`}>
+                {e.selected}
+              </strong>
+            </p>
+            {!e.correct && (
+              <p className="text-gray-100">
+                Correcta: <strong className="text-green-300">{e.answer}</strong>
+              </p>
             )}
           </div>
+        ))}
+
+        <p className="mt-6 font-medium text-lg text-white">
+          Puntuación: {score} / {exercises.length}
+        </p>
+      </div>
+
+      {score === exercises.length && (
+        <div className="mt-8 flex flex-col items-center">
+          <p className="text-xl font-semibold mb-2 text-white">
+            ¡Felicidades! 🎉
+          </p>
+          <p className="text-base text-gray-200 mb-4">
+            Código desbloqueado:{' '}
+            <span className="font-mono text-white">{level.levelCode}</span>
+          </p>
+          <button
+            onClick={() => setSelectedLevel(selectedLevel + 1)}
+            className="px-6 py-2 rounded-lg font-semibold bg-gray-700 hover:bg-gray-600 transition-shadow shadow-md text-white"
+          >
+            Siguiente Nivel
+          </button>
         </div>
       )}
+    </div>
+  </div>
+)}
+
 
     </div>
   );

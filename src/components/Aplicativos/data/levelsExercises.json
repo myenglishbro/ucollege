@@ -820,10 +820,10 @@
       "id": 1,
       "prompt": "You can’t see Jimmy now. He ______________ a bath.",
       "options": [
-        "He has a bath.",
-        "He is having a bath."
+        "has",
+        "is having"
       ],
-      "answer": "He is having a bath."
+      "answer": "is having"
     },
     {
       "id": 2,
@@ -838,10 +838,10 @@
       "id": 3,
       "prompt": "Anne ______________ all her clothes herself. At the moment she ______________ a dress for a fancy dress party.",
       "options": [
-        "Anne makes all her clothes herself. At the moment she is making a dress for a fancy dress party.",
-        "Anne is making all her clothes herself. At the moment she makes a dress for a fancy dress party."
+        "makes all her clothes herself. At the moment she is making a dress for a fancy dress party.",
+        "is making all her clothes herself. At the moment she makes a dress for a fancy dress party."
       ],
-      "answer": "Anne makes all her clothes herself. At the moment she is making a dress for a fancy dress party."
+      "answer": "makes all her clothes herself. At the moment she is making a dress for a fancy dress party."
     },
     {
       "id": 4,
@@ -874,55 +874,55 @@
       "id": 7,
       "prompt": "The sun ______________ in the east and ______________ in the west.",
       "options": [
-        "The sun rises in the east and sets in the west.",
-        "The sun is rising in the east and is setting in the west."
+        "rises in the east and sets in the west.",
+        "is rising in the east and is setting in the west."
       ],
-      "answer": "The sun rises in the east and sets in the west."
+      "answer": "rises in the east and sets in the west."
     },
     {
       "id": 8,
       "prompt": "Who ______________ that terrible noise outside? – It’s Dad. He ______________ the lawn.",
       "options": [
-        "Who is making that terrible noise outside? – It’s Dad. He is mowing the lawn.",
-        "Who makes that terrible noise outside? – It’s Dad. He mows the lawn."
+        "is making that terrible noise outside? – It’s Dad. He is mowing the lawn.",
+        "makes that terrible noise outside? – It’s Dad. He mows the lawn."
       ],
-      "answer": "Who is making that terrible noise outside? – It’s Dad. He is mowing the lawn."
+      "answer": "is making that terrible noise outside? – It’s Dad. He is mowing the lawn."
     },
     {
       "id": 9,
       "prompt": "I ______________ this weekend near the coast. I ______________ there nearly every weekend.",
       "options": [
-        "I am spending this weekend near the coast. I go there nearly every weekend.",
-        "I spend this weekend near the coast. I am going there nearly every weekend."
+        "am spending this weekend near the coast. I go there nearly every weekend.",
+        "spend this weekend near the coast. I am going there nearly every weekend."
       ],
-      "answer": "I am spending this weekend near the coast. I go there nearly every weekend."
+      "answer": "am spending this weekend near the coast. I go there nearly every weekend."
     },
     {
       "id": 10,
       "prompt": "She ______________ thirty cigarettes a day but at the moment she ______________ to stop.",
       "options": [
-        "She smokes thirty cigarettes a day but at the moment she is trying to stop.",
-        "She is smoking thirty cigarettes a day but at the moment she tries to stop."
+        "smokes thirty cigarettes a day but at the moment she is trying to stop.",
+        "is smoking thirty cigarettes a day but at the moment she tries to stop."
       ],
-      "answer": "She smokes thirty cigarettes a day but at the moment she is trying to stop."
+      "answer": "smokes thirty cigarettes a day but at the moment she is trying to stop."
     },
     {
       "id": 11,
       "prompt": "We ______________ breakfast together every Sunday morning.",
       "options": [
-        "We have breakfast together every Sunday morning.",
-        "We are having breakfast together every Sunday morning."
+        "have",
+        "are having"
       ],
-      "answer": "We have breakfast together every Sunday morning."
+      "answer": "have"
     },
     {
       "id": 12,
       "prompt": "What’s that smell? – It’s in the kitchen. Something ______________.",
       "options": [
-        "Something is burning.",
-        "Something burns."
+        "is burning.",
+        "burns."
       ],
-      "answer": "Something is burning."
+      "answer": "is burning."
     },
     {
       "id": 13,
@@ -946,10 +946,10 @@
       "id": 15,
       "prompt": "The moon ______________ around the earth.",
       "options": [
-        "The moon goes around the earth.",
-        "The moon is going around the earth."
+        "goes around the earth.",
+        "is going around the earth."
       ],
-      "answer": "The moon goes around the earth."
+      "answer": "goes around the earth."
     },
     {
       "id": 16,
@@ -964,10 +964,10 @@
       "id": 17,
       "prompt": "______________ TV every evening?",
       "options": [
-        "Do you watch TV every evening?",
-        "Are you watching TV every evening?"
+        "Do you watch",
+        "Are you watching"
       ],
-      "answer": "Do you watch TV every evening?"
+      "answer": "Do you watch"
     },
     {
       "id": 18,
@@ -982,19 +982,19 @@
       "id": 19,
       "prompt": "How long ______________ you to get to the office? – It ______________ me about half an hour.",
       "options": [
-        "How long do you take to get to the office? – It takes me about half an hour.",
-        "How long are you taking to get to the office? – It is taking me about half an hour."
+        "do you take to get to the office? – It takes me about half an hour.",
+        "are you taking to get to the office? – It is taking me about half an hour."
       ],
-      "answer": "How long do you take to get to the office? – It takes me about half an hour."
+      "answer": "do you take to get to the office? – It takes me about half an hour."
     },
     {
       "id": 20,
       "prompt": "The plane that ______________ Heathrow at 9.15 is on schedule.",
       "options": [
-        "The plane that leaves Heathrow at 9.15 is on schedule.",
-        "The plane that is leaving Heathrow at 9.15 is on schedule."
+        "leaves Heathrow at 9.15 is on schedule.",
+        "is leaving Heathrow at 9.15 is on schedule."
       ],
-      "answer": "The plane that leaves Heathrow at 9.15 is on schedule."
+      "answer": "leaves Heathrow at 9.15 is on schedule."
     }
   ]
 },
@@ -1007,12 +1007,12 @@
   "exercises": [
     {
       "id": 1,
-      "prompt": "_______________ how old I am? (YOU KNOW)",
+      "prompt": "_______________ how old I am?",
       "options": [
-        "Do you know how old I am?",
-        "Are you knowing how old I am?"
+        "Do you know",
+        "Are you knowing"
       ],
-      "answer": "Do you know how old I am?"
+      "answer": "Do you know"
     },
     {
       "id": 2,
@@ -1195,84 +1195,84 @@
       "exercises": [
         {
           "id": 1,
-          "prompt": "We ______________ our break now, Mr. Miller. (TAKE)",
+          "prompt": "We ______________ our break now, Mr. Miller.",
           "options": [
-            "We take our break now, Mr. Miller.",
-            "We are taking our break now, Mr. Miller."
+            "take",
+            "are taking"
           ],
-          "answer": "We are taking our break now, Mr. Miller."
+          "answer": "are taking"
         },
         {
           "id": 2,
-          "prompt": "She ______________ for Liverpool later in the day. (LEAVE)",
+          "prompt": "She ______________ for Liverpool later in the day.",
           "options": [
-            "She leaves for Liverpool later in the day.",
-            "She is leaving for Liverpool later in the day."
+            "leaves",
+            "is leaving"
           ],
-          "answer": "She is leaving for Liverpool later in the day."
+          "answer": "is leaving"
         },
         {
           "id": 3,
           "prompt": "The actor usually ______________ a lot of fan mail, because he’s so famous. (GET)",
           "options": [
-            "The actor usually gets a lot of fan mail.",
-            "The actor is usually getting a lot of fan mail."
+            "usually gets a lot of fan mail.",
+            "is usually getting a lot of fan mail."
           ],
-          "answer": "The actor usually gets a lot of fan mail."
+          "answer": "usually gets a lot of fan mail."
         },
         {
           "id": 4,
           "prompt": "The car ______________ oil. Can you repair it? (LOSE)",
           "options": [
-            "The car loses oil.",
-            "The car is losing oil."
+            "loses oil.",
+            "is losing oil."
           ],
-          "answer": "The car is losing oil."
+          "answer": "is losing oil."
         },
         {
           "id": 5,
           "prompt": "Dorothy ______________ reading good books during her holidays. (LOVE)",
           "options": [
-            "Dorothy loves reading good books during her holidays.",
-            "Dorothy is loving reading good books during her holidays."
+            "loves",
+            "is loving"
           ],
-          "answer": "Dorothy loves reading good books during her holidays."
+          "answer": "loves"
         },
         {
           "id": 6,
           "prompt": "My brother ______________ Italy at the moment. (TOUR)",
           "options": [
-            "My brother tours Italy at the moment.",
-            "My brother is touring Italy at the moment."
+            "tours",
+            "is touring"
           ],
-          "answer": "My brother is touring Italy at the moment."
+          "answer": "is touring"
         },
         {
           "id": 7,
-          "prompt": "They ______________ a game of cards right now. (HAVE)",
+          "prompt": "They ______________ a game of cards right now.",
           "options": [
-            "They have a game of cards right now.",
-            "They are having a game of cards right now."
+            "have",
+            "are having"
           ],
-          "answer": "They are having a game of cards right now."
+          "answer": "are having"
         },
         {
           "id": 8,
           "prompt": "I ______________ a hat today because there’s a very special event in town. (WEAR)",
           "options": [
-            "I wear a hat today because there’s a very special event in town.",
-            "I am wearing a hat today because there’s a very special event in town."
+            "wear",
+            "am wearing"
           ],
-          "answer": "I am wearing a hat today because there’s a very special event in town."
+          "answer": "am wearing"
         },
         {
           "id": 9,
           "prompt": "Such bad behaviour always ______________ me mad. (MAKE)",
           "options": [
-            "Such bad behaviour makes me mad.",
-            "Such bad behaviour is making me mad."
+            "makes me mad.",
+            "is making me mad."
           ],
-          "answer": "Such bad behaviour makes me mad."
+          "answer": "makes me mad."
         },
         {
           "id": 10,
@@ -1294,7 +1294,7 @@
         },
         {
           "id": 12,
-          "prompt": "What ______________, Mum? – It smells so good! (YOU BAKE)",
+          "prompt": "What ______________, Mum? – It smells so good!",
           "options": [
             "do you bake, Mum?",
             "are you baking, Mum?"
@@ -1303,7 +1303,7 @@
         },
         {
           "id": 13,
-          "prompt": "______________ to the bridge club? (YOU BELONG)",
+          "prompt": "______________ to the bridge club?",
           "options": [
             "Do you belong",
             "Are you belonging"
@@ -1312,25 +1312,25 @@
         },
         {
           "id": 14,
-          "prompt": "The children ______________ playing in the hut whenever we’re at our weekend house. (ENJOY)",
+          "prompt": "The children ______________ playing in the hut whenever we’re at our weekend house.",
           "options": [
-            "enjoy playing in the hut whenever we’re at our weekend house.",
-            "are enjoying playing in the hut whenever we’re at our weekend house."
+            "enjoy",
+            "are enjoying"
           ],
-          "answer": "enjoy playing in the hut whenever we’re at our weekend house."
+          "answer": "enjoy"
         },
         {
           "id": 15,
-          "prompt": "The headmaster rarely ______________ a class. He normally ______________ administrative work. (TEACH, DO)",
+          "prompt": "The headmaster______________ a class. He ______________ administrative work.",
           "options": [
-            "The headmaster rarely teaches a class. He normally does administrative work.",
-            "The headmaster is rarely teaching a class. He is normally doing administrative work."
+            "rarely teaches a class / normally does",
+            "is rarely teaching a class / is normally doing"
           ],
-          "answer": "The headmaster rarely teaches a class. He normally does administrative work."
+          "answer": "rarely teaches a class / normally does"
         },
         {
           "id": 16,
-          "prompt": "______________ if I ask you a question? (YOU MIND)",
+          "prompt": "______________ if I ask you a question?",
           "options": [
             "Do you mind",
             "Are you minding"
@@ -1339,16 +1339,16 @@
         },
         {
           "id": 17,
-          "prompt": "I ______________ some money because I want to travel to Spain next summer. (CURRENTLY SAVE)",
+          "prompt": "I ______________ some money because I want to travel to Spain next summer.",
           "options": [
-            "I currently save some money because I want to travel to Spain next summer.",
-            "I am currently saving some money because I want to travel to Spain next summer."
+            "currently save",
+            "am currently saving"
           ],
-          "answer": "I am currently saving some money because I want to travel to Spain next summer."
+          "answer": "am currently saving"
         },
         {
           "id": 18,
-          "prompt": "What ______________? (THIS BOOK – COST)",
+          "prompt": "What ______________?",
           "options": [
             "What does this book cost?",
             "What is this book costing?"
@@ -1357,21 +1357,21 @@
         },
         {
           "id": 19,
-          "prompt": "The boy and his father ______________ a long conversation. – I wonder what they ______________ about. (HAVE, TALK)",
+          "prompt": "The boy and his father ______________ a long conversation. – I wonder what they ______________ about.",
           "options": [
-            "The boy and his father are having a long conversation. – I wonder what they are talking about.",
-            "The boy and his father have a long conversation. – I wonder what they talk about."
+            "are having a long conversation. – I wonder what they are talking about.",
+            "have a long conversation. – I wonder what they talk about."
           ],
-          "answer": "The boy and his father are having a long conversation. – I wonder what they are talking about."
+          "answer": "are having a long conversation. – I wonder what they are talking about."
         },
         {
           "id": 20,
-          "prompt": "Robert ______________ to catch the same bus every morning, but he ______________. (TRY, NOT ALWAYS SUCCEED)",
+          "prompt": "Robert ______________ to catch the same bus every morning, but he ______________.",
           "options": [
-            "Robert tries to catch the same bus every morning, but he does not always succeed.",
-            "Robert is trying to catch the same bus every morning, but he is not always succeeding."
+            "tries / does not always succeed.",
+            "is trying / is not always succeeding."
           ],
-          "answer": "Robert tries to catch the same bus every morning, but he does not always succeed."
+          "answer": "tries / does not always succeed."
         }
       ]
     }
