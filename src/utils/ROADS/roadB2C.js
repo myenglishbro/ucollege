@@ -29,7 +29,7 @@ export const roadB2C = [
         enlaces: [
            
             { titulo:"Overview B2 First",descripcion:"Conoce los trucos y secretos  de este examen ",url:"https://drive.google.com/file/d/1cq9H1EAZRlgKWGaIny70AL5s2pkR09ar/view?usp=sharing"},
-            { titulo:"Hacks and Secrets B2 First",descripcion:"Conoce los trucos y secretos  de este examen ",url:"https://drive.google.com/file/d/1vxvFCXalbtMf0ENxDZ3XcM1MZTp_exvG/view?usp=sharing"},
+            { titulo:"Hacks and Secrets B2 First",descripcion:"Conoce los trucos y secretos  de este examen ",url:"https://drive.google.com/file/d/1vxvFCXalbtMf0ENxDZ3XcM1MZTp_exvG/view?usp=sharing",url2:"https://youtu.be/tBleLH944b4?si=1FuJs-35bCDNyu_Q"},
 
 
 
@@ -51,11 +51,11 @@ export const roadB2C = [
             { titulo:"Multiple Choice Cloze Simulation II ",descripcion:"The first part of the Use of English paper in the B2 First Examination is multiple choice cloze where students have to choose the correct word from four similar given words.",url4:"https://learnibox.vercel.app/multiplechoice"},
              { titulo:"Open Cloze",descripcion:"The second part of the Use of English paper in the B2 First Examination is open cloze, in which students use one word to fill each space in a short text. The required words are usually grammatical, such as pronouns, articles, prepositions, auxiliary verbs and so on.",url4:"https://learnibox.vercel.app/uoe2"},
 
-            { titulo:"Key Word Transformation Simulation ",descripcion:"The final part of the Use of English paper is Key Word Transformations. A sentence followed by a key word and a second sentence which has a gap in it. A student has to use the key word to complete the second sentence so that it means the same as the first sentence.",url4:"http://learnibox.vercel.app/keysimulation"},
+            { titulo:"Key Word Transformation Simulation ",descripcion:"The final part of the Use of English paper is Key Word Transformations. A sentence followed by a key word and a second sentence which has a gap in it. A student has to use the key word to complete the second sentence so that it means the same as the first sentence.",url4:"http://learnibox.vercel.app/keysimulation",url2:"https://youtu.be/fNDbieMpL-s?si=2MP6qGMEikEqVPCT"},
 
             
             { titulo: "Gapped Text Simulations",descripcion:"A single page of text with some numbered gaps which represent missing sentences. After the text there are some sentences which are not in the right order. Students have to read the text and the sentences and decide which sentence best fits each gap.",url3: "https://drive.google.com/file/d/1W-uiH_VebMKmHmdY2JPzsODDyhJa_ayi/view?usp=sharing",url7:"https://drive.google.com/file/d/1W-uiH_VebMKmHmdY2JPzsODDyhJa_ayi/view?usp=sharing",url8:"http://learnibox.vercel.app/gt" },    
-            { titulo:"Reading Gap Secrets",url: "https://drive.google.com/file/d/1lNpyrE26v78RUX6T9VNWB3yvBuefKYoz/view?usp=sharing"},
+            { titulo:"Reading Gap Secrets",url: "https://drive.google.com/file/d/1lNpyrE26v78RUX6T9VNWB3yvBuefKYoz/view?usp=sharing",url2:"https://youtu.be/k7N9CSMcA4w?si=5GRKAG9Refk-Pm5i"},
 
 
              { titulo:"Real exam Simulation 01 ",url3: "https://learnibox.vercel.app/simulator"},
@@ -99,14 +99,14 @@ export const roadB2C = [
         channel: "sdasd",
         description: "Entiende como usar cada matiz gramatical",
         enlaces: [
-         { titulo:"Present Simple ",descripcion:"Aprende a usar el present simple en diferentes contextos ",url:"https://drive.google.com/file/d/1rwleyKN1vwRdZLJuHZXbIB3t88hevTl3/view?usp=sharing",url2: "https://youtu.be/b5KxYRP2I5s"},
+         { titulo:"Present Simple ",descripcion:"Aprende a usar el present simple en diferentes contextos ",url:"https://drive.google.com/file/d/1rwleyKN1vwRdZLJuHZXbIB3t88hevTl3/view?usp=sharing",url2: "https://youtu.be/hY2sLzte-HQ?si=hKDYW1znThnc-JbX"},
          { titulo:"Present Progressive",descripcion:"Aprende a usar el present progressive en diferentes contextos ",url:"https://drive.google.com/file/d/1Rqx1bzuRRJbjHZnH_iutOhx7oIzQoeut/view?usp=sharing",url2: "https://youtu.be/Nnu6JOaenf0"},
          { titulo:"Present Simple vs Present Progressive ",descripcion:"Completa los niveles para dominar estos tiempos ",url4: "https://learnibox.vercel.app/presentsimpleprogressive"},
-         {  titulo:"Past Simple", url: "https://drive.google.com/file/d/1aAwupScFNRFoNArgtm5f_3k5a0Eyfztt/view?usp=sharing"},
+         {  titulo:"Past Simple", url: "https://drive.google.com/file/d/1aAwupScFNRFoNArgtm5f_3k5a0Eyfztt/view?usp=sharing",url2:"https://youtu.be/cZrMl1bTons?si=QOI7p1xaVQV3Bp_B"},
          { titulo: "Past Progressive ",url: "https://drive.google.com/file/d/18QxoihCFpTI0wyWQgr50OZtCdWWNVwqw/view?usp=sharing", },
          { titulo:"Past Simple vs Past Progressive ",descripcion:"Completa los niveles para dominar estos tiempos ",url4: "https://learnibox.vercel.app/pastsimpleprogressive"},
 
-         {  titulo:"Present Perfect", url: "https://drive.google.com/file/d/1Vgvz7c7QrW_FMs5AN70TscKd_z6nh0Pv/view?usp=sharing"},
+         {  titulo:"Present Perfect", url: "https://drive.google.com/file/d/1Vgvz7c7QrW_FMs5AN70TscKd_z6nh0Pv/view?usp=sharing",url2:"https://youtu.be/FQGoT7jGekQ?si=hvw06VmTNgbysrIT"},
         
          { titulo:"Past Simple vs Present Perfect",descripcion:"Completa los niveles para dominar estos tiempos ",url4: "https://learnibox.vercel.app/pastsimpleperfect"},
          
@@ -184,7 +184,7 @@ export const roadB2C = [
         channel: "sdasd",
         description: "Completa los desafíos para dominar el Inglés",
         enlaces: [
-            { titulo: "Future Simple ",url: "https://drive.google.com/file/d/1qv1NHearXkAYne1cH9N0MBc4ikdNtAV-/view?usp=sharing", },    
+            { titulo: "Future Simple ",url: "https://drive.google.com/file/d/1qv1NHearXkAYne1cH9N0MBc4ikdNtAV-/view?usp=sharing",url2:"https://youtu.be/uaeFf4lMksI?si=uu8wSw6G_svG3v8T" },    
 
             { titulo: "✍ Ways of Expressing Future Tense ",url: "https://drive.google.com/file/d/1J6r3JFYzr-U4CzRQihyMcl6uB2Ms7bu0/view?usp=sharing", },    
             { titulo: "✍  Future Tenses ",url: "https://drive.google.com/file/d/1uQEVuavBgrytYsOTlD3dAg8qZDCtZEa_/view?usp=sharing", },
@@ -205,8 +205,8 @@ export const roadB2C = [
         channel: "sdasd",
         description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
         enlaces: [
-            { titulo:"As far as, Until, Up to ",descripcion:"diferencias ",url: "https://drive.google.com/file/d/16CJjTB0ZPDvQuzpOLMR22R0jK7QCe-c3/view?usp=sharing"},
-            { titulo:"Doubt that vs Doubt if",descripcion:"diferencias ",url: "https://drive.google.com/file/d/1qEgnOfM7BoFG1lmMu_xWgNbRlwBTt9X2/view?usp=sharing"},
+            { titulo:"As far as, Until, Up to ",descripcion:"diferencias ",url: "https://drive.google.com/file/d/16CJjTB0ZPDvQuzpOLMR22R0jK7QCe-c3/view?usp=sharing",url2:"https://youtu.be/pa2m8Ja3qBo?si=WicK2xiUfjNCrGZm"},
+            { titulo:"Doubt that vs Doubt if",descripcion:"diferencias ",url: "https://drive.google.com/file/d/1qEgnOfM7BoFG1lmMu_xWgNbRlwBTt9X2/view?usp=sharing",url2:"https://youtu.be/7zype2HxL44?si=GBH3KrxdfzI5bCdY"},
             { titulo:"Enough and Too ",url: "https://drive.google.com/file/d/1Tcadp5eOdfsHOlCwJWs0iNuphHQO4gYA/view?usp=sharing"},
             { titulo:"The fact that  ",url: "https://drive.google.com/file/d/1FSd3Vt3C71C0kujDoy4egxFDy8_ZugZv/view?usp=sharing"},
             { titulo:"Raise vs Rise..",url: "https://drive.google.com/file/d/1K57hHa19p8k36dka59AM7pyFERFxnap2/view?usp=sharing"},
@@ -233,7 +233,7 @@ export const roadB2C = [
         channel: "sdasd",
         description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
         enlaces: [
-            { titulo:"Ebook ",descripcion:"Versión digital v.001",url:"https://drive.google.com/file/d/12-I0FaAIz-w2-wjfV5s8TkbIEwwSZCIm/view?usp=sharing"},
+            { titulo:"Ebook ",descripcion:"Versión digital v.001",url:"https://drive.google.com/file/d/12-I0FaAIz-w2-wjfV5s8TkbIEwwSZCIm/view?usp=sharing",url2:"https://youtu.be/Hdy-7Tnr6S0?si=RWUmRuDyslqwcJ8V"},
 
               { titulo:"Key Word Transformation ",descripcion:"The final part of the Use of English paper is Key Word Transformations. A sentence followed by a key word and a second sentence which has a gap in it. A student has to use the key word to complete the second sentence so that it means the same as the first sentence.",url: "https://drive.google.com/file/d/1fzxVyBLvMHRwzfHTGLgYapKOXasOXv0m/view?usp=sharing",url3:"https://drive.google.com/file/d/1SlBZ6S1G4Jk_fMSC9kPJRa_XY_GuJfRN/view?usp=sharing",url7:"http://learnibox.vercel.app/kwt"},
  { titulo:"50 Key Word Transformation DAY 01  ",url: "https://drive.google.com/file/d/1shC9iwswMYoymUEiJ8H1s8b9ngvp8gdB/view?usp=sharing" ,url2:"https://youtu.be/c-8ZhXBLThg"},
