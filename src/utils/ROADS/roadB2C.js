@@ -28,7 +28,7 @@ export const roadB2C = [
         description: "Completa los desafíos para dominar el Inglés",
         enlaces: [
            
-            { titulo:"Overview B2 First",descripcion:"Conoce los trucos y secretos  de este examen ",url:"https://drive.google.com/file/d/1cq9H1EAZRlgKWGaIny70AL5s2pkR09ar/view?usp=sharing"},
+            { titulo:"Overview B2 First",descripcion:"Conoce los trucos y secretos  de este examen ",url:"https://drive.google.com/file/d/1cq9H1EAZRlgKWGaIny70AL5s2pkR09ar/view?usp=sharing",url2:"https://youtu.be/5B0AbDJ_1VU?si=CtHAfrrenQB_atMO"},
             { titulo:"Hacks and Secrets B2 First",descripcion:"Conoce los trucos y secretos  de este examen ",url:"https://drive.google.com/file/d/1vxvFCXalbtMf0ENxDZ3XcM1MZTp_exvG/view?usp=sharing",url2:"https://youtu.be/tBleLH944b4?si=1FuJs-35bCDNyu_Q"},
 
 
