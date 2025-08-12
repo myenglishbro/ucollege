@@ -4,7 +4,7 @@ import LoginUniversal from '../LoginUniversal'; // Universal!
 import RoadMapB2CF from '../../../pages/ROADMAPS/RoadMapB2CF';
 import landingDataB2CF from "../../../utils/datalanding/dataLandingB2CF.json";
 import Navbar from '../../../pages/myenglishbro/components/NavBar';
-import { validCredentials } from "../../../utils/credentials";
+import { validCredentialsfree } from "../../../utils/credentialsfree";
 
 // Opcional: trae las imágenes desde el JSON o un archivo por nivel
 const bgImage = landingDataB2CF.bgImage 
@@ -29,7 +29,7 @@ export default function InicioB2CFR() {
       {fase === 'login' && (
         <LoginUniversal
           onLoginSuccess={handleLoginSuccess}
-          validCredentials={validCredentials}
+          validCredentials={validCredentialsfree}
           backgroundImage={bgImage}
           robotImage={robotImage}
           title="Inicia sesión B2 FREE"

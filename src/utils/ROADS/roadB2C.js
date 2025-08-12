@@ -20,7 +20,7 @@ export const roadB2C = [
         id: 1,
         thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
 
-        title: "Cambridge Information",
+        title: "B2 Cambridge Information",
         subtitle: "B2/C1",
 
         dateAdded: "Basic 01 ",
