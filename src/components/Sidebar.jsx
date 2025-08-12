@@ -19,14 +19,16 @@ export default function Sidebar({
   seleccionarNivel,
   isSidebarVisible,
   toggleSidebar,
-  viewedItems,
-  setViewedItems,
+  viewedItems,        // Array de ids vistos
+  setViewedItems,     // setter del array de ids vistos
   activeIndex,
   setActiveIndex,
 }) {
   const [selectedIndex, setSelectedIndex] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedLink, setSelectedLink] = useState(null);
+
+  // Guarda ids desbloqueados (no títulos)
   const [unlockedLinks, setUnlockedLinks] = useState([]);
   const [currentLockedLink, setCurrentLockedLink] = useState(null);
   const [codeInputForPopup, setCodeInputForPopup] = useState('');
@@ -34,32 +36,32 @@ export default function Sidebar({
   const [reward, setReward] = useState('');
   const [rewardDescription, setRewardDescription] = useState('');
 
-  const handleSelect = idx => {
+  const handleSelect = (idx) => {
     const isSame = activeIndex === idx;
-    // Si es el mismo índice, lo cerramos (null), si no, abrimos el nuevo idx
     setActiveIndex(isSame ? null : idx);
-    // Para el estilo de "selected"
     setSelectedIndex(isSame ? null : idx);
-    // Solo notificamos al padre cuando abrimos
     if (!isSame) seleccionarNivel(idx);
   };
 
-  const handleCheckboxChange = titulo => {
-    setViewedItems(prev =>
-      prev.includes(titulo)
-        ? prev.filter(item => item !== titulo)
-        : [...prev, titulo]
-    );
+  // 🔧 Recibe (id, checked) desde TimelineItem
+  const handleCheckboxChange = (id, checked) => {
+    setViewedItems((prev) => {
+      const set = new Set(prev);
+      if (checked) set.add(id);
+      else set.delete(id);
+      return Array.from(set);
+    });
   };
 
-  const handleLinkClick = url => {
+  const handleLinkClick = (url) => {
     setSelectedLink({ url });
   };
 
-  const handleUnlockSubmit = code => {
+  const handleUnlockSubmit = (code) => {
     if (!currentLockedLink) return;
     if (code === currentLockedLink.codigo) {
-      setUnlockedLinks(prev => [...prev, currentLockedLink.titulo]);
+      const enlaceId = currentLockedLink.id ?? currentLockedLink.titulo;
+      setUnlockedLinks((prev) => Array.from(new Set([...prev, enlaceId])));
       setCurrentLockedLink(null);
       setCodeInputForPopup('');
     } else {
@@ -67,10 +69,10 @@ export default function Sidebar({
     }
   };
 
-  const filteredRoad = road.filter(section =>
+  const filteredRoad = road.filter((section) =>
     section.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    section.enlaces.some(e =>
-      e.titulo.toLowerCase().includes(searchTerm.toLowerCase())
+    section.enlaces.some((e) =>
+      (e.titulo ?? '').toLowerCase().includes(searchTerm.toLowerCase())
     )
   );
 
@@ -85,8 +87,9 @@ export default function Sidebar({
       </button>
 
       <aside
-        className={`fixed left-0 w-72 bg-gray-900 text-white shadow-xl z-20 transition-transform duration-300 ease-in-out
-          ${isSidebarVisible ? 'translate-x-0' : '-translate-x-full'}`}
+        className={`fixed left-0 w-72 bg-gray-900 text-white shadow-xl z-20 transition-transform duration-300 ease-in-out ${
+          isSidebarVisible ? 'translate-x-0' : '-translate-x-full'
+        }`}
         style={{ top: NAVBAR_HEIGHT, height: `calc(100% - ${NAVBAR_HEIGHT}px)` }}
       >
         <div className="sticky top-0 z-30 bg-gray-900/95 border-b border-indigo-600/40">
@@ -113,18 +116,25 @@ export default function Sidebar({
               className="accordion-header"
             >
               <div className="space-y-2">
-                {section.enlaces.map((enlace, i) => (
-                  <TimelineItem
-                    key={i}
-                    enlace={enlace}
-                    isViewed={viewedItems.includes(enlace.titulo)}
-                    onToggleViewed={handleCheckboxChange}
-                    onActionClick={handleLinkClick}
-                    isLocked={Boolean(enlace.codigo) && !unlockedLinks.includes(enlace.titulo)}
-                    onRequestUnlock={() => setCurrentLockedLink(enlace)}
-                    className="timeline-item"
-                  />
-                ))}
+                {section.enlaces.map((enlace, i) => {
+                  const enlaceId = enlace.id ?? enlace.titulo ?? String(i);
+                  const isViewed = viewedItems.includes(enlaceId);
+                  const isLocked =
+                    Boolean(enlace.codigo) && !unlockedLinks.includes(enlaceId);
+
+                  return (
+                    <TimelineItem
+                      key={enlaceId}
+                      enlace={enlace}
+                      isViewed={isViewed}
+                      onToggleViewed={handleCheckboxChange} // ← recibe (id, checked)
+                      onActionClick={handleLinkClick}
+                      isLocked={isLocked}
+                      onRequestUnlock={() => setCurrentLockedLink(enlace)}
+                      className="timeline-item"
+                    />
+                  );
+                })}
               </div>
             </AccordionSection>
           ))}
@@ -134,7 +144,9 @@ export default function Sidebar({
       {selectedLink && (
         <div className="popup-container">
           <Hito selectedLink={selectedLink} />
-          <button onClick={() => setSelectedLink(null)} className="close-popup">✖</button>
+          <button onClick={() => setSelectedLink(null)} className="close-popup">
+            ✖
+          </button>
         </div>
       )}
 

@@ -1,73 +1,129 @@
 import React from 'react';
 import {
-  FaCheck,
-  FaRegFilePowerpoint,
-  FaVideo,
-  FaLock,
-  FaRegFolderOpen,
-  FaMousePointer,
-  FaRegKeyboard,
-  FaRegFileAlt
+  FaCheck, FaFilePdf, FaVideo, FaLock, FaRegFolderOpen,
+  FaMousePointer, FaRegFileAlt
 } from 'react-icons/fa';
 import { GiBookCover } from 'react-icons/gi';
 import { BiDownload, BiHighlight } from 'react-icons/bi';
 import { normalizeUrl } from '../utils/sidebarUtils';
 
-/**
- * TimelineItem component
- * @param {{
- *   enlace: Object;
- *   isViewed: boolean;
- *   onToggleViewed: (titulo: string) => void;
- *   onActionClick: (url: string) => void;
- *   isLocked: boolean;
- *   onRequestUnlock: () => void;
- * }} props
- */
-export default function TimelineItem({ enlace, isViewed, onToggleViewed, onActionClick, isLocked, onRequestUnlock }) {
+export default function TimelineItem({
+  enlace = {},
+  isViewed = false,
+  onToggleViewed = () => {},
+  onActionClick = () => {},
+  isLocked = false,
+  onRequestUnlock = () => {}
+}) {
+  const safeId = enlace.id ?? enlace.titulo ?? String(enlace.url ?? Math.random());
+
+  // Base dark-premium: grises/graphite, sin colorines
+  const baseBtnClass =
+    'group relative isolate flex flex-col items-center justify-center gap-1 ' +
+    'h-14 md:h-16 rounded-lg px-2 ' +
+    'bg-gradient-to-br from-zinc-900 to-black text-zinc-100 ' +
+    'shadow-inner shadow-black/30 border border-white/5 ' +
+    'hover:shadow-lg hover:shadow-black/40 hover:scale-[1.02] ' +
+    'focus:outline-none focus-visible:ring-2 focus-visible:ring-white/10 ' +
+    'transition-[transform,box-shadow,opacity] duration-150 ease-out ' +
+    'disabled:opacity-60 disabled:cursor-not-allowed';
+
+  // Variantes sutiles (todas grises; solo cambia la “temperatura” del gris)
+  const variants = {
+    pdf:      'from-zinc-900 to-zinc-950',
+    doc:      'from-slate-900 to-slate-950',
+    videoA:   'from-neutral-900 to-neutral-950',
+    videoB:   'from-gray-900 to-black',
+    app:      'from-zinc-900 to-black',
+    desafioA: 'from-slate-900 to-black',
+    desafioB: 'from-zinc-900 to-neutral-950',
+  };
+
+  // Config de botones (icono + etiqueta + estilo + clave de enlace)
   const buttonsConfig = [
-    { key: 'url',       icon: isViewed ? <FaCheck /> : <FaRegFilePowerpoint />, label: 'View slide' },
-    { key: 'url2',      icon: <FaVideo />,      label: 'Watch video' },
-    { key: 'url3',      icon: <FaRegFolderOpen />, label: 'Take test' },
-    { key: 'url4',      icon: <FaMousePointer />, label: 'Desafío 4' },
-    { key: 'url5',      icon: <FaRegKeyboard />, label: 'Desafío 5' },
-    { key: 'url6',      icon: <GiBookCover />,   label: 'Desafío 6' },
-    { key: 'url7',      icon: <BiDownload />,    label: 'Desafío 7' },
-    { key: 'url8',      icon: <BiHighlight />,   label: 'Desafío 8' },
-    { key: 'url9',      icon: <FaRegFileAlt />,  label: 'Desafío 9' }
+    { key: 'url',  icon: isViewed ? <FaCheck /> : <FaFilePdf />, label: 'PDF',      variant: variants.pdf   },
+    { key: 'url2', icon: <FaRegFileAlt />,                       label: 'Doc',      variant: variants.doc   },
+    { key: 'url3', icon: <FaVideo />,                            label: 'Video 1',  variant: variants.videoA},
+    { key: 'url4', icon: <FaVideo />,                            label: 'Video 2',  variant: variants.videoB},
+    { key: 'url5', icon: <FaMousePointer />,                     label: 'App',      variant: variants.app   },
+    { key: 'url6', icon: <GiBookCover />,                        label: 'Reto 6',   variant: variants.desafioA},
+    { key: 'url7', icon: <BiDownload />,                         label: 'Reto 7',   variant: variants.desafioB},
+    { key: 'url8', icon: <BiHighlight />,                        label: 'Reto 8',   variant: variants.desafioA},
+    { key: 'url9', icon: <FaRegFolderOpen />,                    label: 'Reto 9',   variant: variants.desafioB},
   ];
 
-  return (
-    <div className={`flex flex-col p-2 rounded bg-gray-800 ${isViewed ? 'opacity-70' : ''}`}>      
-      <label className="flex items-center mb-2">
-        <input
-          type="checkbox"
-          checked={isViewed}
-          onChange={() => onToggleViewed(enlace.titulo)}
-          className="mr-2"
-        />
-        <span className="font-semibold">{enlace.titulo}</span>
-      </label>
-      <p className="text-xs italic text-gray-400 mb-2">{enlace.descripcion}</p>
+  // Overlay de “visto” (check grande y glass)
+  const ViewedOverlay = () => (
+    <div className="pointer-events-none absolute inset-0 rounded-lg bg-white/0">
+      <div className="absolute inset-0 rounded-lg bg-white/2 backdrop-blur-[0.5px]" />
+      <FaCheck className="absolute right-1.5 top-1.5 text-zinc-200/70" />
+    </div>
+  );
 
+  const handleKeyActivate = (e, url) => {
+    if (e.key === 'Enter' || e.key === ' ') {
+      e.preventDefault();
+      onActionClick(normalizeUrl(url));
+    }
+  };
+
+  return (
+    <div className={`flex flex-col p-2 rounded-lg bg-zinc-900/90 ring-1 ring-white/5 ${isViewed ? 'opacity-80' : ''}`}>
+      {/* Header: checkbox + title */}
+      <label htmlFor={`chk-${safeId}`} className="flex items-center gap-2 mb-2 cursor-pointer select-none">
+        <input
+          id={`chk-${safeId}`}
+          type="checkbox"
+          checked={!!isViewed}
+          onChange={(e) => onToggleViewed(safeId, e.target.checked)}
+          className="accent-zinc-600 size-4 cursor-pointer"
+          aria-label={isViewed ? 'Marcar como no visto' : 'Marcar como visto'}
+        />
+        <span className="font-semibold text-zinc-100 leading-tight line-clamp-2">
+          {enlace.titulo ?? 'Sin título'}
+        </span>
+      </label>
+
+      {enlace.descripcion ? (
+        <p className="text-xs text-zinc-400/90 mb-2 line-clamp-2">{enlace.descripcion}</p>
+      ) : null}
+
+      {/* Acciones */}
       {isLocked ? (
         <button
+          type="button"
           onClick={onRequestUnlock}
-          className="self-center px-3 py-1 bg-gradient-to-br from-gray-700 to-gray-900 text-white rounded"
+          className={`${baseBtnClass} from-zinc-900 to-zinc-950 mx-auto px-3 w-full max-w-[220px]`}
+          aria-label="Desbloquear contenido"
+          title="Desbloquear"
         >
-          <FaLock /> Unlock
+          <FaLock className="opacity-90" />
+          <span className="text-[10px] md:text-xs opacity-80">Unlock</span>
         </button>
       ) : (
-        <div className="grid grid-cols-3 gap-2">
-          {buttonsConfig.map(({ key, icon, label }) =>
-            enlace[key] ? (
+        <div className="grid grid-cols-3 md:grid-cols-4 gap-2">
+          {buttonsConfig.map(({ key, icon, label, variant }) =>
+            enlace?.[key] ? (
               <button
+                type="button"
                 key={key}
                 onClick={() => onActionClick(normalizeUrl(enlace[key]))}
+                onKeyDown={(e) => handleKeyActivate(e, enlace[key])}
                 title={label}
-                className="flex items-center justify-center p-2 bg-gradient-to-br from-blue-600 to-indigo-600 text-white rounded hover:opacity-90"
+                aria-label={label}
+                className={`${baseBtnClass} ${variant}`}
               >
-                {icon}
+                {/* Icono */}
+                <span className="opacity-90 group-hover:opacity-100 transition-opacity text-sm md:text-base">
+                  {icon}
+                </span>
+                {/* Etiqueta: oculta en xs, visible en md+ */}
+                <span className="hidden md:block text-[10px] leading-none opacity-70 group-hover:opacity-90">
+                  {label}
+                </span>
+
+                {/* Overlay de visto */}
+                {isViewed ? <ViewedOverlay /> : null}
               </button>
             ) : null
           )}
