@@ -11,25 +11,21 @@ export const roadB2C = [
         description: "Examen de Nivel de inglés de Cambridge",
         enlaces: [
            { titulo:"Cambridge English Placement Test ",descripcion:"Guia para comprender el examen",url:"https://drive.google.com/file/d/11dS3tCmiTMgaL8nv8cehWwY9eaGuDAKI/view?usp=sharing",url3:"https://youtu.be/vGRh9jItwTg"},
-
-           { titulo:"Examen Modelo CEPT",descripcion:"Mira como son las preguntas que suelen venir en examen de ubicación de nivel",url3:"https://youtu.be/xKic5HFl-fg"},
+           { titulo:"Examen Modelo CEPT",descripcion:"Mira como son las preguntas que suelen venir en examen ",url4:"https://youtu.be/xKic5HFl-fg"},
         ],
     },
      {
         id: 1,
         thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
-
         title: "B2 Cambridge Information",
         subtitle: "B2/C1",
         dateAdded: "Basic 01 ",
         channel: "sdasd",
         description: "Completa los desafíos para dominar el Inglés",
         enlaces: [
-           
-            { titulo:"Cracking the Cambridge B2: Your Secret Guide",descripcion:"you’ll discover powerful tips, hidden strategies, and exam hacks that most candidates never learn ",url:"https://drive.google.com/file/d/1cq9H1EAZRlgKWGaIny70AL5s2pkR09ar/view?usp=sharing",url3:"https://youtu.be/5B0AbDJ_1VU?si=CtHAfrrenQB_atMO"},
+            { titulo:"Cracking the Cambridge B2: Your Secret Guide",descripcion:"Powerful tips, hidden strategies, and exam hacks that most candidates never learn ",url:"https://drive.google.com/file/d/1cq9H1EAZRlgKWGaIny70AL5s2pkR09ar/view?usp=sharing",url3:"https://youtu.be/5B0AbDJ_1VU?si=CtHAfrrenQB_atMO"},
             { titulo:"Cambridge B2 First: Unlocking Exam Secrets ",descripcion:"This guide reveals insider tips, secret hacks, and hidden techniques to help you maximise your performance in every section. ",url:"https://drive.google.com/file/d/1vxvFCXalbtMf0ENxDZ3XcM1MZTp_exvG/view?usp=sharing",url3:"https://youtu.be/tBleLH944b4?si=1FuJs-35bCDNyu_Q"},
             { titulo:"How to Calculate Your Exam Score & Pass",descripcion:"This guide explains the step-by-step process so you can check your results",url3:"https://youtu.be/dY198SBKg_U"},
-
 
         ],
     },
@@ -45,6 +41,8 @@ export const roadB2C = [
         channel: "sdasd",
         description: "Entiende como usar cada matiz gramatical",
         enlaces: [
+          {  titulo:"English Verb Tenses | Complete Guide with Uses & Examples ", url: "https://drive.google.com/file/d/1Mxxxxi0x13HrO5EvSECowdaRF0Vg9fIK/view?usp=sharing",url3:"https://youtu.be/-Wp-i77JHM8"},
+
          { titulo:"Present Simple Grammar Guide ",descripcion:"This comprehensive guide will teach you all the uses, rules, and structures",url3: "https://youtu.be/u7pyidVI8Rw"},
          { titulo:"Present Simple ",descripcion:"Aprende a usar el present simple en diferentes contextos ",url:"https://drive.google.com/file/d/1rwleyKN1vwRdZLJuHZXbIB3t88hevTl3/view?usp=sharing",url3: "https://youtu.be/hY2sLzte-HQ?si=hKDYW1znThnc-JbX"},
          { titulo:"Present Progressive",descripcion:"Aprende a usar el present progressive en diferentes contextos ",url:"https://drive.google.com/file/d/1Rqx1bzuRRJbjHZnH_iutOhx7oIzQoeut/view?usp=sharing",url3: "https://youtu.be/movGMBm7zbk"},
@@ -55,7 +53,7 @@ export const roadB2C = [
          {  titulo:"Present Perfect", url: "https://drive.google.com/file/d/1Vgvz7c7QrW_FMs5AN70TscKd_z6nh0Pv/view?usp=sharing",url3:"https://youtu.be/FQGoT7jGekQ?si=hvw06VmTNgbysrIT"},
          { titulo:"Past Simple vs Present Perfect",descripcion:"Completa los niveles para dominar estos tiempos ",url5: "https://learnibox.vercel.app/pastsimpleperfect"},
          
-  {  titulo:" Present Perfect Progressive", url: "https://drive.google.com/file/d/1XKmee6Sthrl756nWgoifeDb0D6jrob1e/view?usp=sharing"},
+        {  titulo:" Present Perfect Progressive", url: "https://drive.google.com/file/d/1XKmee6Sthrl756nWgoifeDb0D6jrob1e/view?usp=sharing"},
             {  titulo:" Perfect Simple vs  Perfect Progressive", url: "https://drive.google.com/file/d/1IGrGmE7B44z6YCVSVVSFjWS10CV_mjdC/view?usp=sharing"},
 
             { titulo: "✍ Past Simple and Present Perfect (Simple and Progressive) ",url: "https://drive.google.com/file/d/10efo7YOPNaICX_E6_DQJsYZ5ctxm2xYQ/view?usp=sharing", },    
@@ -567,7 +565,6 @@ export const roadB2C = [
         channel: "sdasd",
         description: "Completa los desafíos para dominar el Inglés",
         enlaces: [
-            {  titulo:"[📑 Tense Infographic ", url: "https://drive.google.com/file/d/1Mxxxxi0x13HrO5EvSECowdaRF0Vg9fIK/view?usp=sharing"},
 
             { titulo:"Saxon genitive",url: "https://drive.google.com/file/d/1vRBsRnPMX_9m_wNUkAvs2phvuR8DYHqD/view?usp=sharing",url3:"https://drive.google.com/file/d/18PItis9izfn8oMa-2V91VTX3SQq9W2Tq/view?usp=sharing"},
             { titulo:"Saxon vs Of",url: "https://drive.google.com/file/d/1LeR_MDZFr_BJhZ3fu16vg6eUuvUQri3o/view?usp=sharing"},
@@ -897,27 +894,7 @@ export const roadB2C = [
             { titulo:"Be up TO & FOR",url: "https://drive.google.com/file/d/1xzD1SJQbZJ1aAxkM0jljNOAE2tPD_FYz/view?usp=sharing"},
         ],
     },
-    {
-        id: 23,
-        thumbnail: "https://i.ibb.co/4CTCgND/DALL-E-2025-03-03-10-24-24-A-high-quality-digital-illustration-of-a-young-warrior-student-battling-t.webp",
-
-        title: "Test Center 02",
-        subtitle: "B2/C1",
-        code:"iolasa",
-
-        dateAdded: "Basic 01 ",
-        channel: "sdasd",
-        description: "Completa los desafíos para dominar el Inglés",
-        enlaces: [
-            { titulo:"Solucionario Codigo",url: "https://drive.google.com/file/d/1h_GmZKkaqKgs3BGwUmpQWsf631u2MnFs/view?usp=sharing"},
-
-            { titulo:"Examen Saxon genitive",url: "https://drive.google.com/file/d/1lauthcKfiGkFEhUQMq3hjpQlJAvBfl1n/view?usp=sharing"},
-            { titulo:"Examen de Interpretacion",url: "https://drive.google.com/file/d/1ZlLgABkb88_3qDLHlrTYOpHCUCTouVbz/view?usp=sharing"},
-        ],
-    },
-
-
-   
+    
     {
         id: 24,
         thumbnail:"https://i.ibb.co/C3pnhgt6/file-N3-Gw1-XXR7w-Wr-Wom-Bj-Xy-Mgg.png",

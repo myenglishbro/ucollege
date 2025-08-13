@@ -41,10 +41,10 @@ export default function TimelineItem({
 
   // Config de botones (icono + etiqueta + estilo + clave de enlace)
   const buttonsConfig = [
-    { key: 'url',  icon: isViewed ? <FaCheck /> : <FaFilePdf />, label: 'PDF',      variant: variants.pdf   },
+    { key: 'url',  icon: isViewed ? <FaCheck /> : <FaFilePdf />, label: 'Read',      variant: variants.pdf   },
     { key: 'url2', icon: <FaRegFileAlt />,                       label: 'Doc',      variant: variants.doc   },
-    { key: 'url3', icon: <FaVideo />,                            label: 'Video 1',  variant: variants.videoA},
-    { key: 'url4', icon: <FaVideo />,                            label: 'Video 2',  variant: variants.videoB},
+    { key: 'url3', icon: <FaVideo />,                            label: 'Watch Class',  variant: variants.videoA},
+    { key: 'url4', icon: <FaVideo />,                            label: 'Extra Video',  variant: variants.videoB},
     { key: 'url5', icon: <FaMousePointer />,                     label: 'App',      variant: variants.app   },
     { key: 'url6', icon: <GiBookCover />,                        label: 'Reto 6',   variant: variants.desafioA},
     { key: 'url7', icon: <BiDownload />,                         label: 'Reto 7',   variant: variants.desafioB},
