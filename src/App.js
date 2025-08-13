@@ -66,6 +66,8 @@ import EducationalAppsShowcase from "./components/EducationalAppsShowcase.jsx";
 import SixtyType from "./components/SixtyType.jsx";
 import RoadMapKeyMastery from "./pages/RoadMapKeyMastery.jsx";
 import InicioA1 from "./components/Login/LoginA1/InicioA1.jsx";
+import InicioA2 from "./components/Login/LoginA2/InicioA2.jsx";
+
 import InicioB2 from "./components/Login/LoginB2/InicioB2.jsx";
 import InicioiT from "./components/Login/LoginIt/InicioIt.jsx";
 import IniciobB1 from "./components/Login/LoginB1/InicioB1.jsx";
@@ -107,6 +109,8 @@ function App() {
           <Route path="/Team" element={<Team />}></Route>
 
           <Route path="/A1" element={<InicioA1 />}></Route>
+                    <Route path="/A2" element={<InicioA2 />}></Route>
+
           <Route path="/B1" element={<IniciobB1 />}></Route>
           <Route path="/ielts" element={<InicioIelts />}></Route>
 
