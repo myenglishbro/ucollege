@@ -33,7 +33,6 @@ import RoadMapC1 from "./pages/RoadMapC1";
 import Team from "./pages/Team";
 import MebLanding from "./pages/myenglishbro/MebLanding";
 import IPJLanding from "./pages/inglesconelprofejuan/IPJLanding";
-import RoadMapJA1 from "./pages/inglesconelprofejuan/Rutas/RoadMapA1";
 import Bilingualwill from "./pages/bilingualwill/Bilingualwill";
 import RoadMapB from "./pages/bilingualwill/Rutas/RoadMapB";
 import CambridgeExam from "./pages/CambridgeExam";
@@ -70,6 +69,8 @@ import InicioA1 from "./components/Login/LoginA1/InicioA1.jsx";
 import InicioB2 from "./components/Login/LoginB2/InicioB2.jsx";
 import InicioiT from "./components/Login/LoginIt/InicioIt.jsx";
 import IniciobB1 from "./components/Login/LoginB1/InicioB1.jsx";
+import InicioJuan from "./components/Login/LoginJuan/InicioJuan.jsx";
+
 import InicioB2C from "./components/Login/LoginB2C/InicioB2C.jsx";
 import InicioC from "./components/Login/LoginCelpip/InicioCelpip.jsx";
 import CELPIPSpeaking from "./components/Speaking/CELPIPSpeaking.jsx";
@@ -177,7 +178,7 @@ function App() {
                   <Route path="/encri3" element={<TxtEncryptor  />}></Route>
                   <Route path="/readingencriptador" element={<ReadingEn  />}></Route>
 
-          <Route path="/Plataforma" element={<RoadMapJA1 />}></Route>
+          <Route path="/Plataforma" element={<InicioJuan />}></Route>
           <Route path="/PlataformaB" element={<RoadMapB />}></Route>
 
         

@@ -1,7 +1,7 @@
-export const roadA1 = [
+export const roadA1Juan = [
     
     {
-        id: 1,
+        id: 0,
         thumbnail:"https://i.ibb.co/whB5hS0B/B2-FIRST-29.png",
         title: " Antes del Curso",
         subtitle: "Centro de Clasificación ",

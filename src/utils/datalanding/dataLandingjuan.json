@@ -1,0 +1,50 @@
+{
+  "logo": "https://i.ibb.co/HpP9XPB7/My-english-bro-Logo-12.png",
+  "bgImage":"https://i.ibb.co/JWB7fRRr/jsm-abstract.webp",
+  "robotImage":"https://i.ibb.co/nqqMs8L0/Chat-GPT-Image-2-jul-2025-18-43-49.png",
+      "mascotImage":"https://i.ibb.co/93ZwsVNy/20250709-1523-Cartoon-Programmer-Warrior-remix-01jzrdmdj9e3ea9yamdc5g9pex.png",
+
+  "titulo": "Ingles con Juan",
+  "descripcion": "Mejora su expresión oral y comprensión para comunicarse en inglés con confianza en el trabajo.",
+  "teacher": "Juan",
+  "video": "https://www.youtube.com/embed/hfe0-ZFCCJg?start=118",
+
+  "soporte_wsp": "https://api.whatsapp.com/send?phone=51926922032&text=Hola%20quiero%20informacion%20sobre%20el%20curso",
+  "badge": {
+    "label": "Role Play",
+    "color": "#8b5cf6"
+  },
+  "ratings": {
+    "score": 4.2,
+    "votes": 660,
+    "students": 3187
+  },
+  "last_updated": "07/07/2025",
+  "idiomas": ["English", "Spanish"],
+  "learning": [
+    "Habilidades de comunicación en inglés profesional con pronunciación y acento nativos.",
+    "Mejorar las habilidades esenciales como el habla, la escucha y la gramática.",
+    "Frases para asistir a reuniones en inglés.",
+    "Domina habilidades para expresar opiniones y discutir trabajo.",
+    "Frases que harán que tu inglés sea más natural y fluido.",
+    "Frases para llamadas y correos electrónicos en inglés."
+  ],
+  "includes": [
+   
+  ],
+  "temario_titulo": "Course content",
+  "rutas": [
+    {
+      
+      "cursos": [
+        
+      ]
+    }
+  ],
+  "docentes": [
+    {
+      "nombre": "Profe Juan",
+      "img": "https://i.ibb.co/9HLwLnzb/logo.jpg"
+    }
+  ]
+}

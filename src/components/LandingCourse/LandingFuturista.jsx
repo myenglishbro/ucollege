@@ -123,7 +123,7 @@ export default function LandingVibrante({
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
         {/* Logo y CTA */}
         <div>
-          <h2 className="text-3xl font-bold mb-2">Myenglishbro!</h2>
+          <h2 className="text-3xl font-bold mb-2">Learnibox</h2>
           <p className="mb-4 text-lg font-medium">
             Stop studying, start learning! ✨
           </p>
