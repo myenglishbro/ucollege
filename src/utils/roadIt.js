@@ -3,6 +3,23 @@ export const roadIt = [
         id: 0,
         thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
 
+        title: "New Lessons",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Entiende como usar cada matiz gramatical",
+        enlaces: [
+         { titulo:"Agile Stand-Up Communication",descripcion:"Tips for UX/UI Designers & Project Owners",url:"https://drive.google.com/file/d/1lDeNrIVLVurwMcOljTEgz-3E9eIJeASu/view?usp=sharing",url3: "https://youtu.be/UYxhAqZi9Ow",url2:"https://drive.google.com/file/d/1yoNLYAFbEPKnM-zSJM3w7hap4NwjJvSF/view?usp=sharing"},
+         { titulo:"Backlog Prioritization ",descripcion:"Communication Tips for UX/UI & Product Teams",url:"https://drive.google.com/file/d/1vxYddGwIwzPvUkdF3aaFXQfKyJsEddWV/view?usp=sharing",url3: "https://youtu.be/0zpkA8NiF_M",url2:"https://drive.google.com/file/d/1RxPEKPf1Fnrf5iqvQWFADOWh_L29FaWh/view?usp=sharing"},
+
+
+        ],
+    },
+     {
+        id: 0,
+        thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
+
         title: "Complete Guide to All English Tense Differences",
         subtitle: "B2/C1",
 

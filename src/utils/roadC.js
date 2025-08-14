@@ -38,7 +38,7 @@ export const roadC = [
         id: 1,
         thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
 
-        title: "Speaking - Task01 ",
+        title: "Speaking Tasks",
         subtitle: "B2/C1",
 
         dateAdded: "B2/C1",
@@ -80,7 +80,7 @@ export const roadC = [
         id: 3,
                thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
 
-        title: " Speaking Tasks",
+        title: " Speaking Tasks Explanations",
         subtitle: "Centro de Clasificación ",
     
         dateAdded: "Basic 0 ",
@@ -91,25 +91,21 @@ export const roadC = [
 
             {  titulo:"📑 Speaking",url: "https://drive.google.com/file/d/1idZWp6YWJ88wPPD8N71FQZsqpKuAVyKf/view?usp=sharing"},        
             {  titulo:"📑 Conecctors and Phrases ",url: "https://drive.google.com/file/d/14SaNpRwKA2_B0UlqMFs-Vgm3HwU2x6vV/view?usp=sharing"},        
+            {  titulo:"CELPIP Speaking"  ,descripcion:" Exam Day Guide & Tips for Success",url3:"https://youtu.be/GA3EvXuEUJE?si=M0qZ9gGjXNQQtcnr"},        
+            {  titulo:"Templates & Phrases for a Score 7+" ,url3:"https://youtu.be/FY1BTBkxvAo?si=3tAOsRF8xHiJE8Ni"},        
+            {  titulo:"Tasks, Templates & Tips for a High Score" ,url3:"https://youtu.be/M4f1qezVhec"},        
 
-            {  titulo:"📑 Speaking Task 01",url: "https://drive.google.com/file/d/1OsvHOpIhm3v90TQeXMVlo0B7vaWKDucL/view?usp=sharing"},        
-            {  titulo:"🔖  Guide Task 01",url: "https://drive.google.com/file/d/1Cdm080IYn6zI_y_98aGypqrNuZ9UTmPL/view?usp=sharing"},        
+            {  titulo:"Task 01 Guide",descripcion:"",url: "https://drive.google.com/file/d/1OsvHOpIhm3v90TQeXMVlo0B7vaWKDucL/view?usp=sharing",url3:"https://youtu.be/smGMwP8rwys"},        
 
-            {  titulo:"📑 Speaking Task 02",url: "https://drive.google.com/file/d/1dQLAudvxaYz_v4gPgpzacKZV6qE-SPWZ/view?usp=sharing"},        
-            {  titulo:"🔖  Guide Task 02",url: "https://drive.google.com/file/d/1MAajagjY-0hmZ9fs5mKnUU107GZYzOre/view?usp=sharing"},        
+            {  titulo:"Task 02 Guide",url: "https://drive.google.com/file/d/1dQLAudvxaYz_v4gPgpzacKZV6qE-SPWZ/view?usp=sharing",url3:"https://youtu.be/gj5xZOCIto8"},        
 
-            {  titulo:"📑 Speaking Task 03",url: "https://drive.google.com/file/d/1qmKwHwjn4If3yT0u4nxRKQYlCD8u5qsO/view?usp=sharing"},        
-            {  titulo:"🔖  Guide Task 03",url: "https://drive.google.com/file/d/1SUNdgugNcxWJvqzHSbDuj7Rpw7WeKRas/view?usp=sharing"},        
+            {  titulo:"Task 03 Guide",url: "https://drive.google.com/file/d/1qmKwHwjn4If3yT0u4nxRKQYlCD8u5qsO/view?usp=sharing",url3:"https://youtu.be/DjEXUTU1pEo"},        
 
             {  titulo:"📑 Speaking Task 04",url: "https://drive.google.com/file/d/16J5BiNcgDgQhWX_60IiDaEPClgnRNSVK/view?usp=sharing"},        
             {  titulo:"📑 Speaking Task 05",url: "https://drive.google.com/file/d/1TrK8fwXVpK3q1RHXYbHPnrIBZO0VUCOf/view?usp=sharing"},        
             {  titulo:"📑 Speaking Task 06",url: "https://drive.google.com/file/d/1u0aH2nr9-EUdZb0O6KweNyb5DXb5zQhW/view?usp=sharing"},        
             {  titulo:"📑 Speaking Task 07",url: "https://drive.google.com/file/d/1HPQwzj7LNb7PIRM1EIeIzuS04p_1ISYZ/view?usp=sharing"},        
             {  titulo:"📑 Speaking Task 08",url: "https://drive.google.com/file/d/1E9ehz_6GBwkN05TMRlGmAaCjP5FiEbcG/view?usp=sharing"},        
-            {  titulo:"🗃️ Celpip Vocabulary ",    url: "https://quizlet.com/514887232/match/embed?i=2oqoxh&x=1jj1"},
-            {  titulo:"🗃️ Celpip Idioms ",    url: "https://quizlet.com/513660536/match/embed?i=2oqoxh&x=1jj1"},
-            {  titulo:"🗃️ Celpip Speaking ",    url: "https://quizlet.com/841318241/match/embed?i=2oqoxh&x=1jj1"},
-            {  titulo:"🗃️ Celpip Speaking II ",    url: "https://quizlet.com/562967616/match/embed?i=2oqoxh&x=1jj1"},
 
             
         ],
