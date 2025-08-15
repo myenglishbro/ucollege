@@ -29,7 +29,68 @@ export const roadB2C = [
 
         ],
     },
-   
+   {
+        id: 2,
+        thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
+
+        title: "Present Simple ",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Entiende como usar cada matiz gramatical",
+        enlaces: [
+
+         { titulo:"Present Simple Grammar Guide ",descripcion:"This comprehensive guide will teach you all the uses, rules, and structures",url3: "https://youtu.be/u7pyidVI8Rw"},
+         { titulo:"Present Simple ",descripcion:"Aprende a usar el present simple en diferentes contextos ",url:"https://drive.google.com/file/d/1rwleyKN1vwRdZLJuHZXbIB3t88hevTl3/view?usp=sharing",url3: "https://youtu.be/hY2sLzte-HQ?si=hKDYW1znThnc-JbX"},
+         { titulo:"As far as, Until, Up to ",descripcion:"diferencias ",url: "https://drive.google.com/file/d/16CJjTB0ZPDvQuzpOLMR22R0jK7QCe-c3/view?usp=sharing",url3:"https://youtu.be/pa2m8Ja3qBo?si=WicK2xiUfjNCrGZm"},
+         { titulo:"Doubt that vs Doubt if",descripcion:"diferencias ",url: "https://drive.google.com/file/d/1qEgnOfM7BoFG1lmMu_xWgNbRlwBTt9X2/view?usp=sharing",url3:"https://youtu.be/7zype2HxL44?si=GBH3KrxdfzI5bCdY"},
+            { titulo:"Enough and Too ",url: "https://drive.google.com/file/d/1Tcadp5eOdfsHOlCwJWs0iNuphHQO4gYA/view?usp=sharing"},
+            { titulo:"The fact that  ",url: "https://drive.google.com/file/d/1FSd3Vt3C71C0kujDoy4egxFDy8_ZugZv/view?usp=sharing"},
+            { titulo:"Raise vs Rise..",url: "https://drive.google.com/file/d/1K57hHa19p8k36dka59AM7pyFERFxnap2/view?usp=sharing"},
+            { titulo:"in the suburbs vs on the outskirts",url: "https://drive.google.com/file/d/1JMop9SCD1WVrMeQiXTFRD0IcsBqD-vjn/view?usp=sharing"},
+            { titulo:"Time vs Moment",url: "https://drive.google.com/file/d/1DLFl-bn78Abyr-UQYLh9LN2J45t9UO8Q/view?usp=sharing"},
+
+            { titulo:"Make the most/ the best, Get the better ",url: "https://drive.google.com/file/d/1pQvtcWZpqNw-8sWDfAST6b0DfqpubGz1/view?usp=sharing"},
+
+            { titulo:"Challenges",descripcion:"Completa todos  los niveles",url5: "https://learnibox.vercel.app/essentialgrammar"},
+
+          
+        ],
+    },
+     {
+        id: 3,
+        thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
+
+        title: "Present Progressive ",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Entiende como usar cada matiz gramatical",
+        enlaces: [
+
+         { titulo:"Present Progressive",descripcion:"Aprende a usar el present progressive en diferentes contextos ",url:"https://drive.google.com/file/d/1Rqx1bzuRRJbjHZnH_iutOhx7oIzQoeut/view?usp=sharing",url3: "https://youtu.be/movGMBm7zbk"},
+        
+        ],
+    },
+    {
+        id: 3,
+        thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
+
+        title: "Present Simple vs Present Progressive ",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Entiende como usar cada matiz gramatical",
+        enlaces: [
+         { titulo:"Stative & Dynamic Verbs",descripcion:"Completa los niveles para dominar estos tiempos ",url: "https://drive.google.com/file/d/1FG5tjBDMaCCaFOBDxZ039CgdcFevvJcc/view?usp=sharing",url3:"https://youtu.be/R07Mg2YreIg"},
+
+         { titulo:"Present Simple vs Present Progressive ",descripcion:"Completa los niveles para dominar estos tiempos ",url5: "https://learnibox.vercel.app/presentsimpleprogressive"},
+        
+        ],
+    },
      {
         id: 2,
         thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
@@ -43,10 +104,6 @@ export const roadB2C = [
         enlaces: [
           {  titulo:"English Verb Tenses | Complete Guide with Uses & Examples ", url: "https://drive.google.com/file/d/1Mxxxxi0x13HrO5EvSECowdaRF0Vg9fIK/view?usp=sharing",url3:"https://youtu.be/-Wp-i77JHM8"},
 
-         { titulo:"Present Simple Grammar Guide ",descripcion:"This comprehensive guide will teach you all the uses, rules, and structures",url3: "https://youtu.be/u7pyidVI8Rw"},
-         { titulo:"Present Simple ",descripcion:"Aprende a usar el present simple en diferentes contextos ",url:"https://drive.google.com/file/d/1rwleyKN1vwRdZLJuHZXbIB3t88hevTl3/view?usp=sharing",url3: "https://youtu.be/hY2sLzte-HQ?si=hKDYW1znThnc-JbX"},
-         { titulo:"Present Progressive",descripcion:"Aprende a usar el present progressive en diferentes contextos ",url:"https://drive.google.com/file/d/1Rqx1bzuRRJbjHZnH_iutOhx7oIzQoeut/view?usp=sharing",url3: "https://youtu.be/movGMBm7zbk"},
-         { titulo:"Present Simple vs Present Progressive ",descripcion:"Completa los niveles para dominar estos tiempos ",url5: "https://learnibox.vercel.app/presentsimpleprogressive"},
          {  titulo:"Past Simple", url: "https://drive.google.com/file/d/1aAwupScFNRFoNArgtm5f_3k5a0Eyfztt/view?usp=sharing",url3:"https://youtu.be/cZrMl1bTons?si=QOI7p1xaVQV3Bp_B"},
          { titulo: "Past Progressive ",url: "https://drive.google.com/file/d/18QxoihCFpTI0wyWQgr50OZtCdWWNVwqw/view?usp=sharing", },
          { titulo:"Past Simple vs Past Progressive ",descripcion:"Completa los niveles para dominar estos tiempos ",url5: "https://learnibox.vercel.app/pastsimpleprogressive"},
@@ -307,34 +364,7 @@ export const roadB2C = [
     
      
     
-    
-    {
-        id: 7,
-        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
-
-        title: "Essential Grammar I",
-        subtitle: "B2/C1",
-        dateAdded: "Basic 0 ",
-        channel: "sdasd",
-        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
-        enlaces: [
-            { titulo:"As far as, Until, Up to ",descripcion:"diferencias ",url: "https://drive.google.com/file/d/16CJjTB0ZPDvQuzpOLMR22R0jK7QCe-c3/view?usp=sharing",url2:"https://youtu.be/pa2m8Ja3qBo?si=WicK2xiUfjNCrGZm"},
-            { titulo:"Doubt that vs Doubt if",descripcion:"diferencias ",url: "https://drive.google.com/file/d/1qEgnOfM7BoFG1lmMu_xWgNbRlwBTt9X2/view?usp=sharing",url2:"https://youtu.be/7zype2HxL44?si=GBH3KrxdfzI5bCdY"},
-            { titulo:"Enough and Too ",url: "https://drive.google.com/file/d/1Tcadp5eOdfsHOlCwJWs0iNuphHQO4gYA/view?usp=sharing"},
-            { titulo:"The fact that  ",url: "https://drive.google.com/file/d/1FSd3Vt3C71C0kujDoy4egxFDy8_ZugZv/view?usp=sharing"},
-            { titulo:"Raise vs Rise..",url: "https://drive.google.com/file/d/1K57hHa19p8k36dka59AM7pyFERFxnap2/view?usp=sharing"},
-            { titulo:"in the suburbs vs on the outskirts",url: "https://drive.google.com/file/d/1JMop9SCD1WVrMeQiXTFRD0IcsBqD-vjn/view?usp=sharing"},
-            { titulo:"Time vs Moment",url: "https://drive.google.com/file/d/1DLFl-bn78Abyr-UQYLh9LN2J45t9UO8Q/view?usp=sharing"},
-
-
-            { titulo:"Make the most/ the best, Get the better ",url: "https://drive.google.com/file/d/1pQvtcWZpqNw-8sWDfAST6b0DfqpubGz1/view?usp=sharing"},
-
-            { titulo:"Challenges",descripcion:"Completa todos  los niveles",url4: "https://learnibox.vercel.app/essentialgrammar"},
-
-          
-
-        ],
-    },
+   
     {
         id: 8,
         thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
