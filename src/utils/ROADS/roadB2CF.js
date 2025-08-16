@@ -76,7 +76,7 @@ export const roadB2CF = [
         enlaces: [
          { titulo:"Stative & Dynamic Verbs",descripcion:"Completa los niveles para dominar estos tiempos ",url: "https://drive.google.com/file/d/1FG5tjBDMaCCaFOBDxZ039CgdcFevvJcc/view?usp=sharing",url3:"https://youtu.be/R07Mg2YreIg"},
 
-         { titulo:"Present Simple vs Present Progressive ",descripcion:"Completa los niveles para dominar estos tiempos ",url5: "https://learnibox.vercel.app/presentsimpleprogressive"},
+         { titulo:"Present Simple vs Present Progressive ",codigo:"myfirstchallenge",descripcion:"Completa los niveles en el aplicativo para dominar estos tiempos ",url5: "https://learnibox.vercel.app/presentsimpleprogressive"},
         
         ],
     },
@@ -95,7 +95,7 @@ export const roadB2CF = [
 
          {  titulo:"Past Simple", url: "https://drive.google.com/file/d/1aAwupScFNRFoNArgtm5f_3k5a0Eyfztt/view?usp=sharing",url3:"https://youtu.be/cZrMl1bTons?si=QOI7p1xaVQV3Bp_B"},
          { titulo: "Past Progressive ",url: "https://drive.google.com/file/d/18QxoihCFpTI0wyWQgr50OZtCdWWNVwqw/view?usp=sharing", },
-         { titulo:"Past Simple vs Past Progressive ",descripcion:"Completa los niveles para dominar estos tiempos ",url5: "https://learnibox.vercel.app/pastsimpleprogressive"},
+         { titulo:"Past Simple vs Past Progressive ",codigo:"mysecondchallenge",descripcion:"Completa los niveles para dominar estos tiempos ",url5: "https://learnibox.vercel.app/pastsimpleprogressive"},
      
         ],
     },
