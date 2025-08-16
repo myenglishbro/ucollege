@@ -2,7 +2,6 @@ export const roadB2CF = [
     {
         id: 0,
         thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
-
         title: "Cambridge Placement Test",
         subtitle: "B2/C1",
 
@@ -10,33 +9,311 @@ export const roadB2CF = [
         channel: "sdasd",
         description: "Examen de Nivel de inglés de Cambridge",
         enlaces: [
-           { titulo:"Guia Cambridge Placement Test",descripcion:"Guia para comprender el examen",url:"https://drive.google.com/file/d/11dS3tCmiTMgaL8nv8cehWwY9eaGuDAKI/view?usp=sharing"},
-
-           { titulo:"Examen Modelo CEPT",descripcion:"Examen de -ubicación de nivel",url2:"https://youtu.be/xKic5HFl-fg"},
-
+           { titulo:"Cambridge English Placement Test ",descripcion:"Guia para comprender el examen",url:"https://drive.google.com/file/d/11dS3tCmiTMgaL8nv8cehWwY9eaGuDAKI/view?usp=sharing",url3:"https://youtu.be/vGRh9jItwTg"},
+           { titulo:"Examen Modelo CEPT",descripcion:"Mira como son las preguntas que suelen venir en examen ",url4:"https://youtu.be/xKic5HFl-fg"},
         ],
     },
      {
         id: 1,
         thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
-
-        title: "Cambridge Information",
+        title: "B2 Cambridge Information",
         subtitle: "B2/C1",
-
         dateAdded: "Basic 01 ",
         channel: "sdasd",
         description: "Completa los desafíos para dominar el Inglés",
         enlaces: [
-           
-            { titulo:"Overview B2 First",descripcion:"Conoce los trucos y secretos  de este examen ",url:"https://drive.google.com/file/d/1cq9H1EAZRlgKWGaIny70AL5s2pkR09ar/view?usp=sharing"},
-            { titulo:"Hacks and Secrets B2 First",descripcion:"Conoce los trucos y secretos  de este examen ",url:"https://drive.google.com/file/d/1vxvFCXalbtMf0ENxDZ3XcM1MZTp_exvG/view?usp=sharing" ,url2:"https://youtu.be/tBleLH944b4"},
+            { titulo:"Cracking the Cambridge B2: Your Secret Guide",descripcion:"Powerful tips hidden strategies, and exam hacks that most candidates never learn ",url:"https://drive.google.com/file/d/1cq9H1EAZRlgKWGaIny70AL5s2pkR09ar/view?usp=sharing",url3:"https://youtu.be/5B0AbDJ_1VU?si=CtHAfrrenQB_atMO"},
+            { titulo:"Cambridge B2 First: Unlocking Exam Secrets ",descripcion:"This guide reveals insider tips, secret hacks, and hidden techniques to help you maximise your performance in every section. ",url:"https://drive.google.com/file/d/1vxvFCXalbtMf0ENxDZ3XcM1MZTp_exvG/view?usp=sharing",url3:"https://youtu.be/tBleLH944b4?si=1FuJs-35bCDNyu_Q"},
+            { titulo:"How to Calculate Your Exam Score & Pass",descripcion:"This guide explains the step-by-step process so you can check your results",url3:"https://youtu.be/dY198SBKg_U"},
 
+        ],
+    },
+   {
+        id: 2,
+        thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
 
+        title: "Present Simple ",
+        subtitle: "B2/C1",
 
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Entiende como usar cada matiz gramatical",
+        enlaces: [
+
+         { titulo:"Present Simple Grammar Guide ",descripcion:"This comprehensive guide will teach you all the uses, rules, and structures",url3: "https://youtu.be/u7pyidVI8Rw"},
+         { titulo:"Present Simple ",descripcion:"Aprende a usar el present simple en diferentes contextos ",url:"https://drive.google.com/file/d/1rwleyKN1vwRdZLJuHZXbIB3t88hevTl3/view?usp=sharing",url3: "https://youtu.be/hY2sLzte-HQ?si=hKDYW1znThnc-JbX"},
+        
+
+          
         ],
     },
      {
         id: 3,
+        thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
+
+        title: "Present Progressive ",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Entiende como usar cada matiz gramatical",
+        enlaces: [
+
+         { titulo:"Present Progressive",descripcion:"Aprende a usar el present progressive en diferentes contextos ",url:"https://drive.google.com/file/d/1Rqx1bzuRRJbjHZnH_iutOhx7oIzQoeut/view?usp=sharing",url3: "https://youtu.be/movGMBm7zbk"},
+        
+        ],
+    },
+    {
+        id: 4,
+        thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
+
+        title: "Present Simple vs Present Progressive ",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Entiende como usar cada matiz gramatical",
+        enlaces: [
+         { titulo:"Stative & Dynamic Verbs",descripcion:"Completa los niveles para dominar estos tiempos ",url: "https://drive.google.com/file/d/1FG5tjBDMaCCaFOBDxZ039CgdcFevvJcc/view?usp=sharing",url3:"https://youtu.be/R07Mg2YreIg"},
+
+         { titulo:"Present Simple vs Present Progressive ",descripcion:"Completa los niveles para dominar estos tiempos ",url5: "https://learnibox.vercel.app/presentsimpleprogressive"},
+        
+        ],
+    },
+    {
+        id: 5,
+        thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
+
+        title: "Past Tenses",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Entiende como usar cada matiz gramatical",
+        enlaces: [
+          {  titulo:"English Verb Tenses | Complete Guide with Uses & Examples ", url: "https://drive.google.com/file/d/1Mxxxxi0x13HrO5EvSECowdaRF0Vg9fIK/view?usp=sharing",url3:"https://youtu.be/-Wp-i77JHM8"},
+
+         {  titulo:"Past Simple", url: "https://drive.google.com/file/d/1aAwupScFNRFoNArgtm5f_3k5a0Eyfztt/view?usp=sharing",url3:"https://youtu.be/cZrMl1bTons?si=QOI7p1xaVQV3Bp_B"},
+         { titulo: "Past Progressive ",url: "https://drive.google.com/file/d/18QxoihCFpTI0wyWQgr50OZtCdWWNVwqw/view?usp=sharing", },
+         { titulo:"Past Simple vs Past Progressive ",descripcion:"Completa los niveles para dominar estos tiempos ",url5: "https://learnibox.vercel.app/pastsimpleprogressive"},
+     
+        ],
+    },
+     {
+        id: 6,
+        thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
+
+        title: "Present Perfect Tenses",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Entiende como usar cada matiz gramatical",
+        enlaces: [
+          {  titulo:"English Verb Tenses | Complete Guide with Uses & Examples ", url: "https://drive.google.com/file/d/1Mxxxxi0x13HrO5EvSECowdaRF0Vg9fIK/view?usp=sharing",url3:"https://youtu.be/-Wp-i77JHM8"},
+        
+         {  titulo:"Present Perfect", url: "https://drive.google.com/file/d/1Vgvz7c7QrW_FMs5AN70TscKd_z6nh0Pv/view?usp=sharing",url3:"https://youtu.be/FQGoT7jGekQ?si=hvw06VmTNgbysrIT"},
+         { titulo:"Past Simple vs Present Perfect",descripcion:"Completa los niveles para dominar estos tiempos ",url5: "https://learnibox.vercel.app/pastsimpleperfect"},
+         
+        {  titulo:" Present Perfect Progressive", url: "https://drive.google.com/file/d/1XKmee6Sthrl756nWgoifeDb0D6jrob1e/view?usp=sharing"},
+            {  titulo:" Perfect Simple vs  Perfect Progressive", url: "https://drive.google.com/file/d/1IGrGmE7B44z6YCVSVVSFjWS10CV_mjdC/view?usp=sharing"},
+
+            { titulo: "✍ Past Simple and Present Perfect (Simple and Progressive) ",url: "https://drive.google.com/file/d/10efo7YOPNaICX_E6_DQJsYZ5ctxm2xYQ/view?usp=sharing", },    
+             { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/1D0VK7vPjtlAMOc8WqxQUQn62_F3-uJsa/view?usp=sharing", },            { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/1GWFlQ8RvPK7qb3S8HLBhKTlBONeogy0H/view?usp=sharing", },
+            { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/1jgcxBuSKBZ6LdIQbWXL3_4lJDv4D8QVa/view?usp=sharing", },
+            { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/1jvFbc4GPFUHXIgx0gmbgslQQz7KmIMG0/view?usp=sharing", },
+            { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/1iCSWPTOFu1vGbkEaW6xSPh-Z_-koKr3V/view?usp=sharing", },
+            { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/1uik-f0MFXujPMnbgmOiCIegxSmWAI5qI/view?usp=sharing", },
+            { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/1CyruZuJFKhWpzmNmFQ9H9oigRjqgY0ui/view?usp=sharing", },
+            { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/1i-A68Tl92LNR87MyIWPPTEceTrIlU_hw/view?usp=sharing", },
+            { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/11Jj4BydUErvqumFiFy5goX5pGQkZq9HY/view?usp=sharing", },
+              { titulo: "Future Simple ",url: "https://drive.google.com/file/d/1qv1NHearXkAYne1cH9N0MBc4ikdNtAV-/view?usp=sharing",url2:"https://youtu.be/uaeFf4lMksI?si=uu8wSw6G_svG3v8T" },    
+
+            { titulo: "✍ Ways of Expressing Future Tense ",url: "https://drive.google.com/file/d/1J6r3JFYzr-U4CzRQihyMcl6uB2Ms7bu0/view?usp=sharing", },    
+            { titulo: "✍  Future Tenses ",url: "https://drive.google.com/file/d/1uQEVuavBgrytYsOTlD3dAg8qZDCtZEa_/view?usp=sharing", },
+        ],
+    },
+         {
+        id: 7,
+        thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
+
+        title: "Future",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Entiende como usar cada matiz gramatical",
+        enlaces: [
+          {  titulo:"English Verb Tenses | Complete Guide with Uses & Examples ", url: "https://drive.google.com/file/d/1Mxxxxi0x13HrO5EvSECowdaRF0Vg9fIK/view?usp=sharing",url3:"https://youtu.be/-Wp-i77JHM8"},
+        
+        
+              { titulo: "Future Simple ",url: "https://drive.google.com/file/d/1qv1NHearXkAYne1cH9N0MBc4ikdNtAV-/view?usp=sharing",url2:"https://youtu.be/uaeFf4lMksI?si=uu8wSw6G_svG3v8T" },    
+
+            { titulo: "✍ Ways of Expressing Future Tense ",url: "https://drive.google.com/file/d/1J6r3JFYzr-U4CzRQihyMcl6uB2Ms7bu0/view?usp=sharing", },    
+            { titulo: "✍  Future Tenses ",url: "https://drive.google.com/file/d/1uQEVuavBgrytYsOTlD3dAg8qZDCtZEa_/view?usp=sharing", },
+        ],
+    },
+      
+     {
+        id: 8,
+        thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
+
+        title: "Essential Grammar ",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Entiende como usar cada matiz gramatical",
+        enlaces: [
+         { titulo:"As far as, Until, Up to ",descripcion:"diferencias ",url: "https://drive.google.com/file/d/16CJjTB0ZPDvQuzpOLMR22R0jK7QCe-c3/view?usp=sharing",url3:"https://youtu.be/pa2m8Ja3qBo?si=WicK2xiUfjNCrGZm"},
+         { titulo:"Doubt that vs Doubt if",descripcion:"diferencias ",url: "https://drive.google.com/file/d/1qEgnOfM7BoFG1lmMu_xWgNbRlwBTt9X2/view?usp=sharing",url3:"https://youtu.be/7zype2HxL44?si=GBH3KrxdfzI5bCdY"},
+            { titulo:"Enough and Too ",url: "https://drive.google.com/file/d/1Tcadp5eOdfsHOlCwJWs0iNuphHQO4gYA/view?usp=sharing",url3:"https://youtu.be/Gie_3C6BIeo"},
+            { titulo:"The fact that  ",url: "https://drive.google.com/file/d/1FSd3Vt3C71C0kujDoy4egxFDy8_ZugZv/view?usp=sharing",url3:"https://youtu.be/fXiGq7IuBec"},
+            { titulo:"Raise vs Rise..",url: "https://drive.google.com/file/d/1K57hHa19p8k36dka59AM7pyFERFxnap2/view?usp=sharing", url3:"https://youtu.be/iCq1HNpx5aA"},
+            { titulo:"in the suburbs vs on the outskirts",url: "https://drive.google.com/file/d/1JMop9SCD1WVrMeQiXTFRD0IcsBqD-vjn/view?usp=sharing",url3:"https://youtu.be/4r4Fa9Zt1FI"},
+            { titulo:"Time vs Moment",url: "https://drive.google.com/file/d/1DLFl-bn78Abyr-UQYLh9LN2J45t9UO8Q/view?usp=sharing",url3:"https://youtu.be/IHYu3WXR7yg"},
+
+            { titulo:"Make the most/ the best, Get the better ",url: "https://drive.google.com/file/d/1pQvtcWZpqNw-8sWDfAST6b0DfqpubGz1/view?usp=sharing",url3:"https://youtu.be/GgCg9ZdY1TY"},
+           { titulo:"Cleft Sentences",url: "https://drive.google.com/file/d/13-JhSbUYrCntdTi5t097wDYyeUmJH-g1/view?usp=sharing",url3:"https://youtu.be/PKr7p6KBvp4"},
+
+            { titulo:"Challenges",descripcion:"Completa todos  los niveles",url5: "https://learnibox.vercel.app/essentialgrammar"},
+        ],
+    },
+     
+     {
+        id: 9,
+        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
+
+        title: "Speaking Cambridge",
+        subtitle: "B2/C1",
+        color: "#8F2BBC",
+
+
+        dateAdded: "Basic 01 ",
+        channel: "sdasd",
+        description: "Aprende a hablar como un hablante nativo enfocándote en la pronunciación, entonación y expresiones idiomáticas para mejorar tu fluidez y naturalidad al hablar.",
+        enlaces: [
+             {
+                titulo: "B2 Speaking Exam | Structure, Tips & How You’re Assessed",
+                url: "https://drive.google.com/file/d/1lQkT1_qz3fPUBqcysqdvxvi6bNtOmXab/view?usp=sharing",
+                url2:"https://youtu.be/HcXrztQ7_IE"
+            },
+               {
+                titulo: "Speak About Yourself Naturally (B2–C2 Level)",
+                descripcion:"This guide gives you natural vocabulary, idiomatic expressions, and topic-based phrases so you can speak fluently and confidently about your life and experiences.",
+                url2:"https://youtu.be/q8I46ZI4pis"
+            },
+            { titulo:"Mastering Have No Expressions in English",description:"In this guide, you’ll learn the most common “have no” expressions, their meanings and how to use them naturally in both formal and informal contexts.",url2: "https://youtu.be/gT-SWXFclhE"},
+
+                    { titulo:"Mastering There Is No & It Is No Expressions",url: "https://drive.google.com/file/d/1jyUmrJVnuw7QOxq7Pvbl9CQRJXdwFkL1/view?usp=sharing",url2:"https://youtu.be/HlWlmC6_-TA"},
+            {
+                titulo: "🖥️[Video] Episodem  Website",
+                url: "https://www.youtube.com/watch?v=9dt6WOuoXos",
+            },
+                        { titulo:"📚[pdf] B2 First Speaking Overview  ",url: "https://drive.google.com/file/d/1QJ_hjTeJIBEb01q5q7L-UeVwwK2sW0Wg/view?usp=sharing"},
+
+            {
+                titulo: "🖥️[Video] B2 Speaking Simulation 01",
+                url: "https://drive.google.com/file/d/1QhvhLsCjF6V1BaYqpSd3cV9lgNuOCw_h/view?usp=sharing",
+            },
+            {
+                titulo: "🖥️[Video] B2 Speaking Simulation 02",
+                url: "https://drive.google.com/file/d/1h-s_T2_bFtZngCACYPMKw4U1V4mB6Ove/view?usp=sharing",
+            },
+            {
+                titulo: "🖥️[Video] B2 Speaking Simulation 03",
+                url: "https://drive.google.com/file/d/1vm6K2C5j061v2IneytvApO-r9tCdd3KS/view?usp=sharing",
+            },
+            {
+                titulo: "🖥️[Video] B2 Speaking Simulation 04",
+                url: "https://drive.google.com/file/d/1dGhBsbgRejXuovsdRie-bae23WpeY4V6/view?usp=sharing",
+            },
+            {
+                titulo: "🖥️[Video] B2 Speaking Simulation 05",
+                url: "https://drive.google.com/file/d/1ItqYXZB6Dc19PdmaB67E-9EZyAyfrl9y/view?usp=sharing",
+            },
+            {
+                titulo: "🖥️[Video] Speaking Trainer 01",
+                url: "https://drive.google.com/file/d/1n-sf1L6DJZKdj0GSGV2zlPlaYI4WhJQ9/view?usp=sharing",
+            },
+            {
+                titulo: "🖥️[Video] Speaking Trainer 02",
+                url: "https://drive.google.com/file/d/1Jiwqspyx05GE1Br1tTir8j-xWm1_-VbG/view?usp=sharing",
+            },
+              
+            {  titulo:" Bloque 01 ", url: "https://drive.google.com/file/d/1S8x1T_F486L1hYbyPdTeL4rvx-uQXGEt/view?usp=sharing  "},
+
+            {  titulo:" Bloque 02 ", url: " https://drive.google.com/file/d/1CA7Ub9WI-QKTBXhZI2S6yBrQV5gez1Jy/view?usp=sharing "},
+            {  titulo:" Bloque 03 ", url: " https://drive.google.com/file/d/1ETAjorHO8WFszYjEi6b_G6e8FM4i6y6N/view?usp=sharing "},
+            {  titulo:" Bloque 04 ", url: " https://drive.google.com/file/d/1uvJn25j4BA2gtkdvJZ5qvdY9GZs9Th0_/view?usp=sharing "},
+            {
+                titulo: "🎯[Activity] speaking Part 1",
+                url: "https://wordwall.net/play/519/287/727",
+            },
+            {
+                titulo: "📒[pdf] Linking Words | B2 First (FCE)",
+                url: "https://drive.google.com/file/d/1l7NLEB9G7uwaXkRONIKNJE7BjucKC_pC/view?usp=sharing",
+            },
+            {
+                titulo: "📒[pdf] 10 Preguntas de examen – Speaking Parte 1 (Entrevista) | B2 First (FCE)",
+                url: "https://drive.google.com/file/d/1Oe2kqUUQnetTzjYCcia8mx2IrPEurE92/view?usp=sharing",
+            },
+           
+            {
+                titulo: "📒[pdf] Speaking Part 1 - Useful Phrases",
+                url: "https://drive.google.com/file/d/1Fty0C6H85HUHEJBG0KzAAOGK5a6FVMgz/view?usp=sharing",
+            },
+            {
+                titulo: "📒[pdf] Speaking Part 2 - Useful Phrases",
+                url: "https://drive.google.com/file/d/1vHp3IrV3Wiz1a2m8_GdbdIl3ITc4sf2e/view?usp=sharing",
+            },
+            {
+                titulo: "📒[pdf] Speaking Part 3 - Useful Phrases",
+                url: "https://drive.google.com/file/d/19HB0czJM2-XZZBuKr3FXHNAn8jP941DF/view?usp=sharing",
+            },
+            {
+                titulo: "📒[pdf] Speaking Part 4 - Useful Phrases",
+                url: "https://drive.google.com/file/d/1ZmLmEIS1vnRPbZD9D20vFkEJPpoE9jbm/view?usp=sharing",
+            },
+            {
+                titulo: "📒Mistakes at First ",
+                url: "https://drive.google.com/file/d/1GqRFqwYpNz2b52QJIJ9-RIGKOxkEV5HS/view?usp=sharing",
+            }
+            
+            
+        ],
+    },
+      {
+        id: 4,
+        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
+
+        title: "Phrasal Verbs ",
+        subtitle: "B2/C1",
+
+        dateAdded: "Basic 0 ",
+        channel: "sdasd",
+        description: " ",
+        enlaces: [
+            { titulo: "Advanced Phrasal Prepositional Verbs",descripcion:"108 Phrasal Verbs with 3 words",url2:"https://youtu.be/go0hC3VD9ks",url4:"http://learnibox.vercel.app/108pv"}, 
+            { titulo:"Welcome",descripcion:"Las diferencias en Inglés ",url: "https://drive.google.com/file/d/1VTKLgs-w-Bc-_TPtmNScaaQf0ATs8oCl/view?usp=sharing"},
+            { titulo:" Be on about ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/1i5m5Xo0rahB9re9xsLNJdclpA8FA03jy/view?usp=sharing",url3: "https://drive.google.com/file/d/1JDpCXxAU9ozjBMEA2ouhBQGAJgpliOOc/view?usp=sharing" },
+            { titulo:"📚Watch out for - Look out for.pdf",url: "https://drive.google.com/file/d/1-E-NvIWN5EmPErBDwZSZmoAQZdgC4g4O/view?usp=sharing"},
+            { titulo:"📚ASK FOR - ASK AFTER - ASK ABOUT",url: "https://drive.google.com/file/d/1gkbuIZJ6sRy1jro8NPpOZLKO4p7naizC/view?usp=sharing"},
+            { titulo:"Work Out ",url: "https://drive.google.com/file/d/1h4pzMnsgFmBcpRj1QbPbBDjkJ0J9UYfE/view?usp=sharing",url3:"https://drive.google.com/file/d/14ovf4SmbRkZSWQVh-6Q9cOCousRjCrvZ/view?usp=sharing"},
+            { titulo:"zero in on  ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/18JztqKh0PP18_LPzUKZDJYnRQqip7x3a/view?usp=sharing",url3: "https://drive.google.com/file/d/19y7aXWFScceuArjQNuN7FjpaLPfALo3w/view?usp=sharing" },
+            { titulo:"Shy Away From sth   ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/1LKd3X2Qr8MJ-52QtwBi9f6NR-AWD9anl/view?usp=sharing",url3: "https://drive.google.com/file/d/188wbcEig0wGPF2gscPLlQhF_xayYwKHF/view?usp=sharing" },
+            {titulo: "📒Phrasal verb with Get",url: "https://drive.google.com/file/d/1txaA2U2EMDVKnJ--_UM8YhzDZBaHasDP/view?usp=sharing",},
+            {titulo: "📒Phrasal verb with Take",url: "https://drive.google.com/file/d/1ZkjaNFOku-6MgJSzH_QRRXHoYGm02uLQ/view?usp=sharing",},
+            {titulo: "📒Phrasal verb Get vs Take",url: "https://drive.google.com/file/d/1XyP5ABzwxOESdOwnOucJ_2-3beKDqxwv/view?usp=sharing",},
+            {titulo: "📒Phrasal verb with Up",url: "https://drive.google.com/file/d/1B7kiX_3JXK8jiRYNFkR4IxPqoHCz0J7K/view?usp=sharing",},
+            {titulo: "📒Phrasal verb Dictation",url: "https://drive.google.com/file/d/1Q78yaqJPpqUThoLZ4y5tqPFp-x6eCV8F/view?usp=sharing",},
+      
+      
+        ],
+    },
+   
+     {
+        id: 2,
         thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
 
         title: "Cambridge Simulator ",
@@ -46,17 +323,14 @@ export const roadB2CF = [
         channel: "sdasd",
         description: " ",
         enlaces: [
-            { titulo:"Multiple Choice Cloze Simulation I ",codigo:"MULTIPLECHOICEB2",descripcion:"The first part of the Use of English paper in the B2 First Examination is multiple choice cloze where students have to choose the correct word from four similar given words.",url4:"https://learnibox.vercel.app/uoe1"},
+            { titulo:"Multiple Choice Cloze Simulation I ",descripcion:"The first part of the Use of English paper in the B2 First Examination is multiple choice cloze where students have to choose the correct word from four similar given words.",url4:"https://learnibox.vercel.app/uoe1"},
 
             { titulo:"Multiple Choice Cloze Simulation II ",descripcion:"The first part of the Use of English paper in the B2 First Examination is multiple choice cloze where students have to choose the correct word from four similar given words.",url4:"https://learnibox.vercel.app/multiplechoice"},
              { titulo:"Open Cloze",descripcion:"The second part of the Use of English paper in the B2 First Examination is open cloze, in which students use one word to fill each space in a short text. The required words are usually grammatical, such as pronouns, articles, prepositions, auxiliary verbs and so on.",url4:"https://learnibox.vercel.app/uoe2"},
 
-            { titulo:"Key Word Transformation Simulation ",descripcion:"The final part of the Use of English paper is Key Word Transformations. A sentence followed by a key word and a second sentence which has a gap in it. A student has to use the key word to complete the second sentence so that it means the same as the first sentence.",url4:"http://learnibox.vercel.app/keysimulation"},
 
             
-            { titulo: "Gapped Text Simulations",descripcion:"A single page of text with some numbered gaps which represent missing sentences. After the text there are some sentences which are not in the right order. Students have to read the text and the sentences and decide which sentence best fits each gap.",url3: "https://drive.google.com/file/d/1W-uiH_VebMKmHmdY2JPzsODDyhJa_ayi/view?usp=sharing",url7:"https://drive.google.com/file/d/1W-uiH_VebMKmHmdY2JPzsODDyhJa_ayi/view?usp=sharing",url8:"http://learnibox.vercel.app/gt" },    
-            { titulo:"Reading Gap Secrets",url: "https://drive.google.com/file/d/1lNpyrE26v78RUX6T9VNWB3yvBuefKYoz/view?usp=sharing"},
-
+          
 
              { titulo:"Real exam Simulation 01 ",url3: "https://learnibox.vercel.app/simulator"},
 
@@ -89,161 +363,60 @@ export const roadB2CF = [
         ],
     },
      {
-        id: 1,
-        thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
-
-        title: "Complete Guide to All English Tense Differences",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 01 ",
-        channel: "sdasd",
-        description: "Entiende como usar cada matiz gramatical",
-        enlaces: [
-         { titulo:"Present Simple ",descripcion:"Aprende a usar el present simple en diferentes contextos ",url:"https://drive.google.com/file/d/1rwleyKN1vwRdZLJuHZXbIB3t88hevTl3/view?usp=sharing",url2: "https://youtu.be/b5KxYRP2I5s"},
-         { titulo:"Present Progressive",descripcion:"Aprende a usar el present progressive en diferentes contextos ",url:"https://drive.google.com/file/d/1Rqx1bzuRRJbjHZnH_iutOhx7oIzQoeut/view?usp=sharing",url2: "https://youtu.be/Nnu6JOaenf0"},
-         { titulo:"Present Simple vs Progressive ",descripcion:"Completa los niveles para dominar estos tiempos ",url4: "https://learnibox.vercel.app/presentsimpleprogressive"},
-         {  titulo:"Past Simple", url: "https://drive.google.com/file/d/1aAwupScFNRFoNArgtm5f_3k5a0Eyfztt/view?usp=sharing"},
-         {  titulo:"Present Perfect", url: "https://drive.google.com/file/d/1Vgvz7c7QrW_FMs5AN70TscKd_z6nh0Pv/view?usp=sharing"},
-         { titulo:"Past Simple vs Present Perfect",descripcion:"Completa los niveles para dominar estos tiempos ",url4: "https://learnibox.vercel.app/pastsimpleperfect"},
-         
-         { titulo: "Past Progressive ",url: "https://drive.google.com/file/d/18QxoihCFpTI0wyWQgr50OZtCdWWNVwqw/view?usp=sharing", },
-         { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1GWFlQ8RvPK7qb3S8HLBhKTlBONeogy0H/view?usp=sharing", },
-         { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/18h8QAkzm5UIzr-TF3DywBw_F-KtkjUYY/view?usp=sharing", },
-         { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1LCS98Vmh3gzPntxzCx5kX_EdackIK0v_/view?usp=sharing", },
-         { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1gxGscWmK3hDwJTXbNQpUEKlWSh_J9VLG/view?usp=sharing", },
-         { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1_3IiO9AC-y6Ks5RZujHdQyaWKKeMO9pu/view?usp=sharing", },
-         { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1Cc3RqGtZefUPxDSohH0Xssr4OSO5uftZ/view?usp=sharing", },
-
-
-        ],
-    },
-      
-       
-   
-    
-     {
-        id: 3,
-        thumbnail: "https://i.ibb.co/v6T66Y2g/DALL-E-2025-02-26-11-53-11-A-dramatic-battle-between-two-warriors-representing-Past-Simple-and-Prese.webp",
-
-        title: "Present Perfect  or Present Perfect Progressive?",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 01 ",
-        channel: "sdasd",
-        description: "Completa los desafíos para dominar el Inglés",
-        enlaces: [
-
-            {  titulo:" Present Perfect Progressive", url: "https://drive.google.com/file/d/1XKmee6Sthrl756nWgoifeDb0D6jrob1e/view?usp=sharing"},
-            {  titulo:" Perfect Simple vs  Perfect Progressive", url: "https://drive.google.com/file/d/1IGrGmE7B44z6YCVSVVSFjWS10CV_mjdC/view?usp=sharing"},
-
-            { titulo: "✍ Past Simple and Present Perfect (Simple and Progressive) ",url: "https://drive.google.com/file/d/10efo7YOPNaICX_E6_DQJsYZ5ctxm2xYQ/view?usp=sharing", },    
-             { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/1D0VK7vPjtlAMOc8WqxQUQn62_F3-uJsa/view?usp=sharing", },            { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/1GWFlQ8RvPK7qb3S8HLBhKTlBONeogy0H/view?usp=sharing", },
-            { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/1jgcxBuSKBZ6LdIQbWXL3_4lJDv4D8QVa/view?usp=sharing", },
-            { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/1jvFbc4GPFUHXIgx0gmbgslQQz7KmIMG0/view?usp=sharing", },
-            { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/1iCSWPTOFu1vGbkEaW6xSPh-Z_-koKr3V/view?usp=sharing", },
-            { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/1uik-f0MFXujPMnbgmOiCIegxSmWAI5qI/view?usp=sharing", },
-            { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/1CyruZuJFKhWpzmNmFQ9H9oigRjqgY0ui/view?usp=sharing", },
-            { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/1i-A68Tl92LNR87MyIWPPTEceTrIlU_hw/view?usp=sharing", },
-            { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/11Jj4BydUErvqumFiFy5goX5pGQkZq9HY/view?usp=sharing", },
-
-            
-        ],
-    },
-    {
-        id: 4,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
-
-        title: "Future Tenses",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 01 ",
-        channel: "sdasd",
-        description: "Completa los desafíos para dominar el Inglés",
-        enlaces: [
-            { titulo: "Future Simple ",url: "https://drive.google.com/file/d/1qv1NHearXkAYne1cH9N0MBc4ikdNtAV-/view?usp=sharing", },    
-
-            { titulo: "✍ Ways of Expressing Future Tense ",url: "https://drive.google.com/file/d/1J6r3JFYzr-U4CzRQihyMcl6uB2Ms7bu0/view?usp=sharing", },    
-            { titulo: "✍  Future Tenses ",url: "https://drive.google.com/file/d/1uQEVuavBgrytYsOTlD3dAg8qZDCtZEa_/view?usp=sharing", },
-            
-           
-
-            
-        ],
-    },
-    {
-        id: 5,
+        id: 2,
         thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
 
-        title: "Phrasal Verbs ",
+        title: "Reading Cambridge ",
         subtitle: "B2/C1",
 
         dateAdded: "Basic 0 ",
         channel: "sdasd",
         description: " ",
         enlaces: [
-            { titulo: "Phrasal Verbs",descripcion:"108 Phrasal Verbs with 3 words",url4:"http://learnibox.vercel.app/108pv"}, 
-            { titulo:"Welcome",descripcion:"Las diferencias en Inglés ",url: "https://drive.google.com/file/d/1VTKLgs-w-Bc-_TPtmNScaaQf0ATs8oCl/view?usp=sharing"},
-            { titulo:" Be on about ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/1i5m5Xo0rahB9re9xsLNJdclpA8FA03jy/view?usp=sharing",url3: "https://drive.google.com/file/d/1JDpCXxAU9ozjBMEA2ouhBQGAJgpliOOc/view?usp=sharing" },
-            { titulo:"📚Watch out for - Look out for.pdf",url: "https://drive.google.com/file/d/1-E-NvIWN5EmPErBDwZSZmoAQZdgC4g4O/view?usp=sharing"},
-            { titulo:"📚ASK FOR - ASK AFTER - ASK ABOUT",url: "https://drive.google.com/file/d/1gkbuIZJ6sRy1jro8NPpOZLKO4p7naizC/view?usp=sharing"},
-            { titulo:"Work Out ",url: "https://drive.google.com/file/d/1h4pzMnsgFmBcpRj1QbPbBDjkJ0J9UYfE/view?usp=sharing",url3:"https://drive.google.com/file/d/14ovf4SmbRkZSWQVh-6Q9cOCousRjCrvZ/view?usp=sharing"},
-            { titulo:"zero in on  ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/18JztqKh0PP18_LPzUKZDJYnRQqip7x3a/view?usp=sharing",url3: "https://drive.google.com/file/d/19y7aXWFScceuArjQNuN7FjpaLPfALo3w/view?usp=sharing" },
-            { titulo:"Shy Away From sth   ",descripcion:"Todos los usos y diferencias",url: "https://drive.google.com/file/d/1LKd3X2Qr8MJ-52QtwBi9f6NR-AWD9anl/view?usp=sharing",url3: "https://drive.google.com/file/d/188wbcEig0wGPF2gscPLlQhF_xayYwKHF/view?usp=sharing" },
-            {titulo: "📒Phrasal verb with Get",url: "https://drive.google.com/file/d/1txaA2U2EMDVKnJ--_UM8YhzDZBaHasDP/view?usp=sharing",},
-            {titulo: "📒Phrasal verb with Take",url: "https://drive.google.com/file/d/1ZkjaNFOku-6MgJSzH_QRRXHoYGm02uLQ/view?usp=sharing",},
-            {titulo: "📒Phrasal verb Get vs Take",url: "https://drive.google.com/file/d/1XyP5ABzwxOESdOwnOucJ_2-3beKDqxwv/view?usp=sharing",},
-            {titulo: "📒Phrasal verb with Up",url: "https://drive.google.com/file/d/1B7kiX_3JXK8jiRYNFkR4IxPqoHCz0J7K/view?usp=sharing",},
-            {titulo: "📒Phrasal verb Dictation",url: "https://drive.google.com/file/d/1Q78yaqJPpqUThoLZ4y5tqPFp-x6eCV8F/view?usp=sharing",},
-      
-      
+           
+            { titulo: "Cambridge B2 Reading",descripcion:"This guide breaks down the structure of the Reading component",url2:"https://youtu.be/E3LtI1q6DSw" },    
+            { titulo: "Gapped Text Simulations",descripcion:"A single page of text with some numbered gaps which represent missing sentences. After the text there are some sentences which are not in the right order. Students have to read the text and the sentences and decide which sentence best fits each gap.",url3: "https://drive.google.com/file/d/1W-uiH_VebMKmHmdY2JPzsODDyhJa_ayi/view?usp=sharing",url7:"https://drive.google.com/file/d/1W-uiH_VebMKmHmdY2JPzsODDyhJa_ayi/view?usp=sharing",url8:"http://learnibox.vercel.app/gt" },    
+            { titulo:"Reading Gap Secrets",url: "https://drive.google.com/file/d/1lNpyrE26v78RUX6T9VNWB3yvBuefKYoz/view?usp=sharing",url2:"https://youtu.be/k7N9CSMcA4w?si=5GRKAG9Refk-Pm5i"},
         ],
     },
     {
-        id: 6,
-        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
+        id: 30,
+        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
 
-        title: "Important Difference",
+        title: "Listening Center",
         subtitle: "B2/C1",
-        dateAdded: "Basic 0 ",
-        channel: "sdasd",
-        description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
-        enlaces: [
-            
-            { titulo:"Usual",descripcion:"Aprende los diferentes usos del usual",url: "https://drive.google.com/file/d/1Iru4Ttn7yf9vwOiUU8XjC6MCB9DPMHA8/view?usp=sharing",url2:"https://youtu.be/OSRAYauWH-I",url3:"https://drive.google.com/file/d/1sugjoNOr6dwEHogTwcKeYHUVbebEBbpX/view?usp=sharing"},
-            { titulo:"Usually",url: "https://drive.google.com/file/d/1IPWIh1B7oYwV4aPRJJKnM-gpZICitsX_/view?usp=sharing",url2:"https://www.youtube.com/watch?v=nYxi8UCraJI&ab_channel=MyEnglishBro"},
-            { titulo:"I think not vs I don't think so. ",url: "https://drive.google.com/file/d/15nnCB3JJRtH1fqqx5TypEptgoRbo5q-P/view?usp=sharing"},
-            { titulo:"Enough and Too ",url: "https://drive.google.com/file/d/1Tcadp5eOdfsHOlCwJWs0iNuphHQO4gYA/view?usp=sharing"},
-         { titulo:"📚Doubt that vs Doubt if",url: "https://drive.google.com/file/d/1qEgnOfM7BoFG1lmMu_xWgNbRlwBTt9X2/view?usp=sharing"},
-          { titulo:"📚[Slide] The fact that  ",url: "https://drive.google.com/file/d/1FSd3Vt3C71C0kujDoy4egxFDy8_ZugZv/view?usp=sharing"},
-          { titulo:"📚the same as - the same that.pdf",url: "https://drive.google.com/file/d/1XxkdYtKE6YyMH3jP93Aog9mXF_l9wu9l/view?usp=sharing"},
-            { titulo:"Leave vs Forget",descripcion:"Diferencias en uso ",url: "https://drive.google.com/file/d/111yc2_YM2otUrY5Zd7x4XMEghsDeVhuq/view?usp=sharing" ,url2: "https://youtu.be/ZuTu0cKrgA4?si=SwLXrU0zQTyxjNDz",url3: "https://drive.google.com/file/d/1lATJkiV8vcDJ21Mu5jPDOjPRkyX_a5qZ/view?usp=sharing",url4:"https://learnibox.vercel.app/gspace",url5:"https://learnibox.vercel.app/enghelp",url6:"https://learnibox.vercel.app/xd"},
-            { titulo:"Continuamente ",descripcion:"Diferencias en uso",url: "https://drive.google.com/file/d/1kENm-lqtM22jiVAej6_Io_IoYFeRDprC/view?usp=sharing",url2: "https://youtu.be/DXCOSUsATsE?si=KXNzdx8qbzOeCMkz",url3: "https://drive.google.com/file/d/17UWJLib-ZYETsEc-rF0p3byGvy24R_kY/view?usp=sharing"},
-            { titulo:"Shout at vs Shout to",descripcion:"Diferencias en uso",url:"https://drive.google.com/file/d/1iisgsGHkBpj0nyGTvwxCiI8_aG3ukcsi/view?usp=sharing" ,url2: "https://youtu.be/QAJVD14o2a8"},
-            { titulo:"Afraid ",descripcion:"Como usarlo",url: "https://drive.google.com/file/d/1X_G4Rvia8Lpu4C5MHXcLx7dXtUnfFsZb/view?usp=sharing"},
-            { titulo:"Afraid to do vs Afraid of doing ",descripcion:"Diferencias claves",url:"https://drive.google.com/file/d/19XX67MnZ-Mf-rmq9pPlYm9GMogYOHQa_/view?usp=sharing",url2: "https://youtu.be/pYaZjZIQBdM",url3: "https://drive.google.com/file/d/1cCllRuslCkOJyqtgAhukNp_eGwN94zre/view?usp=sharing"},
-            { titulo:" Encrucijada de Opciones ",descripcion:"Rather than, Instead of, As opposed to",url: "https://drive.google.com/file/d/13ZK9zCLBTKe73OQNaqvXjK-38ZvaJ8VT/view?usp=sharing",url3: "https://drive.google.com/file/d/1iqoLUXkRQqElYsf7faswD-xSfsSSuR9X/view?usp=sharing"},
-            { titulo:" El Laberinto de la Prevención",descripcion:"Prevent, Stop, Avoid",url: "https://drive.google.com/file/d/1FoSc6244qwfBpG9EDxzX7YkHZTuk6EN8/view?usp=sharing"},
-            { titulo:" El Reto de la Precisión",descripcion:"Differentiate, Distinguish, Discriminate",url: "https://drive.google.com/file/d/1v-uIHL_GseKjuslDEgVGhiTajGCL9CQs/view?usp=sharing"},
-            { titulo:" Profecías del Futuro Cercano ",descripcion:"Immediate Future Expressions",url: "https://drive.google.com/file/d/1mOBysPhkjDIvx1ePzrM-LMnlrsGZuOzb/view?usp=sharing"},
-            { titulo:"Rather than , Instead of . As opposed to",descripcion:"Continually, Continuously, Constantly",url: "https://drive.google.com/file/d/13ZK9zCLBTKe73OQNaqvXjK-38ZvaJ8VT/view?usp=sharing"},
-            { titulo:" Los Límites del Territorio ",descripcion:"As far as, Until, Up to",url: "https://drive.google.com/file/d/16CJjTB0ZPDvQuzpOLMR22R0jK7QCe-c3/view?usp=sharing"},
-            { titulo:" El Secreto del Buen Trabajo ",descripcion:"It's a good job /a good thing/just as well  that",url: "https://drive.google.com/file/d/1vHHH_2VXuIdDf_NSp6Ie9FgvHFB94G92/view?usp=sharing"},
-            { titulo:"Chance of-Chance to... ",url: "https://drive.google.com/file/d/18otkt_PTLMwlZGqs4rBnXRMdhz48xUaS/view?usp=sharing"},
-            { titulo:"feel like (doing) sth vs feel up to (doing) sth",url: "https://drive.google.com/file/d/1yVw8CbCu3FMAUYVJyKj42IoujDRxF1Iv/view?usp=sharing"},
-            { titulo:"Wait ,Await, Expect ",url: "https://drive.google.com/file/d/1C1llJJ8yFX0i5pxSnTMUWPIjmNvISnHB/view?usp=sharing"},
-            { titulo:"Raise vs Rise..",url: "https://drive.google.com/file/d/1K57hHa19p8k36dka59AM7pyFERFxnap2/view?usp=sharing"},
-            { titulo:"sidetrack - distract - put someone off",url: "https://drive.google.com/file/d/1uXbNu9yt24xuTIVk0u60JO0lxdxT9Wt8/view?usp=sharing"},
-            { titulo:"sign vs signal",url: "https://drive.google.com/file/d/1HhFh07shRGd8N9LoKQtuSj21YBq2TCMV/view?usp=sharing"},
-            { titulo:"in the suburbs vs on the outskirts",url: "https://drive.google.com/file/d/1JMop9SCD1WVrMeQiXTFRD0IcsBqD-vjn/view?usp=sharing"},
-            { titulo:"Notice - realize - be aware",url: "https://drive.google.com/file/d/1ZUCrPpie-3e4GKFt5xuyqDXvdF4EwQ1P/view?usp=sharing"},
-            { titulo:"TIME vs MOMENT",url: "https://drive.google.com/file/d/1DLFl-bn78Abyr-UQYLh9LN2J45t9UO8Q/view?usp=sharing"},
-            { titulo:"Trust ,Distrust ,Entrust ",url: "https://drive.google.com/file/d/1gC2SLjM0tML-TVWLjl6a4V6wHYYkokbp/view?usp=sharing"},
-            { titulo:"📚In the (short/medium /long) term / in the (short/long)run ",url: "https://drive.google.com/file/d/1OLnc9y-xWYZeoPXocHl4T0Hlow-W7-Jf/view?usp=sharing"},
 
+        dateAdded: "B2/C1",
+        channel: "sdasd",
+        description: "Mejora tus habilidades de comprensión auditiva con este curso que te ayudará a entender a hablantes nativos en diferentes situaciones y acentos, fortaleciendo tu confianza al escuchar y comprender el idioma.",
+        enlaces: [
+            { titulo: "Cambridge B2 Listening",descripcion:"This Advanced Strategic Guide will teach you how to approach each task like a listening detective",url2:"https://youtu.be/w6bEgODSNVc" },    
+
+            { titulo: "Listening Test 01", url: "https://drive.google.com/file/d/1D5AdAH1i9YgRKAPjt1hTCTFbZNSzb7mZ/view?usp=sharing" },
+            { titulo: "Listening Test 02", url: "https://drive.google.com/file/d/15L0kGEMCnG64fOmwEyHI26fvKXDsRxjj/view?usp=sharing" },
+            { titulo: "Listening Test 03", url: "https://drive.google.com/file/d/1MDFFBQWUYZIfHR1Sq8uh7NwUFeEbLabk/view?usp=sharing" },
+            { titulo: "Listening Test 04", url: "https://drive.google.com/file/d/1XtMuAyPYc_eOO1ZM5xuPnKZlw8fci5MF/view?usp=sharing" },
+            { titulo: "Listening Test 05", url: "https://drive.google.com/file/d/1gbY6fJBvFXn-L3qs_wgK_hvYCIhbfcWJ/view?usp=sharing" },
+            { titulo: "Listening Test 06", url: "https://drive.google.com/file/d/1nmFFhMgNcZSmkpYe1PqHQ2lMeIdgghEQ/view?usp=sharing" },
+            { titulo: "Listening Test 07", url: "https://drive.google.com/file/d/1C7B6D6Z_e-k9ugmEojOGuVtvmSHe2ojS/view?usp=sharing" },
+
+            { titulo: "🦻Listening Trainer 01", url: "https://drive.google.com/file/d/1MKkEnM6ABu8UmYtqmWdG6wEFbPnNHwIq/view?usp=sharing" },
+            { titulo: "🦻Listening B2 TEST 01", url: "https://drive.google.com/file/d/1zLZ9sYxQ9BLNEtLF391_VhItr8mrmCBX/view?usp=sharing" },
+
+            {
+                titulo: "🖥️[Video] Listening  Trainer 01",
+                url: "https://drive.google.com/file/d/16rLz8vX-25nVKvO2y7_HIJ2j2Ay_-XL_/view?usp=sharing",
+            }
+            
+    
         ],
     },
+    
+     
+    
+   
     {
-        id: 3,
+        id: 8,
         thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
 
         title: "Key Word Transformation",
@@ -253,7 +426,9 @@ export const roadB2CF = [
         channel: "sdasd",
         description: "Aprenderemos conceptos clave de gramática, enfocándonos en la comprensión y aplicación de reglas gramaticales fundamentales para mejorar la precisión y fluidez en el uso del idioma. ",
         enlaces: [
-            { titulo:"Ebook ",descripcion:"Versión digital v.001",url:"https://drive.google.com/file/d/12-I0FaAIz-w2-wjfV5s8TkbIEwwSZCIm/view?usp=sharing"},
+                        { titulo:"Key Word Transformation Simulation ",descripcion:"The final part of the Use of English paper is Key Word Transformations. A sentence followed by a key word and a second sentence which has a gap in it. A student has to use the key word to complete the second sentence so that it means the same as the first sentence.",url4:"http://learnibox.vercel.app/keysimulation",url2:"https://youtu.be/fNDbieMpL-s?si=2MP6qGMEikEqVPCT"},
+
+            { titulo:"Ebook ",descripcion:"Versión digital v.001",url:"https://drive.google.com/file/d/12-I0FaAIz-w2-wjfV5s8TkbIEwwSZCIm/view?usp=sharing",url2:"https://youtu.be/Hdy-7Tnr6S0?si=RWUmRuDyslqwcJ8V"},
 
               { titulo:"Key Word Transformation ",descripcion:"The final part of the Use of English paper is Key Word Transformations. A sentence followed by a key word and a second sentence which has a gap in it. A student has to use the key word to complete the second sentence so that it means the same as the first sentence.",url: "https://drive.google.com/file/d/1fzxVyBLvMHRwzfHTGLgYapKOXasOXv0m/view?usp=sharing",url3:"https://drive.google.com/file/d/1SlBZ6S1G4Jk_fMSC9kPJRa_XY_GuJfRN/view?usp=sharing",url7:"http://learnibox.vercel.app/kwt"},
  { titulo:"50 Key Word Transformation DAY 01  ",url: "https://drive.google.com/file/d/1shC9iwswMYoymUEiJ8H1s8b9ngvp8gdB/view?usp=sharing" ,url2:"https://youtu.be/c-8ZhXBLThg"},
@@ -284,7 +459,7 @@ export const roadB2CF = [
     },
     
      {
-        id: 8,
+        id: 9,
         thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
         title: " Mastering Verbs",
         subtitle: "Basic Level",
@@ -304,32 +479,12 @@ export const roadB2CF = [
         ],
     },
     
-     {
-        id: 6,
-        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
-        title: "Passive Voice",
-        subtitle: "Passive Voice",
-
-        dateAdded: "Basic 0 ",
-        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
-        description: "We will learn to introduce ourselves, spell names and words, describe people, introduce family members, and provide personal information.",
-        enlaces: [
-          { titulo:"Passive Voice Quizz ",descripcion:"Practice this with more than 200 exercises",url: "https://youtu.be/Hk1y2D9jbvQ",url3: "https://drive.google.com/file/d/1eiZnSoOK7R8yvCZGyBtegOXcZwsmQTCS/view?usp=sharing",url5:"https://learnibox.vercel.app/sixtytype"},
-
-            { titulo: "✍ PA001 - Passive Voice - Sentence Building",url: "https://drive.google.com/file/d/1dnTe8P1YghBdXX-241IbAgBwY4Q906_R/view?usp=sharing", },
-            { titulo: "✍ PA006 - Passive Voice - Make sentences using the tenses in brackets ",url: "https://drive.google.com/file/d/12WGBkRNI1TTH3LYZiDrLCn0XjIWoeIbQ/view?usp=sharing", },
-            { titulo: "✍ PA009 - Active and Passive Voice ",url: "https://drive.google.com/file/d/1hMKF8FFuuZJCcr8g-Uaky3fEdyRsj4B2/view?usp=sharing", }, 
-            { titulo: "✍ PA015 - Verb Tenses - Active or Passive Voice ",url: "https://drive.google.com/file/d/1J0928j_2Em_fLeSLqpxOImWcfcCCQv2L/view?usp=sharing", },
-            { titulo: "✍ PA016 - A Local Sports Centre - Passive Voice ",url: "https://drive.google.com/file/d/1UZQPDIEmqOl0POB7gzbSnZo0zO6W9vzo/view?usp=sharing", },
-
-            
-        ],
-    }
+    
     
     
      ,
     {
-        id: 1,
+        id: 11,
         thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
 
         title: "Prepositions in Use",
@@ -365,7 +520,7 @@ export const roadB2CF = [
         ],
     },
       {
-        id: 15,
+        id: 12,
         thumbnail:"https://i.ibb.co/5WQ17W7D/file-Fg6-EG7bvr-Nig-Ee3-S7m-XCfd.png",
 
         title: "Writing",
@@ -432,10 +587,32 @@ export const roadB2CF = [
     },
     
     
-    
+     {
+        id: 10,
+        thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
+        title: "Passive Voice",
+        subtitle: "Passive Voice",
+
+        dateAdded: "Basic 0 ",
+        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
+        description: "We will learn to introduce ourselves, spell names and words, describe people, introduce family members, and provide personal information.",
+        enlaces: [
+           { titulo:"The Passive Voice in English",descripcion:"This comprehensive guide will show you exactly how to form and use the passive voice in all tenses, with clear explanations and practical examples.",url2: "https://youtu.be/wLfAGSGAbqs"},
+
+          { titulo:"Passive Voice Quizz ",descripcion:"Practice this with more than 200 exercises",url: "https://youtu.be/Hk1y2D9jbvQ",url3: "https://drive.google.com/file/d/1eiZnSoOK7R8yvCZGyBtegOXcZwsmQTCS/view?usp=sharing",url5:"https://learnibox.vercel.app/sixtytype"},
+
+            { titulo: "✍ PA001 - Passive Voice - Sentence Building",url: "https://drive.google.com/file/d/1dnTe8P1YghBdXX-241IbAgBwY4Q906_R/view?usp=sharing", },
+            { titulo: "✍ PA006 - Passive Voice - Make sentences using the tenses in brackets ",url: "https://drive.google.com/file/d/12WGBkRNI1TTH3LYZiDrLCn0XjIWoeIbQ/view?usp=sharing", },
+            { titulo: "✍ PA009 - Active and Passive Voice ",url: "https://drive.google.com/file/d/1hMKF8FFuuZJCcr8g-Uaky3fEdyRsj4B2/view?usp=sharing", }, 
+            { titulo: "✍ PA015 - Verb Tenses - Active or Passive Voice ",url: "https://drive.google.com/file/d/1J0928j_2Em_fLeSLqpxOImWcfcCCQv2L/view?usp=sharing", },
+            { titulo: "✍ PA016 - A Local Sports Centre - Passive Voice ",url: "https://drive.google.com/file/d/1UZQPDIEmqOl0POB7gzbSnZo0zO6W9vzo/view?usp=sharing", },
+
+            
+        ],
+    },
 
     {
-        id: 5,
+        id: 13,
         thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
         title: "Recursos Descargables",
         subtitle: "B2/C1",
@@ -458,7 +635,7 @@ export const roadB2CF = [
   
  
     {
-        id: 4,
+        id: 14,
         thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
 
         title: "Real English Grammar",
@@ -468,7 +645,6 @@ export const roadB2CF = [
         channel: "sdasd",
         description: "Completa los desafíos para dominar el Inglés",
         enlaces: [
-            {  titulo:"[📑 Tense Infographic ", url: "https://drive.google.com/file/d/1Mxxxxi0x13HrO5EvSECowdaRF0Vg9fIK/view?usp=sharing"},
 
             { titulo:"Saxon genitive",url: "https://drive.google.com/file/d/1vRBsRnPMX_9m_wNUkAvs2phvuR8DYHqD/view?usp=sharing",url3:"https://drive.google.com/file/d/18PItis9izfn8oMa-2V91VTX3SQq9W2Tq/view?usp=sharing"},
             { titulo:"Saxon vs Of",url: "https://drive.google.com/file/d/1LeR_MDZFr_BJhZ3fu16vg6eUuvUQri3o/view?usp=sharing"},
@@ -485,7 +661,7 @@ export const roadB2CF = [
         ],
     },
     {
-        id: 2,
+        id: 15,
         thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
         title: "Real Grammar in use 02",
         subtitle: "B2/C1",
@@ -498,7 +674,6 @@ export const roadB2CF = [
             { titulo:"📚no good vs not good.pdf",url: "https://drive.google.com/file/d/1-5MHEN322Xi2xUYpDWYU115P2NXYQzdr/view?usp=sharing"},
             { titulo:"📚[ppt] Used to/ be used to / get used to   ",url: "https://drive.google.com/file/d/1t9c1CP7VuTePAYy00qC3r85qRNoBM-7v/view?usp=sharing"},
             { titulo:"📚MADE (OF, OUT OF, UP OF, FROM, WITH).pdf ",url: "https://drive.google.com/file/d/1-Mw6MXOBx3V6D0WvlN1l3Hn6XGBTrolK/view?usp=sharing"},
-            { titulo:"📚Make the most, Make the best, Get the better...pdf ",url: "https://drive.google.com/file/d/1pQvtcWZpqNw-8sWDfAST6b0DfqpubGz1/view?usp=sharing"},
             { titulo:"📚CERTAINTY and Possibility.pdf ",url: "https://drive.google.com/file/d/1mm_5Vu6RvtWArxSLoK5sXT3cR5XVzWWJ/view?usp=sharing"},
             { titulo:"📚MORE vs ELSE.pdf ",url: "https://drive.google.com/file/d/1vcmTTeSYW8DsLahQRM_WCGG-PYdeRmET/view?usp=sharing"},
             { titulo:"📚MOST OF ALL...pdf ",url: "https://drive.google.com/file/d/1q9UddjPgJnivJ3jw1O4YUeFZQB38brVl/view?usp=sharing"},
@@ -506,13 +681,35 @@ export const roadB2CF = [
             { titulo:"📚Not only... but also...(structure)",url: "https://drive.google.com/file/d/1oXgZlGy5JdqxtVyzTQ-hiAfeyWadDkpG/view?usp=sharing"},
             { titulo:"Despite & In spite of",url: "https://drive.google.com/file/d/1Mz8VnETibHBD0ID3hanTfrNS66xHU6_h/view?usp=sharing"},
             { titulo:"Hope ",url: "https://drive.google.com/file/d/1TcYDUgDV2y6dJcIJRToStpzojqNYu0iB/view?usp=sharing"},
-
+  { titulo:"Usual",descripcion:"Aprende los diferentes usos del usual",url: "https://drive.google.com/file/d/1Iru4Ttn7yf9vwOiUU8XjC6MCB9DPMHA8/view?usp=sharing",url2:"https://youtu.be/OSRAYauWH-I",url3:"https://drive.google.com/file/d/1sugjoNOr6dwEHogTwcKeYHUVbebEBbpX/view?usp=sharing"},
+            { titulo:"Usually",url: "https://drive.google.com/file/d/1IPWIh1B7oYwV4aPRJJKnM-gpZICitsX_/view?usp=sharing",url2:"https://www.youtube.com/watch?v=nYxi8UCraJI&ab_channel=MyEnglishBro"},
+            { titulo:"I think not vs I don't think so. ",url: "https://drive.google.com/file/d/15nnCB3JJRtH1fqqx5TypEptgoRbo5q-P/view?usp=sharing"},
+          { titulo:"📚the same as - the same that.pdf",url: "https://drive.google.com/file/d/1XxkdYtKE6YyMH3jP93Aog9mXF_l9wu9l/view?usp=sharing"},
+            { titulo:"Leave vs Forget",descripcion:"Diferencias en uso ",url: "https://drive.google.com/file/d/111yc2_YM2otUrY5Zd7x4XMEghsDeVhuq/view?usp=sharing" ,url2: "https://youtu.be/ZuTu0cKrgA4?si=SwLXrU0zQTyxjNDz",url3: "https://drive.google.com/file/d/1lATJkiV8vcDJ21Mu5jPDOjPRkyX_a5qZ/view?usp=sharing",url4:"https://learnibox.vercel.app/gspace",url5:"https://learnibox.vercel.app/enghelp",url6:"https://learnibox.vercel.app/xd"},
+            { titulo:"Continuamente ",descripcion:"Diferencias en uso",url: "https://drive.google.com/file/d/1kENm-lqtM22jiVAej6_Io_IoYFeRDprC/view?usp=sharing",url2: "https://youtu.be/DXCOSUsATsE?si=KXNzdx8qbzOeCMkz",url3: "https://drive.google.com/file/d/17UWJLib-ZYETsEc-rF0p3byGvy24R_kY/view?usp=sharing"},
+            { titulo:"Shout at vs Shout to",descripcion:"Diferencias en uso",url:"https://drive.google.com/file/d/1iisgsGHkBpj0nyGTvwxCiI8_aG3ukcsi/view?usp=sharing" ,url2: "https://youtu.be/QAJVD14o2a8"},
+            { titulo:"Afraid ",descripcion:"Como usarlo",url: "https://drive.google.com/file/d/1X_G4Rvia8Lpu4C5MHXcLx7dXtUnfFsZb/view?usp=sharing"},
+            { titulo:"Afraid to do vs Afraid of doing ",descripcion:"Diferencias claves",url:"https://drive.google.com/file/d/19XX67MnZ-Mf-rmq9pPlYm9GMogYOHQa_/view?usp=sharing",url2: "https://youtu.be/pYaZjZIQBdM",url3: "https://drive.google.com/file/d/1cCllRuslCkOJyqtgAhukNp_eGwN94zre/view?usp=sharing"},
+            { titulo:" Encrucijada de Opciones ",descripcion:"Rather than, Instead of, As opposed to",url: "https://drive.google.com/file/d/13ZK9zCLBTKe73OQNaqvXjK-38ZvaJ8VT/view?usp=sharing",url3: "https://drive.google.com/file/d/1iqoLUXkRQqElYsf7faswD-xSfsSSuR9X/view?usp=sharing"},
+            { titulo:" El Laberinto de la Prevención",descripcion:"Prevent, Stop, Avoid",url: "https://drive.google.com/file/d/1FoSc6244qwfBpG9EDxzX7YkHZTuk6EN8/view?usp=sharing"},
+            { titulo:" El Reto de la Precisión",descripcion:"Differentiate, Distinguish, Discriminate",url: "https://drive.google.com/file/d/1v-uIHL_GseKjuslDEgVGhiTajGCL9CQs/view?usp=sharing"},
+            { titulo:" Profecías del Futuro Cercano ",descripcion:"Immediate Future Expressions",url: "https://drive.google.com/file/d/1mOBysPhkjDIvx1ePzrM-LMnlrsGZuOzb/view?usp=sharing"},
+            { titulo:"Rather than , Instead of . As opposed to",descripcion:"Continually, Continuously, Constantly",url: "https://drive.google.com/file/d/13ZK9zCLBTKe73OQNaqvXjK-38ZvaJ8VT/view?usp=sharing"},
+            { titulo:" El Secreto del Buen Trabajo ",descripcion:"It's a good job /a good thing/just as well  that",url: "https://drive.google.com/file/d/1vHHH_2VXuIdDf_NSp6Ie9FgvHFB94G92/view?usp=sharing"},
+            { titulo:"Chance of-Chance to... ",url: "https://drive.google.com/file/d/18otkt_PTLMwlZGqs4rBnXRMdhz48xUaS/view?usp=sharing"},
+            { titulo:"feel like (doing) sth vs feel up to (doing) sth",url: "https://drive.google.com/file/d/1yVw8CbCu3FMAUYVJyKj42IoujDRxF1Iv/view?usp=sharing"},
+            { titulo:"Wait ,Await, Expect ",url: "https://drive.google.com/file/d/1C1llJJ8yFX0i5pxSnTMUWPIjmNvISnHB/view?usp=sharing"},
+            { titulo:"sidetrack - distract - put someone off",url: "https://drive.google.com/file/d/1uXbNu9yt24xuTIVk0u60JO0lxdxT9Wt8/view?usp=sharing"},
+            { titulo:"sign vs signal",url: "https://drive.google.com/file/d/1HhFh07shRGd8N9LoKQtuSj21YBq2TCMV/view?usp=sharing"},
+            { titulo:"Notice - realize - be aware",url: "https://drive.google.com/file/d/1ZUCrPpie-3e4GKFt5xuyqDXvdF4EwQ1P/view?usp=sharing"},
+            { titulo:"Trust ,Distrust ,Entrust ",url: "https://drive.google.com/file/d/1gC2SLjM0tML-TVWLjl6a4V6wHYYkokbp/view?usp=sharing"},
+            { titulo:"📚In the (short/medium /long) term / in the (short/long)run ",url: "https://drive.google.com/file/d/1OLnc9y-xWYZeoPXocHl4T0Hlow-W7-Jf/view?usp=sharing"},
         ],
     },
     
     
     {
-        id: 5,
+        id: 16,
         thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
 
         title: "Connectives & Linking ",
@@ -534,7 +731,7 @@ export const roadB2CF = [
     
     
     {
-        id: 0,
+        id: 17,
         thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
         title: "B2 Bootcamp ",
         subtitle: "B2/C1",
@@ -577,7 +774,7 @@ export const roadB2CF = [
     },
 
     {
-        id: 2,
+        id: 18,
         thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
 
 
@@ -598,7 +795,7 @@ export const roadB2CF = [
             
     },
     {
-        id: 3,
+        id: 19,
         thumbnail:"https://i.ibb.co/fdvHb0wg/file-Fg-Ck-CXPth2-Nv-VVv4mnbaiq.png",
 
         title: "IELTS Band 5",
@@ -623,7 +820,7 @@ export const roadB2CF = [
    
    
     {
-        id: 5,
+        id: 20,
         thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
 
         title: "Essential Grammar ",
@@ -646,7 +843,6 @@ export const roadB2CF = [
             { titulo:"📚cannot vs can not",url: "https://drive.google.com/file/d/1CXcCzrtdDif6iBEi75d_9CFxIE6847Q4/view?usp=sharing"},
             { titulo:"📚CAUSATIVE VERBS (have - get) ",url: "https://drive.google.com/file/d/1-PErCarKwe61HtSAbgx2wtJapHkBM9bp/view?usp=sharing"},
             { titulo:"📚Table CAUSATIVE VERBS (have - get) ",url: "https://drive.google.com/file/d/1NoE0tUIpAlHgGNHc1xBIi_YFIyoBax15/view?usp=sharing"},
-            { titulo:"📚CLEFT SENTENCES (TABLE) ",url: "https://drive.google.com/file/d/13-JhSbUYrCntdTi5t097wDYyeUmJH-g1/view?usp=sharing"},
             { titulo:"📚Consist in vs Consist of.. ",url: "https://drive.google.com/file/d/1F-XK5pIbsWwlOIDU-XfXpEVATQdlTggq/view?usp=sharing"},
             { titulo:"📚CORRELATIVE CONJUNCTIONS",url: "https://drive.google.com/file/d/16ud5EPb-q127g3tRlHKoV_Pk5HKpLoh8/view?usp=sharing"},
             { titulo:"📚DECISIONS, PLANS, PREDICTIONS",url: "https://drive.google.com/file/d/1LirHWCiSSatbjAv8q1ItdX32fnY2Tk8c/view?usp=sharing"},
@@ -730,7 +926,7 @@ export const roadB2CF = [
    
     
     {
-        id: 5,
+        id: 21,
         thumbnail: "https://i.ibb.co/vCS8bknP/DALL-E-2025-03-14-10-37-22-A-formidable-warrior-representing-the-challenge-of-mastering-English-voca.webp",
 
         title: "Vocabulary",
@@ -751,7 +947,7 @@ export const roadB2CF = [
     },
     
     {
-        id: 3,
+        id: 22,
         thumbnail: "https://i.ibb.co/chjzRzhM/DALL-E-2025-03-03-10-26-54-A-high-quality-digital-illustration-of-a-young-warrior-student-advancing.webp",
 
         title: "Week 02",
@@ -777,29 +973,9 @@ export const roadB2CF = [
             { titulo:"Be up TO & FOR",url: "https://drive.google.com/file/d/1xzD1SJQbZJ1aAxkM0jljNOAE2tPD_FYz/view?usp=sharing"},
         ],
     },
+    
     {
-        id: 4,
-        thumbnail: "https://i.ibb.co/4CTCgND/DALL-E-2025-03-03-10-24-24-A-high-quality-digital-illustration-of-a-young-warrior-student-battling-t.webp",
-
-        title: "Test Center 02",
-        subtitle: "B2/C1",
-        code:"iolasa",
-
-        dateAdded: "Basic 01 ",
-        channel: "sdasd",
-        description: "Completa los desafíos para dominar el Inglés",
-        enlaces: [
-            { titulo:"Solucionario Codigo",url: "https://drive.google.com/file/d/1h_GmZKkaqKgs3BGwUmpQWsf631u2MnFs/view?usp=sharing"},
-
-            { titulo:"Examen Saxon genitive",url: "https://drive.google.com/file/d/1lauthcKfiGkFEhUQMq3hjpQlJAvBfl1n/view?usp=sharing"},
-            { titulo:"Examen de Interpretacion",url: "https://drive.google.com/file/d/1ZlLgABkb88_3qDLHlrTYOpHCUCTouVbz/view?usp=sharing"},
-        ],
-    },
-
-
-   
-    {
-        id: 0,
+        id: 24,
         thumbnail:"https://i.ibb.co/C3pnhgt6/file-N3-Gw1-XXR7w-Wr-Wom-Bj-Xy-Mgg.png",
         title: "IELTS Band 6 ",
         subtitle: "B2/C1",
@@ -825,7 +1001,7 @@ export const roadB2CF = [
    
    
     {
-        id: 0,
+        id: 25,
         thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
         title: "Recordings 2024",
         subtitle: "B2/C1",
@@ -866,7 +1042,7 @@ export const roadB2CF = [
             
     },
     {
-        id: 1,
+        id: 26,
         thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
 
 
@@ -888,7 +1064,7 @@ export const roadB2CF = [
             
     },
     {
-        id: 1,
+        id: 27,
         thumbnail:"https://i.ibb.co/PGdF1Pw/Dise-o-sin-t-tulo-7.png",
 
         title: "Recording IELTS 2024",
@@ -909,7 +1085,7 @@ export const roadB2CF = [
             
     },
     {
-        id: 1,
+        id: 28,
         thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
 
         title: " English Expressions",
@@ -933,138 +1109,13 @@ export const roadB2CF = [
     },
     
     
-    {
-        id: 13,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
-
-        title: "Speaking Center",
-        subtitle: "B2/C1",
-        color: "#8F2BBC",
-
-
-        dateAdded: "Basic 01 ",
-        channel: "sdasd",
-        description: "Aprende a hablar como un hablante nativo enfocándote en la pronunciación, entonación y expresiones idiomáticas para mejorar tu fluidez y naturalidad al hablar.",
-        enlaces: [
-           { titulo:"USEFUL PHRASES I",url: "https://drive.google.com/file/d/1dk9Et3VSG60L6DcFkxAMT-xM2CTtbXe4/view?usp=sharing"},
-
-                    { titulo:"USEFUL PHRASES II",url: "https://drive.google.com/file/d/1jyUmrJVnuw7QOxq7Pvbl9CQRJXdwFkL1/view?usp=sharing"},
-            {
-                titulo: "🖥️[Video] Episodem  Website",
-                url: "https://www.youtube.com/watch?v=9dt6WOuoXos",
-            },
-                        { titulo:"📚[pdf] B2 First Speaking Overview  ",url: "https://drive.google.com/file/d/1QJ_hjTeJIBEb01q5q7L-UeVwwK2sW0Wg/view?usp=sharing"},
-
-            {
-                titulo: "🖥️[Video] B2 Speaking Simulation 01",
-                url: "https://drive.google.com/file/d/1QhvhLsCjF6V1BaYqpSd3cV9lgNuOCw_h/view?usp=sharing",
-            },
-            {
-                titulo: "🖥️[Video] B2 Speaking Simulation 02",
-                url: "https://drive.google.com/file/d/1h-s_T2_bFtZngCACYPMKw4U1V4mB6Ove/view?usp=sharing",
-            },
-            {
-                titulo: "🖥️[Video] B2 Speaking Simulation 03",
-                url: "https://drive.google.com/file/d/1vm6K2C5j061v2IneytvApO-r9tCdd3KS/view?usp=sharing",
-            },
-            {
-                titulo: "🖥️[Video] B2 Speaking Simulation 04",
-                url: "https://drive.google.com/file/d/1dGhBsbgRejXuovsdRie-bae23WpeY4V6/view?usp=sharing",
-            },
-            {
-                titulo: "🖥️[Video] B2 Speaking Simulation 05",
-                url: "https://drive.google.com/file/d/1ItqYXZB6Dc19PdmaB67E-9EZyAyfrl9y/view?usp=sharing",
-            },
-            {
-                titulo: "🖥️[Video] Speaking Trainer 01",
-                url: "https://drive.google.com/file/d/1n-sf1L6DJZKdj0GSGV2zlPlaYI4WhJQ9/view?usp=sharing",
-            },
-            {
-                titulo: "🖥️[Video] Speaking Trainer 02",
-                url: "https://drive.google.com/file/d/1Jiwqspyx05GE1Br1tTir8j-xWm1_-VbG/view?usp=sharing",
-            },
-              
-            {  titulo:" Bloque 01 ", url: "https://drive.google.com/file/d/1S8x1T_F486L1hYbyPdTeL4rvx-uQXGEt/view?usp=sharing  "},
-
-            {  titulo:" Bloque 02 ", url: " https://drive.google.com/file/d/1CA7Ub9WI-QKTBXhZI2S6yBrQV5gez1Jy/view?usp=sharing "},
-            {  titulo:" Bloque 03 ", url: " https://drive.google.com/file/d/1ETAjorHO8WFszYjEi6b_G6e8FM4i6y6N/view?usp=sharing "},
-            {  titulo:" Bloque 04 ", url: " https://drive.google.com/file/d/1uvJn25j4BA2gtkdvJZ5qvdY9GZs9Th0_/view?usp=sharing "},
-            {
-                titulo: "🎯[Activity] speaking Part 1",
-                url: "https://wordwall.net/play/519/287/727",
-            },
-            {
-                titulo: "📒[pdf] Linking Words | B2 First (FCE)",
-                url: "https://drive.google.com/file/d/1l7NLEB9G7uwaXkRONIKNJE7BjucKC_pC/view?usp=sharing",
-            },
-            {
-                titulo: "📒[pdf] 10 Preguntas de examen – Speaking Parte 1 (Entrevista) | B2 First (FCE)",
-                url: "https://drive.google.com/file/d/1Oe2kqUUQnetTzjYCcia8mx2IrPEurE92/view?usp=sharing",
-            },
-            {
-                titulo: "📒[pdf] Speaking Explanation",
-                url: "https://drive.google.com/file/d/1lQkT1_qz3fPUBqcysqdvxvi6bNtOmXab/view?usp=sharing",
-            },
-            {
-                titulo: "📒[pdf] Speaking Part 1 - Useful Phrases",
-                url: "https://drive.google.com/file/d/1Fty0C6H85HUHEJBG0KzAAOGK5a6FVMgz/view?usp=sharing",
-            },
-            {
-                titulo: "📒[pdf] Speaking Part 2 - Useful Phrases",
-                url: "https://drive.google.com/file/d/1vHp3IrV3Wiz1a2m8_GdbdIl3ITc4sf2e/view?usp=sharing",
-            },
-            {
-                titulo: "📒[pdf] Speaking Part 3 - Useful Phrases",
-                url: "https://drive.google.com/file/d/19HB0czJM2-XZZBuKr3FXHNAn8jP941DF/view?usp=sharing",
-            },
-            {
-                titulo: "📒[pdf] Speaking Part 4 - Useful Phrases",
-                url: "https://drive.google.com/file/d/1ZmLmEIS1vnRPbZD9D20vFkEJPpoE9jbm/view?usp=sharing",
-            },
-            {
-                titulo: "📒Mistakes at First ",
-                url: "https://drive.google.com/file/d/1GqRFqwYpNz2b52QJIJ9-RIGKOxkEV5HS/view?usp=sharing",
-            }
-            
-            
-        ],
-    },
    
-    {
-        id: 14,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
-
-        title: "Listening Center",
-        subtitle: "B2/C1",
-
-        dateAdded: "B2/C1",
-        channel: "sdasd",
-        description: "Mejora tus habilidades de comprensión auditiva con este curso que te ayudará a entender a hablantes nativos en diferentes situaciones y acentos, fortaleciendo tu confianza al escuchar y comprender el idioma.",
-        enlaces: [
-            { titulo: "Listening Test 01", url: "https://drive.google.com/file/d/1D5AdAH1i9YgRKAPjt1hTCTFbZNSzb7mZ/view?usp=sharing" },
-            { titulo: "Listening Test 02", url: "https://drive.google.com/file/d/15L0kGEMCnG64fOmwEyHI26fvKXDsRxjj/view?usp=sharing" },
-            { titulo: "Listening Test 03", url: "https://drive.google.com/file/d/1MDFFBQWUYZIfHR1Sq8uh7NwUFeEbLabk/view?usp=sharing" },
-            { titulo: "Listening Test 04", url: "https://drive.google.com/file/d/1XtMuAyPYc_eOO1ZM5xuPnKZlw8fci5MF/view?usp=sharing" },
-            { titulo: "Listening Test 05", url: "https://drive.google.com/file/d/1gbY6fJBvFXn-L3qs_wgK_hvYCIhbfcWJ/view?usp=sharing" },
-            { titulo: "Listening Test 06", url: "https://drive.google.com/file/d/1nmFFhMgNcZSmkpYe1PqHQ2lMeIdgghEQ/view?usp=sharing" },
-            { titulo: "Listening Test 07", url: "https://drive.google.com/file/d/1C7B6D6Z_e-k9ugmEojOGuVtvmSHe2ojS/view?usp=sharing" },
-
-            { titulo: "🦻Listening Trainer 01", url: "https://drive.google.com/file/d/1MKkEnM6ABu8UmYtqmWdG6wEFbPnNHwIq/view?usp=sharing" },
-            { titulo: "🦻Listening B2 TEST 01", url: "https://drive.google.com/file/d/1zLZ9sYxQ9BLNEtLF391_VhItr8mrmCBX/view?usp=sharing" },
-
-            {
-                titulo: "🖥️[Video] Listening  Trainer 01",
-                url: "https://drive.google.com/file/d/16rLz8vX-25nVKvO2y7_HIJ2j2Ay_-XL_/view?usp=sharing",
-            }
-            
-    
-        ],
-    },
+   
     
     
    
     {
-        id: 19,
+        id: 31,
         thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
 
         title: "M4 - Relative Clauses I",
@@ -1114,7 +1165,7 @@ export const roadB2CF = [
     
    
     {
-        id: 16,
+        id: 32,
         thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
 
         title: "Building Vocabulary",
@@ -1138,7 +1189,7 @@ export const roadB2CF = [
         ],
     },
     {
-        id: 17,
+        id: 33,
         thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
 
         title: "Inglés con Anime",
@@ -1161,7 +1212,7 @@ export const roadB2CF = [
 
         ],
     },{
-        id: 21,
+        id: 34,
         thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
 
         title: "If-Clauses",
@@ -1190,7 +1241,7 @@ export const roadB2CF = [
     }
     , 
     {
-        id: 26,
+        id: 35,
         thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
 
         title: "TOEFL - Grammar",
@@ -1236,7 +1287,7 @@ export const roadB2CF = [
         ],
     },
     {
-        id: 26,
+        id: 36,
         thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
 
         title: "Finalizacion del Curso",

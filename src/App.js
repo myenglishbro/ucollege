@@ -33,8 +33,6 @@ import RoadMapC1 from "./pages/RoadMapC1";
 import Team from "./pages/Team";
 import MebLanding from "./pages/myenglishbro/MebLanding";
 import IPJLanding from "./pages/inglesconelprofejuan/IPJLanding";
-import Bilingualwill from "./pages/bilingualwill/Bilingualwill";
-import RoadMapB from "./pages/bilingualwill/Rutas/RoadMapB";
 import CambridgeExam from "./pages/CambridgeExam";
 import Certificate from "./pages/Certificate";
 import RoadMapC2 from "./pages/RoadMapC2";
@@ -183,7 +181,6 @@ function App() {
                   <Route path="/readingencriptador" element={<ReadingEn  />}></Route>
 
           <Route path="/Plataforma" element={<InicioJuan />}></Route>
-          <Route path="/PlataformaB" element={<RoadMapB />}></Route>
 
         
         
@@ -215,7 +212,6 @@ function App() {
           <Route path="/Myenglishbro" element={<MebLanding />}></Route>
           <Route path="/Inglesconelprofejuan" element={<IPJLanding/>}></Route>
 
-          <Route path="/Bilingualwill2" element={<Bilingualwill/>}></Route>
 
           
           
