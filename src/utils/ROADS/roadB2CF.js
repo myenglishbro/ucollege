@@ -176,7 +176,7 @@ export const roadB2CF = [
             { titulo:"Make the most/ the best, Get the better ",url: "https://drive.google.com/file/d/1pQvtcWZpqNw-8sWDfAST6b0DfqpubGz1/view?usp=sharing",url3:"https://youtu.be/GgCg9ZdY1TY"},
            { titulo:"Cleft Sentences",url: "https://drive.google.com/file/d/13-JhSbUYrCntdTi5t097wDYyeUmJH-g1/view?usp=sharing",url3:"https://youtu.be/PKr7p6KBvp4"},
 
-            { titulo:"Challenges",descripcion:"Completa todos  los niveles",url5: "https://learnibox.vercel.app/essentialgrammar"},
+            { titulo:"Challenges",descripcion:"Completa todos  los niveles",codigo:"essentialgrammar",url5: "https://learnibox.vercel.app/essentialgrammar"},
         ],
     },
      
@@ -318,15 +318,14 @@ export const roadB2CF = [
 
         title: "Cambridge Simulator ",
         subtitle: "B2/C1",
-
         dateAdded: "Basic 0 ",
         channel: "sdasd",
         description: " ",
         enlaces: [
-            { titulo:"Multiple Choice Cloze Simulation I ",descripcion:"The first part of the Use of English paper in the B2 First Examination is multiple choice cloze where students have to choose the correct word from four similar given words.",url4:"https://learnibox.vercel.app/uoe1"},
+            { titulo:"Multiple Choice Cloze Simulation I ",codigo:"myfirstchallenge",descripcion:"The first part of the Use of English paper in the B2 First Examination is multiple choice cloze where students have to choose the correct word from four similar given words.",url4:"https://learnibox.vercel.app/uoe1"},
 
-            { titulo:"Multiple Choice Cloze Simulation II ",descripcion:"The first part of the Use of English paper in the B2 First Examination is multiple choice cloze where students have to choose the correct word from four similar given words.",url4:"https://learnibox.vercel.app/multiplechoice"},
-             { titulo:"Open Cloze",descripcion:"The second part of the Use of English paper in the B2 First Examination is open cloze, in which students use one word to fill each space in a short text. The required words are usually grammatical, such as pronouns, articles, prepositions, auxiliary verbs and so on.",url4:"https://learnibox.vercel.app/uoe2"},
+            { titulo:"Multiple Choice Cloze Simulation II ",codigo:"myfirstchallenge",descripcion:"The first part of the Use of English paper in the B2 First Examination is multiple choice cloze where students have to choose the correct word from four similar given words.",url4:"https://learnibox.vercel.app/multiplechoice"},
+             { titulo:"Open Cloze",codigo:"myfirstchallenge",descripcion:"The second part of the Use of English paper in the B2 First Examination is open cloze, in which students use one word to fill each space in a short text. The required words are usually grammatical, such as pronouns, articles, prepositions, auxiliary verbs and so on.",url4:"https://learnibox.vercel.app/uoe2"},
 
 
             
