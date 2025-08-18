@@ -2,7 +2,7 @@ export const roadC = [
     {
         id: 0,
         thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
-        title: "Before you start!",
+        title: "CELPIP Information",
         subtitle: "B2/C1",
         dateAdded: "B2/C1",
         channel: "sdasd",

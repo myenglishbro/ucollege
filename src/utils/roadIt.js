@@ -10,6 +10,9 @@ export const roadIt = [
         channel: "sdasd",
         description: "Entiende como usar cada matiz gramatical",
         enlaces: [
+        { titulo:"Wireframe Explainer for Teams",descripcion:"Tips for UX/UI Designers & Project Owners",url:"https://drive.google.com/file/d/1yWswpPnLfcjU5rx1NKviDRhnoPVEbphc/view?usp=sharing",url3: "https://youtu.be/pWhg-XCGsz8"},
+        { titulo:"Product Owner Client Communication Playbook",descripcion:"As a Product Owner, effective communication with clients is one of your most valuable skills. 🗣️",url:"https://drive.google.com/file/d/1ONw_sSdmGm2gDkIJWfZIBp1DkP7mjv3T/view?usp=sharing",url3: "https://youtu.be/NrduH-fK998"},
+
          { titulo:"Agile Stand-Up Communication",descripcion:"Tips for UX/UI Designers & Project Owners",url:"https://drive.google.com/file/d/1lDeNrIVLVurwMcOljTEgz-3E9eIJeASu/view?usp=sharing",url3: "https://youtu.be/UYxhAqZi9Ow",url2:"https://drive.google.com/file/d/1yoNLYAFbEPKnM-zSJM3w7hap4NwjJvSF/view?usp=sharing"},
          { titulo:"Backlog Prioritization ",descripcion:"Communication Tips for UX/UI & Product Teams",url:"https://drive.google.com/file/d/1vxYddGwIwzPvUkdF3aaFXQfKyJsEddWV/view?usp=sharing",url3: "https://youtu.be/0zpkA8NiF_M",url2:"https://drive.google.com/file/d/1RxPEKPf1Fnrf5iqvQWFADOWh_L29FaWh/view?usp=sharing"},
 

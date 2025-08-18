@@ -3,18 +3,15 @@ export const roadIelts = [
         id: 0,
         thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
 
-        title: "What the heck is IELTS? ",
+        title: "IELTS Information ",
         subtitle: "B2/C1",
 
         dateAdded: "Basic 0 ",
         channel: "sdasd",
         description: " ",
         enlaces: [
-            { titulo:"Ielts Info",descripcion:"Información sobre el examen ",url: "https://drive.google.com/file/d/14JiBhX3Njztj1U4CflfrW6J9bQd_Psju/view?usp=sharing",url2:"https://youtu.be/r5eiUU3EpHE?si=t52HAp-aGunly1sS"},
-            { titulo:"Secretos Ielts ",descripcion:"Información sobre el examen ",url: "https://drive.google.com/file/d/1Lmpp14X3e1wsuXlKY6lcawoS0svUx2nL/view?usp=sharing",url2:"https://youtu.be/tOFm-zoI6-w?si=kWbAAcUksVGOWO-R"},
-            { titulo:"Tips for the exam",descripcion:"Información sobre el examen ",url2:"https://youtu.be/IciqQUtAgfg?si=nDTk2vc2E5JmXRsn"},
-
-
+            { titulo:"IELTS Test Explained (2025):",descripcion:" Complete Guide to Academic & General Training",url: "https://drive.google.com/file/d/14JiBhX3Njztj1U4CflfrW6J9bQd_Psju/view?usp=sharing",url3:"https://youtu.be/Nt6JX20lKSw"},
+            { titulo:"Secretos Ielts ",descripcion:"This video gives you a complete overview of the exam format",url: "https://drive.google.com/file/d/1Lmpp14X3e1wsuXlKY6lcawoS0svUx2nL/view?usp=sharing",url3:"https://youtu.be/sdz1thqooW4"},
            
         ],
     },
@@ -29,9 +26,8 @@ export const roadIelts = [
         channel: "sdasd",
         description: " ",
         enlaces: [
-             { titulo:"IELTS Listening Skills: Improve your Band Score",url: "https://youtu.be/7UZi4B6r0WU?si=u-fbvCffKyxE69pu"},
+             { titulo:"IELTS Listening Mastery",url3: "https://youtu.be/8DWGU2W-f40",url: "https://drive.google.com/file/d/1cyiJe3eodmMe-fBaT3TkHgzlP9a1Sqr4/view?usp=sharing"},
 
-            { titulo:"IELTS Listening Instructions",url: "https://drive.google.com/file/d/1cyiJe3eodmMe-fBaT3TkHgzlP9a1Sqr4/view?usp=sharing"},
 
             { titulo:"IELTS Listening One",descripcion:"Test 01",url: "https://drive.google.com/file/d/1q8jcs-q1G4CiWL8HPc1wyS67_ml7rrG7/view?usp=sharing",url2:"https://drive.google.com/drive/folders/16MfI37XQyKHc9x7x2UJFXVoXp4NhE88O"},
           
