@@ -13,7 +13,9 @@
             "usually goes to school by bus but today his dad is driving him.",
             "is usually going to school by bus but today his dad drives him."
           ],
-          "answer": "usually goes to school by bus but today his dad is driving him."
+          "answer": "usually goes to school by bus but today his dad is driving him.",
+          "explanation": "Rutinas → present simple (‘usually goes’). Acciones del momento → present continuous (‘is driving’)."
+
         },
         {
           "id": 2,
@@ -22,7 +24,9 @@
             "do you go",
             "are you going"
           ],
-          "answer": "do you go"
+          "answer": "do you go",
+           "explanation": "‘How often’ pregunta por frecuencia → present simple (‘do you go’)."
+
         },
         {
           "id": 3,
@@ -1003,7 +1007,7 @@
   "prerequisiteCode": "LEVEL5-ACCESS",
         "thumbnail":"https://i.ibb.co/Wpq0b5W7/20250709-1507-Vibrant-Cartoon-Character-remix-01jzrcpjj8fa7v98xk6tem1d9q-1.png",
 
-  "levelCode": "LEVEL6-KEY",
+  "levelCode": "LEVEL6-ACCESS",
   "exercises": [
     {
       "id": 1,

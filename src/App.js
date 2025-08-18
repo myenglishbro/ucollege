@@ -32,7 +32,6 @@ import RoadMapFrench from "./pages/RoadMapFrench";
 import RoadMapC1 from "./pages/RoadMapC1";
 import Team from "./pages/Team";
 import MebLanding from "./pages/myenglishbro/MebLanding";
-import IPJLanding from "./pages/inglesconelprofejuan/IPJLanding";
 import CambridgeExam from "./pages/CambridgeExam";
 import Certificate from "./pages/Certificate";
 import RoadMapC2 from "./pages/RoadMapC2";
@@ -210,7 +209,6 @@ function App() {
           <Route path="/Pagos" element={<Pagos />}></Route>
           <Route path="/MyPortal" element={<ContainerPortal />}></Route>
           <Route path="/Myenglishbro" element={<MebLanding />}></Route>
-          <Route path="/Inglesconelprofejuan" element={<IPJLanding/>}></Route>
 
 
           
