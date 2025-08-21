@@ -32,7 +32,9 @@ export default function LandingVibrante({
   rutas,
   docentes,
   onAccessClick,
-  mascotImage
+  mascotImage,
+  registrarse
+  
 }) {
   return (
     <div className="min-h-screen bg-white text-gray-900 font-sans overflow-x-hidden mt-10 relative">
@@ -94,6 +96,8 @@ export default function LandingVibrante({
               oferta_time={oferta_time}
               soporte_wsp={soporte_wsp}
               onAccessClick={onAccessClick}
+                registrarse={registrarse}   
+
             />
           </div>
         </div>

@@ -11,6 +11,8 @@ export default function AsidePanelModern({
   oferta_time,
   soporte_wsp,
   onAccessClick,
+    registrarse   // 👈 agregado aquí
+
 }) {
   return (
     <motion.aside
@@ -84,6 +86,17 @@ export default function AsidePanelModern({
       >
         Acceder
       </motion.button>
+
+      {registrarse && (
+  <motion.button
+    whileHover={{ scale: 1.05 }}
+        className="block w-full bg-[#1515FF] text-white py-3 rounded-full font-semibold text-sm transition shadow-md hover:bg-[#1a1aff] mb-4"
+    onClick={() => window.open(registrarse, "_blank")}
+  >
+    Registrarse
+  </motion.button>
+)}
+
 
       {/* Soporte por WhatsApp centrado */}
       {soporte_wsp && (

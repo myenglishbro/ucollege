@@ -1,75 +1,84 @@
 {
   "logo": "https://i.ibb.co/HpP9XPB7/My-english-bro-Logo-12.png",
-  "bgImage":"https://i.ibb.co/JWB7fRRr/jsm-abstract.webp",
-  "robotImage":"https://i.ibb.co/nqqMs8L0/Chat-GPT-Image-2-jul-2025-18-43-49.png",
-    "mascotImage":"https://i.ibb.co/gZ928GZq/20250709-1510-British-Cartoon-Transformation-remix-01jzrcx34xecqv3g9qmk4xpdvn.png",
-  "precio": "Gratis",
+  "bgImage": "https://i.ibb.co/JWB7fRRr/jsm-abstract.webp",
+  "robotImage": "https://i.ibb.co/nqqMs8L0/Chat-GPT-Image-2-jul-2025-18-43-49.png",
+  "mascotImage": "https://i.ibb.co/gZ928GZq/20250709-1510-British-Cartoon-Transformation-remix-01jzrcx34xecqv3g9qmk4xpdvn.png",
 
-  "precio_original": "S/90.90",
-  "descuento": "100 off",
-  "oferta_time": "usuario: myenglish / password: gratis",
-  "titulo": "B2 GRATIS",
-  "descripcion": "Mejora su expresión oral y comprensión para comunicarse en inglés con confianza en el trabajo.",
+  "precio": "B2 Bootcamp",
+  "descuento": "100",
+  "oferta_time": "Registrate y únete a nuestras clases",
+"registrarse": "https://wa.link/owu0yr",
+
+  "titulo": "B2",
+  "descripcion": "Prepárate para el examen Cambridge B2 First con estrategias, práctica real y expresiones avanzadas para alcanzar tu mejor puntuación.",
   "teacher": "Carlos Apolaya Sanchez",
+
   "video": "https://www.youtube.com/embed/tM7CGkl_kdI?si=g-rb2xXgr9oll5Lg",
   "soporte_wsp": "https://api.whatsapp.com/send?phone=51926922032&text=Hola%20quiero%20informacion%20sobre%20el%20curso",
+
   "badge": {
-    "label": "Role Play",
-    "color": "#8b5cf6"
+    "label": "B2 First",
+    "color": "#2563eb"
   },
+
   "ratings": {
-    "score": 4.5,
-    "votes": 1660,
-    "students": 3187
+    "score": 4.9,
+    "votes": 1980,
+    "students": 4210
   },
-  "last_updated": "29/07/2025",
+
+  "last_updated": "20/08/2025",
   "idiomas": ["English", "Spanish"],
+
   "learning": [
-    "Habilidades de comunicación en inglés profesional con pronunciación y acento nativos.",
-    "Mejorar las habilidades esenciales como el habla, la escucha y la gramática.",
-    "Frases para asistir a reuniones en inglés.",
-    "Domina habilidades para expresar opiniones y discutir trabajo.",
-    "Frases que harán que tu inglés sea más natural y fluido.",
-    "Frases para llamadas y correos electrónicos en inglés."
+    "Dominar las 4 habilidades: Speaking, Writing, Listening y Reading para Cambridge B2.",
+    "Estrategias y plantillas para Speaking con puntuación alta.",
+    "Técnicas para mejorar comprensión auditiva y lectura avanzada.",
+    "Práctica de Writing con frases de nivel C1/C2 para destacar.",
+    "Simulaciones de examen y análisis de errores comunes.",
+    "Expresiones útiles para reuniones, correos y comunicación laboral."
   ],
+
   "includes": [
-    ["PDF", "FaRegPlayCircle"],
-    ["+30 hours on-demand video", "FaRegClock"],
-    ["100 practice test", "FaCheckCircle"],
-    ["Assignments", "FaRegFileAlt"],
-    ["4 articles", "FaRegFileAlt"],
-    ["16 downloadable resources", "FaRegFileAlt"],
-    ["Access on mobile and Computer", "FaRegFileAlt"],
-    ["Certificate of completion", "FaRegFileAlt"]
+    ["PDF con plantillas de Speaking y Writing", "FaRegPlayCircle"],
+    ["+30 horas de video explicativo", "FaRegClock"],
+    ["100 ejercicios tipo examen", "FaCheckCircle"],
+    ["Assignments prácticos", "FaRegFileAlt"],
+    ["4 artículos de estrategias", "FaRegFileAlt"],
+    ["16 recursos descargables", "FaRegFileAlt"],
+    ["Acceso en celular y computadora", "FaRegFileAlt"],
+    ["Certificado de finalización", "FaRegFileAlt"]
   ],
-  "temario_titulo": "Course content",
+
+  "temario_titulo": "Contenido del curso",
   "rutas": [
     {
-      "titulo": "Fundamentos del Desarrollo Web Profesional",
-      "tiempo": "51 horas de contenido",
+      "titulo": "Preparación Completa Cambridge B2",
+      "tiempo": "60 horas de contenido",
       "cursos": [
-        "Introducción a la Web: Historia y Funcionamiento",
-        "Computadoras e Informática Básica",
-        "Terminal y Línea de Comandos",
-        "Fundamentos de Ingeniería de Software",
-        "HTML y CSS Definitivo",
-        "Práctico de HTML y CSS",
-        "Programación Básica Gratis",
-        "Fundamentos de JavaScript",
-        "Git y GitHub Básico"
+        "Introducción al examen Cambridge B2 First",
+        "Estrategias para Reading & Use of English",
+        "Práctica intensiva de Listening",
+        "Dominando el Writing (essay, review, report, email)",
+        "Speaking avanzado: expresiones y role plays",
+        "Simulaciones completas del examen",
+        "Corrección de errores frecuentes",
+        "Tips de vocabulario y gramática avanzada",
+        "Cómo alcanzar puntuación 180+"
       ]
     },
     {
-      "titulo": "Diseño y Desarrollo Frontend",
-      "tiempo": "39 horas de contenido",
+      "titulo": "Práctica guiada y recursos",
+      "tiempo": "40 horas de práctica",
       "cursos": [
-        "Frontend Developer",
-        "Práctico de Frontend Developer",
-        "Responsive Design: Maquetación Mobile First",
-        "Práctico de Maquetación en CSS"
+        "Simulacros cronometrados",
+        "Interpretación y feedback en Speaking",
+        "Corrección de writings reales",
+        "Vocabulario avanzado con phrasal verbs e idioms"
       ]
     }
   ],
+
   "docentes": [
     {
       "nombre": "Carlos Apolaya",
