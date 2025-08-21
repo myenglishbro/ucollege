@@ -141,7 +141,7 @@ function App() {
           <Route path="/CambridgeExam" element={<CambridgeExam />}></Route>
           <Route path="/KeywordMastery" element={<RoadMapKeyMastery />}></Route>
 
-          <Route path="/RoadMapB2CFREE" element={<RoadMapB2CF />}></Route>
+          <Route path="/s" element={<RoadMapB2CF />}></Route>
 
           <Route path="/RoadMapC1" element={<RoadMapC1 />}></Route>
           <Route path="/RoadMapC2" element={<RoadMapC2 />}></Route>
