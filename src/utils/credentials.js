@@ -81,5 +81,6 @@ export const validCredentials = [
 //ACCESO DE POR VIDA
              { expirationDate:"Unlimited Account",nivel:"B2",usuario: 'adrian', password: 'aliaga', realname: 'Adrian Aliaga',img:'https://i.ibb.co/DHQLnHbK/ADRIAN.png'},
              { expirationDate:"Unlimited Account",nivel:"B2",usuario: 'gabriela', password: 'torres', realname: 'Gabriela Torres',img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
+             { expirationDate:"Unlimited Account",nivel:"B2",usuario: 'herberth', password: 'jara', realname: 'Herberth Jara Huaman',img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
 
     ];
