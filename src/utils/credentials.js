@@ -73,6 +73,7 @@ export const validCredentials = [
       { expirationDate:"16/09",nivel:"CELPIP",usuario: 'marlene', password: 'sanchez', realname: 'Marlene Sanchez Romero', img: 'https://i.ibb.co/jv0jDGgs/Chat-GPT-Image-6-jul-2025-13-23-34.png' }, // No image
       { expirationDate:"16/09",nivel:"B1",usuario: 'eva', password: 'laura', realname: 'Eva Laura', img: 'https://i.ibb.co/jv0jDGgs/Chat-GPT-Image-6-jul-2025-13-23-34.png' }, // No image
 
+      { expirationDate:"25/09",nivel:"CELPIP",usuario: 'fatima', password: 'ruiz', realname: 'Fátima Ruiz', img: 'https://i.ibb.co/jv0jDGgs/Chat-GPT-Image-6-jul-2025-13-23-34.png' }, // No image
 
 
 
