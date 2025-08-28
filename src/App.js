@@ -92,6 +92,7 @@ import UseOfEnglishInline from "./components/Aplicativos/uoe1/UseOfEnglishInline
 import UseOfEnglishInline2 from "./components/Aplicativos/uoe2/UseOfEnglishInline2.jsx";
 import InicioB2CFR from "./components/Login/LoginB2CF/InicioB2CFR.jsx";
 import Essentialgrammar from "./components/Aplicativos/essentialgrammar/Essentialgrammar.jsx";
+import VocabTrainer from "./components/Aplicativos/vocabulario/Vocabtrainer.jsx";
 
 function App() {
   return (
@@ -201,6 +202,7 @@ function App() {
           <Route path="/MyPortal" element={<ContainerPortal />}></Route>
           <Route path="/Myenglishbro" element={<MebLanding />}></Route>
 
+          <Route path="/vocab" element={<VocabTrainer />}></Route>
 
           
           

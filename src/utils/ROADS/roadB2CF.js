@@ -9,7 +9,7 @@ export const roadB2CF = [
         channel: "sdasd",
         description: "Examen de Nivel de inglés de Cambridge",
         enlaces: [
-           { titulo:"Cambridge English Placement Test ",descripcion:"Guia para comprender el examen",url:"https://drive.google.com/file/d/11dS3tCmiTMgaL8nv8cehWwY9eaGuDAKI/view?usp=sharing",url3:"https://youtu.be/vGRh9jItwTg"},
+           { titulo:"Cambridge English Placement Test ",descripcion:"Guia para comprender el examen",url:"https://drive.google.com/file/d/1RC_i5z8E39t9AusoX-bJYUQdaaavSYs2/view?usp=sharing",url3:"https://youtu.be/vGRh9jItwTg"},
            { titulo:"Examen Modelo CEPT",descripcion:"Mira como son las preguntas que suelen venir en examen ",url4:"https://youtu.be/xKic5HFl-fg"},
         ],
     },
@@ -22,8 +22,8 @@ export const roadB2CF = [
         channel: "sdasd",
         description: "Completa los desafíos para dominar el Inglés",
         enlaces: [
-            { titulo:"Cracking the Cambridge B2: Your Secret Guide",descripcion:"Powerful tips hidden strategies, and exam hacks that most candidates never learn ",url:"https://drive.google.com/file/d/1cq9H1EAZRlgKWGaIny70AL5s2pkR09ar/view?usp=sharing",url3:"https://youtu.be/5B0AbDJ_1VU?si=CtHAfrrenQB_atMO"},
-            { titulo:"Cambridge B2 First: Unlocking Exam Secrets ",descripcion:"This guide reveals insider tips, secret hacks, and hidden techniques to help you maximise your performance in every section. ",url:"https://drive.google.com/file/d/1vxvFCXalbtMf0ENxDZ3XcM1MZTp_exvG/view?usp=sharing",url3:"https://youtu.be/tBleLH944b4?si=1FuJs-35bCDNyu_Q"},
+            { titulo:"Cracking the Cambridge B2: Your Secret Guide",descripcion:"Powerful tips hidden strategies, and exam hacks that most candidates never learn ",url:"https://drive.google.com/file/d/1RC_i5z8E39t9AusoX-bJYUQdaaavSYs2/view?usp=sharing",url3:"https://youtu.be/5B0AbDJ_1VU?si=CtHAfrrenQB_atMO"},
+            { titulo:"Cambridge B2 First: Unlocking Exam Secrets ",descripcion:"This guide reveals insider tips, secret hacks, and hidden techniques to help you maximise your performance in every section. ",url:"https://drive.google.com/file/d/1RC_i5z8E39t9AusoX-bJYUQdaaavSYs2/view?usp=sharing",url3:"https://youtu.be/tBleLH944b4?si=1FuJs-35bCDNyu_Q"},
             { titulo:"How to Calculate Your Exam Score & Pass",descripcion:"This guide explains the step-by-step process so you can check your results",url3:"https://youtu.be/dY198SBKg_U"},
 
         ],

@@ -1,0 +1,1509 @@
+[
+  {
+    "id": "v1",
+    "topic": "Housing",
+    "level": "B2",
+    "word": "amenities",
+    "meaning_es": "servicios/instalaciones",
+    "meaning_en": "useful features of a building/area",
+    "examples": [
+      "The building offers modern amenities like a gym and a rooftop lounge.",
+      "Basic amenities such as heating and hot water are included.",
+      "The modern amenities are listed in the rental ad."
+    ],
+    "collocations": [
+      "modern amenities",
+      "basic amenities"
+    ],
+    "paraphrases": [
+      "facilities provided",
+      "features available"
+    ],
+    "example": "The building offers modern amenities like a gym and a rooftop lounge."
+  },
+  {
+    "id": "v2",
+    "topic": "Housing",
+    "level": "B2",
+    "word": "lease",
+    "meaning_es": "contrato de arrendamiento",
+    "meaning_en": "a legal agreement to rent a property",
+    "example": "We signed a one-year lease with an option to renew.",
+    "collocations": [
+      "sign a lease",
+      "break a lease"
+    ],
+    "paraphrases": [
+      "rental agreement",
+      "tenancy contract"
+    ],
+    "examples": [
+      "We signed a one-year lease with an option to renew.",
+      "The sign a lease are listed in the rental ad."
+    ]
+  },
+  {
+    "id": "v3",
+    "topic": "Housing",
+    "level": "C1",
+    "word": "inspection",
+    "meaning_es": "inspección (de vivienda)",
+    "meaning_en": "a detailed examination of a property’s condition",
+    "example": "A thorough inspection revealed issues with the plumbing.",
+    "collocations": [
+      "home inspection",
+      "schedule an inspection"
+    ],
+    "paraphrases": [
+      "detailed check",
+      "assessment of condition"
+    ],
+    "examples": [
+      "A thorough inspection revealed issues with the plumbing.",
+      "The home inspection are listed in the rental ad."
+    ]
+  },
+  {
+    "id": "v4",
+    "topic": "Work",
+    "level": "B2",
+    "word": "workload",
+    "meaning_es": "carga laboral",
+    "meaning_en": "the amount of work to be done",
+    "example": "My workload increased after the product launch.",
+    "collocations": [
+      "heavy workload",
+      "manage workload"
+    ],
+    "paraphrases": [
+      "volume of tasks",
+      "amount of work"
+    ],
+    "examples": [
+      "My workload increased after the product launch.",
+      "We need to heavy workload before the deadline."
+    ]
+  },
+  {
+    "id": "v5",
+    "topic": "Work",
+    "level": "C1",
+    "word": "delegate",
+    "meaning_es": "delegar",
+    "meaning_en": "to give tasks or responsibility to others",
+    "example": "Effective leaders delegate routine tasks to the team.",
+    "collocations": [
+      "delegate tasks",
+      "delegate authority"
+    ],
+    "paraphrases": [
+      "assign responsibility",
+      "hand over tasks"
+    ],
+    "examples": [
+      "Effective leaders delegate routine tasks to the team.",
+      "We need to delegate tasks before the deadline."
+    ]
+  },
+  {
+    "id": "v6",
+    "topic": "Work",
+    "level": "C1",
+    "word": "accountability",
+    "meaning_es": "responsabilidad (rendir cuentas)",
+    "meaning_en": "the obligation to explain decisions and accept results",
+    "example": "We promote accountability by sharing outcomes publicly.",
+    "collocations": [
+      "take accountability",
+      "hold someone accountable"
+    ],
+    "paraphrases": [
+      "answerability",
+      "responsibility for outcomes"
+    ],
+    "examples": [
+      "We promote accountability by sharing outcomes publicly.",
+      "We need to take accountability before the deadline."
+    ]
+  },
+  {
+    "id": "v7",
+    "topic": "Transportation",
+    "level": "B2",
+    "word": "congested",
+    "meaning_es": "congestionado (tráfico)",
+    "meaning_en": "too crowded or full of traffic",
+    "example": "Main streets are congested during rush hour.",
+    "collocations": [
+      "congested roads",
+      "severe congestion"
+    ],
+    "paraphrases": [
+      "backed up",
+      "packed"
+    ],
+    "examples": [
+      "Main streets are congested during rush hour.",
+      "Commuters face congested roads during peak hours."
+    ]
+  },
+  {
+    "id": "v8",
+    "topic": "Transportation",
+    "level": "B2",
+    "word": "detour",
+    "meaning_es": "desvío",
+    "meaning_en": "a different route used to avoid a problem",
+    "example": "We took a detour to avoid construction.",
+    "collocations": [
+      "take a detour",
+      "detour route"
+    ],
+    "paraphrases": [
+      "alternative route",
+      "go around"
+    ],
+    "examples": [
+      "We took a detour to avoid construction.",
+      "Commuters face take a detour during peak hours."
+    ]
+  },
+  {
+    "id": "v9",
+    "topic": "Transportation",
+    "level": "B2",
+    "word": "punctuality",
+    "meaning_es": "puntualidad",
+    "meaning_en": "the habit of being on time",
+    "example": "Punctuality is essential for reliable bus service.",
+    "collocations": [
+      "improve punctuality",
+      "strict punctuality"
+    ],
+    "paraphrases": [
+      "being on time",
+      "timeliness"
+    ],
+    "examples": [
+      "Punctuality is essential for reliable bus service.",
+      "Commuters face improve punctuality during peak hours."
+    ]
+  },
+  {
+    "id": "v10",
+    "topic": "Customer Service",
+    "level": "B2",
+    "word": "courteous",
+    "meaning_es": "cortés, educado",
+    "meaning_en": "polite and respectful",
+    "example": "The staff were courteous throughout the call.",
+    "collocations": [
+      "courteous staff",
+      "remain courteous"
+    ],
+    "paraphrases": [
+      "polite",
+      "respectful"
+    ],
+    "examples": [
+      "The staff were courteous throughout the call.",
+      "Our policy is to courteous staff promptly."
+    ]
+  },
+  {
+    "id": "v11",
+    "topic": "Customer Service",
+    "level": "C1",
+    "word": "reimbursement",
+    "meaning_es": "reembolso",
+    "meaning_en": "money paid back for expenses",
+    "example": "You will receive reimbursement within five business days.",
+    "collocations": [
+      "request reimbursement",
+      "full reimbursement"
+    ],
+    "paraphrases": [
+      "pay back",
+      "refund for costs"
+    ],
+    "examples": [
+      "You will receive reimbursement within five business days.",
+      "Our policy is to request reimbursement promptly."
+    ]
+  },
+  {
+    "id": "v12",
+    "topic": "Customer Service",
+    "level": "C1",
+    "word": "escalate",
+    "meaning_es": "escalar (un caso/queja)",
+    "meaning_en": "to refer a case to a higher level for action",
+    "example": "We will escalate your complaint to a supervisor.",
+    "collocations": [
+      "escalate a case",
+      "escalation policy"
+    ],
+    "paraphrases": [
+      "move up the chain",
+      "send to higher support"
+    ],
+    "examples": [
+      "We will escalate your complaint to a supervisor.",
+      "Our policy is to escalate a case promptly."
+    ]
+  },
+  {
+    "id": "v13",
+    "topic": "Health",
+    "level": "B2",
+    "word": "accessible",
+    "meaning_es": "accesible",
+    "meaning_en": "easy to reach or use; affordable/available",
+    "example": "The clinic is accessible by public transit.",
+    "collocations": [
+      "accessible services",
+      "make X accessible"
+    ],
+    "paraphrases": [
+      "easy to use",
+      "available to all"
+    ],
+    "examples": [
+      "The clinic is accessible by public transit.",
+      "Local clinics aim to provide accessible services to all residents."
+    ]
+  },
+  {
+    "id": "v14",
+    "topic": "Health",
+    "level": "C1",
+    "word": "outbreak",
+    "meaning_es": "brote (enfermedad)",
+    "meaning_en": "a sudden start of disease in a place",
+    "example": "The school closed due to a flu outbreak.",
+    "collocations": [
+      "disease outbreak",
+      "contain an outbreak"
+    ],
+    "paraphrases": [
+      "sudden spread",
+      "flare-up"
+    ],
+    "examples": [
+      "The school closed due to a flu outbreak.",
+      "Local clinics aim to provide disease outbreak to all residents."
+    ]
+  },
+  {
+    "id": "v15",
+    "topic": "Health",
+    "level": "B2",
+    "word": "eligibility",
+    "meaning_es": "elegibilidad",
+    "meaning_en": "meeting the requirements for something",
+    "example": "Check your eligibility before applying for benefits.",
+    "collocations": [
+      "determine eligibility",
+      "eligibility criteria"
+    ],
+    "paraphrases": [
+      "qualifying status",
+      "meeting requirements"
+    ],
+    "examples": [
+      "Check your eligibility before applying for benefits.",
+      "Local clinics aim to provide determine eligibility to all residents."
+    ]
+  },
+  {
+    "id": "v16",
+    "topic": "Education",
+    "level": "B2",
+    "word": "prerequisite",
+    "meaning_es": "requisito previo",
+    "meaning_en": "something required before something else can happen",
+    "example": "Algebra is a prerequisite for this course.",
+    "collocations": [
+      "meet prerequisites",
+      "prerequisite course"
+    ],
+    "paraphrases": [
+      "requirement beforehand",
+      "entry condition"
+    ],
+    "examples": [
+      "Algebra is a prerequisite for this course.",
+      "Students must meet prerequisites to enroll."
+    ]
+  },
+  {
+    "id": "v17",
+    "topic": "Education",
+    "level": "C1",
+    "word": "proficiency",
+    "meaning_es": "dominio, competencia",
+    "meaning_en": "a high level of skill or ability",
+    "example": "The program requires proficiency in English.",
+    "collocations": [
+      "demonstrate proficiency",
+      "language proficiency"
+    ],
+    "paraphrases": [
+      "high skill",
+      "competence"
+    ],
+    "examples": [
+      "The program requires proficiency in English.",
+      "Students must demonstrate proficiency to enroll."
+    ]
+  },
+  {
+    "id": "v18",
+    "topic": "Education",
+    "level": "B2",
+    "word": "syllabus",
+    "meaning_es": "programa (temario)",
+    "meaning_en": "an outline of topics covered in a course",
+    "example": "The syllabus lists weekly readings and assignments.",
+    "collocations": [
+      "course syllabus",
+      "update the syllabus"
+    ],
+    "paraphrases": [
+      "course outline",
+      "program of study"
+    ],
+    "examples": [
+      "The syllabus lists weekly readings and assignments.",
+      "Students must course syllabus to enroll."
+    ]
+  },
+  {
+    "id": "v19",
+    "topic": "Environment",
+    "level": "B2",
+    "word": "sustainable",
+    "meaning_es": "sostenible",
+    "meaning_en": "able to continue without harming the environment",
+    "example": "We promote sustainable transportation options.",
+    "collocations": [
+      "sustainable practices",
+      "sustainable growth"
+    ],
+    "paraphrases": [
+      "environmentally friendly",
+      "long-term viable"
+    ],
+    "examples": [
+      "We promote sustainable transportation options.",
+      "City programs encourage sustainable practices across departments."
+    ]
+  },
+  {
+    "id": "v20",
+    "topic": "Environment",
+    "level": "C1",
+    "word": "emission",
+    "meaning_es": "emisión (gases)",
+    "meaning_en": "the act of releasing something (e.g., gases)",
+    "example": "The city set targets to reduce carbon emissions.",
+    "collocations": [
+      "carbon emissions",
+      "reduce emissions"
+    ],
+    "paraphrases": [
+      "release of gases",
+      "output into the air"
+    ],
+    "examples": [
+      "The city set targets to reduce carbon emissions.",
+      "City programs encourage carbon emissions across departments."
+    ]
+  },
+  {
+    "id": "v21",
+    "topic": "Environment",
+    "level": "B2",
+    "word": "conservation",
+    "meaning_es": "conservación",
+    "meaning_en": "the protection of natural resources",
+    "example": "Water conservation is crucial during summer.",
+    "collocations": [
+      "wildlife conservation",
+      "conservation efforts"
+    ],
+    "paraphrases": [
+      "resource protection",
+      "preservation"
+    ],
+    "examples": [
+      "Water conservation is crucial during summer.",
+      "City programs encourage wildlife conservation across departments."
+    ]
+  },
+  {
+    "id": "v22",
+    "topic": "Technology",
+    "level": "C1",
+    "word": "reliability",
+    "meaning_es": "fiabilidad",
+    "meaning_en": "quality of being trustworthy and consistent",
+    "example": "We chose the platform for its reliability.",
+    "collocations": [
+      "ensure reliability",
+      "improve reliability"
+    ],
+    "paraphrases": [
+      "dependability",
+      "consistent performance"
+    ],
+    "examples": [
+      "We chose the platform for its reliability.",
+      "The team will ensure reliability after testing."
+    ]
+  },
+  {
+    "id": "v23",
+    "topic": "Technology",
+    "level": "B2",
+    "word": "troubleshoot",
+    "meaning_es": "diagnosticar y resolver problemas",
+    "meaning_en": "to find and fix the cause of a problem",
+    "example": "Follow these steps to troubleshoot your connection.",
+    "collocations": [
+      "troubleshoot issues",
+      "troubleshooting guide"
+    ],
+    "paraphrases": [
+      "diagnose problems",
+      "fix errors"
+    ],
+    "examples": [
+      "Follow these steps to troubleshoot your connection.",
+      "The team will troubleshoot issues after testing."
+    ]
+  },
+  {
+    "id": "v24",
+    "topic": "Technology",
+    "level": "B2",
+    "word": "outage",
+    "meaning_es": "interrupción del servicio",
+    "meaning_en": "a period when a service is unavailable",
+    "example": "The outage lasted for nearly two hours.",
+    "collocations": [
+      "service outage",
+      "power outage"
+    ],
+    "paraphrases": [
+      "service interruption",
+      "downtime"
+    ],
+    "examples": [
+      "The outage lasted for nearly two hours.",
+      "The team will service outage after testing."
+    ]
+  },
+  {
+    "id": "v25",
+    "topic": "Community",
+    "level": "B2",
+    "word": "volunteer",
+    "meaning_es": "voluntario / ofrecerse",
+    "meaning_en": "a person who offers services willingly",
+    "example": "He decided to volunteer at the local shelter.",
+    "collocations": [
+      "volunteer work",
+      "volunteer opportunities"
+    ],
+    "paraphrases": [
+      "offer to help",
+      "serve without pay"
+    ],
+    "examples": [
+      "He decided to volunteer at the local shelter.",
+      "Volunteers help to volunteer work in the area."
+    ]
+  },
+  {
+    "id": "v26",
+    "topic": "Community",
+    "level": "B2",
+    "word": "neighbourhood",
+    "meaning_es": "vecindario (ortografía canadiense)",
+    "meaning_en": "area where people live near each other",
+    "example": "It's a quiet neighbourhood with tree-lined streets.",
+    "collocations": [
+      "quiet neighbourhood",
+      "safe neighbourhood"
+    ],
+    "paraphrases": [
+      "local area",
+      "part of town"
+    ],
+    "examples": [
+      "It's a quiet neighbourhood with tree-lined streets.",
+      "Volunteers help to quiet neighbourhood in the area."
+    ]
+  },
+  {
+    "id": "v27",
+    "topic": "Community",
+    "level": "C1",
+    "word": "ordinance",
+    "meaning_es": "ordenanza (municipal)",
+    "meaning_en": "a local law or regulation",
+    "example": "A new ordinance restricts overnight parking.",
+    "collocations": [
+      "city ordinance",
+      "pass an ordinance"
+    ],
+    "paraphrases": [
+      "local regulation",
+      "bylaw"
+    ],
+    "examples": [
+      "A new ordinance restricts overnight parking.",
+      "Volunteers help to city ordinance in the area."
+    ]
+  },
+  {
+    "id": "v28",
+    "topic": "Finance",
+    "level": "B2",
+    "word": "affordability",
+    "meaning_es": "asequibilidad",
+    "meaning_en": "the extent to which something is reasonably priced",
+    "example": "Housing affordability remains a key concern.",
+    "collocations": [
+      "improve affordability",
+      "affordability crisis"
+    ],
+    "paraphrases": [
+      "reasonable cost",
+      "within budget"
+    ],
+    "examples": [
+      "Housing affordability remains a key concern.",
+      "Households worry that improve affordability may rise again."
+    ]
+  },
+  {
+    "id": "v29",
+    "topic": "Finance",
+    "level": "B2",
+    "word": "interest rate",
+    "meaning_es": "tasa de interés",
+    "meaning_en": "the percentage charged for borrowing money",
+    "example": "The bank increased its interest rate this quarter.",
+    "collocations": [
+      "raise interest rates",
+      "fixed interest rate"
+    ],
+    "paraphrases": [
+      "borrowing cost",
+      "rate on a loan"
+    ],
+    "examples": [
+      "The bank increased its interest rate this quarter.",
+      "Households worry that raise interest rates may rise again."
+    ]
+  },
+  {
+    "id": "v30",
+    "topic": "Finance",
+    "level": "B2",
+    "word": "overdue",
+    "meaning_es": "atrasado, vencido",
+    "meaning_en": "not paid or done by the expected time",
+    "example": "Your invoice is overdue by ten days.",
+    "collocations": [
+      "overdue payment",
+      "overdue notice"
+    ],
+    "paraphrases": [
+      "late",
+      "past the due date"
+    ],
+    "examples": [
+      "Your invoice is overdue by ten days.",
+      "Households worry that overdue payment may rise again."
+    ]
+  },
+  {
+    "id": "v31",
+    "topic": "Work",
+    "level": "C1",
+    "word": "streamline",
+    "meaning_es": "optimizar / simplificar",
+    "meaning_en": "to make a process more efficient",
+    "collocations": [
+      "streamline a process",
+      "streamline operations",
+      "streamline workflow"
+    ],
+    "paraphrases": [
+      "make efficient",
+      "simplify steps"
+    ],
+    "examples": [
+      "We plan to streamline operations to reduce delays.",
+      "The new tool helps streamline the onboarding workflow."
+    ]
+  },
+  {
+    "id": "v32",
+    "topic": "Work",
+    "level": "C1",
+    "word": "feasible",
+    "meaning_es": "factible, viable",
+    "meaning_en": "possible and practical to achieve",
+    "collocations": [
+      "feasible plan",
+      "technically feasible",
+      "feasible timeline"
+    ],
+    "paraphrases": [
+      "workable",
+      "practical"
+    ],
+    "examples": [
+      "Is a two-week turnaround feasible?",
+      "We assessed whether the proposal is technically feasible."
+    ]
+  },
+  {
+    "id": "v33",
+    "topic": "Transportation",
+    "level": "B2",
+    "word": "commute",
+    "meaning_es": "desplazarse (al trabajo/estudio)",
+    "meaning_en": "to travel regularly between home and work",
+    "collocations": [
+      "daily commute",
+      "commute time",
+      "long commute"
+    ],
+    "paraphrases": [
+      "travel to work",
+      "go back and forth"
+    ],
+    "examples": [
+      "My daily commute takes about forty minutes by train.",
+      "A long commute can affect productivity and well-being."
+    ]
+  },
+  {
+    "id": "v34",
+    "topic": "Customer Service",
+    "level": "C1",
+    "word": "goodwill",
+    "meaning_es": "buena voluntad / confianza de los clientes",
+    "meaning_en": "positive reputation and customer trust",
+    "collocations": [
+      "build goodwill",
+      "gesture of goodwill"
+    ],
+    "paraphrases": [
+      "customer trust",
+      "positive reputation"
+    ],
+    "examples": [
+      "They offered a partial refund as a gesture of goodwill.",
+      "Transparent communication helps build goodwill."
+    ]
+  },
+  {
+    "id": "v35",
+    "topic": "Health",
+    "level": "C1",
+    "word": "compliance",
+    "meaning_es": "cumplimiento (de normas)",
+    "meaning_en": "the act of following rules or standards",
+    "collocations": [
+      "regulatory compliance",
+      "ensure compliance"
+    ],
+    "paraphrases": [
+      "adherence to rules",
+      "observance"
+    ],
+    "examples": [
+      "Clinics must ensure regulatory compliance.",
+      "We audit processes to improve compliance with safety standards."
+    ]
+  },
+  {
+    "id": "v36",
+    "topic": "Education",
+    "level": "C1",
+    "word": "placement",
+    "meaning_es": "ubicación/asignación (académica o laboral)",
+    "meaning_en": "the act of assigning someone to a level or role",
+    "collocations": [
+      "placement test",
+      "job placement"
+    ],
+    "paraphrases": [
+      "assignment",
+      "allocation"
+    ],
+    "examples": [
+      "New students must take a placement test.",
+      "The college offers job placement support after graduation."
+    ]
+  },
+  {
+    "id": "v37",
+    "topic": "Environment",
+    "level": "C1",
+    "word": "mitigate",
+    "meaning_es": "mitigar, atenuar",
+    "meaning_en": "to make less severe or harmful",
+    "collocations": [
+      "mitigate risks",
+      "mitigate impact"
+    ],
+    "paraphrases": [
+      "reduce harm",
+      "alleviate"
+    ],
+    "examples": [
+      "Trees can help mitigate urban heat.",
+      "Policies were introduced to mitigate environmental impact."
+    ]
+  },
+  {
+    "id": "v38",
+    "topic": "Technology",
+    "level": "C1",
+    "word": "redundancy",
+    "meaning_es": "redundancia (sistemas)",
+    "meaning_en": "duplication of critical components for reliability",
+    "collocations": [
+      "system redundancy",
+      "built-in redundancy"
+    ],
+    "paraphrases": [
+      "backup capacity",
+      "failover design"
+    ],
+    "examples": [
+      "The platform includes redundancy to prevent outages.",
+      "Built-in redundancy improves overall reliability."
+    ]
+  },
+  {
+    "id": "v39",
+    "topic": "Community",
+    "level": "B2",
+    "word": "fundraiser",
+    "meaning_es": "evento de recaudación de fondos",
+    "meaning_en": "an event held to collect money for a cause",
+    "collocations": [
+      "host a fundraiser",
+      "community fundraiser"
+    ],
+    "paraphrases": [
+      "charity event",
+      "fund-raising drive"
+    ],
+    "examples": [
+      "The community will host a fundraiser for the shelter.",
+      "Local businesses donated prizes for the fundraiser."
+    ]
+  },
+  {
+    "id": "v40",
+    "topic": "Finance",
+    "level": "C1",
+    "word": "liability",
+    "meaning_es": "responsabilidad / pasivo",
+    "meaning_en": "legal responsibility; also debts owed",
+    "collocations": [
+      "legal liability",
+      "assume liability"
+    ],
+    "paraphrases": [
+      "legal responsibility",
+      "debt obligation"
+    ],
+    "examples": [
+      "The company accepted legal liability for the damages.",
+      "Short-term liabilities increased this quarter."
+    ]
+  },
+  {
+    "id": "v41",
+    "topic": "Housing",
+    "level": "C1",
+    "word": "disclosure",
+    "meaning_es": "revelación (de información)",
+    "meaning_en": "the act of making information known",
+    "collocations": [
+      "full disclosure",
+      "mandatory disclosure"
+    ],
+    "paraphrases": [
+      "revelation",
+      "making public"
+    ],
+    "examples": [
+      "Landlords must provide full disclosure of known issues.",
+      "Mandatory disclosure protects tenants' rights."
+    ]
+  },
+  {
+    "id": "v42",
+    "topic": "Education",
+    "level": "C1",
+    "word": "accreditation",
+    "meaning_es": "acreditación",
+    "meaning_en": "official recognition that standards are met",
+    "collocations": [
+      "seek accreditation",
+      "maintain accreditation"
+    ],
+    "paraphrases": [
+      "official recognition",
+      "certification"
+    ],
+    "examples": [
+      "The program is seeking international accreditation.",
+      "Schools must maintain accreditation to issue diplomas."
+    ]
+  },
+
+
+{
+    "id": "v43",
+    "topic": "Housing",
+    "level": "B2",
+    "word": "tenant",
+    "meaning_es": "inquilino",
+    "meaning_en": "a person who rents a home or unit",
+    "collocations": ["prospective tenant", "tenant rights", "long-term tenant"],
+    "paraphrases": ["renter", "occupant"],
+    "examples": [
+      "Prospective tenants must provide references.",
+      "Know your tenant rights before signing any document."
+    ],
+    "example": "Prospective tenants must provide references."
+  },
+  {
+    "id": "v44",
+    "topic": "Housing",
+    "level": "B2",
+    "word": "deposit",
+    "meaning_es": "depósito (garantía)",
+    "meaning_en": "money paid in advance as security",
+    "collocations": ["security deposit", "refundable deposit", "pay a deposit"],
+    "paraphrases": ["money held as security", "advance payment"],
+    "examples": [
+      "The landlord requires a one-month security deposit.",
+      "The deposit is refundable if there is no damage."
+    ],
+    "example": "The landlord requires a one-month security deposit."
+  },
+  {
+    "id": "v45",
+    "topic": "Housing",
+    "level": "B2",
+    "word": "maintenance",
+    "meaning_es": "mantenimiento",
+    "meaning_en": "work done to keep property in good condition",
+    "collocations": ["routine maintenance", "maintenance request", "maintenance fee"],
+    "paraphrases": ["upkeep", "repairs and care"],
+    "examples": [
+      "Submit a maintenance request through the portal.",
+      "Routine maintenance extends the building's lifespan."
+    ],
+    "example": "Submit a maintenance request through the portal."
+  },
+  {
+    "id": "v46",
+    "topic": "Housing",
+    "level": "B2",
+    "word": "mortgage",
+    "meaning_es": "hipoteca",
+    "meaning_en": "a loan to buy property",
+    "collocations": ["mortgage payment", "mortgage approval", "fixed-rate mortgage"],
+    "paraphrases": ["home loan", "property loan"],
+    "examples": [
+      "Our mortgage payment is due on the first of each month.",
+      "They secured mortgage approval after improving their credit."
+    ],
+    "example": "Our mortgage payment is due on the first of each month."
+  },
+  {
+    "id": "v47",
+    "topic": "Housing",
+    "level": "C1",
+    "word": "eviction",
+    "meaning_es": "desalojo",
+    "meaning_en": "the legal removal of a tenant from a property",
+    "collocations": ["eviction notice", "face eviction", "eviction process"],
+    "paraphrases": ["forced removal", "legal ousting"],
+    "examples": [
+      "The landlord issued an eviction notice after months of nonpayment.",
+      "Legal aid can help tenants who face eviction."
+    ],
+    "example": "The landlord issued an eviction notice after months of nonpayment."
+  },
+  {
+    "id": "v48",
+    "topic": "Housing",
+    "level": "B2",
+    "word": "utilities",
+    "meaning_es": "servicios (agua, luz, gas)",
+    "meaning_en": "basic services such as water, electricity, or gas",
+    "collocations": ["utility bill", "include utilities", "set up utilities"],
+    "paraphrases": ["essential services", "household services"],
+    "examples": [
+      "Rent includes utilities for water and heat.",
+      "Please set up utilities before moving in."
+    ],
+    "example": "Rent includes utilities for water and heat."
+  },
+  {
+    "id": "v49",
+    "topic": "Housing",
+    "level": "C1",
+    "word": "sublet",
+    "meaning_es": "subarrendar",
+    "meaning_en": "to rent your place to someone else for a time",
+    "collocations": ["sublet the room", "sublet agreement", "permission to sublet"],
+    "paraphrases": ["rent out temporarily", "lease to another person"],
+    "examples": [
+      "You need written permission to sublet the apartment.",
+      "We plan to sublet the room for the summer."
+    ],
+    "example": "You need written permission to sublet the apartment."
+  },
+  {
+    "id": "v50",
+    "topic": "Housing",
+    "level": "C1",
+    "word": "zoning",
+    "meaning_es": "zonificación",
+    "meaning_en": "rules that control how land can be used",
+    "collocations": ["zoning bylaw", "zoning permit", "zoned for residential"],
+    "paraphrases": ["land-use rules", "planning regulation"],
+    "examples": [
+      "The project needs a zoning permit before construction.",
+      "This area is zoned for residential use only."
+    ],
+    "example": "The project needs a zoning permit before construction."
+  },
+  {
+    "id": "v51",
+    "topic": "Work",
+    "level": "B2",
+    "word": "onboarding",
+    "meaning_es": "integración (de personal)",
+    "meaning_en": "the process of welcoming and training new staff",
+    "collocations": ["employee onboarding", "onboarding process", "onboarding plan"],
+    "paraphrases": ["new-hire orientation", "initial training"],
+    "examples": [
+      "Our onboarding process includes a mentor for each new hire.",
+      "The onboarding plan reduces early turnover."
+    ],
+    "example": "Our onboarding process includes a mentor for each new hire."
+  },
+  {
+    "id": "v52",
+    "topic": "Work",
+    "level": "C1",
+    "word": "retention",
+    "meaning_es": "retención (de personal)",
+    "meaning_en": "the ability to keep employees long-term",
+    "collocations": ["employee retention", "retention strategy", "retention rate"],
+    "paraphrases": ["keeping staff", "reducing turnover"],
+    "examples": [
+      "Flexible schedules improved our retention rate.",
+      "We launched a retention strategy focused on growth."
+    ],
+    "example": "Flexible schedules improved our retention rate."
+  },
+  {
+    "id": "v53",
+    "topic": "Work",
+    "level": "B2",
+    "word": "benchmark",
+    "meaning_es": "referencia / punto de comparación",
+    "meaning_en": "a standard to compare performance against",
+    "collocations": ["industry benchmark", "benchmark performance", "set a benchmark"],
+    "paraphrases": ["standard for comparison", "reference point"],
+    "examples": [
+      "We used the industry benchmark to evaluate our results.",
+      "Teams benchmark performance quarterly."
+    ],
+    "example": "We used the industry benchmark to evaluate our results."
+  },
+  {
+    "id": "v54",
+    "topic": "Work",
+    "level": "B2",
+    "word": "allocate",
+    "meaning_es": "asignar / distribuir",
+    "meaning_en": "to set aside resources for a purpose",
+    "collocations": ["allocate resources", "allocate budget", "allocate time"],
+    "paraphrases": ["assign resources", "set aside"],
+    "examples": [
+      "We need to allocate more time for testing.",
+      "The board voted to allocate budget to training."
+    ],
+    "example": "We need to allocate more time for testing."
+  },
+  {
+    "id": "v55",
+    "topic": "Work",
+    "level": "B2",
+    "word": "backlog",
+    "meaning_es": "trabajo acumulado",
+    "meaning_en": "tasks that have piled up and remain to be done",
+    "collocations": ["clear the backlog", "product backlog", "backlog grooming"],
+    "paraphrases": ["accumulated tasks", "queue of work"],
+    "examples": [
+      "We scheduled a sprint to clear the backlog.",
+      "Backlog grooming keeps priorities up to date."
+    ],
+    "example": "We scheduled a sprint to clear the backlog."
+  },
+  {
+    "id": "v56",
+    "topic": "Work",
+    "level": "C1",
+    "word": "stakeholder",
+    "meaning_es": "parte interesada",
+    "meaning_en": "a person or group affected by a decision",
+    "collocations": ["stakeholder meeting", "key stakeholders", "stakeholder feedback"],
+    "paraphrases": ["interested party", "affected group"],
+    "examples": [
+      "We gathered stakeholder feedback before launching.",
+      "Key stakeholders will attend the review meeting."
+    ],
+    "example": "We gathered stakeholder feedback before launching."
+  },
+  {
+    "id": "v57",
+    "topic": "Work",
+    "level": "C1",
+    "word": "remuneration",
+    "meaning_es": "remuneración",
+    "meaning_en": "the total pay and benefits for work",
+    "collocations": ["remuneration package", "total remuneration", "competitive remuneration"],
+    "paraphrases": ["pay and benefits", "compensation"],
+    "examples": [
+      "We offer a competitive remuneration package.",
+      "Total remuneration includes bonuses and benefits."
+    ],
+    "example": "We offer a competitive remuneration package."
+  },
+  {
+    "id": "v58",
+    "topic": "Work",
+    "level": "B2",
+    "word": "overtime",
+    "meaning_es": "horas extra",
+    "meaning_en": "time worked beyond normal hours",
+    "collocations": ["paid overtime", "overtime hours", "overtime policy"],
+    "paraphrases": ["extra hours", "after-hours work"],
+    "examples": [
+      "Employees must get approval before working overtime.",
+      "Paid overtime is calculated at a higher rate."
+    ],
+    "example": "Employees must get approval before working overtime."
+  },
+  {
+    "id": "v59",
+    "topic": "Work",
+    "level": "B2",
+    "word": "probation",
+    "meaning_es": "período de prueba",
+    "meaning_en": "a trial period before a job becomes permanent",
+    "collocations": ["probation period", "on probation", "extend probation"],
+    "paraphrases": ["trial period", "initial evaluation phase"],
+    "examples": [
+      "New hires have a three-month probation period.",
+      "Performance is reviewed while you're on probation."
+    ],
+    "example": "New hires have a three-month probation period."
+  },
+  {
+    "id": "v60",
+    "topic": "Work",
+    "level": "B2",
+    "word": "deliverable",
+    "meaning_es": "entregable",
+    "meaning_en": "a specific result or item to be delivered",
+    "collocations": ["project deliverables", "submit deliverables", "define deliverables"],
+    "paraphrases": ["required output", "expected result"],
+    "examples": [
+      "All project deliverables are listed in the contract.",
+      "Please submit the deliverables by Friday."
+    ],
+    "example": "All project deliverables are listed in the contract."
+  },
+  {
+    "id": "v61",
+    "topic": "Transportation",
+    "level": "B2",
+    "word": "fare",
+    "meaning_es": "tarifa (transporte)",
+    "meaning_en": "the price paid for a trip on public transport",
+    "collocations": ["bus fare", "peak fare", "reduced fare"],
+    "paraphrases": ["ticket price", "travel cost"],
+    "examples": [
+      "Bus fares will increase next month.",
+      "Students get a reduced fare with valid ID."
+    ],
+    "example": "Bus fares will increase next month."
+  },
+  {
+    "id": "v62",
+    "topic": "Transportation",
+    "level": "B2",
+    "word": "interchange",
+    "meaning_es": "intercambiador / estación de conexión",
+    "meaning_en": "a place where you switch lines or routes",
+    "collocations": ["bus interchange", "interchange station", "major interchange"],
+    "paraphrases": ["transfer hub", "connection point"],
+    "examples": [
+      "The new interchange reduces transfer times.",
+      "This station is the main interchange for three lines."
+    ],
+    "example": "The new interchange reduces transfer times."
+  },
+  {
+    "id": "v63",
+    "topic": "Transportation",
+    "level": "B2",
+    "word": "ride-sharing",
+    "meaning_es": "compartir viaje",
+    "meaning_en": "arranging shared rides through an app",
+    "collocations": ["ride-sharing app", "ride-sharing option", "ride-sharing service"],
+    "paraphrases": ["shared ride", "car-hailing with others"],
+    "examples": [
+      "Ride-sharing options are cheaper during off-peak hours.",
+      "The ride-sharing app added airport pickups."
+    ],
+    "example": "Ride-sharing options are cheaper during off-peak hours."
+  },
+  {
+    "id": "v64",
+    "topic": "Transportation",
+    "level": "B2",
+    "word": "pedestrian",
+    "meaning_es": "peatón / peatonal",
+    "meaning_en": "relating to people walking",
+    "collocations": ["pedestrian crossing", "pedestrian safety", "pedestrian zone"],
+    "paraphrases": ["for walkers", "foot traffic"],
+    "examples": [
+      "Use the pedestrian crossing at the lights.",
+      "The city improved pedestrian safety downtown."
+    ],
+    "example": "Use the pedestrian crossing at the lights."
+  },
+  {
+    "id": "v65",
+    "topic": "Transportation",
+    "level": "B2",
+    "word": "bike lane",
+    "meaning_es": "ciclovía / carril bici",
+    "meaning_en": "a lane reserved for cyclists",
+    "collocations": ["dedicated bike lane", "protected bike lane", "painted bike lane"],
+    "paraphrases": ["cycle lane", "bicycle-only lane"],
+    "examples": [
+      "A new protected bike lane runs along the avenue.",
+      "The painted bike lane will be upgraded next year."
+    ],
+    "example": "A new protected bike lane runs along the avenue."
+  },
+  {
+    "id": "v66",
+    "topic": "Transportation",
+    "level": "B2",
+    "word": "carpool",
+    "meaning_es": "compartir coche",
+    "meaning_en": "to share a car ride with others",
+    "collocations": ["carpool lane", "carpool to work", "carpool program"],
+    "paraphrases": ["share rides", "ride together"],
+    "examples": [
+      "We carpool to work to save on fuel.",
+      "The carpool lane requires at least two passengers."
+    ],
+    "example": "We carpool to work to save on fuel."
+  },
+  {
+    "id": "v67",
+    "topic": "Transportation",
+    "level": "B2",
+    "word": "lane closure",
+    "meaning_es": "cierre de carril",
+    "meaning_en": "a temporary block of a traffic lane",
+    "collocations": ["lane closure notice", "overnight lane closure", "lane closure due to construction"],
+    "paraphrases": ["blocked lane", "closed traffic lane"],
+    "examples": [
+      "Expect delays due to an overnight lane closure.",
+      "A lane closure is in effect near the bridge."
+    ],
+    "example": "Expect delays due to an overnight lane closure."
+  },
+  {
+    "id": "v68",
+    "topic": "Transportation",
+    "level": "B2",
+    "word": "timetable",
+    "meaning_es": "horario (transporte)",
+    "meaning_en": "a schedule of departure and arrival times",
+    "collocations": ["train timetable", "publish the timetable", "updated timetable"],
+    "paraphrases": ["schedule", "list of times"],
+    "examples": [
+      "The new timetable adds more weekend trains.",
+      "Please check the timetable before you travel."
+    ],
+    "example": "The new timetable adds more weekend trains."
+  },
+  {
+    "id": "v69",
+    "topic": "Customer Service",
+    "level": "C1",
+    "word": "turnaround time",
+    "meaning_es": "tiempo de respuesta/entrega",
+    "meaning_en": "the time taken to complete a request",
+    "collocations": ["fast turnaround time", "turnaround time target", "reduce turnaround time"],
+    "paraphrases": ["completion time", "response time"],
+    "examples": [
+      "We aim for a 24-hour turnaround time on claims.",
+      "Automation reduced the turnaround time significantly."
+    ],
+    "example": "We aim for a 24-hour turnaround time on claims."
+  },
+  {
+    "id": "v70",
+    "topic": "Customer Service",
+    "level": "B2",
+    "word": "follow-up",
+    "meaning_es": "seguimiento",
+    "meaning_en": "an action taken after an initial contact",
+    "collocations": ["follow-up email", "schedule a follow-up", "follow-up call"],
+    "paraphrases": ["subsequent contact", "check-in"],
+    "examples": [
+      "I'll send a follow-up email with the details.",
+      "Let's schedule a follow-up next week."
+    ],
+    "example": "I'll send a follow-up email with the details."
+  },
+  {
+    "id": "v71",
+    "topic": "Customer Service",
+    "level": "B2",
+    "word": "resolution",
+    "meaning_es": "resolución (de un problema)",
+    "meaning_en": "the act of solving an issue",
+    "collocations": ["issue resolution", "resolution time", "resolution process"],
+    "paraphrases": ["problem solving", "closing a case"],
+    "examples": [
+      "Our goal is first-contact resolution.",
+      "We track resolution time for each ticket."
+    ],
+    "example": "Our goal is first-contact resolution."
+  },
+  {
+    "id": "v72",
+    "topic": "Customer Service",
+    "level": "B2",
+    "word": "ticket",
+    "meaning_es": "caso / incidencia (soporte)",
+    "meaning_en": "a record of a customer's request for help",
+    "collocations": ["support ticket", "ticket number", "ticket queue"],
+    "paraphrases": ["case record", "service request"],
+    "examples": [
+      "Please include the ticket number in your reply.",
+      "All new issues enter the ticket queue."
+    ],
+    "example": "Please include the ticket number in your reply."
+  },
+  {
+    "id": "v73",
+    "topic": "Customer Service",
+    "level": "B2",
+    "word": "warranty",
+    "meaning_es": "garantía",
+    "meaning_en": "a promise to repair or replace a product",
+    "collocations": ["warranty claim", "under warranty", "void the warranty"],
+    "paraphrases": ["guarantee", "service promise"],
+    "examples": [
+      "This device is still under warranty.",
+      "Submit a warranty claim with your receipt."
+    ],
+    "example": "This device is still under warranty."
+  },
+  {
+    "id": "v74",
+    "topic": "Customer Service",
+    "level": "B2",
+    "word": "loyalty program",
+    "meaning_es": "programa de fidelización",
+    "meaning_en": "a system that rewards repeat customers",
+    "collocations": ["join the loyalty program", "loyalty program points", "redeem points"],
+    "paraphrases": ["rewards scheme", "membership benefits"],
+    "examples": [
+      "Members earn points through the loyalty program.",
+      "You can redeem points for travel vouchers."
+    ],
+    "example": "Members earn points through the loyalty program."
+  },
+  {
+    "id": "v75",
+    "topic": "Customer Service",
+    "level": "B2",
+    "word": "satisfaction survey",
+    "meaning_es": "encuesta de satisfacción",
+    "meaning_en": "a questionnaire about service quality",
+    "collocations": ["customer satisfaction survey", "survey results", "send a survey"],
+    "paraphrases": ["feedback questionnaire", "quality survey"],
+    "examples": [
+      "We send a satisfaction survey after each repair.",
+      "Survey results guide training priorities."
+    ],
+    "example": "We send a satisfaction survey after each repair."
+  },
+  {
+    "id": "v76",
+    "topic": "Customer Service",
+    "level": "C1",
+    "word": "service level agreement",
+    "meaning_es": "acuerdo de nivel de servicio",
+    "meaning_en": "a contract that defines service targets",
+    "collocations": ["meet the SLA", "SLA breach", "SLA metrics"],
+    "paraphrases": ["service contract targets", "performance commitment"],
+    "examples": [
+      "We must meet the SLA for response and resolution.",
+      "An SLA breach triggers a penalty."
+    ],
+    "example": "We must meet the SLA for response and resolution."
+  },
+  {
+    "id": "v77",
+    "topic": "Health",
+    "level": "B2",
+    "word": "screening",
+    "meaning_es": "tamizaje / cribado",
+    "meaning_en": "a test used to find a condition early",
+    "collocations": ["health screening", "screening program", "screening guidelines"],
+    "paraphrases": ["preventive test", "early detection check"],
+    "examples": [
+      "The clinic offers free health screening on Fridays.",
+      "Screening programs can detect issues early."
+    ],
+    "example": "The clinic offers free health screening on Fridays."
+  },
+  {
+    "id": "v78",
+    "topic": "Health",
+    "level": "B2",
+    "word": "side effects",
+    "meaning_es": "efectos secundarios",
+    "meaning_en": "unintended effects of a medicine or treatment",
+    "collocations": ["mild side effects", "experience side effects", "report side effects"],
+    "paraphrases": ["unintended reactions", "secondary effects"],
+    "examples": [
+      "You may experience mild side effects like fatigue.",
+      "Report any side effects to your provider."
+    ],
+    "example": "You may experience mild side effects like fatigue."
+  },
+  {
+    "id": "v79",
+    "topic": "Health",
+    "level": "B2",
+    "word": "prescription",
+    "meaning_es": "receta médica",
+    "meaning_en": "a doctor's order for medicine",
+    "collocations": ["fill a prescription", "prescription medication", "renew a prescription"],
+    "paraphrases": ["doctor's order", "medication order"],
+    "examples": [
+      "You can fill the prescription at any pharmacy.",
+      "Some prescription medications are not covered."
+    ],
+    "example": "You can fill the prescription at any pharmacy."
+  },
+  {
+    "id": "v80",
+    "topic": "Health",
+    "level": "B2",
+    "word": "dosage",
+    "meaning_es": "dosis",
+    "meaning_en": "the amount and frequency of medicine",
+    "collocations": ["adjust the dosage", "daily dosage", "recommended dosage"],
+    "paraphrases": ["dose amount", "prescribed quantity"],
+    "examples": [
+      "Do not change the dosage without medical advice.",
+      "The doctor will adjust the dosage after the test."
+    ],
+    "example": "Do not change the dosage without medical advice."
+  },
+  {
+    "id": "v81",
+    "topic": "Health",
+    "level": "B2",
+    "word": "consultation",
+    "meaning_es": "consulta",
+    "meaning_en": "a meeting with a professional for advice",
+    "collocations": ["doctor's consultation", "free consultation", "book a consultation"],
+    "paraphrases": ["advisory visit", "professional appointment"],
+    "examples": [
+      "Book a consultation to discuss treatment options.",
+      "The clinic offers a free consultation for new patients."
+    ],
+    "example": "Book a consultation to discuss treatment options."
+  },
+  {
+    "id": "v82",
+    "topic": "Health",
+    "level": "C1",
+    "word": "waitlist",
+    "meaning_es": "lista de espera",
+    "meaning_en": "a list of people waiting for a service",
+    "collocations": ["on the waitlist", "reduce the waitlist", "waitlist priority"],
+    "paraphrases": ["waiting list", "queue for service"],
+    "examples": [
+      "You're on the waitlist and will be contacted soon.",
+      "The new clinic aims to reduce the waitlist."
+    ],
+    "example": "You're on the waitlist and will be contacted soon."
+  },
+  {
+    "id": "v83",
+    "topic": "Health",
+    "level": "B2",
+    "word": "coverage",
+    "meaning_es": "cobertura (de seguro)",
+    "meaning_en": "the services paid for by insurance",
+    "collocations": ["insurance coverage", "lack of coverage", "coverage limit"],
+    "paraphrases": ["benefits included", "what the plan pays"],
+    "examples": [
+      "Check your insurance coverage before the procedure.",
+      "Some therapies have limited coverage."
+    ],
+    "example": "Check your insurance coverage before the procedure."
+  },
+  {
+    "id": "v84",
+    "topic": "Health",
+    "level": "B2",
+    "word": "symptoms",
+    "meaning_es": "síntomas",
+    "meaning_en": "signs or feelings that show illness",
+    "collocations": ["report symptoms", "symptoms include...", "monitor symptoms"],
+    "paraphrases": ["indications of illness", "observed effects"],
+    "examples": [
+      "Report any new symptoms to your doctor.",
+      "Common symptoms include fever and a persistent cough."
+    ],
+    "example": "Report any new symptoms to your doctor."
+  }
+
+]
