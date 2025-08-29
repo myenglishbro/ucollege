@@ -1,41 +1,34 @@
+// InicioB2CFR.jsx
 import React, { useState } from 'react';
-import LandingFuturista from '../../LandingCourse/LandingFuturista';
-import LoginUniversal from '../LoginUniversal'; // Universal!
+import LandingFuturista2 from '../../LandingCourse/LandingFuturista2';
 import RoadMapB2CF from '../../../pages/ROADMAPS/RoadMapB2CF';
 import landingDataB2CF from "../../../utils/datalanding/dataLandingB2CF.json";
 import Navbar from '../../../pages/myenglishbro/components/NavBar';
-import { validCredentialsfree } from "../../../utils/credentialsfree";
-
-// Opcional: trae las imágenes desde el JSON o un archivo por nivel
-const bgImage = landingDataB2CF.bgImage 
-const robotImage = landingDataB2CF.robotImage 
 
 export default function InicioB2CFR() {
   const [fase, setFase] = useState('landing');
-  const [userCredential, setUserCredential] = useState(null);
-  const [userPassword, setUserPassword] = useState('');
 
-  const handleAccessClick = () => setFase('login');
-  const handleLoginSuccess = (credential, password) => {
-    setUserCredential(credential);
-    setUserPassword(password);
-    setFase('roadmap');
+  const handleAccessClick = () => setFase('roadmap');
+
+  // ‘guest’ por si RoadMapB2CF/RoadMapGeneric2 usa .nivel
+  const GUEST = {
+    expirationDate: "05/12/35",
+  nivel: "C2",
+  usuario: "capolaya",
+  password: "mybro",
+  realname: "MyEnglishBro!",
+  img: "https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png"
   };
 
   return (
     <>
       <Navbar />
-      {fase === 'landing' && <LandingFuturista {...landingDataB2CF} onAccessClick={handleAccessClick} />}
-      {fase === 'login' && (
-        <LoginUniversal
-          onLoginSuccess={handleLoginSuccess}
-          validCredentials={validCredentialsfree}
-          backgroundImage={bgImage}
-          robotImage={robotImage}
-          title="Inicia sesión B2 FREE"
-        />
+      {fase === 'landing' && (
+        <LandingFuturista2 {...landingDataB2CF} onAccessClick={handleAccessClick} />
       )}
-      {fase === 'roadmap' && <RoadMapB2CF userCredential={userCredential} userPassword={userPassword} />}
+      {fase === 'roadmap' && (
+        <RoadMapB2CF userCredential={GUEST} userPassword="" />
+      )}
     </>
   );
 }
