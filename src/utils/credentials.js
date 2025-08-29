@@ -66,6 +66,7 @@ export const validCredentials = [
       { expirationDate:"25/09",nivel:"CELPIP",usuario: 'fatima', password: 'ruiz', realname: 'Fátima Ruiz', img: 'https://i.ibb.co/jv0jDGgs/Chat-GPT-Image-6-jul-2025-13-23-34.png' }, // No image
 
 
+      { expirationDate:"25/09",nivel:"B2",usuario: 'brayam', password: 'churampi', realname: 'Brayam H. Churampi', img: 'https://i.ibb.co/jv0jDGgs/Chat-GPT-Image-6-jul-2025-13-23-34.png' }, // No image
 
 
 
