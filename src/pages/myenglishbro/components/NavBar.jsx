@@ -42,7 +42,7 @@ const Navbar = () => {
             transition={{ type: "spring", stiffness: 260, damping: 16 }}
             className="ml-2 text-2xl font-black tracking-tight text-white transition-all"
           >
-            MyenglishBro!
+            Learnibox
           </motion.span>
         </Link>
 
