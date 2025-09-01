@@ -92,8 +92,7 @@ export const roadA1 = [
         channel: " ",
         description: "Si has llevado clases de inglés antes realiza un examen para calcular tu nivel,Envia tu examen para su corrección al correo temis_it@hotmail.com",
         enlaces: [
-
-                          {  titulo:"Decir la hora ", url:"https://drive.google.com/file/d/1aMi32PBVfM5T3VWrQbB0Yy3SrKG_KSEW/view?usp=sharing",url4: "https://youtu.be/nfBTafRky5I",url5: "https://wordwall.net/play/11993/400/13264"},
+                          {  titulo:"Tell the time", url:"https://drive.google.com/file/d/1aMi32PBVfM5T3VWrQbB0Yy3SrKG_KSEW/view?usp=sharing",url4: "https://youtu.be/nfBTafRky5I",url5: "https://wordwall.net/play/11993/400/13264"},
             { titulo: "Imperatives",url: "https://drive.google.com/file/d/1rb6mldX_yloyGxHSw9bTk2p8iQfFVwPm/view?usp=sharing",url4:"https://youtu.be/bqIySFs8r0c",url5:"https://wordwall.net/play/16378/903/4549"},
             {  titulo:" Demonstrative Pronouns & Adjective",url:"https://drive.google.com/file/d/1hnYLBxFqYhSxtvtIC6aTm5WGBaCDv6Eb/view?usp=sharing",url2:"https://drive.google.com/file/d/110FauO9eGqiTbGW-MTVpe4CczVrIQupj/view?usp=sharing", url4: "https://youtu.be/0xolOZ9AaOc"},
             {  titulo:"have got/has got",url:"https://drive.google.com/file/d/1Irqj7eSSPGu61a0U9istdFl1a6aTh9NG/view?usp=sharing",url4:"https://youtu.be/jJgCCREP50I" ,url5: "https://wordwall.net/play/4935/754/2603"},
