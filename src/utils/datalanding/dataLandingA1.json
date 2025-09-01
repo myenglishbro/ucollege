@@ -44,32 +44,76 @@
   ],
   "temario_titulo": "Course content",
   "rutas": [
-    {
-      "titulo": "Fundamentos del Desarrollo Web Profesional",
-      "tiempo": "51 horas de contenido",
-      "cursos": [
-        "Introducción a la Web: Historia y Funcionamiento",
-        "Computadoras e Informática Básica",
-        "Terminal y Línea de Comandos",
-        "Fundamentos de Ingeniería de Software",
-        "HTML y CSS Definitivo",
-        "Práctico de HTML y CSS",
-        "Programación Básica Gratis",
-        "Fundamentos de JavaScript",
-        "Git y GitHub Básico"
-      ]
-    },
-    {
-      "titulo": "Diseño y Desarrollo Frontend",
-      "tiempo": "39 horas de contenido",
-      "cursos": [
-        "Frontend Developer",
-        "Práctico de Frontend Developer",
-        "Responsive Design: Maquetación Mobile First",
-        "Práctico de Maquetación en CSS"
-      ]
-    }
-  ],
+  {
+    "titulo": "Bienvenida & Diagnóstico",
+    "tiempo": "1 hora de contenido",
+    "cursos": [
+      "Presentación del curso"
+    ]
+  },
+  {
+    "titulo": "Fundamentos del idioma",
+    "tiempo": "8 horas de contenido",
+    "cursos": [
+      "El alfabeto y pronunciación básica",
+      "Los pronombres personales",
+      "Saludos y presentaciones",
+      "Los números y las edades",
+      "Artículos a / an",
+      "Los plurales",
+      "There is / There are (hay / no hay)",
+      "Preposiciones básicas: in / on / at (lugar/tiempo)",
+      "Números ordinales"
+    ]
+  },
+  {
+    "titulo": "El verbo BE (ser/estar)",
+    "tiempo": "6 horas de contenido",
+    "cursos": [
+      "BE en afirmativo",
+      "Las nacionalidades y profesiones",
+      "Días de la semana & estaciones",
+      "Los colores y animales",
+      "BE en negativo e interrogativo",
+      "BE Wh-questions"
+    ]
+  },
+  {
+    "titulo": "Descripción y posesión",
+    "tiempo": "5 horas de contenido",
+    "cursos": [
+      "Familia y partes de la casa",
+      "Adjetivos posesivos",
+      "Pronombres posesivos",
+      "Los adjetivos",
+      "Genitivo sajón & partes del cuerpo"
+    ]
+  },
+  {
+    "titulo": "Expresiones útiles",
+    "tiempo": "4 horas de contenido",
+    "cursos": [
+      "Decir la hora",
+      "Imperativos",
+      "Pronombres y adjetivos demostrativos (this, that, these, those)",
+      "Have got / Has got"
+    ]
+  },
+  {
+    "titulo": "Rutinas y presente simple",
+    "tiempo": "7 horas de contenido",
+    "cursos": [
+      "Present Simple afirmativo",
+      "Las frutas y comidas",
+      "Lugares",
+      "Object Pronouns",
+      "Household Objects",
+      "Present Simple negativo & interrogativo",
+      "Adverbios de frecuencia"
+    ]
+  }
+]
+,
   "docentes": [
     {
       "nombre": "Carlos Apolaya",

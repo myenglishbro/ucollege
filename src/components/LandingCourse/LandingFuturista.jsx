@@ -10,7 +10,9 @@ import { motion } from 'framer-motion';
 import Typing from 'react-typing-effect';
 import { FaFacebookF, FaInstagram, FaYoutube, FaSpotify } from 'react-icons/fa';
 import CategoryCarousel from './CategoryCarousel';
-
+import PricingPlansDark from "./PricingPlansDark";
+import FeaturedInStrip from "./FeaturedInStrip";
+import React, { useRef } from "react";
 export default function LandingVibrante({
   logo,
   titulo,
@@ -105,6 +107,31 @@ export default function LandingVibrante({
 
     
 <CategoryCarousel />
+
+<PricingPlansDark
+  prices={{ basicMonthly: 30, plusQuarterly: 75, proAnnual: 240 }}
+  currency="S/"
+  baseMonthly={30}
+  onSelect={onAccessClick}
+/>
+<FeaturedInStrip
+  title="Somos partners de"
+  logos={[
+    { src: "https://i.ibb.co/1cjHk17/logo-1.png", alt: "ACE", name: "A.C.E. Academy" },
+    { src: "https://i.ibb.co/1cjHk17/logo-1.png", alt: "ACE", name: "A.C.E. Academy" },
+    { src: "https://i.ibb.co/1cjHk17/logo-1.png", alt: "ACE", name: "A.C.E. Academy" },
+  ]}
+  tone="light"
+  autoScroll
+  speed={40}
+  pauseOnHover
+  accent="#1515FF"
+  logoHeight={80}   // más grande
+  itemGap={64}      // espacio extra
+  edgeWidth={96}
+  showLabel         // muestra nombres
+/>
+
       {/* INCLUDES FULL-WIDTH SECTION */}
         <IncludesList includes={includes} src={mascotImage || '/tupersonaje.png'} />
 
