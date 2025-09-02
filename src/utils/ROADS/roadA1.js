@@ -27,6 +27,8 @@ export const roadA1 = [
         description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
         enlaces: [
             {  titulo:"El alfabeto y pronunciación básica",url4: "https://youtu.be/F1AXA7YfZwY",url: "https://drive.google.com/file/d/1tEYeFBNkhPeYnsTOZ9OwOlqV2G-NRvxQ/view?usp=sharing"},
+             {  titulo:"Pronunciación del Alfabeto",url4: "https://youtu.be/S5bkbaIMbGc"},
+
             {  titulo:"Los pronombres personales", url4: "https://youtu.be/dsrtVjA2NNg",url:"https://drive.google.com/file/d/1Pu56CwPGQgURfEnFkdRJde22DHkFcfLG/view?usp=sharing"},
             {  titulo:"Saludos y Presentaciones",url: "https://drive.google.com/file/d/1Th7-TMO4jmTZ56Fp52eseUo2amrBI8kW/view?usp=sharing",url4: "https://youtu.be/B_cRQMh04w0"},           
             {  titulo:"Los números y las edades ",url: "https://drive.google.com/file/d/1ChYoL8SsS6XY34gBKvnwFEKOOYmJ5Q_w/view?usp=sharing",url4: "https://youtu.be/maDf8azGyX4"},           

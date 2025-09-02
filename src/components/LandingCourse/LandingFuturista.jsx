@@ -18,6 +18,8 @@ export default function LandingVibrante({
   titulo,
   descripcion,
   teacher,
+   pricing = { prices: { basicMonthly: 30, plusQuarterly: 75, proAnnual: 240 }, currency: "S/", baseMonthly: 30 },
+
   video,
   precio,
   precio_original,
@@ -109,11 +111,11 @@ export default function LandingVibrante({
 <CategoryCarousel />
 
 <PricingPlansDark
-  prices={{ basicMonthly: 30, plusQuarterly: 75, proAnnual: 240 }}
-  currency="S/"
-  baseMonthly={30}
-  onSelect={onAccessClick}
-/>
+        prices={pricing?.prices}
+        currency={pricing?.currency}
+        baseMonthly={pricing?.baseMonthly}
+        onSelect={onAccessClick}
+      />
 <FeaturedInStrip
   title="Somos partners de"
   logos={[

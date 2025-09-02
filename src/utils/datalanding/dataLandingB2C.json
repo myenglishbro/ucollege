@@ -24,6 +24,12 @@
   },
   "last_updated": "20/07/2025",
   "idiomas": ["English", "Spanish"],
+  "pricing": {
+    "prices": { "basicMonthly": 90, "plusQuarterly": 175, "proAnnual": 240 },
+    "currency": "S/",
+    "baseMonthly": 90
+  },
+
   "learning": [
     "Habilidades de comunicación en inglés profesional con pronunciación y acento nativos.",
     "Mejorar las habilidades esenciales como el habla, la escucha y la gramática.",
