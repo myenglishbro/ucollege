@@ -19,7 +19,7 @@ export const roadA2 = [
         id: 1,
         thumbnail: "https://i.ibb.co/rpNz4py/B2-FIRST-31.png",
 
-        title: "Fundamentos I",
+        title: "Rutinas y Tiempo Libre",
         subtitle: "Nivel Básico ",
     
         dateAdded: "Basic 0 ",
@@ -27,29 +27,18 @@ export const roadA2 = [
         description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
         enlaces: [
 
-            {  titulo:"Los Saludos",url: "https://drive.google.com/file/d/1o8x7wvOmzrozDie2dizqliw7Eb5QGsw4/view?usp=sharing",url3: "https://www.youtube.com/watch?v=xipdKtlzxAg&t=435s"},           
-            {  titulo:"The Alphabet",url2: "https://www.youtube.com/watch?v=fG9ccbmA0-o",url: "https://drive.google.com/file/d/10pTYkkB8ni0Ng3cxwv8mYuE7pQ6BF_Y-/view?usp=sharing"},
-            {  titulo:" The Pronouns", url2: "https://www.youtube.com/watch?v=2Ty1I6hMq-g"},
-            {  titulo:"Spelling Names",url: "https://www.youtube.com/watch?v=NKZejheVK8w"},
-            {  titulo:"Spelling Names",url: "https://youtu.be/s-PqZNY9NIE"},
-            {  titulo:"A/An Explicación", url: "https://drive.google.com/file/d/1MsMemHQtawat60xSxQFrWp3daZOLKJ3l/view?usp=sharing",url2: "https://youtu.be/6PHOdNLdjok"},
-            {  titulo:" There is/ There are",url: "https://wordwall.net/play/19158/687/83046"},
-            {  titulo:" There is/ There are II ",url: "https://wordwall.net/play/21498/511/4430"},
-             {  titulo:"Días de la Semana", url: "https://drive.google.com/file/d/11JLBMEKHA5qK0hfzlsFI1SctOr7vSa47/view?usp=sharing",url3: "https://wordwall.net/play/22419/293/58122"},
-            {  titulo:" 12 Verbos Importantes en Ingles",url: "https://drive.google.com/file/d/1NGzis_cW6axVXqX5h7scYNn48FvZifrv/view?usp=sharing",url2: "https://youtu.be/NuCWBUcvvaY"},
-            {  titulo:" Las Preposiciones",url: "https://drive.google.com/file/d/1T2S3iq7ziQCr5CIDOdMrAd_zEQ0SkGYH/view?usp=sharing",url2: "https://youtu.be/8JEvVGC1HoQ"},
+         
+            {  titulo:"Present Simple Afirmativo", url:"https://drive.google.com/file/d/1RPry6CTichsaflus2gbVIV3mE4l6mdl4/view?usp=sharing",url4: "https://youtu.be/S3TbSR-TJ3A",url5:"https://wordwall.net/play/57830/431/8032"},
+            {  titulo:"Las Frutas y Comidas", url:"https://drive.google.com/file/d/1_gQgAhEJ38c7XLp3qmNqNECjRqORdt73/view?usp=sharing",url4: "https://youtu.be/-T9Au-rGWbY"},
+            {  titulo:"Lugares",url: "https://drive.google.com/file/d/11sYrVn0MrbnyEA79IvmqGhBfsgE1EnLk/view?usp=sharing",url4:"https://youtu.be/F8loOzvWhTA" },
 
-            {  titulo:"🎬 The English Structure ", url: "https://youtu.be/KHtBBCOnaKg",url2:"https://drive.google.com/file/d/1uhrnYQzPAG_dm2uXmfjew22pXEtNa-6S/view?usp=sharing"},
-            {  titulo:"[🖥️Class] The English Map", url: "https://www.youtube.com/watch?v=fOPkF348Kgg"},
-          
-            {  titulo:" Los Plurales en Ingles",url: "https://drive.google.com/file/d/1QeZ9rmMlgkaqHO5Dyfpmp7hk5pcZ7Uwy/view?usp=sharing",url2: "https://youtu.be/acpprMF4NhY"},
-            {  titulo:" Practicando Plural Nouns", url2: "https://youtu.be/K2v046W9AoE"},
-            {  titulo:"[🧩 Activity] Plural Nouns Rules", url: "https://wordwall.net/play/75502/816/809" },
-           {  titulo:"[🖥️ Class] Plural Nouns", url: "https://youtu.be/K2v046W9AoE"},
-            {  titulo:"[🗂️Slide] Plural Nouns", url: "https://docs.google.com/presentation/d/1uGlaHgl2gR_LI3_Z9wZzlp99FmqRvZAp/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
-            {  titulo:"[🖥️ Class] Practicando Plural Nouns", url: "https://youtu.be/K2v046W9AoE"},
-            {  titulo:"[🧩 Activity] Plural Nouns Rules", url: "https://wordwall.net/play/75502/816/809" },
-           
+            {  titulo:"Object Pronouns ",url: "https://drive.google.com/file/d/1MgV9Cd2rVyOoJ3Bd3_P692S8q-Yaxu9h/view?usp=sharing" ,url4:"https://youtu.be/vW-vTszH4xw",url5: "https://wordwall.net/play/69980/389/917" },
+            {  titulo:"Household Objects",url: "https://drive.google.com/file/d/1P-c8iqNpEPg0xqZSy8A_Ydtf9mWVb-2q/view?usp=sharing",url4:"https://youtu.be/BA8hzf7rp-w" },
+
+            {  titulo:"Present Simple Negative & Interrogative ",url:"https://drive.google.com/file/d/1WfymWBrEMkm8gLLvgqGoSvXy83WvlrC_/view?usp=sharing" ,url4: "https://youtu.be/QANvYn5QEUs"},
+            { titulo: "Adverbs of Frequency",url: "https://docs.google.com/presentation/d/12feKDZwOqILPrUSp6Nm6vtYqfcgjaQqR/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",url4:"https://youtu.be/pkQdCn7qlHc",  url5: "https://wordwall.net/play/54781/327/2832"},
+             
+            
        
         ],
     },
