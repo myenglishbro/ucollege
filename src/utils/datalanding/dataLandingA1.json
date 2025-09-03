@@ -22,6 +22,16 @@
     "votes": 660,
     "students": 3187
   },
+  
+  "pricing": {
+    "prices": {
+      "basicMonthly": 30,
+      "plusQuarterly": 75,
+      "proAnnual": 240
+    },
+    "currency": "S/",
+    "baseMonthly": 30
+  },
   "last_updated": "07/07/2025",
   "idiomas": ["English", "Spanish"],
   "learning": [

@@ -3,7 +3,7 @@ export const roadIt = [
         id: 1,
         thumbnail: "https://i.ibb.co/rpNz4py/B2-FIRST-31.png",
 
-    title: "Fundamentos del idioma",
+    title: "A1-Fundamentos del idioma",
         subtitle: "Nivel Básico ",
     
         dateAdded: "Basic 0 ",
@@ -12,7 +12,6 @@ export const roadIt = [
         enlaces: [
             {  titulo:"El alfabeto y pronunciación básica",url4: "https://youtu.be/F1AXA7YfZwY",url: "https://drive.google.com/file/d/1tEYeFBNkhPeYnsTOZ9OwOlqV2G-NRvxQ/view?usp=sharing"},
              {  titulo:"Pronunciación del Alfabeto",url4: "https://youtu.be/S5bkbaIMbGc"},
-
             {  titulo:"Los pronombres personales", url4: "https://youtu.be/dsrtVjA2NNg",url:"https://drive.google.com/file/d/1Pu56CwPGQgURfEnFkdRJde22DHkFcfLG/view?usp=sharing"},
             {  titulo:"Saludos y Presentaciones",url: "https://drive.google.com/file/d/1Th7-TMO4jmTZ56Fp52eseUo2amrBI8kW/view?usp=sharing",url4: "https://youtu.be/B_cRQMh04w0"},           
             {  titulo:"Los números y las edades ",url: "https://drive.google.com/file/d/1ChYoL8SsS6XY34gBKvnwFEKOOYmJ5Q_w/view?usp=sharing",url4: "https://youtu.be/maDf8azGyX4"},           
@@ -27,7 +26,7 @@ export const roadIt = [
      {
         id: 2,
         thumbnail: "https://i.ibb.co/mX3PsJ2/B2-FIRST-28.png",
-        title: "El verbo BE (ser/estar)",
+        title: "A1-El verbo BE (ser/estar)",
         subtitle: "Centro de Clasificación ",
     
         dateAdded: "Basic 0 ",
@@ -51,7 +50,7 @@ export const roadIt = [
      {
         id: 3,
         thumbnail: "https://i.ibb.co/mX3PsJ2/B2-FIRST-28.png",
-        title: "Descripción y posesión",
+        title: "A1-Descripción y posesión",
         subtitle: "Centro de Clasificación ",
     
         dateAdded: "Basic 0 ",
@@ -71,7 +70,7 @@ export const roadIt = [
       {
         id: 4,
         thumbnail: "https://i.ibb.co/mX3PsJ2/B2-FIRST-28.png",
-        title: "Expresiones útiles",
+        title: "A1-Expresiones útiles",
         subtitle: "Centro de Clasificación ",
     
         dateAdded: "Basic 0 ",
@@ -91,7 +90,7 @@ export const roadIt = [
     {
         id: 5,
         thumbnail: "https://i.ibb.co/9wVtSxZ/B2-FIRST-18.png",
-        title: " Rutinas y presente simple ",
+        title: "A1- Rutinas y presente simple ",
         subtitle: "A1 - Present Progressive Tense",
 
         dateAdded: "Basic 0 ",

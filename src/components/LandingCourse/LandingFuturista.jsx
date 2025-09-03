@@ -18,7 +18,7 @@ export default function LandingVibrante({
   titulo,
   descripcion,
   teacher,
-   pricing = { prices: { basicMonthly: 30, plusQuarterly: 75, proAnnual: 240 }, currency: "S/", baseMonthly: 30 },
+  pricing, 
 
   video,
   precio,
@@ -40,6 +40,14 @@ export default function LandingVibrante({
   registrarse
   
 }) {
+
+   const showPricing =
+    !!pricing &&
+    !!pricing.prices &&
+    typeof pricing.prices.basicMonthly === "number" &&
+    typeof pricing.prices.plusQuarterly === "number" &&
+    typeof pricing.prices.proAnnual === "number";
+
   return (
     <div className="min-h-screen bg-white text-gray-900 font-sans overflow-x-hidden mt-10 relative">
 
@@ -110,13 +118,16 @@ export default function LandingVibrante({
     
 <CategoryCarousel />
 
-<PricingPlansDark
-        prices={pricing?.prices}
-        currency={pricing?.currency}
-        baseMonthly={pricing?.baseMonthly}
-        onSelect={onAccessClick}
-      />
-<FeaturedInStrip
+ {/* Solo se muestra si viene `pricing` válido */}
+      {showPricing && (
+        <PricingPlansDark
+          prices={pricing.prices}
+          currency={pricing.currency}
+          baseMonthly={pricing.baseMonthly}
+          onSelect={onAccessClick}
+        />
+      )}
+{/* <FeaturedInStrip
   title="Somos partners de"
   logos={[
     { src: "https://i.ibb.co/1cjHk17/logo-1.png", alt: "ACE", name: "A.C.E. Academy" },
@@ -132,7 +143,7 @@ export default function LandingVibrante({
   itemGap={64}      // espacio extra
   edgeWidth={96}
   showLabel         // muestra nombres
-/>
+/> */}
 
       {/* INCLUDES FULL-WIDTH SECTION */}
         <IncludesList includes={includes} src={mascotImage || '/tupersonaje.png'} />
@@ -151,7 +162,7 @@ export default function LandingVibrante({
       </main>
 
       {/* Footer */}
-       (
+       
     <footer className="bg-[#1200ff] text-white px-8 pt-16 pb-10 rounded-t-3xl">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
         {/* Logo y CTA */}
