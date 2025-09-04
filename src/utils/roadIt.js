@@ -41,63 +41,16 @@ export const roadIt = [
 
             {  titulo:"Be Negative & Interrogative",url:"https://drive.google.com/file/d/1fYUiUa-SUpZbIRFSbNjKFtztZqynabMp/view?usp=sharing", url4: "https://youtu.be/3Y6WbRKB29k",url8: "https://wordwall.net/play/1856/077/57902"},
             {  titulo:" Be Wh-questions", url:"https://drive.google.com/file/d/1SOhK3MoMEhEa--7vOtUgYbrBoLMFchjr/view?usp=sharing",url4: "https://youtu.be/VIR927qT0nM"},
-
-
-              ],
-    },
- 
-    
-     {
-        id: 3,
-        thumbnail: "https://i.ibb.co/mX3PsJ2/B2-FIRST-28.png",
-        title: "A1-Descripción y posesión",
-        subtitle: "Centro de Clasificación ",
-    
-        dateAdded: "Basic 0 ",
-        channel: " ",
-        description: "Si has llevado clases de inglés antes realiza un examen para calcular tu nivel,Envia tu examen para su corrección al correo temis_it@hotmail.com",
-        enlaces: [
-
-            {  titulo:" Familia y partes de la Casa",url: "https://drive.google.com/file/d/112btGBH3SMIBdhZJsdKb-lpNcHuE9JEm/view?usp=sharing",url4:"https://youtu.be/iBWuaXhMWhI" },
+  {  titulo:" Familia y partes de la Casa",url: "https://drive.google.com/file/d/112btGBH3SMIBdhZJsdKb-lpNcHuE9JEm/view?usp=sharing",url4:"https://youtu.be/iBWuaXhMWhI" },
             {  titulo:"Possesive Adjectives", url: "https://drive.google.com/file/d/184A1hF7urlyzIWHHm7XRb3dndGAer4ao/view?usp=sharing", url4:"https://youtu.be/IMOxdqYMdEM",url5: "https://wordwall.net/play/55417/749/2837" },
             {  titulo:" Possessive Pronouns",url:"https://drive.google.com/file/d/14Gm5YFjTk--N-2uXY_a985USLG1jBdw7/view?usp=sharing", url4:"https://youtu.be/NIiMdQ8aP40",url5: "https://wordwall.net/play/52592/500/1753"},
             {  titulo:"Los Adjetivos", url: "https://drive.google.com/file/d/12WD9bou7Zqu3cDfm2JDwEPs3D4d6SOjj/view?usp=sharing",url4:"https://youtu.be/JSNG7OanZIg"},
             {  titulo:"Genitivo Sajon & Body Parts", url: "https://drive.google.com/file/d/1zXqo87BkeWyLdIB4eMZJnV3JvXmEgaFL/view?usp=sharing",url4:"https://youtu.be/J6aVbtytpFM"},
-
-              ],
-    },
- 
-      {
-        id: 4,
-        thumbnail: "https://i.ibb.co/mX3PsJ2/B2-FIRST-28.png",
-        title: "A1-Expresiones útiles",
-        subtitle: "Centro de Clasificación ",
-    
-        dateAdded: "Basic 0 ",
-        channel: " ",
-        description: "Si has llevado clases de inglés antes realiza un examen para calcular tu nivel,Envia tu examen para su corrección al correo temis_it@hotmail.com",
-        enlaces: [
-                          {  titulo:"Tell the time", url:"https://drive.google.com/file/d/1aMi32PBVfM5T3VWrQbB0Yy3SrKG_KSEW/view?usp=sharing",url4: "https://youtu.be/nfBTafRky5I",url5: "https://wordwall.net/play/11993/400/13264"},
+      {  titulo:"Tell the time", url:"https://drive.google.com/file/d/1aMi32PBVfM5T3VWrQbB0Yy3SrKG_KSEW/view?usp=sharing",url4: "https://youtu.be/nfBTafRky5I",url5: "https://wordwall.net/play/11993/400/13264"},
             { titulo: "Imperatives",url: "https://drive.google.com/file/d/1rb6mldX_yloyGxHSw9bTk2p8iQfFVwPm/view?usp=sharing",url4:"https://youtu.be/bqIySFs8r0c",url5:"https://wordwall.net/play/16378/903/4549"},
             {  titulo:" Demonstrative Pronouns & Adjective",url:"https://drive.google.com/file/d/1hnYLBxFqYhSxtvtIC6aTm5WGBaCDv6Eb/view?usp=sharing",url2:"https://drive.google.com/file/d/110FauO9eGqiTbGW-MTVpe4CczVrIQupj/view?usp=sharing", url4: "https://youtu.be/0xolOZ9AaOc"},
             {  titulo:"have got/has got",url:"https://drive.google.com/file/d/1Irqj7eSSPGu61a0U9istdFl1a6aTh9NG/view?usp=sharing",url4:"https://youtu.be/jJgCCREP50I" ,url5: "https://wordwall.net/play/4935/754/2603"},
 
-              ],
-    },
- 
-    
- 
-    {
-        id: 5,
-        thumbnail: "https://i.ibb.co/9wVtSxZ/B2-FIRST-18.png",
-        title: "A1- Rutinas y presente simple ",
-        subtitle: "A1 - Present Progressive Tense",
-
-        dateAdded: "Basic 0 ",
-        channel: "sdasd",
-        description: "Aprenderemos los concepto elemental en el idiomrir las habilidades necesarias para avanzar a niveles más altos de competencia en el futuro. ",
-        enlaces: [
-          
 
             {  titulo:"Present Simple Afirmativo", url:"https://drive.google.com/file/d/1RPry6CTichsaflus2gbVIV3mE4l6mdl4/view?usp=sharing",url4: "https://youtu.be/S3TbSR-TJ3A",url5:"https://wordwall.net/play/57830/431/8032"},
             {  titulo:"Las Frutas y Comidas", url:"https://drive.google.com/file/d/1_gQgAhEJ38c7XLp3qmNqNECjRqORdt73/view?usp=sharing",url4: "https://youtu.be/-T9Au-rGWbY"},
@@ -109,58 +62,11 @@ export const roadIt = [
             {  titulo:"Present Simple Negative & Interrogative ",url:"https://drive.google.com/file/d/1WfymWBrEMkm8gLLvgqGoSvXy83WvlrC_/view?usp=sharing" ,url4: "https://youtu.be/QANvYn5QEUs"},
             { titulo: "Adverbs of Frequency",url: "https://docs.google.com/presentation/d/12feKDZwOqILPrUSp6Nm6vtYqfcgjaQqR/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",url4:"https://youtu.be/pkQdCn7qlHc",  url5: "https://wordwall.net/play/54781/327/2832"},
              
-            
-        ],
+              ],
     },
-  
-  
+ 
+    
 
-     {
-        id: 0,
-        thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
-
-        title: "New Lessons",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 01 ",
-        channel: "sdasd",
-        description: "Entiende como usar cada matiz gramatical",
-        enlaces: [
-        { titulo:"Wireframe Explainer for Teams",descripcion:"Tips for UX/UI Designers & Project Owners",url:"https://drive.google.com/file/d/1yWswpPnLfcjU5rx1NKviDRhnoPVEbphc/view?usp=sharing",url3: "https://youtu.be/pWhg-XCGsz8"},
-        { titulo:"Product Owner Client Communication Playbook",descripcion:"As a Product Owner, effective communication with clients is one of your most valuable skills. 🗣️",url:"https://drive.google.com/file/d/1ONw_sSdmGm2gDkIJWfZIBp1DkP7mjv3T/view?usp=sharing",url3: "https://youtu.be/NrduH-fK998"},
-
-         { titulo:"Agile Stand-Up Communication",descripcion:"Tips for UX/UI Designers & Project Owners",url:"https://drive.google.com/file/d/1lDeNrIVLVurwMcOljTEgz-3E9eIJeASu/view?usp=sharing",url3: "https://youtu.be/UYxhAqZi9Ow",url2:"https://drive.google.com/file/d/1yoNLYAFbEPKnM-zSJM3w7hap4NwjJvSF/view?usp=sharing"},
-         { titulo:"Backlog Prioritization ",descripcion:"Communication Tips for UX/UI & Product Teams",url:"https://drive.google.com/file/d/1vxYddGwIwzPvUkdF3aaFXQfKyJsEddWV/view?usp=sharing",url3: "https://youtu.be/0zpkA8NiF_M",url2:"https://drive.google.com/file/d/1RxPEKPf1Fnrf5iqvQWFADOWh_L29FaWh/view?usp=sharing"},
-
-
-        ],
-    },
-     {
-        id: 0,
-        thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
-
-        title: "Complete Guide to All English Tense Differences",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 01 ",
-        channel: "sdasd",
-        description: "Entiende como usar cada matiz gramatical",
-        enlaces: [
-         { titulo:"Present Simple ",descripcion:"Aprende a usar el present simple en diferentes contextos ",url:"https://drive.google.com/file/d/1rwleyKN1vwRdZLJuHZXbIB3t88hevTl3/view?usp=sharing",url2: "https://youtu.be/b5KxYRP2I5s"},
-         { titulo:"Present Progressive",descripcion:"Aprende a usar el present progressive en diferentes contextos ",url:"https://drive.google.com/file/d/1Rqx1bzuRRJbjHZnH_iutOhx7oIzQoeut/view?usp=sharing",url2: "https://youtu.be/Nnu6JOaenf0"},
-         { titulo:"Present Simple vs Present Progressive ",descripcion:"Completa los niveles para dominar estos tiempos ",url4: "https://learnibox.vercel.app/presentsimpleprogressive"},
-         {  titulo:"Past Simple", url: "https://drive.google.com/file/d/1aAwupScFNRFoNArgtm5f_3k5a0Eyfztt/view?usp=sharing"},
-         { titulo: "Past Progressive ",url: "https://drive.google.com/file/d/18QxoihCFpTI0wyWQgr50OZtCdWWNVwqw/view?usp=sharing", },
-         { titulo:"Past Simple vs Past Progressive ",descripcion:"Completa los niveles para dominar estos tiempos ",url4: "https://learnibox.vercel.app/pastsimpleprogressive"},
-
-         {  titulo:"Present Perfect", url: "https://drive.google.com/file/d/1Vgvz7c7QrW_FMs5AN70TscKd_z6nh0Pv/view?usp=sharing"},
-        
-         { titulo:"Past Simple vs Present Perfect",descripcion:"Completa los niveles para dominar estos tiempos ",url4: "https://learnibox.vercel.app/pastsimpleperfect"},
-         
-
-
-        ],
-    },
       {
         id: 7,
         thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
@@ -204,119 +110,8 @@ export const roadIt = [
 
         ],
     },
-     {
-        id: 0,
-        thumbnail: "https://i.ibb.co/XZWjhLHS/DALL-E-2025-03-13-12-36-11-A-powerful-warrior-representing-the-Present-Simple-tense-in-English-gramm.webp",
-
-        title: "Present Simple or Progressive?",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 01 ",
-        channel: "sdasd",
-        description: "Completa los desafíos para dominar el Inglés",
-        enlaces: [
-           
-            { titulo:"Present Simple ",descripcion:"Aprende a usar el present simple en diferentes contextos ",url:"https://drive.google.com/file/d/1rwleyKN1vwRdZLJuHZXbIB3t88hevTl3/view?usp=sharing",url2: "https://youtu.be/b5KxYRP2I5s"},
-            { titulo:"Present Progressive",descripcion:"Aprende a usar el present progressive en diferentes contextos ",url:"https://drive.google.com/file/d/1Rqx1bzuRRJbjHZnH_iutOhx7oIzQoeut/view?usp=sharing",url2: "https://youtu.be/Nnu6JOaenf0"},
-            { titulo:"Test Center App",descripcion:"Desafio de tiempo Present simple y progressive ",url4: "https://learnibox.vercel.app/presentsimpleprogressive"},
-
-            { titulo:"Usual",descripcion:"Aprende los diferentes usos del usual",url: "https://drive.google.com/file/d/1Iru4Ttn7yf9vwOiUU8XjC6MCB9DPMHA8/view?usp=sharing",url2:"https://youtu.be/OSRAYauWH-I",url3:"https://drive.google.com/file/d/1sugjoNOr6dwEHogTwcKeYHUVbebEBbpX/view?usp=sharing"},
-            { titulo:"Usually",url: "https://drive.google.com/file/d/1IPWIh1B7oYwV4aPRJJKnM-gpZICitsX_/view?usp=sharing",url2:"https://www.youtube.com/watch?v=nYxi8UCraJI&ab_channel=MyEnglishBro"},
-            { titulo:"I think not vs I don't think so. ",url: "https://drive.google.com/file/d/15nnCB3JJRtH1fqqx5TypEptgoRbo5q-P/view?usp=sharing"},
-            { titulo:"Enough and Too ",url: "https://drive.google.com/file/d/1Tcadp5eOdfsHOlCwJWs0iNuphHQO4gYA/view?usp=sharing"},
-
-
-        ],
-    },
-       {
-        id: 1,
-        thumbnail: "https://i.ibb.co/4npzrRYN/DALL-E-2025-02-26-11-50-46-An-intense-battle-between-two-warriors-representing-Past-Simple-and-Past.webp",
-
-        title: "Past Simple or  Past Progressive?",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 01 ",
-        channel: "sdasd",
-        description: "Completa los desafíos para dominar el Inglés",
-        enlaces: [
-           { titulo: "Past Progressive ",url: "https://drive.google.com/file/d/18QxoihCFpTI0wyWQgr50OZtCdWWNVwqw/view?usp=sharing", },
-
-            { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1GWFlQ8RvPK7qb3S8HLBhKTlBONeogy0H/view?usp=sharing", },
-            { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/18h8QAkzm5UIzr-TF3DywBw_F-KtkjUYY/view?usp=sharing", },
-            { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1LCS98Vmh3gzPntxzCx5kX_EdackIK0v_/view?usp=sharing", },
-            { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1gxGscWmK3hDwJTXbNQpUEKlWSh_J9VLG/view?usp=sharing", },
-            { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1_3IiO9AC-y6Ks5RZujHdQyaWKKeMO9pu/view?usp=sharing", },
-            { titulo: "✍ Past Tense Simple and Progressive ",url: "https://drive.google.com/file/d/1Cc3RqGtZefUPxDSohH0Xssr4OSO5uftZ/view?usp=sharing", },
-        ],
-    },
+   
      
-    {
-        id: 2,
-        thumbnail: "https://i.ibb.co/v6T66Y2g/DALL-E-2025-02-26-11-53-11-A-dramatic-battle-between-two-warriors-representing-Past-Simple-and-Prese.webp",
-
-        title: "Past Simple or Present Perfect?",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 01 ",
-        channel: "sdasd",
-        description: "Completa los desafíos para dominar el Inglés",
-        enlaces: [
-            {  titulo:"Past Simple", url: "https://drive.google.com/file/d/1aAwupScFNRFoNArgtm5f_3k5a0Eyfztt/view?usp=sharing"},
-            {  titulo:"Present Perfect", url: "https://drive.google.com/file/d/1Vgvz7c7QrW_FMs5AN70TscKd_z6nh0Pv/view?usp=sharing"},
-            { titulo:"Test Center App",descripcion:"Desafio de tiempo Present simple y progressive ",url4: "https://learnibox.vercel.app/pastsimpleperfect"},
-            
-        ],
-    },
-    
-     {
-        id: 3,
-        thumbnail: "https://i.ibb.co/v6T66Y2g/DALL-E-2025-02-26-11-53-11-A-dramatic-battle-between-two-warriors-representing-Past-Simple-and-Prese.webp",
-
-        title: "Present Perfect  or Present Perfect Progressive?",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 01 ",
-        channel: "sdasd",
-        description: "Completa los desafíos para dominar el Inglés",
-        enlaces: [
-
-            {  titulo:" Present Perfect Progressive", url: "https://drive.google.com/file/d/1XKmee6Sthrl756nWgoifeDb0D6jrob1e/view?usp=sharing"},
-            {  titulo:" Perfect Simple vs  Perfect Progressive", url: "https://drive.google.com/file/d/1IGrGmE7B44z6YCVSVVSFjWS10CV_mjdC/view?usp=sharing"},
-
-            { titulo: "✍ Past Simple and Present Perfect (Simple and Progressive) ",url: "https://drive.google.com/file/d/10efo7YOPNaICX_E6_DQJsYZ5ctxm2xYQ/view?usp=sharing", },    
-             { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/1D0VK7vPjtlAMOc8WqxQUQn62_F3-uJsa/view?usp=sharing", },            { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/1GWFlQ8RvPK7qb3S8HLBhKTlBONeogy0H/view?usp=sharing", },
-            { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/1jgcxBuSKBZ6LdIQbWXL3_4lJDv4D8QVa/view?usp=sharing", },
-            { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/1jvFbc4GPFUHXIgx0gmbgslQQz7KmIMG0/view?usp=sharing", },
-            { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/1iCSWPTOFu1vGbkEaW6xSPh-Z_-koKr3V/view?usp=sharing", },
-            { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/1uik-f0MFXujPMnbgmOiCIegxSmWAI5qI/view?usp=sharing", },
-            { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/1CyruZuJFKhWpzmNmFQ9H9oigRjqgY0ui/view?usp=sharing", },
-            { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/1i-A68Tl92LNR87MyIWPPTEceTrIlU_hw/view?usp=sharing", },
-            { titulo: "✍ Present Perfect Simple and Progressive ",url: "https://drive.google.com/file/d/11Jj4BydUErvqumFiFy5goX5pGQkZq9HY/view?usp=sharing", },
-
-            
-        ],
-    },
-    {
-        id: 4,
-        thumbnail:"https://i.ibb.co/NxMbVNf/B2-FIRST-10.png",
-
-        title: "Future Tenses",
-        subtitle: "B2/C1",
-
-        dateAdded: "Basic 01 ",
-        channel: "sdasd",
-        description: "Completa los desafíos para dominar el Inglés",
-        enlaces: [
-            { titulo: "Future Simple ",url: "https://drive.google.com/file/d/1qv1NHearXkAYne1cH9N0MBc4ikdNtAV-/view?usp=sharing", },    
-
-            { titulo: "✍ Ways of Expressing Future Tense ",url: "https://drive.google.com/file/d/1J6r3JFYzr-U4CzRQihyMcl6uB2Ms7bu0/view?usp=sharing", },    
-            { titulo: "✍  Future Tenses ",url: "https://drive.google.com/file/d/1uQEVuavBgrytYsOTlD3dAg8qZDCtZEa_/view?usp=sharing", },
-            
-           
-
-            
-        ],
-    },
     {
         id: 5,
         thumbnail:"https://i.ibb.co/RTGW1WxL/newback.png",
@@ -555,47 +350,15 @@ export const roadIt = [
             
         ],
     },
-    {
-        id: 5,
-                thumbnail:"https://i.ibb.co/gLqnk1z3/B2-FIRST-31-removebg-preview.png",
-
-        title: "Graphic Designer",
-        subtitle: "Nivel Básico ",
-    
-        dateAdded: "Basic 0 ",
-        channel: "Aprenderemos a presentarnos, deletrear nombres y palabras, describir personas, presentar a la familia y brindar información personal.",
-        description: "Aprenderemos Vocabulario básico para poder expresarnos poco a poco en Inglés",
-        enlaces: [
-            {  titulo:"[🖥️Class] Presentacion del Curso",url: "https://www.youtube.com/watch?v=AtFAyHefJBY&ab_channel=MyEnglishBro"},        
-            {  titulo:"[🖥️Class] los Saludos",url: "https://youtu.be/-96VwqzEsf8"},           
    
-            {  titulo:"[🗂️Slide] Saludos y Despedidas",url: "https://docs.google.com/presentation/d/1QRZkXcYvHJFPhIMW7-7JdMKAtMmFQt2P/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
-            {  titulo:"[🖥️Class] The Alphabet",url: "https://www.youtube.com/watch?v=fG9ccbmA0-o"},
-            {  titulo:"[🗂️Slide] The Alphabet",url: "https://docs.google.com/presentation/d/1p5Qm25h1HiPBfcF4F00QICF6HrluHfSP/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
-            {  titulo:"[🖥️Challenge] Spelling Names",url: "https://www.youtube.com/watch?v=NKZejheVK8w"},
-            {  titulo:"[🗂️Slide] Spelling Names",url: "https://docs.google.com/presentation/d/1QJfnfrNOqtjmpGcj_NqfpQP37zaLLh_W/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
-            {  titulo:"[🖥️Solution] Spelling Names",url: "https://youtu.be/s-PqZNY9NIE"},
-            {  titulo:"[🖥️Class] A/An Indefinite Articles",url: "https://www.youtube.com/watch?v=fG9ccbmA0-o"},
-            {  titulo:"[🗂️Slide] A/An Indefinite Articles ", url: "https://docs.google.com/presentation/d/1-lqXRswgjGXe05eh_waU0tBDo-YT45JC/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
-            {  titulo:"[🧩 Activity] A/An Indefinite Articles ", url: "https://wordwall.net/play/25729/634/81869"},
-            {  titulo:"[🖥️Solution] Practicando A/An Indefinite Articles",url: "https://www.youtube.com/watch?v=oJHez43MOCM&ab_channel=MyEnglishBro"},
-            {  titulo:"[🖥️Class] The English Structure ", url: "https://youtu.be/h4uL68plGkw?si=anrtlRavkFlaRK9K"},
-            {  titulo:"[🗂️Slide] The English Structure", url: "https://docs.google.com/presentation/d/161TA3DKqAAgy8HJFo_BzyM8-CxpseNXZ/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
-            {  titulo:"[🖥️Class] The Pronouns & Transformation", url: "https://www.youtube.com/watch?v=2Ty1I6hMq-g"},
-            {  titulo:"[🗂️Slide] The Pronouns & Transformation", url: "https://docs.google.com/presentation/d/1g9oaA24WsKlcS8P32zYHtdWGiRcyAIAi/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
-            {  titulo:"[🖥️Class] The English Map", url: "https://www.youtube.com/watch?v=fOPkF348Kgg"},
-            {  titulo:"[🗂️Slide] The English Map", url: "https://docs.google.com/presentation/d/1C4u_yBRUiccDNiCFnz3n5kCWkqO8aJDz/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
+   
 
-            
-        ],
-    },
-    
-    {
+     {
         id: 6,
         thumbnail:
             "https://i.ibb.co/LdQkxbYg/Chat-GPT-Image-Jun-6-2025-08-14-58-PM-removebg-preview.png",
            
-            title: "Developer ",
+            title: "ESP COURSES",
         subtitle: "Basic Level",
     imagenseccion: "https://i.ibb.co/B6gr9Gd/Black-White-and-Red-Simple-Shield-Shape-Football-Club-Logo-2-removebg-preview.png",
       categoria:"speaking",
@@ -603,67 +366,18 @@ export const roadIt = [
         channel: "",
         description: "Curso básico de inglés para los que están empezando.",
         enlaces: [
-            {  titulo:"[🖥️ Class] Prensent Simple with Be", url: "https://www.youtube.com/watch?v=HbroMBQLCyQ&ab_channel=MyEnglishBro"},
-            {  titulo:"[📑 GrammarSheet] Contractions with Be",url: "https://drive.google.com/file/d/1RbxiaSl1dFwOq7sFTF_7TRRmIpapN1XN/view?usp=sharing"},
-
-            {  titulo:"[🧩 Activity] The Verb Be Affirmative Form I", url: "https://wordwall.net/play/13293/724/51767" },
-            {  titulo:"[🧩 Activity] The Verb Be Affirmative Form II", url: "https://wordwall.net/play/14390/465/80013" },
-            {  titulo:"[🧩 Activity] The Verb Be Affirmative Form III", url: "https://wordwall.net/play/11554/389/1088" },
-            {  titulo:"[🖥️ Solution] Practicando el Verbo Be Affirmative Form", url: "https://youtu.be/Z9Y7IWFNX_Q"},
-            {  titulo:"[📝 FunSheet] GRAMMAR ERROR CORRECTION BE",url: "https://drive.google.com/file/d/15RV8Qi_oXfnAjFGbZ2XE_MeZra8XPvot/view?usp=sharing"},
-            {  titulo:"[🔖Practice]The Verb Be Affirmative Form",url: "https://drive.google.com/file/d/1fieorI4c7zCUt6ltKNrXlVX8aPXogvcb/view?usp=sharing" },
-            {  titulo:"[🔖Practice]The Verb Be Negative Form",url: "https://drive.google.com/file/d/15uWVRNGSUj0D8zZQ-O6K-UjTiArG5TA3/view?usp=sharing" },
-            {  titulo:"[🔖Practice]The Verb Be Yes/No Questions",url: "https://drive.google.com/file/d/1s7zZgtpqjsuc3i81bFhfj7PhUWrNoUX7/view?usp=sharing" },
-            {  titulo:"[🔖Practice]The Verb Be Wh Questions ",url: "https://drive.google.com/file/d/1MFejzFjYgHoSPlsoNQLF07R4-y107XcC/view?usp=sharing" },
-            {  titulo:"[🔖Practice]The Verb Be Mixed I ",url: "https://drive.google.com/file/d/1NVzc8Cl78PSxJfxwJJQCb4JH8EKcpVKT/view?usp=sharing" },
-            {  titulo:"[🔖Practice]The Verb Be Mixed II ",url: "https://drive.google.com/file/d/1qqvXwkB_yUCHU4nAOaItjenf8AwaBy6p/view?usp=sharing" },
-            {  titulo:"[🖥️ Class] Adjectives", url: "https://youtu.be/CpG5KE79gFg"},
-            {  titulo:"[🗂️Slide] Adjectives",url: "https://docs.google.com/presentation/d/1kfRo9rtah5D8Afgsj8zbV5iC1c1pOPju/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
-            {  titulo:"[🧩 Activity] The Verb Be Negative Form", url: "https://wordwall.net/play/21158/025/3896" },
-            {  titulo:"[📝 FunSheet] BE VERB: Negative",url: "https://drive.google.com/file/d/1Y5UlRlzuV3TLR79_IutdZYshmYs23cIf/view?usp=sharing"},
-
-            {  titulo:"[🧩 Activity] The Verb Be Interrogative Form I", url: "https://wordwall.net/play/1856/077/57902" },
-            {  titulo:"[🧩 Activity] The Verb Be Interrogative Form II", url: "https://wordwall.net/play/58086/380/593" },
-            {  titulo:"[🖥️ Solution] Practicando el Verbo Be Negative & Interrogative Form", url: "https://youtu.be/L0yrUtFO1pE"},
-          
-            {  titulo:"[🖥️ Class] Plural Nouns", url: "https://youtu.be/K2v046W9AoE"},
-
-            
-            
-            {  titulo:"[🗂️Slide] Plural Nouns", url: "https://docs.google.com/presentation/d/1uGlaHgl2gR_LI3_Z9wZzlp99FmqRvZAp/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true"},
+            {  titulo:"Product Manager's Guide to Stand-up & Sprint Review Language", url2:"https://drive.google.com/file/d/133EcIWsqKZVCiuvI0_QX_yujoEKjJelg/view?usp=sharing",url4: "https://youtu.be/p_F8-W95Vss"},
+            {  titulo:"Essential Product Management English Vocabulary", url2:"https://drive.google.com/file/d/135-pULN7LYpRfkbEDHGDBbymgsvDqBIi/view?usp=sharing",url4: "https://youtu.be/5V8c_JosqbE"},
+             {  titulo:"English for Agile Project Management Meetings", url2:"https://drive.google.com/file/d/1rxYRwfbRLfT081JS1SkNa7nkS_P88YFN/view?usp=sharing",url4: "https://youtu.be/W3fecaKE7cY"},
 
 
-            {  titulo:"[🖥️ Class] Practicando Plural Nouns", url: "https://youtu.be/K2v046W9AoE"},
 
-            {  titulo:"[🧩 Activity] Plural Nouns Rules", url: "https://wordwall.net/play/75502/816/809" },
-            {  titulo:"[🖥️ Class] Demonstrative Adjectives", url: "https://youtu.be/K2v046W9AoE"},
+         { titulo:"Wireframe Explainer for Teams",descripcion:"Tips for UX/UI Designers & Project Owners",url:"https://drive.google.com/file/d/1yWswpPnLfcjU5rx1NKviDRhnoPVEbphc/view?usp=sharing",url4: "https://youtu.be/pWhg-XCGsz8"},
 
-            {  titulo:"[🗂️Slide] Demonstrative Adjectives ",url: "https://docs.google.com/presentation/d/1hw4LZ3Tma1QFhHUwTdENPHhRcvaE9Rdv/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true",},
-            {  titulo:"[🖥️ Class] Demonstrative Pronouns", url: "https://youtu.be/K2v046W9AoE"},
+         { titulo:"Agile Stand-Up Communication",descripcion:"Tips for UX/UI Designers & Project Owners",url:"https://drive.google.com/file/d/1lDeNrIVLVurwMcOljTEgz-3E9eIJeASu/view?usp=sharing",url4: "https://youtu.be/UYxhAqZi9Ow",url2:"https://drive.google.com/file/d/1yoNLYAFbEPKnM-zSJM3w7hap4NwjJvSF/view?usp=sharing"},
+         { titulo:"Backlog Prioritization ",descripcion:"Communication Tips for UX/UI & Product Teams",url:"https://drive.google.com/file/d/1vxYddGwIwzPvUkdF3aaFXQfKyJsEddWV/view?usp=sharing",url4: "https://youtu.be/0zpkA8NiF_M",url2:"https://drive.google.com/file/d/1RxPEKPf1Fnrf5iqvQWFADOWh_L29FaWh/view?usp=sharing"},
 
-            {  titulo:"[🗂️Slide] Demonstrative Pronouns ",url: "https://docs.google.com/presentation/d/18Y9eWTC4cdzK1L3EEFhNz7OFCtKjWIFh/edit?usp=sharing&ouid=101677822942011312590&rtpof=true&sd=true",},
-
-            {
-                titulo: "📒[slides] La hora en Ingles",
-                url: "https://docs.google.com/presentation/d/1En8CAC9wcrXYWSawMEirZO7gU8tsAmBi/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
-            },
-            {
-                titulo: "📒[slides] Making Suggestions Lets and Could",
-                url: "https://docs.google.com/presentation/d/152lX6FIORqoOI59MOv28XNZ4CoxZNMEh/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
-            },
-            {
-                titulo: "📒[slides] Prepositions of Time",
-                url: "https://docs.google.com/presentation/d/1aWoKAeyUeC6kUluXaBHWZhKoC2li7KLN/edit?usp=sharing&ouid=114172849724389982127&rtpof=true&sd=true",
-            },
-           
-          
-            {
-                titulo: "📒[slides] Jobs in English",
-                url: "https://docs.google.com/presentation/d/1DjLkNdeShBKInTTdZOvwYUGrMHxu5h_q/edit?usp=share_link&ouid=114172849724389982127&rtpof=true&sd=true",
-            },
-          
-          
-
+            {  titulo:"Evaluation Center",url6:"https://learnibox.vercel.app/devs"},
 
 
             

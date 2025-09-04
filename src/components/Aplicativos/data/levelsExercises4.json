@@ -2,274 +2,816 @@
   "levels": [
     {
       "level": 1,
-      "levelCode": "LEVEL1-UNLOCK",
-            "thumbnail":"https://i.ibb.co/ZpRbcWyq/20250721-1020-Java-Script-Coding-Monster-remix-01k0prqanjfqtsd92mbenxd7c4-1.png",
+      "levelCode": "PM-1",
+  "thumbnail": "https://i.ibb.co/ZpRbcWyq/20250721-1020-Java-Script-Coding-Monster-remix-01k0prqanjfqtsd92mbenxd7c4-1.png",
 
-     "exercises": [
-        {
-    "id": 1,
-    "prompt": "Which of the following is the correct pronunciation of the word 'Cache' as used in tech?",
-    "options": [
-      "/keɪʃ/",
-      "/kæʃ/",
-      "/kɑːʃ/",
-      "/kæʃe/"
-    ],
-    "answer": "/kæʃ/"
-  },
-  {
-    "id": 2,
-    "prompt": "Select the correct pronunciation of 'Queue' as used in 'processing queue':",
-    "options": [
-      "/kjuː/",
-      "/kwe/",
-      "/kwiː/",
-      "/kwuː/"
-    ],
-    "answer": "/kjuː/"
-  },
-  {
-    "id": 3,
-    "prompt": "The correct pronunciation of 'Debugger' is:",
-    "options": [
-      "/dəˈbʌɡ.ər/",
-      "/diˈbʌɡ.ər/",
-      "/duːˈbʌɡ.ɚ/",
-      "/daɪˈbʌɡ.ɚ/"
-    ],
-    "answer": "/diˈbʌɡ.ər/"
-  },
-  {
-    "id": 4,
-    "prompt": "Which word is a **possessive** determiner?",
-    "options": [
-      "its",
-      "it’s",
-      "is",
-      "his"
-    ],
-    "answer": "its"
-  },
-  {
-    "id": 5,
-    "prompt": "Which of the following is a government building?",
-    "options": [
-      "Capital",
-      "Principal",
-      "Capitol",
-      "Genre"
-    ],
-    "answer": "Capitol"
-  },
-  {
-    "id": 6,
-    "prompt": "Choose the correct option to complete the sentence: The _______ of this system is based on solid rules.",
-    "options": [
-      "principal",
-      "principle",
-      "capital",
-      "genre"
-    ],
-    "answer": "principle"
-  },
-  {
-    "id": 7,
-    "prompt": "Identify the correct pronunciation of 'Segue' often used in mobile development.",
-    "options": [
-      "/ˈsɛɡ.weɪ/",
-      "/siːɡ/",
-      "/sɛɡju/",
-      "/sɪɡ/"
-    ],
-    "answer": "/ˈsɛɡ.weɪ/"
-  },
-  {
-    "id": 8,
-    "prompt": "Which of these is pronounced as /ˈʒɑːn.rə/?",
-    "options": [
-      "Giga",
-      "Queue",
-      "Genre",
-      "Cue"
-    ],
-    "answer": "Genre"
-  }
-      ]
-    },
-     {
-      "level": 2,
-      "levelCode": "LEVEL2-ACCESS",
-      "prerequisiteCode": "jsisdead",
-            "thumbnail":"https://i.ibb.co/C56FDKxM/20250721-1042-React-Monster-Coding-Beast-remix-01k0pt0h8rf4c8ygc6y9px670s.png",
       "exercises": [
-        {
-    "id": 1,
-    "prompt": "What are the symbols ( ) called in English when reading code?",
-    "options": [
-      "Brackets",
-      "Parentheses",
-      "Braces",
-      "Quotes"
-    ],
-    "answer": "Parentheses"
-  },
-  {
-    "id": 2,
-    "prompt": "Which symbol is known as 'curly brackets'?",
-    "options": [
-      "[ ]",
-      "{ }",
-      "( )",
-      "< >"
-    ],
-    "answer": "{ }"
-  },
-  {
-    "id": 3,
-    "prompt": "What is the correct name for ` ` in programming?",
-    "options": [
-      "Single quotes",
-      "Backquotes or Backtick",
-      "Double quotes",
-      "Caret"
-    ],
-    "answer": "Backquotes or Backtick"
-  },
-  {
-    "id": 4,
-    "prompt": "Which of the following is referred to as a 'pipe'?",
-    "options": [
-      "-",
-      "|",
-      "/",
-      "&"
-    ],
-    "answer": "|"
-  },
-  {
-    "id": 5,
-    "prompt": "What is the name for the _ symbol in programming?",
-    "options": [
-      "Dash",
-      "Hyphen",
-      "Underscore",
-      "Tilde"
-    ],
-    "answer": "Underscore"
-  },
-  {
-    "id": 6,
-    "prompt": "The symbol ^ is commonly called:",
-    "options": [
-      "Ampersand",
-      "Caret",
-      "Tilde",
-      "Dollar sign"
-    ],
-    "answer": "Caret"
-  },
-  {
-    "id": 7,
-    "prompt": "Which of the following is a valid example of snake_case?",
-    "options": [
-      "myVariable",
-      "my-variable",
-      "my_variable",
-      "MyVariable"
-    ],
-    "answer": "my_variable"
-  },
-  {
-    "id": 8,
-    "prompt": "In code notation, what is typically used to access object properties?",
-    "options": [
-      "Comma",
-      "Dot",
-      "Colon",
-      "Semicolon"
-    ],
-    "answer": "Dot"
-  },
-  {
-    "id": 9,
-    "prompt": "What is the symbol / called?",
-    "options": [
-      "Backslash",
-      "Slash or division",
-      "Pipe",
-      "Minus"
-    ],
-    "answer": "Slash or division"
-  },
-  {
-    "id": 10,
-    "prompt": "Which naming style is used in the variable 'myVariable'?",
-    "options": [
-      "snake_case",
-      "camelCase",
-      "flatcase",
-      "kebab-case"
-    ],
-    "answer": "camelCase"
-  },
-  {
-    "id": 11,
-    "prompt": "What are foobar, foo, bar, and baz typically used for?",
-    "options": [
-      "Function names for UI animations",
-      "Reserved words in JavaScript",
-      "Placeholders or generic variable names",
-      "Debugging tools"
-    ],
-    "answer": "Placeholders or generic variable names"
-  },
-  {
-    "id": 12,
-    "prompt": "The symbol ~ is referred to as:",
-    "options": [
-      "Tilde",
-      "Caret",
-      "Backtick",
-      "Ampersand"
-    ],
-    "answer": "Tilde"
-  },
-  {
-    "id": 13,
-    "prompt": "Which symbol is used for a double equal comparison in most programming languages?",
-    "options": [
-      "==",
-      "=",
-      "===",
-      "!="
-    ],
-    "answer": "=="
-  },
-  {
-    "id": 14,
-    "prompt": "What is the correct English name for ; used in code?",
-    "options": [
-      "Colon",
-      "Semicolon",
-      "Comma",
-      "Dot"
-    ],
-    "answer": "Semicolon"
-  },
-  {
-    "id": 15,
-    "prompt": "What is the naming style of 'my-variable'?",
-    "options": [
-      "camelCase",
-      "flatcase",
-      "snake_case",
-      "kebab-case"
-    ],
-    "answer": "kebab-case"
-  }
-      ]
+    {
+      "id": 1,
+      "prompt": "What does the word 'blocker' mean in agile meetings?",
+      "options": [
+        "A completed deliverable",
+        "A task that prevents progress",
+        "A future milestone",
+        "A prioritized item"
+      ],
+      "answer": "A task that prevents progress"
+    },
+    {
+      "id": 2,
+      "prompt": "Which word means 'a pending task or feature to be delivered'?",
+      "options": [
+        "Backlog",
+        "Milestone",
+        "Alignment",
+        "Deadline"
+      ],
+      "answer": "Backlog"
+    },
+    {
+      "id": 3,
+      "prompt": "In agile, a 'milestone' refers to:",
+      "options": [
+        "A bug in the system",
+        "A backlog item",
+        "A significant achievement or goal",
+        "A dependency on another team"
+      ],
+      "answer": "A significant achievement or goal"
+    },
+    {
+      "id": 4,
+      "prompt": "What does 'alignment' mean in a product context?",
+      "options": [
+        "Ensuring all teams and stakeholders share the same vision",
+        "The process of writing release notes",
+        "Finalizing technical requirements",
+        "Refining backlog items"
+      ],
+      "answer": "Ensuring all teams and stakeholders share the same vision"
+    },
+    {
+      "id": 5,
+      "prompt": "Which term refers to 'measurable indicators of performance'?",
+      "options": [
+        "Dependencies",
+        "KPIs",
+        "Scope",
+        "Iterations"
+      ],
+      "answer": "KPIs"
+    },
+    {
+      "id": 6,
+      "prompt": "What does 'iteration' mean in agile development?",
+      "options": [
+        "A feature under test",
+        "A user feedback loop",
+        "A time-boxed cycle of work",
+        "A bug-fixing process"
+      ],
+      "answer": "A time-boxed cycle of work"
+    },
+    {
+      "id": 7,
+      "prompt": "The word 'deliverable' refers to:",
+      "options": [
+        "A feature, task, or product that must be completed and handed over",
+        "A meeting agenda",
+        "A user story in progress",
+        "A stakeholder dependency"
+      ],
+      "answer": "A feature, task, or product that must be completed and handed over"
+    },
+    {
+      "id": 8,
+      "prompt": "Which of the following BEST defines 'dependency'?",
+      "options": [
+        "A task that relies on another task to be finished first",
+        "A blocker caused by unclear requirements",
+        "A KPI for measuring adoption",
+        "A bug in the QA system"
+      ],
+      "answer": "A task that relies on another task to be finished first"
+    },
+    {
+      "id": 9,
+      "prompt": "What does 'bottleneck' mean in product development?",
+      "options": [
+        "A completed milestone",
+        "A slow point in a process that delays progress",
+        "A sprint planning agenda",
+        "An alignment issue"
+      ],
+      "answer": "A slow point in a process that delays progress"
+    },
+    {
+      "id": 10,
+      "prompt": "Which term refers to 'a set of tasks or features for a future release'?",
+      "options": [
+        "Roadmap",
+        "Milestone",
+        "Scope",
+        "Alignment"
+      ],
+      "answer": "Roadmap"
+    },
+    {
+      "id": 11,
+      "prompt": "The phrase 'early feedback' refers to:",
+      "options": [
+        "User or stakeholder opinions collected at an initial stage",
+        "Comments after final production release",
+        "Blocked communication between teams",
+        "Retrospective notes from QA"
+      ],
+      "answer": "User or stakeholder opinions collected at an initial stage"
+    },
+    {
+      "id": 12,
+      "prompt": "Which of these words means 'a specific deadline or time limit'?",
+      "options": [
+        "Blocker",
+        "Deadline",
+        "Milestone",
+        "Backlog"
+      ],
+      "answer": "Deadline"
+    },
+    {
+      "id": 13,
+      "prompt": "The expression 'next steps' usually refers to:",
+      "options": [
+        "Completed deliverables",
+        "Tasks planned to be done after the current meeting",
+        "KPIs already measured",
+        "Backlog refinement"
+      ],
+      "answer": "Tasks planned to be done after the current meeting"
+    },
+    {
+      "id": 14,
+      "prompt": "In agile, the word 'scope' refers to:",
+      "options": [
+        "The defined boundaries and deliverables of a project",
+        "The velocity of the team",
+        "The roadmap vision",
+        "A set of user feedback notes"
+      ],
+      "answer": "The defined boundaries and deliverables of a project"
+    },
+    {
+      "id": 15,
+      "prompt": "Which of these phrases describes a 'blocker' correctly?",
+      "options": [
+        "The main blocker right now is the API dependency.",
+        "We delivered the milestone for the onboarding flow.",
+        "The backlog has grown with new user stories.",
+        "We finalized the roadmap for the next sprint."
+      ],
+      "answer": "The main blocker right now is the API dependency."
     }
- 
+  ]
+},
+     {
+       "level": 2,
+   "levelCode": "PM-2",
+   "prerequisiteCode": "PM-1",
+            "thumbnail":"https://i.ibb.co/C56FDKxM/20250721-1042-React-Monster-Coding-Beast-remix-01k0pt0h8rf4c8ygc6y9px670s.png",
+     "exercises": [
+    {
+      "id": 1,
+      "prompt": "In product management, a 'roadmap' refers to:",
+      "options": [
+        "A bug report",
+        "A strategic plan of the product over time",
+        "A daily stand-up summary",
+        "A user story"
+      ],
+      "answer": "A strategic plan of the product over time"
+    },
+    {
+      "id": 2,
+      "prompt": "The 'backlog' is best described as:",
+      "options": [
+        "A refined release scope",
+        "A list of user stories, bugs, and pending tasks",
+        "The team’s velocity per sprint",
+        "The long-term product vision"
+      ],
+      "answer": "A list of user stories, bugs, and pending tasks"
+    },
+    {
+      "id": 3,
+      "prompt": "What does 'milestone' mean in product management?",
+      "options": [
+        "A critical achievement or goal in the project",
+        "A backlog refinement session",
+        "A daily update from QA",
+        "A bug-tracking tool"
+      ],
+      "answer": "A critical achievement or goal in the project"
+    },
+    {
+      "id": 4,
+      "prompt": "Which of the following defines a 'dependency'?",
+      "options": [
+        "A feature that requires another to be completed first",
+        "A duplicate backlog item",
+        "A stakeholder alignment session",
+        "A release scope document"
+      ],
+      "answer": "A feature that requires another to be completed first"
+    },
+    {
+      "id": 5,
+      "prompt": "The term 'trade-off' means:",
+      "options": [
+        "A blocker in the development process",
+        "Balancing one benefit at the expense of another",
+        "A release delayed due to dependencies",
+        "A backlog item reprioritized"
+      ],
+      "answer": "Balancing one benefit at the expense of another"
+    },
+    {
+      "id": 6,
+      "prompt": "Who are 'stakeholders' in product development?",
+      "options": [
+        "Developers testing QA environments",
+        "People with an interest or key role in the project",
+        "Users in a beta testing group",
+        "Only the marketing department"
+      ],
+      "answer": "People with an interest or key role in the project"
+    },
+    {
+      "id": 7,
+      "prompt": "Which of the following BEST defines 'KPIs'?",
+      "options": [
+        "Key Performance Indicators used to measure success",
+        "Knowledge of Product Integrations",
+        "Key Project Iterations",
+        "Known Pending Issues"
+      ],
+      "answer": "Key Performance Indicators used to measure success"
+    },
+    {
+      "id": 8,
+      "prompt": "The acronym 'OKRs' stands for:",
+      "options": [
+        "Objectives and Key Results",
+        "Organizational Knowledge Reports",
+        "Official KPI Reports",
+        "Operational Key Requirements"
+      ],
+      "answer": "Objectives and Key Results"
+    },
+    {
+      "id": 9,
+      "prompt": "What does 'time-to-market' measure?",
+      "options": [
+        "The time it takes to fix bugs",
+        "The time from idea to release of a product",
+        "The sprint capacity of a team",
+        "The alignment process with stakeholders"
+      ],
+      "answer": "The time from idea to release of a product"
+    },
+    {
+      "id": 10,
+      "prompt": "Which word means 'the ability of a system to handle growth and larger workloads'?",
+      "options": [
+        "Scalability",
+        "Dependency",
+        "Alignment",
+        "Iteration"
+      ],
+      "answer": "Scalability"
+    },
+    {
+      "id": 11,
+      "prompt": "The phrase 'user adoption' refers to:",
+      "options": [
+        "Users rejecting a new feature",
+        "The rate at which users start using a new feature",
+        "The roadmap alignment with stakeholders",
+        "The backlog size per sprint"
+      ],
+      "answer": "The rate at which users start using a new feature"
+    },
+    {
+      "id": 12,
+      "prompt": "What does 'scope' define in a project?",
+      "options": [
+        "The technical blockers of a sprint",
+        "The backlog prioritization",
+        "The boundaries and deliverables of the project",
+        "The milestones achieved so far"
+      ],
+      "answer": "The boundaries and deliverables of the project"
+    },
+    {
+      "id": 13,
+      "prompt": "Which idiom means 'to generate real impact'?",
+      "options": [
+        "Move the needle",
+        "Low-hanging fruit",
+        "Reinvent the wheel",
+        "Win-win solution"
+      ],
+      "answer": "Move the needle"
+    },
+    {
+      "id": 14,
+      "prompt": "The idiom 'low-hanging fruit' refers to:",
+      "options": [
+        "Focusing on the hardest challenges first",
+        "Prioritizing the easiest and quickest wins",
+        "Improving long-term scalability",
+        "Addressing all stakeholder concerns at once"
+      ],
+      "answer": "Prioritizing the easiest and quickest wins"
+    },
+    {
+      "id": 15,
+      "prompt": "Which expression means 'a solution where everyone benefits'?",
+      "options": [
+        "Win-win solution",
+        "Trade-off",
+        "Reinvent the wheel",
+        "Move the needle"
+      ],
+      "answer": "Win-win solution"
+    }
+  ]
+},
+    {
+  "level": 3,
+   "levelCode": "PM-3",
+   "prerequisiteCode": "PM-2",
+  "thumbnail": "https://i.ibb.co/ZpRbcWyq/20250721-1020-Java-Script-Coding-Monster-remix-01k0prqanjfqtsd92mbenxd7c4-1.png",
+  "exercises": [
+    {
+      "id": 1,
+      "prompt": "Which of the following is the BEST way to start a concise update in a stand-up?",
+      "options": [
+        "Just to give you some context…",
+        "We’re facing a bottleneck with testing resources.",
+        "Next milestone: deploying the beta version by [date].",
+        "It might take a bit longer than expected due to…"
+      ],
+      "answer": "Just to give you some context…"
+    },
+    {
+      "id": 2,
+      "prompt": "Choose the correct phrase to report a successful delivery:",
+      "options": [
+        "The new feature is now live on staging/production.",
+        "The main blocker right now is the API dependency on…",
+        "We’d appreciate support from the Tech team on this issue.",
+        "It might take a bit longer than expected due to…"
+      ],
+      "answer": "The new feature is now live on staging/production."
+    },
+    {
+      "id": 3,
+      "prompt": "If a Product Manager says: 'We’re facing a bottleneck with testing resources', what is being described?",
+      "options": [
+        "A milestone achieved",
+        "A future priority",
+        "A current problem",
+        "A positive result"
+      ],
+      "answer": "A current problem"
+    },
+    {
+      "id": 4,
+      "prompt": "Which phrase is most suitable to communicate a next step?",
+      "options": [
+        "We aim to finalize the requirements for…",
+        "Early feedback from users has been positive so far.",
+        "The main blocker right now is the API dependency on…",
+        "Just to give you some context…"
+      ],
+      "answer": "We aim to finalize the requirements for…"
+    },
+    {
+      "id": 5,
+      "prompt": "Select the phrase that reflects a diplomatic tone:",
+      "options": [
+        "It might take a bit longer than expected due to…",
+        "The team wrapped up the integration with the payments API.",
+        "Early feedback from users has been positive so far.",
+        "Next milestone: deploying the beta version by [date]."
+      ],
+      "answer": "It might take a bit longer than expected due to…"
+    },
+    {
+      "id": 6,
+      "prompt": "Which complete update example contains BOTH a progress and a blocker?",
+      "options": [
+        "We’ve made strong progress on the onboarding flow. The main bottleneck is final approval from compliance, which we expect next week. Our next step is to run A/B tests with 200 users.",
+        "This week, the team wrapped up the integration with the payments API. We’re currently blocked by a delay in QA testing, but once that’s resolved, we’ll move forward with the production release.",
+        "Our focus for the next sprint will be improving performance on…",
+        "We’d appreciate support from the Tech team on this issue."
+      ],
+      "answer": "This week, the team wrapped up the integration with the payments API. We’re currently blocked by a delay in QA testing, but once that’s resolved, we’ll move forward with the production release."
+    }
+  ]
+},
+ {
+  "level": 4,
+"levelCode": "PM-4",
+   "prerequisiteCode": "PM-3",
+  "thumbnail": "https://i.ibb.co/ZpRbcWyq/20250721-1020-Java-Script-Coding-Monster-remix-01k0prqanjfqtsd92mbenxd7c4-1.png",
+  "exercises": [
+    {
+      "id": 1,
+      "prompt": "During sprint planning, the team says: 'The product backlog needs to be refined before we start.' What does 'backlog' mean in this context?",
+      "options": [
+        "A list of stakeholders",
+        "A set of pending user stories, bugs, and tasks",
+        "The strategic plan of the product",
+        "The key performance indicators"
+      ],
+      "answer": "A set of pending user stories, bugs, and tasks"
+    },
+    {
+      "id": 2,
+      "prompt": "A Product Manager says: 'Reducing our time-to-market is a competitive advantage.' What is 'time-to-market'?",
+      "options": [
+        "The time it takes to fix bugs",
+        "The time needed to launch a product to users",
+        "The schedule of stakeholder meetings",
+        "The time to collect customer feedback"
+      ],
+      "answer": "The time needed to launch a product to users"
+    },
+    {
+      "id": 3,
+      "prompt": "In a meeting, a stakeholder asks: 'What dependencies do we need to address before launch?' What is a 'dependency'?",
+      "options": [
+        "A feature that relies on another module or task",
+        "A customer metric to track adoption",
+        "A deadline for the roadmap",
+        "An iteration of the sprint"
+      ],
+      "answer": "A feature that relies on another module or task"
+    },
+    {
+      "id": 4,
+      "prompt": "The PM says: 'The main trade-off here is between cost efficiency and user experience.' What does 'trade-off' mean?",
+      "options": [
+        "A situation where both sides win",
+        "A choice that involves balancing one benefit against another",
+        "An unexpected blocker in the sprint",
+        "The long-term product vision"
+      ],
+      "answer": "A choice that involves balancing one benefit against another"
+    },
+    {
+      "id": 5,
+      "prompt": "Which of the following sentences uses the idiom 'move the needle' correctly?",
+      "options": [
+        "We need to move the needle on user retention to show real impact.",
+        "We moved the needle to the next column in the backlog.",
+        "The roadmap needle is moving towards Q4 goals.",
+        "Please move the needle of the sprint calendar."
+      ],
+      "answer": "We need to move the needle on user retention to show real impact."
+    },
+    {
+      "id": 6,
+      "prompt": "In the role-play, the PM says: 'Our main KPIs will focus on user adoption and reducing churn.' What is the role of KPIs here?",
+      "options": [
+        "They are coding standards",
+        "They are measurable indicators of performance",
+        "They are upcoming milestones",
+        "They are sprint dependencies"
+      ],
+      "answer": "They are measurable indicators of performance"
+    },
+    {
+      "id": 7,
+      "prompt": "If a PM says: 'Let’s focus on the low-hanging fruit first,' what does it mean?",
+      "options": [
+        "To start with the most difficult challenges",
+        "To prioritize easy and quick wins",
+        "To align with stakeholders",
+        "To delay less urgent features"
+      ],
+      "answer": "To prioritize easy and quick wins"
+    },
+    {
+      "id": 8,
+      "prompt": "In a roadmap presentation, the PM states: 'Scalability is critical if we want to support enterprise clients.' What does 'scalability' mean here?",
+      "options": [
+        "The ability of the system to handle growth and larger workloads",
+        "The number of dependencies in the product backlog",
+        "The visual design of the roadmap",
+        "The flexibility of sprint priorities"
+      ],
+      "answer": "The ability of the system to handle growth and larger workloads"
+    }
+  ]
+},
+
+
+
+{
+  "level": 5,
+ "levelCode": "PM-5",
+   "prerequisiteCode": "PM-4",
+  "thumbnail": "https://i.ibb.co/Kj8Xk4Gj/20250904-1735-Cartoon-Project-Manager-remix-01k4bdtfqvesq84sp026qejgq3.png",
+  "exercises": [
+    {
+      "id": 1,
+      "prompt": "In a daily stand-up, if someone says: 'I’m blocked by missing API documentation,' what does this mean?",
+      "options": [
+        "They finished all their tasks.",
+        "They need clarification before proceeding.",
+        "They are demoing a new feature.",
+        "They are reviewing acceptance criteria."
+      ],
+      "answer": "They need clarification before proceeding."
+    },
+    {
+      "id": 2,
+      "prompt": "During sprint planning, the PM says: 'Given our velocity, I suggest we take on 20 story points.' What does 'velocity' refer to?",
+      "options": [
+        "The number of blockers in the sprint",
+        "The average work a team completes per sprint",
+        "The time-to-market of a release",
+        "The number of dependencies between teams"
+      ],
+      "answer": "The average work a team completes per sprint"
+    },
+    {
+      "id": 3,
+      "prompt": "Which of the following is the MOST appropriate phrase to use in a Sprint Review?",
+      "options": [
+        "What challenges did we face?",
+        "I’d like to demo the new dashboard we’ve been working on.",
+        "Can you walk us through your main pain points?",
+        "Let’s agree on action items for next sprint."
+      ],
+      "answer": "I’d like to demo the new dashboard we’ve been working on."
+    },
+    {
+      "id": 4,
+      "prompt": "In a Retrospective, the team says: 'One improvement could be better communication between QA and devs.' What does this represent?",
+      "options": [
+        "A pain point",
+        "An action item",
+        "A feature request",
+        "A dependency"
+      ],
+      "answer": "An action item"
+    },
+    {
+      "id": 5,
+      "prompt": "In a Discovery Session, a stakeholder asks: 'What would success look like from your perspective?' What is the purpose of this question?",
+      "options": [
+        "To confirm alignment on goals",
+        "To identify blockers",
+        "To estimate velocity",
+        "To define user stories"
+      ],
+      "answer": "To confirm alignment on goals"
+    },
+    {
+      "id": 6,
+      "prompt": "If a PM says: 'Let’s circle back next week,' what does this idiom mean?",
+      "options": [
+        "To solve the issue immediately",
+        "To revisit the topic later",
+        "To escalate to leadership",
+        "To remove the item from the backlog"
+      ],
+      "answer": "To revisit the topic later"
+    },
+    {
+      "id": 7,
+      "prompt": "In a Sprint Planning role-play, the PM says: 'Are we all on the same page?' What is the PM checking?",
+      "options": [
+        "If the backlog is updated",
+        "If the team agrees and is aligned",
+        "If QA has finished testing",
+        "If velocity is higher than last sprint"
+      ],
+      "answer": "If the team agrees and is aligned"
+    },
+    {
+      "id": 8,
+      "prompt": "During collaboration with QA, which of the following questions is most relevant?",
+      "options": [
+        "Have we covered edge cases in testing?",
+        "Is there a simpler MVP we could release first?",
+        "This flow needs to be consistent across all user journeys.",
+        "What would success look like from your perspective?"
+      ],
+      "answer": "Have we covered edge cases in testing?"
+    }
+  ]
+}
+,
+
+{
+  "level": 6,
+   "levelCode": "PM-6",
+   "prerequisiteCode": "PM-5",
+  "thumbnail": "https://i.ibb.co/ZpRbcWyq/20250721-1020-Java-Script-Coding-Monster-remix-01k0prqanjfqtsd92mbenxd7c4-1.png",
+  "exercises": [
+    {
+      "id": 1,
+      "prompt": "At the start of a wireframe session, which phrase sets the right professional tone?",
+      "options": [
+        "Thanks for joining. Today I’ll walk you through the wireframes, why we made these choices, and what decisions we need from the group.",
+        "I’ll show the UI pixel-perfect designs today for immediate approval.",
+        "We don’t have an agenda, let’s just explore the wireframes.",
+        "I’ll only explain the visuals, not the user flow."
+      ],
+      "answer": "Thanks for joining. Today I’ll walk you through the wireframes, why we made these choices, and what decisions we need from the group."
+    },
+    {
+      "id": 2,
+      "prompt": "When explaining wireframes, what does 'happy path' mean?",
+      "options": [
+        "The flow with the most errors and blockers",
+        "The main, ideal flow a user would take",
+        "The low-fidelity screens with placeholders",
+        "The path that stakeholders prefer"
+      ],
+      "answer": "The main, ideal flow a user would take"
+    },
+    {
+      "id": 3,
+      "prompt": "A PM says: 'This component is a reusable pattern from our design system.' What is the purpose of highlighting this?",
+      "options": [
+        "To show visual creativity",
+        "To keep consistency and speed up development",
+        "To replace the backlog items",
+        "To reduce the number of story points"
+      ],
+      "answer": "To keep consistency and speed up development"
+    },
+    {
+      "id": 4,
+      "prompt": "If a designer mentions 'progressive disclosure', what are they describing?",
+      "options": [
+        "Showing all advanced options at the start",
+        "Revealing complexity gradually, starting with essentials",
+        "Testing both layouts with A/B testing",
+        "Highlighting clickable areas in Figma"
+      ],
+      "answer": "Revealing complexity gradually, starting with essentials"
+    },
+    {
+      "id": 5,
+      "prompt": "During a live session, someone says: 'Let’s focus feedback on the success criteria: task completion in under two minutes.' What is the goal of this phrase?",
+      "options": [
+        "To avoid feedback about usability",
+        "To frame and direct the type of feedback received",
+        "To close the session early",
+        "To highlight visual design only"
+      ],
+      "answer": "To frame and direct the type of feedback received"
+    },
+    {
+      "id": 6,
+      "prompt": "In a disagreement, a PM says: 'I see two perspectives. To make progress, can we agree to prototype Option A and revisit after usability testing?' What technique is being used?",
+      "options": [
+        "Escalating conflict to leadership",
+        "Parking the decision for later validation",
+        "Rejecting feedback immediately",
+        "Finalizing the UI without tests"
+      ],
+      "answer": "Parking the decision for later validation"
+    },
+    {
+      "id": 7,
+      "prompt": "In accessibility discussions, what does it mean if a design 'meets WCAG AA contrast'?",
+      "options": [
+        "The design is optimized for SEO",
+        "The text and background have enough contrast for readability",
+        "The interface has zero latency",
+        "The UI follows progressive disclosure"
+      ],
+      "answer": "The text and background have enough contrast for readability"
+    },
+    {
+      "id": 8,
+      "prompt": "At the close of a session, which phrase best summarizes agreements and next steps?",
+      "options": [
+        "To recap: decided A and B; open items are C and D. I’ll share the recap, Figma links, and owners by EOD.",
+        "We’ll decide everything in the next sprint, no recap needed.",
+        "Let’s focus only on visuals, not owners or responsibilities.",
+        "Everyone can email random thoughts after the session without deadlines."
+      ],
+      "answer": "To recap: decided A and B; open items are C and D. I’ll share the recap, Figma links, and owners by EOD."
+    }
+  ]
+}
+,
+{
+  "level": 7,
+  "levelCode": "PM-7",
+  "prerequisiteCode": "PM-6",
+  "thumbnail": "https://i.ibb.co/ZpRbcWyq/20250721-1020-Java-Script-Coding-Monster-remix-01k0prqanjfqtsd92mbenxd7c4-1.png",
+  "exercises": [
+    {
+      "id": 1,
+      "prompt": "In a stand-up, a UX/UI Designer says: 'I’m refining the user flow for onboarding based on recent feedback.' What does 'user flow' refer to?",
+      "options": [
+        "The backend logic of the product",
+        "The path a user takes to complete a task",
+        "The sequence of release notes",
+        "The backlog items planned for the sprint"
+      ],
+      "answer": "The path a user takes to complete a task"
+    },
+    {
+      "id": 2,
+      "prompt": "A Project Owner says: 'We need to align with stakeholders on the release scope.' What does 'release scope' mean here?",
+      "options": [
+        "The list of items being delivered in the release",
+        "The amount of time left until release",
+        "The dependencies across sprints",
+        "The wireframes shown to developers"
+      ],
+      "answer": "The list of items being delivered in the release"
+    },
+    {
+      "id": 3,
+      "prompt": "In Scenario 1, the UX/UI Designer simplified the email verification step because...",
+      "options": [
+        "Marketing requested a shorter flow",
+        "New users were dropping off during that step",
+        "The dev team couldn’t implement it",
+        "Stakeholders preferred fewer screens"
+      ],
+      "answer": "New users were dropping off during that step"
+    },
+    {
+      "id": 4,
+      "prompt": "In Scenario 2, usability testing of the mobile dashboard prototype showed what key improvement?",
+      "options": [
+        "Navigation reduced task completion time by 20%",
+        "All icons were correctly updated",
+        "The release scope was expanded",
+        "Stakeholders requested a new API"
+      ],
+      "answer": "Navigation reduced task completion time by 20%"
+    },
+    {
+      "id": 5,
+      "prompt": "The Project Owner in Scenario 2 mentioned a risk before launch. What was it?",
+      "options": [
+        "Missing icons in the shared library",
+        "Delayed QA testing results",
+        "API integration still in progress",
+        "Unclear release notes"
+      ],
+      "answer": "API integration still in progress"
+    },
+    {
+      "id": 6,
+      "prompt": "Which of the following is a 'dependency' as used in stand-up updates?",
+      "options": [
+        "A blocker caused by a missing API or resource",
+        "The design handoff package for developers",
+        "A visual prototype for stakeholders",
+        "A metric from usability testing"
+      ],
+      "answer": "A blocker caused by a missing API or resource"
+    },
+    {
+      "id": 7,
+      "prompt": "Pro tip: Why should you mention metrics or user feedback in your stand-up updates?",
+      "options": [
+        "To fill extra time in the meeting",
+        "To support your points with evidence",
+        "To replace the next step in your update",
+        "To avoid mentioning blockers"
+      ],
+      "answer": "To support your points with evidence"
+    },
+    {
+      "id": 8,
+      "prompt": "Which expression is more natural for a UX/UI Designer reporting progress?",
+      "options": [
+        "I’m refining the user flow based on feedback.",
+        "The prototype was designed by design team.",
+        "User flow completed. Next task assigned.",
+        "We are doing work on designs."
+      ],
+      "answer": "I’m refining the user flow based on feedback."
+    }
+  ]
+}
+
+
     
   ]
 }
