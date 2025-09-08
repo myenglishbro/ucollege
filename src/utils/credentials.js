@@ -70,6 +70,7 @@ export const validCredentials = [
 
       { expirationDate:"30/09",nivel:"B2",usuario: 'laura', password: 'sanchez', realname: 'Laura Sanchez', img: 'https://i.ibb.co/jv0jDGgs/Chat-GPT-Image-6-jul-2025-13-23-34.png' }, // No image
 
+      { expirationDate:"08/10",nivel:"B2",usuario: 'esteban', password: 'bello', realname: 'Esteban Bello', img: 'https://i.ibb.co/jv0jDGgs/Chat-GPT-Image-6-jul-2025-13-23-34.png' }, // No image
 
 //ACCESO DE POR VIDA
              { expirationDate:"Unlimited Account",nivel:"B2",usuario: 'adrian', password: 'aliaga', realname: 'Adrian Aliaga',img:'https://i.ibb.co/DHQLnHbK/ADRIAN.png'},
