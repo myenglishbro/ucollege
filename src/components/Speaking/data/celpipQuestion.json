@@ -1,82 +1,82 @@
 [
   {
     "id": 1,
-    "prompt": "Your friend wants to find a summer job but doesn’t know where to start. What advice would you give him?"
+    "prompt": "Your friend is designing an app and wants it to be easy to use. What advice would you give him?"
   },
   {
     "id": 2,
-    "prompt": "Your cousin is feeling homesick after moving to a new city. What suggestions can you give her to feel better?"
+    "prompt": "Your cousin is nervous about presenting her project to a group. What suggestions can you give her to feel more confident?"
   },
   {
     "id": 3,
-    "prompt": "Your brother wants to save money to buy a new phone. What steps should he take?"
+    "prompt": "Your brother wants to save money to buy better tools for his design work. What steps should he take?"
   },
   {
     "id": 4,
-    "prompt": "Your classmate is always stressed before exams. What advice can you give her to relax?"
+    "prompt": "Your classmate feels stressed before team deadlines. What advice can you give her to stay calm and organized?"
   },
   {
     "id": 5,
-    "prompt": "Your neighbor wants to improve his English speaking skills. What would you recommend?"
+    "prompt": "Your neighbor wants to improve how he communicates his ideas in meetings. What would you recommend?"
   },
   {
     "id": 6,
-    "prompt": "Your friend is moving to a different country for work. What should he do to prepare for life there?"
+    "prompt": "Your friend is joining a new company as a designer. What should he do to prepare for working with a new team?"
   },
   {
     "id": 7,
-    "prompt": "Your sister wants to make new friends at her university. What suggestions do you have for her?"
+    "prompt": "Your sister wants to meet new people in her design school. What suggestions do you have for her?"
   },
   {
     "id": 8,
-    "prompt": "Your coworker finds it difficult to manage time effectively. What advice would you give him?"
+    "prompt": "Your coworker finds it hard to manage time between different projects. What advice would you give him?"
   },
   {
     "id": 9,
-    "prompt": "Your uncle is planning to visit your city as a tourist. Which places and activities would you recommend?"
+    "prompt": "Your uncle is visiting your city and loves design. Which places or experiences would you recommend to inspire him?"
   },
   {
     "id": 10,
-    "prompt": "Your cousin is considering adopting a pet but is unsure. What factors should he consider before making a decision?"
+    "prompt": "Your cousin is thinking about working with clients for the first time. What factors should she consider before starting?"
   },
   {
     "id": 11,
-    "prompt": "Your friend wants to get fit but doesn’t like going to the gym. What alternatives can you suggest?"
+    "prompt": "Your friend wants to get better at solving problems creatively but doesn’t like reading books. What alternatives can you suggest?"
   },
   {
     "id": 12,
-    "prompt": "Your classmate is thinking about joining a club at school. What benefits could you tell her about?"
+    "prompt": "Your classmate is thinking about joining a design or innovation club at school. What benefits could you tell her about?"
   },
   {
     "id": 13,
-    "prompt": "Your neighbor wants to start recycling at home but doesn’t know how. What would you suggest?"
+    "prompt": "Your neighbor wants to organize his workspace better for creative work. What would you suggest?"
   },
   {
     "id": 14,
-    "prompt": "Your friend wants to improve his cooking skills. What should he do?"
+    "prompt": "Your friend wants to improve his teamwork skills for group projects. What should he do?"
   },
   {
     "id": 15,
-    "prompt": "Your sibling wants to travel alone for the first time. What advice would you give her for a safe trip?"
+    "prompt": "Your sibling is going to travel alone for a design conference. What advice would you give her for a safe and productive trip?"
   },
   {
     "id": 16,
-    "prompt": "Your friend just started a new job and feels nervous. How can he build confidence at work?"
+    "prompt": "Your colleague just started working on a big project and feels nervous. How can he build confidence with his team?"
   },
   {
     "id": 17,
-    "prompt": "Your classmate wants to participate more in class discussions but feels shy. What could help him?"
+    "prompt": "Your classmate wants to share more ideas in group discussions but feels shy. What could help him?"
   },
   {
     "id": 18,
-    "prompt": "Your aunt wants to start eating healthier but doesn’t know how to begin. What would you recommend?"
+    "prompt": "Your aunt wants to eat healthier while working long hours in front of her computer. What would you recommend?"
   },
   {
     "id": 19,
-    "prompt": "Your friend is struggling to balance work and family responsibilities. What advice can you offer?"
+    "prompt": "Your friend is struggling to balance his personal life with the responsibilities of managing a project. What advice can you offer?"
   },
   {
     "id": 20,
-    "prompt": "Your cousin is thinking about learning to drive. What should she keep in mind as a beginner?"
+    "prompt": "Your cousin is thinking about taking a course in design or project management. What should she keep in mind before enrolling?"
   }
 ]

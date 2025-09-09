@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import questions from './data/celpipQuestion.json';
 
 const PREP_TIME = 30; // segundos
-const ANSWER_TIME = 60; // segundos
+const ANSWER_TIME = 90; // segundos
 
 const CELPIPSpeaking = () => {
   const [step, setStep] = useState("prep"); // prep | answer | finished
