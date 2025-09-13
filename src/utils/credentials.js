@@ -79,4 +79,7 @@ export const validCredentials = [
              { expirationDate:"Unlimited Account",nivel:"B2",usuario: 'herberth', password: 'jara', realname: 'Herberth Jara Huaman',img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
              { expirationDate:"Unlimited Account",nivel:"B2",usuario: 'beatriz', password: 'cordova', realname: 'Beatriz Alejandra Cordova',img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
 
+             //ACCESO DE POR VIDA tiktok
+             { expirationDate:"Unlimited Account",nivel:"B2",usuario: 'maria', password: 'ramos', realname: 'Maria C. Ramos',img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
+
     ];
