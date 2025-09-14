@@ -14,11 +14,6 @@ export const validCredentials = [
 
 
      
-     
-      //   { expirationDate:"18/07/25",nivel:"B2 ",usuario: 'kwt', password: 'mastery', realname: 'Teresa Trigoso', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png' }, // No image
-        // { expirationDate:"10 hours",nivel:"B2 ",usuario: 'ninos', password: 'morcillo', realname: 'Ninoska Morcillo', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png' }, // No image
-        // { expirationDate:"26/07/25",nivel:"B2 ",usuario: 'jersson', password: 'luza', realname: 'Jersson Ccachura Luza', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png' }, // No image
-
        //valere students
       { expirationDate:"Acceso Ilimitado",nivel:"B2",usuario: 'jose.espinoza', password: 'espinoza', realname: 'Jose Espinoza',img:'https://i.ibb.co/KxnCbbsN/TKSEJTSGH-U06-ESMT4-N3-E-b7c4ebc0c00f-512.jpg'},
       { expirationDate:"Acceso Ilimitado",nivel:"B2",usuario: 'joseph.rodriguez', password: 'rodriguez', realname: 'Joseph Rodriguez',img:'https://i.ibb.co/hRys4vbp/TKSEJTSGH-U08-BL6353-TN-224f5f84b575-512.png'},
@@ -82,5 +77,6 @@ export const validCredentials = [
              //ACCESO DE POR VIDA tiktok
              { expirationDate:"Unlimited Account",nivel:"B2",usuario: 'maria', password: 'ramos', realname: 'Maria C. Ramos',img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
              { expirationDate:"Unlimited Account",nivel:"B2",usuario: 'adrian', password: 'mendoza', realname: 'Adrian Mendoza C',img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
+             { expirationDate:"Unlimited Account",nivel:"B2",usuario: 'andrea', password: 'tucno', realname: 'Andrea P. Tucno',img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
 
     ];
