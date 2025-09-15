@@ -13,6 +13,7 @@ import CategoryCarousel from './CategoryCarousel';
 import PricingPlansDark from "./PricingPlansDark";
 import FeaturedInStrip from "./FeaturedInStrip";
 import React, { useRef } from "react";
+import PayPalButton from './PaypalButton';
 export default function LandingVibrante({
   logo,
   titulo,
@@ -111,6 +112,9 @@ export default function LandingVibrante({
                 registrarse={registrarse}   
 
             />
+            <div className="mt-8">
+          <PayPalButton />
+        </div>
           </div>
         </div>
       </section>

@@ -58,7 +58,7 @@ export default function AsidePanelModern({
         </div>
         {descuento && (
           <div className="text-sm text-green-600 font-semibold mt-1">
-            ¡{descuento}% OFF!
+            ¡{descuento}!
           </div>
         )}
         {precio_anual && (

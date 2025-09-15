@@ -7,11 +7,11 @@
   "titulo": "Ruta de Aprendizaje Autónoma A1",
   "descripcion": "Mejora su expresión oral y comprensión para comunicarse en inglés con confianza en el trabajo.",
   "teacher": "Carlos Apolaya Sanchez",
-  "video": "https://www.youtube.com/embed/pXTv0jaOgwM?start=118",
-  "precio": "S/30 por mes",
-  "precio_original": "S/79.90",
-  "descuento": "36% off",
-  "oferta_time": "⏰ 11 hours left at this price!",
+  "video": "https://www.youtube.com/embed/eXcz7VXcCsI",
+  "precio": "S/90 ",
+  "precio_original": "S/180",
+  "descuento": "Pago único 50% off",
+  "oferta_time": "⏰ quedan 11 horas en este precio!",
   "soporte_wsp": "https://api.whatsapp.com/send?phone=51926922032&text=Hola%20quiero%20informacion%20sobre%20el%20curso",
   "badge": {
     "label": "Role Play",
@@ -23,15 +23,6 @@
     "students": 3187
   },
   
-  "pricing": {
-    "prices": {
-      "basicMonthly": 30,
-      "plusQuarterly": 75,
-      "proAnnual": 240
-    },
-    "currency": "S/",
-    "baseMonthly": 30
-  },
   "last_updated": "07/07/2025",
   "idiomas": ["English", "Spanish"],
   "learning": [
