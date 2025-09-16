@@ -9,6 +9,8 @@ export const roadC = [
         description: "Mejora tus habilidades de comprensión auditiva con este curso que te ayudará a entender a hablantes nativos en diferentes situaciones y acentos, fortaleciendo tu confianza al escuchar y comprender el idioma.",
         enlaces: [
             { titulo: "What to Expect on Test Day",descripcion:"you can review what you need to bring, what will happen when you check-in at your test centre, what will happen during the test, and what you can expect once you have completed your test sitting. ",  url3: "https://youtu.be/Ri7I49xEBqA" },
+            { titulo: "Errores que NO debes cometer el día del CELPIP",descripcion:"te cuento los errores más comunes que pueden arruinar tu examen CELPIP",  url3: "https://youtu.be/QnKFaUwwWl0?si=DcbszlzzcVy0Yg7r" },
+
             { titulo: "CELPIP General Overview", url3: "https://youtu.be/GvFZlRyxTcs" },
         ],
     },
