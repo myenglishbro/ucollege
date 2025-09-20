@@ -93,6 +93,7 @@ import UseOfEnglishInline2 from "./components/Aplicativos/uoe2/UseOfEnglishInlin
 import InicioB2CFR from "./components/Login/LoginB2CF/InicioB2CFR.jsx";
 import Essentialgrammar from "./components/Aplicativos/essentialgrammar/Essentialgrammar.jsx";
 import VocabTrainer from "./components/Aplicativos/vocabulario/Vocabtrainer.jsx";
+import InicioA1F from "./components/Login/loginA1F/InicioA1F.jsx";
 
 function App() {
   return (
@@ -107,6 +108,8 @@ function App() {
           <Route path="/Team" element={<Team />}></Route>
 
           <Route path="/A1" element={<InicioA1 />}></Route>
+                   <Route path="/A1F" element={<InicioA1F />}></Route>
+
                     <Route path="/A2" element={<InicioA2 />}></Route>
 
           <Route path="/B1" element={<IniciobB1 />}></Route>
