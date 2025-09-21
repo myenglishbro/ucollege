@@ -28,22 +28,38 @@ export default function Sidebar({
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedLink, setSelectedLink] = useState(null);
 
-  // Guarda ids desbloqueados (no títulos)
-  const [unlockedLinks, setUnlockedLinks] = useState([]);
-  const [currentLockedLink, setCurrentLockedLink] = useState(null);
+  // 🔓 Estados de desbloqueo
+  const [unlockedLinks, setUnlockedLinks] = useState([]);       // guarda ids de enlaces desbloqueados
+  const [unlockedSections, setUnlockedSections] = useState([]); // guarda ids (o índices) de secciones desbloqueadas
+
+  // Modal de desbloqueo (unificado para sección o enlace)
+  const [currentLockTarget, setCurrentLockTarget] = useState(null);
+  // currentLockTarget = { type: 'section' | 'link', data: section|enlace, sectionIdx?: number, enlaceId?: string }
+
   const [codeInputForPopup, setCodeInputForPopup] = useState('');
   const [showRewardPopup, setShowRewardPopup] = useState(false);
   const [reward, setReward] = useState('');
   const [rewardDescription, setRewardDescription] = useState('');
 
   const handleSelect = (idx) => {
+    const section = filteredRoad[idx];
+    const sectionId = section?.id ?? idx;
+    const isSectionLocked = Boolean(section?.code) && !unlockedSections.includes(sectionId);
+
+    // Si la sección está bloqueada, abrimos el modal y no togglamos
+    if (isSectionLocked) {
+      setCurrentLockTarget({ type: 'section', data: section, sectionIdx: idx });
+      setCodeInputForPopup('');
+      return;
+    }
+
     const isSame = activeIndex === idx;
     setActiveIndex(isSame ? null : idx);
     setSelectedIndex(isSame ? null : idx);
     if (!isSame) seleccionarNivel(idx);
   };
 
-  // 🔧 Recibe (id, checked) desde TimelineItem
+  // ✅ Recibe (id, checked) desde TimelineItem
   const handleCheckboxChange = (id, checked) => {
     setViewedItems((prev) => {
       const set = new Set(prev);
@@ -58,20 +74,46 @@ export default function Sidebar({
   };
 
   const handleUnlockSubmit = (code) => {
-    if (!currentLockedLink) return;
-    if (code === currentLockedLink.codigo) {
-      const enlaceId = currentLockedLink.id ?? currentLockedLink.titulo;
-      setUnlockedLinks((prev) => Array.from(new Set([...prev, enlaceId])));
-      setCurrentLockedLink(null);
-      setCodeInputForPopup('');
-    } else {
-      alert('Código incorrecto');
+    if (!currentLockTarget) return;
+
+    if (currentLockTarget.type === 'link') {
+      const enlace = currentLockTarget.data;
+      const expected = enlace.codigo;
+      if (code === expected) {
+        const enlaceId = currentLockTarget.enlaceId;
+        setUnlockedLinks((prev) => Array.from(new Set([...prev, enlaceId])));
+        setCurrentLockTarget(null);
+        setCodeInputForPopup('');
+      } else {
+        alert('Código incorrecto');
+      }
+      return;
+    }
+
+    if (currentLockTarget.type === 'section') {
+      const section = currentLockTarget.data;
+      const expected = section.code; // 👈 a nivel sección se usa `code`
+      if (code === expected) {
+        const sectionId = section.id ?? currentLockTarget.sectionIdx;
+        setUnlockedSections((prev) => Array.from(new Set([...prev, sectionId])));
+        // Abrimos la sección automáticamente después de desbloquear
+        const idx = currentLockTarget.sectionIdx;
+        setActiveIndex(idx);
+        setSelectedIndex(idx);
+        seleccionarNivel(idx);
+
+        setCurrentLockTarget(null);
+        setCodeInputForPopup('');
+      } else {
+        alert('Código incorrecto');
+      }
     }
   };
 
+  // Filtro (mantenemos las secciones visibles aunque estén bloqueadas; solo no se abren)
   const filteredRoad = road.filter((section) =>
-    section.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-    section.enlaces.some((e) =>
+    section.title?.toLowerCase().includes(searchTerm.toLowerCase()) ||
+    section.enlaces?.some((e) =>
       (e.titulo ?? '').toLowerCase().includes(searchTerm.toLowerCase())
     )
   );
@@ -82,6 +124,7 @@ export default function Sidebar({
         onClick={toggleSidebar}
         className="sidebar-toggle-btn fixed z-30 bg-indigo-600 hover:bg-indigo-700 text-white p-3 rounded-r-lg focus:outline-none transition-colors duration-200 ease-in-out shadow-lg"
         style={{ top: NAVBAR_HEIGHT + 16, left: isSidebarVisible ? SIDEBAR_WIDTH : 0 }}
+        aria-label={isSidebarVisible ? 'Cerrar sidebar' : 'Abrir sidebar'}
       >
         {isSidebarVisible ? <FaTimes size={22} /> : <FaBars size={22} />}
       </button>
@@ -106,38 +149,71 @@ export default function Sidebar({
         </div>
 
         <div className="overflow-y-auto h-[calc(100vh-92px)] px-2 pt-1 pb-20">
-          {filteredRoad.map((section, idx) => (
-            <AccordionSection
-              key={idx}
-              title={section.title}
-              isOpen={activeIndex === idx}
-              isSelected={selectedIndex === idx}
-              onToggle={() => handleSelect(idx)}
-              className="accordion-header"
-            >
-              <div className="space-y-2">
-                {section.enlaces.map((enlace, i) => {
-                  const enlaceId = enlace.id ?? enlace.titulo ?? String(i);
-                  const isViewed = viewedItems.includes(enlaceId);
-                  const isLocked =
-                    Boolean(enlace.codigo) && !unlockedLinks.includes(enlaceId);
+          {filteredRoad.map((section, idx) => {
+            const sectionId = section?.id ?? idx;
+            const isSectionLocked = Boolean(section?.code) && !unlockedSections.includes(sectionId);
 
-                  return (
-                    <TimelineItem
-                      key={enlaceId}
-                      enlace={enlace}
-                      isViewed={isViewed}
-                      onToggleViewed={handleCheckboxChange} // ← recibe (id, checked)
-                      onActionClick={handleLinkClick}
-                      isLocked={isLocked}
-                      onRequestUnlock={() => setCurrentLockedLink(enlace)}
-                      className="timeline-item"
-                    />
-                  );
-                })}
-              </div>
-            </AccordionSection>
-          ))}
+            return (
+              <AccordionSection
+                key={sectionId}
+                title={section.title}
+                isOpen={activeIndex === idx}
+                isSelected={selectedIndex === idx}
+                onToggle={() => handleSelect(idx)}
+                className={`accordion-header ${isSectionLocked ? 'opacity-90' : ''}`}
+                // Si tu AccordionSection acepta extras, puedes pasarle esto:
+                // isLocked={isSectionLocked}
+                // lockHint="Sección bloqueada"
+              >
+                <div className="space-y-2">
+                  {section.enlaces?.map((enlace, i) => {
+                    const enlaceId = enlace.id ?? enlace.titulo ?? String(i);
+                    const isViewed = viewedItems.includes(enlaceId);
+                    const isLocked = Boolean(enlace.codigo) && !unlockedLinks.includes(enlaceId);
+
+                    // Si la sección está bloqueada, renderiza las filas pero desactiva acciones
+                    const onActionClick = (url) => {
+                      if (isSectionLocked) {
+                        setCurrentLockTarget({ type: 'section', data: section, sectionIdx: idx });
+                        setCodeInputForPopup('');
+                        return;
+                      }
+                      handleLinkClick(url);
+                    };
+
+                    const onRequestUnlock = () => {
+                      if (isSectionLocked) {
+                        // Prioriza desbloquear la sección antes que el enlace
+                        setCurrentLockTarget({ type: 'section', data: section, sectionIdx: idx });
+                        setCodeInputForPopup('');
+                        return;
+                      }
+                      // Desbloqueo por enlace
+                      setCurrentLockTarget({
+                        type: 'link',
+                        data: enlace,
+                        enlaceId,
+                      });
+                      setCodeInputForPopup('');
+                    };
+
+                    return (
+                      <TimelineItem
+                        key={enlaceId}
+                        enlace={enlace}
+                        isViewed={isViewed}
+                        onToggleViewed={handleCheckboxChange}
+                        onActionClick={onActionClick}
+                        isLocked={isLocked || isSectionLocked} // 🔒 si la sección está bloqueada, el enlace también
+                        onRequestUnlock={onRequestUnlock}
+                        className={`timeline-item ${isSectionLocked ? 'pointer-events-none opacity-60' : ''}`}
+                      />
+                    );
+                  })}
+                </div>
+              </AccordionSection>
+            );
+          })}
         </div>
       </aside>
 
@@ -158,13 +234,17 @@ export default function Sidebar({
       />
 
       <UnlockModal
-        isOpen={Boolean(currentLockedLink)}
-        enlaceTitle={currentLockedLink?.titulo}
+        isOpen={Boolean(currentLockTarget)}
+        enlaceTitle={
+          currentLockTarget?.type === 'section'
+            ? currentLockTarget?.data?.title
+            : currentLockTarget?.data?.titulo
+        }
         codeValue={codeInputForPopup}
         onCodeChange={setCodeInputForPopup}
         onSubmit={handleUnlockSubmit}
         onCancel={() => {
-          setCurrentLockedLink(null);
+          setCurrentLockTarget(null);
           setCodeInputForPopup('');
         }}
       />
