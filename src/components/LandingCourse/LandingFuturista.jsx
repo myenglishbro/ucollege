@@ -113,7 +113,7 @@ export default function LandingVibrante({
 
             />
             <div className="mt-8">
-          <PayPalButton />
+          
         </div>
           </div>
         </div>

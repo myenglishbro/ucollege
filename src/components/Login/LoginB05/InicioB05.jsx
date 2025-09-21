@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import LandingFuturista from '../../LandingCourse/LandingFuturista';
+import LandingFuturista3 from '../../LandingCourse/LandingFuturista3';
 import LoginUniversal from '../LoginUniversal'; // Universal!
 import RoadMapB05 from '../../../pages/ROADMAPS/RoadMapB05';
 import landingDataB05 from "../../../utils/datalanding/dataLandingB05.json";
@@ -25,7 +25,7 @@ export default function InicioB05() {
   return (
     <>
       <Navbar />
-      {fase === 'landing' && <LandingFuturista {...landingDataB05} onAccessClick={handleAccessClick} />}
+      {fase === 'landing' && <LandingFuturista3 {...landingDataB05} onAccessClick={handleAccessClick} />}
       {fase === 'login' && (
         <LoginUniversal
           onLoginSuccess={handleLoginSuccess}
