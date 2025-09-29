@@ -54,6 +54,9 @@ export const validCredentials = [
       { expirationDate:"08/10",nivel:"B2",usuario: 'esteban', password: 'bello', realname: 'Esteban Bello', img: 'https://i.ibb.co/jv0jDGgs/Chat-GPT-Image-6-jul-2025-13-23-34.png' }, // No image
       { expirationDate:"08/10",nivel:"CELPIP",usuario: 'awil', password: 'celpip', realname: 'Awil', img: 'https://i.ibb.co/jv0jDGgs/Chat-GPT-Image-6-jul-2025-13-23-34.png' }, // No image
 
+      { expirationDate:"28/10",nivel:"B2",usuario: 'kath', password: 'puin', realname: 'Katherine Puin', img: 'https://i.ibb.co/jv0jDGgs/Chat-GPT-Image-6-jul-2025-13-23-34.png' }, // No image
+
+
 //ACCESO DE POR VIDA
              { expirationDate:"Unlimited Account",nivel:"B2",usuario: 'adrian', password: 'aliaga', realname: 'Adrian Aliaga',img:'https://i.ibb.co/DHQLnHbK/ADRIAN.png'},
              { expirationDate:"Unlimited Account",nivel:"B2",usuario: 'gabriela', password: 'torres', realname: 'Gabriela Torres',img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
