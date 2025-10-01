@@ -39,6 +39,7 @@ export const validCredentialsa1 = [
 
    { expirationDate:"2026",nivel:"solicitar examen",usuario: 'patricia', password: 'vizcarra', realname: 'Patricia Vizcarra', img:'https://i.ibb.co/9HLwLnzb/logo.jpg'},
    { expirationDate:"2026",nivel:"solicitar examen",usuario: 'leonarda', password: 'sanchez', realname: 'Leonarda Sanchez', img:'https://i.ibb.co/9HLwLnzb/logo.jpg'},
+   { expirationDate:"2026",nivel:"solicitar examen",usuario: 'maria', password: 'loja', realname: 'Maria Loja', img:'https://i.ibb.co/9HLwLnzb/logo.jpg'},
 
 
 ];
