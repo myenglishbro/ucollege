@@ -41,7 +41,7 @@ export const validCredentials = [
       { expirationDate:"28/08",nivel:"B2",usuario: 'kath', password: 'contreras', realname: 'Katherine Contreras', img: 'https://i.ibb.co/jv0jDGgs/Chat-GPT-Image-6-jul-2025-13-23-34.png' }, // No image
       { expirationDate:"28/08",nivel:"B2",usuario: 'manuel', password: 'lopez', realname: 'Andres Lopez', img: 'https://i.ibb.co/jv0jDGgs/Chat-GPT-Image-6-jul-2025-13-23-34.png' }, // No image
       { expirationDate:"11/09",nivel:"Por determinar",usuario: 'ronaldo', password: 'valencia', realname: 'Ronaldo Valencia', img: 'https://i.ibb.co/jv0jDGgs/Chat-GPT-Image-6-jul-2025-13-23-34.png' }, // No image
-    //   { expirationDate:"16/09",nivel:"CELPIP",usuario: 'marlene', password: 'sanchez', realname: 'Marlene Sanchez Romero', img: 'https://i.ibb.co/jv0jDGgs/Chat-GPT-Image-6-jul-2025-13-23-34.png' }, // No image
+      { expirationDate:"15/10",nivel:"CELPIP",usuario: 'marlene', password: 'sanchez', realname: 'Marlene Sanchez Romero', img: 'https://i.ibb.co/jv0jDGgs/Chat-GPT-Image-6-jul-2025-13-23-34.png' }, // No image
 
       { expirationDate:"25/09",nivel:"CELPIP",usuario: 'fatima', password: 'ruiz', realname: 'Fátima Ruiz', img: 'https://i.ibb.co/jv0jDGgs/Chat-GPT-Image-6-jul-2025-13-23-34.png' }, // No image
 
