@@ -2,7 +2,8 @@ export const validCredentialsc1 = [
    
     { expirationDate:"05/12/35",nivel:"C2",usuario: 'heygen', password: 'ia', realname: 'MyEnglishBro!', img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
    
-   
+         { expirationDate:"30/09",nivel:"B2",usuario: 'laura', password: 'sanchez', realname: 'Laura Sanchez', img: 'https://i.ibb.co/jv0jDGgs/Chat-GPT-Image-6-jul-2025-13-23-34.png' }, // No image
+
 
       { expirationDate:"08/10",nivel:"c1",usuario: 'esteban', password: 'bello', realname: 'Esteban Bello', img: 'https://i.ibb.co/jv0jDGgs/Chat-GPT-Image-6-jul-2025-13-23-34.png' }, // No image
 
