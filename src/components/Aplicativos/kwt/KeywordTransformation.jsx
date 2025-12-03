@@ -4,12 +4,15 @@ import exercisesData from "./data/keywordExercises.json";
 
 export default function KeywordTransformation() {
   const levels = exercisesData.levels;
+  const QUESTION_TIME = 45;
   const [selectedLevel, setSelectedLevel] = useState(null);
   const [currentQ, setCurrentQ] = useState(0);
   const [input, setInput] = useState("");
   const [feedback, setFeedback] = useState(null);
   const [score, setScore] = useState(0);
   const [log, setLog] = useState([]);
+  const [timeLeft, setTimeLeft] = useState(QUESTION_TIME);
+  const [questionStart, setQuestionStart] = useState(Date.now());
 
   useEffect(() => {
     if (selectedLevel !== null) {
@@ -18,8 +21,28 @@ export default function KeywordTransformation() {
       setFeedback(null);
       setScore(0);
       setLog([]);
+      setTimeLeft(QUESTION_TIME);
+      setQuestionStart(Date.now());
     }
   }, [selectedLevel]);
+
+  useEffect(() => {
+    if (selectedLevel === null) return undefined;
+    if (feedback) return undefined;
+
+    const tick = setInterval(() => {
+      setTimeLeft(prev => {
+        if (prev <= 1) {
+          clearInterval(tick);
+          handleTimeout();
+          return 0;
+        }
+        return prev - 1;
+      });
+    }, 1000);
+
+    return () => clearInterval(tick);
+  }, [selectedLevel, feedback, currentQ]); // eslint-disable-line react-hooks/exhaustive-deps
 
   if (selectedLevel === null) {
     return (
@@ -57,13 +80,29 @@ export default function KeywordTransformation() {
   const q = questions[currentQ];
   const answeredCount = feedback ? currentQ + 1 : currentQ;
   const progress = Math.round((answeredCount / total) * 100);
+  const elapsedSeconds = Math.max(0, Math.round((Date.now() - questionStart) / 1000));
+  const levelVideos = {
+    1: "https://www.youtube.com/embed/2X1p0YdE7Vw",
+    2: "https://www.youtube.com/embed/baXq2pIc6Jw",
+    3: "https://www.youtube.com/embed/7i9nV4aLZqo",
+    4: "https://www.youtube.com/embed/SbaqU19p9fQ",
+    5: "https://www.youtube.com/embed/uTkNXXMObLo",
+    6: "https://www.youtube.com/embed/5mYFXhHUPn0",
+    default: "https://www.youtube.com/embed/rQ5yNj8c9fA"
+  };
+  const levelVideoUrl = levels[selectedLevel].video || levelVideos[selectedLevel + 1] || levelVideos.default;
 
   function handleSubmit() {
+    if (feedback) return;
     const correct = input.trim().toUpperCase() === q.answer.toUpperCase();
     if (correct) setScore(s => s + 1);
 
-    setLog(l => [...l, { id: q.id, input, correct, correctAnswer: q.answer }]);
-    setFeedback({ correct, correctAnswer: q.answer, attempt: input });
+    const timeTaken = Math.min(elapsedSeconds, QUESTION_TIME);
+    setLog(l => [
+      ...l,
+      { id: q.id, input, correct, correctAnswer: q.answer, timeTaken }
+    ]);
+    setFeedback({ correct, correctAnswer: q.answer, attempt: input, timeTaken });
   }
 
   function handleNext() {
@@ -71,6 +110,8 @@ export default function KeywordTransformation() {
       setCurrentQ(i => i + 1);
       setInput("");
       setFeedback(null);
+      setTimeLeft(QUESTION_TIME);
+      setQuestionStart(Date.now());
     }
   }
 
@@ -80,6 +121,18 @@ export default function KeywordTransformation() {
     setFeedback(null);
     setScore(0);
     setLog([]);
+    setTimeLeft(QUESTION_TIME);
+    setQuestionStart(Date.now());
+  }
+
+  function handleTimeout() {
+    if (feedback) return;
+    const timeTaken = QUESTION_TIME;
+    setLog(l => [
+      ...l,
+      { id: q.id, input, correct: false, correctAnswer: q.answer, timeTaken, timedOut: true }
+    ]);
+    setFeedback({ correct: false, correctAnswer: q.answer, attempt: input, timedOut: true, timeTaken });
   }
 
   return (
@@ -155,6 +208,16 @@ export default function KeywordTransformation() {
                   {q.transformed} <span className="text-[#7a5a2f]">(palabra clave: {q.keyword})</span>
                 </div>
 
+                <div className="flex items-center justify-between bg-[#fdfaf3] border border-[#e6d8b5] rounded-xl px-4 py-3 mb-4">
+                  <div>
+                    <div className="text-xs uppercase tracking-[0.14em] text-[#7a5a2f]">Tiempo restante</div>
+                    <div className="text-sm text-[#4a5568]">Gestiona ritmo como en el paper</div>
+                  </div>
+                  <div className={`text-xl font-bold tabular-nums px-3 py-1 rounded-lg ${timeLeft <= 10 ? "bg-[#a4342a] text-white" : "text-[#1f3553] bg-white"}`}>
+                    {String(timeLeft).padStart(2, "0")}s
+                  </div>
+                </div>
+
                 <input
                   type="text"
                   value={input}
@@ -193,11 +256,11 @@ export default function KeywordTransformation() {
                     <button
                       onClick={handleNext}
                       className="px-6 py-3 bg-[#1f3553] text-white rounded-xl font-semibold shadow hover:-translate-y-0.5 transition"
-                    >
-                      Siguiente item
-                    </button>
-                  ) : (
-                    <button
+                  >
+                    Siguiente item
+                  </button>
+                ) : (
+                  <button
                       onClick={retry}
                       className="px-6 py-3 bg-[#2d6a4f] text-white rounded-xl font-semibold shadow hover:-translate-y-0.5 transition"
                     >
@@ -211,6 +274,20 @@ export default function KeywordTransformation() {
                     Revisar item
                   </button>
                 </div>
+                <div className="mt-4 space-y-2 text-sm text-[#4a5568] bg-[#fdfaf3] border border-[#e6d8b5] rounded-xl p-4">
+                  <div className="flex items-center justify-between">
+                    <span>Tiempo empleado</span>
+                    <span className="font-semibold text-[#1f3553]">{feedback.timeTaken || 0}s</span>
+                  </div>
+                  <div>
+                    <div className="text-xs uppercase tracking-[0.16em] text-[#7a5a2f] mb-1">Feedback</div>
+                    <p>
+                      {feedback.correct
+                        ? "Buen control de estructura y palabra clave. Pasa al siguiente item manteniendo consistencia."
+                        : "Revisa concordancia y orden de palabras. Asegurate de que la palabra clave no cambie y que el tiempo verbal coincida."}
+                    </p>
+                  </div>
+                </div>
               </motion.div>
             )}
 
@@ -218,31 +295,59 @@ export default function KeywordTransformation() {
               <motion.div
                 initial={{ opacity: 0, y: 16 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="bg-white/85 border border-[#d8c7a0] rounded-2xl shadow p-6"
+                className="bg-white/90 border border-[#d8c7a0] rounded-2xl shadow p-6 space-y-4"
               >
-                <div className="flex items-center justify-between mb-3">
+                <div className="flex items-center justify-between">
                   <h2 className="text-xl font-bold text-[#1f3553]">Reporte Nivel {selectedLevel + 1}</h2>
-                  <span className="text-sm text-[#4a5568]">Puntuacion: {score} / {total}</span>
+                  <div className="text-sm text-[#4a5568]">
+                    Puntuacion: <span className="font-semibold text-[#1f3553]">{score}</span> / {total}
+                  </div>
                 </div>
-                <div className="max-h-64 overflow-y-auto border border-[#e6d8b5] rounded-xl">
+                <div className="flex flex-wrap gap-3">
+                  <div className="px-4 py-2 bg-[#fdfaf3] border border-[#e6d8b5] rounded-lg text-sm text-[#4a5568]">
+                    Aciertos: <span className="text-[#1f3553] font-semibold">{score}</span>
+                  </div>
+                  <div className="px-4 py-2 bg-[#fdfaf3] border border-[#e6d8b5] rounded-lg text-sm text-[#4a5568]">
+                    Tiempo medio: <span className="text-[#1f3553] font-semibold">
+                      {log.length ? Math.round(log.reduce((s, e) => s + (e.timeTaken || 0), 0) / log.length) : 0}s
+                    </span>
+                  </div>
+                </div>
+
+                <div className="max-h-72 overflow-y-auto border border-[#e6d8b5] rounded-xl">
                   <div className="grid grid-cols-6 gap-2 text-sm bg-[#fdfaf3] px-4 py-2 text-[#7a5a2f] uppercase tracking-[0.08em]">
                     <span>Item</span>
-                    <span className="col-span-3">Tu respuesta</span>
+                    <span className="col-span-2">Tu respuesta</span>
                     <span>Estado</span>
                     <span>Modelo</span>
+                    <span>Tiempo</span>
                   </div>
                   {log.map(entry => (
                     <div key={entry.id} className="grid grid-cols-6 gap-2 px-4 py-2 border-t border-[#e6d8b5] text-sm text-[#1f3553]">
                       <span className="font-semibold">Q{entry.id}</span>
-                      <span className="col-span-3 truncate" title={entry.input || "Respuesta vacia"}>
+                      <span className="col-span-2 break-words">
                         {entry.input || "Respuesta vacia"}
                       </span>
                       <span className={entry.correct ? "text-emerald-700 font-semibold" : "text-[#a4342a] font-semibold"}>
-                        {entry.correct ? "OK" : "X"}
+                        {entry.correct ? "Correcto" : entry.timedOut ? "Tiempo" : "Incorrecto"}
                       </span>
-                      <span className="truncate" title={entry.correctAnswer}>{entry.correctAnswer}</span>
+                      <span className="break-words">{entry.correctAnswer}</span>
+                      <span>{entry.timeTaken ? `${entry.timeTaken}s` : "-"}</span>
                     </div>
                   ))}
+                </div>
+                <div className="bg-[#fdfaf3] border border-[#e6d8b5] rounded-xl p-4 space-y-2">
+                  <div className="text-sm uppercase tracking-[0.14em] text-[#7a5a2f]">Video guia nivel {selectedLevel + 1}</div>
+                  <p className="text-sm text-[#4a5568]">Repasa la explicacion completa para este nivel.</p>
+                  <div className="aspect-video w-full rounded-lg overflow-hidden border border-[#d8c7a0] bg-black">
+                    <iframe
+                      title={`Video nivel ${selectedLevel + 1}`}
+                      src={levelVideoUrl}
+                      className="w-full h-full"
+                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                      allowFullScreen
+                    />
+                  </div>
                 </div>
               </motion.div>
             )}
