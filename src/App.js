@@ -178,7 +178,7 @@ function App() {
                   <Route path="/kwt" element={<KeywordTransformerTrainer  />}></Route>
                   <Route path="/tc" element={<TrainingCenter  />}></Route>
                   <Route path="/gt" element={<GappedTextQuizUploader  />}></Route>
-                  <Route path="/keysimulation" element={<KeywordTransformation  />}></Route>
+                  <Route path="/keywordtransformation" element={<KeywordTransformation  />}></Route>
 
                   <Route path="/encripreguntarespuesta" element={<EncryptTextUploader  />}></Route>
                   <Route path="/encrikeyword" element={<CambridgeEncryptor  />}></Route>
