@@ -17,7 +17,8 @@ const serif = "'Merriweather', 'Georgia', serif";
 const sans = "'Poppins', 'Inter', 'Helvetica Neue', 'Arial', sans-serif";
 
 export default function UseOfEnglishInline() {
-  const [unlocked, setUnlocked] = useState({ 0: true });
+  const [mode, setMode] = useState("exam"); // exam | practice
+  const [examUnlocked, setExamUnlocked] = useState({ 0: true });
   const [selectedTest, setSelectedTest] = useState(null);
   const [answers, setAnswers] = useState({});
   const [submitted, setSubmitted] = useState(false);
@@ -26,8 +27,109 @@ export default function UseOfEnglishInline() {
   const [showCodeModal, setShowCodeModal] = useState(false);
   const [modalLevel, setModalLevel] = useState(null);
   const [showMsg, setShowMsg] = useState(null);
+  const [showIntro, setShowIntro] = useState(true);
+
+  const isPractice = mode === "practice";
+  const unlocked = isPractice
+    ? testsData.tests.reduce((acc, _, idx) => ({ ...acc, [idx]: true }), {})
+    : examUnlocked;
 
   const total = selectedTest !== null ? Object.keys(testsData.tests[selectedTest].options).length : 0;
+
+  const resetAll = () => {
+    setSelectedTest(null);
+    setAnswers({});
+    setSubmitted(false);
+    setScore(0);
+    setShowMsg(null);
+    setUnlockCode("");
+  };
+
+  // Intro screen
+  if (showIntro) {
+    return (
+      <div
+        className="min-h-screen flex items-center justify-center py-12 px-5"
+        style={{
+          background: `linear-gradient(160deg, ${palette.navy}, ${palette.deepBlue})`,
+          fontFamily: sans
+        }}
+      >
+        <div
+          className="w-full max-w-4xl rounded-3xl p-10 space-y-6 shadow-2xl"
+          style={{ background: palette.porcelain, border: `1px solid ${palette.border}` }}
+        >
+          <div className="space-y-2">
+            <p className="text-xs uppercase tracking-[0.25em] font-semibold" style={{ color: palette.gold }}>
+              Part 1 - Multiple Choice Cloze 2025
+            </p>
+            <h1
+              className="text-3xl md:text-4xl font-bold"
+              style={{ color: palette.navy, fontFamily: serif }}
+            >
+              B2 First · Reading & Use of English
+            </h1>
+            <p className="text-base md:text-lg" style={{ color: palette.deepBlue }}>
+              Choose the precise option for each gap; expect close-meaning distractors, collocations, and grammar patterns.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-4 text-sm md:text-base" style={{ color: palette.deepBlue }}>
+            <div className="space-y-2">
+              <h3 className="font-semibold" style={{ color: palette.navy, fontFamily: serif }}>
+                Overview
+              </h3>
+              <p>8 gaps; 1 point each. Tests vocabulary nuance and grammar in context across the Reading & Use of English paper.</p>
+            </div>
+            <div className="space-y-2">
+              <h3 className="font-semibold" style={{ color: palette.navy, fontFamily: serif }}>
+                How to Approach
+              </h3>
+              <ul className="list-disc list-inside space-y-1">
+                <li>Watch prepositions/adverbs/verb forms around the gap.</li>
+                <li>Think in phrases and collocations, not isolated words.</li>
+                <li>Read the whole sentence before locking your choice.</li>
+              </ul>
+            </div>
+            <div className="space-y-2">
+              <h3 className="font-semibold" style={{ color: palette.navy, fontFamily: serif }}>
+                Assessment Focus
+              </h3>
+              <p>Lexical nuance, collocations, phrasal verbs, register, and grammatical patterns within sentences and passages.</p>
+            </div>
+            <div className="space-y-2">
+              <h3 className="font-semibold" style={{ color: palette.navy, fontFamily: serif }}>
+                Tips
+              </h3>
+              <ul className="list-disc list-inside space-y-1">
+                <li>Drill common collocations and phrasal verbs.</li>
+                <li>Dissect sentences to see how each word shapes meaning.</li>
+                <li>Read varied texts and note author word choices for nuance.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <p className="text-sm md:text-base" style={{ color: palette.deepBlue }}>
+              Exam mode requires prerequisite codes to open sets. Practice mode unlocks everything and skips codes.
+            </p>
+            <button
+              onClick={() => setShowIntro(false)}
+              className="px-6 py-3 rounded-full font-semibold"
+              style={{
+                background: palette.navy,
+                color: "#fff",
+                border: `1px solid ${palette.border}`,
+                boxShadow: "0 12px 32px rgba(12,19,42,0.28)"
+              }}
+            >
+              Iniciar
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
 
   // Level selection
   if (selectedTest === null) {
@@ -35,7 +137,7 @@ export default function UseOfEnglishInline() {
       <div
         className="min-h-screen flex flex-col items-center py-10 px-4"
         style={{
-          background: `radial-gradient(circle at 18% 20%, #20396d18, transparent 36%), radial-gradient(circle at 82% 8%, #c6a24a24, transparent 32%), linear-gradient(140deg, ${palette.navy}, ${palette.deepBlue})`,
+          background: `radial-gradient(circle at 20% 20%, #20396d20, transparent 35%), radial-gradient(circle at 80% 0%, #c6a24a1a, transparent 30%), linear-gradient(140deg, ${palette.navy}, ${palette.deepBlue})`,
           fontFamily: sans
         }}
       >
@@ -48,21 +150,44 @@ export default function UseOfEnglishInline() {
               boxShadow: "0 30px 80px rgba(12,19,42,0.22)"
             }}
           >
-            <p
-              className="uppercase tracking-[0.25em] text-xs font-semibold mb-4"
-              style={{ color: palette.gold, fontFamily: serif }}
-            >
-              Cambridge Grammar Studio
-            </p>
-            <h1
-              className="text-3xl md:text-4xl font-bold mb-3"
-              style={{ color: palette.navy, fontFamily: serif }}
-            >
-              Use of English – Inline Transformations
-            </h1>
-            <p className="text-base md:text-lg" style={{ color: palette.deepBlue }}>
-              Navigate each passage, choose the exact fit for every gap, and unlock the next dossier with flawless work.
-            </p>
+            <div className="flex flex-col gap-3 md:gap-0 md:flex-row md:items-center md:justify-between">
+              <div>
+                <p
+                  className="uppercase tracking-[0.25em] text-xs font-semibold mb-3"
+                  style={{ color: palette.gold, fontFamily: serif }}
+                >
+                  Cambridge Practice
+                </p>
+                <h1
+                  className="text-3xl md:text-4xl font-bold mb-2"
+                  style={{ color: palette.navy, fontFamily: serif }}
+                >
+                  Use of English – Multiple Choice Cloze
+                </h1>
+                <p className="text-base md:text-lg" style={{ color: palette.deepBlue }}>
+                  Pick your mode: Exam keeps codes; Practice opens all sets without codes.
+                </p>
+              </div>
+              <div className="flex gap-2 bg-white rounded-full p-1 border" style={{ borderColor: palette.border }}>
+                {["exam", "practice"].map(m => (
+                  <button
+                    key={m}
+                    onClick={() => {
+                      setMode(m);
+                      setSelectedTest(null);
+                    }}
+                    className="px-4 py-2 rounded-full text-sm font-semibold transition-colors"
+                    style={{
+                      background: mode === m ? palette.navy : "transparent",
+                      color: mode === m ? "#fff" : palette.deepBlue,
+                      boxShadow: mode === m ? "0 8px 18px rgba(12,19,42,0.18)" : "none"
+                    }}
+                  >
+                    {m === "exam" ? "Exam mode" : "Practice mode"}
+                  </button>
+                ))}
+              </div>
+            </div>
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
@@ -94,7 +219,7 @@ export default function UseOfEnglishInline() {
                       <div
                         className="w-12 h-12 rounded-full flex items-center justify-center text-lg font-bold"
                         style={{
-                          background: isUnlocked ? palette.sky : "#f1f1f1",
+                          background: palette.sky,
                           color: palette.navy,
                           border: `1px solid ${palette.border}`,
                           fontFamily: serif
@@ -115,12 +240,18 @@ export default function UseOfEnglishInline() {
                     </div>
 
                     <div className="flex items-center gap-3">
-                      <img
-                        src={test.thumbnail}
-                        alt={test.title}
-                        className="w-14 h-14 rounded-xl object-cover border"
-                        style={{ borderColor: palette.border }}
-                      />
+                      <div
+                        className="w-14 h-14 rounded-xl flex items-center justify-center text-xl font-bold"
+                        style={{
+                          background: "#fff",
+                          color: palette.navy,
+                          border: `1px solid ${palette.border}`,
+                          fontFamily: serif,
+                          boxShadow: "inset 0 1px 0 rgba(255,255,255,0.6)"
+                        }}
+                      >
+                        {(test.title?.[0] || "S").toUpperCase()}
+                      </div>
                       <div className="flex-1">
                         <p className="text-sm uppercase tracking-[0.12em] text-slate-500 mb-1">Set {idx + 1}</p>
                         <h3
@@ -130,14 +261,14 @@ export default function UseOfEnglishInline() {
                           {test.title}
                         </h3>
                         <p className="text-sm" style={{ color: palette.deepBlue }}>
-                          {test.subtitle || "Polish precision, tone, and register control."}
+                          {test.subtitle || "Lexical nuance and collocation drill."}
                         </p>
                       </div>
                     </div>
 
                     <div className="flex items-center justify-between text-sm" style={{ color: palette.deepBlue }}>
                       <span>Items: {Object.keys(test.options).length}</span>
-                      <span>{isUnlocked ? "Begin practice" : "Enter code"}</span>
+                      <span>{isUnlocked ? (isPractice ? "Start practice" : "Begin exam") : "Enter code"}</span>
                     </div>
                   </div>
                 </motion.div>
@@ -146,68 +277,70 @@ export default function UseOfEnglishInline() {
           </div>
         </div>
 
-        <AnimatePresence>
-          {showCodeModal && (
-            <motion.div
-              className="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-            >
+        {!isPractice && (
+          <AnimatePresence>
+            {showCodeModal && (
               <motion.div
-                className="bg-white p-6 rounded-2xl shadow-2xl w-80 max-w-xs space-y-3"
-                initial={{ scale: 0.9, y: 10 }}
-                animate={{ scale: 1, y: 0 }}
-                exit={{ scale: 0.9, y: 10 }}
-                style={{ border: `1px solid ${palette.border}` }}
+                className="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50"
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
               >
-                <h2
-                  className="text-xl font-bold flex items-center gap-2"
-                  style={{ color: palette.navy, fontFamily: serif }}
+                <motion.div
+                  className="bg-white p-6 rounded-2xl shadow-2xl w-80 max-w-xs space-y-3"
+                  initial={{ scale: 0.9, y: 10 }}
+                  animate={{ scale: 1, y: 0 }}
+                  exit={{ scale: 0.9, y: 10 }}
+                  style={{ border: `1px solid ${palette.border}` }}
                 >
-                  Set {modalLevel + 1} locked
-                </h2>
-                <p className="text-sm" style={{ color: palette.deepBlue }}>
-                  Enter the access code to open this set.
-                </p>
-                <input
-                  type="text"
-                  value={unlockCode}
-                  onChange={e => setUnlockCode(e.target.value)}
-                  className="w-full p-3 rounded-lg mb-1 focus:outline-none"
-                  style={{
-                    border: `1px solid ${palette.border}`,
-                    background: "#fff",
-                    color: palette.navy
-                  }}
-                  placeholder="Access code"
-                />
-                <button
-                  onClick={() => {
-                    if (unlockCode === testsData.tests[modalLevel].prerequisiteCode) {
-                      setUnlocked(prev => ({ ...prev, [modalLevel]: true }));
-                      setShowCodeModal(false);
-                      setUnlockCode("");
-                    } else {
-                      alert("Incorrect code. Try again.");
-                    }
-                  }}
-                  className="w-full py-2 rounded-lg font-semibold transition-colors"
-                  style={{ background: palette.navy, color: "#fff" }}
-                >
-                  Unlock
-                </button>
-                <button
-                  onClick={() => setShowCodeModal(false)}
-                  className="w-full py-2 rounded-lg font-semibold"
-                  style={{ color: palette.deepBlue }}
-                >
-                  Cancel
-                </button>
+                  <h2
+                    className="text-xl font-bold flex items-center gap-2"
+                    style={{ color: palette.navy, fontFamily: serif }}
+                  >
+                    Set {modalLevel + 1} locked
+                  </h2>
+                  <p className="text-sm" style={{ color: palette.deepBlue }}>
+                    Enter the prerequisite code to open this set (Exam mode).
+                  </p>
+                  <input
+                    type="text"
+                    value={unlockCode}
+                    onChange={e => setUnlockCode(e.target.value)}
+                    className="w-full p-3 rounded-lg mb-1 focus:outline-none"
+                    style={{
+                      border: `1px solid ${palette.border}`,
+                      background: "#fff",
+                      color: palette.navy
+                    }}
+                    placeholder="Access code"
+                  />
+                  <button
+                    onClick={() => {
+                      if (unlockCode === testsData.tests[modalLevel].prerequisiteCode) {
+                        setExamUnlocked(prev => ({ ...prev, [modalLevel]: true }));
+                        setUnlockCode("");
+                        setShowCodeModal(false);
+                      } else {
+                        alert("Incorrect code. Try again.");
+                      }
+                    }}
+                    className="w-full py-2 rounded-lg font-semibold transition-colors"
+                    style={{ background: palette.navy, color: "#fff" }}
+                  >
+                    Unlock
+                  </button>
+                  <button
+                    onClick={() => setShowCodeModal(false)}
+                    className="w-full py-2 rounded-lg font-semibold"
+                    style={{ color: palette.deepBlue }}
+                  >
+                    Cancel
+                  </button>
+                </motion.div>
               </motion.div>
-            </motion.div>
-          )}
-        </AnimatePresence>
+            )}
+          </AnimatePresence>
+        )}
       </div>
     );
   }
@@ -227,14 +360,6 @@ export default function UseOfEnglishInline() {
     setTimeout(() => setShowMsg(null), 1400);
   };
 
-  const reset = () => {
-    setSelectedTest(null);
-    setAnswers({});
-    setSubmitted(false);
-    setScore(0);
-    setShowMsg(null);
-    setUnlockCode("");
-  };
   const nextIndex = selectedTest + 1;
 
   // Before submit
@@ -249,14 +374,14 @@ export default function UseOfEnglishInline() {
       >
         <div className="w-full max-w-3xl space-y-6">
           <div className="flex items-center justify-between">
-            <button onClick={reset} className="text-sm font-semibold" style={{ color: palette.sky }}>
+            <button onClick={resetAll} className="text-sm font-semibold" style={{ color: palette.sky }}>
               Back to menu
             </button>
             <div
               className="px-3 py-1 rounded-full text-xs font-semibold uppercase tracking-[0.18em]"
               style={{ background: palette.sky, color: palette.navy, border: `1px solid ${palette.border}` }}
             >
-              Set {selectedTest + 1}
+              {isPractice ? "Practice" : "Exam"} · Set {selectedTest + 1}
             </div>
           </div>
 
@@ -358,6 +483,7 @@ export default function UseOfEnglishInline() {
   }
 
   // Results and next
+  const perfect = score === total;
   return (
     <div
       className="min-h-screen flex flex-col items-center py-10 px-4"
@@ -367,7 +493,7 @@ export default function UseOfEnglishInline() {
       }}
     >
       <div className="w-full max-w-3xl space-y-6">
-        <button onClick={reset} className="text-sm font-semibold" style={{ color: palette.sky }}>
+        <button onClick={resetAll} className="text-sm font-semibold" style={{ color: palette.sky }}>
           Back to menu
         </button>
 
@@ -405,11 +531,11 @@ export default function UseOfEnglishInline() {
             </ul>
           </div>
 
-          {score === total && nextIndex < testsData.tests.length && (
+          {perfect && !isPractice && nextIndex < testsData.tests.length && (
             <motion.div
               initial={{ scale: 0.95, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
-              className="p-6 rounded-2xl text-center"
+              className="p-6 rounded-2xl text-center space-y-3"
               style={{
                 background: `linear-gradient(135deg, ${palette.navy}, ${palette.deepBlue})`,
                 color: "#fff",
@@ -418,12 +544,43 @@ export default function UseOfEnglishInline() {
               }}
             >
               <p className="text-lg font-semibold" style={{ fontFamily: serif }}>
-                Access code unlocked
+                Código de acceso desbloqueado
               </p>
-              <p className="text-2xl font-bold tracking-wide mt-2">{testsData.tests[nextIndex].prerequisiteCode}</p>
+              <p className="text-2xl font-bold tracking-wide">{testsData.tests[nextIndex].prerequisiteCode}</p>
+              <p className="text-sm opacity-90">
+                En modo examen necesitas este prerequisiteCode en el menú para abrir el siguiente set.
+              </p>
+              <button
+                onClick={resetAll}
+                className="mt-2 px-6 py-3 rounded-full font-semibold"
+                style={{
+                  background: "#fff",
+                  color: palette.navy,
+                  border: `1px solid ${palette.border}`
+                }}
+              >
+                Volver al menú
+              </button>
+            </motion.div>
+          )}
+
+          {perfect && isPractice && nextIndex < testsData.tests.length && (
+            <motion.div
+              initial={{ scale: 0.95, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              className="p-6 rounded-2xl text-center"
+              style={{
+                background: "#fff",
+                color: palette.navy,
+                border: `1px solid ${palette.border}`,
+                boxShadow: "0 16px 44px rgba(12,19,42,0.12)"
+              }}
+            >
+              <p className="text-lg font-semibold" style={{ fontFamily: serif }}>
+                Practice complete
+              </p>
               <button
                 onClick={() => {
-                  setUnlocked(prev => ({ ...prev, [nextIndex]: true }));
                   setSelectedTest(nextIndex);
                   setAnswers({});
                   setSubmitted(false);
@@ -431,26 +588,36 @@ export default function UseOfEnglishInline() {
                   setShowMsg(null);
                   setUnlockCode("");
                 }}
-                className="mt-4 px-6 py-3 rounded-full font-semibold"
+                className="mt-3 px-6 py-3 rounded-full font-semibold"
                 style={{
-                  background: "#fff",
-                  color: palette.navy,
+                  background: palette.navy,
+                  color: "#fff",
                   border: `1px solid ${palette.border}`
                 }}
               >
-                Continue to next set
+                Next practice set
               </button>
             </motion.div>
           )}
 
-          {score !== total && (
+          {!perfect && (
             <button
-              onClick={() => setSubmitted(false)}
+              onClick={() => {
+                setSubmitted(false);
+                setScore(0);
+                setShowMsg(null);
+              }}
               className="w-full py-3 rounded-full font-semibold"
               style={{ background: "#d8d8d8", color: "#1f2937" }}
             >
               Try again
             </button>
+          )}
+
+          {perfect && nextIndex >= testsData.tests.length && (
+            <p className="text-center font-semibold" style={{ color: palette.success }}>
+              All sets completed. Well done.
+            </p>
           )}
         </div>
       </div>

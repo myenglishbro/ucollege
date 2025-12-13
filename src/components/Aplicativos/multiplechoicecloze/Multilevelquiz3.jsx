@@ -2,7 +2,7 @@ import React, { useState, useEffect, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import levelsData from "../data/levelsExercises3.json";
 
-// Refined Cambridge-inspired palette and typography
+// Cambridge-inspired palette and typography
 const palette = {
   navy: "#0f1c3f",
   deepBlue: "#1c2f5d",
@@ -13,15 +13,16 @@ const palette = {
   success: "#1f9b6b",
   danger: "#d64545"
 };
-
 const serif = "'Merriweather', 'Georgia', serif";
 const sans = "'Poppins', 'Inter', 'Helvetica Neue', 'Arial', sans-serif";
 
 export default function MultiLevelQuiz3() {
   const levels = levelsData.levels;
+
+  const [mode, setMode] = useState("exam"); // exam | practice
+  const [examUnlocked, setExamUnlocked] = useState({ 0: true });
   const [selectedLevel, setSelectedLevel] = useState(null);
   const [codeInput, setCodeInput] = useState("");
-  const [unlockedLevels, setUnlockedLevels] = useState({ 0: true });
   const [currentQuestion, setCurrentQuestion] = useState(0);
   const [selectedOption, setSelectedOption] = useState("");
   const [score, setScore] = useState(0);
@@ -33,6 +34,14 @@ export default function MultiLevelQuiz3() {
   const timerRef = useRef(null);
   const [showLockModal, setShowLockModal] = useState(false);
   const [lockModalLevel, setLockModalLevel] = useState(null);
+  const [showIntro, setShowIntro] = useState(true);
+
+  const isPractice = mode === "practice";
+
+  // Derived unlocked map
+  const unlocked = isPractice
+    ? levels.reduce((acc, _, idx) => ({ ...acc, [idx]: true }), {})
+    : examUnlocked;
 
   // Reset quiz when level changes
   useEffect(() => {
@@ -46,11 +55,11 @@ export default function MultiLevelQuiz3() {
     clearInterval(timerRef.current);
   }, [selectedLevel]);
 
-  // Timer effect
+  // Timer effect (exam mode only)
   useEffect(() => {
-    if (selectedLevel !== null && !quizFinished) {
+    clearInterval(timerRef.current);
+    if (selectedLevel !== null && !quizFinished && !isPractice) {
       setTimeLeft(60);
-      clearInterval(timerRef.current);
       timerRef.current = setInterval(() => {
         setTimeLeft(prev => {
           if (prev <= 1) {
@@ -63,9 +72,134 @@ export default function MultiLevelQuiz3() {
       }, 1000);
     }
     return () => clearInterval(timerRef.current);
-  }, [selectedLevel, currentQuestion, quizFinished]);
+  }, [selectedLevel, currentQuestion, quizFinished, isPractice]);
 
-  // Level selection screen
+  function handleSubmitAnswer() {
+    clearInterval(timerRef.current);
+    const level = levels[selectedLevel];
+    const exercises = level.exercises;
+    const q = exercises[currentQuestion];
+    const isCorrect = selectedOption === q.answer;
+    if (isCorrect) {
+      setScore(s => s + 1);
+      setShowCorrectMessage(true);
+      setTimeout(() => setShowCorrectMessage(false), 1200);
+    } else {
+      setShowWrongMessage(true);
+      setTimeout(() => setShowWrongMessage(false), 1200);
+    }
+    setAnswersLog(log => [
+      ...log,
+      { prompt: q.prompt, selected: selectedOption, answer: q.answer, correct: isCorrect }
+    ]);
+    setSelectedOption("");
+    if (currentQuestion + 1 < exercises.length) {
+      setCurrentQuestion(i => i + 1);
+      setTimeLeft(60);
+    } else {
+      setQuizFinished(true);
+    }
+  }
+
+  const resetAll = () => {
+    setSelectedLevel(null);
+    setCurrentQuestion(0);
+    setSelectedOption("");
+    setScore(0);
+    setAnswersLog([]);
+    setQuizFinished(false);
+    setTimeLeft(60);
+    setShowCorrectMessage(false);
+    setShowWrongMessage(false);
+  };
+
+  // Intro screen
+  if (showIntro) {
+    return (
+      <div
+        className="min-h-screen flex items-center justify-center py-12 px-5"
+        style={{
+          background: `linear-gradient(160deg, ${palette.navy}, ${palette.deepBlue})`,
+          fontFamily: sans
+        }}
+      >
+        <div
+          className="w-full max-w-4xl rounded-3xl p-10 space-y-6 shadow-2xl"
+          style={{ background: palette.porcelain, border: `1px solid ${palette.border}` }}
+        >
+          <div className="space-y-2">
+            <p className="text-xs uppercase tracking-[0.25em] font-semibold" style={{ color: palette.gold }}>
+              Part 1 - Multiple Choice Cloze
+            </p>
+            <h1
+              className="text-3xl md:text-4xl font-bold"
+              style={{ color: palette.navy, fontFamily: serif }}
+            >
+              B2 First · Reading & Use of English
+            </h1>
+            <p className="text-base md:text-lg" style={{ color: palette.deepBlue }}>
+              Choose the exact word or phrase that fits each gap; expect close meanings, collocations, and grammatical patterns.
+            </p>
+          </div>
+
+          <div className="grid md:grid-cols-2 gap-4 text-sm md:text-base" style={{ color: palette.deepBlue }}>
+            <div className="space-y-2">
+              <h3 className="font-semibold" style={{ color: palette.navy, fontFamily: serif }}>
+                Overview
+              </h3>
+              <p>8 gaps; each correct option = 1 point (8 total). Assesses vocabulary nuance and grammar in context.</p>
+            </div>
+            <div className="space-y-2">
+              <h3 className="font-semibold" style={{ color: palette.navy, fontFamily: serif }}>
+                How to approach
+              </h3>
+              <ul className="list-disc list-inside space-y-1">
+                <li>Read around each gap and note prepositions, adverbs, or verb forms.</li>
+                <li>Think in phrases/collocations, not isolated words.</li>
+                <li>Read the whole sentence before locking your choice.</li>
+              </ul>
+            </div>
+            <div className="space-y-2">
+              <h3 className="font-semibold" style={{ color: palette.navy, fontFamily: serif }}>
+                Assessment focus
+              </h3>
+              <p>Lexical nuance, collocations, phrasal verbs, register, and grammar patterns within context.</p>
+            </div>
+            <div className="space-y-2">
+              <h3 className="font-semibold" style={{ color: palette.navy, fontFamily: serif }}>
+                Tips
+              </h3>
+              <ul className="list-disc list-inside space-y-1">
+                <li>Practice collocations and phrasal verbs in real contexts.</li>
+                <li>Analyze sentences to see how each word shapes meaning.</li>
+                <li>Read varied texts and track author word choices for nuance.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="flex flex-wrap items-center justify-between gap-3">
+            <p className="text-sm md:text-base" style={{ color: palette.deepBlue }}>
+              Exam mode requires prerequisite codes to open sets. Practice mode unlocks everything and removes the code requirement.
+            </p>
+            <button
+              onClick={() => setShowIntro(false)}
+              className="px-6 py-3 rounded-full font-semibold"
+              style={{
+                background: palette.navy,
+                color: "#fff",
+                border: `1px solid ${palette.border}`,
+                boxShadow: "0 12px 32px rgba(12,19,42,0.28)"
+              }}
+            >
+              Iniciar
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
+  // Level selection
   if (selectedLevel === null) {
     return (
       <div
@@ -84,26 +218,49 @@ export default function MultiLevelQuiz3() {
               boxShadow: "0 30px 80px rgba(12,19,42,0.22)"
             }}
           >
-            <p
-              className="uppercase tracking-[0.25em] text-xs font-semibold mb-4"
-              style={{ color: palette.gold, fontFamily: serif }}
-            >
-              Cambridge Practice
-            </p>
-            <h1
-              className="text-3xl md:text-4xl font-bold mb-3"
-              style={{ color: palette.navy, fontFamily: serif }}
-            >
-              Multiple Choice Cloze Atelier
-            </h1>
-            <p className="text-base md:text-lg" style={{ color: palette.deepBlue }}>
-              Advance through curated levels, unlock the next chamber with flawless work, and keep your streak sharp with timed rounds.
-            </p>
+            <div className="flex flex-col gap-3 md:gap-0 md:flex-row md:items-center md:justify-between">
+              <div>
+                <p
+                  className="uppercase tracking-[0.25em] text-xs font-semibold mb-3"
+                  style={{ color: palette.gold, fontFamily: serif }}
+                >
+                  Cambridge Practice
+                </p>
+                <h1
+                  className="text-3xl md:text-4xl font-bold mb-2"
+                  style={{ color: palette.navy, fontFamily: serif }}
+                >
+                  Multiple Choice Cloze Atelier
+                </h1>
+                <p className="text-base md:text-lg" style={{ color: palette.deepBlue }}>
+                  Pick your mode: Exam replicates lock codes; Practice opens all sets with no codes.
+                </p>
+              </div>
+              <div className="flex gap-2 bg-white rounded-full p-1 border" style={{ borderColor: palette.border }}>
+                {["exam", "practice"].map(m => (
+                  <button
+                    key={m}
+                    onClick={() => {
+                      setMode(m);
+                      setSelectedLevel(null);
+                    }}
+                    className="px-4 py-2 rounded-full text-sm font-semibold transition-colors"
+                    style={{
+                      background: mode === m ? palette.navy : "transparent",
+                      color: mode === m ? "#fff" : palette.deepBlue,
+                      boxShadow: mode === m ? "0 8px 18px rgba(12,19,42,0.18)" : "none"
+                    }}
+                  >
+                    {m === "exam" ? "Exam mode" : "Practice mode"}
+                  </button>
+                ))}
+              </div>
+            </div>
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-6">
             {levels.map((lvl, idx) => {
-              const isUnlocked = !!unlockedLevels[idx];
+              const isUnlocked = !!unlocked[idx];
               return (
                 <motion.div
                   key={idx}
@@ -130,7 +287,7 @@ export default function MultiLevelQuiz3() {
                       <div
                         className="w-12 h-12 rounded-full flex items-center justify-center text-lg font-bold"
                         style={{
-                          background: isUnlocked ? palette.sky : "#f1f1f1",
+                          background: palette.sky,
                           color: palette.navy,
                           border: `1px solid ${palette.border}`,
                           fontFamily: serif
@@ -153,7 +310,7 @@ export default function MultiLevelQuiz3() {
                     <div className="flex items-center gap-3">
                       <img
                         src={lvl.thumbnail}
-                        alt={`Level ${lvl.level} thumbnail`}
+                        alt={`Level ${lvl.level}`}
                         className="w-14 h-14 rounded-xl object-cover border"
                         style={{ borderColor: palette.border }}
                       />
@@ -171,11 +328,9 @@ export default function MultiLevelQuiz3() {
                       </div>
                     </div>
 
-                    <div className="flex items-center justify-between">
-                      <div className="text-xs text-slate-600">Items: {lvl.exercises.length}</div>
-                      <div className="text-sm font-semibold" style={{ color: palette.deepBlue }}>
-                        {isUnlocked ? "Begin session" : "Enter code"}
-                      </div>
+                    <div className="flex items-center justify-between text-sm" style={{ color: palette.deepBlue }}>
+                      <span>Items: {lvl.exercises.length}</span>
+                      <span>{isUnlocked ? (isPractice ? "Start practice" : "Begin exam") : "Enter code"}</span>
                     </div>
                   </div>
                 </motion.div>
@@ -184,68 +339,70 @@ export default function MultiLevelQuiz3() {
           </div>
         </div>
 
-        <AnimatePresence>
-          {showLockModal && (
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-              className="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50"
-            >
+        {!isPractice && (
+          <AnimatePresence>
+            {showLockModal && (
               <motion.div
-                initial={{ scale: 0.9, y: 10 }}
-                animate={{ scale: 1, y: 0 }}
-                exit={{ scale: 0.9, y: 10 }}
-                className="bg-white p-6 rounded-2xl shadow-2xl w-80 max-w-xs space-y-3"
-                style={{ border: `1px solid ${palette.border}` }}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                className="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50"
               >
-                <h2
-                  className="text-xl font-bold flex items-center gap-2"
-                  style={{ color: palette.navy, fontFamily: serif }}
+                <motion.div
+                  initial={{ scale: 0.9, y: 10 }}
+                  animate={{ scale: 1, y: 0 }}
+                  exit={{ scale: 0.9, y: 10 }}
+                  className="bg-white p-6 rounded-2xl shadow-2xl w-80 max-w-xs space-y-3"
+                  style={{ border: `1px solid ${palette.border}` }}
                 >
-                  Level {lockModalLevel + 1} locked
-                </h2>
-                <p className="text-sm" style={{ color: palette.deepBlue }}>
-                  Enter the access code to open this chamber.
-                </p>
-                <input
-                  type="text"
-                  value={codeInput}
-                  onChange={e => setCodeInput(e.target.value)}
-                  className="w-full p-3 rounded-lg mb-1 focus:outline-none"
-                  style={{
-                    border: `1px solid ${palette.border}`,
-                    background: "#fff",
-                    color: palette.navy
-                  }}
-                  placeholder="Access code"
-                />
-                <button
-                  onClick={() => {
-                    if (codeInput === levels[lockModalLevel].prerequisiteCode) {
-                      setUnlockedLevels(prev => ({ ...prev, [lockModalLevel]: true }));
-                      setShowLockModal(false);
-                      setCodeInput("");
-                    } else {
-                      alert("Incorrect code. Try again.");
-                    }
-                  }}
-                  className="w-full py-2 rounded-lg font-semibold transition-colors"
-                  style={{ background: palette.navy, color: "#fff" }}
-                >
-                  Unlock
-                </button>
-                <button
-                  onClick={() => setShowLockModal(false)}
-                  className="w-full py-2 rounded-lg font-semibold"
-                  style={{ color: palette.deepBlue }}
-                >
-                  Cancel
-                </button>
+                  <h2
+                    className="text-xl font-bold flex items-center gap-2"
+                    style={{ color: palette.navy, fontFamily: serif }}
+                  >
+                    Level {lockModalLevel + 1} locked
+                  </h2>
+                  <p className="text-sm" style={{ color: palette.deepBlue }}>
+                    Enter the prerequisite code to open this level (Exam mode).
+                  </p>
+                  <input
+                    type="text"
+                    value={codeInput}
+                    onChange={e => setCodeInput(e.target.value)}
+                    className="w-full p-3 rounded-lg mb-1 focus:outline-none"
+                    style={{
+                      border: `1px solid ${palette.border}`,
+                      background: "#fff",
+                      color: palette.navy
+                    }}
+                    placeholder="Access code"
+                  />
+                  <button
+                    onClick={() => {
+                      if (codeInput === levels[lockModalLevel].prerequisiteCode) {
+                        setExamUnlocked(prev => ({ ...prev, [lockModalLevel]: true }));
+                        setShowLockModal(false);
+                        setCodeInput("");
+                      } else {
+                        alert("Incorrect code. Try again.");
+                      }
+                    }}
+                    className="w-full py-2 rounded-lg font-semibold transition-colors"
+                    style={{ background: palette.navy, color: "#fff" }}
+                  >
+                    Unlock
+                  </button>
+                  <button
+                    onClick={() => setShowLockModal(false)}
+                    className="w-full py-2 rounded-lg font-semibold"
+                    style={{ color: palette.deepBlue }}
+                  >
+                    Cancel
+                  </button>
+                </motion.div>
               </motion.div>
-            </motion.div>
-          )}
-        </AnimatePresence>
+            )}
+          </AnimatePresence>
+        )}
       </div>
     );
   }
@@ -254,33 +411,6 @@ export default function MultiLevelQuiz3() {
   const exercises = level.exercises;
   const q = exercises[currentQuestion];
   const progress = Math.round(((currentQuestion + 1) / exercises.length) * 100);
-
-  function handleSubmitAnswer() {
-    clearInterval(timerRef.current);
-    const isCorrect = selectedOption === q.answer;
-    if (isCorrect) {
-      setScore(s => s + 1);
-      setShowCorrectMessage(true);
-      setTimeout(() => setShowCorrectMessage(false), 1200);
-    } else {
-      setShowWrongMessage(true);
-      setTimeout(() => setShowWrongMessage(false), 1200);
-    }
-    setAnswersLog(log => [
-      ...log,
-      { prompt: q.prompt, selected: selectedOption, answer: q.answer, correct: isCorrect }
-    ]);
-    setSelectedOption("");
-    if (currentQuestion + 1 < exercises.length) {
-      setCurrentQuestion(i => i + 1);
-      setTimeLeft(60);
-    } else {
-      setQuizFinished(true);
-      if (selectedLevel + 1 < levels.length) {
-        setUnlockedLevels(prev => ({ ...prev, [selectedLevel + 1]: true }));
-      }
-    }
-  }
 
   // RESULTS SCREEN
   if (quizFinished) {
@@ -296,14 +426,14 @@ export default function MultiLevelQuiz3() {
         <div className="w-full max-w-3xl space-y-6">
           <div className="flex justify-between items-center">
             <button
-              onClick={() => setSelectedLevel(null)}
+              onClick={resetAll}
               className="text-sm font-semibold"
               style={{ color: palette.sky }}
             >
               Back to menu
             </button>
             <div className="text-xs uppercase tracking-[0.18em]" style={{ color: palette.gold }}>
-              Level {level.level}
+              Level {level.level} · {isPractice ? "Practice" : "Exam"}
             </div>
           </div>
 
@@ -359,11 +489,11 @@ export default function MultiLevelQuiz3() {
               ))}
             </div>
 
-            {allCorrect && (
+            {allCorrect && !isPractice && selectedLevel + 1 < levels.length && (
               <motion.div
                 initial={{ scale: 0.95, opacity: 0 }}
                 animate={{ scale: 1, opacity: 1 }}
-                className="p-6 rounded-2xl text-center"
+                className="p-6 rounded-2xl text-center space-y-3"
                 style={{
                   background: `linear-gradient(135deg, ${palette.navy}, ${palette.deepBlue})`,
                   color: "#fff",
@@ -372,21 +502,83 @@ export default function MultiLevelQuiz3() {
                 }}
               >
                 <p className="text-lg font-semibold" style={{ fontFamily: serif }}>
-                  Access code unlocked
+                  Código de acceso desbloqueado
                 </p>
-                <p className="text-2xl font-bold tracking-wide mt-2">{level.levelCode}</p>
+                <p className="text-2xl font-bold tracking-wide">{level.levelCode}</p>
+                <p className="text-sm opacity-90">
+                  Usa este prerequisiteCode en el menú (modo examen) para abrir el siguiente nivel.
+                </p>
                 <button
-                  onClick={() => setSelectedLevel(selectedLevel + 1)}
-                  className="mt-4 px-6 py-2 rounded-full font-semibold"
+                  onClick={resetAll}
+                  className="mt-2 px-6 py-3 rounded-full font-semibold"
                   style={{
                     background: "#fff",
                     color: palette.navy,
                     border: `1px solid ${palette.border}`
                   }}
                 >
-                  Continue to next level
+                  Volver al menú
                 </button>
               </motion.div>
+            )}
+
+            {allCorrect && isPractice && selectedLevel + 1 < levels.length && (
+              <motion.div
+                initial={{ scale: 0.95, opacity: 0 }}
+                animate={{ scale: 1, opacity: 1 }}
+                className="p-6 rounded-2xl text-center"
+                style={{
+                  background: "#fff",
+                  color: palette.navy,
+                  border: `1px solid ${palette.border}`,
+                  boxShadow: "0 16px 44px rgba(12,19,42,0.12)"
+                }}
+              >
+                <p className="text-lg font-semibold" style={{ fontFamily: serif }}>
+                  Practice complete
+                </p>
+                <button
+                  onClick={() => {
+                    setSelectedLevel(selectedLevel + 1);
+                    setCurrentQuestion(0);
+                    setSelectedOption("");
+                    setScore(0);
+                    setAnswersLog([]);
+                    setQuizFinished(false);
+                  }}
+                  className="mt-3 px-6 py-3 rounded-full font-semibold"
+                  style={{
+                    background: palette.navy,
+                    color: "#fff",
+                    border: `1px solid ${palette.border}`
+                  }}
+                >
+                  Next practice level
+                </button>
+              </motion.div>
+            )}
+
+            {!allCorrect && (
+              <button
+                onClick={() => {
+                  setQuizFinished(false);
+                  setCurrentQuestion(0);
+                  setSelectedOption("");
+                  setScore(0);
+                  setAnswersLog([]);
+                  setTimeLeft(60);
+                }}
+                className="w-full py-3 rounded-full font-semibold"
+                style={{ background: "#d8d8d8", color: "#1f2937" }}
+              >
+                Try again
+              </button>
+            )}
+
+            {allCorrect && selectedLevel + 1 >= levels.length && (
+              <p className="text-center font-semibold" style={{ color: palette.success }}>
+                All levels completed. Well done.
+              </p>
             )}
           </div>
         </div>
@@ -431,7 +623,7 @@ export default function MultiLevelQuiz3() {
       <div className="w-full max-w-3xl space-y-6">
         <div className="flex items-center justify-between">
           <button
-            onClick={() => setSelectedLevel(null)}
+            onClick={resetAll}
             className="text-sm font-semibold"
             style={{ color: palette.sky }}
           >
@@ -445,13 +637,15 @@ export default function MultiLevelQuiz3() {
               color: palette.navy
             }}
           >
-            <span>Time left</span>
-            <span
-              className="px-2 py-1 rounded-full"
-              style={{ background: palette.sky, color: palette.navy }}
-            >
-              {timeLeft}s
-            </span>
+            <span>{isPractice ? "Practice" : "Exam"}</span>
+            {!isPractice && (
+              <span
+                className="px-2 py-1 rounded-full"
+                style={{ background: palette.sky, color: palette.navy }}
+              >
+                {timeLeft}s
+              </span>
+            )}
           </div>
         </div>
 
