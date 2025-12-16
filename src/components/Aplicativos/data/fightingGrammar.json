@@ -1,0 +1,45 @@
+{
+  "victoryCode": "FIGHT-B2-READY",
+  "questions": [
+    {
+      "question": "If she ____ earlier, she wouldn't be rushing now.",
+      "options": ["left", "had left", "was leaving", "would leave"],
+      "answer": "had left"
+    },
+    {
+      "question": "They insisted ____ paying for the entire meal.",
+      "options": ["in", "to", "on", "about"],
+      "answer": "on"
+    },
+    {
+      "question": "Hardly ____ the ceremony begun when the lights went out.",
+      "options": ["had", "has", "did", "was"],
+      "answer": "had"
+    },
+    {
+      "question": "By the time we arrive, the film ____ for twenty minutes.",
+      "options": ["will have started", "has started", "is starting", "started"],
+      "answer": "will have started"
+    },
+    {
+      "question": "It's high time you ____ your thesis draft.",
+      "options": ["finish", "finished", "had finished", "have finished"],
+      "answer": "finished"
+    },
+    {
+      "question": "Not only ____ the deadline, but he also added extra analysis.",
+      "options": ["did he meet", "he met", "met he", "does he meet"],
+      "answer": "did he meet"
+    },
+    {
+      "question": "Should you ____ any issues, let me know immediately.",
+      "options": ["encounter", "encountered", "encountering", "to encounter"],
+      "answer": "encounter"
+    },
+    {
+      "question": "We'd better leave now, ____ we might miss the last train.",
+      "options": ["otherwise", "although", "despite", "unless"],
+      "answer": "otherwise"
+    }
+  ]
+}
