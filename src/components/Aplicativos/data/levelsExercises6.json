@@ -109,6 +109,399 @@
   ]
 }
 ,
+
+
+{
+  "level": 1,
+  "prerequisiteCode": "LEVEL1-KEY",
+  "thumbnail": "https://i.ibb.co/Wpq0b5W7/20250709-1507-Vibrant-Cartoon-Character-remix-01jzrcpjj8fa7v98xk6tem1d9q-1.png",
+  "levelCode": "ALREADY-STILL-YET",
+  "exercises": [
+    {
+      "id": 1,
+      "prompt": "You finished your homework earlier than expected. You say: I have ________ finished my homework.",
+      "options": ["already", "still", "yet"],
+      "answer": "already"
+    },
+    {
+      "id": 2,
+      "prompt": "It started raining in the morning and it continues now. You say: It is ________ raining.",
+      "options": ["already", "still", "yet"],
+      "answer": "still"
+    },
+    {
+      "id": 3,
+      "prompt": "You are waiting for a reply, but it hasn’t arrived. You say: I haven’t received an answer ________.",
+      "options": ["already", "still", "yet"],
+      "answer": "yet"
+    },
+    {
+      "id": 4,
+      "prompt": "You thought the store closed later, but you see the lights are off. You ask: Is the store closed ________?",
+      "options": ["already", "still", "yet"],
+      "answer": "already"
+    },
+    {
+      "id": 5,
+      "prompt": "She started studying two hours ago and continues now. She is ________ studying.",
+      "options": ["already", "still", "yet"],
+      "answer": "still"
+    },
+    {
+      "id": 6,
+      "prompt": "The meeting should have started, but it hasn’t. The manager isn’t here ________.",
+      "options": ["already", "still", "yet"],
+      "answer": "yet"
+    },
+    {
+      "id": 7,
+      "prompt": "You paid the bill before the waiter asked. You say: I’ve ________ paid.",
+      "options": ["already", "still", "yet"],
+      "answer": "already"
+    },
+    {
+      "id": 8,
+      "prompt": "He expected to feel better after resting, but nothing changed. He is ________ tired.",
+      "options": ["already", "still", "yet"],
+      "answer": "still"
+    },
+    {
+      "id": 9,
+      "prompt": "You are asking about something that hasn’t happened, but you expect it soon. You ask: Have you finished ________?",
+      "options": ["already", "still", "yet"],
+      "answer": "yet"
+    },
+    {
+      "id": 10,
+      "prompt": "You are surprised because it’s dark earlier than expected. You say: It’s dark ________!",
+      "options": ["already", "still", "yet"],
+      "answer": "already"
+    },
+    {
+      "id": 11,
+      "prompt": "He started working here years ago and continues now. He ________ works here.",
+      "options": ["already", "still", "yet"],
+      "answer": "still"
+    },
+    {
+      "id": 12,
+      "prompt": "The movie should have started, but it hasn’t. The movie hasn’t started ________.",
+      "options": ["already", "still", "yet"],
+      "answer": "yet"
+    },
+    {
+      "id": 13,
+      "prompt": "She finished the report sooner than expected. She has ________ sent it.",
+      "options": ["already", "still", "yet"],
+      "answer": "already"
+    },
+    {
+      "id": 14,
+      "prompt": "You tried to understand the topic, but nothing changed. You ________ don’t understand it.",
+      "options": ["already", "still", "yet"],
+      "answer": "still"
+    },
+    {
+      "id": 15,
+      "prompt": "You are checking if something happened, but up to now it hasn’t. You ask: Has he called ________?",
+      "options": ["already", "still", "yet"],
+      "answer": "yet"
+    },
+    {
+      "id": 16,
+      "prompt": "You are surprised because the time passed very fast. You ask: Is it 10 o’clock ________?",
+      "options": ["already", "still", "yet"],
+      "answer": "already"
+    },
+    {
+      "id": 17,
+      "prompt": "The computer was broken before and it continues broken now. It is ________ not working.",
+      "options": ["already", "still", "yet"],
+      "answer": "still"
+    },
+    {
+      "id": 18,
+      "prompt": "You expected a decision, but it hasn’t happened. They haven’t decided ________.",
+      "options": ["already", "still", "yet"],
+      "answer": "yet"
+    },
+    {
+      "id": 19,
+      "prompt": "You completed the task earlier than planned. You say: I’ve ________ done it.",
+      "options": ["already", "still", "yet"],
+      "answer": "already"
+    },
+    {
+      "id": 20,
+      "prompt": "She had everything she needed, but the situation didn’t change. She is ________ unhappy.",
+      "options": ["already", "still", "yet"],
+      "answer": "still"
+    }
+  ]
+}
+,
+{
+  "level": 2,
+  "prerequisiteCode": "LEVEL1-KEY",
+  "thumbnail": "https://i.ibb.co/Wpq0b5W7/20250709-1507-Vibrant-Cartoon-Character-remix-01jzrcpjj8fa7v98xk6tem1d9q-1.png",
+  "levelCode": "AMOUNT-NUMBER-QUANTITY",
+  "exercises": [
+    {
+      "id": 1,
+      "prompt": "Money is uncountable. Choose the correct option: A large ________ of money was stolen.",
+      "options": ["amount", "number", "quantity"],
+      "answer": "amount"
+    },
+    {
+      "id": 2,
+      "prompt": "People are countable. Choose the correct option: A large ________ of people were waiting outside.",
+      "options": ["amount", "number", "quantity"],
+      "answer": "number"
+    },
+    {
+      "id": 3,
+      "prompt": "This sentence is formal and talks about objects: A huge ________ of oil was spilled into the sea.",
+      "options": ["amount", "number", "quantity"],
+      "answer": "quantity"
+    },
+    {
+      "id": 4,
+      "prompt": "Information is uncountable: There is a small ________ of information available.",
+      "options": ["amount", "number", "quantity"],
+      "answer": "amount"
+    },
+    {
+      "id": 5,
+      "prompt": "Animals are countable: A large ________ of cows were infected.",
+      "options": ["amount", "number", "quantity"],
+      "answer": "number"
+    },
+    {
+      "id": 6,
+      "prompt": "This is a formal report style sentence: Large ________ of drugs were discovered.",
+      "options": ["amounts", "numbers", "quantities"],
+      "answer": "quantities"
+    },
+    {
+      "id": 7,
+      "prompt": "Time is uncountable: I don’t have much ________ of time today.",
+      "options": ["amount", "number", "quantity"],
+      "answer": "amount"
+    },
+    {
+      "id": 8,
+      "prompt": "Students are countable: A small ________ of students are absent today.",
+      "options": ["amount", "number", "quantity"],
+      "answer": "number"
+    },
+    {
+      "id": 9,
+      "prompt": "This sentence focuses on the total figure: The ________ of students is increasing every year.",
+      "options": ["amount", "number", "quantity"],
+      "answer": "number"
+    },
+    {
+      "id": 10,
+      "prompt": "Food is uncountable in general use: This ________ of food is enough for everyone.",
+      "options": ["amount", "number", "quantity"],
+      "answer": "quantity"
+    },
+    {
+      "id": 11,
+      "prompt": "Abstract noun: No ________ of love can fix this problem.",
+      "options": ["amount", "number", "quantity"],
+      "answer": "amount"
+    },
+    {
+      "id": 12,
+      "prompt": "Reasons are countable: There are a ________ of reasons why I can’t go.",
+      "options": ["amount", "number", "quantity"],
+      "answer": "number"
+    },
+    {
+      "id": 13,
+      "prompt": "This sentence sounds like news or science: A large ________ of waste was produced.",
+      "options": ["amount", "number", "quantity"],
+      "answer": "quantity"
+    },
+    {
+      "id": 14,
+      "prompt": "Children are people and countable: Small ________ of children are educated at home.",
+      "options": ["amounts", "numbers", "quantities"],
+      "answer": "numbers"
+    },
+    {
+      "id": 15,
+      "prompt": "Sugar is uncountable: Only a small ________ of sugar is needed.",
+      "options": ["amount", "number", "quantity"],
+      "answer": "amount"
+    },
+    {
+      "id": 16,
+      "prompt": "Formal plural form: Huge ________ of oil were leaking into the sea.",
+      "options": ["amounts", "numbers", "quantities"],
+      "answer": "quantities"
+    },
+    {
+      "id": 17,
+      "prompt": "Invitations are countable: A large ________ of invitations were sent.",
+      "options": ["amount", "number", "quantity"],
+      "answer": "number"
+    },
+    {
+      "id": 18,
+      "prompt": "Difficulty is uncountable: I had a certain ________ of difficulty understanding the topic.",
+      "options": ["amount", "number", "quantity"],
+      "answer": "amount"
+    },
+    {
+      "id": 19,
+      "prompt": "This sentence focuses on statistics: The ________ of accidents has decreased this year.",
+      "options": ["amount", "number", "quantity"],
+      "answer": "number"
+    },
+    {
+      "id": 20,
+      "prompt": "This sentence sounds technical and formal: A significant ________ of chemicals was found.",
+      "options": ["amount", "number", "quantity"],
+      "answer": "quantity"
+    }
+  ]
+},
+{
+  "level": 3,
+  "prerequisiteCode": "LEVEL2-GRAMMAR",
+  "thumbnail": "https://i.ibb.co/Wpq0b5W7/20250709-1507-Vibrant-Cartoon-Character-remix-01jzrcpjj8fa7v98xk6tem1d9q-1.png",
+  "levelCode": "APART-ASIDE-EXCEPT-CONTEXT",
+  "exercises": [
+    {
+      "id": 1,
+      "prompt": "Everyone attended the meeting. Richard was the only person who didn’t come. Complete the sentence: Everyone attended the meeting __________ Richard.",
+      "options": ["apart from", "aside from", "except for"],
+      "answer": "except for"
+    },
+    {
+      "id": 2,
+      "prompt": "I like all vegetables. Tomatoes are the only ones I don’t like. I like all vegetables __________ tomatoes.",
+      "options": ["apart from", "aside from", "except for"],
+      "answer": "except for"
+    },
+    {
+      "id": 3,
+      "prompt": "This sentence is in American English and means ‘except’. I don’t watch TV __________ the news.",
+      "options": ["apart from", "aside from", "except for"],
+      "answer": "aside from"
+    },
+    {
+      "id": 4,
+      "prompt": "The sentence means ‘in addition to’. Use the option that can mean ‘also’: __________ English, she also speaks French and German.",
+      "options": ["Apart from", "Aside from", "Except for"],
+      "answer": "Apart from"
+    },
+    {
+      "id": 5,
+      "prompt": "The hotel was perfect. The slow Wi-Fi was the only problem. The hotel was perfect __________ the slow Wi-Fi.",
+      "options": ["apart from", "aside from", "except for"],
+      "answer": "except for"
+    },
+    {
+      "id": 6,
+      "prompt": "The meaning is ‘in addition to’, not ‘except’. __________ his full-time job, he also teaches online.",
+      "options": ["Apart from", "Aside from", "Except for"],
+      "answer": "Apart from"
+    },
+    {
+      "id": 7,
+      "prompt": "There is only one activity available here. Everything else is impossible. There’s nothing to do here __________ walking around the park.",
+      "options": ["apart from", "aside from", "except for"],
+      "answer": "aside from"
+    },
+    {
+      "id": 8,
+      "prompt": "John was the only person who disagreed. __________ John, everyone agreed with the decision.",
+      "options": ["Apart from", "Aside from", "Except for"],
+      "answer": "Except for"
+    },
+    {
+      "id": 9,
+      "prompt": "The trip was good. The bad weather was the only negative point. The trip was enjoyable __________ the bad weather.",
+      "options": ["apart from", "aside from", "except for"],
+      "answer": "except for"
+    },
+    {
+      "id": 10,
+      "prompt": "The sentence clearly adds information. Use the option meaning ‘also’: __________ Italy, they also visited Spain and Portugal.",
+      "options": ["Apart from", "Aside from", "Except for"],
+      "answer": "Apart from"
+    },
+    {
+      "id": 11,
+      "prompt": "This sentence means ‘except’. I eat very healthily __________ the occasional dessert.",
+      "options": ["apart from", "aside from", "except for"],
+      "answer": "aside from"
+    },
+    {
+      "id": 12,
+      "prompt": "The project was successful. There were only a few small problems. __________ a few minor issues, the project was successful.",
+      "options": ["Apart from", "Aside from", "Except for"],
+      "answer": "Apart from"
+    },
+    {
+      "id": 13,
+      "prompt": "Only one person knew the answer. No one else did. No one knew the answer __________ the teacher.",
+      "options": ["apart from", "aside from", "except for"],
+      "answer": "except for"
+    },
+    {
+      "id": 14,
+      "prompt": "The meaning is ‘except’, not ‘in addition’. I don’t like any sports __________ basketball.",
+      "options": ["apart from", "aside from", "except for"],
+      "answer": "except for"
+    },
+    {
+      "id": 15,
+      "prompt": "The sentence adds extra information. __________ a short delay, the flight was comfortable.",
+      "options": ["Apart from", "Aside from", "Except for"],
+      "answer": "Apart from"
+    },
+    {
+      "id": 16,
+      "prompt": "There were no plans, only one activity. She had no plans for the weekend __________ studying for exams.",
+      "options": ["apart from", "aside from", "except for"],
+      "answer": "aside from"
+    },
+    {
+      "id": 17,
+      "prompt": "Peter was the only student who didn’t submit the assignment. __________ Peter, everyone submitted it on time.",
+      "options": ["Apart from", "Aside from", "Except for"],
+      "answer": "Except for"
+    },
+    {
+      "id": 18,
+      "prompt": "The city is generally quiet. The only noisy time is rush hour. The city is quiet __________ during rush hour.",
+      "options": ["apart from", "aside from", "except for"],
+      "answer": "apart from"
+    },
+    {
+      "id": 19,
+      "prompt": "The sentence clearly means ‘in addition to’. __________ English classes, he also teaches Spanish.",
+      "options": ["Apart from", "Aside from", "Except for"],
+      "answer": "Apart from"
+    },
+    {
+      "id": 20,
+      "prompt": "The report is complete. Only the references are missing. The report is complete __________ a few missing references.",
+      "options": ["apart from", "aside from", "except for"],
+      "answer": "except for"
+    }
+  ]
+}
+
+
+
+
+
+,
      {
   "level": 1,
   "prerequisiteCode": "LEVEL1-KEY",
