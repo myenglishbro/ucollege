@@ -1,6 +1,114 @@
 {
   "levels": [
-   
+   {
+  "level": 1,
+  "prerequisiteCode": "LEVEL1-KEY",
+  "thumbnail": "https://i.ibb.co/Wpq0b5W7/20250709-1507-Vibrant-Cartoon-Character-remix-01jzrcpjj8fa7v98xk6tem1d9q-1.png",
+  "levelCode": "AFRAIDOFTO",
+  "exercises": [
+    {
+      "id": 1,
+      "prompt": "You are in a meeting right now. You have an idea, but you decide not to speak. You are afraid ________ something wrong.",
+      "options": [
+        "to say",
+        "of saying",
+        "saying"
+      ],
+      "answer": "to say"
+    },
+    {
+      "id": 2,
+      "prompt": "She avoids speaking in meetings because the experience always makes her nervous. She is afraid ________ in public.",
+      "options": [
+        "to speak",
+        "of speaking",
+        "speak"
+      ],
+      "answer": "of speaking"
+    },
+    {
+      "id": 3,
+      "prompt": "The street looks dangerous at night, so people decide not to walk there. They are afraid ________ there after dark.",
+      "options": [
+        "of walking",
+        "to walk",
+        "walking"
+      ],
+      "answer": "to walk"
+    },
+    {
+      "id": 4,
+      "prompt": "The path is icy, so we walk very carefully because we don't want an accident. We are afraid ________.",
+      "options": [
+        "to fall",
+        "fall",
+        "of falling"
+      ],
+      "answer": "of falling"
+    },
+    {
+      "id": 5,
+      "prompt": "He has his phone in his hand but decides not to call his boss right now. He is afraid ________ him.",
+      "options": [
+        "calling",
+        "of calling",
+        "to call"
+      ],
+      "answer": "to call"
+    },
+    {
+      "id": 6,
+      "prompt": "She feels stressed every time she has to call clients. In general, she is afraid ________ clients on the phone.",
+      "options": [
+        "to call",
+        "of calling",
+        "call"
+      ],
+      "answer": "of calling"
+    },
+    {
+      "id": 7,
+      "prompt": "He is standing at the edge of the swimming pool but decides not to jump. He is afraid ________ into the water.",
+      "options": [
+        "of jumping",
+        "to jump",
+        "jumping"
+      ],
+      "answer": "to jump"
+    },
+    {
+      "id": 8,
+      "prompt": "She doesn’t like swimming in the ocean because something bad might happen. She is afraid ________ attacked by a shark.",
+      "options": [
+        "to be",
+        "be",
+        "of being"
+      ],
+      "answer": "of being"
+    },
+    {
+      "id": 9,
+      "prompt": "He knows he should tell his parents the truth, but he decides not to do it. He is afraid ________ them the truth.",
+      "options": [
+        "of telling",
+        "to tell",
+        "tell"
+      ],
+      "answer": "to tell"
+    },
+    {
+      "id": 10,
+      "prompt": "She always worries about making mistakes when she writes in English. She is afraid ________ mistakes.",
+      "options": [
+        "to make",
+        "make",
+        "of making"
+      ],
+      "answer": "of making"
+    }
+  ]
+}
+,
      {
   "level": 1,
   "prerequisiteCode": "LEVEL1-KEY",
