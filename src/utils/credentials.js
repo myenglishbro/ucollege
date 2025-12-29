@@ -53,7 +53,7 @@ export const validCredentials = [
              { expirationDate:"Unlimited Account",nivel:"B2",usuario: 'adrian', password: 'aliaga', realname: 'Adrian Aliaga',img:'https://i.ibb.co/DHQLnHbK/ADRIAN.png'},
              { expirationDate:"Unlimited Account",nivel:"B2",usuario: 'gabriela', password: 'torres', realname: 'Gabriela Torres',img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
              { expirationDate:"Unlimited Account",nivel:"B2",usuario: 'herberth', password: 'jara', realname: 'Herberth Jara Huaman',img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
-             { expirationDate:"Unlimited Account",nivel:"B2",usuario: 'herberth', password: 'jara', realname: 'Herberth Jara Huaman',img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
+             { expirationDate:"Unlimited Account",nivel:"B2",usuario: 'beatriz', password: 'cordova', realname: 'Beatriz Cordova',img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
              { expirationDate:"Unlimited Account",nivel:"B2",usuario: 'joanna', password: 'fierro', realname: 'Joanna E. Fierro',img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
 
              { expirationDate:"Unlimited Account",nivel:"B2",usuario: 'jhanet', password: 'villanueva', realname: 'Jhanet M.Villanueva',img:'https://i.ibb.co/c3ZvTqW/My-english-bro-Logo-09.png'},
