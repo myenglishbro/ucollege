@@ -1,0 +1,445 @@
+[
+  {
+    "id": "domestication-cats",
+    "title": "The Domestication of Cats",
+    "level": "B2",
+    "image": "https://drive.google.com/file/d/16wSUq2-NtQwEJhbh8ERzvD5CRMYtImGX/preview",
+    "questions": [
+      {
+        "id": "traditional-theory",
+        "question": "According to traditional theories of domestication, how were wild animals tamed?",
+        "options": [
+          "Selective breeding",
+          "Aggression and control",
+          "Capturing only smaller animals"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "new-theory",
+        "question": "What is suggested in the new theory of domestication?",
+        "options": [
+          "That wolves and horses were the first to be domesticated",
+          "That animals were less afraid than thought",
+          "That animals had an active role in their domestication"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "dance-metaphor",
+        "question": "Why is the word \"dance\" used in the third paragraph?",
+        "options": [
+          "Because animals and humans lived very close together",
+          "Because the process was complex and difficult to understand",
+          "Because there were two active partners involved"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "cats-attraction",
+        "question": "What probably attracted cats to human settlements?",
+        "options": [
+          "Warmth",
+          "Food",
+          "Other cats"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "cat-problem",
+        "question": "What characteristic of cats challenges the theory that they were domesticated like wolves?",
+        "options": [
+          "Independence",
+          "Greed",
+          "Friendliness"
+        ],
+        "answer": 0
+      }
+    ]
+  },
+  {
+    "id": "earth-plates",
+    "title": "The Earth's Plates",
+    "level": "B2",
+    "image": "https://drive.google.com/file/d/14b1EGdiqCnJXZM5RrlI-FVZ-dKb3iyM9/view?usp=sharing",
+    "questions": [
+      {
+        "id": "earthquakes-collision",
+        "question": "Earthquakes occur when what parts of the tectonic plates collide?",
+        "options": [
+          "The peaks",
+          "The edges",
+          "The centres"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "plates-names",
+        "question": "Tectonic plates can get their names from what?",
+        "options": [
+          "Rivers",
+          "Cities",
+          "Seas"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "jigsaw-metaphor",
+        "question": "Why is the phrase \"jigsaw puzzle\" used in the second paragraph?",
+        "options": [
+          "Because of the way the plates fit together",
+          "To show how complex everything is",
+          "Because of the number of plates"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "plates-distance",
+        "question": "Why have the plates travelled so far?",
+        "options": [
+          "Because they are moving quite fast",
+          "Because Earth is not very big",
+          "Because of the age of the Earth"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "plates-separation",
+        "question": "Can earthquakes be caused when plates are moving away from each other?",
+        "options": [
+          "Yes",
+          "No",
+          "Only if they are touching"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "wegener-acceptance",
+        "question": "Why did Wegener's theory take so long to be accepted?",
+        "options": [
+          "He had no understanding of the ocean floor",
+          "It was very different from previous ideas in this area",
+          "He made several errors in his theory"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "wegener-evidence",
+        "question": "What evidence did Wegener NOT use to support his theory of Continental Drift?",
+        "options": [
+          "The existence of similar rocks",
+          "The existence of similar races of people",
+          "The existence of similar extinct animals"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "the-constellations",
+    "title": "The Constellations",
+    "level": "B2",
+    "image": "https://drive.google.com/file/d/1DcIedJ9YghE-Emn9hus779ZhApwB-pVd/view?usp=sharing",
+    "questions": [
+      {
+        "id": "constellations-use",
+        "question": "What use for constellations is NOT mentioned in the opening paragraphs?",
+        "options": [
+          "To help people find their way",
+          "To provide entertainment",
+          "To understand the origins of life in the universe",
+          "To allow people to orientate themselves"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "sparse-meaning",
+        "question": "What is the best meaning of the word \"sparse\" in the second paragraph?",
+        "options": [
+          "Rare",
+          "Painful",
+          "Limited",
+          "Boring"
+        ],
+        "answer": 3
+      },
+      {
+        "id": "constellations-change",
+        "question": "Why do constellations change in the sky from month to month?",
+        "options": [
+          "Because of the Earth's movements",
+          "Because of passing fashions",
+          "Because of the weather",
+          "Because stars are always moving"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "ursa-major-name",
+        "question": "Why do astronomers call the constellation \"Ursa Major\" by this name?",
+        "options": [
+          "Because the Russians insisted",
+          "Because Russia provides much of the finance for these organisations",
+          "To ease international communication",
+          "They decided that's what it most looks like"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "penultimate-paragraph",
+        "question": "What point is being made in the penultimate paragraph?",
+        "options": [
+          "Stars used to be closer together",
+          "The stars look different depending on where you are standing",
+          "Perspective makes stars seem closer",
+          "You won't see stars well under street lights"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "text-source",
+        "question": "Where would you most likely find this text?",
+        "options": [
+          "A scholarly publication",
+          "A children's encyclopedia",
+          "A newspaper",
+          "A political leaflet"
+        ],
+        "answer": 1
+      }
+    ]
+  },
+  {
+    "id": "history-of-time",
+    "title": "The History of Time",
+    "level": "B2",
+    "image": "https://drive.google.com/file/d/1gRBZ0LlExTmwkD0oUncLma4LlcZwV-2v/view?usp=sharing",
+    "questions": [
+      {
+        "id": "time-concept",
+        "question": "Why is time such a difficult concept to understand?",
+        "options": [
+          "It's always changing",
+          "It's always moving",
+          "It's been misunderstood since pre-history",
+          "It's not tangible"
+        ],
+        "answer": 3
+      },
+      {
+        "id": "early-measurement",
+        "question": "How were early humans able to begin measuring time?",
+        "options": [
+          "By counting the objects in the sky",
+          "By working both at night and during the day",
+          "The movements of objects they saw every day",
+          "By following the sun to the west"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "seasons-understanding",
+        "question": "How did the concept of seasons become understood?",
+        "options": [
+          "By tracking the sun's movements through the months",
+          "By noting the differences in temperature",
+          "By measuring the length of the days",
+          "With the introduction of early calendars"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "month-definition",
+        "question": "How would an early human have defined a \"month\"?",
+        "options": [
+          "The number of days between a full moon and a new moon",
+          "The number of days for the sun and moon to be seen together",
+          "The number of days between eclipses of the moon",
+          "The number of days from one phase of the moon's cycle and then back to the same point again"
+        ],
+        "answer": 3
+      },
+      {
+        "id": "farming-need",
+        "question": "Why did the move towards farming require a better understanding of time?",
+        "options": [
+          "Because looking after animals required it",
+          "So that crops were grown at the right time of the year",
+          "Because they needed traditional celebrations at the same time every year",
+          "Because they wanted to know when animals would give birth"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "forced-meaning",
+        "question": "What is the meaning of the word \"forced\" in the penultimate paragraph?",
+        "options": [
+          "The wise men were given no choice",
+          "The crops wouldn't grow without the calendars",
+          "It was critical for survival",
+          "Time became a lot more important"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+  {
+    "id": "revolutionary-photo",
+    "title": "A Revolutionary Photo",
+    "level": "B2",
+    "image": "https://drive.google.com/file/d/1_8hkFOT5HD0bRnQmwOCEF19ZWFjqEh8o/view?usp=sharing",
+    "questions": [
+      {
+        "id": "che-image",
+        "question": "How does Che appear in the famous image?",
+        "options": [
+          "He seems content",
+          "He's not looking at the photographer",
+          "He's wearing something around his neck",
+          "He looks clean-cut and tidy"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "ziff-representation",
+        "question": "According to Trisha Ziff, who does the image represent well?",
+        "options": [
+          "Ice-cream and cigarette sellers",
+          "Those supporting military intervention",
+          "Ones who may be looking for revolutionary change",
+          "The poorest generations"
+        ],
+        "answer": 2
+      },
+      {
+        "id": "profit-use",
+        "question": "Why didn't the graphic image's creator try to make money out of its use?",
+        "options": [
+          "He didn't need the money",
+          "He considers profit to be anti-revolutionary",
+          "He didn't know it was being used without permission",
+          "To help its spread"
+        ],
+        "answer": 3
+      },
+      {
+        "id": "original-photo-location",
+        "question": "Where was the original photo in the years after it was taken?",
+        "options": [
+          "On a tour throughout Europe",
+          "In Fidel Castro's office in Havana",
+          "It remained undeveloped",
+          "In the possession of the photographer"
+        ],
+        "answer": 3
+      },
+      {
+        "id": "fitzpatrick-motivation",
+        "question": "What persuaded Jim Fitzpatrick to create the image?",
+        "options": [
+          "Anger",
+          "Ambition",
+          "Greed",
+          "Sadness"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "flux-meaning",
+        "question": "What is the meaning of the word \"flux\" used in the ninth paragraph?",
+        "options": [
+          "Chaos",
+          "Change",
+          "War",
+          "Struggle"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "ziff-final-point",
+        "question": "What is Ms Ziff's point at the end?",
+        "options": [
+          "The image created revolutionary change in Europe",
+          "The image is used to sell many things in Latin America",
+          "The image's legacy lasts because it means many things to many people",
+          "The image is losing its appeal in the West"
+        ],
+        "answer": 2
+      }
+    ]
+  },
+   {
+    "id": "search-bigfoot",
+    "title": "In Search Of Bigfoot",
+    "level": "B2",
+    "image": "https://drive.google.com/file/d/1baM51oR3XvvsH-8tl6WCgxExMdcquwXa/view?usp=sharing",
+    "questions": [
+      {
+        "id": "questionable-meaning",
+        "question": "What is the best meaning of the word \"questionable\" in the first paragraph?",
+        "options": [
+          "Invisible",
+          "Doubtful",
+          "Dishonest",
+          "Invented"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "dave-coltman-cool",
+        "question": "What would Dave Coltman find \"cool\"?",
+        "options": [
+          "If Bigfoot turned out to be a gorilla",
+          "If the residents had found real hair",
+          "If the hair turned out to be human",
+          "If Bigfoot was genetically close to humans"
+        ],
+        "answer": 3
+      },
+      {
+        "id": "regardless-findings",
+        "question": "What is the meaning of the first sentence of the fourth paragraph, starting \"Regardless of his findings...\"?",
+        "options": [
+          "The Bigfoot legend exists due to so many sightings",
+          "The Bigfoot legend persists despite a lack of real evidence",
+          "It is inevitable that Bigfoot will eventually be found",
+          "You cannot call it a \"myth\" anymore"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "uk-bigfoot",
+        "question": "What does Richard Freeman say about the possibility of a UK-based Bigfoot?",
+        "options": [
+          "The UK is too cold for Bigfoot",
+          "Bigfoot couldn't survive hidden in the UK",
+          "Bigfoot can't live near cities",
+          "The witnesses were possibly drunk"
+        ],
+        "answer": 1
+      },
+      {
+        "id": "freeman-theory",
+        "question": "What is Mr Freeman's theory about why these creatures are seen around the world?",
+        "options": [
+          "Our brains are programmed to see such creatures",
+          "The animals have survived from Africa",
+          "We are seeing 3D images of animals that live far away",
+          "We are mistaking dreams for reality"
+        ],
+        "answer": 0
+      },
+      {
+        "id": "radford-belief",
+        "question": "What does Benjamin Radford believe people do when they are frightened?",
+        "options": [
+          "Tell lies about what they see",
+          "Invent more interesting stories to prevent embarrassment",
+          "Misunderstand magic tricks",
+          "See things that are not there"
+        ],
+        "answer": 3
+      }
+    ]
+  }
+]

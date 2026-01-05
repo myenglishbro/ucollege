@@ -55,6 +55,7 @@ import ReadingEn from "./components/ReadingEn";
 import WriteQuiz from "./components/WriteQuiz";
 import TypeQuiz from "./components/SixtyType.jsx";
 import WordReorderGame from "./components/WordReorderGame";
+import ReadingComprehension from "./components/Aplicativos/ReadingComprehension.jsx";
 import AudioListeningQuiz from "./components/AudioListeningQuiz";
 import ConversationPracticeBot from "./components/ConversationPracticeBot.jsx";
 import CreativeSlides from "./components/CreativeSlides.jsx";
@@ -185,6 +186,7 @@ function App() {
                   <Route path="/encrikeyword" element={<CambridgeEncryptor  />}></Route>
                   <Route path="/encri3" element={<TxtEncryptor  />}></Route>
                   <Route path="/readingencriptador" element={<ReadingEn  />}></Route>
+                  <Route path="/readingcomprehension" element={<ReadingComprehension  />}></Route>
 
           <Route path="/Plataforma" element={<InicioJuan />}></Route>
 
