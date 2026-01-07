@@ -2,7 +2,7 @@ export const validCredentials = [
    
     
 
-      { expirationDate:"Acceso Ilimitado",nivel:"premium",usuario: 'lia', password: 'adriana', realname: 'Prueba Gratuita', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
+      { expirationDate:"Acceso Ilimitado",nivel:"premium",usuario: 'carlos', password: 'app', realname: 'Prueba Gratuita', img: 'https://i.ibb.co/chn6rvR/Dise-o-sin-t-tulo-3.png' }, // No image
 
     
   
