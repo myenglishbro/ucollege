@@ -133,11 +133,14 @@ function App() {
                     <Route path="/pastsimpleprogressive" element={<Desafio03 />}></Route>
                     <Route path="/essentialgrammar" element={<Essentialgrammar />}></Route>
 
-          <Route path="/uoe1" element={<UseOfEnglishInline />}></Route>
-          <Route path="/uoe2" element={<UseOfEnglishInline2 />}></Route>
-          <Route path="/uoe3" element={<UseOfEnglishInline3 />}></Route>
-       <Route path="/multiplechoice" element={<MultiLevelQuiz3 />}></Route>
-      
+           <Route path="/uoe1" element={<UseOfEnglishInline />}></Route>
+            <Route path="/uoe2" element={<UseOfEnglishInline2 />}></Route>
+           <Route path="/uoe3" element={<UseOfEnglishInline3 />}></Route>
+           <Route path="/uoe4" element={<KeywordTransformation  />}></Route>
+
+            <Route path="/uoe1-2" element={<MultiLevelQuiz3 />}></Route>
+                        <Route path="/uoe5" element={<ReadingComprehension  />}></Route>
+
       
           <Route path="/devs" element={<MultiLevelQuiz4 />}></Route>
 
@@ -182,13 +185,11 @@ function App() {
                   <Route path="/kwt" element={<KeywordTransformerTrainer  />}></Route>
                   <Route path="/tc" element={<TrainingCenter  />}></Route>
                   <Route path="/gt" element={<GappedTextQuizUploader  />}></Route>
-                  <Route path="/keywordtransformation" element={<KeywordTransformation  />}></Route>
 
                   <Route path="/encripreguntarespuesta" element={<EncryptTextUploader  />}></Route>
                   <Route path="/encrikeyword" element={<CambridgeEncryptor  />}></Route>
                   <Route path="/encri3" element={<TxtEncryptor  />}></Route>
                   <Route path="/readingencriptador" element={<ReadingEn  />}></Route>
-                  <Route path="/readingcomprehension" element={<ReadingComprehension  />}></Route>
 
           <Route path="/Plataforma" element={<InicioJuan />}></Route>
 

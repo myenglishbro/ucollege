@@ -1,10 +1,30 @@
-import React, { useEffect, useState } from "react";
+﻿import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import exercisesData from "./data/keywordExercises.json";
+
+// Modern, warm palette and typography
+const palette = {
+  navy: "#0f1f30",
+  deepBlue: "#2b4157",
+  gold: "#f2b76b",
+  sky: "#e6eef7",
+  porcelain: "#fdfbf7",
+  surfaceAlt: "#ffffff",
+  border: "#e5e9f0",
+  muted: "#43556b",
+  accent: "#2bb6a8",
+  success: "#138a63",
+  danger: "#d14343"
+};
+const serif = "var(--font-grotesk), 'Sora', 'Arial', sans-serif";
+const sans = "var(--font-sora), 'Sora', 'Arial', sans-serif";
+const logoUrl = "https://i.ibb.co/C3kRtYQG/zxczx-2-1.png";
 
 export default function KeywordTransformation() {
   const levels = exercisesData.levels;
   const QUESTION_TIME = 45;
+  const totalLevels = levels.length;
+  const totalQuestions = levels.reduce((acc, level) => acc + level.questions.length, 0);
   const [selectedLevel, setSelectedLevel] = useState(null);
   const [currentQ, setCurrentQ] = useState(0);
   const [input, setInput] = useState("");
@@ -46,28 +66,86 @@ export default function KeywordTransformation() {
 
   if (selectedLevel === null) {
     return (
-      <div className="min-h-screen bg-gradient-to-br from-[#f7f3e9] via-[#f1ecdf] to-[#e7dfc8] text-slate-800 flex items-center justify-center px-6 py-12 font-serif">
-        <div className="max-w-4xl w-full">
-          <div className="bg-white/80 border border-[#d8c7a0] shadow-lg rounded-2xl p-10 backdrop-blur">
-            <p className="uppercase tracking-[0.3em] text-xs text-[#7a5a2f] mb-3">Cambridge Paper Lab</p>
-            <h1 className="text-4xl md:text-5xl font-bold text-[#1f3553] mb-4">Keyword Simulation</h1>
-            <p className="text-lg text-[#3a495f] mb-8 max-w-3xl">
-              Elige un nivel y practica transformaciones al estilo de los papeles Cambridge. Mantente fiel a la palabra clave y al sentido de la frase.
-            </p>
+      <div
+        className="min-h-screen flex items-center justify-center py-12 px-5"
+        style={{
+          background:
+            "radial-gradient(circle at 20% 15%, rgba(43,182,168,0.18), transparent 45%), radial-gradient(circle at 85% 10%, rgba(246,194,114,0.18), transparent 35%), linear-gradient(145deg, #f6f2eb 0%, #eef3f8 55%, #f7f2ea 100%)",
+          fontFamily: sans
+        }}
+      >
+        <div className="w-full max-w-5xl">
+          <div
+            className="rounded-[32px] p-8 md:p-12 space-y-8 shadow-2xl"
+            style={{
+              background: "linear-gradient(180deg, rgba(255,255,255,0.92), rgba(255,255,255,0.98))",
+              border: `1px solid ${palette.border}`,
+              boxShadow: "0 35px 90px rgba(12,19,42,0.12)"
+            }}
+          >
+            <div className="space-y-4">
+              <img
+                src={logoUrl}
+                alt="MyEnglishBro logo"
+                className="h-10 md:h-12 w-auto"
+                style={{ filter: "drop-shadow(0 8px 18px rgba(12,19,42,0.12))" }}
+              />
+              <p className="uppercase tracking-[0.3em] text-xs font-semibold" style={{ color: palette.accent }}>
+                Cambridge Paper Lab
+              </p>
+              <h1
+                className="text-4xl md:text-5xl font-semibold"
+                style={{ color: palette.navy, fontFamily: serif }}
+              >
+                Keyword Transformation
+              </h1>
+              <p className="text-lg" style={{ color: palette.muted }}>
+                Elige un nivel y practica transformaciones al estilo Cambridge. Mantente fiel a la palabra clave y al
+                sentido de la frase.
+              </p>
+              <div className="flex flex-wrap gap-2">
+                {[
+                  `${totalLevels} niveles`,
+                  `${totalQuestions} preguntas`,
+                  `${QUESTION_TIME}s por item`,
+                  "Keyword transformation"
+                ].map(chip => (
+                  <span
+                    key={chip}
+                    className="px-3 py-1 rounded-full text-xs font-semibold"
+                    style={{
+                      background: palette.sky,
+                      color: palette.deepBlue,
+                      border: `1px solid ${palette.border}`
+                    }}
+                  >
+                    {chip}
+                  </span>
+                ))}
+              </div>
+            </div>
+
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
               {levels.map((_, idx) => (
                 <button
                   key={idx}
                   onClick={() => setSelectedLevel(idx)}
-                  className="group relative px-6 py-4 bg-[#faf7f0] border border-[#d8c7a0] rounded-xl text-lg font-semibold text-[#1f3553] shadow-sm transition hover:-translate-y-1 hover:shadow-md"
+                  className="px-6 py-4 rounded-2xl text-lg font-semibold transition hover:-translate-y-1"
+                  style={{
+                    background: palette.surfaceAlt,
+                    color: palette.navy,
+                    border: `1px solid ${palette.border}`,
+                    boxShadow: "0 10px 24px rgba(12,19,42,0.1)"
+                  }}
                 >
-                  <span className="absolute inset-0 bg-gradient-to-br from-white/40 to-transparent rounded-xl opacity-0 group-hover:opacity-100 transition" />
                   Nivel {idx + 1}
                 </button>
               ))}
             </div>
-            <div className="mt-8 text-sm text-[#4a5568]">
-              Instruccion breve: conserva el significado original, usa la palabra clave sin cambiarla y ajusta la gramatica para que la frase sea correcta.
+
+            <div className="text-sm" style={{ color: palette.muted }}>
+              Instruccion breve: conserva el significado original, usa la palabra clave sin cambiarla y ajusta la
+              gramatica para que la frase sea correcta.
             </div>
           </div>
         </div>
@@ -136,22 +214,51 @@ export default function KeywordTransformation() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#f7f3e9] via-[#f1ecdf] to-[#e7dfc8] text-slate-800 px-4 py-10 font-serif">
+    <div
+      className="min-h-screen px-4 py-10"
+      style={{
+        background:
+          "radial-gradient(circle at 20% 10%, rgba(43,182,168,0.18), transparent 40%), linear-gradient(150deg, #f6f2eb 0%, #eef3f8 55%, #f7f2ea 100%)",
+        fontFamily: sans,
+        color: palette.navy
+      }}
+    >
       <div className="max-w-6xl mx-auto">
-        <header className="mb-8">
-          <p className="uppercase tracking-[0.3em] text-xs text-[#7a5a2f]">Cambridge Practice</p>
-          <h1 className="text-3xl md:text-4xl font-bold text-[#1f3553]">
-            Keyword Transformation · Nivel {selectedLevel + 1}
+                <header className="mb-8">
+          <img
+            src={logoUrl}
+            alt="MyEnglishBro logo"
+            className="h-8 md:h-10 w-auto mb-4"
+            style={{ filter: "drop-shadow(0 8px 18px rgba(12,19,42,0.12))" }}
+          />
+          <p className="uppercase tracking-[0.3em] text-xs font-semibold" style={{ color: palette.accent }}>
+            Cambridge Practice
+          </p>
+          <h1 className="text-3xl md:text-4xl font-semibold" style={{ color: palette.navy, fontFamily: serif }}>
+            Keyword Transformation - Nivel {selectedLevel + 1}
           </h1>
-          <p className="text-[#4a5568] mt-2">
-            Replica el tono de examen en papel: responde con calma, cuida la ortografia y revisa cada matiz del significado original.
+          <p className="mt-2" style={{ color: palette.muted }}>
+            Replica el tono de examen en papel: responde con calma, cuida la ortografia y revisa cada matiz del
+            significado original.
           </p>
         </header>
 
         <div className="flex flex-col lg:flex-row gap-6">
-          <aside className="lg:w-64 bg-white/80 border border-[#d8c7a0] rounded-2xl shadow-sm p-5 space-y-4">
+          <aside
+            className="lg:w-72 rounded-2xl p-5 space-y-4"
+            style={{
+              background: palette.surfaceAlt,
+              border: `1px solid ${palette.border}`,
+              boxShadow: "0 16px 40px rgba(12,19,42,0.08)"
+            }}
+          >
             <div>
-              <div className="text-xs uppercase tracking-[0.2em] text-[#7a5a2f] mb-2">Niveles</div>
+              <div
+                className="text-xs uppercase tracking-[0.2em] mb-2"
+                style={{ color: palette.accent }}
+              >
+                Niveles
+              </div>
               <div className="flex flex-wrap gap-2">
                 {levels.map((_, idx) => {
                   const active = idx === selectedLevel;
@@ -159,10 +266,13 @@ export default function KeywordTransformation() {
                     <button
                       key={idx}
                       onClick={() => setSelectedLevel(idx)}
-                      className={`px-3 py-2 rounded-lg border text-sm transition ${active
-                        ? "bg-[#1f3553] text-white border-[#1f3553] shadow"
-                        : "bg-[#faf7f0] text-[#1f3553] border-[#d8c7a0] hover:-translate-y-[2px]"
-                      }`}
+                      className="px-3 py-2 rounded-lg border text-sm transition hover:-translate-y-[2px]"
+                      style={{
+                        background: active ? palette.navy : palette.surfaceAlt,
+                        color: active ? "#fff" : palette.navy,
+                        border: `1px solid ${active ? palette.navy : palette.border}`,
+                        boxShadow: active ? "0 10px 24px rgba(12,19,42,0.16)" : "none"
+                      }}
                     >
                       Nivel {idx + 1}
                     </button>
@@ -172,23 +282,39 @@ export default function KeywordTransformation() {
             </div>
 
             <div>
-              <div className="text-xs uppercase tracking-[0.2em] text-[#7a5a2f] mb-2">Progreso</div>
-              <div className="flex items-center gap-3">
-                <div className="flex-1 h-2 bg-[#efe6d2] rounded-full overflow-hidden">
+              <div
+                className="text-xs uppercase tracking-[0.2em] mb-2"
+                style={{ color: palette.accent }}
+              >
+                Progreso
+              </div>
+                            <div className="flex items-center gap-3">
+                <div className="flex-1 h-2 rounded-full overflow-hidden" style={{ background: palette.sky }}>
                   <div
-                    className="h-full bg-[#1f3553] transition-all"
-                    style={{ width: `${progress}%` }}
+                    className="h-full transition-all"
+                    style={{ width: `${progress}%`, background: palette.navy }}
                   />
                 </div>
-                <span className="text-sm text-[#1f3553] font-semibold">{progress}%</span>
+                <span className="text-sm font-semibold" style={{ color: palette.navy }}>
+                  {progress}%
+                </span>
               </div>
-              <p className="text-xs text-[#4a5568] mt-1">
-                Pregunta {currentQ + 1} de {total} · Aciertos {score}
+              <p className="text-xs mt-1" style={{ color: palette.muted }}>
+                Pregunta {currentQ + 1} de {total} - Aciertos {score}
               </p>
             </div>
 
-            <div className="text-xs text-[#4a5568] leading-relaxed bg-[#fdfaf3] border border-[#e6d8b5] rounded-xl p-3">
-              <strong className="block text-[#1f3553] mb-1">Formato paper based</strong>
+            <div
+              className="text-xs leading-relaxed rounded-xl p-3"
+              style={{
+                color: palette.muted,
+                background: palette.porcelain,
+                border: `1px solid ${palette.border}`
+              }}
+            >
+              <strong className="block mb-1" style={{ color: palette.navy }}>
+                Formato paper based
+              </strong>
               <span>Escribe la frase completa en mayusculas o minusculas; evita abreviaturas. Al finalizar, revisa el reporte de respuestas.</span>
             </div>
           </aside>
@@ -198,22 +324,48 @@ export default function KeywordTransformation() {
               <motion.div
                 initial={{ opacity: 0, y: 16 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="bg-white/85 border border-[#d8c7a0] rounded-2xl shadow-lg p-8"
+                className="rounded-2xl p-8"
+                style={{
+                  background: palette.surfaceAlt,
+                  border: `1px solid ${palette.border}`,
+                  boxShadow: "0 18px 50px rgba(12,19,42,0.12)"
+                }}
               >
-                <div className="text-sm uppercase tracking-[0.2em] text-[#7a5a2f] mb-1">Frase original</div>
-                <div className="text-lg text-[#1f3553] italic mb-4">{q.original}</div>
-
-                <div className="text-sm uppercase tracking-[0.2em] text-[#7a5a2f] mb-1">Transforma usando</div>
-                <div className="text-lg font-semibold text-[#1f3553] mb-6">
-                  {q.transformed} <span className="text-[#7a5a2f]">(palabra clave: {q.keyword})</span>
+                <div className="text-sm uppercase tracking-[0.2em] mb-1" style={{ color: palette.accent }}>
+                  Frase original
+                </div>
+                <div className="text-lg italic mb-4" style={{ color: palette.navy }}>
+                  {q.original}
                 </div>
 
-                <div className="flex items-center justify-between bg-[#fdfaf3] border border-[#e6d8b5] rounded-xl px-4 py-3 mb-4">
+                <div className="text-sm uppercase tracking-[0.2em] mb-1" style={{ color: palette.accent }}>
+                  Transforma usando
+                </div>
+                <div className="text-lg font-semibold mb-6" style={{ color: palette.navy }}>
+                  {q.transformed}{" "}
+                  <span style={{ color: palette.accent }}>(palabra clave: {q.keyword})</span>
+                </div>
+
+                <div
+                  className="flex items-center justify-between rounded-xl px-4 py-3 mb-4"
+                  style={{ background: palette.porcelain, border: `1px solid ${palette.border}` }}
+                >
                   <div>
-                    <div className="text-xs uppercase tracking-[0.14em] text-[#7a5a2f]">Tiempo restante</div>
-                    <div className="text-sm text-[#4a5568]">Gestiona ritmo como en el paper</div>
+                    <div className="text-xs uppercase tracking-[0.14em]" style={{ color: palette.accent }}>
+                      Tiempo restante
+                    </div>
+                    <div className="text-sm" style={{ color: palette.muted }}>
+                      Gestiona ritmo como en el paper
+                    </div>
                   </div>
-                  <div className={`text-xl font-bold tabular-nums px-3 py-1 rounded-lg ${timeLeft <= 10 ? "bg-[#a4342a] text-white" : "text-[#1f3553] bg-white"}`}>
+                  <div
+                    className="text-xl font-bold tabular-nums px-3 py-1 rounded-lg"
+                    style={{
+                      background: timeLeft <= 10 ? palette.danger : "#fff",
+                      color: timeLeft <= 10 ? "#fff" : palette.navy,
+                      border: `1px solid ${palette.border}`
+                    }}
+                  >
                     {String(timeLeft).padStart(2, "0")}s
                   </div>
                 </div>
@@ -223,64 +375,91 @@ export default function KeywordTransformation() {
                   value={input}
                   onChange={e => setInput(e.target.value)}
                   onKeyDown={e => e.key === "Enter" && handleSubmit()}
-                  className="w-full p-4 bg-[#fdfaf3] border border-[#d8c7a0] rounded-xl focus:outline-none focus:ring-2 focus:ring-[#1f3553]/50 text-[#1f3553] placeholder:text-[#9ca3af] mb-4"
+                  className="w-full p-4 rounded-xl focus:outline-none mb-4"
+                  style={{
+                    background: palette.porcelain,
+                    border: `1px solid ${palette.border}`,
+                    color: palette.navy,
+                    boxShadow: "inset 0 1px 2px rgba(15,23,42,0.08)"
+                  }}
                   placeholder="Escribe la transformacion completa..."
                 />
                 <div className="flex items-center justify-between">
                   <button
                     onClick={handleSubmit}
                     disabled={!input.trim()}
-                    className="px-6 py-3 bg-[#1f3553] text-white rounded-xl font-semibold shadow hover:-translate-y-0.5 transition disabled:opacity-60 disabled:hover:translate-y-0"
+                    className="px-6 py-3 rounded-xl font-semibold shadow hover:-translate-y-0.5 transition disabled:opacity-60 disabled:hover:translate-y-0"
+                    style={{ background: palette.navy, color: "#fff" }}
                   >
                     Enviar respuesta
                   </button>
-                  <span className="text-sm text-[#4a5568]">Recuerda no modificar la palabra clave.</span>
+                  <span className="text-sm" style={{ color: palette.muted }}>
+                    Recuerda no modificar la palabra clave.
+                  </span>
                 </div>
               </motion.div>
             ) : (
               <motion.div
                 initial={{ opacity: 0, y: 16 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="bg-white/85 border border-[#d8c7a0] rounded-2xl shadow-lg p-8"
+                className="rounded-2xl p-8"
+                style={{
+                  background: palette.surfaceAlt,
+                  border: `1px solid ${palette.border}`,
+                  boxShadow: "0 18px 50px rgba(12,19,42,0.12)"
+                }}
               >
-                <div className={`pb-2 font-semibold text-lg ${feedback.correct ? "text-emerald-700" : "text-[#a4342a]"}`}>
+                <div
+                  className="pb-2 font-semibold text-lg"
+                  style={{ color: feedback.correct ? palette.success : palette.danger }}
+                >
                   {feedback.correct ? "Respuesta correcta" : "Revisa la respuesta"}
                 </div>
                 {!feedback.correct && (
-                  <div className="text-sm text-[#4a5568] mb-3">
-                    <strong className="text-[#1f3553]">Solucion modelo:</strong> {feedback.correctAnswer}
+                  <div className="text-sm mb-3" style={{ color: palette.muted }}>
+                    <strong style={{ color: palette.navy }}>Solucion modelo:</strong> {feedback.correctAnswer}
                   </div>
                 )}
                 <div className="flex gap-3">
                   {currentQ + 1 < total ? (
                     <button
                       onClick={handleNext}
-                      className="px-6 py-3 bg-[#1f3553] text-white rounded-xl font-semibold shadow hover:-translate-y-0.5 transition"
+                      className="px-6 py-3 rounded-xl font-semibold shadow hover:-translate-y-0.5 transition"
+                      style={{ background: palette.navy, color: "#fff" }}
                   >
                     Siguiente item
                   </button>
                 ) : (
                   <button
                       onClick={retry}
-                      className="px-6 py-3 bg-[#2d6a4f] text-white rounded-xl font-semibold shadow hover:-translate-y-0.5 transition"
+                      className="px-6 py-3 rounded-xl font-semibold shadow hover:-translate-y-0.5 transition"
+                      style={{ background: palette.success, color: "#fff" }}
                     >
                       Repetir nivel
                     </button>
                   )}
                   <button
                     onClick={() => setFeedback(null)}
-                    className="px-5 py-3 bg-[#fdfaf3] text-[#1f3553] border border-[#d8c7a0] rounded-xl font-semibold hover:-translate-y-0.5 transition"
+                    className="px-5 py-3 rounded-xl font-semibold hover:-translate-y-0.5 transition"
+                    style={{ background: palette.porcelain, color: palette.navy, border: `1px solid ${palette.border}` }}
                   >
                     Revisar item
                   </button>
                 </div>
-                <div className="mt-4 space-y-2 text-sm text-[#4a5568] bg-[#fdfaf3] border border-[#e6d8b5] rounded-xl p-4">
+                <div
+                  className="mt-4 space-y-2 text-sm rounded-xl p-4"
+                  style={{ color: palette.muted, background: palette.porcelain, border: `1px solid ${palette.border}` }}
+                >
                   <div className="flex items-center justify-between">
                     <span>Tiempo empleado</span>
-                    <span className="font-semibold text-[#1f3553]">{feedback.timeTaken || 0}s</span>
+                    <span className="font-semibold" style={{ color: palette.navy }}>
+                      {feedback.timeTaken || 0}s
+                    </span>
                   </div>
                   <div>
-                    <div className="text-xs uppercase tracking-[0.16em] text-[#7a5a2f] mb-1">Feedback</div>
+                    <div className="text-xs uppercase tracking-[0.16em] mb-1" style={{ color: palette.accent }}>
+                      Feedback
+                    </div>
                     <p>
                       {feedback.correct
                         ? "Buen control de estructura y palabra clave. Pasa al siguiente item manteniendo consistencia."
@@ -295,27 +474,43 @@ export default function KeywordTransformation() {
               <motion.div
                 initial={{ opacity: 0, y: 16 }}
                 animate={{ opacity: 1, y: 0 }}
-                className="bg-white/90 border border-[#d8c7a0] rounded-2xl shadow p-6 space-y-4"
+                className="rounded-2xl p-6 space-y-4"
+                style={{
+                  background: palette.surfaceAlt,
+                  border: `1px solid ${palette.border}`,
+                  boxShadow: "0 18px 50px rgba(12,19,42,0.12)"
+                }}
               >
                 <div className="flex items-center justify-between">
-                  <h2 className="text-xl font-bold text-[#1f3553]">Reporte Nivel {selectedLevel + 1}</h2>
-                  <div className="text-sm text-[#4a5568]">
-                    Puntuacion: <span className="font-semibold text-[#1f3553]">{score}</span> / {total}
+                  <h2 className="text-xl font-bold" style={{ color: palette.navy }}>
+                    Reporte Nivel {selectedLevel + 1}
+                  </h2>
+                  <div className="text-sm" style={{ color: palette.muted }}>
+                    Puntuacion: <span className="font-semibold" style={{ color: palette.navy }}>{score}</span> / {total}
                   </div>
                 </div>
                 <div className="flex flex-wrap gap-3">
-                  <div className="px-4 py-2 bg-[#fdfaf3] border border-[#e6d8b5] rounded-lg text-sm text-[#4a5568]">
-                    Aciertos: <span className="text-[#1f3553] font-semibold">{score}</span>
+                  <div
+                    className="px-4 py-2 rounded-lg text-sm"
+                    style={{ background: palette.porcelain, border: `1px solid ${palette.border}`, color: palette.muted }}
+                  >
+                    Aciertos: <span className="font-semibold" style={{ color: palette.navy }}>{score}</span>
                   </div>
-                  <div className="px-4 py-2 bg-[#fdfaf3] border border-[#e6d8b5] rounded-lg text-sm text-[#4a5568]">
-                    Tiempo medio: <span className="text-[#1f3553] font-semibold">
+                  <div
+                    className="px-4 py-2 rounded-lg text-sm"
+                    style={{ background: palette.porcelain, border: `1px solid ${palette.border}`, color: palette.muted }}
+                  >
+                    Tiempo medio: <span className="font-semibold" style={{ color: palette.navy }}>
                       {log.length ? Math.round(log.reduce((s, e) => s + (e.timeTaken || 0), 0) / log.length) : 0}s
                     </span>
                   </div>
                 </div>
 
-                <div className="max-h-72 overflow-y-auto border border-[#e6d8b5] rounded-xl">
-                  <div className="grid grid-cols-6 gap-2 text-sm bg-[#fdfaf3] px-4 py-2 text-[#7a5a2f] uppercase tracking-[0.08em]">
+                <div className="max-h-72 overflow-y-auto rounded-xl" style={{ border: `1px solid ${palette.border}` }}>
+                  <div
+                    className="grid grid-cols-6 gap-2 text-sm px-4 py-2 uppercase tracking-[0.08em]"
+                    style={{ background: palette.porcelain, color: palette.accent }}
+                  >
                     <span>Item</span>
                     <span className="col-span-2">Tu respuesta</span>
                     <span>Estado</span>
@@ -323,12 +518,19 @@ export default function KeywordTransformation() {
                     <span>Tiempo</span>
                   </div>
                   {log.map(entry => (
-                    <div key={entry.id} className="grid grid-cols-6 gap-2 px-4 py-2 border-t border-[#e6d8b5] text-sm text-[#1f3553]">
+                    <div
+                      key={entry.id}
+                      className="grid grid-cols-6 gap-2 px-4 py-2 border-t text-sm"
+                      style={{ borderColor: palette.border, color: palette.navy }}
+                    >
                       <span className="font-semibold">Q{entry.id}</span>
                       <span className="col-span-2 break-words">
                         {entry.input || "Respuesta vacia"}
                       </span>
-                      <span className={entry.correct ? "text-emerald-700 font-semibold" : "text-[#a4342a] font-semibold"}>
+                      <span
+                        className="font-semibold"
+                        style={{ color: entry.correct ? palette.success : palette.danger }}
+                      >
                         {entry.correct ? "Correcto" : entry.timedOut ? "Tiempo" : "Incorrecto"}
                       </span>
                       <span className="break-words">{entry.correctAnswer}</span>
@@ -336,10 +538,17 @@ export default function KeywordTransformation() {
                     </div>
                   ))}
                 </div>
-                <div className="bg-[#fdfaf3] border border-[#e6d8b5] rounded-xl p-4 space-y-2">
-                  <div className="text-sm uppercase tracking-[0.14em] text-[#7a5a2f]">Video guia nivel {selectedLevel + 1}</div>
-                  <p className="text-sm text-[#4a5568]">Repasa la explicacion completa para este nivel.</p>
-                  <div className="aspect-video w-full rounded-lg overflow-hidden border border-[#d8c7a0] bg-black">
+                <div
+                  className="rounded-xl p-4 space-y-2"
+                  style={{ background: palette.porcelain, border: `1px solid ${palette.border}` }}
+                >
+                  <div className="text-sm uppercase tracking-[0.14em]" style={{ color: palette.accent }}>
+                    Video guia nivel {selectedLevel + 1}
+                  </div>
+                  <p className="text-sm" style={{ color: palette.muted }}>
+                    Repasa la explicacion completa para este nivel.
+                  </p>
+                  <div className="aspect-video w-full rounded-lg overflow-hidden border" style={{ borderColor: palette.border, background: "#000" }}>
                     <iframe
                       title={`Video nivel ${selectedLevel + 1}`}
                       src={levelVideoUrl}
@@ -355,11 +564,12 @@ export default function KeywordTransformation() {
             <div className="flex items-center justify-between">
               <button
                 onClick={() => setSelectedLevel(null)}
-                className="text-sm text-[#1f3553] underline underline-offset-4"
+                className="text-sm underline underline-offset-4"
+                style={{ color: palette.navy }}
               >
                 Volver al menu de niveles
               </button>
-              <div className="text-xs text-[#4a5568]">
+              <div className="text-xs" style={{ color: palette.muted }}>
                 Estilo papel Cambridge: responde con claridad y revisa puntuacion y mayusculas.
               </div>
             </div>

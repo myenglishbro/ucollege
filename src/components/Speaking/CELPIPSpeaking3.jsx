@@ -3,6 +3,22 @@ import questions from "./data/celpipQuestion3.json";
 
 const PREP_TIME = 30;
 const ANSWER_TIME = 60;
+const palette = {
+  navy: "#0f1f30",
+  deepBlue: "#2b4157",
+  gold: "#f2b76b",
+  sky: "#e6eef7",
+  porcelain: "#fdfbf7",
+  surfaceAlt: "#ffffff",
+  border: "#e5e9f0",
+  muted: "#43556b",
+  accent: "#2bb6a8",
+  success: "#138a63",
+  danger: "#d14343"
+};
+const serif = "var(--font-grotesk), 'Sora', 'Arial', sans-serif";
+const sans = "var(--font-sora), 'Sora', 'Arial', sans-serif";
+const logoUrl = "https://i.ibb.co/C3kRtYQG/zxczx-2-1.png";
 
 export default function CELPIPSpeakingClassicUI() {
   const [step, setStep] = useState("prep"); 
@@ -16,6 +32,9 @@ export default function CELPIPSpeakingClassicUI() {
   const [imgError, setImgError] = useState(false);
 
   const q = questions[questionIndex];
+  const driveMatch = q?.image?.match(/drive\.google\.com\/file\/d\/([^/]+)/);
+  const driveIframeSrc = driveMatch ? `https://drive.google.com/file/d/${driveMatch[1]}/preview` : null;
+  const useIframe = Boolean(driveIframeSrc || q?.image?.includes("/preview"));
 
   const totalThisPhase = step === "prep" ? PREP_TIME : ANSWER_TIME;
   const elapsed = step === "finished" ? totalThisPhase : totalThisPhase - timer;
@@ -83,20 +102,27 @@ export default function CELPIPSpeakingClassicUI() {
   };
 
   return (
-    <div className="min-h-screen w-full bg-[#f4f6f9]">
+    <div
+      className="min-h-screen w-full"
+      style={{
+        background:
+          "radial-gradient(circle at 20% 10%, rgba(43,182,168,0.18), transparent 40%), linear-gradient(150deg, #f6f2eb 0%, #eef3f8 55%, #f7f2ea 100%)",
+        fontFamily: sans
+      }}
+    >
       <style>{`
         :root{
-          --celpip-blue:#1769aa;
-          --celpip-blue2:#2da7ff;
-          --celpip-gray:#e9ecef;
-          --celpip-border:#d7dce2;
-          --celpip-text:#374151;
-          --celpip-muted:#6b7280;
-          --celpip-red:#A6192E;
-          --celpip-red-border:#901628;
-          --next-top:#0088cc; --next-bot:#0044cc;
+          --celpip-blue:${palette.navy};
+          --celpip-blue2:${palette.accent};
+          --celpip-gray:${palette.sky};
+          --celpip-border:${palette.border};
+          --celpip-text:${palette.navy};
+          --celpip-muted:${palette.muted};
+          --celpip-red:${palette.danger};
+          --celpip-red-border:${palette.danger};
+          --next-top:${palette.navy}; --next-bot:${palette.deepBlue};
         }
-        .sysfont{ font-family:"Helvetica Neue", Helvetica, Arial, "Segoe UI", Roboto, system-ui, -apple-system, sans-serif; }
+        .sysfont{ font-family:${sans}; }
 
         .topbar{ height:52px; background:#fff; border-bottom:1px solid #e5e7eb; }
 
@@ -108,7 +134,7 @@ export default function CELPIPSpeakingClassicUI() {
         .celp-body{ padding:16px; }
         .celp-prompt{ display:block; color:#1f2937; font-weight:600; font-size:16px; margin:6px 0 10px; }
         .celp-centerWrap{ display:flex; justify-content:center; }
-        .celp-panel{ margin:16px 0 0; width:460px; max-width:92%; background:var(--celpip-gray); border-radius:8px; padding:18px 16px; border:1px solid var(--celpip-border); box-shadow: inset 0 1px 0 rgba(255,255,255,.7); }
+        .celp-panel{ margin:16px 0 0; width:460px; max-width:92%; background:var(--celpip-gray); border-radius:12px; padding:18px 16px; border:1px solid var(--celpip-border); box-shadow: inset 0 1px 0 rgba(255,255,255,.7); }
         .celp-row{ display:flex; align-items:center; gap:12px; }
         .celp-iconbox{ width:42px;height:42px;border-radius:6px;background:#dfe3e8;display:flex;align-items:center;justify-content:center;border:1px solid #cfd6de; }
         .celp-bigtime{ margin-left:auto; font-size:28px; font-weight:700; color:var(--celpip-text); }
@@ -146,6 +172,13 @@ export default function CELPIPSpeakingClassicUI() {
         .task-img{
           max-width:100%; max-height:100%; object-fit:contain; display:block;
         }
+        .task-iframe{
+          width:100%; height:100%; border:0; pointer-events:none;
+        }
+        .iframe-cover{
+          position:absolute; top:6px; right:6px; width:34px; height:34px;
+          background:#fff; border-radius:8px; box-shadow:0 2px 6px rgba(15,31,48,0.12);
+        }
         .skeleton{
           width:100%; height:100%; background:linear-gradient(90deg,#f3f4f6,#e5e7eb,#f3f4f6);
           background-size:200% 100%; animation:shimmer 1.2s infinite;
@@ -153,20 +186,25 @@ export default function CELPIPSpeakingClassicUI() {
         }
         @keyframes shimmer { 0%{background-position:200% 0} 100%{background-position:-200% 0} }
 
-        .img-actions{ display:flex; gap:8px; margin-top:8px; justify-content:flex-end; }
-        .btn-link{ font-size:12px; color:var(--celpip-blue); text-decoration:underline; background:transparent; border:none; padding:0; cursor:pointer; }
         .error-box{ font-size:13px; color:#b91c1c; background:#fee2e2; border:1px solid #fecaca; border-radius:6px; padding:8px; text-align:center; }
       `}</style>
 
-      {/* barra superior vacía */}
+      {/* Empty top bar */}
       <div className="topbar" />
 
       {/* Caja principal */}
       <div className="celp-shell sysfont">
         {/* Header con NEXT */}
         <div className="celp-header">
-          <div className="celp-title">
-            Practice Test A – Speaking Task 3: <span className="celp-primary">Describe the picture</span>
+          <div className="celp-title" style={{ display: "flex", alignItems: "center", gap: 10 }}>
+            <img
+              src={logoUrl}
+              alt="MyEnglishBro logo"
+              style={{ height: 24, width: "auto" }}
+            />
+            <span>
+              <span className="celp-primary">Cambridge Speaking Part 2</span> - Describe the picture
+            </span>
           </div>
           <div className="celp-metrics">
             <span>Preparation: <b>{PREP_TIME} seconds</b></span>
@@ -189,7 +227,7 @@ export default function CELPIPSpeakingClassicUI() {
                   {/* Skeleton mientras carga */}
                   {!imgLoaded && !imgError && <div className="skeleton" aria-hidden="true" />}
                   {/* Imagen */}
-                  {!imgError && (
+                  {!imgError && !useIframe && (
                     <img
                       src={q?.image}
                       alt={`Task ${q?.id || questionIndex + 1} image`}
@@ -200,23 +238,25 @@ export default function CELPIPSpeakingClassicUI() {
                       onError={() => setImgError(true)}
                     />
                   )}
+                  {!imgError && useIframe && (
+                    <>
+                      <iframe
+                        title={`Task ${q?.id || questionIndex + 1} preview`}
+                        src={driveIframeSrc || q?.image}
+                        className="task-iframe"
+                        allow="autoplay"
+                        onLoad={() => setImgLoaded(true)}
+                      />
+                      <div className="iframe-cover" aria-hidden="true" />
+                    </>
+                  )}
                   {/* Fallback si falla */}
                   {imgError && (
                     <div className="error-box">
-                      We couldn’t load the image. Please check your connection or try another question.
+                      We couldn't load the image. Please check your connection or try another question.
                     </div>
                   )}
                 </div>
-              </div>
-              <div className="img-actions">
-                {q?.image && (
-                  <a className="btn-link" href={q.image} target="_blank" rel="noreferrer">
-                    Open image in new tab
-                  </a>
-                )}
-                <button className="btn-link" onClick={() => { setImgLoaded(false); setImgError(false); }}>
-                  Reload preview
-                </button>
               </div>
             </div>
           </div>
@@ -246,7 +286,7 @@ export default function CELPIPSpeakingClassicUI() {
                       <path d="M5 11a1 1 0 1 0-2 0 9 9 0 0 0 8 8.94V22H8a1 1 0 1 0 0 2h8a1 1 0 1 0 0-2h-3v-2.06A9 9 0 0 0 21 11a1 1 0 1 0-2 0 7 7 0 1 1-14 0Z"/>
                     </svg>
                   </div>
-                  <div className="text-[#374151] font-semibold">Recording…</div>
+                  <div className="text-[#374151] font-semibold">Recording</div>
                 </div>
                 <div className="celp-bar">
                   <div className="celp-bar-fill" style={{ width: progressPct + "%" }} />
@@ -262,14 +302,14 @@ export default function CELPIPSpeakingClassicUI() {
             )}
           </div>
 
-          <div className="celp-note">*NOTE: This sample test is not recording your response.</div>
+          <div className="celp-note">*Note: This practice prompt does not record audio.</div>
 
           {step !== "prep" && (
             <div className="mt-4" style={{ maxWidth: 720, margin: "0 auto" }}>
               <label className="block text-sm" style={{ color: "var(--celpip-blue)", fontWeight: 600, marginBottom: 4 }}>
-                Your Answer (auto-transcribed)
+                Your answer (auto-transcribed)
               </label>
-              <textarea className="textarea" value={transcript} readOnly placeholder="Your speech will appear here…" />
+              <textarea className="textarea" value={transcript} readOnly placeholder="Your speech will appear here." />
               <div className="actions-centered">
                 <button className="btn btn-back" onClick={() => navigator.clipboard.writeText(transcript || "")}>
                   COPY TRANSCRIPTION

@@ -619,6 +619,21 @@ export default function UseOfEnglishInline2() {
             </div>
           </div>
 
+          <div className="rounded-2xl p-4" style={{ background: palette.surfaceAlt, border: `1px solid ${palette.border}` }}>
+            <h3 className="text-sm font-semibold uppercase tracking-[0.2em]" style={{ color: palette.muted }}>
+              Correct answers
+            </h3>
+            <ul className="mt-3 list-decimal list-inside text-sm md:text-base space-y-2" style={{ color: palette.muted }}>
+              {blanks.map((item, idx) => (
+                <li key={`${item.id}-${idx}`}>
+                  <span style={{ color: palette.navy, fontWeight: 600 }}>Gap {idx + 1}</span>{" "}
+                  →{" "}
+                  <span style={{ color: palette.deepBlue }}>{test.correctAnswers[item.id]}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+
           
 
                     {perfect && nextIndex < testsData.tests.length && (

@@ -1,82 +1,122 @@
 [
   {
     "id": 1,
-    "prompt": "Your friend is designing an app and wants it to be easy to use. What advice would you give him?"
+    "prompt": "Do you work or are you a student?",
+    "useful_verbs": ["study", "work", "learn", "enjoy"],
+    "model_answer_b2": "At the moment, I’m studying English because I want to improve my job opportunities. I really enjoy learning new things, especially languages, and I try to practice whenever I have time."
   },
   {
     "id": 2,
-    "prompt": "Your cousin is nervous about presenting her project to a group. What suggestions can you give her to feel more confident?"
+    "prompt": "What do you usually do in your free time?",
+    "useful_verbs": ["relax", "enjoy", "spend", "prefer"],
+    "model_answer_b2": "In my free time, I usually relax by watching series or listening to music. At weekends, I prefer spending time with friends because it helps me disconnect from daily routines."
   },
   {
     "id": 3,
-    "prompt": "Your brother wants to save money to buy better tools for his design work. What steps should he take?"
+    "prompt": "Do you prefer spending time alone or with other people?",
+    "useful_verbs": ["prefer", "enjoy", "feel"],
+    "model_answer_b2": "I generally prefer spending time with other people because I’m quite sociable. However, I also enjoy being alone sometimes, especially when I need to rest or concentrate."
   },
   {
     "id": 4,
-    "prompt": "Your classmate feels stressed before team deadlines. What advice can you give her to stay calm and organized?"
+    "prompt": "Tell me about a place you like visiting in your city.",
+    "useful_verbs": ["visit", "go", "enjoy", "relax"],
+    "model_answer_b2": "One place I really like visiting is a park near my house. It’s quite peaceful, and I usually go there to relax or take a walk after a long day."
   },
   {
     "id": 5,
-    "prompt": "Your neighbor wants to improve how he communicates his ideas in meetings. What would you recommend?"
+    "prompt": "Is there something new you would like to learn in the future?",
+    "useful_verbs": ["learn", "improve", "develop"],
+    "model_answer_b2": "Yes, I’d like to learn more about technology in the future. I think it’s very useful nowadays, and it could help me develop better professional skills."
   },
   {
     "id": 6,
-    "prompt": "Your friend is joining a new company as a designer. What should he do to prepare for working with a new team?"
+    "prompt": "Do you think it’s important to have hobbies? Why?",
+    "useful_verbs": ["think", "help", "relax", "improve"],
+    "model_answer_b2": "Yes, I think hobbies are very important because they help people relax and reduce stress. They also make life more balanced and enjoyable."
   },
   {
     "id": 7,
-    "prompt": "Your sister wants to meet new people in her design school. What suggestions do you have for her?"
+    "prompt": "Tell me about a memorable experience you’ve had.",
+    "useful_verbs": ["experience", "remember", "enjoy"],
+    "model_answer_b2": "A memorable experience I’ve had was travelling with my family a few years ago. It was special because we spent quality time together and visited new places."
   },
   {
     "id": 8,
-    "prompt": "Your coworker finds it hard to manage time between different projects. What advice would you give him?"
+    "prompt": "Do you prefer studying in the morning or in the evening?",
+    "useful_verbs": ["prefer", "study", "concentrate"],
+    "model_answer_b2": "I prefer studying in the evening because I feel more relaxed and focused. In the morning, I usually find it harder to concentrate."
   },
   {
     "id": 9,
-    "prompt": "Your uncle is visiting your city and loves design. Which places or experiences would you recommend to inspire him?"
+    "prompt": "What kind of music do you enjoy listening to?",
+    "useful_verbs": ["enjoy", "listen", "prefer"],
+    "model_answer_b2": "I enjoy listening to different types of music, especially pop and soft rock. I usually listen to music when I’m relaxing or doing housework."
   },
   {
     "id": 10,
-    "prompt": "Your cousin is thinking about working with clients for the first time. What factors should she consider before starting?"
+    "prompt": "Do you like travelling? Why or why not?",
+    "useful_verbs": ["like", "travel", "discover"],
+    "model_answer_b2": "Yes, I really like travelling because it allows me to discover new cultures and places. I think travelling is a great way to learn and relax at the same time."
   },
   {
     "id": 11,
-    "prompt": "Your friend wants to get better at solving problems creatively but doesn’t like reading books. What alternatives can you suggest?"
+    "prompt": "What do you usually do at weekends?",
+    "useful_verbs": ["spend", "relax", "meet"],
+    "model_answer_b2": "At weekends, I usually relax and spend time with my family or friends. Sometimes I go out, but other times I prefer staying at home."
   },
   {
     "id": 12,
-    "prompt": "Your classmate is thinking about joining a design or innovation club at school. What benefits could you tell her about?"
+    "prompt": "Do you enjoy learning English? Why?",
+    "useful_verbs": ["enjoy", "learn", "improve"],
+    "model_answer_b2": "Yes, I enjoy learning English because it’s very useful for work and travel. It also allows me to communicate with people from different countries."
   },
   {
     "id": 13,
-    "prompt": "Your neighbor wants to organize his workspace better for creative work. What would you suggest?"
+    "prompt": "What kind of activities help you relax?",
+    "useful_verbs": ["help", "relax", "enjoy"],
+    "model_answer_b2": "Activities like listening to music or watching series really help me relax. I also enjoy walking outside when I have free time."
   },
   {
     "id": 14,
-    "prompt": "Your friend wants to improve his teamwork skills for group projects. What should he do?"
+    "prompt": "Do you prefer staying at home or going out in the evenings?",
+    "useful_verbs": ["prefer", "stay", "go"],
+    "model_answer_b2": "It depends, but I usually prefer staying at home in the evenings. After a long day, I like to rest and do something calm."
   },
   {
     "id": 15,
-    "prompt": "Your sibling is going to travel alone for a design conference. What advice would you give her for a safe and productive trip?"
+    "prompt": "Tell me about a subject you enjoyed at school.",
+    "useful_verbs": ["enjoy", "study", "learn"],
+    "model_answer_b2": "A subject I really enjoyed at school was English. I liked it because it helped me communicate and understand different cultures."
   },
   {
     "id": 16,
-    "prompt": "Your colleague just started working on a big project and feels nervous. How can he build confidence with his team?"
+    "prompt": "Do you like working in a team or alone?",
+    "useful_verbs": ["like", "work", "prefer"],
+    "model_answer_b2": "I like working in a team because you can share ideas and learn from others. However, sometimes I prefer working alone when I need to focus."
   },
   {
     "id": 17,
-    "prompt": "Your classmate wants to share more ideas in group discussions but feels shy. What could help him?"
+    "prompt": "What kind of job would you like to have in the future?",
+    "useful_verbs": ["like", "work", "develop"],
+    "model_answer_b2": "In the future, I’d like to have a job where I can keep learning and developing my skills. It’s important for me to enjoy what I do."
   },
   {
     "id": 18,
-    "prompt": "Your aunt wants to eat healthier while working long hours in front of her computer. What would you recommend?"
+    "prompt": "Do you enjoy spending time with your family?",
+    "useful_verbs": ["enjoy", "spend", "feel"],
+    "model_answer_b2": "Yes, I really enjoy spending time with my family because it makes me feel relaxed and supported. We usually talk or share meals together."
   },
   {
     "id": 19,
-    "prompt": "Your friend is struggling to balance his personal life with the responsibilities of managing a project. What advice can you offer?"
+    "prompt": "What do you usually do when you feel stressed?",
+    "useful_verbs": ["relax", "feel", "try"],
+    "model_answer_b2": "When I feel stressed, I usually try to relax by listening to music or taking a short walk. These activities help me calm down."
   },
   {
     "id": 20,
-    "prompt": "Your cousin is thinking about taking a course in design or project management. What should she keep in mind before enrolling?"
+    "prompt": "Is there anything you would like to change about your daily routine?",
+    "useful_verbs": ["change", "improve", "organize"],
+    "model_answer_b2": "Yes, I’d like to improve my daily routine by organizing my time better. That way, I could have more free time to relax."
   }
 ]

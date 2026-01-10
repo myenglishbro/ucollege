@@ -1,102 +1,42 @@
 [
   {
     "id": 1,
-    "prompt": "Describe some things that are happening in the picture below as well as you can. The person with whom you are speaking cannot see the picture.",
-    "image": "https://i.ibb.co/MkRy16gN/task0301.png"
+    "examiner_prompt": "I’d like you to describe this picture. You have about one minute. Please tell me what you can see.",
+    "image": "https://drive.google.com/file/d/16mfHWO0LrEm8Ycubiblc-A2-SU03snMp/preview"
   },
   {
     "id": 2,
-    "prompt": "Describe in detail everything you see in this kitchen scene. Explain what each person is doing.",
-    "image": "https://i.ibb.co/9HqxwTb0/task0302.png"
+    "examiner_prompt": "Now, I’d like you to talk about this picture. Please describe what is happening. You have about one minute.",
+    "image": "https://drive.google.com/file/d/1rRj7dU-Eh5dU1snxu5zXTFlf0TWsJy9C/view?usp=sharing"
   },
   {
     "id": 3,
-    "prompt": "Describe what is happening in this busy city street. Imagine explaining it to a friend who cannot see the image.",
-    "image": "https://i.ibb.co/CRVVFsv/task0303.png"
+    "examiner_prompt": "Please describe this picture. Tell me what you can see. You have about one minute.",
+    "image": "https://drive.google.com/file/d/1krx834NnYV-_bCzBO0kFqH1-wPqioLG5/view?usp=sharing"
   },
   {
     "id": 4,
-    "prompt": "Describe this playground scene. Focus on the actions and feelings of the children.",
-    "image": "https://i.ibb.co/6RWNm700/task0304.png"
+    "examiner_prompt": "I’d like you to describe this picture. Please talk about what is happening. You have about one minute.",
+    "image": "https://drive.google.com/file/d/1jvrOIJdaFDgD2MH6jvgqKq8-5JvQ0CI5/view?usp=sharing"
   },
   {
     "id": 5,
-    "prompt": "Describe what is happening in this supermarket scene. What are the people doing?",
-    "image": "https://i.ibb.co/DHLPX8z1/task0305.png"
+    "examiner_prompt": "Please describe this picture. You have about one minute. Tell me what you can see.",
+    "image": "https://drive.google.com/file/d/1Af1DYEiFL3tn6SvhqsmprOw1Iyifpj0L/view?usp=sharing"
   },
   {
     "id": 6,
-    "prompt": "Describe everything you notice in this park. Talk about what people are doing.",
-    "image": "https://i.ibb.co/8nX4fHXy/task0306.png"
+    "examiner_prompt": "Now, please describe this picture. Talk about what is happening. You have about one minute.",
+    "image": "https://drive.google.com/file/d/1SgbO9IOlXM1OjPSEe5SPm4Z9JXQ1ex2t/view?usp=sharing"
   },
   {
     "id": 7,
-    "prompt": "Describe this scene at the beach. Mention what people are doing and the general atmosphere.",
-    "image": "https://i.ibb.co/rGbYvGZN/tassk-038.png"
+    "examiner_prompt": "I’d like you to describe this picture. Please tell me what you can see. You have about one minute.",
+    "image": "https://drive.google.com/file/d/1NbUx-84X8JpAB3SdHIT6VVbzi2HZ86kP/view?usp=sharing"
   },
   {
     "id": 8,
-    "prompt": "Describe what is happening in this hospital room. What are the different people doing?",
-    "image": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd23?auto=format&fit=crop&w=600&q=80"
-  },
-  {
-    "id": 9,
-    "prompt": "Describe this office scene. Who is doing what and what do you think the atmosphere is like?",
-    "image": "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=600&q=80"
-  },
-  {
-    "id": 10,
-    "prompt": "Describe everything you see happening in this school classroom. Explain it for someone who cannot see the picture.",
-    "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=600&q=80"
-  },
-  {
-    "id": 11,
-    "prompt": "Describe what is happening in this restaurant scene. What are people doing, and what kind of mood do you think there is?",
-    "image": "https://images.unsplash.com/photo-1454023492550-5696f8ff10e1?auto=format&fit=crop&w=600&q=80"
-  },
-  {
-    "id": 12,
-    "prompt": "Describe this scene at a train station. Who is in the image and what are they doing?",
-    "image": "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?auto=format&fit=crop&w=600&q=80"
-  },
-  {
-    "id": 13,
-    "prompt": "Describe everything you see in this library. What are the people doing and what is the atmosphere like?",
-    "image": "https://images.unsplash.com/photo-1514361892635-cd7e6e99e15c?auto=format&fit=crop&w=600&q=80"
-  },
-  {
-    "id": 14,
-    "prompt": "Describe what is happening at this sports event. Who is participating and what are others doing?",
-    "image": "https://images.unsplash.com/photo-1461897104016-0b3b00cc81ee?auto=format&fit=crop&w=600&q=80"
-  },
-  {
-    "id": 15,
-    "prompt": "Describe this scene in a shopping mall. What are some of the people doing?",
-    "image": "https://images.unsplash.com/photo-1432888498266-38ffec3eaf0a?auto=format&fit=crop&w=600&q=80"
-  },
-  {
-    "id": 16,
-    "prompt": "Describe what is happening at this airport. What are the people doing, and what might they be feeling?",
-    "image": "https://images.unsplash.com/photo-1464037866556-6812c9d1c72e?auto=format&fit=crop&w=600&q=80"
-  },
-  {
-    "id": 17,
-    "prompt": "Describe the different activities happening in this playground. What do you notice about the children and adults?",
-    "image": "https://images.unsplash.com/photo-1519121786083-4c58b298cf90?auto=format&fit=crop&w=600&q=80"
-  },
-  {
-    "id": 18,
-    "prompt": "Describe what is happening in this grocery store. What do you see people buying or doing?",
-    "image": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=600&q=80"
-  },
-  {
-    "id": 19,
-    "prompt": "Describe this scene at a bus stop. Who is waiting, and what might they be thinking or feeling?",
-    "image": "https://images.unsplash.com/photo-1468421870903-4df1664ac249?auto=format&fit=crop&w=600&q=80"
-  },
-  {
-    "id": 20,
-    "prompt": "Describe everything happening in this family living room. What activities are taking place?",
-    "image": "https://images.unsplash.com/photo-1519340333755-c190e9c39b57?auto=format&fit=crop&w=600&q=80"
+    "examiner_prompt": "Please talk about this picture. Describe what is happening. You have about one minute.",
+    "image": "https://drive.google.com/uc?export=view&id=1siAuPNh4PQUSwKer-03X9PyBCQHHpAhX"
   }
 ]
