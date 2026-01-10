@@ -1,6 +1,6 @@
-﻿import React, { useState, Fragment } from "react";
+import React, { useState, Fragment } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import testsData from "../data/testsData2.json";
+import testsData from "../data/testsData3.json";
 
 // Modern, warm palette and typography
 const palette = {
@@ -20,25 +20,28 @@ const serif = "var(--font-grotesk), 'Sora', 'Arial', sans-serif";
 const sans = "var(--font-sora), 'Sora', 'Arial', sans-serif";
 const logoUrl = "https://i.ibb.co/C3kRtYQG/zxczx-2-1.png";
 
-export default function UseOfEnglishInline2() {
+export default function UseOfEnglishInline3() {
   const [selectedTest, setSelectedTest] = useState(null);
   const [answers, setAnswers] = useState({});
   const [submitted, setSubmitted] = useState(false);
   const [score, setScore] = useState(0);
-  const [feedback, setFeedback] = useState(null);
+  const [showMsg, setShowMsg] = useState(null);
   const [showIntro, setShowIntro] = useState(true);
   const [activeIndex, setActiveIndex] = useState(0);
 
   const unlocked = testsData.tests.reduce((acc, _, idx) => ({ ...acc, [idx]: true }), {});
   const totalSets = testsData.tests.length;
-  const totalItems = testsData.tests.reduce((acc, test) => acc + Object.keys(test.correctAnswers).length, 0);
+  const totalItems = testsData.tests.reduce(
+    (acc, test) => acc + Object.keys(test.correctAnswers).length,
+    0
+  );
 
-  const resetQuiz = () => {
+  const resetAll = () => {
     setSelectedTest(null);
     setAnswers({});
     setSubmitted(false);
     setScore(0);
-    setFeedback(null);
+    setShowMsg(null);
     setActiveIndex(0);
   };
 
@@ -69,7 +72,7 @@ export default function UseOfEnglishInline2() {
               style={{ filter: "drop-shadow(0 8px 18px rgba(12,19,42,0.12))" }}
             />
             <p className="text-xs uppercase tracking-[0.3em] font-semibold" style={{ color: palette.accent }}>
-              Part 2 - Open Cloze
+              Part 3 - Word Formation
             </p>
             <h1
               className="text-3xl md:text-5xl font-semibold leading-tight"
@@ -78,15 +81,14 @@ export default function UseOfEnglishInline2() {
               B2 First - Reading & Use of English
             </h1>
             <p className="text-base md:text-lg" style={{ color: palette.muted }}>
-              Fill each gap with one precise word. Expect grammar-heavy items like pronouns, articles, prepositions,
-              auxiliaries, and fixed phrases.
+              Transform the base word to complete each sentence accurately in context.
             </p>
             <div className="flex flex-wrap gap-2">
               {[
-                "8 gaps per set",
+                "8 items per set",
                 `${totalSets} sets`,
                 `${totalItems} total items`,
-                "Open cloze"
+                "Word formation"
               ].map(chip => (
                 <span
                   key={chip}
@@ -108,32 +110,32 @@ export default function UseOfEnglishInline2() {
               <h3 className="font-semibold" style={{ color: palette.navy, fontFamily: serif }}>
                 Overview
               </h3>
-              <p>8 gaps; each correct word = 1 point (8 total). Assesses grammar and lexico-grammar within a coherent text.</p>
+              <p>Use the base word to form the correct word that fits meaning and grammar.</p>
             </div>
             <div className="space-y-2">
               <h3 className="font-semibold" style={{ color: palette.navy, fontFamily: serif }}>
                 How to approach
               </h3>
               <ul className="list-disc list-inside space-y-1">
-                <li>Read around each gap for structure and agreement.</li>
-                <li>Keep the full text in mind for cohesion.</li>
-                <li>Use exactly one word; avoid contractions/abbreviations.</li>
+                <li>Check part of speech needed by the gap.</li>
+                <li>Watch prefixes and suffixes that change meaning.</li>
+                <li>Read the full sentence before you finalize.</li>
               </ul>
             </div>
             <div className="space-y-2">
               <h3 className="font-semibold" style={{ color: palette.navy, fontFamily: serif }}>
                 Assessment focus
               </h3>
-              <p>Articles, auxiliaries, prepositions, pronouns, verb forms/tenses, phrasal verbs, linkers, and fixed phrases.</p>
+              <p>Prefixes, suffixes, spelling changes, and register-appropriate forms.</p>
             </div>
             <div className="space-y-2">
               <h3 className="font-semibold" style={{ color: palette.navy, fontFamily: serif }}>
                 Tips
               </h3>
               <ul className="list-disc list-inside space-y-1">
-                <li>Read widely to internalize patterns and register.</li>
-                <li>Drill specific grammar areas (articles, tenses, linkers).</li>
-                <li>Create your own cloze by blanking key words in passages.</li>
+                <li>Scan for clues like articles, adverbs, and comparatives.</li>
+                <li>Check for negative meaning (un-, dis-, in-).</li>
+                <li>Mind spelling shifts: -y/-ious, -e/-able, -fy, -ise.</li>
               </ul>
             </div>
           </div>
@@ -160,7 +162,7 @@ export default function UseOfEnglishInline2() {
     );
   }
 
-  // Level selection screen
+  // Level selection
   if (selectedTest === null) {
     return (
       <div
@@ -192,13 +194,13 @@ export default function UseOfEnglishInline2() {
                   className="uppercase tracking-[0.25em] text-xs font-semibold mb-3"
                   style={{ color: palette.gold, fontFamily: serif }}
                 >
-                  Cambridge Grammar Studio
+                  Word Formation Studio
                 </p>
                 <h1
                   className="text-3xl md:text-4xl font-bold mb-2"
                   style={{ color: palette.navy, fontFamily: serif }}
                 >
-                  Use of English - Open Cloze Lab
+                  Use of English - Word Formation
                 </h1>
                 <p className="text-base md:text-lg" style={{ color: palette.muted }}>
                   Pick a set and jump in. Everything is unlocked for you.
@@ -325,7 +327,7 @@ export default function UseOfEnglishInline2() {
                               minHeight: "2.8em"
                             }}
                           >
-                            {test.subtitle || "Refine tone, register, and precision."}
+                            {test.subtitle || "Transform the base word to fit the gap."}
                           </p>
                         </div>
                       </div>
@@ -395,8 +397,8 @@ export default function UseOfEnglishInline2() {
 
   // Quiz logic
   const test = testsData.tests[selectedTest];
-  const blanks = test.segments.filter(seg => typeof seg !== "string");
-  const total = blanks.length;
+  const wordItems = test.segments.filter(seg => typeof seg !== "string");
+  const total = Object.keys(test.correctAnswers).length;
   const answeredCount = Object.keys(answers).length;
   const progressPct = total ? Math.round((answeredCount / total) * 100) : 0;
 
@@ -404,13 +406,13 @@ export default function UseOfEnglishInline2() {
 
   const handleSubmit = () => {
     let correctCount = 0;
-    blanks.forEach(({ id }) => {
-      const ans = test.correctAnswers[id];
+    Object.entries(test.correctAnswers).forEach(([id, ans]) => {
       if (answers[id]?.trim().toLowerCase() === ans.trim().toLowerCase()) correctCount++;
     });
     setScore(correctCount);
-    setFeedback(correctCount === total ? "correct" : "incorrect");
+    setShowMsg(correctCount === total ? "correct" : "incorrect");
     setSubmitted(true);
+    setTimeout(() => setShowMsg(null), 1400);
   };
 
   const nextIndex = selectedTest + 1;
@@ -428,7 +430,7 @@ export default function UseOfEnglishInline2() {
         <div className="w-full max-w-3xl space-y-6">
           <div className="flex items-center justify-between">
             <button
-              onClick={resetQuiz}
+              onClick={resetAll}
               className="text-sm font-semibold px-3 py-1 rounded-full"
               style={{ color: palette.muted, background: palette.surfaceAlt, border: `1px solid ${palette.border}` }}
             >
@@ -446,25 +448,23 @@ export default function UseOfEnglishInline2() {
             className="rounded-3xl p-8 space-y-6 shadow-2xl"
             style={{ background: palette.porcelain, border: `1px solid ${palette.border}` }}
           >
-            <div className="flex items-start justify-between gap-3">
-              <div>
-                <p className="text-xs uppercase tracking-[0.2em]" style={{ color: palette.accent }}>
-                  Use of English
-                </p>
-                <h2
-                  className="text-2xl md:text-3xl font-bold"
-                  style={{ color: palette.navy, fontFamily: serif }}
-                >
-                  {test.title}
-                </h2>
-                <p className="text-sm" style={{ color: palette.muted }}>
-                  {test.subtitle || "Type the exact word that best completes each gap."}
-                </p>
-              </div>
+            <div className="space-y-2">
+              <p className="text-xs uppercase tracking-[0.2em]" style={{ color: palette.accent }}>
+                Use of English
+              </p>
+              <h2
+                className="text-2xl md:text-3xl font-bold"
+                style={{ color: palette.navy, fontFamily: serif }}
+              >
+                {test.title}
+              </h2>
+              <p className="text-sm" style={{ color: palette.muted }}>
+                {test.subtitle || "Transform the base word to fit each gap."}
+              </p>
             </div>
 
             <AnimatePresence>
-              {feedback === "correct" && (
+              {showMsg === "correct" && (
                 <motion.div
                   initial={{ opacity: 0, y: -10 }}
                   animate={{ opacity: 1, y: 0 }}
@@ -475,7 +475,7 @@ export default function UseOfEnglishInline2() {
                   Excellent pace. Keep it going.
                 </motion.div>
               )}
-              {feedback === "incorrect" && (
+              {showMsg === "incorrect" && (
                 <motion.div
                   initial={{ opacity: 0, y: -10 }}
                   animate={{ opacity: 1, y: 0 }}
@@ -502,20 +502,31 @@ export default function UseOfEnglishInline2() {
                       </Fragment>
                     ))
                   ) : (
-                    <input
-                      key={idx}
-                      type="text"
-                      placeholder="Type your answer"
-                      value={answers[seg.id] || ""}
-                      onChange={e => handleChange(seg.id, e.target.value)}
-                      className="mx-1 px-3 py-2 rounded-xl text-sm md:text-base focus:outline-none"
-                      style={{
-                        border: `2px solid ${palette.border}`,
-                        background: "#fff",
-                        color: palette.navy,
-                        boxShadow: "inset 0 1px 2px rgba(15,23,42,0.08)"
-                      }}
-                    />
+                    <span key={idx} className="inline-flex items-center gap-2 mx-1 my-1">
+                      <input
+                        type="text"
+                        placeholder="Answer"
+                        value={answers[seg.id] || ""}
+                        onChange={e => handleChange(seg.id, e.target.value)}
+                        className="px-3 py-2 rounded-xl text-sm md:text-base focus:outline-none"
+                        style={{
+                          border: `2px solid ${palette.border}`,
+                          background: "#fff",
+                          color: palette.navy,
+                          boxShadow: "inset 0 1px 2px rgba(15,23,42,0.08)"
+                        }}
+                      />
+                      <span
+                        className="px-2 py-1 rounded-full text-[10px] uppercase tracking-[0.2em] font-semibold"
+                        style={{
+                          background: palette.sky,
+                          color: palette.navy,
+                          border: `1px solid ${palette.border}`
+                        }}
+                      >
+                        {seg.base}
+                      </span>
+                    </span>
                   )
                 )}
               </p>
@@ -571,7 +582,7 @@ export default function UseOfEnglishInline2() {
     >
       <div className="w-full max-w-3xl space-y-6">
         <button
-          onClick={resetQuiz}
+          onClick={resetAll}
           className="text-sm font-semibold px-3 py-1 rounded-full"
           style={{ color: palette.muted, background: palette.surfaceAlt, border: `1px solid ${palette.border}` }}
         >
@@ -619,9 +630,22 @@ export default function UseOfEnglishInline2() {
             </div>
           </div>
 
-          
+          <div className="rounded-2xl p-4" style={{ background: palette.surfaceAlt, border: `1px solid ${palette.border}` }}>
+            <h3 className="text-sm font-semibold uppercase tracking-[0.2em]" style={{ color: palette.muted }}>
+              Correct answers
+            </h3>
+            <ul className="mt-3 list-decimal list-inside text-sm md:text-base space-y-2" style={{ color: palette.muted }}>
+              {wordItems.map((item, idx) => (
+                <li key={`${item.id}-${idx}`}>
+                  <span style={{ color: palette.navy, fontWeight: 600 }}>{item.base}</span>{" "}
+                  →{" "}
+                  <span style={{ color: palette.deepBlue }}>{test.correctAnswers[item.id]}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
 
-                    {perfect && nextIndex < testsData.tests.length && (
+          {perfect && nextIndex < testsData.tests.length && (
             <motion.div
               initial={{ scale: 0.95, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
@@ -642,7 +666,7 @@ export default function UseOfEnglishInline2() {
                   setAnswers({});
                   setSubmitted(false);
                   setScore(0);
-                  setFeedback(null);
+                  setShowMsg(null);
                 }}
                 className="mt-3 px-6 py-3 rounded-full font-semibold"
                 style={{
@@ -658,7 +682,11 @@ export default function UseOfEnglishInline2() {
 
           {!perfect && (
             <button
-              onClick={() => setSubmitted(false)}
+              onClick={() => {
+                setSubmitted(false);
+                setScore(0);
+                setShowMsg(null);
+              }}
               className="w-full py-3 rounded-full font-semibold"
               style={{ background: "#d8d8d8", color: "#1f2937" }}
             >

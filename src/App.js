@@ -91,6 +91,7 @@ import Desafio03 from "./components/Aplicativos/pastsimpleprogressive/Desafio03.
 
 import UseOfEnglishInline from "./components/Aplicativos/uoe1/UseOfEnglishInline.jsx";
 import UseOfEnglishInline2 from "./components/Aplicativos/uoe2/UseOfEnglishInline2.jsx";
+import UseOfEnglishInline3 from "./components/Aplicativos/uoe3/UseOfEnglishInline3.jsx";
 import InicioB2CFR from "./components/Login/LoginB2CF/InicioB2CFR.jsx";
 import Essentialgrammar from "./components/Aplicativos/essentialgrammar/Essentialgrammar.jsx";
 import VocabTrainer from "./components/Aplicativos/vocabulario/Vocabtrainer.jsx";
@@ -134,6 +135,7 @@ function App() {
 
           <Route path="/uoe1" element={<UseOfEnglishInline />}></Route>
           <Route path="/uoe2" element={<UseOfEnglishInline2 />}></Route>
+          <Route path="/uoe3" element={<UseOfEnglishInline3 />}></Route>
        <Route path="/multiplechoice" element={<MultiLevelQuiz3 />}></Route>
       
       
