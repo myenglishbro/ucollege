@@ -145,9 +145,11 @@ function App() {
           <Route path="/devs" element={<MultiLevelQuiz4 />}></Route>
 
           <Route path="/Celpip" element={<InicioC />}></Route>
-          <Route path="/task01" element={<CELPIPSpeaking />}></Route>
-          <Route path="/task02" element={<CELPIPSpeaking2 />}></Route>
-          <Route path="/task03" element={<CELPIPSpeaking3 />}></Route>
+          <Route path="/s-part1" element={<CELPIPSpeaking />}></Route>
+          <Route path="/s-part2" element={<CELPIPSpeaking3 />}></Route>
+
+                    <Route path="/task02" element={<CELPIPSpeaking2 />}></Route>
+
           <Route path="/task04" element={<CELPIPSpeaking4 />}></Route>
 
           <Route path="/RoadMap" element={<RoadMap />}></Route>
