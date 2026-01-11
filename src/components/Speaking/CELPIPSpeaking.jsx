@@ -19,6 +19,49 @@ const palette = {
 const serif = "var(--font-grotesk), 'Sora', 'Arial', sans-serif";
 const sans = "var(--font-sora), 'Sora', 'Arial', sans-serif";
 const logoUrl = "https://i.ibb.co/C3kRtYQG/zxczx-2-1.png";
+const socialLinks = [
+  { label: "YouTube", href: "https://www.youtube.com/@myenglishbro" },
+  { label: "TikTok", href: "https://www.tiktok.com/@myenglishbro" },
+  { label: "Instagram", href: "https://www.instagram.com/myenglishbro" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/company/myenglishbro" }
+];
+
+const Watermark = () => (
+  <img
+    src={logoUrl}
+    alt=""
+    aria-hidden="true"
+    className="pointer-events-none select-none absolute -right-10 -bottom-6 w-[260px] md:w-[360px]"
+    style={{ opacity: 0.05, filter: "grayscale(1)" }}
+  />
+);
+
+const FooterBrand = () => (
+  <div className="w-full mt-8 pb-6 flex flex-col items-center gap-4">
+    <div className="flex items-center gap-3 text-xs uppercase tracking-[0.25em]" style={{ color: palette.muted }}>
+      <span>Powered by</span>
+      <img src={logoUrl} alt="MyEnglishBro logo" className="h-6 w-auto" />
+    </div>
+    <div className="flex flex-wrap items-center justify-center gap-2">
+      {socialLinks.map(link => (
+        <a
+          key={link.label}
+          href={link.href}
+          target="_blank"
+          rel="noreferrer"
+          className="px-4 py-2 rounded-full text-xs font-semibold"
+          style={{
+            color: palette.navy,
+            border: `1px solid ${palette.border}`,
+            background: palette.surfaceAlt
+          }}
+        >
+          {link.label}
+        </a>
+      ))}
+    </div>
+  </div>
+);
 
 export default function CELPIPSpeakingClassicUI() {
   const [step, setStep] = useState("prep"); 
@@ -92,13 +135,14 @@ export default function CELPIPSpeakingClassicUI() {
 
   return (
     <div
-      className="min-h-screen w-full"
+      className="min-h-screen w-full relative overflow-hidden"
       style={{
         background:
           "radial-gradient(circle at 20% 10%, rgba(43,182,168,0.18), transparent 40%), linear-gradient(150deg, #f6f2eb 0%, #eef3f8 55%, #f7f2ea 100%)",
         fontFamily: sans
       }}
     >
+      <Watermark />
       <style>{`
         :root{
           --celp-blue:${palette.navy};
@@ -279,6 +323,7 @@ export default function CELPIPSpeakingClassicUI() {
         <div className="celp-footer">
           <button className="btn btn-back" onClick={goBack}>BACK</button>
         </div>
+        <FooterBrand />
       </div>
     </div>
   );

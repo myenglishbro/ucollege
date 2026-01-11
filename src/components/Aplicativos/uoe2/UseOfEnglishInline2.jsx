@@ -19,6 +19,49 @@ const palette = {
 const serif = "var(--font-grotesk), 'Sora', 'Arial', sans-serif";
 const sans = "var(--font-sora), 'Sora', 'Arial', sans-serif";
 const logoUrl = "https://i.ibb.co/C3kRtYQG/zxczx-2-1.png";
+const socialLinks = [
+  { label: "YouTube", href: "https://www.youtube.com/@_myenglishbro" },
+  { label: "TikTok", href: "https://www.tiktok.com/@myenglishbro" },
+  { label: "Instagram", href: "https://www.instagram.com/_myenglishbro" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/in/carlosapolaya/" }
+];
+
+const Watermark = () => (
+  <img
+    src={logoUrl}
+    alt=""
+    aria-hidden="true"
+    className="pointer-events-none select-none absolute -right-10 -bottom-6 w-[260px] md:w-[360px]"
+    style={{ opacity: 0.05, filter: "grayscale(1)" }}
+  />
+);
+
+const FooterBrand = () => (
+  <div className="w-full mt-10 pb-8 flex flex-col items-center gap-4">
+    <div className="flex items-center gap-3 text-xs uppercase tracking-[0.25em]" style={{ color: palette.muted }}>
+      <span>Powered by</span>
+      <img src={logoUrl} alt="MyEnglishBro logo" className="h-6 w-auto" />
+    </div>
+    <div className="flex flex-wrap items-center justify-center gap-2">
+      {socialLinks.map(link => (
+        <a
+          key={link.label}
+          href={link.href}
+          target="_blank"
+          rel="noreferrer"
+          className="px-4 py-2 rounded-full text-xs font-semibold"
+          style={{
+            color: palette.navy,
+            border: `1px solid ${palette.border}`,
+            background: palette.surfaceAlt
+          }}
+        >
+          {link.label}
+        </a>
+      ))}
+    </div>
+  </div>
+);
 
 export default function UseOfEnglishInline2() {
   const [selectedTest, setSelectedTest] = useState(null);
@@ -46,13 +89,14 @@ export default function UseOfEnglishInline2() {
   if (showIntro) {
     return (
       <div
-        className="min-h-screen flex items-center justify-center py-12 px-5"
+        className="min-h-screen flex items-center justify-center py-12 px-5 relative overflow-hidden"
         style={{
           background:
             "radial-gradient(circle at 20% 15%, rgba(43,182,168,0.18), transparent 45%), radial-gradient(circle at 85% 10%, rgba(246,194,114,0.18), transparent 35%), linear-gradient(145deg, #f6f2eb 0%, #eef3f8 55%, #f7f2ea 100%)",
           fontFamily: sans
         }}
       >
+        <Watermark />
         <div
           className="w-full max-w-5xl rounded-[32px] p-8 md:p-12 space-y-8 shadow-2xl"
           style={{
@@ -155,6 +199,7 @@ export default function UseOfEnglishInline2() {
               Iniciar
             </button>
           </div>
+          <FooterBrand />
         </div>
       </div>
     );
@@ -164,13 +209,14 @@ export default function UseOfEnglishInline2() {
   if (selectedTest === null) {
     return (
       <div
-        className="min-h-screen flex flex-col items-center py-10 px-4"
+        className="min-h-screen flex flex-col items-center py-10 px-4 relative overflow-hidden"
         style={{
           background:
             "radial-gradient(circle at 15% 15%, rgba(43,182,168,0.18), transparent 40%), radial-gradient(circle at 85% 10%, rgba(242,183,107,0.18), transparent 35%), linear-gradient(150deg, #f6f2eb 0%, #eef3f8 55%, #f7f2ea 100%)",
           fontFamily: sans
         }}
       >
+        <Watermark />
         <div className="w-full max-w-5xl">
           <div
             className="rounded-3xl p-8 md:p-10 mb-8 shadow-2xl"
@@ -388,6 +434,7 @@ export default function UseOfEnglishInline2() {
           <div className="mt-4 flex items-center justify-center gap-2 text-xs uppercase tracking-[0.3em]" style={{ color: palette.muted }}>
             <span>Use arrows to browse</span>
           </div>
+          <FooterBrand />
         </div>
       </div>
     );
@@ -418,13 +465,14 @@ export default function UseOfEnglishInline2() {
   if (!submitted) {
     return (
       <div
-        className="min-h-screen flex flex-col items-center py-10 px-4"
+        className="min-h-screen flex flex-col items-center py-10 px-4 relative overflow-hidden"
         style={{
           background:
             "radial-gradient(circle at 20% 10%, rgba(43,182,168,0.18), transparent 40%), linear-gradient(150deg, #f6f2eb 0%, #eef3f8 55%, #f7f2ea 100%)",
           fontFamily: sans
         }}
       >
+        <Watermark />
         <div className="w-full max-w-3xl space-y-6">
           <div className="flex items-center justify-between">
             <button
@@ -554,6 +602,7 @@ export default function UseOfEnglishInline2() {
             </button>
           </div>
         </div>
+        <FooterBrand />
       </div>
     );
   }
@@ -562,13 +611,14 @@ export default function UseOfEnglishInline2() {
   const perfect = score === total;
   return (
     <div
-      className="min-h-screen flex flex-col items-center py-10 px-4"
+      className="min-h-screen flex flex-col items-center py-10 px-4 relative overflow-hidden"
       style={{
         background:
           "radial-gradient(circle at 20% 10%, rgba(43,182,168,0.18), transparent 40%), linear-gradient(150deg, #f6f2eb 0%, #eef3f8 55%, #f7f2ea 100%)",
         fontFamily: sans
       }}
     >
+      <Watermark />
       <div className="w-full max-w-3xl space-y-6">
         <button
           onClick={resetQuiz}
@@ -688,6 +738,7 @@ export default function UseOfEnglishInline2() {
           )}
         </div>
       </div>
+      <FooterBrand />
     </div>
   );
 }

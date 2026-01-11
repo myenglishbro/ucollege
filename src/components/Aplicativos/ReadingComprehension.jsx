@@ -3,6 +3,46 @@ import exercises from "./data/readingExercises.json";
 
 const background = "from-[#051535] via-[#0a234f] to-[#0c2e63]";
 const accent = "#ffd200";
+const logoUrl = "https://i.ibb.co/C3kRtYQG/zxczx-2-1.png";
+const socialLinks = [
+  { label: "YouTube", href: "https://www.youtube.com/@myenglishbro" },
+  { label: "TikTok", href: "https://www.tiktok.com/@myenglishbro" },
+  { label: "Instagram", href: "https://www.instagram.com/myenglishbro" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/company/myenglishbro" }
+];
+
+const Watermark = () => (
+  <img
+    src={logoUrl}
+    alt=""
+    aria-hidden="true"
+    className="pointer-events-none select-none absolute -right-10 -bottom-6 w-[260px] md:w-[360px] opacity-10"
+    style={{ filter: "grayscale(1)" }}
+  />
+);
+
+const FooterBrand = () => (
+  <div className="w-full mt-10 pb-8 flex flex-col items-center gap-4 text-slate-200">
+    <div className="flex items-center gap-3 text-xs uppercase tracking-[0.25em]">
+      <span>Powered by</span>
+      <img src={logoUrl} alt="MyEnglishBro logo" className="h-6 w-auto" />
+    </div>
+    <div className="flex flex-wrap items-center justify-center gap-2">
+      {socialLinks.map(link => (
+        <a
+          key={link.label}
+          href={link.href}
+          target="_blank"
+          rel="noreferrer"
+          className="px-4 py-2 rounded-full text-xs font-semibold border border-white/20 bg-white/5 hover:bg-white/10 transition"
+          style={{ color: accent }}
+        >
+          {link.label}
+        </a>
+      ))}
+    </div>
+  </div>
+);
 
 const ReadingComprehension = () => {
   const [exerciseId, setExerciseId] = useState(exercises[0]?.id || "");
@@ -146,11 +186,13 @@ const ReadingComprehension = () => {
             >
               Iniciar
             </button>
+            <FooterBrand />
           </div>
         </div>
       ) : null}
 
       <div className="relative max-w-6xl mx-auto space-y-10 z-10">
+        <Watermark />
         {!showExercise ? (
           <section
             ref={setsRef}
@@ -200,6 +242,7 @@ const ReadingComprehension = () => {
                 </div>
               ))}
             </div>
+            <FooterBrand />
           </section>
         ) : null}
 
@@ -401,6 +444,7 @@ const ReadingComprehension = () => {
                   Limpiar respuestas
                 </button>
               </div>
+              <FooterBrand />
             </aside>
           </main>
         ) : null}
