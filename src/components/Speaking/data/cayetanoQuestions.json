@@ -1,0 +1,197 @@
+{
+  "levels": [
+    {
+      "id": 1,
+      "title": "Nivel 1",
+      "prep_time": 60,
+      "answer_time": 90,
+      "video": "https://youtu.be/I7gkgJ3Eg_k",
+      "questions": [
+        { "id": 1, 
+      "prompt": "You are at the International Welcome Fair at your university. You meet a new classmate from another country. Introduce yourself and talk about your personal information (name, age, country, and city), then talk about your studies and job, and finally describe the jobs of people in your family and what they do.",
+           "useful_verbs": [
+    "be",
+    "study",
+    "work",
+    "like",
+    "live",
+    "have",
+    "do","get up"
+  ],   
+      "model_answer_b2": "Hello! Nice to meet you. My name is Ana and I am 20 years old. I am from Peru, and I live in Lima. I am a student at Cayetano Heredia University. I study Psychology and I am in my second year. I like my program because it is interesting and helps people. At the moment, I don’t work; I only study.\n\nThere are four people in my family. My father is an engineer and he works in a construction company. My mother is a nurse and she works in a hospital. I have one brother. He is a student and studies Engineering. During the week, we all get up early and work or study. My family is very hardworking."
+ },
+        { "id": 2, "prompt": "Prompt 2", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 3, "prompt": "Prompt 3", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 4, "prompt": "Prompt 4", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 5, "prompt": "Prompt 5", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 6, "prompt": "Prompt 6", "useful_verbs": [], "model_answer_b2": "" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Nivel 2",
+      "prep_time": 60,
+      "answer_time": 90,
+      "video": "",
+      "questions": [
+        { "id": 1, "prompt": "Prompt 1", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 2, "prompt": "Prompt 2", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 3, "prompt": "Prompt 3", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 4, "prompt": "Prompt 4", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 5, "prompt": "Prompt 5", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 6, "prompt": "Prompt 6", "useful_verbs": [], "model_answer_b2": "" }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Nivel 3",
+      "prep_time": 60,
+      "answer_time": 90,
+      "video": "",
+      "questions": [
+        { "id": 1, "prompt": "Prompt 1", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 2, "prompt": "Prompt 2", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 3, "prompt": "Prompt 3", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 4, "prompt": "Prompt 4", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 5, "prompt": "Prompt 5", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 6, "prompt": "Prompt 6", "useful_verbs": [], "model_answer_b2": "" }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Nivel 4",
+      "prep_time": 60,
+      "answer_time": 90,
+      "video": "",
+      "questions": [
+        { "id": 1, "prompt": "Prompt 1", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 2, "prompt": "Prompt 2", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 3, "prompt": "Prompt 3", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 4, "prompt": "Prompt 4", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 5, "prompt": "Prompt 5", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 6, "prompt": "Prompt 6", "useful_verbs": [], "model_answer_b2": "" }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Nivel 5",
+      "prep_time": 60,
+      "answer_time": 90,
+      "video": "",
+      "questions": [
+        { "id": 1, "prompt": "Prompt 1", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 2, "prompt": "Prompt 2", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 3, "prompt": "Prompt 3", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 4, "prompt": "Prompt 4", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 5, "prompt": "Prompt 5", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 6, "prompt": "Prompt 6", "useful_verbs": [], "model_answer_b2": "" }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Nivel 6",
+      "prep_time": 60,
+      "answer_time": 90,
+      "video": "",
+      "questions": [
+        { "id": 1, "prompt": "Prompt 1", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 2, "prompt": "Prompt 2", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 3, "prompt": "Prompt 3", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 4, "prompt": "Prompt 4", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 5, "prompt": "Prompt 5", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 6, "prompt": "Prompt 6", "useful_verbs": [], "model_answer_b2": "" }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Nivel 7",
+      "prep_time": 60,
+      "answer_time": 90,
+      "video": "",
+      "questions": [
+        { "id": 1, "prompt": "Prompt 1", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 2, "prompt": "Prompt 2", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 3, "prompt": "Prompt 3", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 4, "prompt": "Prompt 4", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 5, "prompt": "Prompt 5", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 6, "prompt": "Prompt 6", "useful_verbs": [], "model_answer_b2": "" }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Nivel 8",
+      "prep_time": 60,
+      "answer_time": 90,
+      "video": "",
+      "questions": [
+        { "id": 1, "prompt": "Prompt 1", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 2, "prompt": "Prompt 2", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 3, "prompt": "Prompt 3", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 4, "prompt": "Prompt 4", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 5, "prompt": "Prompt 5", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 6, "prompt": "Prompt 6", "useful_verbs": [], "model_answer_b2": "" }
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Nivel 9",
+      "prep_time": 60,
+      "answer_time": 90,
+      "video": "",
+      "questions": [
+        { "id": 1, "prompt": "Prompt 1", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 2, "prompt": "Prompt 2", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 3, "prompt": "Prompt 3", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 4, "prompt": "Prompt 4", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 5, "prompt": "Prompt 5", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 6, "prompt": "Prompt 6", "useful_verbs": [], "model_answer_b2": "" }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Nivel 10",
+      "prep_time": 60,
+      "answer_time": 90,
+      "video": "",
+      "questions": [
+        { "id": 1, "prompt": "Prompt 1", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 2, "prompt": "Prompt 2", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 3, "prompt": "Prompt 3", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 4, "prompt": "Prompt 4", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 5, "prompt": "Prompt 5", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 6, "prompt": "Prompt 6", "useful_verbs": [], "model_answer_b2": "" }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Nivel 11",
+      "prep_time": 60,
+      "answer_time": 90,
+      "video": "",
+      "questions": [
+        { "id": 1, "prompt": "Prompt 1", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 2, "prompt": "Prompt 2", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 3, "prompt": "Prompt 3", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 4, "prompt": "Prompt 4", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 5, "prompt": "Prompt 5", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 6, "prompt": "Prompt 6", "useful_verbs": [], "model_answer_b2": "" }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Nivel 12",
+      "prep_time": 60,
+      "answer_time": 90,
+      "video": "",
+      "questions": [
+        { "id": 1, "prompt": "Prompt 1", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 2, "prompt": "Prompt 2", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 3, "prompt": "Prompt 3", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 4, "prompt": "Prompt 4", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 5, "prompt": "Prompt 5", "useful_verbs": [], "model_answer_b2": "" },
+        { "id": 6, "prompt": "Prompt 6", "useful_verbs": [], "model_answer_b2": "" }
+      ]
+    }
+  ]
+}
+

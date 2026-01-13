@@ -74,6 +74,7 @@ import InicioJuan from "./components/Login/LoginJuan/InicioJuan.jsx";
 import InicioB2C from "./components/Login/LoginB2C/InicioB2C.jsx";
 import InicioC from "./components/Login/LoginCelpip/InicioCelpip.jsx";
 import CELPIPSpeaking from "./components/Speaking/CELPIPSpeaking.jsx";
+import SpeakingCayetano from "./components/Speaking/SpeakingCayetano.jsx";
 import CELPIPSpeaking2 from "./components/Speaking/CELPIPSpeaking2.jsx";
 import CELPIPSpeaking3 from "./components/Speaking/CELPIPSpeaking3.jsx";
 import CELPIPSpeaking4 from "./components/Speaking/CELPIPSpeaking4.jsx";
@@ -145,7 +146,8 @@ function App() {
           <Route path="/devs" element={<MultiLevelQuiz4 />}></Route>
 
           <Route path="/Celpip" element={<InicioC />}></Route>
-          <Route path="/s-part1" element={<CELPIPSpeaking />}></Route>
+          <Route path="/s-part1" element={<CELPIPSpeaking/>}></Route> 
+            <Route path="/s-cayetano" element={<SpeakingCayetano/>}></Route>
           <Route path="/s-part2" element={<CELPIPSpeaking3 />}></Route>
 
                     <Route path="/task02" element={<CELPIPSpeaking2 />}></Route>
@@ -235,3 +237,6 @@ function App() {
 }
 
 export default App;
+
+
+
