@@ -19,7 +19,7 @@ const palette = {
 };
 const serif = "var(--font-grotesk), 'Sora', 'Arial', sans-serif";
 const sans = "var(--font-sora), 'Sora', 'Arial', sans-serif";
-const logoUrl = "https://idiomas.cayetano.edu.pe/wp-content/uploads/sites/14/2023/06/logo-idiomas-240x99.png";
+const logoUrl = "https://idiomas.ucontinental.edu.pe/nw/wp-content/uploads/2025/10/NEGRO-1.png";
 const socialLinks = [
   { label: "YouTube", href: "https://www.youtube.com/@myenglishbro" },
   { label: "TikTok", href: "https://www.tiktok.com/@myenglishbro" },
@@ -75,9 +75,12 @@ export default function SpeakingCayetano() {
   const [isPaused, setIsPaused] = useState(false);
   const [startTime, setStartTime] = useState(null);
   const [endTime, setEndTime] = useState(null);
+  const [audioUrl, setAudioUrl] = useState("");
   const recognitionRef = useRef(null);
   const lastSpeechAtRef = useRef(0);
   const pauseActiveRef = useRef(false);
+  const mediaRecorderRef = useRef(null);
+  const audioStreamRef = useRef(null);
 
   const levels = levelsData.levels || [];
   const level = selectedLevel !== null ? levels[selectedLevel] : null;
@@ -99,10 +102,12 @@ export default function SpeakingCayetano() {
         setStartTime(new Date());
         setEndTime(null);
         startRecognition();
+        startRecording();
       } else if (step === "answer") {
         setStep("finished");
         setEndTime(new Date());
         stopRecognition();
+        stopRecording();
       }
       return;
     }
@@ -125,6 +130,13 @@ export default function SpeakingCayetano() {
     }, 500);
     return () => clearInterval(tick);
   }, [step]);
+
+  useEffect(() => {
+    return () => {
+      if (audioUrl) URL.revokeObjectURL(audioUrl);
+      stopRecording();
+    };
+  }, [audioUrl]);
 
   const startRecognition = () => {
     const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
@@ -161,6 +173,41 @@ export default function SpeakingCayetano() {
     if (recognitionRef.current) recognitionRef.current.stop();
     setIsPaused(false);
   };
+  const startRecording = async () => {
+    if (!navigator.mediaDevices?.getUserMedia) return;
+    if (mediaRecorderRef.current?.state === "recording") return;
+    if (audioUrl) {
+      URL.revokeObjectURL(audioUrl);
+      setAudioUrl("");
+    }
+    try {
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      audioStreamRef.current = stream;
+      const recorder = new MediaRecorder(stream);
+      const chunks = [];
+      recorder.ondataavailable = (event) => {
+        if (event.data.size > 0) chunks.push(event.data);
+      };
+      recorder.onstop = () => {
+        const blob = new Blob(chunks, { type: recorder.mimeType || "audio/webm" });
+        const url = URL.createObjectURL(blob);
+        setAudioUrl(url);
+      };
+      recorder.start();
+      mediaRecorderRef.current = recorder;
+    } catch (error) {
+      // Ignore if permissions are blocked.
+    }
+  };
+  const stopRecording = () => {
+    if (mediaRecorderRef.current?.state === "recording") {
+      mediaRecorderRef.current.stop();
+    }
+    if (audioStreamRef.current) {
+      audioStreamRef.current.getTracks().forEach(track => track.stop());
+      audioStreamRef.current = null;
+    }
+  };
 
   const goNext = () => {
     stopRecognition();
@@ -170,6 +217,8 @@ export default function SpeakingCayetano() {
     setIsPaused(false);
     setStartTime(null);
     setEndTime(null);
+    setAudioUrl("");
+    stopRecording();
     setStep("prep");
     setTimer(prepTime);
     setQuestionIndex(i => (i < questions.length - 1 ? i + 1 : 0));
@@ -182,6 +231,8 @@ export default function SpeakingCayetano() {
     setIsPaused(false);
     setStartTime(null);
     setEndTime(null);
+    setAudioUrl("");
+    stopRecording();
     setStep("prep");
     setTimer(prepTime);
     setQuestionIndex(i => (i > 0 ? i - 1 : questions.length - 1));
@@ -194,6 +245,8 @@ export default function SpeakingCayetano() {
     setIsPaused(false);
     setStartTime(null);
     setEndTime(null);
+    setAudioUrl("");
+    stopRecording();
     setStep("prep");
     setTimer(DEFAULT_PREP_TIME);
     setQuestionIndex(0);
@@ -262,11 +315,11 @@ export default function SpeakingCayetano() {
             <img
               src={logoUrl}
               alt="MyEnglishBro logo"
-              className="h-10 md:h-12 w-auto"
+              className="h-13 md:h-12 w-auto"
               style={{ filter: "drop-shadow(0 8px 18px rgba(12,19,42,0.12))" }}
             />
             <p className="text-xs uppercase tracking-[0.3em] font-semibold" style={{ color: palette.accent }}>
-              Speaking Cayetano
+              Speaking Continental
             </p>
             <h1
               className="text-3xl md:text-5xl font-semibold leading-tight"
@@ -292,6 +345,8 @@ export default function SpeakingCayetano() {
                   setIsPaused(false);
                   setStartTime(null);
                   setEndTime(null);
+                  setAudioUrl("");
+                  stopRecording();
                   setStep("prep");
                   setTimer(lvl?.prep_time ?? DEFAULT_PREP_TIME);
                 }}
@@ -396,10 +451,10 @@ export default function SpeakingCayetano() {
             <img
               src={logoUrl}
               alt="MyEnglishBro logo"
-              style={{ height: 24, width: "auto" }}
+              style={{ height: 27, width: "auto" }}
             />
             <span>
-              <span className="celp-primary">Speaking Cayetano</span> - Level {selectedLevel + 1}
+              <span className="celp-primary">Speaking Continental</span> - Level {selectedLevel + 1}
             </span>
           </div>
           <div className="celp-metrics">
@@ -540,6 +595,18 @@ export default function SpeakingCayetano() {
                 >
                   COPY TRANSCRIPTION
                 </button>
+                {audioUrl && (
+                  <>
+                    <audio controls src={audioUrl} className="h-9" />
+                    <a
+                      className="btn btn-back"
+                      href={audioUrl}
+                      download={`cayetano-level-${selectedLevel + 1}-q-${questionIndex + 1}.webm`}
+                    >
+                      DOWNLOAD AUDIO
+                    </a>
+                  </>
+                )}
               </div>
             </div>
           )}
@@ -555,4 +622,3 @@ export default function SpeakingCayetano() {
     </div>
   );
 }
-
