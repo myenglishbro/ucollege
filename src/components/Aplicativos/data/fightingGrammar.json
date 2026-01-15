@@ -1,45 +1,87 @@
 {
   "victoryCode": "FIGHT-B2-READY",
-  "questions": [
+  "levels": [
     {
-      "question": "If she ____ earlier, she wouldn't be rushing now.",
-      "options": ["left", "had left", "was leaving", "would leave"],
-      "answer": "had left"
+      "id": "dock",
+      "title": "Dockside Spar",
+      "boss": "Captain Past",
+      "bossTitle": "Past Tense",
+      "taunt": "You better respect the timeline.",
+      "timeLimit": 12,
+      "bossHP": 85,
+      "rewardCode": "PAST-LOCK",
+      "bossImage": "https://i.ibb.co/7yK1S6c/boss-past.png",
+      "bossHurtImage": "https://i.ibb.co/VBNq6Tj/boss-past-hurt.png",
+      "questions": [
+        {
+          "question": "If she ____ earlier, she wouldn't be rushing now.",
+          "options": ["left", "had left", "was leaving", "would leave"],
+          "answer": "had left"
+        },
+        {
+          "question": "They insisted ____ paying for the entire meal.",
+          "options": ["in", "to", "on", "about"],
+          "answer": "on"
+        },
+        {
+          "question": "Hardly ____ the ceremony begun when the lights went out.",
+          "options": ["had", "has", "did", "was"],
+          "answer": "had"
+        }
+      ]
     },
     {
-      "question": "They insisted ____ paying for the entire meal.",
-      "options": ["in", "to", "on", "about"],
-      "answer": "on"
+      "id": "forge",
+      "title": "Grammar Forge",
+      "boss": "Lady Condition",
+      "bossTitle": "If-Clauses",
+      "taunt": "Choose wisely, or get burned.",
+      "timeLimit": 11,
+      "bossHP": 95,
+      "rewardCode": "IF-BLADE",
+      "bossImage": "https://i.ibb.co/7yK1S6c/boss-past.png",
+      "bossHurtImage": "https://i.ibb.co/VBNq6Tj/boss-past-hurt.png",
+      "questions": [
+        {
+          "question": "By the time we arrive, the film ____ for twenty minutes.",
+          "options": ["will have started", "has started", "is starting", "started"],
+          "answer": "will have started"
+        },
+        {
+          "question": "It's high time you ____ your thesis draft.",
+          "options": ["finish", "finished", "had finished", "have finished"],
+          "answer": "finished"
+        },
+        {
+          "question": "Not only ____ the deadline, but he also added extra analysis.",
+          "options": ["did he meet", "he met", "met he", "does he meet"],
+          "answer": "did he meet"
+        }
+      ]
     },
     {
-      "question": "Hardly ____ the ceremony begun when the lights went out.",
-      "options": ["had", "has", "did", "was"],
-      "answer": "had"
-    },
-    {
-      "question": "By the time we arrive, the film ____ for twenty minutes.",
-      "options": ["will have started", "has started", "is starting", "started"],
-      "answer": "will have started"
-    },
-    {
-      "question": "It's high time you ____ your thesis draft.",
-      "options": ["finish", "finished", "had finished", "have finished"],
-      "answer": "finished"
-    },
-    {
-      "question": "Not only ____ the deadline, but he also added extra analysis.",
-      "options": ["did he meet", "he met", "met he", "does he meet"],
-      "answer": "did he meet"
-    },
-    {
-      "question": "Should you ____ any issues, let me know immediately.",
-      "options": ["encounter", "encountered", "encountering", "to encounter"],
-      "answer": "encounter"
-    },
-    {
-      "question": "We'd better leave now, ____ we might miss the last train.",
-      "options": ["otherwise", "although", "despite", "unless"],
-      "answer": "otherwise"
+      "id": "spire",
+      "title": "Syntax Spire",
+      "boss": "The Inverter",
+      "bossTitle": "Inversions",
+      "taunt": "Order matters. I will twist you.",
+      "timeLimit": 10,
+      "bossHP": 110,
+      "rewardCode": "INVERT-KEY",
+      "bossImage": "https://i.ibb.co/7yK1S6c/boss-past.png",
+      "bossHurtImage": "https://i.ibb.co/VBNq6Tj/boss-past-hurt.png",
+      "questions": [
+        {
+          "question": "Should you ____ any issues, let me know immediately.",
+          "options": ["encounter", "encountered", "encountering", "to encounter"],
+          "answer": "encounter"
+        },
+        {
+          "question": "We'd better leave now, ____ we might miss the last train.",
+          "options": ["otherwise", "although", "despite", "unless"],
+          "answer": "otherwise"
+        }
+      ]
     }
   ]
 }
