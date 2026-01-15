@@ -1,14 +1,14 @@
-import React, { useEffect, useMemo, useRef, useState } from "react";
+import React, { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import vocabJSON from "../data/celpip_vocab.json"; // JSON local junto al componente
 
-// ✨ VocabTrainer — Dark Premium (azules)
+// Ã¢Å“Â¨ VocabTrainer Ã¢â‚¬â€ Dark Premium (azules)
 // Cambios:
 // - FIX: bloqueo al hacer click en Collocations (rehecho como bloque inline dentro de Study)
-// - UI: Collocations ahora va JUNTO a la información de la palabra
-// - Ejemplos: soporta `examples` (array) además de `example`
-// - Menú: Tipo → Categoría (solo Study / Practice)
+// - UI: Collocations ahora va JUNTO a la informaciÃƒÂ³n de la palabra
+// - Ejemplos: soporta `examples` (array) ademÃƒÂ¡s de `example`
+// - MenÃƒÂº: Tipo Ã¢â€ â€™ CategorÃƒÂ­a (solo Study / Practice)
 
-const TABS = ["Study", "Practice"]; // quitamos la pestaña Collocations separada
+const TABS = ["Study", "Practice"]; // quitamos la pestaÃƒÂ±a Collocations separada
 
 function similarity(a, b) {
   const s1 = (a || "").trim().toLowerCase();
@@ -22,7 +22,7 @@ export default function VocabTrainer({ data }) {
   // Datos: props > JSON importado
   const [vocab] = useState(Array.isArray(data) ? data : (vocabJSON || []));
 
-  // Estado global de práctica
+  // Estado global de prÃƒÂ¡ctica
   const [tab, setTab] = useState("Study");
   const [filter, setFilter] = useState("All");
   const [index, setIndex] = useState(0);
@@ -33,7 +33,10 @@ export default function VocabTrainer({ data }) {
 
   // Input focus en Practice
   const practiceRef = useRef(null);
-  const focusInput = () => requestAnimationFrame(() => practiceRef.current?.focus());
+  const focusInput = useCallback(
+    () => requestAnimationFrame(() => practiceRef.current?.focus()),
+    []
+  );
 
   // Derivados
   const topics = useMemo(() => Array.from(new Set((vocab || []).map(x => x.topic))).sort(), [vocab]);
@@ -41,6 +44,30 @@ export default function VocabTrainer({ data }) {
   const it = items.length ? items[index % items.length] : null;
 
   useEffect(() => { setIndex(0); }, [filter]);
+
+  const grade = useCallback(
+    (ok) => setSession(s => ({ total: s.total + 1, correct: s.correct + (ok ? 1 : 0) })),
+    []
+  );
+
+  const next = useCallback(() => {
+    if (!items.length) return;
+    setAns("");
+    setFeedback("");
+    setHintStep(0);
+    setIndex(v => (v + 1) % items.length);
+  }, [items.length]);
+
+  const cycleHint = useCallback(() => {
+    setHintStep(h => (h + 1) % 3);
+  }, []);
+
+  const handleCheck = useCallback(() => {
+    if (!it) return;
+    const ok = similarity(ans, it.word) === 1;
+    grade(ok);
+    setFeedback(ok ? "Ã†â€™o. Correcto" : `Ã†â€™?O Era: ${it.word}`);
+  }, [ans, grade, it]);
 
   // Hotkeys globales (no interceptar cuando se escribe)
   useEffect(() => {
@@ -65,23 +92,10 @@ export default function VocabTrainer({ data }) {
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [tab, filter, items.length, handleCheck, next, cycleHint, focusInput]);
+  }, [tab, handleCheck, next, cycleHint, focusInput]);
 
-  // Acciones
-  function next() {
-    if (!items.length) return;
-    setAns("");
-    setFeedback("");
-    setHintStep(0);
-    setIndex(v => (v + 1) % items.length);
-  }
 
-  const grade = (ok) => setSession(s => ({ total: s.total + 1, correct: s.correct + (ok ? 1 : 0) }));
-  function cycleHint() {
-    setHintStep(h => (h + 1) % 3);
-  }
-
-  // ── UI blocks ────────────────────────────────────────────────────────────────
+  // Ã¢â€â‚¬Ã¢â€â‚¬ UI blocks Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
   const Shell = ({ children }) => (
     <div className="min-h-screen bg-gradient-to-b from-slate-950 to-slate-900 text-slate-100">
       <div className="max-w-6xl mx-auto p-6 grid grid-cols-1 md:grid-cols-[240px_1fr] gap-6">
@@ -90,7 +104,7 @@ export default function VocabTrainer({ data }) {
           <Header />
           {children}
           <footer className="mt-10 text-xs text-slate-400">
-            Atajos: <b>Enter</b> comprobar · <b>Ctrl+→</b> siguiente · <b>Ctrl+H</b> pista.
+            Atajos: <b>Enter</b> comprobar Ã‚Â· <b>Ctrl+Ã¢â€ â€™</b> siguiente Ã‚Â· <b>Ctrl+H</b> pista.
           </footer>
         </main>
       </div>
@@ -159,7 +173,7 @@ export default function VocabTrainer({ data }) {
       <div className="rounded-2xl border border-slate-800 bg-slate-900/60">
         <button className="w-full flex items-center justify-between px-4 py-3 text-left text-slate-100 hover:bg-slate-800/60 rounded-2xl" onClick={() => setOpen(o => !o)}>
           <span className="font-medium">{title}</span>
-          <span className="text-slate-400">{open ? "–" : "+"}</span>
+          <span className="text-slate-400">{open ? "Ã¢â‚¬â€œ" : "+"}</span>
         </button>
         {open && <div className="px-2 pb-3 space-y-1">{children}</div>}
       </div>
@@ -177,7 +191,7 @@ export default function VocabTrainer({ data }) {
     );
   }
 
-  // ── Utilidades de ejemplos de colocaciones ───────────────────────────────
+  // Ã¢â€â‚¬Ã¢â€â‚¬ Utilidades de ejemplos de colocaciones Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
   function templateByTopic(topic = "", coll = "") {
     const t = String(topic).toLowerCase();
     if (t.includes("housing")) return `The building offers ${coll}.`;
@@ -205,7 +219,7 @@ export default function VocabTrainer({ data }) {
     return out;
   }
 
-  // ── Modos ───────────────────────────────────────────────────────────────────
+  // Ã¢â€â‚¬Ã¢â€â‚¬ Modos Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬
   const Study = () => {
     if (!it) return <EmptyState />;
     const examples = (it.examples && it.examples.length ? it.examples : [it.example]).filter(Boolean);
@@ -248,7 +262,7 @@ export default function VocabTrainer({ data }) {
         </Card>
 
         <div className="flex gap-2">
-          <button className="px-4 py-2 rounded-xl border border-slate-700 bg-slate-800 text-slate-100 hover:border-slate-600" onClick={() => { next(); focusInput(); }}>Siguiente →</button>
+          <button className="px-4 py-2 rounded-xl border border-slate-700 bg-slate-800 text-slate-100 hover:border-slate-600" onClick={() => { next(); focusInput(); }}>Siguiente Ã¢â€ â€™</button>
         </div>
       </div>
     );
@@ -259,7 +273,7 @@ export default function VocabTrainer({ data }) {
     const hints = [
       `ES: ${it.meaning_es}`,
       `Ejemplo: ${String((it.examples && it.examples[0]) || it.example || "").replace(new RegExp(it.word || "", "i"), "_____")}`,
-      `Inicial: ${String(it.word || "").slice(0, 1).toUpperCase()}…`,
+      `Inicial: ${String(it.word || "").slice(0, 1).toUpperCase()}Ã¢â‚¬Â¦`,
     ];
 
     const handle = () => handleCheck();
@@ -273,31 +287,23 @@ export default function VocabTrainer({ data }) {
           ref={practiceRef}
           autoFocus
           className="px-4 py-3 rounded-xl border border-slate-700 bg-slate-800 text-slate-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
-          placeholder="Escribe la palabra en inglés"
+          placeholder="Escribe la palabra en inglÃƒÂ©s"
           value={ans}
           onChange={(e) => setAns(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && handle()}
         />
         <div className="flex gap-2">
           <button className="px-4 py-2 rounded-xl border border-blue-500 bg-blue-600 text-white hover:bg-blue-500" onClick={handle}>Comprobar (Enter)</button>
-          <button className="px-4 py-2 rounded-xl border border-slate-700 bg-slate-800 text-slate-100 hover:border-slate-600" onClick={() => { next(); focusInput(); }}>Siguiente (Ctrl→)</button>
+          <button className="px-4 py-2 rounded-xl border border-slate-700 bg-slate-800 text-slate-100 hover:border-slate-600" onClick={() => { next(); focusInput(); }}>Siguiente (CtrlÃ¢â€ â€™)</button>
           <button className="px-4 py-2 rounded-xl border border-slate-700 bg-slate-800 text-slate-100 hover:border-slate-600" onClick={() => { cycleHint(); focusInput(); }}>Otra pista (Ctrl+H)</button>
         </div>
-        {feedback && <div className={`text-sm ${feedback.startsWith("✅") ? "text-green-400" : "text-rose-400"}`}>{feedback}</div>}
+        {feedback && <div className={`text-sm ${feedback.startsWith("Ã¢Å“â€¦") ? "text-green-400" : "text-rose-400"}`}>{feedback}</div>}
       </div>
     );
   };
 
   function EmptyState() {
-    return <Card><div className="text-slate-300">No hay ítems para este filtro.</div></Card>;
-  }
-
-  // Handlers (Practice)
-  function handleCheck() {
-    if (!it) return;
-    const ok = similarity(ans, it.word) === 1;
-    grade(ok);
-    setFeedback(ok ? "✅ Correcto" : `❌ Era: ${it.word}`);
+    return <Card><div className="text-slate-300">No hay ÃƒÂ­tems para este filtro.</div></Card>;
   }
 
   // Render

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { motion } from 'framer-motion';
 import presetData from './Aplicativos/data/fightingGrammar.json';
 
@@ -169,15 +169,15 @@ const FightingGrammar = () => {
     return levelsList.map(level => level.id).filter(id => storedSet.has(id));
   };
 
-  const persistUnlocked = (ids) => {
+  const persistUnlocked = useCallback((ids) => {
     try {
       localStorage.setItem(STORAGE_KEY, JSON.stringify(ids));
     } catch (err) {
       // Ignore storage errors.
     }
-  };
+  }, []);
 
-  const unlockLevel = (id) => {
+  const unlockLevel = useCallback((id) => {
     if (!id) return;
     setUnlockedLevels(prev => {
       const next = new Set(prev);
@@ -186,9 +186,9 @@ const FightingGrammar = () => {
       persistUnlocked(arr);
       return arr;
     });
-  };
+  }, [persistUnlocked]);
 
-  const resetToMenu = () => {
+  const resetToMenu = useCallback(() => {
     setEndState(null);
     setLevels([]);
     setUnlockedLevels([]);
@@ -205,7 +205,7 @@ const FightingGrammar = () => {
     setShowUnlockModal(false);
     setPendingUnlockIndex(null);
     setShowHelp(false);
-  };
+  }, []);
 
   const startWithPreset = () => {
     const presetLevels = presetData.levels
@@ -223,7 +223,7 @@ const FightingGrammar = () => {
     setEndState(null);
   };
 
-  const endGame = (state) => {
+  const endGame = useCallback((state) => {
     if (state === 'lose') {
       resetToMenu();
       return;
@@ -231,9 +231,9 @@ const FightingGrammar = () => {
     setEndState(state);
     setCountdown(COUNTDOWN_START);
     setPhase('end');
-  };
+  }, [resetToMenu]);
 
-  const nextQuestion = () => {
+  const nextQuestion = useCallback(() => {
     const level = levels[levelIndex];
     if (!level) return;
     const next = (qIndex + 1) % level.questions.length;
@@ -242,9 +242,9 @@ const FightingGrammar = () => {
     const baseTime = level.timeLimit || COUNTDOWN_START;
     setTimer(bossHP <= 30 ? Math.max(6, baseTime - 3) : baseTime);
     setFeedback(null);
-  };
+  }, [bossHP, levelIndex, levels, qIndex]);
 
-  const handleAnswer = (opt, options = {}) => {
+  const handleAnswer = useCallback((opt, options = {}) => {
     if (!currentQ || endState || phase !== 'fight') return;
     const level = levels[levelIndex];
     const timeLimit = level?.timeLimit || COUNTDOWN_START;
@@ -274,7 +274,7 @@ const FightingGrammar = () => {
     }
 
     setTimeout(nextQuestion, 700);
-  };
+  }, [currentQ, endGame, endState, levelIndex, levels, nextQuestion, phase, timer, bossHP, combo]);
 
   useEffect(() => {
     if (!levels.length) return;

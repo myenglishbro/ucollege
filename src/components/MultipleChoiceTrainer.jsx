@@ -17,7 +17,7 @@ export default function MultipleChoiceTrainer() {
     if (currentIndex >= questions.length && questions.length > 0) setFinished(true);
   }, [currentIndex, questions.length]);
 
-  const parseTXT = text => {
+  const parseTXT = useCallback(text => {
     const pattern = /E:\s*(.*?)\s*[\r\n]+O:\s*(.*?)\s*[\r\n]+A:\s*(.*?)\s*[\r\n]+N:\s*(.*?)(?=\nE:|$)/gs;
     return [...text.matchAll(pattern)].map(m => ({
       error: m[1].trim(),
@@ -25,9 +25,9 @@ export default function MultipleChoiceTrainer() {
       answer: m[3].trim(),
       note: m[4]?.trim() || ''
     }));
-  };
+  }, []);
 
-  const base64ToUtf8 = b64 => {
+  const base64ToUtf8 = useCallback(b64 => {
     try {
       const clean = b64.replace(/\s/g, '');
       const bin = atob(clean);
@@ -36,9 +36,21 @@ export default function MultipleChoiceTrainer() {
     } catch {
       return b64;
     }
-  };
+  }, []);
 
-  const handleUpload = async file => {
+  const resetState = useCallback(clear => {
+    if (clear) setQuestions([]);
+    setCurrentIndex(0);
+    setFeedback('');
+    setStreak(0);
+    setMaxStreak(0);
+    setFinished(false);
+    setSelectedOption(null);
+    setShowSettings(clear);
+    setAnswersLog([]);
+  }, []);
+
+  const handleUpload = useCallback(async file => {
     if (!file) return;
     let raw = await file.text();
     raw = base64ToUtf8(raw);
@@ -50,7 +62,7 @@ export default function MultipleChoiceTrainer() {
     setQuestions(loaded);
     setAnswersLog([]);
     resetState(false);
-  };
+  }, [base64ToUtf8, parseTXT, resetState]);
 
   const handleFileChange = e => handleUpload(e.target.files[0]);
 
@@ -66,18 +78,6 @@ export default function MultipleChoiceTrainer() {
     e.preventDefault();
     setDragActive(state);
   }, []);
-
-  const resetState = clear => {
-    if (clear) setQuestions([]);
-    setCurrentIndex(0);
-    setFeedback('');
-    setStreak(0);
-    setMaxStreak(0);
-    setFinished(false);
-    setSelectedOption(null);
-    setShowSettings(clear);
-    setAnswersLog([]);
-  };
 
   const handleAnswer = choice => {
     const q = questions[currentIndex];

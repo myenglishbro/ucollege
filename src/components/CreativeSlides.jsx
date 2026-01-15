@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 // fallback accordion component in case import fails
 const Accordion = ({ children }) => <div className="space-y-2">{children}</div>;
@@ -74,13 +74,13 @@ export default function CreativeSlides() {
     }
   };
 
-  const nextSlide = () => {
+  const nextSlide = useCallback(() => {
     setCurrentIndex((prev) => (prev + 1 < slides.length ? prev + 1 : prev));
-  };
+  }, [slides.length]);
 
-  const prevSlide = () => {
+  const prevSlide = useCallback(() => {
     setCurrentIndex((prev) => (prev - 1 >= 0 ? prev - 1 : prev));
-  };
+  }, [slides.length]);
 
   const toggleOpen = (key) => {
     setOpenSections((prev) => ({

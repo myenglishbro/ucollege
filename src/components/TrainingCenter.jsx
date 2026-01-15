@@ -1,5 +1,5 @@
 // TrainingCenter.jsx
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import confetti from 'canvas-confetti';
 
@@ -70,7 +70,7 @@ const TrainingCenter = () => {
   };
 
   // Answer checking
-  const checkAnswer = () => {
+  const checkAnswer = useCallback(() => {
     const user = input.trim();
     const correct = flashcards[current].answer.trim();
     const isCorrect = user.toLowerCase() === correct.toLowerCase();
@@ -100,7 +100,7 @@ const TrainingCenter = () => {
         clearInterval(timerRef.current);
       }
     }, 1500);
-  };
+  }, [current, flashcards, input, streak, userAnswers]);
 
   // Timer effect
   useEffect(() => {

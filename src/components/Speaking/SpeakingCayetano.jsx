@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect, useRef, useCallback } from "react";
 import levelsData from "./data/cayetanoQuestions.json";
 
 const DEFAULT_PREP_TIME = 60;
@@ -92,7 +92,7 @@ export default function SpeakingCayetano() {
   const elapsed = step === "finished" ? totalThisPhase : totalThisPhase - timer;
   const progressPct = Math.min(100, Math.max(0, (elapsed / totalThisPhase) * 100));
 
-  const startRecognition = () => {
+  const startRecognition = useCallback(() => {
     const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
     if (!SR) {
       lastSpeechAtRef.current = Date.now();
@@ -122,12 +122,14 @@ export default function SpeakingCayetano() {
     pauseActiveRef.current = false;
     setIsPaused(false);
     rec.start();
-  };
-  const stopRecognition = () => {
+  }, []);
+
+  const stopRecognition = useCallback(() => {
     if (recognitionRef.current) recognitionRef.current.stop();
     setIsPaused(false);
-  };
-  const startRecording = async () => {
+  }, []);
+
+  const startRecording = useCallback(async () => {
     if (!navigator.mediaDevices?.getUserMedia) return;
     if (mediaRecorderRef.current?.state === "recording") return;
     if (audioUrl) {
@@ -152,8 +154,9 @@ export default function SpeakingCayetano() {
     } catch (error) {
       // Ignore if permissions are blocked.
     }
-  };
-  const stopRecording = () => {
+  }, [audioUrl]);
+
+  const stopRecording = useCallback(() => {
     if (mediaRecorderRef.current?.state === "recording") {
       mediaRecorderRef.current.stop();
     }
@@ -161,7 +164,7 @@ export default function SpeakingCayetano() {
       audioStreamRef.current.getTracks().forEach(track => track.stop());
       audioStreamRef.current = null;
     }
-  };
+  }, []);
 
   useEffect(() => {
     if (selectedLevel === null) return;

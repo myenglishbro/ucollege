@@ -83,11 +83,6 @@ const [codeInputForPopup, setCodeInputForPopup] = useState("");
     setIsTimerRunning(false);
   };
 
-  const calculateProgress = () => {
-    const totalItems = road.reduce((sum, item) => sum + item.enlaces.length, 0);
-    return totalItems > 0 ? Math.round((viewedItems.length / totalItems) * 100) : 0;
-  };
-
   const handleSelect = (index) => {
     setSelectedIndex(index);
     seleccionarNivel(index);

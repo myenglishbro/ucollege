@@ -26,7 +26,7 @@ export default function SixtyType() {
     return () => clearTimeout(timeout);
   }, []);
 
-  const parseFlashcards = encodedText => {
+    const parseFlashcards = useCallback((encodedText) => {
     try {
       const decoded = atob(encodedText);
       const pattern = /P:\s*([\s\S]*?)\s*R:\s*([\s\S]*?)(?=(?:\r?\nP:|$))/g;
@@ -37,12 +37,12 @@ export default function SixtyType() {
       }
       return matches;
     } catch {
-      alert('❌ El archivo no está correctamente cifrado o es inválido.');
+      alert('ƒ?O El archivo no estÇ­ correctamente cifrado o es invÇ­lido.');
       return [];
     }
-  };
+  }, []);
 
-  const resetGame = (cards) => {
+  const resetGame = useCallback((cards) => {
     const shuffled = [...cards].sort(() => Math.random() - 0.5);
     setQueue(shuffled);
     setIndex(0);
@@ -55,40 +55,24 @@ export default function SixtyType() {
     setFeedback(null);
     setShowCorrectAnswer(null);
     setTimer(60);
-  };
+  }, []);
 
-  const handleUpload = async file => {
+  const handleUpload = useCallback(async (file) => {
     const text = await file.text();
     const cards = parseFlashcards(text);
-    if (!cards.length) return alert('No se encontraron tarjetas válidas');
+    if (!cards.length) return alert('No se encontraron tarjetas vÇ­lidas');
     setFlashcards(cards);
     resetGame(cards);
     setStage('playing');
-  };
+  }, [parseFlashcards, resetGame]);
 
   const handleDrop = useCallback(e => {
     e.preventDefault();
     if (e.dataTransfer.files && e.dataTransfer.files[0]) handleUpload(e.dataTransfer.files[0]);
   }, [handleUpload]);
 
-  const startTimer = () => {
-    clearInterval(timerRef.current);
-    setTimer(60);
-    timerRef.current = setInterval(() => {
-      setTimer(t => {
-        if (t <= 1) {
-          clearInterval(timerRef.current);
-          markWrong();
-          return 0;
-        }
-        return t - 1;
-      });
-    }, 1000);
-  };
-
-  const stopTimer = () => clearInterval(timerRef.current);
-
-  const markCorrect = () => {
+  const stopTimer = useCallback(() => clearInterval(timerRef.current), []);
+const markCorrect = () => {
     setFeedback('✔️ Correct!');
     setCorrect(c => c + 1);
     setStreak(s => {
@@ -117,6 +101,21 @@ export default function SixtyType() {
       nextCard();
     }, 1500);
   };
+
+  const startTimer = useCallback(() => {
+    clearInterval(timerRef.current);
+    setTimer(60);
+    timerRef.current = setInterval(() => {
+      setTimer(t => {
+        if (t <= 1) {
+          clearInterval(timerRef.current);
+          markWrong();
+          return 0;
+        }
+        return t - 1;
+      });
+    }, 1000);
+  }, [markWrong]);
 
   const check = () => {
     const clean = s => s.trim().toLowerCase().replace(/[.,!?¡¿'"`]/g, '');

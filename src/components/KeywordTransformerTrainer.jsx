@@ -1,5 +1,5 @@
 // KeywordTransformerTrainer.jsx
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef, useCallback } from 'react';
 
 const parseFlashcards = (encodedText) => {
   try {
@@ -46,7 +46,7 @@ const KeywordTransformerTrainer = () => {
     }
   };
 
-  const nextQuestion = () => {
+  const nextQuestion = useCallback(() => {
     setAnswers((prev) => {
       const updated = [...prev];
       updated[current] = input.trim();
@@ -60,7 +60,7 @@ const KeywordTransformerTrainer = () => {
       setInput('');
       setTimer(100);
     }
-  };
+  }, [current, flashcards.length, input]);
 
   useEffect(() => {
     if (stage === 'playing') {
