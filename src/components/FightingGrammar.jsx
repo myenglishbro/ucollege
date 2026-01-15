@@ -374,7 +374,7 @@ const FightingGrammar = () => {
     }
     const id = setInterval(() => setCountdown(c => c - 1), 1000);
     return () => clearInterval(id);
-  }, [endState, countdown]);
+  }, [endState, countdown, resetToMenu]);
 
   const floatAnim = { y: [0, -10, 0], transition: { duration: 2, repeat: Infinity } };
   const hpPercentage = hp => `${(hp / MAX_HP) * 100}%`;

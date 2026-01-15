@@ -76,11 +76,11 @@ export default function CreativeSlides() {
 
   const nextSlide = useCallback(() => {
     setCurrentIndex((prev) => (prev + 1 < slides.length ? prev + 1 : prev));
-  }, [slides.length]);
+  }, [slides]);
 
   const prevSlide = useCallback(() => {
     setCurrentIndex((prev) => (prev - 1 >= 0 ? prev - 1 : prev));
-  }, [slides.length]);
+  }, [slides]);
 
   const toggleOpen = (key) => {
     setOpenSections((prev) => ({

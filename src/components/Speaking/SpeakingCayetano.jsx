@@ -210,7 +210,7 @@ export default function SpeakingCayetano() {
       if (audioUrl) URL.revokeObjectURL(audioUrl);
       stopRecording();
     };
-  }, [audioUrl]);
+  }, [audioUrl, stopRecording]);
 
   const goNext = () => {
     stopRecognition();

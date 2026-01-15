@@ -37,7 +37,7 @@ export default function SixtyType() {
       }
       return matches;
     } catch {
-      alert('ƒ?O El archivo no estÇ­ correctamente cifrado o es invÇ­lido.');
+      alert('Ã†â€™?O El archivo no estÃƒâ€¡Ã‚Â­ correctamente cifrado o es invÃƒâ€¡Ã‚Â­lido.');
       return [];
     }
   }, []);
@@ -60,7 +60,7 @@ export default function SixtyType() {
   const handleUpload = useCallback(async (file) => {
     const text = await file.text();
     const cards = parseFlashcards(text);
-    if (!cards.length) return alert('No se encontraron tarjetas vÇ­lidas');
+    if (!cards.length) return alert('No se encontraron tarjetas vÃƒâ€¡Ã‚Â­lidas');
     setFlashcards(cards);
     resetGame(cards);
     setStage('playing');
@@ -72,8 +72,8 @@ export default function SixtyType() {
   }, [handleUpload]);
 
   const stopTimer = useCallback(() => clearInterval(timerRef.current), []);
-const markCorrect = () => {
-    setFeedback('✔️ Correct!');
+  const markCorrect = () => {
+    setFeedback('Ã¢Å“â€Ã¯Â¸Â Correct!');
     setCorrect(c => c + 1);
     setStreak(s => {
       const updated = s + 1;
@@ -83,9 +83,9 @@ const markCorrect = () => {
     setTimeout(nextCard, 1000);
   };
 
-  const markWrong = () => {
+  const markWrong = useCallback(() => {
     const ans = queue[index]?.answer;
-    setFeedback('✖️');
+    setFeedback('Ã¢Å“â€“Ã¯Â¸Â');
     setShowCorrectAnswer(ans);
     setWrong(w => w + 1);
     setStreak(0);
@@ -100,7 +100,7 @@ const markCorrect = () => {
     setTimeout(() => {
       nextCard();
     }, 1500);
-  };
+  }, [index, nextCard, queue, stopTimer]);
 
   const startTimer = useCallback(() => {
     clearInterval(timerRef.current);
@@ -118,7 +118,7 @@ const markCorrect = () => {
   }, [markWrong]);
 
   const check = () => {
-    const clean = s => s.trim().toLowerCase().replace(/[.,!?¡¿'"`]/g, '');
+    const clean = s => s.trim().toLowerCase().replace(/[.,!?Ã‚Â¡Ã‚Â¿'"`]/g, '');
     const userAnswer = input.trim();
     const correctAnswer = queue[index]?.answer || '';
     const isCorrect = clean(userAnswer) === clean(correctAnswer);
@@ -211,7 +211,7 @@ const markCorrect = () => {
                     <p className="text-xl text-white mb-4">{card.question || 'Cargando pregunta...'}</p>
                     <input value={input} onChange={e => setInput(e.target.value)} placeholder="Escribe tu respuesta..." className="w-full p-3 rounded-xl bg-gray-800 text-white border border-gray-600 focus:ring-2 focus:ring-cyan-400" />
                     <div className="mt-4">
-                      {feedback && <p className={`font-bold text-lg ${feedback.includes('✔️') ? 'text-green-400' : 'text-red-400'}`}>{feedback}</p>}
+                      {feedback && <p className={`font-bold text-lg ${feedback.includes('Ã¢Å“â€Ã¯Â¸Â') ? 'text-green-400' : 'text-red-400'}`}>{feedback}</p>}
                       {showCorrectAnswer && <p className="text-red-300">Respuesta correcta: {showCorrectAnswer}</p>}
                     </div>
                     <div className="flex gap-4 mt-6">
@@ -223,18 +223,18 @@ const markCorrect = () => {
               )}
               {(stage === 'over' || stage === 'finished') && (
                 <div className="text-center space-y-4 text-white mt-6">
-                  <h2 className="text-2xl font-bold">{stage === 'over' ? 'Game Over' : '¡Completado!'}</h2>
-                  <p>✔️ {correct} — ❌ {wrong}</p>
-                  <p className="text-cyan-300 font-bold">🔥 Racha Máxima: {maxStreak}</p>
+                  <h2 className="text-2xl font-bold">{stage === 'over' ? 'Game Over' : 'Ã‚Â¡Completado!'}</h2>
+                  <p>Ã¢Å“â€Ã¯Â¸Â {correct} Ã¢â‚¬â€ Ã¢ÂÅ’ {wrong}</p>
+                  <p className="text-cyan-300 font-bold">Ã°Å¸â€Â¥ Racha MÃƒÂ¡xima: {maxStreak}</p>
                   <p className="text-gray-400">Sigue estudiando</p>
                   <div className="text-left bg-[#0f1123]/60 p-4 rounded-lg max-h-[300px] overflow-y-auto border border-gray-700">
-                    <h3 className="text-lg font-bold text-cyan-300 mb-2">📋 Resumen de respuestas</h3>
+                    <h3 className="text-lg font-bold text-cyan-300 mb-2">Ã°Å¸â€œâ€¹ Resumen de respuestas</h3>
                     <ul className="space-y-2 text-sm">
                       {attempts.map((a, i) => (
                         <li key={i} className={`p-2 rounded ${a.isCorrect ? 'bg-green-800/40' : 'bg-red-800/40'}`}>
-                          <p><strong>❓ Pregunta:</strong> {a.question}</p>
-                          <p><strong>📝 Tu respuesta:</strong> <span className={a.isCorrect ? 'text-green-300' : 'text-red-300'}>{a.userAnswer}</span></p>
-                          {!a.isCorrect && <p><strong>✅ Respuesta correcta:</strong> <span className="text-green-400">{a.correctAnswer}</span></p>}
+                          <p><strong>Ã¢Ââ€œ Pregunta:</strong> {a.question}</p>
+                          <p><strong>Ã°Å¸â€œÂ Tu respuesta:</strong> <span className={a.isCorrect ? 'text-green-300' : 'text-red-300'}>{a.userAnswer}</span></p>
+                          {!a.isCorrect && <p><strong>Ã¢Å“â€¦ Respuesta correcta:</strong> <span className="text-green-400">{a.correctAnswer}</span></p>}
                         </li>
                       ))}
                     </ul>
