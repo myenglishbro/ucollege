@@ -21,7 +21,6 @@ export const roadB2C = [
 
         title: "Present Simple ",
         subtitle: "B2/C1",
-
         dateAdded: "Basic 01 ",
         channel: "sdasd",
         description: "Entiende como usar cada matiz gramatical",

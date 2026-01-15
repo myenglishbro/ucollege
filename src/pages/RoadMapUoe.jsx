@@ -6,7 +6,6 @@ import DefaultView from '../components/DefaultView';
 import Step from '../components/Step';
 import Navbar from './myenglishbro/components/NavBar';
 import LoginForm from './LoginForm';
-import CabezeraB2 from './Standarizado/CabezeraB2';
 
 const RoadMapUoe = () => {
   // Estados para datos de usuario y vista
