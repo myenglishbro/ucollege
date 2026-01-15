@@ -1,5 +1,5 @@
 // components/SidebarBook.jsx
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { FaSearch, FaBars, FaTimes } from 'react-icons/fa';
 import AccordionSection from './AccordionSection';
 import RewardPopup from './RewardPopup';

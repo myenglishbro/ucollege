@@ -10,15 +10,6 @@ import vocabJSON from "../data/celpip_vocab.json"; // JSON local junto al compon
 
 const TABS = ["Study", "Practice"]; // quitamos la pestaña Collocations separada
 
-const shuffle = (arr) => {
-  const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-};
-
 function similarity(a, b) {
   const s1 = (a || "").trim().toLowerCase();
   const s2 = (b || "").trim().toLowerCase();
@@ -74,19 +65,21 @@ export default function VocabTrainer({ data }) {
     };
     window.addEventListener("keydown", onKey);
     return () => window.removeEventListener("keydown", onKey);
-  }, [tab, index, filter, items.length]);
+  }, [tab, filter, items.length, handleCheck, next, cycleHint, focusInput]);
 
   // Acciones
-  const next = () => {
+  function next() {
     if (!items.length) return;
     setAns("");
     setFeedback("");
     setHintStep(0);
     setIndex(v => (v + 1) % items.length);
-  };
+  }
 
   const grade = (ok) => setSession(s => ({ total: s.total + 1, correct: s.correct + (ok ? 1 : 0) }));
-  const cycleHint = () => setHintStep(h => (h + 1) % 3);
+  function cycleHint() {
+    setHintStep(h => (h + 1) % 3);
+  }
 
   // ── UI blocks ────────────────────────────────────────────────────────────────
   const Shell = ({ children }) => (

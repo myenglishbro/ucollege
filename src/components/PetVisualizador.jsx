@@ -2,7 +2,7 @@ import React, { useMemo, useState } from "react";
 import petData from "./data/petvisualizador.json";
 
 const PetVisualizador = () => {
-  const items = petData.items || [];
+  const items = useMemo(() => petData.items || [], []);
   const [selectedId, setSelectedId] = useState(items[0]?.id || null);
   const [answers, setAnswers] = useState({});
   const [showResults, setShowResults] = useState(false);

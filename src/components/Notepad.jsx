@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from 'react';
+import React, { useRef, useState, useEffect, useCallback } from 'react';
 import { FiPrinter, FiMaximize, FiMinimize, FiMic, FiSmile } from 'react-icons/fi';
 import EmojiPicker from 'emoji-picker-react';
 
@@ -19,61 +19,14 @@ const Notepad = ({
   const [savedRange, setSavedRange] = useState(null);
   const recognitionRef = useRef(null);
 
-  useEffect(() => {
-    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
-    if (SpeechRecognition) {
-      const rec = new SpeechRecognition();
-      rec.continuous = true;
-      rec.interimResults = false;
-      rec.onresult = (event) => {
-        const transcript = Array.from(event.results)
-          .map(r => r[0].transcript)
-          .join('');
-        insertTextAtCursor(transcript);
-        updateCounts();
-      };
-      rec.onend = () => setListening(false);
-      recognitionRef.current = rec;
-    }
-  }, []);
-
-  useEffect(() => {
-    if (editorRef.current) {
-      editorRef.current.innerHTML = notes;
-      updateCounts();
-    }
-  }, []);
-
-  useEffect(() => {
-    if (editorRef.current) {
-      editorRef.current.style.fontSize = `${fontSize}px`;
-    }
-  }, [fontSize]);
-
-  const handleFontSizeChange = (newSize) => {
-    setFontSize(newSize);
-  };
-
-  const updateCounts = () => {
+  const updateCounts = useCallback(() => {
     const text = editorRef.current.innerText || '';
     const words = text.trim().split(/\s+/).filter(Boolean);
     setWordCount(words.length);
     setCharCount(text.length);
-  };
+  }, []);
 
-  const handleInput = (e) => {
-    setNotes(e.currentTarget.innerHTML);
-    updateCounts();
-  };
-
-  const saveSelection = () => {
-    const sel = window.getSelection();
-    if (sel && sel.rangeCount > 0) {
-      setSavedRange(sel.getRangeAt(0));
-    }
-  };
-
-  const insertTextAtCursor = (text) => {
+  const insertTextAtCursor = useCallback((text) => {
     const sel = window.getSelection();
     sel.removeAllRanges();
 
@@ -93,6 +46,53 @@ const Notepad = ({
     sel.addRange(range);
 
     setSavedRange(range);
+  }, [savedRange]);
+
+  useEffect(() => {
+    const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+    if (SpeechRecognition) {
+      const rec = new SpeechRecognition();
+      rec.continuous = true;
+      rec.interimResults = false;
+      rec.onresult = (event) => {
+        const transcript = Array.from(event.results)
+          .map(r => r[0].transcript)
+          .join('');
+        insertTextAtCursor(transcript);
+        updateCounts();
+      };
+      rec.onend = () => setListening(false);
+      recognitionRef.current = rec;
+    }
+  }, [insertTextAtCursor, updateCounts]);
+
+  useEffect(() => {
+    if (editorRef.current) {
+      editorRef.current.innerHTML = notes;
+      updateCounts();
+    }
+  }, [notes, updateCounts]);
+
+  useEffect(() => {
+    if (editorRef.current) {
+      editorRef.current.style.fontSize = `${fontSize}px`;
+    }
+  }, [fontSize]);
+
+  const handleFontSizeChange = (newSize) => {
+    setFontSize(newSize);
+  };
+
+  const handleInput = (e) => {
+    setNotes(e.currentTarget.innerHTML);
+    updateCounts();
+  };
+
+  const saveSelection = () => {
+    const sel = window.getSelection();
+    if (sel && sel.rangeCount > 0) {
+      setSavedRange(sel.getRangeAt(0));
+    }
   };
 
   const onEmojiClick = (emojiData) => {

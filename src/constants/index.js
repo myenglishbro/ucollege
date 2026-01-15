@@ -7,20 +7,13 @@ import {
   benefitImage2,
   chromecast,
   disc02,
-  discord,
   discordBlack,
-  figma,
   file02,
-  framer,
   homeSmile,
   notification2,
   notification3,
   notification4,
-  notion,
-  photoshop,
   plusSquare,
-  protopie,
-  raindrop,
   recording01,
   recording03,
   roadmap1,
@@ -28,15 +21,12 @@ import {
   roadmap3,
   roadmap4,
   searchMd,
-  slack,
   sliders04,
   telegram,
   twitter,
-  yourlogo,
   ielts,
   toefl,
-  cambridge,
-  celpip
+  cambridge
 } from "../assets2";
 
 export const navLinksSDS = [

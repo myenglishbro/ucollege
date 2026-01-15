@@ -43,7 +43,7 @@ const Step = () => {
                 Sigue estos sencillos pasos y únete a la revolución del aprendizaje.
               </p>
               <a
-                href="#"
+                href="/signup"
                 className="inline-flex items-center px-8 py-4 bg-indigo-600 hover:bg-indigo-500 text-white font-bold rounded-full shadow-lg transition-all duration-300 transform hover:scale-105"
               >
                 <span className="mr-2">🚀</span> Obtener cuenta ahora

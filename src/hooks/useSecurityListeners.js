@@ -32,5 +32,5 @@ export const useSecurityListeners = (setShowAlert, setShowBlackScreen) => {
       document.removeEventListener("contextmenu", handleContextMenu);
       document.removeEventListener("keydown", handleKeyDown);
     };
-  }, []);
+  }, [setShowAlert, setShowBlackScreen]);
 };

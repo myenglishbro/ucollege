@@ -24,7 +24,6 @@ const LoginLibro = ({ onLoginSuccess }) => {
   const [usuario, setUsuario] = useState("");
   const [codigo, setCodigo] = useState("");
   const [errorMessage, setErrorMessage] = useState("");
-  const [expanded, setExpanded] = useState(false);
 
   const features = [
     { title: "Accede al Libro", description: "Explora todos los capítulos del método Key Word Transformation.", icon: <FaBookOpen className="w-5 h-5 text-white" /> },

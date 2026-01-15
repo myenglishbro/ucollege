@@ -7,9 +7,6 @@ const Certificate = () => {
   const [studentName, setStudentName] = useState("");
   const instructorName = "Carlos Apolaya Sanchez"; // Fijo
   const [imageURL, setImageURL] = useState("");
-  // Imagen por URL por defecto para el curso
-  const defaultImageURL = "https://via.placeholder.com/300x200"; // Cambia esta URL por la que desees
-
   // Referencia al contenedor que engloba todo el certificado
   const certificateRef = useRef();
 

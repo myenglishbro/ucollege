@@ -1,4 +1,4 @@
-﻿import React, { useState, Fragment } from "react";
+import React, { useState, Fragment } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import testsData from "../data/testsData2.json";
 

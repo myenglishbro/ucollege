@@ -56,12 +56,9 @@ const Modal = ({ isOpen, onClose, children, className }) => {
 
 const DefaultViewdos = ({ realname, userImage, nivel, expirationDate }) => {
   const [isMainModalOpen, setIsMainModalOpen] = useState(true);
-  const [isScheduleOpen, setIsScheduleOpen] = useState(false);
-  const [isLoading, setIsLoading] = useState(true);
 
   const handleCloseMain = () => {
     setIsMainModalOpen(false);
-    setTimeout(() => setIsScheduleOpen(true), 350);
   };
 
   return (

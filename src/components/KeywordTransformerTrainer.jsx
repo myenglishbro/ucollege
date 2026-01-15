@@ -76,7 +76,7 @@ const KeywordTransformerTrainer = () => {
       }, 1000);
     }
     return () => clearInterval(timerRef.current);
-  }, [stage, current]);
+  }, [stage, current, nextQuestion]);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-900 to-black text-white font-sans p-8">

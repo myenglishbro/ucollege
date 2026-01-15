@@ -19,8 +19,6 @@ const ReporteMensual = () => {
     }
 
     const resumenPorEstudiante = {};
-    const totalDias = allData.length;
-
     allData.forEach((entry) => {
       entry.attendance.forEach(({ name, status }) => {
         if (!resumenPorEstudiante[name]) {

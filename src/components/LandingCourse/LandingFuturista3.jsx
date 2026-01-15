@@ -1,11 +1,10 @@
 "use client";
-import InfoBadge from './InfoBadge';
 import Accordion from './Accordion';
 import SeccionDocentes from './SeccionDocentes';
 import AsidePanelModern2 from './AsidePanelModern2';
 import IncludesList from './IncludesList';
 import LearningList from './LearningList';
-import { Star, Sparkles } from 'lucide-react';
+import { Star } from 'lucide-react';
 import { motion, useReducedMotion } from 'framer-motion';
 import Typing from 'react-typing-effect';
 import { FaFacebookF, FaInstagram, FaYoutube, FaSpotify } from 'react-icons/fa';
@@ -233,9 +232,9 @@ export default function LandingVibrante({
           <div>
             <h3 className="font-bold text-xs text-zinc-400 uppercase tracking-wide mb-4">Escuela</h3>
             <ul className="space-y-2 text-zinc-300">
-              <li><a className="hover:text-zinc-100" href="#">Cursos</a></li>
-              <li><a className="hover:text-zinc-100" href="#">Workshops</a></li>
-              <li><a className="hover:text-zinc-100" href="#">Workbooks</a></li>
+              <li><a className="hover:text-zinc-100" href="/courses">Cursos</a></li>
+              <li><a className="hover:text-zinc-100" href="/workshops">Workshops</a></li>
+              <li><a className="hover:text-zinc-100" href="/workbooks">Workbooks</a></li>
             </ul>
           </div>
 
@@ -243,10 +242,10 @@ export default function LandingVibrante({
           <div>
             <h3 className="font-bold text-xs text-zinc-400 uppercase tracking-wide mb-4">Recursos</h3>
             <ul className="space-y-2 text-zinc-300">
-              <li><a className="hover:text-zinc-100" href="#">Descargables</a></li>
-              <li><a className="hover:text-zinc-100" href="#">Challenges</a></li>
-              <li><a className="hover:text-zinc-100" href="#">Podcast</a></li>
-              <li><a className="hover:text-zinc-100" href="#">Libros</a></li>
+              <li><a className="hover:text-zinc-100" href="/resources">Descargables</a></li>
+              <li><a className="hover:text-zinc-100" href="/challenges">Challenges</a></li>
+              <li><a className="hover:text-zinc-100" href="/podcast">Podcast</a></li>
+              <li><a className="hover:text-zinc-100" href="/books">Libros</a></li>
             </ul>
           </div>
 
@@ -254,8 +253,8 @@ export default function LandingVibrante({
           <div>
             <h3 className="font-bold text-xs text-zinc-400 uppercase tracking-wide mb-4">Nosotros</h3>
             <ul className="space-y-2 text-zinc-300">
-              <li><a className="hover:text-zinc-100" href="#">Sobre Nosotros</a></li>
-              <li><a className="hover:text-zinc-100" href="#">Contacto</a></li>
+              <li><a className="hover:text-zinc-100" href="/about">Sobre Nosotros</a></li>
+              <li><a className="hover:text-zinc-100" href="/contact">Contacto</a></li>
             </ul>
           </div>
         </div>
@@ -265,16 +264,16 @@ export default function LandingVibrante({
         <div className="flex flex-col md:flex-row justify-between items-center text-sm text-zinc-400 gap-4">
           <div className="space-x-4">
             <span>© Myenglishbro! 2025</span>
-            <a href="#" className="hover:text-zinc-200">Política de Privacidad</a>
-            <a href="#" className="hover:text-zinc-200">Cookies</a>
-            <a href="#" className="hover:text-zinc-200">Términos y Condiciones</a>
+            <a href="/privacy" className="hover:text-zinc-200">Política de Privacidad</a>
+            <a href="/cookies" className="hover:text-zinc-200">Cookies</a>
+            <a href="/terms" className="hover:text-zinc-200">Términos y Condiciones</a>
           </div>
 
           <div className="flex gap-4 text-zinc-300 text-xl">
-            <a href="#" className="hover:scale-[1.08] transition" aria-label="Facebook"><FaFacebookF /></a>
-            <a href="#" className="hover:scale-[1.08] transition" aria-label="Instagram"><FaInstagram /></a>
-            <a href="#" className="hover:scale-[1.08] transition" aria-label="YouTube"><FaYoutube /></a>
-            <a href="#" className="hover:scale-[1.08] transition" aria-label="Spotify"><FaSpotify /></a>
+            <a href="https://www.facebook.com/" className="hover:scale-[1.08] transition" aria-label="Facebook"><FaFacebookF /></a>
+            <a href="https://www.instagram.com/_myenglishbro" className="hover:scale-[1.08] transition" aria-label="Instagram"><FaInstagram /></a>
+            <a href="https://www.youtube.com/@_myenglishbro" className="hover:scale-[1.08] transition" aria-label="YouTube"><FaYoutube /></a>
+            <a href="https://open.spotify.com/" className="hover:scale-[1.08] transition" aria-label="Spotify"><FaSpotify /></a>
           </div>
         </div>
       </footer>

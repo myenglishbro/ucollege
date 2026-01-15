@@ -10,7 +10,12 @@ const PoliticasClase = () => {
           Políticas de mis clases a distancia
         </h2>
       
-        <a href="https://wa.link/qwnf6w"></a>
+        <a
+          href="https://wa.link/qwnf6w"
+          className="inline-flex items-center px-4 py-2 mt-4 rounded-full bg-blue-600 text-white text-sm font-semibold hover:bg-blue-500"
+        >
+          Contactar por WhatsApp
+        </a>
       </div>
 
       <div className={`${layout.sectionImg} flex-col`}>

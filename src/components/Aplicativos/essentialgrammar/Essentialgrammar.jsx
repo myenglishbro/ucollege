@@ -2,7 +2,6 @@ import React, { useMemo, useState } from "react";
 import levelsData from "../data/levelsExercises6.json";
 
 const ACCENT = "#0f3057"; // Cambridge navy
-const ACCENT_SOFT = "#123f73";
 const HIGHLIGHT = "#d9e7f6";
 const BACKGROUND =
   "radial-gradient(circle at 20% 20%, rgba(255,255,255,0.04), transparent 30%), radial-gradient(circle at 80% 0%, rgba(255,255,255,0.06), transparent 28%), linear-gradient(145deg, #0b2242 0%, #12335d 40%, #0f3057 100%)";

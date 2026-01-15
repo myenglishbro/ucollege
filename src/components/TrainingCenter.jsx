@@ -48,7 +48,7 @@ const TrainingCenter = () => {
         setBestScore(correctCount);
       }
     }
-  }, [stage]);
+  }, [stage, flashcards, userAnswers, bestScore]);
 
   // File upload handler
   const handleUpload = async (e) => {
@@ -110,7 +110,7 @@ const TrainingCenter = () => {
       }, 1000);
     }
     return () => clearInterval(timerRef.current);
-  }, [stage, current, noTime]);
+  }, [stage, current, noTime, checkAnswer]);
 
   // UPLOAD VIEW
   if (stage === 'upload') {

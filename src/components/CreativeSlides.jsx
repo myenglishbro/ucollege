@@ -101,7 +101,7 @@ export default function CreativeSlides() {
     };
     window.addEventListener('keydown', handler);
     return () => window.removeEventListener('keydown', handler);
-  }, [stage, currentIndex]);
+  }, [stage, nextSlide, prevSlide]);
 
   const toggleFullScreen = () => {
     const elem = document.documentElement;

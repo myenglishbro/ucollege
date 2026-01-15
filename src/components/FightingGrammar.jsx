@@ -223,57 +223,6 @@ const FightingGrammar = () => {
     setEndState(null);
   };
 
-  useEffect(() => {
-    if (!levels.length) return;
-    const unlocked = loadUnlocked(levels);
-    setUnlockedLevels(unlocked);
-  }, [levels]);
-
-  useEffect(() => {
-    if (!levels.length) return;
-    const level = levels[levelIndex];
-    setCurrentQ(level.questions[0]);
-    setQIndex(0);
-    setTimer(level.timeLimit || COUNTDOWN_START);
-    setBossHP(level.bossHP || MAX_HP);
-    setFeedback(null);
-    setBattleAnim(null);
-    setUnlockInput('');
-    setUnlockError('');
-    setPhase('loading');
-    const timerId = setTimeout(() => setPhase('intro'), 1200);
-    return () => clearTimeout(timerId);
-  }, [levels, levelIndex]);
-
-  useEffect(() => {
-    if (!currentQ || endState || phase !== 'fight') return;
-    if (timer === 0) {
-      handleAnswer(null, { timedOut: true });
-      return;
-    }
-    const id = setInterval(() => setTimer(t => t - 1), 1000);
-    return () => clearInterval(id);
-  }, [timer, currentQ, endState, phase]);
-
-  useEffect(() => {
-    if (!levels.length || endState) return;
-    if (bossHP === 0) {
-      const currentLevel = levels[levelIndex];
-      if (currentLevel?.id) {
-        unlockLevel(currentLevel.id);
-      }
-      const nextLevel = levels[levelIndex + 1];
-      if (nextLevel?.id) {
-        unlockLevel(nextLevel.id);
-      }
-      if (levelIndex >= levels.length - 1) {
-        endGame('win');
-      } else {
-        setPhase('clear');
-      }
-    }
-  }, [bossHP, levelIndex, levels, endState]);
-
   const endGame = (state) => {
     if (state === 'lose') {
       resetToMenu();
@@ -326,6 +275,57 @@ const FightingGrammar = () => {
 
     setTimeout(nextQuestion, 700);
   };
+
+  useEffect(() => {
+    if (!levels.length) return;
+    const unlocked = loadUnlocked(levels);
+    setUnlockedLevels(unlocked);
+  }, [levels]);
+
+  useEffect(() => {
+    if (!levels.length) return;
+    const level = levels[levelIndex];
+    setCurrentQ(level.questions[0]);
+    setQIndex(0);
+    setTimer(level.timeLimit || COUNTDOWN_START);
+    setBossHP(level.bossHP || MAX_HP);
+    setFeedback(null);
+    setBattleAnim(null);
+    setUnlockInput('');
+    setUnlockError('');
+    setPhase('loading');
+    const timerId = setTimeout(() => setPhase('intro'), 1200);
+    return () => clearTimeout(timerId);
+  }, [levels, levelIndex]);
+
+  useEffect(() => {
+    if (!currentQ || endState || phase !== 'fight') return;
+    if (timer === 0) {
+      handleAnswer(null, { timedOut: true });
+      return;
+    }
+    const id = setInterval(() => setTimer(t => t - 1), 1000);
+    return () => clearInterval(id);
+  }, [timer, currentQ, endState, phase, handleAnswer]);
+
+  useEffect(() => {
+    if (!levels.length || endState) return;
+    if (bossHP === 0) {
+      const currentLevel = levels[levelIndex];
+      if (currentLevel?.id) {
+        unlockLevel(currentLevel.id);
+      }
+      const nextLevel = levels[levelIndex + 1];
+      if (nextLevel?.id) {
+        unlockLevel(nextLevel.id);
+      }
+      if (levelIndex >= levels.length - 1) {
+        endGame('win');
+      } else {
+        setPhase('clear');
+      }
+    }
+  }, [bossHP, levelIndex, levels, endState, unlockLevel, endGame]);
 
   const useSpecial = () => {
     if (meter < 100 || phase !== 'fight') return;

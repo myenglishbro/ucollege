@@ -61,7 +61,7 @@ export default function WriteQuiz() {
   const handleDrop = useCallback(e => {
     e.preventDefault();
     if (e.dataTransfer.files && e.dataTransfer.files[0]) handleUpload(e.dataTransfer.files[0]);
-  }, []);
+  }, [handleUpload]);
 
   const startTimer = () => {
     clearInterval(timerRef.current);
@@ -132,7 +132,7 @@ export default function WriteQuiz() {
   useEffect(() => {
     if (stage === 'playing') startTimer();
     return () => stopTimer();
-  }, [stage]);
+  }, [stage, startTimer, stopTimer]);
 
   const card = queue[index] || {};
   const progress = flashcards.length ? ((correct + wrong) / flashcards.length) * 100 : 0;
@@ -195,6 +195,7 @@ export default function WriteQuiz() {
             <div className="flex items-center justify-between mb-4 text-white">
               <div className="flex gap-1">{[...Array(lives)].map((_, i) => <Heart key={i} className="text-red-500 w-6 h-6" />)}</div>
               <div className="flex items-center gap-2"><Clock className="w-5 h-5" /> {timer}s</div>
+              <div className="text-xs text-gray-300">Streak: {streak}</div>
               <div className="flex gap-2">
                 <button onClick={() => window.location.reload()}><RefreshCw className="text-cyan-400 w-5 h-5" /></button>
                 <button onClick={() => { const shuffled = [...flashcards].sort(() => Math.random() - 0.5); setQueue(shuffled); setIndex(0); }}><Shuffle className="text-yellow-400 w-5 h-5" /></button>

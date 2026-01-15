@@ -57,7 +57,7 @@ const RoadMapGeneric2 = ({ roadData, userCredential, userPassword }) => {
     if (!userCredential || !userCredential.realname || !userCredential.img || !userCredential.nivel || !userCredential.expirationDate) {
       setShowFallback(true);
     }
-  }, []);
+  }, [userCredential]);
 
   useEffect(() => {
     if (viewedItems.length > 0) {

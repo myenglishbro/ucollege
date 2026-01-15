@@ -69,7 +69,7 @@ const Collaboration2 = () => {
                   ))}
                 </div>
                 <div className="h-4 border-l border-gray-700"></div>
-                <a href="" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.producthunt.com/" target="_blank" rel="noopener noreferrer">
                   <img
                     src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1&theme=light"
                     className="w-32 h-8 md:w-48 md:h-12 lg:w-64 lg:h-16"

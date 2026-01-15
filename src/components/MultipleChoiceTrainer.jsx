@@ -60,7 +60,7 @@ export default function MultipleChoiceTrainer() {
     if (e.dataTransfer.files && e.dataTransfer.files[0]) {
       handleUpload(e.dataTransfer.files[0]);
     }
-  }, []);
+  }, [handleUpload]);
 
   const handleDrag = useCallback((e, state) => {
     e.preventDefault();
@@ -166,6 +166,7 @@ export default function MultipleChoiceTrainer() {
             className="rounded-2xl p-8 shadow-2xl border border-white/10 bg-[#0D122B]/60 backdrop-blur-xl"
           >
             <div className="mb-6 text-white text-lg font-semibold">{current.error}</div>
+            <div className="mb-4 text-xs text-gray-400">Streak: {streak}</div>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               {current.options?.map((opt, i) => (
                 <motion.button

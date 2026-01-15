@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { FaSearch } from 'react-icons/fa';
 import Hito from '../pages/Hito';
-import { mensajes } from '../utils/mensajes';
 import { FaCheck, FaBookOpen, FaPencilAlt, FaVideo } from 'react-icons/fa';
 import { FaLock } from 'react-icons/fa';
 
@@ -11,7 +10,6 @@ const SidebarF= ({ road, seleccionarNivel, isSidebarVisible, toggleSidebar }) =>
   const [selectedLink, setSelectedLink] = useState(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [viewedItems, setViewedItems] = useState([]);
-  const [achievementMessage, setAchievementMessage] = useState('');
   const [timerMinutes, setTimerMinutes] = useState(1);
   const [timeLeft, setTimeLeft] = useState(0);
   const [isTimerRunning, setIsTimerRunning] = useState(false);
@@ -85,14 +83,6 @@ const [codeInputForPopup, setCodeInputForPopup] = useState("");
     setIsTimerRunning(false);
   };
 
-  useEffect(() => {
-    const progress = calculateProgress();
-    if (mensajes[progress]) {
-      setAchievementMessage(mensajes[progress]);
-      setTimeout(() => setAchievementMessage(''), 3000);
-    }
-  }, [viewedItems]);
-
   const calculateProgress = () => {
     const totalItems = road.reduce((sum, item) => sum + item.enlaces.length, 0);
     return totalItems > 0 ? Math.round((viewedItems.length / totalItems) * 100) : 0;
@@ -141,26 +131,6 @@ const [codeInputForPopup, setCodeInputForPopup] = useState("");
       alert("Código incorrecto");
     }
   };
-
-
-  const handleValidateLinkCode = (enlaceKey) => {
-    const userCode = codeInputs[enlaceKey] || "";
-    // Buscamos el enlace correspondiente entre todos los enlaces
-    const enlace = road.flatMap(item => item.enlaces).find(e => e.titulo === enlaceKey);
-    
-    if (!enlace) {
-      alert("Enlace no encontrado.");
-      return;
-    }
-  
-    if (userCode === enlace.codigo) {
-      setUnlockedLinks(prev => [...prev, enlaceKey]);
-      alert("¡Enlace desbloqueado!");
-    } else {
-      alert("Código incorrecto");
-    }
-  };
-  
 
 
   const handleValidateLinkCodePopup = () => {

@@ -78,7 +78,7 @@ const RoadMap = () => {
           <div className="w-full max-w-2xl bg-[#13131a] rounded-3xl overflow-hidden shadow-2xl flex flex-col md:flex-row">
             {/* Left Section */}
             <div className="w-full md:w-1/2 relative">
-              <a href="#" className="absolute top-6 left-6 text-white text-2xl font-bold z-10">
+              <a href="https://myenglishbro-meb.vercel.app/" className="absolute top-6 left-6 text-white text-2xl font-bold z-10">
                 Meb
               </a>
               <a

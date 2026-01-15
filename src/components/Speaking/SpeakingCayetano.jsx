@@ -92,52 +92,6 @@ export default function SpeakingCayetano() {
   const elapsed = step === "finished" ? totalThisPhase : totalThisPhase - timer;
   const progressPct = Math.min(100, Math.max(0, (elapsed / totalThisPhase) * 100));
 
-  useEffect(() => {
-    if (selectedLevel === null) return;
-    if (step === "finished") return;
-    if (timer === 0) {
-      if (step === "prep") {
-        setStep("answer");
-        setTimer(answerTime);
-        setStartTime(new Date());
-        setEndTime(null);
-        startRecognition();
-        startRecording();
-      } else if (step === "answer") {
-        setStep("finished");
-        setEndTime(new Date());
-        stopRecognition();
-        stopRecording();
-      }
-      return;
-    }
-    const id = setInterval(() => setTimer(t => t - 1), 1000);
-    return () => clearInterval(id);
-  }, [timer, step, answerTime, selectedLevel]);
-
-  useEffect(() => {
-    if (step !== "answer") {
-      setIsPaused(false);
-      return undefined;
-    }
-    const tick = setInterval(() => {
-      const since = Date.now() - lastSpeechAtRef.current;
-      if (since > PAUSE_THRESHOLD_MS && !pauseActiveRef.current) {
-        pauseActiveRef.current = true;
-        setPauseCount(count => count + 1);
-        setIsPaused(true);
-      }
-    }, 500);
-    return () => clearInterval(tick);
-  }, [step]);
-
-  useEffect(() => {
-    return () => {
-      if (audioUrl) URL.revokeObjectURL(audioUrl);
-      stopRecording();
-    };
-  }, [audioUrl]);
-
   const startRecognition = () => {
     const SR = window.SpeechRecognition || window.webkitSpeechRecognition;
     if (!SR) {
@@ -208,6 +162,52 @@ export default function SpeakingCayetano() {
       audioStreamRef.current = null;
     }
   };
+
+  useEffect(() => {
+    if (selectedLevel === null) return;
+    if (step === "finished") return;
+    if (timer === 0) {
+      if (step === "prep") {
+        setStep("answer");
+        setTimer(answerTime);
+        setStartTime(new Date());
+        setEndTime(null);
+        startRecognition();
+        startRecording();
+      } else if (step === "answer") {
+        setStep("finished");
+        setEndTime(new Date());
+        stopRecognition();
+        stopRecording();
+      }
+      return;
+    }
+    const id = setInterval(() => setTimer(t => t - 1), 1000);
+    return () => clearInterval(id);
+  }, [timer, step, answerTime, selectedLevel, startRecognition, startRecording, stopRecognition, stopRecording]);
+
+  useEffect(() => {
+    if (step !== "answer") {
+      setIsPaused(false);
+      return undefined;
+    }
+    const tick = setInterval(() => {
+      const since = Date.now() - lastSpeechAtRef.current;
+      if (since > PAUSE_THRESHOLD_MS && !pauseActiveRef.current) {
+        pauseActiveRef.current = true;
+        setPauseCount(count => count + 1);
+        setIsPaused(true);
+      }
+    }, 500);
+    return () => clearInterval(tick);
+  }, [step]);
+
+  useEffect(() => {
+    return () => {
+      if (audioUrl) URL.revokeObjectURL(audioUrl);
+      stopRecording();
+    };
+  }, [audioUrl]);
 
   const goNext = () => {
     stopRecognition();

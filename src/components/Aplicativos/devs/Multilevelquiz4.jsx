@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo, useState } from "react";
+import React, { useCallback, useEffect, useMemo, useState } from "react";
 import { motion } from "framer-motion";
 import levelsData from "../data/levelsExercises4.json";
 
@@ -60,26 +60,7 @@ export default function MultiLevelQuiz4() {
     setSecondsLeft(QUESTION_TIME);
   }, [currentQuestion, selectedLevel, quizFinished]);
 
-  // Tick del timer
-  useEffect(() => {
-    if (selectedLevel === null || quizFinished) return;
-
-    const tick = setInterval(() => {
-      setSecondsLeft((s) => {
-        if (s <= 1) {
-          clearInterval(tick);
-          // Tiempo agotado: cuenta como no respondida
-          handleAutoSubmit("");
-          return 0;
-        }
-        return s - 1;
-      });
-    }, 1000);
-
-    return () => clearInterval(tick);
-  }, [currentQuestion, selectedLevel, quizFinished]);
-
-  const handleAutoSubmit = (choice) => {
+  const handleAutoSubmit = useCallback((choice) => {
     if (!q) return;
     const isCorrect = choice === q.answer;
     if (isCorrect) setScore((s) => s + 1);
@@ -106,7 +87,26 @@ export default function MultiLevelQuiz4() {
         setUnlockedLevels((prev) => ({ ...prev, [selectedLevel + 1]: true }));
       }
     }
-  };
+  }, [currentQuestion, exercises.length, q, score, selectedLevel]);
+
+  // Tick del timer
+  useEffect(() => {
+    if (selectedLevel === null || quizFinished) return;
+
+    const tick = setInterval(() => {
+      setSecondsLeft((s) => {
+        if (s <= 1) {
+          clearInterval(tick);
+          // Tiempo agotado: cuenta como no respondida
+          handleAutoSubmit("");
+          return 0;
+        }
+        return s - 1;
+      });
+    }, 1000);
+
+    return () => clearInterval(tick);
+  }, [currentQuestion, handleAutoSubmit, quizFinished, selectedLevel]);
 
   const onSelectOption = (opt) => {
     setSelectedOption(opt);

@@ -16,7 +16,6 @@ const palette = {
   success: "#138a63",
   danger: "#d14343"
 };
-const serif = "var(--font-grotesk), 'Sora', 'Arial', sans-serif";
 const sans = "var(--font-sora), 'Sora', 'Arial', sans-serif";
 const logoUrl = "https://i.ibb.co/C3kRtYQG/zxczx-2-1.png";
 const socialLinks = [

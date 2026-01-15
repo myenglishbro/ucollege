@@ -16,7 +16,6 @@ const palette = {
   success: "#138a63",
   danger: "#d14343"
 };
-const serif = "var(--font-grotesk), 'Sora', 'Arial', sans-serif";
 const sans = "var(--font-sora), 'Sora', 'Arial', sans-serif";
 const logoUrl = "https://i.ibb.co/C3kRtYQG/zxczx-2-1.png";
 const socialLinks = [
@@ -274,7 +273,7 @@ export default function CELPIPSpeakingClassicUI() {
                   {!imgError && !useIframe && (
                     <img
                       src={q?.image}
-                      alt={`Task ${q?.id || questionIndex + 1} image`}
+                      alt={`Task ${q?.id || questionIndex + 1}`}
                       className="task-img"
                       loading="lazy"
                       style={{ opacity: imgLoaded ? 1 : 0, transition: "opacity .25s ease" }}

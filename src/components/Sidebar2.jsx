@@ -8,8 +8,7 @@ import TimelineItem from './Sidebar/Sidebar/TimelineItem';
 import RewardPopup from './Sidebar/Sidebar/RewardPopup';
 import UnlockModal from './Sidebar/Sidebar/UnlockModal';
 import Hito2 from '../pages/Hito2';
-import useLocalStorage from './Sidebar/Hooks/useLocalStorage';
-import { normalizeUrl, calculateProgress } from './Sidebar/utils/sidebarUtils';
+import { calculateProgress } from './Sidebar/utils/sidebarUtils';
 
 const NAVBAR_HEIGHT = 64;
 const SIDEBAR_WIDTH = 288;
@@ -33,8 +32,8 @@ export default function Sidebar2({
   const [currentLockedLink, setCurrentLockedLink] = useState(null);
   const [codeInputForPopup, setCodeInputForPopup] = useState('');
   const [showRewardPopup, setShowRewardPopup] = useState(false);
-  const [reward, setReward] = useState('');
-  const [rewardDescription, setRewardDescription] = useState('');
+  const [reward] = useState('');
+  const [rewardDescription] = useState('');
 
   const handleSelect = (idx) => {
     const isSame = activeIndex === idx;

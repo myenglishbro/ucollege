@@ -1,5 +1,4 @@
 "use client";
-import InfoBadge from './InfoBadge';
 import Accordion from './Accordion';
 import SeccionDocentes from './SeccionDocentes';
 import AsidePanelModern from './AsidePanelModern';
@@ -11,9 +10,6 @@ import Typing from 'react-typing-effect';
 import { FaFacebookF, FaInstagram, FaYoutube, FaSpotify } from 'react-icons/fa';
 import CategoryCarousel from './CategoryCarousel';
 import PricingPlansDark from "./PricingPlansDark";
-import FeaturedInStrip from "./FeaturedInStrip";
-import React, { useRef } from "react";
-import PayPalButton from './PaypalButton';
 export default function LandingVibrante({
   logo,
   titulo,
@@ -218,16 +214,16 @@ export default function LandingVibrante({
       <div className="flex flex-col md:flex-row justify-between items-center text-sm text-white/80 gap-4">
         <div className="space-x-4">
           <span>© Myenglishbro! 2025</span>
-          <a href="#" className="hover:underline">Política de Privacidad</a>
-          <a href="#" className="hover:underline">Cookies</a>
-          <a href="#" className="hover:underline">Términos y Condiciones</a>
+          <a href="/privacy" className="hover:underline">Política de Privacidad</a>
+          <a href="/cookies" className="hover:underline">Cookies</a>
+          <a href="/terms" className="hover:underline">Términos y Condiciones</a>
         </div>
 
         <div className="flex gap-4 text-white text-xl">
-          <a href="#" className="hover:scale-110 transition"><FaFacebookF /></a>
-          <a href="#" className="hover:scale-110 transition"><FaInstagram /></a>
-          <a href="#" className="hover:scale-110 transition"><FaYoutube /></a>
-          <a href="#" className="hover:scale-110 transition"><FaSpotify /></a>
+          <a href="https://www.facebook.com/" className="hover:scale-110 transition"><FaFacebookF /></a>
+          <a href="https://www.instagram.com/_myenglishbro" className="hover:scale-110 transition"><FaInstagram /></a>
+          <a href="https://www.youtube.com/@_myenglishbro" className="hover:scale-110 transition"><FaYoutube /></a>
+          <a href="https://open.spotify.com/" className="hover:scale-110 transition"><FaSpotify /></a>
         </div>
       </div>
     </footer>

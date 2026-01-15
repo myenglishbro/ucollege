@@ -5,7 +5,6 @@ import "./index.css"
 
 
 import Home from "./pages/Home";
-import Clases from "./pages/Clases";
 
 import Store from "./pages/Store";
 import { Route, Routes } from "react-router-dom";
@@ -38,11 +37,7 @@ import RoadMapC2 from "./pages/RoadMapC2";
 import RoadMapUoe from "./pages/RoadMapUoe";
 import RoadMapEg from "./pages/RoadMapEg";
 import RoadMapB2CF from "./pages/RoadMapB2CF";
-import TextFileUploader from "./components/WriteQuiz";
-import GrammarSpaceDefender from "./components/MultipleChoiceTrainer";
-import GrammarMazeRunner from "./components/GrammarCodeQuest";
 import GrammarCodeQuest from "./components/GrammarCodeQuest";
-import GrammarGlassBridge from "./components/FightingGrammar";
 import FightingGrammar from "./components/FightingGrammar";
 import EncryptTextUploader from "./components/EncryptTextUploader";
 import KeywordTransformerTrainer from "./components/KeywordTransformerTrainer";
@@ -52,8 +47,6 @@ import TxtEncryptor from "./components/TxtEncryptor";
 import MultipleChoiceTrainer from "./components/MultipleChoiceTrainer";
 import GappedTextQuizUploader from "./components/GappedTextQuizUploader";
 import ReadingEn from "./components/ReadingEn";
-import WriteQuiz from "./components/WriteQuiz";
-import TypeQuiz from "./components/SixtyType.jsx";
 import WordReorderGame from "./components/WordReorderGame";
 import ReadingComprehension from "./components/Aplicativos/ReadingComprehension.jsx";
 import AudioListeningQuiz from "./components/AudioListeningQuiz";
@@ -79,7 +72,6 @@ import SpeakingCayetano from "./components/Speaking/SpeakingCayetano.jsx";
 import CELPIPSpeaking2 from "./components/Speaking/CELPIPSpeaking2.jsx";
 import CELPIPSpeaking3 from "./components/Speaking/CELPIPSpeaking3.jsx";
 import CELPIPSpeaking4 from "./components/Speaking/CELPIPSpeaking4.jsx";
-import Quizbank01Enhanced from "./components/Aplicativos/Quizer/Quizbank01.jsx";
 import Quizbank01 from "./components/Aplicativos/Quizer/Quizbank01.jsx";
 import InicioIelts from "./components/Login/LoginIelts/InicioIelts.jsx";
 import UseOfEnglishSimulator from "./components/SimulatorB2/UseOfEnglishSimulator.jsx";

@@ -14,7 +14,9 @@ const MyPortal = () => {
       Recuerda que puedes cancelar tu clase con 24 horas de anticipación
       </p>
 
-      <a href=""> </a>
+      <a href="https://meet.google.com/" className="text-blue-500 hover:underline">
+        Ingresar a clase
+      </a>
     </div>
 
     <div className={layout.sectionImg}>
@@ -31,7 +33,12 @@ const MyPortal = () => {
     </div>
 
     <div className={`${styles.flexCenter} sm:ml-10 ml-0 sm:mt-0 mt-10`}>
-      <a href="https://docs.google.com/spreadsheets/d/1ztiRdJp4b6odziiqhwlEoE6VfLopJiMOrT_RvOl7KDc/edit?usp=sharing"> </a>
+      <a
+        href="https://docs.google.com/spreadsheets/d/1ztiRdJp4b6odziiqhwlEoE6VfLopJiMOrT_RvOl7KDc/edit?usp=sharing"
+        className="text-blue-500 hover:underline"
+      >
+        Ver clases
+      </a>
     </div>
   </section>
     </>
