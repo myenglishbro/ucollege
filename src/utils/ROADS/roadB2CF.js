@@ -1241,7 +1241,7 @@ export const roadB2CF = [
 
         dateAdded: "Basic 01 ",
         channel: "sdasd",
-        description: "Completa los desafÃ­os para dominar el InglÃ©s",
+        description: "Completa los desaf­os para dominar el InglÃ©s",
         enlaces: [
             { titulo: "âœ Modal Verbs ",url: "https://drive.google.com/file/d/1Nblkea4-3PmGpg_cOHpi9NXn_HRNGj_V/view?usp=sharing", },    
             
