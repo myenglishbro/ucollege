@@ -1,0 +1,1113 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "title": "PET Reading Set 1",
+      "questions": [
+        {
+          "id": 1,
+          "label": "Email",
+          "prompt": "Dear team, remember we've moved our weekly meeting from Monday to Wednesday for this week only. This is due to staff illness.",
+          "options": [
+            "The weekly meeting is cancelled this week.",
+            "The weekly meeting will be held on both Monday and Wednesday.",
+            "Somebody is not well."
+          ],
+          "answer": 2
+        },
+        {
+          "id": 2,
+          "label": "Notice",
+          "prompt": "Wet Floor!\n\nCaution: Floor is wet. Please watch your step.",
+          "options": [
+            "The floor is wet, please go back.",
+            "There's a step on the wet floor that needs to be watched.",
+            "The floor is wet and you should be careful while walking."
+          ],
+          "answer": 2
+        },
+        {
+          "id": 3,
+          "label": "Warning",
+          "prompt": "Noise Restrictions\n\nLoud music is not permitted after 10pm. Please respect your neighbours and keep noise levels to a minimum.",
+          "options": [
+            "You must use headphones to listen to music.",
+            "You can't play loud music after 10pm.",
+            "Loud music is only allowed before 10pm if it is played through headphones."
+          ],
+          "answer": 1
+        },
+        {
+          "id": 4,
+          "label": "Text Message",
+          "prompt": "Hey Jake, want to join us for a hike on Sunday? The weather should be nice. We're aiming to start early in the morning. Speak soon, Mark.",
+          "options": [
+            "Mark is inviting Jake to a hike.",
+            "Mark is telling Jake about a hike he missed.",
+            "The weather probably won't be great."
+          ],
+          "answer": 0
+        },
+        {
+          "id": 5,
+          "label": "Competition",
+          "prompt": "Win a Designer Wardrobe\n\nEnter now to win a wardrobe makeover by a top designer worth $5000! Entry is free. Participants must be aged 16 or over. Deadline for entries: January 15th.",
+          "options": [
+            "There is an entry fee for the competition.",
+            "The competition is for those who want new clothes.",
+            "The competition is open to those who want new furniture."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "PET Reading Set 2",
+      "questions": [
+        {
+          "id": 1,
+          "label": "Text Message",
+          "prompt": "Hey Alex, trivia night at The Nook Bar on Saturday. Join us if you can! Speak soon, Mia.",
+          "options": [
+            "Alex is telling Mia where the trivia night will be.",
+            "Mia is inviting Alex to a trivia night.",
+            "Mia is telling Alex that trivia night has been cancelled."
+          ],
+          "answer": 1
+        },
+        {
+          "id": 2,
+          "label": "Email",
+          "prompt": "Hi Sophie, I heard about the charity run happening next weekend. Can you let me know the details? Thanks, Jake.",
+          "options": [
+            "Jake wants to know the details about the charity run from Sophie.",
+            "Jake wants to tell Sophie about the details of the charity run.",
+            "Sophie wants to know the details about the charity run from Jake."
+          ],
+          "answer": 0
+        },
+        {
+          "id": 3,
+          "label": "Text Message",
+          "prompt": "Hey Amy, we're planning a movie night at my place tomorrow. Thought of watching the new sci-fi movie, are you in? Speak soon, Leo.",
+          "options": [
+            "Leo is asking Amy to bring a sci-fi movie.",
+            "Leo is asking if she likes sci-fi movies.",
+            "Leo is inviting Amy to his house."
+          ],
+          "answer": 2
+        },
+        {
+          "id": 4,
+          "label": "Notice",
+          "prompt": "No Parking\n\nVehicles parked here will be towed at owner's expense.",
+          "options": [
+            "There is paid parking available here.",
+            "Cars left here will be removed and the owner will have to pay.",
+            "Only residents can park here."
+          ],
+          "answer": 1
+        },
+        {
+          "id": 5,
+          "label": "Text Message",
+          "prompt": "Hi Lisa, can you lend me your notes from last week's English class? The one about poetry. I was sick and missed it. Speak soon, Andy.",
+          "options": [
+            "Andy is offering Lisa his English notes.",
+            "Lisa is asking Andy for his English notes.",
+            "Andy is asking for Lisa's English notes."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "PET Reading Set 3",
+      "questions": [
+        {
+          "id": 1,
+          "label": "Text Message",
+          "prompt": "Hi Bella, We're planning a picnic this Saturday. Do you want to come along? You can bring something to drink. There's an extra blanket for you. -Sophia.",
+          "options": [
+            "Sophia is asking Bella to join them for a picnic during the week.",
+            "Sophia is telling Bella she doesn't need to bring a blanket.",
+            "Sophia is telling Bella to bring some food."
+          ],
+          "answer": 1
+        },
+        {
+          "id": 2,
+          "label": "Notice",
+          "prompt": "Wi-Fi Maintenance\n\nThere will be Wi-Fi maintenance from 6pm to 8pm today. Internet services will be interrupted during this time.",
+          "options": [
+            "Wi-Fi maintenance will take place during office hours.",
+            "Internet services will not be affected by the Wi-Fi maintenance.",
+            "Wi-Fi will be unavailable this evening."
+          ],
+          "answer": 2
+        },
+        {
+          "id": 3,
+          "label": "Text Message",
+          "prompt": "Hey Amy, I'm throwing a surprise party for Lisa's birthday this Sunday. Can you help me with the decorations? Speak soon, Brad.",
+          "options": [
+            "Brad is inviting Amy to a surprise party.",
+            "Brad is telling Amy about a surprise party she missed.",
+            "Brad is asking Amy to help with a surprise party."
+          ],
+          "answer": 2
+        },
+        {
+          "id": 4,
+          "label": "Text Message",
+          "prompt": "Train Delays\n\nHey, just wanted to let you know the train is delayed by 30 minutes. I'll be a bit late for our meeting.",
+          "options": [
+            "The sender will be late for the meeting due to a train delay.",
+            "The sender won't be able to make it to the meeting.",
+            "The train is running on time and the sender might be early for the meeting."
+          ],
+          "answer": 0
+        },
+        {
+          "id": 5,
+          "label": "Notice",
+          "prompt": "Lift Broken\n\nLift is not operational. Please use the stairs.",
+          "options": [
+            "The lift should only be used if you can't climb stairs.",
+            "The lift isn't working but you can use the stairs.",
+            "The lift works now as it's been repaired."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+
+      {
+      "id": 4,
+      "title": "PET Reading Set 4",
+      "questions": [
+        {
+          "id": 1,
+          "label": "Note",
+          "prompt": "Dear Emma, I'm visiting your grandma this afternoon. I've done the dishes but the clothes are still in the washing machine. Could you hang them out to dry? And don't forget to complete your homework before your favourite show comes on. Pizza for dinner is in the freezer. Love, Mum.",
+          "options": [
+            "Mum is telling Emma to do the laundry.",
+            "Mum is asking Emma not to watch TV.",
+            "Mum has asked Emma to empty the washing machine."
+          ],
+          "answer": 2
+        },
+        {
+          "id": 2,
+          "label": "Text Message",
+          "prompt": "Hey Martin, can you tell me the homework for our history class? I forgot to note it down. Thanks, Sam.",
+          "options": [
+            "Sam is asking Martin about the history homework.",
+            "Sam is asking Martin a question about ancient history.",
+            "Sam knows the history homework but Martin might not."
+          ],
+          "answer": 0
+        },
+        {
+          "id": 3,
+          "label": "Email",
+          "prompt": "Dear Customer Support, I am a loyal customer who has recently encountered an issue with one of your products. Could you advise me on the steps for the return process? Best regards, Liam.",
+          "options": [
+            "Liam is enquiring about some prices.",
+            "Liam is writing to compliment the product.",
+            "Liam is seeking advice on how to send back a product."
+          ],
+          "answer": 2
+        },
+        {
+          "id": 4,
+          "label": "Email",
+          "prompt": "Dear Ms. Evans, I am interested in the French language course you mentioned in the newsletter. Can you send me the course details? Regards, Susan.",
+          "options": [
+            "Susan is asking Ms. Evans for details about the French language course.",
+            "Susan wants to know if French is the only language course.",
+            "Susan wants to know the price of the French language course."
+          ],
+          "answer": 0
+        },
+        {
+          "id": 5,
+          "label": "Notice",
+          "prompt": "Cafeteria Cleaning\n\nThe cafeteria will be closed for cleaning from 2pm to 3pm today. Sorry for all those affected.",
+          "options": [
+            "The cafeteria is closed all day for cleaning.",
+            "Lunch plans might be different today for some people.",
+            "The cafeteria will close early at 3pm today."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+
+    {
+      "id": 5,
+      "title": "PET Reading Set 5",
+      "questions": [
+        {
+          "id": 1,
+          "label": "Text Message",
+          "prompt": "Hey Tom, I'm having trouble with our chemistry homework. It's really difficult. Could you help me out when you have some free time? Speak soon, Alice.",
+          "options": [
+            "Tom needs help with chemistry homework.",
+            "Alice is offering help with chemistry homework.",
+            "Alice needs help with chemistry homework."
+          ],
+          "answer": 2
+        },
+        {
+          "id": 2,
+          "label": "Notice",
+          "prompt": "Photography Club Meeting\n\nJoin us in room 110 at 3.00pm on Tuesday to learn about the upcoming photography trip next weekend.",
+          "options": [
+            "The photography club meeting has been moved to a new room.",
+            "The notice is about a meeting to discuss an upcoming photography trip.",
+            "The photography club is asking for photo submissions for the next meeting."
+          ],
+          "answer": 1
+        },
+        {
+          "id": 3,
+          "label": "Email",
+          "prompt": "Hey Tim, I missed the last band practice. Could you tell me what songs we're going to perform at the gig? Cheers, Adam.",
+          "options": [
+            "Tim is asking Adam about the songs for the gig.",
+            "Adam wants to know which music he will have to play.",
+            "Adam is asking if Tim likes the songs they have to play at the gig."
+          ],
+          "answer": 1
+        },
+        {
+          "id": 4,
+          "label": "Email",
+          "prompt": "Vacation Notice\n\nHello team, I'll be on holiday from June 20th to June 27th. In my absence, John will be handling my responsibilities.",
+          "options": [
+            "The sender will be on holiday and John will cover their duties.",
+            "The sender and John will both be on holiday at the same time.",
+            "While John is away, someone else will be doing his work at the company."
+          ],
+          "answer": 0
+        },
+        {
+          "id": 5,
+          "label": "Notice",
+          "prompt": "For Sale\n\nVintage Vinyl Records. Various artists, good condition. $5-10 each. Visit 32 High Street to browse.",
+          "options": [
+            "All the records are the same price.",
+            "The seller is offering to buy vintage vinyl records.",
+            "Vintage vinyl records in good condition are being sold."
+          ],
+          "answer": 2
+        }
+      ]
+    }
+     ,
+
+      {
+      "id": 6,
+      "title": "PET Reading Set 6",
+      "questions": [
+        {
+          "id": 1,
+          "label": "Notice",
+          "prompt": "Printer Update\n\nThe office printer will be replaced next week. Please limit printing to essential documents only in the meantime.",
+          "options": [
+            "The office printer is currently out of service.",
+            "Next week, the office printer will be replaced.",
+            "The office printer will be replaced today."
+          ],
+          "answer": 1
+        },
+        {
+          "id": 2,
+          "label": "Competition",
+          "prompt": "Win a Personal Training Package\n\nGet fit with our prize of 10 personal training sessions! Entry is free. Participants must be 16 years or older. Entries close on October 15th.",
+          "options": [
+            "The prize is 10 sessions with a trainer.",
+            "The prize is a run with a professional athlete.",
+            "There are no age restrictions for this competition."
+          ],
+          "answer": 0
+        },
+        {
+          "id": 3,
+          "label": "Email",
+          "prompt": "Hi Emma, I heard there's a job opening in your department. Can you give me more details? Thanks, Jim.",
+          "options": [
+            "Jim has details about a job opening in Emma's department.",
+            "Jim wants to know more about a job opening in Emma's department.",
+            "Emma wants to know more about a job opening in Jim's department."
+          ],
+          "answer": 1
+        },
+        {
+          "id": 4,
+          "label": "Notice",
+          "prompt": "Team Meeting\n\nThere will be a team meeting in Conference Room A at 10am on Friday. Attendance is mandatory.",
+          "options": [
+            "A team meeting is scheduled for Friday.",
+            "You don't need to go to the meeting.",
+            "The team meeting will take place in Conference Room B."
+          ],
+          "answer": 0
+        },
+        {
+          "id": 5,
+          "label": "Email",
+          "prompt": "Hey Lisa, I missed class today, can you let me know what the homework for our science class was? Thanks, Alex.",
+          "options": [
+            "Lisa missed class and doesn't know the homework.",
+            "Alex missed class and needs the time of the next class.",
+            "Alex needs to know the homework for the science class."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+
+     {
+      "id": 7,
+      "title": "PET Reading Set 7",
+      "questions": [
+        {
+          "id": 1,
+          "label": "Notice",
+          "prompt": "School Science Fair\n\nExhibits, experiments and fun! Entry fee $4. All proceeds will be used for updating our laboratory equipment.",
+          "options": [
+            "The school science fair will have free entry.",
+            "The school is asking for donations for new laboratory equipment.",
+            "The notice gives information about how money will be used."
+          ],
+          "answer": 2
+        },
+        {
+          "id": 2,
+          "label": "Email",
+          "prompt": "Hello, I'm reaching out to see if there are any job vacancies in your company, specifically in the marketing department. I look forward to hearing from you. Best regards, Alex.",
+          "options": [
+            "Alex is inquiring about job vacancies in the marketing department.",
+            "Alex worked in the marketing department.",
+            "Alex is writing to complain about the company's services."
+          ],
+          "answer": 0
+        },
+        {
+          "id": 3,
+          "label": "Text Message",
+          "prompt": "Hey Jenna, we're planning a trip to the beach this Saturday. It would be great if you could join us. Speak soon, Emily.",
+          "options": [
+            "Emily is inviting Jenna to a beach trip.",
+            "Emily wants to know what happened at the beach.",
+            "Emily is telling Jenna that she's unable to make it to the beach trip."
+          ],
+          "answer": 0
+        },
+        {
+          "id": 4,
+          "label": "Notice",
+          "prompt": "Office Cleaning\n\nOffice cleaning will take place every Friday after office hours. Please clear your desks before leaving.",
+          "options": [
+            "The office will be cleaned every day after office hours.",
+            "Desks need to be cleared for the office cleaning on Fridays.",
+            "The office will not be cleaned if desks are not cleared."
+          ],
+          "answer": 1
+        },
+        {
+          "id": 5,
+          "label": "Warning",
+          "prompt": "Staircase Use\n\nPlease use handrails when using the staircase. Avoid running or rushing to prevent accidents.",
+          "options": [
+            "The staircase is not in use due to an accident.",
+            "Handrails should be used when navigating the staircase.",
+            "The staircase should be avoided at all costs."
+          ],
+          "answer": 1
+        }
+      ]
+    }
+,
+ {
+      "id": 8,
+      "title": "PET Reading Set 8",
+      "questions": [
+        {
+          "id": 1,
+          "label": "Notice",
+          "prompt": "For Sale\n\nSamsung Smart TV. 50 inch, HD. $400. Collection from Reception.",
+          "options": [
+            "The TV will be delivered to Reception.",
+            "The Samsung Smart TV is the size of a smartphone.",
+            "A 50 inch Samsung Smart TV is available for sale."
+          ],
+          "answer": 2
+        },
+        {
+          "id": 2,
+          "label": "Competition",
+          "prompt": "Win a New Car\n\nJoin our lottery to win a brand new Tesla Model 3! Entry is $10. Only one entry per person. Deadline for entries: December 31st. Entrants must be 21 years or older.",
+          "options": [
+            "The competition allows multiple entries per person if you pay.",
+            "The competition is for a chance to win a Tesla Model 3.",
+            "The competition closes at Christmas."
+          ],
+          "answer": 1
+        },
+        {
+          "id": 3,
+          "label": "Notice",
+          "prompt": "Unsafe Tree\n\nWarning: Tree unsafe. Please do not climb.",
+          "options": [
+            "You are encouraged to climb the tree.",
+            "The tree is unsafe, but you can still sit under it.",
+            "The tree is not safe and you shouldn't climb it."
+          ],
+          "answer": 2
+        },
+        {
+          "id": 4,
+          "label": "Notice",
+          "prompt": "Office Supplies\n\nIf you need any office supplies, please fill out the request form at the front desk.",
+          "options": [
+            "Office supplies are available at the front desk.",
+            "Forms for office supplies need to be filled out.",
+            "You need to fill out a form to use the front desk."
+          ],
+          "answer": 1
+        },
+        {
+          "id": 5,
+          "label": "Competition",
+          "prompt": "Essay Contest\n\nDear students, the topic for this year's essay contest has been announced: \"The Impact of Technology on Society\". Submissions are due by June 1st.",
+          "options": [
+            "The topic for the essay contest is \"The Impact of Technology on Society\".",
+            "Students need to read an essay with the title \"The Impact of Technology on Society\".",
+            "Students can begin sending their essays in June."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+     {
+      "id": 9,
+      "title": "PET Reading Set 9",
+      "questions": [
+        {
+          "id": 1,
+          "label": "Email",
+          "prompt": "Dear customer, your order has been shipped and should arrive by Friday.",
+          "options": [
+            "The customer's order is ready to be shipped.",
+            "The customer's order has been sent and is expected to arrive by Friday.",
+            "The customer's order will not arrive until after Friday."
+          ],
+          "answer": 1
+        },
+        {
+          "id": 2,
+          "label": "Warning",
+          "prompt": "Winter Storm\n\nThe meteorological department forecasts a severe winter storm over the weekend. All residents are advised to stay indoors and make necessary preparations.",
+          "options": [
+            "The weather is expected to be clear by Saturday.",
+            "Due to the weather, residents should leave the area.",
+            "There is a prediction of cold weather over the weekend."
+          ],
+          "answer": 2
+        },
+        {
+          "id": 3,
+          "label": "Notice",
+          "prompt": "Community Garden Party\n\nFood, games, and entertainment! Entry $3. All proceeds will contribute to building a playground in our park.",
+          "options": [
+            "The notice says that funds raised will be used to build a playground.",
+            "Every person going to the garden party will get $3.",
+            "The community is asking for volunteers to build the playground."
+          ],
+          "answer": 0
+        },
+        {
+          "id": 4,
+          "label": "Email",
+          "prompt": "Hello, I visited your cafe last week and loved the ambience. I'm wondering if you provide space for private events? Thanks, Michael.",
+          "options": [
+            "Michael is asking how much a private event would be.",
+            "Michael is asking if the cafe can host private events.",
+            "Michael is asking about the cafe's menu."
+          ],
+          "answer": 1
+        },
+        {
+          "id": 5,
+          "label": "Competition",
+          "prompt": "Win a Year's Supply of Books\n\nWin a year's supply of books from your favourite genre! Entry is free. No age restrictions apply. Entries close on November 15th.",
+          "options": [
+            "Participants need to pay an entry fee of $5.",
+            "The prize is a large amount of books.",
+            "The prize is a collection of history books."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "title": "PET Reading Set 10",
+      "questions": [
+        {
+          "id": 1,
+          "label": "Email",
+          "prompt": "Chess Club\n\nOur regular monthly meeting is moved from Tuesday to Wednesday this week.",
+          "options": [
+            "The monthly meeting is cancelled this week.",
+            "The monthly meeting has been rescheduled to Wednesday.",
+            "The monthly meeting will happen twice this week, on Tuesday and Wednesday."
+          ],
+          "answer": 1
+        },
+        {
+          "id": 2,
+          "label": "Text Message",
+          "prompt": "Hi Grace, do you have any plans on Saturday? There's a charity run in the park. Want to join? Speak soon, Olivia.",
+          "options": [
+            "Olivia is inviting Grace to a charity run.",
+            "Grace doesn't have any plans for Saturday.",
+            "Olivia will meet Grace in the park."
+          ],
+          "answer": 0
+        },
+        {
+          "id": 3,
+          "label": "Email",
+          "prompt": "Chess Club Gathering\n\nMeet in room 303 at 4.00pm on Thursday for information about the chess tournament this Sunday.",
+          "options": [
+            "Come to the meeting on Sunday to find out more.",
+            "The chess club is asking for volunteers for the chess tournament.",
+            "The email is about a meeting to discuss an upcoming chess tournament."
+          ],
+          "answer": 2
+        },
+        {
+          "id": 4,
+          "label": "Notice",
+          "prompt": "Lost and Found\n\nA set of keys was found in the break room. If they are yours, please claim them at the reception.",
+          "options": [
+            "A set of keys is missing from the break room.",
+            "A set of keys found in the break room can be claimed at reception.",
+            "Someone has claimed a set of keys at the reception."
+          ],
+          "answer": 1
+        },
+        {
+          "id": 5,
+          "label": "Competition",
+          "prompt": "Win a Gourmet Cooking Class\n\nJoin our contest for a chance to win a gourmet cooking class with celebrity chef Gordon Ramsay! Entry costs $20. You can take all food home afterwards! Deadline for entries: October 1st.",
+          "options": [
+            "The prize is a cooking class with Gordon Ramsay.",
+            "The entrants must bring all necessary food from home.",
+            "No entry deadline is given."
+          ],
+          "answer": 0
+        }
+      ]
+    }
+    ,
+     {
+      "id": 11,
+      "title": "PET Reading Set 11",
+      "questions": [
+        {
+          "id": 1,
+          "label": "Email",
+          "prompt": "Dear Rachel, We're organising a karaoke night on Friday at Charlie's Pub. Would you be interested in joining us? Best, Maria.",
+          "options": [
+            "Maria is informing Rachel that the karaoke night is cancelled.",
+            "Maria is asking Rachel if the venue is a good one.",
+            "Maria is inviting Rachel to a karaoke night."
+          ],
+          "answer": 2
+        },
+        {
+          "id": 2,
+          "label": "Notice",
+          "prompt": "Book Sale\n\nLarge Book Sale at the library on 5th October. All books half price or less. Open from 9.00am to 5.00pm.",
+          "options": [
+            "The Book Sale will be held in the evening.",
+            "There will be some good bargains at the event.",
+            "All books will be sold at full price during the Book Sale."
+          ],
+          "answer": 1
+        },
+        {
+          "id": 3,
+          "label": "Notice",
+          "prompt": "No Smoking - CCTV Installed\n\nSmoking in this area will result in a fine.",
+          "options": [
+            "You won't be seen if you smoke here.",
+            "Smoking in this area is encouraged.",
+            "You will be fined if you smoke in this area."
+          ],
+          "answer": 2
+        },
+        {
+          "id": 4,
+          "label": "Note",
+          "prompt": "Hey Peter, I've left some of my camping gear in your garage for our hike next week. Can you check if it's all there? -Dave.",
+          "options": [
+            "Dave is asking Peter to check on his camping gear.",
+            "Dave is telling Peter he needs his camping gear.",
+            "Dave is asking Peter to return his camping gear."
+          ],
+          "answer": 0
+        },
+        {
+          "id": 5,
+          "label": "Note",
+          "prompt": "Hi David, Your dad and I will be out of town this weekend. I've left a to-do list on the kitchen counter, please make sure to follow it. And don't forget, your sister's soccer game is on Saturday, can you drive her? Love, Mum.",
+          "options": [
+            "David has an important game this weekend.",
+            "David's dad will be home soon.",
+            "David is asked to do some things this weekend."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+
+
+
+     {
+      "id": 12,
+      "title": "PET Reading Set 12",
+      "questions": [
+        {
+          "id": 1,
+          "label": "Competition",
+          "prompt": "Win a Home Makeover\n\nEnter now for a chance to win a home makeover worth $10,000! TV designer Emily Mattis will help create your dream home! Entry is free. Participants must be homeowners and 18 years or older. Deadline for entries: July 31st.",
+          "options": [
+            "Emily Mattis will do the draw for the competition.",
+            "The prize is a home makeover worth $10,000.",
+            "The competition is open to those who rent a house."
+          ],
+          "answer": 1
+        },
+        {
+          "id": 2,
+          "label": "Text Message",
+          "prompt": "Hi Bella, we're trying a new recipe for the picnic this Saturday. Can you bring some lemonade? -Sophia.",
+          "options": [
+            "Bella is telling Sophia that the picnic is on Saturday.",
+            "Sophia is asking Bella to bring something for the picnic.",
+            "Sophia is asking Bella for a new recipe."
+          ],
+          "answer": 1
+        },
+        {
+          "id": 3,
+          "label": "Notice",
+          "prompt": "Room Cleaning\n\nMeeting room 3 is being cleaned this morning. Please use Meeting room 4 instead.",
+          "options": [
+            "Meeting room 3 is unavailable and Meeting room 4 should be used.",
+            "Meeting room 3 is available for use this morning.",
+            "Meeting room 4 is being cleaned this morning."
+          ],
+          "answer": 0
+        },
+        {
+          "id": 4,
+          "label": "Warning",
+          "prompt": "Swimming Pool Rules\n\nFor health reasons, please shower before entering the pool. Failure to comply may result in denial of pool access.",
+          "options": [
+            "Swimming is prohibited in the pool.",
+            "Showering after using the pool is compulsory.",
+            "Showering before you go into the pool is compulsory."
+          ],
+          "answer": 2
+        },
+        {
+          "id": 5,
+          "label": "Notice",
+          "prompt": "Parking\n\nThe car park will be inaccessible tomorrow due to maintenance. Please park on the street.",
+          "options": [
+            "Street parking is being maintained tomorrow.",
+            "Parking will only be available on the street tomorrow.",
+            "The car park maintenance is finished."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "PET Reading Set 13",
+      "questions": [
+        {
+          "id": 1,
+          "label": "Notice",
+          "prompt": "Don't Leave Bikes\n\nBikes left here overnight will be removed. Not responsible for lost items.",
+          "options": [
+            "You are allowed to leave your bikes here overnight.",
+            "Bikes left here overnight will be taken away.",
+            "Bikes left here overnight will be lost."
+          ],
+          "answer": 1
+        },
+        {
+          "id": 2,
+          "label": "Email",
+          "prompt": "Dear Paul, I would like to inquire about your holiday cottage in Cornwall. Is it available for rent in July? Best, Helen.",
+          "options": [
+            "Helen is asking Paul about the location of a cottage.",
+            "Helen is asking Paul about facilities and prices of his cottage.",
+            "Helen is asking Paul about the availability of his holiday cottage."
+          ],
+          "answer": 2
+        },
+        {
+          "id": 3,
+          "label": "Text Message",
+          "prompt": "Hi Sarah, I've got the tickets for the concert this Friday. Could you pick them up from me at school tomorrow? -Emily.",
+          "options": [
+            "Emily is asking Sarah to collect the concert tickets from her.",
+            "Emily is telling Sarah to come to school tomorrow.",
+            "Emily is asking Sarah to buy the concert tickets."
+          ],
+          "answer": 0
+        },
+        {
+          "id": 4,
+          "label": "Email",
+          "prompt": "Hi Sam, I'm going on a shopping trip to the city with Mum this Saturday. My sister isn't coming, so we have space. Want to join? We can share a hotel room. -Lily.",
+          "options": [
+            "Lily is telling Sam that the shopping trip is cancelled.",
+            "Lily says that accommodation isn't a problem.",
+            "Lily is asking Sam to come instead of her mum."
+          ],
+          "answer": 1
+        },
+        {
+          "id": 5,
+          "label": "Notice",
+          "prompt": "Holiday Policy Update\n\nEmployees must now submit holiday requests at least two weeks in advance.",
+          "options": [
+            "Holiday requests must be submitted two weeks ahead.",
+            "Employees can now take holiday without prior notice.",
+            "Holidays of two weeks or more must be approved."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "PET Reading Set 14",
+      "questions": [
+        {
+          "id": 1,
+          "label": "Email",
+          "prompt": "Hello, I have a reservation for two under the name of Smith next week. Unfortunately, I need to cancel it due to unforeseen circumstances. Please confirm the cancellation. Regards, Mr. Smith.",
+          "options": [
+            "Mr. Smith is confirming a reservation.",
+            "Mr. Smith is cancelling a reservation.",
+            "Mr. Smith is making a new reservation."
+          ],
+          "answer": 1
+        },
+        {
+          "id": 2,
+          "label": "Notice",
+          "prompt": "For Sale\n\nGarmin GPS Watch. Great for runners, like new. $100. Call 07123456789 to purchase.",
+          "options": [
+            "The watch can only be used by runners and athletes.",
+            "The seller is offering a watch repair service.",
+            "The watch is in good condition."
+          ],
+          "answer": 2
+        },
+        {
+          "id": 3,
+          "label": "Text Message",
+          "prompt": "Hey Max, I wasn't able to take notes in the history class today, I couldn't hear well. Could you share yours with me? Thanks, Lucy.",
+          "options": [
+            "Lucy wasn't able to hear very well in the class today.",
+            "Lucy wants to share her notes from the history class with Max.",
+            "Max wasn't able to take notes in the history class."
+          ],
+          "answer": 0
+        },
+        {
+          "id": 4,
+          "label": "Notice",
+          "prompt": "Meeting Room Change\n\nPlease note, today's team meeting will be in Room B3 due to ongoing maintenance in Room A1.",
+          "options": [
+            "The team meeting has been cancelled due to maintenance.",
+            "The team meeting will be late due to maintenance.",
+            "The team meeting will take place in a different room."
+          ],
+          "answer": 2
+        },
+        {
+          "id": 5,
+          "label": "Text Message",
+          "prompt": "Can you collect Tommy from football practice today? I'm stuck at work and can't make it.",
+          "options": [
+            "The person is unable to pick up Tommy and needs assistance.",
+            "The person will be late to collect Tommy from football practice.",
+            "Tommy has to miss football practice today."
+          ],
+          "answer": 0
+        }
+      ]
+    },
+     {
+      "id": 15,
+      "title": "PET Reading Set 15",
+      "questions": [
+        {
+          "id": 1,
+          "label": "Warning",
+          "prompt": "Library Conduct\n\nPlease maintain silence in the library. Use of mobile phones or loud conversations may lead to expulsion.",
+          "options": [
+            "Anybody talking will be thrown out of the library.",
+            "Silence must be maintained in the library.",
+            "Conversations are encouraged in the library if you are talking about homework."
+          ],
+          "answer": 1
+        },
+        {
+          "id": 2,
+          "label": "Text Message",
+          "prompt": "Hi Hannah, Just a quick reminder about the party at my place this weekend. Starts at 7. Don't forget the fancy dress! Speak soon, Olivia.",
+          "options": [
+            "Olivia is reminding Hannah about the fancy dress party.",
+            "Olivia is asking Hannah what time the party is.",
+            "Hannah is is asking Olivia what to wear."
+          ],
+          "answer": 0
+        },
+        {
+          "id": 3,
+          "label": "Email",
+          "prompt": "Dear students, today's chemistry lesson will be in Room 210 instead of the usual Room 203.",
+          "options": [
+            "The chemistry lab will be a little later today.",
+            "The chemistry lab will still be in Room 203.",
+            "The chemistry lab is relocated to Room 210 for today."
+          ],
+          "answer": 2
+        },
+        {
+          "id": 4,
+          "label": "Text Message",
+          "prompt": "Hi Kyle, I think I left my laptop at your flat last night. Could you check for me? Best, Laura.",
+          "options": [
+            "Laura thinks she left her laptop at Kyle's flat.",
+            "Kyle thinks he left his laptop at Laura's place.",
+            "Laura has Kyle's laptop at her place."
+          ],
+          "answer": 0
+        },
+        {
+          "id": 5,
+          "label": "Notice",
+          "prompt": "For Sale\n\nSolid Oak Dining Table. Seats 6, excellent condition. $350. Contact Jane on 07591234567 to view.",
+          "options": [
+            "Jane is interested in buying a dining table.",
+            "The oak dining table on sale is cheap because of its condition.",
+            "Jane is selling a solid oak dining table."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "PET Reading Set 16",
+      "questions": [
+        {
+          "id": 1,
+          "label": "Text Message",
+          "prompt": "Hi Ethan, remember our history project is due next Monday. Let's meet up this weekend to finish it up. Speak soon, Zack.",
+          "options": [
+            "Zack is suggesting they meet to finish their history project.",
+            "Ethan is suggesting they meet to finish their history project.",
+            "Zack is asking Ethan to do his history project for him."
+          ],
+          "answer": 0
+        },
+        {
+          "id": 2,
+          "label": "Notice",
+          "prompt": "Company Meeting\n\nAll staff members are reminded that the monthly company meeting will take place in the main conference room at 9am on Wednesday.",
+          "options": [
+            "Employees can attend the monthly company meeting online.",
+            "The monthly company meeting is scheduled for Wednesday morning.",
+            "The monthly company meeting takes place every week on Wednesday morning."
+          ],
+          "answer": 1
+        },
+        {
+          "id": 3,
+          "label": "Text Message",
+          "prompt": "Hi Kate, I don't know where the team building event is. Can you send me the address? Thanks, Joe.",
+          "options": [
+            "Joe is asking Kate for details about what will happen during the team building event.",
+            "Joe is asking Kate for the location of the team building event.",
+            "Joe knows the location of the team building event but not the times."
+          ],
+          "answer": 1
+        },
+        {
+          "id": 4,
+          "label": "Note",
+          "prompt": "Hi Liam, Sorry I missed your call. I was in the garden planting some new roses. We need to remember to water them every morning, so could you help with that? Also, there's some spaghetti Bolognese in the fridge if you're hungry. Love, Mum.",
+          "options": [
+            "Mum is asking Liam to help water the new roses.",
+            "Mum is telling Liam to call when she's in the garden.",
+            "Mum is asking Liam to cook spaghetti Bolognese."
+          ],
+          "answer": 0
+        },
+        {
+          "id": 5,
+          "label": "Notice",
+          "prompt": "New Printer Installation\n\nThe new printer has been installed in Room C2. Instructions are posted next to it.",
+          "options": [
+            "The new printer will be installed in Room C2.",
+            "The printer in Room C2 is out of order.",
+            "A new printer is available in Room C2."
+          ],
+          "answer": 2
+        }
+      ]
+    },
+      {
+      "id": 17,
+      "title": "PET Reading Set 17",
+      "questions": [
+        {
+          "id": 1,
+          "label": "Notice",
+          "prompt": "Green Initiative\n\nLet's go green! Remember to switch off your computers before leaving.",
+          "options": [
+            "The office is organising a green computer event.",
+            "Employees are asked to switch off their computers to save energy.",
+            "The office will be switching to green energy."
+          ],
+          "answer": 1
+        },
+        {
+          "id": 2,
+          "label": "Notice",
+          "prompt": "For Sale\n\nBlack Mountain Bike. Excellent condition. $200. Contact Dave at 07912345678",
+          "options": [
+            "A black mountain bike in excellent condition is for sale.",
+            "Dave is selling a used motorcycle for $200.",
+            "Dave is looking for a black mountain bike to buy."
+          ],
+          "answer": 0
+        },
+        {
+          "id": 3,
+          "label": "Note",
+          "prompt": "Hey Alex, the weather looks bad next weekend. Maybe we can do the barbecue at my place another time? I'll let you know. -Martin.",
+          "options": [
+            "Martin is inviting Alex to a barbecue next weekend.",
+            "Martin is telling Alex the location for the barbecue.",
+            "Martin is telling Alex that the barbecue has been cancelled."
+          ],
+          "answer": 2
+        },
+        {
+          "id": 4,
+          "label": "Warning",
+          "prompt": "CCTV in Operation\n\nPlease be aware that this area is under 24/7 video surveillance for your safety and to deter crime. All activities are being recorded.",
+          "options": [
+            "The area is free from any video surveillance.",
+            "The area is monitored by video surveillance.",
+            "The area has video surveillance only during office hours."
+          ],
+          "answer": 1
+        },
+        {
+          "id": 5,
+          "label": "Text Message",
+          "prompt": "Hi Megan, I got the new Harry Potter book. Do you want to come over this weekend and start a reading marathon? Speak soon, Jessica.",
+          "options": [
+            "Jessica is asking Megan to read the book to her.",
+            "Jessica is inviting Megan to her house.",
+            "Jessica is asking Megan to lend her the book."
+          ],
+          "answer": 1
+        }
+      ]
+    },
+       {
+      "id": 18,
+      "title": "PET Reading Set 18",
+      "questions": [
+        {
+          "id": 1,
+          "label": "Notice",
+          "prompt": "Parking Restrictions\n\nNew parking restrictions will be enforced from next week. Park in designated spots only.",
+          "options": [
+            "Parking restrictions will be lifted next week.",
+            "Parking is no longer available at the office.",
+            "Only designated spots are to be used for parking."
+          ],
+          "answer": 2
+        },
+        {
+          "id": 2,
+          "label": "Email",
+          "prompt": "Dear Mrs. Brown, I missed the last PTA meeting. Could you tell me what was discussed? Regards, Fiona.",
+          "options": [
+            "Fiona is asking Mrs. Brown for information.",
+            "Fiona wants to make a complaint.",
+            "Fiona attended the last PTA meeting and has a question."
+          ],
+          "answer": 0
+        },
+        {
+          "id": 3,
+          "label": "Notice",
+          "prompt": "For Sale\n\nApple MacBook Pro. Late 2020 model, 16GB RAM, 500GB SSD. $1200. Email jon235@techmail.com",
+          "options": [
+            "A late 2020 model Apple MacBook Pro is on sale.",
+            "A brand new Apple MacBook Pro is available for $1200.",
+            "The seller is looking for an Apple MacBook Pro to purchase."
+          ],
+          "answer": 0
+        },
+        {
+          "id": 4,
+          "label": "Notice",
+          "prompt": "Canteen Closure\n\nThe canteen will be closed for renovation from 20th to 30th of the month. Apologies for the inconvenience.",
+          "options": [
+            "The canteen is moving for ten days.",
+            "The canteen will be closed for repair work.",
+            "Students need to hurry and finish their meals."
+          ],
+          "answer": 1
+        },
+        {
+          "id": 5,
+          "label": "Text Message",
+          "prompt": "Gym Maintenance\n\nThe main gym area is closed for maintenance today. Please use the secondary gym on the other side of the building.",
+          "options": [
+            "Both the main and secondary gyms are closed today.",
+            "The main gym is closed.",
+            "The secondary gym is closed for maintenance."
+          ],
+          "answer": 1
+        }
+      ]
+    }
+
+  ]
+}

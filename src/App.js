@@ -63,6 +63,7 @@ import ReporteMensual from "./components/ReporteMensual.jsx";
 import EducationalAppsShowcase from "./components/EducationalAppsShowcase.jsx";
 import SixtyType from "./components/SixtyType.jsx";
 import RoadMapKeyMastery from "./pages/RoadMapKeyMastery.jsx";
+import PetVisualizador from "./components/PetVisualizador.jsx";
 import InicioA1 from "./components/Login/LoginA1/InicioA1.jsx";
 import InicioA2 from "./components/Login/LoginA2/InicioA2.jsx";
 
@@ -182,6 +183,7 @@ function App() {
           <Route path="/conversa" element={<ConversationPracticeBot  />}></Route>
           <Route path="/slides" element={<CreativeSlides  />}></Route>
           <Route path="/report-attendance" element={<ReporteMensual  />}></Route>
+          <Route path="/pet01" element={<PetVisualizador />}></Route>
 
                   <Route path="/maze" element={<GrammarCodeQuest  />}></Route>
 
