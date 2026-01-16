@@ -26,6 +26,8 @@ const LEVEL_DEFS = [
     rewardCode: 'PAST-LOCK',
     bossImage: '',
     bossHurtImage: '',
+    bossPortrait: '',
+    arenaBg: '',
   },
   {
     id: 'forge',
@@ -41,6 +43,8 @@ const LEVEL_DEFS = [
     rewardCode: 'IF-BLADE',
     bossImage: '',
     bossHurtImage: '',
+    bossPortrait: '',
+    arenaBg: '',
   },
   {
     id: 'spire',
@@ -56,6 +60,8 @@ const LEVEL_DEFS = [
     rewardCode: 'INVERT-KEY',
     bossImage: '',
     bossHurtImage: '',
+    bossPortrait: '',
+    arenaBg: '',
   },
 ];
 
@@ -109,6 +115,8 @@ const normalizeLevels = (inputLevels) => {
       const accent = level.accent || fallback.accent || 'amber';
       const bossImage = level.bossImage || fallback.bossImage || '';
       const bossHurtImage = level.bossHurtImage || fallback.bossHurtImage || '';
+      const bossPortrait = level.bossPortrait || fallback.bossPortrait || '';
+      const arenaBg = level.arenaBg || fallback.arenaBg || '';
 
       return {
         ...fallback,
@@ -125,6 +133,8 @@ const normalizeLevels = (inputLevels) => {
         accent,
         bossImage,
         bossHurtImage,
+        bossPortrait,
+        arenaBg,
         questions: Array.isArray(level.questions) ? level.questions : [],
       };
     })
@@ -310,7 +320,7 @@ const FightingGrammar = () => {
 
   useEffect(() => {
     if (!levels.length || endState) return;
-    if (bossHP === 0) {
+    if (bossHP === 0 && phase === 'fight') {
       const currentLevel = levels[levelIndex];
       if (currentLevel?.id) {
         unlockLevel(currentLevel.id);
@@ -325,7 +335,7 @@ const FightingGrammar = () => {
         setPhase('clear');
       }
     }
-  }, [bossHP, levelIndex, levels, endState, unlockLevel, endGame]);
+  }, [bossHP, levelIndex, levels, endState, unlockLevel, endGame, phase]);
 
   const useSpecial = () => {
     if (meter < 100 || phase !== 'fight') return;
@@ -379,6 +389,8 @@ const FightingGrammar = () => {
   const floatAnim = { y: [0, -10, 0], transition: { duration: 2, repeat: Infinity } };
   const hpPercentage = hp => `${(hp / MAX_HP) * 100}%`;
   const level = levels[levelIndex];
+  const playerLow = playerHP <= 20;
+  const bossEnraged = bossHP <= 30;
 
   const isLevelUnlocked = (lvl, idx) => {
     if (!lvl) return false;
@@ -392,11 +404,16 @@ const FightingGrammar = () => {
     return lvl.bossImage || monsterImg;
   };
 
+  const getBossPortrait = (lvl) => {
+    if (!lvl) return monsterImg;
+    return lvl.bossPortrait || lvl.bossImage || monsterImg;
+  };
+
   if (endState) {
     return (
       <div className="min-h-screen flex flex-col items-center justify-center bg-black p-4 text-white">
         <h1 className="text-4xl mb-4" style={{ fontFamily: '"Bebas Neue", "Oswald", "Impact", sans-serif' }}>
-          Victory!
+          {endState === 'win' ? 'Lo lograste!' : 'Game Over'}
         </h1>
         {victoryCode && (
           <div className="bg-gray-800 p-4 rounded mb-4 w-full max-w-md">
@@ -652,84 +669,112 @@ const FightingGrammar = () => {
           </div>
         </div>
 
-        <div className="grid lg:grid-cols-3 gap-6 items-center">
-          <div className="space-y-4">
-            <div className="bg-black/50 p-4 rounded-2xl">
-              <div className="flex items-center justify-between text-xs text-white/70">
-                <span>Player</span>
-                <span>{playerHP} HP</span>
+        <div className="bg-black/50 rounded-2xl px-5 py-4 mb-6 border border-white/10">
+          <div className="grid md:grid-cols-[1fr_auto_1fr] gap-4 items-center">
+            <div className="flex items-center gap-4">
+              <div className="w-14 h-14 rounded-xl bg-black/60 border border-white/10 overflow-hidden flex items-center justify-center">
+                <img src={playerImg} alt="Player portrait" className="w-12 h-12 object-contain" />
               </div>
-              <div className="h-3 bg-white/10 rounded-full overflow-hidden mt-2">
-                <div className="h-full bg-emerald-400" style={{ width: hpPercentage(playerHP) }} />
-              </div>
-              <div className="mt-3 text-xs text-white/60">Combo x{combo}</div>
-            </div>
-            <div className="bg-black/50 p-4 rounded-2xl">
-              <div className="flex items-center justify-between text-xs text-white/70">
-                <span>Boss</span>
-                <span>{bossHP} HP</span>
-              </div>
-              <div className="h-3 bg-white/10 rounded-full overflow-hidden mt-2">
-                <div className="h-full bg-rose-500" style={{ width: hpPercentage(bossHP) }} />
-              </div>
-              <div className="mt-3 text-xs text-white/60">
-                {bossHP <= 30 ? 'Enraged: +damage' : 'Phase: steady'}
+              <div className="flex-1 space-y-2">
+                <div className="flex items-center justify-between">
+                  <div className="text-lg sm:text-2xl tracking-wide" style={{ fontFamily: '"Bebas Neue", "Oswald", "Impact", sans-serif' }}>
+                    Player
+                  </div>
+                  <div className="text-xs text-white/70">{playerHP} HP</div>
+                </div>
+                <div className="h-3 bg-white/10 rounded-full overflow-hidden">
+                  <div className="h-full bg-emerald-400" style={{ width: hpPercentage(playerHP) }} />
+                </div>
+                <div className="text-xs text-white/60">Combo x{combo}</div>
               </div>
             </div>
-            <div className="bg-black/50 p-4 rounded-2xl">
-              <div className="flex items-center justify-between text-xs text-white/70">
-                <span>Meter</span>
-                <span>{meter}%</span>
+            <div className="flex flex-col items-center gap-2">
+              <div className="text-xs uppercase tracking-[0.3em] text-amber-300">VS</div>
+              <div className="text-[10px] text-white/60">{levelIndex + 1} / {levels.length}</div>
+            </div>
+            <div className="flex items-center gap-4">
+              <div className="flex-1 space-y-2 text-right">
+                <div className="flex items-center justify-between">
+                  <div className="text-xs text-white/70">{bossHP} HP</div>
+                  <div className="text-lg sm:text-2xl tracking-wide" style={{ fontFamily: '"Bebas Neue", "Oswald", "Impact", sans-serif' }}>
+                    {level?.boss}
+                  </div>
+                </div>
+                <div className="h-3 bg-white/10 rounded-full overflow-hidden">
+                  <div className="h-full bg-rose-500" style={{ width: hpPercentage(bossHP) }} />
+                </div>
+                <div className="text-xs text-white/60">
+                  {bossHP <= 30 ? 'Enraged: +damage' : 'Phase: steady'}
+                </div>
               </div>
-              <div className="h-2 bg-white/10 rounded-full overflow-hidden mt-2">
-                <div className="h-full bg-amber-400" style={{ width: `${meter}%` }} />
+              <div className="w-14 h-14 rounded-xl bg-black/60 border border-white/10 overflow-hidden flex items-center justify-center">
+                <img src={getBossPortrait(level)} alt="Boss portrait" className="w-12 h-12 object-contain" />
               </div>
-              <button
-                onClick={useSpecial}
-                disabled={meter < 100 || phase !== 'fight'}
-                className="mt-3 w-full bg-amber-500 disabled:bg-white/10 disabled:text-white/30 text-slate-900 py-2 rounded-lg text-sm font-semibold"
-              >
-                Special Attack
-              </button>
             </div>
           </div>
+        </div>
 
-          <div className="relative flex items-end justify-between h-64 lg:h-80">
-            <motion.img
-              src={playerHP <= 20 ? playerHurtImg : playerImg}
-              alt="Player"
-              className="w-40 h-40 lg:w-52 lg:h-52"
-              animate={[
-                floatAnim,
-                battleAnim === 'player' && { x: [0, 18, 0], transition: { duration: 0.3 } },
-                battleAnim === 'boss' && { x: [0, -8, 8, 0], transition: { duration: 0.3 } },
-                battleAnim === 'critical' && { filter: ['none', 'brightness(1.6)', 'none'], transition: { duration: 0.4 } },
-              ]}
-            />
-            <motion.img
-              src={getBossImage(level, bossHP <= 30)}
-              alt="Boss"
-              className="w-32 h-32 lg:w-44 lg:h-44"
-              animate={[
-                floatAnim,
-                battleAnim === 'boss' && { x: [0, -18, 0], transition: { duration: 0.3 } },
-                battleAnim === 'player' && { x: [0, 8, -8, 0], transition: { duration: 0.3 } },
-                battleAnim === 'special' && { filter: ['none', 'brightness(2)', 'none'], transition: { duration: 0.4 } },
-              ]}
-            />
-            {battleAnim && (
-              <motion.div
-                key={battleAnim}
-                initial={{ opacity: 0, scale: 0.6 }}
-                animate={{ opacity: [0, 1, 0], scale: [0.6, 1.1, 0.9] }}
-                className="absolute inset-0 flex items-center justify-center"
-              >
-                <div className="w-16 h-16 rounded-full bg-white/40 blur-xl" />
-              </motion.div>
+        <div className="grid lg:grid-cols-[1fr_auto] gap-6 items-stretch">
+          <div className="grid lg:grid-cols-2 gap-6 items-center">
+            <div className="relative h-64 lg:h-80 rounded-3xl px-4 py-6 overflow-hidden">
+            {level?.arenaBg && (
+              <div
+                className="absolute inset-0 opacity-35"
+                style={{
+                  backgroundImage: `url(${level.arenaBg})`,
+                  backgroundSize: 'cover',
+                  backgroundPosition: 'center',
+                }}
+              />
             )}
-          </div>
-
-          <div className="bg-black/60 rounded-2xl p-5 shadow-2xl">
+            <div className="absolute -bottom-10 left-1/2 h-24 w-2/3 -translate-x-1/2 rounded-full bg-black/60 blur-3xl" />
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_70%,rgba(255,255,255,0.06),transparent_55%)]" />
+            <div className="absolute inset-0 bg-[radial-gradient(circle_at_20%_80%,rgba(255,255,255,0.08),transparent_50%)] opacity-50" />
+            <div className="absolute bottom-8 left-10 right-10 h-px bg-gradient-to-r from-transparent via-white/30 to-transparent" />
+            <div className="relative z-10 flex items-end justify-center gap-4 h-full">
+              <div className="relative flex items-end justify-center w-40 h-40 lg:w-64 lg:h-64">
+                <div className="absolute -inset-6 rounded-full bg-emerald-500/10 blur-3xl" />
+                <div className="absolute -bottom-2 h-7 w-28 rounded-full bg-black/50 blur-xl" />
+                <motion.img
+                  src={playerLow ? playerHurtImg : playerImg}
+                  alt="Player"
+                  className="relative w-40 h-40 lg:w-56 lg:h-56 object-contain drop-shadow-[0_24px_28px_rgba(0,0,0,0.65)]"
+                  animate={[
+                    floatAnim,
+                    battleAnim === 'player' && { x: [0, 26, 0], y: [0, -4, 0], scale: [1, 1.05, 1], transition: { duration: 0.25 } },
+                    battleAnim === 'boss' && { x: [0, -14, 10, 0], rotate: [0, -2, 0], transition: { duration: 0.28 } },
+                    battleAnim === 'critical' && { filter: ['none', 'brightness(1.6)', 'none'], scale: [1, 1.08, 1], transition: { duration: 0.35 } },
+                  ]}
+                />
+              </div>
+              <div className="relative flex items-end justify-center w-40 h-40 lg:w-64 lg:h-64">
+                <div className={`absolute -inset-6 rounded-full blur-3xl ${bossEnraged ? 'bg-rose-500/20' : 'bg-amber-500/10'}`} />
+                <div className="absolute -bottom-2 h-7 w-28 rounded-full bg-black/50 blur-xl" />
+                <motion.img
+                  src={getBossImage(level, bossEnraged)}
+                  alt="Boss"
+                  className="relative w-40 h-40 lg:w-56 lg:h-56 object-contain drop-shadow-[0_24px_28px_rgba(0,0,0,0.65)]"
+                  animate={[
+                    floatAnim,
+                    battleAnim === 'boss' && { x: [0, -26, 0], y: [0, -4, 0], scale: [1, 1.05, 1], transition: { duration: 0.25 } },
+                    battleAnim === 'player' && { x: [0, 12, -10, 0], rotate: [0, 2, 0], transition: { duration: 0.28 } },
+                    battleAnim === 'special' && { filter: ['none', 'brightness(2)', 'none'], scale: [1, 1.1, 1], transition: { duration: 0.4 } },
+                  ]}
+                />
+              </div>
+              {battleAnim && (
+                <motion.div
+                  key={battleAnim}
+                  initial={{ opacity: 0, scale: 0.6 }}
+                  animate={{ opacity: [0, 1, 0], scale: [0.6, 1.1, 0.9] }}
+                  className="absolute inset-0 flex items-center justify-center"
+                >
+                  <div className="w-24 h-24 rounded-full bg-white/40 blur-2xl" />
+                </motion.div>
+              )}
+            </div>
+            </div>
+            <div className="bg-black/60 rounded-2xl p-5 shadow-2xl h-full flex flex-col">
             <div className="flex items-center justify-between text-xs text-white/70">
               <span>Round {qIndex + 1}</span>
               <span className="text-amber-300">Time {timer}s</span>
@@ -747,6 +792,23 @@ const FightingGrammar = () => {
               ))}
             </div>
             {feedback && <p className="mt-4 text-center text-amber-300 font-semibold">{feedback}</p>}
+            <div className="mt-auto pt-4 border-t border-white/10">
+              <div className="flex items-center justify-between text-xs text-white/70">
+                <span>Power</span>
+                <span>{meter}%</span>
+              </div>
+              <div className="h-2 bg-white/10 rounded-full overflow-hidden mt-2">
+                <div className="h-full bg-amber-400" style={{ width: `${meter}%` }} />
+              </div>
+              <button
+                onClick={useSpecial}
+                disabled={meter < 100 || phase !== 'fight'}
+                className="mt-3 w-full bg-amber-500 disabled:bg-white/10 disabled:text-white/30 text-slate-900 py-2 rounded-lg text-sm font-semibold"
+              >
+                Special Attack
+              </button>
+            </div>
+          </div>
           </div>
         </div>
       </div>

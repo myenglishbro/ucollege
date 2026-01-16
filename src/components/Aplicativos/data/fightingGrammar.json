@@ -1,87 +1,357 @@
 {
   "victoryCode": "FIGHT-B2-READY",
   "levels": [
+   {
+  "id": "harbor",
+  "title": "Daily Harbor – Advanced",
+  "boss": "Sir Routine",
+  "bossTitle": "Present Simple vs Present Continuous",
+  "taunt": "Always, now, temporary, or changing? Decide fast.",
+  "timeLimit": 15,
+  "bossHP": 150,
+  "rewardCode": "TIME-MASTER",
+  "bossImage": "https://i.ibb.co/kVTrtGTr/boos01a.png",
+  "bossHurtImage": "https://i.ibb.co/yF3qs6pz/Gemini-Generated-Image-y28qscy28qscy28q-1-removebg-preview.png",
+  "bossPortrait": "https://i.ibb.co/kVTrtGTr/boos01a.png",
+  "arenaBg": "https://i.ibb.co/TMCMXKXB/Gemini-Generated-Image-f89jzkf89jzkf89j.png",
+  "questions": [
     {
-      "id": "dock",
-      "title": "Dockside Spar",
-      "boss": "Captain Past",
-      "bossTitle": "Past Tense",
-      "taunt": "You better respect the timeline.",
-      "timeLimit": 12,
-      "bossHP": 85,
-      "rewardCode": "PAST-LOCK",
-      "bossImage": "https://i.ibb.co/7yK1S6c/boss-past.png",
-      "bossHurtImage": "https://i.ibb.co/VBNq6Tj/boss-past-hurt.png",
-      "questions": [
-        {
-          "question": "If she ____ earlier, she wouldn't be rushing now.",
-          "options": ["left", "had left", "was leaving", "would leave"],
-          "answer": "had left"
-        },
-        {
-          "question": "They insisted ____ paying for the entire meal.",
-          "options": ["in", "to", "on", "about"],
-          "answer": "on"
-        },
-        {
-          "question": "Hardly ____ the ceremony begun when the lights went out.",
-          "options": ["had", "has", "did", "was"],
-          "answer": "had"
-        }
-      ]
+      "question": "She usually ____ to work, but today she ____ a taxi.",
+      "options": ["drives / is taking", "is driving / takes", "drives / takes", "is driving / is taking"],
+      "answer": "drives / is taking"
     },
     {
-      "id": "forge",
-      "title": "Grammar Forge",
-      "boss": "Lady Condition",
-      "bossTitle": "If-Clauses",
-      "taunt": "Choose wisely, or get burned.",
-      "timeLimit": 11,
-      "bossHP": 95,
-      "rewardCode": "IF-BLADE",
-      "bossImage": "https://i.ibb.co/7yK1S6c/boss-past.png",
-      "bossHurtImage": "https://i.ibb.co/VBNq6Tj/boss-past-hurt.png",
-      "questions": [
-        {
-          "question": "By the time we arrive, the film ____ for twenty minutes.",
-          "options": ["will have started", "has started", "is starting", "started"],
-          "answer": "will have started"
-        },
-        {
-          "question": "It's high time you ____ your thesis draft.",
-          "options": ["finish", "finished", "had finished", "have finished"],
-          "answer": "finished"
-        },
-        {
-          "question": "Not only ____ the deadline, but he also added extra analysis.",
-          "options": ["did he meet", "he met", "met he", "does he meet"],
-          "answer": "did he meet"
-        }
-      ]
+      "question": "I can’t talk now. I ____ a meeting.",
+      "options": ["have", "am having", "had", "will have"],
+      "answer": "am having"
     },
     {
-      "id": "spire",
-      "title": "Syntax Spire",
-      "boss": "The Inverter",
-      "bossTitle": "Inversions",
-      "taunt": "Order matters. I will twist you.",
-      "timeLimit": 10,
-      "bossHP": 110,
-      "rewardCode": "INVERT-KEY",
-      "bossImage": "https://i.ibb.co/7yK1S6c/boss-past.png",
-      "bossHurtImage": "https://i.ibb.co/VBNq6Tj/boss-past-hurt.png",
-      "questions": [
-        {
-          "question": "Should you ____ any issues, let me know immediately.",
-          "options": ["encounter", "encountered", "encountering", "to encounter"],
-          "answer": "encounter"
-        },
-        {
-          "question": "We'd better leave now, ____ we might miss the last train.",
-          "options": ["otherwise", "although", "despite", "unless"],
-          "answer": "otherwise"
-        }
-      ]
+      "question": "Water ____ at 100°C.",
+      "options": ["is boiling", "boils", "boiled", "has boiled"],
+      "answer": "boils"
+    },
+    {
+      "question": "Why ____ you always ____ my messages?",
+      "options": ["do / ignore", "are / ignoring", "are / ignore", "do / ignoring"],
+      "answer": "are / ignoring"
+    },
+    {
+      "question": "He ____ more confident these days.",
+      "options": ["becomes", "is becoming", "became", "has become"],
+      "answer": "is becoming"
+    },
+    {
+      "question": "We normally ____ lunch at noon.",
+      "options": ["are having", "have", "had", "have had"],
+      "answer": "have"
+    },
+    {
+      "question": "I ____ this book belongs to her.",
+      "options": ["am thinking", "think", "am thinking that", "was thinking"],
+      "answer": "think"
+    },
+    {
+      "question": "At the moment, the company ____ a lot of money in training.",
+      "options": ["spends", "is spending", "spent", "has spent"],
+      "answer": "is spending"
+    },
+    {
+      "question": "He ____ as a software tester this month.",
+      "options": ["works", "is working", "worked", "has worked"],
+      "answer": "is working"
+    },
+    {
+      "question": "My parents ____ in the countryside.",
+      "options": ["are living", "live", "have lived", "were living"],
+      "answer": "live"
+    },
+    {
+      "question": "Listen! Someone ____ the door.",
+      "options": ["knocks", "is knocking", "knocked", "has knocked"],
+      "answer": "is knocking"
+    },
+    {
+      "question": "She ____ French this semester.",
+      "options": ["studies", "is studying", "studied", "has studied"],
+      "answer": "is studying"
+    },
+    {
+      "question": "He rarely ____ late for work.",
+      "options": ["is arriving", "arrives", "arrived", "has arrived"],
+      "answer": "arrives"
+    },
+    {
+      "question": "I ____ dinner every Sunday with my family.",
+      "options": ["am having", "have", "had", "have had"],
+      "answer": "have"
+    },
+    {
+      "question": "The situation ____ worse every day.",
+      "options": ["gets", "is getting", "got", "has got"],
+      "answer": "is getting"
+    },
+    {
+      "question": "She ____ what you mean.",
+      "options": ["is understanding", "understands", "understood", "has understood"],
+      "answer": "understands"
+    },
+    {
+      "question": "They ____ a new system this week.",
+      "options": ["install", "are installing", "installed", "have installed"],
+      "answer": "are installing"
+    },
+    {
+      "question": "He ____ football, but he ____ basketball this year.",
+      "options": ["plays / is playing", "is playing / plays", "plays / plays", "is playing / is playing"],
+      "answer": "plays / is playing"
+    },
+    {
+      "question": "I ____ a lot of progress lately.",
+      "options": ["make", "am making", "made", "have made"],
+      "answer": "am making"
+    },
+    {
+      "question": "She ____ as if she ____ the answer.",
+      "options": ["looks / knows", "is looking / knows", "looks / is knowing", "is looking / is knowing"],
+      "answer": "looks / knows"
     }
+  ]
+}
+,
+    {
+  "id": "timeline",
+  "title": "Broken Timeline",
+  "boss": "Lord Experience",
+  "bossTitle": "Past Simple vs Present Perfect",
+  "taunt": "Finished time or life experience? Choose wrong and repeat history.",
+  "timeLimit": 14,
+  "bossHP": 150,
+  "rewardCode": "TIME-SEAL",
+  "bossImage": "https://i.ibb.co/GvqdWybp/boss2-removebg-preview.png",
+  "bossHurtImage": "https://i.ibb.co/nqfzQVpc/boss2b-removebg-preview.png",
+  "bossPortrait": "https://i.ibb.co/VW7MfBr4/boss02-a.png",
+  "arenaBg": "https://i.ibb.co/84Ybnf8g/Gemini-Generated-Image-sdr6jisdr6jisdr6.png",
+  "questions": [
+    {
+      "question": "I ____ this movie before.",
+      "options": ["saw", "have seen", "see", "was seeing"],
+      "answer": "have seen"
+    },
+    {
+      "question": "She ____ her thesis last night.",
+      "options": ["has finished", "finished", "finishes", "has been finishing"],
+      "answer": "finished"
+    },
+    {
+      "question": "We ____ in this city since 2020.",
+      "options": ["lived", "have lived", "are living", "live"],
+      "answer": "have lived"
+    },
+    {
+      "question": "They ____ the exam two hours ago.",
+      "options": ["have taken", "took", "take", "have been taking"],
+      "answer": "took"
+    },
+    {
+      "question": "He ____ never ____ abroad.",
+      "options": ["did / travel", "has / traveled", "was / traveling", "has / been traveling"],
+      "answer": "has / traveled"
+    },
+    {
+      "question": "I ____ my keys. I can’t find them anywhere.",
+      "options": ["lost", "have lost", "lose", "was losing"],
+      "answer": "have lost"
+    },
+    {
+      "question": "She ____ him when she was at university.",
+      "options": ["has met", "met", "meets", "has been meeting"],
+      "answer": "met"
+    },
+    {
+      "question": "How long ____ you ____ English?",
+      "options": ["did / study", "have / studied", "are / studying", "do / study"],
+      "answer": "have / studied"
+    },
+    {
+      "question": "We ____ already ____ the report.",
+      "options": ["did / finish", "have / finished", "are / finishing", "have / been finishing"],
+      "answer": "have / finished"
+    },
+    {
+      "question": "He ____ a serious mistake yesterday.",
+      "options": ["has made", "made", "makes", "has been making"],
+      "answer": "made"
+    },
+    {
+      "question": "I ____ her since we were children.",
+      "options": ["knew", "have known", "know", "was knowing"],
+      "answer": "have known"
+    },
+    {
+      "question": "They ____ the company in 2018.",
+      "options": ["have joined", "joined", "join", "have been joining"],
+      "answer": "joined"
+    },
+    {
+      "question": "Someone ____ my laptop!",
+      "options": ["stole", "has stolen", "steals", "was stealing"],
+      "answer": "has stolen"
+    },
+    {
+      "question": "He ____ three emails this morning.",
+      "options": ["has sent", "sent", "sends", "was sending"],
+      "answer": "sent"
+    },
+    {
+      "question": "I ____ never ____ such a difficult exam.",
+      "options": ["did / take", "have / taken", "was / taking", "have / been taking"],
+      "answer": "have / taken"
+    },
+    {
+      "question": "She ____ her ankle last weekend.",
+      "options": ["has injured", "injured", "injures", "has been injuring"],
+      "answer": "injured"
+    },
+    {
+      "question": "We ____ here for more than five years.",
+      "options": ["worked", "have worked", "are working", "work"],
+      "answer": "have worked"
+    },
+    {
+      "question": "When ____ you ____ the results?",
+      "options": ["did / receive", "have / received", "are / receiving", "do / receive"],
+      "answer": "did / receive"
+    },
+    {
+      "question": "The system ____ much more reliable recently.",
+      "options": ["became", "has become", "becomes", "was becoming"],
+      "answer": "has become"
+    },
+    {
+      "question": "I ____ my homework an hour ago.",
+      "options": ["have finished", "finished", "finish", "have been finishing"],
+      "answer": "finished"
+    }
+  ]
+}
+,
+  {
+  "id": "vault",
+  "title": "Balance Vault",
+  "boss": "Lady Measure",
+  "bossTitle": "Quantifiers (B1–B1+)",
+  "taunt": "Too much, too little, or just enough? Prove you can measure meaning.",
+  "timeLimit": 14,
+  "bossHP": 150,
+  "rewardCode": "QUANT-SEAL",
+  "bossImage": "https://i.ibb.co/Mx5FWJTz/Gemini-Generated-Image-797rm1797rm1797r-removebg-preview.png",
+  "bossHurtImage": "https://i.ibb.co/N2MNL9CX/Gemini-Generated-Image-v5lodov5lodov5lo-removebg-preview.png",
+  "bossPortrait": "https://i.ibb.co/Mx5FWJTz/Gemini-Generated-Image-797rm1797rm1797r-removebg-preview.png",
+  "arenaBg": "https://i.ibb.co/3mwWyM86/Gemini-Generated-Image-dqloi8dqloi8dqlo.png",
+  "questions": [
+    {
+      "question": "There isn’t ____ milk left in the fridge.",
+      "options": ["many", "much", "a few", "several"],
+      "answer": "much"
+    },
+    {
+      "question": "I have ____ friends in this city, so I don’t feel lonely.",
+      "options": ["few", "a few", "little", "a little"],
+      "answer": "a few"
+    },
+    {
+      "question": "We’ve got ____ time—let’s take a taxi.",
+      "options": ["few", "a few", "little", "a little"],
+      "answer": "little"
+    },
+    {
+      "question": "There are ____ students absent today than yesterday.",
+      "options": ["less", "fewer", "much", "little"],
+      "answer": "fewer"
+    },
+    {
+      "question": "I didn’t make ____ mistakes, so I passed easily.",
+      "options": ["much", "many", "a little", "little"],
+      "answer": "many"
+    },
+    {
+      "question": "We don’t have ____ chairs for everyone.",
+      "options": ["too much", "too many", "a little", "many"],
+      "answer": "too many"
+    },
+    {
+      "question": "I’ve got ____ work to do tonight, so I’m staying in.",
+      "options": ["too many", "too much", "few", "several"],
+      "answer": "too much"
+    },
+    {
+      "question": "There were ____ people at the event—more than 500!",
+      "options": ["a little", "a few", "plenty of", "little"],
+      "answer": "plenty of"
+    },
+    {
+      "question": "He has ____ patience, so he gets annoyed quickly.",
+      "options": ["a few", "few", "a little", "little"],
+      "answer": "little"
+    },
+    {
+      "question": "Only ____ of the information was useful.",
+      "options": ["many", "a few", "a little", "few"],
+      "answer": "a little"
+    },
+    {
+      "question": "There’s ____ evidence to support the claim.",
+      "options": ["enough", "many", "few", "several"],
+      "answer": "enough"
+    },
+    {
+      "question": "We have ____ of sugar. We don’t need to buy any.",
+      "options": ["many", "plenty", "few", "little"],
+      "answer": "plenty"
+    },
+    {
+      "question": "____ of my parents can drive, so either one can pick me up.",
+      "options": ["Both", "All", "None", "Each"],
+      "answer": "Both"
+    },
+    {
+      "question": "____ the students understood the instructions, so the teacher repeated them.",
+      "options": ["Most of", "Many of", "Much of", "Few of"],
+      "answer": "Most of"
+    },
+    {
+      "question": "I have ____ money left until payday—just $5.",
+      "options": ["few", "a few", "little", "a little"],
+      "answer": "little"
+    },
+    {
+      "question": "He made ____ mistakes to be ignored, so he failed.",
+      "options": ["too much", "too many", "enough", "a little"],
+      "answer": "too many"
+    },
+    {
+      "question": "There are ____ ways to solve this problem, not just one.",
+      "options": ["much", "several", "little", "enough"],
+      "answer": "several"
+    },
+    {
+      "question": "I don’t have ____ information to decide yet.",
+      "options": ["enough", "many", "few", "several"],
+      "answer": "enough"
+    },
+    {
+      "question": "____ of the answers were correct—he got zero.",
+      "options": ["None", "No", "Nothing", "Not"],
+      "answer": "None"
+    },
+    {
+      "question": "There was ____ noise that I couldn’t concentrate.",
+      "options": ["too many", "too much", "few", "a few"],
+      "answer": "too much"
+    }
+  ]
+}
+
+
   ]
 }
