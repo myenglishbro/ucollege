@@ -76,11 +76,43 @@ export default function SpeakingCayetano() {
   const [startTime, setStartTime] = useState(null);
   const [endTime, setEndTime] = useState(null);
   const [audioUrl, setAudioUrl] = useState("");
+  const [screenBlocked, setScreenBlocked] = useState(false);
+  const [cameraActive, setCameraActive] = useState(false);
+  const [cameraDenied, setCameraDenied] = useState(false);
+  const [gazePoint, setGazePoint] = useState({ x: 0.5, y: 0.5 });
   const recognitionRef = useRef(null);
   const lastSpeechAtRef = useRef(0);
   const pauseActiveRef = useRef(false);
   const mediaRecorderRef = useRef(null);
   const audioStreamRef = useRef(null);
+  const screenshotAttemptsRef = useRef(0);
+  const blockTimerRef = useRef(null);
+  const cameraStreamRef = useRef(null);
+  const cameraVideoRef = useRef(null);
+
+  const attachCameraStream = useCallback(() => {
+    const video = cameraVideoRef.current;
+    const stream = cameraStreamRef.current;
+    if (!video || !stream) return;
+    video.srcObject = stream;
+    video.muted = true;
+    video.playsInline = true;
+    video.autoplay = true;
+    const playPromise = video.play?.();
+    if (playPromise && typeof playPromise.catch === "function") {
+      playPromise.catch(() => undefined);
+    }
+  }, []);
+
+  const setCameraVideoNode = useCallback(
+    (node) => {
+      cameraVideoRef.current = node;
+      if (node && cameraStreamRef.current) {
+        attachCameraStream();
+      }
+    },
+    [attachCameraStream]
+  );
 
   const levels = levelsData.levels || [];
   const level = selectedLevel !== null ? levels[selectedLevel] : null;
@@ -166,6 +198,20 @@ export default function SpeakingCayetano() {
     }
   }, []);
 
+  const triggerScreenBlock = useCallback(() => {
+    screenshotAttemptsRef.current += 1;
+    setScreenBlocked(true);
+    if (blockTimerRef.current) {
+      clearTimeout(blockTimerRef.current);
+    }
+    blockTimerRef.current = setTimeout(() => {
+      setScreenBlocked(false);
+    }, 900);
+    if (screenshotAttemptsRef.current === 3) {
+      window.alert("Se detectaron varios intentos de captura. Accion no permitida.");
+    }
+  }, []);
+
   useEffect(() => {
     if (selectedLevel === null) return;
     if (step === "finished") return;
@@ -211,6 +257,110 @@ export default function SpeakingCayetano() {
       stopRecording();
     };
   }, [audioUrl, stopRecording]);
+
+  useEffect(() => {
+    let mounted = true;
+    const startCamera = async () => {
+      if (!navigator.mediaDevices?.getUserMedia) return;
+      try {
+        const stream = await navigator.mediaDevices.getUserMedia({
+          video: {
+            facingMode: "user",
+            width: { ideal: 320 },
+            height: { ideal: 180 }
+          }
+        });
+        if (!mounted) {
+          stream.getTracks().forEach(track => track.stop());
+          return;
+        }
+        cameraStreamRef.current = stream;
+        attachCameraStream();
+        setCameraActive(true);
+      } catch (error) {
+        if (mounted) setCameraDenied(true);
+      }
+    };
+    startCamera();
+    return () => {
+      mounted = false;
+      if (cameraStreamRef.current) {
+        cameraStreamRef.current.getTracks().forEach(track => track.stop());
+        cameraStreamRef.current = null;
+      }
+    };
+  }, [attachCameraStream]);
+
+  useEffect(() => {
+    if (!cameraActive) return;
+    attachCameraStream();
+  }, [cameraActive, attachCameraStream]);
+
+  useEffect(() => {
+    const handleMove = (event) => {
+      const x = Math.min(1, Math.max(0, event.clientX / window.innerWidth));
+      const y = Math.min(1, Math.max(0, event.clientY / window.innerHeight));
+      setGazePoint({ x, y });
+    };
+    window.addEventListener("mousemove", handleMove);
+    return () => window.removeEventListener("mousemove", handleMove);
+  }, []);
+
+  useEffect(() => {
+    const shouldBlock = (event) => {
+      const key = String(event.key || "").toLowerCase();
+      const code = event.keyCode || event.which;
+      const isPrint = key === "printscreen" || code === 44;
+      const isSnip = (event.shiftKey && (event.metaKey || event.ctrlKey) && key === "s");
+      const isAltPrint = event.altKey && isPrint;
+      const isMetaPrint = event.metaKey && isPrint;
+      const isCtrlPrint = event.ctrlKey && isPrint;
+      return isPrint || isSnip || isAltPrint || isMetaPrint || isCtrlPrint;
+    };
+    const handleKey = (event) => {
+      if (shouldBlock(event)) {
+        event.preventDefault();
+        triggerScreenBlock();
+      }
+    };
+    document.addEventListener("keydown", handleKey, true);
+    document.addEventListener("keyup", handleKey, true);
+    return () => {
+      document.removeEventListener("keydown", handleKey, true);
+      document.removeEventListener("keyup", handleKey, true);
+    };
+  }, [triggerScreenBlock]);
+
+  useEffect(() => {
+    const handleBeforeUnload = (event) => {
+      event.preventDefault();
+      event.returnValue = "";
+    };
+    const handlePopState = () => {
+      window.history.pushState(null, "", window.location.href);
+      window.alert("Navegacion bloqueada en esta pagina.");
+    };
+    const handleClickCapture = (event) => {
+      const link = event.target.closest("a");
+      if (!link) return;
+      event.preventDefault();
+      window.alert("Navegacion bloqueada en esta pagina.");
+    };
+
+    window.history.pushState(null, "", window.location.href);
+    window.addEventListener("beforeunload", handleBeforeUnload);
+    window.addEventListener("popstate", handlePopState);
+    document.addEventListener("click", handleClickCapture, true);
+
+    return () => {
+      window.removeEventListener("beforeunload", handleBeforeUnload);
+      window.removeEventListener("popstate", handlePopState);
+      document.removeEventListener("click", handleClickCapture, true);
+      if (blockTimerRef.current) {
+        clearTimeout(blockTimerRef.current);
+      }
+    };
+  }, []);
 
   const goNext = () => {
     stopRecognition();
@@ -384,6 +534,13 @@ export default function SpeakingCayetano() {
       onCut={(event) => event.preventDefault()}
       onContextMenu={(event) => event.preventDefault()}
     >
+      {screenBlocked && (
+        <div
+          className="fixed inset-0 z-[9999]"
+          style={{ background: "#000" }}
+          aria-hidden="true"
+        />
+      )}
       <Watermark />
       <style>{`
         :root{
@@ -441,6 +598,31 @@ export default function SpeakingCayetano() {
         }
         .actions-centered{ display:flex; justify-content:center; align-items:center; gap:10px; margin-top:10px; flex-wrap:wrap; }
         .textarea{ width:100%; min-height:120px; border:1px solid #cfd6de; border-radius:6px; padding:10px 12px; font-size:14px; color:#111827; background:#fff; outline:none; }
+        .recording-pill{ display:inline-flex; align-items:center; gap:8px; padding:4px 10px; border-radius:999px; font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:.12em; border:1px solid #ef4444; color:#ef4444; background:#fff5f5; }
+        .recording-dot{ width:8px; height:8px; border-radius:999px; background:#ef4444; box-shadow:0 0 0 4px rgba(239,68,68,0.15); }
+        .recording-muted{ border-color:#cbd5df; color:#94a3b8; background:#f8fafc; }
+        .recording-muted .recording-dot{ background:#94a3b8; box-shadow:none; }
+        .camera-preview{ width:120px; height:68px; border-radius:8px; border:1px solid #e5e7eb; overflow:hidden; background:#0f172a; position:relative; }
+        .camera-preview video{ width:100%; height:100%; object-fit:cover; display:block; }
+        .camera-tracking{ position:absolute; inset:0; pointer-events:none; }
+        .track-hud{ position:absolute; inset:0; opacity:0.78; mix-blend-mode:screen; }
+        .track-frame{ position:absolute; width:56%; height:68%; left:50%; top:50%; transform:translate(-50%, -50%); }
+        .track-corner{ position:absolute; width:16px; height:16px; border-color:rgba(34,197,94,0.75); }
+        .track-corner.tl{ left:0; top:0; border-left:2px solid; border-top:2px solid; }
+        .track-corner.tr{ right:0; top:0; border-right:2px solid; border-top:2px solid; }
+        .track-corner.bl{ left:0; bottom:0; border-left:2px solid; border-bottom:2px solid; }
+        .track-corner.br{ right:0; bottom:0; border-right:2px solid; border-bottom:2px solid; }
+        .track-nose{ position:absolute; width:5px; height:5px; border-radius:999px; background:rgba(34,197,94,0.8); }
+        .track-text{ position:absolute; left:6px; top:4px; font-size:7px; color:rgba(34,197,94,0.9); font-weight:700; font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; text-shadow:0 0 4px rgba(0,0,0,0.5); }
+        .track-grid{ position:absolute; inset:0; background:linear-gradient(rgba(34,197,94,0.08) 1px, transparent 1px), linear-gradient(90deg, rgba(34,197,94,0.08) 1px, transparent 1px); background-size:14px 14px; opacity:0.35; }
+        .gaze-indicator{ position:relative; width:88px; height:44px; border-radius:999px; border:1px solid #e2e8f0; background:#f8fafc; display:flex; align-items:center; justify-content:center; }
+        .gaze-eye{ width:26px; height:26px; border-radius:999px; border:2px solid #1f2937; background:#fff; position:relative; }
+        .gaze-pupil{ width:8px; height:8px; border-radius:999px; background:#ef4444; position:absolute; top:50%; left:50%; transform:translate(-50%, -50%); animation:gazeDrift 2.8s ease-in-out infinite; }
+        @keyframes gazeDrift{
+          0%{ transform:translate(-50%, -50%) translate(-3px, -2px); }
+          50%{ transform:translate(-50%, -50%) translate(4px, 3px); }
+          100%{ transform:translate(-50%, -50%) translate(-3px, -2px); }
+        }
       `}</style>
 
       {/* Empty top bar */}
@@ -461,6 +643,56 @@ export default function SpeakingCayetano() {
             </span>
           </div>
           <div className="celp-metrics">
+            <div className="camera-preview" title="Camera preview">
+              {cameraActive ? (
+                <video
+                  ref={setCameraVideoNode}
+                  autoPlay
+                  playsInline
+                  muted
+                />
+              ) : (
+                <div className="w-full h-full flex items-center justify-center text-[10px] uppercase tracking-[0.2em] text-slate-300">
+                  Camera off
+                </div>
+              )}
+              <div className="camera-tracking" aria-hidden="true">
+                <div className="track-hud">
+                  <div className="track-grid" />
+                  <div className="track-text">Face ID: locked | Gaze: stable</div>
+                  <div className="track-frame">
+                    <span className="track-corner tl" />
+                    <span className="track-corner tr" />
+                    <span className="track-corner bl" />
+                    <span className="track-corner br" />
+                  </div>
+                </div>
+                <span
+                  className="track-nose"
+                  style={{
+                    left: "50%",
+                    top: "56%",
+                    transform: "translate(-50%, -50%)"
+                  }}
+                />
+              </div>
+            </div>
+              <div className="gaze-indicator" title="Eye tracking (visual)">
+                <div className="gaze-eye">
+                  <span
+                    className="gaze-pupil"
+                    style={{
+                      transform: `translate(calc(-50% + ${(gazePoint.x - 0.5) * 8}px), calc(-50% + ${(gazePoint.y - 0.5) * 8}px))`
+                    }}
+                  />
+                </div>
+              </div>
+            <span
+              className={`recording-pill ${cameraActive ? "" : "recording-muted"}`}
+              title={cameraDenied ? "Camera permissions blocked" : "Tracking movements (camera only)"}
+            >
+              Tracking
+            </span>
             <span>Warm-up: <b>{prepTime} seconds</b></span>
             <span>Response: <b>{answerTime} seconds</b></span>
             <button className="btn btn-next" onClick={goNext}>NEXT</button>
