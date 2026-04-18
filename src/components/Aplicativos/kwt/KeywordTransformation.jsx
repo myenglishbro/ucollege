@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { motion } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import exercisesData from "./data/keywordExercises.json";
 
 // Modern, warm palette and typography
@@ -16,8 +16,9 @@ const palette = {
   success: "#138a63",
   danger: "#d14343"
 };
-const serif = "var(--font-grotesk), 'Sora', 'Arial', sans-serif";
-const sans = "var(--font-sora), 'Sora', 'Arial', sans-serif";
+// Cambridge-inspired typography: serif titles, clean sans body (no extra deps; relies on fallbacks).
+const serif = "'Libre Baskerville', 'Baskerville', 'Georgia', 'Times New Roman', serif";
+const sans = "'Sora', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif";
 const logoUrl = "https://i.ibb.co/C3kRtYQG/zxczx-2-1.png";
 const socialLinks = [
   { label: "YouTube", href: "https://www.youtube.com/@myenglishbro" },
@@ -76,6 +77,8 @@ export default function KeywordTransformation() {
   const [log, setLog] = useState([]);
   const [timeLeft, setTimeLeft] = useState(QUESTION_TIME);
   const [questionStart, setQuestionStart] = useState(Date.now());
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isTimerPaused, setIsTimerPaused] = useState(false);
 
   useEffect(() => {
     if (selectedLevel !== null) {
@@ -86,12 +89,15 @@ export default function KeywordTransformation() {
       setLog([]);
       setTimeLeft(QUESTION_TIME);
       setQuestionStart(Date.now());
+      setIsMenuOpen(false);
+      setIsTimerPaused(false);
     }
   }, [selectedLevel]);
 
   useEffect(() => {
     if (selectedLevel === null) return undefined;
     if (feedback) return undefined;
+    if (isTimerPaused) return undefined;
 
     const tick = setInterval(() => {
       setTimeLeft(prev => {
@@ -105,7 +111,7 @@ export default function KeywordTransformation() {
     }, 1000);
 
     return () => clearInterval(tick);
-  }, [selectedLevel, feedback, currentQ]); // eslint-disable-line react-hooks/exhaustive-deps
+  }, [selectedLevel, feedback, currentQ, isTimerPaused]); // eslint-disable-line react-hooks/exhaustive-deps
 
   if (selectedLevel === null) {
     return (
@@ -235,6 +241,7 @@ export default function KeywordTransformation() {
       setFeedback(null);
       setTimeLeft(QUESTION_TIME);
       setQuestionStart(Date.now());
+      setIsTimerPaused(false);
     }
   }
 
@@ -246,6 +253,7 @@ export default function KeywordTransformation() {
     setLog([]);
     setTimeLeft(QUESTION_TIME);
     setQuestionStart(Date.now());
+    setIsTimerPaused(false);
   }
 
   function handleTimeout() {
@@ -270,7 +278,7 @@ export default function KeywordTransformation() {
     >
       <Watermark />
       <div className="max-w-6xl mx-auto">
-                <header className="mb-8">
+        <header className="mb-6">
           <img
             src={logoUrl}
             alt="MyEnglishBro logo"
@@ -289,9 +297,205 @@ export default function KeywordTransformation() {
           </p>
         </header>
 
+        <div
+          className="lg:hidden mb-6 rounded-2xl p-4 flex flex-col gap-3"
+          style={{
+            background: "rgba(255,255,255,0.9)",
+            border: `1px solid ${palette.border}`,
+            boxShadow: "0 18px 50px rgba(12,19,42,0.10)",
+            backdropFilter: "blur(10px)"
+          }}
+        >
+          <div className="flex items-start justify-between gap-3">
+            <div>
+              <div className="text-xs uppercase tracking-[0.2em]" style={{ color: palette.accent }}>
+                Modo paper
+              </div>
+              <div className="text-sm" style={{ color: palette.muted }}>
+                Pregunta <span className="font-semibold" style={{ color: palette.navy }}>{currentQ + 1}</span> de {total} · Aciertos{" "}
+                <span className="font-semibold" style={{ color: palette.navy }}>{score}</span>
+              </div>
+            </div>
+            <div className="flex items-center gap-2">
+              <button
+                type="button"
+                onClick={() => setIsTimerPaused(p => !p)}
+                className="px-3 py-2 rounded-xl text-xs font-semibold transition hover:-translate-y-[1px] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+                style={{
+                  background: isTimerPaused ? palette.success : palette.porcelain,
+                  color: isTimerPaused ? "#fff" : palette.navy,
+                  border: `1px solid ${palette.border}`
+                }}
+              >
+                {isTimerPaused ? "Reanudar" : "Detener"}
+              </button>
+              <button
+                type="button"
+                onClick={() => setIsMenuOpen(true)}
+                className="px-3 py-2 rounded-xl text-xs font-semibold transition hover:-translate-y-[1px] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+                style={{
+                  background: palette.navy,
+                  color: "#fff",
+                  border: `1px solid ${palette.navy}`
+                }}
+              >
+                Menu
+              </button>
+            </div>
+          </div>
+          <div className="flex items-center justify-between rounded-xl px-3 py-2" style={{ background: palette.porcelain, border: `1px solid ${palette.border}` }}>
+            <span className="text-xs uppercase tracking-[0.14em]" style={{ color: palette.accent }}>
+              Tiempo restante
+            </span>
+            <span
+              className="text-base font-bold tabular-nums px-3 py-1 rounded-lg"
+              style={{
+                background: isTimerPaused ? palette.sky : timeLeft <= 10 ? palette.danger : "#fff",
+                color: isTimerPaused ? palette.navy : timeLeft <= 10 ? "#fff" : palette.navy,
+                border: `1px solid ${palette.border}`
+              }}
+            >
+              {String(timeLeft).padStart(2, "0")}s
+            </span>
+          </div>
+        </div>
+
+        <AnimatePresence>
+          {isMenuOpen && (
+            <motion.div
+              className="fixed inset-0 z-50 flex"
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+            >
+              <button
+                type="button"
+                aria-label="Cerrar menu"
+                onClick={() => setIsMenuOpen(false)}
+                className="absolute inset-0"
+                style={{ background: "rgba(15,31,48,0.42)" }}
+              />
+              <motion.aside
+                role="dialog"
+                aria-modal="true"
+                className="relative w-[92%] max-w-sm h-full p-5 overflow-y-auto"
+                initial={{ x: -30, opacity: 0 }}
+                animate={{ x: 0, opacity: 1 }}
+                exit={{ x: -30, opacity: 0 }}
+                style={{
+                  background: "linear-gradient(180deg, rgba(255,255,255,0.96), rgba(255,255,255,0.98))",
+                  borderRight: `1px solid ${palette.border}`
+                }}
+                onClick={e => e.stopPropagation()}
+              >
+                <div className="flex items-center justify-between gap-3 mb-4">
+                  <div>
+                    <div className="text-xs uppercase tracking-[0.2em]" style={{ color: palette.accent }}>
+                      Menu de nivel
+                    </div>
+                    <div className="text-lg font-semibold" style={{ color: palette.navy, fontFamily: serif }}>
+                      Keyword Transformation
+                    </div>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => setIsMenuOpen(false)}
+                    className="px-3 py-2 rounded-xl text-xs font-semibold"
+                    style={{ background: palette.porcelain, color: palette.navy, border: `1px solid ${palette.border}` }}
+                  >
+                    Cerrar
+                  </button>
+                </div>
+
+                <div className="mb-5">
+                  <div className="text-xs uppercase tracking-[0.2em] mb-2" style={{ color: palette.accent }}>
+                    Niveles
+                  </div>
+                  <div className="grid grid-cols-2 gap-2">
+                    {levels.map((_, idx) => {
+                      const active = idx === selectedLevel;
+                      return (
+                        <button
+                          key={idx}
+                          type="button"
+                          onClick={() => {
+                            setSelectedLevel(idx);
+                            setIsMenuOpen(false);
+                          }}
+                          className="px-3 py-3 rounded-xl border text-sm font-semibold transition hover:-translate-y-[2px] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+                          style={{
+                            background: active ? palette.navy : palette.surfaceAlt,
+                            color: active ? "#fff" : palette.navy,
+                            border: `1px solid ${active ? palette.navy : palette.border}`,
+                            boxShadow: active ? "0 10px 24px rgba(12,19,42,0.16)" : "none"
+                          }}
+                        >
+                          Nivel {idx + 1}
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+
+                <div className="mb-5">
+                  <div className="text-xs uppercase tracking-[0.2em] mb-2" style={{ color: palette.accent }}>
+                    Progreso
+                  </div>
+                  <div className="flex items-center gap-3">
+                    <div className="flex-1 h-2 rounded-full overflow-hidden" style={{ background: palette.sky }}>
+                      <div className="h-full transition-all" style={{ width: `${progress}%`, background: palette.navy }} />
+                    </div>
+                    <span className="text-sm font-semibold" style={{ color: palette.navy }}>
+                      {progress}%
+                    </span>
+                  </div>
+                  <p className="text-xs mt-1" style={{ color: palette.muted }}>
+                    Pregunta {currentQ + 1} de {total} · Aciertos {score}
+                  </p>
+                </div>
+
+                <div
+                  className="text-xs leading-relaxed rounded-xl p-3 mb-5"
+                  style={{
+                    color: palette.muted,
+                    background: palette.porcelain,
+                    border: `1px solid ${palette.border}`
+                  }}
+                >
+                  <strong className="block mb-1" style={{ color: palette.navy }}>
+                    Formato paper based
+                  </strong>
+                  <span>
+                    Conserva el significado original, usa la palabra clave sin cambiarla y cuida la gramatica. Si pausas, reanuda cuando estes listo.
+                  </span>
+                </div>
+
+                <div className="flex items-center justify-between gap-3">
+                  <button
+                    type="button"
+                    onClick={() => setSelectedLevel(null)}
+                    className="px-4 py-3 rounded-xl text-sm font-semibold transition hover:-translate-y-[1px]"
+                    style={{ background: palette.surfaceAlt, color: palette.navy, border: `1px solid ${palette.border}` }}
+                  >
+                    Volver a niveles
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setIsTimerPaused(p => !p)}
+                    className="px-4 py-3 rounded-xl text-sm font-semibold transition hover:-translate-y-[1px]"
+                    style={{ background: isTimerPaused ? palette.success : palette.navy, color: "#fff", border: `1px solid ${palette.navy}` }}
+                  >
+                    {isTimerPaused ? "Reanudar" : "Detener timer"}
+                  </button>
+                </div>
+              </motion.aside>
+            </motion.div>
+          )}
+        </AnimatePresence>
+
         <div className="flex flex-col lg:flex-row gap-6">
           <aside
-            className="lg:w-72 rounded-2xl p-5 space-y-4"
+            className="hidden lg:block lg:w-80 rounded-2xl p-5 space-y-4"
             style={{
               background: palette.surfaceAlt,
               border: `1px solid ${palette.border}`,
@@ -305,14 +509,14 @@ export default function KeywordTransformation() {
               >
                 Niveles
               </div>
-              <div className="flex flex-wrap gap-2">
+              <div className="grid grid-cols-2 gap-2">
                 {levels.map((_, idx) => {
                   const active = idx === selectedLevel;
                   return (
                     <button
                       key={idx}
                       onClick={() => setSelectedLevel(idx)}
-                      className="px-3 py-2 rounded-lg border text-sm transition hover:-translate-y-[2px]"
+                      className="px-3 py-3 rounded-xl border text-sm font-semibold transition hover:-translate-y-[2px] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
                       style={{
                         background: active ? palette.navy : palette.surfaceAlt,
                         color: active ? "#fff" : palette.navy,
@@ -334,7 +538,7 @@ export default function KeywordTransformation() {
               >
                 Progreso
               </div>
-                            <div className="flex items-center gap-3">
+              <div className="flex items-center gap-3">
                 <div className="flex-1 h-2 rounded-full overflow-hidden" style={{ background: palette.sky }}>
                   <div
                     className="h-full transition-all"
@@ -393,7 +597,7 @@ export default function KeywordTransformation() {
                 </div>
 
                 <div
-                  className="flex items-center justify-between rounded-xl px-4 py-3 mb-4"
+                  className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 rounded-xl px-4 py-3 mb-4"
                   style={{ background: palette.porcelain, border: `1px solid ${palette.border}` }}
                 >
                   <div>
@@ -404,15 +608,29 @@ export default function KeywordTransformation() {
                       Gestiona ritmo como en el paper
                     </div>
                   </div>
-                  <div
-                    className="text-xl font-bold tabular-nums px-3 py-1 rounded-lg"
-                    style={{
-                      background: timeLeft <= 10 ? palette.danger : "#fff",
-                      color: timeLeft <= 10 ? "#fff" : palette.navy,
-                      border: `1px solid ${palette.border}`
-                    }}
-                  >
-                    {String(timeLeft).padStart(2, "0")}s
+                  <div className="flex items-center justify-between sm:justify-end gap-3">
+                    <div
+                      className="text-xl font-bold tabular-nums px-3 py-1 rounded-lg"
+                      style={{
+                        background: isTimerPaused ? palette.sky : timeLeft <= 10 ? palette.danger : "#fff",
+                        color: isTimerPaused ? palette.navy : timeLeft <= 10 ? "#fff" : palette.navy,
+                        border: `1px solid ${palette.border}`
+                      }}
+                    >
+                      {String(timeLeft).padStart(2, "0")}s
+                    </div>
+                    <button
+                      type="button"
+                      onClick={() => setIsTimerPaused(p => !p)}
+                      className="px-4 py-2 rounded-xl text-sm font-semibold transition hover:-translate-y-[1px] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+                      style={{
+                        background: isTimerPaused ? palette.success : palette.surfaceAlt,
+                        color: isTimerPaused ? "#fff" : palette.navy,
+                        border: `1px solid ${palette.border}`
+                      }}
+                    >
+                      {isTimerPaused ? "Reanudar" : "Detener timer"}
+                    </button>
                   </div>
                 </div>
 
@@ -430,7 +648,7 @@ export default function KeywordTransformation() {
                   }}
                   placeholder="Escribe la transformacion completa..."
                 />
-                <div className="flex items-center justify-between">
+                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
                   <button
                     onClick={handleSubmit}
                     disabled={!input.trim()}
@@ -466,7 +684,7 @@ export default function KeywordTransformation() {
                     <strong style={{ color: palette.navy }}>Solucion modelo:</strong> {feedback.correctAnswer}
                   </div>
                 )}
-                <div className="flex gap-3">
+                <div className="flex flex-col sm:flex-row gap-3">
                   {currentQ + 1 < total ? (
                     <button
                       onClick={handleNext}
