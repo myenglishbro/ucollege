@@ -1,455 +1,638 @@
-import React, { useMemo, useRef, useState } from "react";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import exercises from "./data/readingExercises.json";
+import {
+  palette,
+  sans,
+  serif,
+  sheetShadow,
+  LETTERS,
+  formatTime,
+  readBest,
+  writeBest,
+  ExamBar,
+  PartPill,
+  FooterBrand,
+  ScoreRing
+} from "./shared/examUi";
 
-const background = "from-[#051535] via-[#0a234f] to-[#0c2e63]";
-const accent = "#ffd200";
-const logoUrl = "https://i.ibb.co/C3kRtYQG/zxczx-2-1.png";
-const socialLinks = [
-  { label: "YouTube", href: "https://www.youtube.com/@myenglishbro" },
-  { label: "TikTok", href: "https://www.tiktok.com/@myenglishbro" },
-  { label: "Instagram", href: "https://www.instagram.com/myenglishbro" },
-  { label: "LinkedIn", href: "https://www.linkedin.com/company/myenglishbro" }
-];
+const STORAGE_KEY = "uoe5-best-scores";
 
-const Watermark = () => (
-  <img
-    src={logoUrl}
-    alt=""
-    aria-hidden="true"
-    className="pointer-events-none select-none absolute -right-10 -bottom-6 w-[260px] md:w-[360px] opacity-10"
-    style={{ filter: "grayscale(1)" }}
-  />
-);
+// The reading texts are images hosted on Google Drive. Try a direct image URL first, then a thumbnail,
+// and only fall back to Drive's embedded viewer if neither loads.
+const driveId = url => {
+  const m = String(url || "").match(/\/d\/([^/?#]+)/) || String(url || "").match(/[?&]id=([^&#]+)/);
+  return m ? m[1] : null;
+};
+const imageSources = url => {
+  const id = driveId(url);
+  if (!id) return url ? [url] : [];
+  return [`https://lh3.googleusercontent.com/d/${id}`, `https://drive.google.com/thumbnail?id=${id}&sz=w2000`];
+};
+const previewUrl = url => {
+  const id = driveId(url);
+  return id ? `https://drive.google.com/file/d/${id}/preview` : url;
+};
 
-const FooterBrand = () => (
-  <div className="w-full mt-10 pb-8 flex flex-col items-center gap-4 text-slate-200">
-    <div className="flex items-center gap-3 text-xs uppercase tracking-[0.25em]">
-      <span>Powered by</span>
-      <img src={logoUrl} alt="MyEnglishBro logo" className="h-6 w-auto" />
+// ---------- Text image viewer ----------
+function TextViewer({ exercise, zoom, setZoom, heightClass }) {
+  const sources = useMemo(() => imageSources(exercise.image), [exercise.image]);
+  const [srcIndex, setSrcIndex] = useState(0);
+  const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    setSrcIndex(0);
+    setLoaded(false);
+  }, [exercise.id]);
+
+  const useIframe = srcIndex >= sources.length;
+  const openUrl = sources[0] || exercise.image;
+
+  const zoomBtn = {
+    border: `1px solid ${palette.hair}`,
+    background: palette.paper,
+    color: palette.navy
+  };
+
+  return (
+    <div className="rounded-lg overflow-hidden flex flex-col" style={{ background: palette.paper, boxShadow: sheetShadow }}>
+      <div className="flex items-center justify-between gap-3 px-4 py-2.5" style={{ borderBottom: `1px solid ${palette.hair}`, background: palette.tint }}>
+        <span className="text-[11px] font-bold uppercase tracking-[0.2em]" style={{ color: palette.muted }}>
+          Reading text
+        </span>
+        {!useIframe && (
+          <div className="flex items-center gap-1.5">
+            <button
+              type="button"
+              onClick={() => setZoom(z => Math.max(60, z - 20))}
+              disabled={zoom <= 60}
+              className="w-8 h-8 rounded-md font-bold"
+              style={{ ...zoomBtn, opacity: zoom <= 60 ? 0.4 : 1 }}
+              aria-label="Zoom out"
+            >
+              −
+            </button>
+            <button
+              type="button"
+              onClick={() => setZoom(100)}
+              className="px-2 h-8 rounded-md text-xs font-semibold tabular-nums min-w-[3.2rem]"
+              style={zoomBtn}
+              aria-label="Reset zoom to fit width"
+            >
+              {zoom}%
+            </button>
+            <button
+              type="button"
+              onClick={() => setZoom(z => Math.min(240, z + 20))}
+              disabled={zoom >= 240}
+              className="w-8 h-8 rounded-md font-bold"
+              style={{ ...zoomBtn, opacity: zoom >= 240 ? 0.4 : 1 }}
+              aria-label="Zoom in"
+            >
+              +
+            </button>
+            <a
+              href={openUrl}
+              target="_blank"
+              rel="noreferrer"
+              className="ml-1 px-3 h-8 rounded-md text-xs font-semibold flex items-center"
+              style={zoomBtn}
+            >
+              Open ↗
+            </a>
+          </div>
+        )}
+      </div>
+
+      <div className={`${heightClass} overflow-auto relative`} style={{ background: "#fff" }}>
+        {useIframe ? (
+          <iframe title={exercise.title} src={previewUrl(exercise.image)} className="w-full h-full min-h-[480px] border-0" allow="autoplay" />
+        ) : (
+          <>
+            {!loaded && (
+              <div className="absolute inset-0 flex items-center justify-center text-sm" style={{ color: palette.muted }}>
+                Loading text…
+              </div>
+            )}
+            <img
+              key={sources[srcIndex]}
+              src={sources[srcIndex]}
+              alt={`Reading text: ${exercise.title}`}
+              onLoad={() => setLoaded(true)}
+              onError={() => setSrcIndex(i => i + 1)}
+              draggable={false}
+              style={{ width: `${zoom}%`, maxWidth: "none", display: "block", opacity: loaded ? 1 : 0, transition: "opacity 200ms" }}
+            />
+          </>
+        )}
+      </div>
     </div>
-    <div className="flex flex-wrap items-center justify-center gap-2">
-      {socialLinks.map(link => (
-        <a
-          key={link.label}
-          href={link.href}
-          target="_blank"
-          rel="noreferrer"
-          className="px-4 py-2 rounded-full text-xs font-semibold border border-white/20 bg-white/5 hover:bg-white/10 transition"
-          style={{ color: accent }}
+  );
+}
+
+// ---------- Exercise selection ----------
+function SetCard({ exercise, index, score, onStart }) {
+  const total = exercise.questions.length;
+  const perfect = score === total;
+  const [thumbFailed, setThumbFailed] = useState(false);
+  const thumb = imageSources(exercise.image)[0];
+  return (
+    <button
+      type="button"
+      onClick={onStart}
+      className="group text-left rounded-xl overflow-hidden flex flex-col transition-all hover:-translate-y-0.5"
+      style={{ background: palette.paper, boxShadow: sheetShadow, border: `1px solid ${palette.hair}` }}
+    >
+      <div
+        className="relative h-28 overflow-hidden"
+        style={{ background: `linear-gradient(135deg, ${palette.navy}, ${palette.navySoft})` }}
+      >
+        {thumb && !thumbFailed && (
+          <img
+            src={`${thumb}=w600`}
+            alt=""
+            aria-hidden="true"
+            onError={() => setThumbFailed(true)}
+            className="w-full h-full object-cover object-top"
+            style={{ opacity: 0.9 }}
+          />
+        )}
+        <div className="absolute inset-0" style={{ background: "linear-gradient(180deg, rgba(12,35,64,0) 40%, rgba(12,35,64,0.75) 100%)" }} />
+        <span className="absolute left-4 bottom-2 text-3xl font-semibold text-white" style={{ fontFamily: serif }}>
+          {String(index + 1).padStart(2, "0")}
+        </span>
+        {score !== undefined && (
+          <span
+            className="absolute right-3 top-3 text-[11px] font-bold px-2.5 py-1 rounded-full"
+            style={{ background: perfect ? palette.successBg : palette.select, color: perfect ? palette.success : palette.selectBorder }}
+          >
+            {perfect ? "✓ " : ""}Best {score}/{total}
+          </span>
+        )}
+      </div>
+      <div className="p-5 flex flex-col gap-2 flex-1">
+        <h2 className="text-lg font-semibold" style={{ color: palette.ink }}>
+          {exercise.title}
+        </h2>
+        <p className="text-xs" style={{ color: palette.muted }}>
+          {exercise.level} · {total} questions
+        </p>
+        <span
+          className="mt-auto pt-2 text-sm font-semibold flex items-center gap-1 transition-all group-hover:gap-2"
+          style={{ color: palette.selectBorder }}
         >
-          {link.label}
-        </a>
-      ))}
+          {score !== undefined ? "Practise again" : "Start reading"} <span aria-hidden>→</span>
+        </span>
+      </div>
+    </button>
+  );
+}
+
+function SetList({ best, onStart }) {
+  const done = exercises.filter(e => best[e.id] !== undefined).length;
+  return (
+    <div className="min-h-screen" style={{ background: palette.page, fontFamily: sans }}>
+      <ExamBar right={<span className="text-xs" style={{ opacity: 0.85 }}>{done} of {exercises.length} completed</span>} />
+
+      <section
+        style={{
+          background: `radial-gradient(circle at 85% 20%, rgba(200,16,46,0.28), transparent 45%), linear-gradient(135deg, ${palette.navy}, ${palette.navySoft})`,
+          color: "#fff"
+        }}
+      >
+        <div className="max-w-5xl mx-auto px-4 py-12 md:py-16">
+          <p className="text-[11px] font-bold uppercase tracking-[0.3em]" style={{ color: "#ff9aa8" }}>
+            Part 5 · Multiple choice
+          </p>
+          <h1 className="mt-3 text-3xl md:text-5xl font-semibold leading-tight" style={{ fontFamily: serif }}>
+            Reading and Use of English
+          </h1>
+          <p className="mt-4 max-w-2xl text-sm md:text-base" style={{ opacity: 0.8 }}>
+            Read the article and choose the answer that fits best according to the text. The text stays on screen
+            beside the questions so you can go back to it, just like in the real exam.
+          </p>
+          <div className="mt-7 flex flex-wrap gap-3 text-xs">
+            {[`${exercises.length} texts`, "Text beside the questions", "Zoomable reading text"].map(chip => (
+              <span
+                key={chip}
+                className="px-3 py-1.5 rounded-full"
+                style={{ background: "rgba(255,255,255,0.12)", border: "1px solid rgba(255,255,255,0.18)" }}
+              >
+                {chip}
+              </span>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <main className="max-w-5xl mx-auto px-4 -mt-6 pb-4 relative">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {exercises.map((exercise, idx) => (
+            <SetCard key={exercise.id} exercise={exercise} index={idx} score={best[exercise.id]} onStart={() => onStart(idx)} />
+          ))}
+        </div>
+        <FooterBrand />
+      </main>
     </div>
-  </div>
-);
+  );
+}
 
-const ReadingComprehension = () => {
-  const [exerciseId, setExerciseId] = useState(exercises[0]?.id || "");
+// ---------- Exam ----------
+function Exam({ index, best, onExit, onNext, onFinish }) {
+  const exercise = exercises[index];
+  const questions = exercise.questions;
+  const total = questions.length;
+
   const [answers, setAnswers] = useState({});
-  const [showResults, setShowResults] = useState(false);
-  const [showIntro, setShowIntro] = useState(true);
-  const [showExercise, setShowExercise] = useState(false);
-  const [zoom, setZoom] = useState(1);
-  const setsRef = useRef(null);
-  const readingRef = useRef(null);
+  const [active, setActive] = useState(questions[0].id);
+  const [submitted, setSubmitted] = useState(false);
+  const [elapsed, setElapsed] = useState(0);
+  const [zoom, setZoom] = useState(100);
+  const cardRefs = useRef({});
 
-  const currentExercise = useMemo(
-    () => exercises.find((exercise) => exercise.id === exerciseId),
-    [exerciseId]
+  // A new text starts clean
+  useEffect(() => {
+    setAnswers({});
+    setActive(exercise.questions[0].id);
+    setSubmitted(false);
+    setElapsed(0);
+    setZoom(100);
+    window.scrollTo(0, 0);
+  }, [exercise]);
+
+  useEffect(() => {
+    if (submitted) return undefined;
+    const t = setInterval(() => setElapsed(s => s + 1), 1000);
+    return () => clearInterval(t);
+  }, [submitted, exercise]);
+
+  const activeIdx = questions.findIndex(q => q.id === active);
+  const answeredCount = questions.filter(q => answers[q.id] !== undefined).length;
+  const score = questions.filter(q => answers[q.id] === q.answer).length;
+
+  const focusQuestion = id => {
+    setActive(id);
+    cardRefs.current[id]?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  };
+  const choose = (id, optionIndex) => {
+    if (submitted) return;
+    setAnswers(prev => ({ ...prev, [id]: optionIndex }));
+    setActive(id);
+  };
+  const move = delta => {
+    const next = questions[activeIdx + delta];
+    if (next) focusQuestion(next.id);
+  };
+
+  const submit = () => {
+    setSubmitted(true);
+    onFinish(exercise.id, score);
+    window.scrollTo(0, 0);
+  };
+  const retry = () => {
+    setAnswers({});
+    setActive(questions[0].id);
+    setSubmitted(false);
+    setElapsed(0);
+    window.scrollTo(0, 0);
+  };
+
+  // Keyboard: A-D answers the active question, arrows move between questions
+  useEffect(() => {
+    if (submitted) return undefined;
+    const onKey = e => {
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+      const q = questions[activeIdx];
+      const letter = LETTERS.indexOf(e.key.toUpperCase());
+      if (e.key.length === 1 && letter !== -1 && q && q.options[letter] !== undefined) {
+        choose(q.id, letter);
+      } else if (e.key === "ArrowDown" || e.key === "ArrowRight") {
+        e.preventDefault();
+        move(1);
+      } else if (e.key === "ArrowUp" || e.key === "ArrowLeft") {
+        e.preventDefault();
+        move(-1);
+      }
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  });
+
+  const exitButton = (
+    <button
+      type="button"
+      onClick={onExit}
+      className="text-xs font-semibold px-3 py-1.5 rounded-md"
+      style={{ border: "1px solid rgba(255,255,255,0.35)" }}
+    >
+      Exit
+    </button>
+  );
+  const timer = (
+    <span
+      className="text-sm font-semibold tabular-nums px-3 py-1 rounded-md"
+      style={{ background: "rgba(255,255,255,0.12)" }}
+      aria-label="Elapsed time"
+    >
+      ⏱ {formatTime(elapsed)}
+    </span>
   );
 
-  const handleStart = (id) => {
-    setExerciseId(id);
-    setAnswers({});
-    setShowResults(false);
-    setShowIntro(false);
-    setShowExercise(false);
-    setZoom(1);
-    setTimeout(() => {
-      if (setsRef.current) {
-        setsRef.current.scrollIntoView({ behavior: "smooth" });
-      }
-    }, 150);
-  };
+  const questionPanel = (
+    <div className="space-y-4">
+      {questions.map((q, qi) => {
+        const chosen = answers[q.id];
+        const isActive = !submitted && q.id === active;
+        const ok = chosen === q.answer;
+        return (
+          <div
+            key={q.id}
+            ref={el => {
+              cardRefs.current[q.id] = el;
+            }}
+            onClick={() => !submitted && setActive(q.id)}
+            className="rounded-lg p-5"
+            style={{
+              background: palette.paper,
+              border: `1px solid ${isActive ? palette.selectBorder : palette.hair}`,
+              boxShadow: isActive ? `0 0 0 2px ${palette.select}` : "0 1px 2px rgba(12,35,64,0.06)",
+              borderLeft: submitted ? `4px solid ${ok ? palette.success : palette.danger}` : undefined,
+              transition: "box-shadow 120ms, border-color 120ms"
+            }}
+          >
+            <div className="flex items-start gap-3">
+              <span
+                className="w-8 h-8 rounded-md flex items-center justify-center text-sm font-bold shrink-0"
+                style={{
+                  background: submitted ? (ok ? palette.success : palette.danger) : chosen !== undefined ? palette.navy : palette.tint,
+                  color: submitted || chosen !== undefined ? "#fff" : palette.navy
+                }}
+              >
+                {qi + 1}
+              </span>
+              <p className="font-semibold leading-snug pt-1" style={{ color: palette.ink, fontFamily: serif, fontSize: "1.05rem" }}>
+                {q.question}
+              </p>
+            </div>
 
-  const handleSelectSet = (id) => {
-    setExerciseId(id);
-    setAnswers({});
-    setShowResults(false);
-    setShowExercise(true);
-    setZoom(1);
-    setTimeout(() => {
-      if (readingRef.current) {
-        readingRef.current.scrollIntoView({ behavior: "smooth" });
-      }
-    }, 150);
-  };
+            <div className="mt-4 space-y-2" role="radiogroup" aria-label={`Options for question ${qi + 1}`}>
+              {q.options.map((opt, oi) => {
+                const selected = chosen === oi;
+                const isRight = submitted && oi === q.answer;
+                const isWrong = submitted && selected && oi !== q.answer;
+                let bg = palette.paper;
+                let border = palette.hair;
+                let color = palette.ink;
+                if (isRight) {
+                  bg = palette.successBg;
+                  border = palette.success;
+                  color = palette.success;
+                } else if (isWrong) {
+                  bg = palette.dangerBg;
+                  border = palette.danger;
+                  color = palette.danger;
+                } else if (selected && !submitted) {
+                  bg = palette.select;
+                  border = palette.selectBorder;
+                  color = palette.navy;
+                }
+                return (
+                  <button
+                    key={opt}
+                    type="button"
+                    role="radio"
+                    aria-checked={selected}
+                    disabled={submitted}
+                    onClick={e => {
+                      e.stopPropagation();
+                      choose(q.id, oi);
+                    }}
+                    className="w-full flex items-start gap-3 px-3 py-2.5 rounded-md text-left text-[0.95rem]"
+                    style={{
+                      background: bg,
+                      color,
+                      border: `${selected || isRight ? 2 : 1}px solid ${border}`,
+                      fontWeight: selected || isRight ? 600 : 500,
+                      cursor: submitted ? "default" : "pointer"
+                    }}
+                  >
+                    <span
+                      className="w-6 h-6 rounded-full flex items-center justify-center text-[11px] font-bold shrink-0 mt-0.5"
+                      style={{
+                        background: isRight ? palette.success : isWrong ? palette.danger : selected ? palette.selectBorder : "transparent",
+                        color: isRight || isWrong || selected ? "#fff" : palette.muted,
+                        border: isRight || isWrong || selected ? "none" : `1.5px solid ${palette.hair}`
+                      }}
+                    >
+                      {LETTERS[oi]}
+                    </span>
+                    <span className="flex-1">{opt}</span>
+                    {isRight && <span aria-label="Correct answer">✓</span>}
+                    {isWrong && <span aria-label="Your answer, incorrect">✗</span>}
+                  </button>
+                );
+              })}
+            </div>
 
-  const handleBackToMenu = () => {
-    setShowExercise(false);
-    setShowResults(false);
-    setZoom(1);
-    setTimeout(() => {
-      if (setsRef.current) {
-        setsRef.current.scrollIntoView({ behavior: "smooth" });
-      }
-    }, 150);
-  };
+            {submitted && (
+              <p className="mt-3 text-sm font-semibold" style={{ color: ok ? palette.success : palette.danger }}>
+                {ok
+                  ? "Correct"
+                  : chosen === undefined
+                  ? `Not answered. Correct answer: ${LETTERS[q.answer]}`
+                  : `Correct answer: ${LETTERS[q.answer]}`}
+              </p>
+            )}
+          </div>
+        );
+      })}
+    </div>
+  );
 
-  const handleAnswer = (questionId, optionIndex) => {
-    setAnswers((prev) => ({
-      ...prev,
-      [questionId]: optionIndex,
-    }));
-    setShowResults(false);
-  };
+  // ===== Results =====
+  if (submitted) {
+    const pct = Math.round((score / total) * 100);
+    const perfect = score === total;
+    const message = perfect
+      ? "Perfect score. You understood the text very well."
+      : pct >= 75
+      ? "Strong result. Re-read the text for the ones you missed."
+      : pct >= 50
+      ? "Getting there. Go back to the text and check each answer."
+      : "Keep practising. Re-read the text carefully, then try again.";
+    const hasNext = index + 1 < exercises.length;
 
-  const totalQuestions = currentExercise?.questions?.length || 0;
-
-  const correctCount = currentExercise
-    ? currentExercise.questions.reduce((total, question) => {
-        const chosen = answers[question.id];
-        return total + (chosen === question.answer ? 1 : 0);
-      }, 0)
-    : 0;
-
-  if (!currentExercise) {
     return (
-      <div className="min-h-screen bg-slate-950 text-gray-100 flex items-center justify-center">
-        <p className="text-lg font-semibold">
-          No hay lecturas disponibles en este momento.
-        </p>
+      <div className="min-h-screen" style={{ background: palette.page, fontFamily: sans }}>
+        <ExamBar left={<PartPill>Part 5</PartPill>} right={<>{timer}{exitButton}</>} />
+
+        <section style={{ background: `linear-gradient(135deg, ${palette.navy}, ${palette.navySoft})`, color: "#fff" }}>
+          <div className="max-w-6xl mx-auto px-4 py-8 flex flex-col md:flex-row md:items-center gap-6">
+            <ScoreRing pct={pct} score={score} total={total} good={pct >= 60} />
+            <div className="flex-1">
+              <p className="text-[11px] font-bold uppercase tracking-[0.25em]" style={{ color: "#ff9aa8" }}>
+                Results · {exercise.title}
+              </p>
+              <h1 className="mt-2 text-2xl md:text-3xl font-semibold" style={{ fontFamily: serif }}>
+                {pct}% correct · {formatTime(elapsed)}
+              </h1>
+              <p className="mt-2 text-sm md:text-base" style={{ opacity: 0.85 }}>
+                {message}
+              </p>
+              <div className="mt-4 flex flex-wrap gap-1.5" aria-label="Result per question">
+                {questions.map((q, qi) => (
+                  <span
+                    key={q.id}
+                    className="w-8 h-8 rounded-md flex items-center justify-center text-xs font-bold"
+                    style={{ background: answers[q.id] === q.answer ? "#1f9d6a" : "#cf4a3f", color: "#fff" }}
+                  >
+                    {qi + 1}
+                  </span>
+                ))}
+              </div>
+            </div>
+            <div className="flex md:flex-col gap-2">
+              <button
+                type="button"
+                onClick={retry}
+                className="px-5 py-2.5 rounded-md text-sm font-semibold"
+                style={{ border: "1px solid rgba(255,255,255,0.5)" }}
+              >
+                Try again
+              </button>
+              {hasNext && (
+                <button
+                  type="button"
+                  onClick={onNext}
+                  className="px-5 py-2.5 rounded-md text-sm font-semibold"
+                  style={{ background: "#fff", color: palette.navy }}
+                >
+                  Next text →
+                </button>
+              )}
+            </div>
+          </div>
+        </section>
+
+        <main className="max-w-6xl mx-auto px-4 py-8 grid lg:grid-cols-2 gap-6 items-start">
+          <div className="lg:sticky lg:top-20">
+            <TextViewer exercise={exercise} zoom={zoom} setZoom={setZoom} heightClass="h-[60vh] lg:h-[calc(100vh-9rem)]" />
+          </div>
+          <div>{questionPanel}</div>
+        </main>
+        <FooterBrand />
       </div>
     );
   }
 
+  // ===== Answering =====
+  const bestHere = best[exercise.id];
   return (
-    <div
-      className={`min-h-screen bg-gradient-to-br ${background} text-slate-50 py-10 px-4 relative overflow-hidden`}
-    >
-      <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute -left-10 top-12 h-64 w-64 rounded-full bg-[#0c4ab5]/30 blur-3xl" />
-        <div
-          className="absolute right-10 bottom-12 h-64 w-64 rounded-full blur-3xl"
-          style={{ backgroundColor: `${accent}30` }}
-        />
-      </div>
+    <div className="min-h-screen pb-24" style={{ background: palette.page, fontFamily: sans }}>
+      <ExamBar left={<PartPill>Part 5</PartPill>} right={<>{timer}{exitButton}</>} />
 
-      {showIntro ? (
-        <div className="absolute inset-0 z-20 flex items-center justify-center bg-slate-950/80 backdrop-blur-md px-4">
-          <div className="max-w-4xl w-full bg-slate-900/90 border border-[#ffd200]/50 rounded-3xl shadow-2xl p-10 space-y-8">
-            <p className="text-xs uppercase tracking-[0.2em] text-[#ffd200] font-semibold">
-              Part 1 · Reading Multiple Choice
+      <main className="max-w-6xl mx-auto px-3 md:px-4 py-6 space-y-5">
+        <div className="rounded-lg px-5 py-4" style={{ background: palette.paper, boxShadow: sheetShadow }}>
+          <div className="flex items-end justify-between gap-4 pb-2" style={{ borderBottom: `3px solid ${palette.navy}` }}>
+            <h2 className="text-2xl md:text-3xl font-bold leading-none" style={{ fontFamily: serif, color: palette.navy }}>
+              Part 5
+            </h2>
+            <p className="text-sm font-semibold" style={{ color: palette.muted }}>
+              Questions 1–{total}
             </p>
-            <h1 className="text-4xl font-black text-white">
-              B2 First · Reading & Use of English
-            </h1>
-            <p className="text-slate-200 text-lg leading-relaxed">
-              Task: lectura con preguntas de opcion multiple. Distractores
-              cercanos, collocations y patrones gramaticales. Sigue el estilo
-              Cambridge B2 First.
-            </p>
-            <div className="grid gap-6 md:grid-cols-2 text-slate-200">
-              <div>
-                <h3 className="font-semibold text-white mb-2">Overview</h3>
-                <p>Multiple choice; 1 punto por pregunta.</p>
-              </div>
-              <div>
-                <h3 className="font-semibold text-white mb-2">
-                  Assessment Focus
-                </h3>
-                <p>Lexical nuance, collocations, phrasal verbs y registro.</p>
-              </div>
-              <div>
-                <h3 className="font-semibold text-white mb-2">
-                  How to Approach
-                </h3>
-                <ul className="list-disc list-inside space-y-1 text-sm">
-                  <li>Fijate en preposiciones y formas verbales.</li>
-                  <li>Piensa en frases, no en palabras sueltas.</li>
-                  <li>Lee todo el enunciado antes de decidir.</li>
-                </ul>
-              </div>
-              <div>
-                <h3 className="font-semibold text-white mb-2">Tips</h3>
-                <ul className="list-disc list-inside space-y-1 text-sm">
-                  <li>Practica collocations y phrasal verbs.</li>
-                  <li>Observa como cada palabra cambia el sentido.</li>
-                  <li>Exponte a textos variados y tonos distintos.</li>
-                </ul>
-              </div>
-            </div>
-            <button
-              onClick={() => handleStart(exerciseId)}
-              className="w-full rounded-full bg-[#ffd200] text-slate-900 font-semibold py-3 hover:bg-[#ffde33] transition-colors"
-            >
-              Iniciar
-            </button>
-            <FooterBrand />
           </div>
-        </div>
-      ) : null}
-
-      <div className="relative max-w-6xl mx-auto space-y-10 z-10">
-        <Watermark />
-        {!showExercise ? (
-          <section
-            ref={setsRef}
-            className="bg-[#f3f0e6] text-[#0f1b3d] rounded-3xl shadow-2xl border border-white/70 overflow-hidden space-y-6 p-8 md:p-10"
+          <p
+            className="mt-3 px-4 py-2.5 text-[0.95rem] font-semibold"
+            style={{ border: `1.5px solid ${palette.ink}`, color: palette.ink, fontFamily: serif, lineHeight: 1.6 }}
           >
-            <div className="space-y-2">
-              <p className="text-xs uppercase tracking-[0.2em] text-[#b38b00] font-semibold">
-                Cambridge Practice
-              </p>
-              <h2 className="text-3xl font-black">
-                Use of English – Multiple Choice
-              </h2>
-              <p className="text-slate-700">
-                Paso 1: elige un set. Paso 2: lee y responde. Todo viene del
-                JSON.
-              </p>
-            </div>
-            <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-              {exercises.map((exercise, idx) => (
-                <div
-                  key={exercise.id}
-                  className="rounded-2xl border border-slate-200 bg-white shadow-md p-5 relative overflow-hidden"
-                >
-                  <div className="flex items-center justify-between mb-4">
-                    <span className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-[#0f1b3d] text-[#f3f0e6] text-base font-bold">
-                      {idx + 1}
-                    </span>
-                    <span className="text-[11px] px-3 py-1 rounded-full font-semibold bg-[#c7dcff] text-[#0f1b3d]">
-                      Disponible
-                    </span>
-                  </div>
-                  <p className="text-xs uppercase tracking-wide text-[#b38b00]">
-                    Set {idx + 1}
-                  </p>
-                  <h3 className="text-xl font-semibold mb-1 text-[#0f1b3d]">
-                    {exercise.title}
-                  </h3>
-                  <p className="text-sm text-slate-700 mb-4">
-                    Nivel: {exercise.level}. Items: {exercise.questions.length}.
-                  </p>
-                  <button
-                    onClick={() => handleSelectSet(exercise.id)}
-                    className="mt-auto inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold bg-[#0f1b3d] text-[#f3f0e6] hover:bg-[#132a63] transition"
-                  >
-                    Desarrollar
-                  </button>
-                </div>
-              ))}
-            </div>
-            <FooterBrand />
-          </section>
-        ) : null}
+            You are going to read a text called “{exercise.title}”. For questions 1–{total}, choose the answer (A, B
+            {total > 0 && questions.some(q => q.options.length > 3) ? ", C or D" : " or C"}) which you think fits best
+            according to the text.
+          </p>
+        </div>
 
-        {showExercise ? (
-          <main className="grid gap-6 lg:grid-cols-3">
-            <section ref={readingRef} className="lg:col-span-2 space-y-6">
-              <div className="flex justify-start">
+        <div className="grid lg:grid-cols-2 gap-6 items-start">
+          <div className="lg:sticky lg:top-20">
+            <TextViewer exercise={exercise} zoom={zoom} setZoom={setZoom} heightClass="h-[55vh] lg:h-[calc(100vh-15rem)]" />
+          </div>
+          <div>{questionPanel}</div>
+        </div>
+        <FooterBrand />
+      </main>
+
+      {/* Question navigator, as in the computer-based test */}
+      <nav
+        className="fixed bottom-0 inset-x-0 z-30"
+        style={{ background: palette.paper, borderTop: `1px solid ${palette.hair}`, boxShadow: "0 -6px 24px rgba(12,35,64,0.08)" }}
+        aria-label="Question navigator"
+      >
+        <div className="max-w-6xl mx-auto px-3 md:px-4 py-2.5 flex items-center gap-3">
+          <div className="flex items-center gap-1.5 overflow-x-auto flex-1">
+            {questions.map((q, qi) => {
+              const answered = answers[q.id] !== undefined;
+              const isActive = q.id === active;
+              return (
                 <button
-                  onClick={handleBackToMenu}
-                  className="px-4 py-2 rounded-full bg-[#ffd200] text-[#0f1b3d] font-semibold hover:bg-[#ffde33] transition"
-                >
-                  ← Volver al menú
-                </button>
-              </div>
-              <article className="rounded-3xl shadow-2xl overflow-hidden border border-slate-800 bg-slate-900/80">
-                <div className="flex items-center justify-between px-6 pt-5 pb-3 border-b border-slate-800/70 bg-slate-900/70">
-                  <div className="flex items-center gap-2 text-xs uppercase tracking-wide text-[#ffd200]">
-                    <span className="inline-flex items-center justify-center h-7 w-7 rounded-full bg-[#ffd200]/20 text-[#ffd200] font-bold">
-                      {currentExercise.level}
-                    </span>
-                    <span>Reading Text</span>
-                  </div>
-                  {currentExercise.image?.includes("drive.google.com") ? (
-                    <div className="flex items-center gap-2 text-white text-sm">
-                      <span className="text-slate-300">Zoom</span>
-                      <button
-                        onClick={() => setZoom((z) => Math.max(0.7, +(z - 0.1).toFixed(2)))}
-                        className="h-8 w-8 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center hover:border-[#ffd200]"
-                        aria-label="Reducir zoom"
-                      >
-                        -
-                      </button>
-                      <span className="w-10 text-center text-slate-100">{Math.round(zoom * 100)}%</span>
-                      <button
-                        onClick={() => setZoom((z) => Math.min(2, +(z + 0.1).toFixed(2)))}
-                        className="h-8 w-8 rounded-full bg-slate-800 border border-slate-700 flex items-center justify-center hover:border-[#ffd200]"
-                        aria-label="Aumentar zoom"
-                      >
-                        +
-                      </button>
-                    </div>
-                  ) : null}
-                </div>
-
-                <div className="px-6 pb-6 pt-2 space-y-3 bg-slate-900/60">
-                  <h2 className="text-2xl md:text-3xl font-semibold text-white">
-                    {currentExercise.title}
-                  </h2>
-                </div>
-
-                {currentExercise.image?.includes("drive.google.com") ? (
-                  <div className="relative w-full overflow-hidden bg-[#0f1b3d]">
-                    <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#051535]/50 to-[#051535]/80 pointer-events-none" />
-                    <div className="overflow-auto p-4">
-                      <div
-                        style={{
-                          transform: `scale(${zoom})`,
-                          transformOrigin: "top left",
-                          width: `${100 / zoom}%`,
-                        }}
-                      >
-                        <iframe
-                          title={currentExercise.title}
-                          src={currentExercise.image.replace("/view", "/preview")}
-                          className="w-full h-[420px] md:h-[520px] border-0 rounded-2xl"
-                          allow="autoplay"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                ) : (
-                  <div
-                    className="relative h-[280px] md:h-[340px] w-full bg-cover bg-center"
-                    style={{
-                      backgroundImage: `linear-gradient(180deg, rgba(5,21,53,0.15) 0%, rgba(5,21,53,0.7) 65%, rgba(5,21,53,0.9) 100%), url('${currentExercise.image || ""}')`,
-                      backgroundColor: currentExercise.image ? undefined : "#0f1b3d",
-                    }}
-                  />
-                )}
-              </article>
-
-              <section className="space-y-4">
-                {currentExercise.questions.map((question, index) => {
-                  const selected = answers[question.id];
-                  const optionLabel = (i) => String.fromCharCode(65 + i);
-                  return (
-                    <div
-                      key={question.id}
-                      className="bg-slate-900/80 border border-slate-800 rounded-2xl p-6 shadow"
-                    >
-                      <div className="flex items-start gap-3 mb-4">
-                        <span className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-[#ffd200]/20 text-[#ffd200] font-semibold">
-                          {index + 1}
-                        </span>
-                        <p className="text-lg text-white leading-snug">
-                          {question.question}
-                        </p>
-                      </div>
-                      <div className="grid gap-3 sm:grid-cols-2">
-                        {question.options.map((option, optionIndex) => {
-                          const isSelected = selected === optionIndex;
-                          const isCorrect =
-                            showResults && optionIndex === question.answer;
-                          const isWrong =
-                            showResults &&
-                            isSelected &&
-                            optionIndex !== question.answer;
-
-                          return (
-                            <button
-                              key={option}
-                              onClick={() =>
-                                handleAnswer(question.id, optionIndex)
-                              }
-                              className={`text-left rounded-xl border px-4 py-3 transition-all duration-150 ${
-                                isSelected
-                                  ? "border-[#ffd200] bg-[#ffd200]/10 text-white shadow-[0_0_0_1px_rgba(255,210,0,0.25)]"
-                                  : "border-slate-800 bg-slate-950/60 text-slate-100 hover:border-[#ffd200]/40 hover:bg-slate-900"
-                              } ${
-                                isCorrect
-                                  ? "border-green-400 bg-green-500/10"
-                                  : ""
-                              } ${
-                                isWrong ? "border-red-400 bg-red-500/10" : ""
-                              }`}
-                            >
-                              {optionLabel(optionIndex)}. {option}
-                            </button>
-                          );
-                        })}
-                      </div>
-                      {showResults ? (
-                        <p
-                          className={`mt-3 text-sm font-semibold ${
-                            selected === question.answer
-                              ? "text-green-400"
-                              : "text-red-400"
-                          }`}
-                        >
-                          {selected === question.answer
-                            ? "Correcto"
-                            : `Respuesta: ${optionLabel(
-                                question.answer
-                              )}. ${question.options[question.answer]}`}
-                        </p>
-                      ) : null}
-                    </div>
-                  );
-                })}
-              </section>
-            </section>
-
-            <aside className="space-y-4">
-              <div className="bg-slate-900/80 border border-slate-800 rounded-2xl p-5 shadow">
-                <h3 className="text-xl font-semibold text-white mb-2">Estado</h3>
-                <p className="text-slate-300">
-                  Revisa tus respuestas cuando estes listo y valida el feedback.
-                </p>
-                <div className="mt-4 flex items-center gap-2 text-sm text-slate-300">
-                  <span className="inline-flex items-center justify-center h-9 w-9 rounded-full bg-[#ffd200]/20 text-[#ffd200] font-semibold">
-                    {correctCount}
-                  </span>
-                  <span>
-                    Respuestas correctas de {totalQuestions} preguntas
-                  </span>
-                </div>
-                <div className="mt-3 h-2 w-full rounded-full bg-slate-800 overflow-hidden">
-                  <div
-                    className="h-full bg-[#ffd200] transition-all duration-300"
-                    style={{
-                      width:
-                        totalQuestions === 0
-                          ? "0%"
-                          : `${(correctCount / totalQuestions) * 100}%`,
-                    }}
-                  />
-                </div>
-                {showResults ? (
-                  <div className="mt-3 text-sm text-slate-400">
-                    Retroalimentacion mostrada.
-                  </div>
-                ) : null}
-              </div>
-
-              <div className="bg-slate-900/80 border border-slate-800 rounded-2xl p-5 shadow space-y-3">
-                <button
-                  onClick={() => setShowResults(true)}
-                  className="w-full rounded-lg bg-[#ffd200] text-slate-900 font-semibold py-3 hover:bg-[#ffde33] transition-colors shadow-md"
-                >
-                  Revisar respuestas
-                </button>
-                <button
-                  onClick={() => {
-                    setAnswers({});
-                    setShowResults(false);
+                  key={q.id}
+                  type="button"
+                  onClick={() => focusQuestion(q.id)}
+                  aria-label={`Go to question ${qi + 1}${answered ? " (answered)" : ""}`}
+                  className="w-9 h-9 shrink-0 rounded-md text-sm font-bold"
+                  style={{
+                    background: answered ? palette.navy : palette.paper,
+                    color: answered ? "#fff" : palette.navy,
+                    border: `1.5px solid ${isActive ? palette.selectBorder : answered ? palette.navy : palette.hair}`,
+                    boxShadow: isActive ? `0 0 0 2px ${palette.select}` : "none"
                   }}
-                  className="w-full rounded-lg border border-slate-700 text-white font-semibold py-3 hover:border-[#ffd200] transition-colors"
                 >
-                  Limpiar respuestas
+                  {qi + 1}
                 </button>
-              </div>
-              <FooterBrand />
-            </aside>
-          </main>
-        ) : null}
-      </div>
+              );
+            })}
+          </div>
+          <span className="hidden md:block text-xs whitespace-nowrap" style={{ color: palette.muted }}>
+            {answeredCount}/{total} answered{bestHere !== undefined && ` · best ${bestHere}/${total}`}
+          </span>
+          <button
+            type="button"
+            onClick={submit}
+            disabled={answeredCount === 0}
+            className="px-5 py-2.5 rounded-md text-sm font-semibold whitespace-nowrap"
+            style={{
+              background: answeredCount === 0 ? "#cfd6de" : answeredCount < total ? palette.navySoft : palette.red,
+              color: answeredCount === 0 ? "#6b7785" : "#fff",
+              cursor: answeredCount === 0 ? "not-allowed" : "pointer"
+            }}
+          >
+            {answeredCount === total ? "Check answers" : `Check (${total - answeredCount} left)`}
+          </button>
+        </div>
+      </nav>
     </div>
+  );
+}
+
+const ReadingComprehension = () => {
+  const [selected, setSelected] = useState(null);
+  const [best, setBest] = useState(() => readBest(STORAGE_KEY));
+
+  const recordScore = (exerciseId, score) => {
+    setBest(prev => {
+      const next = { ...prev, [exerciseId]: Math.max(prev[exerciseId] ?? 0, score) };
+      writeBest(STORAGE_KEY, next);
+      return next;
+    });
+  };
+
+  if (selected === null) return <SetList best={best} onStart={setSelected} />;
+
+  return (
+    <Exam
+      index={selected}
+      best={best}
+      onExit={() => setSelected(null)}
+      onNext={() => setSelected(selected + 1)}
+      onFinish={recordScore}
+    />
   );
 };
 

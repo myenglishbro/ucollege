@@ -6,66 +6,93 @@
         {
           "id": 1,
           "original": "Many people think Steve stole the money.",
-          "transformed": "Steve ___________________________ the money.",
           "keyword": "BELIEVED",
-          "type": "text",
-          "answer": "is believed to have stolen"
+          "lead": "Steve",
+          "tail": "the money.",
+          "answer": "is believed to have stolen",
+          "alternatives": [],
+          "tip": "Reporting passive: 'is believed to have' + past participle for a past action."
         },
         {
           "id": 2,
           "original": "The strong winds blew down the two ancient trees during the storm.",
-          "transformed": "The two ancient trees __________________ during the storm.",
           "keyword": "BLOWN",
-          "type": "text",
-          "answer": "were blown down"
+          "lead": "The two ancient trees",
+          "tail": "during the storm.",
+          "answer": "were blown down",
+          "alternatives": [
+            "got blown down"
+          ],
+          "tip": "Passive past simple: were + past participle."
         },
         {
           "id": 3,
           "original": "He doesn't have enough money to buy the computer.",
-          "transformed": "The computer __________________ to buy.",
           "keyword": "TOO",
-          "type": "text",
-          "answer": "is too expensive"
+          "lead": "The computer",
+          "tail": "for him to buy.",
+          "answer": "is too expensive",
+          "alternatives": [
+            "was too expensive",
+            "is far too expensive",
+            "is much too expensive"
+          ],
+          "tip": "too + adjective + for someone to + infinitive."
         },
         {
           "id": 4,
-          "original": "\"You should start a new hobby, Mr. Jenkins\", the doctor said.",
-          "transformed": "The doctor advised __________________ a new hobby.",
+          "original": "'You should start a new hobby, Mr Jenkins,' the doctor said.",
           "keyword": "TAKE",
-          "type": "text",
-          "answer": "him to take up"
+          "lead": "The doctor advised Mr Jenkins",
+          "tail": "a new hobby.",
+          "answer": "to take up",
+          "alternatives": [],
+          "tip": "advise someone to + infinitive; 'take up' means start."
         },
         {
           "id": 5,
-          "original": "We have been waiting here since half past ten.",
-          "transformed": "We have been waiting __________________ one hour.",
+          "original": "We started waiting here three hours ago.",
           "keyword": "FOR",
-          "type": "text",
-          "answer": "for"
+          "lead": "We",
+          "tail": "three hours.",
+          "answer": "have been waiting here for",
+          "alternatives": [
+            "have waited here for"
+          ],
+          "tip": "Present perfect continuous with 'for' + a period of time."
         },
         {
           "id": 6,
-          "original": "The man suddenly realised that the neighbor was watching him.",
-          "transformed": "The man suddenly realised that he __________________ by the neighbor.",
+          "original": "The man suddenly realised that the neighbour was watching him.",
           "keyword": "WATCHED",
-          "type": "text",
-          "answer": "WAS BEING WATCHED BY THE NEIGHBOR"
+          "lead": "The man suddenly realised that he",
+          "tail": "by the neighbour.",
+          "answer": "was being watched",
+          "alternatives": [],
+          "tip": "Past continuous passive: was being + past participle."
         },
         {
           "id": 7,
           "original": "I could never have passed that exam without your help.",
-          "transformed": "I could never have passed that exam __________________ me.",
           "keyword": "YOU",
-          "type": "text",
-          "answer": "WITHOUT YOU"
+          "lead": "I could never have passed that exam",
+          "tail": "me.",
+          "answer": "without you helping",
+          "alternatives": [
+            "if you hadn't helped",
+            "if you had not helped"
+          ],
+          "tip": "'Without' + object pronoun + -ing, or a third conditional."
         },
         {
           "id": 8,
           "original": "We paid some people to landscape the garden for us last year.",
-          "transformed": "We __________________ last year.",
           "keyword": "HAD",
-          "type": "text",
-          "answer": "HAD THE GARDEN LANDSCAPED"
+          "lead": "We",
+          "tail": "last year.",
+          "answer": "had the garden landscaped",
+          "alternatives": [],
+          "tip": "Causative 'have': have + object + past participle."
         }
       ]
     },
@@ -74,2156 +101,2890 @@
       "questions": [
         {
           "id": 9,
-          "original": "\"How about going to the cinema tonight?\", said Anne.",
-          "transformed": "Anne __________________ to the cinema.",
+          "original": "'How about going to the cinema tonight?' said Anne.",
           "keyword": "SUGGESTED",
-          "type": "text",
-          "answer": "SUGGESTED GOING TO THE CINEMA THAT NIGHT"
+          "lead": "Anne",
+          "tail": "to the cinema that night.",
+          "answer": "suggested going",
+          "alternatives": [
+            "suggested that we go",
+            "suggested they go"
+          ],
+          "tip": "suggest + -ing, or suggest + that + subject + base verb."
         },
         {
           "id": 10,
           "original": "My advice to you is to talk to your parents.",
-          "transformed": "If __________________ talk to my parents.",
           "keyword": "WOULD",
-          "type": "text",
-          "answer": "I WERE YOU, I WOULD TALK TO MY PARENTS"
+          "lead": "If",
+          "tail": "talk to my parents.",
+          "answer": "I were you, I would",
+          "alternatives": [
+            "I was you, I would"
+          ],
+          "tip": "Giving advice with the second conditional: If I were you, I would…"
         },
         {
           "id": 11,
           "original": "Barry wasn't strong enough to lift the box.",
-          "transformed": "Barry __________________ to lift the box.",
           "keyword": "HAVE",
-          "type": "text",
-          "answer": "DIDN'T HAVE THE STRENGTH"
+          "lead": "Barry",
+          "tail": "to lift the box.",
+          "answer": "didn't have the strength",
+          "alternatives": [
+            "did not have the strength"
+          ],
+          "tip": "have the strength to + infinitive."
         },
         {
           "id": 12,
           "original": "They started the company in 1997.",
-          "transformed": "The company __________________.",
           "keyword": "SET",
-          "type": "text",
-          "answer": "WAS SET UP IN 1997"
+          "lead": "The company",
+          "tail": "in 1997.",
+          "answer": "was set up",
+          "alternatives": [],
+          "tip": "Passive of the phrasal verb 'set up'."
         },
         {
           "id": 13,
           "original": "I think Jean really likes Simon.",
-          "transformed": "Jean __________________ Simon.",
           "keyword": "KEEN",
-          "type": "text",
-          "answer": "IS KEEN ON"
+          "lead": "Jean",
+          "tail": "Simon.",
+          "answer": "is keen on",
+          "alternatives": [],
+          "tip": "be keen on + noun means to like or be enthusiastic about."
         },
         {
           "id": 14,
           "original": "I was made responsible for foreign sales.",
-          "transformed": "They __________________ foreign sales.",
           "keyword": "CHARGE",
-          "type": "text",
-          "answer": "PUT ME IN CHARGE OF FOREIGN SALES"
+          "lead": "They",
+          "tail": "foreign sales.",
+          "answer": "put me in charge of",
+          "alternatives": [
+            "placed me in charge of"
+          ],
+          "tip": "put someone in charge of something."
         },
         {
           "id": 15,
           "original": "The brothers really enjoyed themselves in Spain last summer.",
-          "transformed": "The brothers __________________ in Spain last summer.",
           "keyword": "TIME",
-          "type": "text",
-          "answer": "HAD A GREAT TIME"
+          "lead": "The brothers",
+          "tail": "in Spain last summer.",
+          "answer": "had a great time",
+          "alternatives": [
+            "had a wonderful time",
+            "had a fantastic time",
+            "had a really good time",
+            "had a very good time",
+            "had a brilliant time"
+          ],
+          "tip": "have a great time = enjoy yourself."
         },
         {
           "id": 16,
           "original": "The Queen is opening the new school tomorrow afternoon.",
-          "transformed": "The new school __________________.",
           "keyword": "OPENED",
-          "type": "text",
-          "answer": "WILL BE OPENED BY THE QUEEN TOMORROW AFTERNOON"
+          "lead": "The new school",
+          "tail": "the Queen tomorrow afternoon.",
+          "answer": "will be opened by",
+          "alternatives": [
+            "is to be opened by"
+          ],
+          "tip": "Future passive: will be + past participle."
         }
       ]
     },
     {
-  "level": 3,
-  "questions": [
-    {
-      "id": 17,
-      "original": "Marcus started learning French two years ago.",
-      "transformed": "Marcus has __________________ two years.",
-      "keyword": "LEARNING",
-      "type": "text",
-      "answer": "HAS BEEN LEARNING FRENCH FOR"
+      "level": 3,
+      "questions": [
+        {
+          "id": 17,
+          "original": "Marcus started learning French two years ago.",
+          "keyword": "LEARNING",
+          "lead": "Marcus has",
+          "tail": "two years.",
+          "answer": "been learning French for",
+          "alternatives": [],
+          "tip": "Present perfect continuous with 'for' + a period of time."
+        },
+        {
+          "id": 18,
+          "original": "Harry isn't here. He went to lunch twenty minutes ago.",
+          "keyword": "GONE",
+          "lead": "Harry isn't here. He",
+          "tail": "lunch.",
+          "answer": "has gone to",
+          "alternatives": [
+            "has just gone to"
+          ],
+          "tip": "has gone to = he is there now; has been to = he has returned."
+        },
+        {
+          "id": 19,
+          "original": "Do you own that phone?",
+          "keyword": "YOURS",
+          "lead": "Is",
+          "tail": "?",
+          "answer": "that phone yours",
+          "alternatives": [],
+          "tip": "Possessive pronoun 'yours' replaces 'your phone'."
+        },
+        {
+          "id": 20,
+          "original": "Look at how black the sky is! I'm certain that it will rain soon.",
+          "keyword": "GOING",
+          "lead": "Look at how black the sky is! It",
+          "tail": "rain soon.",
+          "answer": "is going to",
+          "alternatives": [],
+          "tip": "be going to for a prediction based on present evidence."
+        },
+        {
+          "id": 21,
+          "original": "What a shame. There is no food left!",
+          "keyword": "WISH",
+          "lead": "I",
+          "tail": "some food left!",
+          "answer": "wish there was",
+          "alternatives": [
+            "wish there were"
+          ],
+          "tip": "wish + past simple for a present situation you regret."
+        },
+        {
+          "id": 22,
+          "original": "What a shame. They ate all the food.",
+          "keyword": "WISH",
+          "lead": "I",
+          "tail": "all the food.",
+          "answer": "wish they hadn't eaten",
+          "alternatives": [
+            "wish they had not eaten"
+          ],
+          "tip": "wish + past perfect for a past regret."
+        },
+        {
+          "id": 23,
+          "original": "The teenagers were stealing my car when I arrived.",
+          "keyword": "BEING",
+          "lead": "My car",
+          "tail": "the teenagers when I arrived.",
+          "answer": "was being stolen by",
+          "alternatives": [],
+          "tip": "Past continuous passive: was being + past participle."
+        },
+        {
+          "id": 24,
+          "original": "You use that little hammer to crack the stones.",
+          "keyword": "FOR",
+          "lead": "This little hammer",
+          "tail": "stones.",
+          "answer": "is used for cracking",
+          "alternatives": [
+            "is used for breaking"
+          ],
+          "tip": "be used for + -ing to describe a purpose."
+        }
+      ]
     },
     {
-      "id": 18,
-      "original": "Harry isn't here. He went to lunch twenty minutes ago.",
-      "transformed": "Harry isn't here. He __________________ lunch.",
-      "keyword": "GONE",
-      "type": "text",
-      "answer": "HAS GONE TO LUNCH"
+      "level": 4,
+      "questions": [
+        {
+          "id": 25,
+          "original": "The last time John came to my house was in 2021.",
+          "keyword": "SINCE",
+          "lead": "John hasn't",
+          "tail": "2021.",
+          "answer": "come to my house since",
+          "alternatives": [
+            "been to my house since",
+            "visited my house since"
+          ],
+          "tip": "Present perfect negative with 'since' + a point in time."
+        },
+        {
+          "id": 26,
+          "original": "No dinner for me, thanks. I ate half an hour ago.",
+          "keyword": "ALREADY",
+          "lead": "Thanks, but I",
+          "tail": "dinner.",
+          "answer": "have already eaten",
+          "alternatives": [
+            "have already had"
+          ],
+          "tip": "Present perfect with 'already' for a recent completed action."
+        },
+        {
+          "id": 27,
+          "original": "I haven't been swimming for nearly a year.",
+          "keyword": "LAST",
+          "lead": "The",
+          "tail": "swimming was nearly a year ago.",
+          "answer": "last time I went",
+          "alternatives": [],
+          "tip": "'The last time I…' + past simple."
+        },
+        {
+          "id": 28,
+          "original": "I regret not speaking to Marge sooner.",
+          "keyword": "HAD",
+          "lead": "I wish",
+          "tail": "to Marge sooner.",
+          "answer": "I had spoken",
+          "alternatives": [],
+          "tip": "wish + past perfect for a regret about the past."
+        },
+        {
+          "id": 29,
+          "original": "Yesterday, they cut down two old trees in the local park.",
+          "keyword": "WERE",
+          "lead": "Yesterday, two old trees",
+          "tail": "in the local park.",
+          "answer": "were cut down",
+          "alternatives": [],
+          "tip": "Passive past simple: were + past participle."
+        },
+        {
+          "id": 30,
+          "original": "The army were treating the prisoners well.",
+          "keyword": "WERE",
+          "lead": "The prisoners",
+          "tail": "well by the army.",
+          "answer": "were being treated",
+          "alternatives": [],
+          "tip": "Past continuous passive: were being + past participle."
+        },
+        {
+          "id": 31,
+          "original": "I walked quietly because I didn't want to wake the baby.",
+          "keyword": "SO",
+          "lead": "I walked quietly",
+          "tail": "wake the baby.",
+          "answer": "so as not to",
+          "alternatives": [
+            "so that I wouldn't",
+            "so that I would not"
+          ],
+          "tip": "Purpose clauses: so as not to + infinitive, or so that + would not."
+        },
+        {
+          "id": 32,
+          "original": "I think we will arrive at 7pm if the weather remains good.",
+          "keyword": "SHOULD",
+          "lead": "We",
+          "tail": "at 7pm if the weather remains good.",
+          "answer": "should arrive",
+          "alternatives": [],
+          "tip": "'Should' expresses a probable prediction."
+        }
+      ]
     },
     {
-      "id": 19,
-      "original": "Do you own that phone?",
-      "transformed": "Is __________________?",
-      "keyword": "YOURS",
-      "type": "text",
-      "answer": "THAT PHONE YOURS"
+      "level": 5,
+      "questions": [
+        {
+          "id": 33,
+          "original": "This is the first time I have ever drunk rum.",
+          "keyword": "NEVER",
+          "lead": "I",
+          "tail": "rum before.",
+          "answer": "have never drunk",
+          "alternatives": [
+            "have never had"
+          ],
+          "tip": "This is the first time + present perfect = never + present perfect."
+        },
+        {
+          "id": 34,
+          "original": "The bank closed before I arrived.",
+          "keyword": "ALREADY",
+          "lead": "When I got to the bank, it",
+          "tail": ".",
+          "answer": "had already closed",
+          "alternatives": [],
+          "tip": "Past perfect for an action completed before another past action."
+        },
+        {
+          "id": 35,
+          "original": "You press the green button to start the mixer.",
+          "keyword": "STARTS",
+          "lead": "If you press the green button,",
+          "tail": ".",
+          "answer": "the mixer starts",
+          "alternatives": [],
+          "tip": "Zero conditional: if + present simple, present simple."
+        },
+        {
+          "id": 36,
+          "original": "The post office delivers millions of letters every year.",
+          "keyword": "DELIVERED",
+          "lead": "Millions of letters",
+          "tail": "the post office every year.",
+          "answer": "are delivered by",
+          "alternatives": [],
+          "tip": "Present simple passive: are + past participle."
+        },
+        {
+          "id": 37,
+          "original": "Stop interrupting me all the time!",
+          "keyword": "WOULD",
+          "lead": "I wish",
+          "tail": "interrupting me all the time.",
+          "answer": "you would stop",
+          "alternatives": [],
+          "tip": "wish + would for an annoying habit."
+        },
+        {
+          "id": 38,
+          "original": "We should leave for the disco now.",
+          "keyword": "LEFT",
+          "lead": "It's",
+          "tail": "for the disco.",
+          "answer": "time we left",
+          "alternatives": [
+            "about time we left",
+            "high time we left"
+          ],
+          "tip": "It's time + subject + past simple."
+        },
+        {
+          "id": 39,
+          "original": "'Remember to give Alan the card,' Beryl said to me.",
+          "keyword": "REMINDED",
+          "lead": "Beryl",
+          "tail": "the card.",
+          "answer": "reminded me to give Alan",
+          "alternatives": [],
+          "tip": "remind someone to + infinitive."
+        },
+        {
+          "id": 40,
+          "original": "He locked the door to prevent the prisoner escaping.",
+          "keyword": "SO",
+          "lead": "He locked the door",
+          "tail": "escape.",
+          "answer": "so that the prisoner couldn't",
+          "alternatives": [
+            "so the prisoner couldn't",
+            "so the prisoner could not"
+          ],
+          "tip": "Purpose clause: so (that) + subject + couldn't."
+        }
+      ]
     },
     {
-      "id": 20,
-      "original": "Look at how black the sky is! There is rain arriving.",
-      "transformed": "It __________________.",
-      "keyword": "GOING",
-      "type": "text",
-      "answer": "IS GOING TO RAIN"
+      "level": 6,
+      "questions": [
+        {
+          "id": 41,
+          "original": "How long have you had your new car?",
+          "keyword": "GET",
+          "lead": "When",
+          "tail": "your new car?",
+          "answer": "did you get",
+          "alternatives": [],
+          "tip": "Change 'have had' (state) to 'got' (a moment in the past)."
+        },
+        {
+          "id": 42,
+          "original": "Is this your first time driving a Volvo?",
+          "keyword": "EVER",
+          "lead": "Have",
+          "tail": "before?",
+          "answer": "you ever driven a Volvo",
+          "alternatives": [],
+          "tip": "Present perfect question with 'ever'."
+        },
+        {
+          "id": 43,
+          "original": "Leave the shop or I will call the police.",
+          "keyword": "UNLESS",
+          "lead": "I'll call the police",
+          "tail": ".",
+          "answer": "unless you leave the shop",
+          "alternatives": [],
+          "tip": "'Unless' = 'if … not'."
+        },
+        {
+          "id": 44,
+          "original": "I would like to be able to speak Arabic.",
+          "keyword": "COULD",
+          "lead": "I wish",
+          "tail": ".",
+          "answer": "I could speak Arabic",
+          "alternatives": [],
+          "tip": "wish + could for an ability you don't have."
+        },
+        {
+          "id": 45,
+          "original": "The Lord of Brecon built this castle in 1286.",
+          "keyword": "BY",
+          "lead": "This castle",
+          "tail": "of Brecon in 1286.",
+          "answer": "was built by the Lord",
+          "alternatives": [],
+          "tip": "Passive past simple with 'by' + agent."
+        },
+        {
+          "id": 46,
+          "original": "Our teachers never let us leave the school.",
+          "keyword": "TO",
+          "lead": "We were",
+          "tail": "the school by our teachers.",
+          "answer": "never allowed to leave",
+          "alternatives": [
+            "not allowed to leave"
+          ],
+          "tip": "be allowed to + infinitive."
+        },
+        {
+          "id": 47,
+          "original": "I graduated from college exactly a year ago.",
+          "keyword": "TIME",
+          "lead": "I graduated from college",
+          "tail": "year!",
+          "answer": "at this time last",
+          "alternatives": [
+            "this time last"
+          ],
+          "tip": "'At this time last year' = exactly a year ago."
+        },
+        {
+          "id": 48,
+          "original": "I couldn't reach the shelf because it was too high.",
+          "keyword": "TO",
+          "lead": "The shelf",
+          "tail": ".",
+          "answer": "was too high to reach",
+          "alternatives": [],
+          "tip": "too + adjective + to + infinitive."
+        }
+      ]
     },
     {
-      "id": 21,
-      "original": "What a shame. There is no food left!",
-      "transformed": "I wish __________________ left!",
-      "keyword": "WISH",
-      "type": "text",
-      "answer": "THERE WAS SOME FOOD"
+      "level": 7,
+      "questions": [
+        {
+          "id": 49,
+          "original": "Jane dyed her hair orange two months ago and it has been that colour ever since.",
+          "keyword": "FOR",
+          "lead": "Jane's hair",
+          "tail": "two months.",
+          "answer": "has been orange for",
+          "alternatives": [
+            "has been that colour for"
+          ],
+          "tip": "Present perfect with 'for' + a period of time."
+        },
+        {
+          "id": 50,
+          "original": "The phone rang while I was watching a film on TV.",
+          "keyword": "WAS",
+          "lead": "While I",
+          "tail": "on TV, the phone rang.",
+          "answer": "was watching a film",
+          "alternatives": [
+            "was watching the film"
+          ],
+          "tip": "Past continuous for an action interrupted by another."
+        },
+        {
+          "id": 51,
+          "original": "Do you have any plans for next Wednesday evening?",
+          "keyword": "DOING",
+          "lead": "What",
+          "tail": "next Wednesday evening?",
+          "answer": "are you doing",
+          "alternatives": [
+            "will you be doing"
+          ],
+          "tip": "Present continuous for future arrangements."
+        },
+        {
+          "id": 52,
+          "original": "Please don't smoke in this room.",
+          "keyword": "RATHER",
+          "lead": "I'd",
+          "tail": "in this room.",
+          "answer": "rather you didn't smoke",
+          "alternatives": [],
+          "tip": "would rather + subject + past simple."
+        },
+        {
+          "id": 53,
+          "original": "Everyone thinks that someone murdered Harry.",
+          "keyword": "WAS",
+          "lead": "Harry",
+          "tail": "murdered.",
+          "answer": "was thought to have been",
+          "alternatives": [],
+          "tip": "Reporting passive with a perfect infinitive."
+        },
+        {
+          "id": 54,
+          "original": "I visited Paris with the idea of improving my French.",
+          "keyword": "TO",
+          "lead": "I visited Paris",
+          "tail": "my French.",
+          "answer": "in order to improve",
+          "alternatives": [
+            "to improve"
+          ],
+          "tip": "Infinitive of purpose."
+        },
+        {
+          "id": 55,
+          "original": "I didn't answer the phone, even though I knew it was my husband calling.",
+          "keyword": "DESPITE",
+          "lead": "I didn't answer the phone",
+          "tail": "it was my husband calling.",
+          "answer": "despite knowing",
+          "alternatives": [
+            "despite the fact I knew"
+          ],
+          "tip": "despite + -ing."
+        },
+        {
+          "id": 56,
+          "original": "We didn't go on the picnic because the weather was terrible.",
+          "keyword": "OF",
+          "lead": "We didn't go on the picnic",
+          "tail": "weather.",
+          "answer": "because of the terrible",
+          "alternatives": [
+            "because of the awful",
+            "because of the bad",
+            "because of the dreadful"
+          ],
+          "tip": "because of + noun phrase."
+        }
+      ]
     },
     {
-      "id": 22,
-      "original": "What a shame. They ate all the food.",
-      "transformed": "I wish __________________ all the food.",
-      "keyword": "WISH",
-      "type": "text",
-      "answer": "THEY HADN'T EATEN"
+      "level": 8,
+      "questions": [
+        {
+          "id": 57,
+          "original": "I am sure it will snow tomorrow.",
+          "keyword": "BOUND",
+          "lead": "It",
+          "tail": "tomorrow.",
+          "answer": "is bound to snow",
+          "alternatives": [],
+          "tip": "be bound to + infinitive = be certain to."
+        },
+        {
+          "id": 58,
+          "original": "My car keys are possibly in the kitchen.",
+          "keyword": "MIGHT",
+          "lead": "My car keys",
+          "tail": "in the kitchen.",
+          "answer": "might be",
+          "alternatives": [],
+          "tip": "might + be for a present possibility."
+        },
+        {
+          "id": 59,
+          "original": "Can I come over to your house at about 7pm?",
+          "keyword": "IT",
+          "lead": "Is",
+          "tail": "come to your house at about 7pm?",
+          "answer": "it OK if I",
+          "alternatives": [
+            "it okay if I",
+            "it all right if I",
+            "it alright if I"
+          ],
+          "tip": "Is it OK if I + present simple?"
+        },
+        {
+          "id": 60,
+          "original": "Is it a problem if I open the window a little?",
+          "keyword": "MIND",
+          "lead": "Do",
+          "tail": "the window a little?",
+          "answer": "you mind if I open",
+          "alternatives": [],
+          "tip": "Do you mind if I + present simple?"
+        },
+        {
+          "id": 61,
+          "original": "This car costs $10,000 and so does that one.",
+          "keyword": "AS",
+          "lead": "This car",
+          "tail": "that one.",
+          "answer": "costs as much as",
+          "alternatives": [],
+          "tip": "as much as for equal cost."
+        },
+        {
+          "id": 62,
+          "original": "Kate is a teacher.",
+          "keyword": "AS",
+          "lead": "Kate",
+          "tail": "teacher.",
+          "answer": "works as a",
+          "alternatives": [],
+          "tip": "work as + job."
+        },
+        {
+          "id": 63,
+          "original": "I met your sister by chance at the airport last week.",
+          "keyword": "RAN",
+          "lead": "I",
+          "tail": "at the airport last week.",
+          "answer": "ran into your sister",
+          "alternatives": [
+            "ran across your sister"
+          ],
+          "tip": "run into = meet by chance."
+        },
+        {
+          "id": 64,
+          "original": "The doctor said I should give up smoking.",
+          "keyword": "STOP",
+          "lead": "The doctor told",
+          "tail": ".",
+          "answer": "me to stop smoking",
+          "alternatives": [],
+          "tip": "tell someone to + infinitive."
+        }
+      ]
     },
     {
-      "id": 23,
-      "original": "The teenagers were stealing my car when I arrived.",
-      "transformed": "My car __________________ teenagers when I arrived.",
-      "keyword": "BEING",
-      "type": "text",
-      "answer": "WAS BEING STOLEN BY THE"
+      "level": 9,
+      "questions": [
+        {
+          "id": 65,
+          "original": "If I were you, I'd go and speak to your boss.",
+          "keyword": "SHOULD",
+          "lead": "You",
+          "tail": "your boss.",
+          "answer": "should go and speak to",
+          "alternatives": [],
+          "tip": "should for advice."
+        },
+        {
+          "id": 66,
+          "original": "It wasn't obligatory to go to work today. I thought it was!",
+          "keyword": "NEEDN'T",
+          "lead": "I",
+          "tail": "to work today.",
+          "answer": "needn't have gone",
+          "alternatives": [],
+          "tip": "needn't have + past participle: you did something unnecessary."
+        },
+        {
+          "id": 67,
+          "original": "It was a mistake for you to lose your passport.",
+          "keyword": "LOST",
+          "lead": "You",
+          "tail": "your passport.",
+          "answer": "shouldn't have lost",
+          "alternatives": [
+            "should not have lost",
+            "ought not to have lost"
+          ],
+          "tip": "shouldn't have + past participle for criticism of the past."
+        },
+        {
+          "id": 68,
+          "original": "Why don't we leave after breakfast on Saturday?",
+          "keyword": "LEAVING",
+          "lead": "How",
+          "tail": "after breakfast on Saturday?",
+          "answer": "about leaving",
+          "alternatives": [],
+          "tip": "How about + -ing."
+        },
+        {
+          "id": 69,
+          "original": "This is the most boring film I have ever seen!",
+          "keyword": "MORE",
+          "lead": "I have",
+          "tail": "film!",
+          "answer": "never seen a more boring",
+          "alternatives": [],
+          "tip": "Superlative → never + comparative."
+        },
+        {
+          "id": 70,
+          "original": "We will have to leave early tomorrow.",
+          "keyword": "SET",
+          "lead": "We will",
+          "tail": "early tomorrow.",
+          "answer": "have to set off",
+          "alternatives": [
+            "need to set off"
+          ],
+          "tip": "set off = start a journey."
+        },
+        {
+          "id": 71,
+          "original": "The robbers escaped with a thousand dollars without being caught.",
+          "keyword": "GOT",
+          "lead": "The robbers",
+          "tail": "a thousand dollars.",
+          "answer": "got away with",
+          "alternatives": [],
+          "tip": "get away with = escape punishment."
+        },
+        {
+          "id": 72,
+          "original": "'Don't cross the park at night!' I told them.",
+          "keyword": "WARNED",
+          "lead": "I",
+          "tail": "the park at night.",
+          "answer": "warned them not to cross",
+          "alternatives": [],
+          "tip": "warn someone not to + infinitive."
+        }
+      ]
     },
     {
-      "id": 24,
-      "original": "You use that little hammer to crack the stones.",
-      "transformed": "This little hammer __________________.",
-      "keyword": "FOR",
-      "type": "text",
-      "answer": "IS USED FOR CRACKING STONES"
+      "level": 10,
+      "questions": [
+        {
+          "id": 73,
+          "original": "You should have finished that report, not John!",
+          "keyword": "WERE",
+          "lead": "You",
+          "tail": "that report, not John!",
+          "answer": "were supposed to have finished",
+          "alternatives": [],
+          "tip": "be supposed to have + past participle."
+        },
+        {
+          "id": 74,
+          "original": "Is this the right bus for San Diego?",
+          "keyword": "TELL",
+          "lead": "Could you",
+          "tail": "if this is the right bus for San Diego?",
+          "answer": "tell me",
+          "alternatives": [],
+          "tip": "Indirect question after 'Could you…'."
+        },
+        {
+          "id": 75,
+          "original": "'Sorry I'm late,' Mark whispered as he took his seat in the cinema.",
+          "keyword": "BEING",
+          "lead": "Mark apologised",
+          "tail": "as he took his seat in the cinema.",
+          "answer": "for being late",
+          "alternatives": [],
+          "tip": "apologise for + -ing."
+        },
+        {
+          "id": 76,
+          "original": "This train is late. It was supposed to arrive five minutes ago.",
+          "keyword": "ARRIVED",
+          "lead": "This train",
+          "tail": "five minutes ago.",
+          "answer": "should have arrived",
+          "alternatives": [],
+          "tip": "should have + past participle for an expected action that didn't happen."
+        },
+        {
+          "id": 77,
+          "original": "You will get drunker the more you drink.",
+          "keyword": "MORE",
+          "lead": "The",
+          "tail": ", the drunker you will get.",
+          "answer": "more you drink",
+          "alternatives": [],
+          "tip": "The + comparative, the + comparative."
+        },
+        {
+          "id": 78,
+          "original": "Bring me the phone book if you happen to find it.",
+          "keyword": "COME",
+          "lead": "If you",
+          "tail": "the phone book, bring it to me.",
+          "answer": "come across",
+          "alternatives": [],
+          "tip": "come across = find by chance."
+        },
+        {
+          "id": 79,
+          "original": "I have no memory of my first day at school.",
+          "keyword": "REMEMBER",
+          "lead": "I",
+          "tail": "to school on my first day.",
+          "answer": "don't remember going",
+          "alternatives": [
+            "can't remember going",
+            "do not remember going",
+            "cannot remember going"
+          ],
+          "tip": "remember + -ing for a memory of the past."
+        },
+        {
+          "id": 80,
+          "original": "I didn't forget to buy the bread. Here it is!",
+          "keyword": "REMEMBERED",
+          "lead": "I",
+          "tail": ". Here it is!",
+          "answer": "remembered to buy the bread",
+          "alternatives": [],
+          "tip": "remember to + infinitive for a necessary action."
+        }
+      ]
+    },
+    {
+      "level": 11,
+      "questions": [
+        {
+          "id": 81,
+          "original": "It was silly of you to speak to your boss like that.",
+          "keyword": "SPOKEN",
+          "lead": "You",
+          "tail": "to your boss like that!",
+          "answer": "shouldn't have spoken",
+          "alternatives": [
+            "should not have spoken"
+          ],
+          "tip": "shouldn't have + past participle for criticism of the past."
+        },
+        {
+          "id": 82,
+          "original": "What do you advise me to do?",
+          "keyword": "SHOULD",
+          "lead": "What",
+          "tail": "do?",
+          "answer": "should I",
+          "alternatives": [],
+          "tip": "Questions with should + subject + infinitive."
+        },
+        {
+          "id": 83,
+          "original": "There are always a lot of cars in the downtown area at this time.",
+          "keyword": "TRAFFIC",
+          "lead": "There is always",
+          "tail": "in the downtown area at this time.",
+          "answer": "a lot of traffic",
+          "alternatives": [],
+          "tip": "'Traffic' is uncountable; 'a lot of' works with both."
+        },
+        {
+          "id": 84,
+          "original": "Is it possible to smoke in this room?",
+          "keyword": "ALLOWED",
+          "lead": "Is",
+          "tail": "in this room?",
+          "answer": "smoking allowed",
+          "alternatives": [],
+          "tip": "be allowed + in a place; smoking as a noun subject."
+        },
+        {
+          "id": 85,
+          "original": "She was taken to hospital five minutes ago.",
+          "keyword": "HOSPITAL",
+          "lead": "They",
+          "tail": "five minutes ago.",
+          "answer": "took her to hospital",
+          "alternatives": [
+            "took her to the hospital"
+          ],
+          "tip": "Active form of the passive: take someone to hospital."
+        },
+        {
+          "id": 86,
+          "original": "Chicago is a big city, but Los Angeles is bigger.",
+          "keyword": "NOT",
+          "lead": "Chicago",
+          "tail": "Los Angeles.",
+          "answer": "is not as big as",
+          "alternatives": [],
+          "tip": "not as + adjective + as expresses a lower degree."
+        },
+        {
+          "id": 87,
+          "original": "I'm sure the story he told us was invented.",
+          "keyword": "MADE",
+          "lead": "I'm sure that story",
+          "tail": ".",
+          "answer": "was made up",
+          "alternatives": [],
+          "tip": "make up = invent."
+        },
+        {
+          "id": 88,
+          "original": "This pen is mine.",
+          "keyword": "BELONGS",
+          "lead": "This pen",
+          "tail": "me.",
+          "answer": "belongs to",
+          "alternatives": [],
+          "tip": "belong to + person."
+        }
+      ]
+    },
+    {
+      "level": 12,
+      "questions": [
+        {
+          "id": 89,
+          "original": "It is possible that Mike isn't at home now.",
+          "keyword": "BE",
+          "lead": "Mike",
+          "tail": "home now.",
+          "answer": "might not be at",
+          "alternatives": [
+            "may not be at"
+          ],
+          "tip": "might/may not + be for a present possibility."
+        },
+        {
+          "id": 90,
+          "original": "Don't blame me! I wasn't even there at the time.",
+          "keyword": "FAULT",
+          "lead": "Don't blame me! It",
+          "tail": "because I wasn't even there.",
+          "answer": "wasn't my fault",
+          "alternatives": [
+            "was not my fault"
+          ],
+          "tip": "be someone's fault."
+        },
+        {
+          "id": 91,
+          "original": "In my opinion, small dogs are more likely to bark.",
+          "keyword": "THE",
+          "lead": "In my opinion,",
+          "tail": "more likely it is to bark.",
+          "answer": "the smaller the dog, the",
+          "alternatives": [
+            "the smaller a dog, the"
+          ],
+          "tip": "The + comparative, the + comparative."
+        },
+        {
+          "id": 92,
+          "original": "I play tennis one time every week.",
+          "keyword": "A",
+          "lead": "I play tennis",
+          "tail": "week.",
+          "answer": "once a",
+          "alternatives": [],
+          "tip": "once a week = one time every week."
+        },
+        {
+          "id": 93,
+          "original": "He is intelligent and so is she.",
+          "keyword": "BOTH",
+          "lead": "",
+          "tail": "are intelligent.",
+          "answer": "Both he and she",
+          "alternatives": [],
+          "tip": "both … and for two subjects."
+        },
+        {
+          "id": 94,
+          "original": "All of the people in the room are French.",
+          "keyword": "IS",
+          "lead": "In this room,",
+          "tail": ".",
+          "answer": "everyone is French",
+          "alternatives": [
+            "everybody is French"
+          ],
+          "tip": "everyone + singular verb."
+        },
+        {
+          "id": 95,
+          "original": "Not everyone in this room is stupid.",
+          "keyword": "SOME",
+          "lead": "",
+          "tail": "this room are intelligent.",
+          "answer": "Some people in",
+          "alternatives": [
+            "Some of the people in"
+          ],
+          "tip": "some + plural noun."
+        },
+        {
+          "id": 96,
+          "original": "He has been found guilty of shoplifting before.",
+          "keyword": "OF",
+          "lead": "He has already",
+          "tail": "shoplifting.",
+          "answer": "been convicted of",
+          "alternatives": [],
+          "tip": "be convicted of + -ing/noun."
+        }
+      ]
+    },
+    {
+      "level": 13,
+      "questions": [
+        {
+          "id": 97,
+          "original": "According to all the stories, my brother's former boss wasn't very nice.",
+          "keyword": "BEEN",
+          "lead": "My brother's former boss",
+          "tail": "very nice, according to all the stories.",
+          "answer": "seems not to have been",
+          "alternatives": [
+            "appears not to have been"
+          ],
+          "tip": "seem/appear + perfect infinitive for a past impression."
+        },
+        {
+          "id": 98,
+          "original": "How about going to the cinema this evening?",
+          "keyword": "GOING",
+          "lead": "I",
+          "tail": "the cinema this evening.",
+          "answer": "suggest going to",
+          "alternatives": [],
+          "tip": "suggest + -ing."
+        },
+        {
+          "id": 99,
+          "original": "I wasn't strong enough to push it all the way.",
+          "keyword": "STRENGTH",
+          "lead": "I",
+          "tail": "to push it all the way.",
+          "answer": "didn't have the strength",
+          "alternatives": [
+            "did not have the strength",
+            "lacked the strength",
+            "hadn't the strength"
+          ],
+          "tip": "have the strength to + infinitive."
+        },
+        {
+          "id": 100,
+          "original": "The bank account is completely empty.",
+          "keyword": "NO",
+          "lead": "There",
+          "tail": "in the bank account.",
+          "answer": "is no money",
+          "alternatives": [],
+          "tip": "There is no + uncountable noun."
+        },
+        {
+          "id": 101,
+          "original": "Sharon is not as good at tennis as you.",
+          "keyword": "THAN",
+          "lead": "At tennis, you",
+          "tail": "Sharon.",
+          "answer": "are better than",
+          "alternatives": [],
+          "tip": "Comparative: better than."
+        },
+        {
+          "id": 102,
+          "original": "How do I complete this form?",
+          "keyword": "FILL",
+          "lead": "How",
+          "tail": "form?",
+          "answer": "do I fill in this",
+          "alternatives": [
+            "do I fill out this"
+          ],
+          "tip": "fill in/out a form."
+        },
+        {
+          "id": 103,
+          "original": "You should consider the position of sales manager very carefully.",
+          "keyword": "OVER",
+          "lead": "You should",
+          "tail": "the position of sales manager very carefully.",
+          "answer": "think over",
+          "alternatives": [],
+          "tip": "think over = consider carefully."
+        },
+        {
+          "id": 104,
+          "original": "We managed to get free of the ropes and escaped.",
+          "keyword": "BROKE",
+          "lead": "We",
+          "tail": "and escaped.",
+          "answer": "broke free",
+          "alternatives": [],
+          "tip": "break free = escape from restraint."
+        }
+      ]
+    },
+    {
+      "level": 14,
+      "questions": [
+        {
+          "id": 105,
+          "original": "'Sorry that I drew that picture of you,' he said to Tim.",
+          "keyword": "APOLOGISED",
+          "lead": "He",
+          "tail": "the picture.",
+          "answer": "apologised to Tim for drawing",
+          "alternatives": [],
+          "tip": "apologise to someone for + -ing."
+        },
+        {
+          "id": 106,
+          "original": "'Why don't we go for a walk in the park?' said Mike.",
+          "keyword": "SUGGESTED",
+          "lead": "Mike",
+          "tail": "a walk in the park.",
+          "answer": "suggested going for",
+          "alternatives": [
+            "suggested we go for",
+            "suggested that we go for"
+          ],
+          "tip": "suggest + -ing, or suggest + that + subject + base verb."
+        },
+        {
+          "id": 107,
+          "original": "I really don't want to go out tonight.",
+          "keyword": "FEEL",
+          "lead": "I",
+          "tail": "out tonight.",
+          "answer": "don't feel like going",
+          "alternatives": [
+            "do not feel like going"
+          ],
+          "tip": "feel like + -ing."
+        },
+        {
+          "id": 108,
+          "original": "Astronomy fascinates Kate and she spends hours reading about it.",
+          "keyword": "FASCINATED",
+          "lead": "Kate",
+          "tail": "and she spends hours reading about it.",
+          "answer": "is fascinated by astronomy",
+          "alternatives": [],
+          "tip": "Passive adjective: be fascinated by."
+        },
+        {
+          "id": 109,
+          "original": "If you stop smoking, you will feel much better for it.",
+          "keyword": "GIVE",
+          "lead": "You'll feel much better if",
+          "tail": ".",
+          "answer": "you give up smoking",
+          "alternatives": [],
+          "tip": "give up + -ing = stop."
+        },
+        {
+          "id": 110,
+          "original": "'I will lend you the money, I promise,' Greg told me.",
+          "keyword": "PROMISED",
+          "lead": "Greg",
+          "tail": "me the money.",
+          "answer": "promised to lend",
+          "alternatives": [],
+          "tip": "promise to + infinitive."
+        },
+        {
+          "id": 111,
+          "original": "I wish I had rung him earlier.",
+          "keyword": "SORRY",
+          "lead": "I",
+          "tail": "ring him earlier.",
+          "answer": "am sorry I didn't",
+          "alternatives": [
+            "am sorry I did not"
+          ],
+          "tip": "be sorry + past simple for a regret."
+        },
+        {
+          "id": 112,
+          "original": "The Wilsons are leaving very soon, so go and tell them what we agreed.",
+          "keyword": "ABOUT",
+          "lead": "The Wilsons",
+          "tail": ", so go and tell them what we agreed.",
+          "answer": "are about to leave",
+          "alternatives": [],
+          "tip": "be about to + infinitive = be going to do something very soon."
+        }
+      ]
+    },
+    {
+      "level": 15,
+      "questions": [
+        {
+          "id": 113,
+          "original": "'Don't tell anyone about my wig, will you?' he said to me.",
+          "keyword": "PROMISE",
+          "lead": "He made me",
+          "tail": "tell anyone about his wig.",
+          "answer": "promise not to",
+          "alternatives": [],
+          "tip": "make someone promise (not) to + infinitive."
+        },
+        {
+          "id": 114,
+          "original": "Mr Hamley said, 'I won't work late again. I've already done so twice this week.'",
+          "keyword": "REFUSED",
+          "lead": "Mr Hamley",
+          "tail": "as he has already done so twice this week.",
+          "answer": "refused to work late again",
+          "alternatives": [],
+          "tip": "refuse to + infinitive."
+        },
+        {
+          "id": 115,
+          "original": "We couldn't afford The Regal Hotel, so we stayed somewhere cheaper.",
+          "keyword": "COST",
+          "lead": "The Regal Hotel",
+          "tail": "for us, so we stayed somewhere cheaper.",
+          "answer": "cost too much",
+          "alternatives": [
+            "cost us too much"
+          ],
+          "tip": "cost too much = be too expensive."
+        },
+        {
+          "id": 116,
+          "original": "'Do you both work together?' she asked the twins.",
+          "keyword": "IF",
+          "lead": "She asked the twins",
+          "tail": "together.",
+          "answer": "if they worked",
+          "alternatives": [
+            "if they both worked",
+            "if they work"
+          ],
+          "tip": "Reported yes/no questions use if + backshift."
+        },
+        {
+          "id": 117,
+          "original": "Is it OK if I open the window a little, Miss Jackson?",
+          "keyword": "MAY",
+          "lead": "Miss Jackson,",
+          "tail": "the window a little?",
+          "answer": "may I open",
+          "alternatives": [],
+          "tip": "may for polite requests."
+        },
+        {
+          "id": 118,
+          "original": "Despite looking everywhere, he never found his wallet.",
+          "keyword": "ALTHOUGH",
+          "lead": "He didn't find his wallet",
+          "tail": "everywhere.",
+          "answer": "although he looked",
+          "alternatives": [
+            "although he had looked"
+          ],
+          "tip": "although + clause."
+        },
+        {
+          "id": 119,
+          "original": "Imagine your father came home now! What would he say?",
+          "keyword": "SUPPOSING",
+          "lead": "Just",
+          "tail": "home now! What would he say?",
+          "answer": "supposing your father came",
+          "alternatives": [
+            "supposing your father returned"
+          ],
+          "tip": "supposing + past simple for a hypothetical situation."
+        },
+        {
+          "id": 120,
+          "original": "I imagine you had a great time in Tunisia.",
+          "keyword": "MUST",
+          "lead": "You",
+          "tail": "had a great time in Tunisia.",
+          "answer": "must have",
+          "alternatives": [],
+          "tip": "must have + past participle for a deduction about the past."
+        }
+      ]
+    },
+    {
+      "level": 16,
+      "questions": [
+        {
+          "id": 121,
+          "original": "'You should wait a year before going to university, Peter,' said his teacher.",
+          "keyword": "ADVISED",
+          "lead": "Peter's teacher",
+          "tail": "a year before going to university.",
+          "answer": "advised him to wait",
+          "alternatives": [
+            "advised Peter to wait"
+          ],
+          "tip": "advise someone to + infinitive."
+        },
+        {
+          "id": 122,
+          "original": "'You will see better results if you study harder, Pete,' said his mother.",
+          "keyword": "ENCOURAGED",
+          "lead": "Pete's mother",
+          "tail": "by saying he would see better results.",
+          "answer": "encouraged him to study harder",
+          "alternatives": [],
+          "tip": "encourage someone to + infinitive."
+        },
+        {
+          "id": 123,
+          "original": "I really don't like sitting down all day.",
+          "keyword": "STAND",
+          "lead": "I",
+          "tail": "all day.",
+          "answer": "can't stand sitting down",
+          "alternatives": [
+            "cannot stand sitting down"
+          ],
+          "tip": "can't stand + -ing = hate."
+        },
+        {
+          "id": 124,
+          "original": "Do you like the work you do here, John?",
+          "keyword": "KEEN",
+          "lead": "Are you",
+          "tail": "the work you do here, John?",
+          "answer": "keen on",
+          "alternatives": [],
+          "tip": "be keen on + noun."
+        },
+        {
+          "id": 125,
+          "original": "They had argued, but became friends again before the party.",
+          "keyword": "MADE",
+          "lead": "They had argued, but they",
+          "tail": "before the party.",
+          "answer": "made up",
+          "alternatives": [
+            "had made up"
+          ],
+          "tip": "make up = become friends again after an argument."
+        },
+        {
+          "id": 126,
+          "original": "Mrs Patterson would sit in that old rocking chair for hours telling us stories from her childhood.",
+          "keyword": "USED",
+          "lead": "Mrs Patterson",
+          "tail": "that old rocking chair for hours telling us stories from her childhood.",
+          "answer": "used to sit in",
+          "alternatives": [
+            "used to sit on"
+          ],
+          "tip": "used to + infinitive for past habits."
+        },
+        {
+          "id": 127,
+          "original": "I regret not studying more in the final weeks.",
+          "keyword": "ONLY",
+          "lead": "If",
+          "tail": "more in the final weeks.",
+          "answer": "only I had studied",
+          "alternatives": [
+            "only I'd studied"
+          ],
+          "tip": "If only + past perfect for a past regret."
+        },
+        {
+          "id": 128,
+          "original": "It really annoys me how people use cell phones on the bus.",
+          "keyword": "WISH",
+          "lead": "I",
+          "tail": "cell phones on the bus.",
+          "answer": "wish people wouldn't use",
+          "alternatives": [
+            "wish people would not use"
+          ],
+          "tip": "wish + would for an annoying habit."
+        }
+      ]
+    },
+    {
+      "level": 17,
+      "questions": [
+        {
+          "id": 129,
+          "original": "'You'd better not speak to me like that again!' he said to me.",
+          "keyword": "WARNED",
+          "lead": "He",
+          "tail": "to him like that again.",
+          "answer": "warned me not to speak",
+          "alternatives": [],
+          "tip": "warn someone not to + infinitive."
+        },
+        {
+          "id": 130,
+          "original": "I'll leave before lunch on Friday if you invite Hannah.",
+          "keyword": "INVITED",
+          "lead": "I'll leave before lunch on Friday if Hannah",
+          "tail": ".",
+          "answer": "is invited",
+          "alternatives": [
+            "gets invited"
+          ],
+          "tip": "Present passive in a first conditional."
+        },
+        {
+          "id": 131,
+          "original": "Do you think it would be a good idea to get my hair cut?",
+          "keyword": "SUGGEST",
+          "lead": "Would you",
+          "tail": "my hair cut?",
+          "answer": "suggest I get",
+          "alternatives": [
+            "suggest that I get"
+          ],
+          "tip": "suggest + subject + base verb."
+        },
+        {
+          "id": 132,
+          "original": "I think he should have gone and spoken to his mother.",
+          "keyword": "OUGHT",
+          "lead": "He",
+          "tail": "and spoken to his mother.",
+          "answer": "ought to have gone",
+          "alternatives": [],
+          "tip": "ought to have + past participle."
+        },
+        {
+          "id": 133,
+          "original": "If you don't call me, I won't know where you are!",
+          "keyword": "UNLESS",
+          "lead": "I won't know where you are",
+          "tail": "me!",
+          "answer": "unless you call",
+          "alternatives": [
+            "unless you phone",
+            "unless you ring"
+          ],
+          "tip": "unless = if … not."
+        },
+        {
+          "id": 134,
+          "original": "We should leave now if we don't want to miss the start of the performance.",
+          "keyword": "TIME",
+          "lead": "It's",
+          "tail": "or we'll miss the start of the performance.",
+          "answer": "time we left",
+          "alternatives": [
+            "about time we left",
+            "high time we left"
+          ],
+          "tip": "It's time + subject + past simple."
+        },
+        {
+          "id": 135,
+          "original": "'The Blue Whale' is less crowded than here, so let's go there.",
+          "keyword": "AS",
+          "lead": "'The Blue Whale' is",
+          "tail": "here, so let's go there.",
+          "answer": "not as crowded as",
+          "alternatives": [],
+          "tip": "not as + adjective + as."
+        },
+        {
+          "id": 136,
+          "original": "I would prefer to stay at home tonight.",
+          "keyword": "RATHER",
+          "lead": "I",
+          "tail": "tonight.",
+          "answer": "would rather stay at home",
+          "alternatives": [
+            "'d rather stay at home"
+          ],
+          "tip": "would rather + infinitive without to."
+        }
+      ]
+    },
+    {
+      "level": 18,
+      "questions": [
+        {
+          "id": 137,
+          "original": "They said Jenkins had stolen the missing computer.",
+          "keyword": "ACCUSED",
+          "lead": "Jenkins",
+          "tail": "the missing computer.",
+          "answer": "was accused of stealing",
+          "alternatives": [],
+          "tip": "accuse someone of + -ing."
+        },
+        {
+          "id": 138,
+          "original": "'OK, I can see you tomorrow evening at six,' my boss said.",
+          "keyword": "AGREED",
+          "lead": "My boss",
+          "tail": "at six the following evening.",
+          "answer": "agreed to see me",
+          "alternatives": [],
+          "tip": "agree to + infinitive."
+        },
+        {
+          "id": 139,
+          "original": "Don't say you're ill if you're not!",
+          "keyword": "PRETEND",
+          "lead": "Don't",
+          "tail": "if you're not!",
+          "answer": "pretend to be ill",
+          "alternatives": [],
+          "tip": "pretend to + infinitive."
+        },
+        {
+          "id": 140,
+          "original": "I haven't eaten ice cream for six months.",
+          "keyword": "UP",
+          "lead": "I",
+          "tail": "ice cream six months ago.",
+          "answer": "gave up eating",
+          "alternatives": [],
+          "tip": "give up + -ing = stop."
+        },
+        {
+          "id": 141,
+          "original": "Is drinking coffee permitted in this part of the building?",
+          "keyword": "ALLOWED",
+          "lead": "Are we",
+          "tail": "coffee in this part of the building?",
+          "answer": "allowed to drink",
+          "alternatives": [],
+          "tip": "be allowed to + infinitive."
+        },
+        {
+          "id": 142,
+          "original": "Should you be in here, Mark?",
+          "keyword": "SUPPOSED",
+          "lead": "Are",
+          "tail": "in here, Mark?",
+          "answer": "you supposed to be",
+          "alternatives": [],
+          "tip": "be supposed to + infinitive."
+        },
+        {
+          "id": 143,
+          "original": "Why don't you help me more around the house?",
+          "keyword": "WISH",
+          "lead": "I",
+          "tail": "me more around the house.",
+          "answer": "wish you would help",
+          "alternatives": [],
+          "tip": "wish + would for an annoying situation."
+        },
+        {
+          "id": 144,
+          "original": "The hill was slippery because of the rain, so we had difficulty climbing.",
+          "keyword": "MADE",
+          "lead": "The rain",
+          "tail": ", so we had difficulty climbing.",
+          "answer": "made the hill slippery",
+          "alternatives": [],
+          "tip": "make + object + adjective."
+        }
+      ]
+    },
+    {
+      "level": 19,
+      "questions": [
+        {
+          "id": 145,
+          "original": "'I didn't take the book!' said Mike.",
+          "keyword": "DENIED",
+          "lead": "Mike",
+          "tail": "the book.",
+          "answer": "denied taking",
+          "alternatives": [
+            "denied having taken"
+          ],
+          "tip": "deny + -ing."
+        },
+        {
+          "id": 146,
+          "original": "'I can take you to the airport if your flight is early,' he said to Jenny.",
+          "keyword": "OFFERED",
+          "lead": "He",
+          "tail": "Jenny to the airport if her flight was early.",
+          "answer": "offered to take",
+          "alternatives": [],
+          "tip": "offer to + infinitive."
+        },
+        {
+          "id": 147,
+          "original": "'Why not try for Harvard University, Karen?' he said.",
+          "keyword": "ENCOURAGED",
+          "lead": "He",
+          "tail": "apply to Harvard University.",
+          "answer": "encouraged Karen to",
+          "alternatives": [
+            "encouraged her to"
+          ],
+          "tip": "encourage someone to + infinitive."
+        },
+        {
+          "id": 148,
+          "original": "Could I stay with you in Chicago for a few days, John?",
+          "keyword": "PUT",
+          "lead": "Could",
+          "tail": "in Chicago for a few days?",
+          "answer": "you put me up",
+          "alternatives": [],
+          "tip": "put someone up = give them a place to stay."
+        },
+        {
+          "id": 149,
+          "original": "I don't know how you tolerate such a miserable person.",
+          "keyword": "PUT",
+          "lead": "I don't know how you",
+          "tail": "such a miserable person.",
+          "answer": "put up with",
+          "alternatives": [],
+          "tip": "put up with = tolerate."
+        },
+        {
+          "id": 150,
+          "original": "I'd like to be thinner.",
+          "keyword": "WISH",
+          "lead": "I",
+          "tail": "so fat.",
+          "answer": "wish I weren't",
+          "alternatives": [
+            "wish I wasn't",
+            "wish I were not"
+          ],
+          "tip": "wish + past simple for an unreal present situation."
+        },
+        {
+          "id": 151,
+          "original": "'Well done! You got the job,' her mother said.",
+          "keyword": "CONGRATULATED",
+          "lead": "Her mother",
+          "tail": "the job.",
+          "answer": "congratulated her on getting",
+          "alternatives": [],
+          "tip": "congratulate someone on + -ing."
+        },
+        {
+          "id": 152,
+          "original": "'It was Peter who stole the fruit,' Jenny shouted.",
+          "keyword": "ACCUSED",
+          "lead": "Jenny",
+          "tail": "stealing the fruit.",
+          "answer": "accused Peter of",
+          "alternatives": [],
+          "tip": "accuse someone of + -ing."
+        }
+      ]
+    },
+    {
+      "level": 20,
+      "questions": [
+        {
+          "id": 153,
+          "original": "'Yes, I did speak to him on the phone,' said Carol.",
+          "keyword": "ADMITTED",
+          "lead": "Carol",
+          "tail": "on the phone.",
+          "answer": "admitted speaking to him",
+          "alternatives": [
+            "admitted having spoken to him"
+          ],
+          "tip": "admit + -ing."
+        },
+        {
+          "id": 154,
+          "original": "'Visit my doctor if your arm is still hurting,' my brother said.",
+          "keyword": "RECOMMENDED",
+          "lead": "My brother",
+          "tail": "his doctor if my arm continued hurting.",
+          "answer": "recommended that I see",
+          "alternatives": [
+            "recommended I see",
+            "recommended me to see"
+          ],
+          "tip": "recommend + that + subject + base verb."
+        },
+        {
+          "id": 155,
+          "original": "I am not going to come, as I am busy.",
+          "keyword": "REFUSE",
+          "lead": "I",
+          "tail": "as I am busy.",
+          "answer": "refuse to come",
+          "alternatives": [],
+          "tip": "refuse to + infinitive."
+        },
+        {
+          "id": 156,
+          "original": "It isn't possible that Jane was absent from work today.",
+          "keyword": "CAN'T",
+          "lead": "Jane",
+          "tail": "absent from work today.",
+          "answer": "can't have been",
+          "alternatives": [],
+          "tip": "can't have + past participle for a negative deduction."
+        },
+        {
+          "id": 157,
+          "original": "I drive both a sports car and an off-road vehicle.",
+          "keyword": "ADDITION",
+          "lead": "In",
+          "tail": "a sports car, I also drive an off-road vehicle.",
+          "answer": "addition to driving",
+          "alternatives": [
+            "addition to having"
+          ],
+          "tip": "in addition to + -ing."
+        },
+        {
+          "id": 158,
+          "original": "Barry continued to smoke even though his doctor told him not to.",
+          "keyword": "DESPITE",
+          "lead": "",
+          "tail": "not to, Barry continued to smoke.",
+          "answer": "Despite being told",
+          "alternatives": [],
+          "tip": "despite + -ing (passive)."
+        },
+        {
+          "id": 159,
+          "original": "Only a few books were left at the yard sale when we left.",
+          "keyword": "MOST",
+          "lead": "",
+          "tail": "been sold when we left the yard sale.",
+          "answer": "Most of the books had",
+          "alternatives": [
+            "Most of them had"
+          ],
+          "tip": "most of + the + plural noun."
+        },
+        {
+          "id": 160,
+          "original": "Was it really necessary to buy such an expensive bottle of wine?",
+          "keyword": "NEED",
+          "lead": "Was there really",
+          "tail": "to buy such an expensive bottle of wine?",
+          "answer": "any need",
+          "alternatives": [
+            "a need"
+          ],
+          "tip": "Was there any need to…?"
+        }
+      ]
+    },
+    {
+      "level": 21,
+      "questions": [
+        {
+          "id": 161,
+          "original": "How much do these leather shoes cost?",
+          "keyword": "PRICE",
+          "lead": "What",
+          "tail": "these leather shoes?",
+          "answer": "is the price of",
+          "alternatives": [],
+          "tip": "the price of + noun."
+        },
+        {
+          "id": 162,
+          "original": "It's not important if you come to work today or not.",
+          "keyword": "MATTER",
+          "lead": "It",
+          "tail": "whether you come to work today or not.",
+          "answer": "doesn't matter",
+          "alternatives": [
+            "does not matter"
+          ],
+          "tip": "It doesn't matter whether…"
+        },
+        {
+          "id": 163,
+          "original": "Parking is prohibited in all areas of the business park.",
+          "keyword": "ANYWHERE",
+          "lead": "You",
+          "tail": "the business park.",
+          "answer": "must not park anywhere in",
+          "alternatives": [
+            "mustn't park anywhere in",
+            "can't park anywhere in",
+            "cannot park anywhere in"
+          ],
+          "tip": "prohibition: must not."
+        },
+        {
+          "id": 164,
+          "original": "Mark often ignores what I say in class.",
+          "keyword": "PAY",
+          "lead": "His biggest problem is that he",
+          "tail": "to what I say in class.",
+          "answer": "often doesn't pay attention",
+          "alternatives": [
+            "doesn't often pay attention",
+            "often fails to pay attention",
+            "does not often pay attention"
+          ],
+          "tip": "pay attention to."
+        },
+        {
+          "id": 165,
+          "original": "Your sister confessed that she had told you everything.",
+          "keyword": "ADMITTED",
+          "lead": "Your sister",
+          "tail": "you everything.",
+          "answer": "admitted having told",
+          "alternatives": [
+            "admitted telling"
+          ],
+          "tip": "admit + -ing / having + past participle."
+        },
+        {
+          "id": 166,
+          "original": "If we light the fire, the rescuers will see us.",
+          "keyword": "BE",
+          "lead": "We",
+          "tail": "the rescuers if we light the fire.",
+          "answer": "will be seen by",
+          "alternatives": [],
+          "tip": "Future passive: will be + past participle."
+        },
+        {
+          "id": 167,
+          "original": "For us to win this match now would be impossible.",
+          "keyword": "HOPE",
+          "lead": "There is",
+          "tail": "this match now.",
+          "answer": "no hope of winning",
+          "alternatives": [],
+          "tip": "There is no hope of + -ing."
+        },
+        {
+          "id": 168,
+          "original": "Don't tell anyone this information.",
+          "keyword": "YOURSELF",
+          "lead": "Keep this information",
+          "tail": ".",
+          "answer": "to yourself",
+          "alternatives": [],
+          "tip": "keep something to yourself = don't tell others."
+        }
+      ]
+    },
+    {
+      "level": 22,
+      "questions": [
+        {
+          "id": 169,
+          "original": "Fred wanted to know the price of one night in the hotel.",
+          "keyword": "COST",
+          "lead": "'How much",
+          "tail": "one night in the hotel?' Fred asked.",
+          "answer": "does it cost for",
+          "alternatives": [
+            "would it cost for",
+            "will it cost for"
+          ],
+          "tip": "How much does it cost?"
+        },
+        {
+          "id": 170,
+          "original": "The last time I went to the museum was a week ago.",
+          "keyword": "BEEN",
+          "lead": "I",
+          "tail": "museum for a week.",
+          "answer": "haven't been to the",
+          "alternatives": [
+            "have not been to the"
+          ],
+          "tip": "Present perfect negative with 'been to'."
+        },
+        {
+          "id": 171,
+          "original": "It is certainly a good example of Van Gogh's work.",
+          "keyword": "NO",
+          "lead": "There's",
+          "tail": "that this is a good example of Van Gogh's work.",
+          "answer": "no doubt",
+          "alternatives": [],
+          "tip": "There's no doubt that…"
+        },
+        {
+          "id": 172,
+          "original": "Pay attention to what I am saying!",
+          "keyword": "LISTEN",
+          "lead": "",
+          "tail": "what I'm saying!",
+          "answer": "Listen to",
+          "alternatives": [
+            "Listen carefully to"
+          ],
+          "tip": "listen to + indirect object."
+        },
+        {
+          "id": 173,
+          "original": "I regret leaving my job now.",
+          "keyword": "WISH",
+          "lead": "I",
+          "tail": "left my job.",
+          "answer": "wish I hadn't",
+          "alternatives": [
+            "wish I had not"
+          ],
+          "tip": "wish + past perfect for a regret."
+        },
+        {
+          "id": 174,
+          "original": "'I went to the cinema before going to the cafe,' he said.",
+          "keyword": "HAD",
+          "lead": "He said he",
+          "tail": "to the cinema before going to the cafe.",
+          "answer": "had been",
+          "alternatives": [
+            "had gone"
+          ],
+          "tip": "Reported speech: past simple becomes past perfect."
+        },
+        {
+          "id": 175,
+          "original": "I've never seen so many people in this bar before.",
+          "keyword": "FIRST",
+          "lead": "This is",
+          "tail": "I've ever seen so many people in this bar.",
+          "answer": "the first time",
+          "alternatives": [],
+          "tip": "This is the first time + present perfect."
+        },
+        {
+          "id": 176,
+          "original": "You should tell her what you think and let her decide.",
+          "keyword": "BETTER",
+          "lead": "You",
+          "tail": "tell her what you think and let her decide.",
+          "answer": "had better",
+          "alternatives": [],
+          "tip": "had better + infinitive without to."
+        }
+      ]
+    },
+    {
+      "level": 23,
+      "questions": [
+        {
+          "id": 177,
+          "original": "Don't carry on speaking when I have asked you a question.",
+          "keyword": "ON",
+          "lead": "Don't",
+          "tail": "when I have asked you a question.",
+          "answer": "go on speaking",
+          "alternatives": [
+            "carry on speaking",
+            "keep on speaking"
+          ],
+          "tip": "go/carry/keep on + -ing."
+        },
+        {
+          "id": 178,
+          "original": "We arrive at the castle one hour after we leave the hotel.",
+          "keyword": "GET",
+          "lead": "It",
+          "tail": "us to the castle from the hotel.",
+          "answer": "takes an hour to get",
+          "alternatives": [],
+          "tip": "It takes + time + to + infinitive."
+        },
+        {
+          "id": 179,
+          "original": "Can you take care of Mary on Saturday evening for us?",
+          "keyword": "LOOK",
+          "lead": "Can",
+          "tail": "Saturday evening for us?",
+          "answer": "you look after Mary on",
+          "alternatives": [],
+          "tip": "look after = take care of."
+        },
+        {
+          "id": 180,
+          "original": "Is that wallet yours, John?",
+          "keyword": "BELONG",
+          "lead": "Does",
+          "tail": ", John?",
+          "answer": "that wallet belong to you",
+          "alternatives": [],
+          "tip": "belong to + person."
+        },
+        {
+          "id": 181,
+          "original": "You started work on this project very recently.",
+          "keyword": "HARDLY",
+          "lead": "You",
+          "tail": "work on this project.",
+          "answer": "have hardly started",
+          "alternatives": [],
+          "tip": "hardly + present perfect."
+        },
+        {
+          "id": 182,
+          "original": "In this office, I am responsible for the sales department.",
+          "keyword": "CHARGE",
+          "lead": "I am",
+          "tail": "the sales department.",
+          "answer": "in charge of",
+          "alternatives": [],
+          "tip": "be in charge of."
+        },
+        {
+          "id": 183,
+          "original": "When I see Lucy, I always think of my youngest sister.",
+          "keyword": "REMINDS",
+          "lead": "Lucy",
+          "tail": "youngest sister.",
+          "answer": "reminds me of my",
+          "alternatives": [],
+          "tip": "remind someone of someone."
+        },
+        {
+          "id": 184,
+          "original": "This is the cheapest laptop you can buy.",
+          "keyword": "NO",
+          "lead": "There",
+          "tail": "on the market.",
+          "answer": "is no cheaper laptop",
+          "alternatives": [],
+          "tip": "superlative → no + comparative."
+        }
+      ]
+    },
+    {
+      "level": 24,
+      "questions": [
+        {
+          "id": 185,
+          "original": "Heavy rain has caused the cancellation of the outdoor garden party.",
+          "keyword": "DUE",
+          "lead": "",
+          "tail": ", the garden party has been cancelled.",
+          "answer": "Due to heavy rain",
+          "alternatives": [],
+          "tip": "due to + noun phrase."
+        },
+        {
+          "id": 186,
+          "original": "There isn't enough space for me to park my car there.",
+          "keyword": "FIT",
+          "lead": "My car",
+          "tail": "in that space.",
+          "answer": "won't fit",
+          "alternatives": [
+            "will not fit",
+            "doesn't fit",
+            "does not fit",
+            "can't fit",
+            "cannot fit"
+          ],
+          "tip": "fit in + place."
+        },
+        {
+          "id": 187,
+          "original": "Phone me immediately after you arrive at the conference.",
+          "keyword": "SOON",
+          "lead": "",
+          "tail": "you arrive at the conference, telephone me.",
+          "answer": "As soon as",
+          "alternatives": [],
+          "tip": "as soon as + present simple for future time."
+        },
+        {
+          "id": 188,
+          "original": "Who does this pen belong to?",
+          "keyword": "WHOSE",
+          "lead": "Do you know",
+          "tail": "?",
+          "answer": "whose pen this is",
+          "alternatives": [],
+          "tip": "Indirect question: whose + noun + subject + verb."
+        },
+        {
+          "id": 189,
+          "original": "The amount of money spent on the project makes it very important.",
+          "keyword": "OF",
+          "lead": "This project",
+          "tail": "owing to the money spent on it.",
+          "answer": "is of great importance",
+          "alternatives": [
+            "is of considerable importance",
+            "is of enormous importance"
+          ],
+          "tip": "be of + importance."
+        },
+        {
+          "id": 190,
+          "original": "At first I couldn't speak Russian well, but eventually it became normal for me.",
+          "keyword": "USED",
+          "lead": "Eventually, I",
+          "tail": "Russian.",
+          "answer": "got used to speaking",
+          "alternatives": [
+            "became used to speaking"
+          ],
+          "tip": "get used to + -ing."
+        },
+        {
+          "id": 191,
+          "original": "Is your house big enough to take us if we come and stay for a few days?",
+          "keyword": "ROOM",
+          "lead": "Is there",
+          "tail": "your house if we come and stay for a few days?",
+          "answer": "room for us in",
+          "alternatives": [],
+          "tip": "room for + object pronoun."
+        },
+        {
+          "id": 192,
+          "original": "Although it was raining, we had the barbecue.",
+          "keyword": "SPITE",
+          "lead": "",
+          "tail": ", we had the barbecue.",
+          "answer": "In spite of the rain",
+          "alternatives": [
+            "In spite of the fact"
+          ],
+          "tip": "in spite of + noun."
+        }
+      ]
+    },
+    {
+      "level": 25,
+      "questions": [
+        {
+          "id": 193,
+          "original": "Do you regret leaving your job now?",
+          "keyword": "WISH",
+          "lead": "Do you",
+          "tail": "your job now?",
+          "answer": "wish you hadn't left",
+          "alternatives": [
+            "wish you had not left"
+          ],
+          "tip": "wish + past perfect."
+        },
+        {
+          "id": 194,
+          "original": "Could you try a little harder to listen to what I'm saying?",
+          "keyword": "EFFORT",
+          "lead": "Can you",
+          "tail": "listen to what I'm saying?",
+          "answer": "make an effort to",
+          "alternatives": [
+            "make more effort to"
+          ],
+          "tip": "make an effort to + infinitive."
+        },
+        {
+          "id": 195,
+          "original": "It doesn't matter which chemical you put into the mixture first. The results will be the same.",
+          "keyword": "DIFFERENCE",
+          "lead": "It",
+          "tail": "which chemical you put into the mixture first.",
+          "answer": "makes no difference",
+          "alternatives": [],
+          "tip": "It makes no difference which…"
+        },
+        {
+          "id": 196,
+          "original": "My mother said I could go with you only if I return home by 5pm.",
+          "keyword": "LONG",
+          "lead": "I can go with you",
+          "tail": "home by 5pm.",
+          "answer": "as long as I return",
+          "alternatives": [
+            "so long as I return",
+            "as long as I get",
+            "so long as I get",
+            "as long as I come"
+          ],
+          "tip": "as long as = on condition that."
+        },
+        {
+          "id": 197,
+          "original": "Unfortunately, I couldn't see you because I didn't have time.",
+          "keyword": "ABLE",
+          "lead": "If I had had more time, I",
+          "tail": "see you.",
+          "answer": "would have been able to",
+          "alternatives": [],
+          "tip": "third conditional with be able to."
+        },
+        {
+          "id": 198,
+          "original": "These windows need cleaning again.",
+          "keyword": "HAVE",
+          "lead": "These windows",
+          "tail": "again.",
+          "answer": "have to be cleaned",
+          "alternatives": [
+            "will have to be cleaned"
+          ],
+          "tip": "have to be + past participle."
+        },
+        {
+          "id": 199,
+          "original": "It wasn't a good idea to resign from your job before getting another one.",
+          "keyword": "BETTER",
+          "lead": "It would",
+          "tail": "if you hadn't resigned from your job before getting another one.",
+          "answer": "have been better",
+          "alternatives": [],
+          "tip": "would have been better + if + past perfect."
+        },
+        {
+          "id": 200,
+          "original": "Hardly any of the cars on special offer were left when we arrived.",
+          "keyword": "NEARLY",
+          "lead": "By the time we arrived,",
+          "tail": "had been bought.",
+          "answer": "nearly all the cars",
+          "alternatives": [],
+          "tip": "nearly all = almost all."
+        }
+      ]
+    },
+    {
+      "level": 26,
+      "questions": [
+        {
+          "id": 201,
+          "original": "At the moment, the Queen is launching this ship.",
+          "keyword": "BEING",
+          "lead": "This ship",
+          "tail": "the Queen at the moment.",
+          "answer": "is being launched by",
+          "alternatives": [],
+          "tip": "Present continuous passive: is being + past participle."
+        },
+        {
+          "id": 202,
+          "original": "Could you try and spend a little less on Christmas presents this year?",
+          "keyword": "RATHER",
+          "lead": "I",
+          "tail": "less money on Christmas presents this year.",
+          "answer": "would rather you spent",
+          "alternatives": [
+            "'d rather you spent"
+          ],
+          "tip": "would rather + subject + past simple."
+        },
+        {
+          "id": 203,
+          "original": "If you find a dress cheaper elsewhere, please tell me.",
+          "keyword": "LET",
+          "lead": "Please",
+          "tail": "if you find a dress cheaper elsewhere.",
+          "answer": "let me know",
+          "alternatives": [],
+          "tip": "let someone know = tell them."
+        },
+        {
+          "id": 204,
+          "original": "Can you distribute these tests to the other students, Kathy?",
+          "keyword": "HAND",
+          "lead": "Can you",
+          "tail": "to the other students, Kathy?",
+          "answer": "hand these tests out",
+          "alternatives": [
+            "hand out these tests"
+          ],
+          "tip": "hand out = distribute."
+        },
+        {
+          "id": 205,
+          "original": "The report says a child was operating the machine.",
+          "keyword": "BEING",
+          "lead": "According to the report, the machine",
+          "tail": "by a child.",
+          "answer": "was being operated",
+          "alternatives": [],
+          "tip": "Past continuous passive."
+        },
+        {
+          "id": 206,
+          "original": "I didn't see anyone wearing yellow at the dinner.",
+          "keyword": "NOBODY",
+          "lead": "There",
+          "tail": "wearing yellow at the dinner.",
+          "answer": "was nobody",
+          "alternatives": [],
+          "tip": "There was nobody + -ing."
+        },
+        {
+          "id": 207,
+          "original": "I can't wait to see Margaret's face when we arrive.",
+          "keyword": "FORWARD",
+          "lead": "I'm",
+          "tail": "Margaret's face when we arrive.",
+          "answer": "looking forward to seeing",
+          "alternatives": [],
+          "tip": "look forward to + -ing."
+        },
+        {
+          "id": 208,
+          "original": "Once you give me a full description of the hotel, I can decide whether or not to go there.",
+          "keyword": "DESCRIBE",
+          "lead": "I can decide whether to go to the hotel after",
+          "tail": "to me.",
+          "answer": "you describe it",
+          "alternatives": [],
+          "tip": "after + subject + present simple."
+        }
+      ]
+    },
+    {
+      "level": 27,
+      "questions": [
+        {
+          "id": 209,
+          "original": "In my opinion, it was an error to give him so much money at such a young age.",
+          "keyword": "NEVER",
+          "lead": "He",
+          "tail": "so much money at such a young age.",
+          "answer": "should never have been given",
+          "alternatives": [],
+          "tip": "should never have + been + past participle."
+        },
+        {
+          "id": 210,
+          "original": "Do you think this antique vase is good value for money?",
+          "keyword": "WORTH",
+          "lead": "In your opinion, is",
+          "tail": "buying?",
+          "answer": "this antique vase worth",
+          "alternatives": [],
+          "tip": "be worth + -ing."
+        },
+        {
+          "id": 211,
+          "original": "The lesson was cancelled as only three students came.",
+          "keyword": "TURNED",
+          "lead": "Only three students",
+          "tail": "the lesson, so it was cancelled.",
+          "answer": "turned up for",
+          "alternatives": [],
+          "tip": "turn up = arrive."
+        },
+        {
+          "id": 212,
+          "original": "The picnic was cancelled due to the rain.",
+          "keyword": "BECAUSE",
+          "lead": "The picnic was cancelled",
+          "tail": "rain.",
+          "answer": "because of the",
+          "alternatives": [],
+          "tip": "because of + noun."
+        },
+        {
+          "id": 213,
+          "original": "When you get to the large oak tree, keep going until you get to the lake.",
+          "keyword": "CARRY",
+          "lead": "After getting to the large oak tree,",
+          "tail": "until you get to the lake.",
+          "answer": "carry on",
+          "alternatives": [
+            "carry on walking"
+          ],
+          "tip": "carry on = continue."
+        },
+        {
+          "id": 214,
+          "original": "This is the most expensive book we've seen so far in this shop.",
+          "keyword": "MORE",
+          "lead": "There hasn't",
+          "tail": "than this in the shop so far.",
+          "answer": "been a more expensive book",
+          "alternatives": [],
+          "tip": "superlative → no + comparative."
+        },
+        {
+          "id": 215,
+          "original": "Whose is this bicycle?",
+          "keyword": "BELONG",
+          "lead": "Who",
+          "tail": "to?",
+          "answer": "does this bicycle belong",
+          "alternatives": [],
+          "tip": "belong to + person."
+        },
+        {
+          "id": 216,
+          "original": "She doesn't usually eat three meals a day, so she got full pretty quickly.",
+          "keyword": "USED",
+          "lead": "She",
+          "tail": "three meals a day, so she got full quickly.",
+          "answer": "isn't used to eating",
+          "alternatives": [
+            "is not used to eating"
+          ],
+          "tip": "be used to + -ing."
+        }
+      ]
+    },
+    {
+      "level": 28,
+      "questions": [
+        {
+          "id": 217,
+          "original": "That fence is there to prevent you entering the grounds of the house.",
+          "keyword": "SO",
+          "lead": "They put the fence there",
+          "tail": "enter the grounds of the house.",
+          "answer": "so that you can't",
+          "alternatives": [
+            "so you can't",
+            "so that you cannot",
+            "so you cannot",
+            "so that you won't"
+          ],
+          "tip": "so (that) + can't."
+        },
+        {
+          "id": 218,
+          "original": "Does your brother have the ability to take so many exams in the same week?",
+          "keyword": "CAPABLE",
+          "lead": "Is",
+          "tail": "of taking so many exams in the same week?",
+          "answer": "your brother capable",
+          "alternatives": [],
+          "tip": "be capable of + -ing."
+        },
+        {
+          "id": 219,
+          "original": "We were able to cross the river, despite the strong current.",
+          "keyword": "SUCCEEDED",
+          "lead": "We",
+          "tail": "the river despite the strong current.",
+          "answer": "succeeded in crossing",
+          "alternatives": [],
+          "tip": "succeed in + -ing."
+        },
+        {
+          "id": 220,
+          "original": "I would prefer you to leave now. Goodbye.",
+          "keyword": "RATHER",
+          "lead": "I",
+          "tail": "now. Goodbye.",
+          "answer": "would rather you left",
+          "alternatives": [
+            "'d rather you left"
+          ],
+          "tip": "would rather + subject + past simple."
+        },
+        {
+          "id": 221,
+          "original": "I think you should say sorry for your behaviour.",
+          "keyword": "APOLOGISE",
+          "lead": "I think",
+          "tail": "for your behaviour.",
+          "answer": "you should apologise",
+          "alternatives": [
+            "you ought to apologise"
+          ],
+          "tip": "should + apologise for."
+        },
+        {
+          "id": 222,
+          "original": "I have a lot to do, so I can't come with you to the cinema this afternoon.",
+          "keyword": "TOO",
+          "lead": "I have",
+          "tail": "do to be able to come to the cinema this afternoon.",
+          "answer": "too much to",
+          "alternatives": [],
+          "tip": "too much + to-infinitive."
+        },
+        {
+          "id": 223,
+          "original": "Entrance into the museum is free today.",
+          "keyword": "COSTS",
+          "lead": "It",
+          "tail": "to enter the museum today.",
+          "answer": "costs nothing",
+          "alternatives": [],
+          "tip": "It costs nothing to + infinitive."
+        },
+        {
+          "id": 224,
+          "original": "All the cars have been cleaned except the manager's.",
+          "keyword": "ONLY",
+          "lead": "The manager's car is",
+          "tail": "that hasn't been cleaned.",
+          "answer": "the only one",
+          "alternatives": [],
+          "tip": "the only one that…"
+        }
+      ]
+    },
+    {
+      "level": 29,
+      "questions": [
+        {
+          "id": 225,
+          "original": "We'll go for a walk only if the weather is nice.",
+          "keyword": "LONG",
+          "lead": "We'll go for a walk",
+          "tail": "the weather is nice.",
+          "answer": "as long as",
+          "alternatives": [
+            "so long as"
+          ],
+          "tip": "as long as = provided that."
+        },
+        {
+          "id": 226,
+          "original": "'Go to my chiropractor, Dr Smith, if your back pain persists,' my co-worker said.",
+          "keyword": "RECOMMENDED",
+          "lead": "My co-worker",
+          "tail": "his chiropractor if my back pain persisted.",
+          "answer": "recommended that I see",
+          "alternatives": [
+            "recommended I see",
+            "recommended that I should see"
+          ],
+          "tip": "recommend + that + subject + base verb."
+        },
+        {
+          "id": 227,
+          "original": "This book is not mine.",
+          "keyword": "BELONG",
+          "lead": "This book doesn't",
+          "tail": ".",
+          "answer": "belong to me",
+          "alternatives": [],
+          "tip": "belong to + person."
+        },
+        {
+          "id": 228,
+          "original": "I told my son I would buy him the toy, but only if he came home on time.",
+          "keyword": "PROVIDED",
+          "lead": "I told my son I would buy him the toy",
+          "tail": "home on time.",
+          "answer": "provided that he came",
+          "alternatives": [
+            "provided he came"
+          ],
+          "tip": "provided (that) + clause."
+        },
+        {
+          "id": 229,
+          "original": "They had disagreed but reached a consensus before the presentation.",
+          "keyword": "CAME",
+          "lead": "They",
+          "tail": "agreement before the presentation.",
+          "answer": "came to an",
+          "alternatives": [],
+          "tip": "come to an agreement."
+        },
+        {
+          "id": 230,
+          "original": "The shop down the street usually fixes my bike.",
+          "keyword": "HAVE",
+          "lead": "I usually",
+          "tail": "by the shop down the street.",
+          "answer": "have my bike fixed",
+          "alternatives": [],
+          "tip": "Causative: have + object + past participle."
+        },
+        {
+          "id": 231,
+          "original": "The cake I had yesterday was more delicious than this one.",
+          "keyword": "AS",
+          "lead": "This cake is not",
+          "tail": "the one I had yesterday.",
+          "answer": "as delicious as",
+          "alternatives": [],
+          "tip": "not as + adjective + as."
+        },
+        {
+          "id": 232,
+          "original": "The event was cancelled because of bad weather.",
+          "keyword": "CALLED",
+          "lead": "They",
+          "tail": "the event because of bad weather.",
+          "answer": "called off",
+          "alternatives": [],
+          "tip": "call off = cancel."
+        }
+      ]
+    },
+    {
+      "level": 30,
+      "questions": [
+        {
+          "id": 233,
+          "original": "'You need to complete your assignment today,' the instructor said.",
+          "keyword": "TOLD",
+          "lead": "The instructor",
+          "tail": "complete my assignment today.",
+          "answer": "told me to",
+          "alternatives": [],
+          "tip": "tell someone to + infinitive."
+        },
+        {
+          "id": 234,
+          "original": "'Why don't you save some money before buying a new car, Laura?' said her father.",
+          "keyword": "SUGGESTED",
+          "lead": "Laura's father",
+          "tail": "money before buying a new car.",
+          "answer": "suggested she save",
+          "alternatives": [
+            "suggested that she save",
+            "suggested saving"
+          ],
+          "tip": "suggest + subject + base verb."
+        },
+        {
+          "id": 235,
+          "original": "Karen is too unsociable to enjoy parties.",
+          "keyword": "SOCIABLE",
+          "lead": "Karen is",
+          "tail": "to enjoy parties.",
+          "answer": "not sociable enough",
+          "alternatives": [],
+          "tip": "not + adjective + enough + to-infinitive."
+        },
+        {
+          "id": 236,
+          "original": "The cake is too big for the box.",
+          "keyword": "ENOUGH",
+          "lead": "The box",
+          "tail": "for the cake.",
+          "answer": "isn't big enough",
+          "alternatives": [
+            "is not big enough"
+          ],
+          "tip": "not + adjective + enough."
+        },
+        {
+          "id": 237,
+          "original": "It's unlikely that Lucy missed the bus this morning.",
+          "keyword": "LIKELY",
+          "lead": "Lucy",
+          "tail": "missed the bus this morning.",
+          "answer": "isn't likely to have",
+          "alternatives": [
+            "is not likely to have"
+          ],
+          "tip": "be likely to have + past participle."
+        },
+        {
+          "id": 238,
+          "original": "It's a pity the concert tickets are sold out.",
+          "keyword": "WISH",
+          "lead": "I",
+          "tail": "weren't sold out.",
+          "answer": "wish the concert tickets",
+          "alternatives": [],
+          "tip": "wish + past simple."
+        },
+        {
+          "id": 239,
+          "original": "I didn't like the shirt, so I returned it to the shop.",
+          "keyword": "TOOK",
+          "lead": "I didn't like the shirt, so I",
+          "tail": "the shop.",
+          "answer": "took it back to",
+          "alternatives": [],
+          "tip": "take something back = return it."
+        },
+        {
+          "id": 240,
+          "original": "My job is to manage the marketing division.",
+          "keyword": "RESPONSIBLE",
+          "lead": "I am",
+          "tail": "the marketing division.",
+          "answer": "responsible for",
+          "alternatives": [],
+          "tip": "be responsible for + noun."
+        }
+      ]
+    },
+    {
+      "level": 31,
+      "questions": [
+        {
+          "id": 241,
+          "original": "There's a total lack of communication in our team.",
+          "keyword": "NO",
+          "lead": "Our team",
+          "tail": "communication at all.",
+          "answer": "has no",
+          "alternatives": [],
+          "tip": "have no + noun."
+        },
+        {
+          "id": 242,
+          "original": "It's not necessary for you to attend the meeting.",
+          "keyword": "NEED",
+          "lead": "You",
+          "tail": "the meeting.",
+          "answer": "don't need to attend",
+          "alternatives": [
+            "do not need to attend"
+          ],
+          "tip": "need to + infinitive."
+        },
+        {
+          "id": 243,
+          "original": "'Why don't you join us for dinner tonight?' she said to me.",
+          "keyword": "SUGGESTED",
+          "lead": "She",
+          "tail": "for dinner tonight.",
+          "answer": "suggested I join them",
+          "alternatives": [
+            "suggested that I join them"
+          ],
+          "tip": "suggest + subject + base verb."
+        },
+        {
+          "id": 244,
+          "original": "I didn't accept the job offer from the prestigious company.",
+          "keyword": "DOWN",
+          "lead": "I",
+          "tail": "from the prestigious company.",
+          "answer": "turned down the job offer",
+          "alternatives": [
+            "turned the job offer down"
+          ],
+          "tip": "turn down = reject."
+        },
+        {
+          "id": 245,
+          "original": "This painting is undoubtedly a masterpiece by Monet.",
+          "keyword": "WITHOUT",
+          "lead": "This painting is a masterpiece by Monet",
+          "tail": ".",
+          "answer": "without a doubt",
+          "alternatives": [
+            "without any doubt"
+          ],
+          "tip": "without a doubt = undoubtedly."
+        },
+        {
+          "id": 246,
+          "original": "My neighbour waters my plants when I'm away.",
+          "keyword": "LOOKS",
+          "lead": "My neighbour",
+          "tail": "when I'm away.",
+          "answer": "looks after my plants",
+          "alternatives": [],
+          "tip": "look after = take care of."
+        },
+        {
+          "id": 247,
+          "original": "It's possible she was in the garden, so she didn't hear the phone ring.",
+          "keyword": "MAY",
+          "lead": "She",
+          "tail": "in the garden, so she didn't hear the phone ring.",
+          "answer": "may have been",
+          "alternatives": [],
+          "tip": "may have + past participle for a past possibility."
+        },
+        {
+          "id": 248,
+          "original": "We are unlikely to find a solution.",
+          "keyword": "CHANCE",
+          "lead": "There",
+          "tail": "finding a solution.",
+          "answer": "is little chance of",
+          "alternatives": [
+            "is not much chance of",
+            "is no chance of"
+          ],
+          "tip": "There is little chance of + -ing."
+        }
+      ]
+    },
+    {
+      "level": 32,
+      "questions": [
+        {
+          "id": 249,
+          "original": "At the start of the class, the teacher tells the students the rules.",
+          "keyword": "TOLD",
+          "lead": "At the start of the class, the students",
+          "tail": "the rules by the teacher.",
+          "answer": "are told",
+          "alternatives": [],
+          "tip": "Present simple passive."
+        },
+        {
+          "id": 250,
+          "original": "They will have informed her about the decision by now.",
+          "keyword": "TOLD",
+          "lead": "She",
+          "tail": "about the decision by now.",
+          "answer": "will have been told",
+          "alternatives": [],
+          "tip": "Future perfect passive."
+        },
+        {
+          "id": 251,
+          "original": "This is the best deal on the smartphone you can find.",
+          "keyword": "BETTER",
+          "lead": "You",
+          "tail": "deal on the smartphone.",
+          "answer": "won't find a better",
+          "alternatives": [
+            "will not find a better",
+            "can't find a better",
+            "cannot find a better",
+            "couldn't find a better"
+          ],
+          "tip": "superlative → not … a better."
+        },
+        {
+          "id": 252,
+          "original": "Worrying is useless if you can't finish the task today.",
+          "keyword": "POINT",
+          "lead": "There",
+          "tail": "worrying if you can't finish the task today.",
+          "answer": "is no point in",
+          "alternatives": [],
+          "tip": "There is no point in + -ing."
+        },
+        {
+          "id": 253,
+          "original": "I borrowed a book from you and it's interesting.",
+          "keyword": "WHICH",
+          "lead": "The book",
+          "tail": "from you is interesting.",
+          "answer": "which I borrowed",
+          "alternatives": [
+            "which I have borrowed"
+          ],
+          "tip": "defining relative clause with which."
+        },
+        {
+          "id": 254,
+          "original": "They must finish their work before they leave.",
+          "keyword": "HAVE",
+          "lead": "They",
+          "tail": "their work before they leave.",
+          "answer": "have to finish",
+          "alternatives": [
+            "have got to finish"
+          ],
+          "tip": "have to for obligation."
+        },
+        {
+          "id": 255,
+          "original": "Few people know about this amazing restaurant.",
+          "keyword": "WIDELY",
+          "lead": "This amazing restaurant",
+          "tail": "known.",
+          "answer": "is not widely",
+          "alternatives": [],
+          "tip": "not widely known = few people know it."
+        },
+        {
+          "id": 256,
+          "original": "I last visited the art gallery a month ago.",
+          "keyword": "FOR",
+          "lead": "I haven't visited the art gallery",
+          "tail": ".",
+          "answer": "for a month",
+          "alternatives": [],
+          "tip": "Present perfect negative with 'for'."
+        }
+      ]
     }
   ]
-},
-
-{
-  "level": 4,
-  "questions": [
-    {
-      "id": 25,
-      "original": "The last time John came to my house was in 2021.",
-      "transformed": "John hasn't __________________ 2021.",
-      "keyword": "SINCE",
-      "type": "text",
-      "answer": "COME TO MY HOUSE SINCE"
-    },
-    {
-      "id": 26,
-      "original": "No dinner for me, thanks. I ate half an hour ago.",
-      "transformed": "Thanks, but I __________________ already.",
-      "keyword": "ALREADY",
-      "type": "text",
-      "answer": "HAVE EATEN"
-    },
-    {
-      "id": 27,
-      "original": "I haven't been swimming for nearly a year.",
-      "transformed": "The __________________ was nearly a year ago.",
-      "keyword": "LAST",
-      "type": "text",
-      "answer": "TIME I WENT SWIMMING"
-    },
-    {
-      "id": 28,
-      "original": "I regret not speaking to Marge sooner.",
-      "transformed": "I wish __________________ sooner.",
-      "keyword": "HAD",
-      "type": "text",
-      "answer": "I HAD SPOKEN TO MARGE"
-    },
-    {
-      "id": 29,
-      "original": "Yesterday, they cut down two old trees in the local park.",
-      "transformed": "Yesterday, two __________________ in the local park.",
-      "keyword": "WERE",
-      "type": "text",
-      "answer": "OLD TREES WERE CUT DOWN"
-    },
-    {
-      "id": 30,
-      "original": "The army were treating the prisoners well.",
-      "transformed": "The prisoners __________________ the army.",
-      "keyword": "WERE",
-      "type": "text",
-      "answer": "WERE BEING TREATED WELL BY"
-    },
-    {
-      "id": 31,
-      "original": "I walked quietly because I didn't want to wake the baby.",
-      "transformed": "I walked quietly __________________ wake the baby.",
-      "keyword": "SO",
-      "type": "text",
-      "answer": "SO AS NOT TO"
-    },
-    {
-      "id": 32,
-      "original": "I think we will arrive at 7pm if the weather remains good.",
-      "transformed": "We __________________ if the weather remains good.",
-      "keyword": "SHOULD",
-      "type": "text",
-      "answer": "SHOULD ARRIVE AT 7PM"
-    }
-  ]
-},
-
-{
-  "level": 5,
-  "questions": [
-    {
-      "id": 33,
-      "original": "This is the first time I have ever drunk rum.",
-      "transformed": "I __________________ rum before.",
-      "keyword": "NEVER",
-      "type": "text",
-      "answer": "HAVE NEVER DRUNK"
-    },
-    {
-      "id": 34,
-      "original": "The bank closed before I arrived.",
-      "transformed": "When I got to the bank, it __________________.",
-      "keyword": "ALREADY",
-      "type": "text",
-      "answer": "HAD ALREADY CLOSED"
-    },
-    {
-      "id": 35,
-      "original": "You press the green button to start the mixer.",
-      "transformed": "If you press the green button, __________________.",
-      "keyword": "STARTS",
-      "type": "text",
-      "answer": "THE MIXER STARTS"
-    },
-    {
-      "id": 36,
-      "original": "Do you know how many letters are delivered by the post office every year?",
-      "transformed": "Do you know how many letters __________________ year?",
-      "keyword": "DELIVERS",
-      "type": "text",
-      "answer": "ARE DELIVERED BY THE POST OFFICE EACH"
-    },
-    {
-      "id": 37,
-      "original": "Stop interrupting me all the time!",
-      "transformed": "I wish __________________ all the time.",
-      "keyword": "WOULD",
-      "type": "text",
-      "answer": "YOU WOULDN'T INTERRUPT ME"
-    },
-    {
-      "id": 38,
-      "original": "We should leave for the disco now.",
-      "transformed": "It's __________________ disco.",
-      "keyword": "LEFT",
-      "type": "text",
-      "answer": "TIME WE LEFT FOR THE"
-    },
-    {
-      "id": 39,
-      "original": "\"Remember to give Alan the card,\" Beryl shouted at me.",
-      "transformed": "Beryl __________________ the card.",
-      "keyword": "REMINDED",
-      "type": "text",
-      "answer": "REMINDED ME TO GIVE ALAN THE CARD"
-    },
-    {
-      "id": 40,
-      "original": "He locked the door to prevent the prisoner escaping.",
-      "transformed": "He locked the door __________________ escape.",
-      "keyword": "SO",
-      "type": "text",
-      "answer": "SO THAT THE PRISONER COULDN'T"
-    }
-  ]
-},
-{
-  "level": 6,
-  "questions": [
-    {
-      "id": 41,
-      "original": "How long have you had your new car?",
-      "transformed": "When __________________ your new car?",
-      "keyword": "GET",
-      "type": "text",
-      "answer": "DID YOU GET"
-    },
-    {
-      "id": 42,
-      "original": "Is this your first time driving a Volvo?",
-      "transformed": "Have __________________ before?",
-      "keyword": "EVER",
-      "type": "text",
-      "answer": "YOU EVER DRIVEN A VOLVO"
-    },
-    {
-      "id": 43,
-      "original": "Leave the shop or I will call the police.",
-      "transformed": "I'll call the police unless __________________.",
-      "keyword": "UNLESS",
-      "type": "text",
-      "answer": "YOU LEAVE THE SHOP"
-    },
-    {
-      "id": 44,
-      "original": "I would like to be able to speak Arabic.",
-      "transformed": "I wish __________________.",
-      "keyword": "COULD",
-      "type": "text",
-      "answer": "I COULD SPEAK ARABIC"
-    },
-    {
-      "id": 45,
-      "original": "The Lord of Brecon built this castle in 1286.",
-      "transformed": "This castle __________________ of Brecon in 1286.",
-      "keyword": "BY",
-      "type": "text",
-      "answer": "WAS BUILT BY THE LORD"
-    },
-    {
-      "id": 46,
-      "original": "Our teachers never let us leave the school.",
-      "transformed": "We were not __________________ by our teachers.",
-      "keyword": "TO",
-      "type": "text",
-      "answer": "ALLOWED TO LEAVE THE SCHOOL"
-    },
-    {
-      "id": 47,
-      "original": "I graduated from college a year ago today!",
-      "transformed": "I graduated from college __________________ year!",
-      "keyword": "TIME",
-      "type": "text",
-      "answer": "AT THIS TIME A YEAR AGO"
-    },
-    {
-      "id": 48,
-      "original": "I couldn't reach the shelf. It was too high.",
-      "transformed": "The shelf __________________.",
-      "keyword": "TO",
-      "type": "text",
-      "answer": "WAS TOO HIGH TO REACH"
-    }
-  ]
-},
-
-{
-  "level": 7,
-  "questions": [
-    {
-      "id": 49,
-      "original": "Jane dyed her hair orange two months ago and it has been that colour ever since.",
-      "transformed": "Jane's hair __________________ two months.",
-      "keyword": "FOR",
-      "type": "text",
-      "answer": "HAS BEEN THAT COLOUR FOR"
-    },
-    {
-      "id": 50,
-      "original": "During the film on TV, the phone rang.",
-      "transformed": "While I __________________ on TV, the phone rang.",
-      "keyword": "WAS",
-      "type": "text",
-      "answer": "WAS WATCHING THE FILM"
-    },
-    {
-      "id": 51,
-      "original": "Do you have any plans for next Wednesday evening?",
-      "transformed": "What __________________ next Wednesday evening?",
-      "keyword": "DOING",
-      "type": "text",
-      "answer": "ARE YOU DOING"
-    },
-    {
-      "id": 52,
-      "original": "Please don't smoke in this room.",
-      "transformed": "I'd __________________ in this room.",
-      "keyword": "RATHER",
-      "type": "text",
-      "answer": "RATHER YOU DIDN'T SMOKE"
-    },
-    {
-      "id": 53,
-      "original": "Everyone thinks that someone murdered Harry.",
-      "transformed": "It __________________ murdered.",
-      "keyword": "WAS",
-      "type": "text",
-      "answer": "WAS THOUGHT TO HAVE BEEN"
-    },
-    {
-      "id": 54,
-      "original": "I visited Paris with the idea of improving my French.",
-      "transformed": "I visited Paris __________________.",
-      "keyword": "TO",
-      "type": "text",
-      "answer": "TO IMPROVE MY FRENCH"
-    },
-    {
-      "id": 55,
-      "original": "I didn't answer the phone, even though I knew it was my husband calling.",
-      "transformed": "I didn't answer the phone __________________ husband.",
-      "keyword": "DESPITE",
-      "type": "text",
-      "answer": "DESPITE KNOWING IT WAS MY HUSBAND CALLING"
-    },
-    {
-      "id": 56,
-      "original": "The weather was beautiful but we never went on the picnic.",
-      "transformed": "We never went on the picnic __________________ weather.",
-      "keyword": "OF",
-      "type": "text",
-      "answer": "BECAUSE OF THE BEAUTIFUL WEATHER"
-    }
-  ]
-},
-{
-  "level": 8,
-  "questions": [
-    {
-      "id": 57,
-      "original": "I am sure it will snow tomorrow.",
-      "transformed": "It __________________ tomorrow.",
-      "keyword": "BOUND",
-      "type": "text",
-      "answer": "IS BOUND TO SNOW"
-    },
-    {
-      "id": 58,
-      "original": "My car keys are possibly in the kitchen.",
-      "transformed": "My car keys __________________ the kitchen.",
-      "keyword": "MIGHT",
-      "type": "text",
-      "answer": "MIGHT BE IN"
-    },
-    {
-      "id": 59,
-      "original": "Can I come over to your house at about 7pm?",
-      "transformed": "Is __________________ come to your house at about 7pm?",
-      "keyword": "IT",
-      "type": "text",
-      "answer": "IT OK IF I"
-    },
-    {
-      "id": 60,
-      "original": "Is it a problem if I open the window a little?",
-      "transformed": "Do __________________ the window a little?",
-      "keyword": "MIND",
-      "type": "text",
-      "answer": "YOU MIND IF I OPEN"
-    },
-    {
-      "id": 61,
-      "original": "This car costs $10,000 and so does that one.",
-      "transformed": "This car __________________ that one.",
-      "keyword": "AS",
-      "type": "text",
-      "answer": "COSTS AS MUCH AS"
-    },
-    {
-      "id": 62,
-      "original": "Kate is a teacher.",
-      "transformed": "Kate __________________ teacher.",
-      "keyword": "AS",
-      "type": "text",
-      "answer": "WORKS AS A"
-    },
-    {
-      "id": 63,
-      "original": "I met your sister by chance at the airport last week.",
-      "transformed": "I __________________ the airport last week.",
-      "keyword": "RAN",
-      "type": "text",
-      "answer": "RAN INTO YOUR SISTER AT"
-    },
-    {
-      "id": 64,
-      "original": "The doctor told me to give up smoking.",
-      "transformed": "The doctor told __________________.",
-      "keyword": "STOP",
-      "type": "text",
-      "answer": "ME TO STOP SMOKING"
-    }
-  ]
-},
-{
-  "level": 9,
-  "questions": [
-    {
-      "id": 65,
-      "original": "If I were you, I would go and speak to your boss.",
-      "transformed": "You __________________ your boss.",
-      "keyword": "SHOULD",
-      "type": "text",
-      "answer": "SHOULD GO AND SPEAK TO"
-    },
-    {
-      "id": 66,
-      "original": "It wasn't obligatory to go to work today. I thought it was!",
-      "transformed": "I __________________ gone to work today.",
-      "keyword": "NEED",
-      "type": "text",
-      "answer": "NEEDN'T HAVE"
-    },
-    {
-      "id": 67,
-      "original": "It was a mistake of you to lose your passport.",
-      "transformed": "You __________________ your passport.",
-      "keyword": "LOST",
-      "type": "text",
-      "answer": "SHOULDN'T HAVE LOST"
-    },
-    {
-      "id": 68,
-      "original": "Why don't we leave after breakfast on Saturday?",
-      "transformed": "How __________________ on Saturday?",
-      "keyword": "LEAVING",
-      "type": "text",
-      "answer": "ABOUT LEAVING AFTER BREAKFAST"
-    },
-    {
-      "id": 69,
-      "original": "This is the most boring film I have ever seen!",
-      "transformed": "I have __________________ film!",
-      "keyword": "MORE",
-      "type": "text",
-      "answer": "NEVER SEEN A MORE BORING"
-    },
-    {
-      "id": 70,
-      "original": "We will have to leave early tomorrow.",
-      "transformed": "We will __________________ tomorrow.",
-      "keyword": "SET",
-      "type": "text",
-      "answer": "NEED TO SET OFF"
-    },
-    {
-      "id": 71,
-      "original": "The robbers escaped with a thousand dollars without being caught.",
-      "transformed": "The robbers __________________ dollars.",
-      "keyword": "GOT",
-      "type": "text",
-      "answer": "GOT AWAY WITH A THOUSAND"
-    },
-    {
-      "id": 72,
-      "original": "I told them not to cross the park at night.",
-      "transformed": "I __________________ the park at night.",
-      "keyword": "WARNED",
-      "type": "text",
-      "answer": "WARNED THEM NOT TO CROSS"
-    }
-  ]
-},
-{
-  "level": 10,
-  "questions": [
-    {
-      "id": 73,
-      "original": "You should have finished that report, not John!",
-      "transformed": "You __________________ that report, not John!",
-      "keyword": "WERE",
-      "type": "text",
-      "answer": "WERE SUPPOSED TO HAVE FINISHED"
-    },
-    {
-      "id": 74,
-      "original": "Is this the right bus for San Diego?",
-      "transformed": "Could __________________ is the right bus for San Diego?",
-      "keyword": "TELL",
-      "type": "text",
-      "answer": "YOU TELL ME WHICH BUS"
-    },
-    {
-      "id": 75,
-      "original": "\"Sorry I'm late,\" Mark whispered as he took his seat in the cinema.",
-      "transformed": "Mark apologised __________________ to the cinema.",
-      "keyword": "BEING",
-      "type": "text",
-      "answer": "FOR BEING LATE AS HE SAT"
-    },
-    {
-      "id": 76,
-      "original": "This train is late. It was supposed to arrive five minutes ago.",
-      "transformed": "This train __________________ five minutes ago.",
-      "keyword": "ARRIVED",
-      "type": "text",
-      "answer": "SHOULD HAVE ARRIVED"
-    },
-    {
-      "id": 77,
-      "original": "If you continue to drink, you will get drunk.",
-      "transformed": "The __________________, the drunker you will get.",
-      "keyword": "THE",
-      "type": "text",
-      "answer": "MORE YOU DRINK"
-    },
-    {
-      "id": 78,
-      "original": "Bring me the phone book if you happen to find it.",
-      "transformed": "If __________________ book, bring it to me.",
-      "keyword": "COME",
-      "type": "text",
-      "answer": "YOU COME ACROSS THE PHONE"
-    },
-    {
-      "id": 79,
-      "original": "I have no memory of my first day at school.",
-      "transformed": "I __________________ to school on my first day.",
-      "keyword": "REMEMBER",
-      "type": "text",
-      "answer": "DON'T REMEMBER GOING"
-    },
-    {
-      "id": 80,
-      "original": "I didn't forget to buy the bread. Here it is!",
-      "transformed": "I __________________. Here it is!",
-      "keyword": "REMEMBERED",
-      "type": "text",
-      "answer": "REMEMBERED TO BUY THE BREAD"
-    }
-  ]
-},
-{
-  "level": 11,
-  "questions": [
-    {
-      "id": 81,
-      "original": "It was silly of you to speak to your boss like that.",
-      "transformed": "You __________________ your boss like that!",
-      "keyword": "SPOKEN",
-      "type": "text",
-      "answer": "SHOULDN'T HAVE SPOKEN TO"
-    },
-    {
-      "id": 82,
-      "original": "What do you advise me to do?",
-      "transformed": "What __________________?",
-      "keyword": "I",
-      "type": "text",
-      "answer": "DO YOU ADVISE ME TO DO"
-    },
-    {
-      "id": 83,
-      "original": "There are always a lot of cars in the downtown area at this time.",
-      "transformed": "There is __________________ in the downtown area at this time.",
-      "keyword": "TRAFFIC",
-      "type": "text",
-      "answer": "A LOT OF TRAFFIC"
-    },
-    {
-      "id": 84,
-      "original": "Is it possible to smoke in this room?",
-      "transformed": "Is __________________ this room?",
-      "keyword": "ALLOWED",
-      "type": "text",
-      "answer": "SMOKING ALLOWED IN"
-    },
-    {
-      "id": 85,
-      "original": "She was taken in an ambulance five minutes ago.",
-      "transformed": "They __________________ five minutes ago.",
-      "keyword": "HOSPITAL",
-      "type": "text",
-      "answer": "TOOK HER TO HOSPITAL"
-    },
-    {
-      "id": 86,
-      "original": "Chicago is a big city, but Los Angeles is bigger.",
-      "transformed": "Chicago __________________ Los Angeles.",
-      "keyword": "NOT",
-      "type": "text",
-      "answer": "IS NOT AS BIG AS"
-    },
-    {
-      "id": 87,
-      "original": "That story he told sounded very invented.",
-      "transformed": "I'm sure that story __________________.",
-      "keyword": "MADE",
-      "type": "text",
-      "answer": "WAS MADE UP"
-    },
-    {
-      "id": 88,
-      "original": "Who owns this pen?",
-      "transformed": "Who __________________ to?",
-      "keyword": "BELONG",
-      "type": "text",
-      "answer": "DOES THIS PEN BELONG"
-    }
-  ]
-},
-{
-  "level": 12,
-  "questions": [
-    {
-      "id": 89,
-      "original": "It is possible that Mike isn't at home now.",
-      "transformed": "Mike __________________ home now.",
-      "keyword": "BE",
-      "type": "text",
-      "answer": "MIGHT NOT BE AT"
-    },
-    {
-      "id": 90,
-      "original": "Don't put the blame on me. I wasn't even there at the time.",
-      "transformed": "It was __________________.",
-      "keyword": "MY",
-      "type": "text",
-      "answer": "NOT MY FAULT"
-    },
-    {
-      "id": 91,
-      "original": "In my opinion, if a dog is small, it is more likely to bark.",
-      "transformed": "In my opinion, __________________ more likely it is to bark.",
-      "keyword": "THE",
-      "type": "text",
-      "answer": "THE SMALLER A DOG IS, THE"
-    },
-    {
-      "id": 92,
-      "original": "I play tennis every Wednesday.",
-      "transformed": "I play tennis __________________.",
-      "keyword": "A",
-      "type": "text",
-      "answer": "ON A WEDNESDAY"
-    },
-    {
-      "id": 93,
-      "original": "He is intelligent and so is she.",
-      "transformed": "__________________ are intelligent.",
-      "keyword": "BOTH",
-      "type": "text",
-      "answer": "BOTH HE AND SHE"
-    },
-    {
-      "id": 94,
-      "original": "All of the people in the room are French.",
-      "transformed": "In this room, __________________.",
-      "keyword": "IS",
-      "type": "text",
-      "answer": "EVERYONE IS FRENCH"
-    },
-    {
-      "id": 95,
-      "original": "Not everyone in this room is stupid.",
-      "transformed": "__________________ this room are intelligent.",
-      "keyword": "SOME",
-      "type": "text",
-      "answer": "SOME PEOPLE IN"
-    },
-    {
-      "id": 96,
-      "original": "He already has a conviction for shoplifting.",
-      "transformed": "He has __________________ shoplifting.",
-      "keyword": "OF",
-      "type": "text",
-      "answer": "A CONVICTION OF"
-    }
-  ]
-},
-{
-  "level": 13,
-  "questions": [
-    {
-      "id": 97,
-      "original": "If you believe all the stories about my brother's former boss, it is clear he wasn't very nice.",
-      "transformed": "My brother's former boss __________________ nice if you believe all the stories about him.",
-      "keyword": "BEEN",
-      "type": "text",
-      "answer": "WOULDN'T HAVE BEEN VERY"
-    },
-    {
-      "id": 98,
-      "original": "How about going to the cinema this evening?",
-      "transformed": "I __________________ the cinema.",
-      "keyword": "GOING",
-      "type": "text",
-      "answer": "SUGGEST GOING TO"
-    },
-    {
-      "id": 99,
-      "original": "I wasn't strong enough to push it all the way.",
-      "transformed": "I __________________ to push it all the way.",
-      "keyword": "STRENGTH",
-      "type": "text",
-      "answer": "HAD NO STRENGTH"
-    },
-    {
-      "id": 100,
-      "original": "There isn't any money at all in the bank account.",
-      "transformed": "There __________________ in the bank account.",
-      "keyword": "NO",
-      "type": "text",
-      "answer": "IS NO MONEY"
-    },
-    {
-      "id": 101,
-      "original": "Sharon is not as good at tennis as you.",
-      "transformed": "You __________________ Sharon.",
-      "keyword": "THAN",
-      "type": "text",
-      "answer": "ARE BETTER THAN"
-    },
-    {
-      "id": 102,
-      "original": "How do I complete this form?",
-      "transformed": "How __________________ form?",
-      "keyword": "FILL",
-      "type": "text",
-      "answer": "DO I FILL IN THIS"
-    },
-    {
-      "id": 103,
-      "original": "You should consider the position of sales manager very carefully.",
-      "transformed": "You should __________________ of sales manager very carefully.",
-      "keyword": "OVER",
-      "type": "text",
-      "answer": "THINK OVER THE POSITION"
-    },
-    {
-      "id": 104,
-      "original": "We managed to free ourselves and escaped.",
-      "transformed": "We __________________ and escaped.",
-      "keyword": "IN",
-      "type": "text",
-      "answer": "BROKE IN"
-    }
-  ]
-},
-{
-  "level": 14,
-  "questions": [
-    {
-      "id": 105,
-      "original": "\"Sorry that I drew that picture of you,\" he said to Tim.",
-      "transformed": "He __________________ the picture.",
-      "keyword": "APOLOGISED",
-      "type": "text",
-      "answer": "APOLOGISED FOR DRAWING"
-    },
-    {
-      "id": 106,
-      "original": "A nice walk in the park might help us both to relax, don't you think?",
-      "transformed": "Mike __________________ a walk in the park.",
-      "keyword": "SUGGESTED",
-      "type": "text",
-      "answer": "SUGGESTED GOING FOR"
-    },
-    {
-      "id": 107,
-      "original": "I really don't want to go out tonight.",
-      "transformed": "I __________________ out tonight.",
-      "keyword": "FEEL",
-      "type": "text",
-      "answer": "DON'T FEEL LIKE GOING"
-    },
-    {
-      "id": 108,
-      "original": "Astronomy fascinates Kate and she spends hours reading about it.",
-      "transformed": "Kate __________________ spends hours reading about it.",
-      "keyword": "IS",
-      "type": "text",
-      "answer": "IS SO FASCINATED BY ASTRONOMY SHE"
-    },
-    {
-      "id": 109,
-      "original": "If you stop smoking, you will feel much better for it.",
-      "transformed": "You'll feel much better if __________________.",
-      "keyword": "GIVE",
-      "type": "text",
-      "answer": "YOU GIVE UP SMOKING"
-    },
-    {
-      "id": 110,
-      "original": "I told you I would lend you the money and I will.",
-      "transformed": "I __________________ you the money and I will.",
-      "keyword": "PROMISED",
-      "type": "text",
-      "answer": "PROMISED TO LEND"
-    },
-    {
-      "id": 111,
-      "original": "I wish I had rung him earlier.",
-      "transformed": "I __________________ ring him earlier.",
-      "keyword": "SORRY",
-      "type": "text",
-      "answer": "AM SORRY I DIDN'T"
-    },
-    {
-      "id": 112,
-      "original": "The Wilsons are leaving shortly so go and tell them what we agreed.",
-      "transformed": "The Wilsons __________________ so go and tell them what we agreed.",
-      "keyword": "ABOUT",
-      "type": "text",
-      "answer": "ARE ABOUT TO LEAVE"
-    }
-  ]
-},
-{
-  "level": 15,
-  "questions": [
-    {
-      "id": 113,
-      "original": "\"Don't tell anyone about my wig, will you?\"",
-      "transformed": "Promise __________________ tell anyone about my wig!",
-      "keyword": "PROMISE",
-      "type": "text",
-      "answer": "NOT TO"
-    },
-    {
-      "id": 114,
-      "original": "I won't work late again. That would be the third time this week. I won't do it!",
-      "transformed": "Mr. Hamley __________________ as he has already done so twice this month.",
-      "keyword": "REFUSED",
-      "type": "text",
-      "answer": "REFUSED TO WORK LATE AGAIN"
-    },
-    {
-      "id": 115,
-      "original": "We couldn't afford The Regal Hotel so we stayed somewhere cheaper.",
-      "transformed": "The Regal Hotel __________________ so we stayed somewhere cheaper.",
-      "keyword": "COST",
-      "type": "text",
-      "answer": "COST TOO MUCH"
-    },
-    {
-      "id": 116,
-      "original": "\"Do you both work together?\", she asked the twins.",
-      "transformed": "She __________________ together.",
-      "keyword": "IF",
-      "type": "text",
-      "answer": "ASKED THE TWINS IF THEY WORKED"
-    },
-    {
-      "id": 117,
-      "original": "Is it OK if I open the window a little Miss Jackson?",
-      "transformed": "Miss Jackson, __________________ the window?",
-      "keyword": "MAY",
-      "type": "text",
-      "answer": "MAY I OPEN"
-    },
-    {
-      "id": 118,
-      "original": "Despite looking everywhere, he never found his wallet.",
-      "transformed": "He didn't find __________________ everywhere.",
-      "keyword": "ALTHOUGH",
-      "type": "text",
-      "answer": "HIS WALLET ALTHOUGH HE LOOKED"
-    },
-    {
-      "id": 119,
-      "original": "Imagine your father returning home now! What would he say?",
-      "transformed": "Just __________________ home now! What would he say?",
-      "keyword": "SUPPOSING",
-      "type": "text",
-      "answer": "SUPPOSING YOUR FATHER WERE RETURNING"
-    },
-    {
-      "id": 120,
-      "original": "I imagine you had a great time in Tunisia.",
-      "transformed": "You __________________ had a great time in Tunisia.",
-      "keyword": "MUST",
-      "type": "text",
-      "answer": "MUST HAVE"
-    }
-  ]
-},
-{
-  "level": 16,
-  "questions": [
-    {
-      "id": 121,
-      "original": "“It would be better to wait a year before going to university.”",
-      "transformed": "Peter __________________ to university for another year.",
-      "keyword": "ADVISED",
-      "type": "text",
-      "answer": "ADVISED HIM TO WAIT ANOTHER YEAR BEFORE GOING"
-    },
-    {
-      "id": 122,
-      "original": "“You will see better results if you study harder, Pete.”",
-      "transformed": "Pete’s mother __________________ saying he would see better results.",
-      "keyword": "ENCOURAGED",
-      "type": "text",
-      "answer": "ENCOURAGED HIM TO STUDY HARDER"
-    },
-    {
-      "id": 123,
-      "original": "I really don’t like sitting down all day.",
-      "transformed": "I __________________ chairs all day.",
-      "keyword": "STAND",
-      "type": "text",
-      "answer": "CAN’T STAND SITTING ON"
-    },
-    {
-      "id": 124,
-      "original": "“Do you like the work you do here, John?”",
-      "transformed": "Are you __________________ you do here, John?",
-      "keyword": "ON",
-      "type": "text",
-      "answer": "KEEN ON THE WORK"
-    },
-    {
-      "id": 125,
-      "original": "They had argued but were friends again by the time of the party.",
-      "transformed": "They __________________ and were friends again by the time of the party.",
-      "keyword": "MADE",
-      "type": "text",
-      "answer": "MADE UP"
-    },
-    {
-      "id": 126,
-      "original": "Mrs Patterson would sit on that old rocking chair for hours telling us stories from her childhood.",
-      "transformed": "Mrs Patterson __________________ old rocking chair for hours telling us stories from her childhood.",
-      "keyword": "USED",
-      "type": "text",
-      "answer": "USED TO SIT IN THAT"
-    },
-    {
-      "id": 127,
-      "original": "I regret not studying more in the final weeks.",
-      "transformed": "If __________________ more in the final weeks.",
-      "keyword": "ONLY",
-      "type": "text",
-      "answer": "ONLY I HAD STUDIED"
-    },
-    {
-      "id": 128,
-      "original": "It really annoys me how people use cell phones on the bus.",
-      "transformed": "I __________________ cell phones on the bus.",
-      "keyword": "WISH",
-      "type": "text",
-      "answer": "WISH PEOPLE WOULDN’T USE"
-    }
-  ]
-},
-{
-  "level": 17,
-  "questions": [
-    {
-      "id": 129,
-      "original": "\"You'd better not speak to me like that again!\" he said to me.",
-      "transformed": "I __________________ to him like that again.",
-      "keyword": "WARNED",
-      "type": "text",
-      "answer": "WAS WARNED NOT TO SPEAK"
-    },
-    {
-      "id": 130,
-      "original": "Don't ask Hannah here to have lunch on Friday. If you do, I won't stay to meet her.",
-      "transformed": "If I __________________ on Friday, I won't stay to meet her.",
-      "keyword": "INVITE",
-      "type": "text",
-      "answer": "AM INVITED HERE TO HAVE LUNCH"
-    },
-    {
-      "id": 131,
-      "original": "Do you think it would be a good idea to get my hair cut?",
-      "transformed": "Would you __________________ hair cut?",
-      "keyword": "SUGGEST",
-      "type": "text",
-      "answer": "SUGGEST I GET MY"
-    },
-    {
-      "id": 132,
-      "original": "I told him he should go and speak to his mother.",
-      "transformed": "He ought __________________ to speak to his mother.",
-      "keyword": "OUGHT",
-      "type": "text",
-      "answer": "TO HAVE GONE AND SPOKEN"
-    },
-    {
-      "id": 133,
-      "original": "If you don't call me, I won't know where you are!",
-      "transformed": "I won't know __________________ you call me!",
-      "keyword": "UNLESS",
-      "type": "text",
-      "answer": "WHERE YOU ARE UNLESS"
-    },
-    {
-      "id": 134,
-      "original": "We should leave now if we don't want to miss the start of the performance.",
-      "transformed": "It's __________________ or we'll miss the start of the performance.",
-      "keyword": "TIME",
-      "type": "text",
-      "answer": "TIME WE LEFT"
-    },
-    {
-      "id": 135,
-      "original": "Let's go to \"The Blue Whale\" where it's less crowded.",
-      "transformed": "\"The Blue Whale\" is __________________ here, so let's go there.",
-      "keyword": "AS",
-      "type": "text",
-      "answer": "LESS CROWDED THAN"
-    },
-    {
-      "id": 136,
-      "original": "I would prefer to stay at home tonight.",
-      "transformed": "I __________________ tonight.",
-      "keyword": "RATHER",
-      "type": "text",
-      "answer": "WOULD RATHER STAY AT HOME"
-    }
-  ]
-},
-{
-  "level": 18,
-  "questions": [
-    {
-      "id": 137,
-      "original": "They blamed the theft of the missing computer on Jenkins.",
-      "transformed": "Jenkins __________________ the missing computer.",
-      "keyword": "ACCUSED",
-      "type": "text",
-      "answer": "WAS ACCUSED OF STEALING"
-    },
-    {
-      "id": 138,
-      "original": "OK, I can see you tomorrow evening at six.",
-      "transformed": "My boss __________________ at six the following evening.",
-      "keyword": "AGREED",
-      "type": "text",
-      "answer": "AGREED TO SEE ME"
-    },
-    {
-      "id": 139,
-      "original": "Don't say you're ill if you're not!",
-      "transformed": "Don't __________________ you're not!",
-      "keyword": "PRETEND",
-      "type": "text",
-      "answer": "PRETEND TO BE"
-    },
-    {
-      "id": 140,
-      "original": "I haven't eaten ice cream for six months.",
-      "transformed": "I __________________ six months ago.",
-      "keyword": "UP",
-      "type": "text",
-      "answer": "GAVE UP EATING ICE CREAM"
-    },
-    {
-      "id": 141,
-      "original": "Are we allowed to drink coffee in this part of the building?",
-      "transformed": "Can __________________ in this part of the building?",
-      "keyword": "CAN",
-      "type": "text",
-      "answer": "WE DRINK COFFEE"
-    },
-    {
-      "id": 142,
-      "original": "Should you be in here Mark?",
-      "transformed": "Are __________________ Mark?",
-      "keyword": "SUPPOSED",
-      "type": "text",
-      "answer": "YOU SUPPOSED TO BE IN HERE"
-    },
-    {
-      "id": 143,
-      "original": "Why don't you help me more around the house?",
-      "transformed": "I __________________ more around the house.",
-      "keyword": "WISH",
-      "type": "text",
-      "answer": "WISH YOU WOULD HELP ME"
-    },
-    {
-      "id": 144,
-      "original": "The hill was slippery because of the rain so we had difficulty climbing.",
-      "transformed": "The rain __________________ so we had difficulty climbing.",
-      "keyword": "MADE",
-      "type": "text",
-      "answer": "MADE THE HILL SLIPPERY"
-    }
-  ]
-},
-{
-  "level": 19,
-  "questions": [
-    {
-      "id": 145,
-      "original": "It wasn't me who took the book. I didn't touch it!",
-      "transformed": "I __________________ the book.",
-      "keyword": "DENIED",
-      "type": "text",
-      "answer": "DENIED TAKING"
-    },
-    {
-      "id": 146,
-      "original": "I can take you to the airport if your flight is early.",
-      "transformed": "I __________________ Jenny to the airport for the following morning.",
-      "keyword": "OFFERED",
-      "type": "text",
-      "answer": "OFFERED TO DRIVE"
-    },
-    {
-      "id": 147,
-      "original": "\"Why not try for Harvard University, Karen?\"",
-      "transformed": "He __________________ apply to Harvard University.",
-      "keyword": "ENCOURAGED",
-      "type": "text",
-      "answer": "ENCOURAGED HER TO"
-    },
-    {
-      "id": 148,
-      "original": "Could I stay with you in Chicago for a few day, John?",
-      "transformed": "Could __________________ Chicago for a few days?",
-      "keyword": "PUT",
-      "type": "text",
-      "answer": "YOU PUT ME UP IN"
-    },
-    {
-      "id": 149,
-      "original": "I don't know how you tolerate such a miserable person.",
-      "transformed": "How do you __________________ is so miserable?",
-      "keyword": "PUT",
-      "type": "text",
-      "answer": "PUT UP WITH SOMEONE WHO"
-    },
-    {
-      "id": 150,
-      "original": "I would like to be thinner.",
-      "transformed": "I __________________ fat.",
-      "keyword": "WISH",
-      "type": "text",
-      "answer": "WISH I WERE LESS"
-    },
-    {
-      "id": 151,
-      "original": "\"Well done! You got the job,\" her mother said.",
-      "transformed": "Her mother __________________ job.",
-      "keyword": "ON",
-      "type": "text",
-      "answer": "CONGRATULATED HER ON GETTING THE"
-    },
-    {
-      "id": 152,
-      "original": "\"It was Peter who stole the fruit,\" Jenny shouted.",
-      "transformed": "Jenny __________________ stealing the fruit.",
-      "keyword": "FOR",
-      "type": "text",
-      "answer": "ACCUSED PETER OF"
-    }
-  ]
-},
-{
-  "level": 20,
-  "questions": [
-    {
-      "id": 153,
-      "original": "Though I haven't seen him for a month, we have spoken by phone.",
-      "transformed": "Carol __________________ on the phone.",
-      "keyword": "ADMITTED",
-      "type": "text",
-      "answer": "ADMITTED SHE HAD SPOKEN TO HIM"
-    },
-    {
-      "id": 154,
-      "original": "Visit my doctor, Dr. Hamish, if your arm is still hurting.",
-      "transformed": "My brother __________________ his doctor if my arm continued hurting.",
-      "keyword": "RECOMMENDED",
-      "type": "text",
-      "answer": "RECOMMENDED I SEE"
-    },
-    {
-      "id": 155,
-      "original": "I won't come. I have told you I am busy.",
-      "transformed": "I __________________ as I am busy.",
-      "keyword": "REFUSE",
-      "type": "text",
-      "answer": "REFUSE TO COME"
-    },
-    {
-      "id": 156,
-      "original": "It isn't possible that Jane was absent from work today.",
-      "transformed": "Jane __________________ work today.",
-      "keyword": "MUST",
-      "type": "text",
-      "answer": "MUST HAVE BEEN AT"
-    },
-    {
-      "id": 157,
-      "original": "I drive both a sports car and an off-road vehicle.",
-      "transformed": "In __________________, I also drive an off-road vehicle.",
-      "keyword": "ADDITION",
-      "type": "text",
-      "answer": "ADDITION TO MY SPORTS CAR"
-    },
-    {
-      "id": 158,
-      "original": "Barry continued to smoke even though his doctor told him to quit.",
-      "transformed": "__________________ not to, Barry continued to smoke.",
-      "keyword": "DESPITE",
-      "type": "text",
-      "answer": "DESPITE BEING TOLD"
-    },
-    {
-      "id": 159,
-      "original": "Only a few books were left at the yard sale when we left.",
-      "transformed": "__________________ been sold when we left the yard sale.",
-      "keyword": "MOST",
-      "type": "text",
-      "answer": "MOST OF THEM HAD"
-    },
-    {
-      "id": 160,
-      "original": "Was it really necessary to buy such an expensive bottle of wine?",
-      "transformed": "Was there __________________ an expensive bottle of wine?",
-      "keyword": "NEED",
-      "type": "text",
-      "answer": "ANY NEED TO BUY"
-    }
-  ]
-},
-{
-  "level": 21,
-  "questions": [
-    {
-      "id": 161,
-      "original": "How much do these leather shoes cost?",
-      "transformed": "What __________________ these leather shoes?",
-      "keyword": "PRICE",
-      "type": "text",
-      "answer": "IS THE PRICE OF"
-    },
-    {
-      "id": 162,
-      "original": "It's not important if you come to work today or not.",
-      "transformed": "It __________________ you come to work today or not.",
-      "keyword": "MATTER",
-      "type": "text",
-      "answer": "DOESN'T MATTER WHETHER"
-    },
-    {
-      "id": 163,
-      "original": "Parking is prohibited in all areas of the business park.",
-      "transformed": "You __________________ the business park.",
-      "keyword": "ANYWHERE",
-      "type": "text",
-      "answer": "MUST NOT PARK ANYWHERE IN"
-    },
-    {
-      "id": 164,
-      "original": "Mark's biggest problem is that he often ignores what I say in class.",
-      "transformed": "His biggest problem is that he __________________ to what I say in class.",
-      "keyword": "PAY",
-      "type": "text",
-      "answer": "DOESN'T PAY ATTENTION"
-    },
-    {
-      "id": 165,
-      "original": "Your sister said she had told you everything.",
-      "transformed": "Your sister __________________ everything.",
-      "keyword": "ADMITTED",
-      "type": "text",
-      "answer": "ADMITTED HAVING TOLD YOU"
-    },
-    {
-      "id": 166,
-      "original": "If we light the fire, the rescuers will see us.",
-      "transformed": "We __________________ rescuers if we light the fire.",
-      "keyword": "BE",
-      "type": "text",
-      "answer": "WILL BE SEEN BY"
-    },
-    {
-      "id": 167,
-      "original": "For us to win this match now would be impossible.",
-      "transformed": "There is __________________ this match now.",
-      "keyword": "HOPE",
-      "type": "text",
-      "answer": "NO HOPE OF WINNING"
-    },
-    {
-      "id": 168,
-      "original": "Don't tell anyone this information",
-      "transformed": "Keep __________________.",
-      "keyword": "KEEP",
-      "type": "text",
-      "answer": "THIS INFORMATION TO YOURSELF"
-    }
-  ]
-},
-{
-  "level": 22,
-  "questions": [
-    {
-      "id": 169,
-      "original": "Fred asked the cost of one night in the hotel.",
-      "transformed": "\"How __________________ per night, please?\"",
-      "keyword": "DOES",
-      "type": "text",
-      "answer": "MUCH DOES IT COST"
-    },
-    {
-      "id": 170,
-      "original": "The last time I went to the museum was a week ago.",
-      "transformed": "I __________________ museum for a week.",
-      "keyword": "BEEN",
-      "type": "text",
-      "answer": "HAVEN'T BEEN TO THE"
-    },
-    {
-      "id": 171,
-      "original": "It is certainly a good example of Van Gogh's work.",
-      "transformed": "There's __________________ a good example of Van Gogh's work.",
-      "keyword": "NO",
-      "type": "text",
-      "answer": "NO BETTER EXAMPLE OF"
-    },
-    {
-      "id": 172,
-      "original": "Pay attention to me!",
-      "transformed": "__________________ saying!",
-      "keyword": "LISTEN",
-      "type": "text",
-      "answer": "LISTEN TO WHAT I'M"
-    },
-    {
-      "id": 173,
-      "original": "I regret leaving my job now.",
-      "transformed": "I __________________ my job.",
-      "keyword": "WISH",
-      "type": "text",
-      "answer": "WISH I HADN'T LEFT"
-    },
-    {
-      "id": 174,
-      "original": "\"I went to the cinema before going to the cafe,\" he said.",
-      "transformed": "He said he __________________ before the cafe.",
-      "keyword": "HAD",
-      "type": "text",
-      "answer": "HAD GONE TO THE CINEMA"
-    },
-    {
-      "id": 175,
-      "original": "I've never seen so many people in this bar before.",
-      "transformed": "This is __________________ ever seen so many people in this bar.",
-      "keyword": "FIRST",
-      "type": "text",
-      "answer": "THE FIRST TIME I'VE"
-    },
-    {
-      "id": 176,
-      "original": "You should tell her what you think and let her decide.",
-      "transformed": "You __________________ what you think and let her decide.",
-      "keyword": "BETTER",
-      "type": "text",
-      "answer": "WOULD BE BETTER TO TELL"
-    }
-  ]
-},
-{
-  "level": 23,
-  "questions": [
-    {
-      "id": 177,
-      "original": "Don't continue to speak if I've asked you a question.",
-      "transformed": "Don't __________________ have asked you a question.",
-      "keyword": "ON",
-      "type": "text",
-      "answer": "GO ON SPEAKING"
-    },
-    {
-      "id": 178,
-      "original": "We arrive at the castle one hour after we leave the hotel.",
-      "transformed": "It __________________ to the castle.",
-      "keyword": "GET",
-      "type": "text",
-      "answer": "GETS US TO THE CASTLE ONE HOUR AFTER WE LEAVE THE HOTEL"
-    },
-    {
-      "id": 179,
-      "original": "Can you take care of Mary on Saturday evening for us?",
-      "transformed": "Can __________________ Saturday evening for us?",
-      "keyword": "LOOK",
-      "type": "text",
-      "answer": "LOOK AFTER MARY"
-    },
-    {
-      "id": 180,
-      "original": "Is that wallet yours, John?",
-      "transformed": "Does __________________, John?",
-      "keyword": "BELONG",
-      "type": "text",
-      "answer": "THAT WALLET BELONG TO YOU"
-    },
-    {
-      "id": 181,
-      "original": "You have only just started work on this project.",
-      "transformed": "You __________________ this project.",
-      "keyword": "HARDLY",
-      "type": "text",
-      "answer": "HAVE HARDLY STARTED WORK ON"
-    },
-    {
-      "id": 182,
-      "original": "In this office, I am responsible for the sales department.",
-      "transformed": "I am __________________ department.",
-      "keyword": "CHARGE",
-      "type": "text",
-      "answer": "IN CHARGE OF THE SALES DEPARTMENT"
-    },
-    {
-      "id": 183,
-      "original": "When I see Lucy, I always think of my youngest sister.",
-      "transformed": "Lucy __________________ younger sister.",
-      "keyword": "ME",
-      "type": "text",
-      "answer": "MAKES ME THINK OF MY"
-    },
-    {
-      "id": 184,
-      "original": "This is the cheapest typewriter you can buy.",
-      "transformed": "There __________________ on the market.",
-      "keyword": "CHEAPER",
-      "type": "text",
-      "answer": "IS NO CHEAPER TYPEWRITER"
-    }
-  ]
-},
-{
-  "level": 24,
-  "questions": [
-    {
-      "id": 185,
-      "original": "Heavy rain has caused the cancellation of the outdoor garden party.",
-      "transformed": "__________________, the garden party has been cancelled.",
-      "keyword": "DUE",
-      "type": "text",
-      "answer": "DUE TO HEAVY RAIN"
-    },
-    {
-      "id": 186,
-      "original": "There isn't enough space for me to park my car there.",
-      "transformed": "My car __________________ in that space.",
-      "keyword": "FIT",
-      "type": "text",
-      "answer": "WOULDN'T FIT"
-    },
-    {
-      "id": 187,
-      "original": "Phone me immediately after you arrive at the conference.",
-      "transformed": "__________________ at the conference, telephone me.",
-      "keyword": "SOON",
-      "type": "text",
-      "answer": "AS SOON AS YOU ARRIVE"
-    },
-    {
-      "id": 188,
-      "original": "Who does this pen belong to?",
-      "transformed": "Do you know __________________?",
-      "keyword": "WHOSE",
-      "type": "text",
-      "answer": "WHOSE THIS PEN IS"
-    },
-    {
-      "id": 189,
-      "original": "The amount of money spent on the project makes it very important.",
-      "transformed": "This project __________________ owing to the money spent on it.",
-      "keyword": "OF",
-      "type": "text",
-      "answer": "IS OF GREAT IMPORTANCE"
-    },
-    {
-      "id": 190,
-      "original": "At first, I couldn't speak Russian. Now I find it easy.",
-      "transformed": "Eventually, I __________________ Russian.",
-      "keyword": "GOT",
-      "type": "text",
-      "answer": "GOT USED TO SPEAKING"
-    },
-    {
-      "id": 191,
-      "original": "Is your house big enough to take us if we come and stay for a few days?",
-      "transformed": "Is there __________________ if we come and stay for a few days?",
-      "keyword": "ROOM",
-      "type": "text",
-      "answer": "ROOM FOR US TO STAY"
-    },
-    {
-      "id": 192,
-      "original": "Although it was raining, we had the barbecue.",
-      "transformed": "In __________________, we had the barbecue.",
-      "keyword": "SPITE",
-      "type": "text",
-      "answer": "SPITE OF THE RAIN"
-    }
-  ]
-},
-{
-  "level": 25,
-  "questions": [
-    {
-      "id": 193,
-      "original": "Do you regret leaving your job now?",
-      "transformed": "Do you wish __________________ job now?",
-      "keyword": "YOU",
-      "type": "text",
-      "answer": "YOU HADN'T LEFT YOUR"
-    },
-    {
-      "id": 194,
-      "original": "Could you try a little harder to listen to what I'm saying?",
-      "transformed": "Can you __________________ listen to what I'm saying?",
-      "keyword": "EFFORT",
-      "type": "text",
-      "answer": "MAKE A BIT MORE EFFORT TO"
-    },
-    {
-      "id": 195,
-      "original": "It doesn't matter which chemical you put into the mixture first. The results will be the same.",
-      "transformed": "It __________________ you put into the mixture first.",
-      "keyword": "DIFFERENCE",
-      "type": "text",
-      "answer": "MAKES NO DIFFERENCE WHICH CHEMICAL"
-    },
-    {
-      "id": 196,
-      "original": "My mother said I could go with you only if I return home by 5pm.",
-      "transformed": "I can go with you __________________ home by 5pm.",
-      "keyword": "LONG",
-      "type": "text",
-      "answer": "AS LONG AS I RETURN"
-    },
-    {
-      "id": 197,
-      "original": "Unfortunately, I couldn't see you because I didn't have time.",
-      "transformed": "If I had had more time, I __________________ see you.",
-      "keyword": "ABLE",
-      "type": "text",
-      "answer": "WOULD HAVE BEEN ABLE TO"
-    },
-    {
-      "id": 198,
-      "original": "These windows need cleaning again.",
-      "transformed": "These windows will __________________.",
-      "keyword": "HAVE",
-      "type": "text",
-      "answer": "HAVE TO BE CLEANED"
-    },
-    {
-      "id": 199,
-      "original": "It wasn't a good idea resigning from your job before you have another one.",
-      "transformed": "It would __________________ hadn't resigned from your job.",
-      "keyword": "BETTER",
-      "type": "text",
-      "answer": "HAVE BEEN BETTER IF YOU"
-    },
-    {
-      "id": 200,
-      "original": "Hardly any of the cars on special offer were left when we arrived.",
-      "transformed": "By the time we arrived, __________________ had been bought.",
-      "keyword": "NEARLY",
-      "type": "text",
-      "answer": "NEARLY ALL THE CARS"
-    }
-  ]
-},
-{
-  "level": 26,
-  "questions": [
-    {
-      "id": 201,
-      "original": "The Queen is launching this ship tomorrow morning.",
-      "transformed": "This ship __________________ the Queen tomorrow morning.",
-      "keyword": "BEING",
-      "type": "text",
-      "answer": "IS BEING LAUNCHED BY"
-    },
-    {
-      "id": 202,
-      "original": "Could you try and spend a little less on Christmas presents this year?",
-      "transformed": "I would rather __________________ money on Christmas presents this year.",
-      "keyword": "RATHER",
-      "type": "text",
-      "answer": "NOT SPEND SO MUCH"
-    },
-    {
-      "id": 203,
-      "original": "If you find a dress cheaper in another store, can you tell me?",
-      "transformed": "Let me know __________________ elsewhere.",
-      "keyword": "LET",
-      "type": "text",
-      "answer": "IF YOU FIND THE DRESS CHEAPER"
-    },
-    {
-      "id": 204,
-      "original": "Can you distribute these tests to the other students, Kathy?",
-      "transformed": "Can you hand __________________ to the other students, Kathy?",
-      "keyword": "HAND",
-      "type": "text",
-      "answer": "THESE TESTS OUT"
-    },
-    {
-      "id": 205,
-      "original": "The report says a child was operating the machine.",
-      "transformed": "According to the report, the machine __________________ by a child.",
-      "keyword": "BEING",
-      "type": "text",
-      "answer": "WAS BEING OPERATED"
-    },
-    {
-      "id": 206,
-      "original": "I didn't see anyone wearing yellow at the dinner.",
-      "transformed": "There __________________ wearing yellow at the dinner.",
-      "keyword": "NOBODY",
-      "type": "text",
-      "answer": "WAS NOBODY"
-    },
-    {
-      "id": 207,
-      "original": "I can't wait to see Margaret's face when we arrive.",
-      "transformed": "I'm __________________ Margaret's face when we arrive.",
-      "keyword": "FORWARD",
-      "type": "text",
-      "answer": "LOOKING FORWARD TO SEEING"
-    },
-    {
-      "id": 208,
-      "original": "Once you give me a full description of the hotel, I can decide whether or not to go there.",
-      "transformed": "I can decide to go to the hotel after __________________.",
-      "keyword": "DESCRIBE",
-      "type": "text",
-      "answer": "YOU DESCRIBE IT TO ME"
-    }
-  ]
-},
-{
-  "level": 27,
-  "questions": [
-    {
-      "id": 209,
-      "original": "In my opinion, it was an error to give him so much money so young.",
-      "transformed": "He __________________ so much money at such a young age.",
-      "keyword": "SHOULD",
-      "type": "text",
-      "answer": "SHOULDN'T HAVE BEEN GIVEN"
-    },
-    {
-      "id": 210,
-      "original": "Do you think this antique vase is good value for money?",
-      "transformed": "In your opinion, is __________________ buying?",
-      "keyword": "WORTH",
-      "type": "text",
-      "answer": "IT WORTH"
-    },
-    {
-      "id": 211,
-      "original": "The lesson was cancelled as only three students came.",
-      "transformed": "Only three students __________________ the lesson, so it was cancelled.",
-      "keyword": "TURNED",
-      "type": "text",
-      "answer": "TURNED UP FOR"
-    },
-    {
-      "id": 212,
-      "original": "The picnic was cancelled due to the rain.",
-      "transformed": "The picnic __________________ rain.",
-      "keyword": "BECAUSE",
-      "type": "text",
-      "answer": "WAS CANCELLED BECAUSE OF"
-    },
-    {
-      "id": 213,
-      "original": "When you get to the large oak tree, keep going until you get to the lake.",
-      "transformed": "After getting to the large oak tree, __________________ until you get to the lake.",
-      "keyword": "CARRY",
-      "type": "text",
-      "answer": "CARRY ON"
-    },
-    {
-      "id": 214,
-      "original": "This is the most expensive book we've seen so far in this shop.",
-      "transformed": "There hasn't __________________ than this in the shop so far.",
-      "keyword": "MORE",
-      "type": "text",
-      "answer": "BEEN A MORE EXPENSIVE BOOK"
-    },
-    {
-      "id": 215,
-      "original": "Whose is this bicycle?",
-      "transformed": "Who __________________ to?",
-      "keyword": "BELONG",
-      "type": "text",
-      "answer": "DOES THIS BICYCLE BELONG"
-    },
-    {
-      "id": 216,
-      "original": "She doesn't usually eat three meals a day, so she got full pretty quickly.",
-      "transformed": "She __________________ three meals a day, so she got full quickly.",
-      "keyword": "USED",
-      "type": "text",
-      "answer": "ISN'T USED TO EATING"
-    }
-  ]
-},
-{
-  "level": 28,
-  "questions": [
-    {
-      "id": 217,
-      "original": "That fence is there to prevent you entering the grounds of the house.",
-      "transformed": "They put the fence there __________________ enter the grounds of the house.",
-      "keyword": "SO/CAN'T",
-      "type": "text",
-      "answer": "SO THAT YOU CAN'T"
-    },
-    {
-      "id": 218,
-      "original": "Does your brother have the ability to take so many exams in the same week?",
-      "transformed": "Is __________________ capable of taking so many exams in the same week?",
-      "keyword": "CAPABLE",
-      "type": "text",
-      "answer": "YOUR BROTHER CAPABLE"
-    },
-    {
-      "id": 219,
-      "original": "We were able to cross the river, despite the strong current.",
-      "transformed": "We __________________ despite the strong current.",
-      "keyword": "SUCCEEDED",
-      "type": "text",
-      "answer": "SUCCEEDED IN CROSSING"
-    },
-    {
-      "id": 220,
-      "original": "I would prefer you to leave now. Goodbye.",
-      "transformed": "I __________________ now. Goodbye.",
-      "keyword": "RATHER",
-      "type": "text",
-      "answer": "WOULD RATHER YOU LEFT"
-    },
-    {
-      "id": 221,
-      "original": "I think you should say sorry for your behavior.",
-      "transformed": "I think __________________ behaviour.",
-      "keyword": "APOLOGISE",
-      "type": "text",
-      "answer": "YOU SHOULD APOLOGISE FOR YOUR"
-    },
-    {
-      "id": 222,
-      "original": "I have a lot to do so I can't come with you to the cinema this afternoon.",
-      "transformed": "I have __________________ to be able to come to the cinema.",
-      "keyword": "TOO",
-      "type": "text",
-      "answer": "TOO MUCH TO DO"
-    },
-    {
-      "id": 223,
-      "original": "Entrance into the museum is free today.",
-      "transformed": "It __________________ the museum today.",
-      "keyword": "COSTS",
-      "type": "text",
-      "answer": "COSTS NOTHING TO ENTER"
-    },
-    {
-      "id": 224,
-      "original": "All the cars have been cleaned except the manager's.",
-      "transformed": "The manager's is the __________________ been cleaned.",
-      "keyword": "WHICH",
-      "type": "text",
-      "answer": "ONLY ONE WHICH HASN'T"
-    }
-  ]
-},
-
-{
-  "level": 29,
-  "questions": [
-    {
-      "id": 225,
-      "original": "We'll go for a walk only if the weather is nice.",
-      "transformed": "We'll go for a walk __________________ is nice.",
-      "keyword": "LONG",
-      "type": "text",
-      "answer": "SO LONG AS THE WEATHER"
-    },
-    {
-      "id": 226,
-      "original": "Go to my chiropractor, Dr. Smith, if your back pain persists.",
-      "transformed": "My co-worker __________________ his chiropractor if my back pain persisted.",
-      "keyword": "RECOMMENDED",
-      "type": "text",
-      "answer": "RECOMMENDED I GO TO"
-    },
-    {
-      "id": 227,
-      "original": "This book is not mine.",
-      "transformed": "This book doesn't __________________.",
-      "keyword": "BELONG",
-      "type": "text",
-      "answer": "BELONG TO ME"
-    },
-    {
-      "id": 228,
-      "original": "I told my son I would buy him the toy only if he came home on time.",
-      "transformed": "I told my son I would buy him the toy, as __________________ home on time.",
-      "keyword": "LONG",
-      "type": "text",
-      "answer": "SO LONG AS HE CAME"
-    },
-    {
-      "id": 229,
-      "original": "They had disagreed but reached a consensus before the presentation.",
-      "transformed": "They __________________ agreement before the presentation.",
-      "keyword": "COME",
-      "type": "text",
-      "answer": "CAME TO AN"
-    },
-    {
-      "id": 230,
-      "original": "The shop down the street usually fixes my bike.",
-      "transformed": "I usually __________________ by the shop down the street.",
-      "keyword": "HAVE",
-      "type": "text",
-      "answer": "HAVE MY BIKE FIXED"
-    },
-    {
-      "id": 231,
-      "original": "This cake is more delicious than the one I had yesterday.",
-      "transformed": "This cake is not __________________ the one I had yesterday.",
-      "keyword": "AS",
-      "type": "text",
-      "answer": "AS DELICIOUS AS"
-    },
-    {
-      "id": 232,
-      "original": "The event was cancelled as only a few people showed up.",
-      "transformed": "Only a __________________ the event, so it was cancelled.",
-      "keyword": "TURNED",
-      "type": "text",
-      "answer": "FEW TURNED UP FOR"
-    }
-  ]
-},
-
-{
-  "level": 30,
-  "questions": [
-    {
-      "id": 233,
-      "original": "\"You need to complete your assignment today,\" the instructor said.",
-      "transformed": "The instructor __________________ my assignment today.",
-      "keyword": "TOLD",
-      "type": "text",
-      "answer": "TOLD ME TO COMPLETE"
-    },
-    {
-      "id": 234,
-      "original": "It would be better to save money before buying a new car.",
-      "transformed": "Laura __________________ before purchasing a new car.",
-      "keyword": "SUGGESTED",
-      "type": "text",
-      "answer": "SUGGESTED SAVING MONEY"
-    },
-    {
-      "id": 235,
-      "original": "Karen is too anti-social to attend the party.",
-      "transformed": "Karen is not __________________ the party.",
-      "keyword": "SOCIABLE",
-      "type": "text",
-      "answer": "SOCIABLE ENOUGH TO ATTEND"
-    },
-    {
-      "id": 236,
-      "original": "The cake is too big for the box.",
-      "transformed": "The box isn't __________________ the cake.",
-      "keyword": "ENOUGH",
-      "type": "text",
-      "answer": "BIG ENOUGH FOR"
-    },
-    {
-      "id": 237,
-      "original": "It's improbable that Lucy missed the bus this morning.",
-      "transformed": "Lucy __________________ the bus this morning.",
-      "keyword": "MUST",
-      "type": "text",
-      "answer": "MUST NOT HAVE MISSED"
-    },
-    {
-      "id": 238,
-      "original": "It's a pity the concert tickets are sold out.",
-      "transformed": "I __________________ weren't sold out.",
-      "keyword": "WISH",
-      "type": "text",
-      "answer": "WISH THEY"
-    },
-    {
-      "id": 239,
-      "original": "I didn't like the shirt, so I returned it to the shop.",
-      "transformed": "I didn't like the shirt, so I __________________ the shop.",
-      "keyword": "TOOK",
-      "type": "text",
-      "answer": "TOOK IT BACK TO"
-    },
-    {
-      "id": 240,
-      "original": "In this team, I oversee the marketing division.",
-      "transformed": "I am __________________ division.",
-      "keyword": "CHARGE",
-      "type": "text",
-      "answer": "IN CHARGE OF THE MARKETING"
-    }
-  ]
-},
-{
-  "level": 31,
-  "questions": [
-    {
-      "id": 241,
-      "original": "There's a total lack of communication in our team.",
-      "transformed": "Our __________________ communication at all.",
-      "keyword": "NO",
-      "type": "text",
-      "answer": "TEAM HAS NO"
-    },
-    {
-      "id": 242,
-      "original": "It's not necessary for you to attend the meeting.",
-      "transformed": "You __________________ the meeting.",
-      "keyword": "NEED",
-      "type": "text",
-      "answer": "DON'T NEED TO ATTEND"
-    },
-    {
-      "id": 243,
-      "original": "Why not join us for dinner tonight?",
-      "transformed": "She __________________ for dinner tonight.",
-      "keyword": "SUGGESTED",
-      "type": "text",
-      "answer": "SUGGESTED JOINING US"
-    },
-    {
-      "id": 244,
-      "original": "I didn't accept the job offer from the prestigious company.",
-      "transformed": "I __________________ from the prestigious company.",
-      "keyword": "DOWN",
-      "type": "text",
-      "answer": "TURNED IT DOWN"
-    },
-    {
-      "id": 245,
-      "original": "This painting is undoubtedly a masterpiece by Monet.",
-      "transformed": "There's __________________ a masterpiece by Monet.",
-      "keyword": "NO",
-      "type": "text",
-      "answer": "NO DOUBT THAT THIS IS"
-    },
-    {
-      "id": 246,
-      "original": "The mechanic fixed her car.",
-      "transformed": "She __________________ by the mechanic.",
-      "keyword": "HAD",
-      "type": "text",
-      "answer": "HAD HER CAR FIXED"
-    },
-    {
-      "id": 247,
-      "original": "It's possible she was in the garden, so she didn't hear the phone ring.",
-      "transformed": "She __________________ the garden, so she didn't hear the phone ring.",
-      "keyword": "MAY",
-      "type": "text",
-      "answer": "MAY HAVE BEEN IN"
-    },
-    {
-      "id": 248,
-      "original": "Winning this chess match is now beyond our reach.",
-      "transformed": "There is __________________ this chess match now.",
-      "keyword": "HOPE",
-      "type": "text",
-      "answer": "NO HOPE OF WINNING"
-    }
-  ]
-},
-{
-  "level": 32,
-  "questions": [
-    {
-      "id": 249,
-      "original": "The teacher explains the rules at the start of the class.",
-      "transformed": "At the start of the class, students __________________ the rules.",
-      "keyword": "TOLD",
-      "type": "text",
-      "answer": "ARE TOLD"
-    },
-    {
-      "id": 250,
-      "original": "They will have informed her about the decision by now.",
-      "transformed": "She __________________ about the decision by now.",
-      "keyword": "TOLD",
-      "type": "text",
-      "answer": "WILL HAVE BEEN TOLD"
-    },
-    {
-      "id": 251,
-      "original": "This is the best deal on the smartphone you can find.",
-      "transformed": "You __________________ deal on the smartphone.",
-      "keyword": "BETTER",
-      "type": "text",
-      "answer": "WOULDN'T FIND A BETTER"
-    },
-    {
-      "id": 252,
-      "original": "Don't worry if you can't finish the task today.",
-      "transformed": "It __________________ you can't finish the task today.",
-      "keyword": "MATTER",
-      "type": "text",
-      "answer": "DOESN'T MATTER IF"
-    },
-    {
-      "id": 253,
-      "original": "The book that I borrowed from you is interesting.",
-      "transformed": "The book __________________ from you is interesting.",
-      "keyword": "WHICH",
-      "type": "text",
-      "answer": "WHICH I BORROWED"
-    },
-    {
-      "id": 254,
-      "original": "They must finish their work before they leave.",
-      "transformed": "They __________________ their work before they leave.",
-      "keyword": "HAVE",
-      "type": "text",
-      "answer": "HAVE TO FINISH"
-    },
-    {
-      "id": 255,
-      "original": "Not as many people know about this amazing restaurant.",
-      "transformed": "This amazing restaurant is __________________ known.",
-      "keyword": "WIDELY",
-      "type": "text",
-      "answer": "NOT WIDELY"
-    },
-    {
-      "id": 256,
-      "original": "I haven't visited the art gallery in a month.",
-      "transformed": "I __________________ the art gallery for a month.",
-      "keyword": "BEEN",
-      "type": "text",
-      "answer": "HAVEN'T BEEN TO"
-    }
-  ]
-}
-
-
-
-
-
-
-
-
-
-
-  ]
-
-  
 }

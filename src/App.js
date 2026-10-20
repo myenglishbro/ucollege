@@ -7,7 +7,7 @@ import "./index.css"
 import Home from "./pages/Home";
 
 import Store from "./pages/Store";
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import RoadMap from "./pages/RoadMap";
 import RoadMapEngine from "./pages/RoadMapEngine";
 import RoadMapMix from "./pages/RoadMapMix";
@@ -127,13 +127,20 @@ function App() {
                     <Route path="/pastsimpleprogressive" element={<Desafio03 />}></Route>
                     <Route path="/essentialgrammar" element={<Essentialgrammar />}></Route>
 
-           <Route path="/uoe1" element={<UseOfEnglishInline />}></Route>
-            <Route path="/uoe2" element={<UseOfEnglishInline2 />}></Route>
-           <Route path="/uoe3" element={<UseOfEnglishInline3 />}></Route>
-           <Route path="/uoe4" element={<KeywordTransformation  />}></Route>
+           <Route path="/uoepart1" element={<UseOfEnglishInline />}></Route>
+            <Route path="/uoepart2" element={<UseOfEnglishInline2 />}></Route>
+           <Route path="/uoepart3" element={<UseOfEnglishInline3 />}></Route>
+           <Route path="/uoepart4" element={<KeywordTransformation  />}></Route>
 
             <Route path="/uoe1-2" element={<MultiLevelQuiz3 />}></Route>
-                        <Route path="/uoe5" element={<ReadingComprehension  />}></Route>
+                        <Route path="/uoepart5" element={<ReadingComprehension  />}></Route>
+
+            {/* Old URLs keep working for links that were already shared */}
+            <Route path="/uoe1" element={<Navigate to="/uoepart1" replace />}></Route>
+            <Route path="/uoe2" element={<Navigate to="/uoepart2" replace />}></Route>
+            <Route path="/uoe3" element={<Navigate to="/uoepart3" replace />}></Route>
+            <Route path="/uoe4" element={<Navigate to="/uoepart4" replace />}></Route>
+            <Route path="/uoe5" element={<Navigate to="/uoepart5" replace />}></Route>
 
       
           <Route path="/devs" element={<MultiLevelQuiz4 />}></Route>

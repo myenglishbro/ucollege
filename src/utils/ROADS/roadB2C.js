@@ -380,10 +380,10 @@ export const roadB2C = [
         channel: "sdasd",
         description: " ",
         enlaces: [
-            { titulo: "Multiple Choice Cloze Simulation I ", descripcion: "The first part of the Use of English paper in the B2 First Examination is multiple choice cloze where students have to choose the correct word from four similar given words.", url4: "https://learnibox.vercel.app/uoe1" },
+            { titulo: "Multiple Choice Cloze Simulation I ", descripcion: "The first part of the Use of English paper in the B2 First Examination is multiple choice cloze where students have to choose the correct word from four similar given words.", url4: "https://learnibox.vercel.app/uoepart1" },
 
             { titulo: "Multiple Choice Cloze Simulation II ", descripcion: "The first part of the Use of English paper in the B2 First Examination is multiple choice cloze where students have to choose the correct word from four similar given words.", url4: "https://learnibox.vercel.app/multiplechoice" },
-            { titulo: "Open Cloze", descripcion: "The second part of the Use of English paper in the B2 First Examination is open cloze, in which students use one word to fill each space in a short text. The required words are usually grammatical, such as pronouns, articles, prepositions, auxiliary verbs and so on.", url4: "https://learnibox.vercel.app/uoe2" },
+            { titulo: "Open Cloze", descripcion: "The second part of the Use of English paper in the B2 First Examination is open cloze, in which students use one word to fill each space in a short text. The required words are usually grammatical, such as pronouns, articles, prepositions, auxiliary verbs and so on.", url4: "https://learnibox.vercel.app/uoepart2" },
 
 
 

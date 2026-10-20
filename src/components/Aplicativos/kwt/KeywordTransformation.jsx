@@ -1,846 +1,550 @@
-import React, { useEffect, useState } from "react";
-import { AnimatePresence, motion } from "framer-motion";
+import React, { useEffect, useMemo, useRef, useState } from "react";
 import exercisesData from "./data/keywordExercises.json";
+import {
+  palette,
+  sans,
+  serif,
+  sheetShadow,
+  formatTime,
+  readBest,
+  writeBest,
+  ExamBar,
+  PartPill,
+  FooterBrand,
+  ScoreRing
+} from "../shared/examUi";
 
-// Modern, warm palette and typography
-const palette = {
-  navy: "#0f1f30",
-  deepBlue: "#2b4157",
-  gold: "#f2b76b",
-  sky: "#e6eef7",
-  porcelain: "#fdfbf7",
-  surfaceAlt: "#ffffff",
-  border: "#e5e9f0",
-  muted: "#43556b",
-  accent: "#2bb6a8",
-  success: "#138a63",
-  danger: "#d14343"
+const STORAGE_KEY = "uoe4-best-scores";
+const MAX_WORDS = 5;
+
+// Compare answers the way an examiner would: ignore case, spacing, final punctuation and contraction style
+const normalise = value =>
+  String(value ?? "")
+    .toLowerCase()
+    .replace(/[’‘]/g, "'")
+    .replace(/[.!?,;]+$/g, "")
+    .replace(/\bcan't\b/g, "cannot")
+    .replace(/\bcan not\b/g, "cannot")
+    .replace(/\bwon't\b/g, "will not")
+    .replace(/n't\b/g, " not")
+    .replace(/'m\b/g, " am")
+    .replace(/'re\b/g, " are")
+    .replace(/'ve\b/g, " have")
+    .replace(/'ll\b/g, " will")
+    .replace(/'d rather\b/g, " would rather")
+    .replace(/\s+/g, " ")
+    .trim();
+
+const wordCount = value => (value.trim() ? value.trim().split(/\s+/).length : 0);
+
+const isCorrect = (q, value) => {
+  const typed = normalise(value);
+  return !!typed && [q.answer, ...(q.alternatives || [])].some(a => normalise(a) === typed);
 };
-// Cambridge-inspired typography: serif titles, clean sans body (no extra deps; relies on fallbacks).
-const serif = "'Libre Baskerville', 'Baskerville', 'Georgia', 'Times New Roman', serif";
-const sans = "'Sora', system-ui, -apple-system, 'Segoe UI', Roboto, Arial, sans-serif";
-const logoUrl = "https://i.ibb.co/C3kRtYQG/zxczx-2-1.png";
-const socialLinks = [
-  { label: "YouTube", href: "https://www.youtube.com/@myenglishbro" },
-  { label: "TikTok", href: "https://www.tiktok.com/@myenglishbro" },
-  { label: "Instagram", href: "https://www.instagram.com/myenglishbro" },
-  { label: "LinkedIn", href: "https://www.linkedin.com/company/myenglishbro" }
-];
 
-const Watermark = () => (
-  <img
-    src={logoUrl}
-    alt=""
-    aria-hidden="true"
-    className="pointer-events-none select-none absolute -right-10 -bottom-6 w-[260px] md:w-[360px]"
-    style={{ opacity: 0.05, filter: "grayscale(1)" }}
-  />
+// The second sentence with the gap filled by `middle`
+const Sentence = ({ q, middle, style }) => (
+  <span style={style}>
+    {q.lead && <span>{q.lead} </span>}
+    {middle}
+    {q.tail && <span>{/^[.,;:!?]/.test(q.tail) ? "" : " "}{q.tail}</span>}
+  </span>
 );
 
-const FooterBrand = () => (
-  <div className="w-full mt-10 pb-8 flex flex-col items-center gap-4">
-    <div className="flex items-center gap-3 text-xs uppercase tracking-[0.25em]" style={{ color: palette.muted }}>
-      <span>Powered by</span>
-      <img src={logoUrl} alt="MyEnglishBro logo" className="h-6 w-auto" />
-    </div>
-    <div className="flex flex-wrap items-center justify-center gap-2">
-      {socialLinks.map(link => (
-        <a
-          key={link.label}
-          href={link.href}
-          target="_blank"
-          rel="noreferrer"
-          className="px-4 py-2 rounded-full text-xs font-semibold"
-          style={{
-            color: palette.navy,
-            border: `1px solid ${palette.border}`,
-            background: palette.surfaceAlt
-          }}
-        >
-          {link.label}
-        </a>
-      ))}
-    </div>
-  </div>
+const KeywordBox = ({ children }) => (
+  <span
+    className="inline-block px-4 py-1.5 font-bold tracking-[0.16em] rounded-sm"
+    style={{ fontFamily: sans, fontSize: "0.9rem", border: `1.5px solid ${palette.ink}`, color: palette.ink, background: palette.tint }}
+  >
+    {children}
+  </span>
 );
 
-export default function KeywordTransformation() {
-  const levels = exercisesData.levels;
-  const QUESTION_TIME = 45;
-  const totalLevels = levels.length;
-  const totalQuestions = levels.reduce((acc, level) => acc + level.questions.length, 0);
-  const [selectedLevel, setSelectedLevel] = useState(null);
-  const [currentQ, setCurrentQ] = useState(0);
-  const [input, setInput] = useState("");
-  const [feedback, setFeedback] = useState(null);
-  const [score, setScore] = useState(0);
-  const [log, setLog] = useState([]);
-  const [timeLeft, setTimeLeft] = useState(QUESTION_TIME);
-  const [questionStart, setQuestionStart] = useState(Date.now());
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isTimerPaused, setIsTimerPaused] = useState(false);
+// ---------- Test selection ----------
+function SetList({ levels, best, onStart }) {
+  const done = levels.filter(l => best[l.level] !== undefined).length;
+  return (
+    <div className="min-h-screen" style={{ background: palette.page, fontFamily: sans }}>
+      <ExamBar right={<span className="text-xs" style={{ opacity: 0.85 }}>{done} of {levels.length} completed</span>} />
 
-  useEffect(() => {
-    if (selectedLevel !== null) {
-      setCurrentQ(0);
-      setInput("");
-      setFeedback(null);
-      setScore(0);
-      setLog([]);
-      setTimeLeft(QUESTION_TIME);
-      setQuestionStart(Date.now());
-      setIsMenuOpen(false);
-      setIsTimerPaused(false);
-    }
-  }, [selectedLevel]);
-
-  useEffect(() => {
-    if (selectedLevel === null) return undefined;
-    if (feedback) return undefined;
-    if (isTimerPaused) return undefined;
-
-    const tick = setInterval(() => {
-      setTimeLeft(prev => {
-        if (prev <= 1) {
-          clearInterval(tick);
-          handleTimeout();
-          return 0;
-        }
-        return prev - 1;
-      });
-    }, 1000);
-
-    return () => clearInterval(tick);
-  }, [selectedLevel, feedback, currentQ, isTimerPaused]); // eslint-disable-line react-hooks/exhaustive-deps
-
-  if (selectedLevel === null) {
-    return (
-      <div
-        className="min-h-screen flex items-center justify-center py-12 px-5 relative overflow-hidden"
+      <section
         style={{
-          background:
-            "radial-gradient(circle at 20% 15%, rgba(43,182,168,0.18), transparent 45%), radial-gradient(circle at 85% 10%, rgba(246,194,114,0.18), transparent 35%), linear-gradient(145deg, #f6f2eb 0%, #eef3f8 55%, #f7f2ea 100%)",
-          fontFamily: sans
+          background: `radial-gradient(circle at 85% 20%, rgba(200,16,46,0.28), transparent 45%), linear-gradient(135deg, ${palette.navy}, ${palette.navySoft})`,
+          color: "#fff"
         }}
       >
-        <Watermark />
-        <div className="w-full max-w-5xl">
-          <div
-            className="rounded-[32px] p-8 md:p-12 space-y-8 shadow-2xl"
-            style={{
-              background: "linear-gradient(180deg, rgba(255,255,255,0.92), rgba(255,255,255,0.98))",
-              border: `1px solid ${palette.border}`,
-              boxShadow: "0 35px 90px rgba(12,19,42,0.12)"
-            }}
-          >
-            <div className="space-y-4">
-              <img
-                src={logoUrl}
-                alt="MyEnglishBro logo"
-                className="h-10 md:h-12 w-auto"
-                style={{ filter: "drop-shadow(0 8px 18px rgba(12,19,42,0.12))" }}
-              />
-              <p className="uppercase tracking-[0.3em] text-xs font-semibold" style={{ color: palette.accent }}>
-                Cambridge Paper Lab
-              </p>
-              <h1
-                className="text-4xl md:text-5xl font-semibold"
-                style={{ color: palette.navy, fontFamily: serif }}
+        <div className="max-w-5xl mx-auto px-4 py-12 md:py-16">
+          <p className="text-[11px] font-bold uppercase tracking-[0.3em]" style={{ color: "#ff9aa8" }}>
+            Part 4 · Key word transformation
+          </p>
+          <h1 className="mt-3 text-3xl md:text-5xl font-semibold leading-tight" style={{ fontFamily: serif }}>
+            Reading and Use of English
+          </h1>
+          <p className="mt-4 max-w-2xl text-sm md:text-base" style={{ opacity: 0.8 }}>
+            Complete the second sentence so that it means the same as the first, using the word given. Do not change
+            the word given. Use between two and five words, including the word given.
+          </p>
+          <div className="mt-7 flex flex-wrap gap-3 text-xs">
+            {[`${levels.length} tests`, "8 questions each", "Model answers & grammar tips"].map(chip => (
+              <span
+                key={chip}
+                className="px-3 py-1.5 rounded-full"
+                style={{ background: "rgba(255,255,255,0.12)", border: "1px solid rgba(255,255,255,0.18)" }}
               >
-                Keyword Transformation
-              </h1>
-              <p className="text-lg" style={{ color: palette.muted }}>
-                Elige un nivel y practica transformaciones al estilo Cambridge. Mantente fiel a la palabra clave y al
-                sentido de la frase.
+                {chip}
+              </span>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      <main className="max-w-5xl mx-auto px-4 -mt-6 pb-4 relative">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          {levels.map((level, idx) => {
+            const total = level.questions.length;
+            const score = best[level.level];
+            const perfect = score === total;
+            return (
+              <button
+                key={level.level}
+                type="button"
+                onClick={() => onStart(idx)}
+                className="group text-left rounded-xl p-5 flex flex-col gap-4 transition-all hover:-translate-y-0.5"
+                style={{ background: palette.paper, boxShadow: sheetShadow, border: `1px solid ${palette.hair}` }}
+              >
+                <div className="flex items-start justify-between">
+                  <span className="text-4xl font-semibold leading-none" style={{ fontFamily: serif, color: palette.navy }}>
+                    {String(idx + 1).padStart(2, "0")}
+                  </span>
+                  {score !== undefined ? (
+                    <span
+                      className="text-[11px] font-bold px-2.5 py-1 rounded-full"
+                      style={{
+                        background: perfect ? palette.successBg : palette.select,
+                        color: perfect ? palette.success : palette.selectBorder
+                      }}
+                    >
+                      {perfect ? "✓ " : ""}Best {score}/{total}
+                    </span>
+                  ) : (
+                    <span className="text-[11px] font-bold px-2.5 py-1 rounded-full" style={{ background: palette.tint, color: palette.muted }}>
+                      New
+                    </span>
+                  )}
+                </div>
+                <div>
+                  <h2 className="text-lg font-semibold" style={{ color: palette.ink }}>
+                    Transformation {idx + 1}
+                  </h2>
+                  <p className="text-xs mt-1" style={{ color: palette.muted }}>
+                    Part 4 · {total} questions
+                  </p>
+                </div>
+                <span
+                  className="mt-auto text-sm font-semibold flex items-center gap-1 transition-all group-hover:gap-2"
+                  style={{ color: palette.selectBorder }}
+                >
+                  {score !== undefined ? "Practise again" : "Start test"} <span aria-hidden>→</span>
+                </span>
+              </button>
+            );
+          })}
+        </div>
+        <FooterBrand />
+      </main>
+    </div>
+  );
+}
+
+// ---------- Exam ----------
+function Exam({ levels, index, best, onExit, onNext, onFinish }) {
+  const level = levels[index];
+  const questions = level.questions;
+  const total = questions.length;
+  const ids = useMemo(() => questions.map(q => q.id), [questions]);
+
+  const [answers, setAnswers] = useState({});
+  const [active, setActive] = useState(ids[0]);
+  const [submitted, setSubmitted] = useState(false);
+  const [elapsed, setElapsed] = useState(0);
+  const inputRefs = useRef({});
+
+  // A new test starts clean
+  useEffect(() => {
+    setAnswers({});
+    setActive(ids[0]);
+    setSubmitted(false);
+    setElapsed(0);
+    window.scrollTo(0, 0);
+  }, [ids]);
+
+  useEffect(() => {
+    if (submitted) return undefined;
+    const t = setInterval(() => setElapsed(s => s + 1), 1000);
+    return () => clearInterval(t);
+  }, [submitted, ids]);
+
+  const numberOf = id => ids.indexOf(id) + 1;
+  const answeredCount = ids.filter(id => (answers[id] || "").trim()).length;
+  const score = questions.filter(q => isCorrect(q, answers[q.id])).length;
+
+  const focusQuestion = id => {
+    inputRefs.current[id]?.focus();
+    inputRefs.current[id]?.scrollIntoView({ behavior: "smooth", block: "center" });
+  };
+
+  const submit = () => {
+    setSubmitted(true);
+    onFinish(level.level, score);
+    window.scrollTo(0, 0);
+  };
+  const retry = () => {
+    setAnswers({});
+    setActive(ids[0]);
+    setSubmitted(false);
+    setElapsed(0);
+    window.scrollTo(0, 0);
+  };
+
+  const onKeyDown = (e, id) => {
+    if (e.key !== "Enter") return;
+    e.preventDefault();
+    const next = ids[ids.indexOf(id) + 1];
+    if (next !== undefined) focusQuestion(next);
+    else e.target.blur();
+  };
+
+  const exitButton = (
+    <button
+      type="button"
+      onClick={onExit}
+      className="text-xs font-semibold px-3 py-1.5 rounded-md"
+      style={{ border: "1px solid rgba(255,255,255,0.35)" }}
+    >
+      Exit
+    </button>
+  );
+  const timer = (
+    <span
+      className="text-sm font-semibold tabular-nums px-3 py-1 rounded-md"
+      style={{ background: "rgba(255,255,255,0.12)" }}
+      aria-label="Elapsed time"
+    >
+      ⏱ {formatTime(elapsed)}
+    </span>
+  );
+
+  // ===== Results =====
+  if (submitted) {
+    const pct = Math.round((score / total) * 100);
+    const perfect = score === total;
+    const message = perfect
+      ? "Perfect score. Every transformation is correct."
+      : pct >= 75
+      ? "Strong result. Check the few you missed."
+      : pct >= 50
+      ? "Getting there. Read the model answers and try again."
+      : "Keep practising. Study the model answers, then retry.";
+    const hasNext = index + 1 < levels.length;
+
+    return (
+      <div className="min-h-screen" style={{ background: palette.page, fontFamily: sans }}>
+        <ExamBar left={<PartPill>Part 4</PartPill>} right={<>{timer}{exitButton}</>} />
+
+        <section style={{ background: `linear-gradient(135deg, ${palette.navy}, ${palette.navySoft})`, color: "#fff" }}>
+          <div className="max-w-5xl mx-auto px-4 py-8 flex flex-col md:flex-row md:items-center gap-6">
+            <ScoreRing pct={pct} score={score} total={total} good={pct >= 60} />
+            <div className="flex-1">
+              <p className="text-[11px] font-bold uppercase tracking-[0.25em]" style={{ color: "#ff9aa8" }}>
+                Results · Transformation {index + 1}
               </p>
-              <div className="flex flex-wrap gap-2">
-                {[
-                  `${totalLevels} niveles`,
-                  `${totalQuestions} preguntas`,
-                  `${QUESTION_TIME}s por item`,
-                  "Keyword transformation"
-                ].map(chip => (
+              <h1 className="mt-2 text-2xl md:text-3xl font-semibold" style={{ fontFamily: serif }}>
+                {pct}% correct · {formatTime(elapsed)}
+              </h1>
+              <p className="mt-2 text-sm md:text-base" style={{ opacity: 0.85 }}>
+                {message}
+              </p>
+              <div className="mt-4 flex flex-wrap gap-1.5" aria-label="Result per question">
+                {questions.map(q => (
                   <span
-                    key={chip}
-                    className="px-3 py-1 rounded-full text-xs font-semibold"
-                    style={{
-                      background: palette.sky,
-                      color: palette.deepBlue,
-                      border: `1px solid ${palette.border}`
-                    }}
+                    key={q.id}
+                    className="w-8 h-8 rounded-md flex items-center justify-center text-xs font-bold"
+                    style={{ background: isCorrect(q, answers[q.id]) ? "#1f9d6a" : "#cf4a3f", color: "#fff" }}
                   >
-                    {chip}
+                    {numberOf(q.id)}
                   </span>
                 ))}
               </div>
             </div>
-
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
-              {levels.map((_, idx) => (
+            <div className="flex md:flex-col gap-2">
+              <button
+                type="button"
+                onClick={retry}
+                className="px-5 py-2.5 rounded-md text-sm font-semibold"
+                style={{ border: "1px solid rgba(255,255,255,0.5)" }}
+              >
+                Try again
+              </button>
+              {hasNext && (
                 <button
-                  key={idx}
-                  onClick={() => setSelectedLevel(idx)}
-                  className="px-6 py-4 rounded-2xl text-lg font-semibold transition hover:-translate-y-1"
-                  style={{
-                    background: palette.surfaceAlt,
-                    color: palette.navy,
-                    border: `1px solid ${palette.border}`,
-                    boxShadow: "0 10px 24px rgba(12,19,42,0.1)"
-                  }}
+                  type="button"
+                  onClick={onNext}
+                  className="px-5 py-2.5 rounded-md text-sm font-semibold"
+                  style={{ background: "#fff", color: palette.navy }}
                 >
-                  Nivel {idx + 1}
+                  Next test →
                 </button>
-              ))}
+              )}
             </div>
-
-            <div className="text-sm" style={{ color: palette.muted }}>
-              Instruccion breve: conserva el significado original, usa la palabra clave sin cambiarla y ajusta la
-              gramatica para que la frase sea correcta.
-            </div>
-            <FooterBrand />
           </div>
-        </div>
+        </section>
+
+        <main className="max-w-4xl mx-auto px-4 py-8 space-y-4">
+          <h2 className="text-[11px] font-bold uppercase tracking-[0.22em]" style={{ color: palette.muted }}>
+            Answer review
+          </h2>
+          {questions.map(q => {
+            const ok = isCorrect(q, answers[q.id]);
+            const mine = (answers[q.id] || "").trim();
+            return (
+              <div
+                key={q.id}
+                className="rounded-lg p-5 space-y-3"
+                style={{
+                  background: palette.paper,
+                  boxShadow: "0 1px 2px rgba(12,35,64,0.08)",
+                  borderLeft: `4px solid ${ok ? palette.success : palette.danger}`
+                }}
+              >
+                <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-[0.12em]">
+                  <span
+                    className="w-6 h-6 rounded-md flex items-center justify-center text-white"
+                    style={{ background: ok ? palette.success : palette.danger }}
+                  >
+                    {numberOf(q.id)}
+                  </span>
+                  <span style={{ color: ok ? palette.success : palette.danger }}>
+                    {ok ? "Correct" : mine ? "Incorrect" : "Not answered"}
+                  </span>
+                </div>
+                <p style={{ fontFamily: serif, color: palette.muted, lineHeight: 1.6 }}>{q.original}</p>
+                <p style={{ fontFamily: serif, color: palette.ink, lineHeight: 1.9, fontSize: "1.05rem" }}>
+                  <Sentence
+                    q={q}
+                    middle={
+                      <strong
+                        className="px-1.5 rounded-sm"
+                        style={{ background: palette.successBg, color: palette.success, borderBottom: `2px solid ${palette.success}` }}
+                      >
+                        {q.answer}
+                      </strong>
+                    }
+                  />
+                </p>
+                {!ok && (
+                  <p className="text-sm" style={{ color: palette.danger }}>
+                    {mine ? (
+                      <>
+                        Your answer: <strong>{mine}</strong>
+                      </>
+                    ) : (
+                      "You left this gap empty."
+                    )}
+                  </p>
+                )}
+                {q.alternatives?.length > 0 && (
+                  <p className="text-sm" style={{ color: palette.muted }}>
+                    Also accepted: {q.alternatives.join(" · ")}
+                  </p>
+                )}
+                {q.tip && (
+                  <p className="text-sm" style={{ color: palette.muted }}>
+                    <strong style={{ color: palette.ink }}>{q.keyword}</strong> – {q.tip}
+                  </p>
+                )}
+              </div>
+            );
+          })}
+        </main>
+        <FooterBrand />
       </div>
     );
   }
 
-  const questions = levels[selectedLevel].questions;
-  const total = questions.length;
-  const q = questions[currentQ];
-  const answeredCount = feedback ? currentQ + 1 : currentQ;
-  const progress = Math.round((answeredCount / total) * 100);
-  const elapsedSeconds = Math.max(0, Math.round((Date.now() - questionStart) / 1000));
-  const levelVideos = {
-    1: "https://www.youtube.com/embed/2X1p0YdE7Vw",
-    2: "https://www.youtube.com/embed/baXq2pIc6Jw",
-    3: "https://www.youtube.com/embed/7i9nV4aLZqo",
-    4: "https://www.youtube.com/embed/SbaqU19p9fQ",
-    5: "https://www.youtube.com/embed/uTkNXXMObLo",
-    6: "https://www.youtube.com/embed/5mYFXhHUPn0",
-    default: "https://www.youtube.com/embed/rQ5yNj8c9fA"
-  };
-  const levelVideoUrl = levels[selectedLevel].video || levelVideos[selectedLevel + 1] || levelVideos.default;
-
-  function handleSubmit() {
-    if (feedback) return;
-    const correct = input.trim().toUpperCase() === q.answer.toUpperCase();
-    if (correct) setScore(s => s + 1);
-
-    const timeTaken = Math.min(elapsedSeconds, QUESTION_TIME);
-    setLog(l => [
-      ...l,
-      { id: q.id, input, correct, correctAnswer: q.answer, timeTaken }
-    ]);
-    setFeedback({ correct, correctAnswer: q.answer, attempt: input, timeTaken });
-  }
-
-  function handleNext() {
-    if (currentQ + 1 < total) {
-      setCurrentQ(i => i + 1);
-      setInput("");
-      setFeedback(null);
-      setTimeLeft(QUESTION_TIME);
-      setQuestionStart(Date.now());
-      setIsTimerPaused(false);
-    }
-  }
-
-  function retry() {
-    setCurrentQ(0);
-    setInput("");
-    setFeedback(null);
-    setScore(0);
-    setLog([]);
-    setTimeLeft(QUESTION_TIME);
-    setQuestionStart(Date.now());
-    setIsTimerPaused(false);
-  }
-
-  function handleTimeout() {
-    if (feedback) return;
-    const timeTaken = QUESTION_TIME;
-    setLog(l => [
-      ...l,
-      { id: q.id, input, correct: false, correctAnswer: q.answer, timeTaken, timedOut: true }
-    ]);
-    setFeedback({ correct: false, correctAnswer: q.answer, attempt: input, timedOut: true, timeTaken });
-  }
-
+  // ===== Answering =====
+  const bestHere = best[level.level];
   return (
-    <div
-      className="min-h-screen px-4 py-10 relative overflow-hidden"
-      style={{
-        background:
-          "radial-gradient(circle at 20% 10%, rgba(43,182,168,0.18), transparent 40%), linear-gradient(150deg, #f6f2eb 0%, #eef3f8 55%, #f7f2ea 100%)",
-        fontFamily: sans,
-        color: palette.navy
-      }}
-    >
-      <Watermark />
-      <div className="max-w-6xl mx-auto">
-        <header className="mb-6">
-          <img
-            src={logoUrl}
-            alt="MyEnglishBro logo"
-            className="h-8 md:h-10 w-auto mb-4"
-            style={{ filter: "drop-shadow(0 8px 18px rgba(12,19,42,0.12))" }}
-          />
-          <p className="uppercase tracking-[0.3em] text-xs font-semibold" style={{ color: palette.accent }}>
-            Cambridge Practice
-          </p>
-          <h1 className="text-3xl md:text-4xl font-semibold" style={{ color: palette.navy, fontFamily: serif }}>
-            Keyword Transformation - Nivel {selectedLevel + 1}
-          </h1>
-          <p className="mt-2" style={{ color: palette.muted }}>
-            Replica el tono de examen en papel: responde con calma, cuida la ortografia y revisa cada matiz del
-            significado original.
-          </p>
-        </header>
+    <div className="min-h-screen pb-24" style={{ background: palette.page, fontFamily: sans }}>
+      <ExamBar left={<PartPill>Part 4</PartPill>} right={<>{timer}{exitButton}</>} />
 
-        <div
-          className="lg:hidden mb-6 rounded-2xl p-4 flex flex-col gap-3"
-          style={{
-            background: "rgba(255,255,255,0.9)",
-            border: `1px solid ${palette.border}`,
-            boxShadow: "0 18px 50px rgba(12,19,42,0.10)",
-            backdropFilter: "blur(10px)"
-          }}
-        >
-          <div className="flex items-start justify-between gap-3">
-            <div>
-              <div className="text-xs uppercase tracking-[0.2em]" style={{ color: palette.accent }}>
-                Modo paper
-              </div>
-              <div className="text-sm" style={{ color: palette.muted }}>
-                Pregunta <span className="font-semibold" style={{ color: palette.navy }}>{currentQ + 1}</span> de {total} · Aciertos{" "}
-                <span className="font-semibold" style={{ color: palette.navy }}>{score}</span>
-              </div>
-            </div>
-            <div className="flex items-center gap-2">
-              <button
-                type="button"
-                onClick={() => setIsTimerPaused(p => !p)}
-                className="px-3 py-2 rounded-xl text-xs font-semibold transition hover:-translate-y-[1px] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
-                style={{
-                  background: isTimerPaused ? palette.success : palette.porcelain,
-                  color: isTimerPaused ? "#fff" : palette.navy,
-                  border: `1px solid ${palette.border}`
-                }}
-              >
-                {isTimerPaused ? "Reanudar" : "Detener"}
-              </button>
-              <button
-                type="button"
-                onClick={() => setIsMenuOpen(true)}
-                className="px-3 py-2 rounded-xl text-xs font-semibold transition hover:-translate-y-[1px] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
-                style={{
-                  background: palette.navy,
-                  color: "#fff",
-                  border: `1px solid ${palette.navy}`
-                }}
-              >
-                Menu
-              </button>
-            </div>
+      <main className="max-w-4xl mx-auto px-3 md:px-4 py-6">
+        <div className="rounded-lg px-5 py-7 md:px-12 md:py-10" style={{ background: palette.paper, boxShadow: sheetShadow }}>
+          <div className="flex items-end justify-between gap-4 pb-3" style={{ borderBottom: `3px solid ${palette.navy}` }}>
+            <h2 className="text-3xl md:text-4xl font-bold leading-none" style={{ fontFamily: serif, color: palette.navy }}>
+              Part 4
+            </h2>
+            <p className="text-sm font-semibold" style={{ color: palette.muted }}>
+              Questions 1–{total}
+            </p>
           </div>
-          <div className="flex items-center justify-between rounded-xl px-3 py-2" style={{ background: palette.porcelain, border: `1px solid ${palette.border}` }}>
-            <span className="text-xs uppercase tracking-[0.14em]" style={{ color: palette.accent }}>
-              Tiempo restante
-            </span>
-            <span
-              className="text-base font-bold tabular-nums px-3 py-1 rounded-lg"
-              style={{
-                background: isTimerPaused ? palette.sky : timeLeft <= 10 ? palette.danger : "#fff",
-                color: isTimerPaused ? palette.navy : timeLeft <= 10 ? "#fff" : palette.navy,
-                border: `1px solid ${palette.border}`
-              }}
-            >
-              {String(timeLeft).padStart(2, "0")}s
-            </span>
-          </div>
-        </div>
 
-        <AnimatePresence>
-          {isMenuOpen && (
-            <motion.div
-              className="fixed inset-0 z-50 flex"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              exit={{ opacity: 0 }}
-            >
-              <button
-                type="button"
-                aria-label="Cerrar menu"
-                onClick={() => setIsMenuOpen(false)}
-                className="absolute inset-0"
-                style={{ background: "rgba(15,31,48,0.42)" }}
-              />
-              <motion.aside
-                role="dialog"
-                aria-modal="true"
-                className="relative w-[92%] max-w-sm h-full p-5 overflow-y-auto"
-                initial={{ x: -30, opacity: 0 }}
-                animate={{ x: 0, opacity: 1 }}
-                exit={{ x: -30, opacity: 0 }}
-                style={{
-                  background: "linear-gradient(180deg, rgba(255,255,255,0.96), rgba(255,255,255,0.98))",
-                  borderRight: `1px solid ${palette.border}`
-                }}
-                onClick={e => e.stopPropagation()}
-              >
-                <div className="flex items-center justify-between gap-3 mb-4">
-                  <div>
-                    <div className="text-xs uppercase tracking-[0.2em]" style={{ color: palette.accent }}>
-                      Menu de nivel
-                    </div>
-                    <div className="text-lg font-semibold" style={{ color: palette.navy, fontFamily: serif }}>
-                      Keyword Transformation
-                    </div>
-                  </div>
-                  <button
-                    type="button"
-                    onClick={() => setIsMenuOpen(false)}
-                    className="px-3 py-2 rounded-xl text-xs font-semibold"
-                    style={{ background: palette.porcelain, color: palette.navy, border: `1px solid ${palette.border}` }}
-                  >
-                    Cerrar
-                  </button>
-                </div>
-
-                <div className="mb-5">
-                  <div className="text-xs uppercase tracking-[0.2em] mb-2" style={{ color: palette.accent }}>
-                    Niveles
-                  </div>
-                  <div className="grid grid-cols-2 gap-2">
-                    {levels.map((_, idx) => {
-                      const active = idx === selectedLevel;
-                      return (
-                        <button
-                          key={idx}
-                          type="button"
-                          onClick={() => {
-                            setSelectedLevel(idx);
-                            setIsMenuOpen(false);
-                          }}
-                          className="px-3 py-3 rounded-xl border text-sm font-semibold transition hover:-translate-y-[2px] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
-                          style={{
-                            background: active ? palette.navy : palette.surfaceAlt,
-                            color: active ? "#fff" : palette.navy,
-                            border: `1px solid ${active ? palette.navy : palette.border}`,
-                            boxShadow: active ? "0 10px 24px rgba(12,19,42,0.16)" : "none"
-                          }}
-                        >
-                          Nivel {idx + 1}
-                        </button>
-                      );
-                    })}
-                  </div>
-                </div>
-
-                <div className="mb-5">
-                  <div className="text-xs uppercase tracking-[0.2em] mb-2" style={{ color: palette.accent }}>
-                    Progreso
-                  </div>
-                  <div className="flex items-center gap-3">
-                    <div className="flex-1 h-2 rounded-full overflow-hidden" style={{ background: palette.sky }}>
-                      <div className="h-full transition-all" style={{ width: `${progress}%`, background: palette.navy }} />
-                    </div>
-                    <span className="text-sm font-semibold" style={{ color: palette.navy }}>
-                      {progress}%
-                    </span>
-                  </div>
-                  <p className="text-xs mt-1" style={{ color: palette.muted }}>
-                    Pregunta {currentQ + 1} de {total} · Aciertos {score}
-                  </p>
-                </div>
-
-                <div
-                  className="text-xs leading-relaxed rounded-xl p-3 mb-5"
-                  style={{
-                    color: palette.muted,
-                    background: palette.porcelain,
-                    border: `1px solid ${palette.border}`
-                  }}
-                >
-                  <strong className="block mb-1" style={{ color: palette.navy }}>
-                    Formato paper based
-                  </strong>
-                  <span>
-                    Conserva el significado original, usa la palabra clave sin cambiarla y cuida la gramatica. Si pausas, reanuda cuando estes listo.
-                  </span>
-                </div>
-
-                <div className="flex items-center justify-between gap-3">
-                  <button
-                    type="button"
-                    onClick={() => setSelectedLevel(null)}
-                    className="px-4 py-3 rounded-xl text-sm font-semibold transition hover:-translate-y-[1px]"
-                    style={{ background: palette.surfaceAlt, color: palette.navy, border: `1px solid ${palette.border}` }}
-                  >
-                    Volver a niveles
-                  </button>
-                  <button
-                    type="button"
-                    onClick={() => setIsTimerPaused(p => !p)}
-                    className="px-4 py-3 rounded-xl text-sm font-semibold transition hover:-translate-y-[1px]"
-                    style={{ background: isTimerPaused ? palette.success : palette.navy, color: "#fff", border: `1px solid ${palette.navy}` }}
-                  >
-                    {isTimerPaused ? "Reanudar" : "Detener timer"}
-                  </button>
-                </div>
-              </motion.aside>
-            </motion.div>
-          )}
-        </AnimatePresence>
-
-        <div className="flex flex-col lg:flex-row gap-6">
-          <aside
-            className="hidden lg:block lg:w-80 rounded-2xl p-5 space-y-4"
-            style={{
-              background: palette.surfaceAlt,
-              border: `1px solid ${palette.border}`,
-              boxShadow: "0 16px 40px rgba(12,19,42,0.08)"
-            }}
+          <div
+            className="mt-5 px-4 py-3 text-[0.95rem] md:text-base font-semibold"
+            style={{ border: `1.5px solid ${palette.ink}`, color: palette.ink, fontFamily: serif, lineHeight: 1.6 }}
           >
-            <div>
-              <div
-                className="text-xs uppercase tracking-[0.2em] mb-2"
-                style={{ color: palette.accent }}
-              >
-                Niveles
-              </div>
-              <div className="grid grid-cols-2 gap-2">
-                {levels.map((_, idx) => {
-                  const active = idx === selectedLevel;
-                  return (
-                    <button
-                      key={idx}
-                      onClick={() => setSelectedLevel(idx)}
-                      className="px-3 py-3 rounded-xl border text-sm font-semibold transition hover:-translate-y-[2px] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
-                      style={{
-                        background: active ? palette.navy : palette.surfaceAlt,
-                        color: active ? "#fff" : palette.navy,
-                        border: `1px solid ${active ? palette.navy : palette.border}`,
-                        boxShadow: active ? "0 10px 24px rgba(12,19,42,0.16)" : "none"
-                      }}
-                    >
-                      Nivel {idx + 1}
-                    </button>
-                  );
-                })}
-              </div>
-            </div>
+            For questions 1–{total}, complete the second sentence so that it has a similar meaning to the first
+            sentence, using the word given. Do not change the word given. You must use between two and five words,
+            including the word given.
+          </div>
 
-            <div>
-              <div
-                className="text-xs uppercase tracking-[0.2em] mb-2"
-                style={{ color: palette.accent }}
-              >
-                Progreso
-              </div>
-              <div className="flex items-center gap-3">
-                <div className="flex-1 h-2 rounded-full overflow-hidden" style={{ background: palette.sky }}>
-                  <div
-                    className="h-full transition-all"
-                    style={{ width: `${progress}%`, background: palette.navy }}
-                  />
-                </div>
-                <span className="text-sm font-semibold" style={{ color: palette.navy }}>
-                  {progress}%
-                </span>
-              </div>
-              <p className="text-xs mt-1" style={{ color: palette.muted }}>
-                Pregunta {currentQ + 1} de {total} - Aciertos {score}
-              </p>
-            </div>
-
-            <div
-              className="text-xs leading-relaxed rounded-xl p-3"
-              style={{
-                color: palette.muted,
-                background: palette.porcelain,
-                border: `1px solid ${palette.border}`
-              }}
-            >
-              <strong className="block mb-1" style={{ color: palette.navy }}>
-                Formato paper based
-              </strong>
-              <span>Escribe la frase completa en mayusculas o minusculas; evita abreviaturas. Al finalizar, revisa el reporte de respuestas.</span>
-            </div>
-          </aside>
-
-          <div className="flex-1 space-y-6">
-            {!feedback ? (
-              <motion.div
-                initial={{ opacity: 0, y: 16 }}
-                animate={{ opacity: 1, y: 0 }}
-                className="rounded-2xl p-8"
-                style={{
-                  background: palette.surfaceAlt,
-                  border: `1px solid ${palette.border}`,
-                  boxShadow: "0 18px 50px rgba(12,19,42,0.12)"
-                }}
-              >
-                <div className="text-sm uppercase tracking-[0.2em] mb-1" style={{ color: palette.accent }}>
-                  Frase original
-                </div>
-                <div className="text-lg italic mb-4" style={{ color: palette.navy }}>
-                  {q.original}
-                </div>
-
-                <div className="text-sm uppercase tracking-[0.2em] mb-1" style={{ color: palette.accent }}>
-                  Transforma usando
-                </div>
-                <div className="text-lg font-semibold mb-6" style={{ color: palette.navy }}>
-                  {q.transformed}{" "}
-                  <span style={{ color: palette.accent }}>(palabra clave: {q.keyword})</span>
-                </div>
-
+          <div className="mt-2">
+            {questions.map(q => {
+              const value = answers[q.id] || "";
+              const words = wordCount(value);
+              const isActive = q.id === active;
+              return (
                 <div
-                  className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 rounded-xl px-4 py-3 mb-4"
-                  style={{ background: palette.porcelain, border: `1px solid ${palette.border}` }}
+                  key={q.id}
+                  className="py-6 grid grid-cols-[2.5rem_1fr] md:grid-cols-[3rem_1fr] gap-x-3"
+                  style={{ borderBottom: `1px solid ${palette.hair}` }}
                 >
-                  <div>
-                    <div className="text-xs uppercase tracking-[0.14em]" style={{ color: palette.accent }}>
-                      Tiempo restante
-                    </div>
-                    <div className="text-sm" style={{ color: palette.muted }}>
-                      Gestiona ritmo como en el paper
-                    </div>
-                  </div>
-                  <div className="flex items-center justify-between sm:justify-end gap-3">
-                    <div
-                      className="text-xl font-bold tabular-nums px-3 py-1 rounded-lg"
-                      style={{
-                        background: isTimerPaused ? palette.sky : timeLeft <= 10 ? palette.danger : "#fff",
-                        color: isTimerPaused ? palette.navy : timeLeft <= 10 ? "#fff" : palette.navy,
-                        border: `1px solid ${palette.border}`
-                      }}
-                    >
-                      {String(timeLeft).padStart(2, "0")}s
-                    </div>
-                    <button
-                      type="button"
-                      onClick={() => setIsTimerPaused(p => !p)}
-                      className="px-4 py-2 rounded-xl text-sm font-semibold transition hover:-translate-y-[1px] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
-                      style={{
-                        background: isTimerPaused ? palette.success : palette.surfaceAlt,
-                        color: isTimerPaused ? "#fff" : palette.navy,
-                        border: `1px solid ${palette.border}`
-                      }}
-                    >
-                      {isTimerPaused ? "Reanudar" : "Detener timer"}
-                    </button>
-                  </div>
-                </div>
-
-                <input
-                  type="text"
-                  value={input}
-                  onChange={e => setInput(e.target.value)}
-                  onKeyDown={e => e.key === "Enter" && handleSubmit()}
-                  className="w-full p-4 rounded-xl focus:outline-none mb-4"
-                  style={{
-                    background: palette.porcelain,
-                    border: `1px solid ${palette.border}`,
-                    color: palette.navy,
-                    boxShadow: "inset 0 1px 2px rgba(15,23,42,0.08)"
-                  }}
-                  placeholder="Escribe la transformacion completa..."
-                />
-                <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-                  <button
-                    onClick={handleSubmit}
-                    disabled={!input.trim()}
-                    className="px-6 py-3 rounded-xl font-semibold shadow hover:-translate-y-0.5 transition disabled:opacity-60 disabled:hover:translate-y-0"
-                    style={{ background: palette.navy, color: "#fff" }}
-                  >
-                    Enviar respuesta
-                  </button>
-                  <span className="text-sm" style={{ color: palette.muted }}>
-                    Recuerda no modificar la palabra clave.
+                  <span className="text-lg font-bold" style={{ color: palette.navy }}>
+                    {numberOf(q.id)}
                   </span>
-                </div>
-              </motion.div>
-            ) : (
-              <motion.div
-                initial={{ opacity: 0, y: 16 }}
-                animate={{ opacity: 1, y: 0 }}
-                className="rounded-2xl p-8"
-                style={{
-                  background: palette.surfaceAlt,
-                  border: `1px solid ${palette.border}`,
-                  boxShadow: "0 18px 50px rgba(12,19,42,0.12)"
-                }}
-              >
-                <div
-                  className="pb-2 font-semibold text-lg"
-                  style={{ color: feedback.correct ? palette.success : palette.danger }}
-                >
-                  {feedback.correct ? "Respuesta correcta" : "Revisa la respuesta"}
-                </div>
-                {!feedback.correct && (
-                  <div className="text-sm mb-3" style={{ color: palette.muted }}>
-                    <strong style={{ color: palette.navy }}>Solucion modelo:</strong> {feedback.correctAnswer}
-                  </div>
-                )}
-                <div className="flex flex-col sm:flex-row gap-3">
-                  {currentQ + 1 < total ? (
-                    <button
-                      onClick={handleNext}
-                      className="px-6 py-3 rounded-xl font-semibold shadow hover:-translate-y-0.5 transition"
-                      style={{ background: palette.navy, color: "#fff" }}
-                  >
-                    Siguiente item
-                  </button>
-                ) : (
-                  <button
-                      onClick={retry}
-                      className="px-6 py-3 rounded-xl font-semibold shadow hover:-translate-y-0.5 transition"
-                      style={{ background: palette.success, color: "#fff" }}
-                    >
-                      Repetir nivel
-                    </button>
-                  )}
-                  <button
-                    onClick={() => setFeedback(null)}
-                    className="px-5 py-3 rounded-xl font-semibold hover:-translate-y-0.5 transition"
-                    style={{ background: palette.porcelain, color: palette.navy, border: `1px solid ${palette.border}` }}
-                  >
-                    Revisar item
-                  </button>
-                </div>
-                <div
-                  className="mt-4 space-y-2 text-sm rounded-xl p-4"
-                  style={{ color: palette.muted, background: palette.porcelain, border: `1px solid ${palette.border}` }}
-                >
-                  <div className="flex items-center justify-between">
-                    <span>Tiempo empleado</span>
-                    <span className="font-semibold" style={{ color: palette.navy }}>
-                      {feedback.timeTaken || 0}s
-                    </span>
-                  </div>
-                  <div>
-                    <div className="text-xs uppercase tracking-[0.16em] mb-1" style={{ color: palette.accent }}>
-                      Feedback
+                  <div className="space-y-3">
+                    <p className="text-[1.05rem] md:text-[1.12rem]" style={{ fontFamily: serif, color: palette.ink, lineHeight: 1.7 }}>
+                      {q.original}
+                    </p>
+                    <div className="flex justify-center">
+                      <KeywordBox>{q.keyword}</KeywordBox>
                     </div>
-                    <p>
-                      {feedback.correct
-                        ? "Buen control de estructura y palabra clave. Pasa al siguiente item manteniendo consistencia."
-                        : "Revisa concordancia y orden de palabras. Asegurate de que la palabra clave no cambie y que el tiempo verbal coincida."}
+                    <div
+                      className="flex flex-wrap items-baseline gap-x-2 gap-y-2 text-[1.05rem] md:text-[1.12rem]"
+                      style={{ fontFamily: serif, color: palette.ink, lineHeight: 1.7 }}
+                    >
+                      {q.lead && <span>{q.lead}</span>}
+                      <input
+                        ref={el => {
+                          inputRefs.current[q.id] = el;
+                        }}
+                        type="text"
+                        value={value}
+                        onChange={e => setAnswers(prev => ({ ...prev, [q.id]: e.target.value }))}
+                        onFocus={() => setActive(q.id)}
+                        onKeyDown={e => onKeyDown(e, q.id)}
+                        aria-label={`Answer to question ${numberOf(q.id)}, key word ${q.keyword}`}
+                        autoComplete="off"
+                        autoCapitalize="off"
+                        autoCorrect="off"
+                        spellCheck={false}
+                        className="flex-1 min-w-[12rem] px-2 py-1 text-center font-semibold rounded-sm focus:outline-none"
+                        style={{
+                          fontFamily: sans,
+                          fontSize: "0.95rem",
+                          color: palette.navy,
+                          background: isActive ? "#fff6cc" : value ? palette.select : palette.tint,
+                          borderBottom: `2px solid ${isActive || value ? palette.selectBorder : palette.ink}`,
+                          outline: isActive ? `2px solid ${palette.selectBorder}` : "none",
+                          outlineOffset: 1
+                        }}
+                      />
+                      {q.tail && <span>{q.tail}</span>}
+                    </div>
+                    <p
+                      className="text-xs"
+                      style={{ color: words > MAX_WORDS ? palette.danger : palette.muted, minHeight: "1rem" }}
+                    >
+                      {value.trim() ? `${words} word${words === 1 ? "" : "s"} (use 2–${MAX_WORDS})` : ""}
+                      {words > MAX_WORDS && " – too many words"}
                     </p>
                   </div>
                 </div>
-              </motion.div>
-            )}
-
-            {feedback && currentQ + 1 === total && (
-              <motion.div
-                initial={{ opacity: 0, y: 16 }}
-                animate={{ opacity: 1, y: 0 }}
-                className="rounded-2xl p-6 space-y-4"
-                style={{
-                  background: palette.surfaceAlt,
-                  border: `1px solid ${palette.border}`,
-                  boxShadow: "0 18px 50px rgba(12,19,42,0.12)"
-                }}
-              >
-                <div className="flex items-center justify-between">
-                  <h2 className="text-xl font-bold" style={{ color: palette.navy }}>
-                    Reporte Nivel {selectedLevel + 1}
-                  </h2>
-                  <div className="text-sm" style={{ color: palette.muted }}>
-                    Puntuacion: <span className="font-semibold" style={{ color: palette.navy }}>{score}</span> / {total}
-                  </div>
-                </div>
-                <div className="flex flex-wrap gap-3">
-                  <div
-                    className="px-4 py-2 rounded-lg text-sm"
-                    style={{ background: palette.porcelain, border: `1px solid ${palette.border}`, color: palette.muted }}
-                  >
-                    Aciertos: <span className="font-semibold" style={{ color: palette.navy }}>{score}</span>
-                  </div>
-                  <div
-                    className="px-4 py-2 rounded-lg text-sm"
-                    style={{ background: palette.porcelain, border: `1px solid ${palette.border}`, color: palette.muted }}
-                  >
-                    Tiempo medio: <span className="font-semibold" style={{ color: palette.navy }}>
-                      {log.length ? Math.round(log.reduce((s, e) => s + (e.timeTaken || 0), 0) / log.length) : 0}s
-                    </span>
-                  </div>
-                </div>
-
-                <div className="max-h-72 overflow-y-auto rounded-xl" style={{ border: `1px solid ${palette.border}` }}>
-                  <div
-                    className="grid grid-cols-6 gap-2 text-sm px-4 py-2 uppercase tracking-[0.08em]"
-                    style={{ background: palette.porcelain, color: palette.accent }}
-                  >
-                    <span>Item</span>
-                    <span className="col-span-2">Tu respuesta</span>
-                    <span>Estado</span>
-                    <span>Modelo</span>
-                    <span>Tiempo</span>
-                  </div>
-                  {log.map(entry => (
-                    <div
-                      key={entry.id}
-                      className="grid grid-cols-6 gap-2 px-4 py-2 border-t text-sm"
-                      style={{ borderColor: palette.border, color: palette.navy }}
-                    >
-                      <span className="font-semibold">Q{entry.id}</span>
-                      <span className="col-span-2 break-words">
-                        {entry.input || "Respuesta vacia"}
-                      </span>
-                      <span
-                        className="font-semibold"
-                        style={{ color: entry.correct ? palette.success : palette.danger }}
-                      >
-                        {entry.correct ? "Correcto" : entry.timedOut ? "Tiempo" : "Incorrecto"}
-                      </span>
-                      <span className="break-words">{entry.correctAnswer}</span>
-                      <span>{entry.timeTaken ? `${entry.timeTaken}s` : "-"}</span>
-                    </div>
-                  ))}
-                </div>
-                <div
-                  className="rounded-xl p-4 space-y-2"
-                  style={{ background: palette.porcelain, border: `1px solid ${palette.border}` }}
-                >
-                  <div className="text-sm uppercase tracking-[0.14em]" style={{ color: palette.accent }}>
-                    Video guia nivel {selectedLevel + 1}
-                  </div>
-                  <p className="text-sm" style={{ color: palette.muted }}>
-                    Repasa la explicacion completa para este nivel.
-                  </p>
-                  <div className="aspect-video w-full rounded-lg overflow-hidden border" style={{ borderColor: palette.border, background: "#000" }}>
-                    <iframe
-                      title={`Video nivel ${selectedLevel + 1}`}
-                      src={levelVideoUrl}
-                      className="w-full h-full"
-                      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                      allowFullScreen
-                    />
-                  </div>
-                </div>
-              </motion.div>
-            )}
-
-            <div className="flex items-center justify-between">
-              <button
-                onClick={() => setSelectedLevel(null)}
-                className="text-sm underline underline-offset-4"
-                style={{ color: palette.navy }}
-              >
-                Volver al menu de niveles
-              </button>
-              <div className="text-xs" style={{ color: palette.muted }}>
-                Estilo papel Cambridge: responde con claridad y revisa puntuacion y mayusculas.
-              </div>
-            </div>
-            <FooterBrand />
+              );
+            })}
           </div>
+
+          <p className="mt-5 text-xs hidden md:block" style={{ color: palette.muted }}>
+            Tip: press Enter to jump to the next question. Contractions such as don't or do not are both accepted.
+          </p>
         </div>
-      </div>
+        <FooterBrand />
+      </main>
+
+      {/* Question navigator, as in the computer-based test */}
+      <nav
+        className="fixed bottom-0 inset-x-0 z-30"
+        style={{ background: palette.paper, borderTop: `1px solid ${palette.hair}`, boxShadow: "0 -6px 24px rgba(12,35,64,0.08)" }}
+        aria-label="Question navigator"
+      >
+        <div className="max-w-4xl mx-auto px-3 md:px-4 py-2.5 flex items-center gap-3">
+          <div className="flex items-center gap-1.5 overflow-x-auto flex-1">
+            {ids.map(id => {
+              const answered = !!(answers[id] || "").trim();
+              const isActive = id === active;
+              return (
+                <button
+                  key={id}
+                  type="button"
+                  onClick={() => focusQuestion(id)}
+                  aria-label={`Go to question ${numberOf(id)}${answered ? " (answered)" : ""}`}
+                  className="w-9 h-9 shrink-0 rounded-md text-sm font-bold"
+                  style={{
+                    background: answered ? palette.navy : palette.paper,
+                    color: answered ? "#fff" : palette.navy,
+                    border: `1.5px solid ${isActive ? palette.selectBorder : answered ? palette.navy : palette.hair}`,
+                    boxShadow: isActive ? `0 0 0 2px ${palette.select}` : "none"
+                  }}
+                >
+                  {numberOf(id)}
+                </button>
+              );
+            })}
+          </div>
+          <span className="hidden md:block text-xs whitespace-nowrap" style={{ color: palette.muted }}>
+            {answeredCount}/{total} answered{bestHere !== undefined && ` · best ${bestHere}/${total}`}
+          </span>
+          <button
+            type="button"
+            onClick={submit}
+            disabled={answeredCount === 0}
+            className="px-5 py-2.5 rounded-md text-sm font-semibold whitespace-nowrap"
+            style={{
+              background: answeredCount === 0 ? "#cfd6de" : answeredCount < total ? palette.navySoft : palette.red,
+              color: answeredCount === 0 ? "#6b7785" : "#fff",
+              cursor: answeredCount === 0 ? "not-allowed" : "pointer"
+            }}
+          >
+            {answeredCount === total ? "Check answers" : `Check (${total - answeredCount} left)`}
+          </button>
+        </div>
+      </nav>
     </div>
+  );
+}
+
+export default function KeywordTransformation() {
+  const levels = exercisesData.levels;
+  const [selected, setSelected] = useState(null);
+  const [best, setBest] = useState(() => readBest(STORAGE_KEY));
+
+  const recordScore = (levelNumber, score) => {
+    setBest(prev => {
+      const next = { ...prev, [levelNumber]: Math.max(prev[levelNumber] ?? 0, score) };
+      writeBest(STORAGE_KEY, next);
+      return next;
+    });
+  };
+
+  if (selected === null) return <SetList levels={levels} best={best} onStart={setSelected} />;
+
+  return (
+    <Exam
+      levels={levels}
+      index={selected}
+      best={best}
+      onExit={() => setSelected(null)}
+      onNext={() => setSelected(selected + 1)}
+      onFinish={recordScore}
+    />
   );
 }
