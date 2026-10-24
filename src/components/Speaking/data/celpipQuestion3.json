@@ -2,41 +2,73 @@
   {
     "id": 1,
     "examiner_prompt": "I’d like you to describe this picture. You have about one minute. Please tell me what you can see.",
-    "image": "https://drive.google.com/file/d/16mfHWO0LrEm8Ycubiblc-A2-SU03snMp/preview"
+    "images": [
+      "/speaking/part2/task1-a.jpg",
+      "/speaking/part2/task1-b.jpg"
+    ],
+    "model_answer_b2": "Both photographs show people enjoying a quiet moment in nature. In the first one, a woman and a little girl are sitting on the grass beside a pond, feeding some ducks. They seem relaxed and close to each other. In the second photo, a man is sitting alone on a hill, looking at a huge blue lake and the mountains, with a paraglider lying next to him. The main difference is that the first photo is about sharing time with family, whereas the second one is about enjoying the view in peace. I think the man is probably waiting for the right moment to fly, so he might feel excited and a bit nervous. Personally, I'd prefer the first situation because I love spending time with my family."
   },
   {
     "id": 2,
     "examiner_prompt": "Now, I’d like you to talk about this picture. Please describe what is happening. You have about one minute.",
-    "image": "https://drive.google.com/file/d/1rRj7dU-Eh5dU1snxu5zXTFlf0TWsJy9C/view?usp=sharing"
+    "images": [
+      "/speaking/part2/task2-a.jpg",
+      "/speaking/part2/task2-b.jpg"
+    ],
+    "model_answer_b2": "Both photographs show people doing something practical outdoors or in a simple place. In the first picture, a nurse is giving an injection to a small child while her mother holds her. The child looks a little scared, and the adults are trying to comfort her. In the second photo, a man is crouching in a forest and fixing his bicycle, which is full of bags, so he's probably on a long trip. While the first situation is stressful for the child, the second one looks calm and adventurous. In my opinion, the cyclist is probably used to repairing his bike, so he won't be worried, whereas the girl might feel upset. I'd rather be in the forest, because I enjoy being active and in contact with nature."
   },
   {
     "id": 3,
     "examiner_prompt": "Please describe this picture. Tell me what you can see. You have about one minute.",
-    "image": "https://drive.google.com/file/d/1krx834NnYV-_bCzBO0kFqH1-wPqioLG5/view?usp=sharing"
+    "images": [
+      "/speaking/part2/task3-a.jpg",
+      "/speaking/part2/task3-b.jpg"
+    ],
+    "model_answer_b2": "In both photographs there is a person who is resting alone. In the first one, a young man wearing a hoodie and a backpack is sitting on a rock in the middle of a thick fog, next to a pine tree. He's probably hiking and has stopped to take a break. In the second photo, a man is lying on his bed, reading a book, with a lamp and some pillows around him. The big difference is the place: the first is wild and cold, while the second is warm and cosy. Both of them are probably relaxing after a busy day, but in different ways. I think the man in bed feels more comfortable, though the hiker might feel more free. Personally, I prefer reading at home."
   },
   {
     "id": 4,
     "examiner_prompt": "I’d like you to describe this picture. Please talk about what is happening. You have about one minute.",
-    "image": "https://drive.google.com/file/d/1jvrOIJdaFDgD2MH6jvgqKq8-5JvQ0CI5/view?usp=sharing"
+    "images": [
+      "/speaking/part2/task4-a.jpg",
+      "/speaking/part2/task4-b.jpg"
+    ],
+    "model_answer_b2": "Both photographs are about people who are studying or working, but the mood is very different. In the first one, a group of children are sitting on the floor, reading books and sharing papers. They look curious and focused, and they seem to be enjoying learning together. In the second photo, a young man is sitting alone in front of his laptop with his hand on his head, so he's probably stressed or tired. Unlike the children, he looks frustrated, maybe because he has a deadline or a difficult problem to solve. I think studying with other people is easier, because you can help each other, whereas working alone can be overwhelming. That's why I prefer to study in a group when I have a lot to do."
   },
   {
     "id": 5,
     "examiner_prompt": "Please describe this picture. You have about one minute. Tell me what you can see.",
-    "image": "https://drive.google.com/file/d/1Af1DYEiFL3tn6SvhqsmprOw1Iyifpj0L/view?usp=sharing"
+    "images": [
+      "/speaking/part2/task5-a.jpg",
+      "/speaking/part2/task5-b.jpg"
+    ],
+    "model_answer_b2": "Both photographs show people discovering something new. In the first one, a father and his little son are walking barefoot on a beach, next to the waves. They look happy, and the boy seems excited about getting close to the water. In the second photo, a man with a backpack is standing in a beautiful old library with tall columns and a lot of books, and he's probably a tourist. While the first scene is outdoors and playful, the second one is indoors and more quiet and cultural. Both situations are probably memorable for the people, although for different reasons. In my opinion, the beach is better for a family day, but I'd also love to visit that library because I'm interested in history and architecture."
   },
   {
     "id": 6,
     "examiner_prompt": "Now, please describe this picture. Talk about what is happening. You have about one minute.",
-    "image": "https://drive.google.com/file/d/1SgbO9IOlXM1OjPSEe5SPm4Z9JXQ1ex2t/view?usp=sharing"
+    "images": [
+      "/speaking/part2/task6-a.jpg",
+      "/speaking/part2/task6-b.jpg"
+    ],
+    "model_answer_b2": "Both photographs show people spending time together, but in very different situations. In the first one, a young couple is riding horses on a carousel at an amusement park. They are smiling and looking at each other, so they're probably having a great time. In the second photo, four men in shirts and ties are sitting around a table, talking about some documents. They seem to be in a business meeting, and one of them looks a bit serious. The first picture is about having fun, whereas the second one is about work. I think the couple feels more relaxed, while the men might feel under pressure. Personally, I'd choose the amusement park, because I enjoy doing something different with people I like."
   },
   {
     "id": 7,
     "examiner_prompt": "I’d like you to describe this picture. Please tell me what you can see. You have about one minute.",
-    "image": "https://drive.google.com/file/d/1NbUx-84X8JpAB3SdHIT6VVbzi2HZ86kP/view?usp=sharing"
+    "images": [
+      "/speaking/part2/task7-a.jpg",
+      "/speaking/part2/task7-b.jpg"
+    ],
+    "model_answer_b2": "Both photographs show people cooking at home, which is something I really enjoy. In the first one, a man and a woman are standing in a modern kitchen, preparing some food. The man is adding something with a spoon, and they are both smiling, so they're probably enjoying the moment. In the second photo, a little boy is pouring sauce into a pan while an adult, probably his mum, helps him and laughs. The main difference is that the first photo shows two adults cooking together, whereas the second one shows a child learning to cook. I think the boy is probably very proud, and his mother might feel happy to teach him. In my opinion, cooking with family is a great way to spend time together."
   },
   {
     "id": 8,
     "examiner_prompt": "Please talk about this picture. Describe what is happening. You have about one minute.",
-    "image": "https://drive.google.com/uc?export=view&id=1siAuPNh4PQUSwKer-03X9PyBCQHHpAhX"
+    "images": [
+      "/speaking/part2/task8-a.jpg",
+      "/speaking/part2/task8-b.jpg"
+    ],
+    "model_answer_b2": "In both photographs, a person is using a device to communicate with other people. In the first one, a woman is lying on a bed and looking at her laptop, where she's having a video call with several friends. She seems a bit tired or thoughtful, because she's touching her head. In the second photo, a woman is sitting on a sofa, talking on the phone with a big smile, and she has a laptop on her knees, so she's probably working. The first situation looks more personal, while the second one seems more professional. Both of them are staying in touch, but the woman on the sofa looks happier. Personally, I think video calls are very useful when you miss someone, although I prefer meeting friends face to face."
   }
 ]

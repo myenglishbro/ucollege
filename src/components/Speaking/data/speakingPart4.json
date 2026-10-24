@@ -1,0 +1,118 @@
+[
+  {
+    "id": 1,
+    "title": "Further discussion: the environment",
+    "examiner_prompt": "Now, I'd like to ask you some more questions about the environment. Please answer in your own words.",
+    "conversation": [
+      {
+        "speaker": "examiner",
+        "text": "Do you think people in your country care enough about the environment?"
+      },
+      {
+        "speaker": "you",
+        "time": 30,
+        "suggested": "I think more and more people care about it, especially young people, but many still don't change their habits. For example, a lot of people continue to use their cars for short trips, even though there are other options."
+      },
+      {
+        "speaker": "examiner",
+        "text": "And what about you? Do you agree?"
+      },
+      {
+        "speaker": "partner",
+        "text": "I agree to some extent. I think people care in theory, but in practice it's difficult because eco-friendly products are often more expensive. Governments should do more to help."
+      },
+      {
+        "speaker": "examiner",
+        "text": "Who should be responsible for protecting the environment: individuals or governments?"
+      },
+      {
+        "speaker": "partner",
+        "text": "Personally, I think it's mainly the government's job, because they can make laws and invest in clean energy. But individuals can help too, by doing small things every day."
+      },
+      {
+        "speaker": "examiner",
+        "text": "What is your opinion?"
+      },
+      {
+        "speaker": "you",
+        "time": 30,
+        "suggested": "I think it's a shared responsibility. Governments should set the rules and provide solutions like public transport, but we also have to do our part, for instance by recycling and saving energy at home."
+      },
+      {
+        "speaker": "examiner",
+        "text": "How could schools teach children to look after the planet?"
+      },
+      {
+        "speaker": "you",
+        "time": 30,
+        "suggested": "Schools could organise activities such as planting trees or cleaning a beach. When children learn by doing, they remember it better, and they often teach their parents too."
+      },
+      {
+        "speaker": "partner",
+        "text": "I agree. I would also add that teachers should give a good example, for instance by reducing paper and using less plastic in the classroom."
+      },
+      {
+        "speaker": "examiner",
+        "text": "Thank you. That is the end of the test."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Further discussion: learning English",
+    "examiner_prompt": "Now, I'd like to ask you some more questions about learning languages. Please answer in your own words.",
+    "conversation": [
+      {
+        "speaker": "examiner",
+        "text": "Why do you think so many people want to learn English nowadays?"
+      },
+      {
+        "speaker": "you",
+        "time": 30,
+        "suggested": "I think it's because English is the language of business, technology and travel. If you speak it well, you have more job opportunities and you can communicate with people from all over the world."
+      },
+      {
+        "speaker": "examiner",
+        "text": "And what do you think?"
+      },
+      {
+        "speaker": "partner",
+        "text": "I agree with that. Also, so much of the music, series and social media we enjoy is in English, so many people learn it simply because they find it fun and useful."
+      },
+      {
+        "speaker": "examiner",
+        "text": "Is it better to learn a language in a classroom or on your own?"
+      },
+      {
+        "speaker": "partner",
+        "text": "I think a classroom is better for beginners, because a teacher can correct your mistakes and keep you motivated. However, it also depends on your schedule and your personality."
+      },
+      {
+        "speaker": "examiner",
+        "text": "What is your opinion?"
+      },
+      {
+        "speaker": "you",
+        "time": 30,
+        "suggested": "For me, the best option is a mix of both. In class you get feedback and structure, but on your own you can practise at your own pace, for example by watching videos or using apps."
+      },
+      {
+        "speaker": "examiner",
+        "text": "Do you think children should start learning foreign languages at a very young age?"
+      },
+      {
+        "speaker": "you",
+        "time": 30,
+        "suggested": "Yes, I do. Young children learn pronunciation more naturally, and they are not afraid of making mistakes. If they start early, speaking another language becomes normal for them."
+      },
+      {
+        "speaker": "partner",
+        "text": "I think so too, as long as it's done through games and songs, not through long grammar lessons."
+      },
+      {
+        "speaker": "examiner",
+        "text": "Thank you. That is the end of the test."
+      }
+    ]
+  }
+]

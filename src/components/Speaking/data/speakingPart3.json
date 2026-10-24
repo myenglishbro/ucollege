@@ -1,0 +1,104 @@
+[
+  {
+    "id": 1,
+    "examiner_prompt": "Now, I'd like you and your partner to talk about something together for about two minutes. Here are some things people can do to help the environment. Talk to each other about how effective each of these would be.",
+    "question": "How effective would each of these be in helping the environment?",
+    "decision_prompt": "Now you have about a minute to decide which one is the most effective.",
+    "image": "",
+    "options": ["Recycling more", "Using public transport", "Saving water at home", "Planting trees", "Buying less plastic"],
+    "conversation": [
+      {
+        "speaker": "partner",
+        "text": "Shall we start with recycling? I think it's quite effective because everyone can do it at home, but people often forget to separate their rubbish. What do you think?"
+      },
+      {
+        "speaker": "you",
+        "time": 20,
+        "suggested": "I agree that it's easy to do, but I'm not sure it's enough on its own. Using public transport could reduce pollution much more, because fewer cars means cleaner air in big cities."
+      },
+      {
+        "speaker": "partner",
+        "text": "That's a good point. Public transport does help, although in some cities it's expensive or not very reliable. What about planting trees? Do you think that really makes a difference?"
+      },
+      {
+        "speaker": "you",
+        "time": 20,
+        "suggested": "Yes, I do. Trees absorb carbon dioxide and they make cities more pleasant. However, it takes many years for them to grow, so the effect is not immediate."
+      },
+      {
+        "speaker": "partner",
+        "text": "True, it's a long-term solution. And what about buying less plastic? I think shops should help us by offering alternatives. How about you?"
+      },
+      {
+        "speaker": "you",
+        "time": 20,
+        "suggested": "I think it's very important, because plastic ends up in the oceans and harms animals. If we all took our own bags and bottles, we would reduce a lot of waste."
+      },
+      {
+        "speaker": "partner",
+        "stage": "decision",
+        "text": "Right, so we need to decide which one is the most effective. Personally, I'm between recycling and public transport. Which one would you choose, and why?"
+      },
+      {
+        "speaker": "you",
+        "time": 25,
+        "suggested": "I would choose public transport, because it affects millions of people every day and it reduces both pollution and traffic. Recycling is useful, but its impact is smaller."
+      },
+      {
+        "speaker": "partner",
+        "text": "That makes sense. I think I agree with you. Thank you, it was a pleasure talking to you."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "examiner_prompt": "Now, I'd like you and your partner to talk about something together for about two minutes. Here are some ways of improving your English. Talk to each other about how useful each of these would be.",
+    "question": "How useful would each of these be for improving your English?",
+    "decision_prompt": "Now you have about a minute to decide which two you would recommend to a friend.",
+    "image": "",
+    "options": ["Watching series in English", "Using language apps", "Joining a conversation club", "Reading books", "Travelling abroad"],
+    "conversation": [
+      {
+        "speaker": "partner",
+        "text": "Let's begin with watching series in English. I think it's fun and you learn natural expressions, but it can be difficult to understand fast speakers. What's your opinion?"
+      },
+      {
+        "speaker": "you",
+        "time": 20,
+        "suggested": "I think it's very useful, especially with subtitles. You can improve your listening and learn new vocabulary while you enjoy yourself, which makes it easier to stay motivated."
+      },
+      {
+        "speaker": "partner",
+        "text": "Good idea about the subtitles. What about language apps? They're convenient, but do you think people really learn to speak with them?"
+      },
+      {
+        "speaker": "you",
+        "time": 20,
+        "suggested": "They're great for practising grammar and vocabulary every day, but they don't give you enough speaking practice. You need real people to improve your fluency."
+      },
+      {
+        "speaker": "partner",
+        "text": "Exactly. That's why a conversation club could be a good option. Do you think it would be useful for someone who is shy?"
+      },
+      {
+        "speaker": "you",
+        "time": 20,
+        "suggested": "It might be difficult at the beginning, but I think it's worth it. In a small group, people feel more comfortable, and they make mistakes without being afraid."
+      },
+      {
+        "speaker": "partner",
+        "stage": "decision",
+        "text": "So now we have to choose the two best ways to recommend to a friend. I'd pick the conversation club for sure. Which other one would you choose?"
+      },
+      {
+        "speaker": "you",
+        "time": 25,
+        "suggested": "I agree about the conversation club. As a second option, I'd choose watching series, because it's enjoyable and you can do it at home whenever you want."
+      },
+      {
+        "speaker": "partner",
+        "text": "Perfect, I think that's a great combination. Thank you, I enjoyed our discussion."
+      }
+    ]
+  }
+]

@@ -72,6 +72,8 @@ import SpeakingCayetano from "./components/Speaking/SpeakingCayetano.jsx";
 import CELPIPSpeaking2 from "./components/Speaking/CELPIPSpeaking2.jsx";
 import CELPIPSpeaking3 from "./components/Speaking/CELPIPSpeaking3.jsx";
 import CELPIPSpeaking4 from "./components/Speaking/CELPIPSpeaking4.jsx";
+import SpeakingPart3 from "./components/Speaking/SpeakingPart3.jsx";
+import SpeakingPart4 from "./components/Speaking/SpeakingPart4.jsx";
 import Quizbank01 from "./components/Aplicativos/Quizer/Quizbank01.jsx";
 import InicioIelts from "./components/Login/LoginIelts/InicioIelts.jsx";
 import UseOfEnglishSimulator from "./components/SimulatorB2/UseOfEnglishSimulator.jsx";
@@ -149,6 +151,8 @@ function App() {
           <Route path="/s-part1" element={<CELPIPSpeaking/>}></Route> 
             <Route path="/s-cayetano" element={<SpeakingCayetano/>}></Route>
           <Route path="/s-part2" element={<CELPIPSpeaking3 />}></Route>
+          <Route path="/s-part3" element={<SpeakingPart3 />}></Route>
+          <Route path="/s-part4" element={<SpeakingPart4 />}></Route>
 
                     <Route path="/task02" element={<CELPIPSpeaking2 />}></Route>
 
